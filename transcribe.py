@@ -1,7 +1,6 @@
 import os
 import urllib.request
 import xml.etree.ElementTree as ET
-import whisper
 import re
 from datetime import datetime
 
@@ -9,19 +8,16 @@ RSS_URL = "https://anchor.fm/s/f7cac464/podcast/rss"
 TRACKER_FILE = "last_episode.txt"
 TRANSCRIPT_DIR = "transcripts"
 
+
 def run():
-    # 1. Fetch RSS — parse raw bytes, exactly like the working Colab version.
-    #    ET handles declared XML namespaces fine when given bytes; never decode()
-    #    to a string first, as that can expose namespace prefixes before their
-    #    declarations are processed.
+    # 1. Fetch RSS
     print("Checking RSS feed...")
     with urllib.request.urlopen(RSS_URL) as response:
-        rss_content = response.read()   # raw bytes, no .decode()
+        rss_content = response.read()
 
     root = ET.fromstring(rss_content)
     channel = root.find("channel")
     items = channel.findall("item")
-
     latest = items[0]
     title = latest.find("title").text
     enclosure = latest.find("enclosure")
@@ -39,14 +35,14 @@ def run():
     with open(TRACKER_FILE, "r") as f:
         last_url = f.read().strip()
 
+    # ✅ Early exit BEFORE any heavy imports or downloads
     if last_url == mp3_url:
         print("No new episodes found. Skipping.")
         return
 
-    # 3. Download new episode
+    # 3. Download new episode (only reached if new episode exists)
     print(f"New episode found: {title}")
     print("Downloading MP3...")
-
     req_mp3 = urllib.request.Request(
         mp3_url,
         headers={"User-Agent": "Mozilla/5.0 (podcast transcriber)"}
@@ -54,16 +50,17 @@ def run():
     with urllib.request.urlopen(req_mp3) as response:
         with open("podcast.mp3", "wb") as f:
             f.write(response.read())
-
     print("Download complete.")
 
-    # 4. Transcribe with Whisper 'small' model on CPU
+    # 4. Lazy import + load Whisper only when transcription is actually needed
     print("Loading Whisper 'small' model (CPU)...")
+    import whisper  # noqa: PLC0415 — intentional lazy import
     model = whisper.load_model("small")
+
     print("Starting transcription (this may take 45-60 mins)...")
     result = model.transcribe("podcast.mp3", verbose=True)
 
-    # 5. Save transcript with date + safe title
+    # 5. Save transcript
     if not os.path.exists(TRANSCRIPT_DIR):
         os.makedirs(TRANSCRIPT_DIR)
 
@@ -85,6 +82,7 @@ def run():
     if os.path.exists("podcast.mp3"):
         os.remove("podcast.mp3")
         print("Cleaned up podcast.mp3")
+
 
 if __name__ == "__main__":
     run()
