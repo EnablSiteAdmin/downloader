@@ -5,9 +5,19 @@ import whisper
 import re
 from datetime import datetime
 
-RSS_URL = "https://anchor.fm/s/f7cac464/podcast/rss"  # ✅ Correcte RSS feed URL
+RSS_URL = "https://anchor.fm/s/f7cac464/podcast/rss"
 TRACKER_FILE = "last_episode.txt"
 TRANSCRIPT_DIR = "transcripts"
+
+def strip_namespaces(content):
+    """Remove all XML namespace declarations and prefixes."""
+    # Remove namespace declarations: xmlns:foo="..." and xmlns="..."
+    content = re.sub(r'\s+xmlns(?::\w+)?="[^"]*"', '', content)
+    # Remove namespace prefixes from tags: <itunes:foo> -> <foo>, </itunes:foo> -> </foo>
+    content = re.sub(r'<(/?)[\w]+:([\w]+)', r'<\1\2', content)
+    # Remove namespace prefixes from attributes: itunes:foo="bar" -> foo="bar"
+    content = re.sub(r'\b[\w]+:([\w]+)="', r'\1="', content)
+    return content
 
 def run():
     # 1. Fetch RSS and parse
