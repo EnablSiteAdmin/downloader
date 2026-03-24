@@ -1,11 +1,53 @@
 name: Hourly Podcast Transcribe
+
 on:
   schedule:
     - cron: '0 * * * *'
   workflow_dispatch:
 
 jobs:
-  build:
+
+  # ── Job 1: lightweight check (~5 seconds, no pip installs) ──────────────────
+  check:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    outputs:
+      new_episode: ${{ steps.rss.outputs.new_episode }}
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Check RSS for new episode
+        id: rss
+        run: |
+          python - <<'EOF'
+          import urllib.request, xml.etree.ElementTree as ET, os
+
+          RSS_URL = "https://anchor.fm/s/f7cac464/podcast/rss"
+          TRACKER_FILE = "last_episode.txt"
+
+          with urllib.request.urlopen(RSS_URL) as r:
+              root = ET.fromstring(r.read())
+
+          latest = root.find("channel").findall("item")[0]
+          mp3_url = latest.find("enclosure").attrib["url"]
+
+          last_url = open(TRACKER_FILE).read().strip() if os.path.exists(TRACKER_FILE) else ""
+
+          is_new = "true" if mp3_url != last_url else "false"
+          print(f"New episode: {is_new}")
+
+          # Write to GitHub Actions output
+          with open(os.environ["GITHUB_OUTPUT"], "a") as f:
+              f.write(f"new_episode={is_new}\n")
+          EOF
+
+  # ── Job 2: only runs when Job 1 signals a new episode ───────────────────────
+  transcribe:
+    needs: check
+    if: needs.check.outputs.new_episode == 'true'
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -14,13 +56,12 @@ jobs:
     steps:
       - name: Checkout Code
         uses: actions/checkout@v4
-      
+
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.10'
-          # De 'cache: pip' regel is hier volledig verwijderd om de fout te voorkomen
-          
+
       - name: Install dependencies
         run: |
           pip install openai-whisper setuptools-rust
@@ -34,7 +75,7 @@ jobs:
 
       - name: Run Script
         run: python transcribe.py
-        
+
       - name: Commit and Push Results
         run: |
           git config user.name "github-actions[bot]"
