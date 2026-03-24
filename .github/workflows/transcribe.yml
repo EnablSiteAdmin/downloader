@@ -1,0 +1,44 @@
+name: Hourly Podcast Transcribe
+on:
+  schedule:
+    - cron: '0 * * * *' # Runs every hour
+  workflow_dispatch: # Enables the "Run Workflow" button
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    timeout-minutes: 240 # 4 hour limit
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+      
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+          cache: 'pip'
+          
+      - name: Install dependencies
+        run: |
+          pip install openai-whisper setuptools-rust
+          sudo apt-get update && sudo apt-get install -y ffmpeg
+
+      - name: Cache Whisper Model
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/whisper
+          key: ${{ runner.os }}-whisper-small
+
+      - name: Run Script
+        run: python transcribe.py
+        
+      - name: Commit and Push Results
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add last_episode.txt transcripts/
+          git commit -m "Add transcript: $(date +'%Y-%m-%d')" || exit 0
+          git push
