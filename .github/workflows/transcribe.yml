@@ -2,8 +2,8 @@ name: Hourly Podcast Transcribe
 
 on:
   schedule:
-    - cron: '0 23 * * *'  # 23:00 UTC
-    - cron: '0 0-5 * * *' # 00:00 - 05:00 UTC
+    - cron: '0 22-23 * * *'
+    - cron: '0 0-4 * * *' # 00:00 - 05:00 UTC
   workflow_dispatch:
 
 jobs:
