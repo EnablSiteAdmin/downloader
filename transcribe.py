@@ -51,7 +51,7 @@ def run():
     # 4. Lazy import + load faster-whisper only when needed
     print("Loading Whisper 'small' model (CPU)...")
     from faster_whisper import WhisperModel  # noqa: PLC0415 — intentional lazy import
-    model = WhisperModel("small", device="cpu", compute_type="int8")
+    model = WhisperModel("small", device="cpu", compute_type="int8", cpu_threads=2)
 
     print("Starting transcription...")
     segments, info = model.transcribe("podcast.mp3")
