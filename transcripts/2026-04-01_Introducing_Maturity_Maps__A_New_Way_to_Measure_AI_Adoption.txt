@@ -1,0 +1,309 @@
+ Today I am discussing a new way to think about AI and agent readiness inside your company and it is
+ called maturity maps. The AI Daily Brief is a daily podcast and video about the most important news
+ and discussions in AI. All right friends quick announcements before we dive in. First of all
+ thank you to today's sponsors KPMG, Robots and Pencils and Blitzy. To get an ad free version
+ of the show go to patreon.com slash ai daily brief or you can subscribe directly on apple podcasts
+ to learn more about sponsoring the show or really find out anything else about the show like where we
+ are with our agent madness bracket which is going on right now head on over to ai daily brief dot ai
+ today is the second day in our build week which is happening while i'm traveling with my family
+ yesterday we did a very high level overview around everything that had happened last quarter and
+ what it meant for this quarter and if we put this in the framework of this being build week
+ yesterday was sort of the context setting the environment in which your building is happening
+ today's episode takes that down a level to discuss the benchmarks that show where others
+ like you are now one of the things that i've been thinking about a lot over the last six months or
+ so is just how much we need a totally different set of data and benchmarks for this new ai era
+ everyone is adapting incredibly quickly right now or at least they're trying to
+ it's new processes new workflows new tooling new everything and by and large we're doing all
+ that exploration without a map let me give you a practical example of where i think our lack of
+ benchmarks could actually very significantly and meaningfully negatively impact a company when
+ it comes to their ai adoption let's say that you are an early adopter company across your
+ different functions you've had really strong hands-on efforts to get your ai up and running
+ in the absence of knowing exactly what to measure you're just trying to measure whatever you
+ can and early results are pretty positive for example in the marketing function you have increased
+ your content output 30 percent year over year without any sort of proportional increase in the
+ resources it takes to produce that content now that 30 percent year over year growth sounds great
+ but what if i told you that all of your competitors had actually grown their content output by
+ 50 percent in ai world this is actually not a far-fetched scenario and it shows how the need
+ for better benchmarks and numbers is not just a vanity exercise when we don't know how we're
+ doing relative to peers and competitors it makes it really hard for us to judge what we need to
+ change what we need to shift and what we need to do next now at a idb and it's super intelligent
+ which is my enterprise ai planning and strategy company we started exploring some of this with
+ our ai roi benchmarking survey at the end of last year we had people submit and share their
+ real use cases and share with us the impact those use cases were having across an array of
+ eight different impact dimensions things like time savings cost savings new capabilities increased
+ output and a handful of others we asked them to rate impact from negative to transformational
+ and found that by and large at least when it comes to people self-reporting they were already
+ seeing strong and positive impact from their ai initiatives but there are a couple of clear and
+ obvious limitations with that study first of all while self-reporting is better than nothing
+ it's always going to be somewhat imprecise second like pretty much everything that we do
+ with this audience you have to calibrate it to a more advanced individual and organizational user
+ than if you just surveyed a broad cross-section of businesses in the world third while it did give us
+ some great information around individual use case impact it didn't tell us all that much about
+ other dimensions of ai readiness and adoption outside of just the use cases themselves
+ anyone who's felt the sting of the capability overhang in other words the gap between what ai
+ can do and what we're actually using it for knows that raw capability isn't really the question
+ it's the systems we put around it to get value from it and unfortunately the research and
+ information apparatus just has not adapted to this new reality not to pick on gardeners specifically
+ but they're the biggest in the space and so sort of present an easy target tried and true
+ benchmarks and information products like gardeners magic quadrant have literally never been less
+ useful than they are right now the idea that success in something like ai application development
+ was going to be even a little bit dictated by choosing the right ai application development
+ platform vendor is just so far outside of the reality of these tools as to be almost
+ actively harmful if that's where you're putting your time and effort when it comes
+ to trying to figure out how to adopt ai now garner is more than the magic quadrant
+ and they are doing lots to try to catch up to the ai world so it's not to single them out
+ it's more to make the point that we are in desperate need of some new frameworks some new
+ benchmarks and some new tools and so at both ai db and its super intelligent we've been thinking
+ about this a lot over the last call it three to four months we've experimented with a couple
+ things that you'll probably see some version of come out at some point in the near future
+ one of them i call ai opportunity radars which are basically a way of organizing use cases by
+ function but then also by applicability depending on where your organization is in its development
+ cycle simply put it's a radar or bullseye type of visual where use cases are organized into one of
+ three categories prime time means that most organizations as they are are well suited to get
+ value from that use case right now emerging means that while there are a lot of organizations that
+ can get value out of them there is some amount of setup cost or right set of circumstances or
+ infrastructure that is going to be needed to get value from that and not all organizations are
+ going to be there just yet finally frontier is exactly what it sounds like where if your
+ organization is well set up with the right infrastructure you can be getting a lot of value
+ from those use cases but at this point most organizations aren't there yet so over the
+ last quarter we built an agentic system that is basically constantly seeking out every new
+ resource it can get its hands on assessing what those resources tell us about the use cases in
+ different functions and keeping these radars continuously updated both with with new use
+ cases as well as changes in where the existing use cases are placed but as we were working on radars
+ it was clear again that there was something even more fundamental and that overly or only focusing
+ on use cases was leaving out so much of what actual AI readiness means when we're doing AI
+ readiness and planning assessments at super intelligent we're not just thinking about
+ what use cases a company should do but what's the full set of change management and
+ infrastructure development and new policy and investment in people and all this other
+ stuff needs to go around it to actually get value from those use cases and that led to the
+ development of the framework which i'm going to be sharing today which we call for simplicity AI
+ maturity maps now the concept of maturity is certainly not some proprietary thing that we
+ invented maturity is just a heuristic and a framework to look at where different organizations
+ are around some key areas relative to one another and where they should be
+ so the way that maturity maps work is that they organize AI and agent maturity
+ into six different categories those categories are first deployment depth
+ which is sort of an expanded notion of use cases deployment depth in the context of AI maturity
+ not only thinks about how many use cases you have in play but how much those use cases are
+ assistance versus full workflow automations versus actual applied agentic systems
+ that are doing work with some meaningful degree of autonomy the second category is systems
+ integration this is a measure of how deeply integrated the AI solutions and workflows that
+ you're deploying are integrated with the existing systems that run your enterprise is
+ everyone using chat gbt independently or does your crm system have an agent running through it
+ automatically extracting insights making recommendations and even setting up new outreach campaigns
+ systems integration is in some ways one part of the measure of how good the context
+ that an enterprise's AI has to work with now the other piece that relates to context is of
+ course data how much what quality and how well managed is your company's ai's access to your
+ company's data does it require people dropping in pdfs do you have company knowledge i'll set up on mcp
+ servers how does the ai that your company is looking to transform your company have access to the
+ information it needs to know what that transformation should look like outcomes is almost a measure
+ of measurement are all of your deployments pilots and experiments or do you have a track record of
+ actual demonstrable and measured outcomes outcomes in some ways of the information you need to know
+ what you should do next across all these other dimensions the fifth dimension of ai maturity
+ maps is people and this is an admittedly broad category a big part of this refers to upskilling
+ and capabilities but another piece has to do with attitudes given that one of the major
+ barriers to adoption in many companies is not just going to be skills using ai but attitudes
+ towards ai people isn't extremely important and unfortunately as we'll see often neglected piece of
+ the ai maturity pie lastly of course is governance how clear how established how communicable how
+ known are the rules and guidelines and access provisioning around your ai systems do people
+ know where to go to get the permissions they need do they know what expectations are
+ when issues come up are their mechanisms for resolving those issues so those are the six
+ areas across which we look at ai maturity now for the purposes of developing these maps
+ we've started with 10 functional maps split across some of the most common very broad brush
+ categories of knowledge work that includes customer service engineering it which by the
+ way the difference between those two for our purposes is effectively that engineering is all
+ the stuff that's external facing and it is all the technology stuff that's internal facing
+ sales marketing hr operations finance legal and product so at the end of last year we started
+ to put together a process for actually assessing and visualizing ai maturity across all these dimensions
+ what came out of that is the chart that you see here which plots each of these six categories
+ within a specific function on a five point scale number three the center of the chart is the
+ on track line in other words where an average organization should be and the word should
+ as you'll see is doing a lot of heavy lifting there now if on track is a three four is a head
+ and five is significantly ahead while two is behind and one is significantly behind is the
+ idea is that when you look at a maturity map without having to read a lot of words you can
+ instantly see the gaps between where organizations should be and where the average organization
+ actually is and when you compare your organization to it also see where you are relative to both
+ the general on track line and the average so clarifying this a little bit more a quarterly's
+ designation of on track is not where the average organization is it is a subjective measure
+ of where we think the average organization should be as you'll see when you dig into
+ this quarter's numbers in the vast majority of cases we believe that the average organization
+ is behind that on track line across pretty much all of these dimensions to use a term that
+ comes up a lot on this show the fact that organizations tend to be behind this on track
+ line is effectively a visualization of the capability overhang now at this point you
+ might be wondering well what gives you authority to determine what the on track line is
+ it's a totally reasonable question and believe it or not it is a little bit more at least than
+ just my opinion we have a few different places to pull from the first is the sort of proprietary
+ research and surveying that we do as part of a idb intel which gives us some pretty good
+ insight into where particularly leading organizations are second it's super intelligent
+ given that we are doing thousands and thousands of voice agent interviews every month to help
+ organizations assess their ai maturity and plan their ai strategy that's another pretty unique
+ source of frontline data and then combined with that we built a system to go out and
+ effectively aggregate pretty much every new survey or study that comes out that even vaguely touches
+ ai you might have heard me mentioned before that my most useful open clause are my research open
+ clause and this is one of the main things that they do they are in a never-ending 24-hour-a-day
+ constantly hunting loop to both surface new sources to assess those sources in terms of their
+ legitimacy credibility and bias and then to integrate that information into our larger
+ assessment system there are more than 480 studies and surveys from the last quarter that went into
+ these q2 maturity maps among the sources that have explicit sample sizes the combined survey
+ respondent base exceeds 150,000 professionals across more than 50 countries the types of source
+ categories that we have are one big four and top tier consulting firm research there's over 20 of
+ those sources in that mix major platform earnings and public market statements analyst firm predictions
+ in research from companies like gardener forester and idc function specific regular annual surveys
+ such as stack overflows engineering study or other similar things for areas like marketing legal
+ and it academic and government research behavioral data sources where companies that have access to
+ some unique user behavior data aggregate analyze and share that a good example of that is jellyfish's
+ ai coding benchmark which use behavioral data for more than 200,000 engineers across 700 companies
+ with 20 million prs finally there are of course practitioner reports and vendor case studies
+ although the system is careful to rate them with some amount of skepticism given that they
+ are of course selling something
+ all right folks quick pause here's the uncomfortable truth if your enterprise ai strategy is we bought
+ some tools you don't actually have a strategy kpmg took the harder route and became their own
+ client zero they embedded ai and agents across the enterprise how work it's done how teams
+ collaborate how decisions move not as a tech initiative but as a total operating model
+ and here's the real unlock that shift raised the ceiling on what people could do
+ human stayed firmly at the center while ai reduced friction serviced insight and accelerated momentum
+ the outcome was a more capable more empowered workforce if you want to understand what that
+ actually looks like in the real world go to www.kpmg.us slash ai that's www.kpmg.us slash ai
+ today's episode is brought to you by robots and pencils a company that is growing fast their work
+ is a high growth aws and data breaks partner means that they're looking for elite talent ready to
+ create real impact at velocity their teams are made up of ai native engineers strategists and
+ designers who love solving hard problems and pushing how ai shows up in real products they
+ move quickly using robo works their agentic acceleration platform so teams can deliver
+ meaningful outcomes in weeks not months they don't build big teams they build high impact
+ nimble ones the people there are wicked smart with patents published research and work that's
+ helped shaped entire categories they work in velocity pods and studios that stay focused and
+ move with intent if you're ready for career defining work with peers who challenge you
+ and have your back robots and pencils is the place explore open roles at robots and pencils
+ slash careers that's robots and pencils dot com slash careers you've tried in ide copilates
+ they're fast but they only see local silos of your code leverage these tools across a large
+ enterprise code base and they quickly become less effective the fundamental constraint context
+ blitzy solves this with infinite code context understanding your code base down to the
+ line level dependency across millions of lines of code while copilates help developers write
+ code faster blitzy orchestrates thousands of agents that reason across your full code base
+ allow blitzy to do the heavy lifting delivering over 80 percent of every sprint autonomously
+ with rigorously validated code blitzy provides a granular list of the remaining work for humans
+ to complete with their copilates tackle feature additions large-scale refactors legacy modernization
+ greenfield initiatives all five x faster see the blitzy difference at blitzy dot com that's blitzy
+ dot com so in q2 what are some of the patterns that we saw the first you might call the
+ adoption embedding gap basically every single function specific survey reports the same pattern
+ high claimed adoption but at fairly low depth in utilization this is maybe the most dominant
+ finding across all these sources that the story of q2 when it comes to enterprise ai adoption
+ is not just the capability overhang in general but the applied capability overhang even when it
+ comes to adoption inside an individual organization a second very common finding across a huge array
+ of these sources there tends to be a fairly big gap between worker level data and leader level data
+ for example one study found that in the area of customer service 72 percent of leaders said that
+ their ai training was adequate with 55 percent of their employees disagreeing in hr a huge
+ percentage of leaders report that ai is a priority but more than two-thirds of hr staff say that
+ their organizations are not proactive in upskilling in fact one can argue that people are the
+ bottleneck that is not getting nearly enough investment we gave seven of the 10 functions
+ a score of one significantly behind when it came to that people category the irony is that one
+ could argue that the single largest barrier to converting ai adoption into ai value is on the
+ human side and it's the thing organizations are spending the least on to use one dramatic
+ example deloitte found 93 percent of ai spend going to infrastructure with only seven percent
+ going to anything related to people now outside of people another finding across all of these sources
+ is that data is kind of the ceiling on everything else eight of the 10 functions score a one or a
+ 1.5 on data now i don't need to beat this drum anymore for this audience but obviously without
+ proprietary context feeding ai things like your code base your customer history your deal data
+ you really are not going to get past basic assisted usage no matter how good the assistant
+ tools get one could argue that data is not one pillar among six but the floor constraint
+ that caps all the others another area with universal challenge is around outcome measurement
+ and this is not surprising given how much pressure there has been to adopt ai as fast as possible
+ one of the consequences of that is that no one slowed down pause their adoption while
+ they went out and figured out how to actually measure the ROI of all those investments
+ can you imagine right now someone in the c-suite suggesting with a straight face
+ that you take six months off of adoption to figure out better ways to measure the ROI first
+ to ensure that you weren't spending too much that my friends is a recipe for an early retirement
+ the byproduct of that however is that the actual evidence for a ROI is pretty thin
+ now i will say that if i had to make a prediction about one area where you're
+ going to see the biggest glow-up this year i think there are tons and tons of efforts
+ around ROI measurement and i would expect that to jump significantly in the quarters to come
+ across all of these functions the vast majority do not have any scores
+ that are actually on track customer service we rated on track in terms of deployment depth
+ and systems it makes sense given how much focus there has been on customer service related solutions
+ vertical and otherwise engineering as well we have as on track for deployment depth systems
+ and people again given that software engineering organizations are effectively the harbingers
+ and guinea pigs for everything else that's going to happen to all the other knowledge
+ workers i think that this will be intuitive and then relatedly in it we also have deployment
+ depth systems and people as on track now of course all of these areas share structural advantages
+ mature tooling technical practitioners and measurable workflows unfortunately though even
+ if it is the case that there are bigger challenges in some ways when it comes to the
+ technical capabilities of practitioners and the measurability of what you do those other
+ areas of the enterprise are going to have to catch up now a few observations looking
+ across the different functions while customer service did have a couple areas that we rated
+ as on track it also i think reveals something that could be a harbinger for other areas remember
+ when it came to cs we heard 72 percent of leaders say that training is adequate but 55 percent of
+ people actually working in cs say it's not 87 percent of customer service workers report high
+ stress and 75 percent of leaders acknowledge that ai may be increasing stress so you've got a situation
+ where ai is absorbing routine cases humans get the harder more emotional ones many people
+ might not be trained for that shift and that plus the fact of just increased questions about the
+ long-term sustainability of your job the result is stress anxiety and burnout basically cs could be
+ the canary in the coal mine for what happens when you deploy ai without investing simultaneously in
+ the humans who work alongside it one of the areas that i think is interesting to point out is the
+ two rating or behind when it comes to governance in most organizations it owns ai governance for
+ a big part of if not the entire organization and yet only 54 percent have centralized frameworks
+ 50 percent of ai agents are unmonitored 88 percent have had security incidents and the question becomes
+ if the governance function is behind ungovernance what does that tell us about the rest of the
+ organization one of the most interesting findings when it comes to sales is that it might be the
+ cleanest example of the adoption mirage 88 percent of sales teams say they use ai but only 24 percent
+ have it in their actual revenue workflows a fair bit of adoption then in other words this is why
+ we rate them behind in deployment depth much of the quote unquote adoption is reps using chat gbt
+ in a separate browser tab for email drafts and call prep which is not a bad thing at all it's
+ just not the level of automation and autonomy that i think sales organizations are hoping for
+ the autonomous str dream has not fully come to fruition yet and i don't think that most
+ sales organizations have figured out the right integration and balance between humans and
+ agents in the new sales working system the deployment depth score on operations i think
+ is another really interesting one in some ways operations has had automatable functions longer
+ than any other function in the enterprise thinks statistical forecasting rules-based inventory
+ management predictive maintenance that's all stuff that predates this latest wave of gen ai by a
+ decade what that means is that when 90 percent of operations teams say they're investing in ai
+ it sounds impressive when you actually look at what that is a lot of it is legacy optimization
+ infrastructure that's been running since i don't know 2015 the gen ai layer on top is often very thin
+ mostly asking ai questions about operational data and generating reports in fact one study found that
+ only 23 percent of operations groups even have a formal ai strategy operations is the function
+ where the distinction between old automation and new ai maturity is showing up as a real distinct
+ challenge lastly one more interesting stat outside of the technical areas of engineering and it and
+ the long duration area of customer service which has had so much emphasis on automation
+ finance is the only other function to hit on track on any pillar and it does so on governance
+ now why do you think this might be it's because of course finance is operating
+ in an area where governance is not optional 69 of cfo's report advanced or established
+ ai risk governance frameworks why socks compliance audit trails fiduciary duty decades of regulatory
+ muscle memory basically finance already knew how to govern risky tools even before ai existed
+ now don't look at the rest of finance where we rated it significantly behind in every other
+ category basically they know how to control ai but haven't figured out how to use it
+ what's interesting will be whether over the next few quarters we see this turn into a tortoise
+ and a hare thing in other words when finance does figure out how to deploy will they do it
+ more safely and more effectively than functions that deployed first and governed later and
+ will that actually allow them to catapult at some point and jump out ahead of other functions
+ who at the moment feel like they are farther when it comes to deployment depth
+ so this is the idea of maturity maps they are of course very nascent this is the first
+ quarter where we've actually fully trotted them out and in the spirit of getting feedback
+ and seeing how useful these things can be we're putting up the ability on the super
+ intelligent website be super dot ai to actually go not only review all of these maturity maps
+ but do a short quiz that actually shows you where your organization is relative to both the
+ on track line and what we think is the average and I do want to emphasize that this is not an
+ assessment this is not an audit this is a quiz it is an online quiz that's 18 questions that is
+ going to give you a very general idea of where you stand we of course have ways to go deeper with
+ your organization and get much better data to actually inform these things but we want as many
+ people as possible to have access to this to actually help us figure out where these lines
+ should be and how we should evolve the entire system obviously I'll have links to all of
+ this in the show notes but again it's going to be at be super dot ai slash quiz in terms of where
+ we want to take this next in addition to just continuously having better and more sources of
+ data probably the most glaring thing that stands out to me is that we're trying to argue for one
+ on track line and one average line across all different organization types in other words
+ is it really even remotely reasonable to judge a 10 person startup by the same on track lines as
+ a 10,000 person enterprise I obviously believe that there's enough value that it's worth putting it
+ out while acknowledging that where I'd like to go next with this is vastly more gradations
+ in both the on track and the average lines organized by things like organization size
+ industry is another obvious area where you might see some fairly significant differences
+ and while I think it is the right call to start with some very broad brush high level
+ functions obviously most organizations are a lot more nuanced than just having these 10 clear
+ departments still ultimately it is my argument that right now we are in a moment where we need
+ all the data that we can get and the more we can all pile in on top of each other
+ and actually share that information create new benchmarks and help each other know
+ what on track is and then how to get there the better off we're all going to be
+ so that is maturity maps I'm excited to share them with you I'm excited to see what you
+ think again you can go to be super dot ai slash quiz which of course will be on all my
+ websites and on the show notes and check this out for yourself for the sake of precision for
+ every one of these ratings we have at least a little bit of our argument about what it means
+ to be behind significantly behind on track ahead or significantly ahead anyways friends that is
+ going to do it for day two of build week appreciate you listening or watching as always
+ and until next time peace
