@@ -8,13 +8,11 @@ RSS_URL = "https://anchor.fm/s/f7cac464/podcast/rss"
 TRACKER_FILE = "last_episode.txt"
 TRANSCRIPT_DIR = "transcripts"
 
-
 def run():
     # 1. Fetch RSS
     print("Checking RSS feed...")
     with urllib.request.urlopen(RSS_URL) as response:
         rss_content = response.read()
-
     root = ET.fromstring(rss_content)
     channel = root.find("channel")
     items = channel.findall("item")
@@ -22,7 +20,6 @@ def run():
     title = latest.find("title").text
     enclosure = latest.find("enclosure")
     mp3_url = enclosure.attrib["url"]
-
     print(f"Title: {title}")
     print(f"MP3 URL: {mp3_url}")
 
@@ -31,7 +28,6 @@ def run():
         print(f"Initial run: Creating {TRACKER_FILE}")
         with open(TRACKER_FILE, "w") as f:
             f.write("")
-
     with open(TRACKER_FILE, "r") as f:
         last_url = f.read().strip()
 
@@ -40,7 +36,7 @@ def run():
         print("No new episodes found. Skipping.")
         return
 
-    # 3. Download new episode (only reached if new episode exists)
+    # 3. Download new episode
     print(f"New episode found: {title}")
     print("Downloading MP3...")
     req_mp3 = urllib.request.Request(
@@ -52,37 +48,35 @@ def run():
             f.write(response.read())
     print("Download complete.")
 
-    # 4. Lazy import + load Whisper only when transcription is actually needed
+    # 4. Lazy import + load faster-whisper only when needed
     print("Loading Whisper 'small' model (CPU)...")
-    import whisper  # noqa: PLC0415 — intentional lazy import
-    model = whisper.load_model("small")
+    from faster_whisper import WhisperModel  # noqa: PLC0415 — intentional lazy import
+    model = WhisperModel("small", device="cpu", compute_type="int8")
 
-    print("Starting transcription (this may take 45-60 mins)...")
-    result = model.transcribe("podcast.mp3", verbose=True)
+    print("Starting transcription...")
+    segments, info = model.transcribe("podcast.mp3")
 
     # 5. Save transcript
     if not os.path.exists(TRANSCRIPT_DIR):
         os.makedirs(TRANSCRIPT_DIR)
-
     today = datetime.now().strftime("%Y-%m-%d")
     safe_title = re.sub(r'[^\w\s-]', '', title).strip().replace(' ', '_')
     file_name = f"{today}_{safe_title}.txt"
     file_path = os.path.join(TRANSCRIPT_DIR, file_name)
 
     with open(file_path, "w", encoding="utf-8") as f:
-        f.write(result["text"])
+        for segment in segments:
+            f.write(segment.text + "\n")
 
     # 6. Update tracker
     with open(TRACKER_FILE, "w") as f:
         f.write(mp3_url)
-
     print(f"Success! Transcript saved to {file_path}")
 
     # 7. Cleanup
     if os.path.exists("podcast.mp3"):
         os.remove("podcast.mp3")
         print("Cleaned up podcast.mp3")
-
 
 if __name__ == "__main__":
     run()
