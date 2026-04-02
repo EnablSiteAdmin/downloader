@@ -1,0 +1,751 @@
+ Today on the AI Daily Brief, an Agent Skills Masterclass.
+ The AI Daily Brief is a daily podcast and video about the most important news and discussions
+ in AI.
+ All right friends, quick announcements before we dive in.
+ First of all, thank you to today's sponsors, recall.ai, robots and pencils, Blitzy and
+ Super Intelligent. To get an ad-free version of the show, go to patreon.com.ai-daily-brief.
+ And if you are interested in sponsoring the show, send us a note at sponsors.ai-daily-brief.ai.
+ Now one other note, today's episode of course features the one and only New Fargass Bar
+ walking us through a Masterclass in Agent Skills.
+ For anyone who listened to my Agent Skills Primer, it's a really good part too for that
+ that gets much more practical with a whole framework for how to use skills and how
+ to use them well.
+ Now you can get all of this companion data, including things like the anatomy of an effective
+ skill over on play.ai-daily-brief.ai.
+ That's where we keep the companion experiences for this show.
+ And if after that you want even more New Fargass Bar, we have just opened up the
+ second cohort for Enterprise Claw which is an agent and agent team building program.
+ I'll have links to all of that in the show notes.
+ For now though, let's dive in and up your skills with skills.
+ All right, New Fargass Bar, welcome back to the show.
+ We're talking skills.
+ How you doing?
+ I'm good.
+ Happy to be here.
+ Yeah.
+ We are, man, it is since the last time you were on, the things that matter in terms
+ of teaching, being up to speed, getting up to speed with AI are, you know, some of
+ them are obviously that there's fundamentals of teams and, you know, expectations and
+ things like that that remain.
+ But God, the last time we were here, the stuff we were talking about feels like
+ ancient compared to where we are now.
+ The human element is the same, the technology is completely different.
+ So what we're talking about today is I did a couple of weeks ago on the show kind
+ of an introduction and a primer to agent skills.
+ It's a standard, a sort of primitive for the agent era that helps agents figure
+ out how to do things that you need them to do in very simple terms.
+ But obviously there's a lot more complexity in how you use them and how
+ you use them well.
+ And that's what we're going to be talking about today.
+ So tell us a little bit about what we're going to go through and then let's dive in.
+ OK, so obviously you did a very good job in your skill episode.
+ You talked about what they are, the entropy categories, the various
+ things that are currently like a landscape overview.
+ But today I want to go much deeper and make it more of an operator cut
+ because I want to give people the actual playbook on how to build
+ skills that work, what mistakes kill them and what organizational
+ opportunity really looks like.
+ So we made it fun, like we always try to do, and we structured it in a five level journey.
+ So by the end, hopefully you will go from understanding what skills are to
+ knowing how to build an organizational skill library.
+ And everything is accessible to you guys on the play at AI Daily Brief,
+ which we will demo in a minute.
+ OK, so we have five levels from apprentice to architect.
+ So to make sure that we are all on the same page and give a reminder
+ of what skills are at the core, skills are just folders,
+ not just markdown files, folders that contain instructions, scripts
+ and resources that give AI tools and agents the actionable playbooks
+ to execute various tasks.
+ But here there's something that many people are kind of missing
+ and that is that skills are not just for agents to read.
+ They work in two modes.
+ An agent can discover the skills that you're enabled in the environment
+ and it can do so automatically and invoke them on its own.
+ Or us humans can trigger them manually either by using the slash commands
+ and most tools or we can just provide verbal cues
+ and the tools will know to pick up the skills that we intend them to use.
+ So for example, you may say research this topic
+ and it fires a very specific research skill that you built
+ that is very specific to what you like in terms of doing the research.
+ So that's something that we'll also show in a minute.
+ And the very good thing about skills is that they are highly portable.
+ You know, most of us have built many custom GPTs or gems over the last few years.
+ The problem with them is that they were locked inside the chat GPT
+ or the Gemini Enterprise forever.
+ Skilled basically solved it.
+ They are folders that you can just take with you between tools.
+ They are human-readables so there is no proprietary format
+ and anyone in your team can open a skill file, read it,
+ understand it, edit it and you don't need any engineering degree
+ and you can just take it between tools.
+ Why are we saying that skills is not only the present
+ but also the future of AI and agent tools?
+ Because we're already seeing that all major companies are supporting skills.
+ Currently we counted about 44 tools
+ and counting every day yet another tool introduces that they support tools.
+ Recently Notion said so and many other tools already announced that.
+ We, of course, include in the tools that support skills
+ the open cloud, the cloud, the cursor, Windsurf, GitHub
+ and many, many other tools, they're all supporting that
+ but not just coding tools.
+ And then we have people that have been basically using
+ and building skills effectively for a while
+ and they will tell you that this is probably the complete game changer
+ to how AI and agents work for you
+ and also it's quite addictive.
+ Like once you start realizing the power of skills
+ odds are that you will create more and more and more.
+ And I do want to flag out one thing very explicitly here
+ is that third-party skills, one that you acquired from somewhere
+ in the internet, whether it's an open-claw marketplace
+ or other places, they are code.
+ And as such, they can run with a lot of your agent permissions
+ and if you download that, it can execute scripts
+ and sometimes it can be a malicious script.
+ So be very, very careful whenever you're getting a skill
+ that you have not verified the source.
+ Read it very carefully and treat it
+ like installing any software package on your machine
+ and especially if it's a work machine,
+ be very careful and pay attention
+ so you will not bring any malicious software
+ back into your organization.
+ All right, so that's the basic.
+ Let's talk about when to build skills.
+ So the question is, when should you build skills?
+ And I wanted to start with three obvious signals.
+ Either when you do something more than three times,
+ that's to me is a good indication
+ that now is a good time to build a skill
+ or you keep basically pasting the same instructions
+ and getting very frustrated with your tool
+ and that's another good one
+ and also when you need a consistent output.
+ But the two additional things that you want to consider,
+ first of all, this is a great opportunity
+ to standardize things across either the way you do the work
+ or others do the work with you.
+ It's a great opportunity for you to think of all the things
+ that you ever wanted to be more consistent of
+ or get more consistent behavior by others
+ and just build a skill to get others to behave the same way.
+ And lastly, and that's something that often also NLW talks about,
+ skills are not just a way for you to be more productive.
+ It's also a way for you to unlock opportunities
+ of things that you always wanted to do
+ and just didn't have the bandwidth or the ability to do so.
+ So think outside the box of what are some of the research tasks
+ that you never had the opportunity to do
+ or what are some of the work and the business challenges
+ that you could never ever solve
+ because you didn't have the know-how and the bandwidth.
+ Okay, I want to talk about two other things.
+ One is that skills cannot be 10 different things.
+ So one skill per task, if you find yourself getting to a point
+ where it's completely separate jobs,
+ separate them to different skills.
+ And lastly, when it comes to the question
+ of reuse versus creating a skill,
+ I know that there are many marketplaces out there
+ and especially in the open-claw ecosystem,
+ we know that there are an abundance of them,
+ similarly with the entropic skills repo.
+ However, it's very hard to navigate
+ some of these skill marketplaces and find the exact fit.
+ And often you will find yourself wasting so much more time
+ just trying to read what others created
+ versus creating your own.
+ So especially if you wanna hone your ability
+ to create skills, I will actually recommend
+ that you sit down, build a skill for yourself,
+ leverage some of the best practices
+ that we're showing here,
+ and at least you will learn how to do it.
+ Well, later on you can of course go and search
+ what others are building
+ because some of the skills that people are building
+ are amazing, but I would advise to lean on
+ more heavily towards building at this day and age.
+ One note on that front, I agree entirely.
+ I also think that by virtue of them being sort of marked,
+ you know, just marked down files,
+ you can also treat even skills that you download
+ as templates, not things that you have to copy wholesale.
+ So in the next show that I do this week,
+ it's gonna be a personal context portfolio
+ and I'm sharing a GitHub repo that has basically templates
+ for 10 files about yourself.
+ And it's sort of, it's not meant to,
+ it's not something you would copy, it's about yourself.
+ So you have to use it like a template,
+ but I think there's a lot of resources out like that.
+ And so I think it sort of puts a fine point
+ on the idea of wanting to have the skills to build
+ because it actually unlocks using all of these things
+ that are out there in different ways
+ that aren't just sort of blindly copying it
+ into your projects and hoping it works.
+ Yeah.
+ And by the way versus custom GPTs that were black boxes
+ if you were to use others,
+ now you get the full visibility
+ into how this skill is instructed.
+ So if you don't like some of it, just change it.
+ I just wanted to note that Claude created
+ an amazing and topic rather,
+ created an amazing skill creator that they recently released.
+ And I definitely encourage you to go and use it
+ because it's generally impressive.
+ It interviews you to extract your expertise.
+ It runs evals.
+ It does a testing and benchmarking.
+ So if you are a Claude user,
+ you can definitely leverage their skill creator tool
+ to do it even better.
+ But in case you're doing it on your own
+ or you just want to understand
+ what is the anatomy of a very effective skill,
+ we created a list for you.
+ So every skill should have some of these elements
+ and I want to emphasize a few of them.
+ The most important part is the beginning
+ and that is the trigger.
+ The trigger is how you instruct the tool
+ on when to discover and when to basically fire this skill.
+ And it's probably the most important line
+ because if your trigger is not very precise or very meek,
+ then your skill will just not be used
+ and selected by the agent.
+ So I would advise actually that you make it louder
+ rather than quieter
+ because the models will sometimes keep
+ past more subdued descriptions.
+ So trigger words, exact descriptions
+ about when do you expect to be used
+ and be more explicit than implicit here.
+ That will go a long way.
+ And then we have the body
+ and what most people go wrong with the body
+ that they write prose and skills are like playbooks.
+ So favored and numbered steps or bulleted lists.
+ Claude and all of the AI tools,
+ they really like structured instructions dramatically
+ because that will also turn to be their action plan
+ if it's very, very concrete.
+ So try to make it as literal as possible.
+ That's how the tools like to follow the instructions.
+ However, I want you to also set the right level of freedom.
+ So if a task is very fragile,
+ like a database migration, coding,
+ acquiring something that has to be very precise,
+ be very prescriptive with a step by step.
+ But if it's more of a creative task,
+ like writing a strategy doc
+ or something that is more open to interpretation,
+ give the guidance,
+ but do leave some room for the tool to be creative
+ because if you over railroading the model,
+ you will not get as good results.
+ We also encourage you to make sure
+ to include an output format.
+ And here it's even better
+ if you just include an output example.
+ So show the model, don't just describe.
+ If you want a template, include it.
+ If the output is a table, show a table and headers.
+ If it's a document, show the section structure.
+ So that's very useful for you
+ to get exactly what you want out of it.
+ And another section that Anthropica recommended very strongly
+ is the Gotcha section.
+ This is probably the highest signal content in any skill
+ because it's the area where it gets the model
+ to go out of its own patterns
+ because you're looking to put here things
+ that where the model will typically go wrong
+ or what assumption it might make that it shouldn't.
+ And you need to say something like,
+ I know you wanna do X, but don't.
+ Here's why and every failure that I've seen
+ is probably something that you should document here
+ after you stress test your skill.
+ A few things not to include
+ are some of the classical prompting skills
+ like don't include the persona and stuff like that.
+ That's not useful.
+ The tools are looking to get playbooks.
+ A few skill killers that you should avoid.
+ First of all, it's the trigger.
+ If the trigger is not well set,
+ the skill will never be picked for usage.
+ Second, over-defining the process.
+ Like we said, don't railroad the model.
+ Also, don't state the obvious.
+ Don't waste tokens on things
+ that the model already knows.
+ And we strongly recommend that you don't skip
+ the Gotcha section because this is often
+ when your skill will go off
+ or will create suboptimal results.
+ And lastly, don't do like a monolithic blob.
+ Everything crammed into one file
+ instead of using more of a folder structure.
+ So speaking of folder structure,
+ the recommendation is to keep skill under 500 lines
+ because it's a playbook,
+ not the intercopadia of everything that you do for work.
+ If you have reference materials or context
+ that are very important for the skill,
+ move them outside of the skill file
+ into a separate set of files within the skill folder
+ when it's relevant.
+ If you also have very long input and output examples
+ and you should include input and output examples,
+ you can also put them in a separate examples.md files
+ inside the skill repo or the skill folder
+ that will help you a lot.
+ And that's probably the most effective way
+ to communicate the desired format.
+ In terms of the discussion of whether or not
+ I should append a bunch of files
+ into my actual skill folder
+ that will be bundled with the skill
+ wherever the skill goes
+ versus perhaps just pointing the skill
+ to my other files and other systems.
+ The deciding factor should be
+ if this is something that is context specifically
+ for this skill that should always come with the skill
+ whenever I'm offloading the skill to someone else,
+ then put it within the skill folder.
+ Otherwise, when it's stuff that are more general
+ about you or about your company,
+ that can be pointed to an external source.
+ Why is there always a meeting bot in your Zoom call?
+ Blame recall.ai.
+ Recall.ai powers the meeting bots
+ and desktop recording apps behind products
+ like Cluly, HubSpot, and ClickUp.
+ They handle the hard infrastructure work
+ capturing clean recordings, transcripts,
+ and metadata across Zoom, Google Meet,
+ Microsoft Teams, in-person meetings, and more
+ so developers don't have to build it themselves.
+ If you're building a meeting notetaker
+ or anything involving conversational data,
+ recall.ai is the API for meeting recording.
+ Get started today with $100 in free credits
+ at recall.ai slash a-i-d-b.
+ That's recall.ai slash a-i-d-b.
+ Today's episode is brought to you by Robots and Pencils,
+ a company that is growing fast.
+ Their work as a high-growth AWS and Databricks partner
+ means that they're looking for elite talent
+ ready to create real impact at velocity.
+ Their teams are made up of AI native engineers,
+ strategists, and designers who love solving hard problems
+ and pushing how AI shows up in real products.
+ They move quickly using RoboWorks,
+ their agent acceleration platform,
+ so teams can deliver meaningful outcomes in weeks, not months.
+ They don't build big teams.
+ They build high-impact nimble ones.
+ The people there are wicked smart with patents,
+ published research,
+ and work that's helped shaped entire categories.
+ They work in velocity pods and studios
+ that stay focused and move with intent.
+ If you're ready for career-defining work
+ with peers who challenge you and have your back,
+ Robots and Pencils is the place.
+ Explore open roles at robotsandpencils.com slash careers,
+ that's robotsandpencils.com slash careers.
+ Want to accelerate enterprise software development velocity
+ by 5x?
+ You need Blitzy,
+ the only autonomous software development platform
+ built for enterprise code bases.
+ Your engineers define the project,
+ a new feature, refactor, or greenfield build.
+ Blitzy agents first ingest and map your entire code base,
+ then the platform generates a bespoke agent action plan
+ for your team to review and approve.
+ Once approved,
+ Blitzy gets to work autonomously generating hundreds
+ of thousands of lines of validated end-to-end tested code.
+ More than 80% of the work completed in a single run.
+ Blitzy is not generating code,
+ it's developing software at the speed of compute.
+ Your engineers review, refine, and ship.
+ This is how Fortune 500 companies
+ are compressing multi-month projects into a single sprint,
+ accelerating engineering velocity by 5x.
+ Experience Blitzy firsthand at blitzy.com,
+ that's blitzy.com.
+ It is a truth universally acknowledged
+ that if your enterprise AI strategy
+ is trying to buy the right AI tools,
+ you don't have an enterprise AI strategy.
+ Turns out that AI adoption is complex.
+ It involves not only use cases,
+ but systems integration, data foundations,
+ outcome tracking, people and skills, and governance.
+ My company, Super Intelligent,
+ provides voice agent-driven assessments
+ that map your organizational maturity
+ against industry benchmarks against all of these dimensions.
+ If you want to find out more about how that works,
+ go to besuper.ai.
+ And when you fill out the get started form,
+ mention maturity maps.
+ Again, that's besuper.ai.
+ Let's show you a concrete skill
+ that is slightly more advanced,
+ and that is a meeting prep skill.
+ Obviously, all of us, no matter what we do,
+ we have to get ready for meetings.
+ So I wanted to showcase an interesting skill here.
+ First of all, description, when to use,
+ when users say prep for the meeting,
+ meeting prep, and so on.
+ So it's offering quite a few options,
+ so the skill will be picked up
+ in almost all scenarios.
+ In terms of context required,
+ so as part of the skill folder,
+ I bundle stakeholder context.
+ So either it's going to be transient,
+ or if you have regular stakeholders that you work with,
+ that can be fixed context file that comes with the skill.
+ It should get some email history for recency,
+ so that can, of course, be pulled directly
+ from the user systems calendar
+ and other open action items involving the attendees.
+ In terms of the steps,
+ identify all the attendees from the calendar
+ or the other inputs,
+ collect the context, analyze the agenda,
+ run scenario analysis,
+ so part of what this skill does is kind of preparing you
+ for what can go wrong with your meeting
+ and generate a brief.
+ And the output will be a structure
+ that is defined in an attached file
+ because it's a very long and specific output.
+ And in broad strokes,
+ the structure will be executive summary and so on.
+ A few got you that can happen
+ when you're getting ready for a meeting with such a skill,
+ sometimes the I assumes attendee seniority just from title
+ and if someone is a VP, they assume
+ that they're the most important person in the room
+ and attributes are necessary.
+ Wait for them.
+ Don't fabricate company details.
+ Don't prepare generic talking points.
+ Don't skip the what could go wrong analysis and so on.
+ These are things that happened
+ when triggering the skills without it.
+ So that's why they're here.
+ And the way this overall folder is structured,
+ we have this file.
+ We also have, like I said, the stakeholder context
+ is an external pointer to be shared across relevant skills.
+ The brief format scenarios, examples,
+ and also there is a nested skill.
+ And in this nested skill,
+ there is a sub-skill of how to simulate
+ the actual happening of the meeting.
+ And that's a very also very cool skill
+ that will basically come with the six to seven
+ different scenarios of what could could go wrong.
+ We'll see like if someone is joining your meeting
+ and has an agenda, how will you address them?
+ Someone is asking you difficult questions
+ so it will literally help you get ready
+ for difficult questions.
+ If you use it for a sales call,
+ it can come up with difficult questions
+ around the sales and so on.
+ So that's an example of how you would build a skill
+ that also has context and perhaps refers to another skill.
+ Moving on.
+ So obviously there are many, many skills that people have
+ but I wanted to include here four ideas of skills
+ that might be useful for anyone who is a knowledge worker
+ which is most of the audience here.
+ So first of all, as part of the material that we provide you,
+ we included an example of research with confidence.
+ That's skill that not only does research
+ that is very precise to what you care about.
+ Time horizon, specific sources,
+ but also it has a built-in fact checking methodology
+ where it will compare sources
+ and do a deeper dive into specific things that seems off,
+ as well as giving you confidence scoring
+ about how secure it is with the findings
+ so you can decide how deep to go in.
+ So that's one skill that I think every person
+ who does any type of research,
+ which is all of us should build or reuse.
+ Another one that I really like is Devils Advocate.
+ This is basically a skill where we say
+ take any proposal and systematically stress test it.
+ What makes the version that we included
+ a little bit more special
+ is that it explicitly looks for blind spots and biases
+ both on your side and on the AI side
+ because we know that the models have many of their biases
+ so it explicitly tries to avoid those.
+ And it always ends up with something
+ that is more constructive.
+ So it's not just kind of finding holes
+ with anything that you wanna do,
+ but also helps you to be back
+ to something that is actually actionable.
+ And another skill that we created is a morning briefing.
+ That's another classical one.
+ It pulls together your priorities,
+ calendar, pending item, relevant news,
+ and the thing that makes it more powerful
+ is that it binds your personal context files with the skills,
+ including the goals, the current project, and stakeholders.
+ And as part of the materials
+ that we provide with this episode,
+ we also included a prompt
+ that lets you create one for yourself
+ that will interview you and make sure
+ that you will be able to create your own morning briefing.
+ And another one that I strongly recommend that you will build
+ is a board of advisor skills.
+ So either one or several of those
+ basically will simulate perspectives
+ coming from multiple expert archetypes.
+ So it won't be just like think like a CFO,
+ but rather you can think of all the different perspective
+ that will help you make decisions.
+ So if you are a startup founder,
+ then perhaps your board of advisors
+ will have someone coming more from a VC background,
+ someone from more of an entrepreneurial background,
+ your imaginary advisor, and various other perspectives,
+ and you basically create a skill that gets them all
+ to advise and assist you
+ by providing various perspectives
+ on any decision that you would like to make.
+ A few more advanced patterns
+ that for people who are already building skills for a while
+ and want to take it one step further.
+ First of all, having a dispatcher skill,
+ which is a meta skill that reads all of your requests
+ and routes them to the relevant skills.
+ It's like a traffic controller basically.
+ And it's very important where in your library of skills
+ go past 10 or 15 active skills that you regularly use.
+ Often I would advise that you will create this dispatcher
+ instead of hoping that the agent will read
+ through all the available skills and pick up the right one.
+ And this is especially important when you have nuanced
+ similar skills that you want to be picked up
+ in completely different scenarios.
+ Another thing that you can do is you can chain skills
+ one after the other either automatically
+ by having a skill that basically calls one skill
+ after the other or manually,
+ you will take the output of one skill
+ and it becomes the input to another skill.
+ So in the examples that we've shown before,
+ maybe you start with research with confidence
+ and then the output,
+ you take it to the devil's advocate to poke holes
+ in the research and then you take it to another skill
+ that does an executive summary and deck preparation for you.
+ The only thing here is that skills need
+ the clean input and output.
+ So that's an important thing in order to change them well.
+ Obviously recently we've been seeing more and more
+ the emergence of loops,
+ agentic loops and other loop patterns.
+ So you can also create skills that create stuff like that
+ that they will iterate, check, act, check again
+ and then iterate.
+ And it's becoming very interesting also
+ for non-technical stuff
+ because you can think for example
+ on marketing campaign optimization,
+ for example, you will monitor your ad performance
+ and adjust the bids,
+ recheck, flag when the specific metrics
+ that you're following like rows or others drop,
+ do competitive analysis and vice versa.
+ So you have like an endless loop
+ of someone that optimizes your campaigns.
+ And you can also create skills
+ that basically orchestrate multiple agents
+ or multiple sub agents execution.
+ You can just explicitly prompt them
+ to spin up multiple agents.
+ Our research skill also does that.
+ So you can take a look at that.
+ And of course the sky's the limit
+ and we'll be curious to see if you have other advanced patterns
+ that you've discovered that are working well with you.
+ I wanna make sure that you don't just create skills
+ but that you test them
+ and make sure that they're working well for you over time.
+ I think the easiest test for you
+ is if you find yourself having to iterate
+ after you get the output of the tool that used your skill,
+ that means that your skill is not good enough
+ because ideally a skill should create a ready to use output.
+ And if this is not the case,
+ you have to go back and fix the skill.
+ And this becomes even more important
+ when you are about to share it with 50 different people.
+ That's the case for you to treat it
+ like any other AI product
+ and basically run a proper evaluation.
+ And the rigor of course should match the stakes
+ if it's something that also updates your CRM,
+ then make sure that the skill is well tested.
+ If it's customer facing, make sure that it's well tested.
+ And there are some ideas here on how to test it.
+ But in general, every time that you have a new model
+ or that you have a different tool
+ that will be using the skills,
+ you have to go back and reevaluate.
+ Okay, let's talk about the organizational perspective.
+ So up until now skills were at least it could be inferred
+ that we're primarily talking about skills as a personal asset.
+ However, organizations that are very AI forward
+ already realized that skills are the future
+ of how to streamline work and how to get everybody
+ to get more value from AI.
+ And as you can hear, this is where I get genuinely excited
+ because it's basically the pipe dream
+ of every knowledge manager that finally can become real.
+ And you can think about it at the following.
+ You can standardize the way work gets done.
+ You can get a lot of the work done autonomously
+ or to some extent,
+ and you can bundle that also with organizational knowledge.
+ So everything can be bundled into a single portable artifact
+ that both the humans can read
+ and new employees can onboard using that,
+ as well as the agent tools that will be using them
+ and doing the work for you.
+ So what I've seen happening in some organizations,
+ they do skill hackathon
+ where they create skills for their relevant teams.
+ They are maintaining skills in shared libraries
+ like they would maintain code.
+ They make sure the skills are having clear ownership
+ and use across various people.
+ And those organizations are seeing massive uplift
+ with the quality and results that they're getting
+ and the ones that are still not there,
+ their people are kind of reinventing the wheel
+ every time that they have a conversation with AI
+ or even if they create skills just for themselves.
+ Eventually, and we're already seeing that
+ with the cloud co-work,
+ most organizations will have the set of plugins.
+ So in cloud co-work,
+ we're seeing plugins for specific professions,
+ but you can create a plugin
+ which is comprised of typically skills and connections
+ and perhaps some context for each and every department
+ or each and every group in your organization.
+ And all of a sudden, everybody enjoys
+ the same worldview and the same goodness.
+ So to be a little bit more prescriptive here,
+ what I would recommend that you do at the org level,
+ you will start with discovery, running work audits
+ or understanding where people do repeating work
+ or where people are not getting optimal value from AI
+ and where there are wish list that are not being covered.
+ So you'll have a list of opportunities to create skill
+ and then you will curate them
+ and build skills using the best possible methods
+ maybe with clouds skill creator
+ or just some of the best practices that we discussed here.
+ I then want to encourage you to do a lot of validation
+ especially if those are gonna be shared across many people
+ then perhaps the person who created the skill
+ will replace with another person who created another skill
+ and they will stress test each other
+ and of course people should use to poke holes
+ in the skill itself.
+ Then you should package them into plugins
+ and reusable elements.
+ And lastly, skills have to have clear owners
+ whether they are AI champions or subject matter experts
+ be reviewed every time that they are being updated
+ and when they're no longer relevant
+ or no longer serving us, they should be deprecated
+ because otherwise we will very quickly have a stale system
+ that was amazing at the beginning
+ but is no longer the case here.
+ So that's the five levels
+ hopefully got you from a skill apprentice to architect.
+ Everything we talked about plus full skill template
+ and a lot of bonus content and some advanced patterns
+ are all packaged very nicely in the AIDB play.
+ Everything is there.
+ Feel free to go and take a much deeper journey
+ using this artifact.
+ Awesome, thank you so much.
+ One sort of just mental framework that I wanted to
+ maybe close on is the last thing you said
+ about deprecating skills when they no longer serve.
+ I feel like even more we're used to infrastructure
+ which is what skills are as being sort of
+ semi-permanent or long duration.
+ And I think skills feel like one of the first
+ infrastructure primitives of the AI era
+ that exemplify one, how iterative things are going to be
+ to the sort of shorter half lives
+ that we have to assume for things that are valuable.
+ And I think that what that means is
+ you're not gonna have an initiative
+ to design a bunch of skills for yourself
+ and for your organization where you do a sprint
+ and then it's done.
+ It feels like it's going to be something
+ that is just now a new recurring ongoing part
+ of working with these systems
+ and basically requires constant upkeep.
+ Is that what you've found so far
+ in your experience with them?
+ Yes, and even in the materials,
+ one thing that I included was saying that
+ like reevaluate skills in the following scenarios
+ and when one month has passed.
+ Because that's about the time horizon
+ where things might become a little bit stale nowadays.
+ So at least until,
+ and I don't know if it's gonna happen in the foreseeable future
+ but until things will be more stable
+ and you will have a more self-healing system
+ for skills management,
+ you have to proactively go
+ and revisit everything that is created,
+ including by the way the context as part of the skills.
+ So often the skill itself will remain relevant
+ but maybe the examples or the context
+ that the skill refer to,
+ that's the problem of why we're not
+ getting good results anymore.
+ Interesting, we need a little agent
+ that sits there giving a rating
+ to how stale skills are based on
+ when they were last updated.
+ I'm sure people that the advanced organizations
+ are already building these systems
+ of automations of skill reviews
+ and suggestions for improvement.
+ Awesome, all right, we'll move far.
+ Thank you so much for this.
+ Sure, tons of useful stuff for everyone to dig in.
+ Can't wait to have you back.
+ Thank you.
