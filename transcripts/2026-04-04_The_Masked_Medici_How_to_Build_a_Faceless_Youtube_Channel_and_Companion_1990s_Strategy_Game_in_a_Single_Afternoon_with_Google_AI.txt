@@ -1,0 +1,505 @@
+ Today in this special Operator's Bonus episode, we are going from zero to a full multimodal
+ app experience set in the renaissance with Gemini, Notebook LM, and Google AI Studio.
+ The AI Daily Brief is a daily podcast and video about the most important news and discussions
+ in AI.
+ Alright friends, we have something a little bit different and quite a bit fun today.
+ A conversation recently came up with Google where they were interested in exploring some
+ sort of collaborative sponsored partnership style episode.
+ Now one of the things that is of course most unique about Google is just the sheer breadth
+ of products they have in the AI space.
+ In fact, there's so much that sometimes folks don't even realize how much is actually
+ available to them.
+ And believe it or not, as the conversation had started, I thought back to an idea for
+ a project that was one of those ideas where you know there's so little reason
+ to do it and so many other things that need to be prioritized in front of it that you
+ really shouldn't be spending time even thinking about it, much less actually considering
+ doing it.
+ And yet it gets in your head like a little brain worm that just won't go away.
+ Well one fact that you might not know about me is that I am an absolute history nut.
+ I was a history major, I never really considered majoring in anything else and at any given
+ time I always have some history book that I'm reading.
+ And for the past four or five years, every time spring starts to turn into summer,
+ I always find myself gravitating back to the Renaissance.
+ This maybe will be less surprising, but I am completely fascinated with liminal moments,
+ these moments in between big epics of history.
+ And the Renaissance was of course one of the most profound of those types of liminal
+ moments that we've ever experienced.
+ It was the bridge between the medieval and the modern period with much of what would
+ lay the foundations for the next 500 years of history started in just a few short
+ generations.
+ As I've watched others experiment with AI, the one thing that I kept wanting to do
+ just for the sheer joy of it was to create a faceless YouTube history channel
+ focused on telling some of what I think are the most interesting stories from
+ the Renaissance.
+ Now I actually had already thought a little bit about how you would wire
+ together a bunch of different AI services to actually automate big chunks of
+ this and make it viable.
+ And it turns out that at this point, Google and Gemini have pretty much
+ all of those in-house.
+ So as we started talking about this idea for this episode, I pitched them
+ on this and here we are.
+ So what we're going to do today is walk through the sequence that I used to
+ ultimately produce that faceless YouTube channel, which I'm calling the
+ Masked Medici, the companion website for their YouTube channel, and even
+ an early 1990s style strategy game based on the same themes.
+ So let's walk through how we did it.
+ First up of course was setting up Gemini to be our build and creative
+ partner for this entire experience.
+ First thing I did is set up a gem to keep all those conversations in one
+ place and then we started to brainstorm.
+ Now like I said, I had this concept for this Renaissance focused
+ faceless channel right from the beginning.
+ And so where we started instead was thinking about all the
+ different things we could put around it, plus all the different
+ tools we could pull in.
+ One of the things that I wanted to brainstorm first was how to
+ get the most value out of some of the most unique parts of
+ Google AI Studio, particularly its ability to integrate
+ Gemini's AI and multimodal capabilities into whatever it
+ was that we built.
+ No boring text-based websites for us.
+ Pretty soon we started to hone in on some sort of interactive
+ experience as a companion to the YouTube.
+ And as we started to refine what the content for both the
+ companion web experiences plus the YouTube channel could be,
+ I also switched Gemini out of its architecture mode into its
+ historian mode to think about a few key historical moments to
+ focus on for this channel's launch.
+ So to keep track, the first Gemini capability that we're
+ using is effectively all the dimensions of its strategic
+ planning with a little side of its historical knowledge,
+ although very quickly we turned and doubled down on that
+ specific knowledge and the capability to research and go
+ do more.
+ I knew that one of the stories that I wanted to focus on was
+ the POTSY conspiracy.
+ This was this incredibly dramatic moment when the feud
+ between the POTSY and Medici banking families came to a
+ head with the attempted assassination of Lorenzo de
+ Medici, who would eventually go on to be known by history
+ as Lorenzo the Magnificent.
+ Although Florence technically had no ruler, it being
+ led instead by a very proto-democratic body
+ called the Signoria, there was no doubt in anyone's
+ mind, even by that time in 1478, that the Medici's
+ were the true rulers of Florence, the power that ran the
+ city even if from behind.
+ Now part of what made the POTSY conspiracy, more than
+ just a bloody feud between families, is that the
+ plot had the backing of the papacy under Pope
+ VI as the fourth, and as if that weren't enough, it
+ also had the military support of the kingdom of Naples.
+ And yet, while the day extracted a heavy toll
+ with Lorenzo's younger brother Giuliani being
+ killed in the fray, Lorenzo himself survived and
+ go on to consolidate power in a way that the POTSY
+ family would never recover from.
+ Now for this, we actually did deep research in two
+ different places.
+ I use the deep research feature that is directly
+ in Gemini, but where the real power came from
+ was notebook LM.
+ With notebook LM, you can go find and integrate
+ dozens and dozens of sources about any topic
+ that you're interested in.
+ You can give it your own sources, which can be
+ anything from uploaded files to websites
+ to YouTube videos to access to a Google Drive
+ folder, or you can have it help you go get
+ new resources from the web with either a fast
+ research or a deep research mode.
+ For each of the five notebooks I created for what
+ would become the five videos, I use the deep
+ research feature to go get the set of sources
+ that we would pull from to actually craft
+ the final content.
+ Now you might remember that notebook LM first
+ started to break out at the end of 2024 and
+ beginning of 2025 because of its audio
+ overview feature.
+ You could take a bunch of sources, or even just
+ one source, like a big dense AI research paper,
+ and with a single click, turn it into a podcast
+ where two hosts talked about it with all of
+ the affectations of your favorite
+ conversational podcast.
+ And while this is the type of feature that could
+ become a novelty fast, part of the reason
+ that I think it was so sticky is that it's
+ actually just kind of a good way to absorb
+ information.
+ And so for people who were trying to learn
+ about new topics, it became a useful tool
+ in the arsenal.
+ Now since then, however, notebook LM has
+ continued to push new features and capabilities.
+ In particular, the increased capability set
+ around visual generation has made a huge
+ difference in what you can do with notebook LM.
+ As we started to get both the text rendering
+ capabilities, as well as the reason over
+ image capabilities of the nano banana models,
+ that opened up new features like infographics
+ as well as slide decks.
+ And one of the things that many people found,
+ especially with the infographics, is that
+ because you can curate such a bigger set of
+ sources, the infographics that get
+ produced by notebook LM are often much
+ better and more factually dense than even
+ the versions produced in the regular Gemini app.
+ Also taking advantage of those capabilities
+ are the slide deck builder in notebook LM,
+ which as of February, you can edit
+ on a slide-by-slide basis, which some folks
+ like Click Health Simon Smith called
+ a death blow for many AI presentation generators.
+ Still, the feature that I was focused on
+ for this particular project, and frankly,
+ the thing that made my longstanding idea
+ of a faceless YouTube channel actually
+ at least a little bit viable,
+ even despite everything else I have going on,
+ was that at the beginning of March,
+ notebook LM added what they called
+ cinematic video overviews.
+ As they describe it in the app,
+ these are rich immersive experiences
+ that can unpack the complex ideas of your sources
+ through engaging visuals and storytelling.
+ It was those cinematic videos
+ that would be the substance of our YouTube channel.
+ And so we built notebooks for our five topics.
+ There was the Potsy conspiracy,
+ Lorenzo's dramatic flight to ConFab
+ with the King of Naples, Brunelleschi's dome,
+ a marvel of architecture, science, and art
+ that pretty much no one at his time could understand.
+ The bonfire of the vanities, which signaled
+ the end of one period of the Renaissance
+ at the beginning of something very different.
+ And of course, the attempted mutiny against Cesare Borgia
+ that would go on to inspire George Martin's red wedding.
+ I won't play the whole video,
+ but I want to give you a sense
+ of what these cinematic overviews are like.
+ Florence, December 6th, 1479.
+ It's the dead of night,
+ and the unofficial ruler of the Florentine Republic
+ is sneaking out of his own city.
+ Before leaving, Lorenzo Demedici left a letter
+ for the Senoria, the city's governing council.
+ In it, he wrote that the enemy armies
+ currently ravaging the Tuscan countryside
+ were driven by a singular hatred directed entirely at him.
+ His plan was to sail south,
+ directly into the capital of the enemy coalition.
+ He was going to surrender himself to the King of Naples
+ to either negotiate a peace or face execution.
+ With Florence on the brink of total collapse,
+ Lorenzo calculated that offering himself
+ as a willing hostage was the only remaining play
+ to save the state.
+ So a couple things that I think are worth noticing here.
+ First of all, the cinematic video overview
+ is actually using a couple different types of image sourcing.
+ Like for real world architecture,
+ like this photo of Florence,
+ it's pulling from and referencing
+ specific licensed stock photography.
+ Yet, of course, for a lot of this,
+ they're using a combination of Nano Banana 2
+ and their VO video models to create the images,
+ both still and moving,
+ that make up the substance of most of the video.
+ What particularly impressed me about this
+ is that it chose a visual style
+ and stuck with it for the whole video.
+ All of these images,
+ the sort of thick laden oil painting style
+ with big visual brushstrokes,
+ look like they go together.
+ It doesn't look, in other words,
+ like some random assemblage of stock photos.
+ It has a consistent visual identity.
+ So okay, we now had our raw material.
+ Now, of course, where this was going to land
+ was on a new YouTube channel,
+ of course, also a Google property.
+ And everything about this,
+ from the name to the images,
+ to the video names, the descriptions,
+ and the companion text,
+ all created by Gemini or Nano Banana.
+ But what about the web companion experiences
+ and the interactive elements?
+ Well, in the conversation with Gemini,
+ we'd come across two ideas
+ that I thought were worth pursuing.
+ The first was some sort of digital codecs,
+ illuminated manuscript-style presentation
+ that would house the actual videos themselves.
+ You can see Gemini writes,
+ "'This is a beautiful, elegant,
+ and highly achievable entry point.
+ It frames your content,
+ not just as YouTube videos,
+ but as pages in a grander historical text.
+ That was idea one,
+ idea two, which would evolve a little bit,
+ was called at the time Florence and Factions,
+ a 1990s-style computer strategy game
+ that would actually bring you back into that period
+ and have you act
+ as someone living in Medici-era Florence."
+ Now, this is where we would use our next tool,
+ which is the recently updated Stitch.
+ Now, this update at the time of recording
+ is exactly a week old,
+ but already I had seen so many people
+ doing cool things with it
+ that I knew that I wanted to try it
+ for this particular project.
+ Stitch is nominally a design platform,
+ but it's got this endless canvas
+ and creates not just images,
+ but entire design systems.
+ So for example,
+ the first of these we did
+ was the web app to house the videos.
+ It came up with this visual motif,
+ the name, the use of the written out Latin year,
+ as well as the whole color and font system.
+ Now, as you'll see in a minute,
+ part of what makes Stitch really powerful
+ is the way that you can go back and forth
+ and iterate in one canvas,
+ but this kind of one-shotted
+ pretty much exactly what I was looking for.
+ And once you've got something you can like,
+ you can export it.
+ You can bring it into Figma,
+ you can turn it into an MCP,
+ you can create an instant prototype,
+ or, and this is what I did,
+ you could bring it into AI Studio.
+ So after I clicked Export,
+ I selected AI Studio,
+ build with AI Studio,
+ and it immediately brought me
+ into the Google AI Studio experience
+ where it automatically came with the image,
+ the associated HTML,
+ and the Markdown file
+ that had the entire design system.
+ Overview and Creative North Star,
+ the digital scriptorium.
+ This design system moves away
+ from the sterile, flat world of modern SAS
+ and returns to the tactile,
+ sacred artistry of the 15th century manuscript.
+ We are not building a website,
+ we are crafting a living codex.
+ So this is what it looks like to design with agents
+ rather than just design tools.
+ And the fact that I could with a single click,
+ bring this into the Google AI Studio experience
+ is the value of the deep integration
+ between these different Google AI products.
+ Now this was a pretty easy build,
+ in large part because it got it right pretty quickly.
+ This was the first version we saw,
+ which was fine,
+ but I wanted it to be closer to what Stitch had,
+ so I copied that photo in,
+ along with the HTML directly,
+ and Google AI Studio picked up and ran with it.
+ Studio says,
+ I noticed that the Stitch-generated code
+ currently uses a static image placeholder
+ with a play button overlay
+ instead of an actual embedded video.
+ To make it fully functional
+ while keeping this beautiful new design,
+ I've taken your code and swapped out the image placeholder
+ for the actual YouTube iframe embed.
+ Here is your exact Stitch version ready to play video.
+ Then it added,
+ would you like to add any interactive JavaScript to this?
+ For example, making the sidebar navigation functional
+ or adding a page turning animation.
+ Now a page turning animation
+ is exactly what I had been thinking of,
+ so we got to it.
+ At each step of the way,
+ Studio was both doing the work
+ and explaining how it would work.
+ For example, without me asking,
+ it shared how it had made and executed a plan for mobile
+ so that the 3D horizontal flip didn't look broken on a phone,
+ it just switched back to a different method
+ of turning between the pages.
+ Now all that was left on this one
+ was to give it the right text.
+ So we went back to Gemini
+ and specifically to the part of the gem
+ where we had been brainstorming
+ about the particular stories
+ that we were going to focus on
+ and it wrote all of the companion copy
+ that would sit alongside the videos.
+ The last step was adding the video links
+ and boom, we were ready to go.
+ When it was time to push it live,
+ for the sake of understanding
+ Google AI Studio's full process,
+ I went with its recommendation.
+ Studio said,
+ because this entire app is just one file,
+ pure HTML, CSS and JavaScript,
+ you don't need a complicated server or backend.
+ You can use static site hosting
+ which is completely free and takes about 30 seconds.
+ The fast way it gave me was a drag and drop
+ with Netlify that had the exact sequence of steps
+ that led to basically dragging a folder
+ from my desktop to Netlify
+ and then boom in literally about 15 or 20 seconds,
+ the digital scriptorium lived.
+ Now I will of course include links
+ to all of these companion experiences
+ but you can get a feel for what we did
+ and why it warms the aesthetic
+ of my late 90s computer heart.
+ As I said though,
+ I wanted to in addition to
+ that companion web experience
+ do something a little bit more complex as well.
+ One of the things that's coolest about building
+ with Google AI Studio
+ is the ease with which you can integrate
+ Google's AI features and tools.
+ A game where there was some aspect of image generation
+ and creative on the fly responses to scenarios
+ seemed like a really good way to try that out.
+ And so we dug in.
+ We articulated the first set of game mechanics
+ as well as some visual inspiration in Gemini
+ and then brought that over to Stitch.
+ Now what you're looking at here
+ is each of these
+ is a different sequential generation
+ where I was trying to get out an aesthetic
+ that I had in my mind.
+ So these didn't happen all at once.
+ It was me iterating each time
+ until I ultimately abandoned this particular canvas
+ feeling like there was too much anchoring bias
+ to where it had started.
+ And with each iteration,
+ I wasn't feeling like I was able to get it
+ to go do something different enough.
+ Now after a bunch of back and forth trying,
+ I decided to try to take it in a fairly different direction
+ just to see if there was a better way
+ to execute what was in my mind.
+ What was interesting is that
+ when we landed on this style,
+ it actually modified a little bit
+ of the game mechanics that we had been exploring.
+ The game that started to emerge
+ was kind of a turn-by-turn strategy game of survival.
+ Your goal was to live through
+ 30 of these very volatile years
+ having to make decisions
+ in a variety of difficult scenarios
+ using every tool in your toolbox
+ from bribery to deceit
+ to even actions more dramatic
+ to survive and thrive in Renaissance Florence.
+ From here there was a bit of interplay
+ between Stitch and Gemini
+ where I would take something that Stitch had produced,
+ ask Gemini to add some elements
+ and then ask Stitch to build those elements
+ or something like them into the design system.
+ And in the same way that you saw
+ Google AI Studio being proactive
+ and suggesting next things that it could do,
+ Stitch does that as well.
+ For example, the Codex page,
+ the Diplomacy page
+ and the Inventory and Ledger page
+ all came about after it said,
+ do you want me to design the rest of these pages
+ that we need to get the game ready to go?
+ Once again, when we were ready,
+ we pressed Export and Build with AI Studio
+ and it brought everything in.
+ Now this was a more complex build
+ but it still honestly just handled it.
+ And what we added in Google AI Studio
+ was not only making the thing actually work
+ but also integrating some of those AI tools.
+ The two places that we built Google's AI models into this
+ were first the generated images
+ that come up with each scenario and story.
+ You can see here that even though this looks like
+ it might have been pulled
+ from a 15th or 16th century painting,
+ the fact that it is labeled with the same name
+ as the scenario gives away that it was generated on the fly.
+ And also for this game,
+ rather than having a choose your own adventure style,
+ a prescriptive and limited set of scenarios,
+ it's all generated on the fly.
+ For example, when you discover absolute proof
+ that the Medici family is illegally smuggling
+ Turkish Alem into Florence,
+ thus bypassing the Pope's heavy tariffs,
+ and you decide to return it to the Medici
+ as a quiet gesture of loyalty,
+ what happens next is again generated on the fly.
+ Returning the salt-stained ledger to the Medici
+ was met with a heavy purse of gold
+ and a cold nod from Piero the unfortunate.
+ The Medici used the records to systematically dismantle
+ the Sforza-backed trade guilds,
+ pushing your reputation with the ruling family
+ to its absolute peak.
+ However, your blatant favoritism has not gone unnoticed.
+ The Sforza now view you as a Medici creature
+ and the Borgia in Rome
+ have begun intercepting your personal couriers,
+ sensing that the information broker of Florence
+ has finally picked the side.
+ Now there's a whole bunch else to this game
+ where you can use tools, make bribes,
+ see where you stand with different factions.
+ It's actually a pretty fun game.
+ But the bigger point of course for our purposes
+ is that we were able to build this thing
+ from conception to execution
+ in honestly barely any time at all.
+ There will be a link to the game Republic of Lies
+ that you can go check out from the show notes.
+ If you've been listening to the AI Daily Brief this year,
+ you'll have heard me say a number of times
+ that it seems to me that Google's unique opportunity
+ is taking advantage of this wide multimodal capability
+ and this huge array of different tools
+ to really create differentiated
+ and integrated capability sets.
+ I had a ton of fun building this complete experience
+ from concept to research
+ to cinematic video overview to YouTube page
+ to companion website to companion AI driven game
+ in the course of just a couple of hours.
+ Hopefully this inspires you to think about
+ what you can build
+ and big thanks to Google for partnering on this episode.
+ For now that is gonna do it
+ for today's operator's bonus edition
+ of the AI Daily Brief.
+ Thanks for listening or watching as always
+ and until next time, peace.
