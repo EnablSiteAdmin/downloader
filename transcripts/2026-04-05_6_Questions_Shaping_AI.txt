@@ -1,0 +1,517 @@
+ Today we are discussing the six big questions that are shaping AI.
+ The AI Daily Brief is a daily podcast and video about the most important news and discussions in AI.
+ All right friends, quick announcements before we dive in. First of all, thank you to today's sponsors
+ KPMG, Blitzy, Assembly, and Superintelligent. To get an ad-free version of the show,
+ go to patreon.com.ai-daily-brief or you can subscribe at Apple Podcasts.
+ And of course, if you're interested in sponsoring the show, send us a note at sponsors.ai-daily-brief.ai.
+ Now today we are discussing six big questions shaping AI. This is sort of a quintessential weekend
+ long read slash big think episode and a good way to sum up the high level before I land back
+ in the office chair next week after a week of being away. The six questions that I'm going to
+ discuss are one, how much job displacement will there actually be? Two, to what extent AI
+ becomes a political issue and in what ways? Three, who gets to decide the limits of how AI gets used?
+ Four, how deep the market's pockets are for the infrastructure build out and how much
+ external factors will impact that? Five, how fast will differentiated enterprise
+ adoption compound? And six, just how much agency do agents really give people? Are we on the verge
+ of a wave of the greatest flourishing of small business entrepreneurship that we've ever seen?
+ Let's start with what certainly has been one of the dominant public discussions,
+ how much job displacement will there actually be? Now one of the things that makes this
+ conversation potent right now is that we have a tricky combination of one, some very real announcements,
+ but two, those announcements being nascent enough that we don't know for sure how much
+ we can extrapolate them out, meaning effectively that our imaginations about the possibilities
+ of job displacement are running wild with just enough nascent evidence to really feed into those
+ fears. And of course, it's not just the block and other layoff announcements. A working paper from
+ the National Bureau of Economic Research found that out of a survey of 750 chief financial
+ officers from US firms, about 44% said that they plan on some AI related job cuts. Although
+ as Fortune points out, while the number of estimated job cuts from that survey will be
+ nine times higher than the AI related job cuts last year, the total number is still expected
+ to be a tiny fraction, just 0.4% of all roles of some of the Doomsday predictions out there.
+ And the Doomsday predictions are flourishing right now. Senator Mark Warner recently suggested that
+ new college graduate employment will spike to 30% plus the next couple of years. Dario Amade continues
+ to sound off about the idea that AI will eliminate 50% of entry-level white collar jobs within
+ the next three years. Basically, you can't really throw a stick without hitting some prognostication
+ about how we're all going to lose our jobs. Now, obviously, I did a whole long show
+ about my optimism and why I don't think AI is going to take our jobs, and frankly,
+ the will AI take our jobs conversation is even the right one to be having.
+ And what's encouraging to me is that we're finally starting to see a bit of a
+ counter-discussion. Chicago Booth's Alex Imas and Harvard fellow Symmetra Shukla recently
+ dropped a blog post called How Will AI Driven Automation Actually Effect Jobs?
+ Now, this is not some full-throated argument that AI isn't going to cause disruptions,
+ but a reminder that simple exposure to AI is not really the critical thing.
+ In a summary post on Twitter, Alex writes,
+ AI exposure measures are not meant to predict displacement or job automation.
+ Exposure can lead to job loss or it can lead to more hiring and higher wages.
+ It all depends on how one, automated tasks interact with non-automated tasks,
+ i.e., to what extent they're compliments. Two, how consumer demand in that sector
+ responds to prices, i.e., elasticity of consumer demand.
+ And three, the dimensionality of the job, i.e., the number of tasks a job has.
+ Even more optimistic is this recent report from Lenny Rochitzky of Lenny's podcast and Lenny's
+ newsletter called State of the Product Job Market in Early 2026. Lenny writes,
+ In spite of the headlines about layoffs in AI taking jobs, we're actually seeing a lot of
+ promising signs in tech hiring and some interesting new trends.
+ One, product manager openings are at the highest level we've seen in over three years.
+ Two, AI hasn't slowed the demand for software engineers at least not yet.
+ Three, AI roles in general are absolutely exploding.
+ And then seven, yes, we're skipping a couple, despite ongoing layoffs,
+ the overall number of tech jobs continues to grow.
+ And I anticipate that over time, there will start to be more focus on where new jobs will
+ actually come from. For example, a recent Goldman Sachs report analyzed how AI would shift the
+ job market. It found that AI could automate tasks that make up about 25% of work hours in
+ the US and that around that, roughly 6% to 7% of workers might face displacement.
+ However, the report also points out that the technology will create entirely new categories
+ of work. For example, just the physical infrastructure for AI is going to require
+ massive labor. They point out that the US alone needs 500,000 new workers by December 30th to
+ handle electric power demands. Since October of 2022, construction jobs related to data centers
+ have already grown by 216,000. The AI companies themselves, despite being some of the leaders
+ in how to use AI, are still planning on growing. Open AI apparently plans to double their workforce
+ to 8,000 by the end of this year. And even the ECB has found that the companies that are most AI
+ native right now are actually hiring more than they're firing. It makes sense to me that alongside
+ this major jumping capabilities, there are major renewed conversations and fears around job
+ displacement. But I am hopeful and encouraged that in the months to come, I think the
+ conversation about those effects will get a little bit less black and white and a little
+ bit more nuanced and varied. Now of course, quite related to the job conversation is to what extent
+ AI becomes a political issue and in what ways. There are a few different ways in which AI could
+ become a political issue. There are issues of X-risk and runaway takeoff AI that threatens human
+ life. There are the more here and now concerns around jobs and data centers. There are also
+ questions around children, mental health, and a lot more. Which of these issues gets the most
+ traction will I think shape pretty dramatically the way that AI becomes a political issue?
+ Now it could be all of them of course, but that is a question to watch.
+ A second question is the extent to which it is partisan or not. Right now, the discourse isn't
+ all that clearly partisan, although I anticipate that getting a little bit more challenging as
+ the midterms heat up. For example, AOC recently tweeted, politicians, especially Dems, should
+ pledge not to take AI money. They are buying up influence ahead of the midterms and Dems
+ who take AI money will lose authority and trust as the public bears the cost. Their money
+ will end up being toxic anyway. People are catching on. Still, when you look across the issues,
+ it would be absolutely 100% inaccurate to say that there is a Republican position on AI
+ or a Democrat position on AI. In the wake of Bernie Sanders and AOC introducing their
+ data center moratorium bill, you had Senator Mark Warner who we just mentioned say that it
+ was a dumb idea, John Federman slamming it as China first policy, and then on the
+ Republican side, there's no consensus either. In fact, AI regulation and the White House's
+ relationship with AI companies is kind of a major schism right now. Steve Bannon's whole
+ crew are getting increasingly loud. And if you put Donald Trump, Josh Holly, Steve Bannon,
+ and Ron DeSantis in a room, you're going to have very different Republican views on
+ what we should be doing and thinking with AI. Now, here are some of my predictions.
+ I think that while X-Risk is going to try to make a resurgence, I just don't think
+ it becomes the resonant issue when it comes to AI. I think it's only getting a second
+ breath because Bernie Sanders has decided to put a focus on it, and because any time
+ there's a big new jump in capability, it's kind of a natural time for people to ask
+ those questions again. I think that data centers and jobs are much bigger,
+ more politically potent issues. However, in some ways, I think that how bad the data
+ center issue gets is going to be largely driven by the job situation. Yes, there are
+ real community concerns with data centers, but there's also a lot of room with data
+ center construction to shift the balance. We've already seen the White House with its
+ rate payer protection pledge, get all the AI companies to commit to making sure that
+ people's electricity bills don't get up because they need new capacity for their
+ data centers, and I think you're going to see a lot more agreements like that.
+ Where it gets really challenging is if data centers become the visual embodiment
+ of 10 or 15% unemployment. That's where things really start to get hairy.
+ Obviously related to politics is the question which smashed its way into our
+ consciousness this past month. Who gets to decide the limits of how AI gets used?
+ This was an inevitable conversation. It just happened a little bit faster than
+ we might have thought. Now, I've talked about this ad nauseam,
+ so we don't have to get too deep into it, but suffice it to say that the very
+ public rhetorical, real and now legal battle between anthropic and the
+ Pentagon has big implications for AI going forward. Hold aside all the
+ details and specific personalities involved, and at core, this question
+ is a question of ultimate power. One of the uncomfortable realities
+ is that the likely significance of AI across so many different sectors
+ of the economy and human social life will make people increasingly
+ uncomfortable with it being controlled by singular private companies.
+ I haven't seen any calls for nationalization yet, but I would be
+ shocked if we don't see them before this is all said and done.
+ At the very least, you're going to see more conversations like the one
+ sparked by Stanford professor Andy Hall, who recently proposed
+ new constitutional conventions to determine how the governance layer of AI
+ should work. Our fourth question actually evolved
+ a little bit from when I first started thinking about this episode a few
+ weeks ago to where it is now. One of the big questions facing AI
+ coming into this year was how deep the market's appetite and
+ pockets were for the infrastructure buildout. Over the course of 2025,
+ we went from a buildout that was largely financed by hyperscalar
+ balance sheets to one that was increasingly financed by
+ investors in private credit markets. To the extent that those
+ investors continued to have high demand for that debt,
+ the AI boom could build unabated. Of course, the risk is the more
+ you move off balance sheet and into the credit markets, the more
+ risk of those markets climbing up and that causing ripple effects,
+ which because of the extent to which AI has propped up public
+ markets for so long would have implications far beyond just AI itself.
+ However, over the last couple of weeks, obviously this no longer is
+ just a question of markets' appetites in general, but also how
+ broader geopolitical and economic challenges are going to impact
+ the private market's appetite for AI debt. I'm recording this
+ episode about a week in advance from when you're hearing it,
+ and so a lot could have changed between now and then. But at the
+ time that I am writing, one of the big conversations across all
+ sorts of different outlets is how the war in Iran and its
+ impact on energy costs could have, among its other downstream
+ effects, fairly big implications on the AI boom.
+ The World Trade Organization's Chief Economist warned about
+ this, saying if the price of energy continues to be
+ elevated for the whole year that could put a crimp on the AI
+ boom. On the oil price blog, why the Iran War may have just
+ killed the AI boom. The war's effects, writes Michael Kern,
+ including the collapse of shipping insurance in the
+ Strait of Hormuz, attacks on data centers, and a spike in
+ oil prices are structural problems that will increase
+ component costs and slow the AI build out. Compounding issues,
+ including higher costs for fuel and fertilizer, coupled with
+ elevated electricity bills from data center demand, will
+ shorten the political window for AI transition and fuel
+ consumer backlash. Time magazine also wrote about this.
+ In this case reiterating that like it or not, what's bad for AI
+ is bad for the economy writ large. Writes time, the AI
+ industry and specifically its data center investments are
+ essentially holding up the US economy, accounting for 39% of
+ US GDP growth in the first three quarters of last year,
+ according to the Federal Reserve Bank of St. Louis.
+ Now one very specific issue, even if the worst
+ prognostications don't come to pass, is that at the
+ very least, the war is likely to have some impact on the
+ UAE in Saudi Arabia who have been some of the biggest
+ investors in AI. Miles Krupa from the information
+ writes, the war in Iran is complicating plans by
+ Gulf nations to spend more than 300 billion dollars on
+ data centers, chips and other AI investments. These
+ effects are not theoretical. When you've got drone
+ strikes on Amazon data centers in the region, it makes
+ the calculus on building out in that region look very,
+ very different. The information writes, Gulf
+ nations won't rush to divert resources away from AI
+ investments because of their economic and strategic
+ importance, but they might have little choice if the
+ conflict stretches on for a long time, said analyst
+ Steven Minton. If that turns into months or even
+ longer, there could certainly be a disruptive pause to
+ some of that investment.
+ All right, folks, quick pause. Here's the
+ uncomfortable truth. If your enterprise AI strategy
+ is, we bought some tools, you don't actually have
+ a strategy. KPMG took the harder route and
+ became their own client zero. They embedded AI
+ and agents across the enterprise, how work
+ it's done, how teens collaborate, how decisions
+ move, not as a tech initiative, but as a total
+ operating model shift. And here's the real unlock.
+ That shift raised the ceiling on what people could
+ do. Humans stayed firmly at the center while AI
+ reduced friction, serviced insight and accelerated
+ momentum. The outcome was a more capable, more
+ empowered workforce. If you want to understand
+ what that actually looks like in the real world,
+ go to www.kpmg.us slash AI. That's www.kpmg.us
+ slash AI. Weekends are for vibe coding. It has
+ never been easier to bring a passion project to
+ life. So go ahead and fire up your favorite
+ vibe coding tool. But Monday is coming. And
+ before you know it, you'll be staring down a maze
+ of microservices, a legacy cobalt system from
+ the 1970s, and an engineering roadmap that
+ will exist well past your retirement party.
+ That's why you need Blitzy, the first autonomous
+ software development platform designed for
+ enterprise scale code bases. Deploy the
+ beginning of every sprint and tackle your
+ roadmap 500% faster. Blitzy's agents
+ ingest your entire code base, plan the
+ work, and deliver over 80% autonomously.
+ Validated end-to-end tested premium
+ quality code at the speed of compute.
+ Months of engineering compressed into days.
+ Vibe code your passion projects on the
+ weekend. Bring Blitzy to work on Monday.
+ See why Fortune 500s trusts Blitzy for
+ the code that matters at Blitzy.com.
+ That's blitzy.com.
+ You've heard me talk about assembly AI
+ and their insanely accurate voice AI
+ models, but they just ship something big.
+ Universal 3 Pro is a first-of-its-kind
+ class of speech language model that lets
+ you prompt speech recognition with your
+ own domain context and vocabulary,
+ instead of fixing transcripts and post
+ processing. It's more flexible than
+ traditional ASR and more deterministic
+ than LLMs, so you get accurate output
+ at the source and can capture the
+ emotion behind human speech that
+ transcripts often miss, all without
+ custom models or post processing hacks.
+ And to celebrate the launch, they're making
+ it free to try for all of February.
+ If you're building anything with voice,
+ this one's worth a look.
+ Head to assemblyai.com
+ slash free offer to check it out.
+ It is a truth universally acknowledged
+ that if your enterprise AI strategy
+ is trying to buy the right AI tools,
+ you don't have an enterprise AI strategy.
+ Turns out that AI adoption is complex.
+ It involves not only use cases,
+ but systems integration, data foundations,
+ outcome tracking, people and skills,
+ and governance.
+ My company, Super Intelligent,
+ provides voice agent-driven assessments
+ that map your organizational maturity
+ against industry benchmarks
+ against all of these dimensions.
+ If you want to find out more about how
+ that works, go to bsuper.ai.
+ And when you fill out the get started form,
+ mention maturity maps.
+ Again, that's bsuper.ai.
+ Now, our last two questions that will
+ shape AI are a little bit more back
+ in the realm of operations and AI in practice.
+ And the first is, how fast will differentiated
+ enterprise adoption compound?
+ And so the key terms are differentiated
+ adoption and compounding.
+ You have probably already heard me talk a lot
+ about efficiency versus opportunity AI.
+ Efficiency AI, in short,
+ is doing the same with less.
+ Opportunity AI is recognizing
+ that the real power of this technology
+ is not just to be 30% more productive,
+ it's to do things you never could before.
+ Now, right now, we are living in the shift
+ from efficiency to opportunity AI.
+ The changes that are happening right now
+ are not little.
+ They are insanely huge.
+ We've gone in the last three months
+ from people viewing agents as these things
+ which might be interesting in some
+ vertical areas or functional areas,
+ to people building massive agentic teams
+ with Open Claw that are changing
+ literally every single thing about how they work.
+ In that process, the split between
+ the fast-moving startups who are
+ reinventing how they work
+ and the big companies is getting insane.
+ And what's very clear is that
+ there is absolutely no doubt at all
+ that company building
+ is going to look just absolutely totally different.
+ The org chart is going to get completely upended.
+ The speed of execution will be
+ unlike anything we've ever seen.
+ We will see tiny companies
+ with one or five or 10 employees
+ doing millions and then tens of millions
+ and then hundreds of millions of dollars in business
+ and there will be implications
+ for things like venture capital
+ which has to deal with this very different reality.
+ Now, if that is pretty much guaranteed
+ in the realm of startups and small companies,
+ how does this look for enterprises?
+ Certainly, there is a world
+ where things continue to diffuse very slowly.
+ Michael Chen from Applied Compute recently wrote
+ what to expect when you're deploying AI in the enterprise
+ and effectively it was a big reminder
+ that things move very, very slowly,
+ that the capability overhang
+ is not just a concern but an existential state.
+ Data ready, for example,
+ he says is just a state of mind
+ with the gap between we have data
+ and we have data in a format
+ that AI systems can learn from being enormous.
+ He calls timelines optimistic at best
+ with the challenges not being just that enterprises are slow
+ but that they don't even realize
+ that there are all these things
+ that they have to do
+ like data provisioning and compute access
+ that make them even slower
+ than they think they're going to be.
+ Third, he points out an absolute truism at this point.
+ The challenge of AI adoption in the enterprise
+ is not a technology challenge.
+ It is an organizational and management challenge.
+ Period, full stop.
+ I don't even really need to get into this.
+ Everyone knows this at this point.
+ The way that Michael frames this
+ is the real deployment environment is the org chart.
+ He writes with one of our recent projects,
+ one of our biggest onboarding challenges
+ was simply learning the org chart.
+ Not the one on paper but the real one.
+ Who actually controls data access?
+ Who can approve a deployment?
+ Who's working on adjacent projects
+ that might overlap or conflict with yours?
+ There's never one single point of contact
+ and getting work underway
+ often means figuring out the answers together.
+ Increasingly there is even chatter.
+ Even as AI companies invest so much more
+ in their forward deployed engineering model,
+ that that alone is not going to cut it
+ and that there really needs to be
+ mass scale changes to the way that organizations adapt
+ that even having a bunch of embedded engineers
+ aren't going to change.
+ So again, there is a world where AI,
+ despite all of its capability acceleration,
+ continues to diffuse extremely slowly.
+ But what matters is not so much just
+ the average speed of enterprise AI diffusion.
+ It's the difference between fast organizations
+ and slow organizations.
+ If all big companies adopt AI
+ and get transformed by AI at the same pace,
+ even if they're behind, theoretically that's fine.
+ Because their competitors are behind too.
+ My guess, however, is that we see
+ some very significant breakouts
+ that massively upend the playing field.
+ I would guess that the way it actually happens
+ is that the majority of the enterprise pack
+ remain slow to diffuse, call it 80%.
+ And pretty much all the actions happen in the other 20%.
+ But those other 20% don't just add 50% efficiency gains
+ while the laggers get 25% or 30% efficiency gains.
+ Those 20% wildly outperform.
+ We're talking shifts that totally challenged
+ the comparative rankings and positions of companies.
+ We're talking mid markets jumping up tiers.
+ We're talking about companies
+ moving into adjacent product areas.
+ We're talking about companies dominating press coverage.
+ And the key difference will be not just
+ how fast enterprises move,
+ but how they reinvest their AI gains.
+ Because that's where compounding differentiation comes in.
+ The companies that win this next phase
+ are going to reinvest their AI gains in more AI innovation,
+ more AI enablement for their people,
+ more product development, more R&D,
+ more sales efforts, more of all the things
+ that allow them to become a bigger, more successful company.
+ Let me put it a different way.
+ Stock buybacks, a common way for companies to reinvest profits,
+ are literally never going to be more expensive
+ than they are when you could be putting that money
+ into reinvestment in AI.
+ Simply put, I think not only are we going to see
+ a huge and increased gap between leaders and laggers,
+ I think that space is going to compound over time
+ and the laggers will never be able to catch up.
+ Last major question
+ is almost a sort of positive inverse of the first question.
+ The first question we asked was about job displacement.
+ The final question we're asking,
+ and the one that I think is dramatically important
+ in shaping how AI plays out,
+ is how much agency these agents that we're all trying now
+ actually give people.
+ There's a strange duality in our discourse about agents.
+ On the one hand, the premise of all of this job displacement
+ discourse is that companies are going to try
+ to replace people with agents.
+ And the thing that makes that resonant
+ is that companies can clearly do all of the work
+ that they are currently doing
+ with far fewer human inputs than they could before
+ when they are using agents well.
+ The mistake, of course, is in thinking
+ that there is a fixed amount of work to be done
+ and that companies or the market will ultimately view
+ doing the same amount of work that you do now
+ with less human input
+ because you're using agents as a success.
+ In practice, when you are looking at the people
+ who are getting the most out of agents right now,
+ they are not shifting the end of their day
+ from 5 p.m. to 1 p.m. because of agents.
+ They are massively, radically expanding their outputs.
+ They are working more than ever
+ because the leverage they have to do more and do more faster
+ is unlike anything they've ever experienced.
+ And while the adoption pattern of organizations
+ won't be exactly the same as individuals,
+ it should be fairly telling to us
+ that the actual practical lived effect
+ of highly successful agent usage
+ right now is 100% not people getting fired.
+ It's the people using those agents
+ having more work than ever
+ because they have more leverage than ever.
+ So again, one path is companies
+ keep a fixed amount of output and pay less for it.
+ The other is they reinvest that back in,
+ and a lot of what that looks like
+ is superpowering everybody with agents.
+ But let's say that that doesn't happen.
+ Let's say we've got all these people
+ no longer working their traditional corporate jobs.
+ Let's say that in a transitional period,
+ the overall number of white collar jobs does go down.
+ So those people displaced can't naturally
+ flow into some other industry.
+ Again, I don't think this is exactly how that plays out,
+ but just for the sake of argument, let's say it is.
+ Well, then the question will be, how much agency
+ do those newly unemployed folks have
+ to chart a new career path
+ that looks different than just getting a different job
+ of the genre that just let them go?
+ How many of them can actually start businesses?
+ How many of them can become successful consultants?
+ The opportunities of agents are not just a question
+ that determines the beginning of that unemployment story.
+ They're the key thing in determining
+ the end of that story as well.
+ If we just assume that there is a fixed number of people
+ who can be entrepreneurs and small business leaders,
+ then maybe we're just up a creek without a paddle.
+ But if, on the other hand,
+ knowledge workers and all of their recent college grads
+ that aren't getting traditional corporate jobs
+ can pair up in pods of four
+ and build interesting, meaningful things,
+ not only will they be fine, they will thrive.
+ I am increasingly of the belief
+ that we are massively underselling people's adaptability.
+ Sometimes the jobs discourse feels like we assume
+ that this entire generation of people
+ coming out of college now
+ are going to sit around moping
+ until someone, anyone gives them a job.
+ Sure, that might be the story of some,
+ but I think that's a pretty depressing view
+ to take of people's agency.
+ My strong guess is that what actually happens
+ is that after a bunch of frustration,
+ hundreds of applications that they probably sent out
+ with AI written cover letters and no callbacks,
+ they say screw it.
+ If the corporate world doesn't want me,
+ I don't want it.
+ And they go try to do something different.
+ Now, the best of times, that is not an easy path.
+ And I think part of our policy engagement
+ around AI disruption should be around making it
+ a more viable or at least somewhat less risky path.
+ But I think we have barely begun to scratch the surface
+ of what type of superpowers AI is going to give the people
+ who are willing to go out there and do the work.
+ And I think, based on the people that I've seen
+ sign up for claw camp and AIDB new year
+ and all of these sorts of programs,
+ that we are going to be shocked
+ by just how many people actually fit into that category.
+ Call me naive, call me an optimist.
+ I think people are going to impress us.
+ Anyways, guys, for now, that is going to do it.
+ Six questions shaping AI.
+ Appreciate you listening or watching, as always.
+ And until next time, peace.
