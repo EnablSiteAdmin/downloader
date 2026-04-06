@@ -1,0 +1,832 @@
+ Today we are catching up on the most important recent AI news and talking about the COM before
+ the AGI storm.
+ The AI Daily Brief is a daily podcast and video about the most important news and discussions
+ in AI.
+ Alright friends, quick announcements before we dive in.
+ First of all, thank you to today's sponsors, KPMG, Blitzy, Robots in Pencils, and Assembly.
+ To get an every version of the show, go to patreon.com.ai-dailybrief or you can subscribe
+ on Apple Podcasts.
+ To learn more about sponsoring the show, send us a note at sponsors.ai-dailybrief.ai.
+ Now one other quick announcement, for those of you who are looking for ways to get your
+ team up to speed with building custom agents and agent teams, we are launching our second
+ cohort of Enterprise Claw.
+ The program is led by New Far Gas Bar, who you've seen on this show numerous times
+ including last week, and you can find out more at enterpriseclaw.ai.
+ I expect it will fill up quite quickly so again if you want to check it out, it's enterpriseclaw.ai.
+ Now as for us here today, I am back from traveling.
+ We had a great spring break with the kids, got to see some giraffes and fireworks at
+ our window at Disney, and my fears that some crazy thing would happen in AI that demanded
+ that I pull my head up from the parks and put it back into AI land did not materialize.
+ And yet although there was not any one huge massive story like some new model coming
+ out, the last week did have many stories that fell along the themes of our episode
+ from yesterday, which was the six questions shaping AI.
+ Even more than that though, I think when you take the sum total of the news from the
+ last week or so, there is a very distinct picture emerging.
+ I'm calling it the calm before the AGI storm, and what it feels like to me is
+ that even in the quiet moments for AI, the big labs are all jostling and
+ positioning for a very different and fast moving future.
+ You almost have that feeling of the electric charge that's in the air before
+ a thunderstorm.
+ So let's talk about the most important stories from last week and why they all
+ add up to something that is even bigger than they might at first seem.
+ As they are want to do, open AI was in the news throughout the week.
+ And the company actually began the week on a pretty high note as they
+ closed a record breaking fundraising round.
+ Now this is the round we've been hearing about for a while,
+ with the company having already announced the first 110 billion of the
+ funding back in February, you might remember that that round was sourced
+ from Amazon, Nvidia and SoftBank, but they've added an additional 12
+ billion to the round, this time from largely financial rather than
+ strategic investors, meaning that the total size of the round is
+ 122 billion, closed at an $852 billion valuation.
+ Now we had heard that the additional number was going to be around 10
+ billion, so the fact that it was 12 is a good sign that investor
+ demand is still strong.
+ For the first time, open AI took capital from individual investors
+ through wealth management channels.
+ That accounted for about 3 billion of this overall total.
+ Open AI also announced that their stock would be included in
+ multiple ETFs managed by ARK Invest.
+ Alongside the raise, open AI disclosed that they're now
+ generating 2 billion in revenue per month,
+ up from around 1.6 billion at the end of last year.
+ The company said that they are currently growing revenue at
+ four times the pace of the companies that defined the
+ internet and mobile eras, including Google and Meta.
+ That said, the picture wasn't all rosy.
+ Although the fundraising was strong, Bloomberg reports
+ that open AI stock is struggling to find buyers
+ in secondary markets.
+ Ken Smyth, who operates secondary marketplace
+ next round capital, said he's seen hundreds of millions
+ of dollars worth of open AI stock come to market
+ in recent weeks with no one biting.
+ He said, we literally couldn't find anyone in our pool
+ of hundreds of institutional investors to take these shares.
+ Meanwhile, he added that his buyers have suggested
+ that they have about $2 billion in cash,
+ ready to deploy into Anthropic.
+ Now, some are suggesting that the lack of demand
+ for open AI in the apparent interest in Anthropic
+ is simply about the Gulf and valuations.
+ Anthropic last raised at $380 billion,
+ but shares are currently changing hands
+ at up to a $600 billion implied valuation.
+ And for many, that still seems cheap compared
+ to the official $852 billion number for open AI.
+ Adam Crawley of Augment Capital said,
+ it's just better risk reward right now.
+ People are betting that Anthropic's valuation
+ will catch up with open AI's.
+ But if you buy open AI shares, it's less clear
+ what the return will be in the near term.
+ Now, this market dynamic has huge implications
+ as the two companies race to go public.
+ It is very important to note that it is not a one-to-one
+ comparison between public markets
+ and private market for secondaries,
+ but it still isn't a great sign
+ if you are on the open AI team
+ that there is some amount of exhaustion
+ in those secondary markets.
+ The dynamic could also mean that open AI
+ doesn't really have a choice to keep raising money
+ from private markets and has to go to IPO.
+ Anyways, we'll come back to IPO discussions
+ because that would be a big part of open AI story
+ later in the week.
+ Before that, though, we got upheaval in the C-suite
+ as there were several executive shuffles.
+ CEO of AGI deployment, Fiji Simo,
+ announced that she would be taking
+ several weeks of medical leave.
+ Simo suffers from a chronic neuroimmune condition
+ and had experience to relapse shortly
+ before beginning at open AI.
+ In a memo to staff, Simo said she had deferred
+ medical tests and new treatments
+ in order to commit full time to her role,
+ but after having caught up
+ on some of those tests recently, she said,
+ it's now clear that I've pushed a little too far
+ and I really need to try new interventions
+ to stabilize my health.
+ With her taking a step back,
+ President Greg Brockman will run the product organization
+ while Chief Strategy Officer Jason Kwan,
+ Chief Financial Officer Sarah Friar
+ and Chief Revenue Officer Denise Dresser
+ will take over the business and operations functions.
+ In addition to this, there were several
+ other leadership changes.
+ Brad Lightcap will be stepping down as COO
+ to begin her new role focused on special projects
+ which it sounds like will include leading the effort
+ to form joint ventures with private equity firms
+ as part of this larger sales and consulting play
+ that we've been tracking.
+ In addition to her function as Chief Revenue Officer
+ Denise Dresser will take on the COO role
+ and Chief Marketing Officer Katie Rausch
+ has stepped down to focus on her cancer recovery.
+ She will return in a more narrow role as her health allows
+ with former meta Chief Marketing Officer Gary Briggs
+ filling in for Rausch until OpenAI
+ can find a permanent replacement.
+ Now this to me very much does not read
+ as the type of leadership shakeup we've seen
+ from other labs as they really try
+ to get their ship in order.
+ It just kind of feels like a bunch of things
+ that have really bad timing.
+ Still, an executive reshuffle is basically the last thing
+ that OpenAI needs this year
+ as the competition with Anthropic heats up
+ and they shift their focus to preparing to IPO.
+ Indeed on that front over the weekend
+ we got reporting that IPO strategy
+ is a controversial topic among the leadership team.
+ The information reported that Sam Altman and CFO Sarah Fryer
+ are at odds over IPO timing and spending.
+ Altman reportedly wants to take the company public
+ in the fourth quarter with reports suggesting
+ he may even push to IPO ahead of Anthropic
+ who are targeting October to go public.
+ Now this is exactly what we talked about
+ in our prediction post where admittedly I said
+ that I thought that when push came to shove
+ no one would actually go public in 2026
+ but that if that changed it would be because
+ OpenAI wanted to get out ahead of Anthropic.
+ CFO Sarah Fryer for her part apparently doesn't believe
+ that OpenAI will be ready this year
+ due to the procedural and organizational work
+ required ahead of the IPO.
+ Information sources also said that Fryer is concerned
+ about the risks from OpenAI spending commitments.
+ Reportedly she has expressed skepticism
+ that OpenAI will need to pour so much money
+ into data centers
+ and also apparently has doubts
+ about OpenAI's revenue growth's ability
+ to support those spending commitments.
+ According to the most recent figures
+ Altman is committed to spend 600 billion
+ on infrastructure over the next five years
+ with OpenAI's forecast suggesting
+ that they will burn 200 billion before
+ turning a profit sometime towards the end of the decade.
+ The information sources also suggest
+ that this has gone beyond just a simple disagreement
+ suggesting that Altman has excluded Fryer
+ from some conversations about financial plans
+ including a recent conversation
+ about data center spending with a leading investor.
+ The sources commented that her absence was noticeable
+ and awkward given that she was present
+ for previous discussions.
+ Part of what makes this notable
+ is that Fryer was explicitly brought in
+ to have these types of tough conversations
+ and bolster investor confidence.
+ She had previously taken on a similar role at Square,
+ getting the company's books in order
+ and shepherding them to a successful IPO back in 2015.
+ One source said that Fryer has a hard job
+ saying quote, she's working with a founder
+ with big ambitions who wants to push the envelope
+ as hard as he can on spend.
+ I think it's always worth taking these stories
+ about executive disagreements with a grain of salt.
+ The information sourcing is generally good,
+ but it sounds like we're talking
+ about a single missed meeting here
+ and there are about a million reasons
+ why Fryer might have not been at that meeting
+ that don't come back to some Machiavellian psychodrama.
+ That said, to the extent that the meta story
+ that we're exploring is the ratcheting up of stakes
+ and the feeling of anticipation
+ as the acceleration gets closer,
+ this does feel like it could be
+ an example of that growing intensity.
+ Now, of course, the other big piece
+ of open AI news from last week
+ was their acquisition of tech talk show TBPN.
+ Now, many of you listening to this show
+ have probably come across TBPN,
+ but for those who haven't, the show is a video podcast
+ in the format of a daily talk show.
+ They stream for three hours a day
+ and have become a very desirable place
+ for tech executives, startup founders
+ and other commentators to show up
+ talking about whatever the most recent news is.
+ Part of why the story got so much traction
+ is that it came hot on the heels of Fiji Simo
+ mandating the cutting down of side quests
+ and to some seemed like exactly that,
+ despite the fact that it was reportedly Simo herself
+ who was pushing for the acquisition.
+ Reactions were wildly varied.
+ Any take that you have,
+ you can probably go find someone who had it
+ and who had it publicly on X.
+ There was a lot of confusion,
+ especially among more traditional commentators.
+ Warren Professor Paul Neri wrote,
+ open AI acquiring TBPN makes zero sense to me
+ and M&A Professor.
+ New York Times reporter Mike Isaac
+ argued that this was the culmination
+ of tech's frustration with mainstream media coverage,
+ a divide that has been growing for years now.
+ He wrote, the open AI buying TBPN story
+ is to me the biggest proof point yet
+ of CEO frustration with mainstream media coverage of tech
+ at a time when consumers are growing
+ increasingly skeptical of the effects of AI on society.
+ I see this as a marketing expense.
+ And indeed, that's what a lot of people thought about this.
+ That this was a way to try to present a better face
+ to open AI for the world.
+ Slow Ventures investor Jack Reigns writes,
+ everyone putting out the gigabrain future of marketing
+ and media or whatever it takes on TBPN
+ and trying to apply that to other media brands
+ is completely missing the point.
+ This isn't a pattern matching thing.
+ They aren't buying distribution.
+ Sam's Twitter has bigger distribution
+ than any tech media platform.
+ The real takeaway is that if you build
+ the right relationships with the right parties
+ that find your skill set useful,
+ they'll pay a gargantuan premium to work with you.
+ Same as ML researchers copying fat compensation packages.
+ One thing that's interesting though about this
+ is that if the goal really is to bring John and Doherty,
+ the founders and hosts of TBPN,
+ closer into the open AI fold,
+ the deal isn't really structured to do that.
+ Indeed, they wrote very strict
+ and clear editorial independence into the terms,
+ leading to attention pointed out by Simon Smith.
+ He writes, here's the TBPN issue for me
+ from a focused narrative standpoint.
+ Either it maximally supports
+ open AI's current focus on productivity,
+ in which case it can't have full editorial independence,
+ or it has full editorial independence
+ in which case it's a side quest.
+ Basically what Simon is arguing
+ is that it can't both actually stay
+ editorially independent and at arm's length
+ if it is supporting this new, more focused open AI.
+ There are also a few like Robert Scoble
+ who thought that this was some big new play
+ for the future of media.
+ He writes, what does TBPN have?
+ A great library of the biggest AI thinkers.
+ It's been interviewing the top CEOs every day
+ for more than a year.
+ That dataset gives TBPN and open AI a huge dataset
+ to train new models to do new kinds of journalism
+ and create a 24 hour a day TV channel
+ that's almost wholly AI generated
+ or at very minimum AI produced.
+ And frankly, I don't think this has anything to do with it.
+ I think all it comes down to is this.
+ For more than a year now,
+ open AI has felt the sting of being the company
+ most associated with the technology
+ that is to say the least very publicly controversial.
+ And for a couple of years,
+ the challenges inside the company
+ have made coverage even more difficult.
+ Meanwhile, they look over at TBPN
+ and it seems to have good media juju
+ and so the logic is buy them
+ and see if you can't get some of that lightning
+ in a bottle for yourself.
+ Ultimately, I think it's a tough play.
+ I think it creates some challenges for TBPN.
+ On the one hand, I don't think that people care overly
+ who owns different media properties.
+ But at the same time, at the very least,
+ I don't think open AI direct competitors
+ like Anthropic are gonna be particularly keen
+ to break news with them anymore.
+ To the extent that this is Fiji Simo in open AI
+ wanting to leverage the host talent outside of the show
+ because of their marketing instincts,
+ which is part of the logic that she shared internally.
+ I think that could certainly make sense for open AI
+ but also might not be best for the TBPN audience.
+ But I think that the single biggest challenge
+ is that TBPN indexes extremely highly
+ in a demographic that I don't think
+ is open AI's main problem.
+ TBPN has become the preferred
+ insider conversation space for tech
+ but at least so far hasn't broken
+ super far outside of tech circles.
+ I think going forward, not just open AI
+ but every AI's company's biggest challenge
+ from a communications perspective
+ is not going to be winning the narrative battle inside tech.
+ It's going to be with everyone else.
+ At the same time, ultimately,
+ we are in uncharted territory
+ and you kind of just have to make big moves
+ and see how they work.
+ All right, folks, quick pause.
+ Here's the uncomfortable truth.
+ If your enterprise AI strategy is we bought some tools,
+ you don't actually have a strategy.
+ KPMG took the harder route
+ and became their own client zero.
+ They embedded AI and agents across the enterprise,
+ how work gets done, how teams collaborate,
+ how decisions move,
+ not as a tech initiative
+ but as a total operating model shift.
+ And here's the real unlock.
+ That shift raised the ceiling on what people could do.
+ Humans stayed firmly at the center
+ while AI reduced friction,
+ serviced insight and accelerated momentum.
+ The outcome was a more capable,
+ more empowered workforce.
+ If you want to understand
+ what that actually looks like in the real world,
+ go to www.kpmg.us slash AI.
+ That's www.kpmg.us slash AI.
+ With the emergence of AI code generation in 2022,
+ NVIDIA Master Inventor and Harvard engineer Sid Pereschi
+ took a contrarian stance.
+ Inference time compute and agent orchestration,
+ not pre-training,
+ would be the key to unlocking
+ high quality AI-driven software development
+ in the enterprise.
+ He believed the real breakthrough
+ wasn't in how fast AI could generate code
+ but in how deeply it could reason
+ to build enterprise-grade applications.
+ While the rest of the world focused on co-pilots,
+ he architected something fundamentally different.
+ Blitzy, the first autonomous software development platform
+ leveraging thousands of agents
+ that is purpose-built for enterprise-scale code bases.
+ Fortune 500 leaders are unlocking
+ 5x engineering velocity
+ and delivering months of engineering work
+ in a matter of days with Blitzy.
+ Transform the way you develop software.
+ Discover how at blitzy.com.
+ That's blitzy.com.
+ Today's episode is brought to you by robots and pencils,
+ a company that is growing fast.
+ Their work as a high-growth AWS and Databricks partner
+ means that they're looking for elite talent
+ ready to create real impact at velocity.
+ Their teams are made up of AI native engineers,
+ strategists and designers
+ who love solving hard problems
+ and pushing how AI shows up in real products.
+ They move quickly using RoboWorks,
+ their agentic acceleration platform
+ so teams can deliver meaningful outcomes in weeks,
+ not months.
+ They don't build big teams.
+ They build high-impact nimble ones.
+ The people there are wicked smart
+ with patents, published research
+ and work that's helped shaped entire categories.
+ They work in velocity pods and studios
+ that stay focused and move with intent.
+ If you're ready for career-defining work
+ with peers who challenge you and have your back,
+ robots and pencils is the place.
+ Explore open roles at robotsandpencils.com slash careers
+ that's robotsandpencils.com slash careers.
+ You've heard me talk about assembly AI
+ and their insanely accurate voice AI models
+ but they just ship something big.
+ Universal 3 Pro is a first-of-its-kind
+ class of speech language model
+ that lets you prompt speech recognition
+ with your own domain context and vocabulary
+ instead of fixing transcripts and post-processing.
+ It's more flexible than traditional ASR
+ and more deterministic than LLMs
+ so you get accurate output at the source
+ and can capture the emotion behind human speech
+ that transcripts often miss,
+ all without custom models or post-processing hacks.
+ And to celebrate the launch,
+ they're making it free to try for all of February.
+ If you're building anything with voice,
+ this one's worth a look.
+ Head to assemblyai.com slash free offer to check it out.
+ Moving away from open AI, though,
+ their chief competitor, Anthropoc,
+ had one hell of a week themselves.
+ On Tuesday, an update to Claude Code
+ included 512,000 lines of source code for the platform.
+ Anthropoc quickly removed the code
+ but not fast enough for the internet,
+ where people began hosting the code
+ across various platforms.
+ Anthropoc's lawyers spent the following day
+ taking down over 8,000 GitHub repos
+ using copyright claims,
+ but as it turned out,
+ most of these repos weren't infringing
+ and were out of their control.
+ And out, most of these repos weren't infringing
+ and were actually forks of publicly released
+ versions of Claude Code.
+ Anthropoc's Boris Chirney later apologized
+ for the mistake and retracted
+ all but one of the takedown notices.
+ Anthropoc blamed the code release on human error
+ and did not imply a security breach.
+ The leak allowed us to learn
+ about a few unreleased features
+ that may be planned for Claude Code.
+ Perhaps most notably,
+ the repo included an always-on agent called Kyros,
+ which allows Claude Code to work in the background
+ and send periodic updates to a user's phone.
+ Kyros includes a Dream Mode,
+ which allows it to autonomously consolidate memory
+ across sessions,
+ and it can also work in a proactive mode,
+ allowing it to take initiative
+ and make progress without needing instructions.
+ On the other end of the spectrum of seriousness,
+ the code included a virtual pet feature called Buddies.
+ The Tamagotchi-like features used duck avatars
+ and the source code implied
+ that Anthropoc hooked to generate
+ what they called sustained Twitter buzz from the feature.
+ Others took a deep dive into the code
+ and found that Claude Code
+ is way more complex than it appears.
+ It contains five different compaction strategies
+ to compress context,
+ dozens of tools,
+ caching optimizations for sub-agents
+ and highly configurable system prompts.
+ Yuchen Jin wrote,
+ one thing is clear from reading the code,
+ harness engineering is hard and deeply non-trivial.
+ I think more AI wrapper startups
+ will try to win on product and harness first,
+ gain distribution,
+ and then post-train their own models later
+ like what cursor is doing.
+ Still somehow this wasn't the most negative news
+ for Anthropoc on the week.
+ Early in the week,
+ complaints around usage limits reached a fever pitch,
+ with many claiming they were smoking
+ through their usage in hours or even minutes.
+ Some even claimed they were capped out
+ after their first prompt to the session
+ when using opus.
+ Many suspected this was a bug
+ in the way that prompt caching was handled,
+ and the chatter grew so loud
+ that Anthropoc was forced to investigate.
+ On Thursday, Claude Code developer Lydia Halley
+ delivered the results, posting,
+ peak hour limits are tighter
+ and million token context sessions got bigger.
+ That's most of what you're feeling.
+ We fixed a few bugs along the way,
+ but none were overcharging you.
+ We also rolled out efficiency fixes
+ and added pop-ups in product
+ to help avoid large prompt cache misses.
+ Halley suggested that users should switch to Sonnet,
+ lower effort levels and start fresh sessions
+ instead of resuming after an hour.
+ Alex Volkov, host of the Thursday AI podcast,
+ represented the voices of many
+ when he found this response deeply unsatisfying.
+ He said, uh-oh, Anthropoc's official response
+ to everyone burning through their sessions
+ is, you're holding it wrong?
+ Come on.
+ I'm sure that this won't go well
+ with the thousands of folks
+ who experienced a significant decrease
+ in their ability to use their Pro and Max plans
+ and are canceling in favor of other solutions.
+ Now to cap it all off,
+ on Friday, Anthropic announced changes
+ to charge more for people using Claude
+ to manage their Open Claw.
+ As of Saturday,
+ users will no longer be able to use
+ their subscription for third-party tools.
+ Now to be clear,
+ you can still use Claude models to drive Open Claw,
+ but you have to do it on a paper token basis
+ via the API.
+ Open Claw creator Peter Steinberger
+ said he had tried to talk Open Claw out of this move
+ but only managed to delay the decision for a week.
+ Author Daniel Jeffries suggested
+ that this is about more than just the competitive dynamic
+ between Open Claw and Anthropic's Claude code.
+ He writes,
+ I agree that this is a dumb move,
+ but it was easily foreseeable.
+ I've been saying for a year and a half
+ that all of our subscriptions are heavily subsidized
+ and that the agent economy will be freaking incredible
+ but freaking expensive too.
+ All of those posts inevitably filled up with for now
+ and AI will be able to do the job for pennies
+ in your dreams.
+ Grade school maths as otherwise.
+ The agent economy is not cheap.
+ Anyone who thinks we will be running
+ super intelligent agents around the clock
+ on the most expensive chips ever made.
+ Chips that depreciate to worthless in three years
+ while running in data centers on nuclear power
+ is not doing the math.
+ Things do get cheaper over time,
+ but the key is over time.
+ The best models are more and more costly to build and run
+ and will be for a long time.
+ Barring some kind of revolutionary architecture
+ that replaces the transformer
+ with something much more memory efficient
+ or a wetware style chips that sit power or both.
+ Intelligence going up and to the right
+ keeps eating the bleeding edge of the best chips
+ and memory as fast as we can make them.
+ Older tasks will get cheaper and easier
+ and on-device models will be able to do cool things,
+ but those machines are not cheap either
+ unless you think 4Mac Studio's network together is cheap.
+ This smashes the AI does all the jobs theory
+ to little bitty pieces.
+ Good, it's terrible PR for the industry
+ to keep babbling on about it anyway.
+ True intelligence will be like paying
+ for a full-time salary to people
+ and then the calculation of whether it's just cheaper
+ and less error prone to throw more people
+ at the problem comes into play.
+ Hint, it's usually not cheaper to use the machine.
+ All this is not to say that agents
+ are not incredible and valuable,
+ but the subsidy era is coming to an end.
+ It always was.
+ And everything just happens faster in the age of AI.
+ I think this is a super, super salient point
+ and one that we are going to be watching much more closely
+ because if Daniel is right
+ and that if we're actually about to see
+ what it really costs to run these highly intelligent models
+ and that that cost looks a lot closer to human salaries,
+ then we think it does,
+ obviously that has pretty dramatic implications
+ for the whole jobs conversation.
+ On the other end of the spectrum,
+ Google actually increased its open-source capabilities
+ with the release of Gemma 4.
+ The new model is the latest in Google's open-source family
+ and represents a significant jump in capabilities.
+ Google claims the model family delivers state-of-the-art
+ performance across four different sizes.
+ The lineup includes 2B and 4B models for small-edge devices
+ as well as a 26 billion mixture of experts model
+ and a 31 billion dense model.
+ The 31B model is currently ranked at number 3
+ on the Arena AI text leaderboard for open-source models
+ behind Kimmi K2.5 Thinking and ZAI's GLM 5.
+ The models are optimized to deliver
+ strong coding and agentic performance with Google writing.
+ This new level of intelligence per parameter
+ means achieving frontier-level capabilities
+ with significantly less hardware overhead.
+ The models are built on the same architecture
+ that underpins Gemma 9 models,
+ meaning you can expect a similar feature set.
+ Now, this is the first Western open-source model
+ competing at this level in years
+ and could have big implications.
+ Greg Eisenberg wrote,
+ thinking about Google's Gemma 4 and what it means.
+ A few months ago, running something
+ that's capable locally meant serious hardware
+ and serious trade-offs on quality.
+ Now it runs on your laptop, works offline on your phone,
+ speaks 140 languages natively,
+ 256K context window, cost nothing,
+ LOL performs better than models 20X its size,
+ and you can swap it in as your model in cloud code,
+ cursor, Hermes or open-claw right now.
+ Okay, here we go.
+ It's a good time too because in China,
+ Alibaba continues its shift away from open-source.
+ Alibaba released three proprietary models in three days,
+ culminating in the release of Quen 3.6 Plus on Thursday.
+ Even though this is closed,
+ it's still in the good enough performance
+ plus better cost camp.
+ For example, it lags Opus 4.5
+ by a few points on SWE Bench verified,
+ has full multimodal capabilities
+ and utilizes a million token context window,
+ but cost is massively reduced at around 1 eighth of Opus.
+ This release reinforces Alibaba's new strategy
+ of proprietary models
+ to capture more revenue from their models.
+ Last month, three senior researchers,
+ including Quen's team lead,
+ stepped away from Alibaba,
+ and a week later CEO Eddie Wu announced
+ that he would take personal leadership
+ of the AI division
+ with a new focus on revenue maximization.
+ Early returns seem to validate the strategy.
+ The Quen team announced on Friday
+ that their new model was ranked number one
+ on open router and to become the first model ever
+ to serve a trillion tokens on release day.
+ And of course,
+ as a result of their shift to proprietary models,
+ 100% of those token sales flow
+ to Alibaba's bottom line.
+ Meanwhile, China's tech giants
+ are ramping up GPU deployments
+ ahead of the new DeepSeq model.
+ The information reports that DeepSeq V4
+ is expected to finally arrive
+ over the next few weeks.
+ The hotly anticipated release
+ could also be a watershed moment
+ for China's semiconductor industry
+ and their quest for self-sufficiency.
+ Sources said that orders are pouring in
+ for new Huawei chips to serve the new model.
+ Each of the tech giants
+ have ordered hundreds of thousands of the unit
+ with the chip expected to begin mass production this month.
+ Part of the reason the DeepSeq model
+ was delayed for this long was last-minute optimizations
+ to run on Huawei hardware.
+ DeepSeq has spent the last few months
+ working directly with Huawei,
+ including developing two variant models
+ designed specifically for the chips.
+ Staying in model release world for a moment,
+ Microsoft is also keeping
+ their super intelligence dream alive.
+ On Thursday, Microsoft released three new models
+ built for transcription, voice, and image generation.
+ None of the models are particularly notable,
+ except insofar as they demonstrate
+ that Microsoft is back in the model training game.
+ The last model for Microsoft was MAI-1 Preview,
+ which was showcased last August
+ but never publicly released.
+ This range of models won't make a splash externally,
+ but Microsoft plans to deploy them under the hood
+ as a cost-cutting measure in products like Microsoft Teams,
+ which uses voice recognition and transcription at scale.
+ Last month, AI CEO Mustafa Suleyman
+ was taken off commercial AI projects
+ so he could focus solely on model training,
+ with these small models
+ seeming to be the first fruits of that change.
+ While the current status is modest,
+ Suleyman has big ambitions.
+ In an interview with Bloomberg, he said,
+ we must deliver the absolute frontier,
+ certainly by 2027, the objective
+ is to really get to state of the art.
+ Microsoft is putting resources behind the effort,
+ standing up a training cluster
+ of NVIDIA GB200 Blackwell chips in October.
+ Suleyman said, from there,
+ we're ramping up over the next 12 to 18 months
+ to get to frontier-scale compute.
+ Separately, it seems that co-pilot sales are back on track.
+ On Thursday, commercial CEO Judson Altoff
+ told staff that they had hit sales goals
+ for the first quarter.
+ He didn't disclose a number,
+ but said leadership had set some pretty big audacious goals.
+ At the beginning of the year, Microsoft disclosed
+ that only 3% of Office 365 subscribers
+ had purchased the $30 a month co-pilot add-on.
+ And while new bundles have changed the way
+ that co-pilot is sold,
+ improving sales are still a positive sign.
+ Microsoft has also folded in
+ thropic models into their offering,
+ now pitching co-pilot as a way to access
+ all the best models through their secure platform.
+ Co-pilot sales, however,
+ will remain the major focus.
+ With Altoff telling staff,
+ we're in a dogfight right now,
+ each and every day at the face of every single customer.
+ On the compute and data center side,
+ the Iran War and the associated energy shock
+ is putting data center plans on hold
+ as AI joins the front lines.
+ Last Wednesday, the Iranian Revolutionary Guard
+ declared that 18 US tech companies
+ are now legitimate targets,
+ their words for retaliation.
+ The list included Nvidia, Apple, Microsoft, and Google,
+ with IRGC comms linking tech companies
+ to AI enhanced targeting deployed in the war.
+ An IRGC telegram account declared,
+ from now on for every assassination,
+ an American company will be destroyed.
+ We already saw three Amazon data centers in Bahrain
+ and the UAE hit by drones
+ in the opening salvos of the war,
+ so this threat could make further construction
+ in the Middle East unviable.
+ In a less direct way,
+ the energy shock is spurring a rethink
+ on data center locations.
+ Bloomberg reports that projects across Asia
+ are being scrutinized through a new lens.
+ Asia is far more dependent on energy imports
+ than Europe or the Americas,
+ so that region is first to come into question.
+ According to a Deloitte report from February,
+ 800 billion in data projects are planned
+ across Asia by the end of the decade,
+ but obviously these changes
+ could have pretty big implications for that.
+ In the US, the limitation isn't energy supply,
+ but rather energy infrastructure.
+ Bloomberg reports that more than half of US data centers
+ are expected to face delays or cancellation
+ due to a lack of electrical equipment.
+ The infrastructure isn't in place
+ and components like transformers,
+ switchgear and batteries are in short supply.
+ Now, electrical infrastructure
+ is a relatively small part of data center projects
+ representing just 10% of total cost,
+ but domestic supplies failing to keep pace
+ and imports present a new set of supply chain challenges.
+ Andrew Likens, the energy and infrastructure lead
+ for data center developer Crusoe said,
+ if one piece of your supply chain is delayed,
+ then your whole project can't deliver.
+ It's a pretty wild puzzle at the moment.
+ Now heading into this week,
+ it feels like we're on the verge of the next set of models.
+ Many people commented on what if some thought
+ was a new image model from open AI,
+ which appeared on arena AI over the weekend.
+ In fact, there were three models
+ codenamed masking tape, gaffer tape and packing tape,
+ each of which showed strong world knowledge
+ and text rendering.
+ Some think this might be a first look
+ at the forthcoming SPUD model,
+ which will be the first open AI LLM
+ with native multimodal training.
+ Now for now it's just speculation
+ and we don't know exactly what the model will be,
+ but if there is a lot of excitement
+ and anticipation around it.
+ And the word from inside the labs,
+ which dovetails with what we heard
+ about the anthropic mythos model,
+ is that the next set of models that we're going to get
+ are going to represent a major shift.
+ In fact, the changes are enough
+ that on Monday morning, just as I began recording,
+ open AI dropped what is effectively
+ a new social contract thought starter,
+ which I imagine will be a big part of our show tomorrow.
+ The first line says it all.
+ As we move towards superintelligence,
+ incremental policy updates won't be enough.
+ So friends, like I said,
+ those are the most important stories
+ from the last week or so,
+ but it feels like we were on the verge
+ of something much bigger.
+ For now, that's gonna do it for today's AI Daily Brief.
+ Appreciate you listening or watching as always.
+ Until next time, peace.
