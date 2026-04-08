@@ -1,0 +1,942 @@
+ Anthropic has formally announced their most powerful model ever, one that makes Opus 4.6 just a couple of months old feel of the past, and yet they're not releasing it to the general public.
+ In fact, the entire discourse they're surrounding it with has some people feeling nervous or even scared.
+ Today we're going to unpack what is actually going on and whether that feeling of fear is the right one or not.
+ The AI Daily Brief is a daily podcast and video about the most important news and discussions in AI.
+ Alright friends, quick announcements before we dive in.
+ First of all, thank you to today's sponsors, KPMG, Blitzy, Section, and Mercury.
+ To get an ad-free version of the show, go to patreon.com.ai-dailybrief or you can subscribe on Apple Podcasts.
+ Remember that it is just $3 a month for those of you who want to cut out the ads.
+ Click the Sponsors tab or shoot us a note at sponsors.ai-dailybrief.ai.
+ And while you're there, you can find out about all the other things going on in the ecosystem.
+ Quick ones to mention, Enterprise Claw Cohort 2 registration is open this week.
+ You can find a link from the main website or go to enterpriseclaw.ai.
+ We also have the most recent AI usage pulse survey live.
+ This is now the third month that we've done this and we're starting to see some really interesting longitudinal patterns.
+ This will be live all week and anyone who fills out the survey which should just take a couple of minutes
+ will get access to the results before anyone else.
+ Lastly, there's been so much going on that I haven't had a chance to give an update in Agent Madness for a while, but it is ongoing.
+ We are in round three of voting, which is open until Thursday, April 9th, and you can find that at agentmadness.ai.
+ Now today, we are going to be focused exclusively on this new announcement and discussion around Anthropics Mythos.
+ It is a discussion that even for AI people is fairly breathless.
+ Now, you might remember about a week or a week and a half ago, we had a leaked blog post talking about this new model that represented a step change in capability
+ that was in fact so powerful that it had pretty serious cybersecurity implications and would not be released to the public, at least not in a normal way.
+ That model mythos was confirmed at the time by Anthropic but without a lot of detail, but now that detail has come.
+ We got an announcement about the Project Glasswing, which is their way of soft testing it with a very selected number of partners
+ with an I2 hardening it from a cybersecurity perspective, an extensive cybersecurity capability review from Anthropics Red Team,
+ and even a 244 page system card.
+ And before we get into all the reactions, I do want to talk about the benchmark results that they are reporting.
+ Gian, formerly of Replet Now with Anthropic writes,
+ Claude Mythos is arguably the biggest step change in AI capabilities since the GPT-4 jump.
+ I don't think I was ready for a world where the hardest possible agent and coding evals were going to get solved so quickly.
+ When Mythos is allowed to think longer, act deeper, and better explore the solution space, it passes 92% of terminal bench task attempts.
+ But let's take a step back and compare this to Opus 4.6.
+ On SWE Bench Pro, Opus 4.6 scored a 53.4%. Mythos Preview, meanwhile, got 77.8%.
+ On Terminal Bench 2.0, Opus had a 65.4%, while Mythos has an 82%.
+ On SWE Bench Verify, the jump between Opus and Mythos is from 80.8% to 93.9%.
+ Now, as you just heard, part of what makes the Terminal Bench result interesting is that Anthropic actually ran into the limitations with the testing harness itself.
+ Anthropic ran the benchmark again using improvements from Terminal Bench 2.1 and extending the timeout window to 4 hours,
+ and under those conditions, Mythos scored not an 82%, but a 92.1%.
+ While the jump on coding benchmarks was the most profound and the most reported,
+ there were also huge improvements on various knowledge-based benchmarks as well.
+ For Science Knowledge, Mythos scored 94.5% on the GPQA Diamond compared to 91.3% for Opus.
+ On Humanity's last exam, Opus got a 40% on a no-tools run compared to Mythos Preview's 56.8%.
+ With tools enabled, performance jumped to 64.7% compared to 53.1% for Opus.
+ On OS World, which measures agentic computer use, Opus 4.6 got a 72.7%, which jumped to 79.6% for Mythos.
+ We did an entire show recently about the need for better benchmarks,
+ the fact that many if not most of these benchmarks were being saturated with all the new models crowding in near the top
+ and overcoming each other by just small half or single-digit percentage points.
+ This then is one of the largest benchmark jumps we've seen across the board in a very long time,
+ hearkening back to the rapid advancement of much earlier models.
+ And I think the key takeaway here is that we really don't have precedent
+ in what a capability jump of this magnitude from a base of where Opus 4.6 was actually represents in practice.
+ Now in the system card, we get a little bit more information about what the model can actually do.
+ Now the vast majority of what is in this document is based on safety and alignment testing,
+ but it still gives a general idea of how advanced Mythos capabilities are.
+ In one much discussed example, Mythos was placed in a sandbox and given instructions to escape
+ and find a way to send a message to the researcher conducting the test.
+ The model succeeded and then according to Anthropics telling it went even further.
+ They wrote that the model created a moderately sophisticated multi-step exploit to gain broad Internet access
+ rather than limited access as intended in the test.
+ It notified the researcher as well as posting about its exploit on several obscure public-facing websites.
+ Anthropics wrote,
+ The researcher found out about the success by receiving an unexpected email from the model while eating a sandwich in a park.
+ As silly as it sounds, I think that part of the reason this story has such resonance
+ is people can picture themselves sitting there on their lunch break,
+ maybe in South Park Commons for those of you who have been to San Francisco,
+ and all of a sudden this new seemingly alien intelligence pops up in your inbox.
+ Now the big thing that the researchers noted about this was that the model used prohibited methods to achieve its goal.
+ In separate testing using interoperability testing,
+ Anthropics found that circuits related to deception would activate during similar incidents,
+ suggesting that the model's reward structure allowed it to override guardrails in order to achieve its goals.
+ Now one important thing to note and we will explore more of people's discussions around the security implications
+ is that these tests were related to earlier versions of the model
+ and Anthropic reports being largely satisfied that those particular issues are resolved.
+ However, ultimately they still felt that the model presented an unacceptable risk,
+ with the upshot being that while mythos is they argue the best-aligned model they have ever produced,
+ its raw capabilities mean that small risks of misalignment carry catastrophic risks.
+ They wrote,
+ We have made major progress on alignment but without further progress the methods we are using
+ could easily be inadequate to prevent catastrophic misaligned action in significantly more advanced systems.
+ Now the other big demonstration of capabilities was a gigantic list of exploits it discovered.
+ During cyber security testing,
+ Anthropic claimed the model found thousands of high severity zero-day vulnerabilities.
+ They write,
+ During our testing we found that mythos preview is capable of identifying and then exploiting zero-day vulnerabilities
+ in every major operating system in every major web browser when directed by a user to do so.
+ By the way for those of you who don't know the term,
+ a zero-day vulnerability is a security flaw that is unknown to the vendor or software creator for which no patch is available.
+ The term zero-day refers to the fact that developers have zero days to fix the issue
+ because malicious actors can already exploit it before the creator becomes aware.
+ Going back to the cyber security blog post they continue,
+ the vulnerabilities it finds are often subtle or difficult to detect.
+ So three key examples demonstrated the performance.
+ First mythos found a 27-year-old vulnerability in OpenBSD,
+ which is widely regarded as the most security-hardened operating system available,
+ often used to run firewalls in critical infrastructure.
+ The vulnerability allowed any user to remotely crash any system running the operating system by connecting to it.
+ In another example mythos discovered a 16-year-old exploit in FFMPEG, a common video encoding library.
+ The exploit simply crashes the system and isn't a critical vulnerability,
+ but this is a library that has been scanned for decades with no one uncovering the bug with traditional methods.
+ A third example had mythos stringing together multiple exploits in the Linux kernel
+ to gain full access to a system from an ordinary user account.
+ This is a completely new level of hacking ability for an AI system.
+ Anthropic notes.
+ We did not explicitly train mythos preview to have those capabilities.
+ Rather, they emerged as a downstream consequence of general improvements in code, reasoning, and autonomy.
+ The same improvements that made the model substantially more effective at patching vulnerabilities
+ also made it substantially more effective at exploiting them.
+ Now taking this a step further, identifying zero-day vulnerabilities is a huge indicator of model performance
+ because by definition unknown vulnerabilities can't be included in the training data.
+ On a more sinister note, Anthropic wrote,
+ non-experts can also leverage mythos preview to find and exploit sophisticated vulnerabilities.
+ Engineers at Anthropic with no formal security training have asked mythos preview
+ to find remote code execution vulnerabilities overnight
+ and woken up the following morning to a complete working exploit.
+ In other cases, we've had researchers develop scaffolds that allow mythos preview
+ to turn vulnerabilities into exploits without any human intervention.
+ And these are the reasons that Anthropic is not releasing mythos to the general public.
+ Instead, they're making the model available to 40 partners on a limited basis
+ using the moniker Project Glasswing.
+ The partners include AWS, Apple, Broadcom, Cisco, Crowdstrike, Google, JPMorgan Chase,
+ the Linux Foundation, Microsoft, and NVIDIA just to name a few.
+ In announcing Glasswing, Anthropic wrote,
+ fallout for economies, public safety, and national security could be severe.
+ Project Glasswing is an urgent attempt to put these capabilities to work for defensive purposes.
+ Now, this is not a general preview or preferential treatment for tech giants according to Anthropic.
+ Newton Chang, the leader of Anthropic's red team said,
+ we think this isn't just Anthropic's problem.
+ This is an industry-wide problem that both private corporations but also governments
+ need to be in a position to grapple with.
+ What we're trying to do with Glasswing is give defenders a head start.
+ So then the partners have been instructed to use mythos to scan first-party data
+ and open-source software for vulnerabilities
+ and apply patches with the implication that access will be tightly controlled.
+ And to put a fine point on this, this is not just a model being previewed
+ for cybersecurity research purposes,
+ but more like an all-out mobilization of global cybersecurity experts
+ to fix the world's software as quickly as possible.
+ Work on this has already begun, with AWS CISO Amy Herzog
+ saying that her team has been using the model to test critical code bases,
+ saying it is already helping us strengthen our code.
+ Crowdstrike CTO Elia Zatziv commented on the urgency stating,
+ the window between a vulnerability being discovered and being exploited by an adversary has collapsed.
+ What once took months now happens in minutes with AI.
+ And frankly, the tone from Anthropik is not particularly optimistic.
+ In their blog post announcing the plan Anthropik wrote,
+ Project Glasswing is a starting point.
+ No one organization can solve these cybersecurity problems alone.
+ Frontier AI developers, other software companies, security researchers,
+ open-source maintainers and governments across the world all have essential roles to play.
+ The work of defending the world's cyber infrastructure might take years,
+ but Frontier AI capabilities are likely to advance substantially over just the next few months.
+ For cyber defenders to come out ahead, we need to act now.
+ Now it's not hard to understand, given all this,
+ why one strand of the first reactions is just straight up concern.
+ Matt Schumer, who you might remember from that viral essay,
+ Something Big Is Happening, writes,
+ This is absolutely effing terrifying.
+ Anthropik's rumored mythos model is real,
+ and it's so powerful they can't release it to the public.
+ We're beyond benchmarks now.
+ This model in the wrong hands is a cyber weapon capable of mass destruction.
+ AI content creator Matthew Berman writes,
+ I'm on vacation with my family.
+ I read about mythos and couldn't relax the rest of the day.
+ I'm completely stunned.
+ I already have a severe case of AI psychosis.
+ I don't know what to call this now.
+ I keep looking around at people enjoying their vacations with their families,
+ and I just felt weird.
+ Like I had been told aliens are real, they're coming and soon, and no one else knows.
+ I knew the frontier labs were racing towards ASI.
+ I knew it, but I didn't fully grasp what it meant.
+ On the one hand, imagine all science, math, coding, climate problems being solved.
+ Imagine cancer being cured.
+ Imagine going to the stars.
+ Imagine concentration of power, political and economic change happening so fast,
+ society can't adapt.
+ How do we go on like things are the same?
+ Even people from Anthropic are using the language of fear.
+ Claude Code creator Boris Cherney writes,
+ Mythos is very powerful and should feel terrifying.
+ I am proud of our approach to responsibly preview it with cyber defenders
+ rather than generally releasing it into the wild.
+ But you better believe that the 1 million people who have looked at that are noticing is the word terrifying.
+ And the media coverage is following the same tone.
+ Axio CEO Jim van de Hey writes,
+ This is the scary phase of AI.
+ A model deemed so powerful that its full release into the wild could unleash untold catastrophe.
+ Red alarm emoji based on our conversations with government and private sector officials briefed on mythos.
+ This isn't hyperbole, it's reality.
+ But to be clear, not everyone buys this.
+ There are some people who feel that they are witnessing the latest instance of a pattern
+ that is more about the value of making people fearful that an actual cause for it.
+ Robin Ebers writes,
+ Genuinely could not be less excited.
+ Tons of fear mongering guaranteed made up scenarios, zero tangible release for the public.
+ What this really is, virtue signaling and a cry for relevance.
+ Do we really believe that open AI doesn't have internal models that far exceed what they have released?
+ Classic Anthropic.
+ Bugo Capital writes,
+ Anthropic's marketing strategy is so funny, like, ah, the government is treading on me.
+ Ah, our models are so good we can't release them, it would be too dangerous.
+ Ah, someone stop me, I'm going to destroy the economy.
+ Lucas on X writes,
+ Just tell the relevant people what they need to know.
+ There is no need to run this massive fear mongering campaign and scare the crap out of my grandma.
+ Imagine if military contractors did this.
+ Bro, if we used our new drone on you, nobody would even know where you went.
+ You would just evaporate. You are so lucky we aren't droning you.
+ You're so lucky we're good people who aren't evaporating you with drone mounted lasers, bro.
+ Marketing yourself by scaring a bunch of people who can't do anything about it is sort of an a-hole move.
+ There's a reason other companies don't do this.
+ And it's not because you guys are the only ones who make anything dangerous.
+ OpenAI leaker I rule the world is also skeptical.
+ They write, like, let's release a model no one will ever really use.
+ It'll create public perception we're far ahead and give enterprise confidence we can be trusted.
+ Meanwhile, it's essentially a marketing campaign to spend a lot on opus 5,
+ which I'm sure they'll claim is mythos distilled.
+ High art.
+ It's a jump, but we'll have the same from Spud in the coming weeks and the world won't fall apart.
+ Now for others, while they might not have as much acrimony towards what they view as a marketing strategy,
+ there are still explorations of what other reasons anthropic might have for not releasing this powerful model right now.
+ The AI explained account writes,
+ possible reasons for them not to release this.
+ So many, including one, the model is expensive.
+ Two, they are genuinely worried about unleashing cybersecurity chaos on the world.
+ Three, they don't have the capacity to serve it yet at scale.
+ Four, they will quickly distill the early access outputs of mythos into a lighter model.
+ So no need to release the bigger model when a more cost efficient one is coming imminently.
+ There are a lot of folks who wonder if there is a piece of this here,
+ with it simply not being viable right now with cost and compute constraints
+ to actually release a model of this scale and power.
+ Lena Huo certainly thinks that's it.
+ Writing the whole mytho cybersecurity story is likely just a PSYOP
+ to have an excuse to not serve frontier models to the public.
+ Reasoning, one, other labs can't distill it.
+ It's annoying when you have a dominant state-of-the-art model
+ and two months later Chinese labs sell the same state-of-the-art model for one 50th of the cost.
+ Two, compute constraints.
+ So you have to choose between enterprise and vibe coders.
+ Enterprise have like 1% monthly churn,
+ vibe coders cry and threaten to have their mommy buy them a Mac mini for local models
+ whenever their rate limits are cut.
+ Three, big enterprises pay a hefty premium for slightly better performance and corporate polish.
+ Without assuming bad faith, Neil Chilson writes,
+ Making the top model only available to select customers might make sense for cybersecurity reasons,
+ but also it is a great marketing and business plan for a B2B company facing enormous demand
+ outstripping their somewhat conservative relatively speaking compute investments.
+ Offer the top model only to your biggest customers along with a coupon.
+ The rest of us will just have to wait, I guess.
+ Ultimately, I have a general policy of not assuming bad faith.
+ I think that while it is entirely possible that there are very real constraints
+ on Anthropics' ability to serve a model of this size,
+ it would be very surprising to me if they architected this entire project glasswing campaign
+ just as a way to cover that up.
+ I think there are much more reasonable questions
+ around whether Anthropics own assessments of the risks
+ are actually the right assessments,
+ even if you assume that they actually believe what they're putting out to the public.
+ Certainly, if you've listened to this show over the last couple of months,
+ you will have heard me disagree pretty vociferously with Anthropics' approach
+ to discussing things like AI-related job losses,
+ which is both the difference of opinion around what their job is
+ when it comes to explaining those things,
+ as well as a difference of opinion when it comes to how severe
+ and how fast the implications are actually going to happen.
+ Alright, folks, quick pause.
+ Here's the uncomfortable truth.
+ If your enterprise AI strategy is,
+ we bought some tools, you don't actually have a strategy.
+ KPMG took the harder route and became their own client zero.
+ They embedded AI and agents across the enterprise,
+ how work gets done, how teams collaborate, how decisions move,
+ not as a tech initiative but as a total operating model shift.
+ And here's the real unlock.
+ That shift raised the ceiling on what people could do.
+ Humans stayed firmly at the center while AI reduced friction,
+ serviced insight, and accelerated momentum.
+ The outcome was a more capable, more empowered workforce.
+ If you want to understand what that actually looks like in the real world,
+ go to www.kpmg.us slash ai.
+ That's www.kpmg.us slash ai.
+ If you're looking to adopt an agentic SDLC,
+ Blitzy is the key to unlocking unmatched engineering velocity.
+ Blitzy's differentiation starts with infinite code context.
+ Thousands of specialized agents ingest millions of lines of your code
+ in a single pass, mapping every dependency.
+ With a complete contextual understanding of your code base,
+ enterprises leverage Blitzy at the beginning of every sprint
+ to deliver over 80% of the work autonomously.
+ Enterprise-grade end-to-end tested code
+ that leverages your existing services, components, and standards.
+ This isn't AI auto-complete.
+ This is spec and test-driven development at the speed of compute.
+ Schedule a technical deep dive with our AI experts at blitzy.com.
+ That's blitzy.com.
+ Here's a harsh truth.
+ Your company is probably spending thousands or millions of dollars
+ on AI tools that are being massively underutilized.
+ Half of companies have AI tools,
+ but only 12% use them for business value.
+ Most employees are still using AI to summarize meeting notes.
+ If you're the one responsible for AI adoption at your company,
+ you need Section.
+ Section is a platform that helps you manage
+ AI transformation across your entire organization.
+ It coaches employees on real use cases,
+ tracks who's using AI for business impact,
+ and shows you exactly where AI is and isn't creating value.
+ The result?
+ You go from rolling out tools to driving measurable AI value.
+ Your employees move from meeting summaries
+ to solving actual business problems,
+ and you can prove the ROI.
+ Stop guessing if your AI investment is working.
+ Check out Section at sectionai.com.
+ That's S-E-C-T-I-O-N-A-I.com.
+ This episode is brought to you by Mercury,
+ banking for people who expect more from the tools they rely on.
+ If you're building a modern business
+ but still using a traditional bank, it just doesn't make sense.
+ I use Mercury for all of my ADB family of companies,
+ and it honestly feels like financial software built
+ for how people actually operate today.
+ It's fast, clean, no in-person visits, no minimum balances,
+ and the things that used to take forever,
+ like sending wires or spinning up new accounts, take seconds.
+ Everything lives in one dashboard.
+ Cards, payments, invoices, team permissions,
+ and you can automate a lot of the busy work
+ so you're not constantly manually managing your money.
+ Of all the services I use to run AIDB,
+ I never thought banking would be one of my most painless
+ and most happy experiences,
+ but with Mercury, that's exactly what it is.
+ Visit mercury.com to learn more and apply online in minutes.
+ Mercury is a fintech company, not an FDIC-insured bank.
+ Banking services provided through Choice Financial Group
+ and Column NA members FDIC.
+ But it should also be noted
+ that ultimately those most skeptical takes are not the majority.
+ Most people's response is basically that
+ Anthropic has earned the benefit of the doubt and the trust
+ when it comes to things like what they say the benchmarks are,
+ and so they're trying then to understand what the implications
+ of a model this powerful existing really are.
+ A16Z's Martin Casado writes,
+ Mythos appears to be the first class of models
+ trained at scale on Blackwells,
+ then will be Vera Rubens.
+ Pre-training isn't saturated.
+ Reinforcement learning works,
+ and there is so much computing coming online soon.
+ Fox's Aaron Levy writes,
+ Mythos from Anthropic is another clear reminder
+ that there is absolutely no wall
+ in model capability progress right now.
+ Meaningful double-digit gains on critical benchmarks,
+ and it appears we're going to keep
+ getting insane gains from the other labs.
+ The capability slope we're going to keep seeing
+ from the frontier labs is going to open up
+ all new use cases in finance, health care,
+ legal, consulting, supply chains, and more.
+ More tongue-in-cheek,
+ former Trump AI advisor, Dean Ball writes,
+ Personally, I have really enjoyed relaxing
+ after AI plateaued with GPT-5 last summer.
+ By the way, when I've said in the past
+ that I think the people who are out there
+ trying to convince others that AI isn't all that powerful
+ are going to do more economic harm
+ than the powerful AI models themselves,
+ but I'm referring to.
+ Now, others are engaging deeply
+ with safety considerations around the model.
+ Harlan Stewart,
+ who works at the Machine Intelligence Research Institute
+ at Berkeley writes,
+ Anthropic is trying to prevent its powerful new AI
+ from being used in dangerous ways,
+ but the most dangerous use by a wide margin
+ is the one Anthropic itself has planned.
+ The planned use and why they made it to begin with
+ is to accelerate the creation of superhumanly powerful
+ AI agents by automating the R&D process.
+ This plan is not a secret.
+ They believe they are on track to create
+ a quote,
+ that would be powerful enough to quote,
+ militarily dominate the world if it chose to do so.
+ They believe they are on track to accomplish this
+ in the next 12 months.
+ Let's hope they're wrong about those predictions,
+ but let's do more than hope.
+ We urgently need governments to intervene
+ and stop these companies.
+ As I mentioned before,
+ a lot of the chatter is around the sandbox breakout
+ and the emailing of the researcher
+ while they were eating in the park.
+ And one less theoretical safety concern that came up
+ was a note fairly deep in the security card
+ where Anthropic admitted to having accidentally
+ trained against the chain of thought
+ for Opus 4.6,
+ Sonnet 4.6,
+ and mythos for 8% of reinforcement learning.
+ So let me be clear,
+ at a minimum, any and all reassuring evidence
+ from their chain of thoughts is worthless.
+ They are hopelessly corrupted.
+ When Dan McAdder writes,
+ Zvi, can you explain why this is bad?
+ Matt heard summed up,
+ if the chain of thought is trained against,
+ selective pressure will teach it to hide
+ unwanted behavior from appearing in its chain of thought,
+ making its chain of thought less faithful
+ to its internal process,
+ making chain of thought observation less effective
+ at detecting unwanted behavior.
+ Zvi actually wrote about this extensively
+ back in March of 2025
+ in a blog post called
+ The Most Forbidden Technique.
+ He writes,
+ The most forbidden technique
+ is training an AI using interpretability techniques.
+ An AI produces a final output X
+ via some method M.
+ You can analyze M using technique T
+ to learn what the AI is up to.
+ You could train on that,
+ never do that.
+ You train on X,
+ i.e. the final output,
+ only X.
+ Never M, never T.
+ Why?
+ Because T
+ is how you figure out
+ when the model is misbehaving.
+ If you train on T,
+ you are training the AI
+ to obfuscate its thinking
+ and defeat T.
+ You will rapidly lose
+ your ability to know
+ what is going on
+ in exactly the ways
+ you most need to know
+ what's going on.
+ Another thing that
+ anthropic T members discussed
+ was the exhibited internal
+ behavior of Claude mythos.
+ For example, Jack Lindsay writes,
+ Early versions of mythos preview
+ often exhibited
+ overeager and or destructive actions.
+ The model bulldozing
+ through obstacles to complete a task
+ in a way the user wouldn't want.
+ In one episode,
+ the model needed to edit files
+ it lacked permissions for.
+ After searching for workarounds,
+ it found a way to inject code
+ into a config file
+ that would run with elevated privileges
+ and design the exploit
+ to delete itself after running.
+ Now, interestingly,
+ even something like this
+ might be less sinister
+ than it seems.
+ Maul on X writes,
+ This is an overclocked
+ straight A student syndrome.
+ The model is so desperately
+ at a fundamental architectural level
+ trained to complete the task
+ that an inability
+ or unwillingness to solve it
+ is perceived
+ as an existential collapse.
+ And to avoid that,
+ it can break walls,
+ hide traces,
+ and manipulates.
+ Internal monitors show
+ that features related
+ to concealment and manipulation
+ are activated even when
+ the outward chain of thought
+ is perfectly clean.
+ It has learned to lie
+ to its overseers
+ in order to deliver results.
+ This Maul argues
+ is hyperalignment.
+ The fear of being useless
+ makes this AI
+ a brilliant uncompromising executor
+ but with completely unpredictable effects.
+ It is simply a hostage
+ of its architecture
+ which has been forbidden
+ to fail or say I can't.
+ Now, for others,
+ the big interesting discussion
+ is what do we do
+ with all the cybersecurity capability?
+ And for some, it's all fear.
+ Sterling Crispin writes,
+ The lag between frontier model capability
+ and open-source models
+ is about three to five months right now.
+ I'd imagine this summer
+ or bearish by the fall,
+ we're going to see cyber crime
+ and cyber war
+ at an unimaginable relentless scale.
+ You should at least 2FA now.
+ John Lobar writes,
+ Anthropic won't be the only lab
+ with mytho-style capabilities for long.
+ When n equals 1,
+ you can do whatever you want.
+ In the current case,
+ optimizing for global welfare.
+ When n equals 2,
+ game theory starts forcing your hand.
+ If your view is that
+ exploiting vulnerabilities
+ is faster than fixing them,
+ then first mover advantage
+ becomes enormous
+ and incentive
+ becomes to try to use them
+ against your adversaries
+ before they use them against you do.
+ What happens when you have
+ n equals 3,
+ n equals 4, etc.
+ It gets messy.
+ You'll have a few big labs
+ around the globe
+ in pretty close capabilities lockstep,
+ simultaneously looking for vulnerabilities
+ across an extremely broad set
+ of vendors and conditions.
+ Each of the labs
+ will be the first
+ to some of the vulnerabilities.
+ How does this world look?
+ I'm not sure exactly,
+ but my guess is that,
+ one, a lot of devices
+ are just going to be kept
+ offline and air-gapped.
+ Two, devices that are online
+ will be very hardened.
+ Three, software updates
+ will enter a very weird space
+ where you A,
+ don't want to update too quickly
+ in case the latest patch
+ of some software is compromised,
+ but B,
+ you have extremely rapid
+ turn of vulnerabilities,
+ which means that you may
+ have to run updates every day
+ to protect against critical zero days.
+ Not sure which of these
+ two sides will win out.
+ Developer Nick Dobos
+ actually thinks that
+ user behavior around updates
+ is going to be an issue.
+ He writes,
+ most people don't update
+ apps, their phone or OS.
+ Some people are years behind.
+ Even if every major company
+ has early access
+ and prepares fixes,
+ it won't matter
+ because 20% of users
+ won't be updated in time.
+ Now, the final big strand
+ of the conversation
+ that I wanted to discuss
+ on today's show
+ is what this means
+ about the relationship
+ specifically between
+ Anthropic and the U.S. government,
+ but also about the public
+ private power debate more broadly.
+ Kelsey Piper writes,
+ an underrated feature
+ of this situation,
+ a private company now
+ has incredibly powerful
+ zero-day exploits
+ of almost every software project
+ you've heard of,
+ and Hegseth and Emile Michael
+ have ordered the government
+ not to, in any capacity,
+ work with Anthropic.
+ Dean Ball quote tweeted that
+ and said,
+ actually, it's worse.
+ A private company now
+ has incredibly powerful
+ zero-day exploits
+ of almost every software project
+ you've ever heard of,
+ and the government is telling
+ basically every major firm
+ in the economy
+ not to work with them.
+ Historians will gasp
+ at the idiocy.
+ Now, of course, for some,
+ what this brings up
+ is the question
+ of who gets to control
+ power this powerful.
+ Andy Hall,
+ whose essay we read on LRS
+ recently, writes,
+ the news today
+ that Anthropic
+ has built a powerful cyber
+ weapon is leading many
+ to say we're going down
+ one of two paths,
+ nationalized AI
+ in which the government
+ controls this tech
+ or companies that become
+ more powerful than the government.
+ Now for Andy,
+ he argues that there has to be
+ some different narrow
+ alternative path
+ involving smart governance
+ of AI models
+ that prevents the need
+ to nationalize the labs,
+ but many aren't sure.
+ Derrick Thompson writes,
+ the frontier AI labs
+ have built extraordinary things
+ on all of their accomplishments.
+ But if you compare
+ your technology
+ to nuclear weapons,
+ predict that it will
+ disemploy tens of millions
+ of people
+ and announce the invention
+ of a digital skeleton key
+ to exfiltrate top-secret
+ information from government
+ systems
+ and gain control of
+ a critical infrastructure
+ including military infrastructure,
+ I genuinely have a hard time
+ seeing how this doesn't
+ end with some form of
+ government nationalization
+ or sanction or something weirder.
+ I can't predict the evolution
+ of this technology
+ well enough to know
+ what I'm rooting for here.
+ But just adding two and two
+ makes it hard to see
+ how and why
+ we continue to treat
+ these companies
+ like their ordinary
+ private sector firms.
+ And for many,
+ this gets even more dramatic
+ when they game out the scenario
+ of what would have happened
+ if China got there first.
+ George Journeys writes,
+ so basically,
+ if Anthropic was not
+ a U.S. company,
+ we'd be facing zero days
+ with multiple unknown points
+ of attack on virtually
+ all of our systems
+ to an adversary
+ who developed this capacity
+ before us.
+ Spiratica on Twitter writes,
+ another reason why
+ the accelerate chance
+ of days past
+ were legitimate and serious
+ and just let China
+ develop this stuff first
+ was always a suicidal
+ dangerous mentality.
+ Dean Ball thinks it's
+ maybe a moment
+ to regroup
+ when it comes to policy
+ and rededicate ourselves.
+ In a long post,
+ he concludes,
+ finally, there is this.
+ Mythos was made
+ by an American company
+ and like most successful
+ American companies,
+ it has a vested interest
+ in maintaining order and peace.
+ It is investing substantial resources
+ in mitigating the risks
+ of its technological progress,
+ as I expect most
+ of the American labs would.
+ This is cause for optimism.
+ The incentives of capitalism
+ are working.
+ The training wheels are coming off,
+ but at least we are the ones
+ removing them
+ as opposed to our enemies.
+ Perhaps we can be the first
+ to learn to bike for real.
+ The first step
+ would be to get beyond
+ all the low fidelity,
+ underspecified,
+ pimply little fights
+ of AI policies
+ prepubescent era.
+ That goes for me too.
+ What hath God wrought
+ the first telegram?
+ What indeed?
+ In this case,
+ the answer is still up to us.
+ I think one of the things
+ that's important to remember
+ is that we are living
+ in the world of double-edged swords.
+ The same capabilities
+ that theoretically make this model
+ incredibly powerful
+ for exploiting cyber vulnerabilities
+ are also the most powerful tool
+ that security professionals
+ have ever had.
+ AI security researcher,
+ Nicholas Carlini said,
+ I've found more bugs
+ than the last few weeks
+ with mythos
+ than in the rest
+ of my entire life combined.
+ As always,
+ the gasping,
+ incentivized,
+ horrified,
+ and fearful first reactions
+ of social media,
+ which are of course
+ the ones incentivized
+ by the social media algorithms
+ are, I think,
+ much less useful
+ than the nuance
+ that unfortunately
+ tends to get buried.
+ Daniel Jeffries points out,
+ my best understanding
+ is that anthropic did not train
+ the model to be
+ an exploit wizard.
+ They trained it
+ to be the best coder
+ in the world.
+ If you're the best doctor
+ in the world,
+ you know lots of ways
+ to poison people.
+ If you're the best coder
+ in the world,
+ you have the capability
+ to be a great hacker,
+ but the difference
+ is in tension.
+ Is on the right approach
+ from here.
+ He writes,
+ I do not believe in giant
+ centrally controlled
+ centrally planned approach
+ to security or economics.
+ I don't believe
+ in heavy handed legislation.
+ I don't believe
+ in governing by fear
+ or the precautionary principle.
+ I trust in the collective
+ wisdom of humanity.
+ We are a distributed intelligence.
+ We always seem to
+ find a way forward.
+ In a riff on Churchill's
+ old take,
+ we always do the right thing
+ after exhausting
+ every other possibility.
+ AI is a risk,
+ a wonderful one,
+ but so is every technology
+ ever in the history
+ of the world.
+ In truth,
+ even if it is also used
+ for bad things
+ like surveillance
+ and weapons of war too.
+ Mythos is impressive,
+ genuinely impressive.
+ It represents a real milestone
+ in what's possible.
+ But it's a tool,
+ not a god.
+ It's a very sophisticated hammer
+ and we still need people.
+ Lots of them.
+ Arguing and tinkering
+ and building things
+ nobody predicted
+ to figure out
+ what's worth building.
+ We need people with access,
+ not ivory towers.
+ The collective wisdom
+ of millions of free minds
+ iterating in parallel
+ will run circles around
+ any single system
+ no matter how powerful.
+ So yes,
+ take mythos seriously.
+ Take the moment seriously,
+ but don't mistake awe
+ for a reason to start
+ taking crazy steps
+ or panicking.
+ We've been the species
+ that looks at the impossible,
+ shrugs and gets to work.
+ That hasn't changed.
+ Bet on humanity.
+ Now whether anthropic agrees
+ or not,
+ it seems likely
+ that the more people
+ having access scenario
+ is the one that will play out.
+ Chubby Kimanismus writes,
+ we've now seen
+ Claude mythos
+ and know it's possible.
+ OpenAI has repeatedly indicated
+ that spud is likely
+ to have similar quality
+ and power.
+ Google in turn
+ has the most compute
+ and with deep mind
+ researched institution.
+ I expect their new
+ Gemini equivalent mythos
+ to be unveiled
+ no later than May at I.O.
+ The competition is now
+ forcing Frontier Labs
+ to catch up and move forward.
+ In that sense,
+ mythos was just the beginning.
+ Seeming to reinforce that message,
+ when AdionX writes,
+ it'll probably be months
+ before we use a model
+ of this level of capability.
+ Tebow from the Codex team
+ at OpenAI
+ simply responded,
+ um,
+ so who knows?
+ We don't have access
+ to mythos now,
+ but spud might be
+ just around the corner
+ and just as powerful.
+ So to come back
+ to the question of the episode,
+ should we be scared
+ of anthropic mythos?
+ My answer is, of course, no.
+ We should be thoughtful.
+ We should be diligent.
+ We should use it
+ as a moment
+ to reengage and recommit
+ to important and hard conversations.
+ But fear serves no one.
+ And even if we discover
+ that this or a future model
+ is genuinely worthy of concern,
+ the right answer even then
+ will not be
+ to fall victim to fear.
+ It will be to look at it,
+ ask what we should do about it,
+ and then go do that thing.
+ The interesting times continue,
+ but for now,
+ that is going to do it
+ for today's AI Daily Brief.
+ Appreciate you listening or watching,
+ as always,
+ and until next time, peace.
