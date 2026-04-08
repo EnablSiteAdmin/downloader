@@ -1,0 +1,821 @@
+ Today on the AI Daily Brief, OpenAI proposes a new deal. Meanwhile on the headlines,
+ Anthropic's revenue has surged yet again to 30 billion annualized.
+ The AI Daily Brief is a daily podcast and video about the most important news and discussions in AI.
+ Alright friends, quick announcements before we dive in.
+ First of all, thank you to today's sponsors, KPMG, Blitzy, Assembly, and Zencoder.
+ To get an ad-free version of the show, go to patreon.com.ai-dailybrief or you can subscribe on Apple Podcasts.
+ If you are interested in sponsoring the show, send us a note at sponsors.ai-dailybrief.ai.
+ Lastly, two other quick announcements before we move on.
+ As I mentioned yesterday, Cohort 2 of our Enterprise Claw program is now open.
+ You can find out about that at enterpriseclaw.ai.
+ And the latest AI Pulse survey is out. This is all about how you used AI in March.
+ This will now be the third month that we are doing this. We're starting to get really good longitudinal results from this.
+ You can find the link at aidailybrief.ai. It's a big blinking banner right under the menu items.
+ This will be open for a few days. I would so appreciate it if you would go tell us how you used AI.
+ And of course, the people who contribute to the survey will get access to the results first.
+ Now with that out of the way, let's talk some turkey.
+ We kick up today with a big update in the competition between the labs,
+ as Anthropik has announced that they've now reached 30 billion in ARR.
+ It was actually tucked into a blog post about their new deal with Google and Broadcom, which we'll cover in just a minute.
+ But that is a 3x increase since the end of last year, and up 58% since the end of February.
+ Now, according to the latest numbers that we have from OpenAI,
+ that suggests that Anthropik has flipped them to have a higher annualized run rate,
+ although we've also heard in the past that they don't calculate things exactly the same way,
+ and you better believe that if they haven't actually gone ahead of OpenAI in revenue,
+ we will hear from OpenAI about it very soon.
+ Now this all comes as the financials for both of these companies come under much greater scrutiny
+ as they head towards an eventual IPO at the end of this year at the beginning of next.
+ On Monday, the Wall Street Journal published a deep dive into OpenAI and Anthropik's numbers,
+ sourced from financial disclosures around each company's recent fundraising.
+ The key focus was on training costs, which are sky-high for both companies.
+ OpenAI expects to spend around $30 billion on model training this year,
+ which is triple what they spent last year.
+ Anthropik's projected training costs are relatively more modest,
+ but still almost triple to reach $28 billion by 2028.
+ Now, while both training budgets are massive,
+ it's notable that OpenAI is forecasting costs to go up on a completely different level than Anthropik.
+ Because training costs are so high,
+ both companies are providing an alternate counting of profitability that excludes them.
+ Without training costs, both OpenAI and Anthropik are on track to eke out a small profit this year,
+ with that profit accelerating moving forward.
+ Not everyone loves this financial engineering.
+ Rah Malawalia sums up the feeling of many investors when he writes,
+ OpenAI and Anthropik are incredibly profitable if you just strip out the training and inference costs.
+ This business model is equivalent to running a passenger airline
+ except you need to replace your jets every six months.
+ Bizarre to have another definition of earnings simply because we don't like the costs.
+ Now, in terms of top-line revenue,
+ both firms expect double revenue this year
+ and are forecasting further doublings over the next few years.
+ Notably, Anthropik's revenue is almost entirely from enterprise customers,
+ and they forecast that to continue effectively indefinitely.
+ OpenAI's revenue is more balanced than it used to be, but still skews towards the consumer.
+ They do expect enterprise and consumer revenue to balance out over time.
+ However, for the moment, this means OpenAI is spending money on inference
+ for a ton of free users that Anthropik doesn't have to carry.
+ OpenAI expects it to take until 2030 for them to turn cash flow positive
+ while Anthropik is forecasting a profit of the old well-etter-stood variety by 2028.
+ Now, the Wall Street Journal's analysis here is not particularly novel.
+ We've had the rough contours of these financials from other sources already.
+ What's more notable is that Wall Street is starting to analyze these companies
+ as public-market behemoths rather than growth-stage startups.
+ The Journal had a very clear spin on the analysis summed up by this closing line.
+ Both OpenAI and Anthropik will burn through a giant amount of cash in the coming years
+ and are counting on their IPO investors to help buoy their businesses.
+ TLDR that is going to be the default narrative these companies fight against
+ during their IPO in over the next few years.
+ Still for many people, the big story here is this massive new Anthropik number.
+ FleetingBits points out, Anthropik is growing at an annualized 9700%.
+ This is the fastest revenue growth at this scale in history.
+ I don't know how to communicate the significance of Anthropik's growth rate
+ at this scale without sounding hyperbolic.
+ I asked Claude in the best comparison that I could find was NVIDIA,
+ which grew at a 1240% annualized rate during its best individual quarter growth ever,
+ which was Q2 in Fiscal Year 24.
+ As John Arnold puts it,
+ hard to believe that just 18 months ago Anthropik was broadly considered the odd man
+ out of the AI race with an ambiguous business plan and no clear funding model.
+ Not so anymore.
+ Now on the back of soaring usage,
+ Anthropik has signed a massive new compute partnership with Google and Broadcom.
+ Anthropik announced on Monday that they've expanded their existing partnership
+ to add multiple gigawatts of capacity set to come online from 2027.
+ The Wall Street Journal added that the precise number is 3.5 gigawatts.
+ Alongside the reveal that revenue hit triple to a 30 billion run rate,
+ Anthropik also noted that enterprise spend specifically is skyrocketing.
+ During their fundraising announcement in February,
+ Anthropik boasted that 500 enterprise customers had annual spends above a million dollars.
+ Less than two months later, that figure has doubled to a thousand customers.
+ Regarding the compute plans,
+ Anthropik will build the majority of their new data centers in the US.
+ The deal will expand Anthropik's commitment to deploying Google's TPUs,
+ which are manufactured by Broadcom.
+ Anthropik already began deploying TPUs in the fall and uses them exclusively for inference.
+ Their training clusters are exclusively developed and operated by AWS,
+ and that partnership remains ongoing.
+ For Anthropik, the deal is obviously necessary.
+ Their capacity constraints have become a huge problem this year,
+ so they need pretty much every chip they can get their hand on.
+ Yet for Google and Broadcom, this is arguably even more important.
+ Google set out to build a new business around external TPU sales last year.
+ Many argued that they didn't have the sales or support staff to compete with NVIDIA or AMD,
+ and would face a hard slog to set up a new business line.
+ Yet now, in a single deal,
+ Google has built a multi-billion dollar chip business around a solo customer.
+ Broadcom, meanwhile, has guaranteed demand as long as Anthropik keeps growing.
+ Muhammad Hassan sums up,
+ The AI arms race just turned into a full-on power plant competition.
+ Speaking of Google, after releasing their new open-source small model Gemma 4 last week,
+ the company has wasted no time in productizing it.
+ On Monday, they released an AI dictation app called Google AI Edge Eloquent.
+ The product competes with things like whisper flow,
+ allowing users to do live AI-assisted dictation on their phone.
+ Edge Eloquent can filter out filler words, clean up phrasing to convey the intended message,
+ and store custom jargon and keywords, much like the other AI dictation apps.
+ The big twist is that everything is run completely locally on device.
+ Users download the app with a packaged small language model
+ and then can operate everything without an internet connection.
+ Now, although Edge Eloquent probably isn't all that exciting,
+ it does demonstrate a few interesting things about Google's Gemma 4 family.
+ First, unlike previous small models, this doesn't seem to be a research project.
+ It is a commercially viable model for certain use cases,
+ and Google seems intent on building products around it.
+ In addition, this could be the kind of local model Apple has been looking for to drive Siri,
+ which is expected to use Gemini family models when it relaunches in the summer.
+ Gemma 4 doesn't seem to be quite there yet for driving a full offline version of Siri,
+ but you can see where Google is heading.
+ Now, aside from commercial applications,
+ Gemma 4 has seen a hugely positive response from the developer community.
+ Gemma 4 was downloaded 2 million times in its first week.
+ In contrast, Gemma 3 receives 6.7 million downloads over the past year,
+ while Alibaba's Quen 3.5 achieved 27 million downloads since its release in mid-February.
+ Something that went a little under the radar is that the entire family of models
+ right down to the 2B version have strong agentic performance
+ that could push the frontier for mobile agents.
+ Philip Schmidt, a developer experience liaison at DeepMind,
+ showed the model can query Wikipedia using agent skills while running on an iPhone.
+ Obviously still very early innings,
+ but it feels like Gemma 4 could lead to a breakout moment for local models,
+ especially once the open claw folks start tinkering with it.
+ Over in MetaLand, the company is preparing to release their new model
+ and plans to offer an open-source version in the future.
+ Axios published new information about the model release on Monday,
+ citing sources familiar with the views of AI CEO Alexander Wang.
+ They wrote that Meta wants to keep some part of the model proprietary
+ during the initial release to ensure it doesn't introduce new levels of safety risk,
+ and this reporting contradicts prior speculation that Meta would abandon
+ their commitment to open-source models as part of this new release.
+ Axios added that an open-source model aligns with how Wang sees Meta's position in the AI race.
+ Wang reportedly views Meta as a democratizing force that can ensure
+ there is a US-trained option for open-source developers.
+ Sources suggest that Wang believes that open AI and Anthropic
+ are increasingly focused on developing AI systems for governments and the enterprise,
+ while Meta is focused on the consumer.
+ writes Axios,
+ Meta wants its models distributed as widely and as broadly as possible around the world.
+ Now, this is the first news we've had on the forthcoming model,
+ codenamed Avocado, in several weeks.
+ In early March, The New York Times reported that Avocado had been delayed
+ and couldn't match Gemini 3 on benchmarks.
+ Talk of safety concerns could imply that model performance has improved
+ with another month of post-training.
+ Still, sources say that Meta knows that its models won't be competitive across the board,
+ but believes they will have certain strengths that drive consumer appeal.
+ Meanwhile, while Meta's own model is getting close to release,
+ Meta engineers are still using Claude, a whole lot of Claude.
+ The information reports that Meta employees have set up an internal leaderboard
+ to see who is churning through the most tokens.
+ The leaderboard is dubbed Claudeonomics and aggregates the top 250 token users
+ among Meta's 85,000 employees.
+ Top-ranking token users can earn the rank of Session Immortal or Token Legend.
+ The information argued this is a new type of conspicuous consumption
+ in Silicon Valley known as Token Maxing.
+ The thought is that token consumption is a good proxy for AI-enhanced productivity,
+ so engineers want to climb the leaderboard.
+ Now, the flaw in thinking is immediately obvious
+ with the information also reporting that some at Meta are running large numbers of agents in parallel
+ with the goal to rip through as many tokens as possible,
+ not necessarily be as productive as possible.
+ And while Token Maxing could be the new version of judging engineers
+ by counting how many lines of code they write,
+ the culture is being driven from the top.
+ Last month, Nvidia CEO Jensen Huang said he would be deeply alarmed
+ if an engineer on a $500,000 salary wasn't using $250,000 worth of tokens annually.
+ That's also the view at Meta, with CTO Andrew Bosworth boasting in February
+ that one of his top engineers is spending the equivalent of his salary on tokens
+ to generate a 10x efficiency boost.
+ Bosworth commented, this is easy money.
+ Keep doing it, no limit.
+ Now, there is a lot of chatter on this,
+ with many feeling like Joe Weisenthal who writes,
+ how does measuring productivity by total token consumption make any sense at all,
+ comparing it to Chairman Mao requiring peasants to smelt steel in their backyards
+ during the Great Leap Forward,
+ which of course led to tons of useless low-grade steel, Joe continues,
+ real backyard steel furnaces vibe in my opinion.
+ Interestingly, Metacritic Capital on Twitter
+ makes a different China comparison to argue why this actually makes sense.
+ He wrote,
+ Very early in its development, the party would set GDP growth goals for each province in China.
+ As you know, you can do lots of silly things to boost GDP growth,
+ and party officials certainly did.
+ But the opportunities for China's development were so vast
+ that simply putting a GDP growth target was enough.
+ It took decades for Goodhart's law to catch up with them.
+ Same goes for tokens.
+ Meta is spending 90 million tokens per developer per day.
+ At OPUS 4.6 rates,
+ Meta would be spending in the zip code of $4-5 billion per year.
+ I think all but five corporations on Earth can spend that much on AI.
+ It's a massive feat of engineering from wall to wall
+ to be capable of spending that many tokens.
+ TLDR, the cost of token maxing is small because token maxing is extremely hard.
+ You can safely expect that over the next 18 months,
+ 98% of corporations would be better off token maxing.
+ Interesting thoughts there,
+ but for now that is going to do it for today's headlines.
+ Next up, the main episode.
+ Alright folks, quick pause.
+ Here's the uncomfortable truth.
+ If your enterprise AI strategy is we bought some tools,
+ you don't actually have a strategy.
+ KPMG took the harder route and became their own client zero.
+ They embedded AI and agents across the enterprise,
+ how work gets done, how teams collaborate, how decisions move,
+ not as a tech initiative, but as a total operating model shift.
+ And here's the real unlock.
+ That shift raised the ceiling on what people could do.
+ Humans stayed firmly at the center while AI reduced friction,
+ serviced insight, and accelerated momentum.
+ The outcome was a more capable, more empowered workforce.
+ If you want to understand what that actually looks like in the real world,
+ go to www.kpmg.us slash ai.
+ That's www.kpmg.us slash ai.
+ You've tried in IDE copilots.
+ They're fast, but they only see local silos of your code.
+ Leverage these tools across a large enterprise code base
+ and they quickly become less effective.
+ The fundamental constraint, context.
+ Blitzy solves this with infinite code context.
+ Understanding your code base down to the line level dependency
+ across millions of lines of code.
+ While copilots help developers write code faster,
+ Blitzy orchestrates thousands of agents
+ that reason across your full code base.
+ Allow Blitzy to do the heavy lifting,
+ delivering over 80% of every sprint autonomously
+ with rigorously validated code.
+ Blitzy provides a granular list of the remaining work
+ for humans to complete with their copilots.
+ Tackle feature additions, large-scale refactors,
+ organization, Greenfield initiatives, all 5x faster.
+ See the Blitzy difference at blitzy.com.
+ That's blitzy.com.
+ One of the trends that I follow most closely
+ when it comes to AI is around voice.
+ Today's episode is brought to you by Assembly AI,
+ the best way to build voice AI apps.
+ The company has been moving with extreme velocity lately,
+ shipping major improvements to their speech-to-text models
+ that go way beyond just better transcription.
+ Specifically, they're getting to an accuracy level
+ that can reliably capture the type of things
+ that used to break every other speech-to-text model.
+ Think credit card numbers read aloud,
+ email addresses spelled out,
+ complex medical terminology,
+ financial figures.
+ All of these things, in other words,
+ that it really matters to get right.
+ So for anyone who's building in fintech,
+ healthcare, sales intelligence, customer support,
+ getting those things wrong isn't just annoying,
+ it's a liability.
+ Their speech-understanding models are also really good
+ at things like identifying speakers,
+ surfacing key moments,
+ and uncovering insights from voice data.
+ And all of that happens in a single API call.
+ The proof is in the pudding and assembly power
+ some of the top voice AI products in the market today
+ like Granola, Dovetail, and Ashby.
+ Getting started is free.
+ Head to assemblyai.com slash brief to test it live
+ and get $50 in free credits.
+ No contract, no upfront commitments.
+ That's assemblyai.com slash brief.
+ If you're using AI to code, ask yourself,
+ are you building software,
+ or are you just playing prompt roulette?
+ We know that unstructured prompting works at first,
+ but eventually it leads to AI's slop and technical debt.
+ Enter Zenflow.
+ Zenflow takes you from vibe coding to AI first engineering.
+ It's the first AI orchestration layer
+ that brings discipline to the chaos.
+ It transforms free-form prompting into spec-driven workflows
+ and multi-agent verification,
+ where agents actually cross-check each other to prevent drift.
+ You can even command a fleet of parallel agents
+ to implement features in fixed bugs simultaneously.
+ We've seen teams accelerate delivery 2x to 10x.
+ Stop gambling with prompts.
+ Start orchestrating your AI.
+ Turn raw speed into reliable production-grade output
+ at zenflow.free.
+ Welcome back to the AI Daily Brief.
+ Today we are looking at a policy document from OpenAI,
+ and it comes at the convergence of two moments
+ in and around the industry.
+ The first moment is what we were discussing on yesterday's show.
+ This growing indication from the labs that the next jump,
+ the one that we are on the verge of with the next set of models,
+ represents a really big one.
+ Remember at the end of March,
+ we got the leak about Anthropics mythos model,
+ which it said represented a step change their words and capabilities.
+ In fact, what we got with the leak was a blog post
+ saying that the model was so powerful that they were going to slow-roll it a little bit,
+ rather than a full announcement and a release of the model as we've gotten in the past.
+ On the OpenAI side, the company has been heavily teasing their new Spud model,
+ actually doing more to hype it up than to tamp down expectations,
+ reversing the trend that they've had all the way since back when GPT-5 underperformed.
+ So on the one side, we have this moment of precipice,
+ where the next set of models could represent a very big jump.
+ Then on the other side, we have the continued and frankly increasing reality
+ of dreary American sentiment when it comes to AI.
+ A new poll from Quinnipiac suggests that sentiment is going from bad to worse.
+ 55% of Americans now believe that AI will do more harm than good in their day-to-day lives.
+ That's up 11 percentage points from a year ago and tips to the majority for the first time.
+ 70% believe that AI will reduce job opportunities, which is up 14 percentage points.
+ A mere 7% of respondents believe that AI will increase job opportunities.
+ In other words, Americans believe by a 10 to 1 ratio that AI will reduce rather than increase jobs.
+ 30% said that they were either very or somewhat concerned about AI making their job obsolete,
+ and yet this is all despite adoption rocketing forward.
+ The majority of people are now using AI to research topics they're curious about,
+ rising from 37 to 51% over the past year.
+ Analyzing data and creating images, each increased significantly as use cases as well,
+ both rising from around 16 to around 25%.
+ The number of Americans who said they had never used AI was down from 33% last year to 27% this year.
+ Tamila Triantoro, an associate professor at the Quinnipiac School of Business noted,
+ younger Americans report the highest familiarity with AI tools,
+ but they are also the least optimistic about the labor market.
+ AI fluency and optimism here are moving in opposite directions.
+ This is also not just one poll.
+ We're seeing AI being blamed for increasing electricity prices, opposition to data centers growing,
+ and in one dramatic example of just how negative the perception around AI is,
+ it has worse PR right now than the extremely controversial ICE.
+ Into that environment, OpenAI released the new document,
+ Industrial Policy for the Intelligence Age.
+ The document is framed not as some complete policy statement or comprehensive anything,
+ but instead a way to try to nudge the conversation around important policy topics forward.
+ They divide their policy discussions into two areas.
+ First, building an open economy, and second, building a resilient society.
+ And I think that the document needs to be judged in two different ways.
+ One is from a PR lens and what it does for OpenAI and the AI industry in general
+ when it comes to public perception.
+ And second, in terms of what one might think about the policies themselves.
+ Now, to be fair to OpenAI on the first way of judging this as a PR document,
+ it obviously isn't intended to be that primarily.
+ It feels like it's much more designed for perhaps a Washington insider audience
+ and that if it was a document for general public consumption,
+ maybe it would look a little bit different.
+ At the same time, the reason I won't give OpenAI a pass here,
+ the reason I'm not interested in giving OpenAI a pass on that front
+ is that at this point, with where they sit in the industry
+ and especially when they pair this with big premier interviews
+ with the founders of media companies like the ones Sam Altman did with Axios,
+ they clearly recognize that everything that they say
+ is whether they would like it to be or not a public relations statement
+ as well as whatever it is supposed to be.
+ To be completely transparent, I very, very, very much dislike this document.
+ It exists in this strange uncanny valley where it is so technocratic
+ down to the narcolepsy inducing name industrial policy for the intelligence age
+ that it is inevitably going to fail in any sort of PR goal,
+ but at the same time, not robust enough from a policy perspective
+ that it feels likely to do a particularly good job at advancing any of these policies as well.
+ It's a document in other words without a clear home or purpose
+ or one where its home and purpose is so confused that it makes it
+ at least in this current form not all that useful to anyone.
+ Now, we are going to go through the policy proposals
+ because there are some interesting and important discussions that are started there
+ and I want to take this idea of being a conversation starter in good faith,
+ but I do have to say a couple more things about the PR impact right now.
+ I don't know that I've ever seen an industry that is so fundamentally unwilling
+ to spend any time at all articulating why it deserves to exist as the AI industry.
+ Every single document like this, every single statement that comes out of Dario
+ or Sam's mouths is so focused on affirming the negative
+ and validating people's concerns that literally no time is spent
+ actually explaining how this is going to make the world better.
+ Every discussion is this incredible quick pass through
+ where a bunch of theoretical benefits in the future are listed in short order
+ without actually articulating how we get there
+ or what the impact of those changes will be on people's lives
+ all along the way to getting to what seems to be the core point
+ which again is validating all the bad things.
+ We get these hand-wavy statements like this one.
+ We strongly believe that AI's benefits will far outweigh its challenges
+ then only to have the next three lines be all about how clear-eyed about the risks they are.
+ This does not come off as being reasonable.
+ It does not come off as being sober or thoughtful.
+ What it does is make people ask,
+ why the hell are we doing this in the first place then?
+ You know how when you see an ad for some new miracle drug on TV
+ the last 10 or 15 seconds of the 60 second spot is always them disclosing all the risks and side effects.
+ The way the AI industry communicates is as if they flip that ratio around
+ and spend three quarters of the ad talking about all the side effects and negatives
+ and only a tiny little bit on why the things should actually exist in the first place
+ and what all of these risk descriptions,
+ these sober thoughtful risk descriptions fail to engage with
+ is the thing that seems incredibly obvious to most average people
+ which is that AI doesn't have some mandate from heaven to exist.
+ When open AI or anthropic or anyone else in the AI industry
+ talks about mitigating these serious risks,
+ many of which sound absolutely horrible
+ the response of many normal people is to say,
+ well then why are we doing this in the first place?
+ When those companies answer is, well it's happening one way or another
+ and don't respond when people say, wait but why?
+ The people are left to assume that the answer is
+ because it's going to make some people rich.
+ That is the default understanding in the absence of a better answer
+ and of course that default understanding just makes people angrier.
+ If the answer is because China is going to do it if we don't
+ maybe for some that's a little bit more understandable
+ but it remains incredibly abstract.
+ The only possible satisfying and only possible viable answer
+ must be that the benefits of AI are higher than the costs
+ and just saying that in this hand wavy way
+ we think the benefits are higher than the costs
+ and no longer cuts it.
+ It never cut it but it really doesn't anymore.
+ Right now with where things are
+ every single time any leader or senior official
+ from any major lab speaks
+ they are either contributing to the strong sentiment
+ that we see in all of these polls
+ that AI is likely to be worse than it is good
+ or they are doing work to reverse that sentiment.
+ I think that we in the AI industry
+ should be judging every communication on the basis of
+ on whether it reinforces that negative sentiment
+ or whether it actually combats it.
+ So as I said giving credit to the people who wrote this
+ I do not believe they were thinking about it first and foremost
+ as a PR document but unfortunately in the world that we live in
+ and in the world that OpenAI and all these companies operate in
+ it is that whether they want it to be or not.
+ Now as you might imagine I am far from the only person
+ who has some negative feelings on that side.
+ Daniel Jeffries writes
+ please please please I'm on my knees
+ begging every AI exec on the planet
+ just stop with this stuff
+ just give us models
+ let the collective distributed intelligence of people
+ figure things out in real time like we always do
+ let people adapt it's what we do
+ we are not giving birth to magic super miracle machines
+ that suddenly invalidate every single pattern
+ of the entirety of human history and technological development
+ we're not really
+ AI is amazing it's wonderful but it's not magic
+ can we please just let AI be cool and useful
+ and problematic in realistic ways instead of all this crazy talk
+ meanwhile others point out that there is something discordant
+ about where AI actually is
+ and all this talk of world-changing super intelligence
+ and by the way this is not just the Gary Marcus's of the world
+ who are desperate to convince you that AI isn't all that powerful
+ these are people who are totally bought in
+ Cheyenne Zhao whose literal handle is Gen AI is real
+ posted the companion Altman interview and said
+ the replies are more insightful than the interview
+ someone pointing out that GPT 5.4 has been spinning
+ in circles on a webhook for four hours
+ while Sam talks about super intelligence captures everything wrong
+ with how AI is being discussed right now
+ the models are genuinely impressive and improving fast
+ but calling this super intelligence devalues the word
+ and makes it harder to have serious policy conversations
+ when we actually need them
+ we're in the extremely capable tool era
+ not the new social contract era
+ Buko capital bloke put it a little bit more bluntly last week
+ speaking in general not about this specific document
+ he writes
+ you almost have to use it too much develop psychosis
+ then get to the other side and realize how much care
+ and feeding and management of the agentic workflows is required
+ on the other end you realize you actually need to probably hire more
+ or new people to then do all the new things agents can do
+ but let's talk about some of the policy proposals
+ I'm gonna spend a lot more time on section one the open economy
+ than I am on the second part resilient society
+ the first thing they discuss is the importance of including
+ worker perspectives in the AI transition
+ they write
+ give workers a voice in the AI transition to make work better and safer
+ including a formal way to collaborate with management
+ to make sure AI improves job quality
+ enhances safety and respects labor rights
+ this is something that I do think is extremely important
+ but also reveals one of the biggest challenges
+ with this document overall
+ which is the thing identified by Will Minidis in his response essay
+ no new deal for open AI
+ which is that basically this document is absolutely
+ chock full of pretty sentiments
+ that at least in the way that they are described right now
+ seem to wholly ignore the political reality
+ and the political history that they operate within
+ we've discussed this worker management thing
+ numerous times in the past on this show
+ and what is happening and will happen is a wholesale shift
+ in the relationship between employees and management
+ in lots of different ways
+ on the one hand managers have much more power
+ because they feel like they can do things with fewer people
+ on the other hand the end worker who is actually using the AI
+ kind of negates the need for a lot of layers of middle management
+ but then there's also issues like the fact that in many cases
+ workers are training their own replacements
+ the point being that what's happening here
+ what will happen and what needs to happen
+ is not some policy that can be enacted
+ it's going to be a total new labor movement
+ open AI doesn't use the word union here
+ which is one of Will's biggest beefs
+ with Will pointing out that the new deal
+ was not some benevolent meaning between the capital class
+ and labor class facilitated by FDR
+ but the byproduct of decades of political violence
+ and a labor movement that was willing to fight
+ and literally die for change
+ not to mention leadership that had an actual mandate
+ the likes of which no one in American politics
+ has had for a very long time
+ still to the extent that we are talking about
+ conversation starters yes we do need to have
+ the conversation about this shift
+ in the relationship between employees and management
+ next up we have AI first entrepreneurs
+ now the critique of this one is that
+ telling a displaced customer service agent
+ to go start some small business that competes
+ with former employers feels at best
+ tone deaf but of course that's not
+ the actual point of pro entrepreneur policy
+ in other words the point is not that
+ every worker who is displaced by AI
+ is going to all of a sudden go be an entrepreneur now
+ it's to ask what sort of policy
+ interventions and support structures
+ could increase the successful
+ small business entrepreneurship rate by
+ 50% or even 100% from where it is today
+ there is not going to be one single
+ policy silver bullet for the amount
+ of change that's going to happen
+ entrepreneurial policy is one part
+ of a much larger toolkit and in that
+ I'm completely supportive now I'm not
+ totally sure what the right policy
+ interventions are with the right type of
+ entrepreneurial support is but I do think
+ that this is going to be a part of the solution
+ because in a vastly adapting future
+ for many the only secure future
+ will be the one they secure for themselves
+ next up we have the right to AI
+ and this is something that open AI has talked about before
+ they write we need to treat access to AI
+ as foundational for participation in the modern
+ economy similar to mass efforts to increase
+ global literacy or to make sure that
+ electricity and the internet reach remote parts of the globe
+ and what I would say here
+ which to be fair they give at least mention to
+ is that access to AI is going to be
+ meaningless without the agency to actually
+ use it what I mean by that
+ is that we can't just give everyone a free chat
+ gbt account and hope it works the amount
+ the companies are spending on AI infrastructure
+ right now is based on studies
+ that we found more than 12 times bigger than
+ the amount that they're spending investing in people's capability
+ to use these tools and that's within the companies
+ who have a direct financial incentive
+ to have their people use these tools well
+ we need a mask scale
+ infrastructure mobilization to help people
+ figure out how to use the new tools of the
+ new economy call it whatever you want
+ a Marshall plan for education
+ we need to be thinking in those big massive
+ terms because without it any right
+ to AI is just a pretty notion on a piece
+ of paper next up open AI calls
+ on us to modernize the tax base
+ and this is actually an area where I think
+ we are inevitably going to see
+ some of the biggest shifts and frankly
+ I think that we are going to see some breakdown
+ of traditional conservative in liberal
+ lines when it comes to tax policy
+ the logic is that if the balance
+ of the economy shifts from labor
+ to capital there just literally
+ has to be some commensurate
+ change when it comes to taxation
+ now doing that well
+ is going to be massively challenging
+ but I think based on the trajectory
+ of both the economy and the larger political
+ conversation some version of this is inevitable
+ maybe it's policies that have a lot of
+ support in liberal circles already like
+ higher taxes on capital gains
+ maybe it's new types of taxes on automation
+ but basically I think something has to give here
+ and I think you will likely find some very strange
+ bedfellows when it comes to figuring
+ out how to do it well now luckily when
+ it comes to an inside the AI industry
+ perspective this sort of shift in how
+ we think about taxation likely has
+ the benefit of being extremely good politics
+ the next idea from open AI which is
+ getting a lot of coverage is a public
+ wealth fund they write
+ while tax reforms help ensure governments can continue
+ to fund essential programs a public
+ wealth fund is designed to ensure that people
+ directly share in the upside of that growth
+ policymakers and AI companies should work together
+ to determine how to best seed the fund which could
+ invest in diversified long-term assets
+ that capture growth in both AI companies
+ and the broader set of firms adopting and deploying AI
+ returns from the fund can be distributed directly
+ to citizens allowing more people to participate
+ directly in the upside of AI driven growth
+ as a result of their starting wealth or access to capital
+ I seem to be a little bit more skeptical
+ of the ultimate importance of this than
+ others out there I certainly don't think it's
+ bad I think it would be good to have people
+ rooting for the success of these companies
+ but I think I have a little bit more skepticism than
+ many others around things where everyone
+ gets a little share of them and again that's
+ not because they're bad but because I think
+ maybe the central challenge of American politics
+ is that people don't want the
+ average of what people have they want
+ and feel like they deserve the exceptional
+ we live in a world where it feels like we are
+ constantly confronted with people who have more than
+ us whether that's in Instagram posts
+ whether they're real or not or having to walk
+ through first class to get to our section of the plane
+ now it's not necessarily AI's job
+ to deal with that in fact it may not
+ be a policy remediation at all
+ but my concern about a public wealth fund
+ is that I think it could be a very window dressing
+ exciting to write about type of thing
+ that doesn't really move the needle when it comes to core sentiment
+ on the other end of the spectrum
+ I'm much more enthusiastic about things like
+ open AI's discussion of accelerating grid
+ expansion except I would take it farther
+ and not just think about how to accelerate
+ grid expansion in ways that
+ don't cost individual people money
+ but actually have the benefits accrue to those people
+ first basically rather than these
+ pretty pledges to ensure that
+ the data center build out doesn't increase people's electricity
+ prices we should be actively making
+ their lives cheaper not just keeping
+ it the same I think that as an incredible
+ amount of wealth accrues to the
+ AI companies we are going to need
+ ways for that to flow back to the
+ rest of the world private financing of
+ public utilities may end up being part
+ of that equation another area that's seeing
+ lots of discussion is the incredibly
+ poorly named in frame deficiency dividends
+ by which open AI is basically talking about
+ reinvesting the realize
+ value of AI back into regular people's lives
+ now again to be fair to them
+ they are not planting their flag heavily
+ in one or another policy
+ but they're coming back to ideas
+ which have been floating around for a while now like the 32 hour
+ or 4 day work week this is something
+ that before he decided to go full frontal
+ assault on the data centers Bernie was putting
+ in his AI policy back last summer
+ I tend to be a little bit more skeptical
+ of things like the 32 hour work week
+ because I think people view them as a panacea
+ when really a lot of people are just going to work more anyway
+ but there are plenty of other ideas that have
+ the same principle of reinvesting
+ AI's realize value back into people
+ that I think could be a really important thing
+ and this is both on the individual level
+ i.e. things like retirement matches
+ or covering a larger share of healthcare costs
+ but it also could be on that more global society level
+ later on in the document
+ they talk about portable benefits
+ i.e. things like healthcare retirement savings and skills training
+ that aren't solely connected to a single
+ private employer and the efficiency dividends
+ could go to pay for that they also talk about pathways
+ into human centered work and to the
+ extent that there need to be things like free training
+ programs and better support infrastructure
+ around some of these industries that are historically
+ taxed on resources like for example
+ elder care again those efficiency dividends
+ could go to pay for that to not dance around
+ it there is going to be some redistribution
+ of AI generated wealth and I think
+ some of these types of programs could be more politically palatable
+ than just handing people money directly
+ one idea that is very technocratic
+ but also interesting and I think worthy
+ of a lot more conversation is some of the ideas
+ of adaptive safety nets that open AI
+ is proposing one of the things that they're suggesting
+ is investing in much better
+ more direct measurement of how
+ AI is impacting things like work wages
+ job quality and then use those things to
+ inform automated and dynamic
+ social safety net programs and honestly
+ holding aside the AI context
+ what they're basically saying is that the tools
+ we have at our disposal allow us to potentially
+ make much more targeted narrow
+ and specific interventions rather than
+ having these big cumbersome programs
+ which can buckle under their own weight over time
+ so again as you can see although
+ I have a lot of specific thoughts around each of these areas
+ I do think there's a lot of good fodder
+ for discussion here I'm just not sure that
+ this type of document is the right way to
+ actually start those discussions and I think
+ in the context into which it is arriving
+ it might actually in some ways be counterproductive
+ the biggest applied critique that
+ I've seen is that one of the things that is
+ noticeably absent from
+ the document is any sort of even
+ hint of a commitment from open AI
+ to programs or initiatives or policies that
+ would cost them anything as Wilma Nides
+ writes the document proposes
+ that policy makers might consider higher taxes
+ on capital open AI could
+ commit to paying them the document proposes a public
+ wealth fund open AI could seed it
+ the document proposes the data centers pay their
+ own energy costs open AI could accept
+ voluntary rate separation today in every jurisdiction
+ where it operates the document proposes
+ that frontier AI companies adopt public benefit
+ governance open AI could reinstate
+ the profit caps it dismantled six months ago
+ none of these things are in the document
+ the only things in the document are a workshop
+ fellowships paid in the company's own product
+ and an email address that routes to no one
+ Alexander McCoy puts this sentiment a little
+ more cynically writing
+ ideas Sam I know some members of congress
+ who can get right to work on writing the legislation
+ some quick questions how much equity
+ in open AI should we plan on you contributing
+ will it be your own equity a delusion of existing shares
+ or is your idea that the federal government
+ will buy shares using taxpayer dollars once you IPO
+ to how many tens of millions of dollars of your own money
+ are you pledging to commit to pass these
+ policies you say are necessary how are you
+ going to counter the hundred million dollars of leading future
+ AI political spending which opposes these policies
+ which is funded by your own investors and fellow executives
+ three how are you directing open AI
+ chief of policy Chris Lahane to redirect
+ open AI's massive lobbyist in public affairs
+ resources to support this agenda which they currently
+ actively oppose now this is coming
+ from someone who in their Twitter bio says
+ that they are fighting the power of big artificial
+ intelligence corporations so you need to view
+ it through that lens but I think that that would be
+ a more prominent and common sentiment than you might
+ think effectively where I
+ agree with open AI wholeheartedly
+ is that we need to have these conversations
+ but what seems to go on recognized
+ is that in the context
+ of both the changes that they say are coming
+ and the grave state
+ of public opinion on AI in America
+ 13 page policy PDFs
+ with no actual commitment or direction
+ ain't it for now that is going to do it for today's
+ a ideally brief appreciate you listening
+ or watching as always until next time
+ peace
+ you
