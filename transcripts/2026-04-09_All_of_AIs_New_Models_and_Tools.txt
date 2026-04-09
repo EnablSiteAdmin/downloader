@@ -1,0 +1,783 @@
+ Today on the AI Daily Brief, all of AI's new models and tools, and before that in the
+ headlines, one model that you're not getting apparently, is OpenAI's forthcoming spud.
+ The AI Daily Brief is a daily podcast and video about the most important news and discussions
+ in AI.
+ Alright friends, quick announcements before we dive in.
+ First of all, thank you to today's sponsors, KPMG, Blitzi, ZenCoder, and Drata.
+ To get an ad-free version of the show, go to patreon.com slash aidailybrief, or you can
+ subscribe on Apple podcasts.
+ If you want to learn more about sponsoring the show, send us a note at sponsors at aidailybrief.ai.
+ While at aidailybrief.ai, you can also find the link to our March AI usage pulse survey.
+ I'll have this open for a couple more days and would so appreciate you taking a couple
+ minutes to do it.
+ It allows us to share better data around how usage patterns in AI are changing, which is
+ something that I think can be really valuable for people.
+ You can also find more information on the website about things like our newsletter which is officially
+ back and has all the links for every day show, or you can find links to related experiences
+ like Enterprise Claw, which is basically the enterprise-grade version of Arc Free Claw
+ Camp that's supported and led by Newfark Aspar.
+ Registration for that is closing at the beginning of next week, so check it out
+ at enterpriseclaw.ai.
+ Open AI obviously could not let Anthropic have all the fun when it comes to models too powerful
+ to release to the general public.
+ On Thursday morning, Axios reported that Open AI also plans a staggered rollout of their
+ new model because, once again, of the cybersecurity risk.
+ Now, this is just from one source, but it isn't all that surprising to see.
+ Certainly it doesn't seem to be surprising the denizens of VI Twitter and some think
+ that this is a forced response to Anthropic, writes Daniel Mack, breaking, Open AI will
+ not release spud.
+ The information reported just a few weeks ago that it was set to be released, quote,
+ in a few weeks.
+ Greg Brockman talked about it on the Big Technology podcast.
+ Dario forced their hand, total Anthropic victory.
+ Leo Synthwave-DD simply says, lol.
+ DAX from Open Code writes, this was already a thing since at least GPT 5.3, but now
+ we have to suffer a cycle of confusing mystery and go through this whole, well, it was
+ BS last time but maybe this time is different.
+ We're all just caught between these two companies.
+ I think Dan Schipper nails it when he writes, the new status symbol is making
+ a model so powerful you can't release it.
+ Here's something I haven't had to do often.
+ Turns out that we actually got more on spud almost immediately after I finished
+ recording.
+ Dan Schipper just tweeted, the Axio story floating around about Open AI limiting
+ the release of their newest model spud isn't true.
+ Just spoke to Open AI and it appears the story conflated two things.
+ They do have a cyber product they are testing with a trusted tester group,
+ but this is not the same thing as spud.
+ The Axio story has now been updated.
+ My friends, we are playing with a live ammunition here, but since I got this in
+ time to update, I wanted to make sure we did.
+ Let's move on to our next story about Perplexity Computer.
+ In our show about how every AI product is turning into every other AI product,
+ we covered Perplexity's computer and the general open qualification of the AI
+ world.
+ Based on Perplexity's financial results, it seems to be working.
+ Between the combination of shifting to usage-based pricing and the launch in
+ February of computer, the company's revenue effectively doubled in a single
+ quarter.
+ Financial Times reported that the company has 100 million monthly active users,
+ tens of thousands of enterprise clients, and 450 million in ARR.
+ Chris Brown from Inspired Capital writes,
+ Perplexity back in the race with a single product launch is like a baseball team
+ batting around the order twice and putting up 10 runs in the sixth inning.
+ Interestingly, one of the sub themes that you can see a lot on Twitter slash
+ X is that the finance space in particular seems to be really into
+ Perplexity Computer.
+ Geiger Capital writes,
+ Perplexity launched their AI agent computer a month ago and their revenue
+ has immediately gone parabolic.
+ AI demand is still accelerating.
+ Nobody is ready for the compute we need.
+ Still others remain skeptical.
+ Kyle Russell writes,
+ I do not consider this back in the race.
+ Insane product fit for self-driving computers pulling them up,
+ but co-work in GPT Super App will mog this.
+ In more evidence of just how much these types of use cases are growing,
+ GitHub appears to be straining under the pressure of the agent at CodingWave.
+ Now, as capabilities have increased,
+ it has led to an explosion in the amount of code being written.
+ And it appears that that is nowhere more obvious than in GitHub's metrics.
+ Last year, GitHub celebrated a huge expansion
+ with vibe coding allowing first-time coders to come online.
+ GitHub saw one billion code commits throughout the year for the first time.
+ This year, GitHub is seeing 275 million commits per week,
+ putting them on track for 14 billion commits
+ by the end of the year at the current pace
+ and the numbers are still climbing.
+ GitHub COO Kyle Daigle said,
+ since January, every month, every week almost now
+ has some new peak stat for the highest usage rate ever.
+ And while Daigle attributed the change to both agents and humans,
+ it's clear that AI-enhanced coding
+ is behind the massive increase in throughput.
+ Commits to public repos from Claude Code
+ have swelled 25X in the past six months,
+ reaching 2.5 million last week.
+ Now, unfortunately, the surge in the amount of code being pushed
+ is revealing limits in GitHub's infrastructure.
+ Outages are becoming more frequent
+ and many are expressing issues with the platform.
+ Open Claw creator Peter Steinberger complained last week,
+ I keep hitting quota limits from GitHub's API.
+ This hasn't been designed with agents in mind.
+ Kyle Daigle responded to these types of concerns,
+ saying that GitHub is, quote,
+ pushing incredibly hard on more CPUs,
+ scaling services and strengthening their core features.
+ For now, it is just one more piece of evidence
+ around how things are changing and how quickly.
+ Lastly today, Anthropic has lost the second round
+ of their legal battle against the Pentagon
+ as the case gets more convoluted.
+ On Wednesday, a federal appeals court in DC
+ denied Anthropic's application
+ to suspend their supply chain risk designation
+ pending a full hearing.
+ The three judge panel wrote in their order,
+ in our view, the equitable balance here
+ cuts in favor of the government.
+ On one side is a relatively contained risk of financial harm
+ to a single private company.
+ On the other side is judicial management of how
+ and through whom the Department of War
+ secures vital AI technology
+ during an active military conflict.
+ Now, the order did recognize the urgency of the case
+ and the court has scheduled oral arguments for mid-May.
+ The court also acknowledged that Anthropic is likely
+ to quote suffer some irreparable harm
+ as a result of the case.
+ Now you might recall that Anthropic was granted
+ an injunction from a California court early in March.
+ Importantly, there's actually two separate lawsuits
+ going on, dealing with two separate legislative powers
+ invoked by the government.
+ The California injunction means that
+ non-Pentagon government agencies
+ don't need to cancel contracts with Anthropic.
+ The new ruling deals with the Pentagon exclusively
+ and allows them to treat Anthropic
+ as a supply chain risk.
+ What's less clear is how military contractors
+ in the private sector are supposed to deal with Anthropic,
+ as both lawsuits deal with that issue to some extent.
+ Roger Parloff, the senior editor at Lawfare,
+ shared his view that for the moment,
+ government contractors can probably use
+ Anthropic's technology for anything
+ but covered government contracts.
+ He also noted that Anthropic's models
+ have already been restored to USAI.gov,
+ the central platform served
+ by the General Services Administration.
+ Importantly, this was just a preliminary ruling
+ that has a very high bar for success,
+ so it was not necessarily a strong indication
+ on how the case will ultimately resolve.
+ Acting Attorney General Todd Blanche
+ called the ruling a resounding victory
+ for military readiness.
+ He wrote,
+ Our position has been clear from the start.
+ Our military needs full access to Anthropic's models
+ if its technology is integrated
+ into our sensitive systems.
+ Military authority and operational control
+ belong to the commander-in-chief
+ and department of war, not a tech company.
+ An Anthropic spokesperson meanwhile said,
+ We're grateful the court recognized
+ these issues need to be resolved quickly
+ and remain confident the courts will ultimately agree
+ that these supply chain designations were unlawful.
+ In understated fashion,
+ Matt Shrewers, the chief executive
+ of the Computer and Communications Industry Association
+ commented, The DC circuit's denial
+ will prolong ambiguities regarding
+ whether political considerations
+ can drive federal procurement.
+ Charlie Bullock, a senior research fellow
+ at the Institute for Law and AI,
+ told the information he was unsurprised by the result.
+ Noting, two out of the three judges
+ on the DC circuit panel have been very, very sympathetic
+ to the Trump administration's aggressive claims
+ about executive authority in the past.
+ Expanding his analysis on X,
+ Bullock noted that the case is moving quickly
+ and could receive a final order within six weeks.
+ Now, even if they fail to convince the panel,
+ Anthropic could appeal to the full DC circuit,
+ which is majority Democrat
+ and also have the timing right to get their case
+ on this year's Supreme Court docket in the fall.
+ Bullock predicted Anthropic would probably succeed
+ at the Supreme Court, commenting,
+ The dynamic here is not left versus right.
+ It cares about the law at least a little bit
+ or doesn't like the administration
+ versus does not care about the law at all
+ and likes the administration.
+ Now how, if at all, the revelations
+ about the power of Anthropic's mythos impact this
+ remains to be seen,
+ but for now that is gonna do it for the headlines.
+ Next up, the main episode.
+ All right, folks, quick pause.
+ Here's the uncomfortable truth.
+ If your enterprise AI strategy is we bought some tools,
+ you don't actually have a strategy.
+ KPMG took the harder route
+ and became their own client zero.
+ They embedded AI and agents across the enterprise,
+ how work gets done, how teens collaborate,
+ how decisions move, not as a tech initiative,
+ but as a total operating model shift.
+ And here's the real unlock.
+ That shift raised the ceiling on what people could do.
+ Humans stayed firmly at the center
+ while AI reduced friction, serviced insight,
+ and accelerated momentum.
+ The outcome was a more capable, more empowered workforce.
+ If you wanna understand what that actually looks like
+ in the real world, go to www.kpmg.us slash AI.
+ That's www.kpmg.us slash AI.
+ Want to accelerate
+ enterprise software development velocity by 5x?
+ You need Blitzy,
+ the only autonomous software development platform
+ built for enterprise code bases.
+ Your engineers define the project,
+ a new feature, refactor, or greenfield build.
+ Blitzy agents first ingest and map your entire code base,
+ then the platform generates a bespoke agent action plan
+ for your team to review and approve.
+ Once approved, Blitzy gets to work autonomously
+ generating hundreds of thousands of lines
+ of validated end-to-end tested code.
+ More than 80% of the work completed in a single run.
+ Blitzy is not generating code,
+ it's developing software at the speed of compute.
+ Your engineers review, refine, and ship.
+ This is how Fortune 500 companies
+ are compressing multi-month projects into a single sprint,
+ accelerating engineering velocity by 5x.
+ Experience Blitzy firsthand at blitzy.com.
+ That's blitzy.com.
+ So coding agents are basically solved at this point.
+ They're incredible at writing code.
+ But here's the thing nobody talks about.
+ Coding is maybe a quarter of an engineer's actual day.
+ The rest is stand-ups, stakeholder updates,
+ meeting prep, chasing context across six different tools.
+ And it's not just engineers.
+ Sales spends more time assembling proposals than selling.
+ Finance is manually chasing subscription requests.
+ Marketing finds out what shipped two weeks after it merged.
+ ZenCoder just launched ZenFlow work.
+ It takes their orchestration engine,
+ the same one already powering coding agents,
+ and connects it to your daily tools.
+ JIRA, Gmail, Google Docs, Linear, Calendar, Notion.
+ It runs goal-driven workflows that actually finish.
+ Your stand-up brief is written before you sit down.
+ Review cycle coming up,
+ it pulls six months of tickets and writes the prep doc.
+ Now you might be thinking,
+ didn't Open Claw try to do this?
+ It did, but it has come with a whole host
+ of security and functional issues,
+ which can take a huge amount of time to resolve.
+ ZenCoder took a different approach.
+ Sock 2, Type 2 certified, curated integrations,
+ tighter security perimeter, enterprise grade from day one,
+ model agnostic, and works from Slack or Telegram.
+ Try it at zenflow.free.
+ Let's face it.
+ If you're leading GRC at your organization,
+ chances are you're drowning in spreadsheets.
+ Balancing security, risk and compliance,
+ across-shifting threats and regulatory frameworks,
+ can feel like running a never-ending marathon.
+ Enter Drata's Agendic Trust Management Platform,
+ designed for leaders like you.
+ Drata automates the tedious tasks
+ like security questionnaire responses,
+ continuous evidence collection, and much more,
+ saving you hundreds of hours each year.
+ With Drata, you spend less time chasing documents
+ and more time solving real security problems.
+ But it's more than just a time saver.
+ It's built to scale and adapt to your organization's needs,
+ whether you're running a startup or leading GRC
+ for a global enterprise.
+ With Drata, you get one centralized platform
+ to manage your risk and compliance program.
+ Drata gives you a holistic view of your GRC program
+ and real-time reporting your stakeholders can act on.
+ With Drata, you can also unlock a powerful trust center,
+ a live customizable product that supports you
+ in expediting your never-ending security review requests
+ in the deal process.
+ Share your security posture with stakeholders
+ or potential customers,
+ cut down on back and forth questions,
+ and build trust at every interaction.
+ If you are ready to modernize your GRC program
+ and take back your time,
+ visit drata.com to learn more.
+ Welcome back to the AI Daily Brief.
+ One would be forgiven for thinking
+ that this week has been defined by models
+ that we actually didn't have access to.
+ A huge part of the discourse throughout the week
+ has of course been about Anthropics Mythos,
+ a model which it found too powerful
+ to release in the normal way that it had been,
+ and which right now is only in the hands
+ of about 40 partners
+ for some very limited cybersecurity-focused engagement.
+ Then just this morning, as you heard in the headlines,
+ we also heard that OpenAI planned its own staggered rollout
+ of their new model for similar reasons, cybersecurity risks.
+ Now, even among people who understand theoretically
+ why these companies are doing this,
+ there's still I think a bit of a sentiment
+ of don't tell me about the new toys
+ if I can't play with them.
+ But luckily, the rest of the AI industry
+ is not slouching at all.
+ And in fact, even Anthropics themselves
+ have given us something different
+ that's still pretty powerful to play with.
+ So let's talk through all of the other models
+ and tools that have been released,
+ starting with the first big model release
+ from the new Meta Super Intelligence Lab.
+ Mu's Spark is Meta's first new model release
+ in over a year.
+ It's also the first model to come
+ from the new Meta Super Intelligence Labs division,
+ which is of course the collection of superstar,
+ crazy high-paid AI researchers
+ that was put together last summer
+ and brought together under the leadership
+ of Alexander Wang, who was brought in
+ through the $14 billion plus partial acquisition
+ of his company scale.
+ Mu's Spark will be the first
+ of the Mu's family of models
+ with Meta ditching the llama name and associated baggage.
+ The Mu's models are natively multimodal reasoning models
+ similar to Google's Gemini architecture.
+ Meta noted that they support tool use,
+ visual chain of thought, and multi-agent orchestration.
+ Now those features are at this point
+ kind of table stakes for the current generation,
+ but based on fairly low expectations,
+ people were still encouraged to see them present here.
+ Meta didn't indicate how large the model is
+ or whether it uses a mixture of experts architecture.
+ In fact, we don't really know at all
+ where this model sits in the model family.
+ Executives referred to it as small and fast,
+ but its performance and comparison points
+ looked closer to a mid-sized or large model.
+ On the benchmarks at first glance,
+ Mu's Spark looks pretty capable.
+ It scored 52.4 on SWE Bench Pro, for example,
+ putting it within a few points of Opus 4.6,
+ Gemini 3.1 Pro, and GPT 5.4 for coding.
+ On humanity's last exam, it scored 42.8,
+ which is slightly better than Opus,
+ but trailing Gemini and GPT 5.4.
+ Now interestingly on that one, with tools enabled,
+ Mu's score only jumped to 50.4,
+ leaving it trailing all three of those major rivals
+ by a few points.
+ This could suggest the model isn't as good
+ at web search or tool use as the others,
+ but of course this is only a single data point.
+ The general sense you get from the benchmarks
+ is that Mu's is in the mix,
+ but certainly not leading the pack.
+ And you can certainly tell where Meta
+ is trying to put the emphasis.
+ Rather than leading with their scores
+ on humanity's last exam or SWE Bench,
+ those scores are buried fairly deep in the results table,
+ with Meta instead leading on the multimodal benchmarks
+ where Mu's Spark excels.
+ The model scored 86.4 on Charvick's reasoning,
+ which is a measure of visual comprehension,
+ which would actually have that being
+ a state-of-the-art result,
+ beating Gemini 3.1 Pro by six points.
+ Mu's Spark did slightly trail Gemini
+ on assortment of other visual tests,
+ but the results were strong enough
+ to suggest the model would be highly capable.
+ Now these benchmarks also gel
+ with how Meta views the model's purpose.
+ Unlike the other model companies
+ where there is increasing focus
+ on coding use cases and enterprise use cases more broadly,
+ Mu's Spark is designed primarily
+ to drive personal agents.
+ In a Threads post,
+ Mark Zuckerberg wrote that Mu's Spark
+ is a world-class assistant and particularly strong
+ in areas related to personal superintelligence
+ like visual understanding, health,
+ social content, shopping, games, and more.
+ And interestingly in that same note,
+ while Zuckerberg is trying to draw a clear differentiation
+ between the work focus use cases
+ the other companies are pursuing,
+ there is still broadly even here
+ and even in the personal realm,
+ a shift from assistant AI to agentic AI.
+ Zuckerberg ends his Threads post by saying,
+ we are building products
+ that don't just answer your questions,
+ but act as agents that do things for you.
+ Giving more examples
+ of where these capabilities will be useful,
+ Meta wrote that they enable interactive experiences
+ like creating fun mini-games
+ or troubleshooting your home appliances
+ with dynamic annotations.
+ The model will immediately go into service
+ driving Meta AI
+ and will presumably arrive
+ across their social media platforms over time.
+ Mu's Spark will function in three modes,
+ instant with no reasoning,
+ thinking mode which enables reasoning,
+ and contemplating mode
+ that performs deep research style multi-step reasoning.
+ Contemplating mode however won't be available at launch.
+ Meta also emphasized the health assistant use case,
+ touting that they collaborated with a thousand physicians
+ to curate training data for factual accuracy.
+ Now in this case there doesn't seem
+ to be a separate interface for health,
+ it's just functionality that's being encouraged
+ on Meta's existing platforms.
+ Meta AI leader Alexander Wang
+ argued that Mu's Spark is just the beginning, posting,
+ this is step one,
+ bigger models are already in development
+ with infrastructure scaling to match,
+ private API preview open to select partners today
+ with plans to open source future versions.
+ One strand of the response
+ that's been fairly consistent
+ was basically welcome back to the party guys.
+ To some, even though this model
+ is clearly behind the other leaders,
+ the fact that the Meta super intelligence lab
+ was able to get it out in less than a year
+ since that lab was formed
+ was a feat in and of itself.
+ Others were just less impressed.
+ Ethan Molek writes,
+ after playing with it a bit,
+ Meta's Mu's Spark thinking is fine so far
+ but really doesn't match the current big three models.
+ It is also a bit weird,
+ like some strange language in tone,
+ a little loose with facts, et cetera.
+ After giving a few examples, he concludes,
+ anyhow, it's not bad,
+ just not the vibe level
+ that the benchmarks might indicate.
+ And for a first reentry into the frontier model space,
+ given the engineering efficiencies they achieved,
+ it feels like a solid attempt.
+ I'm sure we will see better from Meta in the future.
+ ARC Prize founder Francois Chalet was less forgiving.
+ He wrote,
+ Wang actually decided to respond to that one saying,
+ we're always open to feedback
+ and welcome any perspective on weaknesses
+ you've noticed in the model from using it.
+ We're quite upfront that our model
+ does not perform well on ARC AGI 2, for example.
+ And publish those results for the community to understand.
+ That might reflect some areas of improvement
+ of the model that we could focus on in the future.
+ In general though, Wang reports,
+ we have been pleasantly surprised by user's feedback
+ on the model in areas like visual coding,
+ writing style, and reasoning queries.
+ Voss on Twitter,
+ who previously did work on Meta AI said,
+ Meta's latest model Mu's Spark
+ is actually much better than I had expected.
+ Is it benchmark maxed?
+ Yes, 100%, but so is every other model.
+ Is it frontier leader in any single category?
+ No.
+ Is it better than I expected?
+ Yes.
+ We'll look forward to the eventual open source version.
+ Feels like they're coming back to life.
+ Never fade, Zuck.
+ Now, speaking of open source,
+ another model that we got this week
+ that got completely overshadowed
+ by the Mythos announcement was Z.AI's GLM 5.1.
+ And at least on the benchmarks,
+ it's the first open source model
+ to overtake leading Western models on coding benchmarks.
+ The new frontier model, which like I said,
+ is called GLM 5.1,
+ achieved a 58.4 on SWE Bench Pro,
+ beating GPT 5.4 and Opus 4.6,
+ who scored 57.7 and 57.3 respectively.
+ Z.AI also provided a mixed benchmark
+ that included terminal bench 2.0 and NL2 repo as well,
+ which had GLM 5.1 slightly behind the two US leaders
+ but ahead of Gemini 3.1 Pro.
+ Still, if those benchmarks hold,
+ it puts GLM 5.1 in the top echelon of frontier models
+ with a clear separation from Quinn 3.6 Plus
+ and Kimi K 2.5.
+ And indeed, what most people are clinging onto
+ is the fact that this is a full open source release
+ with commercial licensing.
+ It's a gigantic 754 billion parameter model
+ so you're not gonna be running it locally on a Mac Mini.
+ Still, it gives developers the opportunity to build
+ on top of current generation state of the art models
+ for kind of the first time.
+ We've been tracking the apparent shift
+ in Chinese lab strategy away from open source recently,
+ but this release suggests that leading Chinese labs
+ are at least still somewhat willing
+ to give away their best performing models.
+ In terms of performance,
+ Z.AI provided a few impressive examples
+ in agents in coding.
+ They claim that GLM 5.1 spent eight hours
+ autonomously building a Linux desktop
+ using a self-review loop
+ to remove the need for human intervention.
+ And this is kind of what they emphasized
+ in their announcement post as well,
+ calling the blog post GLM 5.1 towards long horizon tasks.
+ Running vector DB test, the model was capable
+ of carrying out the database optimization test
+ with significant results.
+ The model carried out over 600 iterations
+ using more than 6,000 tool calls
+ to deliver 6x the performance
+ of a standard 50 turn session.
+ Z.AI leader Lou wrote on X,
+ agents could do about 20 steps
+ by the end of last year.
+ GLM 5.1 can do 1,700 right now.
+ Autonomous work time may be the most important curve
+ after scaling laws.
+ GLM 5.1 will be the first point on that curve
+ that the open source community
+ can verify with their own hands.
+ Now of course, whenever a company reports
+ their own benchmarks,
+ it's always worth taking it with a grain of salt
+ and waiting to see what the actual vibes are around it
+ as people get their hands on it.
+ But at least at first glance,
+ the model looks like a big step up for Chinese AI.
+ It was trained entirely on less powerful Huawei chips,
+ again demonstrating that the Chinese hardware stack
+ can produce some powerful results.
+ Also, coming just two months after the release
+ of Opus 4.6 and GPT-5.4,
+ it suggests the US continues to be
+ only months ahead of their Chinese rivals.
+ Leet LLM summed up the gap in the conversation on X,
+ saying, everyone's freaking out about Claude Mythos
+ while Z.AI casually open sourced a model
+ built for eight hour autonomous execution.
+ Now speaking of Claude and Anthropik,
+ if you thought they were going to slow down
+ for the sake of discussion around Mythos, think again.
+ On Wednesday afternoon,
+ a company announced Claude Managed Agents,
+ which they're pitching as everything you need to build
+ and deploy agents at scale.
+ In their announcement tweet,
+ which has been seen 16 million times,
+ they write that Claude Managed Agents pairs an agent harness
+ tuned for performance with production infrastructure
+ so you can go from prototype to launch in days.
+ It seems like part of the goal with this
+ is to close the capability gap
+ that we've been following on the show as well.
+ Anthropik's head of product for the Claude platform,
+ Angela Jiang, argued to Wired that there is a quote,
+ notable gap between what Anthropik's models are capable of
+ and what businesses are using them for.
+ This tool is meant to close that gap.
+ Here's how Wired describes it,
+ which is actually one of the simpler explanations
+ that I saw.
+ Managed Agents will give developers an agent harness,
+ which describes all the software infrastructure
+ that wraps around an AI model to help it work agentically
+ or take actions on behalf of a user.
+ In practice, a harness is made up of software tools,
+ a memory system, and other infrastructure.
+ Agents made through Claude Managed Agent
+ will also come with a built-in sandboxed environment
+ in which the agent can spin up software projects
+ in a secure setting.
+ The product also allows developers to create agents
+ that can run autonomously for hours in the cloud,
+ monitor what other Claude agents are doing,
+ and toggle permissions that allow agents
+ to access certain tools.
+ Caitlin Lessie, the head of engineering
+ for the Claude platform, said,
+ when it comes to actually deploying
+ and running agents at scale,
+ this is a complex distributed systems engineering problem.
+ A lot of customers we're talking about
+ previously had a whole bunch of engineers
+ whose job it would have been
+ to build and run those systems at scale.
+ Now that we are giving them that bit out of the box,
+ they're able to have those same engineers
+ be focused on core competencies of business
+ and their product.
+ One of the demos provided
+ was in collaboration with Notion,
+ with product manager Eric Lou showing
+ how he can offload a string of client onboarding tasks
+ to his customized Claude agent.
+ The big point was that the agent
+ was running natively in Notion
+ with full access to everything it needed
+ to complete the task.
+ Rather than needing to spend days setting up permissions,
+ validating workflows and figuring out local hosting,
+ Lou was able to drop the managed agent
+ in using a virtual session.
+ The platform also allows companies like Notion
+ to build their own agents on top of Claude
+ and offer them externally,
+ bringing agents to market more rapidly.
+ Anthropics Alex Albert writes,
+ managed agents eliminates all the complexity
+ of self-hosting an agent,
+ but still allows a great degree of flexibility
+ with setting up your harness tools, skills, et cetera.
+ Claude codes Turric writes,
+ managed agents is the first agent in the cloud API
+ that has the right mix of simplicity and complexity.
+ Implementation details
+ like how you manage a sandbox are abstracted,
+ but you have a lot of control
+ over the actual execution of the model.
+ Anthropics Lance Martin gave a bunch of examples
+ of what characteristics agents
+ being built with managed agents had.
+ He writes, some of the common patterns I've noticed
+ across examples in my own work, event triggered,
+ a service triggers the managed agent to do a task.
+ For example, a system flags a bug
+ and a managed agent writes the patch and opens the PR.
+ No human in the loop between flag and action.
+ Scheduled managed agent is scheduled to do a task.
+ For example, I and many others use this platform
+ for scheduled daily briefs,
+ e.g. of X slash Twitter or GitHub activity,
+ what a team of agents is working on, et cetera.
+ He also talks about fire and forget tasks
+ with humans triggering the managed agent to do a task
+ via Slack or Teams and long horizon tasks
+ like Andre Carpethy's auto research idea.
+ Now it's early, but some of the first experiments
+ seem to validate some of those patterns.
+ Jared Orkin writes, you no longer need an engineer
+ to run an overnight marketing analysis.
+ You need one sharp operator in an afternoon,
+ set the schedule, set the guardrails and walk away.
+ Anthropic runs the infrastructure
+ you pay per session hour.
+ Now he points out though,
+ the catch nobody's saying out loud,
+ someone still has to tune the prompt every Friday
+ and act on the brief by 9 a.m. Monday.
+ That's a job, that's the job we staff.
+ The agent writes the brief, the operator runs the day.
+ Powell Hurran started working on something similar
+ to what I was trying last night.
+ He writes, I built my first managed agent,
+ surprised how easy it was.
+ You describe what you want in plain English,
+ the platform generates a full agent config,
+ model, system prompts, tools, MCP servers,
+ permission policies, all in YAML you can edit.
+ I asked for an email reader
+ that needs my approval before acting.
+ Now one thing he also notes,
+ that is not available yet exactly,
+ although it's something that they're working on,
+ is persistent memory across sessions.
+ That means that the types of tasks
+ that managed agents is well-suited for right now
+ are a little bit more transactional and discreet.
+ For example, some of the agents
+ that I've been experimenting with recently
+ are basically persistent learners
+ that help with AI strategy from within Slack,
+ which effectively is sort of an agentic version
+ of what we do at Super Intelligent,
+ but that persistence isn't exactly well-suited
+ to the way that they built managed agents right now.
+ Still, there is clearly going to be
+ a ton of people build with these tools,
+ and I think it's going to very quickly become
+ a core part of the overall Claude and Claude code ecosystem.
+ Lastly this week, one that seems little at first,
+ but which is a massive quality of life upgrade,
+ Google has introduced what they're calling
+ notebooks in Gemini.
+ Up to now, the way you managed projects in Gemini
+ was frankly a little weird and unintuitive.
+ They had their gems feature, which was sort of,
+ but not exactly a version of projects
+ in the way that you would manage it in ChatGBT or Claude,
+ but now this new notebooks functionality
+ is much more directly that allowing users to organize,
+ collate a set of resources, documents, context,
+ et cetera, for particular tasks.
+ Users can also build out custom instruction sets
+ for Gemini within their notebooks,
+ allowing them to modify the model
+ for each different project they have.
+ Still, Josh Woodward from Google argues
+ that this goes beyond the normal project settings.
+ He writes, most AI Chatbots give you basic projects.
+ Gemini just built you a second brain.
+ He goes on to call notebooks
+ some of the magic of notebook LM
+ directly integrated into Gemini app.
+ Basically you can take the resource management
+ that you're doing in notebook LM
+ and put it directly in the Gemini app.
+ writes Google, think of notebooks as personal knowledge bases
+ shared across Google products starting in Gemini.
+ Now, one of the common critiques you will hear
+ when it comes to Google is that even if people
+ like their models, the product suite is so spread out
+ across all the different surface areas
+ that people interact with Google through
+ that it can be confusing and even overwhelming.
+ It makes sense then based on that
+ to see them start to consolidate
+ if not the surface area of the products,
+ the transportability of the features
+ across those different surface areas
+ so that effectively any door you walk in
+ gets you to the same room.
+ This may not be a full model,
+ but I think when it comes to many Gemini users
+ day-to-day experience, this will be an even bigger
+ improvement than if they had released Gemini 3.3.
+ Now, for those of you who are interested
+ in going a little bit deeper
+ in anthropic managed agents,
+ I think I'm gonna do a main episode
+ about harness engineering soon
+ where we'll dig deeper into that.
+ For now, however, that's gonna do it
+ for today's AI Daily Brief.
+ Appreciate you listening or watching.
+ As always, then until next time, peace.
