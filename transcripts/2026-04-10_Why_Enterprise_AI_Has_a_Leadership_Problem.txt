@@ -1,0 +1,698 @@
+ Today on the AI Daily Brief, the excited anxiety of Enterprise AI, and before that in the headlines,
+ the SAS Pocalypse is over.
+ The AI Daily Brief is a daily podcast and video about the most important news and discussions
+ in AI.
+ All right, friends, quick announcements before we dive in.
+ First of all, thank you to today's sponsors, KPMG, Blitzy, Drata, and Zencoder.
+ To get an ad-free version of the show, go to patreon.com.ai-dealybrief, or you can subscribe
+ on Apple Podcasts.
+ To learn more about sponsoring the show, send us a note at sponsors.ai-dealybrief.ai.
+ While you're on the site, you can scroll around to find out all the things going on, including
+ of course the March AI usage pulse survey, which is closing in a couple of days, and
+ the second cohort of our Enterprise Claw program, which is the facilitated team
+ complement to ClawCamp.
+ Registration for that closes on Monday, and you can find that at enterpriseclaw.ai.
+ With that out of the way, let's talk the Saspokalypse.
+ We kick off today with a bit of a narrative watch as the Saspokalypse narrative seems to
+ be ending as the story of AI disruption fades on Wall Street.
+ Now, a couple of months ago, Wall Street woke up to the massive paradigm shift on the horizon
+ via products like Claude Code and Claude Cowork.
+ Software indices sold off by 20% in short order, with more vulnerable single stocks
+ taking an even larger hit.
+ Now the panic is over, and there is far more optimism that SaaS companies can navigate
+ their way through the disruption.
+ On Tuesday at the HumanX conference in San Francisco, AWS CEO Matt Garmin rejected
+ the notion that AI coding would disrupt incumbent SaaS firms.
+ He said that the idea that companies could use Claude Code to write their own software
+ to replace platforms like Salesforce was overblown.
+ Now, his view is that AI is enormously disruptive, but that it also represents a huge
+ opportunity for those existing incumbent software companies.
+ He said they know more about their edges of their software, and so they are in a better
+ position to build the next generation of AI-enabled products.
+ And yet Garmin also recognized the risks of not moving with the times, warning that firms
+ that try to protect what they have rather than lean in would be in trouble.
+ More broadly, Goldman Sachs analyst Peter Oppenheimer believes the worst is over
+ for tech stocks in general.
+ In a Tuesday note, he wrote that techs underperformance this year is starting to
+ create opportunities as, quote, its valuation relative to expected consensus growth has
+ fallen below that of global aggregate market.
+ He noted that past quarter was one of the weakest performances in 50 years for
+ tech stocks relative to global markets.
+ The weakness has been entirely driven by fears around infrastructure spending,
+ and then, of course, the shift to fears of AI disruption.
+ Cyber security is also gathering attention as one sub-sector where the
+ narrative of AI disruption was especially overdone.
+ Manthan Shah of Westbridge Capital said, right now software investors are
+ selling first and asking questions later, but I think we'll look back and
+ see this as a really interesting time to get into security.
+ This is one of the top areas where we're excited about the long-term potential.
+ Shah believes that investors were getting the AI cybersecurity narrative
+ completely wrong.
+ He said AI is going to massively increase the surface area that can be vulnerable,
+ meaning the need for security is going to compound significantly going forward.
+ I'm going to slap a big old duh on that one, as the major story of our week
+ was, of course, Anthropics Mythos, completely freaking everyone out when it
+ comes to what was it again?
+ Oh yeah, cybersecurity.
+ Multiple analysts have upgraded cybersecurity stocks in recent weeks,
+ noting that AI changes the nature of security budgets, but very likely won't
+ decrease them.
+ Piper Sandler analysts, Rob Owens, argued that AI is, quote,
+ an opportunity not a replacement threat because it will create the next
+ multi-billion security opportunity as enterprises look to secure a new
+ attack surface.
+ Even those who believe software is in for a rough year still think
+ security could be an exception.
+ Ryan Assurewood, the CIO of Significance Capital Management, said,
+ it seems hard to imagine that security stocks will get the premium
+ multiples they've been afforded in the past, but it still looks like the best
+ place to be within software.
+ We don't want to touch a lot of application software stocks, but within
+ software, cyber looks like the best house in a bad neighborhood.
+ Now, speaking of market forces, Anthropic has wrapped up their tender
+ offer, but very few employees are cashing out.
+ Last month, Anthropics gave employees the option to sell their stock
+ into the secondary market.
+ The stock was valued according to the last venture funding round completed
+ in February, which gave Anthropic a $380 billion valuation.
+ That mark felt to many already a little cheap by the time the round
+ closed, but that sense rapidly increased as Claude Code took over
+ the world in the following month.
+ Some secondary markets saw Anthropics stock trading as high as a
+ $600 billion implied valuation in recent weeks.
+ According to Bloomberg sources, the tender offer failed to reach
+ its full allocation, leaving some outside investors unable to
+ pick up as much stock as they had hoped.
+ The total size of the tender offer was not disclosed, but
+ sources indicated it was less than 6 billion investors had
+ lined up to buy.
+ One source said that the lack of selling reflects optimism among
+ employees that Anthropics value will continue to skyrocket as
+ revenue booms.
+ Many are holding on to all of their shares in anticipation of
+ the upcoming IPO.
+ Now, tech employees holding on to their stock into a hyped IPO is
+ not a unique phenomenon to Anthropic.
+ OpenAI's most recent tender also failed to fill up, with
+ employees only selling $6.6 billion out of the total $10.3
+ billion in approved sales.
+ Still, Anthropics' rapid growth means employees are saying no to
+ a significant amount of money to bet on a big IPO pop.
+ Employees with more than one year at the company were
+ eligible to sell stock, meaning that even the least
+ tenured stock options of the lot would have been struck at
+ Anthropics' January 2025 valuation of $60 billion.
+ Speaking of Anthropic, they are also doing well in the
+ talent war.
+ The company had two big executive poaching announcements.
+ The first is that they grabbed Eric Boyd, an 18-year
+ veteran of Microsoft, to help run their rapidly scaling
+ infrastructure efforts.
+ He most recently led the AI hardware and software team
+ for Azure, and now he is joining Anthropic as their new
+ head of infrastructure.
+ Now, this hire comes, of course, as Anthropic begins to
+ take a more active role in infrastructure management to
+ meet surging demand.
+ Up until now, they'd largely outsourced that to cloud
+ partners including AWS and, more recently,
+ Google and Microsoft.
+ Earlier this week, you'll remember, Anthropic announced
+ a massive new deal with Google and Broadcom to stand up
+ 3.5 gigawatts of dedicated inference with the buildout
+ beginning next year.
+ The information reported that Anthropic is not just
+ hiring Boyd, but an entire team consisting of veterans
+ from other leading cloud enterprises.
+ In another big get, Anthropic poached Workday this
+ week as well.
+ Peter Bayless had only joined Workday last May and
+ resigned from the company last month.
+ The information reports that he will work on
+ reinforcement learning engineering.
+ For some, though, the question is whether
+ Anthropic is staffing up to take on incumbent
+ SaaS platforms.
+ Workday stock lost more than 40% of its value in
+ the now over, as we just discussed,
+ SaaS Pocalypse, suggesting that the market
+ is pricing them as one of the more vulnerable
+ software firms.
+ Regardless of what Anthropic is actually working on,
+ the market took this hire very badly,
+ sending Workday down 6.5% on the day.
+ Over in legal land, Elon Musk's courtroom showdown
+ with Sam Altman is inching closer
+ and tensions are running hot.
+ In an amended filing on Tuesday,
+ Musk clarified his desired outcome.
+ He is asking for the judge to unwind
+ OpenAI's for-profit conversion and remove
+ Sam Altman and Greg Brockman from the non-profit board.
+ Much of the reporting has focused on the 150 billion
+ damages Musk is seeking alongside corporate reforms.
+ To set the record straight, however,
+ Musk's filing asks that any monetary damages
+ be awarded to the non-profit rather than to Musk himself.
+ Musk's lawyer, Mark Toborov, said the amendment
+ was filed to make it clear that Musk is, quote,
+ not seeking a single dollar for himself.
+ Toborov continued, he is asking the court
+ to return everything that was taken from a public
+ charity and to make sure the people responsible
+ are never in a position to do this again.
+ OpenAI fired back on ex posting,
+ today at the 11th hour, Elon lodged
+ a court filing pretending to change his tune
+ about attacking the non-profit OpenAI Foundation.
+ The truth is that this case has always been about
+ Elon generating more power and more money for what he wants.
+ Having increasingly realized that his attempt
+ to damage the non-profit OpenAI Foundation
+ rests on a baseless legal case,
+ Elon is once again trying to change the narrative
+ and save face as the trial approaches.
+ His lawsuit remains nothing more than a harassment campaign
+ that's driven by ego, jealousy,
+ and a desire to slow down a competitor.
+ The lawsuit will now proceed to a jury trial
+ beginning at the end of the month.
+ Meanwhile, in more business-y Elon news,
+ Intel has thrown in their lot with Elon
+ joining his moonshot chip-making venture.
+ Intel will partner with Tesla and SpaceX
+ on the TerraFab facility in Austin, Texas
+ providing design and construction support.
+ Crucially, Intel will oversee the refactoring step,
+ a manufacturing process that makes the chips
+ more powerful and reliable.
+ TerraFab is Elon's latest mega project,
+ designed to produce enough domestic AI chips
+ to power his ambitions to build a quote robot army.
+ Tesla already produces their own AI chips
+ for use in vehicles,
+ but the manufacturing is outsourced to TSMC in Taiwan.
+ Musk wants to bring the process on shore
+ at an ambitious scale,
+ targeting one terawatt of chips per year.
+ According to SpaceX,
+ this would make TerraFab the largest fab in the world.
+ They're framing the project as the quote,
+ next step to becoming a galactic civilization.
+ Now for Intel,
+ this could be a major step in their reclamation project.
+ They are already planning to build two fabs in Arizona
+ as part of a $20 billion investment in local production.
+ However, progress has been slow
+ and the company is still struggling to find their feet.
+ Joining up with Elon,
+ Inc. could give them a huge boost in credibility
+ if they can complete the project.
+ Intel CEO, Lip Bhutan is enthusiastic,
+ posting, Elon has a proven track record
+ of reimagining entire industries.
+ This is exactly what is needed
+ in semiconductor manufacturing today.
+ TerraFab represents a step change
+ in how silicon logic, memory, and packaging
+ will get built in the future.
+ Semiconductor analyst, Patrick Morhead,
+ believes this is a perfect match, commenting,
+ Intel Foundry needs anchor customers,
+ Musk needs a process partner.
+ So another interesting chip dynamic to watch,
+ but for now, that is gonna do it for the headlines.
+ Next up, the main episode.
+ All right, folks, quick pause.
+ Here's the uncomfortable truth.
+ If your enterprise AI strategy is, we bought some tools,
+ you don't actually have a strategy.
+ KPMG took the harder route
+ and became their own client zero.
+ They embedded AI and agents across the enterprise,
+ how work gets done, how teams collaborate,
+ how decisions move, not as a tech initiative,
+ but as a total operating model shift.
+ And here's the real unlock.
+ That shift raised the ceiling on what people could do.
+ Humans stayed firmly on the ground,
+ while AI reduced friction, serviced insight,
+ and accelerated momentum.
+ The outcome was a more capable, more empowered workforce.
+ If you wanna understand
+ what that actually looks like in the real world,
+ go to www.kpmg.us slash AI.
+ That's www.kpmg.us slash AI.
+ Blitzy is driving over 5x engineering velocity
+ for large-scale enterprises.
+ A publicly traded insurance provider
+ leveraged Blitzy to build a bespoke company
+ to build a bespoke payments processing application,
+ an estimated 13-month project,
+ and with Blitzy, the application was completed in live
+ and production in six weeks.
+ A publicly traded vertical SaaS provider
+ used Blitzy to extract services
+ from a 500,000-line monolith
+ without disrupting production 21 times faster
+ than their pre-Blitzy estimates.
+ These aren't experiments.
+ This is how the world's most innovative enterprises
+ are shipping software in 2026.
+ You can hear directly about Blitzy
+ from other Fortune 500 CTOs
+ on the modern CTO or CIO-classified podcasts.
+ To learn more about how Blitzy can impact your SDLC,
+ book a meeting with an AI Solutions Consultant
+ at blitzy.com.
+ That's blitzy.com.
+ Let's face it.
+ If you're leading GRC at your organization,
+ chances are you're drowning in spreadsheets.
+ Balancing security, risk and compliance,
+ across-shifting threats and regulatory frameworks
+ can feel like running a never-ending marathon.
+ Enter Drata's Agendic Trust Management Platform
+ designed for leaders like you.
+ Drata automates the tedious tasks
+ like security questionnaire responses,
+ continuous evidence collection and much more,
+ saving you hundreds of hours each year.
+ With Drata, you spend less time chasing documents
+ and more time solving real security problems.
+ But it's more than just a time saver.
+ It's built to scale and adapt to your organization's needs,
+ whether you're running a startup or leading GRC
+ for a global enterprise.
+ With Drata, you get one centralized platform
+ to manage your risk and compliance program.
+ Drata gives you a holistic view of your GRC program
+ and real-time reporting your stakeholders can act on.
+ With Drata, you can also unlock a powerful trust center,
+ a live customizable product that supports you
+ in expediting your never-ending security review requests
+ in the deal process.
+ Share your security posture with stakeholders
+ or potential customers, cut down on back-and-forth questions,
+ and build trust at every interaction.
+ If you are ready to modernize your GRC program
+ and take back your time,
+ visit drata.com to learn more.
+ So coding agents are basically solved at this point.
+ They're incredible at writing code.
+ But here's the thing nobody talks about.
+ Coding is maybe a quarter of an engineer's actual day.
+ The rest is stand-ups, stakeholder updates,
+ meeting prep, chasing context across six different tools.
+ And it's not just engineers.
+ Sales spends more time assembling proposals than selling.
+ Finance is manually chasing subscription requests.
+ Marketing finds out what shipped two weeks after it merged.
+ ZenCoder just launched ZenFlow Work.
+ It takes their orchestration engine,
+ the same one already powering coding agents,
+ and connects it to your daily tools.
+ JIRA, Gmail, Google Docs, Linear, Calendar, Notion.
+ It runs goal-driven workflows that actually finish.
+ Your stand-up brief is written before you sit down.
+ Review cycle coming up.
+ It pulls six months of tickets and writes the prep doc.
+ Now you might be thinking,
+ didn't Open Claw try to do this?
+ It did, but it has come with a whole host
+ of security and functional issues
+ which can take a huge amount of time to resolve.
+ ZenCoder took a different approach.
+ Sock 2, Type 2 certified,
+ curated integrations, tighter security perimeter.
+ Enterprise grade from day one.
+ Model agnostic and works from Slack or Telegram.
+ Try it at zenflow.free.
+ Welcome back to the AI Daily Brief.
+ We have discussed enterprise AI implicitly or by extension
+ quite a bit recently without necessarily going super deep
+ on what recent numbers are telling us.
+ I shared the AI maturity maps framework last week,
+ which is a way of looking at AI readiness and AI adoption
+ across six different dimensions,
+ including deployment depth, systems integration,
+ and governance, and shared a bit about
+ what our research had told us about where organizations are
+ right now and why we think in many cases
+ it's behind where they need to be.
+ But of course, that's different than digging
+ into the actual numbers themselves.
+ And recently we've gotten a bunch of different studies,
+ all with direct sourcing from inside companies,
+ that are telling some similar and some different stories
+ about enterprise AI.
+ So what we're gonna do today is talk through
+ what those studies are telling us,
+ where they agree, where they disagree,
+ and what I think the sum total is
+ and why even all of this still might be missing something.
+ First up, we have some research
+ from A16Z.
+ Now where this data comes from is the aggregation
+ of private data from a number of leading enterprise
+ AI startups who live and work inside
+ many of these big corporations.
+ Here's a couple of the highlight numbers.
+ A16Z found that about 19% of the global 2000
+ are live paying customers of a leading AI startup
+ with that number rising to 29% of the Fortune 500.
+ That means the enterprises have signed
+ a top down contract with an AI startup,
+ successfully converting it to AI startups
+ successfully converted to pilot
+ and gone live with the product in their organization.
+ Now 29% might seem low,
+ but as you heard that does not include pilot efforts,
+ nor my guess is it comprehensive across every tool
+ that companies might be using.
+ Their next exploration is what is actually working.
+ And here's their methodology.
+ A16Z writes, we find that the most indicative way
+ to assess the work the models are inherently better at doing
+ is to overlay revenue momentum across use cases
+ against the theoretical capabilities of models
+ as defined by GDPVAL.
+ They write that to them these two factors encapsulate
+ both how good models could be
+ as well as how much they're proving to deliver today.
+ When it comes to use cases and functions,
+ enterprise AI adoption is dominated
+ by coding support and search
+ with coding being the absolute biggest
+ by an order of magnitude.
+ The tech, legal and healthcare sectors they found
+ have been the industry's most eager to adopt AI.
+ Now we have talked so extensively
+ about coding being the dominant use case for AI
+ that I don't think we need to get into it here.
+ But their discussion of support I think is interesting
+ for reinforcing why it's a comparatively good place
+ for organizations to start when it comes to AI.
+ First of all, they point out that a lot of the type of work
+ that AI is doing was already outsourced in some way
+ because as they put it,
+ companies deemed it too tedious
+ and complicated to manage themselves.
+ Second, they argued that its discreteness really matters,
+ i.e. the nature of most support interactions
+ is time bound with a constrained intent
+ that outputs into a well-defined problem
+ for an agent to tackle.
+ It's got an easy ROI profile
+ because support operates on quantifiable metrics
+ like number of tickets answered,
+ satisfaction scores of customers and resolution rates.
+ And, and I think importantly,
+ they point out the support doesn't require 100% accuracy
+ to be useful since it has natural off-ramps to a human,
+ e.g. the I'm escalating you to a manager.
+ Now when it comes to the industries,
+ again, technology is not a surprise,
+ but legal they write was primed for adoption of AI
+ because it had actually been left behind
+ by traditional enterprise software.
+ They write static workflow tools
+ didn't accelerate the unstructured nuance work
+ that lawyers typically did,
+ but AI has made the value prop of technology
+ to lawyers much clearer.
+ AI is excellent at parsing dense text,
+ reasoning over large amounts of text,
+ and summarize and drafting responses,
+ all work that lawyers regularly do.
+ Healthcare, they argue, is another market
+ that's responding to AI in a way
+ that it didn't for traditional software.
+ They write healthcare was historically
+ a slower market to adopt software
+ because one, the highly skilled and complex work
+ mapped poorly to the problem's
+ traditional workflow software could solve,
+ and two, the dominance of the systems of record EHRs
+ like Epic, Squeeze, NetNew Software vendors.
+ With AI, however they write,
+ companies have been able to take on
+ discreet human labor work
+ that circumvents the system of record
+ by either replacing administrative work,
+ e.g. medical scribes,
+ or augmenting higher value work doctors were doing.
+ The work is distinct enough then
+ not to require a rip and replace of the EHR.
+ Now moving out to a more longitudinal view,
+ we have KPMG's most recent quarterly pulse survey.
+ This data comes from a set of executives
+ from companies, primarily with more
+ than a billion dollars in revenue,
+ and is their recurring tracker
+ so we get some amount of quarter over quarter data.
+ Couple of big things stand out.
+ Despite ROI still being hard to quantify
+ in really clear ways,
+ the average anticipated spend on AI
+ just continues to go up.
+ In Q1 of last year, organizations reported to KPMG
+ that they anticipated spending about $114 million
+ on average over the next 12 months.
+ That has now jumped to $207 million.
+ And part of the reason might be
+ that agents are now, to put it bluntly, very real.
+ In Q1 of 2025, only 11% of organizations
+ had agents in deployment.
+ Many more were experimenting or piloting,
+ but that was the number where agents
+ were in full production.
+ In Q2, that jumped meaningfully to 33%.
+ And yet in Q1 of this year,
+ that number is now over 50% for the first time
+ at 54%.
+ Within that 54%, 40% are scaling or deploying,
+ 6% are developing multi-agent systems,
+ and 9% are orchestrating.
+ Piloting is down to 30%,
+ and experimenting is down to 14%.
+ And in many ways, this agentic adoption
+ kind of defines everything else on the survey.
+ A lot of the considerations
+ are around how to manage new risk from agents.
+ Cyber and employee misuse is up from 32% to 44%,
+ when asked about the most difficult society-wide challenge
+ with AI between now and 2030.
+ It's also coloring challenges around employees.
+ While 55% of organizations
+ are seeing slight or significant employee adoption of agents,
+ i.e. employees beginning to accept
+ and integrate agents into their work,
+ they're also finding resistance.
+ Interestingly, the resistance appears to be
+ more about skills gaps than concerns about job security,
+ although both rate very highly
+ at 76 and 71%, respectively.
+ Agents are also shaping
+ what companies expect from their talent.
+ 57% said that they expect humans
+ to primarily manage and direct AI agents
+ in the next two to three years.
+ 64% said agents had already changed
+ their approach to entry-level hiring,
+ which is interestingly lower than the percentage
+ who said that agents had changed
+ their approach to experienced hires,
+ which was at 71%,
+ and for the carrot in this equation,
+ 45% of leaders said that they're willing to pay
+ 11% to 15% more for strong AI skills.
+ When it comes to how they get these skills,
+ most leaders are looking internally first.
+ 87% said that they are focused
+ on upskilling or rescaling their current workforce.
+ 68% said that they're hiring for new roles
+ like AI architects.
+ 55% said that they're redesigning existing roles,
+ all of which is much higher than the percentage
+ that are turning to managed services at 39%
+ or aqua hires at 17% to get the AI skills they need.
+ Interestingly, when it comes to what leaders value
+ in their talent,
+ while 71% said technical or programming abilities,
+ and this is specifically for skills
+ related to entry-level employees
+ that need to work with AI agents,
+ 83% said that it's about adaptability
+ and continuous learning.
+ Now, there are still tons of challenges
+ and barriers to demonstrating ROI,
+ 58% point to risk considerations
+ such as data privacy and cyber,
+ 59% said that they have difficulty
+ quantifying indirect or long-term benefit,
+ 62% see skills gaps,
+ and 65% are having difficulty scaling use cases.
+ And many of these are the stories and themes
+ that a recent study from Ryder
+ in collaboration with Workplace Intelligence found.
+ Ryder CEO, May Habib sums up the difference
+ between last year's version of the study
+ and this year's like this.
+ When we looked at the data last year,
+ the defining theme was tension.
+ Budgets were climbing and pilots were multiplying,
+ but the reality on the ground was messy.
+ Ownership was murky, IT and the C-suite
+ were locked in a constant tug of war,
+ and frustration grew
+ as that massive investments hit a wall.
+ Only 12 months later, the tension has evolved
+ into something much more consequential.
+ It's now cultural, organizational,
+ and deeply structural.
+ Now importantly, Ryder is actually dealing
+ with the new reality of agentic.
+ May continues, the shift towards agentic AI
+ has moved at a pace that's hard to overstate.
+ AI isn't rolling out at the edges anymore.
+ Instead, organizations are embedding agents
+ directly into their mission-critical workflows
+ where they make autonomous decisions
+ and fundamentally change how work gets done.
+ On the one hand, you can feel the ambition.
+ There's an entire cohort of AI native leaders
+ and employees who are compounding their advantage
+ in real time.
+ They're working faster, more independently,
+ and more creatively than we could have imagined
+ just a year ago, but all of that enthusiasm
+ is running headlong into chaos.
+ Agentic AI is exposing a deep structural gap
+ that most enterprises just aren't prepared for.
+ It's showing up in misaligned incentives,
+ siloed teams, and outdated operating models
+ that are reaching a breaking point.
+ So this study surveyed 2,400 knowledge workers
+ across the US and parts of Europe
+ and was split half and half
+ between C-suite executives and employees.
+ All employees in the study were required
+ to be actively using generative AI tools at work
+ and executives were required to be working
+ at a company that permits the use of AI.
+ Basically, this is a voice of AI adopter study.
+ Couple of the highlights that I thought were interesting.
+ One is that on the one hand,
+ leaders are in many ways out ahead of their employees
+ when it comes to AI adoption,
+ with 64% of those surveyed spending
+ at least two hours a day using these tools.
+ 75% of executives believed that AI agents
+ would be part of their company C-suite
+ within the next five years.
+ And yet, a full 73% of CEOs said
+ that their company's AI strategy
+ was causing them stress or anxiety,
+ with 38% reporting a high or crippling amount of stress.
+ 61% of executives fear they could lose their job
+ if they fail to lead their organization
+ through the AI transition.
+ And when you dig into the numbers,
+ it's not hard to see why the strategy is successful.
+ Basically, the strategy is kind of not clear.
+ 39% don't have a formal strategy
+ in place to drive revenue from AI.
+ And a full 75% said that their company's AI strategy
+ was more for show than actual internal guidance,
+ which is obviously just a recipe for disaster.
+ 56% said that AI had created power struggles
+ and disruption at their organization,
+ which is a big jump from 42% last year.
+ On the flip side,
+ there's continuing employee sabotage of the efforts.
+ 29% of employees, including 44% of Gen Z,
+ admit to sabotaging their company's AI strategy.
+ And 76% of the C-suite said
+ employee sabotage poses a serious threat
+ to their company's future.
+ 35% of employees said that they'd entered proprietary,
+ confidential, or sensitive information
+ into a public AI tool.
+ And 2 thirds of executives said
+ that they believed their company had already suffered
+ a data leak or security breach
+ because of an employee using an unapproved AI tool.
+ And if you want to get a sense of why,
+ I think you have to point to a gap in leadership.
+ Just 35% of employees said that their manager
+ is an AI champion.
+ 75% said that they trust AI more than their manager
+ for certain work tasks.
+ That is just an incredibly damning statistic
+ that is showing up downstream, I think, in everything else.
+ And increasingly what you're getting then
+ is effectively two tiers in the workplace.
+ 92% of the C-suite said
+ that they're actively cultivating
+ a new class of AI elite employees
+ with 60% planning to lay off employees
+ who can't or won't use AI.
+ AI super users are about 3x more likely
+ to have gotten both a promotion and a pay raise in 2025
+ compared to those who aren't using AI.
+ In its recent state of digital adoption report,
+ SAP subsidiary Walkme surveyed 3,750 executives
+ and employees across 14 countries
+ and found something similar.
+ Their report found that 33% of employees
+ hadn't used AI at all and another 54%
+ had in some cases bypassed their company's AI tools
+ to complete work manually instead.
+ And once again, the story here
+ is a difference between employees and leadership,
+ which is to put it bluntly a leadership problem.
+ For example, 61% of executives trust AI
+ for complex business critical decisions,
+ but only 9% of workers surveyed and this survey did.
+ That is a 52 point trust gap.
+ 88% of executives said that their employees
+ have adequate tools, but only 21% of workers agree.
+ That is a 67 point gap.
+ This reflects something that we found
+ when we were aggregating surveys
+ for the maturity maps,
+ that's something like 93% of all AI spending
+ goes to infrastructure and models and compute and tools
+ compared to just 7% invested in the humans
+ using those things.
+ That is a recipe for disaster
+ and the disaster is showing up in the data.
+ Which brings us back to a theme
+ which is going to come up in a different way
+ on Monday's episode about harness engineering,
+ the quintessential lesson of the last year
+ of AI adoption in the enterprise
+ is that picking the tools
+ and getting access to the models is not enough.
+ The companies that are seeing results
+ and getting value out of AI
+ are designing systems and structures
+ that support its use and support the people using it.
+ I called this episode
+ the excited anxiety of enterprise AI
+ because the people who have gone all in
+ using Claude Code or Open Claw or Co-Work
+ or Codex or any of these other tools,
+ genuinely go to sleep and wake up
+ feeling like they have superpowers.
+ And yet for everyone else,
+ they feel increasingly adrift at risk of obsolescence.
+ Simply put, there is a leadership crisis
+ when it comes to AI
+ and the companies that don't solve it are going to fail.
+ This is a theme I'm sure we will continue to watch,
+ but for now, that's going to do it
+ for today's AI Daily Brief.
+ Appreciate you listening or watching as always,
+ and until next time, peace.
