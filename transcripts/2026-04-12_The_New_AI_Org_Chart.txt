@@ -1,0 +1,808 @@
+ You know that with agents in AI, everything inside the enterprise is changing, and today
+ we are talking about the new AI org chart.
+ The AI Daily Brief is a daily podcast and video about the most important news and discussions
+ in AI.
+ All right, friends, quick announcements before we dive in.
+ First of all, thank you to today's sponsors, Blitzy, Zencoder, Drata, and Superintelligent.
+ To get an ad-free version of the show, go to patreon.com.ai-dailybrief, or you can subscribe
+ on Apple Podcasts.
+ If you are interested in sponsoring the show, send us a note at sponsors.ai-dailybrief.ai.
+ And while you are at ai-dailybrief.ai, you can find out all about all the different
+ things going on in our ecosystem.
+ First we are about to close registration for Cohort 2 of Enterprise Claw.
+ If you want your company to know how to build agents and agent teams, this program
+ could be really interesting for you.
+ It's led by Neufar Gaspar, who is a frequent guest and contributor on the show.
+ Secondly, we are about to close the March AI Usage Pulse Survey, but I'm always interested
+ in getting more perspectives in, so if you would take a couple minutes, go fill that
+ out and let us know how your AI usage changed over the last month.
+ Now today we are doing a classic Long Reads episode that will actually start with a
+ read.
+ The theme is one that I think is super interesting, and I'm constantly keeping
+ an eye on, which is the way that AI and specifically agents are changing the org chart.
+ The idea is that AI is not just impacting the way that individuals do their work.
+ It's impacting the way that work gets done overall that changes the fundamental shape
+ and structure of the organization.
+ Now we're going to look at one big essay about this theme, and then some interesting
+ anecdotes from inside a company that is at the forefront of this, and the essay that
+ we start with comes from Jack Dorsey, who of course recently made news with the 40%
+ layoffs at Block.
+ The piece was released about a week ago on Block's webpage, and was actually co-authored
+ by Jack and Sequoia partner Rolloff Botha.
+ The piece reads, at Sequoia, we see that speed is the best predictor of startup
+ success.
+ Most companies are focused on AI as a productivity enhancer.
+ Few are focused on the potential of AI to change how we work together.
+ Block is showing what it looks like to fundamentally rethink organization design, ultimately
+ harnessing AI to increase speed as a compounding competitive advantage.
+ 2,000 years before the first corporate org chart, the Roman army solved a problem
+ that every large organization still faces.
+ How do you coordinate thousands of people across vast distances with limited
+ communication?
+ Their answer was a nested hierarchy with a consistent span of control at every
+ level.
+ The smallest unit was the Contubernium, eight soldiers who shared a tent,
+ equipment, and a mule led by a decanus.
+ Ten Contubernia formed a century of 80 men under a centurion.
+ Six centuries made a cohort.
+ Ten cohorts made a legion of roughly 5,000.
+ At each layer, a named commander held defined authority, aggregating information
+ from below and relayed decisions from above.
+ The structure, eight to 80 to 480 to 5,000, was an information
+ routing protocol built around a simple human limitation.
+ A leader can effectively manage somewhere between three and eight people.
+ The Romans discovered this through centuries of warfare.
+ Even today, the US Army's hierarchical chain follows a similar pattern.
+ We now call it span of control, and it remains the governing
+ constraint of every large organization on Earth.
+ The next big change came from Prussia.
+ After Napoleon's army destroyed the Prussian forces at the Battle
+ of Gena in 1806, a group of reformers rebuilt the military around
+ an uncomfortable truth.
+ You cannot depend on individual genius at the top.
+ You need a system.
+ They created the general staff, a dedicated class of trained
+ officers whose job was not to fight but to plan operations,
+ process information, and coordinate across units.
+ Sharon Horst, one of the reformers, intended these staff officers
+ to quote support incompetent generals, providing the talents
+ that might otherwise be wanting among leaders and commanders.
+ This was middle management before the term existed.
+ Professionals whose purpose was to route information,
+ pre-compute decisions, and maintain alignment
+ across a complex organization.
+ The military also formalized the distinction between line
+ and staff functions.
+ Line advances the core mission.
+ Staff provides specialized support.
+ Every corporation still uses this vocabulary today.
+ Military hierarchy entered the business world
+ through the American railroads in the 1840s and 1850s.
+ The US Army lent West Point trained engineers
+ to private railroad companies, and these officers
+ brought military organizational thinking with them.
+ Staff in line hierarchies, divisional structure,
+ bureaucratic systems of reporting and control,
+ all of it was developed in the military
+ before the railroads adopted it.
+ In the mid-1850s, Daniel McCallum of the New
+ Arcaneerie Railroad created the world's first
+ organizational chart to manage a system stretching
+ over 500 miles with thousands of workers.
+ The informal management styles that worked
+ for smaller railroads were failing.
+ Trained collisions were killing people.
+ McCallum's chart formalized the same hierarchical logic
+ that the Romans had used.
+ Layers of authority, defined reporting lines,
+ structured information flow.
+ It became the blueprint for the modern corporation.
+ Frederick Taylor, often called the father
+ of scientific management, optimized what happened
+ within that hierarchy.
+ Taylor broke work into specialized tasks,
+ assigned them to trained experts, and managed
+ through measurement rather than through intuition.
+ This produced the functional pyramid organization,
+ a structure optimized for efficiency
+ within the information routing system
+ that the military had pioneered
+ and the railroads had commercialized.
+ The first real stress test of functional hierarchy
+ came during World War II.
+ The Manhattan Project required physicists, chemists,
+ engineers, metallurgists, and military officers
+ to work across disciplinary boundaries
+ towards a single objective
+ under extreme secrecy and time pressure.
+ Robert Oppenheimer organized Los Alamos
+ into functional divisions,
+ but insisted on open collaboration across them,
+ resisting the military's instinct to compartmentalize.
+ When the implosion problem became critical in 1944,
+ he reorganized the lab around it,
+ creating cross-functional teams
+ unlike anything in corporate America at the time.
+ It worked, but it was a wartime exception
+ led by a singular figure.
+ The question the post-war business world faced
+ was whether that kind of cross-functional
+ coordination could be made routine.
+ With the growth and globalization of companies
+ after World War II,
+ the scale limitations of functional design
+ became acute.
+ In 1959, McKinsey's Gilbert Klee and Alfred DeCipio
+ published Creating a World Enterprise
+ in the Harvard Business Review,
+ providing an intellectual framework
+ for a matrix organization
+ that combined functional specialties
+ with divisional units.
+ Under the leadership of Marvin Bauer,
+ McKinsey helped companies like Shell and GE
+ implement these principles,
+ balancing central standards with local agility.
+ This became the professional or modern corporation
+ that propelled the post-war global economy.
+ Over time, other frameworks emerged
+ to address the complexity, rigidity,
+ and bureaucracy of matrix structures.
+ The McKinsey 7S framework, developed in the 1970s
+ by Tom Peters and Robert Waterman,
+ distinguished the hard Ss, strategy, structure, and systems
+ from these soft Ss, shared values, skills, staff, and style.
+ The core idea was that structural elements alone
+ were insufficient.
+ Organizational effectiveness required alignment
+ across cultural traits and the human factors
+ that determine whether a strategy actually succeeds.
+ In more recent decades,
+ technology companies have experimented aggressively
+ with organization structure.
+ Spotify popularized cross-functional squads
+ with short sprint cycles.
+ Zappos attempted holocracy,
+ eliminating management titles entirely.
+ Valve operated with a flat structure
+ with no formal hierarchy.
+ Each of these experiments revealed something
+ about the limitations of traditional hierarchy,
+ but none solved the underlying problem.
+ Spotify moved back towards conventional management
+ as it scaled.
+ Zappos saw significant attrition.
+ Valve's model proved difficult to scale
+ beyond a few hundred people.
+ As organizations grow into the thousands,
+ they revert to hierarchical coordination
+ because no alternative information routing mechanism
+ has been powerful enough to replace it.
+ The constraint is the same one the Romans faced
+ and the Marine Corps rediscovered in World War II.
+ Narrowing span of control means adding layers of command,
+ but more layers mean slower information flow.
+ 2,000 years of organizational innovation
+ has been an attempt to work around this trade-off
+ without breaking it.
+ So what's different now?
+ At Block, we're questioning the underlying assumption
+ that organizations have to be hierarchically organized
+ with humans as the coordination mechanism.
+ Instead, we intend to replace what the hierarchy does.
+ Most companies using AI today
+ are giving everyone a co-pilot,
+ which makes the existing structure work slightly better
+ without changing it.
+ We're after something different,
+ a company built as an intelligence or mini-AGI.
+ We are not the first to try to move
+ beyond traditional hierarchy.
+ Hire's Raiden Hoy model, platform organizations,
+ data-driven management,
+ these are real attempts at the same problem.
+ What they lacked was a technology
+ capable of actually performing the coordination function
+ that hierarchy exists to provide.
+ AI is that technology.
+ For the first time, a system can maintain
+ a continuously updated model of an entire business
+ and use it to coordinate work
+ in ways that previously required humans
+ relaying information through layers of management.
+ For this to work, a company needs two things,
+ a kind of world model of its own operations,
+ and a customer signal rich enough
+ to make that model useful.
+ Block is remote first.
+ Everything we do creates artifacts.
+ Decisions, discussions, code designs,
+ plans, problems, and progress
+ all exist as recorded actions.
+ It's the raw material for a company world model.
+ In a traditional company, a manager's job
+ is to know what's happening across their team
+ and relay that context up and down the chain.
+ In a remote first company
+ where work is already machine-readable,
+ AI can build and maintain that picture continuously.
+ What's being built, what's blocked,
+ where resources are allocated,
+ what's working, and what isn't.
+ That's the information the hierarchy used to carry.
+ The company world model carries it instead.
+ But the capability of the system
+ is only as good as the quality
+ of the customer signal feeding it.
+ And money is the most honest signal in the world.
+ People lie on surveys.
+ They ignore ads.
+ They abandon carts.
+ But when they spend, save, send, borrow, or repay,
+ that's the truth.
+ Every transaction is a fact about someone's life.
+ Block sees both sides of millions
+ of transactions every day.
+ The buyer through cash app and the seller through square
+ plus the operational data
+ from running the merchant's business.
+ That gives the customer world model something rare.
+ A per-customer, per-merchant understanding
+ of financial reality
+ built from honest signal that compounds.
+ The richer the signal, the better the model.
+ The better the model, the more transactions,
+ the richer the signal.
+ Together, the company world model
+ and the customer world model form the foundation
+ for a different kind of company.
+ Instead of product teams building predetermined roadmaps,
+ you build four things.
+ First, capabilities.
+ The atomic financial primitives, payments, lending,
+ card issuance, banking, buy now, pay later,
+ payroll, and so on.
+ These are not products.
+ They are building blocks
+ that are hard to acquire and maintain.
+ Some have network effects and regulatory permission.
+ They have no UIs of their own.
+ They have reliability, compliance,
+ and performance targets.
+ Second, a world model.
+ This has two sides.
+ The company world model is how the company understands itself
+ in its own operations, performance, and priorities,
+ replacing the information that used to flow
+ through layers of management.
+ The customer world model is the per-customer,
+ per-merchant, per-market representation
+ built from proprietary transaction data.
+ It starts with raw transaction data today
+ and evolves towards full causal
+ and predictive models over time.
+ Third, an intelligence layer.
+ This is what composes capabilities into solutions
+ for specific customers at specific moments
+ and delivers them proactively.
+ A restaurant's cash flow is tightening
+ ahead of a seasonal dip the model has seen before.
+ The intelligence layer composes a short-term loan
+ from the lending capability,
+ adjust the repayment schedule
+ using the payments capability,
+ and surfaces it to the merchant
+ before they even think to look for financing.
+ A cash app users spending pattern shifts
+ in a way that the model associates
+ with the move to a new city.
+ The intelligence layer composes
+ a new direct deposit setup,
+ a cash app card with boosted categories
+ for their new neighborhood,
+ and a savings goal calibrated to their updated income.
+ No product manager decided to build either solution.
+ The capabilities existed.
+ The intelligence layer recognized the moment
+ and composed them.
+ Fourth, interfaces, hardware, and software.
+ Square, cash app, afterpay, title, bit-key, proto.
+ These are delivery services
+ through which the intelligence layer
+ delivers composed solutions.
+ They are important,
+ but they are not where the value is created.
+ The value is in the model and the intelligence.
+ When the intelligence layer tries to compose a solution
+ and can't because the capability doesn't exist,
+ that failure signal is the future roadmap.
+ The traditional roadmap
+ where product managers hypothesize
+ about what to build next
+ is any company's ultimate limiting factor.
+ In this model, customer reality
+ generates the backlog directly.
+ If this is what the company builds,
+ then the question becomes, what do the people do?
+ The org structure follows from this
+ and it inverts the traditional picture.
+ In a conventional company,
+ the intelligence is spread throughout the people
+ and the hierarchy routes it.
+ In this model, the intelligence lives in the system.
+ The people are on the edge.
+ The edge is where the action is.
+ The edge is where the intelligence
+ makes contact with reality.
+ People reach into places the model can't go yet.
+ They sense things the model can't perceive.
+ Intuition, opinionated direction,
+ cultural context, trust dynamics,
+ the feeling in a room.
+ They make calls the model shouldn't make on its own,
+ especially ethical decisions, novel situations,
+ and high stakes moments
+ where the cost of being wrong is existential.
+ A world model that can't touch the world
+ is just a database,
+ but the edge doesn't need layers
+ of management to coordinate it.
+ The world model gives every person at the edge
+ the context they need to act
+ without waiting for information
+ to travel up and down a chain of command.
+ In practice, this means we normalize down to three roles.
+ Individual contributors
+ who build and operate capabilities,
+ the model, the intelligence layer, and the interfaces.
+ These are deep specialists and experts
+ in a specific layer of the system.
+ The world model provides the context
+ that a manager used to provide
+ so ICs can make decisions about their layer
+ without waiting to be told what to do.
+ Directly responsible individuals or DRIs
+ who own specific cross-cutting problems
+ or opportunities or customer outcomes.
+ A DRI might own the problem of merchant churn
+ in a specific segment for 90 days
+ with full authority to pull resources
+ from the world model team,
+ the lending capability team,
+ and the interface team as needed.
+ DRIs may persist on certain problems
+ or move elsewhere to solve new ones.
+ Third, player coaches
+ who combine building with developing people.
+ They replace the traditional manager
+ whose primary job was information routing.
+ A player coach still writes code
+ or builds models or designs interfaces.
+ They also invest in the growth
+ of the people around them.
+ They don't spend their days in status meetings,
+ alignment sessions, and priority negotiations.
+ The world model handles alignment.
+ The DRI structure handles strategy and priority.
+ The player coach handles craft and people.
+ There is no need
+ for a permanent middle management layer.
+ Everything else the old hierarchy did.
+ The system coordinates and everyone is empowered
+ with a role that's much closer
+ to the work and the customer.
+ Block is in the early stages of this transition.
+ It will be a difficult one
+ and parts of it will likely break before they work.
+ We're writing about it now
+ because we believe every company
+ will eventually need to confront
+ the same question we did.
+ What does your company understand
+ that is genuinely hard to understand
+ and is that understanding getting deeper every day?
+ If the answer is nothing,
+ AI is just a cost optimization story.
+ You cut headcount, improve margins for a few quarters,
+ and eventually get absorbed by something smarter.
+ If the answer is deep,
+ AI doesn't augment your company.
+ It reveals what your company actually is.
+ Block's answer is the economic graph.
+ Millions of merchants and consumers,
+ both sides of every transaction,
+ financial behavior observed in real time.
+ That understanding compounds
+ every second the system operates.
+ We believe the pattern behind this.
+ A company organized as an intelligence
+ rather than a hierarchy
+ is significant enough
+ that it will reshape how companies
+ of all kinds operate over the coming years.
+ Block is far enough along
+ to show the ideas more than theory,
+ though we welcome debate and feedback
+ to pressure test and improve our ideas.
+ Companies move fast or slow
+ based on information flow.
+ Hierarchy and middle management
+ impede information flow.
+ For 2,000 years from the Roman Contubernium
+ to today's global enterprises,
+ we have had no real alternative.
+ Eight soldiers sharing a tent
+ needed a decanus.
+ 80 men needed a centurion.
+ 5,000 needed a legate.
+ The question was never whether you needed layers.
+ The question was whether humans
+ were the only option for what those layers do.
+ They aren't anymore.
+ Block is building what comes next.
+ Weekends are for vibe coding.
+ It has never been easier
+ to bring a passion project to life,
+ so go ahead and fire up
+ your favorite vibe coding tool.
+ But Monday is coming
+ and before you know it,
+ you'll be staring down a maze
+ of microservices,
+ a legacy cobalt system from the 1970s,
+ and an engineering roadmap
+ that will exist well past your retirement party.
+ That's why you need Blitzy,
+ the first autonomous software development platform
+ designed for enterprise scale code bases.
+ Deploy the beginning of every sprint
+ and tackle your roadmap 500% faster.
+ Blitzy's agents ingest your entire code base,
+ plan the work,
+ and deliver over 80% autonomously.
+ Validated end-to-end tested
+ premium quality code at the speed of compute.
+ Months of engineering compressed into days.
+ Vibe code your passion projects on the weekend,
+ bring Blitzy to work on Monday.
+ See why Fortune 500s trust Blitzy
+ for the code that matters at blitzy.com.
+ That's blitzy.com.
+ So coding agents are basically solved at this point.
+ They're incredible at writing code.
+ But here's the thing nobody talks about.
+ Coding is maybe a quarter
+ of an engineer's actual day.
+ The rest is stand-ups,
+ stakeholder updates, meeting prep,
+ chasing context across six different tools.
+ And it's not just engineers.
+ Sales spends more time assembling proposals
+ than selling.
+ Finance is manually chasing subscription requests.
+ Marketing finds out what shipped
+ two weeks after it merged.
+ ZenCoder just launched ZenFlow work.
+ It takes their orchestration engine,
+ the same one already powering coding agents,
+ and connects it to your daily tools.
+ JIRA, Gmail, Google Docs, Linear, Calendar, Notion.
+ It runs goal-driven workflows that actually finish.
+ Your stand-up brief is written before you sit down.
+ Review cycle coming up.
+ It pulls six months of tickets and writes the prep doc.
+ Now you might be thinking,
+ didn't Open Claw try to do this?
+ It did, but it has come
+ with a whole host of security and functional issues,
+ which can take a huge amount of time to resolve.
+ ZenCoder took a different approach.
+ Sock 2, type 2 certified,
+ curated integrations, tighter security perimeter.
+ Enterprise grade from day one.
+ Model agnostic and works from Slack or Telegram.
+ Try it at zenflow.free.
+ Let's face it.
+ If you're leading GRC at your organization,
+ chances are you're drowning in spreadsheets.
+ Balancing security, risk and compliance,
+ across shifting threats and regulatory frameworks
+ can feel like running a never-ending marathon.
+ Enter Drata's Agendic Trust Management Platform
+ designed for leaders like you.
+ Drata automates the tedious tasks
+ like security questionnaire responses,
+ continuous evidence collection and much more,
+ saving you hundreds of hours each year.
+ With Drata, you spend less time chasing documents
+ and more time solving real security problems.
+ But it's more than just a time saver.
+ It's built to scale and adapt to your organization's needs
+ whether you're running a startup
+ or leading GRC for a global enterprise.
+ With Drata, you get one centralized platform
+ to manage your risk and compliance program.
+ Drata gives you a holistic view of your GRC program
+ and real-time reporting your stakeholders can act on.
+ With Drata, you can also unlock a powerful trust center,
+ a live customizable product that supports you
+ in expediting your never-ending security review requests
+ in the deal process.
+ Share your security posture
+ with stakeholders or potential customers,
+ cut down on back and forth questions
+ and build trust at every interaction.
+ If you are ready to modernize your GRC program
+ and take back your time,
+ visit drata.com to learn more.
+ It is a truth universally acknowledged
+ that if your enterprise AI strategy
+ is trying to buy the right AI tools,
+ you don't have an enterprise AI strategy.
+ Turns out that AI adoption is complex.
+ It involves not only use cases,
+ but systems integration, data foundations,
+ outcome tracking, people and skills and governance.
+ My company, Super Intelligent,
+ provides voice agent-driven assessments
+ that map your organizational maturity
+ against industry benchmarks
+ against all of these dimensions.
+ If you want to find out more about how that works,
+ go to bsuper.ai
+ and when you fill out the get started form,
+ mention maturity maps.
+ Again, that's bsuper.ai.
+ So this is a big, org-wide, large organization approach
+ to how the org chart and organizational thinking
+ changes in the context of AI.
+ But what was interesting is that I saw
+ a kind of mirror image bottom-up version of this
+ in a recent podcast from Evry.
+ On Dan Shipper's AI and I podcast,
+ he sat down with a bunch of folks from his company, Evry,
+ who produce AI content and AI products,
+ as well as doing AI consulting,
+ and discussed how AI was going to be able to
+ and discussed how Evry is half agent now.
+ Here's how they describe the pod.
+ Today, we're releasing a new episode
+ of our podcast, AI and I.
+ Dan Shipper sits down with every COO,
+ Brandon Gell and head of platform,
+ Willie Williams to discuss the good, the bad
+ and the weird of how daily operations change
+ when everyone at your company has an agent.
+ A parallel organization chart
+ in which each AI worker has a name,
+ manager and job description,
+ allows your company to move faster
+ than it ever could with humans alone.
+ It also raises a host of new questions
+ about how work can and should get done.
+ So first of all, I highly encourage you
+ to go actually watch the episode.
+ I will include a link in the show notes,
+ but here are a handful of lessons
+ that I think emerge from the episode.
+ One, which the team identified right up front,
+ is that a parallel org chart emerges naturally.
+ When everyone in an organization
+ has their own personal agent,
+ something unexpected happens.
+ The agents start to mirror
+ the specializations of their humans.
+ If Austin runs growth, his agent,
+ Montaigne becomes the go-to for growth questions.
+ Dan built the product proof,
+ so R2C2 becomes the bot you go to
+ for bug reports and feature requests.
+ The important thing is that nobody designed this.
+ It's an emergent property
+ of each person's accumulated interactions
+ compounding over time into a specialized knowledge base.
+ One member of their team, Willy,
+ calls this compound engineering.
+ You can't sit down and write out everything you know,
+ but thousands of daily micro interactions
+ distill your philosophy into your agent over time.
+ The result is a shadow org chart of specialized agents
+ that maps onto the human one.
+ Second, they argue that personal ownership
+ is the missing trust layer.
+ In the episode, Dan makes a distinction
+ that sounds simple but has big implications.
+ Claude belongs to everyone, but a plus one,
+ which shout out to the every team
+ is the name of the product that they're building
+ to productize this philosophy
+ into something that others can buy,
+ which of course is not a sponsored pitch.
+ I just think it's very cool.
+ Anyways, what Dan is saying is that
+ while Claude belongs to everyone,
+ a plus one belongs to you.
+ And that sense of ownership
+ changes everything downstream from it.
+ When R2C2 screws up publicly in Slack,
+ Dan feels it the way that you feel
+ watching your kid do something embarrassing.
+ He's putting his reputation on the line
+ every time his agent interacts with a coworker.
+ That reputational skin in the game
+ creates a trust layer
+ that corporate AI governance can't replicate.
+ When Montaigne gives you MRR numbers,
+ Austin is implicitly standing behind them.
+ Compare that to when generic Claude
+ gives you a cookie recipe.
+ And Propig isn't endorsing the recipe
+ and that difference matters enormously
+ inside an organization.
+ A third insight is that public agent work
+ is a force multiplier for the whole organization.
+ There's this dynamic that Willy calls
+ the mid-journey effect.
+ When agents do work publicly in shared channels,
+ everyone in the org gets smarter about what's possible.
+ You watch the growth team pushing Montaigne
+ to answer increasingly sophisticated questions
+ and think, wait, I can get my agent
+ to do that level of analysis now?
+ It's a tacit transmission of both trust,
+ i.e. I saw Montaigne handle that correctly,
+ and capability awareness.
+ In other words, I know now
+ what class of problems agents can solve.
+ They argue though that this only works
+ in trusted communities.
+ A closed org where everyone knows each other
+ and has reputation at stake
+ is where the dynamic thrives.
+ Now, one challenge they found
+ is that models are not trained for group chat dynamics.
+ Current AI models are much better
+ at two person question and answer conversations.
+ You put a bunch of agents into a shared Slack channel
+ and you hit a fundamental limitation.
+ Simply put, they don't know when to shut up.
+ Dan describes what he calls an ant death spiral
+ like ants following pheromone trails
+ in a circle until they die.
+ Agents in a group channel will trigger each other
+ in an infinite loop, burning millions of tokens
+ until a human intervenes.
+ You can paper over this with a boss agent
+ that evaluates whether each message is sending,
+ but that doubles your compute costs.
+ Ultimately, this might not be something
+ that's solved at the organization level
+ but at the model training level.
+ The penultimate observation that I wanna share
+ is that at least for this group,
+ the capability gap is all about imagination,
+ not technology.
+ Brandon, for example,
+ had already set up his agent
+ with voice calling and email access,
+ but it took a spontaneous moment,
+ no city bikes available,
+ a 28 minute walk to the office in a full inbox.
+ For him to think,
+ what if I just have my agent call me
+ and walk me through my emails?
+ It worked perfectly on a throwaway prompt.
+ The capability had been there for weeks.
+ The barrier was a limiting belief
+ he didn't even know he had.
+ This pattern they say repeats constantly at the company.
+ If you ask someone directly,
+ could your agent do X,
+ they'd probably say yes.
+ But in the flow of daily work,
+ people don't think to delegate.
+ Building that muscle,
+ the instinct to toss something over the fence
+ has been they've found the hardest part of adoption.
+ And that, of course, is not a technology problem.
+ Finally, one unsolved problem
+ that they're running into
+ is that when one person teaches their agent
+ something powerful,
+ how does the rest of the organization benefit?
+ Now, one obvious answer is to share the skill file,
+ but maybe it doesn't fit exactly.
+ Maybe skills should stay specialized
+ and people should just know which agent to ask.
+ But then how do people know what's available?
+ How do you onboard someone into an organization
+ when 20 agents each have unique capabilities?
+ And then if you can't solve that for 20,
+ how are you gonna solve that for 200 or 2000?
+ Once again, this is less a technical problem
+ than an organizational one.
+ So how do these two very different looks
+ at new AI-enabled organizational design
+ relate and differ from one another?
+ First of all, I think the obvious thing here
+ is that every is exploring a bottom-up approach
+ while block is designing from the top down.
+ Every stumbled into a parallel org chart
+ of specialized agents through organic daily use
+ while Jack Dorsey is deliberately architecting
+ the replacement of the hierarchy's
+ information routing function with AI.
+ They might be working towards the same destination,
+ but they're starting from different places.
+ A key shared insight is that hierarchy
+ exists to route information,
+ not because it's inherently good.
+ Dorsey and Roloff trace this through history,
+ but every is living the early version of what happens
+ when agents start carrying that information load instead.
+ Brandon doesn't need to bother Dan about proof features
+ because he can just ask R2C2.
+ Or even more, he can have his agent ask R2C2.
+ That's one fewer trip up and down the chain.
+ Now they do diverge, at least seemingly,
+ on something important,
+ although who knows how this will shake out in practice.
+ Dorsey is envisioning a centralized world model,
+ one system that holds the company's understanding
+ and replaces middle management entirely.
+ Every's experience, at least so far,
+ suggests something messier and more human.
+ A distributed intelligence where each agent
+ reflects its owner's personality,
+ reputation, and judgment.
+ The trust comes from personal ownership,
+ not from a unified system.
+ It would appear like Dan's line,
+ Claude is everybody's, a plus one is mine,
+ is almost a direct rebuttal
+ of the centralized intelligence thesis,
+ although I'm not sure in the long run
+ that these things don't converge
+ a little bit more than they appear for now.
+ Meanwhile, the ant death spiral problem
+ is an example of a practical challenge
+ that Dorsey's essay skips over.
+ Now to be fair to Jack,
+ the essay was already pretty dense
+ and highly theoretical,
+ versus a record of what actually happened,
+ which is exactly what we got from Every.
+ But if that essay then is clean and architectural,
+ what we get from Every is a record of them
+ in the trenches dealing with agents
+ that can't shut up in group chats,
+ forget context between sessions,
+ and need constant human course correction.
+ Dorsey's three-role model, ICs,
+ DRIs, and player coaches,
+ rests on the assumption
+ that the intelligence layer works reliably,
+ although I guess you could say that's the IC's job.
+ At this point, Every's experience says
+ we're not quite there yet, but it mildly.
+ Still, where both of these case studies
+ slash content pieces genuinely converge
+ is on the death of the information routing manager.
+ Both argue that the classic middle management function,
+ aggregating information from below,
+ relaying decisions from above,
+ is the thing that AI replaces first.
+ Dorsey says it explicitly,
+ but Every demonstrates it implicitly.
+ So what's interesting about these
+ is that we've got two data points on the same thesis,
+ but one is theoretical and one is lived.
+ And the tension between those spaces
+ is kind of where a lot of the interesting evidence
+ over the next few months or years will be brought to bear.
+ I don't think anyone knows exactly
+ how the org chart changes,
+ but we can be confident that it will.
+ For now, that is gonna do it for today's AI Daily Brief.
+ Appreciate you listening or watching as always.
+ Until next time, peace.
