@@ -1,0 +1,578 @@
+ Today on the AI Daily Brief, we are doing a one-on-one on one of the most important concepts in AI right now, harness engineering.
+ The AI Daily Brief is a daily podcast and video about the most important news and discussions in AI.
+ Alright friends, quick announcements before we dive in.
+ First of all, thank you to today's sponsors, KPMG, Blitzi, Drata and Mercury.
+ To get an ad-free version of the show, go to patreon.com slash ai-dealybrief or you can subscribe on Apple Podcasts.
+ Ad-free is just $3 a month.
+ If you are interested in sponsoring the show or really finding out anything else about the show, head on over to ai-dealybrief.ai or shoot us a note at sponsors at ai-dealybrief.ai.
+ One final note before we dive in.
+ Today is hopefully the last day for a while that I will be on the road traveling, so this episode was recorded at the end of last week.
+ If for some reason, Sam Altman decided to release Spud over the weekend and you're wondering why the heck this is the episode you're getting, that is why, but I will be back, I promise very soon.
+ In the meantime, this gave me a chance to dive a little deeper on something that I think is extremely important and I've wanted to explore for a while, which is harness engineering.
+ Today, we are digging into a topic that first, you might have heard this term floating around a little bit, but second, even if you haven't,
+ if you are among the subset of the audience that has been dabbling with Claude Code or Codex, or even using Open Claw, you have been living in and doing this thing, whether you realize it or not.
+ I'm talking about harness engineering, and you might notice that there is kind of a lineage of engineering that we focus on that have changed over the years in AI.
+ In 2023 and 2024, we talked a lot about prompt engineering, the art and the science of finding the right ways to prompt the model to get the results that you wanted.
+ There was so much in prompt engineering that people spent so much time on.
+ Think about the things that everyone used to recommend like getting the model to adopt a persona, or later on, the whole idea of JSON engineering, where people hyper structured their prompts in the way that an engineer might.
+ Now last year in 2025, we started to talk a lot more about context engineering.
+ The idea of context engineering was that it turned out that what mattered for AI performance was not just the way you spoke to the model, but what set of information or context that model had access to.
+ Take the example of asking ChatGPT to help you create a marketing campaign.
+ One part of getting good results sure might be what you prompt it for and how you ask it.
+ But obviously it's kind of intuitive that if ChatGPT had access to information about the performance of all your past marketing campaigns, it might be able to be more informed in how it helped you.
+ So context engineering was all about the way that we brought together different context and gave AI access to it.
+ Now interestingly, context engineering actually kind of has had divergent meetings for different people.
+ For engineers and developers, context engineering has often been about designing the systems that surround AI and agents in order to better interact with and use context, dealing with problems like persistence and memory and state.
+ And in a way, this is kind of a part of what we'll talk about with harness engineering.
+ For lay people for non technical users, context engineering has been much more about what's the best way to give AI access to the information it needs to help me do its job.
+ Now it's important to note that while prompt engineering might have decreased a little bit in its importance scale,
+ context engineering is still very much alive and important.
+ In fact, I did that entire episode about a week ago about how to build a personal context portfolio so that you could transport your personal context from LLM to LLM or agent to agent without having to repeat yourself every time.
+ But the term de jure right now is harness engineering, which is effectively about everything you put around a model, the systems, the tooling, the access that help it do what it's meant to do.
+ And when one starts to look around, you kind of start to see the harness engineering conversation popping up everywhere.
+ At the beginning of April, cursor launched its newest version, cursor three.
+ In their announcement post, they wrote, software development is changing and so is cursor.
+ In the last year, we moved from manually editing files to working with agents that write most of our code.
+ How we create software will continue to evolve as we enter the third era of software development where fleets of agents work autonomously to ship improvements.
+ We're building towards this future, but there is a lot of work left to make it happen.
+ Engineers are still micromanaging individual agents, trying to keep track of different conversations and jumping between multiple terminals, tools and windows.
+ We're introducing cursor three, a unified workspace for building software with agents.
+ The new cursor interface brings clarity to the work agents produce, pulling you up to a higher level of abstraction with the ability to dig deeper when you want.
+ It's faster, cleaner and more powerful with a multi-repo layout, seamless handoff between local and cloud agents, and the option to switch back to the cursor IDE at any time.
+ So all of the features that then go on to announce, having all of your agents in one place, the ability to run many agents in parallel,
+ new UX for handoff between local and cloud, all of this is the instantiation of harness engineering into a product.
+ Even more recently, we got Claude Managed Agents.
+ In their announcement post, they said explicitly, it pairs an agent harness tuned for performance with production infrastructure.
+ And in the accompanying blog post, they basically say, this is kind of all about harnesses.
+ The post was called Scaling Managed Agents, decoupling the brain from the hands.
+ Now, of course, in this metaphor, the brain is the model and the hands are the harness.
+ Harnesses, they write in code assumptions that go stale as models improved.
+ Managed agents then is built around interfaces that stay stable as harnesses change.
+ Now, we'll maybe come back later to some of the specifics of that new product.
+ But again, the point here is that harness engineering is kind of everywhere.
+ At the beginning of March, Layton Space dropped a post called Is Harness Engineering Real?
+ And to provide another analogy, their team references back to when they worked in finance.
+ It doesn't say for sure, but I assume this is Sean slash Swix writing because this was part of his experience set.
+ But whoever it was wrote, a common debate in my finance days was about the value of the human versus the value of the seat.
+ If a trader made 3 million in profits, how much of it was because of her skills,
+ and how much was because of the position, institution, and brand she is in,
+ and any generally competent human could have made the same results.
+ They continue, the same debate is currently raging in harness engineering.
+ The system subset of agent engineering and the main job of agent labs.
+ Agent labs, by the way, are how the Layton Space team refers to everyone like cursor, cognition, etc.
+ The central tension they continue is between big model and big harness.
+ An AI framework founder you all know once confided in me at an open AI event,
+ I'm not sure these guys even want me to exist.
+ To define harness they write, in every engineering discipline, a harness is the same thing.
+ The layer that connects, protects, and orchestrates components without doing the work itself.
+ They continue, talking with the big model guys, you really see it.
+ Every podcast with Boris Cherny and Kat Wu, the creators of Claude Code,
+ emphasize how minimal the harness of Claude Code is,
+ meaning their job is mostly letting the model express its full power
+ in the way that only the model maker knows best.
+ In one interview, Boris said,
+ I would like to say there's nothing that secret in the sauce.
+ Generally our approach is, all the secret sauce, it's all in the model.
+ And this is the thinnest possible wrapper over the model.
+ We literally could not build anything more minimal.
+ Kat added, it is very much the simplest thing I think by design.
+ Noam Brown from open AI seems to agree.
+ They quote him as saying,
+ Before the reasoning models emerged, there was like all of this work
+ that went into engineering agentic systems that made a lot of calls to GPT-40
+ or these non-reasoning models to get reasoning behavior.
+ And then it turns out we just created reasoning models
+ and you don't need this complex behavior.
+ In fact, in many ways it makes it worse.
+ You just give the reasoning model the same question
+ without any sort of scaffolding and it just does it.
+ And so people are building scaffolding on top of the reasoning models right now,
+ but I think in many ways these scaffolds will just be replaced by the reasoning models
+ and models in general becoming more capable.
+ On the other side says latent space are the big harness guys.
+ Jerry Liu from Llama Index wrote a post on this on X
+ that he titled the model harnesses everything.
+ He added a picture that sums up his point as saying,
+ Agent reasoning is exponentially improving, but models are blank slates.
+ The biggest barrier to AI value is the user's own ability to context
+ and workflow engineer the models.
+ The more complex the business process, the more complex the prompt
+ that users need to define.
+ Now where latent space comes out is that while they might have some bias
+ towards the big model thesis, actually referencing the bitter lesson
+ that we talked about in episodes a couple of weeks ago,
+ they also acknowledge that harness engineering has real value.
+ So let's dive a little deeper into what harness engineering actually is.
+ And for part of our guide, we're going to use a post from humanlayer.dev
+ from the middle of March called Skill Issue,
+ harness engineering for coding agents.
+ Author Kyle writes,
+ We spent the last year watching coding agents fail in every conceivable way,
+ ignoring instructions, executing dangerous commands unprompted,
+ and going in circles on the simplest of tasks.
+ Every time the instinct was the same.
+ We just need better models, GPT-6 will fix it,
+ we just need better instruction following.
+ It'll work when niche library I'm using is in the training data.
+ But over the course of dozens of projects and hundreds of agent sessions,
+ we kept arriving at the same conclusion.
+ It's not a model problem, it's a configuration problem.
+ Yes, models will get smarter and yes,
+ some existing failure modes will disappear.
+ And then because they are smarter,
+ we will give them new problems which are bigger and harder
+ and they will continue to fail in unexpected ways.
+ Unexpected failure modes are a fundamental problem
+ for non-deterministic systems.
+ So instead of praying for GPT-64 codex ultra-high extended to save us all,
+ what if we focused instead on answering the question,
+ how do we get the most out of today's models?
+ And the next point that Kyle makes is the one that I was saying before,
+ which is that most of us who have been dabbling in these systems,
+ be it Open Claw or Claude Code or Codex,
+ have been doing harness engineering whether we realize it or not.
+ He continues,
+ There are lots of ways to get better performance out of your coding agent.
+ If you use coding agents for moderately hard tasks,
+ you've probably configured your coding agent a bit.
+ Have you used skills,
+ MCP servers,
+ sub agents,
+ memory,
+ agents.md files?
+ A coding agent equals AI models plus a harness.
+ These are all technically separate concepts,
+ but they are all part of the coding agent's configuration surface.
+ Basically, what does the model use to interact with its environment?
+ Harness engineering, they write,
+ describes the practice of leveraging these configuration points
+ to customize and improve your coding agent's output quality and reliability.
+ They continue by arguing
+ that harness engineering is the subset of context engineering
+ which primarily involves leveraging harness configuration points
+ to carefully manage the context window of coding agents.
+ It answers,
+ how do we give our coding agents new capabilities?
+ How do we teach it things about our code base that aren't in the training data?
+ How do we increase task success rates beyond magic prompts?
+ And one of the things that they point out
+ is that harnesses aren't just one thing.
+ To some extent, harnesses work backwards
+ from what models can't do natively
+ to create some component to solve for that.
+ In another post from Viv from Langchain
+ called the anatomy of an agent harness,
+ Viv added a chart that showed the desired agent behavior
+ versus what the agent adds.
+ For example, the simple one that's a part of every cloud code session,
+ if the desired agent behavior is to write and execute code,
+ the harness adds bash and code execution.
+ If the desired agent behavior is safe execution and default tooling,
+ the harness adds sandboxed environments and tooling.
+ If the desired agent behavior is remembering and accessing new knowledge,
+ the harness is going to need to provide memory files, web search, and MCPs.
+ And importantly, when you've heard about all of these techniques
+ like Carpethy's auto research or the Ralph Wiggum loops,
+ those are harness additions to get to the desired agent behavior
+ of completing long horizon work.
+ They also point out that this is something that the big labs
+ are talking about quite a bit now too.
+ Back in February, OpenAI dropped a post called Harness Engineering,
+ leveraging codecs in an agent-first world.
+ The place that they start from in this post
+ is the goal of building and shipping an internal beta of a software product
+ with zero lines of manually written code.
+ That has been the context through which they have had to figure out
+ what needed to be part of the harness that they were designing.
+ One of the big experiments that they found
+ was effectively that in this new approach to engineering,
+ they had to uncover new ways of giving the agent progressively more context.
+ This is this idea which you might have heard me talk about before
+ called progressive disclosure,
+ which is a key part of the way that agent skills have been designed,
+ where skills that provide context effectively unfold,
+ which the agent being able to access the minimum amount of information
+ to know if it needs to go deeper into that skill
+ without having to crowd out its context window
+ with all sorts of unnecessary information.
+ The key part of the story though
+ is in some of the last lines in the post.
+ They conclude,
+ our most difficult challenges now center on designing environments,
+ feedback loops, and control systems
+ that help agents accomplish our goal,
+ building and maintaining complex, reliable software at scale.
+ That is a very different proposition
+ than just making a model better.
+ Alright folks, quick pause.
+ Here's the uncomfortable truth.
+ If your enterprise AI strategy is
+ we bought some tools,
+ you don't actually have a strategy.
+ KPMG took the harder route
+ and became their own client zero.
+ They embedded AI and agents across the enterprise,
+ how work it's done, how teams collaborate,
+ how decisions move,
+ not as a tech initiative,
+ but as a total operating model shift.
+ And here's the real unlock.
+ That shift raised the ceiling on what people could do.
+ Humans stayed firmly at the center
+ while AI reduced friction,
+ serviced insight, and accelerated momentum.
+ The outcome was a more capable,
+ more empowered workforce.
+ If you want to understand what that actually looks like
+ in the real world,
+ go to www.kpmg.us slash ai,
+ that's www.kpmg.us slash ai.
+ With the emergence of AI Code Generation in 2022,
+ NVIDIA Master Inventor and Harvard Engineer,
+ Sid Pereschi, took a contrarian stance.
+ Inference time compute and agent orchestration,
+ not pre-training,
+ would be the key to unlocking
+ high quality AI driven software development
+ in the enterprise.
+ He believed the real breakthrough wasn't in
+ how fast AI could generate code,
+ but in how deeply it could reason
+ to build enterprise-grade applications.
+ While the rest of the world focused on co-pilots,
+ he architected something fundamentally different.
+ Blitzy, the first autonomous software development platform
+ leveraging thousands of agents
+ that is purpose-built for enterprise-scale code bases.
+ Fortune 500 leaders are unlocking 5x engineering velocity
+ and delivering months of engineering work
+ in a matter of days with Blitzy.
+ Transform the way you develop software.
+ Discover how at Blitzy.com.
+ That's blitzy.com.
+ Let's face it.
+ If you're leading GRC at your organization,
+ chances are you're drowning in spreadsheets.
+ Balancing security, risk and compliance,
+ across-shifting threats and regulatory frameworks
+ can feel like running a never-ending marathon.
+ Enter Drata's Agendic Trust Management Platform
+ designed for leaders like you.
+ Drata automates the tedious tasks
+ like security questionnaire responses,
+ continuous evidence collection and much more,
+ saving you hundreds of hours each year.
+ With Drata, you spend less time chasing documents
+ and more time solving real security problems.
+ But it's more than just a time saver.
+ It's built to scale and adapts your organization's needs
+ whether you're running a startup
+ or leading GRC for a global enterprise.
+ With Drata, you get one centralized platform
+ to manage your risk and compliance program.
+ Drata gives you a holistic view of your GRC program
+ and real-time reporting your stakeholders can act on.
+ With Drata, you can also unlock a powerful Trust Center,
+ a live customizable product that supports you
+ in expediting your never-ending security review requests
+ in the deal process.
+ Share your security posture with stakeholders
+ or potential customers,
+ cut down on back-and-forth questions
+ and build trust at every interaction.
+ If you are ready to modernize your GRC program
+ and take back your time,
+ visit drata.com to learn more.
+ This podcast is brought to you by Mercury,
+ banking designed to work the way modern software does.
+ One thing I've always found weird as a founder
+ is that almost every tool you use to run a company
+ is modern.
+ Your analytics tools, your email tools, your AI tools,
+ they all feel like software built in, you know,
+ the last decade.
+ Then you go to banking
+ and suddenly it feels like you've time traveled
+ back to the 70s.
+ That's why I use Mercury.
+ It's business banking that actually works
+ like the rest of the tools founders rely on.
+ Clean interface, everything where you expect it
+ and basic things like wires, cards or permissions
+ taking a couple clicks
+ instead of a phone call in three forms.
+ For the whole AIDB ecosystem
+ it is just dramatically simpler.
+ You can see everything from the dashboard, control spend
+ and give the right people access
+ without handing over the whole account.
+ If you run a company
+ and you're tired of banking
+ feeling like the one tool that never modernized,
+ check out Mercury.
+ Visit mercury.com to learn more
+ and apply online in minutes.
+ Mercury is a fintech company, not an FDIC
+ insured bank.
+ Banking services provided through Choice Financial Group
+ and Column NA members FDIC.
+ Now as we get more discourse about harness engineering
+ we also get more maps and guides
+ for what it actually means.
+ In an etna labs post for example
+ they describe the key components of harness
+ as a three layer architecture.
+ The information layer which determines
+ information an agent can see
+ and what capability it can invoke
+ i.e. memory and context management
+ and tools and skills.
+ An execution layer that determines
+ how work is decomposed, how agents collaborate
+ and how to recover in the case of failure
+ which is basically orchestration and coordination
+ and infrastructure and guardrails
+ and a feedback layer
+ which determines how the system can improve over time
+ whether the results of the execution are verified
+ and whether each failure is recorded and transformed.
+ So that's evaluation and verification
+ and tracing and observability.
+ And there is increasing evidence out there
+ of the power of harnesses.
+ Blitzy who has over the last year
+ been a frequent sponsor and collaborator on the show
+ recently released a 66.5% performance
+ on SWE Bench Pro
+ that is much higher than for example
+ GPT 5.4's 57.7.
+ Now effectively Blitzy's whole thesis
+ could be reframed as being that the
+ harness layer, the agent scaffolding
+ the orchestration and the context infrastructure
+ wrapped around the foundation models
+ can unlock bigger performance gains
+ than the model themselves.
+ One of the key things that they found
+ when auditing their performance versus GPT 5.4
+ is that in many cases
+ GPT 5.4's failures weren't catastrophic.
+ It got close on every problem
+ but missed intricate details and corner cases.
+ When Blitzy succeeded on those same tasks
+ it succeeded because its knowledge graph
+ gave its agents deep code-based context
+ that a raw model doing a single pass couldn't match.
+ LangChain has also recently been writing
+ about how they've been improving agent performance
+ with harness engineering as well.
+ Nicholas Charrier thinks that there is
+ some amount of consensus around the power
+ of the harness that is starting to happen.
+ The AI entrepreneur recently wrote a post
+ on X called The Great Convergence
+ and it plumps through some similar themes as
+ my episode Every AI Product
+ is Becoming Every Other AI Product
+ but puts it in the context of the
+ harness. Nicholas writes
+ over the last year a strange thing has happened
+ in tech. Very different companies have started
+ moving towards the same product shape
+ and it feels like everyone is building the same thing.
+ Linear announced last week that they're building
+ coding agents. Open AI is deprecating
+ Sora and focusing entirely on Codex
+ and Thropic is obviously all in on Cloud Code
+ and Co-Work. Notion is building agents for work
+ so our Google Microsoft met a
+ lovable retool and many others.
+ What changed, he writes, is not just
+ that models got better, although that's a major
+ part of it working. He argues that
+ the important shift is the invention of what he
+ calls the general harness.
+ The simple harness architecture diagram that he
+ describes, a user input hits
+ context engineering which moves to the model
+ which calls in tools which access
+ context engineering in a loop until
+ the task result comes out on the other side.
+ Nicholas writes,
+ Claude code was a massive breakthrough
+ although initially invented for coding use cases
+ it turns out that a smart looping agent generalizes
+ incredibly well towards any computer
+ based task if you give it the right tools.
+ So this new technique emerges and turns out
+ to be a general problem solving machine.
+ It also scales on a very unique dimension.
+ It can keep running for a long time.
+ It takes the shape of a model harness
+ a goal and a set of tools.
+ It runs in a loop calling tools until it stops
+ and produces a result. He points out
+ that so many of the new agents that we're
+ seeing all come back to just
+ a harness looping agent architecture with
+ the right tools and context management.
+ Ultimately he predicts that by the end
+ of 2026 many software companies
+ will look like they are selling the same thing.
+ He writes that's not because the industry
+ lost imagination but because
+ the architecture and economics are pushing
+ everyone towards the same destination self
+ improving software systems that can take a goal
+ use tools and produce business outcomes.
+ The harness he writes explains the convergence
+ the self improvement explains the acceleration
+ once agents can be monitored evaluated
+ orchestrated and improved by changing
+ their own code and context the companies
+ that own more of the loop will improve faster
+ and their progress will compound the winners
+ he says will not just have better models
+ they will have distribution trusted
+ workflow positioning proprietary context
+ and the shortest path from observation to improvement
+ which brings us back
+ to anthropics managed agents
+ because what they show is that
+ we're now at the point where we're not only recognizing
+ harness engineering we're starting
+ to build towards inevitable changes
+ in what harness engineering is
+ remember the subtitle from their
+ accompanying blog post is
+ harnesses and code assumptions that go
+ stale as models improve
+ managed agents is built around interfaces
+ harnesses change
+ here's how they set it up a running topic
+ on the engineering blog is how to build effective agents
+ and design harnesses for long running work
+ a common threat across this work
+ is that harnesses in code assumptions about
+ what Claude can't do on its own
+ this then goes back to that idea from the
+ line chain blog that the harnesses about
+ adding things that address a certain desired
+ agent behavior that aren't in the model natively
+ continuing anthropic writes
+ however those assumptions need to be
+ frequently questioned because they can go stale
+ and improve as just one example
+ in prior work we found that Claude's on it
+ 4.5 would wrap up tasks prematurely
+ as its sense that's context limit
+ approaching a behavior sometimes
+ called context anxiety we addressed
+ this by adding context resets to the harness
+ but when we use the same harness on
+ Claude opus 4.5 we found
+ that the behavior was gone the resets
+ had become dead weight we
+ expect harnesses to continue evolving
+ so we built managed agents
+ a hosted service in the Claude platform
+ that runs long horizon agents on your behalf
+ through a small set of interfaces meant to
+ outlast any particular implementation
+ including the ones we run today
+ basically they say building managed agents
+ meant solving an old problem in computing
+ of how to design a system for programs
+ as yet unthought of another way to put
+ it is that anthropic is building a meta
+ harness a system that's deliberately
+ unopinionated about what any
+ specific harness should look like
+ because they expect harnesses to keep changing
+ as models improve going back
+ that brains versus hands metaphor
+ effectively anthropic separated the agent
+ loop the brain from the execution
+ environment the hands or sandbox
+ and even separated it from the event log
+ which is the session each can fail
+ or be replaced independently
+ and I think that this has big implications
+ for the debate that we started on
+ of big harness versus big model
+ in the way that latent space framed it
+ it's sort of a little bit obliterates
+ that debate anthropic is saying
+ effectively yes harness
+ engineering matters in fact it matters
+ so much that we're building infrastructure to make
+ harnesses disposable the whole
+ point is that any given harness is temporary
+ the discipline is permanent
+ the specific implementation is not
+ but let's talk about why any of us should care
+ first of all
+ if you use clod code cursor
+ codex or open claw
+ which is by far the most successful
+ open source harness we've had so far
+ you are already doing harness
+ engineering whether you call it that or not
+ every time you write an agents
+ defile structure repos of the agent
+ can navigate it anything like that
+ you're building an outer harness
+ Brigida Bakula actually distinguishes between
+ the user harness and the outer harness
+ basically there's the inner harness which is
+ built by the builders of the coding agent
+ IE anthropic or open AI and the outer
+ harness which is built by you the
+ user the outer harness is
+ what's going to determine whether the agent produces
+ good work around your specific code base
+ or your specific goals
+ but I would argue that that is not the only reason
+ to care about harness engineering
+ if you're an enterprise leader the mental
+ model matters because it reframes
+ AI adoption from pick the best
+ model to pick the best
+ environment for agents to work in
+ it is a technical capstone on the
+ larger truth which all enterprises are
+ realizing that AI success
+ is not about dropping in a tool and
+ hoping it works but about designing
+ a new system in which the capability
+ set that AI has and that AI
+ enables among your people can thrive
+ one could torture the harness
+ engineering frame of reference and frankly
+ extrapolated out to the entire organizational
+ design need simply put
+ the model and the tools are necessary
+ but insufficient the environment you
+ put them in is going to determine the output quality
+ and lastly
+ if you're just a consumer watching this
+ hopefully understanding harness engineering a little
+ bit better will go some way to explain
+ why every product seems to be turning into every other
+ product when we understand
+ that the core loop of models calling
+ tools in a loop until they are done
+ actually turns out to be general purpose
+ you understand why linear is
+ building coding agents and why notion is building
+ work agents and why they're all heading towards the same place
+ the harness enables them
+ to use the models to accomplish whatever goal
+ they were set out to do with a process
+ and a pattern that starts to look really familiar
+ anyways guys hopefully this
+ was a valuable primer in a term that you're going to be
+ hearing a lot more of but for now
+ that's going to do it for today's AI Daily Brief
+ I appreciate you listening or watching as always
+ and until next time peace
