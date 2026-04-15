@@ -1,0 +1,876 @@
+ Today on the AI Daily Brief, why AI populism is turning violent and what we can do about it.
+ The AI Daily Brief is a daily podcast and video about the most important news and discussions in AI.
+ Alright friends, quick announcements before we dive in.
+ First of all, thank you to today's sponsors, KPMG, Blitzy, Zencoder and Drata.
+ To get an ad for every version of the show, go to patreon.com.ai-dailybrief
+ or you can subscribe on Apple Podcasts.
+ If you are interested in learning about sponsoring the show, send us a note at sponsors.ai-dailybrief.ai.
+ Lastly, I am back from travel and had intended today to be a normal episode, headlines main, etc.
+ But the discourse and discussion around the multiple attacks on Sam Altman's house over the weekend
+ I think creates a context to zoom out in a way that I believe is unfortunately important right now.
+ We will be back with our regular format tomorrow and have got some great episodes this week coming up
+ about changes to Claude Code, how people are building things in new ways with AI.
+ So we will be back very shortly with our operator-centric content.
+ But for now, let's get into what happened this weekend.
+ Today we are doing an episode which on the one hand I wished I would never have to do
+ and on the other has for some time felt increasingly inevitable.
+ At 4 a.m. on Friday morning, a man threw a Molotov cocktail at Sam Altman's home.
+ The gate was set ablazed and there were no injuries.
+ It was mostly just terrifying.
+ Suspect Daniel Moreno Gamma was later arrested outside the open AI headquarters,
+ threatening to burn the place down to the ground.
+ Police said that the 20-year-old Moreno Gamma was in possession of an anti-AI manifesto,
+ a jug of kerosene, and a lighter at the time of his arrest.
+ When the FBI raided his Texas home on Monday morning,
+ they found a written document that police said not only displayed anti-AI sentiment,
+ but also which included the names and addresses of other AI executives, investors, and board members.
+ Prosecutors have declined to name the other people on the list.
+ An affidavit said that the written document identified views opposed to artificial intelligence
+ and discussed the purported risk AI poses to humanity.
+ The manifesto included the line,
+ if I am going to advocate for others to kill and commit crimes,
+ then I must lead by example and show that I am fully sincere in my message.
+ Moreno Gamma had been posting anti-AI and ex-risk-related messages and content on Substack Instagram
+ and as part of the PAWS AI Discord, where he posted under the name butlerian jihadist.
+ One post from December said,
+ if we do nothing very soon we will die, I'm very sure of that.
+ A Substack essay in January discussed the existential risk posed by AI executives
+ that quote appear to lack strong morals.
+ In that essay he wrote,
+ these people are almost nothing like you.
+ They are most likely sociopathic slash psychopathic and in the case of Altman,
+ consistently reported to be a pathological liar.
+ Prosecutors claim Moreno Gamma traveled from Texas this month to carry out the attack.
+ In court on Monday Moreno Gamma was charged with attempted murder
+ alongside attempted damage and destruction of property by means of explosives
+ and possession of an unregistered firearm among other charges.
+ There are 11 charges in total with a maximum sentence of life in prison.
+ Prosecutors said the attack would be treated as an act of domestic terrorism
+ if the purpose was to instigate a change in public policy or coerce government officials.
+ This was also not the only violent attack focused on Sam Altman and his family this weekend.
+ Amanda Tom and Muhammad Tariq Hussein were arrested for allegedly firing
+ a gun at Sam Altman's home on Sunday morning.
+ Unlike Moreno Gamma who travels from Texas, this pair live nearby.
+ On Friday evening Altman tweeted,
+ I wrote this early this morning and I wasn't sure if I would actually publish it but here it is.
+ He starts by saying,
+ here's a photo of my family, I love them more than anything.
+ Images have power I hope.
+ Normally we try to be pretty private but in this case I am sharing a photo
+ in the hopes that it might dissuade the next person from throwing a Molotov cocktail at our house
+ no matter what they think about me.
+ The first person did it last night at 3.45 am in the morning.
+ Thankfully it bounced off the house and no one got hurt.
+ Words had power too.
+ There was an incendiary article about me a few days ago.
+ Someone said to me yesterday they thought it was coming at a time of great anxiety about AI
+ and it made things more dangerous for me.
+ I brushed it aside.
+ Now I am awake in the middle of the night and pissed
+ and thinking that I have underestimated the power of words and narratives.
+ This seems like as good of a time as any to address a few things.
+ First, what I believe.
+ Working towards prosperity for everyone,
+ empowering all people and advancing science and technology are moral obligations for me.
+ AI will be the most powerful tool for expanding human capability
+ and potential that anyone has ever seen.
+ Demand for this tool will be essentially uncapped
+ and people will do incredible things with it.
+ The world deserves huge amounts of AI
+ and we must figure out how to make it happen.
+ It will not all go well.
+ The fear and anxiety about AI is justified.
+ We are in the process of witnessing the largest change to society
+ in a long time and perhaps ever.
+ We have to get safety right which is not just about aligning a model.
+ We urgently need a society-wide response to be resilient to new threats.
+ This includes things like new policy to help navigate through a difficult economic transition
+ in order to get to a much better future.
+ AI has to be democratized.
+ Power cannot be too concentrated.
+ Control of the future belongs to all people and their institutions.
+ AI needs to empower people individually
+ and we need to make decisions about our future and the new rules collectively.
+ I do not think it is right that a few AI labs
+ would make the most consequential decisions about the shape of our future.
+ Adaptability is critical.
+ We are all learning about something new very quickly.
+ Some of our beliefs will be right and some will be wrong
+ and sometimes we will need to change our mind quickly
+ as the technology develops and society evolves.
+ No one understands the impact of super intelligence yet,
+ but they will be immense.
+ From there, he also does a set of personal reflections.
+ He argues that conflict adversity has been a huge problem
+ and admits mistakes in how he's handled things in the past.
+ He writes,
+ I am a flawed person in the center of an exceptionally complex situation
+ trying to get a little better each year, always working for the mission.
+ He also notes,
+ I am also very aware that open AI is now a major platform,
+ not a scrappy startup
+ and we need to operate in a more predictable way now.
+ It has been an extremely intense, chaotic and high pressure few years.
+ Third, he ends on what he calls some thoughts about the industry.
+ My personal takeaway from the last several years
+ and take on why there has been so much Shakespearean drama
+ between the companies in our field comes down to this.
+ Once you see AGI, you can't unsee it.
+ It has a real ring of power dynamic to it
+ and makes people do crazy things.
+ I don't mean that AGI is the ring itself,
+ but instead the totalizing philosophy of being the one to control AGI.
+ The only solution I can come up with, he continues,
+ is to orient towards sharing the technology with people broadly
+ and for no one to have the ring.
+ The two obvious ways to do this are individual empowerment
+ and making sure democratic systems stay in control.
+ It is important that the democratic process remains more powerful than companies.
+ Laws and norms are going to change,
+ but we have to work within the democratic process
+ even though it will be messy and slower than we'd like.
+ We want to be a voice and a stakeholder,
+ but not to have all the power.
+ A lot of the criticism of our industry
+ comes from sincere concern about the incredibly high stakes of this technology.
+ This is quite valid and we welcome good faith criticism and debate.
+ I empathize with the anti-technology sentiments
+ and clearly technology isn't always good for everyone,
+ but overall I believe technological progress
+ can make the future unbelievably good for your family and mine.
+ While we have that debate,
+ we should de-escalate the rhetoric and tactics
+ and try to have fewer explosions in fewer homes,
+ figuratively and literally.
+ Now the whole combination of all of this,
+ the actions themselves, the arrests, the follow-up,
+ set off an absolute firestorm of debate
+ all over the internet, all over X and many other channels as well.
+ One key strand of the discourse
+ was to blame the PAWS AI and X-Risk folks
+ for effectively inciting violence.
+ This opinion, for example, was found in a sub-stack post
+ by the dossiers Jordan Schachtel
+ who wrote,
+ AI doomers built a radical ideology,
+ now their followers are acting on it.
+ The movement that warned AI would end humanity
+ has spawned a new wave of political violence.
+ He writes,
+ For years a well-funded and pedigreed coalition
+ of effective altruists aligned intellectuals in Silicon Valley,
+ we can call them AI doomers,
+ have prosecuted a very specific argument.
+ Their claim is not that AI is annoying or economically disruptive
+ or bad for teenagers on social media.
+ Their claim is existential.
+ Extinction level.
+ The doomer-funded center for AI studies,
+ now famous 2023 statement,
+ signed by hundreds of AI researchers and executives,
+ placed AI-Risk alongside nuclear weapons as a priority risk.
+ He then goes on to give a number of examples
+ and comes to this point.
+ Here is the paradox those thinkers have never adequately resolved.
+ If the threat is truly existential,
+ then what moral framework permits you
+ to only write strongly worded op-eds
+ and conference circuit speeches?
+ It is a serious philosophical problem
+ baked into the utilitarian ethics
+ that most EAs and AI safety advocates openly embrace.
+ The larger the harm, the more extreme the justified response.
+ If their probability estimate for AI-caused extinction
+ is even modestly non-trivial
+ and they are a consistent utilitarian,
+ the math starts generating conclusions
+ that civilization-minded people should find alarming.
+ Petitions and policy advocacy are preferred, sure,
+ but when those institutions are deemed to have failed,
+ when the compute keeps scaling and the AI companies keep shipping,
+ at what point does democratic incrementalism
+ become a moral abdication?
+ Now, from there, he basically argues that while
+ leading AI safetyists have, in his words,
+ commendably condemned the violence,
+ they haven't answered that core question
+ about the implications of their words.
+ And it is absolutely true that many, many prominent voices
+ have condemned the violence.
+ Jeff Friderich writes,
+ If you would ever consider trying to hurt someone to slow AI progress,
+ please do not effing do it.
+ If you have any respect for me whatsoever,
+ I implore you to remember that everyone else trying to prevent
+ human extinction will face a harder battle if you resort to violence.
+ It is legitimately scary to live in a world
+ where superintelligence may be around the corner.
+ It can feel crushing, I get that.
+ And also, it is almost always possible to make the situation worse
+ and to make the world worse.
+ Don't do it. There are actual ways to help.
+ You can call your congressperson,
+ you can write compelling arguments, make videos,
+ peacefully protest, talk to your friends and family.
+ Everyone has the power to unilaterally hurt their cause
+ by doing something stupid. Please refrain.
+ David Kruger writes,
+ I denounce violent attacks on AI researchers
+ and politicians such as the recent Molotov cocktail thrown at Sam Altman
+ and the bullets fired into the house of a local councilman
+ supporting data center development.
+ Terrorism against AI supporters would backfire in many ways.
+ It would help critics discredit the movement,
+ be used to justify government crackdowns on dissent
+ and lead to AI being securitized
+ making public oversight and international cooperation much harder.
+ Nate Suarez, the co-author
+ of the certainly not provocatively named
+ if anyone builds it, everyone dies.
+ Why superhuman AI would kill us all
+ wrote, if you start killing in the name of a cause
+ make leaders feel like cowards caving to terrorists
+ if they support that cause. Screw that.
+ Those signing a treaty to stop the AI race
+ would be heroes saving the world and should feel like it.
+ Cut out this violence. The Paws AI group
+ that was a home to a number of the writings
+ of Daniel Moreno Gamma wrote that they
+ unequivocally condemn the attacks on Sam Altman's home
+ and all forms of violence, intimidation and harassment.
+ And yet some just aren't buying it.
+ Feeling as Jordan did in that essay we read an excerpt from before
+ that political violence is the inescapable conclusion
+ of the ex-risk message.
+ Accelerate Harder writes,
+ When you tell people that what someone is up to
+ is going to kill everyone they know and love including their children
+ it doesn't require careful reasoning to reach the question of violence.
+ It kicks in at a brainstem level.
+ This is my criticism of the AI safety community.
+ I obviously can't change their beliefs
+ but many claim they do not want violence.
+ I don't think their actions thus far really support that claim
+ because their objections to violence
+ primarily relest on a professed belief
+ that violence will be ineffective.
+ That is a cost-benefit analysis and cost-benefit analysis
+ suggests you might be open to violence in the future
+ if the situation changes.
+ That is different from not wanting violence.
+ Now from here this gets deeper into the question
+ of the responsibility thought leaders bear
+ for the actions of people that follow their thoughts
+ which is way outside the scope of the show.
+ What I'm trying to do here is just give you
+ a sense of where people's heads are at
+ in and around this conversation.
+ This was however not the only strand in the conversation.
+ Some folks, particularly a number of journalists
+ took issue with what they thought was
+ the implication in Sam Altman's blog post
+ that the Ronan Farrow New Yorker article
+ had a connection with the violence
+ then perpetrated against him and his family.
+ Transformer editor Shaquille Hashim writes
+ what happened to Sam Altman and his family
+ is really awful. It is hard to reconcile
+ his call to de-escalate the rhetoric and tactics
+ however with his implication that a piece
+ of critical journalism was responsible for this.
+ Altman actually responded to that
+ and said this was a bad word choice
+ and I wish I hadn't used it. It has been a tough day
+ and I'm not thinking the most clearly that I ever have.
+ Which to his credit Shaquille appreciated.
+ Still another strand of media discourse
+ in an attack, maybe they bore some responsibility.
+ Rune from OpenAI wrote
+ maybe the media shouldn't consistently
+ include full identifying addresses
+ for some reason when reporting on attacks.
+ Daniel F. added,
+ relatedly they shouldn't include pictures of the houses either.
+ Maybe it was safe to do so even a few years ago
+ but AI is now pretty good at determining locations
+ from photos even when it's not obvious
+ that this would be feasible.
+ Pirate wires, Mike Solano went a little bit farther.
+ Why TF are we sharing images of Sam's
+ home in the press? At this point in time
+ the coverage of what looks like may have been a second attack
+ how could you possibly justify this?
+ There is zero newsworthiness justification
+ if following two attempts on his life
+ you are sharing photos of his home online
+ and describing where it is
+ you are contributing to the violence directly
+ and I am going to interpret this as your goal.
+ And yet others even from within the AI space
+ were willing to point out that it was possible
+ that the AI industry's own rhetoric
+ wasn't really helping things either.
+ Crebovois writes,
+ during the first attack we lectured
+ how words hold weight and lead to violence
+ but we didn't think then to feel the weight of our own
+ instead of showing people how AI will make life better
+ how it will give us all just a little bit more
+ time and life for the things we really care about
+ how it will fix our broken government or health care systems
+ we spent the last few years telling people
+ the story of AI is one where AGI makes humans unnecessary
+ that everyone will lose the jobs they worked so hard at
+ to barely get by
+ and making jokes about the permanent underclass
+ and we wonder why the people fear us and revolt.
+ Bucho Capital bloke writes,
+ basically every one on one in office hours
+ I had this week was people outright asking
+ if they'll be replaced by AI
+ from ICs up to directors, everyone's scared
+ this is the next existential issue
+ and mistake for the labs.
+ I know they're trying to juice their IPO
+ they'll regret the doomerism.
+ Casey Newton made a similar argument
+ in a piece called Sam Altman's Second Thoughts he asks
+ Open AI CEO is asking the public
+ to lower the temperature on AI
+ but who turned it up in the first place?
+ His conclusion, ultimately the public's disdain
+ for AI was not invented by journalists
+ it was co-created by the people building the systems
+ who have consistently told us that it is imminent
+ and dangerous that the public has now begun
+ to take them at their word should not surprise them
+ isn't that what they've been asking for all along?
+ All of these are important conversations to be had
+ but I think that in general they are a little bit
+ missing the forest for the trees
+ it would be a grave mistake in my estimation
+ to view everything that is happening
+ in the isolation of the AI industry itself
+ instead I believe that AI has become
+ the recipient of a much bigger trend
+ that trend is a pipeline
+ from real economic pain
+ to even greater perceived inequality
+ to political violence
+ the TLDR is that the discourse on X about pause AI
+ has very little to do with the larger
+ meta issues and context in which
+ this violence is happening
+ it is certainly the case that AI X-Risk
+ creates something of a perfect boogeyman
+ it is by definition existential
+ it is also unfalsifiable
+ in that it is an argument that is
+ completely about the future
+ that involves extrapolating a trend line
+ rather than reviewing disprovable evidence that exists right now
+ certainly the way the AI industry
+ has chosen to communicate feeds into a general
+ sense of the hugeness of the issue
+ but in no way is this type of political violence
+ isolated and frankly for anyone
+ who's been paying attention a lot of it is
+ very reminiscent of the way that the discourse
+ has evolved over the last couple years
+ Paula on X wrote
+ I didn't realize how bad it was until I saw
+ this comment section on Instagram
+ she shared a set of comments from a story about
+ the attack each of which had between
+ hundreds and thousands of likes
+ and which featured such gems as
+ please nobody throw another Molotov cocktail
+ at Sam Altman's house which is pictured here
+ that would be easy to find since you now know which neighborhood it's in
+ 703 likes
+ where can we support their bail fund
+ 3,357 likes
+ I hope that Molotov is okay
+ 4,631 likes
+ now one might be tempted
+ to write that off as the rambling
+ of the degenerate side of the internet
+ and bought farms trying to sow discord
+ and sure maybe that's a part of it
+ but it is not the first time that we've seen something like this
+ think back a few years ago
+ to when the Titan submersible imploded
+ in the Los Angeles Times
+ Jessica Gelt wrote a piece as those aboard the Titan submersible
+ suffered social media laughed
+ she writes gleeful best describes the tenor
+ of many posts which include making fun
+ of the video game controller used to pilot the Titan
+ laughing at the billionaires inside the submersible
+ jokes about the effects of lack of oxygen
+ on the human psyche or substituting
+ part sounds for the knocking sounds that rescuers
+ apparently heard underwater we saw a similar
+ type of glee from some places in the wake
+ of the assassination of Charlie Kirk although
+ the debate there quickly turned to whether
+ people could be fired for expressing those views on
+ social media still maybe the most obvious
+ example of this is Gen Z turning Luigi
+ Mangione the accused assassin
+ of United Healthcare CEO Brian Thompson
+ into some kind of folk hero
+ according to an Emerson poll that was
+ conducted in the same month after that
+ crime 41% of
+ 18 to 29 year olds in the US
+ agreed that it was somewhat or completely
+ acceptable to kill a CEO
+ now when it comes to AI specifically
+ people have been worried about this for some time
+ now counterterrorism think tank
+ the Sufjan center which is a respected counterterrorism
+ think tank published an
+ assessment in November of last year titled
+ as data centers proliferate anti
+ AI resistance has the potential to turn violent
+ the research documented a spike
+ in online threats against AI infrastructure
+ since early 2024 and while
+ the attacks on Sam Altman seem to be
+ about bigger AI safety considerations than
+ just AI data centers they weren't the only
+ political violence we got last week
+ four days before Altman's attack
+ Indianapolis City Councilman Ron Gibson had 13
+ rounds fired at his front door
+ with a note reading no data centers left under
+ his doormat
+ all right folks quick pause
+ here's the uncomfortable truth if your enterprise
+ AI strategy is we bought some tools
+ you don't actually have a strategy
+ KPMG took the harder route and became
+ their own client zero
+ they embedded AI and agents across the enterprise
+ how work it's done how teens
+ collaborate how decisions move not
+ as a tech initiative but as a total operating
+ model shift and here's the real
+ unlock that shipped raised the ceiling on
+ what people could do human stayed firmly
+ at the center while AI reduced friction
+ serviced insight and accelerated momentum
+ the outcome was a more capable
+ more empowered workforce if you want
+ to understand what that actually looks like in the real
+ world go to www.kpmg.us
+ slash AI that's www.kpmg.us
+ slash AI
+ you've tried in IDE
+ co-pilots they're fast but they only see
+ local silos of your code leverage
+ these tools across a large enterprise code base
+ and they quickly become less effective the fundamental
+ constraint context
+ Blitzy solves this with infinite code context
+ understanding your code base down to the line
+ level dependency across millions of lines of code
+ while co-pilots help developers write code faster
+ Blitzy orchestrates thousands of agents that reason
+ across your full code base
+ allow Blitzy to do the heavy lifting delivering
+ over 80% of every sprint autonomously with
+ rigorously validated code
+ Blitzy provides a granular list of the remaining work for humans
+ to complete with their co-pilots
+ tackle feature additions large-scale refactors
+ legacy modernization greenfield initiatives
+ all 5x faster see the Blitzy
+ difference at blitzy.com that's
+ blitzy.com
+ so coding agents are basically
+ solved at this point they're incredible at writing code
+ but here's the thing nobody talks about
+ coding is maybe a quarter
+ of an engineer's actual day
+ the rest is stand-ups stakeholder updates
+ meeting prep chasing context across six different tools
+ and it's not just engineers
+ sales spends more time assembling proposals than selling
+ finances manually chasing subscription requests
+ marketing finds out what shipped
+ two weeks after it merged
+ Zen coder just launched Zenflow work
+ it takes their orchestration engine
+ the same one already powering coding agents
+ and connects it to your daily tools
+ JIRA, Gmail, Google Docs
+ linear calendar notion it runs
+ goal-driven workflows that actually finish
+ your stand-up brief is written before you sit down
+ review cycle coming up it pulls six months of tickets
+ and writes the prep doc
+ now you might be thinking didn't Open Claw try to do this
+ it did but it has come with a whole host
+ of security and functional issues which can take
+ a huge amount of time to resolve
+ Zen coder took a different approach
+ SOC2 type 2 certified curated integrations
+ tighter security perimeter enterprise grade
+ from day one model agnostic
+ and works from Slack or Telegram
+ try it at Zenflow.free
+ let's face it
+ if you're leading GRC at your organization
+ chances are you're drowning in spreadsheets
+ balancing security risk and compliance
+ across shifting threats and regulatory frameworks
+ can feel like running a never-ending marathon
+ ENTERT, DRATA's agentic trust management platform
+ designed for leaders like you
+ DRATA automates the tedious tasks
+ like security questionnaire responses
+ continuous evidence collection and much more
+ saving you hundreds of hours each year
+ with DRATA you spend less time chasing documents
+ and more time solving real security problems
+ but it's more than just a time saver
+ it's built to scale and adapt to your organization's needs
+ whether you're running a startup or leading GRC
+ for a global enterprise
+ with DRATA you get one centralized platform
+ to manage your risk and compliance program
+ DRATA gives you a holistic view of your GRC program
+ and real time reporting your stakeholders can act on
+ with DRATA you can also unlock
+ a powerful trust center a live customizable product
+ that supports you in expediting your never-ending
+ security review requests in the deal process
+ share your security posture with stakeholders
+ or potential customers cut down on back and forth questions
+ and build trust at every interaction
+ if you are ready to modernize your GRC program
+ and take back your time visit drata.com
+ to learn more
+ now there is a huge amount of research
+ and theory out there about political violence
+ this is actually the field that I thought
+ I was going to go into when I was in college
+ living in peachy places like Israel and Palestine
+ Rwanda the Balkans
+ and northern Uganda
+ to try to better understand conflict
+ Albert Pandora's moral disengagement theory identifies
+ eight mechanisms by which ordinary people
+ disable their internal moral controls
+ they include things like reframing harmful behavior
+ i.e. portraying destructive behavior
+ as serving worthy moral social or economic purposes
+ e.g. it's for the greater good
+ there's also victim blaming and dehumanization
+ ignoring or distorting consequences
+ obscuring agency and more
+ now many if not all of these mechanisms
+ are visible in public discourse around for example
+ particularly moral justification
+ i.e. the healthcare system kills people daily
+ so this is justice
+ Kurt Gray and Daniel Wagner's moral typecasting theory
+ tries to explain why the public appears to lack empathy
+ for elite victims
+ once someone is typecast as a moral agent
+ i.e. a powerful CEO making decisions affecting millions
+ they are perceived as less capable of suffering
+ some in the public simultaneously see themselves
+ as moral patients or victims of the system
+ Sarah Conrath of Indiana University wrote
+ now what makes this such a caustic environment
+ for this right now is that we have both real
+ economic trouble and inequality
+ as well as even more perceived inequality
+ with social media widening the gap
+ and research suggesting that perceived inequality
+ matters more than actual inequality
+ now I don't think anyone will disagree that the material
+ basis for economic grievance is real
+ home prices are now up 60%
+ since 2019
+ the median household must now spend
+ 47.7% of income to own a median priced home
+ which is far above the 30%
+ affordability threshold
+ the median age at first time home buyers
+ has risen to 40
+ and the top 1% of US households now own
+ 31.7% of wealth which is the widest gap
+ since the Federal Reserve began collecting data
+ in 1989 and yet
+ research consistently shows that perceived
+ inequality drives political radicalization
+ more powerful than actual inequality
+ the EU funded dare project
+ standing for dialogue about radicalization
+ inequality studied radicalization
+ across multiple countries and concluded
+ people who perceive themselves as unequal
+ are more likely to become radicalized
+ than people who live in the same conditions
+ but who do not consider themselves as unequal
+ a systematic review of 141
+ publications in the journal terrorism
+ and political violence found that perceived
+ sociopolitical inequality matters significantly
+ more than objective economic conditions
+ when it comes to radicalization
+ another paper in the European Journal
+ of Political Economy called Perceptions
+ of Inequality found that citizens quote
+ perceive economic inequality spectacularly
+ wrong and that these
+ misperceptions not reality correlate with demand
+ for redistribution in class conflict
+ a 2025 study demonstrated a causal chain
+ visual wealth exposure on social media
+ increases upward social comparison
+ which increases relative deprivation
+ which increases hostility towards the rich
+ which provokes aggressive behavior
+ and what's more this causal chain is increasingly observable
+ beyond just the anecdotal
+ another recent study published in science
+ shows that algorithmic content ranking could shift
+ partisan political feelings by approximately two
+ points on a feelings thermometer in a single week
+ comparable in size to three years
+ of change in the US
+ and in a study that's incredibly important for bringing
+ back to our example of AI
+ a paper published in the Journal of Conflict Resolution
+ in 2022 found that it is not
+ static poverty or even current
+ inequality that motivates political violence
+ but projected economic decline
+ the study showed that people anticipating
+ downward mobility
+ enter what they call a domain of loss
+ where they become risk seeking and susceptible
+ to mobilization for violence
+ I do not have to spell this out for an audience
+ as smart as you to demonstrate how this finding
+ is directly relevant to AI anxiety
+ the threat of course is not just that people
+ are poor today but that they believe
+ AI will make them poorer tomorrow
+ I would point once again to the fact that
+ all of the AI CEOs seem
+ to make it their business to go on new podcasts
+ every week to talk about how many people
+ are going to lose their jobs
+ now the question becomes what can be done about
+ this well one thing that the research shows
+ does not work is just trying to
+ make people like each other more in a comprehensive
+ 2023 review for the Carnegie Endowment
+ for International Peace Rachel Kleinfeld
+ found that reducing effective polarization
+ does not reduce support for political
+ violence in other words lab interventions
+ that successfully made partisans feel warmer
+ towards each other had zero effect on
+ attitudes towards violence in other words
+ you cannot kumbaya your way out of this
+ so what does work the first
+ and perhaps most important is political efficacy
+ in short when
+ aggrieved individuals perceive that democratic channels
+ work they're less likely to support violence
+ if they think that their political participation
+ doesn't matter they are more likely to
+ support violence in AI land
+ if people perceive that AI companies
+ will simply lobby against regulation at all
+ turns and constantly get their way
+ that is going to feed perception that democratic recourse
+ is unavailable second
+ the inverse of the idea that poor prospects
+ rather than current inequality motivates
+ political violence is that you have to address
+ economic trajectory policies then
+ that credibly improve people's
+ economic outlook whether that's job
+ retraining with real placement housing
+ affordability measures portable benefits whatever
+ it is that actually changes perception of future
+ prospects can reduce the sense of downward
+ mobility that fuels radicalization
+ now to some that might suggest
+ let's get the UBI train rolling right
+ not so fast
+ Jeremy Ginges from the new school offers a critical
+ warning in his study the moral
+ logic of political violence he found that when
+ sacred values are at stake material
+ incentives to prevent violence can backfire
+ now his experiments were in a very
+ different context but it's not hard to apply this
+ to the conversations about UBI
+ I think one can argue that the
+ constant discourse about UBI the fact
+ that we're effectively trading for the job through
+ which you find meaning for a government handout
+ doesn't counteract the anticipated
+ decline that motivates political violence
+ it actually confirms the bad trajectory
+ it's basically AI saying we agree
+ your labor has no future value here's a check
+ that's not addressing the domain of
+ law psychology it's ratifying it
+ you're telling someone that their economic future
+ is over and handing them a stipend
+ that's basically the exact opposite of what
+ research has found actually works
+ there's also a dignity dimension that the moral
+ typecasting research illuminates
+ when AI leaders propose UBI
+ they're positioning themselves as the moral agent
+ the powerful actor making decisions and the public
+ as moral patients i.e. passive recipients
+ research shows that that's exactly the type
+ of framing that generates resentment
+ being typecast as a patient means being seen
+ as lacking agency
+ UBI from the people who are automating your job
+ is the most condensed possible
+ version of that dynamic
+ young macro on twitter wrote
+ UBI is obviously nowhere near the panacea
+ many of you seem to think it is
+ the median left leaning westerner isn't angry
+ at Elon musk because he can buy a million times
+ more groceries than them they aren't upset
+ with Palantir because Peter Thiel can afford
+ to eat a thousand burgers to their one
+ the whole thing is in large part post-material
+ it's the hierarchy and subordination they're uncomfortable with
+ they feel their dignity is being trampled
+ and their autonomy progressively diminished
+ rightly or wrongly they feel politically disenfranchised
+ and stripped of assay over the future
+ offering a guaranteed food budget
+ and a pod to spend the night in in return
+ for further disempowerment is incredibly tone deaf
+ and should be expected to provoke more
+ not less outrage
+ the point that I'm making ultimately
+ is that AI is not an independent issue
+ but is becoming a perfect cauldron
+ because it concentrates every larger grievance
+ downstream from economics simultaneously
+ job displacement anxiety is broader
+ and more personal than any previous automation wave
+ wealth concentration is visible
+ and extreme and AI creates a new face for it
+ existential risk rhetoric acts
+ as a moral urgency multiplier
+ and AI leaders keep saying the quiet part
+ loud investor jack reins wrote
+ the majority of Americans quote-unquote
+ hate AI of course that shouldn't be a surprise
+ when the CEOs of the three biggest
+ AI labs in America are all basically saying
+ the entire white collar labor force
+ a few years away from getting brutally job-mogged
+ by LLMs and maybe most importantly
+ from the standpoint of something that can be actively changed
+ is that to many people
+ Democratic channels appear blocked
+ in a paper called artificial intelligence
+ the common good in the Democratic deficit
+ in AI governance Mark Cokalberg warned
+ of a quote tendency to deny
+ the inherent political character of the issue
+ and to take a technocratic shortcut
+ producing a small technocratic elite
+ that rules a mass of angry citizens
+ who rightly complain they are not heard
+ and the over ambitious even for me
+ to try to now in the last few minutes
+ of a podcast create a map
+ for where we need to go but it is clear
+ that there are going to be three dimensions
+ of this if we want to turn back the tide
+ of violent AI populism the first
+ is we need to restore or create
+ for the first time credible Democratic channels
+ for AI governance and this is going to be
+ genuinely uncomfortable for the industry
+ it's not for sure but it may be the case
+ that accepting meaningful regulation
+ may be the single most effective
+ solution available
+ you get a sense in Sam Altman's blog post
+ that he may be coming to the same conclusion
+ in his analogy to Sauron's one ring
+ he writes that the only solution I can come up
+ with is for no one to have the ring
+ and he says that of the two obvious ways
+ to do this one is individual empowerment
+ and the other is in his words
+ making sure Democratic systems stay in control
+ the problem many would point out
+ is that that hasn't necessarily been the posture
+ of the AI labs vis-a-vis the governance process
+ and so figuring out how to empower
+ is that it's going to be an increasingly important problem
+ to solve a second part of the solution
+ is going to have to be addressing economic trajectory
+ this is the one that I think is the most viable
+ the most quickly as regular listeners
+ will know my long-term
+ optimism is rooted in the fact that I think
+ that human demands and wants and frankly
+ ability to consume is basically unlimited
+ and that the net effect of combining
+ AI with workers will not be less workers
+ it will be massively more output of all types
+ that creates more stuff more content
+ more things and significantly increases
+ the size of the overall economy
+ in fact if anything I wouldn't be surprised
+ if burnout and overworking become more of an issue
+ in the long run than working less
+ and not having jobs and yet at the same time
+ it is absolutely undeniable
+ that the nature of work the skills require
+ the processes is going to shift dramatically
+ so we need to support the transition
+ I think at this point the fact
+ that we don't have a Marshall plan for AI education
+ for re-skilling
+ empowerment, entrepreneurial development
+ is an absolutely critical failure
+ one that can be addressed in short order
+ third and finally, studies suggest
+ there's going to have to be some way to break
+ the overtly moral frame without dismissing
+ the grievance of people who are concerned about AI
+ the bitter pill is this
+ if AI is indeed the perfect cauldron
+ for growing economic and political grievance overall
+ de-escalation cannot just
+ come from turning down the heat on rhetoric
+ it's going to require addressing the actual ingredients
+ democratic deficit
+ economic trajectory and moral urgency
+ and what's more the people who are best positioned
+ to do that are the ones who at least in the past
+ have at least wanted to
+ so that my friends is the task ahead of us
+ it will not be easy but I don't believe we have
+ another choice
+ for now that is going to do it for today's AI Daily Brief
+ I appreciate you listening or watching
+ as always and until next time
+ peace
+ you
