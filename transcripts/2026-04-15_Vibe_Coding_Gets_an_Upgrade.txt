@@ -1,0 +1,748 @@
+ Today on the AI Daily Brief, vibe coding gets an upgrade.
+ Before that in the headlines, the new models that we are anticipating this week and the
+ ones we've already got.
+ The AI Daily Brief is a daily podcast and video about the most important news and discussions
+ in AI.
+ Alright friends, quick announcements before we dive in.
+ First of all, thank you to today's sponsors, KPMG, Mercury, Granola, and Blitzy.
+ To get an ad for your version of the show, go to patreon.com.ai-dailybrief or you can
+ subscribe on Apple Podcasts.
+ If you are interested in sponsoring the show, send us a note at sponsors.ai-dailybrief.ai.
+ And of course, while you are at ai-dailybrief.ai, you can find out everything about the show
+ and the larger ecosystem.
+ Two things I would suggest you check out.
+ First of all, we have brought back the newsletter if you are ever looking for the links
+ on the show.
+ They're all going to be there.
+ Second, I'd also love you to join our AI operators community.
+ There's going to be a lot more going on over there soon.
+ With that out of the way though, let's talk some new models.
+ The most fun weeks around here are of course the weeks when we get big new products or big
+ new model releases.
+ As you'll hear in the main episode, we've got a bunch of new upgrades around agentic
+ coding that are coming to places like Lovable and Claude Code, but according to the information,
+ we are also getting a new anthropic model this week, although it is not the mythos
+ model that everyone was talking about.
+ Instead, sources told the information that Opus 4.7 could be released by the end of
+ this week, and in addition to the new model, anthropic is preparing a tool for
+ designing presentations, websites and apps.
+ Now, this is a similar segment to that targeted by Google with Google Stitch.
+ Theoretically, alongside AI native design tools like Gamma, this would also put
+ anthropic into direct competition with incumbents like Figma and Adobe.
+ Now, when it comes to Opus 4.7, rumors are fairly thin, obviously just
+ based on the name alone, most expected to be an incremental improvement
+ over the previous version.
+ However, the reporting did trigger some rumors out of the other leading lab.
+ OpenAI leaker I Rule the World wrote, Thursday is big, huge, delicious.
+ Looks like someone leaked to Sam that Opus 4.7 is coming.
+ Launch dates moved to Thursday, and as I broke yesterday, Opus is coming.
+ No more vague posts.
+ Spud and Opus 4.7 will launch on Thursday.
+ If this is not the case, I will no longer mention release dates.
+ Now, I do have to say I Rule the World has not necessarily had
+ the best track record lately, but there is a noticeable uptick
+ in open AI vague posting, so who knows?
+ When it comes to Opus 4.7, anthropics in kind of a tough position.
+ They've let everyone know that they have this big, exciting new model in Mythos,
+ and no matter what, it would be hard to release a lesser model
+ when people knew that that other one was available to others who weren't them.
+ They're also dealing with increased narrative professure.
+ Shravan, the buoyant man on Twitter, wrote,
+ Opus 4.7 will be no better than 4.6 or 4.5, but people will applaud 4.7
+ because anthropic conditioned people to think 4.6 sucks
+ by nerfing it over the last four to five weeks.
+ Now, one model that has been released is GPT-5 for Cyber.
+ It's a variant model designed to address the increasing interest
+ in cybersecurity on the back of the Mythos preview.
+ Writes open AI.
+ The progressive use of AI accelerates defenders,
+ those responsible for keeping systems, data and users safe,
+ enabling them to find and fix problems faster
+ in the digital infrastructure everyone relies on.
+ Similarly, AI is being used by attackers looking to cause harm.
+ GPT-5 for Cyber then is a variant of open AI's flagship model
+ designed to be more permissive around cybersecurity functions,
+ which are often blocked by safety guardrails.
+ The model is only available to verified users,
+ but as part of its introduction,
+ open AI is expanding their trusted access for cyber program.
+ This program ensures that dangerously unrestrained models
+ are only available to known cybersecurity professionals,
+ with open AI saying that the access program has now expanded
+ to thousands of verified individuals as well as hundreds of teams.
+ In their blog post, open AI listed democratized access
+ as one of their main goals,
+ attempting to quote,
+ make these tools as widely available as possible
+ while preventing misuse.
+ To that end, open AI has set up a clear objective standard
+ around qualification for the program,
+ which includes identification and verification of profession.
+ And although this seems small,
+ you can absolutely see the emergent strands
+ of some new brand positioning coming together.
+ Open AI appears to want to increasingly call out anthropic
+ for concentrating power in the hands
+ of a very small number of people and firms.
+ And so open AI is trying to position itself
+ as the opposite of that.
+ They write,
+ we aim to make advanced defensive capabilities available
+ to legitimate actors, large and small.
+ As part of the release, open AI is also rolling out
+ a custom harness called codec security,
+ which is of course designed to enable cybersecurity work.
+ Now, this new narrative that I'm mentioning
+ is clearly not a slam dunk so far.
+ The X thread announcing the release was filled
+ with people complaining about the conflict
+ between claiming to democratize access
+ while still gating the release
+ to vetted cybersecurity professionals.
+ Some of those said professionals even reported missing out
+ on access without understanding why.
+ Now, speaking of things
+ that people are going to complain about,
+ anthropic is switching to usage-based pricing
+ for their heaviest enterprise users.
+ The information reports the pricing change
+ has already gotten into effect,
+ requiring enterprises to pay for usage
+ on top of a flat $20 a seat charge.
+ Frederick Phipsen, a software licensing consultant
+ at Redress Compliance,
+ said these customers are already paying $200 a month
+ for each user,
+ but were generally still receiving a discount
+ compared to token usage.
+ He estimates that anthropics leading customers
+ could double or even triple their costs
+ under the usage pricing model.
+ Anthropics said that the pricing change
+ wouldn't impact companies with fewer than 150 users
+ and some customers wouldn't see a price change
+ until they renew their contracts.
+ They argued that the pricing structure
+ is largely about removing usage limits
+ as a problem for heavy enterprise users.
+ Now, the shift, of course,
+ comes amid a drastic shortage in AI compute.
+ Anthropics has been hurriedly making deals
+ to expand their GPU fleet,
+ but the problem is industry-wide.
+ The Wall Street Journal reports
+ that market pricing for GPU rentals
+ are up 48% over the past two months.
+ JJ Cardwell, the CEO of Cloud Infrastructure company,
+ Volter, said,
+ there's a massive capacity crunch
+ that's unlike anything I've seen
+ in more than five years I've been running this business.
+ He also added that not much can be done,
+ saying, the question is,
+ why don't we just deploy more gear?
+ The lead times are too long.
+ Data center build times are long.
+ The power that's available through 2026
+ is already all spoken for.
+ Meanwhile, on the enterprise side,
+ AI is busting budgets.
+ During a recent interview,
+ Uber CTO, Nepali Naga,
+ said that the rise of cloud code
+ has already eaten his entire AI budget
+ a few months into the year.
+ He commented,
+ I'm back to the drawing board
+ because the budget I thought I would need
+ is blown away already.
+ Uber has taken the common approach
+ of encouraging AI adoption
+ with leaderboards for engineers
+ to track who is using the most AI,
+ and Naga said that they're seeing huge value
+ and doesn't plan to rein in AI spending.
+ He said that 11% of Uber's backend code
+ is now written by AI agents
+ up from a fraction of a percent
+ at the beginning of the year.
+ Now, obviously this is one of the biggest substories
+ that we are tracking on this show.
+ The cost profile of AI
+ obviously has fairly dramatic implications
+ on just how much it even has the capability
+ to replace workers in short order.
+ Meanwhile, over on Wall Street,
+ the SaaS Pocalypse seems to be back on
+ as the reports around Anthropics' new design tool
+ seem to have reignited Wall Street's fear.
+ Yesterday, Adobe dropped 1.8%,
+ Wixfell 1.7%,
+ and Figma led the drawdown at a 4% loss.
+ The dip for design tools happened alongside
+ an otherwise hot market,
+ with the NASDAQ rising 2% on Tuesday
+ on hopes the Iran War has reached a steady state.
+ Summarizing the state of things,
+ Bukko Capital writes,
+ the market is just a guy staring at two screens.
+ One has Truth Social, the other is Anthropics' blog.
+ In front of him are five buttons that say
+ software, semis, European defense, energy, and gold.
+ Trump or Anthropic Post,
+ and he hits a button to make those stocks
+ move plus 5% or minus 5%.
+ Pretty, pretty much.
+ Lastly today, an update on the policy side.
+ My home state of Maine
+ has banned data center construction
+ for the next 18 months
+ in the first statewide moratorium.
+ On Tuesday night,
+ Maine lawmakers approved a bill
+ banning the construction of new data centers
+ until November, 2027.
+ The legislation would apply to any data centers
+ over 20 megawatts,
+ which is of course a trifling amount
+ in the era of gigawatt-scale deployments.
+ It also establishes a mechanism
+ to study the impact of data centers
+ on the electric grid.
+ It's unclear whether Governor Janet Mills
+ will sign the legislation into law.
+ Her office didn't indicate her stance
+ and Mills earlier lobbied for an exemption
+ to allow a data center to be built
+ in an abandoned paper mill.
+ Still, this is the first moratorium
+ to pass through a state legislature
+ and could be far from the last.
+ 12 other states have bills on the agenda
+ ranging from Deep Blue New York
+ to Bright Red Oklahoma.
+ Even Virginia, which houses
+ the largest concentration of data centers on earth,
+ is looking to remove tax breaks
+ after a moratorium bill failed.
+ Sponsor of the Maine bill, Melanie Sacks,
+ who also chairs the Energy Committee said,
+ this is not a Walmart.
+ Having a projected load of even two or three data centers
+ can really impact the state as a whole.
+ She said that the moratorium is about, quote,
+ stepping back and saying,
+ if this is going to come,
+ what can we do to really make it beneficial?
+ Now the business community in Maine
+ is meanwhile up in arms
+ about the legislature blocking
+ desperately needed investment
+ in rural parts of the state.
+ Patrick Woodcock, the chief executive
+ of the Maine State Chamber of Commerce
+ argued that the ban is largely performative
+ but could cause real harm.
+ He said, it's not as if we don't have a review process
+ for these projects to begin with.
+ There are real safeguards in place
+ for ratepayers and the environment.
+ Lots more to say about this one,
+ but for now, the moratorium era has begun.
+ That, however, is gonna do it
+ for today's AI Daily Brief Headlines edition.
+ Next up, the Maine episode.
+ All right, folks, quick pause.
+ Here's the uncomfortable truth.
+ If your enterprise AI strategy is,
+ we bought some tools,
+ you don't actually have a strategy.
+ KPMG took the harder route
+ and became their own client zero.
+ They embedded AI and agents across the enterprise,
+ how work it's done,
+ how teams collaborate, how decisions move,
+ not as a tech initiative
+ but as a total operating model shift.
+ And here's the real unlock.
+ That shift raised the ceiling
+ on what people could do.
+ Humans stayed firmly at the center
+ while AI reduced friction,
+ serviced insight and accelerated momentum.
+ The outcome was a more capable,
+ more empowered workforce.
+ If you wanna understand
+ what that actually looks like in the real world,
+ go to www.kpmg.us slash AI.
+ That's www.kpmg.us slash AI.
+ This episode is brought to you by Mercury,
+ radically different banking,
+ now available for personal accounts.
+ I already use Mercury for my business.
+ So when they introduced personal accounts,
+ it made immediate sense for me.
+ I try to bring the same level of intention
+ to my personal finances
+ that I bring to building companies
+ and most traditional banks
+ just do not feel designed for that.
+ With Mercury personal,
+ you can toggle between business and personal in a click.
+ You can set up sub accounts for specific goals,
+ automate transfers so projects
+ and savings fund themselves
+ and put idle cash to work with high yield savings,
+ all without friction.
+ It's built for people who care about
+ how their money moves
+ and want tools that actually keep up.
+ Visit mercury.com slash personal to learn more.
+ Mercury is a FinTech company,
+ not an FDIC insured bank.
+ Banking services provided through Choice Financial Group
+ and ColumnNA members FDIC.
+ Today's episode is brought to you by Granola.
+ Granola is the AI notepad
+ for people in back-to-back meetings.
+ You've probably heard people raving about Granola.
+ It's just one of those products
+ that people love to talk about.
+ I myself have been using Granola
+ for well over a year now
+ and honestly it's one of the tools
+ that change the way I work.
+ Granola takes meeting notes for you
+ without any intrusive bots joining your calls.
+ During or after the call,
+ you can chat with your notes,
+ ask Granola to pull out action items,
+ help you negotiate, write a follow-up email
+ or even coach you using recipes
+ which are pre-made prompts.
+ Once you try it on a first meeting,
+ it's hard to go without.
+ Head to granola.ai slash ai-daily
+ and use code ai-daily.
+ New users get 100% off for the first three months.
+ Again, that's granola.ai slash ai-daily.
+ If you're looking to adopt an agentic SDLC,
+ Blitzy is the key to unlocking
+ unmatched engineering velocity.
+ Blitzy's differentiation starts
+ with infinite code context.
+ Thousands of specialized agents
+ ingest millions of lines of your code
+ in a single pass, mapping every dependency.
+ With a complete contextual understanding
+ of your code base,
+ enterprises leverage Blitzy
+ at the beginning of every sprint
+ to deliver over 80% of the work autonomously.
+ Enterprise grade end-to-end tested code
+ that leverages your existing services,
+ components and standards.
+ This isn't AI auto-complete.
+ This is spec and test-driven development
+ at the speed of compute.
+ Schedule a technical deep dive
+ with our AI experts at blitzy.com.
+ That's blitzy.com.
+ Welcome back to the AI Daily Brief.
+ Vibe coding is one of those terms
+ that was extremely useful in drawing a hard line
+ and differentiation from what came before,
+ but which might ultimately have a fairly short shelf life.
+ It's been just 14 months
+ since the term was coined by Andre Carpathy
+ and already many people have moved on from it entirely.
+ One of the reasons it doesn't quite fit anymore
+ is that the difference between vibe coding
+ and I don't know what you wanna call it,
+ artisanal by hand coding
+ have been increasingly obviated
+ by the way that the coding platforms have evolved.
+ In other words,
+ there is increasingly nothing but vibe coding.
+ Now, as we will see,
+ mostly a process of multi-agent orchestration.
+ The other even more fundamental reason though
+ that the term is running into some challenge
+ is less about the vibe and more about the coding.
+ Does it make sense to even identify the activity as coding
+ when coding is just the way
+ that everyone builds everything?
+ Now, I'm starting this conversation
+ in the area of linguistics,
+ but where it's showing up in practice
+ is an extreme convergence
+ in the actual product suites
+ through which we interface with AI.
+ A few days ago,
+ the latest theoretical leak out of Anthropic
+ and it looked like it might be
+ some sort of full stack vibe coding app
+ along the lines of lovable.
+ In addition to having a very simple starting interface,
+ it also looked like it came
+ with a set of pre-built instructions for common tasks
+ like scanning for security risks,
+ exploring design directions or implementing dark mode.
+ Now, no one has confirmed this is real,
+ but it didn't particularly surprise anyone
+ and Marmaduke91 can on Twitter
+ summed up most people's feelings when they wrote,
+ Anthropic are coming after everything.
+ Now, an Anthony Morris from Anthropic
+ teased that a new Claude Code desktop version
+ would be coming out this week.
+ Vive Codes Riley Brown wrote,
+ OpenAI and Anthropic are racing
+ to get their version of lovable out.
+ Anthony responded,
+ my tweet has nothing to do with lovable though.
+ Laugh, crying emoji.
+ And it turns out what Anthony was talking about
+ was a more general Claude Code desktop update,
+ which is what they released yesterday.
+ Anthropics Felix Riesberg wrote,
+ today is a big day.
+ We're launching a new version of Claude Code
+ in the desktop app.
+ It's been redesigned for the ground up
+ for parallel work and is a lot faster.
+ Now, in their announcement post,
+ Anthropic emphasized that the redesign
+ was focused on meeting developers where they are,
+ which as they acknowledge
+ is a completely different place
+ from where they were six months ago.
+ They write, for many developers,
+ the shape of agentic work has changed.
+ You're not typing one prompt and waiting.
+ You're kicking off a refactor in one repo,
+ a bug fix in another,
+ and a test writing pass in a third,
+ checking on each's results come in,
+ steering when something drifts
+ and reviewing diffs before you ship.
+ The new app is built for how agentic coding
+ actually feels now.
+ Many things in flight and you in the orchestrator seat.
+ And indeed, in a lot of ways,
+ the concept that runs through this
+ is shifting the interface for a world
+ in which development is orchestrating multiple agents.
+ This takes steps to make the Claude Code section
+ of the Claude desktop app
+ into an agent orchestration command center.
+ Some of the features they point to
+ include a new sidebar
+ for managing multiple sessions at the same time,
+ an integrated terminal and file editor,
+ plus the ability to drag and drop
+ to customize and arrange your workspace.
+ It certainly seems like one of the big focuses
+ is the ability to run multiple sessions
+ at the same time.
+ They write the new sidebar puts every active
+ in recent session in one place.
+ You can kick off work across multiple repos
+ and move between them as results arrive.
+ You can filter by status project or environment
+ or group the sidebar by project
+ to find and resume sessions faster.
+ The first reports from the anthropic team
+ suggest that they've been shifting behavior
+ to this new interface.
+ Claude Code co-creator Cat Wu writes,
+ over the past few weeks I've become
+ a daily user of Claude Code on desktop.
+ It's the best way to kick off and manage
+ multiple CC sessions across local and cloud
+ in one place.
+ Developer Daniel San who had early access
+ pointed to the ability to run agents
+ simultaneously as one of the things
+ that he likes most about the new version.
+ He writes, the interface is much more tailored
+ to a dev oriented design, smaller inputs
+ and more focus on agent execution
+ and development tools.
+ Goyal pointed out,
+ I think it'll be great to have multiple sessions
+ be able to share context for the same feature.
+ I saw cursor already start to do that
+ and I'm excited for all the labs to figure this out.
+ And indeed, this is certainly one of the big takeaways.
+ You might remember that at the beginning of the month
+ cursor three gave developers the option
+ to switch to a similar interface
+ and for some the convergence is clear.
+ Riley Brown again writes,
+ cursor codecs and Claude Code desktop app
+ look exactly the same now.
+ Now we'll have to see if that persists
+ because when Anthony Morris from Anthropics
+ sent that tweet about the Claude Code
+ new desktop version,
+ Andrea Ambrosino who is a member of technical staff
+ working on codecs at OpenAI replied same.
+ Meaning I think that we can probably expect
+ some at least small updates to codecs coming this week.
+ Now not everyone's first impression
+ of the new Claude desktop app was perfect.
+ Theo wrote that it froze on his first prompt
+ and I will admit it also completely imploded
+ on a project that I was doing
+ where I had to go basically delete
+ all the work that it had done and start fresh.
+ Still the biggest complaint
+ and something that you increasingly see
+ around every post from Anthropic
+ continues to be about usage limits and throttling.
+ Control Alt Dwayne wrote,
+ run multiple Claude sessions in this economy
+ with these highly restricted usage limits.
+ It's nice in theory,
+ but people can barely run one session
+ with Opus 4.6 without chewing through usage
+ and they're saying you can run multiple.
+ Did they increase usage limits?
+ Graham VIP responded to the Claude announcement post
+ and wrote, allow me to fix your post.
+ You can now run multiple Claude sessions
+ side by side for around five minutes
+ before we lock you out
+ and demand another 200 USD off you.
+ I think unfortunately for Anthropic,
+ this is the big new PR battle
+ at least internally that they're going to have to deal with.
+ Now there was one other Claude code update
+ yesterday as well.
+ Anthropics know as we've been tweets,
+ Claude code routines are here.
+ In addition to a schedule,
+ you can now trigger templated agents
+ via GitHub event or API
+ with our infrastructure in your MCP and repose.
+ They've changed how we do docs, backlog maintenance
+ and more internally at Anthropic.
+ So routines basically are the next extension
+ of the scheduled tasks feature
+ which came a few weeks ago.
+ Rather than triggering at a certain time or day,
+ routines allow tasks to be triggered
+ via GitHub event or API.
+ In their docs, Anthropic wrote,
+ a routine is a saved Claude code configuration,
+ a prompt, one or more repositories
+ and a set of connectors packaged once
+ and run automatically.
+ Routines execute on Anthropic managed cloud infrastructure
+ so they keep working when your laptop is closed.
+ The register described routines
+ as a dynamic cron job
+ or a trigger driven short lived event.
+ Now when you sit back and think about this,
+ this seems like a big unlock
+ for a number of different use cases.
+ Rather than requiring you
+ to keep Claude running at all times,
+ you can now offload complex
+ and dynamic tasks onto Anthropic's architecture.
+ Now on the one hand,
+ each of these individual updates is small on its own
+ but in net you can see the path where they're going
+ where Claude code is basically building out
+ any possible variation of triggering an event
+ to complete a task
+ with this addressing one of the big remaining limitations.
+ Greg Eisenberg from the startup ideas pod
+ as he has wanted to do immediately thought
+ about how this could turn into new startup opportunities.
+ He writes, the model is the commodity
+ the trigger is the product
+ and whoever maps the most valuable real world events
+ to the most specific industry workflows
+ is going to build something massive.
+ Here's what I mean by trigger.
+ A permit gets filed, a customer's usage
+ drops 40% in a week, competitor launches a feature.
+ A deal sits in your pipeline untouched for 14 days.
+ Some public, some inside your own tools
+ and every single one is a moment
+ where an AI agent can step in
+ and do something valuable
+ before a human gets around to it.
+ The playbook is like this.
+ Map every trigger that matters in one industry,
+ wire an AI agent to do each one, sell the outcome.
+ The person who shows up first
+ with exactly what someone needs
+ at exactly the right moment wins the deal every time.
+ And the people who go embarrassingly deep
+ on one industry's trigger map
+ are going to build generational companies.
+ To Greg it is one more indication of why this is
+ in his words, the greatest time to be starting a company.
+ Now, while we didn't get Anthropics
+ full-throated lovable vibe coding experience
+ we did get a bunch of updates from lovable themselves.
+ First of all, the company has launched
+ a new desktop app which allows users to access
+ local MCPs, keep track of multiple projects
+ and use native keyboard shortcuts.
+ Still maybe the bigger update from lovable
+ came a couple of days ago
+ and was the native introduction of payments.
+ Users can describe what they want to sell
+ and how they want the payments function
+ to work in natural language
+ and the AI agent will do the rest.
+ Linear COO Christina Cordova writes,
+ you know what you're not vibe coding?
+ PCI level one, partnerships with several acquirers
+ per country all over the world,
+ global tax compliance and the list goes on.
+ The argument is basically
+ that this is one of those key areas
+ that just needs to be built in
+ for people to unlock the full value
+ of vibe coding platforms for business.
+ Indeed as lovable CEO Antoine Oseca writes,
+ it's never been easier to go from product
+ to an actual business.
+ We saw a vibe related updates
+ in other parts of the market as well.
+ A small one from Google,
+ the company launched a new design preview
+ in AI studios vibe coding experience.
+ Logan Kilpatrick writes,
+ now while you wait for an app to be built,
+ Gemini will create custom themes
+ you can easily choose from in seconds.
+ To me, it looks like a bit of an integration
+ with what you can do in their dedicated stitch app
+ but brought into the Google AI Studio experience
+ which is kind of the pattern
+ that we've been seeing with Google
+ where they're both developing key products
+ and features in their own experiences
+ but then also working to integrate them more seamlessly.
+ Google also announced a new feature
+ called skills in Chrome.
+ It allows users to save and reuse AI prompts
+ when using the Gemini Assistant in the Chrome browser.
+ Users can choose from a skills library
+ or build their own skills with Gemini's help.
+ And while the name is the same,
+ the feature is closer to a prompt library
+ than the full skills file system
+ implemented by Anthropik and OpenAI.
+ Still it is spiritually in the same domain
+ if focused on a slightly different audience.
+ Google says the feature allows users
+ to build one click workflows for frequent tasks
+ and gave the example of calculating nutrition stats
+ for a recipe, comparison shopping,
+ or summarizing documents.
+ Now interestingly, when it comes to some of these bigger themes
+ of how the way that people interact with AI is changing,
+ this came up in a recent interview
+ with Google CEO Sundar Pichai
+ and it sounds like they're thinking about the implications
+ not just for their AI tools
+ but for all of their core experiences.
+ In that interview, Pichai said,
+ if I fast forward,
+ a lot of what are just information seeking queries
+ will be a genetic search.
+ You'll be completing tasks,
+ you'll have many threads running.
+ When asked then if traditional search
+ will still exist in 10 years,
+ he said it keeps evolving.
+ Search would be an agent manager.
+ Over in Microsoft land,
+ we continue to hear about how the company
+ is looking to claw fi copilot.
+ The information reports that Microsoft
+ is testing features inspired by Open Claw
+ with a statement from corporate VP Omar Shaheen
+ saying that a newly created team
+ is quote exploring the potential of technologies
+ like Open Claw in an enterprise context.
+ A number of folks picked this up a couple of weeks ago
+ when Omar announced his new role
+ with Swix from latent space writing,
+ wow, Microsoft just appointed a corporate VP
+ whose entire job is Open Claw.
+ Now, of course, one of the big challenges for Open Claw
+ is the issues surrounding enterprise usage of it.
+ As you've heard,
+ we've been running the enterprise claw program
+ and part of that program
+ is actually giving people general alternatives
+ and helping them understand the security risks
+ but there are some big barriers there.
+ Microsoft clearly sees an opportunity in this challenge
+ with sources suggesting that Microsoft
+ are convinced that they can implement
+ a safer version of the product
+ by limiting permissions and siloing work
+ within certain roles.
+ I would actually anticipate the general vibe code
+ hardening for the enterprise
+ to be one of the biggest building opportunities
+ of the rest of 2026.
+ And clearly I am not alone
+ with a new release from the company Superblocks
+ getting a lot of chatter on X.
+ Superblocks CEO Brad Menazez
+ argued that vibe coding apps
+ have quickly become an attack vector in the enterprise.
+ Like shadow AI use in previous years,
+ many companies are now seeing employees
+ building apps on production data
+ with very little or zero oversight from their IT team.
+ Menazez noted that with mythos approaching
+ cyber threats are also about to get a huge boost.
+ He then frames their company's new Superblocks 2.0 platform
+ as the quote only platform to take back control.
+ And basically what this is
+ is a way to make employee vibe coding safe.
+ Brad writes business teams build AI powered apps
+ with permissions baked in,
+ IT and security can audit everything
+ in lockdown anything instantly,
+ engineering sets the standards,
+ every app follows them.
+ Now it seems to me that most of the replies to this
+ have the feel of undisclosed paid posts
+ but holding aside the specific example
+ it is very clear to me
+ that enterprise hardening of vibe coding
+ is going to be a huge trend for this year.
+ Take all this together
+ and while there's no one massive change that happened
+ there is a very clear trajectory here.
+ Not only are all the labs
+ both the agent labs and the model labs
+ racing to make all the improvements
+ that make their agent to coding apps most useful 24 seven
+ whether you're sitting there in front of them or not.
+ You're also increasingly just seeing companies
+ deal with the implications
+ where a whole of knowledge work
+ runs in some way through code.
+ The products are converging
+ because coding to build things
+ that do your work or help you do your work
+ is becoming one of the core primitives of knowledge work.
+ It is super interesting to see how these things evolve.
+ For now you got a bunch of new toys to play with
+ and I'm excited to hear what you build
+ but that's going to do it for today's AI Daily Brief.
+ I appreciate you listening or watching as always
+ and until next time peace.
