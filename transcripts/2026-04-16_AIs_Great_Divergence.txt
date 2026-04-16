@@ -1,0 +1,572 @@
+ Today on the AI Daily Brief, AI's great divergence.
+ Before that in the headlines, one of the weirdest AI pivots yet.
+ The AI Daily Brief is a daily podcast and video about the most important news and discussions
+ in AI.
+ Alright friends, quick announcements before we dive in.
+ First of all, thank you to today's sponsors KPMG, Blitzy, ZenCoder and Granola to
+ get an ad-free version of the show, go to patreon.com.ai-dailybrief or you can subscribe
+ on Apple Podcasts.
+ If you are interested in sponsoring the show, send us a note at sponsorsataidailybrief.ai.
+ As I finished recording this episode, Anthropic dropped Claude Opus 4.7.
+ The show was produced before we got that announcement.
+ Come back tomorrow for that episode, but for now, let's talk about that weird
+ pivot.
+ Yesterday, AI made waves on Wall Street once again, although the context for it may
+ be the most absurd yet.
+ You might remember briefly popular sneaker company Allbirds.
+ They were beloved by many in the tech sector and in 2021 when they went public, the company
+ was worth over $4 billion.
+ Their stock has since cratered 99% and earlier this month they sold their assets in intellectual
+ property for $39 million to a holding company called American Exchange Group, which is
+ known for acquiring fashion brands like Ed Hardy.
+ That left Allbirds as a largely valueless shell company, a blind canvas if you
+ will.
+ On Wednesday, the company announced that their next chapter would be, drumroll please, an
+ AI Neocloud provider.
+ They said they would be raising $50 million to fund the pivot and would be changing
+ the company name to New Bird AI.
+ Now rebirthing a dying company to chase a hot new trend is not nearly as uncommon
+ as you would think.
+ In 2017, a beverage company called Long Island Ice Tea changed their name to Long Island
+ Blockchain and saw a huge pop.
+ Just kidding, the company was later delisted and charges were filed against it for
+ insider trading.
+ The crypto industry saw similar plays with Kodak, Radio Shack, and of course Enron.
+ Now in the AI domain, more recently, a former karaoke machine company announced that
+ they would be releasing AI logistic software.
+ Cynical though the analysis may be, usually these re-brands have very little
+ substance beyond pumping the stock.
+ And Allbirds certainly received a solid pump, the stock
+ stored by as much as 875% yesterday.
+ But whether they can actually do anything, most people are fairly dubious on.
+ The Wall Street Journal notes that $50 million doesn't get you far in the
+ AI race, with neoclouds like Corweave and Nevias planning to spend tens of
+ billions on infrastructure this year.
+ Matt Levine sums it up, of course there are two levels of analysis here.
+ One is sure Allbirds is pivoting its business to AI compute infrastructure.
+ That seems like a competitive and capital intensive business in which
+ Allbirds has no obvious expertise, but whatever, nostalgic fondness for the
+ sneakers, maybe it'll work out.
+ The other level is that Allbirds is pivoting its stock to being an AI
+ meme stock.
+ That definitely worked out.
+ I would say that that is a story we can safely leave behind and move
+ into something that is much more relevant, which is that OpenAI has
+ updated their agents SDK with a host of new features that make it easier to
+ build enterprise-grade agents.
+ The software developer kit now includes native sandbox integration,
+ allowing developers to keep agents contained to particular systems
+ and workflows.
+ The basic gist here is that the harness is now separated from the
+ compute layer, meaning data can live in the sandbox rather than being jammed
+ into context.
+ Interestingly, this is not dissimilar from what we talked about
+ on our harness engineering show in terms of Anthropics managed agents.
+ Both companies independently arrived at a similar architectural move
+ and Anthropics called it decoupling the brain from the hands, while OpenAI
+ called it separating the harness from compute.
+ Both, however, cite the same reasons.
+ Security, i.e. credentials shouldn't live where model-generated code runs.
+ Durability, i.e. losing a sandbox shouldn't kill the session.
+ And scale, spinning up many sandboxes per agents as needed.
+ The new agents SDK for OpenAI also delivers significant upgrades
+ to the in-distribution harness, improving file access tools,
+ as well as adding memory and compaction.
+ Overall, the release brings OpenAI's infrastructure closer to the way
+ agents need to operate within secure systems.
+ Karen Sharma, a member of the product team, said,
+ this launch at its core is about taking our existing agents SDK
+ and making it so it's compatible with all of these sandbox providers.
+ Together with performance upgrades, Sharma said the goal is to allow
+ companies to, quote,
+ go build these long horizon agents using our harness
+ with whatever infrastructure they have.
+ One way to look at this is another example of the mad dash
+ to translate prosumer AI products and enterprise products
+ that can conform to security and operational standards.
+ Steve Coffey from OpenAI writes,
+ this is the direction I'm excited about for agents.
+ Open harnesses that give you the flexibility
+ to deploy your agents at scale with your own data
+ on your own terms.
+ Armand Sidhu writes,
+ agents can now run in controlled environments
+ where their access to resources, APIs,
+ and data can be scoped precisely.
+ This isn't for consumer chatbots.
+ This is for enterprise deployments where you need
+ to let an AI loose on real systems
+ without letting it break things.
+ Now in a very different part of OpenAI's business,
+ the information reports that the company is shifting
+ their ad revenue model to pay per click.
+ One of the frustrations with the early version
+ of chatBT ads was that advertisers complained
+ that they couldn't properly track performance.
+ OpenAI's ad data was less developed than Google or Meta,
+ so advertisers were left guessing
+ on how well their ads were converting.
+ OpenAI was also charging a high premium
+ for those who wanted to participate in the early trial.
+ The information now reports that OpenAI will now
+ charge only when users click on an ad
+ that's opposed to charging per view.
+ They're also looking at other action-based pricing
+ including charging when a user makes a purchase.
+ The goal is to de-risk trying out this new advertising medium
+ by having the payment structure
+ better along with the outcomes.
+ Moving to a very different topic,
+ the Manus investigation is casting a chilling effect
+ over China's startup scene
+ as founders are forced to pick a side.
+ Earlier this year reports circulated
+ that the CCP was taking a closer look
+ at Meta's acquisition of Manus.
+ In particular, there was some suggestion
+ that Manus's relocation to Singapore last year
+ was a bid to circumvent Chinese tech export controls.
+ In late March, two Manus co-founders
+ met with Chinese officials and were informed
+ they would not be allowed to leave the country
+ until the investigation concluded.
+ According to the information's
+ China-based reporter, Jing Yang,
+ this move has spooked Chinese founders
+ and neutered hopes of international success.
+ Hank Yuan, a founder working on an AI agent company, said,
+ if you want to build AI products
+ from markets outside China now,
+ you will have to think even more carefully
+ about which markets to target,
+ how to structure your business,
+ and whether to raise money in Chinese Yuan or US dollars.
+ He added, all the AI startup founders I know
+ are paying attention to Manus.
+ Now, until this point, there had sort of been
+ a tacit truce between Beijing and Shenzhen.
+ Founders could freely travel to the US to seek funding,
+ and there was an implicit understanding
+ that tech success mattered more than strict nationalism.
+ Now, of course, no official policy exists
+ so there's no policy to change,
+ but it still appears that founders have gotten the message.
+ A co-founder of an AI video startup said,
+ originally we thought we had many options for exits,
+ but now the takeaway from Manus is,
+ if your startup is acquired by other companies,
+ don't get acquired by US companies.
+ If you are acquired by Alibaba or Tencent,
+ that's fine.
+ Now, interestingly, the result isn't a total halt
+ to Chinese founders heading to US markets.
+ They seemingly just need to commit to picking a side.
+ One Chinese-born founder working in San Francisco, for example,
+ said he is now pivoted to hiring devs in Singapore
+ rather than China.
+ He commented, having a team in Singapore costs more
+ and the quality isn't as good as having a China team,
+ but I still don't wanna build a China team.
+ It's too risky.
+ Which I think is interesting context for our last story,
+ which is recent comments from Nvidia founder Jensen Huang
+ about the need for dialogue between the US and China.
+ Jensen was the latest high-profile guest
+ to appear on the Duarkesh podcast this week.
+ And in the show, he dug in on why he believes
+ cooperation rather than export controls
+ is the right way to navigate the rise of AI in geopolitics.
+ Duarkesh framed the question around a scenario
+ where China gets access to enough advanced chips
+ to train a mythos-level model
+ and can run cyber attacks using millions of agents.
+ Huang rejected the premise, commenting,
+ mythos was trained on fairly mundane capacity
+ and a fairly mundane amount of it
+ by a fairly exceptional company.
+ So the amount of capacity it was trained on
+ is abundantly available in China.
+ You first need to realize that chips exist in China.
+ Huang went on to explain
+ that China has around half the AI researchers in the world,
+ abundant energy, and chip manufacturing
+ that is swiftly ramping up.
+ Reframing the question then, Huang asked,
+ if you're worried about them,
+ what is the best way to create a safe world?
+ Victimizing them, turning them into an enemy
+ likely isn't the best answer.
+ He continued, they are an adversary.
+ We want the United States to win,
+ but I think having a dialogue
+ and having research dialogue
+ is probably the safest thing to do.
+ This is an area that is glaringly missing
+ because of our current attitude about China as an adversary.
+ It is essential that our AI researchers
+ and their AI researchers are actually talking.
+ It is essential that we try to both agree
+ on what not to use AI for.
+ Now, for some, this was just Jensen talking his book,
+ as Beth Jezos put it,
+ securing the bag for GPU sales to China.
+ But I think Ed Elston's more nuanced take
+ is closer to right.
+ He writes that he thought
+ that what Jensen was basically trying to say
+ is that the question isn't whether
+ China achieves mythos-level AI
+ because they will.
+ Ed writes it's whether they will use it
+ to try to destroy America.
+ Bringing up the nuclear comparison,
+ Ed says, the same question goes for nukes.
+ China has nukes and yet they haven't nuked us.
+ Why? Because they don't want to.
+ The interview is certainly worth a watch.
+ If for no other reason,
+ the door cash seems to be one of very few people
+ who is actually willing to ask CEOs hard questions.
+ But I will say that I don't think
+ it's nearly as contentious and simple
+ as social media is making it out to be.
+ Shocker, right?
+ If nothing else, it did give us a meme video quote
+ which I will use forever now.
+ You're not talking to somebody who woke up a loser.
+ And that loser attitude,
+ that loser premise makes no sense to me.
+ But with that moment of glory,
+ that's gonna do it for today's AI Daily Brief Headlines.
+ Next up, the main episode.
+ All right, folks, quick pause.
+ Here's the uncomfortable truth.
+ If your enterprise AI strategy is we bought some tools,
+ you don't actually have a strategy.
+ KPMG took the harder route
+ and became their own client zero.
+ They embedded AI and agents across the enterprise,
+ how work gets done, how teams collaborate,
+ how decisions move,
+ not as a tech initiative,
+ but as a total operating model shift.
+ And here's the real unlock.
+ That shift raised the ceiling on what people could do.
+ Humans stayed firmly at the center
+ while AI reduced friction,
+ serviced insight and accelerated momentum.
+ The outcome was a more capable,
+ more empowered workforce.
+ If you wanna understand
+ what that actually looks like in the real world,
+ go to www.kpmg.us slash AI,
+ that's www.kpmg.us slash AI.
+ Want to accelerate
+ enterprise software development velocity by 5x?
+ You need Blitzy,
+ the only autonomous software development platform
+ built for enterprise code bases.
+ Your engineers define the project,
+ a new feature, refactor or Greenfield build.
+ Blitzy agents first ingest and map your entire code base,
+ then the platform generates
+ a bespoke agent action plan
+ for your team to review and approve.
+ Once approved,
+ Blitzy gets to work autonomously generating
+ hundreds of thousands of lines
+ of validated and to end tested code.
+ More than 80% of the work completed in a single run.
+ Blitzy is not generating code,
+ it's developing software at the speed of compute.
+ Your engineers review, refine and ship.
+ This is how Fortune 500 companies
+ are compressing multi-month projects into a single sprint,
+ accelerating engineering velocity by 5x.
+ Experience Blitzy firsthand at blitzy.com.
+ That's blitzy.com.
+ So coding agents are basically solved at this point.
+ They're incredible at writing code.
+ But here's the thing nobody talks about.
+ Coding is maybe a quarter of an engineer's actual day.
+ The rest is stand-ups, stakeholder updates,
+ meeting prep, chasing context across six different tools.
+ And it's not just engineers.
+ Sales spends more time assembling proposals than selling.
+ Finance is manually chasing subscription requests.
+ Marketing finds out what shipped
+ two weeks after it merged.
+ ZenCoder just launched ZenFlow work.
+ It takes their orchestration engine,
+ the same one already powering coding agents
+ and connects it to your daily tools.
+ JIRA, Gmail, Google Docs, Linear, Calendar, Notion.
+ It runs goal-driven workflows that actually finish.
+ Your stand-up brief is written before you sit down.
+ Review cycle coming up,
+ it pulls six months of tickets and writes the prep doc.
+ Now you might be thinking,
+ didn't Open Claw try to do this?
+ It did, but it has come with a whole host
+ of security and functional issues
+ which can take a huge amount of time to resolve.
+ ZenCoder took a different approach.
+ Sock 2, Type 2 certified,
+ curated integrations, tighter security perimeter,
+ enterprise grade from day one,
+ model agnostic and works from Slack or Telegram.
+ Try it at zenflow.free.
+ Today's episode is brought to you by Granola.
+ Granola is the AI notepad for people in back-to-back meetings.
+ You've probably heard people raving about Granola.
+ It's just one of those products
+ that people love to talk about.
+ I myself have been using Granola for well over a year now
+ and honestly, it's one of the tools
+ that change the way I work.
+ Granola takes meeting notes for you
+ without any intrusive bots joining your calls.
+ During or after the call, you can chat with your notes,
+ ask Granola to pull out action items,
+ help you negotiate, write a follow-up email
+ or even coach you using recipes which are pre-made prompts.
+ Once you try it on a first meeting, it's hard to go without.
+ Head to granola.ai.ai daily and use code AI Daily,
+ new users get 100% off for the first three months.
+ Again, that's granola.ai.ai daily.
+ Welcome back to the AI Daily Brief.
+ One of the big themes of the year
+ is the heightened stakes around everything with AI.
+ Obviously, we're seeing that from a technology perspective
+ as agents come online
+ and then the implication of agents coming online
+ is that it raises the stakes from a work perspective.
+ And then of course, as the stakes get raised
+ from a work perspective,
+ we have the stakes raised on the politics of AI as well.
+ And that's even before we get into
+ all of the other AI politics issues,
+ even beyond implications for jobs
+ which are becoming more and more
+ a part of the public discourse.
+ Now, in all of this raised stakes,
+ part of the impact is greater divides
+ between people who sit in different spaces
+ relative to all of these changes.
+ And by that, I mean everything from the difference
+ between leaders and laggers in the corporate sphere
+ to optimists and pessimists in the public sphere.
+ And if you look carefully, this great divergence
+ is showing up in all sorts of different places.
+ We're looking at two of them today
+ in recent studies that have come out
+ with the first being the annual
+ Stanford Artificial Intelligence Index Report.
+ This annual report comes out of the Stanford HAI
+ or their Center for Human-Centered
+ Artificial Intelligence,
+ is generally seen as a very comprehensive
+ and high level look at the state of AI
+ both internal to the industry
+ as well as where it sits in society.
+ And this year tells the divergence story
+ in very clear terms.
+ The report itself is massive,
+ something like 420 pages long
+ and all across the headliner topics
+ you see this divergence.
+ On their website summary,
+ one of the big themes that they point to
+ is AI experts and the public
+ having very different perspectives
+ on the technology's future.
+ So let's talk about some of these gaps.
+ A representative gap that they point to
+ is the difference in the way
+ that experts versus the general public
+ view AI's likely impact on how people do their jobs.
+ When asked how AI would impact
+ how people would do their jobs,
+ 73% of experts expect a positive impact
+ compared with just 23% of the public.
+ When expanded out,
+ this gap between experts and the general public
+ shows up all over the place.
+ In addition to that gap we just heard about
+ in terms of how people do their jobs,
+ the economy more broadly sees a similar gap.
+ 69% of AI experts say that AI will have a positive impact
+ on the economy over the next 20 years
+ compared to just 21% of US adults.
+ Medical care is where the general US public
+ is the most optimistic with 44%
+ saying that AI will have a positive impact
+ but that is still vanishingly smaller
+ than the 84% of AI experts who say that.
+ On K-12 education, it's 61% optimism
+ for the experts versus 24% for US adults
+ and pretty much everyone thinks
+ it's gonna be bad for elections
+ with just 11% of AI experts
+ saying that AI will have a positive impact on elections
+ which is their closest number to the general US public
+ of whom only 9% think
+ that it will have a positive impact.
+ And other parts of the study
+ show pessimism in more acute ways.
+ When asked whether AI will create or eliminate jobs,
+ almost a full two thirds of US adults
+ believe that it will lead to fewer jobs
+ although perhaps surprisingly 39% of AI experts
+ also think that it will lead to fewer jobs.
+ Another interesting area of divergence
+ is the gap between formal education for AI
+ and informal education for AI.
+ Stanford points out that while over 80%
+ of US high school and college students
+ now use AI for school related tasks,
+ only half of middle and high schools
+ have AI policies in place
+ and just 6% of teachers say that those policies are clear.
+ Basically everyone is getting their AI skills
+ outside of the formal classroom setting
+ and of course reporting them on LinkedIn.
+ One area where AI is not diverging
+ is in the performance of top US versus Chinese models.
+ In fact, it would be much more accurate
+ to call that a convergence
+ although we'll have to see if that remains
+ once we actually get anthropics mythos and open AI spud.
+ Staying on AI's performance for a moment
+ Ethan Malick has often referred to AI
+ as having a jagged frontier.
+ Basically it can be massively good in some things
+ including really hard things
+ and be just pathetically awful at some other things
+ that it seems like it should be good at at the same time.
+ This is actually one of Stanford's big takeaways as well
+ where AI models can win a gold medal
+ at the International Math Olympiad
+ but not reliably tell time.
+ Now this jagged capability frontier
+ can also lead to jagged adoption
+ especially inside the enterprise
+ as organizations have to individually
+ figure out where AI does and doesn't fit
+ within what they do.
+ One important area of divergence
+ that is obviously very top of mind for people
+ Stanford sums up as productivity gains from AI
+ appearing in many of the same fields
+ where entry level employment is starting to decline.
+ They write,
+ studies show productivity gains of 14 to 26%
+ in customer support and software development
+ and in areas like software development
+ where AI's measured productivity gains are clearest
+ U.S. developers ages 22 to 25
+ saw employment fall nearly 20% from 2024
+ even as the head count for older developers
+ continues to grow.
+ And so here we're seeing not just divergence
+ between productivity gains and employment
+ but actually divergence between different types of employment
+ with early stage employees going one direction
+ and older employees going the other.
+ Now if Stanford is showing this story of divergence
+ on the very biggest macro levels
+ AI's great divergence is also very acutely captured
+ at the enterprise level by a new study from PWC.
+ The study is PWC's annual AI performance study
+ and the headline or stat
+ is that around 75% of AI's economic gains
+ are being captured by just the top fifth of companies.
+ This is one of the clearest indicators I've seen yet
+ of the difference between leaders and laggers
+ when it comes to corporate AI adoption.
+ This comes from a study that interviewed
+ more than 1200 senior executives
+ who PWC says are primarily
+ at large publicly listed companies.
+ And what's really interesting about this study
+ is that the difference between efficiency AI
+ and opportunity AI
+ which we talk about fairly regularly on this show
+ is on full display.
+ And now by way of reminder, efficiency AI
+ is my term for companies that view AI
+ as a way to do the same with less.
+ Basically whose primary interest
+ is in having the same amount of output
+ with less resource input.
+ Opportunity AI on the other hand
+ is the idea not of doing the same with less
+ but of doing more with the same
+ or way more with a little more.
+ Basically that recognizes that the real opportunity with AI
+ is to go harness new opportunities.
+ Do things that weren't possible before.
+ Get into new orthogonal fields,
+ release new products, do more R&D,
+ grow towards the future
+ rather than make the present more efficient.
+ And boy is that on display in this PWC study.
+ They found that leading organizations
+ work twice as likely to redesign workflows
+ to incorporate AI
+ rather than simply adding AI tools.
+ They found that leading companies
+ were approximately two to three times
+ more likely to use AI to identify
+ and pursue growth opportunities
+ and reinvent their business model.
+ They sum up, the research shows
+ that these top performing companies
+ are not simply deploying more AI tools.
+ Instead they are using AI
+ as a catalyst for growth and business reinvention.
+ Particularly by pursuing new revenue opportunities
+ created as industries converge
+ while building strong foundations
+ around data governance and trust.
+ Now interestingly, one might think
+ that this is all about just using AI for more.
+ And certainly that's part of it.
+ The companies in their survey
+ that had the best AI driven financial outcomes
+ were twice as likely to be executing
+ multiple tasks within guardrails
+ and about twice as likely to be allowing AI
+ to operate in autonomous self optimizing ways.
+ They were increasing the number of decisions
+ made without human intervention
+ at almost three times the rate of their peers.
+ And yet the story is a combination of automation
+ but also governance.
+ These leaders were 1.7 times as likely
+ to have mechanisms such as responsible AI frameworks
+ and one and a half times more likely
+ to have cross functional AI governance boards.
+ In addition to doing more with AI
+ the employees of these leaders
+ are twice as likely to trust AI outputs
+ as those from the laggers.
+ Overall PWC found that the companies
+ that were the most AI fit in their research
+ delivered AI driven financial performance
+ that was 7.2 times higher
+ than other respondents performance.
+ As AI continues to proliferate through society
+ we're going to continue to see these kinds of divergences.
+ In some cases, particularly in the areas of policy
+ divergence can actually be helpful.
+ It can inspire better debate
+ and if we have the right systems in place
+ better more considered action.
+ In some areas however, the divergence is dangerous.
+ Divergence which turns into underperformance
+ can threaten individual employees
+ and organizations as a whole.
+ That's gonna do it for today's AI Daily Brief.
+ Appreciate you listening or watching as always
+ and until next time, peace.
