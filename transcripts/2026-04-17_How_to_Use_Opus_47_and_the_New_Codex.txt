@@ -1,0 +1,636 @@
+ Today, we are discussing how knowledge workers in general, but everyone else too, should
+ be using Opus 4.7 and the new Codex app.
+ But AI Daily Brief is a daily podcast and video about the most important news and discussions
+ in AI.
+ Alright friends, quick announcements before we dive in.
+ First of all, thank you to today's sponsors, KPMG, Blitzy, Granola and Section.
+ To get an ad-free version of the show, go to patreon.com.ai dailybrief or you can
+ subscribe on Apple Podcasts.
+ If you are interested in sponsoring the show, send us a note at sponsors at
+ aidailybrief.ai.
+ Now today is probably my favorite type of show when we get a whole slew of new
+ goodies and get to dig in and see what they can do for us, how our capabilities
+ have changed, what new use cases become unlocked and what the patterns are
+ telling us about where the world is going.
+ Now yesterday we got not one but two big releases, one model and one harness.
+ The model, disappointing to some, was not Mythos Preview or anything related to it,
+ it was Opus 4.7.
+ And you could feel around the communications that Anthropik knew that
+ there was going to be some amount of disappointment that this wasn't
+ Mythos and so it was going to have to be fairly impressive on its own right.
+ Now on the other side, from OpenAI we got a new iteration of their Codex
+ application.
+ It adds a whole bunch of new capabilities and is making some very
+ different bets as compared to how, for example, Anthropik is looking at its
+ cloud desktop app.
+ So what we're going to do today is discuss all the new things in both of these
+ releases, get some of the first reactions and then specifically dive deep
+ on what you as an engaged AI user or knowledge worker or entrepreneur
+ should try with these new releases.
+ By the way, if you want to follow along this episode, you can go to
+ play.ai-dailybrief.ai.
+ It's where I keep companion experiences and there is a whole website
+ slash slide presentation that has all the information that I'm going to
+ share here, including some of the ideas for what you should do.
+ So let's talk first about what is new in Codex.
+ Certainly one that people are talking about quite a bit is that
+ Codex now has computer use on Mac.
+ Codex can see, click and type across any app on your computer
+ with its own cursor.
+ Multiple agents can work in parallel in the background without
+ interfering with what you're doing and Codex can now use apps
+ that don't have APIs.
+ Now one of the big ideas that you're going to see is that
+ Codex, which was nominally designed as an app for coding, is very
+ quickly becoming not just for coding.
+ Yesterday I tweeted that the problem with the term vibe coding
+ ended up not actually being that all coding became vibe coding,
+ but that all knowledge work is becoming coding work.
+ And you can see that very much on display in terms of where the
+ Codex app is going.
+ Another new feature is the in-app browser with comment mode.
+ Basically you can now load a page inside Codex and click
+ directly on elements to give the agent precise context.
+ This is really useful for things like front-end iteration, bug
+ reporting, and basically any workflow where pointing at the
+ thing is faster than just describing it.
+ Native image generation now lives in Codex with GPT Image
+ 1.5, meaning that you can generate mockups, edit images,
+ and create variants all inside the same thread as
+ everything else.
+ This pairs really well with the new rich file previews and
+ artifacts beyond codes.
+ PDFs, spreadsheets, slides, and documents now render in line
+ in the sidebar.
+ Codex produces these as artifacts that can be downloaded and
+ interacted with, not just as code.
+ One thing that's really clear from the new Codex is that
+ they are definitely taking lessons from
+ Open Claw to heart.
+ Pash from OpenAI writes,
+ biggest lesson from Open Claw is that a good teammate
+ doesn't start from scratch every time you check in.
+ They remember what was decided, what's still open, and
+ proactively help you.
+ Today we launched heartbeats in Codex, automations that
+ maintain context inside a single thread over time.
+ Instead of each run starting fresh, Codex wakes up in
+ the same conversation, with the history and context it
+ needs already in place.
+ You can also have it schedule its own next steps.
+ Think about the overhead that quietly accumulates
+ every morning, scanning Slack channels, catching up on
+ email, piecing together what moved overnight.
+ With a heartbeat, you offload that once and wake up to
+ a brief already waiting in a pinned thread.
+ Now Pash suggests turning Codex into a Chief of Staff,
+ which is something we'll come back to in a little bit.
+ So to summarize, you've got here automations that
+ resume existing threads, which establishes this whole
+ new monothread pattern, which we're going to talk about
+ in just a minute.
+ And Codex also has project list threads.
+ Flavio Adama writes, the most under-readed feature in the
+ new Codex is chats without a project.
+ Before this, I was literally using a project called
+ Trashcan as a home for every random thought or
+ personal tasks.
+ Basically, this means you can just dive in without having
+ to pick a repo first.
+ This is what led Jason Loo to call it the new Notes app.
+ There are also a whole bunch of daily use quality of
+ life improvements in Codex, including a Mac OS menu bar
+ and a Windows system tray with pinned in recent threads,
+ a global hotkey to bring up a mini Codex window from
+ anywhere on your Mac, tabbed terminals inside each thread
+ so you can run build servers and test in parallel,
+ slash compact as a standalone command,
+ and a theme picker for the command palette.
+ Now, one note on the computer use thing that so many
+ people are excited about, that is Mac only right now,
+ although they say Windows is coming.
+ People's first impressions are good.
+ Riley Brown from the Vibecode app writes,
+ this is exactly what I was hoping for.
+ Full permissions, no co-work-like feature which
+ limits agent's abilities, just Codex.
+ If you ask for a coding task, it writes code
+ and gives you a preview.
+ If you ask for a presentation or doc,
+ it gives you a presentation or doc.
+ Organized by project on the left sidebar,
+ easy to create skills, easy to app mention,
+ skills and plugins.
+ Now this pattern of not breaking things into
+ different UIs for different use cases is something
+ we'll come back to as well and is a major
+ differentiation between the way that Codex is evolving
+ and the way that Claude desktop app is currently set up.
+ Commenting on computer use, Ari Weinstein writes,
+ this is the first time I've ever seen an LLM
+ operate a GUI as fast as a person and it's surreal.
+ Aaron Levy from Box gets that this is very clearly
+ not just Codex as an update for developers
+ but is thinking about how knowledge workers
+ in general will work in the future.
+ He writes, the new Codex is another jump
+ in what agents will look like for knowledge workers.
+ Agents that can code, work with tools
+ and use computers can begin to execute
+ long running tasks in the background for all areas of work.
+ This can mean drafting reports,
+ setting up data rooms for a merger,
+ reviewing contracts, helping on board clients,
+ generating marketing assets,
+ processing invoices and more.
+ So a couple of things that I wanted to double click on.
+ Nick Bauman on the Codex team wrote
+ an interesting post called, my Codex threads are alive.
+ And the big statement from Nick is that
+ he has become monothread piled.
+ Nick writes, the most useful Codex thread I have right now
+ is the one I've been using for the last three weeks.
+ Every hour it checks my Slack, G-Mails and PRs
+ I wrote or I'm watching.
+ It turns the noise into clean signal I can act on.
+ My Codex usage has shifted from starting
+ lots of short-lived chats to keeping a small number of threads
+ alive around recurring work streams.
+ I still start fresh threads constantly,
+ but some work should not reset every time I ask a question.
+ So the old mental model of AI assistance
+ is that you either A, start fresh for every task
+ or B, maybe create a project folder
+ where context can live around a set of tasks
+ but where you're still frequently starting fresh
+ just hopefully relying on the context
+ that's stored in the project
+ to have the new thread be up to speed.
+ Now this paradigm of every question being a new chat
+ and every project being a new conversation
+ was to some extent forced on us by technical limitations.
+ It was a byproduct of the fact
+ that long threads used to degrade.
+ Context got muddy, the agent lost the plot
+ and you were better off starting over.
+ One of the key pillars of my work
+ when I'm working on complex projects
+ with Claude or ChatGBT is the handoff documents
+ I have the AI create as I start to see the signs
+ of them running into the end of their context window.
+ However, the Codex team has now shipped
+ compaction improvements that weaken that assumption.
+ About a week ago, engineer Anthony Kroger wrote,
+ I literally never worry about context windows using Codex.
+ It can compact like three times
+ and the model still remembers the details somehow.
+ Back even before this new release, Nick Bauman again wrote,
+ so much coding agent design is built on the assumption
+ that breaching context windows
+ and compacting context yields progressively worse results.
+ When you drop this assumption,
+ the product direction it opens up is very exciting.
+ He continues in his new post,
+ put simply with good context compaction,
+ a thread's value increases over time.
+ I've talked in the past
+ about how we need some sort of benchmark
+ for new models or new product releases
+ that isn't about performance on standardized tests,
+ but about the new use cases
+ that get unlocked by any new release.
+ Nick is basically talking about exactly that.
+ He writes, my own version of a mono thread
+ is a work teammate thread.
+ My work is noisy and spread across Slack,
+ Gmail, GCal, GitHub, Files in an Obsidian Vault
+ and a bunch of other Codex threads.
+ I need something that can filter the noise
+ and tell me which few things are worth caring about.
+ I use one thread to check those places,
+ remember the current priorities
+ and tell me when something needs my attention
+ before I would have found it myself.
+ I run this as one main teammate thread
+ plus a few long-lived sub-agent threads.
+ The main thread handles orchestration and judgment.
+ The sub-agent threads keep depth in their specialties.
+ The main thread can also spawn new sub-agents
+ for new work streams as they appear.
+ The main thread wakes up, checks the current priority,
+ reads the smallest useful live signal,
+ uses a specialist sub-agent thread
+ only if that lane matters
+ and then decides whether to notify me or stay quiet.
+ Now, what's super interesting to me about this
+ is that this is basically an alternative architecture
+ for the project manager open clause
+ and chief of staff open clause
+ that I built as part of my first experiments
+ with that system.
+ This is of course a radically simpler implementation of that.
+ And speaking of open claw,
+ part of how Nick gets value out of these mono threads
+ is thread automations.
+ He writes,
+ Now, Jason Liu from OpenAI takes this a step farther,
+ actually creating a recipe for a personal chief of staff.
+ The codex chief of staff takes advantage
+ of a local folder vault,
+ which is the durable memory layer
+ and the working folder
+ that codex opens up and interacts with.
+ The vault has a small agents.md file
+ that tells codex how the vault works.
+ The principles that Jason shares
+ are a projects folder
+ that gets one note per active project or work stream
+ and a notes folder that gets scratch notes,
+ drafts and one-off captures.
+ The agents.md file
+ creates a number of instructions around how to work,
+ like preferring to update existing notes
+ over creating new ones
+ and keeping facts separate from guesses and more.
+ From there, the chief of staff interviews you
+ to get a sense of who you are.
+ What are you responsible for?
+ Who matters?
+ What are you worried about missing?
+ Which slack channels, email threads,
+ docs, repos and meetings matter?
+ What do you not want to be interrupted about?
+ Now, if you've tried the personal context portfolio
+ I released a couple of weeks ago,
+ you could of course just transport that over there
+ and not even have to do the interview step.
+ Although there is value of course
+ in having a follow-up interview
+ even after you've given codex
+ all of your personal context.
+ From there, codex proposes the three to seven
+ project notes to create
+ the smallest useful agents.md improvements
+ and which plugins or connectors to install.
+ Those common plugins might be things like Slack,
+ Gmail, Drive, Calendar, GitHub or more.
+ Now there's more in here
+ but the one last piece that I wanted to point out
+ harkening back to the clarification of everything
+ is the idea of the core loop
+ being an every 15 minute chief of staff heartbeat.
+ Every 15 minutes or at whatever interval you want
+ the thread wakes up
+ and like Nick Bauman's monothread
+ checks whatever sources you gave it access to
+ like Slack or Gmail,
+ looks for pending asks, blockers or decisions.
+ It notices how your priorities seem to be changing
+ and it keeps interviewing you over time.
+ As it does so it uses your answers
+ to improve the heartbeat prompt agents.md
+ and project notes.
+ So I think if you're gonna try just one thing
+ with codex,
+ it would be this monothread slash chief of staff idea
+ but I've also put on this companion site
+ a ton of other use cases
+ that I think are worth trying
+ and that are enabled by this new set of features.
+ So one category of these
+ is around recurring reporting and monitoring.
+ Basically anything where you have
+ some sort of frequently repeated reporting need
+ where you have to look at a bunch of sources,
+ aggregate them,
+ pull out the most important signal
+ and do something with it
+ is really well suited to the new features of the codex app.
+ That could be a morning brief
+ that pulls Slack DMs on red emails,
+ motion updates and calendar.
+ It could be a weekly customer health check
+ that looks like channels like intercom
+ and you could probably think about a half dozen
+ more of these recurring monitoring type situations
+ that you interact with.
+ Some other ideas to take advantage
+ of the new computer use for those of you on Mac
+ are things like legacy system data entry.
+ If you have some old vendor portal
+ or ancient ERP or accounting software from a decade ago,
+ the computer use features could drive those systems now
+ and make your life significantly easier.
+ You could also try moving data
+ between systems that don't integrate.
+ One example that some people have given
+ is moving from granola to obsidian vaults.
+ There are about a dozen different ideas there
+ of other codex use cases worth trying now,
+ but let's move on to opus 47.
+ All right, folks, quick pause.
+ Here's the uncomfortable truth.
+ If your enterprise AI strategy is we bought some tools,
+ you don't actually have a strategy.
+ KPMG took the harder route
+ and became their own client zero.
+ They embedded AI and agents across the enterprise,
+ how work gets done, how teens collaborate,
+ how decisions move, not as a tech initiative,
+ but as a total operating model shift.
+ And here's the real unlock.
+ That shift raised the ceiling on what people could do.
+ Humans stayed firmly at the center
+ while AI reduced friction,
+ serviced insight and accelerated momentum.
+ The outcome was a more capable,
+ more empowered workforce.
+ If you wanna understand what that actually looks like
+ in the real world,
+ go to www.kpmg.us slash ai,
+ that's www.kpmg.us slash ai.
+ Blitzy is driving over five X engineering velocity
+ for large scale enterprises.
+ A publicly traded insurance provider
+ leveraged Blitzy to build
+ a bespoke payments processing application,
+ an estimated 13 month project,
+ and with Blitzy,
+ the application was completed in live
+ in production in six weeks.
+ A publicly traded vertical SaaS provider
+ used Blitzy to extract services
+ from a 500,000 line monolith
+ without disrupting production 21 times faster
+ than their pre-Blitzy estimates.
+ These aren't experiments.
+ This is how the world's most innovative enterprises
+ are shipping software in 2026.
+ You can hear directly about Blitzy
+ from other Fortune 500 CTOs
+ on the modern CTO or CIO classified podcasts.
+ To learn more about how Blitzy can impact your SDLC,
+ book a meeting with an AI solutions consultant
+ at blitzy.com, that's blitzy.com.
+ Today's episode is brought to you by Granola.
+ Granola is the AI notepad
+ for people in back-to-back meetings.
+ You've probably heard people raving about Granola,
+ it's just one of those products
+ that people love to talk about.
+ I myself have been using Granola
+ for well over a year now,
+ and honestly, it's one of the tools
+ that change the way I work.
+ Granola takes meeting notes for you
+ without any intrusive bots joining your calls.
+ During or after the call,
+ you can chat with your notes,
+ ask Granola to pull out action items,
+ help you negotiate, write a follow-up email,
+ or even coach you using recipes
+ which are pre-made prompts.
+ Once you try it on a first meeting,
+ it's hard to go without.
+ Head to granola.ai slash ai daily
+ and use code ai daily.
+ New users get 100% off for the first three months.
+ Again, that's granola.ai slash ai daily.
+ Here's a harsh truth.
+ Your company is probably spending thousands
+ or millions of dollars on AI tools
+ that are being massively underutilized.
+ Half of companies have AI tools,
+ but only 12% use them for business value.
+ Most employees are still using AI
+ to summarize meeting notes.
+ If you're the one responsible
+ for AI adoption at your company,
+ you need Section.
+ Section is a platform
+ that helps you manage AI transformation
+ across your entire organization.
+ It coaches employees on real use cases,
+ tracks who's using AI for business impact
+ and shows you exactly where AI is
+ and isn't creating value.
+ The result, you go from rolling out tools
+ to driving measurable AI value.
+ Your employees move from meeting summaries
+ to solving actual business problems,
+ and you can prove the ROI.
+ Stop guessing if your AI investment is working.
+ Check out section at sectionai.com
+ That's S-E-C-T-I-O-N-A-I dot com.
+ The biggest knock on Opus 4.7
+ is not about what it is, but about what it is not.
+ For the last couple of weeks,
+ we've been hearing about just how powerful
+ Anthropics Mythos Preview Model is,
+ and this is not that.
+ Still, it does seem to represent
+ a pretty meaningful capability jump,
+ and if it weren't for knowing
+ that Mythos Preview was out there,
+ my instinct is that people would be
+ pretty stoked about this.
+ And of course, some people are.
+ As they often do, I think Leighton Space nailed it,
+ calling it literally,
+ one step better than 4.6 in every dimension.
+ If you look at just the agentic coding chart,
+ you get a sense of what 4.7 is about.
+ 4.7 low is strictly better than 4.6 medium.
+ 4.7 medium is strictly better than 4.6 high.
+ 4.7 high is now better than 4.6 max.
+ Now, that's reflected in the overall coding benchmarks,
+ but you see the same pattern in other benchmarks
+ that matter for knowledge workers as well.
+ The finance agent jumps from 60.1 to 64.4%,
+ Office QA Pro from 57.1 to 80.6%,
+ OS World Computer Use 72.7 to 78%.
+ Basically, you can see that these are,
+ in many cases, not just incremental changes.
+ They're pretty meaningful.
+ And people's first experience with this
+ seems to validate the benchmarks.
+ They made about 20% more money
+ on the Vending Bench 2 test,
+ and many people's first tests with this
+ around visual and design tasks
+ are really positive as well.
+ Mike Taylor writes,
+ Opus 4.7 has the distinct honor of making
+ the best PowerPoint I've ever seen in an LLM.
+ Adam Dot New writes,
+ Opus 4.7 appears to be state-of-the-art
+ at agentic CAD design.
+ This weekend AI argues that the leap
+ in design sensibility between 4.6 and 4.7
+ is really significant as well.
+ Now, I did dig into this,
+ because front-end design and website design
+ is one of my most frequent use cases,
+ and I wanted to test not only its design capabilities,
+ but its reasoning around design.
+ So I gave both 4.6 and 4.7
+ the task of redesigning the kitschy and fun,
+ but ultimately kind of challenging
+ AI Daily Brief website that's currently in its terminal theme
+ into something different.
+ 4.6, which is a good designer, did a good job.
+ Although if you've used Claude out of the box for design,
+ it is going to feel very Claude to you.
+ The font choices at this point are getting extremely predictable,
+ as are the color palettes.
+ I was able to push it to do another direction,
+ which was a little more in line with the terminal theme,
+ and again, it did a totally fine job.
+ What I would say about my interaction with 4.7 on this
+ is that, one, it certainly had more variety
+ in terms of the visual approaches it was proposing,
+ and when I slowed it down,
+ it could actually do some thoughtful reasoning
+ on the ways to set up the site.
+ But it certainly wasn't a panacea.
+ Based on my first experience,
+ the band of what I'm able to get out of 4.7
+ is a meaningful upgrade,
+ but I almost have to slow it down
+ and make sure that it uses its full reasoning capabilities
+ before it just rips out to design something
+ that looks good but isn't all that well-considered.
+ Now, there are a few areas
+ where there seem to be some regressions as well.
+ On one long context retrieval benchmark,
+ the score between 4.6 and 4.7
+ dropped from 78.3% to 32.2%,
+ although Claude code creator Boris Cherny
+ said that that benchmark is being phased out
+ because they believe that it overweights
+ distractor stacking tricks
+ and doesn't reflect real applied reasoning.
+ Now, with the new model,
+ the team in Anthropic suggests
+ that there are some tweaks to how you want to interact with it
+ to get the most out of it
+ and that might break patterns
+ from how you've used models like 4.6 in the past.
+ Cat Wu, who is one of the leaders of the Claude code team
+ at Anthropic and co-creators of it,
+ gave a few tips.
+ One, she suggested to delegate, not micromanage.
+ Basically, she said,
+ treat the model like a capable engineer
+ that you're handing a task to,
+ not a pair programmer that you're guiding line by line.
+ Progressive clarification across multiple turns
+ can actually reduce quality on 4.7.
+ Relatedly, she suggests putting the full goal,
+ constraints and acceptance criteria right up front.
+ With every user turn adding, reasoning overhead,
+ it makes more sense to give the model
+ everything it needs up front.
+ She also said that Opus 4.7 is better at
+ self-verification than any previous Claude model,
+ but that you have to tell it how to verify
+ and build the verification loop in.
+ Claude code's Boris Cherney also shared a few tips.
+ For example, he talks about a new way
+ to configure the effort level.
+ Boris writes, personally, I use extra high effort
+ for most tasks and max effort for the hardest tasks.
+ Max applies to just your current sessions,
+ but other effort levels are sticky and persist
+ for your next session also.
+ So what are some things that you should try
+ outside of just updates to your coding with Claude code?
+ One thing to check out is that there seem to be
+ fairly big vision improvements,
+ which means that for things like taking whiteboard photos
+ from meetings and translating them,
+ or trying to interact with dense dashboard screenshots,
+ this model should be much better.
+ It should also be able to better pull chart images
+ from PDFs, 10Ks, research reports and things like that.
+ And it should be able to better reason over screenshots as well.
+ Think about, for example, looking at the onboarding flow
+ from a competitor and comparing it to your companies
+ and asking what the competitor is doing better.
+ Maybe even a bigger thing to try is longer, harder tasks.
+ Everyone from the Anthropic team really emphasized
+ that this model is all about less babysitting
+ and more real delegation.
+ So what does this open up?
+ Well, you should try things like end-to-end research projects.
+ Instead of summarize this article,
+ get it to research the state of a topic
+ using a bunch of URLs, the internal notes
+ and out putting a significant product on the other side.
+ You can also do extended reasoning tasks
+ like legal argument construction, investment thesis development
+ or strategic option analysis
+ that previously you might have had to break into pieces
+ because the model would lose the thread,
+ but which now can be done in one pass.
+ Full deliverable production, complex data cleaning,
+ cross-functional synthesis,
+ multi-step analysis with verification,
+ basically any harder reasoning tasks
+ that you might previously have tried to break into smaller pieces,
+ you should at least go try to see how 4.7 handles them natively right now
+ without chunking them into those smaller parts.
+ Now, one more thing that I wanted to point out
+ is a slight difference at least right now
+ in the UI design philosophy between the Codex app
+ and the Cloud Desktop app.
+ And remember, we got an update for the Cloud Desktop app
+ just this week, so this is about as good a comparison
+ as you can ask for right now.
+ In Cloud Desktop, you toggle between different experiences
+ for Cloud Chat, Cloud Co-work and Cloud Code.
+ On Codex, it's just all one thing.
+ Again, I read this before, but what Riley Brown said,
+ this is exactly what I was hoping for.
+ Full permissions, no Co-work-like feature
+ which limits agent abilities, just Codex.
+ If you ask for a coding task, it writes code
+ and gives you a preview.
+ If you ask for a presentation or doc,
+ it gives you a presentation or doc,
+ organized by project on the left sidebar.
+ The bet on the OpenAI Codex side
+ is that the agent is smart enough
+ that the interface should basically disappear.
+ The implied thesis is that switching modes is friction.
+ And frankly, it harkens back to the original ChatGBT interface
+ which is kind of like one text box infinite capabilities.
+ On the other hand, Claude, at least for now,
+ is betting that these three different modes of working
+ are different enough that collapsing them
+ into one interface creates compromise.
+ It's closer to the way that native apps are designed now,
+ i.e. you don't write documents in your e-mail client.
+ The good news for you as users is that
+ if you have a strong preference towards one or the other,
+ at least for the moment, you have a choice
+ for whichever is better for you.
+ Overall, given that this was not the release of Mythos
+ or OpenAI Spud, these things taken together
+ still represent a pretty significant set of upgrades
+ and new features that are going to take us some time
+ to really integrate into how we work.
+ For those of you who want to spend the weekend
+ building and trying things, again, if you go over
+ alidelybrief.ai, the last slide is going to be
+ 11 things that you can try right now
+ using these tools to see how much you can get out of them.
+ I know for me, the one that I'm going to experiment with
+ is the monothread approach and the Codex Chief of Staff,
+ which should be especially interesting to see
+ how it compared to the version of that
+ that I originally created in OpenClaw.
+ For now, though, that is going to be our alidelybrief
+ for the day. I appreciate you listening or watching,
+ as always, have tons of fun this weekend,
+ and until next time, peace.
