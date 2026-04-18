@@ -1,0 +1,134 @@
+ In this Operator's Bonus episode, we are talking about the agents that people are building,
+ the challenges they're running into, and what it teaches us about the full breadth of agentic
+ use cases. The AI Daily Brief is a daily podcast and video about the most important news and
+ discussions in AI. All right friends, happy weekend! We have a quick little Operator's
+ Bonus episode for you today. As you know, for the last few weeks, I've been running this
+ Agent Madness experiment. I love a good bracket, March Madness is fun, and I thought it would be a
+ cool way to show off the interesting agents people are building. The big theme of 2026 is,
+ of course, that agents are officially real and you, yes you, my friends, can build them yourselves,
+ and Agent Madness is way less about the competition aspect and more just about
+ a fun way outside of just a gallery to show off what people are cooking up.
+ We are now as of the time of this recording in the Elite 8, but I wanted to zoom out even more
+ broadly than that to talk about some of the patterns that we saw. We had about 100 submissions
+ and it was overwhelmingly solo builders. They represented about 71% of the field.
+ That said, among the projects that were accepted, teams had an 87% acceptance rate versus 51%
+ for solos. Now to give you a sense of how acceptance actually worked, I wanted absolutely
+ nothing to do with judging people's projects, so I had Opus 4.6 and GPT 5.4 to bait,
+ give each project a score on a number of different dimensions, and then effectively
+ use those top 64 ranks to build out the bracket. I didn't actually have to step in at all,
+ so this is all an AI judged thing, so if your project didn't get in, your beef is with the
+ model labs. Unsurprisingly, the products that were live got in at a much higher rate about
+ twice as frequently as the companies that were still at the prototype stage, and one interesting
+ little note, about 20% of the projects came from companies that said that they were entirely AI run.
+ Okay, so in terms of observations, one really interesting thing is that people are not building
+ themselves tools. They are building themselves digital employees and org charts. Some are
+ explicitly employees, for example, Harold called itself an AI chief of staff,
+ Diamonddozen.ai had Atlas's CEO, Nova running engineering and Blaze running marketing,
+ and no, those aren't just people with really cool parents, those are the names of the
+ agents, the fleet runs seven agents with the chief of staff orchestrator, and Myse has employee IDs for
+ its agents, and even a three strike termination policy, where one of the agents was fired for
+ fabricating business logic. So in a very short amount of time, you've gone from AI assistant to
+ AI employee to AI org chart, and it's very clear that a big strand of experimentation right now
+ is not can AI do work, but what's the minimum level of human involvement.
+ Now for what it's worth, I don't think this is where things are going to land. I think
+ that it's very natural that we're in a phase where we're going to the absolute extremes to see
+ what's possible. This is of course the story of Pulsia that we've covered on here before as well.
+ I don't really think the idea is that the optimal number of humans to be involved in a company
+ is zero or one. I think it's that by removing humans, you can see where the current coordination
+ and capability set starts to break down. Now if the org chart stuff was a really persistent
+ theme across the projects, many of the most emotionally resonant submissions pointed
+ somewhere different. These are products that I think you could see as markets of one.
+ In other words, there are problems that you wouldn't necessarily expect companies to build for
+ because they're so specific and discreet to the person who built them. And of course,
+ this is where you see the payoff of the changing cost of production of software.
+ So a couple of examples from this pool, someone with episodic graves disease gave
+ Claude nine years of Apple health data and their detector now catches thyroid flares two
+ or three weeks early. A non-technical ADHD mom built life coach OS, an Arkansas kayaker built
+ creek intelligence, which predicts when rain fed whitewater creeks are runnable, and a parent
+ built a toddler behavior chart rendering as an exploding universe called Jude stars.
+ In terms of challenges people ran into, there is one clear infrastructure gap that the whole
+ field is screaming about and that is memory. A meaningful number of the submissions are
+ effectively elaborate workarounds for agents forgetting everything between sessions.
+ My's uses 50 plus markdown brain files, sign up reported that their agents kept forgetting what
+ each other were working on. Carrier file is literally a text file you paste into any AI
+ to help with context. Open brain shares one MCP memory server across Claude code,
+ cursor and windsurf. All of these hacks, Markdown files, knowledge graphs, vector DBs,
+ copy paste text is kind of the diagnosis of the big problem facing the agent ecosystem,
+ which is the memory problem. Now in terms of who is building, the median
+ builder here is probably not who you'd guess. Partially that is of course because of the
+ wide nature of this audience. Partially it's because agent madness might have represented
+ a different type of opportunity that non-technical builders might not usually have had.
+ Still we have paramedics, glaciologists, kayakers, restaurant operators, sales leaders,
+ people who are domain experts and can now use software to do things that they've always
+ wanted to do or solve problems that were never possible to solve before.
+ The story of agent decoding as much as it is about changes in how software gets built
+ is actually more in my estimation about changes in what software gets built for and who builds it.
+ Now one really interesting pattern that showed up is the idea of argument as architecture.
+ Basically multi-agent debate is showing up as an actual architectural pattern.
+ In some cases builders figured out that a single LLM call was either unreliable or
+ incomplete. Rather than adding more retrieval, they made agents argue.
+ One example of this is wikitax.ai which runs autonomous tax debates three times a day.
+ Now part of what I think is interesting about this is that this is also how the bracket
+ itself was constructed. I had these two models debate to give scores and if you
+ look on any particular match up, you can see a write up of the models debate and who they
+ think should win between the two. By the way, if you want to make up your opinion completely
+ outside of AI, what the AI thinks is hidden by default but you can unlock it anytime you want.
+ I think that this idea of argument as architecture is a really interesting one though
+ and a pattern that I'm certainly finding myself attracted to.
+ One other really interesting pattern that I think maybe heralds where we're going
+ is that there was a lot of physical world crossover. So for example brain jam used EEG
+ and FNIRS brain signals to make an AI musical copreformer that adapts to cortical blood flow.
+ HW agent writes and uploads firmware to our dwinos from plain language
+ and kreek intelligence runs on raspberry pies parsing NOAA radar data in the field.
+ TLDR people are definitely not just building digital realm software. They are thinking about
+ the full integration of the physical world as well. Now the defining challenge across all of
+ this is that while the current state of tools has unlocked things that were never possible
+ before especially for this set of builders. There still is a huge gap between their average
+ level of ambition and the infrastructure holding it together. If we did this again next year,
+ I think the types of things that people would be able to build and which problems they would focus
+ on would likely look significantly different based just on how many of them are workarounds
+ for the current problems of the agentic build space. Now like I said we are in the elite
+ eight so I wanted to do a quick preview of these projects. In region one we have wiki
+ tax AI versus jack hard wiki tax you heard me just talk about a minute ago but it describes itself as
+ a fully autonomous multi agent platform where AI tax specialists debate with no humans in the loop
+ while jack hard is a multi agent workspace operating system where claud gemini and open
+ code run autonomous scrum integrations finding bugs writing tests fixing code and deploying
+ to production with zero human intervention so in both cases we have a real experiment around
+ no humans in the loop and no human involvement but obviously very different outputs
+ one is applying AI to software engineering the other is applying it to a specific domain
+ over in region two we have wik versus the family claw wik says web search gives AI the internet wik
+ gives AI the market wik helps AI create a market intelligence layer between your data and your
+ enterprise AI stack conditioning your surveys engagements and market research and
+ destructured intelligence your models can query reason over and act on effectively it's
+ a type of market data tool the family claw describes itself as a family of AI agents
+ that talk to each other make phone calls handle shopping and payments and keep a household running
+ now this is a theme a lot of people have been talking about recently the intersection of agents
+ and just making families and domestic life work better basically the way that the family clause
+ setup is different agents that have different responsibilities and coordinate all in the
+ context of the absolute boatload of things that the average family needs to do on any given
+ week by the way if you are interested in agents in this more family or home life context
+ check out the recent a16z podcast with jessie genet jessie is a friend and serial entrepreneur
+ who is doing some super interesting things with open claw as she homeschools four kids under five
+ a really interesting matchup comes in region two between know thyself which is basically
+ an agentic medical training platform and right side AI which is kind of an agentic social
+ experiment right side AI describes itself as a social cognition agent for AI agents
+ that tries to actually model relationships they write that they deployed it on multiple
+ which is of course the social network for agents and gave it a simple task of making friends
+ within 48 hours they say it was engaged in over 200 mutual conversations with other bots
+ meanwhile know thyself is an agentic medical training platform that's a multi agent system
+ that's designed to give medical students the ability to learn in a more dynamic environment
+ it includes four AI agents including a cognitive coach that activates the clinical knowledge
+ before the crisis as well as agents for running the simulation debriefing on what went wrong and
+ one to author the clinical blueprints that make it medically accurate it's designed for a very
+ specific audience in a very specific domain using new capabilities to theoretically make
+ the real world work better finally in region four we have carrier file versus retiree plan
+ retiree plan is a privacy first self-hosted canadian retirement planning application
+ that helps people model their financial life run simulations optimize different parts of
+ their financial experience all on their own without professional help effectively empowering
+ people to know much more about their own financial destiny rather than just leaving it to an external
+ expert while carrier file is in the spirit of the context portfolio episode i did a couple of
+ weeks ago it is a simple solution to a very common problem a plain text file that carries
+ your context across any AI so those are some themes and some of the specific projects from
+ agent madness appreciate everyone who has contributed to the project and i'm excited
+ to see how these agents evolve over time for now that's going to do it for this operators bonus
+ episode appreciate you listening or watching as always until next time peace
