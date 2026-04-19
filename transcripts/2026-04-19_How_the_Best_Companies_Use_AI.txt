@@ -1,0 +1,810 @@
+ Today we are discussing how the best companies at using AI are using AI.
+ The AI Daily Brief is a daily podcast and video about the most important news and discussions
+ in AI.
+ Alright friends, quick announcements before we dive in.
+ First of all, thank you to today's sponsors Blitzi, Granola, Section and Assembly.
+ To get an ad-free version of the show, go to patreon.com.ai-dailybrief or you can subscribe
+ on Apple Podcasts.
+ Ad-free is just $3 a month.
+ To learn more about sponsoring the show or really anything else about the show, you can
+ go to aidailybrief.ai.
+ It's going to have links to pretty much everything we got cooking from free education
+ programs to our AI operators community to the new newsletter that is where you can
+ find all the links that I talk about in the show to of course our companion experience
+ page.
+ One of those for our how to use opus 47 and the new Codex app episode on Friday.
+ Today's episode combines a number of the big themes that we've been talking about
+ this year.
+ 2026 kicked off with everyone coming back from the holiday break really understanding
+ and grappling with just how big an advance we had gotten between the harnesses like
+ Claude Cote and Codex and like the models like opus 45 and the GPT 5253 series that
+ had come out around the end of last year.
+ Ever since then it has just been a race and it has been very clear that there is a massive
+ difference and a growing difference between the people who are best at using AI and using
+ it most fully and those who are not.
+ Now clearly a huge amount of that work is running through code even when the ultimate
+ output is not building software.
+ Turns out that when you give AI and agents the ability to write code it in fact unlocks
+ a huge amount of other capabilities that are relevant for knowledge work way outside
+ of just software engineering.
+ When OpenAI announced their new Codex app they said that a full 50% of the usage is not
+ about coding specifically.
+ Now in many ways the conversation that we've been having is focused on the individual what
+ you can as an individual do to get the most out of this new set of tools how you can
+ build and set up your own open clause what features of the new Codex or Claude Code
+ app you should be using things like that and yet at the same time another big
+ theme for this year is that there is clearly a growing gap between the companies that
+ are using AI best and those who are farther behind.
+ A great example of this was on display with the PWC study we talked about earlier this
+ week that found that three quarters of AI's economic gains were being captured by just
+ 20% of the companies and importantly it wasn't just that a fifth of the companies
+ were the best at using AI they were using AI in fundamentally different ways.
+ They were not thinking just about productivity and efficiency doing the same with less.
+ They were instead thinking about AI as a growth technology as an opportunity technology in
+ other words.
+ They were two to three times as likely as others to say that they used AI to identify and
+ pursue growth opportunities and they were 2.6 times as likely to report that AI improves
+ their ability to reinvent their business model.
+ In other words the leading companies are thinking structurally and differently about
+ how to use AI on a core level.
+ And this wasn't the only big consulting study or memo that we've recently seen that argued
+ this theme.
+ About a week and a half ago McKinsey dropped its AI transformation manifesto and once
+ again they pointed out that you can really divide the world of companies into two
+ categories the AI leaders and the AI laggers.
+ By the way for any of you who are grammar aficionados I know that the more technically
+ correct word would be laggard with a D but I like the colloquial lagger better
+ so if it's been bothering your brain when I say laggard I apologize but I'm gonna keep
+ doing it.
+ In any case McKinsey's transformation manifesto argued that there were 12 themes that
+ separate these two categories of companies.
+ Many of these will be extremely familiar to you if you are a regular listener of this
+ show.
+ Number one McKinsey writes technology alone doesn't create advantage in
+ during capabilities do.
+ In other words you gotta build systems around these new tools and the companies
+ that are wired to build those types of systems who have built those types of
+ systems in the past who are adaptive by design are doing better than those who are
+ just dropping tools on their employees heads and hoping it works.
+ Second in another interesting departure from the efficiency or productivity
+ idea of AI McKinsey argues that the best focal points the focal points
+ that the leading organizations are focused on with AI are your economic
+ leverage points.
+ They write any business model has a few key economic leverage points that
+ provide the biggest impact when improved with AI.
+ They give the example of automotive where supply chain integration
+ is the key leverage point and one where companies like Toyota have been having
+ breakthroughs with artificial intelligence.
+ Now relatedly in number three McKinsey goes a step farther and doesn't just
+ say that the efficiency productivity approach is an optimal but that
+ companies that aren't seeing actual measurable business value from
+ AI are getting it wrong.
+ They said that they studied the impact of 20 companies that they
+ considered AI leaders across different industries and that on average they
+ found that the business transformations that came from AI and
+ technology delivered a 20% EBITDA uplift reaching break even in one to two
+ years and generating $3 of incremental EBITDA for every $1 invested.
+ Don't know how many different ways I can say it this is not about
+ efficiency and productivity it is about business model transformation
+ new growth and new opportunity and perhaps because of that number four
+ on their transformation manifesto is that you have to build the tech
+ and AI muscle of your senior business leaders.
+ That means not just deputizing IT leaders
+ not just leaving individual contributors alone to figure it out
+ but that the leaders who actually own different parts of the business
+ different lines of business different units have to be in leadership roles
+ combining their domain expertise and experience with new AI know-how.
+ And yet of course it is not just about leaders.
+ One of the things that you will frequently hear Ethan Malik screaming
+ about is the organizations that think that they can just outsource the
+ transformation process and hire consultants and new experts to do it
+ but McKinsey argues that every tech and AI transformation is ultimately a
+ people transformation suggesting that more than 70% of talent for AI
+ should be in-house McKinsey argues that the companies that are ahead
+ are thinking about their technology platforms in a fundamentally
+ different way than others not just as tools but as strategic assets
+ that need to be invested in and as part of that those strategic
+ assets need to be fed and enriched with what they need to live up to
+ their potential which in the case of AI is of course data.
+ McKinsey argues that in most organizations especially those that
+ aren't using AI as well data is the constraining factor
+ and it makes sense because doing data well means investing time in it
+ building data products initiatives for data enrichment
+ and not just as a one-time transformation process but as a new
+ ongoing operational discipline. Speaking of which in another part of
+ the manifesto they talk about something which will come up again later
+ in the show and which will provide a little bit more structure for
+ which is the idea of agentic engineering becoming the next capability
+ to master. McKinsey writes leading companies are
+ moving quickly to master agentic engineering. They are ingesting on
+ structured data extending their AI platforms with
+ agentic capabilities automating guardrails and controls and
+ rapidly experimenting to codify what works into a repeatable
+ agentic playbook. What's interesting and what you'll see in a minute
+ is that I think that this is one area where even the leading enterprises
+ are a little bit behind the absolute frontier companies in general
+ because constraining this to think about agentic engineering as simply a
+ domain of software development is increasingly going to be its own
+ constraint. Luckily McKinsey's 12th bullet point is a
+ potential solve for that relearn like your business depends on it.
+ They point out that the half-life of skills is shortening and when combined
+ with number six speed is the defining organizational advantage
+ you can see just what a ride enterprises are in for in the years to come.
+ Now one valuable piece of the discourse comes from George Savolko
+ who recently wrote an opinion piece for a 16z called institutional AI versus
+ individual AI. His core thesis is that while
+ AI has made every individual 10x more productive no company has
+ become 10x more valuable as a result. In the piece he argues that there are
+ seven pillars of institutional intelligence that show just how
+ different individual AI versus institutional AI really is.
+ And the biggest takeaway from George's piece is that institutional AI
+ is not just a matter of aggregating the impact of individual AI.
+ It is instead a different set of processes that make individual AI's
+ value point in the same direction and that solves problems
+ that individual AI creates. The first example he gives is around
+ coordination. He writes, imagine you doubled your organization's
+ headcount tomorrow with clones of only your best employees.
+ Each of these employees have minor differences, predilections, quirks, and
+ perspectives, especially true if they're your best employees.
+ If they're not sufficiently managed, if they're not sufficiently
+ communicating, if they're swim lanes, OKRs, roles, and
+ responsibilities are not well defined, you've created chaos.
+ The organization while measured on an individual basis may be more
+ productive, but thousands of agents or humans rowing in opposite
+ directions creates a standstill at best and destroys organizational
+ harmony at worst. George continues, this isn't hypothetical.
+ It's happening right now in every organization that's adopted AI
+ without a coordination layer. Every employee has their own chat
+ GPT habits, their own prompting styles, their own outputs that
+ don't talk to anyone else's outputs. An org chart might exist,
+ but the actual flow of AI generated works has something else entirely.
+ Coordination then becomes an absolute imperative for humans and
+ agents alike. In another example, he talks about how
+ institutional AI has to find signal through the noise of the massive
+ expansion of content that's being generated. He writes about how
+ institutional AI has to create a certain category of professional
+ objectivity that can interact with individual AI's
+ overalignment, hearkening to the PWC study that we were
+ just discussing. If individual AI cares about saving time,
+ institutional AI cares about scaling revenue, and so again,
+ you're not just adding up a bunch of time saved, you have to
+ actually harness it in specific ways.
+ Weekends are for vibe coding. It has never been easier to bring a
+ passion project to life, so go ahead and fire up your favorite
+ vibe coding tool. But Monday is coming, and before you know it,
+ you'll be staring down a maze of microservices, a legacy
+ cobalt system from the 1970s, and an engineering roadmap
+ that will exist well past your retirement party.
+ That's why you need Blitzy, the first autonomous
+ software development platform designed for enterprise scale
+ code bases. Deploy the beginning of every sprint and
+ tackle your roadmap 500% faster. Blitzy's agents ingest
+ your entire code base, plan the work, and deliver over 80%
+ autonomously. Validated end-to-end tested premium
+ quality code at the speed of compute, months of
+ engineering compressed into days. Vibe code your passion
+ projects on the weekend, bring Blitzy to work on Monday.
+ See why Fortune 500s trust Blitzy for the code that
+ matters at blitzy.com. That's blitzy.com.
+ Today's episode is brought to you by Granola.
+ Granola is the AI notepad for people in back-to-back
+ meetings. You've probably heard people raving about
+ Granola. It's just one of those products that people love
+ to talk about. I myself have been using Granola for
+ well over a year now, and honestly it's one of the
+ tools that change the way I work. Granola takes
+ meeting notes for you without any intrusive bots joining
+ your calls. During or after the call, you can chat
+ with your notes, ask Granola to pull out action
+ items, help you negotiate, write a follow-up email,
+ or even coach you using recipes which are pre-made
+ prompts. Once you try it on a first meeting, it's hard
+ to go without. Head to granola.ai slash ai daily and use
+ code AI daily. New users get 100% off for the first three
+ months. Again, that's granola.ai slash AI daily.
+ Here's a harsh truth. Your company is probably spending
+ thousands or millions of dollars on AI tools that
+ are being massively underutilized. Half of companies
+ have AI tools, but only 12% use them for business
+ value. Most employees are still using AI to
+ summarize meeting notes. If you're the one responsible
+ for AI adoption at your company, you need Section.
+ Section is a platform that helps you manage AI
+ transformation across your entire organization. It
+ coaches employees on real use cases, tracks who's
+ using AI for business impact, and shows you
+ exactly where AI is and isn't creating value.
+ The result? You go from rolling out tools to
+ driving measurable AI value. Your employees move
+ from meeting summaries to solving actual
+ business problems, and you can prove the ROI.
+ Stop guessing if your AI investment is working.
+ Check out Section at Sectionai.com. That's S-E-C-T-I-O-N-A-I.com.
+ One of the trends that I follow most closely when it
+ comes to AI is around voice. Today's episode is
+ brought to you by Assembly AI, the best way to
+ build voice AI apps. The company has been
+ moving with extreme velocity lately, shipping
+ major improvements to their speech-to-text models
+ that go way beyond just better transcription.
+ Specifically, they're getting to an accuracy
+ level that can reliably capture the type
+ of things that used to break every other
+ speech-to-text model. Think credit card numbers read
+ aloud, email addresses spelled out, complex
+ medical terminology, financial figures. All
+ of these things, in other words, that it
+ really matters to get right. So for anyone
+ who's building in fintech, healthcare,
+ sales intelligence, customer support,
+ getting those things wrong isn't just
+ annoying, it's a liability. Their
+ speech understanding models are also
+ really good at things like identifying
+ speakers, surfacing key moments, and
+ uncovering insights from voice data.
+ And all of that happens in a single API
+ call. The proof is in the putting
+ and assembly power of some of the top voice
+ AI products in the market today like
+ Granola, Dovetail, and Ashby. Getting
+ started is free. Head to assemblyai.com
+ slash brief to test it live and get
+ $50 in free credits. No contract, no
+ upfront commitments. That's assemblyai.com
+ slash brief.
+ Now maybe the most interesting thing to
+ me is that when you get beyond not
+ just the companies that McKinsey is
+ profiling that are leaders, but
+ companies that are actually completely
+ reinventing themselves in AI native
+ ways, you're starting to see some
+ patterns emerge for how the companies
+ are using AI to create this
+ institutional AI organizing function
+ in ways that are actually producing
+ significant results. Let's look at the
+ case study of ramp.
+ Ramp co-founder Eric Gleeman recently
+ tweeted 99% of ramp uses AI daily,
+ but we noticed most people were stuck
+ not because the models weren't good
+ enough, but because the setup was
+ too painful and unintuitive for
+ most. Terminal configs, MCP servers,
+ everyone figuring it out alone. So we
+ built glass. Every employee gets a
+ fully configured AI workspace on day
+ one. Integrations connected via SSO, a
+ marketplace of 350 plus reusable
+ skills built by colleagues, persistent
+ memory scheduled automations.
+ When one person on a team figures out
+ a better workflow, everyone on that
+ team gets it and gets more productive.
+ The companies that make every employee
+ effective with AI will compound
+ advantages their competitors can't
+ match. Most are waiting for vendors
+ to solve this. We decided to own it.
+ Earlier this week, I did a show about
+ harness engineering and this is
+ effectively harness engineering at an
+ organizational level.
+ Seb Godegen, who runs internal AI at
+ ramp, wrote a post about this that's
+ been seen now a million times and the
+ key thesis is about harnesses. The
+ models he writes are good enough, the
+ harness isn't. The setup is the same
+ context Eric gave, so we'll dive
+ into the essay. In the next section,
+ everyone can be an AI power user.
+ Seb writes, the models are already
+ exceptional, but most people use them
+ like driving a Ferrari with the
+ handbrake on. Not because they aren't
+ smart or lack ambition, they've just
+ never seen what a well-configured
+ environment looks like or what it can
+ do. Solve this problem we aligned
+ around three core principles for
+ glass. Glass is the name of this
+ internal system.
+ One, don't limit anyone's upside.
+ The default approach, Seb writes,
+ for non-technical users is to
+ simplify. Put the product on rails,
+ offer fewer options and make it
+ dummy-proof. We couldn't disagree more.
+ At ramp, power users thrive on
+ multi-window workflows, deep integrations,
+ scheduled automations, persistent
+ memory, and reusable skills. The goal
+ isn't to remove complexity but to make
+ it invisible while preserving full
+ capability. Now I want to pause here
+ because I don't think that I can
+ stress how much I am also seeing this
+ and I think it breaks a lot of our
+ conventional wisdom in important ways.
+ Every time I drop some program,
+ like claw camp, I am reminded that AI is
+ this very different paradigm where
+ people are not looking for the simple,
+ easy, or dumb down way to do things,
+ but are instead looking for the full
+ capability set that can unlock
+ totally transformational approaches.
+ Now I think part of what makes this
+ different than previous categories of
+ software is that even when you are
+ sitting there by yourself in your
+ office or at your desk trying to
+ figure things out, you are not
+ actually alone in that pursuit.
+ Because of AI, we have the world's
+ greatest tutors, coaches, and build
+ partners sitting there just waiting to
+ help us work through whatever problems
+ we encounter. So the difference is that
+ where in the past you couldn't
+ necessarily support every user
+ inside your organization to take on
+ the hardest challenges because you
+ simply didn't have the human resources
+ to help them work through their
+ problems at any sort of reasonable
+ pace, the fact that they can now
+ partner with AI itself to work through
+ those problems totally changes the
+ equation. What ramp is showing you is
+ that this can turn into a design
+ principle that changes the shape of
+ what a great AI using
+ organization looks like. I think this
+ is going to be one of the most
+ important mental resets. It is not
+ that in your large enterprise you
+ should throw everyone into the deep
+ end of the pool all at once, but
+ you also should not assume that
+ there are some people who are going
+ to be just chat users and some
+ people who are only going to be
+ co-work users and some superstars
+ who get to use cloud code.
+ That might be the pattern of skill
+ acquisition they follow, but you
+ should not limit anyone's end point
+ to only one type of those interfaces
+ because of some pre-existing
+ technical limitation they have.
+ Now continuing back into Seb's piece,
+ and again we're in the section
+ everyone can be an AI power user,
+ he writes two, one person's breakthrough
+ should become everyone's baseline.
+ The biggest failure mode wasn't
+ that people couldn't figure things
+ out, it was that everyone had to
+ figure things out alone.
+ A workflow discovered by one person
+ didn't help anyone else.
+ Third, the product is the enablement.
+ Becoming an effective AI user is a skill.
+ People improve through repetition
+ and experimentation, but the product
+ can accelerate that curve by
+ suggesting the right skill at the
+ right time and showing what good
+ looks like in the moment.
+ No amount of workshops can match a
+ targeted nudge while you're already
+ doing the work.
+ Okay, so if that is the mindset shift
+ what is some of the structure of
+ this class tool that maybe you as a
+ listener can imitate in your
+ organization?
+ The next section of Seb's post is
+ everything connects on day one.
+ He writes, glass comes auto-configured
+ on install, people sign in once,
+ and all ramps tools become available
+ to them with a one-click setup.
+ This includes homegrown products like
+ ramp research, ramp inspect, and our
+ newly released ramp CLI.
+ This is the unsexy foundation that
+ makes everything else possible.
+ When a sales rep asks glass to
+ pull context from a gong call,
+ enrich it with sales force data
+ and draft a follow-up, it just
+ works because everything is already
+ connected.
+ And so now, stepping back to NLW here
+ and outside the essay,
+ we've got an example of organization
+ level context engineering.
+ They have designed their harness
+ to take advantage of the full
+ organizational context by integrating
+ all that context as the default
+ state for any employee who's
+ interacting with that harness.
+ And importantly, the harness evolves.
+ This is that idea that when one
+ person figures out some skill,
+ by which in this case we are
+ referring to agent skills,
+ markdown files that teach your agent
+ how to perform a specific task,
+ those skills can find their way
+ into an internal marketplace
+ that Ramp calls Dojo.
+ An example they give is a CX
+ engineer building a Zendesk
+ investigation workflow that pulls
+ ticket history, checks account
+ health, and suggests resolution path,
+ which now, through this Dojo
+ marketplace, gives the entire
+ support team the ability to have
+ access to that skill as soon as
+ the originator of the skill
+ makes it available.
+ Now with 350 skills already shared,
+ that's a lot to wade through.
+ And so of course they used AI once
+ again, building an in AI guide
+ which they keeping with the theme
+ of Dojo called the Sensei
+ that looks at the tools that
+ people have already connected,
+ what role they're in,
+ and what they've been working on
+ to recommend skills that are most
+ likely to be useful to that
+ particular person.
+ A new account manager, Seb writes,
+ doesn't need to browse a catalog
+ of 350 skills, the Sensei
+ surfaces the five that matter
+ most on day one.
+ What about memory?
+ We talked about context and
+ context engineering in terms
+ of the organization as a whole,
+ but what about on an individual
+ level?
+ Seb writes,
+ when users first open glass,
+ we build a full memory system
+ based on the connections they've
+ authenticated.
+ This gives every chat session
+ context on the people they work
+ with and their active projects,
+ along with references to relevant
+ Slack channels, Notion documents,
+ linear tickets and more.
+ As a result, the agent spends
+ less time searching,
+ entering each conversation with
+ the context the user expects.
+ Now this is one of those areas
+ where especially if you're
+ thinking about imitating the
+ system, I think there's the
+ most hidden technical complexity.
+ Seb continues under the hood,
+ we also run a synthesis and
+ cleanup pipeline every 24 hours,
+ mining users previous sessions
+ and connecting tools like Slack,
+ Notion and Calendar for updates.
+ This means Glass can adapt to
+ their world without them having
+ to re-explain things every
+ session.
+ This is one of those things
+ that's easier to write about
+ than to build, even with
+ agentic coding.
+ Managing memory and context
+ is kind of the whole game
+ right now, and there's a
+ reason why it's a problem
+ that so many people are
+ still working on.
+ Now one other interesting piece
+ about this system that Ramp
+ has built is that it takes a
+ bunch of the features that
+ people have looked to from
+ Open Claw and brings them
+ directly into the company's
+ agentic operating system.
+ For example, Seb writes that
+ employees can schedule
+ automations to run daily,
+ weekly, or on a custom cron
+ that can then take actions
+ like posting directly to Slack.
+ This by the way is also some
+ of the new features that we
+ saw coming into Codex
+ in that episode from a
+ couple of days ago.
+ Importantly, employees don't
+ actually have to be on their
+ devices for this to happen.
+ There's a bunch more,
+ but I thought that this
+ conversation about why they
+ took the time to build this
+ might be relevant for those of
+ you organizational listeners
+ who are trying to decide
+ whether some version of this
+ type of effort is worth it
+ for you.
+ Seb writes,
+ the obvious question is
+ why not just buy this
+ and argues that there are
+ three reasons that they
+ built it in-house.
+ One, he writes,
+ internal productivity is a
+ moat.
+ Using AI well is now a
+ core business need.
+ The companies that make
+ every employee effective
+ with AI will move faster,
+ serve customers better
+ and compound advantages
+ their competitors cannot
+ match.
+ That makes internal AI
+ infrastructure part of your
+ moat
+ and you do not need to
+ hand your moat to a vendor.
+ Two, speed.
+ When you own the tool,
+ you see exactly where people
+ get stuck.
+ You can ship fixes the same
+ day someone reports a problem.
+ We have a Slack channel
+ where users report issues
+ and our team triages them
+ into tickets automatically
+ with most resolved in hours.
+ You cannot do that
+ while waiting on a vendor's
+ roadmap.
+ Three, it directly informs
+ our external product.
+ Ramp is an AI first company
+ building products for
+ finance teams
+ and many of the problems we
+ solve for internal users
+ translate directly to
+ customers.
+ How do you build memory
+ that actually helps?
+ How do you enable people to
+ build, distribute
+ and maintain effective skills?
+ How do you surface
+ functionality through usage?
+ Solving these problems
+ internally gives us conviction
+ about what works before we
+ ship it.
+ Glass gives us reps
+ on the hardest AI product
+ problems without those reps
+ happening at customer's
+ expense.
+ Now, I think if you try to
+ take this argument together,
+ the subtext of what Seb is
+ arguing is something that I
+ agree with wholeheartedly
+ which is that AI use
+ is now a core primitive
+ of organizational operations.
+ It is not something that can be
+ outsourced or externalized
+ because it is functionally
+ core to how we work going
+ forward.
+ Taking the time to build this
+ then is actually doing
+ double duty.
+ It is building the new muscles
+ that need to be built
+ while also building the system
+ that can help those muscles
+ flex to actually do things
+ that the business is tasked
+ to do.
+ The last section of Seb's
+ piece is called What We
+ Learned
+ and it's basically an argument
+ for learning by doing.
+ He writes,
+ the people who got the most
+ value weren't the ones who
+ attended our training
+ sessions.
+ They were the ones who
+ installed the skill on day one
+ and immediately got a result.
+ The product taught them
+ faster than we ever could.
+ This realization reframed
+ how we think about the entire
+ project.
+ Every feature in glass
+ is secretly a lesson.
+ Skills show you what great
+ AI output looks like
+ before you know how to ask it
+ for yourself.
+ Memory shows you that context
+ is the difference between
+ a generic answer
+ and a useful one.
+ Self healing integrations
+ show you that errors
+ aren't your fault
+ the system has your back.
+ None of this was designed
+ as education
+ but it turns out
+ that when you hand someone
+ a tool that just works
+ they learn by doing
+ and they learn fast.
+ Seb concludes,
+ this is what excites me most
+ about what we're building.
+ Not the product itself
+ but what happens to an
+ organization when the floor
+ rises for everyone at once.
+ When a new hires for a session
+ in glass already knows
+ their team, their projects
+ and their tools.
+ When someone who's never
+ opened a terminal
+ is running schedule automations
+ that would have required
+ an engineer six months ago
+ the compounding is real
+ and we're only at the
+ beginning of it.
+ We don't believe in
+ lowering the ceiling.
+ We believe in raising the floor.
+ And this is what I was
+ saying about McKinsey's point
+ about agentic engineering
+ becoming the next capability
+ to master.
+ It's not that I think
+ that that's wrong.
+ I think that it turns out
+ that for the real
+ leading organizations
+ agentic engineering
+ is kind of the work
+ of everyone now.
+ Now luckily
+ not everyone is going to
+ have to build
+ their entire own systems
+ like this.
+ When a little over a month
+ ago
+ Claude Codde launched
+ scheduled tasks
+ entrepreneur Ryan Carson
+ wrote,
+ it's exciting seeing
+ all the big model labs
+ launch automations.
+ It's exciting to see
+ everyone moving towards
+ code factories.
+ I think we'll probably have
+ complete solutions
+ from all the big players
+ by the end of the year
+ that allow you to create
+ an end to end
+ code factory
+ for your startup
+ without having to jump
+ around to different tools
+ or duct taping
+ things together.
+ And as if to validate
+ Ryan's point
+ Guillermo Roche the CEO
+ of Vercel
+ just announced
+ that the company
+ was open sourcing
+ a reference platform
+ for cloud coding agents
+ to help others
+ build the type of systems
+ that Stripe,
+ Ramp, Spotify
+ and Block are all building.
+ So to sum up
+ how the best companies
+ that using AI
+ are using AI.
+ First
+ it is about growth
+ and opportunity
+ and new business
+ and growing the business
+ not just about efficiency
+ and productivity.
+ Second
+ they are recognizing
+ that AI success
+ involves creating systems.
+ Systems that can coordinate
+ the outputs
+ of individual AI users.
+ Systems that can provide
+ context
+ and increasingly
+ as we see from the example
+ with ramp
+ systems that actually
+ build harnesses
+ around AI use
+ that aren't content
+ with dividing
+ the employee base
+ into good users
+ medium users
+ and bad users of AI
+ but which fundamentally
+ believe that
+ everyone can be
+ a great AI super user.
+ It's a mindset shift
+ plus some specific activities
+ and I am very excited
+ to see more companies
+ diving in
+ and sharing
+ what they find along the way.
+ For now though
+ that is going to do it
+ for this long read
+ slash big think edition
+ of the AI Daily Brief.
+ I appreciate you
+ listening or watching
+ as always
+ and until next time
+ peace.
+ you
