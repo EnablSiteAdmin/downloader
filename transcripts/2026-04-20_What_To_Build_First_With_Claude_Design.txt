@@ -1,0 +1,937 @@
+ Today on the AI Daily Brief, the top use cases for the new Claude design.
+ The AI Daily Brief is a daily podcast and video about the most important news and discussions
+ in AI.
+ All right, friends, quick announcements before we dive in.
+ First of all, thank you to today's sponsors KPMG, Blitzi, ZenCoder, and Granola.
+ To get an ad-free version of the show, go to patreon.com.ai-daily-brief or you can
+ subscribe at Apple Podcasts.
+ If you want to learn more about sponsoring the show, send us a note at sponsorsataidailybrief.ai.
+ And while you are at aidailybrief.ai, a quick thing to point you to, I've been thinking
+ a lot recently about a major challenge that I see where all these companies know they
+ need people to have these new AI skills, but don't exactly know how to qualify or
+ vet those skills.
+ And on the other side, individuals who are developing those skills don't necessarily
+ have a great way to show it.
+ It's like an interesting opportunity to me to create a type of standard for credentials
+ that allows that gap to fill in faster.
+ And so I'm surveying to get a little bit more info.
+ If you're an individual who is interested in getting certified around your AI skills
+ and even more importantly, frankly, at least for the purposes of what we do next, if
+ you are someone who is hiring for a certain set of skills or whose job it is to validate
+ those skills among your existing employees, I would so appreciate it if you would just
+ take a minute to fill that out.
+ It's the top banner on the homepage right now.
+ It's actually the only banner on the homepage right now.
+ And again, thanks in advance for taking the 30 seconds to do that.
+ Now in terms of today's episode, we are once again doing a full main No Headlines episode.
+ We do have a bunch of headline stories to catch up on, but Anthropic had to go and
+ drop this very valuable and powerful new Claude Design Suite on Friday.
+ Come hell or high water tomorrow we will be back with a normal format episode or perhaps
+ even an extended headlines to catch up on all the news.
+ But for now, let's talk about the top use cases and the early reactions to Claude
+ Design.
+ Welcome back to the AI Daily Brief.
+ We are officially at the point where there is so much being released that a major
+ feature, the type of thing that as we will see has the power to literally move
+ markets was released on a Friday in the middle of the day, not even first thing
+ in the morning.
+ I'm talking of course about Claude Design, which comes just today after we got
+ Claude Opus 4.7.
+ Now design is pretty much what you would imagine a design tool from Claude
+ to be.
+ And it's important to note that a lot of this is not some entirely net new
+ functionality.
+ It's a new wrapper around design with some pretty significant UI upgrades for
+ the design experience.
+ In sharing design, Anthropic points to a few different use cases.
+ First of all, one of the big value propositions they discuss is the ability
+ to explore concepts more broadly before committing to a direction.
+ They call it rationing exploration and point out that basically no one has
+ the time to actually prototype a variety of different directions for
+ exploration.
+ So you pretty much have to commit to a design system from the beginning
+ before you actually dive all the way in.
+ Agenetic design dispenses with that constraint.
+ And the interaction that it proposes is that you prompted to build a first
+ version or versions, as you'll see as we walk through the process.
+ You can get specific with Claude Design about how wide a variety of
+ options you wanted to explore.
+ And then from there you refine it.
+ Now what's interesting about the user experience here is that pretty
+ much every way you could think of to refine the design is available
+ in this interface.
+ You can use natural language inputs to describe what you want to change.
+ You can use inline comments.
+ You can direct edit on the canvas.
+ And there's a feature that a lot of people are really excited about
+ that are these custom sliders that allow you to drag from one end
+ of the spectrum to another for a particular design element such as
+ a font, a color, a shading, et cetera.
+ Early testers Anthropic said, we're using Claude Design for things
+ like realistic prototypes, product wireframes and mockups, design
+ explorations, pitch decks and presentations, marketing, collateral
+ and frontier design.
+ Basically future oriented things that don't necessarily have a
+ reason for being quite yet, but which could prompt the next
+ generation of building.
+ So two key subtexts in that set of things that Anthropic says
+ this is for.
+ One, there's clearly a bunch of things for non-designed
+ knowledge workers, pitch decks and presentations, IEV
+ core default asset of most knowledge work and marketing
+ collateral as a specific group that has to interact with
+ design a lot, but who are not themselves necessarily
+ designers.
+ Secondly though, the other sub theme that's clear is that
+ at least right now they are not trying to pitch this as the
+ full end product.
+ That's in contrast to something like Claude Code, where
+ Anthropic is in no way at this point saying just use this
+ to build your prototypes or your vibe coded tests and then
+ you can go back to hand for the final version.
+ Claude Code and Codex by the way and every agent
+ decoding tool is pitching you on the full experience.
+ And yet again here when it comes to Claude Design
+ they're talking about realistic prototypes, product
+ wireframes and mockups and design explorations.
+ I don't know to what extent that is one, them not
+ having as much confidence quite yet in the design
+ product as opposed to the coding product or two,
+ a blow softener to other design tools in the field.
+ One of the signals that we had in advance of the
+ announcement of Claude Design that something was coming
+ was that Anthropic's chief product officer,
+ Mike Krieger, had resigned from the board of Figma
+ earlier in the week, presumably because they were
+ going to release something competing soon.
+ That also by the way might explain why they chose
+ to release this on Friday.
+ It could have been something of a magnanimous act
+ to try to soften the blow.
+ That might be overthinking it, but it does feel
+ like these companies have a good relationship.
+ And while the meme is Anthropic trying to destroy everyone,
+ it feels less like an intentional effort
+ to disrupt existing players and more just a matter
+ of they're gonna build what they're gonna build
+ and if you're in the way, well that's kind of on you.
+ Now going back to the announcement,
+ another thing that stands out is that they very clearly
+ want this to be integrated into your overall
+ company experience.
+ They spend a lot of time emphasizing that it can
+ ingest your brand's design system.
+ They highlight that you don't just have to start
+ with a text prompt, you can also upload images
+ or documents or even point it at your code base.
+ And then there are a bunch of tools for making sure
+ that whatever you produce can get to where it needs
+ to go next, whether that's collaborating
+ with someone else on your team,
+ exporting it to a different type of artifact
+ or handing it off to Claude Code.
+ Now the launch of Claude design gives more fodder
+ for two broader conversations surrounding
+ Anthropic right now.
+ One is what is the full suite of companies
+ that is going to get in the way
+ and be disrupted by Claude?
+ But then secondly, zooming out and going even more broad
+ in terms of the impact of AI on the broader job space,
+ there is a question of how much the experience
+ of AI's disruption and transformation of coding
+ is likely to set a pattern for how AI disrupts
+ other areas of knowledge work.
+ Basically, we've gone from vibe coding
+ being a thing just for weekend fun projects
+ to a gented coding being simply the way
+ that you code in just about a year and a half.
+ And so if that is the pattern
+ for all other knowledge work,
+ obviously the disruption could be immense.
+ As some folks have pointed out though,
+ coding has a lot of elements
+ that make AI particularly good at it.
+ Clear rules, an objective way of knowing
+ whether something was done right or wrong,
+ and an easy ability to iterate to fix mistakes.
+ A lot of other types of knowledge work people point out
+ are much more messy and much more human,
+ which may mean that the way that AI interacts with them
+ looks a little bit different
+ than its transformation of coding.
+ Now on this question of what type of companies
+ is Claude killing?
+ The places where people naturally went
+ were the other design tools in the space.
+ Think Canva, Figma, tools like that.
+ One thing that's interesting to note
+ is that Canva CEO Melanie Perkins
+ is one of the named quotes
+ on the launch of the Claude design page.
+ And I don't think that that's just cope.
+ I actually think that while these tools
+ both exist in the design space,
+ they are a little bit different.
+ So far in my experience with Claude design,
+ I think a good division is to think about
+ asset design versus systems design.
+ Asset design is something like,
+ I'm making an image, I'm making a post.
+ Systems design is something more like,
+ I'm making a website, an application, a front end.
+ While Canva is certainly not unable to do systems design,
+ in fact a lot of their developments
+ over the last couple of years
+ have been more robustness in that set of features
+ such as your brand guidelines and templates.
+ A lot of the use of Canva
+ is much more specific and discreet to an individual asset.
+ And that doesn't feel to me like
+ what the core experience
+ that they're going for with Claude design is.
+ Now this probably makes sense
+ given the tight integration with the things
+ that people build with Claude code,
+ which tend to be less individual point assets
+ and more systems like websites, applications,
+ front ends, et cetera.
+ In terms of who this is designed for,
+ it doesn't feel like designers per se to me.
+ So far at least, it's much closer
+ to a vibe design product
+ in the way that we talked about vibe coding
+ about a year ago,
+ than it is to some full-throated Figma replacement.
+ The two audiences that stand out to me
+ are one, Claude code power users
+ who aren't designers themselves.
+ Which year embodies this when they write,
+ I live in Claude code.
+ The visual half has always been the break in my flow.
+ Spec something in words, lose context,
+ re-explain it to Figma, et cetera.
+ Claude design is the missing half.
+ Draft UI inside Claude with Opus 47 vision,
+ iterate by talking to it,
+ and the handoff to Claude code pulls your design systems
+ into context automatically.
+ Design to implementation in one conversation
+ instead of three tools.
+ I don't think it would be totally off
+ to view this as the primary intended use case
+ for Claude design, at least initially,
+ given how important and central
+ to the strategy Claude code is.
+ But as they found,
+ a richer UI UX around design
+ has benefits for others as well.
+ The most frequently named category of person
+ are marketers, which makes sense
+ as the knowledge workers who have to interface
+ with design in the visual most often.
+ Austin Lau from Anthropic explicitly calls it
+ one of the coolest features for marketers today.
+ Austin writes,
+ So what are some of the things
+ that people made in the first couple of days
+ with this tool?
+ Marketing assets are definitely one of the big themes.
+ Salma, who focuses on AI for brands,
+ generated email marketing template.
+ Victor Audi and many others
+ did some version of animated social media posts.
+ Many people experimented with rich visual web design.
+ Mark Dala Maria writes,
+ Claude design is insanely good.
+ It one shot this Artemis 2 Moon launch site
+ in a few minutes.
+ And part of what I point out here
+ is that Claude design isn't using generated images
+ from a model like nano banana or GPT image.
+ It's using code and SVGs to create the imagery,
+ which as we'll hear about in a minute
+ is a challenge for some,
+ but also creates a lot of interesting opportunity
+ for more interactive
+ and more dynamic feeling web experiences.
+ Namya at Superfast says she just one shot
+ at her design agency homepage.
+ And Justine Moore from A16Z
+ built the entire front end for an application.
+ She writes,
+ Also pointing out something,
+ which as we will see is one of the major frustrations
+ with Claude design, Justine also writes,
+ on another note,
+ I hit rate limits on my max plan in under 30 minutes.
+ Another area of marketing
+ where I saw a ton of people experimenting
+ was around product websites.
+ Now you often see this as a test
+ of new image generation models
+ where people will give the model a specific package
+ and ask it to put that
+ in various product photography contexts
+ or ask the new image model
+ to generate packaging and product photography from scratch.
+ Now again, Claude design is not doing that,
+ but what it can do is what Olivier here experimented with
+ are things surrounding that product photography
+ like design variations for your Shopify page.
+ Olivier used it here in the way
+ that the blog post discussed,
+ not just trying to create a good Shopify page
+ for his product,
+ but designing a set of four variations
+ so they could figure out
+ which was the best direction for the product.
+ I also saw a ton of people experimenting
+ with the video generation capability.
+ People are making some pretty impressive launch
+ and promo videos all generated with Claude design
+ without any separate image generation tool.
+ So let's take a step back
+ and talk about what I think
+ are some of the most valuable features of Claude design.
+ First of all,
+ is something that I would call its robustness.
+ If you are more of a consumer or prosumer type user
+ and you've ever tried to create something comprehensive
+ with a consumer or prosumer tool like Canva,
+ you'll know that as much as they are trying
+ to move into that space,
+ creating something with a full design system
+ can be really difficult.
+ And that's exactly the type of thing
+ that Claude design excels at.
+ Another thing that I really like
+ is the Socratic design process.
+ When you start in Claude design
+ and give it your initial prompt,
+ for example, let's design a mobile app companion
+ to the context portfolio builder web app
+ at a screenshot.
+ It's going to review what you gave it
+ and then come back with a set of questions for refining it.
+ Now, anyone who's interacted with AI to build something,
+ especially Claude code or codex,
+ will find this interactive pattern familiar,
+ but it's re-skinned for design.
+ And at least so far in my experience
+ has done a good job of using the questions themselves
+ to actually help you think through what you want.
+ In other words,
+ when you look at a question
+ like what's the mobile app's main role,
+ it isn't just a blinking cursor
+ that asks you to input that.
+ It gives you a half dozen thesis that it has,
+ which can actually help you refine your thinking.
+ So for the mobile companion,
+ it asks what the mobile app's main role is.
+ Good question.
+ Why do you need a mobile app for personal context building?
+ The two that stand out are either quick capture,
+ jot thoughts that feed into portfolio files,
+ or notifications that are nudges
+ to keep context fresh over time.
+ Let's do quick capture and select notifications as well.
+ Next up, it asks what's the number one flow to nail?
+ Daily micro prompt or voice first capture,
+ I think it's daily micro prompt.
+ From there, it's going to ask you
+ how many different iterations you want.
+ For some people will always want the max.
+ For our case, let's leave it at its suggested three.
+ And for any question where you don't have a strong feeling,
+ you can simply allow it to decide for you.
+ You can also see in this Socratic design process
+ that claw design definitely has a technical bent.
+ We're designing an app
+ and it's not just asking design questions,
+ it's also asking product questions.
+ For example, how important is voice input?
+ Let's call it central.
+ This is a voice first app.
+ Yes, there should be notifications,
+ mobile edit should live sync
+ and we'll let it decide what tweaks to expose.
+ Now we'll let that work
+ and keep talking about some of the other valuable features.
+ All right, folks, quick pause.
+ Here's the uncomfortable truth.
+ If your enterprise AI strategy is we bought some tools,
+ you don't actually have a strategy.
+ KPMG took the harder route
+ and became their own client zero.
+ They embedded AI and agents across the enterprise,
+ how work gets done, how teams collaborate,
+ how decisions move, not as a tech initiative,
+ but as a total operating model shift.
+ And here's the real unlock.
+ That shift raised the ceiling on what people could do.
+ Humans stayed firmly at the center
+ while AI reduced friction,
+ serviced insight and accelerated momentum.
+ The outcome was a more capable, more empowered workforce.
+ If you wanna understand what that actually looks like
+ in the real world,
+ go to www.kpmg.us slash ai,
+ that's www.kpmg.us slash ai.
+ With the emergence of AI code generation in 2022,
+ NVIDIA Master Inventor and Harvard engineer,
+ Sid Pereschi, took a contrarian stance.
+ Inference time compute and agent orchestration,
+ not pre-training,
+ would be the key to unlocking
+ high quality AI-driven software development
+ in the enterprise.
+ He believed the real breakthrough
+ wasn't in how fast AI could generate code,
+ but in how deeply it could reason
+ to build enterprise-grade applications.
+ While the rest of the world focused on co-pilots,
+ he architected something fundamentally different.
+ Blitzy, the first autonomous software development platform
+ leveraging thousands of agents
+ that is purpose-built for enterprise-scale code bases.
+ Fortune 500 leaders are unlocking
+ 5x engineering velocity
+ and delivering months of engineering work
+ in a matter of days with Blitzy.
+ Transform the way you develop software,
+ discover how at blitzy.com.
+ That's blitzy.com.
+ So coding agents are basically solved at this point.
+ They're incredible at writing code.
+ But here's the thing nobody talks about.
+ Coding is maybe a quarter
+ of an engineer's actual day.
+ The rest is stand-ups,
+ stakeholder updates,
+ meeting prep,
+ chasing context across six different tools.
+ And it's not just engineers.
+ Sales spends more time assembling proposals than selling.
+ Finance is manually chasing subscription requests.
+ Marketing finds out what shipped
+ two weeks after it merged.
+ ZenCoder just launched ZenFlow Work.
+ It takes their orchestration engine,
+ the same one already powering coding agents,
+ and connects it to your daily tools.
+ JIRA, Gmail, Google Docs,
+ Linear, Calendar, Notion.
+ It runs goal-driven workflows that actually finish.
+ Your stand-up brief is written before you sit down.
+ Review cycle coming up,
+ it pulls six months of tickets
+ and writes the prep doc.
+ Now you might be thinking,
+ didn't Open Claw try to do this?
+ It did, but it has come with a whole host
+ of security and functional issues,
+ which can take a huge amount of time to resolve.
+ ZenCoder took a different approach.
+ Sock 2, Type 2 certified,
+ curated integrations,
+ tighter security perimeter.
+ Enterprise grade from day one.
+ Model agnostic and works from Slack or Telegram.
+ Try it at zenflow.free.
+ Today's episode is brought to you by Granola.
+ Granola is the AI notepad
+ for people in back-to-back meetings.
+ You've probably heard people raving about Granola.
+ It's just one of those products
+ that people love to talk about.
+ I myself have been using Granola
+ for well over a year now,
+ and honestly, it's one of the tools
+ that change the way I work.
+ Granola takes meeting notes for you
+ without any intrusive bots joining your calls.
+ During or after the call,
+ you can chat with your notes,
+ ask Granola to pull out action items,
+ help you negotiate, write a follow-up email,
+ or even coach you using recipes
+ which are pre-made prompts.
+ Once you try it on a first meeting,
+ it's hard to go without.
+ Head to granola.ai.ai daily
+ and use code AI Daily.
+ New users get 100% off
+ for the first three months.
+ Again, that's granola.ai.ai daily.
+ As was highlighted in their announcement post,
+ there is a really strong emphasis
+ on the idea of being able to have
+ multiple variations to test things out.
+ One of the things that I've got cooking
+ that I mentioned at the beginning of this show
+ is that I'm exploring some approaches
+ to AI credentialing
+ to solve a bunch of problems I see
+ that are stopping people from getting jobs
+ and stopping companies from finding
+ the right people to help them with AI.
+ When I asked for a teaser video for this,
+ it gave me three different directions
+ that were differences in both
+ the editorial content and narrative flow
+ as well as some of the visual systems.
+ Another really valuable feature
+ is the way that it does iterations.
+ As I mentioned,
+ you can use the text input panel
+ to update the prompt.
+ You can edit certain parts directly
+ you can provide inline comments
+ that the AI can read
+ or, and this is something
+ that I'm seeing people really respond to,
+ you can use the individual slider style tweaks
+ that they provide on a design by design basis.
+ So here's another project that I'm working on.
+ One of the things that really bothers me
+ about the AI jobs discourse right now
+ is that people are so focused
+ on the destructive side of creative destruction
+ that they're not spending any time
+ on thinking about what new jobs get created
+ because of things that AI changes.
+ I've been spending some time trying to game out
+ where I think some of those jobs will exist
+ and what their characteristics are
+ and how many of them there might be
+ and turn that into this draft
+ of a World's Fair style expo
+ for the jobs of the future.
+ Over in the tweak section,
+ you can see I can change palette
+ with just a single click.
+ I can iterate on the layout.
+ I can modulate how interactive it is
+ and I can automatically change the fonts.
+ And people really love these sliders.
+ The smart ape on Twitter in fact
+ calls them the killer feature.
+ They write,
+ everyone is talking about prompting,
+ nobody talks about the sliders
+ which are generated per design.
+ Spacing, density, color warmth,
+ layout tightness, each one is built
+ for your specific artifact.
+ It's what makes this feel like a design tool
+ and not a prompt box with a preview pane.
+ Now there are some challenges though.
+ Frequent AIDB guest
+ and AIDB education collaborator
+ Newfar Gaspar
+ wrote that the three things
+ that impressed her about claw design
+ were these auto-generated tweaks
+ saying that this type of click to preview
+ color swatch changes
+ and other UX elements
+ make in her words
+ iteration feel radically different
+ from every other AI design tool I've used.
+ She also points out
+ that the design system translation
+ from examples is real
+ i.e. when you drop an existing branded deck in
+ even without a brand guide
+ or a design.md file
+ claw design successfully extracted
+ the visual language
+ and stayed consistent
+ across the new artifact.
+ And finally she says
+ it keeps polishing on its own.
+ After generating it
+ continues to iterate
+ without being asked
+ fixing text overflows, inconsistencies,
+ things it thinks it can improve.
+ Feels like a designer
+ doing a second pass
+ before handing it over.
+ However, Newfar points out
+ that there are some challenges as well.
+ One of the big ones for her
+ was the exports.
+ She had a ton of problems
+ moving particularly slides
+ into other formats.
+ PowerPoints that didn't have the fonts
+ that Claude used
+ had significant quality degradation.
+ She got error messages
+ trying to move it over into Canva.
+ She could export things as screenshots
+ but it was slow and not editable.
+ Basically the only export methodology
+ that actually worked well was HTML.
+ Simon Smith also pointed out
+ that the lack of a native image generator
+ does have limits.
+ He writes
+ it doesn't have a native image generator
+ as far as I can tell
+ so when it needs images
+ it will create SVGs.
+ It's pretty good with SVGs
+ but this of course limits
+ the type of images it can create.
+ So for most people
+ the biggest limiter so far
+ has certainly been the rate limiting.
+ Josh Gonzalez says
+ oh so Claude design
+ has its own usage limit
+ outside of everything else
+ and of course already hit it
+ so now I can't use it
+ until next Friday?
+ Okay.
+ YouTuber Theo writes
+ really liking Claude design so far
+ except for the fact that
+ it just wiped out my project
+ after burning 10% of my usage.
+ Greg Eisenberg from the Startup Ideas podcast
+ found that for a lot of use cases
+ it was really good.
+ He gave wireframing a 9 out of 10
+ mobile app design an 8.5 out of 10
+ deck research and design
+ a very specific 8.7 out of 10
+ and video creation a 4.5 out of 10.
+ Effectively while the video creation
+ feature is novel
+ and might be valuable in some specific contexts
+ it's certainly not replacing
+ other video creation tools just yet.
+ Speaking of which
+ what are the right comparisons
+ for Claude design?
+ I mentioned Canva before
+ basically saying that I thought
+ that they were slightly different
+ I don't know if Canva would agree
+ with the characterization of them
+ as an asset first design tool
+ as opposed to Claude design
+ systems first design
+ but that certainly reflects at least
+ my usage
+ and what's more Canva is just
+ a much more full-suited tool at this point
+ with a lot of things that I have
+ a hard time imagining
+ that Claude will ever want to build into this.
+ The more proximate comparison
+ and certainly the one that markets ran to
+ was with Figma
+ now part of that of course is
+ because Mike Krieger left the board of Figma
+ but I still don't think it's exactly accurate
+ I think it's playing in some similar spaces
+ but for me it feels closer to Figma
+ for non-Figma users
+ than a Figma replacement
+ for existing Figma users
+ I kind of think that it brings
+ a lot of what designers like about Figma
+ into a package
+ that's for people for whom
+ Figma might be a little bit too much program
+ now maybe the market is right
+ and that's just a temporary state
+ and the immediate seven-point drop
+ in Figma share price
+ reflects where things go
+ but for now like I said
+ it feels to me like the two audiences
+ that Anthropic is pushing this towards
+ are one Claude coders
+ which will of course have some overlap
+ with the people who currently use Figma
+ to the extent that those Claude coders
+ don't have to collaborate with designers
+ in the same way that they used to
+ and two non-designer knowledge workers
+ particularly marketers
+ there is some overlap with Google Stitch
+ although I do think that Stitch is a lot closer
+ to an AI native Figma experience
+ than is Claude design
+ where I really see the most comparison
+ at least in terms of direct challenges
+ are with the general agent tools
+ GenSpark and Manus
+ pretty much my main use case for these tools
+ has been code powered slide and visual design
+ and that's pretty much exactly
+ what you can do with Claude design now
+ now I certainly don't want to argue
+ that just because my particular use case
+ for GenSpark and Manus
+ now has competition from Claude design
+ that a everyone's use cases are disrupted
+ or b that those are even the most important
+ use cases for GenSpark or Manus
+ it just does have enough overlap
+ that it's worth calling out
+ so let's go back now
+ and actually look at a few of the things
+ that I designed
+ to get a sense of what you can do
+ remember we were designing a mobile app
+ companion to the web builder
+ context portfolio
+ Claude design organized the mobile app
+ wireframes into four categories
+ the first was the daily prompt
+ which it compared to Duolingo for self-knowledge
+ and you can see that in addition to showing
+ the wireframe it also has an annotation
+ explaining what it was doing
+ although in this bunched up view
+ that's a constraint of the video
+ it gets a little squeezed
+ you can still see that it's trying to
+ provide you the the context you need
+ to give it better feedback
+ to do the next version better
+ it also had three other sections
+ a voice scratch pad
+ a portfolio glance
+ and the ambient things like notifications
+ a couple of the things that I built
+ that I wanted to point out
+ the first is that I gave it GPT-54
+ and Opus 4.7's analysis
+ of the most recent AI usage pulse survey
+ and how to turn that into a slide
+ presentation that could also be
+ published as a website
+ it actually gave me three different
+ visual versions
+ and this is the one that I selected
+ I also felt like I might have overly
+ constrained how it approached this one
+ with the onboarding questions
+ and so for a second version
+ I just gave it the 1950s retro
+ futurism as a design brief
+ and let it rip
+ and I think what this shows to me
+ is that to the extent that your usage
+ and rate limits allow for it
+ there is something valuable
+ about being a little less prescriptive
+ especially if you are open to different
+ directions
+ as always with design better or worse
+ is going to be a little bit in the
+ eye of the beholder
+ but there are certainly parts of the
+ slides that it did
+ unencumbered by my design prompts
+ that I like and think are better
+ for one it has this little toggle
+ up here where you can view the whole
+ thing as a single webpage
+ or you can view it as slides
+ I already shared the AI credential
+ overview video
+ and you can see here again
+ another great example of the UX
+ that NuFar was talking about
+ where the tweak section
+ allows you to very quickly change
+ and view things
+ in a way that feels very different
+ than other AI design tools
+ and lastly going back to the jobs
+ of the future world's fair page
+ the thing that I would point out on
+ this one
+ is that I think one of the areas
+ in which cloud design will shine
+ is when you're trying non-standard
+ things
+ having a website as a world's fair
+ is not going to just draw on
+ standard web best practices
+ it's going to take it getting creative
+ and that's where the sort of iteration
+ that you can do
+ pretty quickly with cloud design
+ is really going to shine
+ so if you want to go experiment
+ with cloud design
+ here are seven things that I think
+ you should try
+ first of all definitely do a set of
+ slides
+ and keep in mind that when it comes
+ to doing slides
+ you don't necessarily need to hand
+ it the entirety of the information
+ there
+ you can take advantage of
+ cloud's reasoning capability
+ and hand it something that you
+ want it to turn into slides
+ as I did with cloud and chat
+ GPT's assessment
+ of this monthly survey data
+ I would also definitely try a
+ web project
+ I think this is going to be one of
+ the core use cases
+ is basically cloud design
+ complimenting cloud code
+ for the copious number
+ of websites and web apps
+ we all build now
+ I think that you should try
+ a simple launch video
+ I would think of something
+ that's well suited to the
+ SVG word heavy kind of design
+ that this is going to excel in
+ as opposed to something that needs
+ native image generation
+ in a different way
+ but since this is a pretty new
+ capability
+ it's one that I think
+ that people might find
+ themselves attracted to
+ just because it's not replacing
+ something it's a net new
+ opportunity for them
+ I think that you should try to
+ develop brand assets
+ although my guess is that this is
+ going to be one area
+ where cloud design might
+ struggle in terms of getting you
+ what you need
+ although I could be wrong about
+ that
+ where an area that I think it
+ will do better is around
+ an overall design system
+ for this what I would suggest
+ is take some slide deck
+ or presentation of yours
+ that you like
+ or the best part of your
+ company's website
+ and then either ask it to
+ improve that and turn it
+ into a design system
+ that's transportable
+ or if you're not confident
+ that it's exactly where you
+ need it to be
+ ask it to build on what you
+ like
+ some other brand that you like
+ and see how it integrates the two
+ finally for some more
+ advanced and bonus usage
+ try wireframing some mobile app
+ even if it's just one that
+ you're thinking about
+ just for demo purposes
+ and from your personal life
+ the reason to do this
+ is to see cloud designs
+ product thinking in action
+ and finally if you have
+ any context for it
+ I certainly think that
+ trying to build a
+ Shopify or product site
+ could be really valuable as well
+ now it's only been
+ a few days since this has
+ been live
+ and so so far there
+ aren't all that many
+ tips and tricks
+ too that stood out to me
+ as I was reviewing
+ Ryan Mather writes
+ no one to slow down
+ and do things by hand
+ he writes new icons
+ spot illustrations naming
+ some details will always
+ make an outsize impact
+ it can be easy to get sucked
+ into the hyperspeed
+ of agentic design
+ knowing when to slow down
+ is an art form of its own
+ I think this is a great
+ point
+ and one of the ways to
+ invest the time that
+ you are saving
+ with cloud design
+ is to be able to focus
+ on those handful of
+ details that really matter
+ another one again
+ from the smart ape
+ they say
+ the default aesthetic
+ is generic sass
+ ban it explicitly
+ they write
+ without constraints
+ cloud design defaults
+ to enter
+ roboto
+ aerial
+ and predictable gradients
+ it's the YC batch aesthetic
+ to get anything
+ distinctive
+ you have to ban it
+ in the prompt
+ no enter
+ no generic gradients
+ no stock
+ blue to purple
+ this isn't in
+ any documentation
+ it's the first tip
+ every serious user
+ discovers
+ I will keep saving
+ those tips
+ and tricks
+ and how-tos
+ as they come along
+ but for now
+ that is cloud design
+ I am excited of
+ course to see
+ what you build with this
+ but for now that is gonna do it
+ for today's AI Daily Brief
+ thanks as always for listening
+ or watching
+ and until next time
+ peace
