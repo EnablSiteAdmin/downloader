@@ -1,0 +1,679 @@
+ Today on the AI Daily Brief, how Apple's new CEO might change or not their AI strategy.
+ Before that on the headlines, a new feature that used to be controversial might become
+ very commonplace soon.
+ The AI Daily Brief is a daily podcast and video about the most important news and conversations
+ in AI.
+ Alright friends, quick announcements before we dive in.
+ First of all, thank you to today's sponsors, Blitzy, KPMG, ZenCoder and Granola.
+ To get an ad-free version of the show, go to patreon.com.ai-dailybrief or you can subscribe
+ on Apple Podcasts.
+ If you are interested in learning more about sponsoring the show, send us a note at sponsors.ai-dailybrief.ai.
+ While you're at ai-dailybrief.ai, you can see everything going on in the ecosystem.
+ Right now I've got an AI Credential Survey live.
+ If you would do that, it'll take you about 10 seconds and would very much help us plan
+ some next moves.
+ But we got a loaded slate of headlines today, so let's dive in.
+ We kick off today with an interesting new feature announcement from OpenAI.
+ The company has shipped a new memory feature in Codex called Chronicle.
+ This is something that we've seen a couple times from a couple different companies, although
+ it's usually been surrounded by some amount of controversy, and in the case of Microsoft,
+ a withdrawal of the feature entirely.
+ Chronicle uses screen captures to build a running memory of your workflow.
+ The feature runs as a background agent, taking screenshots and deciphering them to
+ build memory as you work.
+ Now OpenAI framed the feature as being a quality of life improvement by improving Codex's understanding
+ of your work.
+ They write, with Chronicle, Codex can better understand what you mean by this or that,
+ like an error on screen, a doc you have open, or that thing you were working on two
+ weeks ago.
+ Over time, it helps Codex learn how you work, the tools you use, the projects you return
+ to, and the workflows you rely on.
+ Now they did warn that because Chronicle runs as a background agent, it will chew
+ through usage limits.
+ The screenshots also carry some privacy and access concerns.
+ All my old Bitcoin buddies are screaming at their screens right now as I talk about
+ this.
+ Yet it's pretty clear that OpenAI is aiming this at professionals who are working
+ on secure systems with their company picking up the tab on usage.
+ Apparently, the feature is impressed internally with President Greg Brockman writing
+ that it feels, quote, surprisingly magical to use, and Sam Altman saying the
+ internal working name for this was telepathy, and it feels like it.
+ Codex developer Tebo wrote, this is early and consumes quite a bit of tokens,
+ but it has changed how I and many folks at OpenAI use Codex.
+ Now like I said, when these types of features were first announced, they were
+ announced as general Windows type features, as opposed to something very
+ discreet for a specific type of builder in a specific use case, and maybe for
+ people to balance on the value of that context changes how people will
+ receive it.
+ I've always sort of thought that this was one of those features that one
+ group who is used to an old way of doing things will think is a complete
+ privacy nightmare, but in the future, people will just assume is completely
+ normal.
+ Staying on new features for a moment, Anthropic has shipped a new feature
+ for co-work that they're calling live artifacts.
+ The feature allows users to build dashboards and trackers using live
+ data feeds from connected apps.
+ Co-work developer Felix Riesberg showed off the flexibility of the
+ new feature.
+ In one example, the feature produced a personalized morning brief including
+ a meeting schedule, correspondence summary, and key status indicators.
+ In another, the feature produced a dashboard for a fictional lunar
+ mission.
+ It feels to me like a lot of these features from both Anthropic and
+ OpenAI are in some ways, quote, unquote, just UX upgrades on stuff you
+ could already do.
+ But given that the whole point is allowing you to do more faster and
+ better, UX upgrades that cement and simplify workflows can be
+ significant unlocks for the people using them.
+ Speaking of Anthropic, CEO Dario Amore met with key White House
+ officials on Friday to talk through the cybersecurity
+ implications of mythos.
+ Among others, the White House Chief of Staff Susie Wiles and
+ Treasury Secretary Scott Besant were there.
+ In a statement, the White House called this a productive and
+ constructive introductory meeting.
+ They released a very milk-toast generic kind of statement.
+ But given the hostile rhetoric towards Anthropic recently,
+ many viewed this as the administration walking back
+ hostilities in recognition that Anthropic's technology has
+ big implications for national security.
+ Anthropic's lawsuit against the Pentagon is still ongoing.
+ And the State Department, Health and Human Services, and
+ the Federal Housing Finance Agency have all terminated
+ Anthropic contracts.
+ Of course, at the same time over the weekend, Axios reported
+ that the NSA is actively using the mythos preview
+ model despite their parent agency, the Department of
+ Defense, insisting that Anthropic is a supply chain risk.
+ Axios writes, the government's cybersecurity needs appear to
+ be outweighing the Pentagon's feud with Anthropic.
+ Adding more evidence to the idea that there may be a
+ detente forming, President Donald Trump himself this
+ morning said, they, Anthropic, came to the White House a
+ few days ago, and we had some very good talks with them.
+ And I think they're shaping up.
+ They're very smart.
+ I think we'll get along with them just fine.
+ Now, the administration's actions mirror a fairly
+ significant response to mythos on Wall Street.
+ Central Bank heads across the globe have put
+ financial institutions on high alert, and the mythos
+ preview has expanded to cover numerous other banks.
+ When it launched, the preview was only extended to JP Morgan,
+ but around a dozen major banks across the US and the UK
+ are now participating.
+ To be perfectly honest, the whole conversation feels a
+ little bit like big institutions just waking up to the fact
+ that models in general have gotten really good, as opposed
+ to there being some massive leap with this one
+ specifically.
+ But we did kind of get a preview this week of what a
+ heightened pattern of security incidents might look like.
+ Two big ones were AI development platform
+ Vercell disclosed a major security incident.
+ Describing the attack on Sunday, Vercell said that hackers
+ had gained access to an employee's credentials
+ through a third-party tool.
+ The hackers then accessed additional Vercell systems
+ and exfiltrated user data.
+ Vercell said the incident impacted only a limited group
+ of users who have been contacted.
+ The attack was attributed to criminal hacking
+ and extortion group Shiny Hunters.
+ The group has carried out dozens of sophisticated attacks
+ since 2020, claiming responsibility for last year's
+ Jaguar and Land Rover and Ticketmaster attacks,
+ and more recently hitting Rockstar Games
+ through their Snowflake integration.
+ Vercell CEO Guillermo Roche commented,
+ we believe the attacking group to be highly sophisticated
+ and, I strongly suspect, significantly accelerated by AI.
+ They moved with surprising velocity
+ and in-depth understanding of Vercell.
+ Lastly today in some financing news,
+ DeepSeq is taking outside investment for the first time
+ in order to compete with the US mega labs.
+ Until now, the lab has been entirely funded
+ by their parent company,
+ Chinese hedge fund High Flyer Capital.
+ The information reports that DeepSeq is now seeking
+ 300 million at evaluation of at least 10 billion.
+ Worth noting that while the sum is nothing to sneeze at,
+ it's a drop in the ocean compared to the war chest
+ being assembled in the US.
+ Cursor is seeking 2 billion in funding
+ in a round that would see them valued at $50 billion.
+ Bloomberg reports that fundraising talks are active
+ with previous backer entries
+ in Horowitz leading the round.
+ Nvidia is also said to be planning
+ to participate along with Thrive Capital.
+ The round would be a significant boost
+ to Cursor's valuation,
+ which reached 29 billion last November.
+ Separately, rumors are swirling
+ that XAI plans to provide compute
+ to power Cursor's next training run.
+ Business Insider reports that Composer 2.5,
+ Cursor's proprietary model,
+ will be trained on tens of thousands of GPUs
+ housed in XAI's data centers.
+ In public markets,
+ TSMC has booked another quarter of record revenue
+ and are forecasting even more over the coming year.
+ The company reported a 35% boost to revenue
+ over the past year
+ and also lifted growth expectations
+ above 30% for the coming year.
+ Now, news isn't all good.
+ Bloomberg, for example,
+ discussed a range of factors that could weigh
+ on TSMC's profitability over the coming year,
+ including rising input costs from the Iran War
+ and questions about the continued growth
+ of the data center build out.
+ But for now, the story is mostly
+ about capacity constraints.
+ Fab manufacturer ASML can't supply lithography machines
+ fast enough to keep up with TSMC's expansion plans.
+ Memory chip supply is another limitation.
+ Nikkei Asia reports that the memory shortage
+ is expected to continue until at least 2027.
+ Chip producers are only focusing on high band
+ with memory for AI chips
+ to the exclusion of consumer memory,
+ with analysts saying the current pace of production
+ is only sufficient to meet 60% of demand.
+ New facilities are being constructed
+ by all the major producers,
+ but the first plans are scheduled to come online
+ only next year.
+ Industry figures have flagged
+ the shortage will continue much longer,
+ with some suggesting that supply constraints
+ will continue all the way out into 2030.
+ Finally today, the vague posting has reached a peak
+ and it seems very clear
+ that we are going to get some new open AI goodies
+ in short order.
+ Just as I was finishing recording this,
+ open AI posted a screenshot
+ suggesting that at 3pm Eastern today,
+ there would be a live stream from the company
+ and given that they labeled the screenshot
+ with the caption,
+ this is not a screenshot,
+ it seems pretty clear
+ that we're getting their latest image model today.
+ I'm sure we will be discussing that tomorrow,
+ but for now, that's going to do it
+ for today's AI Daily Brief headlines.
+ Next up, the main episode.
+ You've tried in IDE co-pilots.
+ They're fast, but they only see
+ local silos of your code.
+ Leverage these tools across a large enterprise code base
+ and they quickly become less effective.
+ The fundamental constraint, context.
+ Blitzy solves this with infinite code context.
+ Understanding your code base
+ down to the line level dependency
+ across millions of lines of code.
+ While co-pilots help developers write code faster,
+ Blitzy orchestrates thousands of agents
+ that reason across your full code base.
+ Allow Blitzy to do the heavy lifting,
+ delivering over 80% of every sprint autonomously
+ with rigorously validated code.
+ Blitzy provides a granular list
+ of the remaining work for humans
+ to complete with their co-pilots.
+ Tackle feature additions, large-scale refactors,
+ legacy modernization,
+ greenfield initiatives, all 5x faster.
+ See the Blitzy difference at blitzy.com.
+ That's blitzy.com.
+ All right, folks, quick pause.
+ Here's the uncomfortable truth.
+ If your enterprise AI strategy is we bought some tools,
+ you don't actually have a strategy.
+ KPMG took the harder route
+ and became their own client zero.
+ They embedded AI and agents across the enterprise,
+ how work it's done, how teens collaborate,
+ how decisions move, not as a tech initiative
+ but as a total operating model shift.
+ And here's the real unlock.
+ That shift raised the ceiling on what people could do.
+ Humans stayed firmly at the center
+ while AI reduced friction, serviced insight
+ and accelerated momentum.
+ The outcome was a more capable, more empowered workforce.
+ If you want to understand
+ what that actually looks like in the real world,
+ go to www.kpmg.us slash AI.
+ That's www.kpmg.us slash AI.
+ So coding agents are basically solved at this point.
+ They're incredible at writing code.
+ But here's the thing nobody talks about.
+ Coding is maybe a quarter of an engineer's actual day.
+ The rest is stand-ups,
+ stakeholder updates, meeting prep,
+ chasing context across six different tools.
+ And it's not just engineers.
+ Sales spends more time assembling proposals than selling.
+ Finance is manually chasing subscription requests.
+ Marketing finds out what shipped two weeks after it merged.
+ ZenCoder just launched ZenFlow work.
+ It takes their orchestration engine,
+ the same one already powering coding agents
+ and connects it to your daily tools.
+ JIRA, Gmail, Google Docs, Linear, Calendar, Notion.
+ It runs goal-driven workflows that actually finish.
+ Your stand-up brief is written before you sit down.
+ Review cycle coming up.
+ It pulls six months of tickets and writes the prep doc.
+ Now you might be thinking,
+ didn't Open Claw try to do this?
+ It did, but it has come with a whole host
+ of security and functional issues,
+ which can take a huge amount of time to resolve.
+ ZenCoder took a different approach.
+ Sock 2, type 2 certified, curated integrations,
+ tighter security perimeter.
+ Enterprise grade from day one.
+ Model agnostic and works from Slack or Telegram.
+ Try it at zenflow.free.
+ Today's episode is brought to you by Granola.
+ Granola is the AI notepad
+ for people in back-to-back meetings.
+ You've probably heard people raving about Granola.
+ It's just one of those products
+ that people love to talk about.
+ I myself have been using Granola for well over a year now,
+ and honestly, it's one of the tools
+ that change the way I work.
+ Granola takes meeting notes for you
+ without any intrusive bots joining your calls.
+ During or after the call, you can chat with your notes,
+ ask Granola to pull out action items,
+ help you negotiate, write a follow-up email,
+ or even coach you using recipes,
+ which are pre-made prompts.
+ Once you try it on a first meeting,
+ it's hard to go without.
+ Head to granola.ai slash ai-daily and use code AI-daily.
+ New users get 100% off for the first three months.
+ Again, that's granola.ai slash AI-daily.
+ Welcome back to the AI Daily Brief.
+ Apple has had a weird relationship with AI.
+ For the first part of the post-ChatchiBT period,
+ they kind of just did nothing.
+ The leader of their AI efforts, John Jean Andrea,
+ was reportedly skeptical of LLMs,
+ and it certainly showed in their non-action.
+ Now, eventually, the pressure got too much
+ and they did announce Apple Intelligence.
+ That was back in the middle of 2024,
+ only to promptly do literally nothing with it
+ and not even deliver on the most basic features
+ that they had promised,
+ including the one that really everyone wanted,
+ which was just an updated Siri.
+ On and on time went, these problems didn't get fixed
+ and people basically were counting them out of the AI race.
+ Then something interesting happened
+ at the beginning of this year.
+ That was, of course, the emergence of Open Claw,
+ a new open-source harness for agents
+ that really encapsulated the shift to the agentic era
+ that we've experienced in 2026.
+ Now, even though it was not a requirement,
+ a huge number of people raced out
+ to get dedicated hardware for their Open Claws,
+ and of course, the device of choice was the Mac Mini.
+ So much so that it led to the Mac Mini
+ being sold out in stores everywhere,
+ all around the country.
+ On top of that, every time some new feature came out,
+ Claw Desktop, Codex Computer Use,
+ it's always for Apple hardware.
+ Max Weinbach recently wrote,
+ if you don't have a Mac and are trying to keep up
+ with the cutting edge AI, you literally can't.
+ Everything is Mac only or Mac first.
+ This is a huge deal.
+ Leading AI products are essentially built for Mac
+ with everything else being an afterthought.
+ This is significant.
+ What's more, as people started to become skeptical
+ of the hardware build-out that's going on,
+ Apple's complete non-participation in that build-out
+ started to seem like an active genius
+ rather than an active omission.
+ AI commentator, EJAS, wrote,
+ Apple really nailed AI by doing nothing, lol.
+ 135 billion in the bank,
+ stole Google's model for a measly one billion,
+ by which he's talking about the fact
+ that Apple announced this year
+ that they would be using Gemini to power Siri,
+ now forcing competitors to plug their models into Siri
+ if they wanna access 2.5 billion Apple users.
+ Patience or laziness paid off massively.
+ Chicago Booth professor, Alex Emass, wrote,
+ a while ago, people were ripping on Apple
+ for not investing in AI like the other tech companies,
+ but Apple's edge has always in the job's cook era
+ been to know its strength and play to it.
+ Apple is primarily a hardware company.
+ Its hardware is extremely popular
+ because of its usability.
+ This allows Apple to create a closed system, app store,
+ and charge software and platform providers
+ fees to get access to its huge user base.
+ In AI, its strategy was always going to be
+ wait out the race, which is still ongoing,
+ and make a deal with who they perceived
+ to be the most compatible with its hardware.
+ Instead of burning through huge amounts of money
+ without any comparative advantage in the space,
+ cough, meta, Apple kept making money
+ and now has access to one of the top models
+ while sitting on a pile of cash.
+ So for Alex here, the strategy
+ in his estimation was intentional.
+ Tech journalist David Pogue agrees,
+ saying as summed up by Big Brain AI
+ that Apple's AI slowness was actually
+ a deliberate privacy strategy.
+ Now, I'm a lot more skeptical
+ that this was super intentional
+ as opposed to just the default result
+ of doing nothing which happened to work out,
+ but in either case, that sets the context
+ for the news that Apple CEO Tim Cook is stepping down
+ and John Turnes, who heads their hardware division,
+ is stepping into the role.
+ Cook is leaving a 15-year legacy as the head of Apple.
+ When he took the role in 2011,
+ it was obvious that he was not just trying
+ to follow in Steve Jobs' shoes,
+ that he was indeed a different type of Apple CEO.
+ Cook was promoted from the COO role
+ and led huge initiatives to outsource production
+ to China while maintaining quality standards.
+ Cook doubled revenue and profit within a decade
+ and transformed Apple from a $350 billion tech giant
+ to the $4 trillion force they are today.
+ Now, the skeptical take, as summed up
+ by Polymath on Twitter,
+ is that that's an 11x market cap increase
+ while in the same period, Microsoft saw a 14x,
+ Google saw a 20x, Amazon did 28x,
+ and Facebook did 35x.
+ As they put it, Cook led Apple through a period
+ where every tech company expanded,
+ yay for him, and ultimately,
+ Cook was never known for his product taste.
+ Indeed, he had a conservative view on product
+ consistently choosing iteration rather than innovation.
+ Outside of the enormously successful AirPod,
+ his tenure featured no breakthrough product
+ that could match the iPhone, the iPod, or the MacBook
+ in a way that reshaped tech.
+ Now, where the chinks in the armor started to show
+ was following the release of ChatGPT in late 2022.
+ Reports at the time suggested that Apple
+ didn't understand the appeal of chatbots,
+ instead doubling down on Siri's voice interface,
+ even though that voice interface was already
+ by that time behind relative to other voice assistants.
+ Now, holding aside the Mac mini renaissance
+ that we've been talking about,
+ Polymath again sums up the Apple
+ screwed it up argument writing,
+ Apple had the most compelling pre-AI experience in Siri.
+ They had everything.
+ They had mounds of user data,
+ audio and transcription training data,
+ the biggest and most sophisticated user data network
+ in the world by far, and they blew it.
+ They should be so far ahead of the competition on AI
+ that it makes their competitors fall into despair.
+ Instead, they are a non-player
+ in the biggest tech revolution since mobile,
+ maybe even since the internet.
+ They could have leveraged their data advantage
+ to create astonishingly powerful models.
+ They make their own silicon.
+ They could have beat Nvidia to the punch
+ on hardware if Cook had any foresight.
+ Instead, they just make high-end devices
+ and now they also make TV shows
+ and won an Oscar for a movie no one saw.
+ I'm sorry, but that's underwhelming.
+ So wherever you find yourself between these two extremes,
+ this is the state of play that John Turner steps into.
+ And what's very clear is that the number one question
+ that Turner's is gonna face is around Apple.
+ Whether he could get Apple's AI strategy in order
+ was one of the three big questions
+ the information suggested he faced,
+ with the others being will he be able
+ to actually navigate the transition
+ with Tim Cook still around as executive chairman
+ and whether he would be able
+ to successfully decouple Apple from Chinese suppliers.
+ Other publications squarely pointed AI as the thing.
+ The Economist podcast chose to highlight
+ his quote, incredibly daunting task
+ of remaking the company for the AI era
+ and the Financial Times article was called
+ Apple's next chief, John Ternus,
+ faces defining AI moment.
+ Now some think that Ternus is exactly
+ what's needed at Apple.
+ Ben Bajor and the CEO of consumer research firm,
+ Creative Strategy said,
+ Ternus is the right person at the right time
+ to take on the next stage of growth at Apple.
+ The company is drastically increasing
+ new product launches in the next few years.
+ They want to go on another growth cycle
+ with new and existing products.
+ Now in terms of who Ternus is,
+ he is a long-term Apple employee,
+ having joined the company in 2001
+ and risen through the ranks.
+ It is a very Apple-y strategy to promote from within
+ and as the Wall Street Journal puts it,
+ Ternus was known for deft politicking
+ inside the giant company.
+ Now for some, the promotion of Ternus
+ as opposed to product lead, Craig Frederighi,
+ actually itself had to do with AI.
+ Said one anonymous former Apple leader
+ quoted by the Financial Times,
+ for a time it might've been Craig Frederighi
+ as successor, but in my opinion
+ he fumbled the bag on AI and Siri.
+ Bloomberg's Mark Gurman,
+ who is possibly the most well-informed journalist
+ when it comes to Apple,
+ thinks that Ternus is up to the task.
+ He argued that Ternus will bring back jobs
+ or a decisiveness, noting that he will be stuck
+ between maintaining the juggernaut
+ of the iPhone business
+ while taking chances on new product.
+ One of Gurman's sources actually pointed
+ to decisiveness as the central difference
+ between Cook and Ternus.
+ They commented, Ternus will make decisions.
+ If you go to Tim with A or B, he won't pick.
+ He'll ask a series of questions instead
+ if he has concerns.
+ With Ternus, the source said,
+ it could be right or wrong,
+ but at least it's a decision.
+ Certainly the lack of decisiveness
+ has marred Apple's AI story over the past years.
+ And even if you think they landed on their feet,
+ Apple went through multiple reorganizations
+ within their AI research team,
+ replaced their AI leader,
+ partnered with OpenAI, partnered with Google,
+ and of course, released their own AI product
+ that, as I mentioned before,
+ didn't deliver on any of the advertised features.
+ And still, given the significance of Apple hardware,
+ some are wondering if Apple is going to simply double down
+ on hardware as their AI strategy.
+ With the appointment of Ternus coming over
+ from hardware providing evidence of that approach.
+ Overall, the market seems cautiously optimistic.
+ While the AI industry itself, I would suggest,
+ is a little more skeptical.
+ We've got WWDC coming up
+ and a new iPhone slate in the fall.
+ But honestly, as it's been for a very long time,
+ just releasing an actually good Siri would go a long way
+ to getting people excited about Apple AI once again.
+ Now, moving over to another company in Big Tech
+ that seemed to have incredible wind in its sales
+ coming into the year,
+ but has subsequently faced a new headwind,
+ Google has reportedly created a strike team
+ to catch up on AI coding.
+ The information reports that DeepMind researchers
+ have acknowledged that Anthropic has the lead on coding,
+ and this so-called strike team
+ aims to get Gemini up to snuff.
+ The reporting is that Google co-founder Sergey Brin
+ will be directly involved with the team.
+ In a recent memo, Brin told DeepMind staffers,
+ to win the final sprint,
+ we must urgently bridge the gap in agentic execution
+ and turn our models into primary developers.
+ Now, interestingly, one nuance is that this project
+ isn't necessarily about releasing
+ more advanced coding models.
+ Instead writes the information,
+ Google is now putting more emphasis on models
+ that write code the company can use internally,
+ a strategy shift from focusing primarily on coding models
+ for external customers.
+ That requires training the models on Google's code,
+ which is important for performance
+ because Google's private code base differs significantly
+ from the external code it uses
+ to train general purpose coding models.
+ The article noted a recent quote
+ from Claude code developer Boris Cherny,
+ who recently said that pretty much 100%,
+ his words of Anthropics code is now written by AI.
+ By contrast, Google CFO Anat Ashkenazi,
+ said that coding agents write around half of Google's code now
+ during their February earnings call.
+ Even if with the agentic coding onslaught this year,
+ Google has once again fallen behind
+ when it comes to the AI narrative,
+ it seems to me that there's still a fair amount of optimism
+ about their ability to get back into it.
+ Yuchen Jin writes,
+ it's surprising to me that Google has the world's
+ largest internal code base,
+ yet lags behind Anthropic and OpenAI encoding and agents.
+ I think Sergey and founder mode
+ can fix it again this time.
+ Now, quiet as they might have felt,
+ Google IO is right around the corner in May,
+ so I expect we'll be hearing a lot more from Gemini
+ and the entire Google team in the pretty near future.
+ Over in Amazon, the company continues to hedge their bets
+ with a big investment in Anthropic.
+ So far this year, Amazon's AI strategy
+ has been in something of a transition phase,
+ shifting away from homegrown models
+ to focus on placing big bets on the leading labs.
+ They shuttered their AGI lab
+ and instead pushed their chips in on OpenAI,
+ committing to a $50 billion investment.
+ Now, it seems as though they wanna own a slice
+ of the entire segment, also committing
+ to a $25 billion investment in Anthropic.
+ The deal consists of $5 billion of commitment now
+ and an additional $20 billion tied to commercial milestones.
+ The companies frame the deal as an expansion
+ of their existing partnership,
+ which saw Amazon invest $8 billion over the past 18 months.
+ Functionally, the deal looks a lot like
+ Anthropic paying for chips with equity.
+ Amazon will provide five gigawatts of compute
+ using current and future generations
+ of their in-house training chips.
+ This will include both training and inference
+ with Amazon noting that significant training
+ of three capacity is expected to come online this year.
+ The deal could help resolve
+ Anthropic's painful inference shortage.
+ Anthropic said that the additional capacity
+ will start coming online this quarter
+ with one gigawatt expected to be added
+ by the end of the year.
+ As part of the deal, Anthropic will continue
+ to serve Claude through AWS,
+ ensuring the platform has full access
+ to Anthropic's product lineup.
+ Lastly today, an interesting story out of Meta.
+ On the one hand, sources suggest
+ that Meta is planning a 10% headcount reduction
+ beginning in May, impacting around 8,000 workers.
+ With those sources also suggesting
+ that this is the first round of layoffs
+ with more expected the second half of the year.
+ This has not been confirmed yet,
+ but has been widely reported.
+ But one interesting story that is official
+ is that Meta is launching a new training program
+ focused on the physical trades.
+ Called Level Up, the initiative provides training
+ for fiber technicians in partnership
+ with construction firm CBRE.
+ The free four-week training program
+ is available to Americans with no prior experience
+ and is suitable, they say, for high school grads
+ as well as mid-career professionals.
+ It includes classroom instruction, hands-on lab,
+ and team activities.
+ Successful graduates will be offered
+ work opportunities through Meta's contractor network,
+ primarily working on data center construction.
+ These roles Meta claims are highly paid and in high demand.
+ The company says they're aiming to train
+ thousands of people through the program
+ to address an acute labor shortage.
+ Writing, we built this program with CBRE
+ because the fiber technician field
+ in broader construction industry
+ is facing a nationwide shortage at a time
+ when data center demand is higher than ever.
+ Said Dina Powell McCormick,
+ Meta's president and vice chairman,
+ the future of the AI revolution depends
+ on a highly skilled US workforce,
+ one that rises to the challenge of building
+ and maintaining the complex systems
+ of power innovation.
+ Meta is proud to invest in technician training
+ to support our ambitious infrastructure goals.
+ Obviously, this is ultimately one small initiative,
+ but what I would say is yes, more of this, please.
+ The more that the AI industry can show
+ the creation side of creative destruction,
+ the better off we're going to be.
+ For now, that is gonna do it for today's
+ AI Daily Brief.
+ Thanks for listening or watching as always
+ and until next time, peace.
