@@ -1,0 +1,920 @@
+ Today on the AI Daily Brief, the new chat GBT images 2.0 model and why it's the
+ first image model for the agentic era. Before that on the headlines, a big team
+ up between SpaceX and Cursor. The AI Daily Brief is a daily podcast and video
+ about the most important news and discussions in AI. Alright friends, quick
+ announcements before we dive in. First of all, thank you to today's sponsors
+ KPMG, Blitzy, Granola and Mercury. To get an ad-free version of the show, go to
+ patreon.com slash aidailybrief or you can subscribe on Apple podcasts. Subscriptions
+ are just $3 a month for ad-free. If you want to learn more about sponsoring the
+ show, send us a note at sponsors.aidailybrief.ai and of
+ course aidailybrief.ai is where you can see all the things going on in the
+ ecosystem. Check it out, subscribe to the newsletter, come join us on the AI
+ operators community. Have a grand old time. And with that out of the way, let's
+ get into the headlines. SpaceX has signed a massive new deal with
+ Cursor that adds a pretty meaningful twist to their rapidly approaching IPO. On
+ Tuesday, SpaceX announced in a post on X, of course, SpaceX AI and Cursor are now
+ working closely together to create the world's best coding and knowledge
+ work AI. Now it had previously been rumored that Cursor would be renting
+ XAI servers for their next training run, but it now appears the
+ collaboration is going much deeper. SpaceX continued the combination of
+ Cursor's leading product and distribution to expert software
+ engineers with SpaceX's million H 100 equivalent Colossus training
+ supercomputer will allow us to build the world's most useful model. The
+ post also announced, and obviously this is the part that everyone
+ focused on, that SpaceX had been granted the rights to acquire
+ Cursor at a $60 billion valuation later this year. And if the
+ acquisition doesn't go through, SpaceX will pay Cursor $10 billion
+ for their collaborative work. The deal potentially solves a number
+ of problems for both companies. By some reports, Cursor has been
+ backed into a corner over the past six months. Reports have
+ suggested that they are making a loss on every Claude and Open AI token
+ they serve, so much of this year has been focused on developing a
+ state-of-the-art in-house model. And of course, beyond just the
+ training runs, Cursor will need access to a ton of additional
+ compute as they scale up revenue. The company is reportedly in
+ talks to raise $2 billion in venture funding, and even if that
+ round does close, they are still massively resource
+ constrained compared to Open AI and Anthropic. Going back to
+ the harness engineering episode from last week, the challenge
+ for Cursor is in short that the biggies are not choosing model
+ versus harness, they are doing both and. So then here's the
+ logic for why to team up with XAI. The company has access to
+ huge amounts of compute that at the moment aren't doing as
+ much as they could. Elon Musk has claimed the data centers
+ are currently being utilized for massive training runs, but
+ XAI has struggled to generate revenue from their products,
+ and they also haven't released an impactful model in
+ months, and at this point have no meaningful footprint in the
+ AI coding space. Cursor would provide a huge data pipeline
+ to help XAI catch up. A joint Cursor XAI coding model
+ could be exactly the kind of product that could help return
+ XAI to relevancy. XAI has already taken a look under the
+ hooded cursor with Musk poaching two senior engineering
+ leaders last month. Now, in addition to the Cursor deal,
+ which obviously for our purposes is the biggest part
+ of this news, the IPO disclosure process is also
+ uncovering a bunch of additional details about
+ SpaceX as well. The information got hold of confidential
+ disclosure documents, suggesting that Elon up to
+ stake in the company last year, purchasing 1.4 billion in
+ stock from current and former employees. SpaceX also
+ plans to award Elon a compensation package with
+ very lofty milestone goals. He could receive tens of
+ millions of shares of SpaceX tied to market cap
+ achievements ranging from 1.1 trillion all the way
+ up to 6.6 trillion. For context, SpaceX is expected
+ to target 1.5 trillion at IPO, meaning the low end
+ might be easily achieved. However, a 6.6 trillion
+ valuation exceeds Nvidia's 4.9 trillion as the most
+ valuable company in the world. The documents also
+ discuss a stock incentive tied to deploying 100 terawatts
+ of compute power via space faring data centers. Peak
+ energy demand in the US is less than 1 terawatt, giving
+ a sense that this is a science fiction style goal at
+ present. The IPO is currently expected in June and the
+ debate is on around what the implications are for
+ the entire AI industry. SpaceX will be going first.
+ So theoretically, their successor failure could impact
+ IPOs from open AI and Anthropic in the fall, and yet
+ I'm just not sure that that's exactly how it'll play out.
+ I think mostly the SpaceX deal is going to be a
+ referendum on how much exposure people want to
+ Elon. Maybe this cursor tie up makes the AI part of the
+ story less of a sideshow, but right now I'm just
+ not sure. In another very big story that broke last
+ night, an unauthorized group has gained access to
+ Claude Mythos playing right into cybersecurity fears.
+ Bloomberg reports that users from a private discord
+ group gained access to Mythos on the same day
+ Anthropic announced its preview release. That release
+ was of course intended to be limited to a small
+ group of companies for cybersecurity purposes.
+ When they announced the model, Anthropic told the
+ press that access would be tightly controlled to
+ ensure that it didn't end up in the wrong hands.
+ Bloomberg's source provided screenshots and a
+ live demonstration of the model, implying that
+ the breach hadn't been detected and that the
+ group still had access weeks later. The source
+ said that the group had been regularly using
+ Mythos but hasn't used it for cybersecurity
+ purposes in an attempt to avoid detection from
+ Anthropic. Instead, the group has been testing
+ the model on relatively mundane tasks like
+ website design. The source said the group isn't
+ interested in malicious use, they just want to
+ play around with unreleased models. Now in terms
+ of how they got access to this, the source said
+ that Mythos was accessed through a third-party
+ vendor where one member is employed, and it
+ also required a few educated guesses based on
+ information gleaned from the recent Merkort
+ data breach. Basically, the member working at
+ the third-party vendor has general access to
+ Anthropic's models including pre-release
+ models as part of an evaluation contract.
+ Anthropic responded to the report by stating,
+ we're investigating a report claiming
+ unauthorized access to Claude Mythos preview
+ through one of our third-party vendor
+ environments. Anthropic added that they have
+ no evidence that access went beyond the
+ third-party vendor's environment or that
+ it's impacting Anthropic systems. Now the
+ discussion of this on access has been
+ extremely breathless and overwrought,
+ which is perhaps understandable given the
+ way that Anthropic has chosen to
+ promote this model. Coincidentally, Sam
+ Altman had some pretty pointed comments
+ about the way Anthropic had introduced
+ Mythos. In a podcast interview that came
+ out earlier this week, he said,
+ if what you want is control of AI because
+ we're the trustworthy people, I think
+ fear-based marketing is probably the
+ most effective way to justify that. That
+ doesn't mean it's not legitimate in
+ some places, but it is clearly
+ incredible marketing to say, we have
+ built a bomb, we're about to drop it on
+ your head, we will sell you a bomb
+ shelter for a hundred million dollars.
+ You need to run it to access all your
+ stuff, but only if we pick you as a
+ customer. Wow, gloves are off. And it
+ seems like we might be getting Open AI's
+ different approach to that in not too
+ long. Lastly today, Google has
+ released a big new upgrade to their
+ deep research agents. The agent is now
+ available in two flavors, the standard
+ version and a state-of-the-art version
+ called Deep Research Max. The agent
+ now features MCP support to connect
+ third-party data sources for the
+ first time. As part of MCP support,
+ users can define arbitrary tools
+ rather than relying on the agent
+ to figure it out. The agents can now
+ also output charts and infographics
+ within their report, tapping into the
+ nanobanana models for image
+ generation. Both the normal and max
+ versions produce a pretty significant
+ bump to relevant benchmarks, with the
+ max version now state-of-the-art
+ compared to GPT 5.4 and Opus 4.6.
+ Interestingly, the agents are still
+ just Gemini 3.1 Pro under the hood,
+ the same as the previous version of
+ Deep Research. This means the
+ entire improvement was driven by
+ harness upgrades and additional
+ inference rather than a more
+ advanced model. The agents are only
+ available through the API, so they
+ are designed to be used in
+ professional workflows. Google said
+ that Deep Research Max is designed
+ to consult significantly more sources
+ and identify critical nuances that
+ are overlooked by other agents.
+ They wrote,
+ The result is a nuanced report that
+ draws from authoritative sources like
+ SEC filings and open access peer
+ reviewed journals, lays out information
+ well and transforms dense technical
+ data into actionable stakeholder-ready
+ formats. A small upgrade on the
+ surface but one which could be
+ extremely valuable to people who have
+ a Deep Research use case, for now
+ though of course that is not the new
+ model that everyone wants to talk
+ about today, so that is going to do
+ it for the headlines. Next up, the
+ main episode.
+ All right folks, quick pause. Here's the
+ uncomfortable truth. If your
+ enterprise AI strategy is we bought
+ some tools, you don't actually have a
+ strategy. KPMG took the harder root
+ and became their own client zero.
+ They embedded AI and agents across the
+ enterprise, how work gets done, how
+ teams collaborate, how decisions move,
+ not as a tech initiative but as a
+ total operating model shift.
+ And here's the real unlock. That
+ shift raised the ceiling on what
+ people could do. Humans stayed firmly at
+ the center while AI reduced friction,
+ serviced insight, and accelerated
+ momentum. The outcome was a more
+ capable, more empowered workforce. If
+ you want to understand what that
+ actually looks like in the real
+ world, go to www.kpmg.us
+ slash AI, that's www.kpmg.us
+ slash AI. If you're looking to
+ adopt an agentic SDLC, Blitzy is
+ the key to unlocking unmatched
+ engineering velocity. Blitzy's
+ differentiation starts with infinite
+ code context.
+ Thousands of specialized agents ingest
+ millions of lines of your code in a
+ single pass, mapping every dependency.
+ With a complete contextual
+ understanding of your code base,
+ enterprises leverage Blitzy at the
+ beginning of every sprint to deliver
+ over 80% of the work autonomously.
+ Enterprise grade, end-to-end tested
+ code that leverages your existing
+ services, components, and standards.
+ This isn't AI autocomplete. This is
+ spec and test-driven development at
+ the speed of compute. Schedule a
+ technical deep dive with our AI
+ experts at blitzy.com, that's
+ blitzy.com.
+ Today's episode is brought to you by
+ Granola.
+ Granola is the AI note pad for
+ people in back-to-back meetings.
+ You've probably heard people raving
+ about Granola. It's just one of
+ those products that people love to
+ talk about. I myself have been using
+ Granola for well over a year now
+ and honestly it's one of the tools
+ that change the way I work.
+ Granola takes meeting notes for you
+ without any intrusive bots joining
+ your calls. During or after the call
+ you can chat with your notes,
+ ask Granola to pull out action
+ items, help you negotiate, write a
+ follow-up email, or even coach you
+ using recipes which are pre-made
+ prompts. Once you try it on a first
+ meeting it's hard to go without.
+ Head to granola.ai
+ slash ai-daily and use code AI-daily
+ new users get 100% off for the
+ first three months.
+ Again that's granola.ai
+ slash AI-daily.
+ This episode is brought to you by
+ Mercury, radically different banking
+ now available for personal accounts.
+ I already use Mercury for my
+ business, so when they introduced
+ personal accounts it made immediate
+ sense for me.
+ I try to bring the same level of
+ intention to my personal finances
+ that I bring to building companies
+ and most traditional banks just do
+ not feel designed for that.
+ With Mercury Personal you can toggle
+ between business and personal in a
+ click. You can set up sub-accounts
+ for specific goals, automate transfers
+ so projects and savings fund
+ themselves, and put idle cash to
+ work with high yield savings, all
+ without friction. It's built for
+ people who care about how their
+ money moves and want tools that
+ actually keep up. Visit mercury.com
+ slash personal to learn more.
+ Mercury is a fintech company not
+ an FDIC insured bank. Banking
+ services provided through Choice
+ Financial Group and ColumnNA
+ members FDIC.
+ Welcome back to the AI Daily Brief.
+ Image generation models are
+ kind of an interesting phenomenon
+ in AI. They are in many ways
+ the simplest, quickest way to
+ understand the power of this new
+ generative medium.
+ In fact I think for many of us
+ it was in fact image generation that
+ was kind of our gateway into the
+ space.
+ As impressive as the initial
+ chat GPT was what really caught my
+ attention all the way back at the
+ end of 2022 in the beginning of
+ 2023
+ was the absolute feeling of being
+ a wizard when I was creating images
+ of Hemingway in Paris in the 1920s
+ with the mid-journey model at the
+ time which is about 100 iterations
+ ago at this point
+ and yet to some extent there's
+ always been a little bit of a gap
+ between how cool AI image
+ generation was
+ and how useful it was at least
+ for many people in many use cases
+ which is not at all to say that
+ AI image generation models have
+ just been novel rather than
+ useful. I personally have I don't
+ know a half dozen use cases
+ that I use them for literally
+ every single day
+ but if you think back at the
+ sequence of model releases
+ the big moments have been general
+ consumer viral moments like
+ OpenAI Studio Ghibli moment last
+ year. Now when it comes to this
+ new OpenAI model
+ what I want to argue with today's
+ show
+ is not only that we are getting to
+ a capability set that unlocks
+ more use cases
+ but also
+ that increasingly it is clear
+ that the power of the image
+ generation models is going to be
+ in their integration with other
+ systems
+ not just what they can do
+ standalone. Now when it comes
+ to this new chat GPT image model
+ there has been speculation for a
+ couple of weeks now that this
+ model was live in the world
+ being tested on arena. Many
+ users pointed to very impressive
+ generations from LM arena
+ that included things like hand
+ written notes
+ layouts of YouTube page
+ and a simple kind of janky
+ iPhone style image of a retail
+ store. What people were noticing
+ about these things
+ is how little they felt like AI
+ images. They just seemed like
+ random iPhone photo or a
+ screenshot
+ and people also identified that
+ they seem to have good world
+ knowledge. They weren't just
+ making stuff up in their images
+ they were actually bringing what
+ the model knew into their ability
+ to create. Yesterday
+ as I mentioned at the end of the
+ show open AI teased that the new
+ model would be coming in the
+ afternoon and indeed
+ on Tuesday around 3pm eastern
+ we got the new chat GPT images
+ 2.0. From a sheer quality
+ standpoint alone there is
+ absolutely no denying that the
+ model is fairly stunning
+ and that seems to largely be
+ consensus. Arena announced
+ that not only did GPT image to
+ take the number one slot
+ in their elo score human
+ preference board
+ it absolutely dominated. The
+ number two through 15 image
+ generators are all clustered
+ basically within 100 130 points
+ of each other number 15 flux to
+ dev had a score of 1149
+ whereas the previous leader
+ nano banana to had a score of
+ 1271 GPT image to came in over
+ the top with a 1512 arena
+ points out that that is a record
+ breaking 242 point lead in
+ the text image category and
+ the largest gap they've ever
+ seen in their announcement post
+ open AI gets into a lot of what
+ makes this model different and
+ what it can do they write or
+ more accurately generate in an
+ image an announcement post that
+ argues that quote this model is
+ a step change in detailed
+ instruction following placing
+ and relating objects accurately
+ and rendering dense text with
+ the ability to generate across
+ aspect ratios they say that it
+ has better composition and
+ visual taste meaning it feels
+ less AI generated it has as
+ people were speculating more
+ world knowledge and the
+ ability to actually reason and
+ think they write when a
+ thinking model is selected in
+ images 2.0 can search the
+ web for real-time information
+ create multiple distinct images
+ from one prompt and
+ double check its own outputs
+ now this was of course the
+ big unlock from nano banana to
+ but it seems like as we'll see
+ with some of the early
+ examples that this model takes
+ it to the next level
+ in terms of the capabilities
+ they highlight right at the top
+ is greater precision and
+ control they point out that
+ it can do small text
+ iconography tiny UI elements
+ dense compositions and it
+ can do so at significant
+ resolution up to 2k the
+ practical effect they say
+ is instead of getting something
+ vaguely in the neighborhood of
+ what you meant you get
+ something you can actually use
+ one example they gave of this
+ is this pile of rice
+ with a tiny kernel in the
+ middle that has a little
+ bitty GPT image 2 written on it
+ this model is multilingual
+ which they say not only helps
+ with translation but can also
+ quote generate visually coherent
+ outputs where language is a
+ part of the design itself
+ from posters and explainers to
+ diagrams and comics
+ some of the other things they
+ point out are much enhanced
+ stylistic sophistication
+ and better realism
+ including they point out
+ adding tiny flaws that add
+ realism and they also discuss
+ this idea of real world
+ intelligence pointing out that
+ it doesn't just mean it's cool
+ it unlocks a set of use cases
+ like explainers maps
+ educational graphics
+ and visual summaries
+ where as they put it
+ correctness and clarity
+ matter just as much as aesthetics
+ now one last thing they note
+ on the utility side of things
+ is that they can now
+ generate in more flexible sets
+ of aspect ratios
+ which goes to just give
+ people more fine-grained
+ control now in terms of
+ community response
+ the first thing that I noticed
+ is that a lot of people
+ including by the way
+ Sam Altman himself in a
+ recent interview
+ came into this new model
+ effectively feeling like
+ for all intents and purposes
+ image generation was solved
+ or at least that if it could
+ get better
+ it was just an incremental
+ better that didn't really
+ matter practically
+ for many that perspective
+ has now been blown out of the
+ water
+ Ethan Molek writes
+ I didn't think that better
+ image generators would be
+ a big deal
+ but it turns out that there
+ is a quality threshold
+ I didn't expect
+ where you can now get
+ texts slides and academic
+ papers
+ and as people dug in
+ there were a few themes
+ that I saw over and over and
+ over again
+ the first was how much
+ less AI-ness
+ a lot of these photos had
+ that you really could get
+ not just pretty images
+ but very realistic looking
+ images
+ including things like
+ not so great regular
+ photography
+ Pietro Serrano shared the
+ output of a photo
+ of a computer screen
+ displaying a Spotify
+ playlist at night
+ adding it's an insane model
+ and a true imagination
+ engine with an incredible
+ level of realism
+ and small details
+ now while the realism
+ is impressive
+ a lot of people jump
+ straight to the implications
+ of the massively improved
+ text and detail handling
+ it unlocks things
+ like entire comic panels
+ and by the way the ability
+ to generate multiple images
+ and to keep character consistency
+ makes larger editorial
+ generation along these lines
+ much more possible as well
+ the detail in text was
+ showed off in all sorts
+ of different ways
+ Iman Mastak created
+ the periodic table
+ of the original 151 Pokemon
+ Chris Kashtinova did
+ a Where's Waldo style
+ illustration
+ placing herself in a
+ densely crowded
+ New York City scene
+ while others like Nick Dunn's
+ took messy handwritten photos
+ asking chatGPT to quote
+ get rid of the creases
+ and make it a scan
+ with both of the generated outputs
+ not only perfectly
+ capturing all the information
+ on the pages
+ but even preserving Nick's
+ handwriting
+ other people are experimenting
+ with all sorts of other
+ use cases
+ taking an image of a house
+ and turning it into
+ a generated floor plan
+ improving the visual
+ quality of graphs
+ making technical diagrams
+ brand kits
+ combined styles and more
+ one of the craziest tests
+ showing off image 2's
+ world knowledge
+ came from entrepreneur
+ and content creator
+ Riley Brown
+ he asked the model
+ to create an image
+ of a specific book
+ including a barcode
+ which would actually
+ take you to that publication
+ and it actually worked
+ he used a barcode scanner
+ on his phone
+ to test the image
+ and sure enough
+ it actually took him
+ to that specific publication
+ testing to make sure
+ it wasn't the ISBN number
+ he even covered that part up
+ just leaving the barcode
+ and it still worked
+ still maybe the most common
+ thing that I saw explored
+ was UI and software designs
+ and this gets into what I think
+ is actually really important
+ about not just this model
+ but the context into which
+ this model is coming
+ the short of it is
+ I think this is the first image model
+ whose biggest impact
+ is not going to be standalone viral
+ moments like Ghibli
+ but has the potential to actually
+ be integrated quite quickly
+ into the agentic stack
+ Prins on X writes
+ images 2.0 is the first model
+ I have ever tried that feels ready
+ for real enterprise workflows
+ it's a reasoning model
+ which means it will search the web
+ use tools and think about
+ your request before
+ generating the image
+ it is able to generate
+ huge volumes of text
+ without a single error
+ it can keep the image sharp
+ in between generations
+ giving you the ability
+ to make additional edits
+ to any image of your liking
+ the example they gave
+ was asking the model
+ to generate an organizational
+ chart of a public company
+ based on a template
+ and yet if Prins was thinking
+ about general knowledge
+ worker and enterprise usage
+ where other people went
+ was much more focused
+ on one specific use case
+ Mark Kretschmann writes
+ some of you were disappointed
+ that we only quote unquote
+ get an image model from open AI
+ today
+ but you need to see
+ the big picture
+ GBT image 2
+ can generate mockups
+ of websites
+ which codex
+ can then turn straight
+ into working code
+ Choi Arakes goes farther
+ with this saying
+ the codex plus
+ GBT image 2 pipeline
+ is completely broken
+ this is the single most
+ disruptive AI workflow
+ I've seen this year
+ stop thinking of AI
+ is just a text generator
+ the real magic happens
+ when you chain the models together
+ now image 2
+ is coming into a moment
+ when open AI has just also announced
+ that there are now
+ four million codex users
+ up from about 200,000
+ at the beginning of the year
+ and already less than
+ 24 hours into this
+ we are seeing people sharing
+ all of their production pipelines
+ from image 2 UI to codex
+ Peter Gosta from Marina writes
+ GBT image 2 plus codex
+ or how to make codex
+ not sock at UI
+ step 1 generate a UI image
+ step 2 get codex
+ to implement the UI based on it
+ step 3 get codex
+ to iterate until it aligns
+ with the image as much as possible
+ codex is bad at initial UI
+ but very good at implementing
+ a reference design
+ so this is your way out
+ iterate with the image model first
+ and then codex
+ will do a good job
+ in many if not most people's estimation
+ codex's biggest limitation
+ has been UI
+ it's certainly one of the reasons
+ for me that cloud code
+ has remained my primary driver
+ and although they are obviously
+ different products
+ I don't think it's unreasonable
+ to compare the combination
+ of the new codex app
+ plus GBT image 2
+ with the new cloud design feature
+ released by Anthropic
+ as we discussed in that recent show
+ Anthropic doesn't have
+ a native image generator
+ so the way that they're creating
+ those designs
+ is a little bit different
+ and it seems pretty likely to me
+ that there are going to be
+ certain types of UI implementations
+ that simply will not be possible
+ with cloud design
+ and cloud code
+ but that will be
+ with the integration
+ of GBT image 2
+ what's more
+ people are really excited
+ for when we get the next
+ base model with this as well
+ Simon Smith writes
+ the image generation
+ to code workflow
+ and codex
+ is going to be spectacular
+ when we get GBT 5.5
+ I tried it with 5.4
+ and it's already pretty good
+ OpenAI is bringing
+ the pieces together
+ and of course
+ even if OpenAI
+ weren't bringing the pieces together
+ there are plenty of
+ entrepreneurial people out there
+ who will do that for them
+ something big is happening
+ author Matt Schumer
+ dumped image 2
+ into the general agent
+ that he built
+ leading to it
+ generating slide decks
+ and apps
+ that in his words
+ look like
+ they were designed by pros
+ Leon Lin
+ already posted a new skill
+ that takes advantage
+ of GBT images 2
+ to GitHub
+ to make the integration
+ between images 2
+ and codex
+ even smoother
+ Now I will say
+ that if the vast majority
+ of people's experiences
+ so far have been positive
+ that wasn't universally the case
+ Boyantungu's writes
+ I tried making an infographic
+ using GBT image 2
+ lots and lots of visually
+ unacceptable artifacts
+ Someone did suggest
+ that his settings
+ might have been set on low
+ but obviously that's still
+ going to be an issue
+ in terms of the actual
+ utility of the thing
+ Speaking of which
+ journalist Sharon Goldman
+ tested it by asking the model
+ to create an anatomically
+ correct labeled image
+ of the human thorax
+ to be reviewed by her sister
+ who is a professor of anatomy
+ at a med school
+ It looked great
+ but her sister pointed out
+ that there was an extra set of veins
+ labels pointing to the wrong parts
+ and some issues
+ with where things were placed
+ and while obviously
+ this is still a major improvement
+ from what we had before
+ there are use cases
+ like this one
+ where the tolerance for mistakes
+ is not 5% but 0
+ One of the things that I think
+ will be really interesting to see
+ is how many of the new use cases
+ that get unlocked
+ by this new model
+ actually get deployed in practice
+ For example
+ one of the things that it can do now
+ is much better
+ more richer editorial layouts
+ and yet
+ is there a group of people
+ who actually need to create
+ editorial layouts
+ who will be willing to trade the controls
+ that they lose
+ in terms of their existing processes
+ for the speed or quality
+ that this new approach represents
+ I don't think the answer
+ is going to be clear cut there
+ Another example is precision marketing assets
+ Image 2 we can already see
+ does an awesome job
+ with things like visual Instagram ads
+ but will it be people
+ who are creating existing Instagram ads
+ using their own dialed in workflows
+ with still even more
+ fine grained specific controls
+ or will the unlock
+ be more about
+ the democratization
+ of the ability to create
+ that type of imager asset
+ from two other types of people
+ I think overall
+ we're still figuring out
+ what it really means
+ and where the value lies
+ in having reasoning over images
+ I think we're still figuring out
+ where the line of controllability
+ needs to be
+ to make these skills useful
+ not just novel
+ By far the use case
+ that I will be paying
+ the most attention to
+ in the immediate term
+ is this UI codex type of integration
+ In my first tests
+ it did make a big difference
+ in terms of the quality
+ of what I could get
+ out of codex
+ when it comes to UI design
+ but it was still more
+ in the realm of reference images
+ than it was actually
+ about implementing
+ a specific already designed UI
+ Maybe one last thing to note
+ is that the team at OpenAI
+ is very clearly teasing
+ that this is one of the first
+ examples we've seen
+ of what you can do
+ when you have more resources
+ to throw at a model's training
+ Greg Brockman doesn't talk
+ about people who have argued
+ in the past
+ that we've hit a pre-training wall
+ but he does say
+ really incredible
+ what you're now able to create
+ with a little bit of compute
+ Sounds like from what most folks
+ are thinking and hearing
+ we might not be all that far
+ from getting to see
+ what that little bit of compute
+ does
+ even outside of images as well
+ For now this model
+ has plenty of new capabilities
+ to go play around with
+ and I am excited to see
+ what you do
+ but that's going to do it
+ for today's AI Daily Brief
+ Appreciate you listening
+ or watching as always
+ and until next time
+ Peace
+ you
