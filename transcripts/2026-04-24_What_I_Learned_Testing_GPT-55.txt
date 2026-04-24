@@ -1,0 +1,1010 @@
+ GPT 5.5 aka Spud is here, but doesn't live up to expectations.
+ This is one of the most hyped models we've had in a very long time and we are going to
+ go through all of the first reactions, the benchmarks, and of course, about a dozen
+ of my own tests.
+ The AI Daily Brief is a daily podcast and video about the most important news and
+ discussions in AI.
+ Alright friends, quick announcements before we dive in.
+ First of all, thank you to today's sponsors, KPMG, Blitzy, Granola, and Mercury.
+ To get an ad-free version of the show, go to patreon.com.ai-dailybrief or you can
+ subscribe on Apple Podcasts.
+ If you want to learn more about sponsoring the show, send us a note at sponsors.ai-dailybrief.ai.
+ Now, ai-dailybrief.ai is of course where you can find out about all the different
+ things going on in our ecosystem.
+ That includes things like the AIDB New Year's program, claw camp, etc.
+ And to try to make things a little bit easier as we have some perhaps new free
+ programs forthcoming, I'm actually launching an AI Daily Brief account system so that you
+ can just sign up once and then add yourself to programs as they come up
+ without having to sign up again each and every time.
+ If you go to aidailybrief.ai right now, you can claim your username and be first
+ in line to hear about another free program we have launching tomorrow on an operator's
+ bonus episode.
+ Well friends, it is here.
+ Ever since back in December, when OpenAI declared a code red, we knew that they
+ were deep in the lab cooking something good.
+ Or at least we hoped it would be good.
+ Certainly the last few months have seen the company regain its
+ verve, particularly around Codex, which has grown from just a couple hundred
+ thousand users at the beginning of the year to over four million now.
+ We've heard about the elimination of side quests, TBPN acquisition
+ notwithstanding, and overall that focus has seemed to reshape the company.
+ And ultimately leaked memos and grand statements about focus don't matter a
+ fig if it doesn't produce results.
+ Now honestly, for OpenAI, the stakes heading into the 5.5 release had been
+ increased dramatically because of their competition with Anthropik.
+ Maybe the biggest story for the last few weeks in AI has been the model
+ that we don't have in Anthropik's mythos.
+ Anthropik basically said to the world, we've got a new powerful model
+ that is a step change in capabilities, but it's too powerful
+ right now for us to provide to the average user.
+ Now of course in some cases there has been skepticism that the power is
+ the real reason that Anthropik isn't delivering this.
+ Some have speculated that it has more to do with compute constraints
+ than true cybersecurity concerns, but it has seemed like the limited set
+ of partner companies that have had access have validated that it is
+ indeed a very good model.
+ Whatever OpenAI put out next then was always going to be their
+ response to that missing mythos model and the expectations were
+ ratcheted up accordingly.
+ On Friday at 2 p.m. OpenAI dropped GPT 5.5.
+ In their announcement tweet they called it a new class of intelligence
+ for real work and powering agents, built to understand complex goals,
+ use tools, check its work, and carry more tasks through to completion.
+ It marks, they wrote, a new way of getting computer work done.
+ Some of the use cases they pointed to as where it excelled were
+ writing, debugging code, researching, analyzing data, creating
+ documents and spreadsheets, operating software, and quote,
+ moving across tools until a task is finished.
+ In other words, this is a knowledge work model.
+ And certainly the benchmarks seem to slap.
+ Taking just a comparison to Opus 47, whereas Opus 4.7 scored a
+ 69.4% on Terminal Bench 2.0, an Agented Coding Benchmark,
+ GPT 5.5 scored an 82.7.
+ On the real world task GDP Val, Opus 47 scores an 80.3,
+ GDP Val gets an 84.9.
+ Overall the model ranks right at the top of artificial
+ analysis's overall benchmarks, with the extra high version
+ being the first model to ever score in the 60s.
+ Artificial analysis themselves, right?
+ GPT 5.5 takes OpenAI back to the clear number one.
+ OpenAI's new model tops the artificial analysis intelligence
+ index by three points, breaking a three-way tie with
+ Anthropic and Google.
+ Now, while obviously all of that is good news for both OpenAI
+ and for people who like powerful models, not every benchmark
+ was that clear cut.
+ And in labs found that GPT 5.5 was behind Opus 47
+ on Vending Bench, which tasks the model running a profitable
+ vending machine business.
+ In that test, GPT 5.5 was about on par with Opus 4.6.
+ In Vending Bench Arena, which is a multiplayer variant
+ that introduces competition, GPT 5.5 did actually beat
+ Opus 4.7 by a healthy margin.
+ And And in labs also noted that 5.5 didn't display
+ any of the underhanded tactics like Opus had,
+ like lying to suppliers or stiffing customers on refunds.
+ Val's AI, which maintains a range of benchmarks
+ that test professional tasks, including finance,
+ medical and legal fields, found that Opus 4.7 still comes
+ out ahead, although GPT 5.5 was a decent jump over 5.4.
+ The most discussed negative benchmark was SWE Bench Pro,
+ where 5.5 significantly underperformed Opus 4.7.
+ Pointing to a footnote where OpenAI suggested
+ that Anthropic had reported signs of memorization
+ on a subset of problems with their SWE Bench Pro score,
+ Didi said that footnote is trying really hard
+ to bury the lead.
+ GPT 5.5 is in state-of-the-art for coding.
+ Tebow on the Codex team at OpenAI clapped back,
+ you'll be missing out if you think SWE Bench
+ is representative of anything real.
+ He then pointed to an article that they had published
+ about this in February called why SWE Bench
+ verified no longer measures frontier coding capabilities.
+ We'll talk more about what people found with coding
+ but to not bury the lead, it doesn't seem
+ like that SWE Bench Pro number has much actual signal to add.
+ Outside of benchmarks, one of the things
+ that people noticed quickly was the cost.
+ Theo pointed out that it was double the price of GPT 5.4
+ and 20% more expensive than Opus 4.7,
+ at least in terms of the cost per million tokens in
+ and cost per million tokens out,
+ which is $5 and $30 respectively.
+ And yet just looking at cost in terms of token in
+ and tokens out, misses the actual functional key dimension
+ of cost, which is how efficient a model is
+ in solving a problem.
+ Noam Brown from OpenAI writes,
+ a hill that I will die on.
+ With today's AI models,
+ intelligence is a function of inference compute.
+ Comparing models by a single number
+ hasn't made sense since 2024.
+ What matters is intelligence per token or per dollar.
+ This is especially true when using it
+ in a product like Codex.
+ And on that front, as Scaling01,
+ LaSonnault guy points out,
+ the GPT 5.5 model family completely dominates
+ the cost performance frontier
+ on the artificial analysis index.
+ So taking a step back from the benchmarks
+ and just going to first impressions.
+ Well, it was possible to find people who were unimpressed.
+ For example, fabricated knowledge
+ who works with semi-analysis wrote,
+ dude, so like if this is the best OAI got,
+ are they going to close down
+ and join ANTH to make AGI?
+ That perspective was pretty few and far between.
+ There were a few more folks who thought
+ that perhaps the model had been overhyped.
+ But then again, as Control Alt Dwayne pointed out,
+ quote, OpenAI wasn't the one hyping this release.
+ It was people on this app doing it.
+ Maybe a different way to point that out
+ is that the swirl of discussion surrounding mythos
+ increased the hype totally outside
+ of the control of OpenAI.
+ Some pointed out that when you looked at scores
+ like terminal bench 2.0
+ and the computer use benchmark OS world verified
+ or other benchmarks like browser comp and Cyber Gym,
+ while GPT 5.5 didn't necessarily beat
+ the reported mythos numbers,
+ although it did on terminal bench 2.0,
+ it was close enough that it would be fair
+ to consider this a Claude mythos level,
+ but as Chubby Kim and Nismas puts it, for public use.
+ Scaling01 again writes,
+ after some deliberation, I think GPT 5.5 is close to mythos
+ despite being only a fifth to half the size.
+ In that post, they write,
+ SWEAVENCH PRO threw me off,
+ but should be just discarded as noise or spiky intelligence.
+ He also speculated that in terms of parameters,
+ GPT 5.4 was around one to two trillion,
+ 5.5 was two to five trillion
+ and mythos is about 10 trillion.
+ They also point out mythos pricing
+ does look kind of ridiculous at 125.
+ Mythos might turn out to be
+ Anthropics GPT 5.4 moment.
+ Now on this question of mythos versus GPT 5.5,
+ I actually think that Riley Brown has it right
+ when he writes, mythos benchmarks do not matter
+ until released to the public.
+ As far as I'm concerned, it does not exist.
+ Based on my review of reactions,
+ the much more common reaction
+ is that this is the new standard.
+ Every's vibe check declared GPT 5.5 has it all.
+ OpenAI's new model is a top end senior engineer
+ and easy to talk to.
+ They write, frontier models usually come with trade-offs.
+ You get more depth, but less speed,
+ more agency, but less control,
+ better code, but worse pros.
+ The surprising thing about GPT 5.5,
+ the new open AI model out today,
+ is how few of those trade-offs it asks you to make.
+ It's much faster than Opus 4.7,
+ easier to collaborate with,
+ better at writing than any open AI model we've used
+ since GPT 5.4 and 4.0,
+ and the strongest model we've tested
+ on our new senior engineer benchmark.
+ For a long time, they write,
+ open AI looked like it was trying to be everywhere at once,
+ Sora for video, Atlas for browsing,
+ consumer chat GPT features, creative media tools,
+ and whatever else might turn AI
+ into the next mass market platform.
+ Meanwhile, Anthropic doubled down on work
+ and Claude became the default for coding agents,
+ long-running engineering tasks, and professional workflows.
+ GPT 5.5 is open AI's clearest bid
+ to reclaim the code and work narrative.
+ It does not win everything.
+ Opus 4.7 seems to write better plans
+ and have a superior eye for design and product details,
+ but GPT 5.5 is faster, steadier,
+ and easier to trust for everyday professional work.
+ Ben Davis, who works with Theo
+ on his YouTube channel writes,
+ the best code I've ever seen in AI right
+ came from this model,
+ feels way better to talk to than 5.4 did,
+ still kinda has that GPT cringe but dialed back.
+ Overall, this is 100% my new everything model.
+ Pietro Shirano goes farther.
+ GPT 5.5 is the highest-leveraged tool
+ I've ever touched, he writes.
+ For the first time,
+ I don't feel limited by what a model can do.
+ I feel limited only by what I can imagine.
+ The most interesting nuanced views
+ came from people who tried to explain the weird idea
+ that while it is a big leap forward
+ for a big portion of users,
+ it's not really going to feel like it.
+ Matt Schumer writes,
+ I've been using GPT 5.5 for the last few weeks.
+ It's a massive leap forward,
+ but the weird thing is for 99% of users,
+ it probably won't matter.
+ In his review essay, Matt writes,
+ the honest reaction is a little weird.
+ This is the first time
+ where the upgrade feels relatively large,
+ but most of the time it does not matter that much.
+ Not because the model is disappointing,
+ but because the last set of models was already so good.
+ Basically, he says that although it is better
+ in all of these different ways,
+ that does not in his words always translate
+ into a dramatic change in his daily workflow.
+ Quote, if I ask it to build something normal,
+ it crushes it, but GPT 5.3 Codex already crushed it,
+ GPT 5.4 already crushed it, Opus often crushed it.
+ The ceiling is getting so high
+ that a lot of normal work
+ does not stress the models anymore.
+ Now, where he argues the real value is then,
+ is about the rounding out of capabilities
+ that weren't so great in OpenAI's models before,
+ arguing that design is his clearest example.
+ Allie Kay Miller put it
+ in terms of knowledge professionals writing,
+ there is a certain class of models,
+ one that we're hitting now,
+ where unless you're deep in code or scientific research,
+ you might not even notice a difference.
+ Now let's talk about some specific use cases
+ and let's start with coding,
+ given that, A, it's so important
+ for so many different types of use cases,
+ and B, there was that discussion
+ around that weirdly low SWE bench pro result.
+ TLDR, people are finding this
+ as a very good coding model.
+ You heard some of that in the initial reactions,
+ but some of the independent testers
+ are finding that as well.
+ Entrepreneur Bindu Reddy writes,
+ GPT 5.5 tops live bench.
+ It's an extremely good model on both benchmarks
+ and in practice.
+ It tops benchmarks in most categories
+ and is an insanely good instruction follower.
+ In practice, this makes GPT 5.5 better than Opus 4.7.
+ CodeRabbit writes, we've been testing GPT 5.5 in early access
+ and are excited by its performance in code review.
+ In our evaluation, it delivered a more direct review flow,
+ stronger signal, and better performance
+ on the issues that matter most.
+ Headline result, 79.2% expected issue found
+ versus 58.3% baseline.
+ Entrepreneur and engineer Flavio Adamo writes,
+ is GPT 5.5 better than 5.4 at code?
+ Yes.
+ Not because it suddenly turns every prompt
+ into some magical perfect implementation,
+ but because it seems to understand the shape
+ of the request better.
+ It writes cleaner code.
+ It touches fewer things it does not need to touch.
+ It is less likely to over engineer a simple change.
+ And most importantly, it feels like it wastes less time.
+ I think everyone who uses coding agents
+ has seen this happen.
+ You ask for a small fix and the model technically solves it,
+ but it does so in the most annoying way possible.
+ It adds an abstraction you did not ask for,
+ changes unrelated files,
+ rewrite some logic that was already fine,
+ and suddenly your quick fix becomes something
+ you now have to review carefully
+ because the model got a little too excited.
+ With GPT 5.5, I've seen less of that.
+ I do not know exactly how to explain it,
+ but a model can be smart and still tiring to use.
+ GPT 5.5 feels less tiring.
+ Now, one specific aspect of coding
+ that people have pointed out
+ comes from Peter Gosta from arena.ai who writes,
+ GPT 5.5 is much more reliable on longer running tasks
+ for the first time with any model.
+ As we speak, I have a migration running
+ for over seven plus hours.
+ This literally never happened before.
+ The model would maybe run for 30 minutes
+ or if you really shouted them for two to three hours.
+ Last night I went to sleep, set a long running task,
+ then queued up 10 prompts to keep it going.
+ It did not stop after the first prompts
+ and kept going for eight plus hours
+ and I woke up to the same prompts still queued up.
+ The ability to run for a long time
+ in combination with the ability to validate
+ with computer use and other tools
+ makes it much more useful for building real applications.
+ Ada McLaughlin from open.ai found something similar.
+ He wrote, over break I dictated 5.5 for minutes
+ describing a new ambitious RL run.
+ Hit send and forgot about it as I hung out with friends
+ and boyfriend for a few days.
+ Return on Monday to an industrial scale RL run
+ humming after it worked for 31 hours.
+ Now, one of the things I've talked about in the past
+ with codecs and open.ai models
+ is that they historically have been
+ very, very bad at design.
+ Did that change?
+ Yes-ish is what I would say.
+ First of all, the native capabilities
+ for design in front end are better in 5.5
+ than they were in 5.4.
+ More important than that, however,
+ there are just other ways to integrate those capabilities.
+ First of all, you can use skills in codecs,
+ but even more than that,
+ it's pretty clear that the workflow
+ is GBT images too for concepting UI
+ and then 5.5 in codecs for implementing it.
+ And with that, you can get something much better.
+ Although still I think in general,
+ the broad perception is that opus retains a lead
+ when it comes to just pure aesthetics.
+ Another area where I saw opus still have the lead,
+ according to a few different reviewers,
+ was around planning.
+ This is something that every said,
+ remember when they wrote,
+ opus 47 seems to write better plans.
+ Siki Chen from Runway said something similar.
+ Opus 47 at extra high to plan
+ and GBT 55 at high to execute is the optimal setup.
+ I know opus to plan and GBT to execute
+ has been optimal for some time,
+ but the release of 47 and 55 in particular
+ has really widened that gap
+ against a mono model setup.
+ Now, for what it's worth,
+ I'm about to get into my own tests.
+ I have certainly found this iteration of 55
+ in codecs to be much better at planning
+ than previous versions,
+ but I haven't had the chance yet to compare it
+ against this sort of multi-model setup.
+ What about on knowledge work tasks?
+ On presentation, Simon Smith writes,
+ my first test of GBT 55 PowerPoint creation in codecs
+ really runs the range from incredible
+ to what the hell is that?
+ I asked it to pick a topic,
+ craft a Nancy Duarte inspired narrative on it
+ and generate images to develop a design language
+ and create slides that reflected that design language
+ and included a range of visualization.
+ It chose the haptic internet.
+ The good it generated a mood board and four visuals in one go
+ and the mood board it generated was really good.
+ It worked autonomously for over 16 minutes,
+ just iterating across image generation,
+ presentation construction and presentation QA.
+ I told it to use any font on my machine
+ that would work in PowerPoint and it hunted them down.
+ This as an aside is a huge thing all on its own.
+ Anyone who has ever tried to export a great looking design
+ into PowerPoint only to see that the available slides
+ completely break it down will know.
+ Overall though, Simon says,
+ I still don't get the sense that it has great design taste.
+ He also pointed out that there wasn't a ton of visual variety
+ that it may be used too many fonts.
+ And then this one,
+ which is one of the most annoying things
+ across all models to me right now,
+ Simon writes, it references the prompt within the text
+ in a very break the fourth wall kind of way.
+ This thing happens a lot
+ where a model explains what it's doing out loud
+ but in copy in an asset.
+ I find that this happens a lot
+ especially when you're refining something.
+ So for example, if I've told Claude code or codex
+ to stop trying to connect all the dots
+ between three different ideas in a set of web copy,
+ it will often do things like have a new header
+ that says not trying to connect the ideas,
+ just simple, clean, separate thoughts.
+ Which is obviously completely not the intent.
+ I don't really know exactly what to call that
+ but it happens a lot
+ and it's something that I would love to see go away.
+ Other people found it was good
+ for other things like spreadsheets
+ and overall on their knowledge work avals,
+ the 5.5 model saw a 10 percentage point jump
+ on accuracy on enterprise content tasks
+ compared to GPT-54.
+ All right folks, quick pause.
+ Here's the uncomfortable truth.
+ If your enterprise AI strategy is we bought some tools
+ you don't actually have a strategy.
+ KPMG took the harder route
+ and became their own client zero.
+ They embedded AI and agents across the enterprise
+ how work gets done, how teens collaborate,
+ how decisions move,
+ not as a tech initiative
+ but as a total operating model shift.
+ And here's the real unlock.
+ That shift raised the ceiling on what people could do.
+ Humans stayed firmly at the center
+ while AI reduced friction,
+ serviced insight and accelerated momentum.
+ The outcome was a more capable,
+ more empowered workforce.
+ If you wanna understand what that actually looks like
+ in the real world,
+ go to www.kpmg.us slash ai,
+ that's www.kpmg.us slash ai.
+ Blitzy is driving over
+ five X engineering velocity
+ for large scale enterprises.
+ A publicly traded insurance provider
+ leveraged Blitzy to build
+ a bespoke payments processing application,
+ an estimated 13 month project.
+ And with Blitzy,
+ the application was completed in live
+ in production in six weeks.
+ A publicly traded vertical SaaS provider
+ used Blitzy to extract services
+ from a 500,000 line monolith
+ without disrupting production 21 times faster
+ than their pre-Blitzy estimates.
+ These aren't experiments.
+ This is how the world's most innovative enterprises
+ are shipping software in 2026.
+ You can hear directly about Blitzy
+ from other Fortune 500 CTOs
+ on the modern CTO or CIO classified podcasts.
+ To learn more about how Blitzy can impact your SDLC,
+ book a meeting with an AI solutions consultant
+ at blitzy.com, that's blitzy.com.
+ Today's episode is brought to you by Granola.
+ Granola is the AI notepad
+ for people in back to back meetings.
+ You've probably heard people raving about Granola,
+ it's just one of those products
+ that people love to talk about.
+ I myself have been using Granola
+ for well over a year now.
+ And honestly, it's one of the tools
+ that change the way I work.
+ Granola takes meeting notes for you
+ without any intrusive bots joining your calls.
+ During or after the call,
+ you can chat with your notes,
+ ask Granola to pull out action items,
+ help you negotiate, write a follow-up email,
+ or even coach you using recipes
+ which are pre-made prompts.
+ Once you try it on a first meeting,
+ it's hard to go without.
+ Head to granola.ai slash ai daily
+ and use code AI daily.
+ New users get 100% off for the first three months.
+ Again, that's granola.ai slash ai daily.
+ This podcast is brought to you by Mercury.
+ Banking designed to work
+ the way modern software does.
+ One thing I've always found weird as a founder
+ is that almost every tool you use
+ to run a company is modern.
+ Your analytics tools, your email tools,
+ your AI tools,
+ they all feel like software built in,
+ you know, the last decade.
+ Then you go to banking
+ and suddenly it feels like
+ you've time traveled back to the 70s.
+ That's why I use Mercury.
+ It's business banking that actually works
+ like the rest of the tools founders rely on.
+ Clean interface, everything where you expect it,
+ and basic things like wires, cards, or permissions
+ taking a couple clicks
+ instead of a phone call in three forms.
+ For the whole AIDB ecosystem,
+ it is just dramatically simpler.
+ You can see everything from the dashboard,
+ control spend,
+ and give the right people access
+ without handing over the whole account.
+ If you run a company
+ and you're tired of banking
+ feeling like the one tool that never modernized,
+ check out Mercury.
+ Visit mercury.com to learn more
+ and apply online in minutes.
+ Mercury is a fintech company,
+ not an FDIC insured bank.
+ Banking services provided through
+ Choice Financial Group and Column NA,
+ members FDIC.
+ Now I want to get into my tests,
+ but the last discussion point
+ that was really prominent on the internet
+ in the wake of the release of 5.5
+ was around how different
+ the open AI communication felt
+ and the clear narrative repositioning
+ that's going on.
+ It seems very apparent to me
+ that open AI is picking up on the signal
+ that one, people are a little bit annoyed
+ by Anthropics approach
+ to telling us all about a super powerful model
+ but then not giving people access.
+ And two, even more,
+ people are really annoyed
+ about performance issues with Anthropics models
+ presumably due to resource constraints.
+ Contrasts to both of those things
+ run throughout open AI's communications around this.
+ For example, in one tweet, Sam Altman writes,
+ we believe in iterative deployment.
+ Although 5.5 is already a smart model,
+ we expect rapid improvements.
+ Iterative deployment is a big part
+ of our safety strategy.
+ We believe the world will be best equipped
+ to win at the team sport of AI resilience in this way.
+ Now to be clear, that is something
+ that open AI and Altman have always talked about,
+ but they're definitely putting
+ an exclamation point on it right now.
+ As witnessed by the next bullet in that same tweet,
+ where Sam writes, we believe in democratization.
+ We want people to be able to use lots of AI.
+ We want our users to have access
+ to the best technology
+ and for everyone to have equal opportunity.
+ We've been tracking cybersecurity
+ as a preparedness category for a long time
+ and have built mitigations we believe in
+ that enable us to make capable models broadly available.
+ He said directly to Dario Amade.
+ Not really, but you get the point.
+ There's also a lot of emphasis
+ on open AI's compute resources.
+ In another tweet, Altman said,
+ really excellent work by the inference team
+ to serve this model so efficiently.
+ To a significant degree,
+ we have become an AI inference company now.
+ And his overall announcement tweet was really simple.
+ GPT-55 is here, he wrote.
+ We hope it's useful to you.
+ I personally like it.
+ Anu et Luru writes,
+ this is a very different kind of comms.
+ Discuss.
+ Benjamin DeKraker writes,
+ open AI seems to have dialed back their hype machine
+ and just focused on building
+ and shipping excellent models lately.
+ That's a breath of fresh air and a winning strategy.
+ A little more pointedly,
+ Justine Moore from A16Z writes,
+ crazy how you can just ship a model
+ without a giant PR campaign
+ to scare the crap out of everyone first.
+ Retweeting Sam Altman's simple
+ we hope it's useful to you tweet.
+ Cree Beauvoir writes,
+ this feels like someone inside open AI is doing work.
+ They realized that anthropic and Dario
+ were gaining more traction,
+ mostly because they have a good product
+ but also because people like and want them to win.
+ First, there was a night of funny drunk tweets
+ and now this new product announcement
+ feels noticeably more personal and dare I say humble.
+ My take, this is going to be a war of authenticity.
+ Alex Cantruis actually asked
+ whether this was the fingerprints
+ of the TBPN acquisition.
+ Now, ultimately, when it comes to new models,
+ there is simply no substitute for testing it yourself,
+ especially now that performance is so high
+ across so many different dimensions.
+ One of the real cheat codes is knowing
+ which models you prefer for your different use cases
+ because in many cases it won't just be one.
+ Now, of course, not everyone is in a position
+ to pay for multiple models.
+ And so part of the goal here
+ might be to select the one
+ that is mostly the best for you.
+ But regardless, the point is
+ that there is simply no substitute for trying it out.
+ So for me, I did about nine or 10 tests
+ around a pretty wide array
+ but fairly common use cases for me.
+ The first was Script Prep from my wife's podcast.
+ She does a true crime show
+ and produces an immense amount of research around that.
+ And so I use this to test
+ both chat GPT's research abilities
+ as well as its writing abilities.
+ And really writing was the one I was more concerned with.
+ I don't even remember the last time
+ I used an open AI model for writing over clawed.
+ And while I don't have some definitive result,
+ I will say that what 5.5 did with this assignment,
+ way better than any model recently,
+ is it actually took the instruction to be clear
+ and simple and journalistic in its writing
+ and did that rather than trying
+ to add a bunch of dramatic flair.
+ One of the problems I've often had with Opus,
+ especially 4.7 even more than 4.6,
+ is that it tries way too hard
+ to lean into whatever dramatic style the writing is.
+ It has AI affectation fingerprints all over the writing
+ and I spend half my time trying to beat it down
+ to just get the simple basic starting point.
+ Ultimately, all of the key writing and voice details
+ are gonna come from my wife.
+ And so the goal of this step
+ is just to have a very simple basic narrative flow
+ to build off of.
+ And it did a good enough job
+ that I will definitely be testing 5.5 at least
+ for other writing use cases.
+ Now, as I'm going through these,
+ you may note that I did most of this in Codex.
+ That is by no means a requirement,
+ but I would say that if you haven't invested
+ in experimenting with Codex yet,
+ this might be a good time.
+ It's very clear that OpenAI is putting a ton of emphasis
+ on this as the core workspace
+ for not only coders, but knowledge workers
+ who are using GPT models.
+ And the shift to a new model is a pretty good time
+ to start digging in and figuring out how it works for you.
+ Now, one thing that I'm going to take advantage of with that
+ that I have not fully got up and running yet,
+ you might remember when the Codex app first came out,
+ one of the things that people were talking about
+ is how it's better approach to compaction,
+ i.e. taking a bunch of long context
+ where it would be running up against the limits
+ of the context window and compacting it
+ so that you can keep the conversation going.
+ OpenAI apparently has made some developments in that area
+ that allows people to have just an ongoing single thread
+ and use it in pretty different new ways.
+ Specifically, if you go look at my Claude,
+ I have a whole project that I call meta planning
+ for all big picture question type things.
+ But what people are experimenting with in Codex specifically
+ is the monothread where instead of it being
+ a bunch of different conversations split across a project,
+ it's just one long thread that keeps all the context
+ and takes advantage of that compaction
+ to not run out of the context window.
+ So I haven't done this yet because it's going to involve
+ a fair bit of investment of time
+ to get its background context on me up to speed.
+ But what I'm going to do first is have it interview me
+ to create a broad understanding and outline
+ of who I am and what I'm working on.
+ And then I'm going to experiment
+ with using this single continuously updated thread
+ as a way to think through and iterate
+ on strategic questions.
+ Speaking of strategic questions,
+ I'm working on an experimental sponsored episode
+ that'll come out a couple of weeks from now.
+ And one of the things that I'm really keen on doing
+ is integrating resources alongside sponsorships
+ so that when a company is sponsoring the show,
+ they could also be sponsoring additional resources
+ that turn that show into more value
+ for you guys as the listeners.
+ This gave me a chance
+ to do a couple of different things with 5.5.
+ First of all, I got to test its creative capabilities
+ and how it aligns its ideas
+ with broader strategic goals.
+ And second, I got to go directly from those ideas
+ into project planning
+ and then actual web app execution in Codex.
+ The episode is about the frontier
+ of how humans and agents can collaborate together
+ and what that looks like inside an enterprise context.
+ And so we're working on a companion kit
+ that has a set of different resources for companies
+ to try to figure out things like where their team is,
+ mapping them to a set of different archetypes
+ that can help them understand what they need to do,
+ figuring out what context gaps
+ their agents and AI tools have,
+ designing at least one agent-shaped workflow
+ and moving one use case beyond chat.
+ Now these are all themes that are directly in that episode
+ that we are turning into interactive elements.
+ And I found 5.5 in Codex
+ to be a quality collaborator at all steps of the process.
+ In terms of both creativity and strategy,
+ I was pretty impressed, especially relative to 5.4.
+ I would effectively never turn to 5.4
+ for something like that.
+ Honestly, kind of still 4.6 would always be my default.
+ But what was interesting about 5.5
+ and I was using thinking mode at that time
+ was that not only was it pretty quality
+ in terms of its ideas and just thought process,
+ but it was really fast.
+ I got to experience that speed
+ that other people were talking about.
+ And honestly, especially when you're in an iterative mode,
+ speed is really, really valuable.
+ Now I did have to go back and forth
+ a bunch of times on the UI.
+ In the first version, for example,
+ it had really kind of junky brown colors
+ and also did this very weird thing
+ where instead of telling the story
+ of why this artifact existed,
+ it was just this very clunky survey-based UX.
+ And so honestly, I just installed a set of skills
+ focused on front-end design and UI UX.
+ And when push comes to shove,
+ ultimately, while it is useful to know
+ how natively good a model is
+ when it comes to things like that,
+ we are now officially in the era
+ where anything that you do
+ is going to be model and harness together.
+ And so practically for me,
+ it's more useful to know
+ how well 5.5 can take advantage of a skill
+ than what it can do natively
+ because I know I'm just not going to use
+ what it produces without that skill.
+ And with the skill, while we're not done yet,
+ I think it's doing a much better job
+ than I'm quite encouraged.
+ Like I said, in a couple of weeks,
+ you will get to see the output of that.
+ Couple more visual things
+ to test research aesthetics and slide design.
+ I told 5.5 that I wanted to learn
+ about some underexplored topic
+ around the golden age of piracy.
+ I asked it to propose a topic,
+ research the topic and turn it into an art book
+ using public domain oil paintings.
+ It did a pretty good job.
+ You can see the visual here.
+ There are some errors,
+ although what I found is that it's fairly good
+ at correcting those things.
+ Now I will say that this is nowhere near revolutionary
+ in terms of design quality
+ and it feels at least for now,
+ fairly unlikely to me
+ that PDF outputs are something
+ that I'm going to be reaching
+ for this particular model for,
+ although again with changes
+ to the harness that could change.
+ I also had it take the AI Daily Brief media kit
+ and update it both to have a consistent visual
+ of a style that it wanted,
+ which it did fine
+ but which I didn't think was particularly better
+ than what I had.
+ In fact, I thought it was worse.
+ But it did a better job making some arguments
+ for how to have stronger framing
+ and frankly pitching in the media kit
+ for why sponsors should care about the show.
+ On another more comprehensive build
+ than just the companion side
+ I was just telling you about,
+ I turned to Codex to help me
+ with a new jobs portal for AIDB
+ that isn't just an interface
+ for submitting information
+ but actually has a backend
+ where I have the top models
+ from OpenAI and Anthropic debating
+ so that I can automate a shortlist
+ which is completely essential
+ when anytime I post a job
+ I get hundreds and hundreds of responses.
+ The process so far is really good
+ to be clear because I'm coming at this
+ from a non-technical perspective,
+ I don't really have the ability to know
+ how this code compares
+ to what 5.4 would have written
+ and I also think that this falls in that category
+ that Matt Schumer was talking about
+ of fairly easy build tasks
+ that any of the last few generations
+ of models could have done really well with.
+ What I can say is that the experience
+ of using Codex for this was very smooth.
+ The auto review mode kept it
+ so that it didn't ask me too many questions
+ and so it could kind of just work in the background.
+ Finally, one thing it absolutely crushed.
+ I dumped in an absolute boatload of data
+ basically 10 or 12 different charts
+ from both Apple and Spotify about the show
+ and asked it to analyze it
+ and give a bunch of insights.
+ It did a great job at this.
+ Enough that I actually also asked it
+ to then think about
+ how that should inform podcast strategy going forward.
+ And this is not something that I've gotten
+ great results from LLMs on before.
+ Mostly I found that it gives very stereotypical advice
+ that would be fit any podcast
+ rather than AIDB specifically.
+ It was much better than that.
+ And on top of that,
+ I asked it to turn all of this data
+ into a spreadsheet that organized all the information.
+ It did that really well too.
+ Getting me pretty enthusiastic about what it can do
+ from a data analysis and spreadsheet usage standpoint.
+ So the TLDR on all of this
+ is my first impressions are very positive.
+ For a long time now,
+ six months or more,
+ really kind of since Opus 4.5,
+ I've never fully stopped using ChatGBT
+ but Opus models have definitely been the daily drivers.
+ Cloud Code has been the main building app.
+ I would not go so far to say
+ that I'm 100% sure that's going to shift overnight
+ but the combination of the initial impressions
+ that I have of 5.5 being pretty positive
+ and the improvements in the harness
+ that come with the Codex app
+ means that at least for the next period,
+ I anticipate doing a lot of jumping back and forth
+ and seeing which model and which harness
+ does better on particular tasks.
+ From a strict competitive standpoint,
+ you got to think that the model release
+ in the moment right now is a win for open AI.
+ Cremio summed up the feelings of a lot of folks
+ when they wrote, model update,
+ Opus 4.7 is so lazy that it's worse than 4.6,
+ GPT 5.5 is a good model and it's gotten much faster.
+ And just to be clear that this isn't just
+ people's bitter grapes
+ or just model preferences expressed more aggressively,
+ on the same day that 5.5 came out,
+ the team at Anthropic published a post-mortem
+ around recent Cloud Code quality issues
+ and the TLDR is that people
+ weren't just imagining things.
+ Now, if you want to read all the specifics
+ that is available on Anthropic's website
+ and I think it is absolutely to their credit
+ that they are digging into these things
+ and trying to fix them
+ rather than just trying to pretend
+ that they didn't exist.
+ But the response from the enfranchised Cloud Code users
+ has been a very loud, I told you so.
+ Theo again writes,
+ confirmed that Cloud Code got dumber, not Claude.
+ They shipped slop and it made the models worse.
+ Solopreneur Peter Levels wrote,
+ I can't believe we were right.
+ Claude was dumbified on March 4th, just when we noticed.
+ And even taking a step back from that,
+ people seem to be pretty bullish
+ on open AI's insurgents
+ when it comes to the competition.
+ Jason's chips writes, gonna call it now.
+ Open AI's GPT-55 and insane new codex features
+ will cause a market share recapture and narrative shift.
+ Private market valuation will overtake Anthropic again
+ and their quote-unquote reckless compute spending
+ from six months ago gives them a capacity advantage
+ that will keep it that way.
+ Now, I would certainly not count Claude out yet.
+ Just yesterday they launched a feature
+ which I am extremely excited to see the impact of
+ memory on Claude managed agents.
+ And I think that if you are sitting there
+ from a user perspective,
+ the beneficiaries of this intense competition
+ are 100% us who'll get better models,
+ better harnesses and better applications
+ that actually allow us to do more and new things.
+ And finally, it feels like this might be
+ the beginning of more to come.
+ A lot of people compare this moment to 03,
+ but no more ID thinks 01 is actually the better comparison.
+ They write, as I've been thinking lately,
+ GPT-55 seems to be the initial RL checkpoint
+ of their new pre-training model.
+ So in a way, it probably makes more sense
+ to see it as something closer to 01 preview or 01.
+ You can really feel how much they compromised
+ on cost and speed, but they know the recipe.
+ So I think this model's 03 moment will come soon.
+ Ethan Malik explored similar themes,
+ calling this a sign of the future.
+ He writes, I had early access to 55,
+ and I think it's a big deal.
+ It is a big deal because it indicates
+ that we are not done with the rapid improvement in AI.
+ It is also a big deal because it is just plain good.
+ And it is a big deal because even with all of this,
+ the frontier of AI ability remains jagged.
+ Jumping ahead, he concludes,
+ 55 shows us that the models keep getting smarter,
+ the apps keep getting more capable,
+ and the harnesses keep getting better,
+ making them ever more effective at solving real problems.
+ A year ago, none of this was close
+ and with the latest releases,
+ capability gains appear to be accelerating.
+ GPT-55 is clearly not the end of this process,
+ but it is a noteworthy step along the way.
+ And all indications from the OpenAI team
+ seem to be that more is on the way.
+ When asked by reporters
+ whether the pace of model releases
+ would increase going forward,
+ OpenAI chief scientist Jacob Pachalki said,
+ yes, we expect quite rapid continued progress.
+ We see pretty significant improvements in the short term,
+ extremely significant improvements in the medium term.
+ I would definitely expect that we will continue
+ to see the pace of AI capabilities improvement
+ to keep increasing.
+ I would say the last few years
+ have been surprisingly slow.
+ Putting that even more clearly,
+ President Greg Brockman said,
+ what 5.5 represents is not an endpoint.
+ In many ways, it's a beginning point.
+ It's really a step towards the kind of models
+ that we see coming over even just the upcoming months.
+ And I think that you should expect that we are going to have
+ even larger improvements in the capability
+ across a wide variety of these aspects
+ of what the model can do.
+ So there you have it, friends.
+ That is the first look at GBT 5.5.
+ I expect that in the next couple of days,
+ we will see people both finding more things
+ that it does incredibly well,
+ but we will also start to find
+ all the different chinks in the armor
+ and things that we hope get fixed in the future.
+ For now, I will say that your weekend
+ just got a lot more fun
+ and probably a lot more productive.
+ So thanks as always for listening or watching
+ and until next time, peace.
