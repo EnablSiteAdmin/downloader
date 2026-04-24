@@ -1,0 +1,829 @@
+ Today on the AI Daily Brief, how headless agents will change software and work.
+ Before that on the headlines, the compute competition heats up.
+ The AI Daily Brief is a daily podcast and video about the most important news and discussions
+ in AI.
+ Alright friends, quick announcements before we dive in.
+ First of all, thank you to today's sponsors, KPMG, Blitzy, Zencoder and Granola.
+ To get an ad-free version of the show, go to patreon.com.ai-dailybrief, or you can subscribe
+ on Apple Podcasts.
+ If you're interested in learning more about the show, head on over to ai-dailybrief.ai.
+ You can find out about our newsletter, learn more about sponsorship opportunities, or see
+ really anything else that's going on in the ecosystem.
+ OpenAI has accelerated their ambitious roadmap for scaling inference.
+ In an ex post, they said they planned to deploy 30 gigawatts of compute by 2030.
+ During the Stargate announcement at the beginning of 2025, OpenAI announced their massive 10 gigawatt
+ target by the end of the decade.
+ Meaning for those of you who are sitting there doing the math, they are tripling their medium
+ term compute goals.
+ To give a sense of the scale, Epic AI estimated that total global AI data center capacity
+ reached 30 gigawatts at the end of last year.
+ That figure includes both the power used for chips and ancillary systems like cooling
+ and networking, so it's not entirely clear this is an apples to apples comparison.
+ 30 gigawatts also happens to be roughly peak power demand for the entirety of New York state.
+ OpenAI, meanwhile, says that they are already well on their way.
+ They said that they tripled their compute supply last year, going from 0.6 gigawatts to
+ around 1.9 gigawatts.
+ OpenAI also said that they've identified whatever that means more than 8 gigawatts already.
+ Now, for those of you who feel like, sure, I know why this is important, but it's
+ not really the part of AI that impacts me.
+ This year has shown exactly why it actually does affect all of us.
+ The rise of agentic work this year has brought a huge inference crunch.
+ Most observers believe that Anthropic is straining under a wave of new demand,
+ though they've yet to discuss that issue in public.
+ Instead, we're seeing a bunch of weird things that end up feeling like missteps
+ that could all be attributed to just simply not having enough compute
+ and power to serve as much of their AI as people want.
+ Hater writes,
+ Right now, compute is everything.
+ Anthropic does not have enough of it, which is why OPUS performance is degrading.
+ OpenAI felt the pressure in 2025, especially after the Ghibli wave,
+ which pushed Sam to lock in long-term compute.
+ Until there is a breakthrough in model architecture or chip design,
+ this cycle will continue.
+ Now, whether or not that's true, it is certainly the case that
+ OpenAI is positioning themselves as the startup with ample compute.
+ During the rollout of chat GPT images on Tuesday,
+ President Greg Brockman remarked,
+ Really incredible what you're now able to do with a little bit of compute.
+ At the moment, it might be a few subtle jabs,
+ but OpenAI pretty clearly wants customers to know that they have ample
+ capacity to accommodate any Claude refugees out there.
+ At the same time, semi-analysis is calling out another crucial bottleneck in energy supply.
+ In a classic vague post on X, they wrote,
+ 100 gigawatts under contract, 10 gigawatts of capacity left through 2030,
+ pricing up double digits, competitor literally stopped taking orders,
+ and they generated more free cash flow in 90 days than the prior 365.
+ This market is the tightest it's been in decades and nobody's talking about it.
+ Most believe this referred to GE Vernova,
+ one of the few suppliers of gas turbines required for co-located power generation.
+ GE Vernova stock was up 13.7% on Wednesday after they delivered a blowout earnings beat.
+ They reported $17.44 in earnings per share,
+ smashing the consensus forecast of $1.67.
+ Below the headline, they also discussed a massive increase in their backlog,
+ with new orders rising 71% last quarter to bring that backlog to $163 billion.
+ They're only forecasting $45 billion in revenue this year,
+ so it's likely their entire capacity for the remainder of the decade is spoken for
+ unless they expand.
+ TLDR, everywhere you look, there are massive bottlenecks showing up for scaling compute.
+ Consequently, one thing you're not hearing anymore is that data center construction
+ is a bubble that could end in a capacity glut.
+ The rapid adoption of token hungry agents has shown that the AI industry hasn't
+ come close to meeting demand and likely needs to accelerate the buildout.
+ Nate Silver wrote,
+ it feels like the bubble argument might fully shift to AI is a bubble because
+ compute is too expensive to meet staggeringly high user demand for
+ compute intensive advanced models.
+ Now staying in these waters for a moment,
+ Google has unveiled a new generation of their TPUs for training and inference.
+ The eighth generation TPUs will feature two different chips for the first time.
+ One will be optimized for model training while the other will deliver more
+ efficient inference.
+ Until recently, AI data centers have always been dual purpose.
+ AI demand didn't support inference only clusters, so
+ chips were designed to support both training and inference.
+ Over the past year, in particular demand for inference has massively
+ outstripped demand for training to the point that dedicated inference
+ clusters make a lot of sense.
+ Thomas Curian reinforced this point saying,
+ people increasingly are specializing how they deploy AI infrastructure
+ whether it's for training or inference.
+ Now it's not entirely clear that the two chips will have different
+ chipsets or if the components are the only difference.
+ Google said that the inference chip will be designed to maximize
+ memory bandwidth, reducing latency for agentic tasks,
+ while the training chip will feature larger compute throughput and
+ more scaled up bandwidth.
+ More indications that the industry is headed towards the separation
+ of training from inference include last month when Nvidia unveiled
+ their first collaboration with their recently acquired chip
+ startup Grock.
+ Their forthcoming Rubin generation will feature a server
+ configuration with additional Grock chips that is designed to
+ optimize inference.
+ And we've also seen open AI recently sign a deal with
+ Cerebrus, whose chips are only useful for delivering fast
+ inference.
+ While it's a big move for Google, semiconductor analyst
+ Patrick Morehead thinks the chips will only have a modest
+ impact on the industry.
+ He writes, this is not Google taking on Nvidia.
+ It's Google looking for optionality and using TPU
+ primarily for its own services.
+ One more note on Google, although we'll have more on
+ their announcements from next in the main.
+ Sundar Pichai has corrected the record, stating that three
+ quarters of Google's code is now generated by AI.
+ There's been a significant amount of discussion over
+ recent weeks about Google falling behind on coding,
+ leading to reports we covered earlier this week that
+ co-founder Sergey Brin is back leading a strike team
+ to rectify the situation.
+ As part of that reporting, the information resurfaced a
+ statistic from Google's February earnings call
+ that half of their code was now written by coding
+ agents.
+ Last year, that would have seemed like a lot, but the
+ information contrasted that against comments from
+ cloud code creator Boris Cherney, who has said
+ numerous times that pretty much 100% of Anthropics
+ code is now written by agents.
+ Apparently, Pichai took that personally because in a
+ blog post discussing the cloud next conference, he
+ wrote, we've been using AI to generate code internally
+ at Google for a while.
+ Today, 75% of all new code at Google is now AI
+ generated and approved by engineers up from 50%
+ last fall.
+ Lastly today, two stories in the open weight AI world.
+ Open AI has released a new open weights model tuned
+ for a very particular use case.
+ The new model is called open AI privacy filter and is
+ designed specifically for detecting and redacting
+ personally identifiable information and text.
+ The concept is that users can run the model locally,
+ drop in their sensitive text, and receive a fully
+ redacted output without any data leaving their system.
+ Privacy filter is an ultra small model with just
+ 1.5 billion parameters and 50 million active
+ parameters per query.
+ Still, it delivers state-of-the-art performance
+ on a privacy filtering benchmark, achieving
+ a 97% score.
+ Open AI didn't discuss which model it was built
+ on top of, however, they did mention
+ that the model is an alternate version of a model
+ they built for internal use.
+ They wrote, this release is part of our broader effort
+ to support a more resilient software ecosystem
+ by providing developers practical infrastructure for building
+ with AI safely, including tools and models
+ that make strong privacy and security protections easier
+ to implement from the start.
+ Now, I'm certainly going to be
+ watching to see if this idea of releasing
+ small open source micro models tuned for particular tasks
+ is something the AI labs pursue more broadly
+ or whether this is just a one-off.
+ Lastly today, speaking of AI labs focused on open models,
+ according to reports, Mistral might be joining
+ Elon Musk's AI super team.
+ Earlier in the week, SpaceX announced
+ they had signed a huge deal with Cursor,
+ which might include an acquisition later this year.
+ Business Insider now reports that Mistral could join in,
+ forming a three-way partnership
+ on whatever XAI is cooking up.
+ Sources said that Musk had floated the idea
+ of a collaboration as a way to take on rivals like Anthropic.
+ XAI has already snapped up a little bit of talent
+ from Mistral in a roundabout way.
+ Last month, they hired a founding team member
+ from Mistral who had since left
+ to join Thinking Machines Lab.
+ As always, the Elon Rorschach test is alive and well,
+ with people who like Elon,
+ seeing this as a fearsome combination
+ that would put XAI in a central role
+ and others being skeptical of whether this is enough
+ to really get back in the game.
+ Nothing is confirmed at the moment,
+ so for now, it's really all just about speculating
+ what the team might be called.
+ Satho writes Groxtral, the Grock,
+ that however is going to do it for the headlines.
+ Next up, the main episode.
+ All right, folks, quick pause.
+ Here's the uncomfortable truth.
+ If your enterprise AI strategy is, we bought some tools,
+ you don't actually have a strategy.
+ KPMG took the harder route
+ and became their own client zero.
+ They embedded AI and agents across the enterprise,
+ how work gets done, how teams collaborate,
+ how decisions move, not as a tech initiative,
+ but as a total operating model shift.
+ And here's the real unlock.
+ That shift raised the ceiling on what people could do.
+ Human status, the ability to move,
+ the ceiling on what people could do.
+ Humans stayed firmly at the center
+ while AI reduced friction,
+ serviced insight, and accelerated momentum.
+ The outcome was a more capable, more empowered workforce.
+ If you want to understand what that actually looks like
+ in the real world,
+ go to www.kpmg.us slash AI.
+ That's www.kpmg.us slash AI.
+ Want to accelerate enterprise software development
+ velocity by 5x?
+ You need Blitzy,
+ the only autonomous software development platform
+ built for enterprise code bases.
+ Your engineers define the project,
+ a new feature, refactor, or greenfield build.
+ Blitzy agents first ingest and map your entire code base,
+ then the platform generates a bespoke agent action plan
+ for your team to review and approve.
+ Once approved, Blitzy gets to work autonomously
+ generating hundreds of thousands of lines
+ of validated end-to-end tested code.
+ More than 80% of the work completed in a single run.
+ Blitzy is not generating code,
+ it's developing software at the speed of compute.
+ Your engineers review, refine, and ship.
+ This is how Fortune 500 companies
+ are compressing multi-month projects into a single sprint,
+ accelerating engineering velocity by 5x.
+ Experience Blitzy firsthand at blitzy.com.
+ That's blitzy.com.
+ So coding agents are basically solved at this point.
+ They're incredible at writing code.
+ But here's the thing nobody talks about.
+ Coding is maybe a quarter of an engineer's actual day.
+ The rest is stand-ups, stakeholder updates,
+ meeting prep, chasing context across six different tools.
+ And it's not just engineers.
+ Sales spends more time assembling proposals than selling.
+ Finance is manually chasing subscription requests.
+ Marketing finds out what shipped two weeks after it merged.
+ ZenCoder just launched ZenFlow work.
+ It takes their orchestration engine,
+ the same one already powering coding agents,
+ and connects it to your daily tools.
+ JIRA, Gmail, Google Docs, Linear, Calendar, Notion.
+ It runs goal-driven workflows that actually finish.
+ Your stand-up brief is written before you sit down.
+ Review cycle coming up,
+ it pulls six months of tickets and writes the prep doc.
+ Now you might be thinking,
+ didn't Open Claw try to do this?
+ It did, but it has come with a whole host
+ of security and functional issues,
+ which can take a huge amount of time to resolve.
+ ZenCoder took a different approach.
+ Sock 2, Type 2 certified, curated integrations,
+ tighter security perimeter,
+ enterprise grade from day one,
+ model agnostic and works from Slack or Telegram.
+ Try it at zenflow.free.
+ Today's episode is brought to you by Granola.
+ Granola is the AI notepad
+ for people in back-to-back meetings.
+ You've probably heard people raving about Granola.
+ It's just one of those products
+ that people love to talk about.
+ I myself have been using Granola
+ for well over a year now,
+ and honestly, it's one of the tools
+ that change the way I work.
+ Granola takes meeting notes for you
+ without any intrusive bots joining your calls.
+ During or after the call,
+ you can chat with your notes,
+ ask Granola to pull out action items,
+ help you negotiate,
+ write a follow-up email,
+ or even coach you using recipes
+ which are pre-made prompts.
+ Once you try it on a first meeting,
+ it's hard to go without.
+ Head to granola.ai slash ai-daily
+ and use code AI-daily.
+ New users get 100% off for the first three months.
+ Again, that's granola.ai slash ai-daily.
+ Welcome back to the AI Daily Brief.
+ Today, we are talking about
+ the growing phenomenon of headless agents,
+ really headless software in general.
+ What people mean when they use this term headless
+ is software that does things
+ without having a user interface.
+ Now, for a while,
+ people have been talking about the idea
+ that increasingly, AI agents
+ would be doing things on our behalf
+ and that whatever combination of tools
+ and searching and internet access
+ that they need to get the job done
+ that they're trying to do
+ will inevitably be quite different
+ from the type of interfaces
+ that people would need to do the same things.
+ That creates a whole bunch of challenges
+ and also a whole bunch of new opportunities.
+ Chief among the challenges is the fact
+ that many different types of software providers
+ are now going to have to support
+ entirely different categories of quote-unquote users
+ as what their human users
+ and their agentic users need
+ will be fundamentally different.
+ Over the last week or so,
+ we've gotten a set of announcements
+ that all relate to this new headless paradigm
+ and also give us a good sense
+ of where enterprise agents are right now.
+ The first news that we're covering in this trend
+ came about a week ago
+ as Mark Benioff and Salesforce
+ announced their new headless 360 product.
+ Not burying the lead at all with that name, right?
+ Benioff tweets,
+ welcome Salesforce headless 360,
+ no browser required.
+ Our API is the UI.
+ Entire Salesforce and agent force and Slack platforms
+ are now exposed as APIs, MCP and CLI.
+ All AI agents can access data, workflows and tasks
+ directly in Slack, voice or anywhere else
+ with Salesforce headless 360.
+ Faster builds, agentic everything.
+ So again, the whole concept here
+ is the decoupling of agentic work from human interfaces.
+ Right Salesforce?
+ For 25 years, using Salesforce
+ meant working inside Salesforce.
+ A customer service rep opened a console,
+ clicked into a case
+ and manually updated its status.
+ A human navigating a platform to get work done.
+ But in the agentic enterprise,
+ humans aren't the only ones doing the navigating.
+ Agents are too,
+ and they don't go to a browser or click through UIs.
+ They call APIs, invoke MCP tools
+ and run CLI commands directly.
+ Though, two and a half years ago, we made a decision.
+ Rebuild Salesforce for agents.
+ Instead of burying capabilities behind a UI,
+ expose them so the entire platform
+ will be programmable and accessible from anywhere.
+ If your platform requires humans to click through UIs
+ or write code directly to make progress,
+ it is not ready for the agentic enterprise.
+ The goal, they say, is that, quote,
+ work that used to pull people out of the conversation
+ now happens inside it.
+ Not just text back and forth, but approvals, decisions,
+ rich data, full workflows all surfaced
+ inside the channels where your people already are.
+ That's what it means for the conversation
+ to be the interface.
+ Now, of course, taking a step back,
+ it makes sense why Salesforce
+ with their Slack platform is particularly keen
+ on making the conversational interface of work more robust
+ given how much of that conversation
+ happens on their Slack product.
+ Certainly it sounds like they're already seeing
+ just how integral to this agentic evolution Slack is,
+ writing that custom agents on Slack
+ have grown 300% since January.
+ Now to give context for just how complete
+ a change they're thinking about,
+ they start their announcement article
+ with a quote from Salesforce co-founder Parker Harris.
+ Why should you ever log in to Salesforce again?
+ With apologies to my Salesforce
+ and agent force listeners,
+ Salesforce announcements don't always get a ton of attention.
+ And that's not just Salesforce,
+ that's basically any company
+ that's not named Anthropic or OpenAI at this point.
+ This one, however, got a ton of chatter
+ with people immediately grokking the significance
+ of the trend outside of Salesforce itself,
+ writes Jacob Hampson, this is the future.
+ Every app headless with the head being your chat
+ or message or agent interface of choice.
+ Now the conversation about headless agents
+ and headless software was starting even before that,
+ but you could really start to feel it pick up
+ and move away from just developers
+ into more mainstream knowledge work circles
+ after this announcement.
+ Speaking of announcements,
+ we got another enterprise agent related announcement
+ yesterday, this time from OpenAI.
+ Not content to sit back
+ and let this just be the week of GPT images too,
+ OpenAI announced what they're calling workspace agents.
+ The ideas that organizations
+ can set permissions and controls
+ and then individuals and teams in those organizations
+ can spin up their own agents.
+ These agents are meant to do a lot of the things
+ that make up the day to day of knowledge work,
+ responding to messages, preparing reports,
+ things like that.
+ They are cloud-based so they can work
+ even when you're not on chat GPT
+ and they are designed for team use from the beginning
+ so that once someone builds them,
+ it can be shared with an organization
+ and used in shared spaces
+ like chat GPT enterprise or in Slack.
+ Now in some ways, they are an obvious evolution
+ of custom GPTs.
+ In fact, in many ways, these workspace agents
+ are kind of what I think people imagined
+ custom GPTs would be.
+ It was obviously just a little bit too early
+ for this full breadth of use cases
+ to really be useful with that earlier version.
+ Simon Smith writes,
+ these are like GPTs on steroids like mini open clause.
+ You give them skills, tools and files
+ so they can do a lot more work.
+ You can add them to channels like Slack
+ so you can communicate with them there.
+ You can run them on schedule so you can automate work
+ and big bonus, you can add memory
+ so that they can remember past actions,
+ preferences and other information as you work with them.
+ I think Simon's framing of them
+ as sitting between custom GPTs
+ and the complexity of open-claw style agents
+ is a pretty good shorthand.
+ OpenAI gave five examples of workspace agents
+ that teams internally had built.
+ A software reviewer to review employee software requests,
+ including checking them for things
+ like adherence to approved tools and policies,
+ a product feedback router agent
+ that could monitor Slack or other support channels
+ and turn feedback into prioritized tickets,
+ weekly metrics reporter agents
+ that can pull data on a regular schedule
+ and turn that into shareable charts and summaries.
+ And they also talked about outreach agents
+ which is something that I feel like at this point
+ every company that's trying to be
+ at least even a little bit agentic has thought about.
+ IE agents that do things like research inbound leads,
+ update your CRM, et cetera.
+ And the last example they gave
+ was a third party risk manager
+ that could research vendors assessing a bunch of signals
+ and ultimately produce a report with recommendations.
+ Workspace agents also has templates
+ in functional areas like finance sales and marketing.
+ Now, when Simon was describing
+ all these features they have access to
+ because they are powered by Codex in the cloud
+ which means they have access to the same sort of files,
+ code tools and memory that Codex does.
+ This is also why they are a difference in kind
+ of not just a difference in scale from custom GPTs.
+ As OpenAI puts it,
+ agents do more than answer a prompt
+ they can write or run code, use connected apps,
+ remember what they've learned
+ and continue work across multiple steps.
+ Now, Aaron Levy from Box
+ connected this directly to the idea of headless software.
+ After the announcement he wrote,
+ this is probably the biggest news yet
+ in software going headless
+ and will bring knowledge work agents to the masses.
+ The new chat GPT agents have access
+ to any of the tools and data you want to work with
+ and complete coding and tool use available to them.
+ This is precisely what agents will start
+ to look like for knowledge work.
+ You'll be able to spin them up in the foreground
+ or background to help augment work.
+ Big opportunity right now for headless platforms
+ and for all the new builders and designers
+ of these agents in the enterprise.
+ Still, we are not even halfway through
+ the enterprise agent announcements
+ that we've gotten this week.
+ Microsoft's latest agentic offering
+ is called Hosted Agents.
+ And this is basically their version
+ of Anthropics recently announced Clawed Managed Agents.
+ CEO Satya Nadella writes,
+ every agent will need its own computer
+ and with new hosted agents in Foundry,
+ every agent gets its own dedicated enterprise-grade sandbox
+ with durable state, built-in identity and governance
+ and support for any harness or framework.
+ Basically the idea is that Microsoft
+ is now allowing Foundry customers
+ to run agents on their Microsoft's infrastructure.
+ The agent gets its own configurable sandbox
+ with a persistent file system,
+ essentially creating a safe and observable environment
+ for an agent to operate within.
+ Users can bring their own harnesses,
+ orchestration systems and execution environments
+ to ensure the agent can operate exactly how it needs to.
+ Now, as a side point,
+ you can see Microsoft leaning
+ into their new multi-vendor platform.
+ In their announcement post, even they wrote,
+ this flexibility is the point.
+ Unlike platforms that force one model and one harness,
+ Foundry is multi-model and multi-harness by design.
+ Run models from open AI
+ and Thropic, Metamistral and more.
+ Bring any orchestration framework, no lock-in.
+ Remember, this is Microsoft saying that
+ a time traveler from the 90s would be gobsmacked.
+ And then there was Google.
+ This week was Google's cloud next conference
+ and agents were 100% the star of the show.
+ CEO Sundar Pichai said that agents
+ and particularly enterprise agents
+ will be the key to AI monetization efforts.
+ The central release is a unified platform
+ called Gemini Enterprise
+ or in full the Gemini Enterprise agent platform.
+ The platform seems to be functionally a rebrand
+ and relaunch of Vertex AI,
+ which is Google's agent design and orchestration tool.
+ Google has added a new set of governance
+ and security features to allow enterprises
+ greater control over their agent deployments.
+ And Google Cloud CEO Thomas Kurian
+ described that this platform update
+ was a response to shift in customer behavior.
+ He said, there's definitely a strategic shift
+ as the models become much more sophisticated.
+ The primary use case of Vertex AI
+ recently shifted from old style machine learning
+ to a sudden explosion
+ in users building their own custom AI agents.
+ Now alongside the new look Gemini Enterprise,
+ Google has filled out a bunch of necessary features
+ to make their agentic offering complete.
+ They now have Data Agent Kit,
+ which provides a set of agent skills and plugins
+ to make building agents a more streamlined process.
+ Knowledge Catalog, which provides a unified context engine
+ for the entire enterprise.
+ In Google Workspace,
+ the company has added Gemini for Google Slides.
+ The agent can now be steered
+ to follow your brand or corporate style
+ as well as working from your templates.
+ And there were literally dozens of other features
+ or products announced.
+ With the clear overall goal
+ being to deliver everything one could possibly need
+ to deploy and operate enterprise-grade agents at scale.
+ Silicon Angle argued,
+ the real story is an AI, it's the control plane.
+ Google Day writes is not launching AI features.
+ Google is trying to build the operating system
+ for the agentic enterprise.
+ The thesis is basically that
+ if model performance is converging
+ and becoming a commodity
+ and if inference is getting cheaper,
+ the control layer or agentic operating system
+ becomes the new land grab.
+ Silicon Angle continues,
+ the shift now underway across the enterprise stack
+ moves in a clear arc
+ from systems of record to systems of engagement
+ to systems of execution.
+ Salesforce, Workday and ServiceNow
+ built their empires on the first.
+ The web and mobile era built fortunes on the second.
+ The third, systems that actually do the work
+ is the prize Google is reaching for at next.
+ So let's take a step back
+ and try to contextualize all of these announcements.
+ First let's turn back to Aaron Levy again who writes,
+ software going headless is inevitable in a world
+ where agents use the tools 100x more than people do.
+ And the reality is for a lot of software
+ this is actually a huge boon
+ to potential use cases for these platforms.
+ Software business models have largely been predicated
+ on selling to the number of seats
+ that are in the company in a given function.
+ And the usage of your software is constrained
+ by how much people can do in a given day.
+ This means that your technology is often vastly underutilized
+ relative to what it can actually power for the customer.
+ Enter agents.
+ Agents can work 24 seven,
+ run in parallel and string together work across systems.
+ This is a big deal because now the agent can do
+ far more than people ever could with these tools.
+ Instead of reviewing contracts one by one,
+ the agent will review all of them.
+ Instead of manually moving data
+ between marketing systems and across campaigns,
+ the agent will let you run 10x more of them.
+ Instead of being rate limited
+ in a client onboarding process by human steps,
+ agents accelerate these.
+ And here's the key point that Aaron makes
+ that people are just starting to discuss now.
+ Agents he writes, end up using these underlying platforms
+ far more than people ever did,
+ which opens up use cases
+ that the platform couldn't go after before.
+ Now, not every software market has the same amount
+ of positive some use cases between people and agents.
+ But I'd argue that a significant portion of systems
+ of record for instance,
+ can be used far more than they are today.
+ Your Salesforce data can be leveraged 100x more
+ to do vastly more customer targeting and sales automation.
+ Your documents can be turned into structured data
+ and analyzed for insights and knowledge
+ to automate other workflows and so on.
+ Now of course, you have to find a way
+ to make this all commercially attractive,
+ but it's not hard to picture the revenue
+ from API and agent consumption on these platforms
+ becoming a rich component of revenue streams over time.
+ Seats for the people, consumption for the agents.
+ Lots of upside here for the companies
+ that embrace this trend.
+ Now, many others jumped
+ on the business model implications here.
+ ViBarketer JB writes, Salesforce going headless
+ is bigger than people realize.
+ Software has been priced per seat for decades.
+ The entire business model assumes a person logs in,
+ clicks around and gets value from a dashboard.
+ Agents don't log in, they make API calls.
+ So what happens to per seat pricing
+ when the primary user of your platform isn't a person?
+ When one company runs 50 agents
+ that each make more API calls in a day
+ than the entire sales team makes in a month.
+ Every SaaS company is about to face this question.
+ Salesforce just forced it into the open
+ by going fully headless.
+ The ones that figure out agent native pricing first
+ will own the next cycle.
+ The ones still charging per seat
+ while agents do the work will get left behind.
+ Now interestingly, this idea
+ that the per seat model was on its last legs
+ has been around for the last few years.
+ Even before chat GBT,
+ there was a lot of consternation around this
+ between these SaaS providers and their customers.
+ In the wake of chat GBT
+ in the beginning of more advanced generative AI,
+ you saw many companies start to try to at least experiment
+ with outcome based pricing or just non-seat based models.
+ But their users were still primarily human
+ and nothing really quite stuck.
+ What's different about this time
+ is that you actually have a different category of user
+ where I think different types of natural business models
+ like these consumption based models
+ or whatever we figure out works
+ actually fall naturally out of the new user behavior pattern.
+ One of the big speculative debates people are having
+ is who captures this new type of value?
+ Is it horizontal providers like open AI and Anthropik,
+ the old systems of record like Salesforce,
+ vertical agents that deal with specific functions
+ and use cases?
+ And there are debates on all sides of this.
+ Simon Smith writes, yes value is shifting from UI to agents
+ and the data and infrastructure to support them.
+ But it's not clear to me
+ that vertically specific Salesforce
+ is best positioned to capture the shifting value.
+ The AI labs are building vertical
+ agnostic agent infrastructure
+ and there are many capable data
+ and infrastructure providers in the market already.
+ Akash Gupta provides the counter argument.
+ He says, the math for mid-tier SaaS is brutal.
+ Once the agent layer works across tools,
+ enterprise buyers stop paying $30 a seat
+ for AI in five different products
+ when one chat GPT seat runs the same workflow.
+ The real winner he continues
+ is whoever owns the data access layer.
+ Salesforce, ServiceNow and Workday sit on the schemas
+ every agent has to read from.
+ They just became the toll road.
+ And yet others are seeing the shift to headless
+ as an opportunity for more,
+ not less usage of the existing platforms.
+ Matthew Kobach writes, SaaS has taken a beating
+ in the public markets lately as a response to AI.
+ There's an interesting counter position
+ that headless SaaS becomes more valuable with AI, not less.
+ Software has a learning curve and a human bottleneck.
+ But if I could have a dozen capable agents
+ working inside any given software,
+ that software becomes more valuable, not less.
+ So one argument for why the SaaS apocalypse
+ won't play out exactly as investors have thought
+ is that reducing the friction in agents using tools
+ means that agents will use more tools.
+ Seat price might go down, but consumption will go up
+ and there's actually room to make even more money.
+ The other thing that some are thinking about though
+ is that some of the SaaS tools
+ that are used for human coordination today
+ might be naturally positioned
+ for agent coordination tomorrow.
+ Ivan Burazan, for example, writes,
+ Atlassian is still undervalued.
+ Everyone thinks JIRA and Confluence
+ will get vibe coded away.
+ Instead, they'll build headless versions,
+ API first, same product, no UI for agents.
+ Agents need standardized project management
+ just like humans do.
+ Stock is underperforming
+ because people misunderstand what's happening.
+ Ivan has actually been thinking a lot
+ about this shift to headless software.
+ In another tweet from back at the end of March, he wrote,
+ agents need headless tools to work efficiently.
+ Basically, APIs and programmatic access
+ built for autonomous systems.
+ Headless IDEs, headless terminals, headless everything.
+ And then just this week, he wrote,
+ most info companies are still not solving
+ for what agents will need.
+ They're not considering the agent as the primary consumer.
+ They're creating agents that make human lives easier
+ by automating more of our use cases.
+ In the next two years, agents will completely take over
+ and make comparisons, purchases,
+ and other real-life decisions with consequences.
+ The alpha will shift to optimizing the agent's life better
+ after you give it the prompt.
+ HubSpot founder Dharmesh Shah agrees.
+ He wrote, every B2B software company is
+ or should be building a headless version
+ of their product, one that can be used by agents.
+ But headless doesn't mean brainless.
+ You don't just wrap your existing APIs
+ into an MCP server and call it a day.
+ The companies that succeed in the agentic era
+ are those that take a thoughtful approach
+ to designing an agentic user experience.
+ Yes, that will likely involve APIs, MCPs, and CLIs,
+ but the difference will be in the ergonomics
+ of the interface.
+ We need to figure out how agents actually want
+ to use our products and platforms.
+ Because if all they wanted to do was use them
+ like humans do, we have computer use for that.
+ Startup Ideas podcast host Greg Eisenberg
+ sees nothing but opportunity here.
+ He argues that there's a trillion dollars up for grabs
+ for agent-first startups, as every SaaS company
+ follows Salesforce and goes headless within 18 months.
+ He argues that a new category of agent-native startups
+ will emerge that treat the sales forces
+ and HubSpots and workdays as, in his words, dumb backends.
+ The startup is the agent, he says.
+ The SaaS is just the database.
+ And yet I will point out, for those of you
+ who are sitting there feeling like,
+ what role do humans have in this,
+ I would point you to another news report
+ from earlier this week around open AI working
+ with firms including Accenture, Capgemini and PWC
+ to help sell codecs to businesses.
+ Aaron Levy again writes,
+ the real world will need a ton of help
+ actually getting agents going in the enterprise.
+ Companies have legacy tech stacks they need to modernize,
+ data and tons of fragmented tools,
+ knowledge that isn't captured or digitized
+ and change management needed to actually
+ utilize agents effectively.
+ And they all have to do this
+ while actually running their business day-to-day
+ unlike startups.
+ This is why there is so much opportunity
+ for companies, software or services
+ to actually deploy agents in specific domains and workflows.
+ This remains a big opportunity
+ for both existing service providers
+ but also tons of new startups as well.
+ Every new technology wave produces a new era
+ of consulting firms that can deliver on that technology.
+ That's also why the FDE model is going to be alive
+ and well for a long time
+ because companies will want to have their vendor
+ actually help drive the change management
+ and implementation for their new workflows.
+ The people aren't going away, far from it.
+ So friends, I think headless is probably a word
+ you will hear a lot more on this show
+ as these trends evolve.
+ For now though, that is going to do it
+ for today's AI Daily Brief.
+ Appreciate you listening or watching as always
+ and until next time, peace.
