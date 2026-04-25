@@ -1,0 +1,644 @@
+ Today on the AI Daily Brief, how to build your agentic operating system.
+ The AI Daily Brief is a daily podcast and video about the most important news and discussions
+ in AI.
+ All right, friends, we are back with another operator's bonus episode.
+ Today, we are once again joined by Newfarg Aspar, who is here to introduce the latest
+ free AIDB training program, Agent OS.
+ Now, those of you who have done AIDB New Year or maybe Clawcamp will be familiar with this
+ style.
+ It's a self-directed build-based program that's going to give you the tools you
+ need to build a complete agentic operating system.
+ And for those of you who are wondering what the difference between this and Clawcamp
+ is, in many ways they share a lot of foundations, but whereas Clawcamp is of course focused
+ exclusively on Open Claw, this is an updated program that is meant to be platform, model,
+ and harness-neutral.
+ Whether you're working with Clawd Code or Codex or some other set of tools, Agent
+ OS is about building dynamic and extensible and adaptable agentic systems that you
+ can continue to evolve over time.
+ But instead of me yapping about it, let's turn it over to Newfarg to introduce the
+ program and get you building your agentic operating system.
+ All right, Newfarg, welcome back to the show.
+ We got a fun one today.
+ Yes, we do.
+ So this started kind of emerging around the time that I had started hacking around on
+ Clawcamp.
+ But before we dive in, we're going to talk about this Agent OS idea today, but give
+ us a little bit of background around where the origin of this came from.
+ Like most other people have been hacking around these systems for a few months, realizing
+ that different tools like we will explore in a minute are converging and that I'm
+ still not getting optimal results unless I'm being very deliberate about what
+ I'm putting underneath.
+ So basically, that's the accumulation of all my thinking around how can you make
+ any agentic tool work much better for you.
+ So it's a framework that will not give any one novel concept, but the overall
+ accumulation of everything creates a much better system for any tool, whether
+ it's OpenClaw or any other agentic tool.
+ Kind of moving from agents to agent systems almost and, you know, especially
+ as I mean, literally as we're recording this open AI just drop their workspace
+ agents and it's just that the innovation is going to keep coming.
+ I think the idea of having systems underneath that are extensible to the
+ new platforms and kind of keep yourself organized are going to be increasingly
+ valuable. So I'm excited to dig into this with you.
+ Excited to share with everyone my best methods as of this morning, at least
+ in today's episode, as mentioned, I will go over the full system that
+ everybody who wants to get more out of the new wave of the agentic tools
+ should build for themselves.
+ And as a means of a background, what's happening today is that basically
+ every agentic tool is becoming every agentic tool.
+ You said it in one of the shows over the last few weeks, and you're
+ correct, because Kerser just added agents and automations and Cloud
+ Code added new memory systems also allows you to communicate with it
+ from other channels and open Cloridio files and codecs run in the background
+ and Hermes, the kind of up and coming open source from noose.
+ They also have similar architecture, whether it's windsurfing or anti
+ gravity or any of the numerous tools out there.
+ They're all converging on the same set of capabilities, which means
+ that the tool you pick matters less and less.
+ And what matters much more is the system that you build underneath it.
+ So you want to build a system that captures how you work, what you know
+ and what you need from the AI tool to do for you.
+ And one important framing before we go any further is that most of the
+ discourse around agentic tools is kind of focusing on coding.
+ And today I want to focus primarily on knowledge work.
+ So whether it's strategy, communication, operations, decision
+ making, research management and anything that the knowledge
+ worker does, that is where the most professionals live.
+ And that is where the agent OS or agentic operating system makes
+ the biggest difference.
+ And if some of these tools names are new to you, please don't disconnect.
+ Everything that we're going to cover today boils down to human
+ readable text files and configurations.
+ So if you can write a document, you can build an agentic operating system.
+ And I'm seeing people building incredible things with a new wave
+ of these tools.
+ Many of you are using them seriously and getting real results.
+ But here's what kind of clearly differentiates how well any tool works
+ for you. And that is the underlying system.
+ Whether you've carefully build it, maintain it and improve it over time.
+ That's the biggest unlock and most people haven't.
+ And it's not because they can't, but because they are building on
+ instinct or best effort and they end up getting suboptimal
+ results from the tools that are capable to do so much more.
+ So the proof that the underlying system is the thing that matters.
+ Every one of these agentic tools are basically doing the same thing under
+ the hood. They are reading text files that define who you are, what
+ you know, what you can do and what you remember and what you can reach.
+ So almost everything that we're going to build today is a text file and
+ that's that, which means that the work you do to build your system
+ is portable.
+ And while the tool owners and the tool companies might not want you to
+ think so, that's the reality of every tool becoming every tool.
+ And when you switch tools or add a new one, all you have to do is point
+ the tool to the same folder and it reads the same files, no migration,
+ no rebuild, and the tool choice thus is becoming the least important
+ decision in my opinion that you need to make.
+ What does make a world of difference is what you build underneath.
+ So the underlying system has a name and we're, as mentioned,
+ calling it the agentic operating system.
+ And that's why we built a free program to help everybody build one
+ for themselves, regardless of which tool they use and more of that at
+ the end, but a few things that you need to do and know today.
+ First of all, is why the agent OS is the most important and most
+ overlooked concept in practical AI.
+ We then will go over quickly the seven layers and what actually
+ goes in each one and we'll talk about how to build the first
+ version of this this week using the running example of a chief of
+ staff agent. So your agentic operating system has seven layers
+ and you can see them on screen and all of your agents we run on top
+ of these layers and each agent is basically inheriting the whole
+ foundation. So the OS is what makes agents effective regardless
+ of which tool you use and regardless of how many agents
+ you add over time. You build the OS once, you maintain it
+ and then every agent you add gets better because the
+ foundation is there. And we're going to walk through each layer so
+ you will have better sense of what I mean by that. And before I
+ go into the layers just to make it more concrete, I want to build
+ one specific agent as we go through the layers. And let's
+ focus on a chief of staff agent. That will be the agent that
+ reviews your inbox, you perhaps let it prepare you for
+ meeting track every commitment you make across calls maybe
+ flag any blind spot that you have this agent can perhaps
+ draft your weekly updates know your people know your priorities
+ and so on. And this is one of the first agents by the way that
+ I built for myself. I built Chloe. She runs on open claw and
+ she's the front door to my entire system that I will briefly
+ share later on. So of all the agents that you can build a
+ chief of staff is probably the one that helps you the most
+ in the day to day. And whether you're an individual
+ contributor, and you're just getting started in your
+ career or you're a seasoned executive already used to
+ managing a team of assistants, everybody would benefit from
+ having a chief of staff. And eventually, your chief of
+ staff can become the agent that manages the other agents. So
+ that's what we will build today layer by layer. The first
+ layer will be identity. And that answers one question. Who
+ are you? And what rules do you want enforced? Every
+ single time the agent talks to you. This is the file that
+ your tool reads first. So it will read it before any
+ question you type and before memory. The first thing in
+ open claw, it's called soul in cursor, it's called agents
+ dot md in cloud code, it's cloud in github copilot, it's
+ copilot instructions, and so on different names, but the same
+ idea, a text file that tells the tool, who is it working
+ for? If you've never proactively written this
+ file, your agent starts from zero or what it was able
+ to collect randomly along the way. And if you don't have a
+ high intention, regularly update and just sufficient
+ amount of information in the identity file, you are missing
+ a huge opportunity for you to get so much more out of the
+ agentic tool, or the agent that you will build on top of
+ these agentic tools. So you write it once, and you
+ enforce it forever, or rather the tool does. And in
+ terms of what goes into a good identity file, it has to
+ include who you are, how you communicate, whether it's
+ director diplomatic bullets or pros shorter, thorough and so
+ on. It needs to also include what you value. So whether you
+ prefer concise versus lengthy, whether you prefer
+ challenge your thinking versus execute what you say, show
+ your reasoning or just give you the answer and so on. And
+ whether you have specific rules, what AI should never
+ do. For example, never send external email without showing
+ me a draft or never flatter me or always tell me what I'm not
+ seeing. So that will be the identity. And here's the key
+ to actually building a good identity file. You don't write
+ the file from scratch yourself, you will hate it and you will
+ quit. Instead, I encourage you to brain dump to an AI and let
+ the AI interview you. So open any AI tool, an ideally one
+ that already has efficient memory of you from ongoing
+ work with you and say, I'm building my identity file,
+ please ask me 15 questions about how I work, what I want, what
+ I don't want, what frustrates me about AI today and what rules
+ I want enforced, you answer and ideally out loud because it's
+ much easier to speak to an AI tool. And then the AI will
+ draft, you will edit, and you will shift a first version
+ that let's say is about 70% right, you can patch it over
+ the next three weeks as you notice the gaps. And
+ basically, this is the methodology for every layer that
+ we will cover today. You brain dump, you let the AI
+ interview you, you draft, you shift a minimal viable version
+ of this file, and then you improve. And for our chief
+ of staff, identity will capture your communication style,
+ your pet peeves, your non negotiables. For example,
+ never let me walk into a meeting without a pre read or
+ always tell me who else I owe to reply to or flag when
+ I'm over committing for the next week. And then we have
+ the context. The context is what you know. And what you
+ know is the single biggest predictor of whether I give
+ you the generic output or something genuinely useful
+ for your actual situation. So a generic advice is just
+ like one Google search away. And what you cannot get
+ from the public internet is your situation, your
+ roadmap, your org chart, your customer segments, your
+ priorities and so on. And unlike other layers, this is
+ not something that will be solved by better models. Your
+ specific context will always be yours. And no model
+ improvements will ever ever know what you're shipping
+ next quarter, or who your key stakeholders unless you
+ tell it. And context files are the documents in your
+ workspace that your agent read on demand. And they
+ are not part of the prompt you type. They are the
+ library that the agent can reach for when the
+ task needs it. Now there is a big trap here. If
+ you're trying to context engineer in one session, you
+ will produce a 40 page document, and you never
+ update that. That's not context. It's just a quick
+ to be stale novel. So what actually works here is
+ to have basically three to five focused files, each
+ on a single page, each covers one thing, whether
+ it's my team, my product, my customers, my
+ quarter, my stakeholders and so on, make it
+ dated and fresh and update when things change. And
+ often we call it context curation, and it's not a
+ project that has a beginning or an end. It's a
+ practice. And every time you catch yourself
+ re explaining something about your situation to AI,
+ that thing should have been in a context file.
+ Write it down and add it to the library and then
+ you move on. For example, for our chief of
+ staff, we will at the very minimum need a
+ stakeholder's file who reports to you, who
+ report to key cross functional partners, what each
+ one cares about and so on strategy and priorities
+ file, what you're trying to achieve this year, what
+ the organization is focused on, and an operating
+ principle file, how decisions get made, what you
+ push back on, what you escalate and so on. And
+ I believe that context curation is the single
+ fastest path to AI value. So the moment anyone
+ gets this, whether it's you or people around you,
+ this is where the conversation changes. They stop
+ asking what AI tool should I use and start
+ asking what knowledge do I have that isn't written
+ down anywhere. And of course, if you want to go
+ deeper on this layer, NLW did an amazing
+ episode a few days ago called How to Build
+ a Personal Context Portfolio and MCP Server, and
+ it works you through hands on, including
+ templates and companion apps. So he did such a
+ good job that I'm going to let NLW take it
+ from here. So identity is who you are, context
+ is what you know and skills is how you work. And
+ a skill is a reusable instruction set for the AI
+ or workflow that you do repeatedly. It can be
+ the weekly status updates or the meeting prep
+ stakeholder emails and so on. It can be decisions
+ and memos, you name it. And I believe that
+ every knowledge worker easily has 20 or 30
+ of these patterns. And each one can be written
+ as when I say some kind of a trigger, do some
+ kind of a process using the following sources
+ and produce output in this format. So
+ without a skill, you're basically re-explaining
+ the format every time you paste the same sources
+ every time you complain that the AI writes in a
+ weird voice and you never bother to teach it
+ your voice. So a skill fixes that and if you
+ write it once well, it fires forever. Again,
+ I want to encourage an MVP skill, not a perfect
+ skill to begin with. The first version is
+ always not perfect and kind of wrong, but
+ you use it for a week and then you notice
+ when it's off and what it needs to improve, you
+ patch it and then a few weeks in that skill
+ is writing better first draft than you'd ever
+ get from starting over each time. For our beloved
+ chief of staff agent, a bunch of skills that
+ you can consider will be pre-read that will
+ produce a one page pre-read for any meeting.
+ It can be daily brief that scans everything
+ that is open on my inbox or Slack or
+ calendar and gives me what is on my plate
+ for today, voice match that helps AI write
+ like you, commitment tracker and I can think
+ of many other and I'm sure you can. And of
+ course, if you want to go deeper on skills,
+ we did a skill masterclass episode in this
+ show a few weeks ago. Memory is the
+ next layer and this is where every
+ agent tool company is probably investing
+ extensively right now. And that is
+ happening for a very good reason because
+ it is clearly one of the biggest unlocks.
+ It's kind of the core part of what makes
+ open claw feel like magic. Cloud
+ code recently added auto memory and
+ Kerser has project level memory and
+ things are changing on a daily basis in
+ the memory front. And because it's so
+ important, every tool is racing to
+ improve and they frequently copy each
+ other's breakthrough. So what's currently
+ a limitation in one tool will
+ probably be solved by the next time
+ you go and look into a new tool release.
+ So the question is if so many experts
+ are working on memory, what does it mean
+ for you in practical terms? So first,
+ the good news you can just lean on the
+ existing memory in your tool and it
+ will keep getting better for sure. But
+ at least as of now, no matter which
+ tool you're using and how well its
+ memory is working, there are a few
+ things that you should do. At the very
+ minimum, I want you to understand how
+ your tool's memory works. You can ask
+ it directly. Explain how your memory
+ system works. What do you remember
+ between sessions? What do you forget?
+ You need to know what you're working
+ with before you can improve it.
+ And also you need to know the limitations.
+ Most tools still have gaps in cross
+ session memory in what they retain
+ versus discard and also in how
+ context window interact with
+ the stored memory. So by understanding
+ the limitations, you will get
+ significantly better results. And for
+ the more advanced users, I would
+ encourage you to add specialized
+ memory for your work context. So some
+ people maintain a running log.
+ Others create structured memory files.
+ Some people use dedicated memory tools
+ or MCP servers. What I want you to be
+ is to be deliberate about what gets
+ remembered. Your agent does remember
+ things on its own, but it doesn't
+ always pick up the right things.
+ So a major decision, a change in
+ priorities, or the end of a very long
+ session, might not be picked up
+ properly how you would expect. So
+ you should deliberately get the
+ agent to remember that. And these
+ are the things that you should
+ make into a habit or even create a
+ dedicated skill to help your agent
+ remember the way you like it to
+ remember. And there is a lot of
+ variance between the tool. That's
+ something that you need to know. So
+ it's a layer that you can probably
+ deepen over time. You don't need to
+ solve it on day one, but the better
+ the memory works and the better the
+ overall experience becomes because
+ memory is what makes every other
+ layer stick across sessions. If
+ we're going with our chief of
+ staff, beyond the general memory,
+ you might want to create dedicated
+ memory for decision logs. For
+ example, what was decided, why,
+ what's the alternatives that we were
+ contemplating and so on. We might
+ want to also include a dedicated
+ memory for learning about the
+ working processes because you want
+ the chief of staff to also own an
+ ongoing improvement. And perhaps
+ you want to remember relationship
+ context, how conversation with a
+ specific stakeholder went, what
+ they reacted well to, and so on.
+ And this is more structured than
+ the generic memory that any tool that
+ you use will provide and will
+ really help your chief of staff
+ agent to be much better companion
+ and helper for you. So
+ everything so far has made your AI
+ smarter about you. We move to the
+ next layer, which is connections,
+ and that makes it capable of acting
+ in the real world. And connections
+ are how your agent reaches real
+ systems, whether it's email or
+ calendar, Slack, JIRA, Salesforce,
+ your databases, there are various
+ ways to get there. We have the MCPs
+ or model context protocols. This is
+ the open standard that many tools
+ support. Recently we're seeing CLI
+ tools that give your agent more
+ judgment to decide how to interact
+ with the external system on its own.
+ And there's always the option of
+ direct API or scripting to get
+ connected. You don't have to go
+ deep on that to be able to
+ connect your agent because we are
+ already seeing that in many tools,
+ whether it's cloud code, desktop
+ or cursor marketplace, they are
+ making connections progressively easier
+ to set out of the box. And of
+ course, with open cloud, there are
+ many connections already enabled
+ as well. So one thing that I want to
+ say about connections is I want to
+ encourage you to start as much as
+ possible with a read-only
+ access before you let your agents
+ write back into systems, let the
+ agents only read your calendar or
+ only read your inbox, not let them
+ send emails and add calendar and
+ so on. Write access should be
+ added after you watch the agent
+ behave for a few weeks and you have
+ enough trust and it doesn't matter if
+ it's open cloud or one of the
+ commercial tools. The reason why I'm
+ saying that is that the risk scales
+ with the capability. So the more
+ your agents can do in real systems,
+ the more you need to think about
+ permissions and security. And this
+ is real, we're already seeing incidents
+ on a daily basis. It's not just
+ data leaks in the traditional sense,
+ but rather you can imagine an agent
+ that has access to your company
+ Slack and a very loose set of
+ permissions. Someone on your team
+ starts chatting with it and now the
+ agent is happily sharing your private
+ notes, your opinions about colleagues,
+ your draft feedback. So it's not a
+ hypothetical risk. Incidents like that
+ are already happening and the agents
+ that are gossiping while being very
+ funny, they also pose a very big risk
+ for employee privacy. So use the
+ list privilege connections, talk to
+ your IT team if you're connecting
+ any work systems and don't be the
+ one creating the cautionary tells for
+ others in your company. Specifically
+ for your chief of staff, at the very
+ minimum give it a read access to the
+ calendar and inbox and even better
+ you can give it a read and write
+ access on personal task list. If you
+ want to be extra good, you can give
+ it permission to post draft on Slack
+ or DM to yourself for approval
+ before sending. Moving on to the
+ next layer, the worst thing that
+ happens with your agent OS isn't
+ that it fails, it's that it works
+ confidently and wrongly and you ship the
+ output before you notice. And
+ verification is knowing what to check
+ and every agent job has its own very
+ quick test. If you draft emails you
+ need to basically tone match or
+ you need to check that the facts are
+ correct and so on. If you're doing
+ data analysis you have to check the
+ number. So it's very specific to
+ the different tasks or skills that
+ you give the agents. I encourage you
+ to do at least three to five checks.
+ In many cases it's under a minute to run
+ and it will save you a lot of grief after
+ and they do get faster with practice. In
+ the first week it might be slow and it
+ might get a little bit frustrating but
+ the more time goes by and the more
+ you trust your agent on low stakes
+ you can verify just the high stakes
+ one. And verification is not just
+ about the individual output you also
+ need to improve the system over time.
+ So periodically I want you to do a
+ retrospective video agents, audit
+ the system and figure out which parts
+ are under serving you. And maybe there
+ are skills that are never being called
+ or maybe there are context files that
+ become stale. Maybe some agents need
+ updated instructions. So I want you to
+ similarly to how you would re-evaluate
+ your employees or your company
+ periodically you will do that also
+ with your agentic systems. You can do
+ that either indirectly by auditing
+ your each and every agent that you
+ build on top of the system or you
+ can go directly to audit the OS
+ layers themselves. And the great thing
+ about the tools is that they let you
+ just do that directly from the tool. You
+ can literally ask them what is not
+ being used and so on. And the reason
+ why I'm talking about this audit
+ discipline in the agent OS program
+ it's because it's something that
+ without it your OS has a shelf life
+ of maybe eight weeks before everything
+ goes stale and with it your OS
+ compounds even further and forever.
+ All right top of the stack and a great
+ addition not a mandatory one is to add
+ automations. Those are things that the
+ agents can run when you're not watching
+ whether it's a daily summary every
+ morning it's 7 a.m. a monitoring task
+ that being slack or anything else that
+ you can think of. They are very
+ powerful and of course with openclo we
+ also have heartbeat and cron jobs for
+ the ones who are involved with that.
+ However this is the layer that creates
+ a lot of risk if you're not
+ careful because an agent that is
+ running at 3 a.m. with the wrong answer
+ can do damage before you wake up.
+ So a few rules with regards to
+ automations. Only automate workflows you
+ have run manually enough times and
+ trust. Second I want you to start with
+ automations that produce draft for
+ you to review not outputs that go
+ directly to other people and lastly
+ always add logs you need to know
+ what ran and what it did as it was
+ running. And finally here's where the
+ whole thing clicks once you build
+ your OS agents become cheap
+ because your first agent is hard as
+ you're building the agent OS and the
+ agent itself probably at the same time
+ your chief of staff maybe took your
+ weekend but the second agent that is
+ built on top of this system maybe it's
+ a research agent or a board prep
+ agent that takes you an afternoon
+ because it inherits everything that
+ is relevant and it already knows you
+ and it knows your context it knows
+ your voice and you're only adding a
+ job description and a few specific
+ skills. And from here on after your
+ third or fifth year and so on they are
+ each becoming faster and faster. So this
+ is the compounding return and why I'm
+ so bullish on the agenting operating
+ system and it matters more than the
+ agents or the tools themselves. So this
+ is my system I mentioned Chloe my
+ chief of staff she was one of the
+ first that I built after that I
+ also built specialist agents for
+ content for technical building for
+ platform work and so on they all
+ share a state to a central hub
+ they all share the same agenting
+ operating system and my chief of
+ staff sees the specialist and what
+ they're doing using the shared hub
+ for a different episode but just
+ showing that I practice what I preach
+ and this is exactly the sequence
+ of what our agent OS free program
+ works you through. Ten bill project
+ any agent tool that you want to
+ bring your own it's totally free and
+ the link will be shared in the show
+ notes and in the IDB training website
+ and lastly while the tools keep
+ changing they will keep converging
+ and the next one that we launch
+ before you finish learning the
+ current one that doesn't matter
+ the part that does matter is that
+ your OS travels with you and every
+ tools who open every new agent and
+ every new capability that drops next
+ month it all ends on the same
+ foundation. The people who build
+ that foundation now will basically
+ have it compound from here on after
+ and everyone else will keep starting
+ over with new tools so if your question
+ is how do I roll this out across
+ entire organization that's what we do
+ with enterprise claw but today was
+ personal and start with the agent
+ OS program and that's that see you
+ in the build log. This is great
+ you know I was thinking about this
+ as you were as you were just
+ closing this out the three free
+ programs that we've now released
+ really show just how quickly things
+ have evolved this year.
+ AIDB new year was 10 fairly
+ disconnected projects that represented
+ all each kind of a foundational
+ skill set for something with AI
+ but they're very disconnected it's
+ like a little image generation over
+ here a little you know writing model
+ selection over here and the one
+ thing that almost sort of presaged
+ what would come next was the first
+ project project zero was building
+ yourself a companion tracker
+ with lovable or replete or something
+ like that right one of the very basic
+ vibe coding tools some people used
+ cloud code but most people were using
+ something even simpler than that
+ and then just a month and a half later
+ or so we were into the realm of open
+ claw and the claw camp program was
+ really it shared a lot of these pieces
+ but obviously it was designed very
+ specifically around a particular tool
+ that lots of people were using
+ and what's become clear now and I
+ think what this represents the next
+ evolution of is that it's not about
+ the tool it's not about the model it's
+ not about the harness it is going to be
+ about going forward these systems that
+ sit underneath and that allow you to
+ swap in harnesses swap out harnesses
+ swap in models swap out models and you
+ know it'll be interesting to see how
+ much in the future we keep layering on
+ new programs versus expanding this one
+ and others but I think this is a great
+ tool for people who are getting deeper
+ into this space and who want to be
+ able to be flexible and dynamic as
+ the whole industry evolves and get
+ more value out of any harness and
+ any tool and any model they choose
+ new far always great to have you on the
+ show thanks so much for hanging out
