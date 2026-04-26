@@ -1,0 +1,847 @@
+ Today on the AI Daily Brief, we're talking about the part of the economy that will thrive
+ after AI.
+ The AI Daily Brief is a daily podcast and video about the most important news and discussions
+ in AI.
+ All right, friends, quick notes before we dive in.
+ First of all, thank you to today's sponsors, KPMG, Granola, Super Intelligent, and Blitzy.
+ To get an ad-free version of the show, go to patreon.com.ai-dailybrief or you can subscribe
+ on Apple Podcasts.
+ If you want to learn more about sponsoring the show, send us a note at sponsors.ai-dailybrief.ai.
+ Now two other quick notes.
+ Yesterday, if you haven't seen yet the bonus operators episode, we launched our latest
+ free AI-DB training program.
+ This one is a new FAR gas bar joint.
+ She took a bunch of what I had built with claw camp and turned it into a more general,
+ more extensible, adaptable, ongoing, agentic operating system program.
+ So if you have dabbled with open claw or have wanted to, but want an agentic system that can
+ slot in clawed code or codex or cursor or any other model or harness that you're using, check
+ out agent OS.
+ There are links to it from AI-dailybrief.ai.
+ And when you sign up for agent OS, you can actually do it with your new AI-DB handle.
+ I plan on doing a lot of these free programs.
+ And so instead of you having to sign up with emails and passwords every time, we've
+ created now an AI-DB single sign on with, of course, cool vanity handles.
+ So even if you aren't signing up for a program yet, but you just want to squat on your
+ favorite three or four digit handle, you can do that once again from AI-dailybrief.ai or
+ directly at AI-DB labs.ai.
+ But with all that out of the way, let's talk about AI and the economy.
+ Welcome back to the AI-Daily Brief and happy weekend.
+ Listen, it will probably surprise none of you that I have what I would call major beef
+ with the AI jobs discussion.
+ It is not just that I think that the labs themselves are doing an unfathomably horrible
+ job pitching the value of AI.
+ I've made the comparison in the past to pharmaceutical commercials.
+ If you watch a 60 second pharma commercial on cable, which is basically the only
+ commercials they have at this point, the first 45 or 50 seconds are spent around
+ how this new drug or treatment is a miracle cure for some really painful,
+ awful thing that people have otherwise had to just live with.
+ Now, yes, at the end, there are those 10 to 15 seconds of disclosures around
+ potential side effects, some of which can be very, very bad.
+ But the emphasis is on the better life that you get to lead that justifies
+ all of those risks.
+ In AI, we're basically exactly the reverse.
+ We spend the first 45 to 50 seconds of our metaphorical commercial,
+ i.e. every time we get a chance to talk to anyone about AI, talking
+ about how damn bad society is going to be after AI gets its hooks in with
+ only this tiny little consideration of the potential benefits which are
+ presented as very hand wavy at best.
+ Anyways, that critique is not actually the core of my frustration
+ with the jobs discourse.
+ The core of my frustration with the jobs discourse
+ is one that I fundamentally think that all of these people who are
+ claiming that we're going to see 15, 20, 30, 50% unemployment
+ are just straight up wrong.
+ And they're wrong in part because of our failure to actually
+ try to spend even any time thinking about what jobs and employment
+ and the economy looks like on the other side of AI and agents
+ actually being fully integrated.
+ To put it differently, as with any new technology,
+ we are in a period of creative destruction.
+ Always it is the case that the destruction is easier to see
+ before the creation because the destruction tends to happen
+ earlier.
+ The creation is what gets born, and it's
+ very hard to see the shape of the new thing
+ before it actually starts to come into being.
+ And yet that does not mean that we can't spend time trying
+ to understand by following reasonable traces
+ and first principles what might happen in the future
+ that would change the shape of how we think about any
+ destruction that happens in the present.
+ The big area that I'm interested in,
+ and I'm working on a bunch of things around that will come
+ to the show at some point, is the idea
+ that in an AI world, the constraints in the economy
+ shift from supply, how much we can make of stuff,
+ to demand and consumption capacity, how much we can actually
+ consume of things, which in many cases
+ is going to be a vector of time and attention.
+ In a world where the constraint shifts from the supply side
+ to the demand side, the really imperative question becomes,
+ in what areas could we consume a lot more than we are now?
+ And then of course from there,
+ what would it look like to consume more?
+ What are the types of consumption that's happening
+ and what is the infrastructure that's needed
+ to build or provide those new things that we want to consume?
+ The example that I'm spending a bunch of time on is healthcare.
+ I think we consume a vanishingly small amount
+ of the health services that we would
+ if our system wasn't so expensive and so reactive.
+ There are an immense number of opportunities
+ for preventative care, data monitoring, tracking
+ and a whole infrastructure that could go around them
+ enabled by the decreases in cost
+ that come from widespread implementation of AI
+ into the health system.
+ That argument isn't done yet,
+ but it's why I was so interested to see
+ an essay from economist Alex Emas
+ start to really go viral and impact the jobs conversation
+ at least in our little corner of AI Twitter.
+ Alex isn't exploring exactly the same themes,
+ but as you'll hear, there are some similar interests here.
+ And by way of background, I think it's worth noting
+ that Alex didn't come to this
+ from an ideological perspective looking to justify AI.
+ Instead, he told Fortune,
+ my first reaction was to be very scared.
+ I needed to work things out carefully
+ in order to be less scared,
+ not to convince myself not to be scared,
+ just to look at history
+ and look at people's preferences
+ and bring these things together.
+ So let's read Alex's essay,
+ What Will Be Scarce?
+ The economics of structural change
+ and the post commodity future of work.
+ Starbucks, Alex writes, is a huge company,
+ market cap 112 billion,
+ that sells one of the most standardized products
+ in the modern economy.
+ Making a cup of coffee
+ or even one of the fancy specialty drinks
+ is very easy to mechanize and reproduce.
+ If the entire economy is soon to be automated
+ with labor being replaced
+ with increasingly more sophisticated capital,
+ Starbucks should be a canary in the coal mine.
+ The technology for removing labor from its stores
+ and replacing it with automated capital
+ has been around for years.
+ Over the past few years,
+ Starbucks has done exactly that
+ in efforts to increase thin margins.
+ Management has automated more and more
+ of the coffee making business
+ and instituted tightly mechanized processes
+ for delivering it to customers.
+ But instead of increasing automation,
+ the opposite has happened.
+ After trying to streamline the store experience
+ with fewer workers and more automation,
+ the company concluded that this had been a mistake.
+ CEO Brian Nicholl said that handwritten notes on cups,
+ ceramic cups, and the return of great seats
+ had led more customers to sit and stay in our cafes,
+ showing that small details
+ and hospitality drive satisfaction.
+ More baristas are being hired per store
+ and automation is being rolled back.
+ Economics is the study
+ of decision-making under constraints, i.e. scarcity.
+ If advanced AI brings material abundance,
+ if machines can produce many if not all forms
+ of human production at very low marginal cost,
+ does economics become irrelevant?
+ No, we will still have scarcity,
+ but the kind of scarcity that matters will change.
+ Ultimately, the answer to any question
+ about the future economics of advanced AI
+ begins with identifying what becomes scarce.
+ After answering that question,
+ the rest of the analysis is pretty straightforward.
+ In this essay, I'm going to explore what becomes scarce
+ when automation can replicate many
+ if not all human production
+ and what that may mean for the types of jobs that emerge.
+ Before industrialization,
+ it was difficult to separate a product
+ from the person who made it.
+ The weaver who made your skirt,
+ the baker who made your bread,
+ you personally knew them
+ and their skill and reputation
+ were tied to the product that they sold.
+ Economic transactions had a distinct social component
+ that was innately linked to the consumption experience.
+ The industrial production process changed this
+ by breaking craft into standardized repeatable steps,
+ performed by workers based on predetermined
+ and regularized steps,
+ capitalism produced something new.
+ The commodity form in which a product's value
+ lies in the product itself
+ detached from whoever made it.
+ A table is a table.
+ A phone is a phone.
+ The screen that you're reading this essay on
+ or NLW note,
+ the device that you're listening to it through
+ was designed in one country,
+ manufactured in another
+ using components from around the world.
+ But none of this matters
+ for the experience of buying and using the device.
+ Marx described this process
+ in intentionally loaded language.
+ The commodity form he argued was built on exploitation,
+ the ability to pay workers
+ less than the value of what they produce.
+ They were able to do this
+ because the capitalist production process
+ was based on alienation,
+ severing workers from the product of their labor,
+ from the process of making it
+ and ultimately from each other.
+ What had once been a person's craft
+ became abstract labor power,
+ a factor of production to be bought
+ and sold like raw materials.
+ Marx saw this as capitalism's deepest pathology,
+ but to economists and to the world writ large,
+ the commodity form was an engine
+ of extraordinary prosperity.
+ If production was no longer tied to specific people,
+ it could be disaggregated,
+ reorganized, shipped across oceans,
+ and scaled in ways that turned few resources
+ into vast riches.
+ Both things were true at once.
+ The commodity form created enormous wealth and prosperity,
+ but it made the human
+ behind any specific product invisible
+ and ultimately replaceable.
+ This is most people's mental model
+ of what AI will do to the economy.
+ If a machine can produce anything a human can,
+ write the brief, generate the image,
+ compose the song,
+ determine the diagnosis from a radiology scan,
+ then the human will be replaced
+ across all facets of production
+ and jobs will simply disappear.
+ Labor will be replaced with capital.
+ David Autor and Neil Thompson
+ pushed back on this in an important recent paper.
+ They argue that AI won't simply eliminate jobs,
+ it will reshape the economic value of human expertise.
+ Their framework distinguishes
+ between expert and inexpert tasks
+ within any given occupation.
+ When automation removes the simpler tasks
+ as accounting software did for bookkeeping clerks,
+ the remaining work becomes more specialized.
+ Wages rise and fewer workers qualify.
+ When it removes the harder tasks
+ as inventory management systems did for warehouse workers,
+ the job becomes more accessible.
+ Employment expands and wages fall.
+ Same technology, opposite labor market outcomes
+ depending on which part of the job gets automated.
+ But Autor and Thompson
+ also consider a starker possibility
+ that AI advances to the point
+ where human expertise loses its economic value altogether.
+ Under this scenario,
+ AI will eliminate labor scarcity
+ and produce what Herbert Simon once called
+ intolerable abundance.
+ Automation of production will no longer involve
+ managing a workforce transition
+ for which we have prior episodes of automation to rely on.
+ We will need tools to maintain social organization,
+ income distribution and democratic stability
+ without the labor market
+ that has historically held these together.
+ I want to consider a different scenario.
+ One where automation can replicate human production
+ and the commodities that it produces, a big if,
+ but human labor does not disappear.
+ How could this be the case?
+ A lot of analysis takes the economy as given.
+ There is a set of jobs and a set of goods and services
+ produced by the economy.
+ If the same set of goods and services
+ can be produced by cheaper machines,
+ then these machines replace humans
+ and the jobs disappear.
+ But the economics of structural change
+ combined with deep seated features of human preferences
+ suggests something different.
+ As people get richer,
+ they don't just want more commodities.
+ They want things that aren't commodities
+ in the standard sense of the word.
+ The social aspects of products
+ such as the relationships, the status and exclusivity.
+ What Rene Girard calls the memetic properties of desire
+ become much more relevant
+ once people's basic needs are satisfied.
+ And the demand for these properties
+ will bring the human element
+ back into the production process
+ and with it, the jobs.
+ If this is right,
+ then AI won't just automate the commodity economy.
+ It will trigger the emergence of something new,
+ a post commodity economy
+ where a growing share of expenditure
+ goes towards goods and services
+ whose value is inseparable
+ from the human who provided them.
+ The same economic forces
+ that moved 40% of the American workforce
+ off farms and into factories and offices
+ will move workers out of
+ automatable commodity production
+ and into what I'll call the relational sector.
+ By this, I mean the human intensive,
+ provenance rich,
+ sometimes artisanal part of the economy
+ where the human aspect
+ is part of the value of the good or service itself.
+ The economics of scarcity won't disappear,
+ it'll just reallocate.
+ This is not the first time
+ this argument has been made.
+ The goal of this post
+ is to make the argument precise.
+ I'll start with what we know
+ about how economies have historically responded
+ to massive productivity shocks,
+ the economics of structural change.
+ Then I'll introduce the new ingredient,
+ a behavioral micro foundation
+ rooted in memetic preferences
+ that generate a desire for exclusivity and status
+ that explains why artisanal goods
+ where the human element is directly tied to value
+ have a specially high income elasticity.
+ I'll work through a simple model
+ that generates a clean prediction,
+ automated sectors shrink as a share of GDP,
+ relational sectors grow.
+ And I'll connect this back to the question
+ I raised in a previous post
+ about whether AI could lead to negative economic growth.
+ This framework pushes further against that thesis.
+ My claim here is narrower
+ than the strongest version of the labor share story.
+ I am not claiming
+ that labor's aggregate share must rise
+ or even that it must remain at its current level.
+ It may well shrink as automation progresses.
+ The claim is about sectoral reallocation
+ in rich economies.
+ As AI makes commodity production cheap,
+ spending and employment shift
+ towards high income elasticity sectors
+ where human involvement still carries value.
+ In other words, labor share can fall
+ and the relational sector
+ can still remain a substantial part of the economy.
+ But importantly, the inherent properties of demand
+ for the relational sector also ensure
+ that labor remains a substantial share
+ of the overall economy,
+ i.e. it will not shrink to zero.
+ I also want to underscore
+ that this framework works best
+ for the developed world
+ where rising incomes can fund the transition.
+ For the developing world,
+ where economies have been built
+ on producing commodities for rich countries,
+ the picture is more complicated
+ and potentially more worrying.
+ Section from farms to factories too,
+ economics has a name for what happens
+ when a new technology makes one sector
+ dramatically more productive, structural change.
+ The canonical example is agriculture.
+ In 1900, about 40% of the American workforce
+ was employed in farming.
+ Today, it's less than 2%.
+ Did people stop eating?
+ No, if anything, they're eating much more.
+ Large-scale automation made farmers
+ and eventually factory farms much more productive.
+ Agricultural production boomed and prices fell,
+ but because people can only eat so much,
+ the share of income spent on food went down
+ as people got richer
+ and workers moved to manufacturing and then to services.
+ The simultaneous fall of prices
+ and reallocation of labor to another sector
+ becomes a smaller share of the economy
+ despite serving and producing more.
+ The less productive sector, services
+ where costs had not fallen and in fact have risen,
+ became a larger part of the economy.
+ This is known as Baumol's Cost Disease
+ and you can see the transformation
+ for Taiwan in figure one below.
+ Another note from me and I'll love you here,
+ there aren't a ton of charts in this,
+ but do check the link in the show notes
+ to see the ones that there are.
+ All right, folks, quick pause.
+ Here's the uncomfortable truth.
+ If your enterprise AI strategy is we bought some tools,
+ you don't actually have a strategy.
+ KPMG took the harder route
+ and became their own client zero.
+ They embedded AI and agents across the enterprise,
+ how work gets done, how teams collaborate,
+ how decisions move,
+ not as a tech initiative,
+ but as a total operating model shift.
+ And here's the real unlock.
+ That shift raised the ceiling on what people could do.
+ Humans stayed firmly at the center
+ while AI reduced friction,
+ serviced insight and accelerated momentum.
+ The outcome was a more capable,
+ more empowered workforce.
+ If you want to understand
+ what that actually looks like in the real world,
+ go to www.kpmg.us slash AI,
+ that's www.kpmg.us slash AI.
+ Today's episode is brought to you by Granola.
+ Granola is the AI notepad
+ for people in back-to-back meetings.
+ You've probably heard people raving about Granola.
+ It's just one of those products
+ that people love to talk about.
+ I myself have been using Granola for well over a year now
+ and honestly it's one of the tools
+ that change the way I work.
+ Granola takes meeting notes for you
+ without any intrusive bots joining your calls.
+ During or after the call,
+ you can chat with your notes,
+ ask Granola to pull out action items,
+ help you negotiate,
+ write a follow-up email,
+ or even coach you using recipes
+ which are pre-made prompts.
+ Once you try it on a first meeting,
+ it's hard to go without.
+ Head to granola.ai slash AI daily
+ and use code AI daily,
+ new users get 100% off for the first three months.
+ Again, that's granola.ai slash AI daily.
+ It is a truth universally acknowledged
+ that if your enterprise AI strategy
+ is trying to buy the right AI tools,
+ you don't have an enterprise AI strategy.
+ Turns out that AI adoption is complex.
+ It involves not only use cases,
+ but systems integration, data foundations,
+ outcome tracking, people and skills, and governance.
+ My company, Super Intelligent,
+ provides voice agent-driven assessments
+ that map your organizational maturity
+ against industry benchmarks
+ against all of these dimensions.
+ If you want to find out more about how that works,
+ go to besuper.ai
+ and when you fill out the get started form,
+ mention maturity maps.
+ Again, that's besuper.ai.
+ Weekends are for vibe coding.
+ It has never been easier to bring a passion project to life,
+ so go ahead and fire up your favorite vibe coding tool.
+ But Monday is coming,
+ and before you know it,
+ you'll be staring down a maze of microservices,
+ a legacy cobalt system from the 1970s,
+ and an engineering roadmap
+ that will exist well past your retirement party.
+ That's why you need Blitzy,
+ the first autonomous software development platform
+ designed for enterprise scale code bases.
+ Deploy the beginning of every sprint
+ and tackle your roadmap 500% faster.
+ Blitzy's agents ingest your entire code base,
+ plan the work,
+ and deliver over 80% autonomously.
+ Validated end-to-end tested premium quality code
+ at the speed of compute.
+ Months of engineering compressed into days.
+ Vibe code your passion projects on the weekend,
+ bring Blitzy to work on Monday.
+ See why Fortune 500s trust Blitzy
+ for the code that matters at blitzy.com.
+ That's blitzy.com.
+ Alex continues,
+ the formal economics of this process
+ were laid out beautifully in a 2021
+ Econometrica paper by Diego Komen,
+ Daniel Ishkari, and Marty Misteri.
+ Their key insight is that demand is non-homothetic.
+ As people get richer,
+ they don't just buy proportionally more of everything.
+ They shift their spending towards sectors
+ with higher income elasticity.
+ Goods whose demand grows faster than income.
+ Agriculture has low income elasticity.
+ You can only eat so much.
+ Services have high income elasticity.
+ There's always a better restaurant,
+ a more engaging experience,
+ a more attentive doctor.
+ Their framework matches the historical data well,
+ capturing the decline of agriculture,
+ the hump-shaped rise and fall of manufacturing,
+ and the steady ascent of services.
+ The key point in common at all
+ is that the main mechanism
+ is not Balmose cost disease by itself.
+ It is that lower prices in automated sectors
+ raise real income,
+ and rising real income shifts demand
+ towards sectors with higher income elasticity.
+ Balmose cost disease then reinforces the shift
+ when those sectors remain relatively hard to automate.
+ The reason they may be hard to automate
+ can be due to technical constraints,
+ as has been the case in the past,
+ or because the value of those sectors
+ rests on them not being automated in the first place,
+ e.g. the relational sector
+ where not being automated
+ is part of the value proposition.
+ In other words, even if rates of automation
+ were similar across sectors,
+ we would still expect the relational sector
+ to become more important
+ if it is where richer households
+ want to spend more of their money.
+ How does this relate
+ to AI-driven transformation of jobs?
+ Coman, Leshkari, and Mysteri
+ estimate that income effects
+ account for over 75%
+ of the observed patterns of structural change.
+ Price effects, the standard story
+ that automated sectors get cheap
+ so people buy other stuff,
+ account for only about a quarter.
+ The dominant force is actually pretty simple.
+ As people get richer,
+ they want fundamentally different things.
+ Importantly, this is already visible
+ in how rich households spend.
+ In the 2022 BLS Consumer Expenditure Study,
+ households in the highest income quintile
+ spent about 4.3 times as much in total
+ as households in the lowest quintile,
+ but the ratios are much larger
+ in categories with a strong relational component,
+ such as in-person dining,
+ entertainment, education, et cetera.
+ Rich households, in other words,
+ do not just buy more stuff.
+ They shift their spending towards goods and services
+ where the human element, the experience,
+ or the social meaning matters more.
+ This is also the exact pattern
+ while Keem Huber documents
+ in the race between preferences and technology.
+ Using household data
+ on the universe of consumer spending,
+ he shows that higher income households
+ spend relatively more on labor-intensive goods
+ and services as a share of total consumption.
+ He interprets this as evidence
+ of non-homothetic preferences
+ so that economic growth raises demand
+ for labor-intensive sectors
+ through an income effect
+ even as other technological forces
+ push in the opposite direction.
+ If advanced AI dramatically reduces the cost
+ of producing a wide range of goods and services,
+ this logic predicts a structural transformation.
+ Automated sectors will shrink as shares of the economy.
+ The sectors with higher income elasticity will grow.
+ The question is,
+ which sectors and goods will have high income elasticity
+ in a post-AGI world?
+ Section, the relational sector and desire.
+ Here I think it's useful to have a closer look
+ at the determinants of human preferences and desire.
+ Economists typically model demand
+ as if preferences are formed in isolation.
+ The utility I get from a good service or experience
+ is determined by its hedonics.
+ How good did the coffee taste?
+ How quickly did I get the coffee after ordering it?
+ This makes sense when people's budget constraints
+ bind when it comes to meeting basic needs
+ for food, shelter, and clothing.
+ But once those needs are met,
+ a different force starts to shape what people want
+ and even becomes dominant.
+ Rene Girard called it mimetic desire,
+ the idea that we don't desire objects
+ only for their intrinsic properties
+ but because other people desire them as well.
+ We want what others want
+ and we want it even more when they can't have it
+ for status, social capital, reputation, et cetera.
+ Desire is not just a relationship
+ between a person and an object.
+ It is also a function of what other people desire.
+ Now here, Alex goes through a number of different examples
+ that show that this is not just theory,
+ but put this in a bunch of different contexts
+ and different observations from thinkers
+ throughout the centuries.
+ The point that Alex gets to is this.
+ Why is this mimetic relational dimension of desire
+ relevant to the framework of common at all?
+ Because it is comparative and therefore hard to satiate.
+ Goods with this property should have
+ especially high income elasticity as incomes rise.
+ From there, he discusses a model
+ that he developed with Christophe Mataraz
+ where as he puts it, a person's desire for a good
+ increases in how much others want it but can't have it.
+ Jumping forward a little bit, he writes,
+ the critical link to AI comes from new work
+ with Graylin Mandel.
+ We find that AI involvement undermines
+ the perceived exclusivity of a good.
+ Objects with AI involvement are perceived
+ as inherently reproducible and non-unique.
+ People bid for physical art prints
+ that varied in described AI involvement.
+ Human-made artwork gained 44% in value
+ from exclusivity, one copy versus many,
+ but AI-generated artwork gained less than half that,
+ only 21%.
+ The mere involvement of AI made the work feel
+ inherently non-exclusive,
+ as if it could always be reproduced
+ regardless of how many copies were said to exist.
+ And I'll W note, sorry NFTs.
+ Coming back to Alex though, he says,
+ I wanna stress that this extends
+ well beyond artists and luxury craft.
+ Walter Benjamin wrote about this in a different context,
+ the aura of a work of art,
+ which mechanical reproduction destroys.
+ But the economic logic goes beyond art.
+ It extends to any category
+ where the human element is integral to the value.
+ Teachers, nurses, therapists, childcare workers,
+ trainers, hospitality, clergy, guides,
+ and many forms of local services.
+ In all of these cases,
+ the human being is not just an input
+ into the production process.
+ Their judgment, attention, memory, warmth, or presence
+ is an integral part of the value.
+ These are cases where, as Seb Creer put it,
+ provenance remains scarce
+ even in a post-scarcity world.
+ This matters for structural change
+ because the memetic component of preferences
+ is inherently income elastic.
+ When you're poor, most of your spending
+ goes towards necessities,
+ where the identity of the producer doesn't matter.
+ As you get richer, a larger share goes towards goods
+ where you're not just buying the functional product,
+ you're buying the story, the scarcity,
+ the feeling of having something that others want as well.
+ This is what gives relational goods and services
+ their high income elasticity.
+ As income rises, the exclusivity premium
+ becomes a larger share of total value
+ and that premium is something
+ human-made goods can deliver.
+ Section, the end of the commodity economy?
+ Let's return to the commodity form.
+ I defined it earlier,
+ the abstraction of a product from the person who made it,
+ the thing that made industrial capitalism possible,
+ what happens to it
+ when AI can produce the commodity itself?
+ The obvious answer is that the commodity form
+ achieves its logical endpoint,
+ a product with no human in it at all.
+ But the less obvious answer,
+ the one that comes from taking structural change seriously
+ is that AI doesn't just perfect the commodity form.
+ In the strict sense,
+ it also triggers the commodity form's decline
+ as a share of economic activity.
+ Here's the mechanism more precisely.
+ When AI automates commodity production,
+ prices in that sector fall.
+ That raises real income.
+ If the goods and services people want more of
+ as they get richer live disproportionately
+ in the relational sector,
+ demand shifts in that direction.
+ Bommal's cost disease then amplifies the result.
+ If the relational sector remains harder to automate,
+ it becomes relatively more expensive
+ and absorbs a growing share of total expenditure.
+ But in the context of AI automation,
+ Bommal's cost disease is a feature, not a bug.
+ The relative expense of human services
+ stops being a budget problem
+ and starts being a labor market solution.
+ The stagnant sector, the one that resists automation,
+ is precisely where spending and employment grow.
+ The relational sector gets more expensive
+ because the commodity sector is getting cheaper
+ and that's what keeps people employed.
+ What does this actually look like?
+ Material abundance from automated manufacturing
+ means goods are cheap.
+ Most people spending goes to human-led services.
+ Today's luxuries become the baseline
+ for future consumers.
+ As commodity production gets automated,
+ income and employment flow towards the sectors
+ with high income elasticity.
+ What I am calling the relational sector,
+ including the arts, but also care, education,
+ hospitality, therapy, personal services,
+ craftsmanship and community,
+ where the human element is part of the value.
+ The so-called stagnant sector absorbs
+ a growing share of spending and jobs
+ precisely because it can't be automated.
+ That is where the jobs are.
+ Admittedly, Marx would have found this outcome strange,
+ but I want to be careful here.
+ A product with a distinct human element
+ is not the same thing as decommodified labor.
+ A tailor who stitches your suit
+ or a teacher who knows you personally
+ may still be selling relational labor to capital.
+ The societal relations of production
+ may remain fully capitalist
+ even if the human aspect of the product
+ becomes more economically salient.
+ So my claim is narrower.
+ I may reduce the commodity sector's share of expenditure
+ and increase the share going to goods and services
+ where the human element remains visible and valuable.
+ That is not the end of commodification in Marx's sense.
+ It is a shift in the composition of demand.
+ Still, it matters for labor markets.
+ The direction of structural change
+ may be toward work that is, in some cases,
+ more personal, more relational,
+ and less interchangeable than what it replaces.
+ In the next section, Alec shows some actual math
+ and an equation around why he thinks
+ memetic desire fights against the type of demand collapse
+ discussed back in that Satrini essay,
+ The Global Intelligence Crisis,
+ which again, I would point you to the main essay
+ to go check that out.
+ Section, the future of work.
+ The durable jobs of the future
+ won't be about monitoring AI systems or prompt engineering.
+ Those are transitional roles in the automated sector.
+ The durable jobs will be in the relational sector
+ where the human element is the product itself.
+ Some already exist and are growing.
+ Nurses, therapists, teachers,
+ boutique fitness instructors, personal chefs,
+ bespoke tailors, craft brewers,
+ live performers, spiritual guides,
+ childcare workers, and many varieties
+ of hospitality and care work.
+ Others are emerging.
+ Experienced designers, human AI collaboration artists,
+ provenance certifiers, community curators.
+ Many haven't been invented yet.
+ Just as six out of 10 jobs people hold today
+ didn't exist in 1940.
+ The most common pushback I get when I say this is,
+ but not everyone is creative.
+ Not everyone will be artists.
+ I think this misunderstands what's being asked.
+ You don't need to be Picasso.
+ You need to be the person whose involvement
+ makes the product feel like it was made for someone,
+ but by someone.
+ The economics of structural change tell us
+ that when technology makes one type of production cheap,
+ the economy doesn't collapse.
+ It transforms.
+ It shifts towards the things
+ that technology can't make cheap.
+ For AI, those things are exactly the ones
+ where human involvement carries
+ inherent irreplaceable value.
+ All right, back to NLW.
+ First of all, thank you to Alex for waiting into
+ what is a very fraught discussion
+ with a thoughtful, sensible entrance into the canon.
+ My goal in sharing this type of writing
+ is not to be polyannish about the challenges we face,
+ nor to convince you if you are nervous
+ that you have no reason to be nervous.
+ We are facing down immense change.
+ Even when changing for the good
+ creates enormous amounts of stress and anxiety.
+ Think about the kid who's all anxious
+ even though they're going to their dream college.
+ Change itself is for many difficult.
+ The problem that I have is that
+ the absolute dominant discourse right now
+ is that AI rot change leads to something worse,
+ to something negative.
+ In fact, I think what's causing
+ the big part of the political backlash
+ is that people are doing the math and saying,
+ if this leads to change that is obviously negative,
+ why the hell would we let it happen?
+ The big part of the failure
+ for not just the AI industry,
+ but anyone with an active vested interest
+ in what that future looks like
+ is to not spend any time
+ actually asking what we change into.
+ There's just this assumption
+ that we fall off a labor cliff
+ and you either work at an AI lab
+ or to use the awful, stupid,
+ anyone who says this should shut the hell up meme,
+ or you enter the permanent underclass.
+ I believe that when we look back a decade
+ and especially two, three decades from now,
+ this moment of frenetic anxiety
+ will be seen as one of the biggest misplacements
+ of our collective energy that we've ever had.
+ I'm excited to see people like Alex
+ actually trying to bring
+ some intellectual and academic discipline
+ to thinking about what comes next
+ and I'm going to keep exploring that in shows to come.
+ For now, I think that's enough
+ big thinking for this weekend.
+ I appreciate you listening or watching as always
+ and until next time, peace.
