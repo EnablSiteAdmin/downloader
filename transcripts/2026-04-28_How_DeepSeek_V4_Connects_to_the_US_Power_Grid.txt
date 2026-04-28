@@ -1,0 +1,551 @@
+ Today on the AI Daily Brief, DeepSeq releases their latest model, and we're discussing
+ what it has to do with the White House invoking the Defense Production Act around the U.S.
+ Electric Grid.
+ Before that, in the headlines, the AI trade is back and Google plans to invest up to
+ $40 billion in Anthropic.
+ The AI Daily Brief is a daily podcast and video about the most important news and
+ discussions in AI.
+ Alright friends, quick announcements before we dive in.
+ First of all, thank you to today's sponsors, Assembly, Blitzy, Granola, and Super Intelligent.
+ To get an ad-free version of the show, go to patreon.com.ai-dailybrief or you can subscribe
+ on Apple Podcasts.
+ If you want to learn more about sponsoring the show, send us a note at sponsors.ai-dailybrief.ai.
+ And before we get into the show, I did also want to flag that we are now live with
+ our latest free self-directed training program, Agent OS.
+ This is a program to help you build your personal, agentic operating system.
+ It's similar in some ways to clock camp, but this is going to be platform neutral and
+ designed to create a system that can evolve over time as the technology changes as well.
+ Now if you want to learn more about this, on Saturday I did an operator's bonus episode
+ with NewFar Gas Bar who created this program.
+ So go check that out and then you can sign up for Agent OS.
+ You can find a link from aidailybrief.ai and join the more than a thousand people
+ who have already signed up for this thing in the first day or so.
+ With that out of the way, let's dive in.
+ Welcome back to the AI Daily Brief headlines edition.
+ All the daily AI news you need in around five minutes.
+ Late last Friday saw just an absolute slew of stories including that Google has expanded
+ their relationship with Anthropic with another huge investment.
+ Google and Anthro confirmed a $40 billion investment deal to the press on Friday.
+ The deal will consist of $10 billion upfront and a further $30 billion based on Anthropic
+ hitting undisclosed commercial milestones.
+ Google had previously invested in Anthropic in late 2023 and early 2025
+ with the investment totaling $3 billion.
+ They also signed an agreement to supply 5 gigawatts of compute capacity last month
+ in collaboration with Broadcom.
+ Those chips are expected to start coming online next year.
+ Google's investment seems similar to the deal that was struck with Amazon earlier in the month.
+ Amazon committed $5 billion upfront with a further $20 billion contingent upon once again
+ Anthropic hitting certain commercial milestones.
+ That deal also saw Anthropic commit to spending $100 billion with AWS over the coming decade
+ and included 5 gigawatts of supply to come online by the end of this year.
+ TLDR to many of the Amazon deal looked like Anthropic trading equity for compute.
+ And although we don't know all the contours of the Google deal,
+ it seems to be of a similar nature.
+ Citrini analyst Yukon republished an excerpt from a Mirei securities note
+ regarding the Amazon deal calling it one of the most interesting takes that he had read.
+ The note stated, all of Anthropic's unusual moves around the GPT 5.5 launch
+ ultimately converge on a single conclusion.
+ In order to secure compute, Anthropic must bind itself far more deeply and far more
+ dependently to those who possess these physical resources.
+ The note remarked that each gigawatt of capacity is roughly equivalent to a full scale nuclear reactor.
+ Further, Microsoft's entire global data center footprint in 2024 was around six gigawatts.
+ With Mirei commenting, this means Anthropic alone is locking in incremental capacity
+ for AI training and serving that rivals the entirety of Microsoft's historical physical infrastructure.
+ Coupled with Anthropic's announcement of having reached 30 billion ARR,
+ the market is reading this deal as Anthropic pre-signing Amazon's invoice in order to keep its growth growing.
+ Now, Anthropic, of course, is not alone in adding a ton of capacity.
+ Last week, OpenAI said that they expect to build out a total of 30 gigawatts of capacity by 2030
+ with 8 gigawatts already, quote unquote, identified.
+ The difference is OpenAI seems to be partnering with a consortium of Oracle,
+ data center developers, and smaller neoclouds alongside the established cloud giants.
+ Amazon invested 50 billion in OpenAI in February,
+ and Microsoft still holds their estimated 50% stake in the company.
+ Again, from Mirei's securities, what matters is that the structure of this deal
+ is more favorable to Amazon than to Anthropic.
+ Amazon has already invested up to 50 billion in OpenAI as well.
+ In other words, the more fiercely OpenAI and Anthropic compete to eat each other's lunch,
+ the more Amazon benefits simultaneously along three axes.
+ Cloud usage fees from both, adoption rates for its in-house silicon,
+ and visibility on the recovery of data center capex.
+ This is structurally almost identical to the valuation premium Google historically
+ enjoyed under the full stack player framing.
+ Now, Mirei's assessment is that the market isn't close to pricing in how the spoils of AI
+ competition will flow to the cloud giants, with Amazon still trading near a 10-year
+ low in terms of revenue multiple.
+ While some read this as Google giving up on Gemini, others viewed it as a hedge,
+ or even just the development of an entire new business line and new play in the AI space.
+ What little we know of the deal terms suggest that Google is extracting a healthy premium
+ for their compute.
+ If the deal terms are on Anthropic's previous $350 billion valuation from their February round,
+ Google could be getting more than a 50% discount to the $800 billion valuation
+ that shares have been flying around on secondary markets at.
+ Their ownership stake is also beginning to stack up.
+ The New York Times previously reported that Google owned 14% of Anthropic as of last
+ March, and if they make this full investment, their stake could be heading north of 20%.
+ Now, this idea that we're undercounting the success of the infrastructure providers
+ is a theme that's starting to grow.
+ Bloomberg Steve Howe writes,
+ Has Amazon's moment finally arrived?
+ The speed and degree of the success of Anthropic's singular bet on AGI via coding
+ are unexpected and unprecedented.
+ Both Anthropic and Google failed to plan and secure a sufficient compute.
+ In what seems to be years of critical shortage,
+ those that do have the compute to give out find themselves having a lot more
+ strategic leverage.
+ Contrary to conventional wisdom, I think most suppliers in the AI value
+ chain had all vividly remembered and overlearned the cautionary tales of past overbuilds,
+ especially leading up to the dot-com bubble.
+ The cautiousness and reluctance of the Korean memory makers to expand capacity are a good example.
+ Suddenly, almost everyone is caught surprised by the sharp rise of
+ agentic AI demand that could outstrip the supply of AI compute by potentially several
+ orders of magnitude, causing maxed out productive capacity everywhere in the supply chain
+ and rationing in price hikes on the end users at least in the US.
+ This, I think, is going to be one of the loudest stories banging about the rest of 2026.
+ Now, speaking of, Meta has also signed a multi-billion-dollar deal to rent AI chips from Amazon,
+ although it comes with an interesting twist.
+ Rather than signing up for Amazon's Tranium A6, Meta is renting Amazon's Graviton 5 CPUs.
+ The CPUs are optimized for agentic workloads and there is an increasing conversation
+ around whether the CPU architecture could prove to be more efficient than GPUs
+ when it comes to actually running agents.
+ Given that Meta's entire strategy is centered on delivering consumer agents,
+ the commitment to agent-specific architecture makes a lot of sense.
+ At the same time, this could also be Meta just placing as many bets as possible
+ and snapping up every chip they can get their hands on.
+ Relative to their size, Meta has the largest AI build out, forecasted up to $135 billion this
+ year. They already rent GPU clusters from AWS and have multi-billion-dollar deals with NVIDIA,
+ AMD, Google, CoreWeave, and Nebius.
+ Announcing the deal Meta wrote,
+ the partnership marks an expansion of our diversified AI infrastructure
+ and will help scale systems behind Meta AI and agentic experiences that serve billions of people.
+ Now alongside all of this, it appears the AI trade is back,
+ as the hyperscalers lead the stock market to all-time highs.
+ The S&P 500 is up 12.5% over the past month,
+ completely erasing the drawdown from the beginning of the Iran War.
+ The Wall Street Journal framed the recovery as all about AI.
+ They noted that 118 stocks have fallen more than 10% since the war began,
+ and in contrast, the 82 stocks that are up more than 10% are almost exclusively related to AI.
+ Without the Mag7 tech stocks plus Broadcom, the S&P 500 is actually down year-to-date,
+ meaning the AI industry is once again putting the market on its back.
+ The journal did note signs of froth in the market from all-birds questionable AI pivot
+ to the massive premium placed on pre-IPO AI stocks.
+ Still, the fundamental driver is massive and renewed commitments to AI spend.
+ This week, Evensod.com darling Cisco reached a new all-time high on the back of data center
+ spending, taking 26 years to claw back to their 2000 peak.
+ And while the WSJ's narrative still focuses on questioning the AI bubble,
+ some analysts are insisting that this time is different.
+ Corey Acre, a senior semiconductor analyst at Benchmark said,
+ we just had a return to optimism around the AI trade.
+ I think the optimism around the demand is correct.
+ The demand, spending, the CAPEX budgets are real.
+ Ultimately, it's kind of difficult to argue with the numbers.
+ CAPEX commitments are firming up and could actually end the year higher than forecast.
+ On the back of increasing demand, Nvidia closed the week at a new all-time high,
+ becoming the world's first $5 trillion company just nine months after they became the first
+ $4 trillion.
+ To quote OpenAI's Rune,
+ Not enough people are emotionally prepared for if it's not a bubble.
+ For now, that's going to do it for the headlines.
+ Next up, the main episode.
+ One of the trends that I follow most closely when it comes to AI is around voice.
+ Today's episode is brought to you by Assembly AI, the best way to build voice AI apps.
+ The company has been moving with extreme velocity lately,
+ shipping major improvements to their speech-to-text models that go way beyond just better transcription.
+ Specifically, they are getting to an accuracy level that can reliably
+ capture the type of things that used to break every other speech-to-text model.
+ Think credit card numbers read aloud, email addresses spelled out, complex medical terminology,
+ financial figures.
+ All of these things, in other words, that it really matters to get right.
+ So for anyone who's building in fintech, healthcare, sales intelligence, customer support,
+ getting those things wrong isn't just annoying, it's a liability.
+ Their speech-understanding models are also really good at things like identifying speakers,
+ surfacing key moments, and uncovering insights from voice data.
+ And all of that happens in a single API call.
+ The proof is in the pudding in Assembly Power,
+ some of the top voice AI products in the market today, like Granola, Dovetail, and Ashby.
+ Getting started is free.
+ Head to assemblyai.com slash brief to test it live and get $50 in free credits.
+ No contract, no upfront commitments.
+ That's assemblyai.com slash brief.
+ With the emergence of AI Code Generation in 2022,
+ NVIDIA Master Inventor and Harvard engineer Sid Pereschi took a contrarian stance.
+ Inference time compute and agent orchestration,
+ not pre-training, would be the key to unlocking
+ high-quality AI-driven software development in the enterprise.
+ He believed the real breakthrough wasn't in how fast AI could generate code,
+ but in how deeply it could reason to build enterprise-grade applications.
+ While the rest of the world focused on co-pilots,
+ he architected something fundamentally different.
+ Blitzy, the first autonomous software development platform leveraging thousands of agents
+ that is purpose-built for enterprise-scale code bases.
+ Fortune 500 leaders are unlocking 5x engineering velocity
+ and delivering months of engineering work in a matter of days with Blitzy.
+ Transform the way you develop software.
+ Discover how at Blitzy.com.
+ That's B-L-I-T-Z-Y.com.
+ Today's episode is brought to you by Granola.
+ Granola is the AI notepad for people in back-to-back meetings.
+ You've probably heard people raving about Granola,
+ it's just one of those products that people love to talk about.
+ I myself have been using Granola for well over a year now,
+ and honestly it's one of the tools that change the way I work.
+ Granola takes meeting notes for you without any intrusive bots joining your calls.
+ During or after the call, you can chat with your notes,
+ ask Granola to pull out action items, help you negotiate, write a follow-up email,
+ or even coach you using recipes which are pre-made prompts.
+ Once you try it on a first meeting, it's hard to go without.
+ Head to granola.ai-a-i-daily and use code AI Daily,
+ new users get 100% off for the first three months.
+ Again, that's granola.ai-a-i-daily.
+ It is a truth universally acknowledged,
+ that if your enterprise AI strategy is trying to buy the right AI tools,
+ you don't have an enterprise AI strategy.
+ Turns out that AI adoption is complex.
+ It involves not only use cases, but systems integration,
+ data foundations, outcome tracking, people and skills, and governance.
+ My company, Super Intelligent, provides voice agent-driven assessments
+ that map your organizational maturity against industry benchmarks
+ against all of these dimensions.
+ If you want to find out more about how that works,
+ go to bsuper.ai, and when you fill out the get started form,
+ mention maturity maps.
+ Again, that's bsuper.ai.
+ Welcome back to the AI Daily Brief.
+ Today, we are connecting the dots between two stories.
+ The first is an announcement from the White House last week,
+ invoking the Defense Production Act around U.S. grid infrastructure.
+ And the second story is the release of the much anticipated DeepSeek V4.
+ Still, to set up both of these stories,
+ I want to go back a little bit to a discussion that really started to emerge
+ in the last quarter of last year.
+ Taking you back to that time, you might remember that for much of Wall Street,
+ the bubble narrative was reaching its peak.
+ GPT-5 had been disappointing, leading many people to trot back out the idea
+ that seems to come up every six months or so in AI
+ that we were hitting some pre-training wall.
+ And on top of that, we also had growing skepticism
+ of the round of circular infrastructure deals that we're driving
+ and according to some commentators inflating future revenues.
+ Now looking back, it's become clear that the idea
+ that we were going to have a bunch of XS compute sitting around
+ and that this massive buildout wasn't actually going to be necessary
+ or justified by the market seems to put it mildly a little quaint.
+ Instead, the narrative is shifting now to whether we're going to actually
+ be able to provision as much compute as people want.
+ An upstream from all of that isn't just compute,
+ it's the energy that that compute runs on.
+ Running counter to the tide at the time,
+ Goldman Sachs called this out last year.
+ Summed up by Business Insider,
+ they wrote that AI's next bottleneck wouldn't just be chips,
+ but instead America's power grid.
+ GS identified that one of the biggest constraints
+ to the future of AI development was going to be electricity itself.
+ Anticipating that data centers share of electricity demand
+ in the US would go from about 6% today
+ to about double that to 11% by 2030,
+ that shift argued Goldman Sachs analysts
+ had the potential to cause untenable constraints
+ on the US power grid.
+ As AI demands massive power, they wrote,
+ a reliable and ample power supply
+ is likely to be a key factor shaping this race,
+ especially because power infrastructure bottlenecks
+ can be slow to solve.
+ Now the Financial Times, meanwhile,
+ had written a similar story all the way back in December of 2025.
+ As they point out, boosting the US power grid
+ is an enormous and time consuming task
+ due to a complex web of regulatory,
+ financial and supply chain challenges.
+ For example, they describe how the backlog of projects
+ that are already waiting to plug into the grid
+ have become in their words a major choke point.
+ And of course,
+ there is the wider public dimension of this as well,
+ where if we can't expand the total amount of power available,
+ the hyperscalers instead have to try to consume
+ as much as they can of what is currently available,
+ which becomes a core issue with populations
+ who face the potential of rising energy prices
+ because of all of this.
+ Calls for efforts to get more aggressive
+ about solving this problem have gotten louder as well.
+ At the end of March,
+ JP Morgan explicitly called our aging grid
+ a national security risk
+ and called upon the US government to do its part
+ to solving what they are identifying as a major problem.
+ They write,
+ electric grids are undergoing a fundamental reframe
+ from aging legacy assets to strategic hard and soft infrastructure
+ that must withstand physical threats,
+ technological change and growing supply needs.
+ In this context,
+ grid resilience efforts are not just defensive infrastructure maintenance,
+ they also increasingly underpin economic development,
+ industrial competitiveness,
+ and national security.
+ Activities that harden,
+ expand and modernize the grid
+ are becoming increasingly attractive investment opportunities
+ and policy priorities globally.
+ It seems that the White House agrees.
+ At the beginning of the week,
+ the White House posted a presidential memo
+ for the Secretary of Energy.
+ It would be later in the week
+ when the internet started noticing and discussing the post.
+ In the memo, President Trump writes,
+ Pursuant to Section 303 of the Defense Production Act
+ 1. Grid infrastructure and its associated upstream supply chains
+ including transformers, transmission lines and conductors,
+ substantiations,
+ high voltage circuit breakers, power control electronics,
+ protective relay systems,
+ capacitor banks,
+ electric core steel and related raw materials and manufacturing tools
+ are industrial resources,
+ materials or critical technology items essential to the national defense.
+ 2. Without presidential action under Section 330 of the Act,
+ United States industry cannot reasonably be expected to provide these capabilities
+ for the needed industrial resource,
+ material or critical technology items
+ in a timely manner
+ due to limited domestic production capacity,
+ extended procurement timelines,
+ foreign supply dependence
+ and insufficient capital investment.
+ And 3. Purchases purchase commitments,
+ financial support for the development of production capabilities
+ or other action pursuant to Section 303 of the Act
+ are the most cost effective, expedient and practical alternative methods
+ for meeting this need.
+ I have declared a national emergency under Executive Order 14156
+ and I further determined that action to expand the domestic capability
+ to develop, manufacture and deploy grid infrastructure
+ and supporting industrial supply chains
+ is necessary to avert an industrial resource or critical technology item shortfall
+ that would severely impair national defense capability.
+ You are authorized and directed to implement this determination
+ including making necessary purchases, commitments
+ and financial instruments to enable these projects.
+ TLDR, the White House is getting in the grid business
+ even if we don't know exactly what that means yet.
+ Most of the initial response from commentators had to do with the market.
+ TikTokTik writes,
+ grid is national security just in from the White House.
+ Expect to monster gap up in utilities next week.
+ Rosanna Prestia writes,
+ companies working to electrify America will have a big tailwind.
+ NCTrini Research wrote a flash note exploring similar themes.
+ And of course, underlying all of this is perception of AI competition
+ specifically with China.
+ Over the last 15 months,
+ no company has done more to reshape the perception of that battle
+ than DeepSeq did at the beginning of 2025.
+ When they released their free reasoning model,
+ which rocketed to the top of the app store charts
+ and represented the first time that many had used a reasoning model,
+ it wiped out an incredible amount of value from the US markets
+ as beliefs about how far behind China was were totally reset.
+ Now subsequent to that, over the course of 2025,
+ Chinese open-weight models became a significant part of the AI landscape.
+ While they were never state-of-the-art,
+ the fact that they were frankly nipping at the heels of state-of-the-art performance
+ and doing so in a much cheaper package
+ meant that many companies,
+ especially startups with some amount of flexibility,
+ were already finding integrations
+ where they used state-of-the-art models from open AI
+ or Anthropic or Google for hard and planning type tasks
+ and models like DeepSeq or Quinn or Kimmy
+ for a lot of the workhorse stuff
+ that would cost a ton in resources otherwise.
+ Because DeepSeq was the first to really kick off that conversation,
+ there has been extra hype around the release
+ of their latest model V4.
+ It's also been coming forever at this point.
+ I feel like a half dozen weeks in 2026
+ where people were sure it was coming this week,
+ but at the end of last week we did finally get it.
+ So in terms of the details,
+ the V4 model family consists of two models.
+ There is a 1.6 trillion parameter model called V4 Pro
+ and a smaller version called V4 Flash.
+ Both versions have a million-token context window.
+ And on the benchmarks,
+ V4 Pro is in a similar realm to Opus 4546 and GPT 53 and 54.
+ So we bench verified is basically a dead heat at around 80%.
+ On terminal bench 2.0,
+ V4 Pro is slightly ahead of Opus 46
+ and slightly behind GPT 54.
+ And on humanity's last exam,
+ V4 Pro is slightly behind the Western comparisons.
+ And when it came to interpretations,
+ there was frankly kind of a range.
+ Bloomberg's take was that the model was underwhelming.
+ They pointed to comments from Chris McGuire,
+ a senior fellow for China and Emerging Technologies
+ at the Council on Foreign Relations who wrote,
+ It is not competitive with frontier US models
+ and does not appear to close the gap with the United States in AI.
+ Former Trump AI advisor Dean Ball writes,
+ R1 remains the closest I've seen Chinese models
+ get to the US frontier.
+ That by the way is the one we were talking about from early 2025.
+ V4 continues Dean is further behind than that,
+ though that does not render it a useless or bad or uninteresting artifact.
+ In terms of the Twitterati, Leo Synthwade writes,
+ My first impressions on DeepSeek V4,
+ little disappointing that it's not stated the art after all this time,
+ but it's close.
+ New Pareto Frontier, a lot cheaper than 5.4 and Opus 46 for comparable performance.
+ Leo also did call it their new favorite model for creative writing.
+ Max Weinbach writes,
+ Yeah, DeepSeek V4 Flash Pro don't really perform that well
+ compared to any of the major US models,
+ even one to two revisions old.
+ Looks like it's slightly behind Opus 45 in practice
+ and on par or slightly behind Kimmy K26.
+ Some good optimization techniques there,
+ but overall eh.
+ Where the analysis gets a little more interesting
+ is when it broadens out to incorporate price.
+ DeepSeek is pricing the Pro model at 174 per million input tokens
+ and 348 per million output tokens.
+ That is less than a seventh of the cost of Opus 46
+ and less than a quarter of the cost of GPT-54.
+ V4 Flash is 14 cents per million inputs
+ and 28 cents per million outputs,
+ which undercuts Gemini flashlight by 80%.
+ DeepSeek is even pricing Pro at around 25% lower than Kimmy K2.6.
+ Simon Willison summed it up in his blog post as
+ almost on the frontier a fraction of the price.
+ Chinese AI analyst Po Zhao noted that DeepSeek said
+ they are currently limited by compute supply
+ and will drop prices even more once Huawei production
+ is ramped up in the second half of the year.
+ He added,
+ DeepSeek is publicly tying its API economics
+ to domestic chip infrastructure.
+ That's the real headline.
+ One person who's taking all of this much more seriously
+ than some of the initial dismissals is Matthew Berman.
+ He wrote a post called DeepSeek V4
+ is a serious threat.
+ Here's his main point.
+ Matt writes,
+ Here's the thing.
+ Most use cases don't require absolute frontier intelligence.
+ The vast majority of companies aren't doing
+ frontier scientific research
+ or trying to crack the hardest coding problems in the world.
+ They're running a business.
+ So imagine you're a CEO.
+ You look at GPT-55 at $30 per million output tokens
+ or Opus 47 similarly priced.
+ Then you look at DeepSeek and it's a fraction of that.
+ It does almost everything you actually need.
+ It's open source so you can fine tune it,
+ host it how you like, control it precisely.
+ The calculus becomes really obvious.
+ Why would you pay so much more?
+ That's where the problem comes in.
+ Jensen Huang's been saying China is going to build
+ their own chips in their own models
+ so they might as well be built on American technology,
+ i.e. Nvidia chips.
+ Fine.
+ But the same argument now works in reverse.
+ If U.S. enterprise companies build their A.I.
+ strategy on top of Chinese open source models,
+ that's a big geopolitical security risk.
+ If those Chinese AI labs change their architecture
+ or cut us off, we're suddenly in a really bad spot.
+ Matthew's argument is that in his words,
+ the U.S. needs to go much harder on open source,
+ and second, even if we stay closed source,
+ open AI and Anthropic need to get much cheaper,
+ much more quickly.
+ TLDR, DeepSeek didn't catch up to America,
+ but they built something good enough,
+ gave it away for free,
+ and a lot of U.S. companies are going to take them up on it.
+ Finally, almost as if to put a fine point
+ on the geopolitics of these announcements,
+ around the same time Beijing has launched
+ into a flurry of activity
+ to protect their national interests on AI.
+ On Friday, the same day DeepSeek v4 came out,
+ Bloomberg reported that China plans
+ to curb U.S. investment in domestic tech companies.
+ The report stated that Chinese officials
+ are putting out the word
+ that Chinese tech firms should reject U.S. capital
+ unless explicitly approved.
+ The report named Moonshot,
+ which is the developer of the Kimi models,
+ as well as Stepfun,
+ as two startups that had received these instructions.
+ writes Bloomberg,
+ The overarching intent of the latest restrictions
+ is to prevent U.S. investors
+ from taking stakes in sensitive sectors
+ where national security is a priority.
+ The decision also follows a recent policy change
+ that prevented foreign-incorporated companies
+ from going public in Hong Kong,
+ cutting off a decades-old playbook
+ for Chinese tech firms.
+ Instead, firms are shutting down
+ their overseas corporations
+ and reincorporating onshore.
+ Now, these changes were clearly a reaction
+ to Metta's $2 billion acquisition of Manus,
+ which has been under investigation
+ in Beijing for several months.
+ Manus had moved their headquarters
+ from Beijing to Singapore
+ shortly before the deal was formed,
+ which Beijing did not like.
+ In March, two Manus co-founders
+ attended questioning in China
+ and were told that they would not
+ be permitted to leave the country
+ while the investigation was ongoing.
+ On Monday, Beijing brought the investigation
+ to its conclusion
+ and blocked Metta's acquisition of Manus.
+ The Office of the Working Mechanism
+ for Foreign Investment Security Review,
+ an agency within the Powerful
+ National Development and Reform Commission
+ said in a statement,
+ the office requires the parties involved
+ to terminate and revoke
+ the acquisition transaction.
+ The statement didn't give
+ any specific reasons to unwind the deal,
+ but cited national security grounds.
+ Chinese officials told the Financial Times
+ that the deal was viewed
+ as a conspiratorial effort
+ to drain China of AI talent and resources.
+ Now, Metta is yet to comment on the decision,
+ but this could get messy very quickly.
+ As many commentators have pointed out,
+ a lot of these checks have already been cashed.
+ The Manus team already has Metta IDs.
+ How this all plays out in practice
+ remains to be seen,
+ but you take all these things together
+ and we are clearly entering
+ a new phase of the China-US AI competition.
+ I will certainly be watching to see
+ if and what the Secretary of Energy
+ actually does with this new power
+ granted by the White House.
+ For now, though, that's going to do it
+ for today's AI Daily Brief.
+ Appreciate you listening or watching,
+ as always, and until next time, peace.
