@@ -1,0 +1,546 @@
+ Today on the AI Daily Brief, AI subsidy era is coming to a close.
+ Today, we're exploring the implications for everything from markets to job
+ displacement to how your company uses AI. The AI Daily Brief is a daily
+ podcast and video about the most important news and discussions in AI.
+ Alright friends, quick announcements before we dive in. First of all, thank
+ you to today's sponsors KPMG, Blitzy, Zen Coder, and Granola. To get an ad-free version of the show,
+ go to patreon.com.ai-dailybrief or you can subscribe on Apple Podcasts.
+ To learn more about sponsoring the show, send us a note at sponsors.ai-dailybrief.ai.
+ While you're at ai-dailybrief.ai, you can also find out about all the things going on in the
+ ecosystem. Big one I would point you to, of course, is the new Agent OS,
+ agentic operating system, free self-paced training program. It's been two days, more than 2000
+ of you have signed up. You are very clearly interested in building agentic operating systems
+ for good reason. Go check it out. Again, you can find a link on ai-dailybrief.ai.
+ And finally, if you want a more practical bent to this conversation,
+ at the end of the episode, I talk about five practical moves for enterprises to bring agents
+ online in this new cost era. There is a companion document at play.ai-dailybrief.ai that
+ has those five steps that you can get a checklist for. For this episode, we are going
+ only to be back with the headlines tomorrow. Today, we are talking about what is a fairly
+ significant secular shift in the AI space. To put it simply, it is increasingly the case
+ that when you pay for AI, you will be actually paying for what the AI costs. Now, you might be
+ sitting there thinking, wait, isn't that exactly what I've been doing? Especially if you're on one
+ of these expensive $200 a month plus plans. It turns out that even those expensive plans,
+ in many cases, are not actually covering the costs to serve you the AI you're using.
+ And as we move deeper into the agentic era, the price reckoning is finally here.
+ Now, this has been bubbling for some time. There have been indicators for a while
+ that at least power users well more AI than even the most expensive models counted for.
+ Some pointed to the fact that this is a pretty standard part of the venture-back cycle,
+ where in the early days, a company can serve things unprofitably because they are subsidizing
+ their product or service with venture capital. Just last week, The Verge published a piece,
+ you're about to feel the AI money squeeze, ads, rate limits, feature restrictions, price hikes,
+ the AI free ride is over. That article, like many others, did connect this back to one of the last
+ times we saw something like this, which was the 20 teens and what some like the Atlantic
+ Steric Thompson called the millennial lifestyle subsidy. In that version, people were surprised
+ when the Ubers that they took and the DoorDash fees that they used rose fairly
+ significantly, pretty fundamentally changing their cost of living. Still, if there is
+ some relation in the pattern, what we've got going on with AI is different both in that that
+ millennial lifestyle subsidy was largely about what should have been luxury goods being priced
+ like commodity goods, whereas the usage of these AI tools is increasingly deeply interwoven
+ with how we actually work. There's also the fact that AI is playing at a size and
+ a stakes that is totally different than anything we've seen in startups before.
+ If you trace the big themes in AI in 2026, they're all fairly related.
+ Part one, at the beginning of the year, we have this mass recognition that based on updates to
+ both the models and the harnesses, the agentic era was well and truly upon us with all the
+ consequent changes that that would bring. Now, one of those consequent changes is that the sheer
+ number of tokens that we were using went way, way up. Putting a fine point on this was
+ semi analysis who at the beginning of February wrote a piece called Claude code is the
+ inflection point. They wrote, we believe that Claude code is the inflection point for AI
+ agents and is a glimpse into how the future of AI will function. It's set to drive exceptional
+ revenue growth for Anthropik in 2026, enabling the lab to dramatically outgrow open AI.
+ Now that was the narrative that was taking hold, except that as more and more tokens were
+ being consumed, it was hard not to notice that Anthropik's performance in particular was
+ taking a hit. After the announcement of their mythos model, Stratecary's Ben Thompson wrote,
+ how much of Anthropik's reluctance to make mythos widely available is due to security
+ concerns as opposed to the more prosaic reality that Anthropik simply doesn't have enough compute.
+ Technology author Tay Kim wrote, it's obvious Anthropik vastly underestimated compute growth
+ needs which is expanding much faster than expected. Dario is on the record multiple
+ times describing open AI as YOLO recklessly buying too much capacity, but now it looks
+ like Sam Altman was right all along. A couple days later, he reposted his own tweet
+ adding a quote from the Wall Street Journal. Anthropik, the maker of popular chatbot,
+ Claude and viral coding app Claude code has been plagued recently by frequent outages.
+ The company has begun metering computing supply to users during peak hours,
+ but the rollout has been marred by customers who have complained they are reaching the limit far
+ too quickly. And whether it was the right decision or not, after investigating reports of Claude
+ performance decreases over the last month and a half or so, Anthropik last week basically
+ came out and said we investigated it and we did make a bunch of moves that ended up decreasing
+ Claude's performance. Now open AI for their part has absolutely seized on this emerging
+ shift in the narrative. You can see references to the fact that open AI has compute and
+ Anthropik has less of it woven throughout all of their communications over the last few weeks of
+ model releases. When GPT images 2.0 was released, open AI President Greg Brockman wrote really
+ incredible what you're now able to create with a little bit of compute. After the release of GPT
+ 55, Sam Altman wrote really excellent work by the inference team to serve this model so
+ efficiently. To a significant degree, we have become an AI inference company now.
+ Now most people didn't even give that a second glance, but for those watching this compute
+ related narrative shift, he's basically saying that the only thing that matters to the
+ end user is whether you can actually deliver the AI that they want. And yet, as token consumption
+ goes up through more agentic usage, even if open AI is in a better position than Anthropik,
+ vis-a-vis compute, no one has as much compute as they want and everywhere there are trade-offs
+ being made. As early as the middle of last year, we saw companies start to shift their model
+ away from flat fees and towards usage. Replit was an early mover on this, taking a bunch
+ of licks when they made this shift earlier than most people around the summer and early
+ fall of last year. But now it feels like we are on the verge of a cascade of exactly
+ this type of change. On Monday, Microsoft's GitHub announced a shift to consumption-based fees.
+ Their co-pilot features had quietly become an extraordinary deal as coding agents took off.
+ Their 39 a month top tier subscription had surprisingly generous limits,
+ especially considering that the other major labs were charging $100 or $200 for their
+ high usage tiers. Co-pilot's pricing model was also based on requests rather than token
+ usage, which was causing further distortions in this new agentic era. Now, this had
+ obviously become unsustainable over the past six months. GitHub's usage metrics were
+ off the charts and their stability was compromised by frequent outages caused by
+ excess traffic. In a blog post explaining the change, chief product officer Mario Rodriguez wrote,
+ Co-pilot is not the same product it was a year ago. It has evolved from an in-editor
+ assistant into an agentic platform capable of running long, multi-step coding sessions,
+ using the latest models and iterating across entire repositories.
+ Agentic usage is becoming the default and it brings significantly higher compute
+ and inference demands. Today, a quick chat question in a multi-hour autonomous
+ coding session can cost the user the same amount. GitHub has absorbed much of the
+ escalating inference cost behind that usage, but the current premium request model is no
+ longer sustainable. Usage-based billing fixes that. It better aligns pricing with actual usage,
+ helps us maintain long-term service reliability, and reduces the need to gate heavy users.
+ Now, the new model will be broadly the same as Cursor with users receiving a monthly
+ allotment of credits with the option to buy more. GitHub is giving users time to adjust,
+ delivering a preview of what their bill would look like under the new model during May
+ before making the switch at the beginning of June. The switch came with a revised multiplier table,
+ which describes how many credits each model consumes. Some of the notable changes were
+ Claude Opus 4.7 going from a 7.5x multiplier to 27x and Gemini 3.1 Pro and GPT 5.3 Codex,
+ both going from a 1x multiplier to 6x. Basically across the board you're seeing
+ around a 6x price hike for the frontier coding models. Developer Peter Dedenne remarked,
+ these new co-pilot multipliers starting June 1st are absolutely ridiculous.
+ I can only imagine this pricing is going to force users to lock in with a single foundation
+ model vendor just to manage costs. Honestly, it would be hard to find a clearer indicator that
+ the subsidy era is over than Microsoft literally revealing how deep their subsidies had been with
+ this massive price hike. Anthropic has also been inching towards usage-based pricing for
+ several weeks as they continue to face those stability issues. Now, although the stability
+ issues they discussed last week were blamed on Claude Codex bugs, it is very clear that
+ Anthropic is straining under the weight of agentic usage. To be clear, what I'm saying
+ is that they are straining under the weight of their own success. Over the past month we've seen
+ them actively force open-claw usage onto the API, run a so-called small test of removing
+ Claude Codex from the Pro subscription, and of course, most notably of all,
+ withholding the release of their largest and most capable model. At the beginning
+ of the month surrounding the open-claw changes researcher Boris Cherni wrote,
+ We've been working hard to meet the increase in demand for Claude,
+ and our subscriptions weren't built for the usage patterns of these third-party tools.
+ Capacity is a resource we manage thoughtfully and we are prioritizing our customers using our
+ products and API. We want to be intentional in managing our growth to continue to serve
+ our customers sustainably long-term. This change is a step towards that.
+ Now, over the weekend, a Reddit user reported that they were charged $200 in usage fees without
+ notification just because they had the text hermes.md in their git commit history.
+ They weren't actually using the hermes agent, but they were kicked over to the API anyway.
+ Anthropic later made it right, with Claude Codex to rewriting,
+ uh, sorry, this is a bug with the third-party harness detection and how we pull git systems
+ into the system prompt. We've reached out to the affected users and given them a refund and
+ another month of credits. Regardless of the fact that they made it right, it demonstrates the
+ length that they will increasingly need to go to stop token hungry agents from draining their
+ resources. Now, it's very clear that people are jittery right now about getting their Claude
+ Codex fixed. On Monday, for example, a post went viral claiming that Anthropic had eliminated
+ Opus from the $20 pro plan. The community notes later explained that this was an oversight
+ and updating support documents, not a policy change, but not before thousands and thousands of
+ people share the post which based on everything else they found quite believable. In another kind
+ of bizarre incident, a different Reddit user reported that their entire organization had been
+ fired as an Anthropic client, all 110 of them. The user didn't discuss the reason for the
+ ban and didn't seem to know. The company works in agriculture so they wondered whether it was
+ chats about fertilizer, which is a common ingredient in bomb making. Their ban came
+ with a Google form to lodge an appeal which they claimed just went to a black hole
+ with no response. The user wrote,
+ I'm sure if we wait long enough we'll come to some form of resolution here,
+ but you have to ask yourself if this is a platform you can entrust your daily workflows to as a
+ business. For those watching the horse race, there is a big sense of vibe shift right now.
+ Wes Winder writes, Anthropic is really handing the dev market to open AI on a silver platter.
+ Look, ultimately right now I think that things are overblown and we're dealing
+ with the insider baseball pendulum swing from one company to another and the thing
+ about pendulum swings is that they always swing back. At the same time, where I think
+ Anthropic's troubles are maybe a warning shot for the whole industry and something that open
+ AI might be a little careful about how much they dance on top of, there is not enough compute
+ to service all the AI demand that we have. As I mentioned endlessly, the shift to true
+ agentics means that token consumption is just going through the absolute roof,
+ the average amount of tokens that the individual user uses and that the average
+ company uses is just way up. I alone last month used around a billion tokens,
+ which is the equivalent of about 7500 books worth of words. Now of course I'm going to be
+ on the high end of things, but still you multiply that across a lot of users and you can understand
+ maybe why they're running into some troubles. And what's more, as everyone talks about and
+ builds these new agentic things, it's also bringing new users online. Between November
+ and April, the percentage of users who had never used AI went from 26 down to 17%,
+ which was the exact inverse of the number of people who use it often which went from 17 to 24%.
+ Coming into this week, we had started to see this crush the bubble narrative on Wall Street.
+ A couple of weeks ago, Hedgie Markets wrote,
+ Goldman Sachs reports that companies are blowing past their AI inference budgets by orders of
+ magnitude, with inference costs and engineering now approaching 10% of total headcount costs
+ and potentially reaching parity with salaries within several quarters.
+ Author Derek Thompson wrote,
+ The AI bubble argument has meaningfully shifted from
+ the revenue growth curve looks weak and old chips will lose value too fast
+ to be, well sure old chips are retaining value for this inference boom
+ and the revenue growth curve is ferocious, but it's being subsidized by below market token
+ pricing and corporate AI FOMO, which frankly you gotta wonder why some investors are so desperate
+ for this to be a bubble, that rather than changing their opinions about whether it's
+ a bubble, they just dramatically shift their logic for what the bubble consists of.
+ And sure enough, alongside this announcement from co-pilot,
+ plenty of market commentators like Ross Hendricks here saying,
+ Guess who are about to find out how much the endless demand for AI narrative
+ falls apart when the subsidy pricing goes away?
+ One of the most important AI questions right now isn't who's using AI, it's who's using it well.
+ KPMG and the University of Texas at Austin just analyzed 1.4 million real workplace
+ AI interactions and found something surprising.
+ The highest impact users aren't better prompt engineers,
+ they treat AI like a reasoning partner.
+ They frame problems, guide thinking, iterate, and push for better answers.
+ And the good news? These behaviors are teachable at scale.
+ If you're trying to move from AI access to real capability,
+ KPMG's research on sophisticated AI collaboration is worth your time.
+ Learn more at kpmg.com slash us slash sophisticated,
+ that's kpmg.com slash us slash sophisticated.
+ You've tried in IDE co-pilots.
+ They're fast, but they only see local silos of your code.
+ Leverage these tools across a large enterprise code base and they quickly become less effective.
+ The fundamental constraint? Context.
+ Blitzy solves this with infinite code context.
+ Understanding your code base down to the line level dependency across millions of lines of code.
+ While co-pilots help developers write code faster,
+ Blitzy orchestrates thousands of agents that reason across your full code base.
+ Allow Blitzy to do the heavy lifting,
+ delivering over 80% of every sprint autonomously with rigorously validated code.
+ Blitzy provides a granular list of the remaining work for humans to complete with their co-pilots.
+ Tackle feature additions, large-scale refactors, legacy modernization,
+ greenfield initiatives, all 5x faster.
+ See the Blitzy difference at blitzy.com, that's blitzy.com.
+ So coding agents are basically solved at this point.
+ They're incredible at writing code.
+ But here's the thing nobody talks about.
+ Coding is maybe a quarter of an engineer's actual day.
+ The rest is stand-ups, stakeholder updates,
+ meeting prep, chasing context across six different tools.
+ And it's not just engineers.
+ Sales spends more time assembling proposals than selling.
+ Finance is manually chasing subscription requests.
+ Marketing finds out what shipped two weeks after it merged.
+ Zen coder just launched Zenflow work.
+ It takes their orchestration engine, the same one already powering coding agents,
+ and connects it to your daily tools.
+ JIRA, Gmail, Google Docs, Linear, Calendar, Notion.
+ It runs goal-driven workflows that actually finish.
+ Your stand-up brief is written before you sit down.
+ Review cycle coming up?
+ It pulls six months of tickets and writes the prep doc.
+ Now you might be thinking, didn't Open Claw try to do this?
+ It did, but it has come with a whole host of security and functional issues
+ which can take a huge amount of time to resolve.
+ Zen coder took a different approach.
+ Sock 2, Type 2 certified.
+ Curated integrations.
+ Tighter security perimeter.
+ Enterprise grade from day one.
+ Model agnostic and works from Slack or Telegram.
+ Try it at zenflow.free.
+ Today's episode is brought to you by Granola.
+ Granola is the AI notepad for people in back-to-back meetings.
+ You've probably heard people raving about Granola.
+ It's just one of those products that people love to talk about.
+ I myself have been using Granola for well over a year now
+ and honestly it's one of the tools that change the way I work.
+ Granola takes meeting notes for you
+ without any intrusive bots joining your calls.
+ During or after the call, you can chat with your notes,
+ ask Granola to pull out action items,
+ help you negotiate, write a follow-up email,
+ or even coach you using recipes which are pre-made prompts.
+ Once you try it on a first meeting, it's hard to go without.
+ Head to granola.ai slash ai-daily and use code ai-daily.
+ New users get 100% off for the first three months.
+ Again, that's granola.ai slash ai-daily.
+ To be honest, the market implications are sort of the least interesting to me.
+ Obviously, if you are a professional investor, it matters.
+ But for everyone else, it's frankly hard not to feel
+ like Wall Street is just fundamentally behind on this.
+ Another case in point, as I'm recording this,
+ stocks related to open AI and AI more broadly are getting hammered
+ because of a report from the Wall Street Journal
+ arguing that towards the end of last year
+ and at the beginning of this year,
+ open AI missed key revenue and user targets.
+ Now, it doesn't say exactly when those user targets were,
+ but unless they were literally in the last 30 days,
+ those numbers are just not telling any sort of up-to-date story.
+ Shown here is a chart of Codex's user growth in the last four months.
+ Remember, back in December, Open AI declared code red,
+ and since then, in quick succession, we got GPT-52,
+ 5.3, 5.4, Codex variations on those models and ultimately 5.5.
+ 5.5, of course, is the latest model
+ having come out just at the end of last week.
+ Now, their Codex app users have grown 20x this year
+ from about 200,000 on January 1st
+ to 4 million the week before GPT-55 launched.
+ Presumably, that has continued to grow,
+ and it wouldn't be surprising if they got another big bump
+ with the release of 5.5 last week.
+ Point being, Wall Street is reacting to data
+ from somewhere between two and six months ago
+ without realizing that AI literally operates on a dog year time scale.
+ Now, I will say, of course,
+ that as dismissive as I'm being of Wall Street
+ and their understanding of what's going on,
+ what they think does matter because it's going to be integral
+ to whether companies can continue to get the financing
+ to enable to keep building out compute.
+ Still, when it comes to implications of the AI subsidy era,
+ in many ways, the markets are the least interesting to me.
+ What is much more interesting
+ is what Chandra Jugarala summed up as OPEX to CAPEX.
+ They retweeted a post from Peter Diamandis who wrote,
+ headcounts are dropping.
+ Meta down 10%, Microsoft down 7%,
+ both companies up 400% AI CAPEX.
+ This isn't a layoff,
+ it's the transition from neurons to silicon.
+ And it turns out that if you start to look for this story,
+ it is absolutely bubbling to the surface.
+ Abacus AI has been do ready rights.
+ Our AI bill will overtake payroll in six months.
+ We now have limits on how much employees
+ can use our product on a daily basis.
+ DAX from Open Code joked,
+ we tell our employees they have unlimited tokens,
+ but we just take it out of their paycheck.
+ Some Twitter pointed out in the biggest irony,
+ can't wait for humans to replace AI now.
+ What I think is fascinating about this
+ is that in almost none of the AI job apocalypse discourse,
+ and the breathless talk about impending doom,
+ do the folks who are most concerned take into account
+ the actual cost of intelligence as a factor.
+ There is this presumption embedded in most of that discourse,
+ certainly not all of it,
+ I don't want to paint with too broad a brush stroke,
+ but in much of this discourse,
+ that AI is going to be radically cheaper
+ than its human labor equivalent.
+ And of course in some cases that will be true,
+ but it seems increasingly that cost savings
+ is likely to be one of the least relevant categories of ROI
+ when it comes to the actual impact of AI.
+ Obviously it's just one sample,
+ but over the course of our last three monthly pulse results,
+ in January, February, and March,
+ cost savings was literally nowhere on the list
+ of most important benefits.
+ Between January and March,
+ time savings cratered from 19.7%
+ saying it was the primary benefit down to just 12.7%,
+ and in that same time period,
+ the percentage of people saying that new capabilities
+ were their primary benefit went from 21.9% to 29.3%.
+ If what people are looking for out of AI is not cost savings,
+ it's going to have pretty big impacts
+ on the particular shape of AI displacement.
+ There is also the irony that while none of the active protest calls
+ or signed open letters
+ have produced any sort of agreed upon AI pause,
+ there's sheer constraints of physics,
+ i.e. the limitations of our grid,
+ the lack of components,
+ the barriers to building more data centers and compute,
+ and the market forces that go with them
+ are ultimately going to be a much more powerful force
+ for slowing down the rate of AI diffusion.
+ I don't think that this is a bad thing.
+ One of the more nuanced versions of AI concern
+ was summed up by Jamie Dimon at the World Economic Forum this year,
+ where he wasn't ultimately worried
+ about the long term in our ability to adapt,
+ but the fact that changes might happen,
+ in his words, too fast for society.
+ If it turns out that an agent that can do human work
+ for a little while
+ cost the same or pretty close to a human doing that work,
+ that's obviously going to have a fairly significant impact
+ on the rate of change that we experience.
+ Now that's a subject for a show that's a larger exploration on jobs,
+ but I do think that it is an important implication
+ and potentially a unexpectedly positive implication
+ of the subsidy era coming to a close.
+ Now localizing the impact more for individual companies,
+ part of what does make this challenging
+ is that there are lots of companies
+ that already have or are in the midst of
+ completely shifting all of their workflows around agents.
+ Those companies are at risk
+ of having pretty different unit economics
+ than they thought they were dealing with.
+ And one of the things that you're likely to see
+ is companies starting to experiment
+ much more assertively with lower cost models.
+ Now for those who have been paying attention,
+ this has been happening for a while.
+ Back in November, Al Jazeera published a piece
+ about how China's lower cost AI
+ was making big inroads in Silicon Valley,
+ noting headline grabbing comments from Airbnb CEO Brian Chesky,
+ who said that the company was using Alibaba's Quen
+ over Chachi BT because it was fast and cheap.
+ And certainly there's reason to think
+ that in the age and era,
+ there's going to be a lot more emphasis
+ on not just raw intelligence,
+ but intelligence per unit of cost.
+ Now for those who are thinking about this change
+ through the what can our company do to get out ahead
+ of what could be rapidly rising model bills,
+ there will be a companion site at play.ai.dailyreef.ai,
+ where I'm publishing five steps
+ for dealing with the end of the AI subsidy.
+ The five steps are first finding the AI spending leaks.
+ This is basically a use case and task audit,
+ looking for where premium expensive models
+ are doing tasks that really could be done
+ by smaller models, less expensive models,
+ or even models a generation or two older.
+ Especially at the beginning of systems design,
+ there is a tendency for people, certainly for me,
+ to default to the most state-of-the-art model
+ to make sure the overall agent or system
+ can do what I actually wanted to do.
+ And there almost needs to be a whole secondary step
+ to then go back and audit every part of that system
+ to make sure that the need is actually aligned
+ with the model's power and cost.
+ My next suggestion is to hold what I'm calling
+ a cheap model bake-off.
+ One of the things we talk about all the time here
+ is how the most successful users of AI
+ don't just use one model and stick with it,
+ they figure out which model is good
+ for each of their different tasks
+ and kind of build themselves
+ what is effectively a model portfolio.
+ What I'm arguing for with the model bake-off
+ is to take that same idea,
+ but to bring it back to those smaller,
+ more efficient and more open models,
+ figure out which do the types of work
+ that you want to move into the cheaper column
+ with the best combination of performance and cost.
+ And this one I think you can have some fun with.
+ It will take some time, yes,
+ to build a framework to test a whole bunch of models
+ on some key tasks,
+ but you'll be much more confident
+ integrating these less expensive models
+ into your most important systems
+ if you've taken the time
+ to actually test them against one another
+ and against the frontier models
+ to know what trade-offs you're really making
+ but which models are best suited to what tasks.
+ And moving on to number three,
+ the idea of this recommendation
+ is to not make that cheap model bake-off
+ a one-time endeavor
+ but to actually enshrine it in a role,
+ which I'm calling model sommelier.
+ The idea is to basically give one person or small group
+ ownership of this bargain intelligence
+ and second-best model selection process.
+ This person could take what you've built
+ with the cheap model bake-off,
+ things like leaderboard by task type and cost,
+ and they can turn that into a continuously updating system
+ that can track price changes,
+ new open model releases,
+ surprisingly strong non-frontier models,
+ and actually turn that into recommendations
+ and further tests over time.
+ Plus, if you call it model sommelier,
+ they'll feel super sophisticated and cool,
+ so fringe benefit there.
+ Number four on the recommendation list
+ is to create an escape hatch architecture.
+ And what I mean by that
+ is to basically design systems that can adapt
+ that are not unduly stuck on the cheaper
+ or compromise models,
+ but have paths to escalation.
+ You're going to have tasks and workflows
+ where the cheaper open models
+ are good for routine work
+ but where you can also build the ability
+ to escalate on low confidence, ambiguity,
+ sensitive data, high value cases,
+ routing them to the higher power,
+ higher cost models,
+ or even to human review.
+ You can almost think about number four
+ as a placeholder
+ for actually designing the architecture
+ around the fact
+ that you're going to be working with multiple models,
+ which my guess is we're going to see
+ just about a metric ton
+ of LinkedIn and Twitter post how-tos
+ as the end of the AI subsidy era
+ really becomes a theme.
+ The last recommendation is to just measure this all.
+ Build an AI cost scoreboard.
+ Make agent economics visible.
+ Help teams understand
+ the impact of the trade-offs they're making.
+ Integrate those cost metrics
+ with performance and other considerations
+ like escalation rate,
+ human review rate,
+ correction rate, etc.
+ And as you do so,
+ celebrate the wins.
+ Empower your teams to lead these changes
+ so that you're co-creating
+ the agent-human collaboration teams
+ rather than just imposing it upon them.
+ Now, if you want to go deeper on this
+ and get access to a checklist
+ of a set of tasks,
+ for doing this,
+ go check out play.aiofdailybrief.ai.
+ It'll be right on top
+ of these companion experiences.
+ As you can probably tell,
+ I do not think that this is a short-term blip.
+ The reality is
+ that even with all the compute
+ that's planned to come online
+ over the next five years,
+ it's not going to happen right away
+ and it's not even going to happen in the short-term.
+ What's more,
+ even as that compute does come online,
+ big chunks of it will continue to be used
+ not for serving the models
+ but for training the models.
+ Once the levy breaks
+ and everything shifts to usage-based billing,
+ everyone is going to ultimately follow suit
+ and it's just going to become the norm.
+ And although this change in the short-term
+ will be challenging,
+ there's a lot of reasons to be optimistic
+ or even enthusiastic,
+ at least in the medium term.
+ More sustainable business models,
+ a better assessment of the actual cost of AI,
+ which will help companies make better decisions
+ about where and how to use it,
+ more robust and sophisticated systems
+ that are not locked into one model
+ just because theoretically it stated the art overall
+ but are instead tuned for the different models
+ that have the best concept performance profile
+ for the specific task at hand,
+ and frankly,
+ a somewhat forced slowdown on the potential
+ for dramatic job displacement.
+ Anyways, folks,
+ that's where I'm seeing it from here.
+ I'm sure this is a trend we will continue to look at
+ but for now,
+ that's going to do it for today's AI Daily Brief.
+ Appreciate you listening or watching,
+ as always,
+ and until next time,
+ peace.
