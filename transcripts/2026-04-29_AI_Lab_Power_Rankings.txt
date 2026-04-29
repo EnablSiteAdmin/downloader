@@ -1,0 +1,731 @@
+ Today on the AI Daily Brief, find out who both me and AI think are the leading AI labs in
+ our first ever AI lab power rankings.
+ And before that in the headlines, some big updates to the Microsoft OpenAI partnership.
+ The AI Daily Brief is a daily podcast and video about the most important news and
+ discussions in AI.
+ Alright friends, quick announcements before we dive in.
+ First of all, thank you to our sponsors KPMG, Blitzy, Grenola, and Mercury.
+ To get an ad-free version of the show, go to patreon.com.ai-dailybrief or you can subscribe
+ on Apple Podcasts.
+ To learn more about sponsoring the show or really find out anything else about the show,
+ head on over to ai-dailybrief.ai.
+ One of the things you can find access to there is play.ai-dailybrief.ai,
+ which is where we put all the companion experiences for this show,
+ including the place where you can build your own AI lab power rankings.
+ And you can also find links for things to our extension programs
+ like our free self-paced program Agent OS, which is just launched
+ and now has multiple thousands of you building agentic operating systems.
+ Again, you can find all of that on ai-dailybrief.ai.
+ On Monday, OpenAI and Microsoft announced that they've signed an amended agreement
+ that unwinds some fairly big parts of their long-term partnership.
+ Microsoft will continue to be OpenAI's primary cloud partner,
+ but they will no longer be their exclusive cloud partner.
+ That clears the way for OpenAI to serve any of their products on AWS
+ through their new partnership with Amazon.
+ Microsoft will continue to hold a license to OpenAI's IP and models through 2032,
+ but that license is also now non-exclusive.
+ Models must be released first on Azure,
+ but we have no information on how long that exclusivity window is.
+ In exchange for opening the partnership,
+ Microsoft will no longer pay a revshare to OpenAI for serving their models.
+ OpenAI will continue to pay a revshare to Microsoft through 2030
+ at the same percentage and subject to the same total cap.
+ This revenue share has been previously reported at 20% of total OpenAI revenue,
+ and the cap is understood to be some multiple of Microsoft's early $13 billion investment.
+ Microsoft will retain their shares and continue being a 27% shareholder in the company.
+ Maybe biggest of all, certainly from Microsoft's perspective,
+ is that revenue and IP sharing is no longer conditional on it being pre-AGI.
+ Remember, one of the weirdest clauses of their partnership was that the deal fell apart
+ if OpenAI declared that they had achieved AGI,
+ but there wasn't really a definition of AGI built in,
+ meaning that Microsoft was sort of subject to the whims of OpenAI.
+ At the beginning, that didn't seem like such a big deal,
+ but I think it became a major liability after the whole dust-up around Sam and the Board a couple of years ago.
+ The joint statement insisted the split was amicable
+ with the companies framing it as a simplification.
+ In terms of winners and losers,
+ most reporting framed this as OpenAI breaking free of a relationship that was holding them back.
+ OpenAI has been pushing for the ability to host their full suite of products on AWS,
+ which involved a few workarounds that resulted in lawsuit threats from Microsoft.
+ This new deal means OpenAI has zero exclusivity
+ and can also pursue a partnership with Google if they choose.
+ The information on the other hand initially reported the deal as a win for Microsoft.
+ They argued that the financial benefits are pretty decent,
+ with Microsoft holding on to a 20% revenue share
+ and looking towards a huge windfall gain from their 27% equity stake.
+ One aspect that's a little overlooked was that Microsoft was previously looking
+ at a revenue stake reduction to 8% by 2030.
+ If OpenAI continues on their trajectory,
+ retaining the enhanced revenue stake could be a massive contributor to Microsoft's bottom line.
+ Now, after a little more sourcing around the negotiation process,
+ the information assessed the deal as a win-win and follow-up reporting on Tuesday.
+ Or, more accurately, they explained that the deal allowed OpenAI and Microsoft
+ to avoid the lose scenario of a protracted legal battle.
+ They reported that the negotiation essentially came down to OpenAI
+ winning the ability to form other partnerships
+ in exchange for allowing Microsoft to retain the 20% rev share.
+ Removal of the AGI clause also loomed large.
+ From my eyes, it's very hard to see this as anything but a win-win for both companies,
+ and I actually think that Rezo has the right of it when he writes,
+ while everyone else is obsessing over the revenue share drama,
+ the real story is much simpler.
+ OpenAI has grown too big for any single cloud to fully serve.
+ I think that's dead on.
+ The deal was a constraint on everyone,
+ it was structured at a different time, it needed an update,
+ and frankly, huge kudos to Sam and Satya for figuring this out
+ over a handful of meetings and just allowing everyone to keep building.
+ Now not wasting a single day of their newfound freedom,
+ OpenAI models are now available on AWS.
+ AWS CEO Matt Garmin announced on Tuesday that GPT-54 is now available
+ as a limited preview and 5.5 will be coming within weeks.
+ AWS will also serve Codex through their infrastructure.
+ The announcement also reintroduced Amazon Bedrock's managed agents platform.
+ Now branded is powered by OpenAI.
+ The platform will use OpenAI's harnesses and models,
+ making it seem pretty similar to the managed agents OpenAI
+ introduced with their frontier platform in February.
+ Importantly, in the context of the value of the deal that we were just discussing,
+ there isn't a single workaround in sight.
+ This is just OpenAI's products running on AWS Bedrock
+ in the same way they've been available on Microsoft Azure.
+ Garmin explained why this is such a big deal for AWS commenting,
+ this is what our customers have been asking for for a really long time.
+ Their production applications run in AWS, their data is in AWS,
+ they trust the security of AWS.
+ Amazon is also getting into the agent game with a new desktop computer use assistant.
+ Called Amazon Quick,
+ the agent is in a similar space to some of the things we're seeing around tools like Claude
+ Cowork.
+ Quick can access local files, create live dashboards,
+ and generate work-related outputs like slideshows.
+ It can connect through the apps that store your context,
+ including calendars and email clients alongside professional tools like Slack and JIRA.
+ Amazon says the agent will automatically learn from every task,
+ building personal context over time.
+ The information frame, this is one of Amazon's big plays for the agentic era commenting,
+ AWS is still chasing its white whale,
+ creating a hit enterprise application.
+ Now, the response of some was summed up by Tmux Vim who writes,
+ okay, how many of these do we need?
+ While others like Brandon Pizacala saw the potential value.
+ Brandon wrote, every AI product we've built,
+ the model took a week to get right,
+ data wiring took another month,
+ hooking agents into real context,
+ actual email history and support tickets,
+ that's where most of these break.
+ If Quick actually solved that piece,
+ it's worth paying attention to.
+ Look, I do not know how this all shakes out,
+ but it is very clear that this agentic do everything work everywhere desktop app
+ is a major vector of work AI competition
+ and we're going to see a lot more iterating around it.
+ On the anthropic front,
+ Claude announced a bunch of small but potentially exciting integrations.
+ New connectors for Claude include Adobe's creative cloud apps,
+ Affinity, Blender, Ableton, Autodesk and more.
+ Now, since the subject of our main episode today
+ is going to be a power ranking taking into consideration
+ all of these new moves among the major labs,
+ I did want to quickly mention this Wall Street Journal story
+ that got everyone on Wall Street all bothered yesterday.
+ The point that I wanted to make,
+ this was the story, of course,
+ that said that OpenAI had missed key revenue targets
+ as well as user growth targets,
+ which ripped a bunch of market cap off of OpenAI partners.
+ People following this closely understood that fundamentally
+ these numbers are just out of date
+ and don't reflect the world that we actually live in anymore.
+ Beth Jayzos wrote that the revenue slowdown
+ is literally all Claude eating their lunch.
+ In other words, a lagging indicator.
+ Cracked devs on X are leading indicators
+ and everyone I know switched to Codex.
+ Give it a month and it will be apparent in revenue numbers.
+ Dan McCattier writes,
+ The Wall Street Journal is living in the past with this report.
+ AI agents started to work at the end of 2025.
+ OpenAI has the compute capacity, they will need it.
+ The point that I wanted to make
+ is actually much broader than this one report.
+ I think for the next couple of months,
+ we're going to be in a really weird period
+ where you're going to see a bunch of research
+ and studies that come out
+ that are just unbelievably disconnected
+ from the reality of AI on the ground.
+ The structural shift in the industry
+ from the pre-agent to the agent period
+ means that data from that pre-agent period
+ just will not reflect the reality anymore.
+ I say this just as a caution
+ because it's going to take a little while
+ for research and data to catch up.
+ Maybe don't freak out and sell off your stocks
+ all at a Wall Street Journal report.
+ For now, though, that is going to do it
+ for today's AI Daily Brief Headlines.
+ Next up, the main episode.
+ One of the most important AI questions right now
+ isn't who's using AI, it's who's using it well.
+ KPMG and the University of Texas at Austin
+ just analyzed 1.4 million real workplace AI interactions
+ and found something surprising.
+ The highest impact users aren't better prompt engineers.
+ They treat AI like a reasoning partner.
+ They frame problems, guide thinking,
+ iterate, and push for better answers.
+ And the good news, these behaviors are teachable at scale.
+ If you're trying to move from AI access to real capability,
+ KPMG's research on sophisticated AI collaboration
+ is worth your time.
+ Learn more at kpmg.com slash us slash sophisticated.
+ That's kpmg.com slash us slash sophisticated.
+ If you're looking to adopt an agentic SDLC,
+ Blitzy is the key to unlocking unmatched engineering velocity.
+ Blitzy's differentiation starts with infinite code context.
+ Thousands of specialized agents ingest millions of lines
+ of your code in a single pass, mapping every dependency.
+ With a complete contextual understanding of your code base,
+ enterprises leverage Blitzy at the beginning of every sprint
+ to deliver over 80% of the work autonomously.
+ Enterprise grade end-to-end tested code
+ that leverages your existing services, components, and standards.
+ This isn't AI autocomplete.
+ This is spec and test-driven development
+ at the speed of compute.
+ Schedule a technical deep dive with our AI experts at Blitzy.com.
+ That's blitzy.com.
+ Today's episode is brought to you by Granola.
+ Granola is the AI notepad for people in back-to-back meetings.
+ You've probably heard people raving about Granola.
+ It's just one of those products that people love to talk about.
+ I myself have been using Granola for well over a year now
+ and honestly it's one of the tools that change the way I work.
+ Granola takes meeting notes for you
+ without any intrusive bots joining your calls.
+ During or after the call, you can chat with your notes,
+ ask Granola to pull out action items,
+ help you negotiate, write a follow-up email,
+ or even coach you using recipes which are pre-made prompts.
+ Once you try it on a first meeting, it's hard to go without.
+ Head to granola.ai.ai daily and use code AI Daily.
+ New users get 100% off for the first three months.
+ Again, that's granola.ai.ai daily.
+ This episode is brought to you by Mercury,
+ radically different banking now available for personal accounts.
+ I already use Mercury for my business,
+ so when they introduced personal accounts,
+ it made immediate sense for me.
+ I try to bring the same level of attention to my personal finances
+ that I bring to building companies
+ and most traditional banks just do not feel designed for that.
+ With Mercury Personal,
+ you can toggle between business and personal in a click.
+ You can set up sub-accounts for specific goals,
+ automate transfers so projects and savings fund themselves,
+ and put idle cash to work with high-yield savings,
+ all without friction.
+ It's built for people who care about how their money moves
+ and want tools that actually keep up.
+ Visit mercury.com slash personal to learn more.
+ Mercury is a fintech company, not an FDIC-insured bank.
+ Banking services provided through Choice Financial Group
+ and ColumnNA members FDIC.
+ Welcome back to the AI Daily Brief.
+ Last week, we got an absolute onslaught of new updates from OpenAI.
+ We got a new GPT images model, we got 5.5,
+ and we also got a bunch of updates to Codex,
+ all of which followed Opus 4.7 and updates to Claude Codex
+ in the weeks before that.
+ We are also just a couple weeks out from Google I.O.,
+ where many people anticipate we'll get a big
+ what some perceive as overdue update from Google around Gemini.
+ Point being, I had a suspicion that this week
+ would be a bit of an in-between week,
+ which relative to AI at least it has been,
+ to the extent that there is a story,
+ it is definitely the repositioning of relationships
+ between all of these different labs.
+ Zooming out and looking more broadly,
+ we're still in the middle of the transition
+ to the agentic era from the pre-agentic era.
+ As we could tell from Wall Street's response
+ to reports that last year OpenAI missed some revenue targets,
+ the broader market and world is still digesting
+ the fact that things have changed.
+ Yet of course, for those of us paying attention,
+ the shape of this new world is starting
+ to become a little bit clearer.
+ It's a world characterized by shortages of tokens and compute,
+ and of the business model shifts
+ that will have to happen to deal with those shortages.
+ It's a world where we're rapidly redesigning
+ not just workflows,
+ but entire conceptions of how work gets done
+ and updating interfaces
+ for a totally new category of agentic user.
+ In short, there is a lot changing right now,
+ and so as a way to help ground people,
+ we're diving into what is consistently
+ one of the biggest questions in AI,
+ which is lab competition.
+ For our purposes, I thought it would be fun
+ to break that lab competition
+ into a few broad-based categories,
+ try to give some weight into those categories,
+ and then see where things shake out
+ in terms of the competition.
+ To me, this is way less about trying to pick a winner
+ and more about the discussion
+ of what is important to labs right now
+ and where different labs have unique strengths
+ or critical weaknesses.
+ For you guys as listeners,
+ this might be useful
+ as you're trying to make decisions
+ about where to invest,
+ especially if you're helping make decisions
+ for an enterprise,
+ and even if that's not the case,
+ with my full scorecard,
+ I've now given you 72 different places
+ to either agree or disagree
+ and argue in the comments.
+ So what we're going to do
+ is we're going to talk
+ through the different categories in weighting.
+ I'll quickly go through the AI assessments,
+ i.e. how Gemini, Grock, Chat,
+ GPT, and Claude all rank things,
+ and then I'll discuss why I put things where I did.
+ So first up, let's talk methodology.
+ I divided the power rankings
+ into nine categories,
+ compute and infrastructure,
+ enterprise positioning,
+ platform and ecosystem control,
+ consumer positioning,
+ model leverage, momentum,
+ branded narrative,
+ wedge, and X factor.
+ Many of these are fairly self-explanatory,
+ the two that I'll highlight are wedge,
+ which is some really unique asset
+ or entry point
+ that others can't easily copy.
+ This can overlap a little bit
+ with platform and ecosystem control,
+ and what's interesting about it
+ is that when you look across all the different labs,
+ the wedges that they have are really different,
+ and you can see it flowing through
+ into their strategies.
+ Now, of course, X factor is just my catchall
+ for anything that doesn't fit
+ neatly into these categories,
+ but that I think should be included.
+ In terms of the weighting,
+ right now I put compute and infrastructure
+ as the biggest category,
+ and when I had the AIs do their assessments,
+ I asked them first to use this rating scale,
+ but then to make an argument
+ for what they would change
+ if they were in charge,
+ and a number of them suggested
+ that compute and infrastructure
+ should be even more than the 20 points
+ that it accounts for here.
+ A couple of the models also thought
+ that the momentum rating should be higher.
+ It accounts for 10 points out of 100
+ in this methodology,
+ and I can definitely see it being worth more,
+ although I was concerned with giving it
+ more points than that,
+ A, because the momentum can shift so quickly,
+ and B, because I think momentum
+ feels a little bit more significant
+ to those of us who are paying attention
+ on a daily basis,
+ than it does in general out
+ in the rest of the world.
+ Lastly, I don't think this will be
+ that controversial,
+ but right now this methodology
+ has enterprise positioning
+ is worth more than consumer positioning.
+ That won't necessarily always be the case,
+ but it's pretty clear
+ that locking in with business
+ is one of the two major vectors of competition
+ with the other one
+ being developer devotion right now.
+ So I think it justifies
+ consumer being just a little bit lower,
+ given that the token shortages
+ are also coming from work-based agents.
+ I think you could make an argument
+ for them being even farther apart
+ than the difference between
+ 15 and 10 points that they are currently.
+ Overall, the aggregation of the AIs
+ has Google at number one,
+ open AI at number two,
+ Microsoft at number three,
+ Anthropok at number four,
+ Amazon at number five,
+ Meta at number six,
+ XAI at number seven,
+ and Apple at number eight.
+ I was back and forth a little bit
+ on whether even to include Apple,
+ but at the end of the day,
+ they have a massive consumer base.
+ They're doing deals with Google, Gemini.
+ They may not be choosing
+ to fight the same battles
+ that the other labs are,
+ but they do have a stake in this race.
+ Now, as I mentioned,
+ all of the different models
+ put Google in the top slot,
+ which I think pretty simply comes down
+ to Google's full-stack strengths.
+ It's got a strong ecosystem,
+ it's got strong models,
+ it's got consumer and enterprise adoption,
+ and it's got compute and infrastructure.
+ There was, however,
+ more variety in the number two slot.
+ Quad had Anthropok at number two,
+ although it was just barely above open AI.
+ ChatGBT had open AI at number two,
+ despite suggesting that Anthropok
+ had the hottest model
+ and enterprise momentum stories.
+ And interestingly, both Grock
+ and Gemini put Microsoft
+ in the number two slot,
+ putting a lot of emphasis
+ on both their infrastructure
+ as well as their enterprise incumbency.
+ Now, you can see that, overall,
+ the AI scored things pretty highly.
+ Google's average score was 91.4 out of 100,
+ OpenAI's was 85.4,
+ Microsoft's was 84.9,
+ Anthropok's 83.1,
+ and Amazon at 80.4,
+ the top five were all above 80.
+ Compare that to my scores.
+ I only had three labs score above a 70,
+ Anthropok at the number three slot at 70,
+ and then OpenAI and Google tied at 74.
+ The rest of the labs I have clustered
+ between Apple on the low end at 58
+ and Amazon at number four, scoring a 64.
+ As Codex pointed out,
+ and you can probably tell that I built this with Codex
+ given all the rounded edges and boxes,
+ overall, I was much harsher than the AI.
+ Now, I'm not going to go through
+ every single category and score,
+ but I did want to highlight first
+ some of the key differences among the top three,
+ where I think I might be over or under counting things,
+ how I look at things a little bit differently
+ than I think the AI did,
+ and where we could see some big changes pretty quickly.
+ First of all, among the top three,
+ I put Google significantly higher at Compute at a 17
+ as compared to OpenAI's 12 and Anthropok's 10.
+ I think there's an argument that Anthropok
+ should even be lower,
+ or at least farther away from OpenAI,
+ and I did think it was important
+ to put some pretty significant space
+ between OpenAI and Google,
+ because although, yes,
+ OpenAI has been screwing around
+ for the last year to get compute deals,
+ being dependent on deals with others
+ that themselves require financing
+ is very different than owning a big chunk of that in-house.
+ When it came to Enterprise,
+ I think this is the one where Gemini partisans
+ are going to be most angry at me.
+ Out of 15, I gave Anthropok a 14,
+ OpenAI a 10, and Google an 8.
+ And let me explain why.
+ First of all, one of my beliefs overall,
+ with Enterprise,
+ is that incumbency right now in the Enterprise
+ is worth less than I think people think it is.
+ So for example, I gave Anthropok
+ the same score that I gave Microsoft,
+ both have a 14.
+ One could argue that that's totally insane,
+ given how much Enterprise dominance Microsoft has.
+ But I think that when it comes to AI,
+ Enterprises are treating this
+ as a much bigger transformation
+ than just picking a new software vendor.
+ And I sort of think that they're treating
+ the leading model labs,
+ specifically Anthropok and OpenAI,
+ much differently than they would have
+ treated even successful startups of the past.
+ Microsoft scores incredibly highly
+ for having distribution,
+ but at the end of the day,
+ it's serving these other companies models.
+ Some Enterprise buyers will be fine with that,
+ and in fact, they'll want more choice
+ than the individual labs can provide alone.
+ But I think a lot of them are showing
+ that they want to go direct to the source.
+ I think OpenAI's 10 is a little aspirational
+ Enterprise is clearly growing
+ in importance for them right now.
+ It's never not been a thing,
+ but compared to how historically important
+ it's been to Anthropok,
+ that's one where OpenAI
+ is definitely racing to catch up a bit.
+ Now, like I said,
+ the company that gets punished the most on this
+ is Google.
+ And I think Google's Enterprise relationship
+ has always been kind of a weird one,
+ even before AI.
+ On the one hand,
+ they have a ton of incredible tools,
+ companies that aren't locked
+ into the Microsoft ecosystem,
+ often by default,
+ find themselves working in the Google workspace.
+ We use Google Drive and Google Sheets and Gmail
+ and all these sorts of things.
+ But I think Google has struggled historically
+ to convert that to the highest levels.
+ Their attention is clearly fragmented
+ across their massive consumer empire as well,
+ and enterprises can tell that.
+ I think that has followed them into the AI realm,
+ and I think Gemini in the Enterprise
+ has been weaker than they'd like.
+ Now, they still have a bunch of structural advantages.
+ This is a number that could change very fast.
+ But for right now,
+ I think it's reasonable to place them
+ behind both OpenAI and Anthropok.
+ On the platform category,
+ what's interesting about this
+ is that they all have such different platforms
+ that they're working with.
+ Microsoft and Amazons are the most similar,
+ with Bedrock and Azure competing
+ in very similar enterprise safe,
+ don't have to choose a model type of space.
+ But when it comes to Anthropok,
+ OpenAI and Google,
+ the platforms that they're building
+ on top of are really different.
+ Google obviously has consumer,
+ but it also has its incredibly vast suite
+ of tools that people already use
+ that they can integrate AI into.
+ OpenAI has their vast consumer base to build on,
+ although interestingly,
+ they're obviously now trying to head
+ into similar space as Anthropok's
+ cloud code platform
+ with the increased emphasis on Codex.
+ On models,
+ I had OpenAI and Anthropok tied into nine.
+ My read right at this moment,
+ at least from my personal behaviors
+ and from what I'm observing,
+ is that people are shifting a lot of behavior
+ to GPT-55,
+ whereas the reception to Opus 47
+ has been much more mixed.
+ And so maybe you could argue
+ that OpenAI should be a point ahead here.
+ But given that we know Mythos
+ is there somewhere,
+ I thought it was better to keep it a tie
+ at least for right now.
+ Now, moving on to Momentum,
+ it's the category where Google
+ is hurting most right now.
+ They have just had a really hard time
+ breaking into the conversation in 2026,
+ despite the fact that they came into the year
+ with the best narrative positioning
+ that they've ever had.
+ The problem is just that this year
+ has been absolutely dominated
+ by agentic use cases
+ and use cases that are built
+ on top of the coding capabilities
+ of these models.
+ And basically,
+ no one is looking to Gemini for that
+ above GPT or Opus.
+ I gave them a 3 out of 10 on Momentum,
+ but this is certainly the area
+ that could pick up the fastest for them.
+ Again, Google I.O. is in just a couple of weeks
+ and that is their big Momentum moment.
+ I almost gave them a higher X factor
+ because of Google I.O.
+ The only reason I held back
+ was that we just got those reports
+ of the Sergey Brin led strike team
+ that is now working on coding models.
+ And I don't know if that is going to have time
+ to materialize before I.O.
+ And if it doesn't,
+ almost no matter what else Google puts out,
+ if they're not a real contender
+ on coding based use cases after I.O.,
+ I think they're going to continue to struggle
+ at least in the immediate term context.
+ Now, a couple other momentum scores worth noting.
+ I put Anthropic at an 8 and OpenAI at a 10.
+ If you look across the course of all of 2026,
+ Anthropic has certainly had the biggest momentum.
+ I mean, just look at the growth in ARR.
+ This jump ahead of OpenAI
+ reflects a very recent term shift
+ around 5.5 and the shifting over of behavior to Codex,
+ which is coming at a time when it can capitalize
+ on Anthropic struggling to keep up with its own demand.
+ I also gave Amazon a score of 6 on Momentum
+ because we're watching them use both their cache
+ and their compute to really throw around their weight.
+ And I think that they're fairly undercounted right now
+ relative to the others,
+ giving them more space to move.
+ Now, other scores among the other labs
+ that I wanted to point out.
+ Amazon, Microsoft, and XAI all got 5s on model.
+ The interesting thing is that Amazon and Microsoft's 5s
+ are very different than XAI's 5.
+ For Amazon and Microsoft, that 5
+ is about having access to all the models,
+ but not owning any of them.
+ Whereas for XAI,
+ it's having very competent,
+ but still behind the state of the art of its own models.
+ What that means, though,
+ is that when it comes to picking up ground,
+ I think XAI has a lot more room to rise
+ than either Amazon or Microsoft do.
+ Now, yes, Microsoft does have efforts
+ going into their own internal models,
+ as does theoretically Amazon,
+ although that's been much more quiet recently.
+ And maybe Mustafa Suleiman's efforts on that front
+ materialize and we have something really powerful
+ from Microsoft in a year's time.
+ XAI, we know,
+ has Elon very intently trying to build the best models
+ and so I think that makes their 5
+ a stronger 5 than Amazon and Microsoft's
+ even though it's technically the same score.
+ Two other things to point out with XAI
+ are one,
+ the fact that they score very highly on compute,
+ which is of course a leading indicator
+ for everything else,
+ and that they also have the highest X factor score
+ where I gave them an 8 out of 5
+ because simply put of Elon.
+ Whatever one thinks of Elon,
+ whether they love him or love them,
+ it has consistently been one of the best business truisms
+ of the last 20 years to not bet against him.
+ And so certainly of all these scores,
+ I think XAI has the most room to rise over
+ call it the next 6 to 12 months.
+ Meta is maybe the weirdest one of these.
+ They have some strengths in compute
+ and in their platform and in consumer,
+ they have some pretty unique wedges,
+ particularly around their Raybands.
+ But so far we just haven't seen
+ the outcomes of all of their restructuring
+ efforts over the last six months,
+ so right now they're still pretty behind.
+ So those are some of my highlights.
+ This is so subject to change
+ and if I was really doing this in a comprehensive way,
+ I feel like I'd have to update it
+ at least on a weekly basis.
+ Now, if you want to agree
+ or more importantly disagree,
+ this site will be at AIpowerrank.ai
+ and it'll also be linked to from
+ the AIdailybrief.ai website.
+ And you can go build your own scorecard
+ which will contribute to the community's rankings
+ and will also give you a scorecard
+ that you can share wherever you want.
+ And my last note as we close
+ is that while it's fun to think about
+ and compare these things,
+ when Push comes to shove,
+ I agree entirely with Miles Brundage
+ when he writes,
+ people rarely say it explicitly,
+ but there is a lot of implicit zero-sum
+ thinking around the AI race,
+ i.e. that only one of open AI,
+ Anthropic, Google, etc.
+ will succeed
+ and that one's growth
+ comes at the expense of the other.
+ Mostly though,
+ there is just a rapidly expanding pie.
+ I think that that is absolutely true
+ and to put it even more crisply
+ in the moment,
+ semi-analysis as Dylan Patel
+ was recently on Patrick O'Shaughnessy's
+ Invest Like the Best podcast
+ and made the point that
+ it doesn't really matter
+ who the leading lab is.
+ As he puts it,
+ it's pretty clear even the tier two
+ or tier three labs
+ are going to be sold out of tokens.
+ In other words,
+ he says,
+ the economic value that the best model
+ can deliver is growing faster
+ than our ability to actually serve
+ those tokens to people
+ via the infrastructure.
+ TLDR,
+ all the tokens that can do the
+ agendic things
+ are going to be used.
+ There is room for a lot of winners.
+ For now though,
+ go on over to aidailybrief.ai,
+ find a link to the power rankings,
+ build your own scorecards
+ and start the debate
+ and that's going to do it
+ for today's AI Daily Brief.
+ I appreciate you listening or watching.
+ As always,
+ and until next time,
+ peace.
