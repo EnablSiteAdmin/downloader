@@ -1,0 +1,755 @@
+ Today on the AI Daily Brief, the emergence of harness as a service, what it means for
+ the agentic era, and before that in the headlines, a big tech AI earnings blowout.
+ The AI Daily Brief is a daily podcast and video about the most important news and discussions
+ in AI.
+ Alright friends, quick announcements before we dive in.
+ First of all, thank you to today's sponsors, KPMG, Blitzy, Granola, and Section.
+ To get an ad-free version of the show, go to patreon.com.ai-dailybrief or you can subscribe
+ on Apple Podcasts.
+ If you want to learn more about sponsoring the show, send us a note at sponsors.ai-dailybrief.ai.
+ And lastly, if you haven't yet, go check out the new Agent OS program.
+ It's a tool agnostic, adaptable system for building an agentic operating system, and
+ I have a feeling after you listen to today's harness as a service episode that you will
+ want to dig in even more.
+ You can find that off of the main site, AIdailybrief.ai.
+ Today is one of those rare days where the headlines are all around the same theme.
+ And that theme is, of course, big tech earnings.
+ And to not bear the lead, let's go over to Shea Belour who writes,
+ Hard to take the AI bubble argument seriously when some of the largest companies on Earth
+ are still putting up these growth numbers.
+ Google Cloud, plus 63% year over year.
+ Microsoft Azure, plus 40% year over year.
+ Meta Revenue, plus 33% year over year.
+ AWS, plus 28% year over year.
+ We're gonna go through all of these and talk about the winners and losers and
+ what it means for the market's assessment of AI overall.
+ Google was the clear winner on big tech earnings night,
+ delivering huge beats across the board.
+ They reported 22% top line revenue growth, but as I just mentioned,
+ the big numbers were in their AI related businesses.
+ Google Cloud has experienced 63% revenue growth over the past year.
+ They also reported a $460 billion backlog in new orders,
+ up from 240 at the end of Q4.
+ Their new deal with Anthropic contributes a decent chunk of that growth,
+ but it still shows that GPU demand is off the charts.
+ Analyst Joseph Carlson posted the chart of Google's cloud backlog going
+ exponential and commented, this is so crazy it literally looks fake.
+ Gemini growth was similarly strong.
+ Google reported a 40% surge in paid enterprise customers quarter over
+ quarter, meaning maybe I'm going to have to eat my hat,
+ rating Google as low as I did on enterprise and the AI lab power rankings.
+ In addition, Google's infrastructure is now processing 16 billion tokens a minute,
+ up 60% quarter over quarter.
+ Even search, which is tangentially related to some of Google's AI changes,
+ is experiencing a boom with search revenue up 19% year over year.
+ Google is also maintaining very healthy profit margins,
+ hitting 62.6 billion a net income for an 81% year over year gain.
+ CEO Sundar Pachai told analysts that AI is now the largest tailwind for cloud,
+ commenting, our enterprise AI solutions have become our primary growth driver
+ for cloud for the first time in Q1.
+ He added though, we are compute constrained in the near term.
+ Our cloud revenue would have been higher if we were able to meet the demand.
+ CapEx targets, meanwhile, remained pretty anchored.
+ Google slid up their forecast slightly, increasing this year's guide from a range
+ of 175 to 185 billion to a range of 180 to 190 billion,
+ although right now they're not coming close to hitting that target.
+ They only recorded 35.7 billion in CapEx spending for Q1,
+ which annualizes out to 140 billion in change.
+ Now Google might be patting the back end of the year in expectation of rising costs,
+ but because this came in slightly below analysts forecast,
+ the market interpreted it as capital discipline.
+ Google was up 7% in overnight trading.
+ Chubby, meanwhile, argued that Google has cracked the AI monetization thesis.
+ While the absurdly high cloud growth was the loudest signal,
+ Chubby added, the real story is search.
+ Prevailing narrative was that AI would cannibalize Google's core business.
+ People get answers from chatbots stop Googling.
+ The opposite is happening.
+ Search ad revenue grew 19%, queries hit an all-time high.
+ Google turned the biggest existential threat to its business into a growth accelerator.
+ Amazon's earnings were also extremely solid, suggesting a return to form on cloud.
+ Top line revenue growth came in at 17% year over year with net profit up 77%.
+ Amazon attributed the growth in profit to pre-tax income from their
+ anthropic investment.
+ So this number could say more about anthropic than it does about Amazon.
+ AWS revenue was up 28% compared to last year,
+ with Amazon's dominant cloud unit coming out of a major slowdown
+ after achieving a low of 12% growth in 2023.
+ Growth has been accelerating every quarter since and is now back at a healthy level.
+ The number beat analysts forecast and would have been viewed very solid
+ if not for the direct comparison to Google Cloud's incredible 63%.
+ To the extent that there was an issue, it was in Amazon's costly AI buildout.
+ Amazon said they had added more server capacity than any other company in 2025
+ and planned to accelerate construction even more this year.
+ Their capital spending for Q1 was $43.2 billion,
+ putting them slightly behind their $200 billion dollar target pace for the full year,
+ but that remains a 60% jump from last year
+ and the largest overall number between the four Big Tech hyperscalers.
+ Amazon is now essentially spending every dollar they make on the AI buildout,
+ driving free cash flows for the quarter up from almost $26 billion this time last year,
+ down to $1.2 billion this quarter.
+ CEO Andy Jassy dismissed concerns,
+ stating the company would keep spending to keep up with demand.
+ He added that he was confident that additional spending would translate into strong profits
+ because most of the new supply is already spoken for.
+ And, of course, with OpenAI now partnered with AWS alongside Anthropik,
+ that is probably a fairly safe bet.
+ The Wall Street Journal called the AWS expansion prescient, writing,
+ the growing demand for chatbots and other AI-powered tools
+ is outpacing the supply of chips and storage, causing outages and surging prices.
+ Jassy also noted that Amazon's in-house chips have been well received,
+ commenting,
+ We have such demand right now for Tranium,
+ from various companies who will consume as much as we make.
+ I expect over time there's a good chance we're going to sell racks over the coming years.
+ We have to decide how much we're going to allocate to the existing demand
+ and how much we're going to save to sell as racks.
+ He commented that if their chips were a standalone business
+ and actually booking revenue from AWS,
+ they would be sitting at $50 billion in ARR.
+ Jassy boasted,
+ As best as we can tell,
+ our custom Silicon business is now one of the top three data center-ship businesses in the world,
+ and the speed at which we've gotten here is extraordinary.
+ Now, one of the big themes over the past year has been Amazon
+ reasserting their dominance as the largest cloud provider.
+ There's been far less emphasis on training their own models and releasing AI products.
+ Instead, they're forming strong strategic partnerships
+ and putting themselves in prime position as they pick and shovels AI infrastructure play.
+ Jassy reinforced that strategic pivot during the earnings call, commenting,
+ We're in the middle of some of the biggest inflections of our lifetime,
+ we're well-positioned to lead, and I'm very optimistic about what's ahead for our customers and for Amazon.
+ Still, the market had a bit of a lukewarm response.
+ The stock was down initially, but ended the overnight session up 2.6%.
+ Many attributed this, though, to the market already boosting Amazon
+ on news of the open AI deal earlier in the week.
+ The logic is that with the stock already elevated,
+ it would have taken a big upside surprise to push it even further.
+ Most of the commentary centered around AWS writing the ship
+ with a little help from the gigantic compute crunch.
+ Shabalore again wrote,
+ AWS is now a $152 billion ARR business growing 28% per year
+ that marks its fastest growth in nearly four years.
+ Wrote signal,
+ People underestimate how big of a deal it is that open AI models are now on bedrock.
+ I've met so many companies that defaulted to Anthropic and Cloud
+ because they were already on bedrock
+ and for a long time that was basically the path of least resistance.
+ This is huge for open AI model accessibility.
+ Moving on to Microsoft,
+ the company has been sort of in this middle space of the three big cloud giants.
+ They didn't commit to aggressive growth like Google,
+ instead opting for a more conservative AI CapEx strategy.
+ They also have scale and incumbency disadvantage when compared to AWS.
+ Most of what they did have was exclusive distribution rights
+ to open AI's models and that's now gone.
+ At the same time,
+ they're one of the few companies selling tokens during a token drought
+ and that counts for a whole lot.
+ The big story from earnings was 39% growth for Azure.
+ That was right in line with expectations
+ and just a 1% acceleration from the previous quarter.
+ Top line revenue was a slight beat
+ coming in at 82.9 billion for an 18% year-over-year gain.
+ In terms of forecasts,
+ CFO Amy Hood projected this growth rate
+ to continue at a steady pace,
+ anticipating Azure's 40% growth rate to continue for Q2.
+ CapEx guidance was lifted by 25 billion
+ to reach 190 billion for the year.
+ Hood attributed the entire increase
+ to higher component prices
+ rather than adding more data center projects.
+ On co-pilot, CEO Satya Nadella said that Microsoft now
+ has 20 million paid seats for the enterprise add-on
+ up from 15 million in January.
+ Microsoft expects that growth
+ to continue into the third quarter.
+ It appears that utilization is also up
+ with Nadella commenting,
+ weekly engagement is now at the same level as Outlook
+ as more and more users make co-pilot a habit.
+ Responding to questions about losing exclusive access
+ to OpenAI's models, Nadella downplayed concerns,
+ stating, we have a frontier model royalty-free
+ with all the IP rights that we will have access to
+ all the way to 32 and we fully plan to exploit it.
+ Over the past few months,
+ the market has lumped Microsoft in with software stocks
+ and included it in the SaaSpocalypse
+ with the stock down more than 10% so far this year.
+ Unfortunately for them, last night's earnings
+ didn't seem to do anything to change that viewpoint
+ with the stock whip sawing up and down
+ throughout the overnight session
+ but ending the night basically flat.
+ Ultimately nothing disastrous or spectacular
+ came out of the earnings call.
+ They continue to add GPUs to their fleet
+ at a tremendous pace
+ but a pace that feels conservative
+ compared to Google's numbers.
+ It's a big positive to see co-pilot growing
+ but the negative take is that 20 million
+ is still a drop in the ocean
+ compared to the roughly 320 million paid seats
+ for Office 365.
+ After earnings were released
+ but prior to the investor call,
+ Gene Munster of Deepwater Management wrote,
+ Microsoft is in a tight spot
+ because they can't shake the negative narrative.
+ Stock is down 1% on solid numbers.
+ This past month, Microsoft is up 17% in line with the NASDAQ.
+ My take, they need to make a statement on the call tonight
+ and make it easy for investors to believe
+ that they have AI-powered products beyond Azure
+ that customers must have.
+ Co-pilot has been a miss.
+ Nadella ultimately didn't deliver that big statement
+ and so the company continues to perform
+ like a perfectly average tech stock.
+ Not a bad place to be during the AI boom
+ but Microsoft is starting to fall behind their peers
+ who are making bigger moves.
+ Now on the meta front,
+ the past year has been all about rapidly expanding CAPEX.
+ Beginning in 2024, Mark Zuckerberg seemed to make the decision
+ that he would continue accelerating data center spending
+ regardless of investor concerns.
+ Meta now find themselves with the largest market cap
+ adjusted CAPEX commitments among the tech giants.
+ Over the past few quarters,
+ the narrative was that revenue growth
+ was accelerating fast enough to justify the AI spend
+ and that Zuckerberg had earned the right to spend big
+ on data centers by delivering solid returns.
+ Analysts were linking increasing advertising revenue
+ directly to AI optimizations and MetaZad platform.
+ Heading into Wednesday night's earnings,
+ the balance between revenue growth
+ and CAPEX remained the central question.
+ The financial reports showed
+ that Meta had delivered another record quarter.
+ Quarterly revenue came in at 56.3 billion,
+ up 33% over the past year.
+ Both total revenue and net income beat analysts forecast
+ by a fairly significant margin.
+ On the other side of the ledger,
+ Meta hiked capital expenses once again.
+ They increased this year's forecast
+ from 135 billion to 145 billion.
+ Notably, this wasn't because Meta
+ was tacking on another data center or two.
+ The CAPEX hike was instead attributed
+ to expectations for higher component pricing
+ and additional data center costs.
+ Meta also disclosed a quarter over quarter decrease
+ in daily active people,
+ which is Meta's in-house metric for user activity.
+ The decline was small and Meta blamed internet disruptions
+ in Iran alongside a restriction on WhatsApp in Russia.
+ Still, it's the first time that Meta's user metrics
+ have decreased since they first began reporting it in 2019.
+ Advocating for his data center build out,
+ Mark Zuckerberg told investors,
+ every sign that we're seeing in our own work
+ and across the industry gives us confidence in this investment.
+ That said, we are very focused
+ on increasing the efficiency of our investments.
+ Meta CFO Susan Lee noted that Meta is suffering
+ from the same compute shortage as everyone else,
+ even though most of their AI compute is deployed
+ towards internal and infrastructure use
+ rather than customer use.
+ Lee said, our experience so far has been
+ that we have underestimated our compute needs
+ even as we have been ramping capacity significantly.
+ So our expectation is that compute
+ will become even more central
+ to the business going forward.
+ In any other year,
+ this would have been a blowout earnings result.
+ A 33% revenue growth rate
+ is the highest they've achieved since 2021
+ and up substantially from 23.8% for the previous quarter.
+ And yet, Meta was the biggest loser
+ from the big tech earnings.
+ The market still hates their capex bend
+ and sent the stock plummeting
+ by 5% in overnight trading.
+ Jim Kramer summed up the market opinion when he said,
+ Meta did not offer enough reasons
+ to spend the way that other companies did.
+ They just told us that they could do better with it,
+ hence the decline tonight.
+ If there is one big takeaway from tech earnings,
+ it's that the AI boom is in full effect.
+ Everything from memory chip foundries
+ to data center construction is running at 100%
+ in a frankly vain attempt
+ to keep up with the endless demand for tokens.
+ This is categorically different to last year
+ when many analysts still had questions
+ and AI optimists were betting on a forthcoming boom.
+ That boom is now clearly here
+ and it's showing up in big tech's growth numbers.
+ There are still of course reasonable questions
+ around business models and profitability
+ as well as who the biggest winners will be.
+ But AI demand is unquestionable at this point
+ and appears to still be accelerating.
+ For now though, that's gonna do it for today's headlines.
+ Next up, the main episode.
+ One of the most important AI questions right now
+ isn't who's using AI, it's who's using it well.
+ KPMG and the University of Texas at Austin
+ just analyzed 1.4 million real workplace AI interactions
+ and found something surprising.
+ The highest impact users aren't better prompt engineers.
+ They treat AI like a reasoning partner.
+ They frame problems, guide thinking,
+ iterate and push for better answers.
+ And the good news, these behaviors are teachable at scale.
+ If you're trying to move from AI access to real capability,
+ KPMG's research on sophisticated AI collaboration
+ is worth your time.
+ Learn more at kpmg.com slash us slash sophisticated.
+ That's kpmg.com slash us slash sophisticated.
+ Want to accelerate enterprise software development velocity
+ by 5x?
+ You need Blitzy, the only autonomous software development
+ platform built for enterprise code bases.
+ Your engineers define the project,
+ a new feature, refactor or greenfield build.
+ Blitzy agents first ingest and map your entire code base,
+ then the platform generates a bespoke agent action plan
+ for your team to review and approve.
+ Once approved, Blitzy gets to work autonomously
+ generating hundreds of thousands of lines
+ of validated end-to-end tested code.
+ More than 80% of the work completed in a single run.
+ Blitzy is not generating code,
+ it's developing software at the speed of compute.
+ Your engineers review, refine and ship.
+ This is how Fortune 500 companies
+ are compressing multi-month projects into a single sprint,
+ accelerating engineering velocity by 5x.
+ Experience Blitzy firsthand at blitzy.com.
+ That's blitzy.com.
+ Today's episode is brought to you by Granola.
+ Granola is the AI notepad
+ for people in back-to-back meetings.
+ You've probably heard people raving about Granola,
+ it's just one of those products
+ that people love to talk about.
+ I myself have been using Granola for well over a year now
+ and honestly, it's one of the tools
+ that change the way I work.
+ Granola takes meeting notes for you
+ without any intrusive bots joining your calls.
+ During or after the call, you can chat with your notes,
+ ask Granola to pull out action items,
+ help you negotiate, write a follow-up email,
+ or even coach you using recipes which are pre-made prompts.
+ Once you try it on a first meeting,
+ it's hard to go without.
+ Head to granola.ai slash ai-daily and use code ai-daily,
+ new users get 100% off for the first three months.
+ Again, that's granola.ai slash ai-daily.
+ Here's a harsh truth.
+ Your company is probably spending thousands
+ or millions of dollars on AI tools
+ that are being massively underutilized.
+ Half of companies have AI tools,
+ but only 12% use them for business value.
+ Most employees are still using AI
+ to summarize meeting notes.
+ If you're the one responsible
+ for AI adoption at your company, you need Section.
+ Section is a platform that helps you manage AI
+ transformation across your entire organization.
+ It coaches employees on real use cases,
+ tracks who's using AI for business impact,
+ and shows you exactly where AI is
+ and isn't creating value.
+ The result, you go from rolling out tools
+ to driving measurable AI value.
+ Your employees move from meeting summaries
+ to solving actual business problems,
+ and you can prove the ROI.
+ Stop guessing if your AI investment is working.
+ Check out Section at sectionai.com,
+ that's S-E-C-T-I-O-N-A-I dot com.
+ Welcome back to the AI Daily Brief.
+ Nominally, our topic today is Cursor's New Cursor SDK.
+ It's a platform where, as Cursor's Lee Robinson put it,
+ you can build local hackable agents with any model
+ or ship products on top of managed cloud agents.
+ The Cursor SDK handles the harness,
+ sandboxing, computer use, demo videos,
+ GitHub integration, et cetera.
+ We're gonna talk about the Cursor SDK,
+ what it does, what people are starting to build with it,
+ but I wanna make an argument
+ that it's actually part of a broader phenomenon.
+ In the past few weeks alone,
+ we've seen open AI make a big update
+ to their agents SDK.
+ We've seen anthropic-released cloud-managed agents.
+ Microsoft released Hosted Agents in Foundry
+ with CEO Satya Nadella writing,
+ every agent will need its own computer
+ and with new Hosted Agents in Foundry,
+ every agent gets its own dedicated enterprise-grade
+ sandbox with a durable state, built-in identity
+ and governance and support for any harness or framework.
+ Cursor SDK is not the same as all these products,
+ but they are all playing around in similar space.
+ And for the sake of simplicity,
+ I'm going to propose a new name for this category,
+ Harness as a Service,
+ a new infrastructure category
+ where companies sell access to their agent runtime,
+ which is the engine that turns an LLM
+ into something that can actually do work,
+ the same way AWS sells access to compute
+ and Stripe sells access to payment rails.
+ So before we can go to the next level in explaining this,
+ let's take a step back and redefine harness itself.
+ You might have watched or listened to my show
+ about harness engineering a couple of weeks ago.
+ It's a term that has been on the rise all year.
+ Akshay on Twitter actually did a nice little summary.
+ He argued that the agent landscape
+ has evolved in three phases,
+ writing that the biggest shift in AI agents
+ had nothing to do with making models smarter,
+ but was instead about making the environment
+ around them smarter.
+ In phase one, the weights phase, he writes,
+ everything was about the model itself,
+ bigger models, more data, better training.
+ Scaling laws told us that progress equals more parameters.
+ RLHF and fine-tuning shaped behavior
+ and if you wanted a better agent,
+ you trained a better model.
+ In phase two, the context phase,
+ however, there was a new realization.
+ You don't always need to change the model.
+ You can change what the model sees.
+ That got us prompt engineering,
+ few shot examples, chain of thought, rag.
+ Suddenly, he writes the same frozen model
+ could behave completely differently
+ based on what you put in front of it.
+ Developers stopped fine-tuning and started iterating
+ on prompts and retrieval pipelines instead,
+ but he continues context windows are finite,
+ long prompts get noisy, models attend unevenly
+ and every new session starts fresh
+ with zero memory of what happened before,
+ which gets us to the third phase,
+ the harness engineering phase.
+ Akshay writes, this is where we are now
+ and the shift is fundamental.
+ The question changed from what should we tell the model
+ to what environment should the model operate in?
+ The model is no longer the sole location of intelligence.
+ It's inside a harness that includes persistent memory,
+ reusable skills, standardized protocols like MCP and A2A,
+ execution sandboxes, approval gates
+ and observability layers.
+ The model stays the same.
+ What changes is the task it's being asked to solve.
+ One concrete example he gives is a coding agent
+ asked to implement a feature,
+ run tests and open a PR.
+ Without a harness he writes,
+ the model must keep repo structure,
+ project conventions, workflow state
+ and tool interactions all inside a fragile prompt.
+ With the harness, persistent memory supplies context,
+ skill files and code conventions,
+ protocolized interfaces and force correct schemas
+ and the runtime, sequences, steps and handles failures.
+ Same model, completely different reliability.
+ Importantly, he writes, each phase
+ didn't replace the previous one it layered on top,
+ weights still matter, context engineering still matters
+ but the center of gravity has moved outward.
+ Now I think intuitively people have experienced this
+ to some extent.
+ This agent explosion that we've experienced in 2026
+ was not just the byproduct of Opus 4.5 and GPT-5.2
+ although those model updates were integral to it.
+ It was the combination of those models with their harnesses.
+ Claude Code, which was the default harness
+ for agent builders throughout 2025
+ and more recently of course, OpenAI's Codex.
+ The conversation has matured to the point
+ where in a recent interview with Ben Thompson,
+ Sam Altman was asked, how important is the harness,
+ the runtime around the model, the tools, the state
+ to making agents actually work?
+ Sam said, hard to overstate how critical it is.
+ I no longer think of the harness and the model
+ as these entirely separable things.
+ Like my experience of using these,
+ I am very aware of the fact that I don't always know
+ when I fire something off in Codex
+ and it does an amazing thing for me.
+ I don't know how much credit Ben Thompson fills in
+ was that the model is amazing or the harness is amazing
+ to which Altman responds, yeah, exactly.
+ So we now have these two very different vectors
+ of increasing AI capability.
+ There's the underlying models and the changes there
+ but then there's also improvements
+ in the harness that surround them.
+ Of course, another part of what has made this year
+ feel so different and what has empowered
+ so many different people is that we got an open harness,
+ even though that's weren't what most people
+ were calling it at the time,
+ that actually allowed us to build the structure
+ around agents to have them do the things
+ that we'd always imagined agents being able to do.
+ I'm talking of course about Open Claw.
+ And yet Open Claw was not plug and play.
+ You had to do everything from picking the model
+ to write the system prompt to define the tool
+ to wire the agent loop by either part
+ that decides what to do next,
+ that dispatches tools, handles results,
+ decides when to stop, you had to manage context,
+ you had to handle errors.
+ The user building their Open Claw
+ had to orchestrate sub agents when they needed parallel work.
+ They had to figure out how to store state between runs.
+ They had to figure out where to deploy it,
+ how to monitor it and if something broke, you fixed it.
+ If you wanted a new capability, you built it.
+ Every layer of the stack was yours
+ to assemble, configure and maintain.
+ I don't think it's a totally inappropriate analogy
+ to look at this almost like the hobbyist era of computing.
+ In a recent post on LinkedIn,
+ Anders Carlson wrote about the forgotten era in computing.
+ In the post, Anders talks about
+ how they started with a computer in their school,
+ a little mini computer called an alpha LSI,
+ but quickly decided that they wanted a computer
+ for their self.
+ They continue, CompuKit UK 101.
+ This was a kit in the true sense of the word,
+ not just a pre-produced circuit board that you put
+ in a case, but an unpopulated circuit board,
+ some chips and other components
+ and a very rudimentary assembly manual.
+ You needed a soldering iron, some basic tools
+ and a ton of patience to build this thing.
+ This might be hard to grasp
+ for people using computers these days,
+ but for a few years in the 1970s,
+ just after Ed Roberts had released the Altair 8800
+ and before the Apple II
+ and that generation of computers came around,
+ there was a short era of these truly hobbyist computing.
+ In other words, there was this period, believe it or not,
+ where the way that a lot of people
+ were interacting with computers
+ was having to build and assemble them themselves.
+ You got a kit in the mail and you had to put it together.
+ Now, obviously this period didn't last long
+ and the number of people who were willing to do this
+ was pretty small.
+ It was the opportunity that companies like Apple
+ with their Apple II seized upon
+ in order to truly get us into the PC era of today.
+ Now, at this point, you might be already following
+ the analogy that I'm about to make,
+ but effectively the open claw era of harnesses,
+ you know, in the ancient days, two and a half months ago,
+ was an era where there were no pre-built harnesses
+ you could rent.
+ You could either use the basic harness
+ plus model integration of Codex and Claude code
+ or you could customize everything in open claw.
+ What we're getting now,
+ with what I'm calling harness as a service
+ is structurally different.
+ With these tools, the agent loop is pre-built.
+ The tool dispatch is pre-built.
+ Sandboxing is pre-built.
+ Streaming, error handling, context compression,
+ all pre-built and tuned by teams whose full-time job
+ is making those layers excellent.
+ You bring three things.
+ Which model you want,
+ what tools the agent has access to
+ and what task you're handing it.
+ Everything underneath is handled.
+ This is obviously not a shift in scale,
+ but a shift in kind.
+ And just like the PC era didn't destroy
+ or undermine all those hobbyists
+ who liked having control over all the components,
+ it was an incredible democratizing force
+ that made it possible for people
+ who never would have built their own PC
+ to actually use a computer.
+ The productivity revolution of the 1990s happened
+ because users got Dell desktops,
+ not because more people learned to assemble motherboards.
+ That is the promise of this new harness as a service phase.
+ Now, the analogy isn't perfect
+ because the actual democratizing force
+ when it comes to agents
+ won't really, for most people,
+ be building their own agents.
+ It'll be using some set of prefabbed agents as a service
+ that they have a very small number of knobs to customize
+ and the applications that are powered by agents
+ that are more customer facing.
+ What's weird and interesting and different
+ is that while on the surface of it,
+ tools like managed agents and the Cursor SDK
+ seem like they're only for developers.
+ Because we now live in the world
+ where agents handle the coding
+ and can support you around the infrastructure build,
+ the audience of people who can build
+ with something like the Cursor SDK
+ has expanded dramatically.
+ We've got this entire new category of builders
+ of whom I'm an example,
+ who are not developers,
+ but for whom something like the Cursor SDK will matter.
+ Let's give an example of something
+ that someone built with this.
+ Jack Driscoll showed off a demo
+ after building with the SDK for a few days on pre-release.
+ The agent is effectively a Cursor agent
+ embedded directly into Gmail.
+ From within his Gmail inbox,
+ he can share an email into chat,
+ have that agent read the email thread into context,
+ go off and do something,
+ i.e. edit some code, fix a problem, et cetera,
+ and stream the results right back into the chat window.
+ When someone asked why this is different
+ from just building with any other SDK,
+ Driscoll commented,
+ the biggest difference in my opinion
+ is that Cursor SDK isn't just call an LLM with tools.
+ It's exposing the same coding agent runtime Cursor
+ already uses, repo context, edit, search,
+ terminal workflow, streaming status, model choice,
+ and local hosted execution.
+ For this demo, Gmail and chat
+ is just the intake and collaboration layer.
+ Cursor SDK is the part that can actually go
+ operate on a code base like a Cursor agent would.
+ In short, the harness.
+ In other words,
+ Jack has taken advantage of this new harness as a service
+ to build exactly the agent wants
+ in exactly the environment he wants
+ doing the exact thing he wants.
+ Now, what's interesting is alongside this announcement,
+ we're seeing how much harnesses
+ can change the performance of the underlying models.
+ A new report from Endor Labs found that GPT55
+ operating within Cursor's harness
+ set a new record on their security correctness benchmark.
+ Benchmark test code for both functionality and security.
+ The Cursor plus GPT55 combination
+ achieved a score of 23.5% on the security section,
+ which narrowly beat out the previous leader,
+ which was Cursor and Opus 47 with a score of 22.9%.
+ Both of these scores were a few percentage points higher
+ than Opus 47 in its native cloud code harness
+ and GPT55 in its native codex harness.
+ The functionality test was arguably even more stark.
+ Opus jumped by almost four percentage points
+ from 87.2 to 91.1% by switching to Cursor
+ while GPT5.5 went from 61.5% to 87.2%
+ by switching to Cursor.
+ Endor Labs wrote, the key takeaway,
+ same model, same week, two harnesses,
+ two different functional results.
+ Alex Voltov from the Thursday AI podcast
+ confirmed that he found similar results
+ with an entirely different setup.
+ Testing the models on coding benchmark Wolfbench AI,
+ he found that Cursor's harness
+ had the strongest performance for GPT55
+ and was on par with Claude Code
+ when running Opus 47.
+ With the SDK just launching yesterday,
+ we're already seeing a ton of people
+ building MVPs for agentic products with a new platform.
+ Teas Havary built a bug catching agent
+ that can work on his production code base
+ and can see how the app is performing
+ on its own browser window.
+ This kind of agent could be a big step
+ to figuring out how to create
+ fully autonomous coding agents,
+ given that human code verification
+ is currently a massive bottleneck.
+ Havary wrote, it's mainly about
+ closing the feedback loop.
+ Right now agents write code and hope it works.
+ They can run tests, but tests don't catch everything,
+ especially UI behavior, integration issues,
+ or flows that depend on real browser state.
+ He explained that being able to actually see the app
+ is a huge change, allowing for faster iteration,
+ more confident agent handoffs,
+ and far less verification work for humans.
+ Robert Bushery used the SDK to embed
+ a cursor agent in a Chrome plugin.
+ The tool is designed for IT triage,
+ helping non-technical users dump code
+ from the browser into a ticket
+ instead of just describing the bug
+ and hoping for the best.
+ Obviously these use cases are just scratching the surface,
+ but they demonstrate the power and potential
+ of freeing cursor agents from their IDE container
+ while retaining their runtime environment.
+ Basically an entirely new universe of agentic apps
+ just opened up now that developers
+ don't need to start from scratch.
+ Now what's very clear when you watch the space closely
+ is that we are going to see massive amounts of iteration
+ and exploration around harnesses.
+ What's interesting to me about harness as a service
+ is the extent to which those innovations
+ don't just end up producing better harnesses
+ that are embedded in the tools we use,
+ but actually allow people to build
+ whatever it is that they wanna build
+ leveraging those harness innovations
+ at a more fundamental level.
+ If you wanna check this out for yourself,
+ but you are not a developer,
+ what I would suggest is go to the cursor announcement,
+ click on the link to their GitHub cookbook,
+ drop it into either Claude or ChatGBT,
+ especially if it's got context
+ about your particular projects
+ and ask it to give you some ideas
+ for how this new harness as a service product
+ could change the way that you build
+ or think about something.
+ Then of course when you realize
+ that it unlocked something
+ that you've been wanting to do forever,
+ I give you full permission to call in sick on Friday
+ and just dive all the way in.
+ For now that's gonna do it for today's AI Daily Brief,
+ appreciate you listening or watching as always
+ and until next time, peace.
