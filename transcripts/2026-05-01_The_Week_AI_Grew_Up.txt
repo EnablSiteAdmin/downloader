@@ -1,0 +1,965 @@
+ Today on the AI Daily Brief, the weak AI grew up.
+ The AI Daily Brief is a daily podcast and video about the most important news and discussions
+ in AI.
+ Alright friends, quick announcements before we dive in.
+ First of all, thank you to today's sponsors, KPMG, Granola, Robots and Pencils in section.
+ To get an ad-free version of the show, go to patreon.com slash ai-daily-brief or
+ you can subscribe on Apple Podcasts.
+ If you want to learn more about sponsoring the show, send us a note at sponsorsataidailybrief.ai.
+ And of course, while you're hanging out at aidailybrief.ai, you can find out about everything
+ going on in the ecosystem.
+ You can find a link to the companion experiences.
+ This week, we had one for the AI subsidy era show, as well as one for the AI power rankings.
+ Or you can find links to our free education programs like Agent OS,
+ where 3,500 or more of you are doing this now.
+ And I'm starting to see people posting what they're building on social, which is very cool.
+ In fact, if you want a preview of all the different types of training things we have
+ coming up, you can go to aidbetraining.com.
+ I'll be talking more about that in the future.
+ I wanted to share an experiment that I'm going to be doing sometimes.
+ This show is obviously meant to cater to the most engaged and enfranchised AI users.
+ If you're paying attention on a daily basis, you're in the top 1%, I would say,
+ of people who are using these tools.
+ However, there are lots of other folks out there who would like to be in the top 1%
+ of AI users but just don't have the time between their job,
+ their life, their responsibilities, whatever it is.
+ One of the obvious gaps for the AI Daily Brief is some sort of weekly recap.
+ And the reason that I haven't done it in the past is that I don't want to be repetitive
+ for the daily listeners.
+ But here's the experiment.
+ I'm not going to commit to an every week weekly recap,
+ but I am going to experiment with sometimes using Saturday for that,
+ and sometimes when there's not all that much new news,
+ which if that ever happens, it is 100% on the Friday show,
+ never any other day.
+ I will sometimes use that slot for a weekly exploration.
+ What that weekly exploration will not be is just a regurgitation
+ or a summary of the top five stories from the week or something like that.
+ Instead, what it'll be is an exploration of what I think
+ is the most important theme of the week,
+ the meta story that the individual stories are all adding up to,
+ the whole greater than the sum of the parts.
+ And this week for me, it was absolutely the idea that we are entering
+ a different phase of the AI era.
+ And across everything from business model to market reaction to new products,
+ I think you can see this theme woven throughout.
+ And by the way, if you're wondering what the heck this MS Paint looking thing is,
+ this is apparently a huge viral GPT image to prompt right now.
+ The prompt that everyone is using is actually to copy an existing image,
+ redraw the attached image in the most clumsy,
+ scribbly and utterly pathetic way possible,
+ use a white background and make it look like it was drawn in MS Paint with a mouse.
+ It should be vaguely similar, but also not really kind of matching,
+ but also often a confusing, awkward way with that low quality pixel by pixel feel
+ that really emphasizes how ridiculously bad it is.
+ Actually, you know what, whatever, just draw it however you want.
+ This is all over threads and a bunch of Asian channels right now,
+ and is now coming to X as well.
+ Hilariously the exact opposite of the maturity that I'm going to talk about,
+ showing up across the dimensions of AI.
+ To get into the meat of this though,
+ the first area of this growing up is a recognition of the demand crunch
+ that we're experiencing and a consequent shift in business models.
+ Now the business model implications are the most significant,
+ but the recognition of demand is what's driving it.
+ Right Zoguzerken?
+ What AI bubble?
+ GPU rental prices are up 40% over the last six months.
+ This isn't air, it's driven by real token demand.
+ The top two AI labs now generate almost 60 billion aggregate annual revenue.
+ The market is concentrated as the top companies have become so big,
+ but this isn't because of hefty valuations,
+ it's just the insane strength of their fundamentals.
+ Patrick O'Shaughnessy this week had Dylan Patel from semi-analysis
+ on his podcast and said,
+ every conversation I have with Dylan
+ I'm really just trying to understand the supply and demand of tokens.
+ And what Dylan pointed out on that show
+ is that the analysis of who is in first or second place
+ when it comes to these models
+ is almost wholly irrelevant to the world we're actually living in.
+ As Dylan put it,
+ it's pretty clear that even the tier two or tier three lab
+ are going to be sold out of tokens.
+ And by the way this showed up in the earnings call as well.
+ Andy Jassy discussing Tranium said,
+ we have such demand right now for Tranium.
+ From various companies who will consume as much as we make,
+ I expect over time there's a good chance
+ we're going to sell racks over the coming years.
+ We have to decide how much we're going to allocate
+ to the existing demand
+ and how much we're going to save to sell as racks.
+ The way that OpenAI CFO Sarah Friar put it
+ is calling it a vertical wall of demand
+ with compute being the bottleneck.
+ TLDR in the world of agents
+ and seemingly infinitely replicable intelligence,
+ every token that someone can produce will be sold.
+ At least for now,
+ based on the physical constraints of how many tokens
+ can be produced and supported with the compute we have.
+ And as the entire space digests
+ and gets used to this reality,
+ there is another part of the reality coming with it,
+ which is a shift in the business model.
+ To be clear, this may stink
+ and it may have implications that are sad.
+ One of the things that's really important right now
+ is people messing around and experimenting with things
+ and obviously the more we have to be cost-conscious
+ and have to be really considered
+ in what we spend our limited tokens on,
+ the less room for that sort of experimentation there is.
+ But the simple reality is that in a world
+ where the demand for tokens greatly exceeds the supply of tokens,
+ you're not going to continue to see flat price seat-based models
+ that end up for some subset of users
+ significantly subsidizing their consumption.
+ Now the specific company that shifted their pricing this week
+ was of course GitHub.
+ In their post announcing co-pilots move to usage-based billing,
+ Chief Product Officer Mario Rodriguez said,
+ A quick chat question in a multi-hour autonomous coding session
+ can cost the user the same amount.
+ GitHub has absorbed much of the escalating inference cost
+ behind that usage,
+ but the current premium request model is no longer sustainable.
+ During Microsoft's earnings call, Satya Nadella said,
+ Any per user business of ours,
+ whether it's productivity or coding or security,
+ will become a per user and usage business.
+ That's obviously already happening
+ with GitHub co-pilot coding
+ with some of the business model changes we made this quarter,
+ but it also speaks to the intensity of usage.
+ Over in Claude Land,
+ it seems like they're doing almost everything
+ they can to not just bite the bullet
+ and finally switch to a purely usage-based model,
+ and I think that that's obviously driving a lot of the decisions
+ they're making around how third-party products
+ like Open Claw use their models,
+ and to really just put a cherry on the scarcity Sunday,
+ it is now impossible to buy a Mac Mini from Apple
+ and will be for at least several months.
+ Tim Cook even discussed it on this week's earnings call.
+ In other words, we're even sold out of devices
+ through which the tokens flow.
+ The net effect of this is what I talked about
+ in a show earlier this week,
+ of the end of the AI subsidy era.
+ Companies are going to have to get more sophisticated
+ and disciplined about how they set up their systems
+ to use the premium models for when they really need it,
+ but lower price models for when they don't.
+ Luckily, as we'll see in a little bit,
+ there's a lot of development around harnesses
+ right now that can help with that.
+ But my point is TLDR,
+ as much as it stinks in many ways,
+ that the business model of serving tokens
+ is going to have to change,
+ ultimately, we actually want business models
+ that don't just drive companies into the ground.
+ Now, there was another dimension
+ of this growing up in token demand
+ that showed up in another part of the equation,
+ which was in markets.
+ This was, of course, big tech earnings week,
+ and it is impossible to look at it
+ and not see AI showing up on the bottom line.
+ AWS was up 28% year-over-year,
+ which is its best performance
+ since it climbed out of a trough in 2021,
+ Microsoft Azure is up 40% year-over-year,
+ and Google Cloud absolutely spanked
+ analysts' estimates growing 63% year-over-year.
+ This resulted in Google having the second biggest
+ one-day jump in market cap history ever.
+ Now nipping on the heels of Nvidia
+ for the title of biggest company in the world,
+ which you might remember was one of my 2026 predictions.
+ The Google Cloud backlog is basically exponential
+ at this point, with analyst Joseph Carlson saying
+ this is so crazy it literally looks fake.
+ And frankly, it seems like as this AI subsidy era ends,
+ Google is in a really position to capitalize.
+ Right signal, we use Gemini heavily
+ because the cost to quality ratio
+ has been absurd for a lot of tasks.
+ Our stack is model agnostic
+ and every model can be swapped out,
+ including the system prompts,
+ but for many workloads, Gemini is just the obvious choice.
+ You have to think that even in the context
+ of companies trying to bring capital discipline
+ to their token allocations
+ by moving some processes to cheaper models,
+ they're still going to be fairly big concerns
+ around just jumping to Chinese open weight models
+ from any enterprises.
+ And of the major model labs,
+ Google has the best and most mature set
+ of cheaper models that companies can turn to.
+ Now the grow up and recognition
+ of just how significant AI has become
+ and the shift out of just the pure startup era of AI
+ into this is critical global economic infrastructure era
+ is being played out in private markets as well.
+ Bloomberg reported on Wednesday
+ that Anthropoc has begun talks
+ to raise it more than 900 billion.
+ If completed, that would put them beyond
+ open AI's last valuation of 825 billion
+ from their round that was announced in March.
+ By Thursday, TechCrunch had the scoop.
+ Sources said investors have just 48 hours
+ to submit their allocation requests
+ with Anthropoc expecting to raise 50 billion.
+ Now already sources suggest
+ that Anthropoc stock is trading higher
+ on secondary markets than open AI.
+ That's a flippening that's happened.
+ We've even heard reports that in secondary markets
+ some Anthropoc shares have traded
+ at as high as a trillion dollar valuation.
+ The logic simply put is not about
+ the exact right multiple on Anthropoc's revenue.
+ It's about a belief that there's about
+ a half dozen companies
+ that are writing the story of the future.
+ And there's basically no way that
+ they're not going to be more valuable
+ in the future than they are today.
+ Now the last part of this grow up story
+ that involves the big techies I think
+ is the sort of breakup between Microsoft and open AI.
+ This has been a long time coming
+ but they've finally updated their deal.
+ Microsoft got a bunch that they want,
+ including free not rev share access
+ to open AI's models for another half decade
+ plus the removal of the weird AGI clause
+ that could see their access to open AI's models
+ turned off on a whim.
+ But open AI is now free to go off
+ and do deals with whoever they want.
+ Meaning they can sell their models
+ through AWS and through Google Cloud as well.
+ I already quoted him earlier this week
+ but I think Rezo had the right of it
+ when he wrote that this is simply a factor
+ of open AI having grown too big
+ for any single cloud to fully serve.
+ That's what I mean when I say
+ it's part of this grow up story.
+ Now moving on to another dimension
+ of the recognition of the shift in phase
+ between a previous earlier startup-esque AI era
+ and what we have now
+ where AI is increasingly seen as
+ and truly is critical infrastructure.
+ At the beginning of the week
+ Axios reported that the White House
+ was working on a plan
+ to unwind Anthropics supply chain risk designation
+ and start deploying Anthropics models
+ to the government again.
+ That would include mythos deployment
+ in government agencies.
+ White House discussions
+ included game planning
+ and executive order
+ around the safe deployment of mythos
+ although it was unclear
+ if that was just for the executive branch
+ or generally applicable to Anthropics rollout.
+ An anonymous source said
+ that the White House move is an attempt
+ to save face and bring Anthropics back in.
+ Yet by the end of the week
+ the story was a little bit different.
+ Obviously access to mythos right now
+ is extremely restricted.
+ Only about 70 companies
+ had access to mythos preview.
+ The plan of course for an Anthropic
+ was always to increase that
+ incrementally and slowly.
+ I'll let you decide
+ whether you think that that's because
+ of cybersecurity concerns
+ or because of compute limitations.
+ But the US government seems to be
+ clear around what they think
+ with administration officials telling
+ Anthropic that they oppose the move
+ because of national security concerns.
+ Some officials are apparently concerned
+ that Anthropic won't have the compute
+ to serve that many entities
+ without hampering the government's
+ ability to access the model.
+ Anthropic says compute isn't a constraint
+ but the White House ain't buying it.
+ Prinz on Twitter writes
+ this is the very first case that we know of
+ of the US government restricting rollout
+ of a new AI model
+ based on policy considerations.
+ AI Politics and Governance Expert
+ Dean Ball writes
+ that we should be clear
+ that the government restricting
+ the release of AI models
+ is a type of licensing regime.
+ It's an informal highly improvised
+ licensing regime
+ but a licensing regime nonetheless.
+ In a much longer post he concludes
+ I cannot emphasize enough
+ how much the training wheels
+ have come off on AI policy.
+ The trial runs are over.
+ One of the most important AI questions
+ right now
+ isn't who's using AI
+ it's who's using it well.
+ KPMG and the University of Texas at Austin
+ just analyzed 1.4 million
+ real workplace AI interactions
+ and found something surprising.
+ The highest impact users
+ aren't better prompt engineers.
+ They treat AI like a reasoning partner.
+ They frame problems,
+ guide thinking,
+ iterate and push for better answers.
+ And the good news
+ these behaviors are teachable at scale.
+ If you're trying to move
+ from AI access to real capability
+ KPMG's research on
+ sophisticated AI collaboration
+ is worth your time.
+ Learn more at
+ kpmg.com
+ slash us slash sophisticated
+ that's kpmg.com
+ slash us slash sophisticated.
+ Today's episode
+ is brought to you by Granola.
+ Granola is the AI notepad
+ for people in back to back meetings.
+ You've probably heard people raving
+ about granola.
+ It's just one of those products
+ that people love to talk about.
+ I myself have been using granola
+ for well over a year now
+ and honestly it's one of the tools
+ that change the way I work.
+ Granola takes meeting notes for you
+ without any intrusive bots
+ joining your calls.
+ During or after the call
+ you can chat with your notes,
+ ask granola to pull out action items,
+ help you negotiate,
+ write a follow-up email
+ or even coach you using recipes
+ which are pre-made prompts.
+ Once you try it on a first meeting
+ it's hard to go without.
+ Head to granola.ai slash ai daily
+ and use code ai daily
+ new users get 100% off
+ for the first three months.
+ Again that's granola.ai slash ai daily.
+ One thing I keep seeing in enterprise AI
+ companies hedging across
+ every cloud, every model, every framework
+ or paying a GSI
+ for a pilot that never ends.
+ The team's actually shipping
+ they've picked a lane
+ and they move fast.
+ That's one of the reasons
+ I like today's sponsor
+ robots and pencils.
+ They've gone all in on AWS.
+ They're an advanced tier
+ and AWS pattern partner
+ and they ship production AI
+ coworkers in 45 days.
+ That's led to them doing
+ some of the more interesting work
+ I've seen on AI coworkers.
+ And by that I'm not talking
+ about chatbots.
+ I'm talking about actual
+ agentic systems that sit
+ inside a business architecture
+ and do real work.
+ That kind of focus matters
+ if you're an enterprise leader
+ trying to get something real
+ into production or an AWS rep
+ trying to move a customer
+ from interested to deployed.
+ Request an AI briefing
+ at robotsandpencils.com.
+ One conversation with robots
+ and pencils and
+ you'll know.
+ Here's a harsh truth.
+ Your company is probably spending
+ thousands or millions of dollars
+ on AI tools that are being
+ massively underutilized.
+ Half of companies have AI tools
+ but only 12% use them
+ for business value.
+ Most employees are still
+ using AI to summarize
+ meeting notes.
+ If you're the one responsible
+ for AI adoption at your company
+ you need Section.
+ Section is a platform
+ that helps you manage
+ AI transformation
+ across your entire organization.
+ It coaches employees
+ on real use cases,
+ tracks who's using AI
+ for business impact
+ and shows you exactly
+ where AI is and isn't
+ creating value.
+ The result?
+ You go from rolling out tools
+ to driving measurable AI value.
+ Your employees move from
+ meeting summaries to solving
+ actual business problems
+ and you can prove the ROI.
+ Stop guessing if your AI
+ investment is working.
+ Check out Section
+ at sectionai.com
+ that's s-e-c-t-i-o-n-a-i.com.
+ Now the last area of AI growing
+ up that I wanted to discuss
+ is within the product dimension.
+ As agents have come online
+ and become one of the dominant
+ ways that people are deploying
+ and getting value out of AI
+ there's been a broader recognition
+ at the same time
+ that the harnesses in which
+ models operate
+ are a significant area
+ for improvement and development.
+ I did my whole episode yesterday
+ about harnesses as a service
+ and the new cursor SDK
+ making the analogy
+ from where we started
+ with Open Claw at the end
+ of January and beginning of February
+ where you kind of had to build
+ everything by hand
+ and wire it all together carefully
+ to now all of these new
+ baked in build together products
+ as the shift from the hobbyist PC era
+ to call it the Apple II plus
+ era of personal computers.
+ It's definitely not a perfect analogy
+ but I think it directionally
+ captures what we're experiencing now.
+ Now in addition to the cursor SDK
+ making big updates
+ in the way that developers
+ can embed cursor agents
+ in their applications
+ we also on Thursday
+ got as Sam Altman put it
+ a big upgrade for Codex.
+ And this was the Codex
+ for non-developer work update.
+ Romain Hewitt,
+ the head of developer experience
+ for Open AI wrote
+ Codex for almost everything continued
+ easier to get started from any role
+ dynamic UI tailored to the task at hand
+ simpler design across the app
+ faster computer and browser use
+ better slides and sheets
+ easier annotation across
+ browsers artifacts and code.
+ Now one of the things that's
+ interesting is when you launch Codex
+ in this new version
+ it actually asks you
+ what type of work you do.
+ You can select from a menu
+ that includes finance
+ product marketing
+ operation sales data science
+ design student or something else
+ and decide whether you want
+ personalized task suggestions
+ based on that type of work.
+ That said Codex is making
+ a very different UI decision
+ than for example
+ Anthropic has with Claude
+ co-work.
+ Basically Anthropic decided
+ that it was better to split apart
+ technical development work
+ and non-technical work
+ between Claude code and Claude
+ co-work.
+ There is of course a big overlap
+ in the feature sets
+ and what you can do
+ with those tools
+ and I think it's likely
+ that you see even more
+ convergence over time
+ but Codex is making a bet
+ that one interface for everyone
+ is the right way to go.
+ None of us know exactly
+ how this will play out.
+ It is almost assuredly
+ the case that there will be
+ partisans on both sides.
+ There will be some people
+ for whom the more focused
+ Claude co-work type experience
+ is exactly the level they want
+ whereas the more technical
+ unlocks of the broader
+ Claude code or Codex
+ experience
+ are simply put intimidating
+ and overwhelming.
+ And yet at the same time
+ my experience so far in AI
+ has not been that people
+ are en masse waiting around
+ for the simplified versions
+ of tools.
+ Breaking from the traditional
+ orthodoxy
+ of product development
+ in Silicon Valley
+ I instead see people
+ of all backgrounds
+ of all technical levels
+ taking advantage of AI
+ as a tutor
+ and build partner
+ and collaborator
+ to do technical things
+ that they never would
+ have been able to before.
+ I tweeted yesterday
+ that I like Codex's bet
+ that knowledge workers
+ will strive to be
+ more technical
+ to unlock
+ their newly discovered
+ wizard powers
+ versus the co-work bet
+ that they need
+ special neutered tools.
+ For the purposes
+ of this theme
+ however of AI growing up
+ what's important
+ is that we're seeing
+ radical and rapid innovation
+ not just in the models
+ but in the harnesses
+ through which people
+ actually use these tools
+ that are trying to disseminate
+ their capabilities
+ across the entire
+ sphere of knowledge work.
+ Now one part of AI growing up
+ that I am not discussing
+ is the New York Times
+ opinion essay flying around
+ by Jasmine Sun
+ called Silicon Valley is
+ bracing for a permanent
+ underclass.
+ Jasmine spent a long time
+ working on this
+ it is very thoroughly
+ researched
+ and I would not deny
+ that it represents
+ the thoughts
+ of many of the folks
+ that she spoke with.
+ The reason however
+ that I'm not bringing it up
+ as an example of the discussion
+ around AI maturing
+ is that I actually think
+ that at some point soon
+ we're going to recognize
+ that the skill set
+ knowledge base
+ and perspective required
+ to build great technology
+ is very different
+ from the background
+ and experience
+ implicit in understanding
+ how that technology
+ will interface with the world.
+ To put it bluntly
+ I think that many
+ who are building AI
+ have the likely impacts
+ of AI
+ very very wrong.
+ I think that they are first
+ in line to see
+ the power of these tools
+ and said so much of what they do
+ has been transformed
+ truly transformed by AI.
+ They extrapolate that out
+ to everyone.
+ I think in general
+ they miss much
+ about how the real world
+ outside of Silicon Valley
+ functions.
+ They tend not to understand
+ how new ideas
+ and new tools
+ and technologies
+ diffuse throughout
+ the corporate world.
+ In many cases
+ they tend not to understand
+ the broader economic forces
+ in which Silicon Valley sits.
+ Instead thinking
+ that their slice
+ of the startup world
+ and the broader economy
+ are synonymous
+ when they are very often
+ if not most of the time
+ fairly out of sync.
+ Obviously this will be
+ an ongoing discussion
+ but I think you'll actually
+ start to see a fork
+ in the narrative
+ where we rely less
+ on Silicon Valley profits
+ for what might happen
+ because of AI
+ and more on evidence
+ in our own first
+ principles thinking
+ not to mention the judgment
+ of other types of experts
+ like economists
+ who as economist
+ Kevin Bryan
+ points out on Twitter
+ quote
+ by and large
+ don't expect
+ a permanent underclass.
+ I know many of you
+ will disagree with this
+ and if you're interested
+ the piece is certainly
+ worth checking out
+ but for me
+ it is just not part
+ of this story
+ of the week AI grew up.
+ Now two more things
+ I want to try
+ with these weekly recap episodes
+ outside of just the big theme.
+ The first is a recommendation
+ for what you should try to build
+ to capture the essence
+ of what changed this week.
+ I think number one
+ with a bullet has to be
+ if you are not using codecs yet
+ or if you downloaded
+ it a few months ago
+ and you haven't really tried it
+ for a while
+ now is the right time
+ to go check it out again.
+ You may find
+ that you still prefer
+ other types of interfaces
+ for doing your AI work.
+ I still certainly find myself
+ turning to the terminal
+ and still using
+ Claude code in many cases
+ but codecs has become
+ a powerful option
+ for all sorts of
+ different types of work
+ and time spent checking it out
+ I think you'll find
+ to be ultimately valuable.
+ Now my absolute best
+ suggestion for this
+ is to go on Riley Brown's
+ Twitter profile
+ which is at Riley Brown
+ and check out his pin tweet
+ to learn 95% of codecs
+ in 28 minutes.
+ It's about as good
+ an overview
+ as you could possibly get
+ and that's where I'd start.
+ The other thing that I think
+ is worth checking out
+ is cursor.
+ Six months ago
+ the narrative was really
+ against cursor
+ but as people have started
+ to appreciate
+ the importance of harnesses
+ and have seen
+ the rapid pace
+ at which cursor is innovating
+ I'm finding more and more
+ people investing
+ in their cursor harness
+ so that they have more
+ flexibility
+ to move around
+ between different models
+ as they evolve
+ and as they prefer them
+ for different types of tasks.
+ Lenny Rachitski
+ of Lenny's podcast
+ this week tweeted
+ narrative violation
+ finding it's more fun to work
+ within cursor
+ than the native codecs
+ or clod code apps
+ not a massive difference
+ but just enough
+ to keep me there
+ and obviously easier
+ to play with new competing models
+ as they come out.
+ To show for a minute
+ I will say that part
+ of the motivation
+ for the agentic
+ operating system course
+ that Nufar put together
+ was that she had built herself
+ a really killer system
+ inside cursor
+ that was adaptable
+ and flexible
+ to changes in the rest
+ of the agent infrastructure
+ as it evolved
+ and that's a big part
+ of what she wanted to bring
+ into the program
+ even if people were choosing
+ not to build with cursor itself.
+ So your two missions
+ should you choose to accept them
+ from a build perspective
+ go if nothing else
+ watch Riley Brown's
+ 28 minute
+ 95% of codecs lesson
+ and poke around cursor
+ maybe via agent OS
+ just to get a feel
+ for what they have there
+ if it's helpful
+ maybe we'll do a more
+ five steps
+ to get started
+ with cursor
+ type of side content
+ at some point
+ in the next week or two
+ and the last thing
+ that I wanted to experiment
+ with on these weekly shows
+ boy I'm really bringing you
+ behind the curtain
+ here today
+ is that there's always
+ some story
+ that's surprising
+ or quirky
+ or interesting
+ that isn't about
+ the big themes
+ that's just kind of
+ gobsmacking
+ in its own way
+ and this week
+ it is 100%
+ undeniably
+ goblins
+ on thursday
+ open ai published a piece
+ called where the goblins
+ came from
+ it came about
+ after a tweet
+ from arbs8020
+ went viral
+ when they wrote
+ GPT 5.5 prompt
+ for codecs
+ seems to have a duplicated
+ line
+ trying to get it to not
+ talk about creatures
+ the lines are
+ never talk about
+ goblins
+ gremlins
+ raccoons
+ trolls
+ ogres
+ pigeons
+ or other animals
+ or creatures
+ unless it is
+ absolutely
+ and unambiguously
+ relevant to the user's query
+ this led to a piece
+ in wired
+ called open ai
+ really wants codecs
+ to shut up about goblins
+ now in their explanation
+ piece from a couple
+ days later
+ open ai writes
+ starting with GPT 5.1
+ our models began
+ developing a strange habit
+ they increasingly mentioned
+ goblins
+ gremlins
+ and other creatures
+ in their metaphors
+ unlike modelbugs
+ that show up through a tanking
+ eval
+ or a spiking training metric
+ and point back to a specific change
+ this one crept in subtly
+ a single little goblin
+ in an answer
+ could be harmless
+ even charging
+ across model generations though
+ the habit became hard to miss
+ the goblins kept multiplying
+ and we needed to figure out
+ where they came from
+ ultimately open ai came to the
+ conclusion
+ that the goblin references
+ were an artifact
+ of the quote-unquote
+ nerdy personality
+ which was encouraged to make
+ cute references
+ to various creatures
+ in its responses
+ that started in GPT 5.1
+ and increased a lot in 5.4
+ the weird thing was
+ that goblins started to infect
+ the non-nerdy GPTs as well
+ open ai thinks it's an artifact
+ of their personality
+ reinforcement learning training
+ since codex helped train
+ the personalities
+ it scored outputs
+ with creature references
+ very highly for the nerdy personality
+ open ai then believes
+ the nerdy training spilled over
+ into other rl training
+ leaving them with a codex
+ model obsessed with goblins
+ now not only is this
+ a fascinating story
+ there are some pretty
+ interesting implications
+ when models are built
+ on top of other models
+ rather than starting from scratch
+ weird quirks from reinforcement
+ learning in one
+ can have multiplying effects
+ in others
+ this obviously could impact
+ the way that we think
+ about alignment
+ and safety training
+ now how to solve this problem
+ isn't super clear either
+ for open ai
+ this has been a context
+ for their research team
+ to build some new tools
+ to audit model behavior
+ and fix behavior problems
+ that aren't just the
+ biggies that you would assume
+ so that's the story
+ of open ai's goblins
+ and that's the end
+ of this episode
+ please do let me know
+ what you think about
+ this weekly format
+ including to be clear
+ if for you it is very duplicative
+ for now appreciate you
+ listening or watching as always
+ and until next time
+ peace
