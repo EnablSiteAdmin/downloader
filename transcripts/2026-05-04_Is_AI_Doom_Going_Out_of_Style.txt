@@ -1,0 +1,727 @@
+ Today on the AI Daily Brief, could we be actually at the beginning of an AI vibe shift?
+ The AI Daily Brief is a daily podcast and video about the most important news and discussions
+ in AI.
+ All right, friends, quick announcements before we dive in.
+ First of all, thank you to today's sponsors, KPMG, Granola, Robots and Pencils and Section.
+ To get an ad-free version of the show, go to patreon.com.ai-daily-brief or you can
+ subscribe on Apple Podcasts.
+ If you want to learn more about sponsoring the show, send us a note at sponsors at aidailybrief.ai.
+ And while you are at aidailybrief.ai, I would so appreciate it if you would take just two
+ or three minutes to fill out our monthly AI usage pulse survey.
+ This every month survey allows us to track what models people are using, how the value
+ they're getting out of it is changing and already it's shown some really interesting
+ things.
+ For example, the percentage of people who say their primary benefit from AI is new capabilities
+ is way up this year and time savings is way down and your contributions allow us to
+ share that information.
+ Now anyone who fills this out will get the results before the rest of the general public.
+ And again, you can find that on aidailybrief.ai and thank you so much.
+ Now last note is that today is a main only episode.
+ A, it's kind of a big topic.
+ B, it's kind of a grab bag topic that brings a lot of pieces together.
+ And C, as part of that grab bag, it turns out that a lot of the headlines also fit
+ within this theme.
+ I anticipate we will be back with our normal format tomorrow, but for now, let's
+ find out why Ezra Klein doesn't think the AI job apocalypse will happen as it has
+ been foretold.
+ Welcome back to the AI Daily Brief.
+ Today we're talking about what is potentially the beginning of an AI
+ vibe shift.
+ The signals while faint are there that the conversation and discourse around
+ AI is, if not changing, at least having a new strand that doesn't assume
+ that we are just hurtling ourselves off of a cliff.
+ And what's interesting and what makes it a trend that's actually worth
+ watching is that it's happening both in the chattering class around jobs, as
+ well as in markets.
+ And the fact that it's coming from two sides at once means there's a much
+ higher potential that it actually is a narrative shift rather than just a
+ very temporary blip before doom takes over once again.
+ Now to get us to this point, there are two pieces from the last couple
+ of weeks, which I think stand as poles in the conversation.
+ On the one hand is that essay from Jasmine Sun, published in the New York
+ Times called Silicon Valley is bracing for a permanent underclass.
+ It's a well-sourced piece from Jasmine talking to her friends, contacts
+ and peers in the AI space in San Francisco and Silicon Valley about how
+ they think AI is going to take everyone's job.
+ Now I discussed this one in the weekly episode from Friday, the week AI
+ grew up.
+ Now, while I think the piece was well sourced and well researched,
+ the issue that I have is with over aggrandizing the perspective of
+ the people building AI on what the impact of AI in society is going to be.
+ This is certainly intellectually tempting in the sense that you would think
+ that the people who are closest to the new technology would have
+ some insight into it, but I think it's actually just structurally wrong.
+ First of all, there are some reasons to think that the people who are
+ closest to AI might be wildly overestimating its impact cynically.
+ They have good reason to with IPOs looming on the horizon, but even
+ removing that cynicism from things, a lot of what AI so far is really,
+ really good at is the day in and day out of their work.
+ IE AI is now doing all the coding, which means it must do
+ everything else in the future too.
+ There are a whole bunch of reasons to be slightly skeptical of that.
+ But the second reason overall, for a little bit more perhaps discernment
+ around how much we lionize the perspective of the AI builders
+ when it comes to the impact of their technology in the world,
+ is that Silicon Valley doesn't really have a good track record
+ of understanding what's going on outside of Silicon Valley.
+ Silicon Valley is full of builders, builders without which
+ we wouldn't have a lot of our most important innovations.
+ What it is not full of is economists and researchers,
+ at least of the non-AI variety, and people who have worked in
+ any sort of setting outside of startups.
+ And for that perspective, there was also an essay last month
+ that appears to have been even more influential.
+ That essay is of course the one by University of Chicago
+ economist Alex Emus that we covered last week on LRS
+ in our episode about where the post-AI economy thrives.
+ That essay got a lot of traction in the AI circles,
+ but with an opinion piece by Ezra Klein once again
+ in the New York Times this week,
+ it now has a much bigger audience as well.
+ The piece by Ezra was called
+ Why the AI Job Apocalypse Probably Won't Happen
+ and is significant if for no other reason
+ that it's not coming from the usual
+ suspect AI accelerationist voices.
+ In other words, if Mark Andreessen wrote this,
+ it wouldn't be nearly as important.
+ Now, Ezra points out that a lot of the reason
+ for the negative narrative is the AI labs themselves.
+ He writes, if you believe the story
+ the AI labs are telling, it's hard to see
+ what stands between us in mass unemployment.
+ AI has been designed to cheaply mimic
+ what human beings can do on a computer
+ but never needs to sleep, never tries to form a union
+ and often outperforms real people on real tasks.
+ Of course companies will want to replace human beings
+ with this human being replacement machine.
+ But as he points out, it's worth being cautious.
+ He points to other reasons tech companies
+ might have to tell that story,
+ including getting investors excited as we discussed before
+ or as he points out unwinding a post-COVID hiring binge.
+ The AI leaders he writes might understand neural nets
+ better than they understand labor markets
+ or they might have bought too deeply
+ into their own marketing materials.
+ But what really gets Ezra to think a little bit differently
+ is as he puts it, economists I've found
+ are quite skeptical that mass joblessness is on the horizon.
+ From there, he explores that what will be scarce essay
+ by Alex Emes brings the idea of Javon's paradox
+ to a mainstream audience and even gives a personal example.
+ He points to an ASU professor Eldar Maximoff who said,
+ in every major occupation group
+ that adopted computers heavily,
+ employment grew faster than in groups that did not.
+ Computers eliminated specific tasks within jobs
+ but the resulting cost reductions
+ created so much new demand
+ that the occupations expanded overall.
+ Ezra picks up from there,
+ computers can do much that humans once did
+ but they didn't put humans out of work.
+ The ability to do more made people realize
+ there was more to do.
+ He continues, this is fairly common.
+ When I started my podcast 10 years ago
+ I was its only researcher.
+ Now I have an extraordinary team of people
+ who help me prepare episodes.
+ Has that made my job easier?
+ Not in the least, I spend far more time researching
+ and prepping because they bring me so much more
+ to absorb and consider
+ and I choose to do more challenging episodes
+ because I'm confident I can do them.
+ And here's the most key line.
+ Every enthusiastic AI adopter I know writes Ezra
+ is working harder than ever
+ because there is more they can do.
+ Now where he ends his piece
+ is not some blithe polyanus everything's going to be fine.
+ Instead it seems like his position
+ is fairly similar to mine
+ which is that while I am not only optimistic
+ but hugely confident
+ in the long-term trajectory of society
+ the transition period to get there
+ can be extraordinarily painful.
+ And even if we are sure
+ or at least as confident as we can be
+ that new jobs and even more new industries will emerge
+ there will be certain categories of work
+ certain types of tasks
+ and certain types of jobs
+ that are primarily made up of those tasks
+ that do get wiped out.
+ Ezra writes, what's likelier
+ is that AI doesn't take all or most of the jobs
+ but it does take some.
+ And that strangely is the possibility
+ we're least prepared for.
+ A world where AI displaces 8 million workers
+ might be harder to handle
+ than a world where it displaces 80 million workers.
+ A mass unemployment event
+ would force a wholesale restructuring of our economy.
+ We are crueler when displacement is more limited.
+ The best estimates of job loss
+ from competition with China
+ put it around 2 million jobs.
+ That's small in the context of the entire US economy
+ where roughly 5 million people are hired each month
+ and about 5 million people leave
+ or lose their jobs each month
+ but it was devastating for particular communities
+ and we did very very little to help them.
+ So zooming out the point here
+ is that we have a prominent commentator from the left
+ starting to discuss with nuance,
+ the likely impact of AI on the economy
+ and actively combating in nuanced terms
+ the doomer job loss narrative.
+ But what about the evidence?
+ Well, this is another little part
+ of this potential narrative shift.
+ Ezra himself points out
+ for one thing the macro data
+ isn't matching the anecdote data.
+ The unemployment rate was 4.3% in March, 2026.
+ In March of 2020, it was 4.4%.
+ Average hourly earnings are stable.
+ Claude Cote is a marvel
+ yet demand for software engineering is booming.
+ Maybe mass layoffs are coming, but maybe not.
+ Sequoia partner, Konstantin Bueller writes,
+ narrative violation and great insight
+ from the latest Citadel securities banger.
+ They write, we illustrated back in February
+ that demand for software engineers
+ the most AI exposed occupation was accelerating higher
+ which we argued violates the displacement narrative.
+ Indeed, the acceleration
+ in software job postings has continued.
+ Now up 18% from the inflection point in May last year.
+ This number seems to match recent data
+ from the Federal Reserve
+ which has software engineering jobs
+ hitting their highest points
+ since November of 2023.
+ Commentators are picking up on the theme.
+ Anthony Pompliano, who admittedly
+ is a very tech forward market commentator
+ has been beating the drum about
+ how he changed his mind
+ on how AI will impact jobs in America.
+ Previously he wrote,
+ I believed AI would replace many entry level roles
+ typically filled by young employees.
+ The technology would then work its way up the organization
+ and eventually reduce
+ the total number of jobs in a company.
+ The data is saying something different
+ so when I get new information
+ I am willing to change my mind.
+ The number of software engineers being hired
+ has been increasing.
+ The number of open software engineer roles is growing.
+ The number of new college grads
+ who get hired has increased 5.6%
+ over the last 12 months.
+ The unemployment level for people age 20 to 24 years old
+ who have a college degree
+ has fallen from nearly 9% to almost 5% as well.
+ The Wall Street Journal recently wrote,
+ AI created 640,000 jobs
+ between 2023 and 2025 in the US
+ according to an analysis
+ by LinkedIn of job posting data
+ including new white collar positions
+ such as head of AI and AI engineer.
+ And POMP says,
+ I'm starting to see companies throughout our portfolio
+ aggressively hiring to keep up with the demand
+ for their products and services.
+ If AI can make employees more productive
+ which is widely accepted as fact
+ then companies are going to want
+ as many productive units of labor as possible.
+ Now Murtaza Ahmed from Emergence AI
+ and Russell AI Labs
+ actually argued that at this point
+ AI increasing the demand for software engineers
+ was actually now the consensus view in tech.
+ Code he writes as digital brick
+ if bricks get much cheaper and easier to lay
+ you don't use fewer builders.
+ You build what was previously too expensive,
+ too slow to be spoke or too annoying to justify.
+ Doesn't mean he points out
+ that Javons applies everywhere.
+ Some work is elastic and expands with the cost falls,
+ software, sales outreach, legal discovery,
+ semiconductor analysis, customer research,
+ security monitoring.
+ Some work is more capped, payroll, month and close,
+ basic compliance filing, routine reporting.
+ The distinction is elastic versus inelastic demand.
+ For those of you who remember Alex's essay
+ elasticity of demand is one of the key concepts.
+ Basically what he explores
+ is where the savings of AI in one sector
+ can flow into the elastic demand in another sector.
+ In other words, another sector
+ where demand could grow apportion it
+ to the new resources that are flooding in.
+ For Alex, it's the relational sector
+ with people wanting more bespoke,
+ handcrafted human mediated experiences.
+ Now the one other area
+ where we're starting to see some interesting data
+ is around entrepreneurship.
+ Startup Ideas podcast host Greg Eisenberg wrote
+ I think we're about to see the largest explosion
+ of entrepreneurship in human history.
+ I get why the fear exists, jobs are getting cut,
+ AI researchers are privately saying most people are screwed,
+ the models are getting ridiculously better
+ and faster than anyone expected.
+ Project that forward linearly and yeah, it looks bleak.
+ But linear projections
+ are usually wrong during platform shifts.
+ Nobody projected that the internet
+ would create 50 million small businesses.
+ They projected Walmart would eat everything.
+ What actually happens is intelligence gets cheaper
+ and a flood of new builders enter the market
+ with domain knowledge the incumbents never had.
+ Millions will get laid off or never hired
+ over the next 24 to 36 months.
+ Those jobs are not coming back.
+ So they become entrepreneurs out of necessity at first,
+ then out of opportunity.
+ Now this is a popular argument that you will see.
+ And of course, one of the things we explored on
+ this weekend show why agents make every job a startup
+ is why for some,
+ this is going to be a very unwelcome development.
+ But there is some data
+ that this isn't just hopeful thinking
+ and that yes, even if there is a cap
+ on the total number of people who want to
+ or can be entrepreneurs,
+ either A, we haven't come close to hitting that cap yet
+ or B, the changes that AI enables
+ actually is expanding that cap.
+ On May 1st, Stripe CEO Patrick Collison wrote,
+ Stripe Atlas just hit 100,000 all-time corporations.
+ I.e. that's where Stripe helps
+ new startups incorporate.
+ Q1 he said was 130% up year over year.
+ Writes Derek Thompson as recline's co-author
+ of Abundance, Stripe data shows
+ A, startup incorporations weigh up
+ and B, startups in AI seeing faster growing revenue
+ than is historically normal.
+ For now, he writes AI agents are better
+ at creating firms than destroying jobs.
+ One of the most important AI questions right now
+ isn't who's using AI, it's who's using it well.
+ KPMG and the University of Texas at Austin
+ just analyzed 1.4 million real workplace AI interactions
+ and found something surprising.
+ The highest impact users aren't better prompt engineers,
+ they treat AI like a reasoning partner.
+ They frame problems, guide thinking,
+ iterate and push for better answers.
+ And the good news, these behaviors are teachable at scale.
+ If you're trying to move from AI access to real capability,
+ KPMG's research on sophisticated AI collaboration
+ is worth your time.
+ Learn more at kpmg.com slash us slash sophisticated,
+ that's kpmg.com slash us slash sophisticated.
+ Today's episode is brought to you by Granola.
+ Granola is the AI notepad
+ for people in back-to-back meetings.
+ You've probably heard people raving about Granola,
+ it's just one of those products
+ that people love to talk about.
+ I myself have been using Granola for well over a year now
+ and honestly it's one of the tools
+ that change the way I work.
+ Granola takes meeting notes for you
+ without any intrusive bots joining your calls.
+ During or after the call, you can chat with your notes,
+ ask Granola to pull out action items,
+ help you negotiate, write a follow-up email
+ or even coach you using recipes
+ which are pre-made prompts.
+ Once you try it on a first meeting,
+ it's hard to go without.
+ Head to granola.ai slash ai-daily
+ and use code ai-daily,
+ new users get 100% off for the first three months.
+ Again, that's granola.ai slash ai-daily.
+ One thing I keep seeing in enterprise AI,
+ companies hedging across every cloud,
+ every model, every framework
+ or paying a GSI for a pilot that never ends.
+ The team's actually shipping,
+ they've picked a lane and they move fast.
+ That's one of the reasons I like today,
+ sponsor robots and pencils.
+ They've gone all in on AWS.
+ They're an advanced tier and AWS pattern partner
+ and they ship production AI coworkers in 45 days.
+ That's led to them doing some of the more interesting work
+ I've seen on AI coworkers.
+ And by that I'm not talking about chatbots,
+ I'm talking about actual agentic systems
+ that sit inside a business architecture and do real work.
+ That kind of focus matters if you're an enterprise leader
+ trying to get something real into production
+ or an AWS rep trying to move a customer
+ from interested to deployed.
+ Request an AI briefing at robotsandpencils.com.
+ One conversation with robots and pencils
+ and you'll know.
+ Here's a harsh truth.
+ Your company is probably spending thousands
+ or millions of dollars on AI tools
+ that are being massively underutilized.
+ Half of companies have AI tools
+ but only 12% use them for business value.
+ Most employees are still using AI
+ to summarize meeting notes.
+ If you're the one responsible for AI adoption
+ at your company, you need Section.
+ Section is a platform that helps you manage AI transformation
+ across your entire organization.
+ It coaches employees on real use cases,
+ tracks who's using AI for business impact
+ and shows you exactly where AI is
+ and isn't creating value.
+ The result, you go from rolling out tools
+ to driving measurable AI value.
+ Your employees move from meeting summaries
+ to solving actual business problems
+ and you can prove the ROI.
+ Stop guessing if your AI investment is working.
+ Check out Section at sectionai.com
+ that's S-E-C-T-I-O-N-A-I dot com.
+ But I said that there was another side
+ of this potential narrative shift
+ which is market thinking.
+ The Atlantic recently published a piece called
+ So About That AI Bubble.
+ The subtitle sums up the thrust of the piece.
+ Thanks to the rise of Claude Code and other AI agents,
+ revenues are finally catching up to the hype.
+ The author, Roger Carmel writes,
+ six months ago, the AI sector was looking pretty bubbly.
+ Companies were plowing hundreds of billions of dollars,
+ much of it borrowed into building new data centers
+ but had no clear path to profitability.
+ Experts and journalists, myself included,
+ were comparing the AI buildout to the railroad bubble
+ of the 1800s in the dot com bubble of the 1990s,
+ in which speculation led to overinvestment
+ that eventually crashed the stock market.
+ Today, however, he points out
+ we're in a very different world.
+ The worry that the country is building
+ too many data centers now coexists with the fear
+ that we won't have enough of them
+ to satisfy the public's growing appetite
+ for these products.
+ The company previously known
+ as OpenAI's junior competitor
+ has become possibly the fastest growing business
+ in the history of capitalism.
+ Anthropics revenue is increasing faster,
+ much faster than zooms during the pandemic,
+ Googles during the early 2000s,
+ or even standard oils during the Gilded Age.
+ If the company's current growth rate were to continue,
+ then by early next year,
+ it would be taking in more money
+ than any other company in the world.
+ The author continues the cause of this turnaround
+ can be summarized in two words,
+ Claude Code.
+ Now, obviously, if you were listening to this show,
+ this is not surprising territory,
+ but to put it in the terms
+ that the market is finally coming to understand,
+ although this sounds incredibly basic and simple
+ and obvious to some extent in hindsight,
+ the difference at core is that in 2025,
+ people were looking at AI
+ as a question of how many seats
+ the AI companies could sell,
+ how many corporate butts could Microsoft put in co-pilot,
+ and how many normal people butts could open AI
+ put in chat GBT.
+ Looking at the percentage converting
+ to $20 and $30 a month subscriptions,
+ the skeptics just didn't see
+ how that was gonna justify trillions of dollars
+ in infrastructure build-out.
+ What's different now, of course,
+ is that we've moved from seats to tokens.
+ In the agent intelligence era,
+ there was effectively no cap
+ on how many tokens people would consume
+ if resources were no constraint.
+ Indeed, in some ways, as I explored
+ in the Why Agents Make Every Job a Startup episode,
+ the only constraint now
+ is our ability to coordinate all of these agents
+ doing all of this work.
+ But the point is, as the market wakes up
+ to the agentic era,
+ as they experience it firsthand,
+ hacking at Claude Code or OpenAI's Codex,
+ they understand that a single person
+ doesn't represent a 20 or maybe even a $200 seat.
+ They represent hundreds or thousands of dollars every month
+ to the companies that are selling the tokens.
+ And the companies can't sell the tokens fast enough.
+ At the beginning of April,
+ Anthropoc noted that their run rate revenue
+ had surpassed 30 billion.
+ But now that number appears to be even higher.
+ The company themselves have not confirmed it.
+ But on Friday, semi-analysis,
+ who is seen as extremely well-sourced,
+ published that Anthropoc's ARR
+ had this year, quote,
+ exploded from 9 billion to over 44 billion today.
+ If that pace is correct,
+ it means Anthropoc's ARR is doubling every six weeks.
+ Analyst Meng Li did some back of the napkin math
+ and wrote that Anthropoc is adding $96 million in ARR per day.
+ To give these numbers all some context, Meng wrote,
+ AWS took 13 years to reach 35 billion in annual revenue.
+ Salesforce took over 20 years to pass 20 billion.
+ The old software evaluation framework no longer fits.
+ David Spitz points out
+ that it's not just a revenue story,
+ but that if semi-analysis is right
+ and that its inference margins are now at 70%
+ up from 38% last year,
+ that it speaks volumes about where this is all going.
+ And all of this is starting to reframe capex.
+ Analyst Holger Schaepitz writes,
+ Morgan Stanley has again raised its capex forecast
+ for the five hyperscalers.
+ It now expects them to spend about 805 billion this year
+ up from a previous estimate of 765 billion.
+ For next year, the forecast has been lifted
+ from 951 billion to 1.1 trillion.
+ And yet, as Andrea Steno-Larsen points out,
+ why do we keep talking about a capex bubble
+ when the backlog of the same companies
+ is rising substantially faster?
+ He shared a chart that showed that the backlog of demand
+ for customers to purchase additional capacity
+ is not only significantly higher
+ than the current capex spend,
+ but is getting more and more divergent.
+ Mag7 company spent over 400 billion in capex
+ in Q1 of this year,
+ but their reported and projected backlog
+ is up around 1.3 trillion.
+ Former AIsR and investor David Sacks
+ swooped in to contextualize,
+ I've been saying for a while, he writes
+ that AI capex will be a 2% tailwind to GDP growth this year.
+ In fact, according to a new report from Morgan Stanley,
+ the numbers are even stronger,
+ more like 2.5% this year and over 3% next year.
+ Now, he argues that this actually understates
+ the impact of AI,
+ because one, it's just investment by five hyperscalers,
+ and two, quote, capex is the investment
+ to create the token factories.
+ It doesn't count the economic activity
+ resulting from what happens inside the token factories.
+ Those tokens are now being used to generate code,
+ i.e. bespoke software,
+ that will increase productivity throughout the economy.
+ The ROI on capex is likely to dwarf the capex itself,
+ which is why investment continues to grow.
+ Polls may show that AI is not popular,
+ but economic growth is.
+ Now, there is also even a shift
+ around the SaaS Pocalypse narrative.
+ The inflection was best shown
+ around Atlassian's earnings report,
+ where the company stock was up almost 30% on Friday.
+ Now, the financials themselves were big.
+ Revenue grew by 32% over the past year,
+ which was up from 23% during the quarter before.
+ One of the big substories was swift adoption
+ of their new AI search tool called ROVO.
+ CEO Mike Cannon-Brooks said that customers using ROVO
+ were growing their own ARR
+ at twice the pace of those who weren't using the tool.
+ The stats suggested to market analysts
+ that Atlassian's best performing customers
+ were switching to built-in AI tools
+ rather than building their own in-house replacements.
+ Cannon-Brooks discussed the advantages
+ of a platform native AI tool, commenting,
+ "'Those are cheaper answers because you use far less tokens
+ "'to get to an answer in the same amount of time.'"
+ Basically, rather than needing to use token-hungry rag search,
+ ROVO can tap into the existing knowledge graph in JIRA.
+ And again, as we discussed last week
+ in the AI subsidy era show,
+ in a world where there is far more demand
+ than supply of tokens,
+ token efficiency starts to matter quite a bit.
+ Analyst Amaya writes,
+ "'Atlassian's earnings call is a great read.
+ "'While Microsoft moved from per-seat usage
+ "'to usage-based pricing, which is very logical,
+ "'for JIRA, it makes zero sense
+ "'to move away from seat-based pricing.
+ "'In this case, at least, the seat compression
+ "'is not visible.
+ "'Atlassian isn't reducing tokens
+ "'by being clever with prompts.
+ "'They're reducing tokens because with JIRA and Confluence,
+ "'they and their clients have spent 20 years
+ "'capturing structured relationships
+ "'between work teams, people, code, and knowledge.
+ "'When ROVO or any agent needs context,
+ "'it does a graph look up instead of a vector dump.
+ "'This reduces dependence on token-hungry rag
+ "'that enterprises use.'"
+ Now again, zooming out to our broader point,
+ Jason from Saster sums it up,
+ the big question for the week is,
+ were public software companies oversold,
+ at least in the aggregate?
+ And two last little additional details
+ of the potential narrative shift.
+ One is, while the data center issue
+ remains very hot-button,
+ and one where I think skepticism continues to rise
+ rather than have away,
+ the AP is writing about how the construction opportunities
+ are allying blue-collar-style unions
+ with big tech companies
+ to try to reverse community opposition to data centers.
+ Said Rob Baer, President of the Pennsylvania Building
+ and Construction Trades Council,
+ when people say, you know,
+ data centers are the root of all evil,
+ we're just saying, look,
+ they do create a hell of a lot of construction jobs
+ which we live and work in your communities.
+ Instead of just being a blunt no, Baer said,
+ communities should figure out what they need
+ and ask tech companies for it,
+ such as improvements to the project plans
+ or millions of dollars for local schools.
+ If you don't ask, you're never gonna get it, he said.
+ It's outside of the scope of this particular episode,
+ but I actually think it is an insane indictment
+ of how poorly tech companies
+ have run these data center projects
+ that the issue has gotten this bad.
+ There are so many ways
+ to make these incredibly value-accretive
+ to the communities that they're near
+ at a fraction of the cost of the project as a whole.
+ Speaking of which,
+ the last part of this potential vibe shift
+ is actually coming from
+ at least one of the big AI companies themselves.
+ I, at this point, have been fairly consistent
+ in my complaints
+ about the way that AI companies have been communicating
+ about AI-related job loss
+ and their failure to communicate a positive future vision.
+ And if of late, Dario and Anthropic
+ have been the bigger culprits,
+ it's not like open AI has been great on this front either.
+ You're starting to see some shift in that.
+ On May 1st, open AI CEO Sam Altman tweeted,
+ We want to build tools to augment and elevate people,
+ not entities, to replace them.
+ I think a lot of people are going to be busier
+ and hopefully more fulfilled than ever
+ and jobs deumerism is likely long-term wrong.
+ Though, of course, there will be disruption
+ and significant transition as we switch to new jobs,
+ the jobs of the future may look very different, et cetera.
+ I'm hopeful for a future
+ where people who want to work really hard
+ have incredibly fulfilling things to do
+ and people who don't wanna work hard
+ don't have to and can still have
+ an amazing life of prosperity.
+ Now for my taste, I still think that that gets
+ the shape of the future pretty wrong
+ and is an example of Silicon Valley
+ continuing to underestimate, A,
+ how hard diffusion throughout an economy is
+ and B, just how good market economies are
+ at matching any excess supply of capital and time
+ with new offers, but at least it's headed
+ in the right direction.
+ Sam has also now really picked up this theme
+ of the more powerful AI gets the more opportunities
+ it unlocks.
+ He said on a recent podcast,
+ someone said to me just yesterday
+ that GPT-55 and Codex can accomplish in an hour
+ what would have taken me weeks, two years ago
+ and I've never been busier in my life.
+ Noah Smith, another economic commentator
+ who has been loudly tracking the AI narrative, writes,
+ this is a huge messaging pivot
+ for many years replacing humanity
+ was the explicit stated goal of OpenAI as a company
+ and of a large number of top people in the AI industry.
+ Very glad to see this rhetorical pivot.
+ Now, as we close out, I wanna be clear
+ that it would be very, very easy to overstate
+ how pronounced this vibe shift is
+ to the extent that there even is one.
+ I'm picking up on the beginning of some market signals
+ plus an essay by a fairly prominent
+ left oriented political commentator
+ and turning it into a whole theme
+ which of course means we need to view this all
+ with a grain of salt.
+ On Sunday, the New York Times also published a piece
+ about how the one issue that unites Democrats
+ and Republicans is worries about AI
+ and recent polls still find people
+ extremely negative about this.
+ And of course, I haven't even gotten into the fact
+ that there are many parts of the left
+ that reject out of hand the entire abundance idea
+ which is of course the primary work
+ of two of the commentators that I've discussed here
+ as recline and Derek Thompson.
+ And yet even with all of that,
+ I find it extremely encouraging
+ to feel the collective foot being taken off the gas
+ of the AI doomerism for just a moment.
+ If nothing else, it creates an opportunity
+ to have a different type of conversation.
+ One that's neither doomed nor utopia
+ but about how to adapt to and maximize
+ the opportunity of the change that's here and coming.
+ I think the more time we spend on that conversation
+ rather than in the extremes, the better off we'll be.
+ For now, that's gonna do it for today's AI Daily Brief.
+ Appreciate you listening or watching as always.
+ And until next time, peace.
