@@ -1,0 +1,831 @@
+ Today in the AI Daily Brief, as anthropic and open AI both launch consulting ventures,
+ we talk about why there is no AI transformation without org transformation.
+ Before that in the headlines, is the White House about to make a major reversal in its
+ AI policy?
+ The AI Daily Brief is a daily podcast and video about the most important news and
+ discussions in AI.
+ Alright friends, quick announcements before we dive in.
+ First of all, thank you to today's sponsors KPMG, Granola, Super Intelligent, and Rackspace.
+ To get an ad for your version of the show, go to patreon.com.ai-dailybrief or you can
+ subscribe on Apple Podcasts.
+ To learn more about sponsoring the show, send us a note at sponsors.ai-dailybrief.ai.
+ Couple other things you can do at ai-dailybrief.ai, first, we have up our latest AI usage
+ poll survey.
+ This is a monthly survey we do, it should take less than three minutes to go through
+ and it's all about providing better information around how AI is actually being used, how
+ that's changing.
+ I really appreciate everyone who takes the time to do that every month, and again you
+ can find that link from the homepage.
+ You can also find the link to the AIDB training site.
+ AIDB training has two very distinct parts.
+ There are our free programs, which I am super passionate about.
+ That includes AIDB New Year's, Claw Camp, more recently Agent OS.
+ More than 20,000 of you have done those free self-directed programs this year,
+ and pretty soon I'll be launching one for a very different type of audience
+ for a much more beginner audience.
+ That AI catch-up program will be a bit of an update on the New Year's resolution,
+ so look out for that soon.
+ You can also find out about our Enterprise programs, Enterprise Clause
+ registering for Cohort 3, and for those who aren't quite ready for an
+ agent building program, we put together a new four-week executive
+ catch-up program that is designed to radically accelerate executives
+ who are feeling behind on AI overall.
+ You can find that again linked from the Ai-dailybrief website or at
+ aidbtraining.com.
+ Now, with that out of the way, let's talk about this shift
+ from the White House.
+ We have a bit of a weird one today.
+ I worked up a full normal plan for the headlines with some extended
+ emphasis on this White House AI vetting story, but between when I was
+ preparing and when I started recording, we got more information
+ that has basically forced me to do a not all that common effective
+ double main show.
+ We don't have all the information yet, so we will come back
+ and explore this as is necessary with additional information later in the
+ week. But let's talk about the White House and their changing
+ relationship with AI.
+ Yesterday, The New York Times reported that the administration
+ was weighing up a vetting process that would put the government
+ in charge of assessing and approving the release of powerful AI
+ models. Sources said that an executive order could be issued
+ to set up a working group to consider potential oversight
+ procedures. The working group would include tech executives
+ and administration officials.
+ And among the potential plans wrote The New York Times was a
+ formal government review process for new AI models.
+ Another consideration was a plan to give government first
+ access to new models, but not necessarily block public
+ release. The administration apparently met with executives
+ from Anthropic, Google and Open AI last week to discuss the
+ plans. And sources noted that the UK's review process, which
+ involves multiple government agencies assessing new models
+ against safety standards was viewed as a potential framework
+ to replicate.
+ Now, it's pretty impossible to see this as anything but a stark
+ reversal of administration policy.
+ One of the core objectives of this particular administration
+ was to unwind restrictive regulations.
+ Specifically, the Trump administration removed power from
+ the USAI Safety Institute or USAI SI, which is housed
+ within the National Institute of Standards and Technology.
+ Based on Biden-era policies, the USAI SI performs safety
+ testing on any model with more than 100 billion parameters,
+ which for reference frontier models are currently well over
+ a trillion parameters.
+ And on day one, the Trump admin revoked the executive order
+ that made government safety testing mandatory shifting
+ to a voluntary system. During the Biden years, regulation
+ was headed towards giving the government a more formal role
+ and the power to hold back public releases for models deemed
+ to have safety or security issues.
+ These proposals were primarily discussed in relation to
+ the California state government with the SB 1047 Bill
+ in late 2024. However, there is a sense that these
+ regulations would filter up to the federal level during
+ a possible second Biden term.
+ The Trump administration, meanwhile, explicitly
+ rejected this concept, asserting that regulatory delays
+ could risk the US falling behind in the AI race with China.
+ In his first public speech as vice president,
+ JD Vance told world leaders at the AI Action Summit
+ in Paris that, quote, excessive regulation of the AI sector
+ could kill a transformative industry just as it's taking off.
+ At a July event last year, the president referred
+ to the AI industry as a baby, commenting,
+ we have to grow that baby and let that baby thrive.
+ We can't stop it. We can't stop it with politics.
+ We can't stop it with foolish rules and even stupid rules.
+ Now, the New York Times attributed the change of thinking
+ to the rollout of mythos.
+ Anthropic, of course, has famously declined
+ to release the model to the public,
+ saying that it's so powerful at identifying
+ security vulnerabilities and software
+ that it could lead to a cybersecurity reckoning.
+ The New York Times administration sources commented
+ that the White House is concerned about
+ political repercussions if a devastating AI-enabled
+ cyber attack were to occur.
+ Another contributing factor is the departure
+ of A.I.'s R. David Sacks, who left the administration
+ in March after exhausting his 130-day limit
+ on working as a special government employee.
+ In his wake, Treasury Secretary Scott Besson
+ and White House Chief of Staff Susie Wiles
+ have reportedly stepped in to take over the AI portfolio,
+ which whatever you think about them as individuals
+ neither has any sort of tech industry experience,
+ presumably making it pretty difficult for them
+ to assess the current situation regarding mythos.
+ The idea of the government vetting AI models
+ surfaced some very strong views.
+ Zach Lilly, the director of government affairs
+ at NetChoice posted,
+ this would be a terrible blow
+ to American AI competitiveness.
+ No need to return to Biden-era regulatory impulses.
+ Innovation at the speed of government
+ isn't innovation at all.
+ Beth Jayzo has commented,
+ very bad idea.
+ Administrations of the future will force labs
+ to imbue the biases of their side into models
+ in order to get sign off.
+ This will also reduce the number of labs
+ who can ship models having to deal with compliance.
+ I cannot advise against this strongly enough.
+ Relatively few are super keen on this idea.
+ Some of the AI safety folks are directionally aligned
+ with this type of policy,
+ but pretty skeptical of its source.
+ The most vocal support came from the China hot contingent
+ with Chris McGuire from the Council on Foreign Relations
+ tweeting, this is a sorely needed regulatory pivot
+ with substantial geopolitical implications.
+ If the US government vets models pre-release
+ and presumably requires companies
+ to include certain safeguards,
+ it also needs a global plan
+ to preserve their security post-release.
+ He went on to describe a system
+ where the US government exerts control
+ over global cloud services
+ and distribution of frontier model weights
+ directly advocating for a return
+ of an even stronger version
+ of the Biden-era diffusion rule.
+ Now, interestingly, unrelatedly, but on the same day,
+ the New York Times published a guest essay
+ by former Trump AI policy advisor, Dean Ball,
+ and his Biden administration counterpart, Ben Buchanan.
+ They wrote,
+ we come from different parties
+ and have guided AI policy
+ under very different presidents, but we agree.
+ AI has become so powerful that,
+ along with its tremendous promise,
+ the technology poses immediate risks
+ to national security.
+ The article is basically framed as a call to action,
+ calling on Washington to urgently establish
+ a bipartisan AI regulatory regime.
+ Now, the article contains a complete policy prescription.
+ Remember, it wasn't a direct response to this news,
+ but it did discuss the testing and release of models.
+ At a minimum, they wrote,
+ Congress should mandate audits
+ of AI developers' safety claims and processes,
+ requiring that they be conducted
+ by independent expert bodies
+ overseen by the government.
+ In other words, they're effectively arguing
+ that model capability isn't necessarily
+ the best place to target regulatory oversight,
+ that models aren't inherently safe or unsafe
+ the way they are used is the primary issue.
+ Building on the arguments from the essay,
+ secure AI project co-founder Thomas Woodside wrote,
+ I don't think approving model deployments
+ is the best way to think about this.
+ Oversight should be more continuous
+ because models are updated constantly
+ and critically models can pose risk during internal use
+ and during development.
+ Policy Reacher Miles Brundage elaborated saying,
+ on cyber, which kicked this off,
+ model capability assessment is part of the story,
+ but other things also matter like misuse detection,
+ access programs for low-refusal models, et cetera.
+ And these will necessarily evolve over time.
+ Point being not that the government should micromanage
+ a bunch of other things
+ in addition to pre-deployment assessment,
+ but just that a sharp pre- and post-deployment distinction
+ is the wrong mental model.
+ Ethan Malik noted a tendency for policy makers
+ to assume the concepts around AI risk
+ are far more defined than they actually are.
+ He commented, a challenge with AI regulation and vetting
+ is how bad are benchmarks
+ of AI model performance and risks are.
+ There is no benchmark for risks
+ and red teaming requires experiments
+ from dedicated specialist organizations
+ and is not easy to put metrics around.
+ No clear objective numbers.
+ That doesn't mean that there should not be
+ regulation and vetting, but it does suggest
+ that it is hard to write a criteria right now
+ that is not somewhat vague.
+ More R&D into non-lab benchmarks is urgently needed.
+ We have remarkably few good ones
+ that are unsaturated and clear.
+ Now to give one example of this,
+ recent testing from the UK AI Safety Institute
+ showed that GPT 5.5
+ has roughly the same automated hacking capabilities
+ as Mythos, which of course reignited questions
+ of whether Anthropic was actually concerned
+ about cybersecurity or just didn't have the compute
+ to deliver the model or some combination of both.
+ Relative to the safety conversation though,
+ the point is that it's unclear where the line should be drawn
+ or even how it should be defined.
+ Now, some pointed out that lots of folks
+ were jumping to conclusions
+ and that article is implying
+ that this was a licensing system for model releases
+ we're getting it wrong.
+ And the major point of confusion
+ seems to be whether the proposed review regime
+ would actually empower the government to block releases
+ or just whether it would be a review,
+ which brings us to this morning
+ when the news broke that the US government
+ had indeed made agreements with Google, Microsoft and XAI
+ to share early access to their AI models with the government.
+ The government body tasked with testing
+ is the Commerce Department Center
+ for AI Standards and Innovation
+ that is already doing this work
+ and which in fact, Open AI and Anthropic
+ have similar agreements
+ with the Commerce Department going back to 2024.
+ The agreement writes the Wall Street Journal
+ calls for AI developers to share models with CAISI
+ with reduced or removed safeguards
+ to evaluate national security-related capabilities and risks.
+ Now these deals are apparently not the same
+ as this cybersecurity-focused executive order
+ that we were discussing earlier.
+ So there could be even more news
+ by the time this podcast comes out.
+ My sense is that there is going to be
+ a lot more discussion of this before the week closes
+ so for now that's where we will end.
+ I will keep a close eye on this story as it develops
+ but for now that's gonna do it for the headlines.
+ Next up, the main episode.
+ One of the most important AI questions right now
+ isn't who's using AI, it's who's using it well.
+ KPMG and the University of Texas at Austin
+ just analyzed 1.4 million real workplace AI interactions
+ and found something surprising.
+ The highest impact users aren't better prompt engineers,
+ they treat AI like a reasoning partner.
+ They frame problems, guide thinking,
+ iterate and push for better answers.
+ And the good news, these behaviors are teachable at scale.
+ If you're trying to move from AI access
+ to real capability,
+ KPMG's research on sophisticated AI collaboration
+ is worth your time.
+ Learn more at kpmg.com slash us slash sophisticated
+ Today's episode is brought to you by Granola.
+ Granola is the AI notepad for people in back-to-back meetings.
+ You've probably heard people raving about Granola,
+ it's just one of those products that people love to talk about.
+ I myself have been using Granola for well over a year now
+ and honestly it's one of the tools that change the way I work.
+ Granola takes meeting notes for you
+ without any intrusive bots joining your calls.
+ During or after the call, you can chat with your notes,
+ ask Granola to pull out action items,
+ help you negotiate, write a follow-up,
+ ask Granola to pull out action items,
+ help you negotiate, write a follow-up email,
+ or even coach you using recipes which are pre-made prompts.
+ Once you try it on a first meeting, it's hard to go without.
+ Head to granola.ai slash ai daily and use code AI daily,
+ new users get 100% off for the first three months.
+ Again, that's granola.ai slash AI daily.
+ Open AI and Anthropic are both launching enterprise AI consulting efforts
+ because everyone is realizing that the challenge
+ is in the capabilities of AI,
+ the challenge is getting individuals in the organization
+ actually ready to use it.
+ The truth though is that all the forward deployed engineers
+ in the world aren't going to help you
+ if you don't actually have a coherent strategy
+ based on an understanding of your actual AI readiness.
+ Super intelligent maturity maps give you a chance
+ to see where you stand relative to the industry
+ on deployment depth, systems integration,
+ data access, outcomes, people, and governance.
+ And from there, our customized AI planning assessments
+ can help you figure out what you need to do
+ to improve your readiness and how to sequence it.
+ Go take your own maturity maps quiz at bsuper.ai
+ and set us a note if you want to go deeper.
+ If you're trying to move AI from pilots
+ into production inside your organization,
+ the hard part isn't getting something to work once.
+ It's running it at scale and achieving real business outcomes.
+ It's the day-to-day operating model
+ with the governance, security controls,
+ and clear accountability that production actually demands.
+ Rackspace Technology just announced a partnership
+ with Palantir to help you run Palantir Foundry and AIP
+ in production through a governed managed operating model.
+ Here's what that looks like in practice.
+ Implementation support,
+ help getting your data ready and migrated,
+ infrastructure hosting, and ongoing managed operations.
+ So your team isn't left stitching together infrastructure,
+ data pipelines, and AI workflows on your own.
+ The focus is getting high impact use cases live in weeks
+ and then scaling from there across your workflows
+ with consistent operating controls from edge to core to cloud.
+ If you want to learn more about running Foundry and AIP
+ in production with Rackspace Technology,
+ go to rackspace.com slash Palantir.
+ Welcome back to the AI Daily Brief.
+ Today we are discussing a pair of news stories
+ and their implications.
+ Yesterday, news broke about two different efforts,
+ one from OpenAI, one from Anthropic,
+ to build massive service-related businesses
+ around enterprise AI deployments.
+ The first report was not an official launch from OpenAI,
+ but a report in Bloomberg.
+ The report was that OpenAI had raised more than $4 billion
+ from PE giants like TPG, Brookfield Asset Management,
+ Advent, and Bain Capital to build a new venture
+ that they're apparently calling the Deployment Company.
+ The firm, which will have an initial valuation
+ of $10 billion, will be majority-owned and controlled
+ by OpenAI.
+ Now, while we haven't gotten the formal announcement yet,
+ there has been a ton of buzz flying around about this,
+ which makes sense you can't really have
+ this many people coming together for a big new effort
+ without some information about it leaking out.
+ I will add only that from what I've heard,
+ this is not some sideshow effort,
+ and it is certainly not a side quest.
+ In fact, it seems to me that this cuts to the core
+ of OpenAI's new focus,
+ and is kind of a recognition that the last mile
+ is a lot longer in practice than just a mile.
+ Anthropic officially unveiled its similarly-focused
+ last-mile joint venture.
+ Anthropic's main partners in the venture
+ are Blackstone, Goldman Sachs, and Hellman and Friedman.
+ Blackstone and Hellman are investing
+ approximately $300 million each,
+ with Goldman Sachs putting in another $150 million.
+ There are a whole slew of other partners
+ involved as well, with the total investment
+ being around $1.5 billion.
+ The announcement from Anthropic was fairly minimal,
+ and effectively it is a forward-deployed
+ engineering organization.
+ In the announcement they write,
+ applied AI engineers from Anthropic
+ will work alongside the firm's engineering team
+ to identify where Claude can have the most impact,
+ build custom solutions,
+ and support customers over the long term.
+ Now, the idea of forward-deployed engineers
+ is nothing new.
+ It was popularized by Palantir
+ and over the last few years
+ has become more and more de rigore
+ as a part of AI deployment consulting.
+ And speaking of AI deployment consulting,
+ Anthropic makes it clear
+ that this new venture is not replacing
+ their previously announced Claude partner network,
+ which represented Anthropic partnerships
+ with a bunch of the big global systems integrators,
+ but an extended effort to get even deeper
+ and closer to the actual point of enterprise transformation.
+ One interesting wrinkle from Anthropic
+ is that they do specifically call out
+ that this new organization will work
+ with mid-sized companies,
+ which might be A,
+ because that's where they've identified opportunity,
+ or B, frankly, a concession to those partners
+ who are focused on the bigger organizations.
+ Indeed, down in the section
+ on the Claude partner network, they write,
+ our partnerships with Accenture, Deloitte, PwC,
+ and the other consulting and systems integration firms
+ in the Claude partner network
+ are one of the ways Claude benefits
+ the world's largest enterprises today.
+ The announcement also has a small section
+ about what the work will look like.
+ A typical engagement they write
+ will start with a small team
+ working closely with the customer
+ to understand where Claude can have the biggest impact.
+ From there, the company's engineers,
+ alongside Anthropic-applied AI staff,
+ will develop Claude-powered systems
+ tailored to each organization's operations.
+ One thing to note is that,
+ although they are discussing
+ a engineer-to-engineer partnership locus,
+ it's not just enterprise engineering process
+ that they're trying to redesign.
+ For example, they discuss
+ a multi-site healthcare services group
+ like a network of physician practices.
+ Clinicians, they say,
+ spend hours each day on documentation,
+ medical coding, prior authorizations,
+ and compliance reviews.
+ An engagement might begin
+ with the company's engineering team
+ sitting down with clinicians and IT staff
+ to build tools that fit into the workflows
+ that staff already use.
+ The clinicians know where time disappears
+ in a shift
+ and what good patient care actually requires.
+ The company's engineers build around that knowledge
+ allowing clinicians to devote more time to patient care.
+ Now, what's interesting here
+ is that, in addition to a thesis
+ about a model of the right type of consulting engagement,
+ i.e. a partnership between applied AI engineers
+ from Anthropic and the engineers inside the company,
+ there's also almost embedded a thesis
+ about how AI change is going to diffuse
+ through new emergent partnerships
+ between the engineering organization
+ and other parts of the company.
+ It feels to me a bit like Anthropic
+ embedding best practice in an operating model.
+ Now, to be honest,
+ both of these announcements feel a little bit rushed.
+ Open AIs, of course, isn't even an announcement,
+ it's just a report,
+ and Anthropic's announcement, such as it is,
+ has very few details,
+ including not actually naming this new venture.
+ Now, one other bit of news
+ that I think is actually part of the same story.
+ Sierra, which is a customer and client relationship
+ agent company,
+ announced that it's raising just under a billion dollars
+ at over a $15 billion valuation.
+ The reason that I say it's related
+ is that Sierra's operating model
+ has always, from the beginning,
+ been to have support heavy deployment engagements
+ that almost situated halfway between
+ a traditional tech startup and a consulting firm.
+ It's not unreasonable to view
+ these anthropic and open AI efforts
+ as effectively scaling that model
+ into a more general-purpose deployment firm.
+ Interestingly, the response from people is pretty much,
+ well, yeah, this was expected.
+ Bursell's Drew Bredvick writes,
+ this is neither bearish nor bullish
+ just proves that it's going to be
+ a 10 to 20-year slog
+ to get all businesses agentified.
+ Drew, by the way, had written a post back in October
+ called AGI Sum Assembly Required
+ that made the argument crisply that many have made
+ that model innovations and technology innovations
+ are likely to outpace
+ the ability of companies
+ to absorb that capability set.
+ Box's Erin Levy writes,
+ whether it's existing consulting firms,
+ new ones that emerge,
+ FTEs from agent vendors,
+ or new internal agent engineering roles,
+ the amount of work that's going to be created
+ to implement agents and enterprises
+ will exceed anything we imagine today.
+ Erin then goes on to talk about
+ just how many different pieces are involved
+ in the easy-to-say-hard-to-do
+ implementation of agents.
+ Putting a fine point on that,
+ Abashak V from Twitter points out
+ that there are more FTE job openings right now
+ than the total number of FTEs
+ currently employed in the U.S.
+ Now, to be clear,
+ I'm not actually sure
+ that there are under 3,000 FTEs in the U.S. right now,
+ but the number of live job openings
+ on LinkedIn, which is what he's pointing to,
+ certainly shows, no matter what,
+ just how much demand for this type of role there is.
+ Putting the raise on debtor for these efforts
+ in the simplest way I've seen it,
+ investor Jeff Wu writes,
+ Agents compress labor faster than
+ institutions compress bureaucracy.
+ The reality I think we're waking up to
+ is that when push comes to shove,
+ there is no AI transformation
+ without organization transformation.
+ This is, I think, increasingly clear
+ to people who are trying to deploy AI
+ inside big enterprises,
+ but it's also starting to show up in the data.
+ Microsoft just released their
+ annual work trend index.
+ This is an annual report they do
+ that is always a really good source
+ of understanding where a broad subset
+ of organizations are when it comes to AI adoption.
+ A lot of the data is concentrated
+ around organizations using Microsoft,
+ but because Microsoft has such big coverage,
+ that actually gives a fairly wide-ranging view.
+ As opposed to, for example, when I survey folks,
+ you're going to have a very concentrated,
+ leading edge-of-the-market sort of perspective,
+ given that you're all listeners
+ to a daily AI podcast.
+ Microsoft divided their findings this year
+ into three sections.
+ The first is how AI lifts the ceiling
+ on individual potential.
+ The second is the idea
+ that the job of every leader
+ is to re-architect work.
+ And the third is to make an argument
+ that every firm is,
+ or at least needs to be,
+ a learning system.
+ In section two, they put exactly the gap
+ that anthropic and open AI
+ are trying to address
+ with these new efforts in plain terms.
+ Most organizations, they write,
+ are not yet built to capture
+ the value of expanded human agency.
+ The challenge is not isolated
+ to tools or individuals.
+ It's a breakdown across the system
+ that connects leadership,
+ culture, management practices,
+ and how work is measured.
+ Put simply, they say,
+ in many cases, employees are moving
+ faster than the organizations around them.
+ And one of the most valuable pieces
+ of this year's index
+ is a quadrant they've developed
+ called the transformation paradox
+ that shows the relationship
+ between employees and their organizations
+ when it comes to AI readiness.
+ The Y-axis runs on the bottom
+ from low individual capability
+ to high individual capability on the top
+ while the X-axis runs
+ from low organizational readiness
+ to high organizational readiness.
+ Now, of course, where organizations
+ want to be, presumably,
+ is high individual capability
+ and high organizational readiness.
+ Microsoft calls that the frontier
+ and, unfortunately,
+ only 19 percent of organizations
+ fall into that category.
+ Organizations that have
+ both low individual capability
+ and low organizational readiness,
+ Microsoft calls stalled
+ and they represent 16 percent.
+ In organizations
+ where AI conditions are high
+ but individual AI practice is low,
+ they call that unclaimed capacity
+ and that represents the smallest section,
+ just 5 percent of organizations.
+ Meanwhile, organizations
+ where there is high individual capability
+ but low organizational readiness,
+ they refer to as blocked agency
+ which represents 10 percent.
+ Now, you might notice
+ that those don't add up to 100 percent.
+ It's because they actually categorize
+ 50 percent of the organizations
+ as still emergent
+ where both individual AI practice
+ and organizational conditions
+ are taking shape in a way
+ that they're not exactly quantifiable
+ into these categories so far.
+ I would argue,
+ based on our experience,
+ both around AIDB
+ but at Superintelligent as well,
+ that if you put those emergent organizations
+ into one of the four quadrants
+ that they most belonged in,
+ the number that were in the blocked agency quadrant
+ which was again individual AI practice
+ high organizational AI conditions low
+ would rise dramatically.
+ That is, I think,
+ increasingly the average state
+ where, yes, there is a very wide range of adoption
+ but the people who are adopting AI well
+ are significantly constrained
+ by organizational readiness issues.
+ But one of the things that's clear
+ from the Work Trend Index
+ is that when an organization
+ does get its stuff together,
+ it leads to more of what Microsoft
+ calls frontier professionals,
+ i.e. the best, most effective
+ and most regular users of AI.
+ There are big org level differences
+ between frontier professionals
+ and non frontier professionals.
+ While 64% of all employees
+ said that their manager
+ openly uses AI,
+ 85% of frontier professionals
+ said the same.
+ This was basically the same
+ across every other question
+ around managers,
+ including setting quality standards
+ for AI work,
+ creating space for experimentation
+ and encouraging more ambitious work redesign.
+ In each case,
+ the difference between the frontier professionals
+ and the non frontier
+ was at least 20 percentage points.
+ Frontier professionals also were
+ more than 2x more likely to say
+ that they were rewarded
+ for the reinvention of work with AI
+ regardless of the outcome.
+ Section 3, organizations as learning systems
+ puts a fine point on this,
+ arguing that the biggest factor
+ behind AI impact
+ is not individual but organizational.
+ The headline stat is that
+ organizational factors,
+ in which they include culture,
+ manager support,
+ and talent practices
+ account for more than 2x
+ of AI's real impact
+ as does individual mindset and behavior.
+ Now this is of course
+ only going to get more challenging
+ in the time of agents.
+ This is what a lot of our content
+ has been about recently.
+ Microsoft identified
+ that the number of active agents
+ in their ecosystem
+ has grown 15x year-over-year overall
+ and 18x in large enterprises.
+ In an episode soon,
+ we'll get into some of the common mistakes
+ we're seeing with deployment,
+ but frequent guests
+ and AI DB training leader
+ Neufar Gaspar
+ shared three observations
+ of AI adoption shortcuts
+ that are pretty common
+ but end up not working out.
+ The first one she calls by in Hope,
+ which I think will be familiar to many of you,
+ that's where an organization pays
+ for the licenses,
+ sends the excited email out to people
+ saying they now have these new toys
+ and then hopes that somehow
+ turns into transformation.
+ The second adoption shortcut
+ that doesn't work,
+ she calls Contain and Delegate.
+ This is where leaders hand
+ the transformation goals
+ over to the AI team
+ rather than A,
+ interacting with it themselves
+ and B,
+ actually trying to diffuse it
+ across the organization as a whole.
+ The last adoption shortcut
+ that doesn't stick that she identifies
+ which is one that Professor Ethan Mollick beats
+ the drum about quite a bit
+ is the outsourcing of knowledge.
+ This was particularly common I think
+ in the first couple years
+ of post chat GPT AI consulting
+ where organizations would hire their
+ GSI or big consulting firm of choice
+ and effectively hope
+ that they could figure it out for them.
+ Now of course,
+ given that Anthropic and OpenAI
+ are both raising billions of dollars
+ to pursue the deployment opportunity,
+ there is clearly a role
+ for those types of external expertise partnerships.
+ But as you heard,
+ the model is not drop in an expert
+ to figure it out for you.
+ It's embed builders alongside your teams
+ to run a best practice laden process
+ that integrates engineers
+ with everyone else.
+ We frequently talk here
+ about the capability overhang.
+ That's the gap
+ between the possibilities of AI
+ and the value
+ that people are actually getting out of it.
+ The capability overhang
+ operates on an individual
+ and an organizational level.
+ However, in the age of agents,
+ especially for organizations,
+ it is getting worse, not better.
+ Model and harness capabilities together
+ are racing ahead
+ of where most organizations are
+ and it is going to take
+ an all hands on deck
+ kind of approach
+ to actually help organizations
+ get the value
+ that they could out of this.
+ Now as an aside
+ and clearly beyond the scope
+ of this particular show,
+ I will note how infrequently
+ slash never
+ the AI jobs displacement discussion
+ actually engages meaningfully
+ with the reality
+ of last mile deployment issues.
+ I think this is an important discourse
+ to correct,
+ given that for those who feel that AI
+ will ultimately
+ unlock and create new opportunities
+ but also cause
+ a fairly chaotic transitional period.
+ One could argue
+ that organizational inertia
+ actually becomes an asset
+ in slowing down the rate of diffusion
+ in a way that gives us
+ more time to adapt.
+ Still holding those broader society
+ implications aside,
+ when it comes to the actual questions
+ of how organizations
+ can get value out of AI,
+ I think the most interesting thing to watch
+ will be to what extent
+ the FDE collaboration style model
+ of consulting that both of these
+ organizations are clearly pursuing
+ becomes the norm
+ for this type of professional service
+ going forward.
+ Now a lot of issues remain.
+ For one,
+ there is for example
+ an inherent business model challenge
+ where these organizations
+ presumably face attention
+ between their goal
+ of helping companies be
+ not only most effective
+ in their AI adoption
+ but also most efficient
+ and on the other hand
+ their parent organization's goal
+ of selling as many tokens as possible.
+ The point is that there's going to be
+ a lot of interesting things
+ to watch with these developments
+ but for now
+ that is going to do it
+ for the AI Daily Brief.
+ I appreciate you listening
+ or watching as always
+ and until next time
+ peace.
+ you
