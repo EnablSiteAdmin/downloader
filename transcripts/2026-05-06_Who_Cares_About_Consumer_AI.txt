@@ -1,0 +1,866 @@
+ Today on the AI Daily Brief, who cares about consumer AI?
+ Before that on the headlines, were Coinbase's layoffs really about AI?
+ The AI Daily Brief is a daily podcast and video about the most important news and discussions
+ in AI.
+ Alright friends, quick announcements before we dive in.
+ First of all, thank you to today's sponsors, KPMG, Granola, Mercury, and Section.
+ To get an ad-free version of the show, go to patreon.com.ai-dailybrief or you can subscribe
+ on our podcast, remember ad-free is just $3 a month.
+ If you want to learn more about sponsoring the show or really anything else about the
+ show or around the show, go to ai-dailybrief.ai.
+ Quick reminder that on ai-dailybrief.ai we are live with the AI usage pulse survey.
+ Thanks in advance for taking a minute to do that, you can find a link in the show
+ notes as well.
+ And you can also find links to our latest education programs.
+ Join 4,500 friends to learn how to build your agentic operating system with the free Agent
+ OS program.
+ Or if you're looking for something for your teams, we've got the third cohort of Enterprise
+ Claw Live as well as a new four-week executive sprint from New Far Gas Bar that is registering
+ people now as well.
+ Again, you can find all that on ai-dailybrief.ai.
+ Earlier this week, as you well remember, I made a big deal about a bunch of fairly
+ small signals that suggested to me in aggregate that maybe, just maybe, the AI
+ doom narrative was feeling a bit of narrative exhaustion.
+ That maybe there was a opening for a more optimistic narrative surrounding AI.
+ The response to Coinbase's layoff announcement yesterday suggests that maybe I was
+ overstating the case.
+ Yesterday, Brian Armstrong tweeted the email that he had sent to all employees at
+ Coinbase announcing a 14% reduction in the team.
+ That means about 700 of 5,000 people will be laid off.
+ And of course, AI was at the very center of the story.
+ In fact, if you just look at the news headlines about this, AI was the only
+ part of the story.
+ Reuters crypto exchanged Coinbase to cut about 14% of workforce in AI-driven
+ cuts.
+ Fortune, Coinbase didn't just lay off 14% of its staff due to AI.
+ It replaced managers with player coaches and turned its blah, blah, blah, blah.
+ SF Gate, formerly SF headquartered crypto giant to lay off 700 workers in
+ AI shift.
+ And of course, the New York Times, the paper of record Coinbase lays off 14%
+ of employees as AI changes work.
+ So what's the issue with this?
+ Brian did say explicitly, AI is changing how we work.
+ He wrote, over the past year, I've watched engineers use AI to ship in days
+ what used to take a team weeks.
+ Non-technical teams are now shipping production code and many of our
+ workflows are being automated.
+ The pace of what's possible with a small focus team has changed
+ dramatically and it's accelerating every day.
+ All of this has led us to an inflection point, not just for Coinbase,
+ but for every company.
+ The biggest risk now is not taking action.
+ We are adjusting early and deliberately to rebuild Coinbase to be lean,
+ fast and AI native.
+ We need to return to the speed and focus of our startup founding with AI
+ at our core.
+ The rest of the post is all about what that means.
+ Fewer layers, faster decisions, no pure managers.
+ Every literate Coinbase he says must be a strong and active individual
+ contributor.
+ Managers should be like player coaches getting their hands dirty alongside
+ their teams.
+ He also announced what he called AI native pods.
+ We'll be concentrating around AI native talent who can manage
+ fleets of agents to drive outsized impact.
+ We'll also be experimenting with reduced pod sizes, including one
+ person teams with engineers, designers and product managers
+ all in one role.
+ In short, AI is bringing a profound shift in how companies
+ operate and we're reshaping Coinbase to lead in this new era.
+ This is a new way of working and we need to leverage AI across
+ every facet of our jobs.
+ So first of all, I don't not believe any of what he's
+ saying there.
+ In fact, a lot of that is the type of stuff that we talk
+ about on this show every day.
+ What's more, Brian has a long history of making tough
+ decisions with Coinbase that have helped it weather it and be a
+ strong company across what is one of the most volatile
+ industries in the world.
+ So what's the issue?
+ Well, the issue is, of course, with that volatile industry
+ that Coinbase is in, as much as they are trying to move into
+ other areas of finance, Coinbase is and remains at the
+ moment a crypto company.
+ Crypto is, to put it mildly, not doing well.
+ It's beyond the scope of the show to get into whether
+ that is regular cyclicality or much more concerning
+ fundamentals, but there are, I will say, plenty of people,
+ including many of the big financial giants who made a big
+ deal about getting into the space 18 to 24 months ago,
+ who have lost the faith.
+ And to be fair to Brian, he did spend at least a couple
+ sentences on crypto, although it's pretty minimal.
+ Crypto, he writes, is on the verge of the next wave of
+ adoption with stablecoins, prediction markets, tokenization
+ and more taking off.
+ However, our business is still volatile from quarter to
+ quarter.
+ While we've managed through that cyclicality many times
+ before and come out stronger on the other side, we're
+ currently in a down market and need to adjust our cost
+ structure now so that we emerge from this period leaner,
+ faster and more efficient for our next phase of growth.
+ What he's not saying is holy crap, absolutely no one
+ is trading crypto anymore.
+ As evidence of that just a week ago when Robinhood
+ announced their Q1 earnings, they showed a 47% year over
+ year dip in crypto trading revenue.
+ So if you are a public market CEO and your option is
+ either, A, talk about how your core market is half
+ year over year, which I'm not saying Coinbase's
+ numbers are the same as Robinhood's, I'm just
+ using it as an example.
+ And opinions about that industry are incredibly bleak
+ or alternatively, are you gonna blame it on AI?
+ It's not even a question.
+ And I'm not even mad at Brian Armstrong for doing it.
+ What's preposterous is the unanimous wall-to-wall
+ acceptance of AI as the main story.
+ It's almost like media outlets will question CEOs
+ unless those CEOs happen to be reinforcing
+ their preferred narratives.
+ Book of Capital on Twitter wrote,
+ the only companies firing people because AI makes them
+ so wildly productive also share these attributes.
+ Over hire during COVID, our market share losers
+ have giant cat-back spend.
+ What a delightfully curious coincidence.
+ Axios was alone in questioning the narrative
+ and good on them.
+ They published a piece called AI Becomes the Easy Alibi
+ for Waves of Layoffs.
+ Look, I will end the rant there,
+ but my point is ultimately this,
+ there are absolutely going to be massive changes
+ to the structure of employment,
+ certain types of roles in higher industries,
+ change will come because of AI.
+ I want us to deal with the real stuff,
+ rather than just have this be a convenient excuse
+ for public market CEOs looking to defray the bigger story.
+ Moving on to our next story, but staying in markets,
+ Anthropic has committed to spending 200 billion
+ with Google Cloud as new details emerge
+ about their blockbuster deal.
+ Last month, Anthropic announced a new deal
+ with Google and Broadcom
+ to supply five gigawatts of compute
+ starting from next year.
+ No dollar amount was attached,
+ but this is a huge amount of compute
+ so no one thought it would be cheap.
+ The information now reports the deal
+ is worth 200 billion spread across five years.
+ And indeed represents the lion's share
+ of the $462 billion backlog Google announced last week
+ during earnings which sent their stock soaring.
+ Digging into the story a little further,
+ the information found that Microsoft, Oracle,
+ Google and Amazon have now reported
+ a $2 trillion backlog between them
+ with open AI and Anthropic accounting
+ for almost half of that backlog.
+ The article of course ran through the usual arguments
+ we've heard over the past year,
+ the question of whether revenue from the foundation labs
+ can keep up with their spending commitments,
+ as well as of course the circular spending argument
+ where in this case Google's investment of up
+ to 40 billion in Anthropic seems to be flowing back
+ into their financial reports as backlogged orders.
+ Now to many, those arguments are getting
+ less and less interesting
+ as we see revenue growth go vertical this year.
+ But what's interesting is how differently
+ investors seem to be responding to this news
+ compared to similar previous reports.
+ Last September, Oracle announced
+ they had a $455 billion backlog,
+ largely consisting of a $300 billion deal
+ with open AI spread over five years.
+ The stock jumped by 36% in a day,
+ one of the single largest day moves
+ for a company of their size in history.
+ Yet in the following days, analysts very loudly questioned
+ whether open AI could meet such a huge commitment.
+ The stock retraced the entirety of its move by mid-November
+ and has been grinding lower ever since.
+ It only began to slightly recover last month.
+ The response to the Google Anthropic deal
+ was the polar opposite.
+ The market already knew Google had
+ a $462 billion backlog last week,
+ but Google's stock surged on the news
+ that Anthropic was behind over 40% of the backlog.
+ The news was released just after market closed
+ with the stock adding 1.5% in overnight trading
+ after an already strong session
+ which saw it reach a new all-time high.
+ The boost was enough in overnight trading
+ to push Google up above Nvidia
+ as the most valuable company in the world,
+ although that is not persisted into trading today.
+ So maybe that idea that the narrative is shifting
+ isn't completely wrong.
+ Palantir also had a massive earning session.
+ Heading into the report,
+ the big question was whether Palantir
+ should be grouped with big tech as an AI beneficiary
+ or be lumped in with the software slowdown.
+ Palantir's stock is down almost 20% so far this year,
+ but their AI-first platform positions them
+ to benefit from the token drought.
+ The big number was top-line revenue
+ with Palantir reporting 85% year-over-year growth,
+ their fastest pace since their public market debut in 2020.
+ Net income is up 4x over the past year
+ reaching 870 million for the quarter
+ with government-based revenue driving the acceleration
+ increasing from a 66% growth rate in Q4 to 84% in Q1.
+ CTO Shyam Sankar had some very clear thoughts
+ about Palantir's position
+ in the rapidly emerging token economy.
+ Tokens are the new coal, he said.
+ Palantir is the train.
+ Speaking of coal and trains and core commodities,
+ BlackRock CEO Larry Fink said that he believes
+ that compute will become a financialized commodity.
+ In a panel discussion at Milken on Tuesday,
+ Fink said that he thinks AI compute
+ will eventually be traded on futures markets
+ similar to oil, wheat, or electricity.
+ He said that a new asset class
+ will be buying futures of compute.
+ Fink also informed his audience of financial industry folks
+ that the US is tapped out on capacity,
+ commenting, we just don't have enough compute power
+ right now.
+ Putting a fine point on his current view
+ of the industry he added, there is not an AI bubble.
+ There is the opposite.
+ We're short power, we're short compute, we're short chips.
+ Demand is growing much faster
+ than anyone has ever anticipated.
+ Fink also teased that BlackRock is preparing
+ to announce an infrastructure funding deal
+ with the hyperscaler in the coming weeks.
+ Putting a fine point,
+ at least on the market's return to enthusiasm,
+ demand for the Syrivers IPO
+ is massively outstripping supply.
+ Earlier in the week, SEC filing stated
+ that the firm plans to sell 3.5 billion
+ at a high end valuation of 26.6 billion.
+ The problem according to Bloomberg sources
+ is that private investors are seeking
+ 10 billion in allocations.
+ On Tuesday, Bloomberg reported
+ that the presale is turning into an auction.
+ Investors have been told to submit
+ their desired allocation and maximum price.
+ This is a break from typical IPO protocol.
+ Usually the price is set and excess demand
+ is resolved by trimming allocation.
+ This unusual practice could suggest
+ that Syrivers will raise their IPO price
+ and maybe bump up the number of available shares.
+ It also is very clearly an indicator
+ on just how bullish Wall Street is on AI chips right now,
+ which I think we'll get confirmation of
+ once the IPO goes live.
+ For now though, that is gonna do it for the headlines.
+ Next up, the main episode.
+ One of the most important AI questions right now
+ isn't who's using AI, it's who's using it well.
+ KPMG and the University of Texas at Austin
+ just analyzed 1.4 million real workplace AI interactions
+ and found something surprising.
+ The highest impact users aren't better prompt engineers,
+ they treat AI like a reasoning partner.
+ They frame problems, guide thinking,
+ iterate and push for better answers.
+ And the good news, these behaviors are teachable at scale.
+ If you're trying to move from AI access to real capability,
+ KPMG's research on sophisticated AI collaboration
+ is worth your time.
+ Learn more at kpmg.com slash us slash sophisticated,
+ that's kpmg.com slash us slash sophisticated.
+ Today's episode is brought to you by Granola.
+ Granola is the AI notepad
+ for people in back-to-back meetings.
+ You've probably heard people raving about Granola,
+ it's just one of those products
+ that people love to talk about.
+ I myself have been using Granola for well over a year now
+ and honestly it's one of the tools
+ that change the way I work.
+ Granola takes meeting notes for you
+ without any intrusive bots joining your calls.
+ During or after the call, you can chat with your notes,
+ ask Granola to pull out action items,
+ help you negotiate, write a follow-up email,
+ or even coach you using recipes
+ which are pre-made prompts.
+ Once you try it on a first meeting,
+ it's hard to go without.
+ Head to granola.ai slash ai-daily
+ and use code ai-daily,
+ new users get 100% off for the first three months.
+ Again, that's granola.ai slash ai-daily.
+ This episode is brought to you by Mercury,
+ banking for people who expect more
+ from the tools they rely on.
+ If you're building a modern business
+ but still using a traditional bank,
+ it just doesn't make sense.
+ I use Mercury for all of my ADB family of companies
+ and it honestly feels like financial software
+ built for how people actually operate today.
+ It's fast, clean, no in-person visits,
+ no minimum balances,
+ and the things that used to take forever
+ like sending wires or spinning up new accounts
+ take seconds.
+ Everything lives in one dashboard,
+ cards, payments, invoices, team permissions,
+ and you can automate a lot of the busy work
+ so you're not constantly manually managing your money.
+ Of all of the services I use to run AIDB,
+ I never thought banking would be one of my most painless
+ and most happy experiences,
+ but with Mercury, that's exactly what it is.
+ Visit mercury.com to learn more
+ and apply online in minutes.
+ Mercury is a fintech company,
+ not an FDIC-insured bank.
+ Banking services provided through Choice Financial Group
+ and ColumnNA, members of FDIC.
+ Here's a harsh truth.
+ Your company is probably spending thousands
+ or millions of dollars on AI tools
+ that are being massively underutilized.
+ Half of companies have AI tools,
+ but only 12% use them for business value.
+ Most employees are still using AI
+ to summarize meeting notes.
+ If you're the one responsible for AI adoption
+ at your company, you need Section.
+ Section is a platform that helps you manage
+ AI transformation across your entire organization.
+ It coaches employees on real use cases,
+ tracks who's using AI for business impact,
+ and shows you exactly where AI is
+ and isn't creating value.
+ The result, you go from rolling out tools
+ to driving measurable AI value.
+ Your employees move from meeting summaries
+ to solving actual business problems,
+ and you can prove the ROI.
+ Stop guessing if your AI investment is working.
+ Check out Section at sectionai.com,
+ that's S-E-C-T-I-O-N-A-I dot com.
+ Welcome back to the AI Daily Brief.
+ Today, we are discussing who cares about consumer AI,
+ which in this case is both a question and a statement.
+ We've got a couple of pieces of news
+ plus some rumors and reports
+ that all dealt to some extent with consumer AI
+ and it almost served as a reminder of just how much
+ the focus of the industry has moved away
+ from the consumer side of things
+ and centered squarely on the enterprise.
+ Now to understand where this came from,
+ we gotta go back in time a little bit.
+ Q4 2025 was a rough one for open AI.
+ The reception of GPT-5 had been quite bad.
+ Google seemed to be firing on all cylinders
+ with all of their Gemini products,
+ winning more and more users,
+ and the devotion of developers
+ was almost entirely in the anthropic camp
+ and had been at that point for about a year and a half.
+ Now, even as early as GPT-5,
+ it was clear that open AI
+ was trying to shift the conversation around it,
+ that open AI was at least trying to nudge the conversation
+ towards use cases like coding
+ as opposed to just the consumer usage
+ where they were dominant.
+ The company started talking about Codex a lot more.
+ Indeed, they were releasing Codex-specific versions
+ of each of their incremental model releases.
+ Fast forward a couple months from there,
+ the world is getting claw-fied.
+ Open AI has actually brought the creator
+ of Open Claw in-house
+ and CEO of applications, Fiji Simo,
+ is pushing the company incredibly hard
+ to cut back on side quests
+ to focus on their core business.
+ Now, it was clear even at the time
+ that by core business,
+ she meant the coding and enterprise business,
+ and by side quest, she meant everything else,
+ but what made that real in a way
+ that basically nothing else could
+ was when Open AI went so far
+ as to actually shutter their Sora app.
+ This was one of the first times
+ that we had seen Open AI
+ actually have to make a choice
+ in where to deploy its compute
+ and by canceling this consumer video app
+ and the billion-dollar Disney deal that came with it,
+ they could not have been sending a clearer signal
+ that enterprise and work-related use cases
+ were for the foreseeable future of their focus.
+ And now we're operating in a world
+ where the entire narrative of 2026
+ has been all about not only coding agents,
+ but coding agents and agent-coding processes
+ impacting every other knowledge workflow
+ and just a huge amount of the attention
+ being squarely on the enterprise.
+ Airbnb CEO, Brian Chesky,
+ said that of the 175 companies
+ in the last batch of Y Combinator,
+ only 16 weren't focused on the enterprise.
+ And yet, even if Open AI is still young enough
+ to get to decide what its core DNA is,
+ there are some companies
+ that are just unavoidably consumer through and through.
+ The most obvious of these is Meta,
+ and Zuckerberg, for his part,
+ seems hell-bent on building consumer AI,
+ even if it looks like them swimming against the tide,
+ which is not to say that they're not inspired
+ by what's going on in enterprise AI.
+ The information reports that Meta is training
+ a new open-claw-inspired agent that is codenamed Hatch.
+ Sources said that they aim to have the product ready
+ for internal testing by June.
+ The agent is designed to be the logical progression
+ of many of the early tests in consumer agentics,
+ largely focused on shopping and personal productivity tasks.
+ Meta is currently training the agent
+ to navigate the web in simulations of real websites
+ and apps using DoorDash, Etsy, Reddit, Yelp, and Outlook.
+ Currently, Hatch is powered by Claude models,
+ but Meta intends to use their own models upon release.
+ In addition, sources said that Meta plans
+ to integrate a separate shopping agent into Instagram
+ with a target launch date of Q4.
+ And increasingly, Meta is alone as the only major lab
+ that has consumer AI as their current and dominant focus.
+ During last week's earnings call,
+ Mark Zuckerberg said that Meta's goal
+ is to, quote, deliver agents that can understand your goals
+ and then work day and night to help you achieve them.
+ But that does not seem to be about your work goals.
+ In that same earnings call, Zuckerberg moved the conversation
+ away from the coding agents
+ that have dominated the B2B conversation.
+ He said, I'm not against having an API or coding tools,
+ but it's not our primary focus.
+ People conflate coding with self-improvement
+ more than they should.
+ Coding is one ingredient for the model self-improving,
+ it's not the only thing.
+ We are focused on all the parts
+ that are going to be necessary for self-improvement.
+ Now what makes Zuckerberg's bet all the more interesting
+ is that they are forecasting to spend
+ between 125 billion to 145 billion
+ in infrastructure spend this year,
+ meaning that they clearly believe
+ that there is financial opportunity
+ that others aren't seeing in the consumer space.
+ Another story from yesterday
+ that is at least nominally consumer related,
+ although not exclusively,
+ OpenAI has updated their default model
+ with the release of GPT 5.5 Instant.
+ It replaces GPT 5.3 Instant,
+ which even after the release of GPT 5.5 Thinking,
+ was the default choice for free users,
+ as well as subscribers on the $8 chat GPT GO plan.
+ And as OpenAI has moved away
+ from UI emphasis on the model selector,
+ the choice of their default model
+ has more impact on the consumer experience.
+ Indeed, with the introduction of GPT 5.3 Instant in March,
+ OpenAI actually removed the model selector
+ for free and go users.
+ Now 5.5 Instant itself is a good model.
+ It delivers a significant benchmark jump
+ over its predecessor.
+ It scored 81.2 on the AIME 2025 math test
+ compared to 65.4 for 5.3
+ and the multimodal reasoning benchmark MMLU Pro
+ also saw a jump from 69.2 to 76.
+ Probably even more importantly,
+ OpenAI says they've seen reduced
+ hallucination rates for sensitive areas
+ and the model will now be able to access memory,
+ use a Gmail connector and have better context management.
+ Ethan Malik noted that the benchmark suggests
+ that OpenAI's free model is now at a similar level
+ to frontier models from late last year.
+ Now part of why this matters
+ is that one of the big divides in the AI conversation
+ has been that for some time,
+ the skeptics have been able to convince themselves
+ that AI actually isn't all that good.
+ This has finally started to go by the wayside,
+ but a lot of the loudest critical voices
+ were peddling this idea
+ that people didn't really have to pay attention
+ because the industry was just hyping itself up.
+ And while anyone who has used, for example,
+ Claude Code to build something
+ might be gobsmacked at that assessment,
+ you have to remember that for about 900 million people,
+ their only experience with AI
+ is whatever the base model that ChatGBT gives them.
+ If 5.5 Instant proves to be as big a jump in quality
+ as it seems like it could be,
+ it might dramatically change
+ what those people think of AI,
+ helping some of them finally reassess their priors.
+ And yet it still certainly feels like an afterthought
+ compared to the enterprise-focused
+ and coding-focused model releases.
+ The questions surrounding consumer versus enterprise AI
+ aren't just limited to the industry itself.
+ During an appearance on Tuesday
+ alongside anthropic Stario Amade,
+ JP Morgan CEO, Jamie Dimon,
+ endorsed the AI CapEx boom,
+ but said that he wasn't sure
+ that this was actually a consumer technology.
+ He said the technology is so powerful
+ it's worth the trillion-dollar investment
+ and argue that enterprise use cases have found their niche.
+ On the flip side, when it comes to consumer, he said,
+ it's not clear to me how consumer is going to play out.
+ A lot of you probably use Gemini.
+ You can use it for free
+ and that may be completely sufficient
+ for your requirements.
+ Enterprise, we always look at it a little bit more
+ like I'm making an investment in what I'm getting for it.
+ If it makes you better off, you make the investment,
+ whether it's hardware, software or machine learning
+ or salespeople.
+ The point that he was making
+ was not that consumer AI was useless
+ or anything like that,
+ but just that in his estimation,
+ there wasn't an obvious basic consumer use case
+ that would warrant a paid subscription,
+ again, outside of work.
+ Another interesting example
+ to see just how much things have changed
+ is looking at the responses
+ to last year's GPT image model release versus this year's.
+ In 2025, the release of Nanobanana
+ but even more GPT images
+ were some of the biggest viral moments of the year.
+ To this day, there are still people
+ using a Studio Ghibli version of their portrait
+ as their profile picture and Ghiblifying memes.
+ According to a recent study from app figures,
+ these releases were by far the biggest download drivers
+ for the Gemini app and the chat GPT app respectively last year.
+ Nanobanana drove 22 million additional downloads in a month
+ while GPT images added 12 million incremental downloads.
+ Those two models were the second
+ and third ranked consumer AI releases
+ falling short only to Deepsea Car One,
+ which as we've discussed extensively
+ was the first time most people ever got their hands
+ on a reasoning model.
+ There was also just a tremendous amount
+ of buzz and horror, frankly,
+ from the markets around that,
+ leading more eyes to be on it.
+ The app figures report also highlighted
+ that GPT images was a much larger event
+ than any other text-based model OpenAI had released.
+ Compare that to the release of GPT images to this year.
+ It didn't generate anywhere near as much hype.
+ The only meme-y type viral moment we got
+ was replicating a five-year-old's drawing in MS Paint.
+ That was popular enough to be a couple of covers
+ for my shows last week, but has already faded.
+ Now, part of this might be simply the fact
+ that images too, although massively better
+ on vectors like text and editability,
+ didn't bring a net new experience to the consumer.
+ It was a major upgrade for people
+ that use Image Generation as a tool,
+ but for the casual user,
+ it didn't represent something fundamentally new.
+ And in fact, when you actually look at the discourse
+ around images too, it was basically all about
+ how people could use it with Codex.
+ To put it bluntly, if last year's big drivers
+ were Image Generation models,
+ this year is all about the coding and work harnesses.
+ People, for example, have been following the dogfight
+ between Codex and Claude Code,
+ with ticker trends showing a huge increase in Codex installs.
+ Simon Smith points out
+ that the value of these new model releases
+ is basically just about how they work in the harness together.
+ Sharing Codex zooming ahead of Claude Code in download,
+ Simon Smith writes,
+ the frontier AI competition is ongoing
+ between primarily Google Open AI and Anthropic right now,
+ but this shift in preference to Codex is a huge recent change,
+ driven, I think, largely by the triple whammy
+ of GPT Image 2, GPT 5.5,
+ and Codex all being fantastic and working well together.
+ Now what he means and what I mean
+ when we're talking about Image 2
+ being just part and parcel
+ of this larger Codex conversation
+ is that the thing that people have been so excited about
+ is using GPT Image 2 to solve the UI and design issues
+ that had previously hampered open AI models
+ as compared to Anthropic models.
+ The thing I think that we haven't quite named as crisply
+ as we need to to understand what's changing
+ is that up until this point, the last three to six months,
+ one could reasonably look at attention on consumer AI
+ versus attention on enterprise AI
+ as a question of seat conversion.
+ Total pie of consumer is bigger,
+ so even though they convert to paid seats at a lower rate,
+ they might be worth more in aggregate.
+ That seemed to bear out by how much bigger open AI was
+ in terms of revenue than Anthropic throughout 2025.
+ But then Anthropic went on this massive tear.
+ In 2026 it surged from 14 to then 19
+ to then 24 to 30
+ and now apparently to 44 billion in annualized revenue.
+ And the important thing is that that is not
+ because they uncovered a whole bunch of new seats
+ in the enterprise that they could convert to paid users.
+ It's because work-related usage of these models
+ is categorically different
+ than the seat-based consumer usage.
+ An individual using the API in Claude Codex or Codex
+ is not potentially worth 10 times as much as a user.
+ It's not the difference between a $20 subscription
+ and a $200 subscription.
+ They are worth potentially 100
+ or even more times that user.
+ In fact, it's not even clear yet
+ that we really actually have a sense of just how much more
+ an API user is worth relative to a normal seat user.
+ What we do know is that the labs
+ are having to shift their business models
+ to move towards consumption-based usage
+ because the power users are consuming so much.
+ What's more, I don't think anyone thinks
+ we've seen even close to the cap on the demand for tokens.
+ And in a world where the demand for tokens
+ from work-related users massively outstrips the supply,
+ how can it possibly make sense
+ to reserve even a handful of those tokens for the consumers?
+ Certainly, people are noticing that the level of products
+ is not nearly the same in these two areas.
+ A Reddit conversation in r slash agi from a few months ago
+ was why are AI coding agents incredible
+ while consumer agents suck?
+ Now, it is worth noting
+ that not only has consumer AI not failed,
+ it is by far unquestionably
+ the fastest-growing technology category in history.
+ The total weekly active users of AI
+ has gone from about 100 million at the beginning of 2024
+ to 1.2 billion in 2026.
+ You're talking about a 20x plus increase in two years.
+ As investor Apoor Vagarwal puts it,
+ chatGPT at 900 million weekly active users
+ is larger than Spotify at 600 million
+ in the same neighborhood as TikTok and Instagram
+ and approaching WhatsApp and Chrome,
+ each of which I consider essential utilities.
+ ChatGPT used to be a rounding error
+ next to consumer giants.
+ Now it's in the same league.
+ Most people, myself included,
+ thought that this would take much longer.
+ And to be clear, these aren't just curiosity users.
+ When it comes to metrics of engagement
+ like the ratio of weekly to monthly active users,
+ basically showing that most people
+ are using it frequently rather than just irregularly,
+ chatGPT at this point is ahead of X, Spotify and TikTok
+ and starting to come up into Facebook
+ and Instagram territory.
+ ChatGPT is also getting stickier over time,
+ which very, very rarely happens.
+ The time that individual users spend
+ on AI apps is also rising.
+ ChatGPT has roughly tripled its time per user
+ since early 2023.
+ The point being that this is not a question
+ of whether consumer AI is working.
+ It very clearly is.
+ It's a question of money.
+ The base level analysis is about
+ the very small fraction of users
+ who pay for premium accounts.
+ Bank of America, for example,
+ recently came out with a study
+ that found that only 3% of households
+ that were Bank of America customers paid for AI today,
+ it's really about the fact
+ that the token consumption value
+ of a work-related user has become,
+ as I stated before, categorically different
+ to a consumer user.
+ So how can this possibly resolve?
+ The short answer is there has to be some revenue stream
+ outside of subscriptions
+ that makes consumer worth paying attention to
+ for these companies.
+ Olivia Moore from A16Z writes,
+ the big story that most people are missing
+ in the AI race for the consumer is ads.
+ Right now, most consumer AI revenue
+ is coming from power users
+ who are willing to pay high-cost subscriptions.
+ This will not be the end state.
+ Google makes around $460 per user per year
+ in the U.S., mostly on ads.
+ Meta makes around $250.
+ I would argue chatGPT's ad-based ARPUs
+ will be even higher
+ as they will ultimately have deeper
+ and more frequent user engagement.
+ But even at the $460 level,
+ i.e. matching Google currently,
+ monetizing everyone in the U.S. via ads
+ is $152 billion in annual revenue.
+ By contrast, if you're able to monetize
+ even 5% of the population
+ on a $200 a month subscription,
+ that's only $40 billion.
+ And that's the logic of why,
+ even if people get up in arms about ads,
+ for consumer AI to exist,
+ it feels almost inevitable
+ that they're going to be part of the equation.
+ And while the announcements
+ get buried relative to everything else,
+ OpenAI does keep adding developments
+ around their ad platform.
+ Another area that some have looked at
+ is agentic commerce.
+ Although there's even more skepticism here,
+ I think, that there is around ads.
+ Ads, at least, are proven territory.
+ Whether people want agents to shop for them,
+ I think, is very different.
+ Andy Jassy from Amazon recently talked about this.
+ What you see with agentic commerce, he said,
+ is it is a small fraction
+ of what we see with the search engine referrals.
+ But the experience has just not gotten great
+ with these third-party horizontal agents yet.
+ They're not often able to get the pricing right
+ or the product information right.
+ They don't have any personalization data
+ or any shopping history.
+ So we do want to see that get better
+ with third-party horizontal agents.
+ We're having conversation
+ with all those folks to try and make that better
+ and find something that works for consumers
+ and all the companies.
+ It'll be interesting over time
+ which agents customers choose to use.
+ Jassy's argument is that most people will default
+ to the native agentic shopping assistant
+ in the merchants they already shop with.
+ I think personally that one of the challenges
+ is that shopping represents
+ two very different types of behavior.
+ There is the version of shopping
+ where people just want the thing that they want
+ and they don't want to think about it very much.
+ And for that, yes, potentially agents could be really good.
+ In a lot of shopping, however,
+ the browsing is part of the experience.
+ People like the quest.
+ Learning about all their options
+ is part of the value they get.
+ It's less clear to me how agents fit in with that.
+ And by the way, even in the first scenario,
+ I think people might be underestimating
+ the cognitive cost of offloading all the context
+ that a shopping agent needs
+ to actually make the right decision for you.
+ Are people going to sit down
+ and tell agents all of the criteria they have
+ only to realize when the results come back
+ that they left off something really important
+ that they hadn't even thought of before?
+ At that point, why aren't you just doing it yourself?
+ Now, I'm not at all saying
+ that these things can't be solved.
+ I'm just saying it's another big challenge
+ that makes consumer AI look tough.
+ Devices could be another area
+ where consumer AI flourishes.
+ Leaks are suggesting that open AI
+ is accelerating development of its first AI agent phone
+ with mass production potentially starting
+ in the first part of next year.
+ But there are also reports that they're thinking
+ about spinning out their robotics
+ and hardware divisions to have more focus.
+ When it comes to the question
+ of who cares about consumer AI,
+ there is no question that a lot of consumers
+ care about consumer AI.
+ ChatGBTing has already started to become a verb
+ in the way that Googling has been for 20 years.
+ But the challenge is that
+ we are entering a period of scarcity
+ where more than it's ever been,
+ the supply of tokens will not be able
+ to keep up with the demand of tokens.
+ In that period, consumer AI looks very tough to me.
+ But then again, that might be why
+ it's an interesting contrarian bet.
+ Back to that same Brian Chesky interview
+ where he talked about YC going to the enterprise,
+ after describing all the different reasons
+ why companies he didn't think were going after consumer,
+ he summed up, maybe finally the reason
+ people aren't doing consumer companies
+ is that they're just harder.
+ You have to be good at a lot more things.
+ You generally have to be better at design,
+ marketing, culture, press.
+ It's not purely technology and sales.
+ But he continued, my prediction
+ is that we're living in the age of enterprise AI.
+ But I think in the next 12 to 24 months,
+ you're going to see the beginning
+ of a consumer AI renaissance.
+ Almost every app on my home screen
+ has not changed since AI, including Airbnb.
+ I think that's going to change in two years.
+ So in answering who cares about consumer AI,
+ if you're standing there raising your hand,
+ maybe it's time to build.
+ For now, that's going to do it for the AI Daily Brief.
+ Appreciate listening or watching as always.
+ And until next time, peace.
