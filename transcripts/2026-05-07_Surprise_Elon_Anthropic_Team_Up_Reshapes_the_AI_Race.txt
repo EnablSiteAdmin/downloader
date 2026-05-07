@@ -1,0 +1,1215 @@
+ Today on the AI Daily Brief, a surprise team-up between Elon and Anthropic could totally reshape
+ the AI race.
+ And before that in the headlines sorta, it's kind of all one big episode today, everything
+ that was announced at the Code with Claude Anthropic event yesterday.
+ The AI Daily Brief is a daily podcast and video about the most important news and discussions
+ in AI.
+ Alright friends, quick announcements before we dive in.
+ First of all, thank you to today's sponsors KPMG, Granola, Section, and Zencoder.
+ To get an ad-free version of the show, go to patreon.com.ai-dailybrief or you can subscribe
+ on Apple Podcasts.
+ If you want to learn more about sponsoring the show, send us a note at sponsors.ai-dailybrief.ai.
+ And just a couple other action items.
+ First the April AI usage pulse survey is live.
+ If you want to see all the results from the previous months, go to pulse.ai-dailybrief.ai.
+ There's a link to the survey from there as well.
+ And then a quick mention of our latest AIDB training programs.
+ The free agent OS self-directed program to build an agent operating system has tons of
+ you building right now and I'm really, really loving seeing all the things that you're doing.
+ And then if you are a team that is looking for something similar but more hands-on, we've
+ got the third cohort of Enterprise Claw registering.
+ And if you need a little primer even from that, a new four-week executive sprint
+ called AI Executive Catch Up that'll take you from basic prompting all the way to
+ being ready to build your first agents.
+ As always, all the info for that can be found at ai-dailybrief.ai.
+ Now with that out of the way, let's talk about yesterday's big news.
+ Yesterday was Anthropics Developer Day and so I knew that today's episode was going to
+ be all about whatever it was that they announced.
+ Now there were some really interesting things and in many ways I think you can view their
+ conference as a really interesting indication of where companies are with agents, the
+ problems they're trying to work on and the significance of harnesses in the AI
+ race.
+ But when it comes to the AI race, everything that was announced at Dev Day was absolutely
+ drowned out by the surprise announcement of an Elon Musk, SpaceX and
+ Anthropic team-up.
+ So what we're going to do today is we're not going to strictly divide this into
+ headlines and main, but instead the practical tool and tech related
+ announcements from Dev Day are effectively the headlines while the Elon
+ Anthrop story is going to be the equivalent of the main.
+ But let's talk about Dev Day because I don't want to undersell how interesting
+ it was even though the other thing is dominating the conversation.
+ Right from the beginning you could tell where the emphasis was going to be in
+ this event given that they called it code with Claude.
+ Now at last year's event, Anthropic rolled out Sonnet 4 and Opus 4, which was
+ their response to OpenAI's O3.
+ This year there was no big model release.
+ We didn't get a public rollout for Mythos or even a hint of when and how
+ that might happen, nor did we get any hints about Opus 4.8 or 4.9 or
+ anything in the line.
+ Instead, the focus was squarely on agents and the applications built
+ around Anthropic's models, which I think reflects how competition has
+ changed in AI over the last six months.
+ It would be insane to say that models don't matter at this point.
+ Most high value production use cases are of course using either Opus
+ 4.7 or GPT-55 and the advances specifically of GPT-55 have helped
+ OpenAI significantly reclaim some narrative space.
+ And yet if you had to put your finger on the important competition of 2026,
+ it's been way more about Codex versus Claude Code than it has been about
+ Opus versus GPT.
+ And I think what we're starting to see is the next evolution in the process.
+ Increasingly you see Claude Code evolving into an ecosystem of agent
+ harnesses that are tuned for particular workflows.
+ That process began with co-work but has been refined into even more
+ specific workflows like Claude Design.
+ And while OpenAI is taking a different approach with Codex,
+ trying to centralize all the activity in that one app space,
+ you are at least seeing little hints of this harness customization for
+ example in the form of Codex's quick start profiles for various
+ different professions.
+ But when it comes to what was announced at Code with Claude
+ this week, it reads like a map of the key challenges of agents.
+ We have features focused on memory, features focused on quality
+ review, and even some hints towards a future question of
+ continual learning.
+ The central new releases were all around Claude managed agents.
+ Now for those who don't remember, managed agents are
+ Anthropics way of allowing users to piggyback on Anthropics
+ infrastructure for all the ancillary services that make an
+ agent work.
+ The initial launch in April was about providing agents with a
+ sandbox, state management, and error recovery with one of the
+ big changes being that user created agents could access a
+ cloud computer rather than needing to operate solely on a
+ local desktop session.
+ I.e. instead of giving your agent a Mac Mini to work from
+ you could just spin up a cloud instance on Anthropics
+ infrastructure.
+ Now very clearly managed agents was one indication of the
+ harness as a service moment that I called out in an
+ episode a couple of weeks ago where the big labs are
+ effectively taking a lot of the capability set of open
+ highly configurable but highly complex tools like open
+ claw or Hermes and bringing that more easily into their
+ native offerings.
+ And interestingly some of the features that Anthropic
+ announced yesterday continue to take their cues from
+ things that have been experimented with in that
+ open space.
+ The first big new feature is something that Anthropic is
+ calling dreaming a quote scheduled process that
+ reviews your agent sessions in memory stores extract
+ patterns and curates memory so your agents improve over
+ time.
+ Now dreaming is essentially a memory management system
+ of a fashion.
+ It's effectively a scheduled memory review that runs
+ between sessions and which as Anthropic puts it
+ surfaces patterns that a single agent can't see on
+ its own including recurring mistakes workflows that
+ agents converge on and preferences shared across
+ a team.
+ They continue it also restructures memory so it
+ stays high signal as it evolves.
+ The core idea is to allow agents to not only
+ deliver their completed task but also to report what
+ they learned while doing that task allowing the
+ system to encode those learnings in the
+ orchestration memory to be preloaded the next time
+ that sub agent or agent is called upon.
+ Memories persist between sessions and should
+ automatically improve agent performance the
+ longer the system is in operation.
+ Jan Kronberg wrote agents that learn from past
+ sessions and iterate until they hit quality
+ enough is the architecture most teams have been
+ trying to build manually dreaming seems to be
+ the missing piece to that puzzle.
+ VC in turn writes think of it as the agent
+ equivalent of REM sleep.
+ Cherish points out that this is something that has
+ attracted people to Hermes.
+ They write that the Hermes agent reviews past
+ conversations build skills from experience has
+ persistent cross session memory and get smarter
+ the longer it runs which is very similar to what
+ Claude dreaming shipped.
+ Jatin Garg writes the underrated story of
+ 2026 is that the open source agent ecosystem is
+ leading on primitives.
+ News research with Hermes for orchestration G
+ brain for personal memory and eval substrates
+ these projects shipped working production
+ systems before enthropic ship to research
+ preview of similar functionality.
+ The closed labs have raw model capability.
+ The open source ecosystem has agent primitives.
+ Those are different layers.
+ The open source side has been further ahead
+ on the second one for nearly a year now.
+ Now in addition to dreaming I in addition
+ to dealing with memory.
+ Anthropic has also improved the oversight
+ of managed agents with a feature called outcomes.
+ Outcomes allow the user to write a rubric
+ for what success looks like for a particular task.
+ Once an agent completes a task.
+ That output is scored by a separate grading agent
+ against the rubric.
+ The separation means that the grading agent
+ isn't influenced by the reasoning of the task
+ based agent but instead looks purely at the output
+ and scores how closely it fits with the provided rubric.
+ If there's a problem the grading agent
+ can highlight the issues and kick the task back
+ for another run.
+ Anthropic has also added web hooks
+ so users will be automatically notified
+ when the task is complete.
+ Anthropic said that in their testing
+ using outcomes improved file generation quality
+ by 8.4% for Word documents
+ and 10.1% for PowerPoint slides
+ scored on their internal benchmarks.
+ Now once again we are dealing
+ with pretty core challenges of agents.
+ One of the big shifts is that
+ because agents can output so much now
+ human review becomes a bottleneck.
+ Because of that versions of external grading
+ or external grading agents have been a fairly common part
+ of multi-agent system design for some time now.
+ Most of these systems so far however
+ have been deployed against coding tasks
+ with the grading agent doing things
+ like automatically running unit tests.
+ The benefit is that coding rubrics
+ are typically well defined.
+ A PR either works or it doesn't.
+ The idea of subjective rubrics applied
+ to non-code knowledge work outputs
+ is a lot less well developed.
+ Like dreaming one big impact of the feature
+ will be to make the use of an external grading agent
+ part of the default setup.
+ Users won't need to string together a grading agent
+ they can just let Anthropic handle it behind the scenes.
+ If a non-technical user is designing
+ a report generation agent they'll use outcomes
+ to automatically check and iterate
+ on the output before delivery.
+ A lot of the harness work right now
+ is around systems that don't just shut down
+ after first input but through some formalized process
+ whether it's loops or now this outcome rubric based system
+ can continue to refine and improve the work
+ without the user having to sit there
+ and manage everything.
+ Finally the managed agents platform
+ can now handle multi-agent orchestration.
+ Anthropic writes that multi-agent orchestration
+ lets a lead agent break the job into pieces
+ and delegate each one to a specialist
+ with its own model, prompts, and tools.
+ For example, a lead agent can run an investigation
+ while sub agents fan out through deploy history,
+ error logs, metrics, and support tickets.
+ The agents work in parallel on a shared file system
+ with their work feeding back
+ into the lead agent's overall context
+ and the lead agent can check in
+ on the sub agent's mid workflow
+ to ensure they're still on track.
+ The entire system can be tracked into cloud console
+ allowing users to see what each sub agent did
+ and in what order.
+ In addition, an explanation of the reasoning
+ behind the task execution is auditable
+ giving users visibility into the process.
+ In short writes SIF, Claude can now act like an AI worker.
+ It can take a goal, run tasks on its own,
+ use multiple agents, connect with other tools.
+ Anthropic included a few examples
+ of the agentic systems people have built
+ using managed agents.
+ One of the more interesting ones to me
+ came from every with their spiral writing agent.
+ Spiral is a tool that's meant to in short
+ make AI writing not suck
+ which if you've ever tried to use AI for writing
+ other than just generic business stuff
+ you know is no small task.
+ Every spiral uses a multi agent system
+ tapping into a range of different
+ anthropic models for cost optimization
+ and now they use this new outcomes feature
+ to enforce writing quality.
+ Every has defined their own rubric
+ based on editorial standards and writer voice
+ to ensure the agentic drafting is up to par
+ which is kind of a whole ball game for them.
+ Now it is also worth noting that prior
+ to their dev day kicking off
+ Anthropic shipped a big suite of agents
+ for financial services.
+ On Tuesday the company released a package
+ of 10 predefined agents within Claude Finance.
+ The agents can be used as plugins
+ for co-work, Claude code or deployed as managed agents.
+ The suite includes a pitch builder,
+ a meeting preparer, a market researcher,
+ evaluation reviewer and a month end closer
+ among many others.
+ The idea is to give financial services firms
+ the starter pack of basic agents they need
+ rather than requiring a custom build.
+ Alongside the agents Anthropic released a full cookbook
+ so users can understand how the agents work
+ and go in and make modifications as needed.
+ As part of the release,
+ Anthropic highlighted a feature called Add-ins
+ which allows Claude to work directly
+ within productivity software.
+ For example, instead of accessing Microsoft Word
+ via MCP or a connector,
+ Claude can work directly in the program.
+ This means that it has the software native context
+ such as your company's template for drafting docs
+ or linked spreadsheets for building financial models.
+ In addition, Anthropic rolled out a series
+ of new connectors for industry specific platforms
+ including Dunn and Bradstreet for business identity,
+ fiscal AI for market analysis
+ and Verisk for insurance underwriting.
+ Most of the commentary on Twitter
+ was pretty much what you would expect
+ from people trying to win clicks
+ basically claiming that with one fell swoop
+ Anthropic had killed another wave of AI startups.
+ But in this case, these agents are much more
+ about replacing a bunch of the grunt work
+ that was already semi-automated
+ through traditional software or outsourced.
+ None of these are really attacking
+ the high-scale knowledge work
+ instead going after low-scale repetitive task
+ type of knowledge work.
+ Returning to Dev Day,
+ in addition to things that were actually announced,
+ we also got a sneak peek
+ at Anthropic's model training roadmap.
+ During the opening keynote,
+ research head of product Diane Penn
+ discussed what Anthropic is working on
+ highlighting three key features of future models,
+ higher judgment and code taste,
+ quote-unquote infinite context windows
+ and multi-agent coordination.
+ Going back to this theme that Code with Claude Day
+ was all about Anthropic addressing
+ the big challenges of agents,
+ infinite context windows was the feature
+ that got the most attention.
+ The discussion was largely about
+ whether this would just be an improved version
+ i.e. the process by which,
+ as the context window fills up,
+ the harness compresses it,
+ leaving only the important details
+ and opening up more space
+ for the next part of the conversation
+ or whether it was some
+ more fundamental research breakthrough.
+ Penn's precise wording to some felt instructive,
+ given that the word infinite was in quotation marks
+ and that Penn explained that Anthropic
+ is working on context windows that feel infinite.
+ Some remain skeptical.
+ Peter Dedenne writes,
+ infinite context,
+ that must be rag wearing a trench coat, no?
+ But Dan McAdder speculated on the significance.
+ He writes,
+ Anthropic is hinting at infinite context windows.
+ That matters because models
+ already learn in context.
+ If you can keep adding to the context window forever,
+ the model can keep learning from experience forever.
+ Some people will say
+ that's not real continual learning,
+ but that sounds a lot like saying
+ reasoning models don't quote-unquote really reason.
+ At some point the functional distinction collapses.
+ Infinite context means AI systems
+ that continually learn
+ and when that arrives,
+ it'll be much harder to deny
+ that we haven't arrived at AGI.
+ The two other little things of note
+ from the actual event itself
+ include Claude code creator Boris Cherney
+ disavowing the term vibe coding.
+ In a side interview,
+ Cherney said that the term is starting to annoy him
+ as it no longer describes the way
+ that he and most other developers use AI.
+ In a panel discussion on Wednesday's event,
+ Cherney said that there's literally no manually written code
+ anywhere in the company anymore.
+ Instead, Claude's coordinate with each other over Slack,
+ code in loops and resolve issues across the code base.
+ In that context,
+ Cherney thinks the term vibe
+ is significantly underselling the system
+ Anthropics workflows now include
+ copious automated testing and verification
+ to ensure that their code is ready to ship.
+ Still one challenge is that Boris
+ doesn't have a replacement term
+ to attach to the new process.
+ While Andre Carpathy,
+ the corner of the vibe coding term
+ has suggested the term agentic engineering,
+ something about that still isn't sitting right with Boris.
+ He says he's fielding suggestions
+ so if you have a good term
+ for the way we use modern coding agents,
+ tweet it at him.
+ The one other mic drop moment from the event itself
+ came when Anthropics CEO, Daria Almaday
+ put some actual numbers around Anthropics insane growth.
+ Discussing the challenges of compute,
+ Dario said,
+ we planned for a world of 10x growth per year.
+ In the first quarter of this year,
+ we saw 80xed annualized growth per year
+ in revenue and usage.
+ 80x in a single quarter.
+ Now the context for those comments
+ was a new SpaceX compute deal
+ through which Dario said, quote,
+ we're working as quickly as possible
+ to provide more compute than we have in the past.
+ One of the most important AI questions right now
+ isn't who's using AI,
+ it's who's using it well.
+ KPMG and the University of Texas at Austin
+ just analyzed 1.4 million real workplace AI interactions
+ and found something surprising.
+ The highest impact users aren't better prompt engineers,
+ they treat AI like a reasoning partner.
+ They frame problems, guide thinking,
+ iterate and push for better answers.
+ And the good news,
+ these behaviors are teachable at scale.
+ If you're trying to move from
+ AI access to real capability,
+ KPMG's research on sophisticated AI collaboration
+ is worth your time.
+ Learn more at kpmg.com slash us slash sophisticated,
+ that's kpmg.com slash us slash sophisticated.
+ Today's episode is brought to you by Granola.
+ Granola is the AI notepad for people
+ in back-to-back meetings.
+ You've probably heard people raving about Granola,
+ it's just one of those products
+ that people love to talk about.
+ I myself have been using Granola
+ for well over a year now
+ and honestly it's one of the tools
+ that change the way I work.
+ Granola takes meeting notes for you
+ without any intrusive bots joining your calls.
+ During or after the call,
+ you can chat with your notes,
+ ask Granola to pull out action items,
+ help you negotiate,
+ write a follow-up email,
+ or even coach you using recipes
+ which are pre-made prompts.
+ Once you try it on a first meeting,
+ it's hard to go without.
+ Head to granola.ai slash ai-daily
+ and use code ai-daily,
+ new users get 100% off
+ for the first three months.
+ Again, that's granola.ai slash ai-daily.
+ Here's a harsh truth.
+ Your company is probably spending
+ thousands or millions of dollars
+ on AI tools that are being massively underutilized.
+ Half of companies have AI tools,
+ but only 12% use them for business value.
+ Most employees are still using AI
+ to summarize meeting notes.
+ If you're the one responsible
+ for AI adoption at your company,
+ you need Section.
+ Section is a platform
+ that helps you manage
+ AI transformation across
+ your entire organization.
+ It coaches employees on real use cases,
+ tracks who's using AI for business impact
+ and shows you exactly where AI is
+ and isn't creating value.
+ The result?
+ You go from rolling out tools
+ to driving measurable AI value.
+ Your employees move from meeting summaries
+ to solving actual business problems,
+ and you can prove the ROI.
+ Stop guessing if your AI investment is working.
+ Check out Section at sectionai.com.
+ That's S-E-C-T-I-O-N-A-I dot com.
+ So coding agents
+ are basically solved at this point.
+ They're incredible at writing code,
+ but here's the thing nobody talks about.
+ Coding is maybe a quarter
+ of an engineer's actual day.
+ The rest is stand-ups,
+ stakeholder updates,
+ meeting prep,
+ chasing context across six different tools.
+ And it's not just engineers.
+ Sales spends more time
+ assembling proposals than selling.
+ Finance is manually chasing
+ subscription requests.
+ Marketing finds out what
+ shipped two weeks after it merged.
+ ZenCoder just launched ZenFlow Work.
+ It takes their orchestration engine,
+ the same one already powering coding agents,
+ and connects it to your daily tools.
+ JIRA, Gmail, Google Docs,
+ Linear, Calendar, Notion.
+ It runs goal-driven workflows
+ that actually finish.
+ Your stand-up brief is written
+ before you sit down.
+ Review cycle coming up.
+ It pulls six months of tickets
+ and writes the prep doc.
+ Now you might be thinking,
+ didn't Open Claw try to do this?
+ It did, but it has come with
+ a whole host of security
+ and functional issues,
+ which can take a huge amount
+ of time to resolve.
+ ZenCoder took a different approach.
+ Sock 2, Type 2 certified,
+ curated integrations,
+ tighter security perimeter,
+ enterprise grade from day one,
+ model agnostic,
+ and works from Slack or Telegram.
+ Try it at ZenFlow.free.
+ Wait a second.
+ What you're saying?
+ A SpaceX compute deal?
+ Yes, after all of those
+ interesting managed agents
+ and memory and infinite
+ context-related announcements,
+ after about noon Eastern time
+ yesterday,
+ basically no one was
+ discussing anything other
+ than a new anthropic
+ SpaceX partnership.
+ With a tweet sitting at a casual
+ 20 million views at the moment,
+ the Claude AI account wrote,
+ we've agreed to a partnership
+ with SpaceX that will
+ substantially increase
+ our compute capacity.
+ They went on to specify
+ how that would allow them
+ to increase immediate-term
+ usage limits,
+ but the CLDR of the deal
+ is that Anthropic now has full
+ use of XAI's Colossus-1
+ data center.
+ Now, the XAI campus in Memphis
+ consists of two main data
+ centers, Colossus-1
+ and Colossus-2.
+ Colossus-1, you might remember,
+ was the data center that was
+ built at record speed
+ over a few months
+ in mid-to-late 2024.
+ It's since been scaled to
+ contain 220,000 NVIDIA GPUs,
+ mostly H100s operating at a
+ 300 megawatt capacity.
+ Colossus-2 is XAI's Blackwell-based
+ cluster containing around
+ 550,000 GPUs.
+ The deal begins immediately
+ with Anthropic stating the
+ inference will be available
+ within the month.
+ Now, in terms of specifics,
+ Anthropic is making three changes
+ to deliver this new compute
+ to users.
+ First, Claude code's
+ five-hour rate limit has been
+ doubled for pro, max, team,
+ and seat-based enterprise plans.
+ Second, peak-hour usage
+ reductions for Claude code will
+ be eliminated for pro and max
+ accounts.
+ Third, Anthropic is raising
+ the API rate limit for
+ Opus model substantially.
+ Output token throughput will be
+ increased between 2x and 10x
+ depending on account tier.
+ Anthropic head of growth,
+ Amal Avassare,
+ explained the reasoning for
+ these as the first moves
+ and indicated that there was
+ more to come.
+ Amal wrote,
+ Only a very small percentage
+ hit weekly limits while a much
+ larger portion of users hit
+ the five-hour limit so we
+ fixed that first.
+ As the compute comes
+ online, we will look at
+ weekly.
+ Now, for most people, the first
+ speculation was all about how
+ this could have possibly come
+ together.
+ While, of course, his bigger
+ ire is saved for Sam Altman
+ in OpenAI, Elon has not been
+ a big fan of Anthropic as well.
+ He has frequently on Twitter
+ referred to them as
+ misanthropic and said that
+ there's no scenario in which
+ they win.
+ So, how did things change?
+ In a tweet, Elon wrote,
+ By way of background for those
+ who care, I spent a lot of
+ time last week with senior
+ members of the Anthropic
+ team to understand
+ what they do to ensure
+ Claude is good for humanity
+ and was impressed.
+ Everyone I met was highly
+ competent and cared a great
+ deal about doing the right
+ thing.
+ No one set off my evil
+ detector.
+ So long as they engage in
+ critical self-examination,
+ Claude will probably be good.
+ After that, I was okay
+ leasing Colossus 1 to
+ Anthropic as SpaceX AI had
+ already moved training to
+ Colossus 2.
+ Now, believe it or not, as
+ unexpected as this tie-up
+ seems if for no other
+ reason than the
+ personalities involved, some
+ had recently been
+ speculating that it was
+ in fact a perfect
+ mash-up.
+ On the all-in podcast,
+ Chamath Palahapatiya recently
+ explained how power constraints
+ would give Elon leverage to
+ make AI deals.
+ Referring to all of these
+ massive data center projects,
+ Chamath said less than half
+ of it is actually being
+ built.
+ Most of it is stuck in red
+ tape.
+ There's no credible strategy
+ to turn any of this stuff
+ on.
+ Who will this hurt?
+ He asked.
+ It will hurt Anthropic and
+ OpenAI the most.
+ Who will this benefit?
+ It'll benefit the
+ hyperscalers, specifically
+ Oracle, Amazon, Meta,
+ Microsoft, and Google.
+ And who will this benefit?
+ Who will this benefit?
+ It'll benefit the
+ hyperscalers, specifically
+ Meta, Microsoft, and Google.
+ And now, Chamath continued,
+ what you're going to see
+ is a negotiation in a trade
+ back and forth.
+ How much equity do I have
+ to give up?
+ How much control do I have
+ to give to get access
+ to the compute?
+ How badly will I miss
+ my growth forecast
+ if I don't?
+ And then the money shot.
+ That's a huge lane,
+ Chamath said,
+ for Grock and SpaceX
+ to run through
+ because they have a ton
+ of excess capacity.
+ If I were Elon now,
+ I'd be running all over
+ this market because
+ of the model's
+ ketchup and quality.
+ I think he could also
+ do something really
+ crazy with Anthropic.
+ And from a business
+ perspective,
+ there's twin contexts
+ that make Anthropic
+ and XAI
+ a pretty great match.
+ Anthropic has, of course,
+ been straining under a
+ compute crunch for all of
+ this year,
+ massively degrading
+ the user experience.
+ I was literally complaining
+ right before the
+ announcement that there
+ wasn't a day that went by
+ that I could actually
+ just use Claude
+ without interruption.
+ Anthropic has
+ an extremely compelling
+ model and harness
+ combination,
+ but OpenAI
+ has recently been taking
+ advantage of
+ Dario and Anthropic's
+ underinvestment in compute
+ to start reclaiming
+ some of the space
+ that Anthropic has opened up
+ this year.
+ On the Elon side
+ of the ledger,
+ something had to give
+ with XAI as well.
+ Even before the
+ SpaceX merger,
+ things were heading south.
+ Model improvement
+ had completely
+ stalled out
+ with the release of
+ Grock 4.2 in February
+ gathering effectively
+ no real buzz.
+ The company has
+ no meaningful agent
+ to harness product
+ to compete with Claude
+ Code and Codex,
+ and people on X
+ have even stopped
+ asking Grock
+ what the personnel story
+ was also not optimistic.
+ Each co-founder
+ left one after another
+ over the past year
+ leaving Elon
+ as the last man standing.
+ And around
+ rumors of huge staff
+ turnover,
+ Elon acknowledged the
+ company was not
+ built right the first time
+ and needed a total rebuild.
+ Even the reclamation
+ projects didn't seem
+ to be working out.
+ The cursor deal
+ announced last month
+ was heralded
+ as the saving grace,
+ but the information
+ recently reported
+ that there's no
+ plans to co-develop
+ a coding model
+ in a piece that
+ they've framed
+ as cursor keeping
+ to have
+ is a warehouse full
+ of GPUs
+ with too little to do.
+ So as Derek Thompson put it,
+ Musk has compute capacity
+ but a meh model
+ and Anthropic has
+ a fantastic model
+ with weak capacity
+ and thus
+ a new alliance is born.
+ Now if you'll give me
+ a minute to speculate
+ a little bit farther
+ I think it's interesting
+ to broaden out
+ this conversation
+ even beyond the
+ very obvious
+ and specific reasons
+ for that tie up.
+ I think Elon has two
+ things going on
+ simultaneously.
+ First,
+ he's long wanted
+ the one company
+ to rule them all.
+ It's always felt like
+ over time
+ there would be
+ some inevitable realignment
+ between all the pieces
+ of the Elon Empire.
+ I mean the man puts
+ X in all the names
+ at least in part
+ so they could be easily
+ recombined.
+ Now for a long time
+ the obvious bet
+ as the leading entity
+ was Tesla
+ which is why
+ I predicted last year
+ that if XAI
+ couldn't really
+ break out of
+ its very behind position
+ I thought
+ Elon would end up
+ folding XAI
+ in with Tesla.
+ Now there was
+ a weird little X factor
+ see what I did there
+ for a while
+ of whether
+ XAI itself
+ could somehow
+ surge and become
+ the one to own them all.
+ The only reason
+ that was even possible
+ was the clear recognition
+ of the significance
+ of AI relative
+ to all the other industries
+ and for a minute
+ there was a hint
+ that maybe
+ that would be the direction
+ as XAI folded in X
+ but obviously
+ reality intervened
+ and the one company
+ to rule them all
+ in the Elon Empire
+ was going to be something
+ different.
+ Now second
+ Elon has for a long time
+ been determined
+ an outsized hand
+ in shaping AI
+ which to him
+ is absolutely not
+ about making more money
+ and much more
+ about him thinking
+ he needs to be involved
+ for the sake of humanity
+ and there have kind of
+ always been examples
+ of these two goals
+ potentially intersecting
+ I'm thinking
+ especially of him
+ wanting to fold
+ open AI
+ into Tesla early on
+ so how do we get
+ to SpaceX
+ being the absorber
+ rather than Tesla
+ and what does it suggest
+ about what
+ SpaceX is actually
+ going to become.
+ Now first note
+ I wouldn't go so far
+ as to predict
+ that Elon continued
+ to drive consolidation
+ into one company
+ he may ultimately
+ be fine with Tesla
+ and SpaceX
+ as big and separate
+ with smaller things
+ like boring off on the side
+ but there are some
+ inside AI
+ and outside AI
+ reasons why I think
+ SpaceX has started
+ to make more sense
+ as one of the crown jewels
+ first Tesla
+ has stalled
+ at least a little bit
+ fully autonomous
+ driving is really
+ really hard technologically
+ and it also has
+ major barriers
+ outside of technology
+ in society
+ and politics
+ and consumers
+ that no matter
+ what he does
+ he can't just
+ force his way through
+ I also think
+ the fact that Tesla
+ has Optimus
+ creates an easy path
+ for future tie ups
+ making it less
+ essential to do
+ the tying up now
+ now in terms of
+ SpaceX itself
+ it's kind of gotten
+ clearer and clearer
+ especially as the demand
+ for tokens has
+ started to so
+ dramatically outstrip
+ the supply
+ that king
+ making an AI
+ was in many cases
+ going to be
+ about compute
+ when Elon
+ announced the merger
+ of SpaceX
+ one of the big things
+ he talked about
+ was his vision
+ of future orbital
+ data centers
+ I think they are
+ to him
+ much more than
+ a market narrative
+ I think he actually
+ sees it
+ as a key part
+ of the future
+ both of the company
+ SpaceX
+ but also
+ of the world
+ and in that
+ light
+ the fold in
+ of XAI
+ might have been
+ less about
+ giving SpaceX
+ a model in Grock
+ and more
+ about giving
+ SpaceX
+ a footprint
+ while everyone was talking
+ about the SpaceX
+ XAI tie up
+ in either very mechanical
+ bailout type terms
+ or seeing it as SpaceX
+ somehow having a connection
+ to a model like Grock
+ my argument is that
+ maybe it actually had
+ nothing to do with models
+ and was always about
+ compute positioning
+ basically I think
+ that Elon
+ started to realize
+ that his best path
+ influencing the shape
+ of this most important
+ industry
+ was being
+ akin to Jensen Huang
+ as opposed to
+ being akin to
+ Sam and Dario
+ and if I'm right
+ and that is
+ the way he started to think about it
+ there was then
+ literally no question
+ of who he was going to work with
+ it was
+ anthropic robust
+ hold aside the
+ lean's right
+ lean's left
+ woke anti-woke politics
+ I do think
+ that anthropics
+ extremely disciplined
+ and focused approach
+ you could argue
+ is more aligned with
+ how Elon builds things
+ at least within the context
+ of specific companies
+ and secondly
+ and more importantly
+ obviously the Sam Altman feud
+ is so deep
+ that anthropic was
+ the only option
+ now I don't think
+ that Elon
+ is going to abandon
+ Grock immediately
+ he's going to leave
+ optionality around Grock
+ Grock will remain
+ an option
+ because A
+ X
+ Twitter has to have
+ something like this
+ integrated and there are
+ benefits to owning it
+ and B
+ it also gives them
+ more options
+ when it comes to
+ Optimus as embodied
+ robotics mature
+ still I think
+ that we are seeing
+ a pretty
+ clear and full
+ pivot
+ as part of this
+ Elon even tweeted
+ XAI will be dissolved
+ as a separate company
+ so it will just
+ be SpaceX AI
+ the AI products
+ from SpaceX
+ that play 3.0
+ 1.0
+ was as open AI
+ funder
+ 2.0
+ was as model builder
+ 3.0
+ is as
+ computer
+ and a lot of people
+ are really bullish
+ on the shift
+ Rohit writes
+ Elon's extraordinary
+ hardware genius
+ shows up again
+ he fumbled the model
+ but built a neocloud
+ that's highly competitive
+ and works great
+ for frontier labs
+ Rohit added
+ for what it's worth
+ I pointed this out
+ four years ago
+ that Elon's unique talent
+ is suited better
+ to some things
+ than others
+ that is a known
+ but hard thing to do
+ getting a model
+ to be as good as the frontier labs
+ is an unknown
+ and hard thing to do
+ in that essay
+ Rohit had written
+ Elon looks at something
+ he wants to accomplish
+ and as long as
+ existing knowledge
+ is able to create
+ what he wants theoretically
+ acts as an individual
+ shelling point
+ to coalesce money
+ and talent around
+ to create them
+ Rohit continued though
+ things that he has not done
+ for which he gets flack
+ are areas which are
+ not purely dependent
+ on do or energy
+ these are things
+ that require
+ thinkers
+ and some sort of
+ alas we know of no way
+ to throw resources
+ at one end
+ and get thinkers
+ at the other end
+ Derek Thompson wrote
+ I don't think I've seen this take before
+ but I like it
+ Musk has been world leading
+ at compressing money
+ resources and time
+ to make known but hard things
+ at scale
+ but he's less than world leading
+ at cracking open breakthroughs
+ in more unknown spaces
+ so it would make sense
+ that XAI is lagging
+ the frontier labs
+ on new AI agents
+ but also that he'd
+ have built a neocloud
+ to power those models
+ once they run short of compute
+ Dean Ball writes
+ I would be very excited
+ about an XAI
+ SpaceX as an
+ infrastructure firm
+ Elon's great strength
+ where he is truly goaded
+ is building things
+ in the real world
+ Colossus came online
+ faster than anyone expected
+ huge asset for America
+ as Aaron Levy simply put it
+ SpaceX as a vertically
+ integrated AI compute company
+ makes an insane amount of sense
+ now to the extent that
+ anyone has concerns
+ it's that consolidation
+ and fewer players
+ in a market
+ does have real consequences
+ but by and large
+ the ghost of David Ricardo
+ is celebrating
+ as everyone remembers
+ the incredible power
+ of comparative advantage
+ Ken Vardar writes
+ good thing Elon won't be
+ wasting compute on
+ random dead ends anymore
+ an anthropic won't be
+ nerfing Claude like it's a hobby
+ and I think maybe the best
+ summary of how everyone feels
+ comes from Chubby who writes
+ okay anthropic
+ show us what you could do
+ with 220,000 NVIDIA GPUs
+ and 310 megawatts
+ sometimes everyone talks
+ about things because
+ they're interesting juicy
+ tabloid style things
+ to talk about
+ and unfortunately
+ a lot of the discourse
+ around Elon Musk
+ can fall into that category
+ this is not one of those
+ this is a massive deal
+ that has the potential
+ to significantly
+ reshape the face
+ of the AI battle
+ so what happens next
+ will open AI
+ respond with their own deal
+ will Mark Zuckerberg
+ swoop in as another
+ Elon style
+ compute capacity king maker
+ no one knows for sure
+ but boy oh boy
+ there is never a dull day
+ in AI land
+ for now that is
+ going to do it
+ for the AI Daily Brief
+ appreciate you listening
+ or watching as always
+ and until next time
+ peace
+ you
