@@ -1,0 +1,843 @@
+ Today on the AI Daily Brief, we're discussing a week in which the AI story shifted, or at
+ least started to fork.
+ The AI Daily Brief is a daily podcast and video about the most important news and discussions
+ in AI.
+ Alright friends, quick announcements before we dive in.
+ First of all, thank you to today's sponsors KPMG, Granola, Robots and Pencils and Zen
+ Coder.
+ To get an ad-free version of the show, go to patreon.com.ai-dailybrief or you can subscribe
+ on Apple Podcasts.
+ If you want to learn more about sponsoring the show, send us a note at sponsors.ai-dailybrief.ai.
+ AI Daily Brief.ai is also where you are going to find out about everything going on in
+ the community.
+ Right now, I am continuing to point people to the April AI usage pulse survey.
+ And if you want to see why it's valuable to share this information, go check out
+ pulse.ai-dailybrief.ai and of course there'll be a link to that in the show notes
+ as well.
+ You can see the individual monthly responses from the last three months of AI usage pulse
+ surveys as well as the big overarching trends like the growth in agentic use cases.
+ The April survey is now available.
+ You can do it right there.
+ And if you complete this, you will get the results before everyone else.
+ Now last week, I told you about an experiment that I was going to be trying where if
+ Friday happened to be a comparatively slow day in AI, nothing is actually slow.
+ I was going to start experimenting with some sort of weekly recap.
+ The goal of the weekly recap is not just to rehash the same stories we talked
+ about, but to put them in an overarching context that helps you understand in just 20
+ or 25 minutes what the big point of that week was.
+ For people who aren't able to listen as much, it's a way to in a single episode
+ have the broad brushstrokes of what happened.
+ And for folks who are daily listeners, it's a chance to reinforce the themes
+ that you've been hearing all week.
+ Now I was very positively pleased with the response.
+ A lot of you provided great feedback.
+ And the numbers also suggest that this is a valuable type of episode to at least
+ consider.
+ I'm not sure that it'll be every week.
+ And I think probably on some weeks I will need to use the open slot on Saturday
+ for this, given that there will often be news that we need to cover in a normal
+ form.
+ But for now we're going to do another weekly recap.
+ And if last week was the week that AI grew up with the thesis of that
+ episode being that we were starting to see a real maturation of the way that
+ people were engaging with AI on a usage basis in markets and more.
+ This is almost a part two in some ways where that new maturity started to
+ diffuse into the stories that we were telling about AI, as well as the
+ type of product priorities we have in the launches.
+ The week kicked off on Sunday with this opinion post from Ezra Klein about
+ why the AI job apocalypse probably won't happen, at least in the way that
+ the most fearful folks have been suggesting for some time now.
+ The main inspiration for Ezra in that post was the Alex EMS essay
+ what will be scarce that we read a few weeks ago on Long Read Sunday.
+ Now Alex is a Chicago booth economist and the point that he's making in
+ this piece is that when one sector of the economy gets disrupted,
+ new surplus usually flows somewhere, doesn't just dissipate.
+ The big thing that Alex focuses on in his piece is the idea of the
+ relational sector, where the value of a good or a service that we're
+ consuming is not just based on the good or service itself,
+ but in its particular mode of creation or transmission.
+ In other words, where it matters who made the thing or who's
+ providing the service in what way.
+ Alex argues that the relational sector
+ definitely will not be affected by AI in the same way as other parts
+ of the economy and will indeed be the recipient and will see a
+ proportional increase in its demand.
+ Now as an aside, if you're interested in blowing out this
+ argument even more, you're going to want to come back for LRS.
+ It is my most full-throated exploration ever of not only why
+ I don't think there's going to be a job apocalypse, but the
+ specific shape and texture of the type of jobs that I think
+ are going to be created in the wake of AI.
+ So come look back for that.
+ But the point coming back to Ezra Klein is that Alex Imas's
+ essay was not just floating around Twitter, but actually
+ found its way to mainstream discourse.
+ And frankly, mainstream discourse that was not of the group
+ that has been predisposed to actually being sympathetic to
+ AI or tech in general.
+ Ezra Klein is someone who had AI doomer and chief
+ Eleazar Yudkowski on his show last October.
+ In February, he interviewed anthropics Jack Clark in a
+ show that he titled, How Fast Will AI Agents Rip Through
+ the Economy.
+ Which is what I mean when I say that this essay represents a
+ shift in the story and a shift in the vibe.
+ Now, a much more inside baseball type of source exploring
+ similar themes came from A16Z's David George.
+ Why I say, of course, that this one is much more inside
+ is that A16Z chief Mark Andreessen has been one of the
+ loudest and most vocal AI accelerationists.
+ And so it's not surprising to see this particular essay
+ titled The AI Job Apocalypse is a complete fantasy
+ coming from someone in his organization.
+ Still, what David provides in the piece and why
+ it got resonance beyond just died in the wool
+ accelerationists is that in addition to a lot of opinion,
+ there's also a lot of data in here.
+ One of the charts he shows, which if you're listening
+ is very worth going and looking at, is a chart of US
+ employment by sector since 1850.
+ It shows the decrease in agriculture employment from
+ just under 70% back in 1850 down to less than
+ 5% today.
+ And more than that, it shows that since 1950,
+ while a couple of areas most notably manufacturing and
+ construction have gone consistently down,
+ the real story is a diversification of the labor market
+ into lots of different sectors, leisure and hospitality,
+ private education and health, professional and business
+ services, a lot of things that didn't really or barely
+ existed back in the middle of last century.
+ He also shows a bunch of Javons paradoxy type of charts
+ where a thing that you think would have a negative impact
+ actually had a very similar and opposite positive impact.
+ More productive farming, for example, he pointed out
+ didn't lead to more farmers, but it did lead to more
+ workers as the world was able to take advantage
+ of more productive farming to get a population boom
+ as the world could simply support more people.
+ Another example he points to is the shift in the number
+ of bookkeepers and accounting clerks
+ in the wake of the introduction of the spreadsheet,
+ while those two particular jobs would see a steady decline
+ for the next 30 years, other related areas that were
+ enabled by spreadsheets took off,
+ including financial analysts and accountants and auditors.
+ He also points out that productivity gains
+ don't just make existing services cheaper
+ and more accessible to a different set of people,
+ but also that they lead to entirely new categories
+ of services that take advantage of that labor surplus.
+ Nail salons, pet care, exam prep and tutoring
+ and athletes, coaches, empires and related work
+ all had less than 100,000 workers in 1990
+ and now we each have between 150 and 350,000.
+ He points to the charts that we've started to see
+ that suggested the demand for software engineers is rising
+ and I think in an important chart,
+ notes that in mentions of AI workforce impact
+ on public market earnings calls,
+ augmentation out mentioned substitution
+ by a ratio of eight to one.
+ Now, the real exciting thing to me
+ and the thing that I will be exploring
+ in the LRS episode I was just mentioning
+ are the jobs that don't exist yet
+ that get enabled by these changes,
+ but you can see why people latched onto David's piece
+ and why it came at a perfect time
+ following Ezra's piece and Alex's piece before that.
+ Now, what's interesting is that one of the things
+ that I think is happening is not just blind optimism
+ and all of a sudden people who weren't excited about AI
+ before being excited about it now,
+ but a maturation in our understanding
+ of how the diffusion is actually likely to take place.
+ I think there are a couple of parts of that.
+ Another big story from the beginning of the week
+ was that both Anthropik and OpenAI
+ were launching massive joint ventures
+ to deliver and deploy enterprise AI services.
+ And when I say massive,
+ I'm talking about a $10 billion starting valuation
+ and a $4 billion investment for OpenAI
+ and a $1.5 billion investment from Anthropik
+ with each of those endeavors
+ bringing in just a who's,
+ who of financial and operational partners
+ like Blackstone, Goldman Sachs and more.
+ These are companies whose fiercest battle
+ is to be one up in one another
+ and pushing the pace of innovation ever forward.
+ And yet they are taking time
+ to frankly distract themselves
+ on painful, boring day-to-day deployment issues
+ because that's what it's going to take
+ for even incredibly powerful technology
+ or perhaps especially incredible powerful technology
+ to diffuse and actually have the impact
+ that it could in the workplace.
+ This maturation in our understanding
+ of just how hard it is going to be
+ to actually close the capability overhang
+ and help AI do what it can do inside the enterprise
+ is I think shifting people's timelines
+ and when it comes to the pain of disruption
+ timelines really matter.
+ The world looks a lot different
+ if there's a decade or two to adapt to changes
+ as opposed to a year or two.
+ When you're talking about a decade
+ things that wouldn't be possible in a year or two
+ like actual re-skilling and redesign
+ of different types of work and roles
+ start to look a lot more viable.
+ Now on top of the news that the biggest labs
+ were willing to distract themselves
+ with painful enterprise deployment issues
+ the other thing that I think
+ has helped shifted people's narratives
+ which was the main subject of the weekly show last week
+ is the loss of the fantasy that somehow
+ human level AI is going to be massively cheaper
+ than humans at least in the short term.
+ Last week was all about the shift in business model
+ to usage based instead of seat based
+ which is a recognition that we are dealing with a world
+ where there are far fewer tokens available
+ than we would ideally consume.
+ Which of course brings us to the second area
+ and place in which the AI story is shifting
+ which is on Wall Street.
+ Now this started last week
+ and has really continued this week
+ where we are seeing both talk and behavior
+ suggesting that Wall Street is not treating AI
+ as a bubble that is inevitably going to pop
+ as it might have been last fall.
+ This week both JP Morgan CEO,
+ Jamie Dimon and BlackRock CEO Larry Fink
+ made comments affirming that the AI boom is real.
+ Jamie Dimon said that he believed
+ that trillion dollar investment in data centers
+ will make sense, his words.
+ And Larry Fink went even farther saying
+ not only is there not an AI bubble
+ but quote, there is the opposite.
+ We have supply shortages,
+ demand is growing much faster
+ than anyone has anticipated.
+ We have not begun exploring the opportunities
+ of AI around the world.
+ Now it's one thing for Wall Street leaders to say this
+ but markets are gonna do what markets are gonna do.
+ And this week they seem to be
+ on the boom train in a big way.
+ Now last month we got the announcement
+ of a five gigawatt deal between Anthropic and Google.
+ We also knew that that deal had contributed
+ to the $462 billion backlog for Google Cloud
+ that was announced in last week's earnings.
+ The information this week put a number
+ on the amount contributed
+ by that deal however,
+ reporting that it was worth 200 billion over five years.
+ Now given that Google has also made an investment
+ of up to 40 billion in Anthropic,
+ this brought up for some of course the old arguments
+ about whether this is all circular funding.
+ And yet reaction to the Google Anthropic deal
+ has been very different
+ than the last time these circular narratives were discussed.
+ Google was already up 10%
+ after the giant backlog was announced during earnings
+ and spiked another 1.5% during the overnight session
+ after the $200 billion number was reported.
+ And in the back half of the week
+ Google not only didn't give up these gains
+ but firmed it up adding another 0.5%
+ as of the Thursday close.
+ In other words, there doesn't appear to be any sign
+ of the market worrying about Anthropic's ability to pay.
+ Analysts see the strong and growing revenue
+ allowing them to meet massive new commitments
+ and all of a sudden these numbers
+ that seemed just so extraordinary before
+ don't seem so out of reach now.
+ Now I wonder how much of this is also driven by the fact
+ that of the big frontier labs,
+ Anthropic was comparatively conservative
+ in their infrastructure deals
+ and are paying the price now
+ having a race to catch up
+ with better resource competitors in the form of open AI.
+ Signal writes, just around six months ago
+ many people thought everything was a bubble
+ too much compute, too much capex and demand
+ that couldn't possibly absorb the bailout
+ but it turns out the ceiling on demand for intelligence
+ is literally nowhere in sight.
+ Carmen Lee wrote, everyone's worried about a compute
+ overbuild but it's actually really hard
+ to overbuild compute.
+ Capital is the easy part money shows up fast
+ but money does not equal compute.
+ You need GPUs, power, substations,
+ colo, cooling and operators.
+ Each link has its own lead time.
+ A capital bubble is a financing phenomenon.
+ A compute bubble requires every physical bottleneck
+ to clear at once.
+ Now the best place that I can show
+ where this understanding of this particular story
+ really came to bear this week is of course
+ what will for sure go down
+ as the biggest story of the week
+ which is the SpaceX team up with Anthropic.
+ On Wednesday, Anthropic and Elon Musk
+ announced a new partnership
+ where Anthropic will basically take over
+ the entire capacity of the Colossus-1 data center.
+ I talked about this extensively in yesterday's episode
+ but my thinking about this
+ comes in a couple different parts.
+ First of all, I think it just makes very obvious sense
+ on an operational business level.
+ XAI now part of SpaceX has struggled to produce a model
+ that can keep up with the leaders
+ but has not so quietly built incredible capacity
+ in compute and seemingly the ability to add more.
+ Indeed, one of the things that we got
+ with this Anthropic announcement
+ was Anthropic throwing their weight
+ behind the idea that data centers in space
+ might not just be an Elon fever dream.
+ So XAI now part of SpaceX
+ has a bunch of compute but no great models
+ while Anthropic of course has great models
+ and real challenges with access to compute.
+ On that level, the partnership makes complete sense.
+ Why this is so exemplary though
+ of the AI story shifting
+ is mostly in the embodiment of Elon Musk himself
+ being willing to shift his story vis-a-vis AI.
+ While of course he has not given up on Grok
+ and is continuing to train future models
+ in Colossus 2 with it,
+ the fact that XAI is ceasing to exist as a separate company
+ and is being completely folded into SpaceX
+ plus these big moves,
+ suggests that Elon has gotten comfortable with the idea
+ that his part of the story
+ and his way to shape the future of the AI race
+ might be more an infrastructure than in model development.
+ To put a fine point on that
+ in follow-up reporting to the deal
+ the New York Times discussed TerraFab
+ which is Elon's chip manufacturing project in Texas.
+ The new information comes from a legal filing
+ in Grimes County where the project is based
+ and says the project will cost at least 55 billion
+ and possibly as much as 119 billion
+ which is way higher than the previous estimates
+ of 20 to 25 billion.
+ If completed it will be by far
+ the largest chip fab on the planet.
+ Elon first announced TerraFab way back in March
+ and people mostly brushed it off.
+ Now people paid a little bit more attention
+ when they added Intel as a partner in April
+ but you still saw folks like Nvidia analyst Tay Kim
+ having a bit of skepticism.
+ On TVPN he said,
+ I'm not that optimistic.
+ I mean it's so hard to build that.
+ It's almost like cooking where it takes a lot of trial and error
+ accumulated over decades.
+ It's not something you could just jump right in and do.
+ And you're seeing this in the coverage now
+ the anthropic deal adds a new level of credibility
+ to the project.
+ Back in March, even if you did believe
+ that Elon could make the world's largest fab
+ it certainly didn't seem like he was going to have demand
+ to justify it from just Tesla and Optimus
+ but now he has a basically unquenchable source of demand
+ in the form of anthropic.
+ And so what you're seeing is not only Elon's story
+ about himself shifting
+ but people remembering what was impressive
+ about Elon in the first place.
+ Peek Elon was scaling up Tesla production
+ when he famously slept on the factory floor in 2018.
+ And maybe the closest example we've had recently
+ was him standing up the first Colossus data center
+ in record time at the end of 2024.
+ People are starting to remember
+ that if there's one person who can pull off
+ an insane construction and supply chain project
+ like TerraFab, it's probably Elon Musk.
+ One of the most important AI questions right now
+ isn't who's using AI, it's who's using it well.
+ KPMG and the University of Texas at Austin
+ just analyzed 1.4 million real workplace AI interactions
+ and found something surprising.
+ The highest impact users aren't better prompt engineers,
+ they treat AI like a reasoning partner.
+ They frame problems, guide thinking,
+ iterate and push for better answers.
+ And the good news, these behaviors are teachable at scale.
+ If you're trying to move from AI access
+ to real capability,
+ KPMG's research on sophisticated AI collaboration
+ is worth your time.
+ Learn more at kpmg.com slash us slash sophisticated
+ that's kpmg.com slash us slash sophisticated.
+ Today's episode is brought to you by Granola.
+ Granola is the AI notepad
+ for people in back-to-back meetings.
+ You've probably heard people raving about Granola,
+ it's just one of those products
+ that people love to talk about.
+ I myself have been using Granola
+ for well over a year now
+ and honestly it's one of the tools
+ that changed the way I work.
+ Granola takes meeting notes for you
+ without any intrusive bots joining your calls.
+ During or after the call, you can chat with your notes,
+ ask Granola to pull out action items,
+ help you negotiate, write a follow-up email
+ or even coach you using recipes which are pre-made prompts.
+ Once you try it on a first meeting,
+ it's hard to go without.
+ Head to granola.ai slash ai daily
+ and use code AI daily,
+ new users get 100% off for the first three months.
+ Again, that's granola.ai slash AI daily.
+ One thing I keep seeing in enterprise AI,
+ companies hedging across every cloud,
+ every model, every framework
+ or paying a GSI for a pilot that never ends.
+ The team's actually shipping,
+ they've picked a lane and they move fast.
+ That's one of the reasons I like today's sponsor,
+ Robots and Pencils.
+ They've gone all in on AWS.
+ They're an advanced tier and AWS pattern partner
+ and they ship production AI coworkers in 45 days.
+ That's led to them doing some of the more interesting work
+ I've seen on AI coworkers.
+ And by that I'm not talking about chatbots,
+ I'm talking about actual agentic systems
+ that sit inside a business architecture and do real work.
+ That kind of focus matters if you're an enterprise leader
+ trying to get something real into production
+ or an AWS rep trying to move a customer
+ from interested to deployed.
+ Request an AI briefing at robotsandpencils.com.
+ One conversation with robots and pencils and you'll know.
+ So coding agents are basically solved at this point.
+ They're incredible at writing code.
+ But here's the thing nobody talks about.
+ Coding is maybe a quarter of an engineer's actual day.
+ The rest is standups,
+ stakeholder updates, meeting prep,
+ chasing context across six different tools.
+ And it's not just engineers.
+ Sales spends more time assembling proposals than selling.
+ Finance is manually chasing subscription requests.
+ Marketing finds out what shipped two weeks after it merged.
+ ZenCoder just launched ZenFlow work.
+ It takes their orchestration engine,
+ the same one already powering coding agents
+ and connects it to your daily tools.
+ JIRA, Gmail, Google Docs, Linear, Calendar, Notion.
+ It runs goal-driven workflows that actually finish.
+ Your stand-up brief is written before you sit down.
+ Review cycle coming up.
+ It pulls six months of tickets and writes the prep doc.
+ Now you might be thinking,
+ didn't Open Claw try to do this?
+ It did, but it has come with a whole host
+ of security and functional issues
+ which can take a huge amount of time to resolve.
+ ZenCoder took a different approach.
+ Sock 2, type 2 certified, curated integrations,
+ tighter security perimeter, enterprise grade from day one,
+ model agnostic and works from Slack or Telegram.
+ Try it at zenflow.free.
+ Now staying in infrastructure,
+ at the end of the week,
+ NVIDIA announced a new partnership with Corning Glass
+ which manufactures the fiber optics
+ which are the backbone of data center networking.
+ Corning is close to a monopoly supplier
+ for this type of glass
+ holding more than a 70% market share.
+ The new deal will see Corning build three new facilities
+ in Texas and North Carolina
+ adding 3,000 manufacturing jobs.
+ NVIDIA CEO, Jensen Huang said,
+ we're going through the single largest infrastructure
+ built out in human history.
+ Artificial intelligence is going to become
+ fundamental infrastructure all over the world
+ and surely here in the United States.
+ He also used a language
+ which we're starting to see come up a little bit more
+ when he said, this is such an extraordinary opportunity
+ because we can use these market dynamics to reinvest,
+ revitalize American manufacturing
+ for the first time in several generations.
+ And here's the point that I want to make
+ in the context of the AI story shifting.
+ If you follow the logical chain
+ from demand for tokens is insatiable,
+ way more than our supply.
+ Two, that demand represents a tiny sliver
+ of overall total demand
+ because as we've discussed,
+ a vanishingly small portion of the enterprise
+ is actually fully onboarded into this agentic world.
+ How much computer are we gonna demand
+ when it's not five to 20% of enterprises
+ that are wired up and using agents,
+ which by the way, I'm being generous,
+ but 60 or 70%.
+ The compute shortage starts to look monumental
+ at that point.
+ And of course, that is exactly what investors
+ are playing out, which is why they're back on board
+ and excited once again about this data center build out.
+ But the next step after you recognize
+ that the data center build out
+ that's been discussed so far is likely not a bubble
+ in that it's going to have the token demand.
+ And as we discussed last week,
+ the usage based business model
+ to justify that token demand,
+ then you start to realize that all of these new jobs
+ that are being created around the data center boom
+ are maybe not just some super temporary
+ two to five year burst of construction activity.
+ In other words, it's one thing
+ when you have a job shortage
+ that you need to quickly fill
+ because you got a half decade of build out
+ after which the build out is done
+ and the jobs boom is over.
+ But that's not what we're talking about here.
+ We are talking about a sustained
+ likely decades long project
+ to get access to the compute that we are going to need
+ for the next phase of the global economy.
+ And what that means is that that financial optimism
+ that's showing up on Wall Street
+ is going to pretty quickly diffuse
+ into real enthusiasm in blue collar sectors
+ as the benefits of this build out
+ hit home in the immediate term.
+ Now, as much as the data center conversation
+ is fraught in terms of politics
+ and has real issues and very legitimate issues
+ from local citizens
+ who have questions about data centers in their community,
+ you're starting to see very clearly
+ that when it comes to unions,
+ especially constructions unions,
+ not only are they fully on board,
+ they are leading the charge
+ in trying to align the differences
+ between data centers and communities
+ so these projects can proceed.
+ Craig Fuller tried to capture this on Twitter writing,
+ AI is driving an American manufacturing renaissance
+ and will continue to do so in coming years.
+ AI data center construction
+ is the largest infrastructure investment in history
+ and most exciting,
+ it's not coming from the federal government
+ but rather from private cash flushed enterprises.
+ The AI build out requires massive capital spending
+ but not just on chips,
+ on construction, power generation, equipment, et cetera.
+ It's all infrastructure.
+ AI data centers are massive.
+ A 500 megawatt data center
+ is the size of a mid-sized city airport
+ and requires substantial concrete, steel, copper, fiber,
+ piping and huge cooling transmission and generators.
+ It takes 30,000 truckloads to build one of these out
+ and that doesn't include the power plant
+ that's required to run the thing.
+ That is a massive project in itself.
+ This will require massive capital investment
+ for years to come.
+ Thanks to tax incentives,
+ almost all of these materials
+ are being constructed in the United States
+ originating in the old manufacturing heartland,
+ the Rust Belt or South.
+ Right now I would say this view of the AI build out
+ as driving an American manufacturing renaissance
+ is absolutely not dominant
+ but it is a bit ascendant
+ and that's what I mean by the story shifting.
+ And when it comes to new products announced this week,
+ I think a lot of them fit within the themes
+ that we discussed both last week and this week
+ in terms of a maturation of the product set
+ and real focus on solving the problems
+ of these models in practice.
+ In other words, there's a reason
+ that we are in the harness engineering era.
+ The raw model capability overhang is so immense
+ that we kind of need the harnesses.
+ In other words, the products that surround these models
+ to solve some key problems
+ or else that overhang is never gonna get closed.
+ This week at the Code with Claudevent,
+ we got features focused on memory,
+ features focused on solving human review
+ and more infrastructure tools
+ around multi-agent orchestration.
+ Cursor also added a skill around orchestration
+ introducing slash orchestrate
+ which they call a skill that recursively spawns agents
+ to tackle your most ambitious tasks
+ with the Cursor SDK.
+ From open AI this week,
+ the big set of product announcements was around voice.
+ Sam Altman tweeted,
+ people are really starting to use voice
+ to interact with AI,
+ especially when they have a lot of context to dump.
+ GPT Real Time 2 comes to the API today
+ and it's a pretty big step forward.
+ We actually got three new voice models from open AI
+ all in the Real Time API.
+ GPT Real Time 2, which is their voice agent model
+ that can quote, think harder, take action,
+ handle interruptions and keep conversations flowing.
+ GPT Real Time Translate,
+ which is exactly like it sounds like,
+ the ability to translate more than 70 input
+ and 13 output languages.
+ And GPT Real Time Whisper,
+ which is their streaming audio transcription.
+ Now I think the operative phrase from Sam Altman here
+ is a lot of context to dump.
+ This is 100% why voice matters so much right now
+ and why I think it fits in this broader theme
+ of just one by one going through the key issues
+ of actually using agents in practice.
+ One of the lessons that I have
+ in every self-directed education program we do
+ is to have people set up WhisperFlow or some version of it
+ so they can start to talk to their computer
+ instead of just type.
+ And the reason for that is exactly what Sam says.
+ You can dump context so much faster when you're talking
+ than when you're typing.
+ And now in the agent world,
+ transmitting context from our brains,
+ alongside everywhere else,
+ into agents is kind of one of the key barriers
+ to getting as much out of them as we could.
+ Speaking of audio, 11 Labs also announced
+ that it had reached a half billion dollars
+ in annualized revenue and added new investors,
+ including Nvidia, BlackRock, Wellington and Santander.
+ And one more fundraising announcement
+ that I found extremely as of the moment,
+ past AIDB partner and sponsor Blitzy,
+ raised a couple hundred million bucks
+ at a $1.4 billion valuation.
+ Becoming the latest enterprise AI unicorn.
+ Now, I'm old enough to remember
+ when becoming a unicorn was a really big deal,
+ but at this stage it's almost more like,
+ well, yeah, of course.
+ It's just completely obvious
+ that an enterprise-facing agent harness company
+ that actually does its harness engineering well
+ should be a unicorn in the current environment.
+ Congrats to everyone at Blitzy, of course,
+ and kudos to them for figuring out
+ how important the harness was going to be
+ before many others did.
+ Now, as we round out, it's important to note
+ that any time we talk about narrative shifts,
+ it's very easy to take it too far.
+ One who wasn't looking for it
+ could certainly see a lot of the same sort of discourse
+ around AI this week that we've had in the past.
+ Certainly the best example of this
+ was the response of mainstream media to layoffs at Coinbase
+ and then later in the week, layoffs at Cloudflare.
+ Both of those companies prominently pointed to AI
+ as a culprit, which most media outlets
+ were completely comfortable running without question.
+ And yet, more so than we've seen in the past,
+ there were a fair number of people who jumped in
+ to look at the specifics of the companies
+ before just accepting the AI layoff narrative
+ at face value.
+ Cloudflare, for example, was laying off 1,100
+ despite hiring 2,000 new people just a few months ago,
+ which, of course, makes the curious observer
+ wonder if this wasn't more about correcting and overhiring.
+ Meanwhile, I think Coinbase was even more transparent.
+ The layoffs were announced before
+ the quarterly earnings report,
+ whereas anyone who has paid even the tiniest little bit
+ of attention to markets and crypto for the last six months
+ could have guessed what we were going to hear.
+ Sure enough, in the last quarter,
+ Coinbase transaction revenue fell 40% year over year,
+ but, as I said on Twitter,
+ yeah, the layoffs were definitely about AI.
+ The point is not to deny
+ that AI had some role in these layoffs.
+ We are in the midst of a shift in recalibration,
+ and I think, on average,
+ companies are going to be smaller in five years
+ than they are today, even if they're producing more.
+ What's different in where I think the story is shifting
+ is with a bit of a rejection of the blind acceptance
+ as AI is the default story behind any layoff
+ that comes to the market's attention.
+ Now, as we wrap up, let's talk about,
+ one, what to watch for next week,
+ and two, what you should play with this weekend.
+ For sure, the big story
+ that I am watching for next week
+ is what the White House does,
+ if anything, around this notion
+ that they might be vetting AI models
+ before they get released.
+ It is very clear that there are very different sides
+ battling it out in this White House
+ when it comes to what they should do
+ around advanced AI models.
+ At the beginning of the week,
+ big outlets were reporting
+ what would effectively amount to a reversal of position,
+ having the White House be much more involved in AI
+ than they had ever intended,
+ but then by the end of the week,
+ we got this piece from Politico,
+ suggesting that the White House
+ was trying to distance itself from tighter AI regulation.
+ One senior White House official told Politico,
+ there's one or two people
+ who are very intent on government regulations,
+ but they're sort of the minority of the bunch.
+ So next week, we'll be watching to see how this lands.
+ It's very clear at this point
+ that it is not a nothing story
+ and is frankly a very dynamic and fluid situation.
+ In terms of what to play around with this weekend,
+ the answer is for sure slash goal.
+ Investor, coder, lawyer and researcher Dan Robinson
+ summed it up like this.
+ Codex just released the slash goal feature.
+ Tell Codex to set a goal
+ and it will keep working on that goal until complete.
+ Philip Corey, who works on Codex at OpenAI
+ called it our take on the Ralph loop.
+ Keep a goal alive across turns.
+ Don't stop until it's achieved.
+ A16Z's Andrew Chen writes,
+ trying slash goal for the first time on Codex
+ and it's obvious it's going to 10,000 X token use.
+ It's amazing though.
+ I've had it working on a low level
+ eGPU plus Mac device driver project overnight
+ that I have no business doing for the past 14 hours
+ and it's still chipping away
+ making progress with each iteration.
+ Naturally unattended 24 seven LLM use
+ will be several magnitudes bigger than me
+ prompting actively over a normal work day.
+ Alex Finn wrote,
+ you have to try the new slash goal feature in Codex.
+ It worked for over an hour
+ and built me an entire complex extraction shooter video game.
+ You give it a goal
+ then it works endlessly until the goal is complete.
+ It's like a Ralph loop can run for days.
+ If you enable the image gen skill
+ before you run the goal,
+ it will even generate all the assets
+ for your game autonomously.
+ Couple days later, he followed up.
+ The biggest advancement in AI coding this year
+ has been slash goal and it isn't even close.
+ It allows your AI agent
+ to quite literally work for days without stopping.
+ You give it a mission
+ it works until the mission is complete.
+ However, he says slash goal is useless
+ if you don't use it properly.
+ You need a good prompt for it.
+ I found basically any prompt I hand right
+ after slash goal is never good enough.
+ It produces results
+ that might as well have been a normal prompt.
+ Meta prompting is the answer.
+ Go to any AI that has context
+ around the project you're working on.
+ Say I'm working with codecs
+ and I want to use their new slash goal feature.
+ Please research their slash goal feature
+ then take a look at our project
+ and give me three options
+ for how we could use slash goal
+ to be maximally productive.
+ Then give me a highly detailed slash goal prompt for each.
+ Take one of the prompts
+ then go to the codecs CLI and type slash goal
+ then give the new prompt.
+ I 100% guarantee the AI does better work
+ than you've ever seen before.
+ Now for what it's worth
+ this is exactly what I did.
+ I went to the new GPT 5.5 model
+ said go research the new slash goal feature
+ and tell me what types of projects it's well suited to.
+ And then from there slowly whittled it down
+ to the projects that I am working on
+ across the AI DB suite
+ deciding ultimately to have it work
+ on a forthcoming thing called AI DB for teams
+ that basically takes the daily episodes
+ and turns them into chunked insights
+ that are designed for actual knowledge workers
+ inside companies
+ that allow them to get the highlights
+ without having to consume the entire 20 or 30 minutes
+ to give you a sense of how slash goal fits.
+ When I asked if that would be a good project
+ for slash goal, 5.5 responded.
+ Yes, this is a real slash goal shaped idea
+ but only after you separate two things.
+ Building the system is a normal codecs project
+ but running the system every day
+ against the new episode can become a slash goal project.
+ The key is can the objective be made
+ persistent, inspectable and verifiable?
+ And the idea is that the daily episode translation
+ is exactly that.
+ It needs a common set of formats and outputs
+ strong consistent asset generation and more.
+ So I will be doing that experiment this weekend
+ and I will be excited to hear
+ if any of you do as well.
+ For now though, that is gonna do it
+ for today's AI Daily Brief.
+ Again, as always, if you have any feedback
+ on this new weekly format, please let me know.
+ For now, just a big thank you for listening or watching
+ and until next time, peace.
