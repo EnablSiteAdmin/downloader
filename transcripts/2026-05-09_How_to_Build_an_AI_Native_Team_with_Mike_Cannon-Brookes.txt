@@ -1,0 +1,786 @@
+ Today on the AI Daily Brief,
+ a conversation with Atlassian's Mike Cannon Brooks
+ about why context matters,
+ how AI moves outside of the chat window,
+ and what separates the enterprise AI leaders.
+ The AI Daily Brief is a daily podcast and video
+ about the most important news and discussions in AI.
+ All right, friends, welcome back to the AI Daily Brief.
+ Today we are doing a bonus operators conversation
+ in partnership with Atlassian
+ around their Atlassian team 26 event.
+ Now at this point, most of you are probably familiar
+ with Atlassian, or at least their software tools
+ like JIRA, Confluence, Trello, Loom, and Rovo.
+ Atlassian's products are used
+ by more than 300,000 organizations,
+ and for today's conversation,
+ I'm joined by Atlassian's co-founder and CEO,
+ Mike Cannon Brooks.
+ In this conversation, Mike speaks
+ from both sides of the AI transformation.
+ Atlassian is a company adopting AI internally,
+ and Atlassian is a platform provider
+ building the AI infrastructure and product experiences
+ that other enterprises use.
+ And what I wanted to do in this conversation
+ is get Mike's perspective,
+ both as the leader of a company
+ who is trying to adopt AI internally,
+ as well as a builder of tools and platforms
+ who are helping productize
+ and bring AI to the rest of the world.
+ We discuss why context is becoming
+ a core layer of enterprise AI,
+ how agents, MCPs, CLIs, and headless tool use
+ are changing the relationship
+ between humans, software, and digital teammates,
+ the real factors constraining enterprise AI adoption,
+ and why Mike thinks 2026 is the year
+ AI starts moving beyond chat
+ and into more natural product experiences.
+ Now, since one of the big themes
+ is the difference between teams using AI tools
+ or on the other end of the spectrum
+ actually deeply collaborating with AI,
+ I put together a fun little companion quiz
+ that you can find linked in the show notes,
+ where you can answer a handful of questions
+ and find out what kind of AI team you are.
+ Are you a demo floor team who tries a lot
+ but hasn't actually changed how you work,
+ a team full of closet power users,
+ or an actual super team that treats agents
+ as participants, not utilities?
+ Like I said, there's a link to go do that in the show notes.
+ But with all that out of the way,
+ let's dive into my conversation
+ with Mike Cannon Brooks.
+ All right, Mike, welcome to the AI Daily Brief.
+ How are you doing?
+ I'm doing good. Thank you. How you doing?
+ Very, very well.
+ I'm excited to have this conversation.
+ I think one of the things that I find so fascinating,
+ it's been this way for a while,
+ but especially in 2026 is this is a year
+ where AI capabilities have gone up,
+ where the recognition of those capabilities have gone up,
+ where a whole bunch of things have been thrown
+ into a frenzy because of that.
+ And what's always fascinating to me
+ about people who are building companies in that space
+ is that you're kind of dealing with this
+ on multiple levels.
+ You're dealing with it on the level of
+ what are the implications for our customers
+ that are interacting with us,
+ but you're also thinking about it from the standpoint of
+ how do we run a company that does well
+ and uses these tools and integrates these new processes?
+ And I actually wanted to start on that second part
+ because I think it's sort of such rich territory
+ and it's always fascinating to hear
+ how companies are adapting to how they build,
+ how they work, do these new tools.
+ So what are some of the key changes
+ that you added lastly
+ and have been trying to implement when it comes to
+ using this new set of tools,
+ using new agent to capabilities,
+ just thinking about changing workflows more broadly?
+ Well, that's a very difficult question
+ for all businesses around the world, right?
+ And we talked briefly before this,
+ you know, model acceleration is happening.
+ When you're getting that intelligence
+ to accelerate your business,
+ it seems like when you apply one to the other
+ you don't get it natively, right?
+ We have a lot of reasons why that is the case.
+ I think one of them is the talent changes you require
+ are quite high.
+ The business process re-engineering you require
+ is difficult, right?
+ And that has to be done
+ to get the maximum output from that.
+ So we take that on a lot of different ways.
+ Look, we're looking at a lot of processes internally
+ and where we can make them significantly more efficient
+ or high quality or both.
+ So the quality of an output is a measure of efficiency
+ if you want to think about it that way.
+ Secondly, we have a lot of sharing programs.
+ So this stuff is moving so fast.
+ We talk about AI joy at work.
+ You want people to use AI tools and technologies.
+ Firstly, you have to make them available to your team,
+ which is a non-trivial exercise given enterprises
+ and customer data and all sorts of security issues.
+ So availability of tools, we've seen that with DR, right?
+ When we bought DR, the browser company in New York,
+ four people at Atlassian were allowed to use it
+ out of 13,000.
+ And they're like, cool.
+ So we bought it, can we use it?
+ And the answer was actually no, no one can use it.
+ And they were like, what?
+ Because the security of the AI in the browser is too much.
+ Right now we have 13,000 people using it, right?
+ Because you have to put in all the right enterprise controls
+ to enable them to get these technologies.
+ Then when you've got them deployed and rolled out,
+ which is a non-trivial challenge
+ and security teams shout out to the security teams
+ who are doing the right thing
+ to try to defend their organization
+ against these potential new tools.
+ Then you have to have people actually use them,
+ enjoy them, share them, fail with them,
+ succeed with them and then share those learnings.
+ So we try to promote that loop at Atlassian, right?
+ The learning about there's a new capability in DR.
+ How can I use it?
+ You have to give them time and space and joy to play,
+ to try it.
+ Can I remix this page in a certain way?
+ Can I turn this into a slide presentation?
+ Can I make a browse?
+ Does this browser know these things?
+ Does this tool know what I, you know?
+ Then you have to share those learnings.
+ If only one person learns it,
+ you can't accelerate what you need is
+ and we have lots of internal places to do that
+ and blogs and encourage people to show Loom videos,
+ but also encourage them to show failure where they say,
+ I tried to do this, I thought it would work and it didn't.
+ Here's what I thought.
+ Maybe someone else can go, oh, I tried it again,
+ but I did it this way and it did work for me
+ and that loop of skills sharing, we're all learning.
+ It's not like we have people with 10 years
+ worth of AI deployment experience inside the organization.
+ They don't exist in the world.
+ So we all have to learn simultaneously,
+ which makes it feel like this accelerated foot race
+ for everybody, but it's also pretty exciting.
+ But it comes out of that culture of sharing and openness,
+ I think, and also sharing the learnings and the values
+ so that we can keep accelerating
+ and we have plenty of wins along the way.
+ But there's a lot in that chain to really get that,
+ I think, effective inside organizations
+ and that's pretty similar to what we see
+ inside our customers, I would say,
+ trying really hard to deploy at scale,
+ but enterprise requirements,
+ which are totally valid requirements,
+ security requirements,
+ lining up against spate of technology progress.
+ A whole bunch that's interesting to dig into from there,
+ but maybe picking up on that piece specifically,
+ I would love to hear your sense
+ sort of from the front lines around
+ where enterprises are right now,
+ especially as this sort of big new agentic
+ set of capabilities comes online.
+ And maybe more specifically,
+ how you guys try to,
+ on the one hand, meet them where they are,
+ while also to the extent that it's important
+ to drag them into the future.
+ How are you helping them reconcile the difference
+ or the space between those,
+ as you put it, completely legitimate concerns
+ with also the fact that the world could pass them by
+ if they don't figure out how to adapt?
+ You have to do all the things.
+ It's no easy answer to that question.
+ Look, a ROVO platform,
+ as a part of the overall Atlassian platform,
+ the ROVO platform is where all our AI technologies
+ and tools and libraries and the teamwork graph
+ and MCP and everything, agent sleep, right?
+ The ROVO platform itself has to meet them
+ where they are from an enterprise requirement point of view,
+ adding data residency and private model choice
+ and customer managed keys
+ and all of the compliance requirements
+ and everything there has to be there
+ for them to be able to trust this platform, right?
+ And they have to have a whole set of controls.
+ We've seen that in the DR browser again.
+ We now have a lot of enterprise controls
+ to be able to say, look, this URL set cannot be chatted to.
+ This cannot be involved in memory.
+ This URL set can.
+ There's a whole lot of controls in a browser
+ because you wanna let them read the New York Times
+ and if they wanna run AI in the New York Times,
+ you're like, totally fine.
+ If it's your internal customer list,
+ you may say, that's not fine.
+ And that's up to you,
+ but you have to provide those controls
+ and they have to learn about them.
+ So I don't think you can not have the enterprise requirements
+ across your AI platform,
+ which is for all the vibe code is out there.
+ It's still pretty hard to get it.
+ And then you need the customer to trust that platform
+ and to interrogate it.
+ And some of our customers take six months of queries
+ to turn on our AI platform.
+ Some turn it on in a day.
+ Either is fine, right?
+ It depends on their very different customers often.
+ Secondly, the customer workflows that currently exist.
+ There are a lot of things we can do with AI.
+ So we shipped a whole lot of agentic capabilities
+ inside of JIRA, for example.
+ So you can take any JIRA work item
+ and assign it to an agent.
+ That can be a coding agent or cursor or cloud code.
+ That can be a business agent from Agent Force
+ or some other agentic platform.
+ You can bring those agents into JIRA
+ in your existing workflow.
+ So that's important because you don't need to change
+ how that team is working.
+ You're just accelerating what they currently do.
+ And that's really important
+ because it doesn't require as much people change,
+ as much process change in business re-engineering.
+ That doesn't mean you don't have to also be thinking
+ about how what's the different way to do this, right?
+ So you can use ROVO to file service requests
+ in various ways now.
+ And you don't need to think about,
+ oh, I've got to create a ticket for that.
+ I got to go and fill in a form.
+ I just chat and it goes,
+ hey, I've got like 90% of what you need.
+ Let me do the last 10%.
+ I'll ask you one more question.
+ So you need to think about the new ways of working.
+ At Team 26, we shipped our Teamwork Graph CLI
+ to take the context graph, which is,
+ we have the best context graph in the world,
+ in enterprise data sense, in enterprise knowledge sense.
+ Shipping that as a CLI and MCP to bring that graph
+ to wherever you're using those tools,
+ whatever agent framework or desktop tool
+ or whatever it is that you wanna do,
+ that is necessary for modern ways of working.
+ But we still have to take all those organizations
+ and bring them along.
+ And I think you've got this mix of all these things, right?
+ Which is the beauty of all these different flavors
+ have to happen simultaneously for an organization
+ to really move from that sort of AI novice state
+ to sort of AI native state.
+ And what is AI native is a bar
+ that's continually going up as well.
+ So this is what's joyful and exciting
+ about these technological transitions.
+ Does that help?
+ Absolutely, I mean, it's super interesting.
+ This isn't necessarily the way that you said it,
+ but it almost feels like when you're discussing this,
+ as a product builder,
+ you're basically trying to solve some set
+ of their adoption challenges with your product
+ so that they cease to be challenges, right?
+ If you build into the products that you're giving them,
+ or especially if they're tools that they already use,
+ platforms they already use,
+ answers to some of the frequent challenges that come up
+ around governance issues, compliance issues,
+ privacy issues, data access issues,
+ it sort of short circuits
+ what they are inevitably going to find on their side
+ and allows them to perhaps move
+ to the more advanced stages of figuring out adoption
+ rather than being stuck on those early
+ kind of hard sticking points.
+ Yes, yeah, certainly.
+ I mean, I think this stuff is all being developed
+ very fast and shipped very fast,
+ but the customer concerns are as old as time
+ as the phrase goes, right?
+ They need their software to be secure,
+ they need to be compliant,
+ they need to trust it with their data.
+ To some extent, we have trust as Atlassian
+ as a strategic partner.
+ That doesn't mean our customers
+ should blindly trust anything we ship, right?
+ So they will investigate new capabilities we have
+ and how it meets their internal concerns
+ and they all have new risk matrices
+ to do with model choice and PII
+ and all sorts of other things
+ which are totally valid concerns.
+ So it is certainly our job to build
+ an enterprise strategic AI platform
+ which is what we've done in Rovo
+ and continue to do every single week, right?
+ As new capabilities, we talked about 5.5,
+ we've rolled it out already, right?
+ And so people will have to be like,
+ oh, can we use that?
+ How does it work?
+ What is new in it?
+ Our job is to take that intelligence,
+ those model acceleration
+ and deliver them to our customers in value
+ both at the experience level
+ in the user interface of Giro or Confluence or Dia
+ and to deliver that at the infrastructure level,
+ the terminal level, right?
+ The requirements and the scale
+ and the performance that they need
+ and to do that
+ and deliver that intelligence into their workflows
+ that is a common set of enterprise concerns, right?
+ And we have to do that no matter what.
+ They do require changing their business processes
+ to get some value out of it
+ but they can get a lot of value out of it
+ without changing their processes.
+ And both of these are really important, I think
+ because it's an example I can give with.
+ Confluence is a massive application.
+ Millions and millions of people every day
+ write content in Confluence to share ideas
+ and communicate and connect to lots of different systems,
+ figments, Google Sheets, everything else, right?
+ And the writing of those ideas
+ hasn't changed.
+ Some people want to write text.
+ We can use AI to help them write that text
+ in lots of ways better.
+ We can use them to do all sorts of different things faster
+ in the way they were already doing it
+ in writing a document and sharing it.
+ We've all seen text creation
+ and rewrite this paragraph for me
+ and help me with this sort of stuff.
+ We can also, we have a feature set called create with rovo
+ to help them make slide presentations out of a document.
+ Now, we're not trying to compete with PowerPoint.
+ It's got basic slide capabilities
+ but the ability to take a document and present it
+ to transmogrify the content
+ is something totally new that didn't exist beforehand
+ and both of these are important capabilities to deliver
+ inside of a product like Confluence
+ to just help people working the existing way
+ to be faster and higher quality and better in their output
+ and also show them new ways of working,
+ new ways of remixing the content they have,
+ the knowledge they have
+ and bringing in outside knowledge into that at the same time.
+ I think both of these things
+ are incredibly important to do simultaneously
+ and sometimes the industry only focuses
+ on the new way of working and the new thing.
+ Our job is to bring those customers,
+ bring their teams along,
+ not ignore the new way of working.
+ It's totally valid and important and exciting
+ but also take the existing teams
+ and existing ways of working and helping them be faster
+ and doing both of those simultaneously
+ is what Alasin's always done really well
+ and I think we're doing very well
+ through the AI transition about keeping that balance correct.
+ It's a balancing act.
+ And it feels to me like that theme of both helping them
+ with the way they work now
+ as well as kind of skating to where
+ the puck is going in terms of how they're gonna work
+ in the future is that sort of spread over
+ the set of announcements that you guys just made
+ because there's a whole slew of things
+ that are about kind of again,
+ more sophisticated features
+ and the things that they're already doing.
+ But then you announced some new features
+ around the teamwork graft including the CLI,
+ including tools and MCP
+ that almost speak to some of the trends
+ that we've been tracking on this show recently
+ of thinking about headless tool use from agents
+ and the combination of how people and digital employees
+ are gonna work together and collaborate.
+ I would love to hear a little bit more about
+ some of those updates around the teamwork graft CLI
+ and tools and MCP,
+ just to hear about how you guys have been thinking
+ about those evolutions and maybe context
+ as an important part of the enterprise AI process in general.
+ Sure, the context is in crew, crew.
+ Simply put, the way that we think about it
+ is acceleration for your business
+ is about sort of intelligence multiplied by context, right?
+ It's a simple sort of equation.
+ The intelligence acceleration is very obvious, right?
+ The new models coming out, new capabilities,
+ new, whether it's reasoning and planning
+ and on through the ages of models.
+ Context is the thing that we're trying
+ to help organizations accelerate.
+ We've had the teamwork graft for seven or eight years now.
+ It is the best enterprise context graft
+ out there at the moment.
+ It's amazing in its capability
+ and we're investing very heavily
+ in continuing to make it better.
+ So part of the announcements at the moment,
+ at Team 26 are a whole lot of new capabilities
+ for the teamwork graft itself.
+ In its connectivity, we've got a whole lot of new connectors
+ to other SaaS apps and SaaS data and partners of ours.
+ We've also added whole new categories
+ of knowledge to the teamwork graft.
+ So three quick examples there, one is code itself.
+ So we've had repositories and pull requests
+ into business objects around code for a long time.
+ We've now added a full semantic index
+ of your entire code base.
+ That's incredibly important
+ because we can help coding agents of all forms,
+ understand more about your business data
+ and your code data together
+ and we can answer business questions across your code base
+ which makes your coding agents faster.
+ It gets better quality answers
+ and it also makes them significantly cheaper to run
+ because they don't have to do as many hops
+ and as much thinking
+ because we pre-do a lot of the thinking in the teamwork graft
+ bringing a full semantic index of your source code
+ because we don't have.
+ Billion token context windows
+ and probably won't for a fair while.
+ We can have a huge impact there
+ in terms of connecting your technical
+ and business teams together
+ which is what we've always done.
+ Code that's a non-trivial challenge
+ at massive scale for some of our customers.
+ We've been using it internally for a while.
+ It's amazing in terms of the results
+ it can multiply with better context
+ any coding agent you choose to use
+ and we partner with all of the majors.
+ Second thing we've added is we've greatly increased
+ the people capabilities of the teamwork graft.
+ So we now understand your entire org chart.
+ We now understand your skills of people.
+ So we calculate by looking across
+ your entire organizational context people's skills
+ and continue to keep that updated
+ and where they are growing.
+ And if you want to think about who's AI native
+ and who's not, we can tell you a lot about that.
+ For example, across your org
+ we obviously have your teams, your people, your talent.
+ These two are really important to combine
+ because you might want to ask questions
+ about business content that sits in Google Docs
+ or Confluence and about code
+ of only people who report to me
+ only people who are on my team.
+ So I need to understand my org chart
+ I need to understand all of this and put it together
+ and I want that answer fast, right?
+ And I don't want to use burn millions of tokens
+ to get that answer.
+ I want to be able to do it quickly.
+ That's why the people content is incredibly important.
+ Who do I collaborate with?
+ How often do I spend time with different people?
+ We have all in the context graph
+ connected to all your business content
+ your knowledge, your goals, your projects
+ and all of your technical content.
+ Lastly, we've added physical assets.
+ So about 50% of our customers
+ operate some sort of large scale physical asset world.
+ That's what a lot of businesses do
+ whether that's TVs or trucks or satellites
+ whether that's laptops in the businesses, meeting rooms
+ we need to remember it's not just a purely digital world.
+ When you bring that in
+ you see some fantastic examples
+ about how you can give context to any AI tool
+ rovo inside the Alaskan world
+ you know, cursor or Claude code in a technical world
+ agent force or the Gemini platform
+ any of our partners in the business agent world
+ we can provide them through customers
+ with amazing amount of context
+ that's continually updated at the
+ 150 billion object and connection scale
+ across many of our largest organizations in the world now.
+ Then we are opening up that teamwork graph.
+ So the last announcement is around
+ that teamwork graph.
+ Now we have a TWG CLI
+ which is amazing in its ability to get there.
+ It's built for agents.
+ So 60, 70 different command sets
+ each of which has multiple commands
+ to operate navigate query that context graph
+ incredibly fast built for agents
+ and all of the technical capabilities.
+ We're adding a similar graph to our MCP server
+ so all of those coding agents get access
+ to all of that content in terms of
+ walk charts and everything else from a people side.
+ So it's about having that graph be
+ rich and continuing to grow.
+ It grows with general usage of Alaskan applications
+ and your SaaS applications in terms of process.
+ And we're obviously bringing that teamwork graph
+ where we talk briefly about Dia
+ as a web browser and things like
+ we're bringing that into the browser, right?
+ So your browsing activity
+ and your security context of the browser
+ is all being added to Dia
+ and at the same time access to the teamwork graph
+ via that MCP server allows you to take that content
+ as long as the tabs you're looking at today
+ and start getting answers across all of it
+ with your model of choice kind of thing.
+ So it's incredibly important, I would say,
+ that you have organizational context that is rich
+ and that context graph is a massive investment of ours
+ and hugely impactful to customers
+ and those customers that are in all the early access programs
+ are seeing amazing results.
+ One of the things that I wanted to ask
+ this sort of build on that is,
+ you know, you have this frontline seat to a huge,
+ I would imagine, array of organizations
+ specifically in terms of where they are
+ on their AI journey, on their adoption journey.
+ And one of the things that we've been kind of tracking
+ this year is in many cases increasing gap
+ between the companies that are starting to break out and lead
+ and the companies that are starting to lag
+ behind a little bit, are there common characteristics
+ that you're seeing among those companies
+ that you would put in the category of leaders, right?
+ Who are sort of using more of the capabilities
+ that these tools offer,
+ who are thinking in more advanced ways
+ about what they can do?
+ Especially, you know, anything that, you know,
+ isn't just they use the tools better,
+ but are kind of characteristics
+ that other organizations might look into.
+ That's a good question.
+ I think you're certainly seeing organizations leaning in,
+ I would say, heavily and thoughtfully.
+ If I think through the customers I know
+ who are doing it the best,
+ there is a heavy and thoughtful leaning in
+ and heavy being like, we've got to push this stuff hard,
+ we've got to try and find real world examples.
+ They're not looking for the sort of 2% improvement,
+ you know what I mean?
+ They're looking for good 20, 30% improvements
+ in certain areas and they're really pushing to get those,
+ but they're doing it quite thoughtfully.
+ So they're building platform constructs.
+ They're really concerned.
+ The best customers ask us,
+ how does ROVO connect to these 10 things?
+ And I'm like, ah, you've thought about this problem
+ because what they don't want is
+ a thousand different AI frameworks and tools
+ and technologies that are colliding
+ with different security pastures and content.
+ And they've been there before.
+ They don't want another explosion of tools,
+ but they see the acceleration
+ and they're trying to work out how all of this works, right?
+ Our partnership stance really helps us there, right?
+ We've long been a highly collaborative organization
+ with many of your other tools.
+ Co-opetition, if you want to think about it that way,
+ we've been long-term partners with both Microsoft
+ and Google in the sort of workspace
+ or office area, teams and Slack,
+ Zoom and teams, et cetera, right?
+ GitHub and GitLab and Bitbucket all work together.
+ So there's a lot of tools that you have to work with.
+ I think they're asking for that collaboration to happen
+ and we are trying to give it to them
+ because they're pushing hard on the results they need
+ and they realize the results don't happen in a silo.
+ I think you're seeing more focus on overall output
+ and an increasing focus on cost understanding,
+ maybe not cost management yet, but cost understanding
+ and DX as a good example,
+ DX we acquired, which is eight months ago now,
+ something like that, absolutely flying off the shelves
+ like going gangbusters
+ because the ability to understand
+ your engineering organization
+ got 5,000 people, 10,000 people in engineering
+ and how AI native they're using,
+ who's consuming the most tokens,
+ which AI coding tools are working better and not better
+ is a useful understanding.
+ What's really important is how is that affecting
+ my overall engineering productivity?
+ Because some of these tools are very seductive.
+ We've all sat in front of some sort of chat tool
+ and it starts spitting out text
+ and we're like, this is just the magical experience
+ overcomes you, but is it useful?
+ Did it help me do my job better?
+ Is a totally different answer.
+ Should an engineer be using more tokens or less tokens?
+ That's kind of the wrong question,
+ I think the best organizations are talking about
+ throughput and flow and output and quality of output,
+ not quantity of output.
+ If someone's using zero tokens,
+ probably not doing a great job,
+ the people using the most tokens
+ are they actually the most productive?
+ These are the types of questions
+ that I think they're asking
+ and we're trying to help them answer
+ some part of those questions,
+ but they're non-trivial questions, right?
+ We're all, I think trying to do that,
+ but that's what the best organizations
+ are really asking of themselves.
+ What is the overall quality of output that I'm getting
+ and is that accelerating
+ rather than just raw tokens and ROI basis?
+ It almost feels like that.
+ One of the things that I also noticed
+ from your announcements was the general availability
+ of the Robo Studio no-code environment,
+ which is, it feels to me like at least partially trying
+ to deal with the exciting capability set
+ of non-engineers building things to solve their problems
+ while also kind of understanding
+ that that creates a whole new set of challenges
+ in terms of process sprawl, product sprawl,
+ all sorts of new challenge vectors.
+ And it sounds like that this is sort of part and parcel
+ of the, I don't know what I might characterize
+ as the systems level thinking
+ that characterizes some of these leading companies.
+ Yes, I certainly think so.
+ I mean, as I said,
+ there'll be a lot more people creating technology
+ doesn't necessarily mean they're all software developers.
+ They're everything from Robo Studio to DEA
+ and now writing code, right?
+ Robo itself writes code in our new chat models,
+ you know, uses tools.
+ DEA can write code in your web browser and use tools.
+ Robo Studio can write code and use tools.
+ All three of those probably don't commit the code to Git.
+ You probably don't get woken up at 2 a.m.
+ in the morning when the code is down.
+ So it's not sort of true engineering development,
+ but it doesn't mean it can't be incredibly useful
+ for you to solve a problem of financial modeling
+ or just a little tool for yourself.
+ All of that needs to be built securely.
+ So between Robo Studio and the Forge Extensibility Platform,
+ customers that already trust Forge
+ and trust our Teamwork Graph,
+ Robo Studio can build small applications for you
+ that leverage a Teamwork Graph
+ all the way up to full-fledged agents.
+ Now, if using full-fledged agents,
+ proper, large-scale, agentic collaboration,
+ again, Robo Studio, I think we've passed
+ five million agents created at this point,
+ something like that.
+ Those agents are often written with code
+ when they're large ones, right?
+ Proper development teams have to be versioned
+ and be very thoughtful about how it's changing,
+ you know, just like update the model all the time
+ because it might break the usage of the agent.
+ So you have to be very careful and thoughtful.
+ That's written by, I would say, true development teams.
+ But that doesn't mean there's not a world
+ for a lot of people using DR or using Robo Studio
+ to just make an application that solves their own problem,
+ right?
+ And we have to help understand that spectrum,
+ help customers understand that spectrum.
+ And we're trying to do end-to-end there
+ for the customer, but always with the teamwork graph
+ and your Atlassian platform security levels
+ and compliance levels underneath it.
+ So you will not get access to things
+ that you wouldn't in that application you built.
+ That application, you know,
+ in those personal application levels,
+ runs as yourself, so it gets access
+ to only the content you already had.
+ And we have all sorts of security controls
+ that have to be built on that for enterprises.
+ That's the next sense of what you talked about beforehand,
+ which is trying to meet that customer where they are,
+ but also knowing that those applications
+ don't have to run 24-7 for a million people
+ with scale and performance and all the other things.
+ They're just meant to solve a problem.
+ If code is cheap, that can be thrown away
+ and you can run another one tomorrow,
+ which is kind of what you get to DR at the end,
+ which is exactly what it does,
+ is writes a lot of code you throw away in minutes.
+ I could spend all day talking about disposable software
+ and what that's going to mean.
+ But as we wrap up here,
+ I wanted to just close on a question about,
+ when you look across the rest of 2026,
+ what is one thing that gets you excited about AI,
+ either for your team, for your customers, or for yourself?
+ One thing is very hard.
+ If I had to pick one thing, it was that
+ we are going to start to see AI move beyond chat.
+ Chat is incredibly important.
+ We're going to start to see it,
+ I believe we're already seeing it, but over 2026,
+ more and more change in the experiences we have
+ and the design experiences
+ and bringing it to the every person,
+ that is very exciting.
+ It does not require you to be a crazy smart
+ prompt engineer with chat
+ and a desktop terminal client open,
+ bringing that into other areas.
+ We see that across our platform,
+ from DEA to JIRA to Confluence to Loom.
+ I think that's the most exciting is the design era of AI,
+ bringing these technologies and powerful tools
+ to everyday users in meeting them where they work,
+ how they work,
+ and changing the way they work at the same time.
+ I think that's incredibly exciting.
+ Mike, awesome to have you on the show,
+ really excited to get your take again
+ from the front lines of both building a company,
+ using these tools, as well as building the tools
+ that companies use.
+ And so thank you for spending some time today.
+ No problem, appreciate it, have me, thanks, Nathan.
