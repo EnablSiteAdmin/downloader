@@ -1,0 +1,844 @@
+ Today on the AI Daily Brief, the new jobs AI will create.
+ The AI Daily Brief is a daily podcast and video about the most important news and discussions
+ in AI.
+ All right, friends, quick announcements before we dive in.
+ First of all, thank you to today's sponsors, Granola, Super Intelligent, Bolt, and Section.
+ To get an ad-free version of the show, go to patreon.com slash ai-daily-brief or
+ you can subscribe on Apple Podcasts.
+ If you want to learn more about sponsoring the show or really finding out about anything
+ else in the AIDB ecosystem, head on over to aidailybrief.ai.
+ One of the big points of discussion for this week has been the idea that there is this ever-so-subtle
+ shift in the AI jobs narrative.
+ It would be going way too far to say that this was becoming anywhere near mainstream,
+ but you're starting to see more people at least question the premise that AI and
+ agents getting better means people will have less work.
+ And yet even among those who are arguing that the AI job apocalypse narrative is way
+ overblown, the argument tends to be much more backwards looking.
+ It's looking at the way that productivity has previously impacted industries and
+ extrapolating that out to the future.
+ That's well and good, and all of that is important.
+ But I think it is a significant failure of the AI industry to take the next step
+ and actually start to explore the type of jobs that there will be in an AI-enabled
+ future.
+ The sheer tonnage of time spent on assessing which jobs are most at risk
+ compared to the almost zero time exploring what types of new jobs will be created
+ represents one of our great failures and leaves people who want to be optimistic
+ about the future clinging to vague hand-wavy notions about what those jobs might be.
+ Now, from the standpoint of sheer epistemic humility,
+ of course, we have to be careful about arguing with any sort of confidence what
+ specific things will be created in the future.
+ In other words, the more specific our future predictions,
+ the less likely to be right they are.
+ That doesn't mean that we can't at least explore from first principles how we think
+ the change is going to play out if indeed it is not going to be the mass
+ destruction of white collar work that some are promising.
+ So what I'm going to attempt today is talk about one,
+ the fundamental problem in the hidden assumption in most of the job apocalypse
+ narratives.
+ Two, what opens up when you correct that assumption.
+ Three, how to deal with the AGI objection.
+ And four, a real walk through a specific sector and some jobs that I could
+ see very plausibly being a part of the future and representing meaningful
+ amounts of employment.
+ So let's talk first about that hidden assumption.
+ AI is mostly analyzed right now as a labor supply story.
+ In other words, AI increases the supply of labor,
+ so labor gets cheaper and workers get displaced.
+ But all of this rests upon the presumption that demand stays constant.
+ This is another way of framing the lump of labor fallacy.
+ The idea that there is a set amount of work to do,
+ so if technology comes and does some of that work,
+ that means that humans aren't doing that work,
+ which means that those humans don't have any work to do.
+ What it doesn't take into account is the expansionary nature of economies
+ and the ability of demand to expand to absorb more supply.
+ Now I don't want to spend a lot of time on the historical arguments here.
+ As I mentioned, that's the main substance of pretty much all other
+ arguments along these lines.
+ Yet it is worth noting, of course, that the assumption that demand stays
+ constant as the supply of labor increases has never held true.
+ And so if we are just going from historical precedent,
+ it is unlikely to be true this time either.
+ The more important question, if we're trying to actually interact
+ with people's lives as they're lived now,
+ not just provide a history lesson,
+ is to ask where demand will expand.
+ Basically, what parts of the economy could actually grow
+ as AI allows us to produce more?
+ And I think what's important to note is that demand elasticity
+ actually comes in a variety of different forms.
+ The one that's most obvious is, of course, price elasticity,
+ i.e. I wanted the thing, but it costs too much.
+ If AI makes a thing cheaper, new buyers can enter the market.
+ A second category of demand elasticity is access elasticity.
+ I wanted it, but I couldn't get it.
+ Now whereas AI supported price elasticity
+ because it lowered the cost floor,
+ in this case we're talking about AI reducing provider scarcity
+ or wait times or geographic barriers
+ or other types of institutional bottlenecks.
+ Basically, instead of it just being cheaper,
+ AI makes a good or service more readily available.
+ A third type of demand elasticity
+ is complexity elasticity.
+ I needed it, but the system was too confusing.
+ Think help with taxes, insurance, immigration, benefits.
+ The way that AI supports this type of demand elasticity
+ is by making opaque systems navigable.
+ You're already starting to see this as a major way
+ that people are consuming AI,
+ interacting with legalese or contract things,
+ or even doctor's recommendations
+ they didn't really understand before
+ but now have the Sherpa and Guide
+ that can help reduce that complexity.
+ Another category of elasticity
+ we'll call continuity elasticity.
+ And here perhaps we're getting a little bit more abstract,
+ but I still think it's worth noting.
+ The idea of continuity elasticity
+ is going from I get help occasionally
+ to I'd benefit from help all the time.
+ So think about areas like health or coaching
+ where always on monitoring and support
+ could become cheap enough to operate at scale
+ in a way that wasn't possible before.
+ A fifth form of demand elasticity
+ we'll call personalization elasticity.
+ This is I get the generic version now
+ but I value something made for me.
+ When AI brings the cost and needs of production down
+ it's going to make customization cheaper.
+ The last category we'll call relational elasticity
+ or value elasticity.
+ And the idea is I want this thing that I'm buying
+ whether it's a good or a service
+ to be more human, meaningful or trusted.
+ This is what Chicago booth economist Alex Emass wrote about
+ in his what will be scarce essay.
+ How the relational sector
+ where the provenance of a good or service
+ how it was made and who made it
+ and who is providing it
+ are actually an integral part of the value of the service.
+ IE people deciding that they don't just want a coffee
+ they want an experience surrounding that coffee
+ that involves interaction with a human
+ and a particular quality
+ that comes from some sort of human touch.
+ So we've got these different categories
+ of how AI's impact on the supply of things
+ in terms of cost of production
+ ease of production, speed of production, et cetera
+ can interact with elasticity of demand
+ to expand demand in new and clear ways.
+ And one thing that's interesting to look at
+ as we try to understand AI's impact on different sectors
+ especially the positive and generative impact of AI
+ is to ask which of those elasticities
+ are common in those sectors.
+ They're present pretty much everywhere
+ but different sectors are gonna have different elasticities
+ more strongly represented.
+ For example, in experiences and travel
+ that relational elasticity and personalization elasticity
+ are going to be particularly high
+ but you're not likely to see continuity elasticity
+ because you're not able to have experiences or travel
+ continuously throughout your life
+ as awesome as that would be.
+ Meanwhile, on the other end of the spectrum
+ healthcare I think has every single one
+ of these types of elasticity
+ which is why it shows up as our case study
+ in a little bit.
+ Now, trying to zoom out and consolidate this argument
+ I think we can look at AI
+ as expanding the demand frontier in two directions at once.
+ It either is increasing and democratizing access
+ to things that are available now
+ or unlocking things that aren't possible now.
+ If you go back up to the types of elasticity
+ you'll note that in many of these cases
+ if you were currently rich
+ you could already get access to the thing
+ in the way that the people want it now
+ under the conditions of the new elasticity.
+ If you're rich your word is price sensitive
+ you could probably pay to solve access issues
+ and complexity issues.
+ If you were rich enough
+ you could even use money to solve continuity issues
+ and you could probably pay for personalization
+ and relational value as well.
+ So the first unlock of AI
+ is the affordability unlock
+ basically the same menu but at a lower price.
+ And that's most of what you were probably thinking about
+ when I was describing these six categories
+ of demand elasticity.
+ To take one example
+ let's think about small business professional services.
+ Right now the average small business owner
+ might not have the budget to buy
+ a $5,000 design project
+ a $3,000 marketing campaign
+ a $2,000 legal review
+ and a $1,500 analytics report.
+ This obviously does not mean
+ that the business doesn't have demand
+ for design marketing legal and analytics.
+ It means that at the current state
+ the old version of those services was unaffordable.
+ If AI reduces the cost of those jobs
+ from $5,000 to $500 and $3,000 to $300
+ an enormous long-tail market activates.
+ Millions of small businesses
+ that were never agency clients before
+ become buyers for the first time.
+ This is again what I'm calling the affordability unlock
+ where there is net new demand
+ for services that already exist
+ because the changing cost and availability of provision
+ opens up new buyers for which
+ that service wasn't viable before.
+ The second type of unlock
+ I'm calling the possibility unlock.
+ To use the menu analogy
+ if the affordability unlock
+ is the same menu at a lower price
+ the possibility unlock is a new model entirely.
+ This is where AI makes a service model
+ operationally possible
+ that could not previously exist at scale.
+ The category itself becomes possible
+ before anyone can demand it.
+ Previewing where we're going to get in our case study
+ an example of this
+ I think is continuous preventative healthcare.
+ The vast majority of people not named Brian Johnson
+ don't currently have someone continuously
+ watching their health data
+ or tracking their care plan
+ or noticing drift or coordinating with their pharmacy.
+ And to be clear people
+ aren't demanding this exact service.
+ This is in a normal category
+ because it hasn't been operationally viable.
+ But as AI collapses the cost
+ of the informational layer around care
+ data collection, monitoring, summarization,
+ documentation, scheduling, escalation routing
+ once all of those costs fall
+ and the systems around them become viable
+ a totally different healthcare model becomes possible.
+ One that is personalized, data-driven,
+ preventative and continuous.
+ This is entirely net new demand
+ because no one had this before
+ because it wasn't possible until AI made it possible.
+ When it comes to new jobs
+ the affordability unlock opens up whole new categories
+ of providers that cater to different parts
+ of the long tail of the market.
+ The possibility unlock creates entire new markets
+ which entire new actors will come into
+ to provide those goods and services
+ that are now actually possible.
+ But now we have to get to the question
+ that stops all of these conversations mid-track.
+ I would argue that the number one reason
+ that people claim this time is different
+ and that AI is not a so-called normal technology
+ is that they say the people
+ that are optimistic about the jobs created in the future
+ aren't answering the question,
+ won't AGI just eat those jobs too?
+ In other words, for those small business professional services
+ if the first wave of AI brings costs down by a factor of 10
+ and makes those $5,000 jobs into $500 jobs
+ is that just a temporary state on the path to AGI
+ that can do those jobs for 50 cents instead
+ with no human involved?
+ To be clear, from a first principles perspective
+ this is a reasonable question
+ and one that again I think AI optimists
+ are failing to engage with clarity and good faith.
+ For my part, I think that there are
+ actually quite clear answers.
+ The question that we are asking
+ which I think is the wrong question
+ and the idea that is embedded in the assumption
+ that AGI will just eat those new jobs too
+ is we think about the question of jobs
+ only as a question of can AI perform the task?
+ It's a capability question
+ that assumes labor demand is grounded entirely
+ and only in what humans can do.
+ But that's too narrow.
+ A better question I believe
+ is does AI only delivery satisfy the demand?
+ Here we've moved from a capability question
+ to a service design question.
+ Many roles exist not because of capability gaps
+ but because of the constraints
+ of the market's expectations
+ in how a service is delivered.
+ Things like trust, accountability, presence, relationships
+ they are part of the value
+ and while AGI can eat tasks
+ and will eat many tasks
+ it will not automatically eat that demand
+ for things like trust and accountability.
+ To try to put a name on this
+ I'm calling it the human premium.
+ These are seven categories of value
+ that do not a priori transfer
+ when you remove the human.
+ The human premium is the portion of economic value
+ that remains attached to human involvement
+ even when AI can perform the underlying tasks.
+ It is the answer to why doesn't AI eat those jobs too?
+ Here are seven categories of human premium.
+ The first is relationship or relational.
+ Again, this is the one that Alex Emas explored.
+ The idea that I want this delivered
+ by someone who knows me
+ where there is continuity, memory, accumulated trust
+ where the human part of the experience actually matters
+ and is integral to the experience
+ where replacing a person with an AI
+ makes the service worse enough
+ that it actually decreases demand for that service.
+ A second kind of related category of human premium
+ will call embodied presence
+ where the demand constraint is
+ I want someone there with me.
+ This is where physical presence matters.
+ The nurse in the room, the trainer correcting form.
+ It's not that AI can't do
+ some of the things that those people do.
+ It's that the physical presence
+ is important enough to many
+ that there continues to be demand
+ for that human premium of embodied presence.
+ A third category of human premium is trust.
+ I want to talk to a person before I act.
+ Humans are social creatures.
+ We value social proof.
+ We value the experience of people who have come before us.
+ We value understanding the context
+ of the personal experience
+ that we are trusting of people who came before us.
+ As much as AI generates recommendations
+ there are many situations
+ in which people will absolutely prefer
+ the recommendation of a human
+ even if that human
+ is just validating the AI that they're working with too.
+ In many circumstances humans will be asked
+ to make AI generated recommendations believable,
+ emotionally acceptable, and actionable.
+ Which gets us to of course
+ the fourth category of human premium
+ which is accountability
+ where the demand constraint is someone has to own this.
+ People want a person who signs off,
+ escalates, explains
+ and is responsible when things go wrong.
+ When I'm taking an experimental new peptide regime
+ which is all the rage right now
+ I don't care if chat GPT
+ can tell me how to titrate things correctly
+ at the right ratios.
+ You better believe I want someone
+ whose bona fides and credentials I can check
+ and who to put it crassly
+ I can sue if something goes wrong.
+ The questions of legal accountability for AI
+ are going to make a lot of lawyers
+ very rich for a very long time.
+ But even outside of questions of a legal system
+ there is going to be a human premium
+ on accountability for sure.
+ A fifth area of human premium is translation.
+ AI is interacting
+ with the entire accumulated knowledge of the world.
+ But some people aren't going to know
+ how to ask for what they need.
+ Even in a world of AGI
+ they will want human translators.
+ People who can turn messy desire and constraint
+ into usable AI mediated work.
+ This I think is extremely important
+ for the example of small business professional services.
+ The AGI eats everything answered to this
+ that won't it just compress that $500 job
+ into a 50 cent job eventually
+ that takes the job of the intermediary actor
+ fails to understand the economic value
+ of this translation.
+ A small business owner
+ might not want or have time
+ to get good enough at using AI for design
+ to take advantage of the 50 cent cost
+ that AGI makes it.
+ The market will find the price level
+ at which a human can upsell the 50 cent AI work
+ in a way that fits better
+ with the process and constraints
+ of that small business owner.
+ It is a failure of economic understanding
+ to assume that there is no room for margin
+ on top of the underlying cost of goods sold.
+ AI might dramatically compress that margin
+ but there will be margin there.
+ A six category of human premium
+ will call behavior change.
+ That's where I know what to do
+ but I need help doing it.
+ Anyone who has tried to use a chat GPT workout plan
+ only to abandon it or at least integrate it
+ with a human trainer
+ who can help them stay accountable to themselves
+ will understand what I'm talking about here.
+ Simply put, there are certain categories
+ of behavior change for which
+ we will listen to a human
+ and we will not listen to an AI.
+ The last category of human premium
+ will call provenance and status.
+ This is what we were talking about
+ in the relational sector
+ that a human made it is part of why it matters.
+ This could be arts, crafts,
+ custom goods, live performance, bespoke services.
+ The human signature is part of those products.
+ Today's episode is brought to you by Granola.
+ Granola is the AI notepad
+ for people in back-to-back meetings.
+ You've probably heard people raving about Granola.
+ It's just one of those products
+ that people love to talk about.
+ I myself have been using Granola
+ for well over a year now
+ and honestly it's one of the tools
+ that change the way I work.
+ Granola takes meeting notes for you
+ without any intrusive bots joining your calls.
+ During or after the call,
+ you can chat with your notes,
+ ask Granola to pull out action items,
+ help you negotiate,
+ write a follow-up email
+ or even coach you using recipes
+ which are pre-made prompts.
+ Once you try it on a first meeting,
+ it's hard to go without.
+ Head to granola.ai.ai daily
+ and use code AI daily,
+ new users get 100% off for the first three months.
+ Again, that's granola.ai.ai daily.
+ Open AI and Anthropic are both launching
+ enterprise AI consulting efforts
+ because everyone is realizing
+ that the challenges and the capabilities of AI,
+ the challenge is getting individuals
+ and the organization actually ready to use it.
+ The truth though is that all the four deployed engineers
+ in the world aren't going to help you
+ if you don't actually have a coherent strategy
+ based on an understanding of your actual AI readiness.
+ Super intelligent maturity maps give you a chance
+ to see where you stand
+ relative to the industry on deployment depth,
+ systems integration,
+ data access, outcomes, people and governance.
+ And from there, our customized AI planning assessments
+ can help you figure out what you need to do
+ to improve your readiness and how to sequence it.
+ Go take your own maturity maps quiz at bsuper.ai
+ and set us a note if you want to go deeper.
+ Today's episode is sponsored by Bolt.New.
+ Bolt.New is a genetic engineering on multiplayer mode.
+ Designers, product managers and engineers
+ build in the same environment
+ and the design system agent
+ keeps every screen on brand.
+ No more Frankenstein UIs stitched from a dozen prompts.
+ Whether you're shipping internal tools,
+ moving from prototype to production
+ or replacing a legacy admin panel,
+ Bolt.New takes your team from concept to deployed app.
+ One personal recommendation,
+ hit plan mode before you build.
+ I had a project I had half described
+ in three different prompts
+ and plan mode made me actually think through it
+ with Bolt.New before a single line got written.
+ It saved me from rebuilding the same screen
+ probably about four times.
+ Build better apps faster.
+ Start with the link in the description.
+ Here's a harsh truth.
+ Your company is probably spending thousands
+ or millions of dollars on AI tools
+ that are being massively underutilized.
+ Half of companies have AI tools,
+ but only 12% use them for business value.
+ Most employees are still using AI
+ to summarize meeting notes.
+ If you're the one responsible for AI adoption
+ at your company, you need Section.
+ Section is a platform that helps you manage AI transformation
+ across your entire organization.
+ It coaches employees on real use cases,
+ tracks who's using AI for business impact
+ and shows you exactly where AI is
+ and isn't creating value.
+ The result, you go from rolling out tools
+ to driving measurable AI value.
+ Your employees move from meeting summaries
+ to solving actual business problems,
+ and you can prove the ROI.
+ Stop guessing if your AI investment is working.
+ Check out Section at sectionai.com.
+ That's S-E-C-T-I-O-N-A-I dot com.
+ So with all of these concepts in mind,
+ let's look at an industry case study in healthcare.
+ I wanna be very clear.
+ I have no expertise in healthcare whatsoever.
+ It's not a sector I've worked in.
+ I'm coming at this from the perspective of AI,
+ a technologist, and be a consumer of healthcare.
+ But I think it's quite clear
+ that healthcare has potentially every type
+ of demand elasticity that we discussed before.
+ People could consume more of it if it was cheaper.
+ They would probably consume more of it
+ if they had easier access,
+ like better clinics in their hometown.
+ They would certainly consume more of it
+ if the complexity was reduced
+ or they had better ways to navigate that complexity,
+ especially when it comes
+ to billing insurance, et cetera.
+ I think that likely,
+ many people would want a relational element
+ and a personalized element of their healthcare
+ rather than just being a number in a system.
+ And I think that the biggest demand elasticity
+ or at least the one that's most interesting
+ when it comes to the idea of the difference
+ between the affordability unlock
+ and a possibility unlock is around continuity.
+ My argument is that we consume an incredibly small part,
+ even a vanishingly small part
+ of the amount of healthcare we would consume
+ if the labor math underneath it
+ made a different kind of healthcare possible.
+ Right now, we all live in a paradigm of reactive care
+ that is episodic by default.
+ Every once in a while, we make an appointment,
+ either because it's our annual checkup
+ or because there's a thing we're now at the age
+ where we have to do once every three to five years
+ or because something stops working
+ the way that it's supposed to.
+ From there, we have some tests,
+ get a diagnosis, which turns into a prescription
+ and then we're left alone again to fend for ourselves.
+ At some point, a new crisis arises
+ and the whole cycle starts again.
+ There is, I believe, an AI-enabled version of healthcare
+ that is continuous preventative and personalized.
+ It involves AI for data collection,
+ continuous monitoring, and even triage and ranking.
+ But in doing so, it creates a whole new set of opportunities
+ for human roles, new human roles that emerge
+ in this new continuous preventative personalized paradigm.
+ There's an AI background layer that watches the data
+ and a human action layer
+ that helps convert that to meaning.
+ So for the sake of this episode
+ and for coming along this journey with me,
+ let's assume that this idea
+ that continuous preventative care
+ becomes more viable and more normalized.
+ If that happens, it will create demand for new types of jobs.
+ And these are not AI jobs in the narrow sense
+ we think about prompt engineers or agent operators now.
+ These are healthcare service jobs
+ that the AI layer makes possible
+ and each of them maps to some set
+ of specific human premium categories
+ that protect them from being eaten by stronger AI.
+ The first role I'll call a continuous care navigator.
+ This is the human layer between a patient
+ and an AI enabled monitoring system.
+ They oversee a caseload of patients
+ in continuous monitoring
+ and handle the moments that matter,
+ such as the pattern having changed,
+ the call that has to happen,
+ the family that needs reassurance
+ or the escalation that has to land.
+ So while an AI is doing things like ingesting data
+ from devices, labs, pharmacies, patient reports,
+ establishing baselines and detecting deviations,
+ ranking cases and changes by urgency,
+ updating documentation, routing escalation,
+ the human that continuous care navigator
+ is doing things like reviewing flagged cases,
+ calling patients to clarify
+ and ask the questions AI didn't know to ask.
+ In those personal interactions,
+ noticing things like fear, shame, avoidance,
+ or unexpressed family dynamics,
+ coordinating with clinicians to escalate things
+ and closing the loop after intervention.
+ The human premiums involved here include trust,
+ accountability, translation, behavior change
+ and relationship.
+ So how many people could the market support?
+ When it comes to healthcare,
+ the total addressable market is everyone with a body.
+ But for the sake of our arguments,
+ let's zoom out a decade
+ and take a conservative middle and aggressive case
+ among American adults.
+ We'll call conservative 40 million enrolled patients,
+ middle 80 million enrolled patients
+ and aggressive 120 million enrolled patients.
+ The conservative case then is about 14%
+ of U.S. adults enrolled,
+ with the aggressive being about 43%
+ of U.S. adults enrolled.
+ Now also on the conservative end,
+ let's assume that one continuous care navigator
+ can handle 150 patients.
+ If that's the case,
+ you're talking about about 276,000 jobs.
+ On the other end of the spectrum,
+ where we've got 120 million enrolled patients
+ and we're assuming that they can only handle 100 people each,
+ you're talking about 1.2 million jobs.
+ A couple of examples of jobs
+ that are in that 267,000 person range
+ include personal financial advisors, loan officers
+ and coaches and scouts.
+ For the 1.2 million,
+ that's about the number of high school teachers there are.
+ And if you took advertising, marketing,
+ promotions, PR and sales manager,
+ they combined come in and around that number,
+ meaning that we're talking about a ton of people
+ and a ton of jobs.
+ The next job in our hypothetical example
+ we'll call a care plan outcome specialist.
+ This is the person who owns the gap
+ between medical advice and real world execution.
+ So if the continuous care navigator
+ is the person who's helping assess
+ and escalate issues as they come up,
+ the care plan outcome specialist
+ is the person on the other end of the cycle
+ who helps with the implementation layer of healthcare.
+ If AI is tracking each patient's care plan
+ and milestones and monitoring medication adherence,
+ tracking labs, screenings, et cetera
+ and integrating all of that into their continuous care plan,
+ the care plan outcome specialist
+ is the person who can provide a human interface
+ for talking with patients about why the plan isn't working
+ or helps solve practical problems
+ like cost transportation or fear or family.
+ Now I'll leave it to you to decide
+ whether there would be a smaller number of those folks
+ relative to the continuous care navigators
+ but you're still talking about potentially
+ hundreds of thousands of net new jobs
+ that don't exist today
+ that only exist because of the way
+ that AI changes the overall healthcare system.
+ Finally, representing another category of roles
+ that's likely to be fairly ubiquitous
+ is the new type of technical roles
+ that will emerge to support the AI-enabled economy.
+ This one I'm calling a health data operation specialist.
+ The premise is that continuous healthcare
+ is only as good as the data flowing through it.
+ Wearables, labs, pharmacy systems,
+ patient-reported data, insurance records.
+ The health data operation specialist
+ owns reliability, integration, governance,
+ and clinical usability of that layer.
+ Now AI is gonna be doing a lot of the work around data.
+ It's gonna pull and normalize data across sources.
+ It's gonna flag anomalies and integration failures.
+ It's gonna generate pipeline diagnostics, audit logs.
+ But the human that sits on top of them
+ with the premium of accountability, trust, and translation
+ is going to do things like manage permissions,
+ consent, and audit governance.
+ They're gonna resolve device and integration issues.
+ They're gonna translate between clinical and IT requirements,
+ and they're going to act as institutional accountability
+ for the data layer.
+ Now it's likely that you'll have this type of role
+ be able to support a far larger number of people,
+ maybe one specialist per thousand or 2,000 patients.
+ But even in those scenarios,
+ you're talking about net new 20,000, 30,000, 40,000 jobs.
+ And I wanna be clear again that there is no guarantee
+ that this is the way that healthcare plays out.
+ There's obviously a million factors
+ other than just the affordability of the care.
+ But I also don't think that this is implausible,
+ and I do think it is the type of change
+ that you're going to see AI enable,
+ where AI unlocks vast amounts of new data,
+ new types of data coordination,
+ new types of monitoring access provisioning,
+ and the system will over time adapt
+ to accommodate those new opportunities.
+ And whether it's these jobs or other types of jobs,
+ there will be new jobs that support
+ the new shape of those industries.
+ Some of them will be transitional
+ and eventually done by the AGI as well,
+ but others will have different categories
+ of that human premium
+ and will become a durable, integral new role
+ in the new AI economy.
+ As AI changes industry paradigms,
+ it won't just create individual spot jobs,
+ but ecosystems of new roles
+ that come to meet the new challenges
+ of those new paradigms.
+ Now I picked healthcare,
+ but it doesn't take all that much imagination
+ to see similar patterns in other sectors.
+ We talked about small business professional services
+ where human plus AI service operators
+ could deliver smaller, cheaper,
+ more frequent professional services
+ to businesses that weren't agency clients before.
+ It's not hard to imagine
+ that people would consume a lot more legal services
+ if they were both affordable
+ and we might even see more possibility
+ unlocks around things like preventative legal maintenance
+ that provides ongoing support
+ instead of crisis-only engagement.
+ Education is another area
+ where we could see always-on personalized learning
+ plus human pathway guidance, AI provides content,
+ humans help learners persist,
+ choose paths, improve competence,
+ and so on and so forth.
+ In mental health,
+ we could see a broader support layer
+ between nothing and licensed therapy,
+ peer support, group facilitation,
+ continuous check-ins with clear escalation,
+ personal finance could see once again
+ continuous financial life support,
+ taxes, benefits, insurance, debt,
+ retirement, family finances,
+ with AI doing analysis
+ and human zoning judgment and follow-through,
+ elder childcare, family support
+ where AI can solve huge amounts
+ of coordination and data issues
+ but is not going to solve
+ putting trustworthy people in the room
+ with your children or parents.
+ Across all of these,
+ you start to see new broad categories of roles.
+ Navigators that help people enter
+ and move through systems
+ that are too complex to face alone.
+ Continuous support workers
+ who provide ongoing human support
+ around AI-monitored systems.
+ AI-augmented service operators
+ who use AI to deliver cheaper versions
+ of professional services to new market tiers,
+ data and operation specialists
+ who make AI-enabled service models reliable
+ in real institutional systems,
+ QA safety and compliance roles
+ who ensure AI-mediated services
+ are safe, auditable, legal, fair, and reliable
+ and a sixth and final family of roles
+ are escalation specialists
+ who handle the hardest cases
+ that AI routes upward.
+ My argument in a nutshell then
+ is that the AI jobs question
+ which is really an AI economy question
+ can't be discussed only in terms of labor supply.
+ It also has to be discussed
+ in terms of demand.
+ The second part of my argument
+ is that demand stretches.
+ It can stretch because of price,
+ access, complexity, continuity,
+ personalization and relational value.
+ The unlocks that stretch demand
+ sometimes fall into the affordability
+ category where existing services
+ reach new buyers
+ while others fall into the possibility category
+ where new service models
+ become viable for the first time.
+ And as those new opportunities come online,
+ the reason that AI doesn't just do it all
+ is the human premium.
+ These at least seven categories of value
+ that require human delivery,
+ relationship, presence, trust,
+ accountability, translation, behavior,
+ change, and provenance.
+ And of course,
+ when you combine human premium
+ plus those unlocks
+ and new economic systems,
+ you get new types of roles.
+ Navigators, continuous support workers,
+ AI augmented service operators,
+ data and ops specialists,
+ QA safety and compliance,
+ and escalation specialists.
+ Simply put, we are heading to a world
+ where there is more AI,
+ which yes does create more supply of labor,
+ but as that increased supply of labor
+ changes the cost and availability structure
+ of other industries,
+ it also means more demand.
+ And more demand,
+ even in a scenario of AGI,
+ means more human work ahead too.
+ My argument when it comes to AI and jobs
+ has always been
+ that in the short term,
+ there are going to be painful disruptions
+ that require meaningful interventions
+ and that we should not be
+ polyannisher unconsidered about,
+ but that on the other side,
+ I think things are massively better
+ and even bigger than they are today.
+ I hope this episode goes a little way
+ to showing what I see on the other side
+ and why I'm so genuinely bullish
+ about what comes in the future.
+ I'm sure this is a theme
+ we will continue to explore,
+ but for now, that's gonna do it
+ for today's AI Daily Brief.
+ I appreciate you listening or watching,
+ as always and until next time,
+ peace.
