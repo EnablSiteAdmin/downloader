@@ -1,0 +1,757 @@
+ Today on the AI Daily Brief, what is the best way to be talking to our agents?
+ Are we using Markdown, HTML?
+ Believe it or not, that debate has been raging, and I think it's for a bigger reason than
+ it seems that has to do with a big shift in how we work.
+ Before that in the headlines, another potential monster fundraising for Anthropic.
+ The AI Daily Brief is a daily podcast and video about the most important news and discussions
+ in AI.
+ Alright friends, quick announcements before we dive in.
+ First of all, thank you to today's sponsors KPMG, Granola, Robots and Pencils, and Zencoder.
+ To get an ad for your version of the show, go to patreon.com.ai-dailybrief or you can
+ subscribe on Apple Podcasts.
+ If you want to learn more about sponsoring the show, send us a note at sponsors.ai-dailybrief.ai.
+ Also I just pushed at pulse.ai-dailybrief.ai, a new page to capture all of the learnings
+ from our monthly pulse survey.
+ Check it out again at pulse.ai-dailybrief.ai.
+ We kick off today with more crazy numbers, things that seem normal now that would have
+ been completely abnormal just like 5 minutes ago.
+ Anthropic is weighing up another round of fundraising at almost a trillion dollar valuation.
+ The Financial Times reports that Anthropic is considering one last round of private funding
+ before their IPO, which is expected in the fall.
+ Anthropic last raised funds in February at a $380 billion valuation, but of course
+ their revenue has gone parabolic since then.
+ And just to add a little heft to the market's appetite for this.
+ There is a pre-IPO instrument that's trading on the blockchain on Jupiter which is backed
+ one-to-one by SPV exposure to Anthropic, basically sort of a crypto equivalent of Anthropic exposure
+ that about a week ago was trading at a $1.2 trillion implied valuation.
+ So at least some of the speculators out there think that this isn't crazy.
+ Now back in the mainstream world, sources told the FT that the round is expected
+ to raise as much as $50 billion for Anthropic and which would value the company at
+ $900 billion pre-money.
+ In the horse race that would of course put Anthropic ahead of open AI which last raised
+ at $852 billion in March.
+ It also seems like demand is off the charts with one potential investor commenting,
+ People are ready to throw any dollar amount at Anthropic.
+ It's just about when Anthropic want to pop their heads up and say we're ready.
+ Another source noted that the SpaceX deal dramatically de-risks the investment, commenting,
+ Anthropic has resolved the biggest bottleneck and potential source of weakness which
+ is compute.
+ Now I don't know if I'd go so far as to say that that single deal resolves that but
+ it is notable that at least some investors are thinking that way.
+ Now in terms of whether this comes together, Anthropic executives have reportedly held talks
+ but terms have not yet been agreed to and a last minute fundraising round could be
+ a big curveball for the twin AI IPOs later this year.
+ Anthropic establishing themselves as the top lab in valuation terms at least could help
+ shift analyst views.
+ It would also provide another private market valuation to support an IPO above a
+ trillion dollars, instantly making Anthropic a top 20 public company.
+ Now an AI aligned IPO that is coming up much sooner is Cerebrus.
+ Reuters reports that Cerebrus is considering boosting their stock price ahead of this week's IPO.
+ The report says that the IPO price could be increased from a range of 115 to 125 per
+ share to between 150 and 160 per share.
+ That increase would boost the implied valuation from the roughly 26 billion previously expected
+ to more than 34 billion.
+ In addition, Cerebrus is considering upsizing the share offering from 28 million shares to
+ 30 million shares.
+ All last week reports claim that demand was red hot among institutional investors that
+ were participating in the roadshow.
+ As of last Tuesday, demand was said to be roughly three times supply and Reuters now
+ reports that Cerebrus has drawn orders for 20 times the number of available shares.
+ Trading is currently set to begin on Thursday in what will be the largest IPO so far this year.
+ Commentators are very mixed on this, you can find plenty of folks who are bullish
+ but then others like Nvidia and tech analyst Take Kim saying,
+ I wouldn't touch Cerebrus with a hundred foot pole.
+ Sure, it may go up on hype sentiment in the short term, but it's far too fundamentally
+ risky because of scaling and future execution.
+ Homer Chima points out that Polymarket is currently projecting Cerebrus to close
+ above 50 billion in market cap by the end of day one.
+ One interesting note from TSMC, the company reported their slowest rate of sales growth
+ in six months despite the frenetic pace of the AI build out.
+ The Taiwanese chipmaker reported 17.5% annualized sales growth for April,
+ which is the slowest pace since last October.
+ And while 17.5% growth isn't slow per se, it was around half of what analysts had forecast.
+ Now, the question that people immediately raised to is whether this is a leading indicator
+ of an AI bubble bursting.
+ Most though think that it has to either do with one,
+ the fact that the company has experienced a huge slowdown in their non AI business
+ and two, just the sheer physical constraints of AI demand,
+ starting to eat into what TSMC can do.
+ Now, on the non AI business side, the spiraling cost of memory,
+ which is obviously due in large part to AI, has impacted consumer electronics
+ and smartphone chip orders.
+ You combine that with global economic uncertainty in those segments plateaued
+ over the first half of the year.
+ However, the biggest thing is it seems like TSMC just doesn't have any more
+ fabs capable of manufacturing advanced AI chips.
+ In other words, they don't have excess capacity to fuel more growth right now.
+ And upstream components like high band with memory are running into capacity
+ constraints at the same time.
+ People were recently talking about a tweet from Intel CEO,
+ the put on talking about collaborating to develop new products with Nvidia.
+ And when someone said looks like everyone is diversifying a little bit
+ from TSMC question mark, take him again, said TSMC is sold out.
+ There's no choice.
+ Speaking of Intel,
+ Apple has signed a preliminary chip making agreement with the company
+ diversifying their own supply chain.
+ Until now, TSMC had been the sole producer of Apple's chips.
+ The Wall Street Journal reports that Intel will manufacture some of the chips
+ for Apple devices, but it's unclear whether the deal is focused on lower
+ end iPhone and iPad chips or the top of the line M series.
+ The deal has been in negotiations for over a year with the White House
+ leaning on Apple hard to contract with Intel.
+ Following the government's investment last summer,
+ Commerce Secretary Howard Lutnick has been meeting with tech companies,
+ including Nvidia, Apple, SpaceX and more, to drum up business for Intel.
+ The Journal noted that Apple was once TSMC's top customer,
+ but skyrocketing demand for fab time has lessened their negotiating leverage in Taiwan.
+ The deal comes as Wall Street looks to a changing in leadership in semiconductors.
+ Mizuho analyst Jordan Klein said that there could be a quote changing of the
+ garden AI.
+ Both AMD and Intel have surged around 25% over the past week.
+ On the back of major deal making activity,
+ for example, last week AMD reached a deal with Rackspace.
+ Meanwhile, comparatively at least Nvidia has struggled.
+ Their stock was up just 8% in a week where double digit gains were the norm
+ rather than the exception.
+ Mizuho's Klein noted that memory suppliers were the big winners writing,
+ that is what happens when a market quickly enters a material shortage
+ condition and pricing surges higher while expenses rise only modestly.
+ You make a lot of money being overweight historic memory upturns
+ when new capacity cannot be added fast enough.
+ It's that simple.
+ One wild little one staying on the chip theme.
+ Household data centers may be the next step to address the drastic
+ impact of a computer shortage.
+ Major housing developers, including the Pulti Group,
+ have entered a testing phase with partners including Nvidia and
+ California Startup Span to install micro data centers on newly built homes.
+ The units would be installed on housing exteriors and function as nodes
+ in a distributed computing cluster.
+ Boloji Tamapatul at the COO of Baruban,
+ which is a Texas energy and tech company said,
+ it's technically possible and already being explored.
+ He likened the plan to contributing compute from an idle PC,
+ with enterprise grade GPUs rather than consumer hardware.
+ He added feasibility depends on available power, internet connectivity,
+ heat management, and the type of workload.
+ For batch processing and non-time sensitive tasks,
+ the home environment works surprisingly well.
+ Now, of course, the question will be whether homeowners and regulators
+ agree to install networks of data centers throughout their communities.
+ Will the animosity towards large data centers come down in the same way?
+ It's not clear, but I think what this news suggests is that basically
+ every single avenue is being explored right now to bring on more compute.
+ Lastly today, a new feature to play around with,
+ OpenAI has launched a new Chrome plugin for Codex to expand browser use.
+ Until now, Codex typically used an app-specific connector
+ to access context from the browser.
+ This gave access to the web app,
+ but meant Codex couldn't work alongside the user in a live session.
+ The new Chrome plugin gives Codex direct access to the browser.
+ It works in a separate tab group,
+ meaning the user can keep working on their own session
+ while Codex is running in the background.
+ The feature allows Codex to consider live browser context
+ rather than just scraping data from a connector,
+ which is particularly useful for web developers,
+ where live browser context is often the only way to test functionality.
+ The feature, though, also could unlock powerful use cases
+ for non-technical users.
+ The plugin allows Codex to quickly work across multiple tabs,
+ navigating the web, filling in forms
+ and creating browser-native artifacts.
+ A small one on the face of it,
+ but every time a new feature unlocks
+ some specific set of use cases, it's worth taking note of.
+ For now, though, that is going to do it for today's
+ AI Daily Brief Headlines edition.
+ Next up, the main episode.
+ One of the most important AI questions right now
+ isn't who's using AI, it's who's using it well.
+ KPMG and the University of Texas at Austin
+ just analyzed 1.4 million real workplace AI interactions
+ and found something surprising.
+ The highest-impact users aren't better prompt engineers.
+ They treat AI like a reasoning partner.
+ They frame problems, guide thinking,
+ iterate and push for better answers.
+ And the good news, these behaviors are teachable at scale.
+ If you're trying to move from AI access to real capability,
+ KPMG's research on sophisticated AI collaboration
+ is worth your time.
+ Learn more at kpmg.com slash us slash sophisticated.
+ That's kpmg.com slash us slash sophisticated.
+ Today's episode is brought to you by Granola.
+ Granola is the AI notepad
+ for people in back-to-back meetings.
+ You've probably heard people raving about Granola,
+ it's just one of those products
+ that people love to talk about.
+ I myself have been using Granola for well over a year now
+ and honestly, it's one of the tools
+ that change the way I work.
+ Granola takes meeting notes for you
+ without any intrusive bots joining your calls.
+ During or after the call, you can chat with your notes,
+ ask Granola to pull out action items,
+ help you negotiate, write a follow-up email
+ or even coach you using recipes
+ which are pre-made prompts.
+ Once you try it on a first meeting,
+ it's hard to go without.
+ Head to granola.ai slash ai-daily
+ and use code ai-daily.
+ New users get 100% off for the first three months.
+ Again, that's granola.ai slash ai-daily.
+ One thing I keep seeing in enterprise AI,
+ companies hedging across every cloud,
+ every model, every framework
+ or paying a GSI for a pilot that never ends.
+ The team's actually shipping,
+ they've picked a lane and they move fast.
+ That's one of the reasons
+ I like today's sponsor, Robots and Pencils.
+ They've gone all in on AWS.
+ They're an advanced tier and AWS pattern partner
+ and they ship production AI coworkers in 45 days.
+ That's led to them doing some of the more interesting
+ work I've seen on AI coworkers.
+ And by that, I'm not talking about chatbots.
+ I'm talking about actual agentic systems
+ that sit inside a business architecture
+ and do real work.
+ That kind of focus matters if you're an enterprise leader
+ trying to get something real into production
+ or an AWS rep trying to move a customer
+ from interested to deployed.
+ Request an AI briefing at robotsandpencils.com.
+ One conversation with robots and pencils and you'll know.
+ So coding agents are basically solved at this point.
+ They're incredible at writing code.
+ But here's the thing nobody talks about.
+ Coding is maybe a quarter of an engineer's actual day.
+ The rest is stand-ups, stakeholder updates,
+ meeting prep, chasing context across six different tools.
+ And it's not just engineers.
+ Sales spends more time assembling proposals than selling.
+ Finance is manually chasing subscription requests.
+ Marketing finds out what shipped two weeks after it merged.
+ Zen Coder just launched Zenflow work.
+ It takes their orchestration engine,
+ the same one already powering coding agents
+ and connects it to your daily tools.
+ Jira, Gmail, Google Docs linear calendar notion.
+ It runs goal-driven workflows that actually finish.
+ Your stand-up brief is written before you sit down.
+ Review cycle coming up.
+ It pulls six months of tickets and writes the prep doc.
+ Now you might be thinking,
+ didn't Open Claw try to do this?
+ It did, but it has come with a whole host
+ of security and functional issues
+ which can take a huge amount of time to resolve.
+ Zen Coder took a different approach.
+ Sock 2, type 2 certified, curated integrations,
+ tighter security perimeter, enterprise grade from day one,
+ model agnostic and works from Slack or Telegram.
+ Try it at zenflow.free.
+ We'll go back to the AI Daily Brief.
+ One of the things that I like doing on this show
+ is not just following the news,
+ but following the conversation.
+ What I find is that what people are talking about
+ tends to be not only the important slice of the news
+ as determined by what people are willing
+ to spend their time and energy on,
+ but it's also the place where you find out
+ how whatever's going on in the industry of AI
+ is actually impacting what people are doing with AI.
+ And ultimately, I think most of you are here
+ at least in part to understand
+ what you can do with this technology.
+ And so when a post gets as much attention
+ as this one from Tariq Shahipar from Anthropic,
+ it's worth paying attention.
+ Now what this post is nominally about
+ is a proposed switch to how we interact
+ and speak with agents.
+ We are of course now in the AI agent era.
+ Many if not most of you at this point
+ based on our research
+ are using some combination of Claude Code
+ or Codex or Cursor or something like that
+ to build or manage agents
+ that make your life and your work better.
+ And along with that
+ you've probably gotten pretty comfortable
+ with the Markdown format.
+ If you're anything like me
+ you have about a bajillion little MD files
+ running around your computer in various places.
+ And in fact that is at this point
+ probably the primary way
+ that you transfer big sets of information
+ from one workspace to another.
+ For those of you who aren't using Markdown files
+ or interacting with agents yet
+ but who do want to follow along with the conversation
+ an example I'll give you
+ is that if I'm ever talking in Claude Online
+ or ChatGBT Online
+ and I need to summarize the conversation
+ to move it over into something like Claude Code or Codex
+ I'm going to have the web application
+ write a hand-off Markdown file
+ that contains the summary
+ and all the key details of the conversation we just had.
+ It is in other words a method of transferring context.
+ And yet Tariq who works on Claude Code at Anthropic
+ and who has gotten pretty well known
+ for his interesting technical essays
+ argued in a piece just before the weekend
+ that became in fact the weekend's main topic
+ of conversation
+ that we should think about ditching Markdown
+ for HTML.
+ The piece indeed is called
+ the Unreasonable Effectiveness of HTML
+ and at this point has been seen about 10 million times
+ to give you a sense of just how engaged
+ with this conversation people are.
+ Now I'm going to read the highlights of the piece
+ just to ground you in it
+ before we get into the conversation
+ and my argument for why Tariq is right
+ but for different reasons than he articulates.
+ My argument in short is that the reason
+ that HTML is going to be in many cases
+ a better format for transferring information than MD
+ has to do with the very nature of the type of work we do
+ and the fact that increasingly our jobs are shifting
+ from producing a thing to giving an agent
+ all that it needs to produce the thing on our behalf.
+ Coming back to Tariq's essay he writes
+ Markdown has become the dominant file format
+ used by agents to communicate with us.
+ It's simple, portable, has some rich text capability
+ and is easy for you to edit
+ but as agents have become more and more powerful
+ I have felt that Markdown
+ has become a restricting format.
+ I find it difficult to read a Markdown file
+ with more than 100 lines.
+ I want richer visualizations, color and diagrams
+ and I want to be able to share them easily.
+ Now a note from NLW here, as you can see
+ a big part of Tariq's argument has to do
+ with his interaction with Markdown.
+ Make a note of that as we proceed.
+ Tariq continues, I'm also increasingly
+ not editing these files myself
+ but using them as specs, reference files,
+ brainstorming outputs, et cetera.
+ When I do make edits I'm usually prompting
+ Claude to edit them
+ which removes one of the Markdown's
+ largest benefits.
+ I've started preferring HTML as an output format
+ instead of Markdown
+ and increasingly see this being used
+ by others on the Claude code team
+ and this is why.
+ Now in the next section he gets into the why of HTML
+ and gives a bunch of different reasons.
+ The first he says is information density.
+ HTML he writes can convey
+ much richer information compared to Markdown.
+ It can of course do simple document structure
+ like headers and formatting
+ but it can also represent all sorts of other information
+ such as tabular data using tables,
+ design data with CSS, illustrations with SVG.
+ I would go so far as to say that there is almost
+ no set of information that Claude can read
+ that you cannot fairly efficiently represent with HTML.
+ This makes it a highly efficient way for the model
+ to communicate in-depth information to you
+ and for you to review with.
+ Another note for me here,
+ keep in mind that question of efficiency
+ as that's going to be one of the major
+ pushbacks on this piece.
+ The next in Tariq's list of why HTML
+ is visual clarity and ease of reading
+ and this is once again on the human side.
+ As Claude is able to do more complex work he writes,
+ it is also writing larger and larger specs and plans.
+ In practice, I found I tend to not actually read
+ more than a hundred line Markdown file
+ and I certainly am not able to get anyone else
+ in my organization to read it
+ but HTML documents are much easier to read.
+ Claude can organize the structure visually
+ to be ideal to navigate with tabs,
+ illustration, links, et cetera.
+ It can even be mobile responsive
+ so you can read it differently
+ based on your form factor.
+ The next benefit to HTML he writes is ease of sharing.
+ Markdown files are fairly hard to share
+ since most browsers do not render them natively well.
+ You often have to add them as attachments
+ to emails or messages.
+ With HTML, as long as you upload the file,
+ you can share the link easily.
+ The chance of someone actually reading your spec report
+ or PR writeup is much, much higher if it's in HTML.
+ The next benefit is what he calls two-way interaction.
+ HTML can allow you to interact with the document.
+ For example, you might want to ask it to add sliders
+ or knobs or adjust to design
+ or allow you to tweak different options
+ in the algorithm to see what happens.
+ You can also ask it to let you copy these changes
+ into a prompt to paste back into Claude code.
+ Lastly, he argues it's just more fun.
+ Making HTML documents with Claude is just more fun
+ and makes me feel more involved and invested in the creation
+ and that by itself is enough.
+ Now moving into the practical,
+ what you should do piece of the article
+ is he points out that this is not something
+ that you necessarily need to add some new skill for
+ but which Claude or of course he doesn't talk
+ about ChatGBT but ChatGBT can do well natively.
+ So what are some of the use cases he gives?
+ The first is specs, planning and exploration.
+ HTML he writes is a rich canvas
+ for Claude to dive into a problem.
+ When I start working on a problem
+ instead of a simple markdown plan,
+ I expect to make a web of HTML files.
+ For example, I might start with asking Claude code
+ to brainstorm and create some explorations
+ of different options.
+ I would then ask it to expand more into one
+ or maybe make mockups or code snippets.
+ Finally, when I feel good,
+ I'll ask it to write an implementation plan.
+ When I'm happy with the plan,
+ I'll create a new session
+ and pass on all of these files for it to implement.
+ Now, NLW inserting myself here again,
+ make note of this use case
+ as this is where a big chunk of my argument
+ will come in in just a few minutes.
+ Another use case he gives is code review and understanding.
+ He argues that code can be difficult
+ to read in a markdown file,
+ but with HTML he can render diffs,
+ annotations, flowcharts, modules and more.
+ Design and prototypes,
+ obviously this one is fairly self-explanatory.
+ Markdown is a text-only format.
+ HTML obviously has a lot more expressive options.
+ And then he also gives examples
+ for reports, research and learning
+ and custom editing interfaces.
+ So like I said, this piece has about 10 million views
+ and you have to think that as many crazy Claude code
+ and Codex users as there are out there,
+ you only get to 10 million views
+ if there's some amount of discussion around a piece, right?
+ Now, I will say that a fair number of the responses
+ are just like this one from Daria at Nutmas
+ who are adding their testimony to Tariq's idea.
+ Daria writes, I've now adapted this HTML approach
+ and it has completely changed
+ my vibe coding ability and quality.
+ So much better than hard to read markdown files.
+ The spicier take, however, is summed up by Josh Dawes
+ who writes, the cynic in me can't help but note
+ that HTML will cost way more tokens than Markdown.
+ And this was certainly one
+ of the big strands of the conversation.
+ Now, it ran the gamut from fully cynical,
+ Tariq is just a representative
+ if anthropic, anthropics job is to sell more tokens,
+ this sells more tokens.
+ To what I would say is the much more assuming
+ of good faith, but still cautioning of
+ if you go out and try this,
+ you're probably going to increase your token usage,
+ at least in a few cases
+ where a Markdown file would have worked just fine
+ for much cheaper.
+ Some people shared their examples
+ of how this had worked for them.
+ Jiyun Ha was working on an explainer
+ for the codec slash goal feature,
+ which we talked about a little bit on Friday show,
+ but which basically is codecs' version of a Ralph loop
+ that works over and over again
+ around a preset definitions of success,
+ allowing your coding agent to get a lot farther
+ without you sitting there hovering
+ and having to direct it.
+ Jiyun writes, started the codec slash goal explainer
+ in Markdown last night
+ and about halfway through I was like,
+ why am I fighting this?
+ Switch to HTML.
+ The flow diagram alone made it worth it.
+ I can't really go back to be honest.
+ He shared the artifact that was produced.
+ And so in this case for him,
+ he was producing something public that he wanted to share
+ and Markdown was just ill-suited
+ for that presentation format.
+ Specifically in this case,
+ I will note because of his intended audience,
+ that is a human consumer,
+ validating kind of what Tariq said about the idea
+ that he can't really read more than a hundred lines
+ of Markdown and there's just some things
+ that it doesn't make sense to visualize in text only.
+ Now, anytime we have a this versus that type
+ of argument on the internet,
+ it's a safe bet that the right answer
+ is either A, probably somewhere in the middle,
+ or B, a rejection of the premise
+ that these things are actually diametrically opposed
+ and an appreciation for when and in what circumstances
+ this is better versus that is better.
+ Josh Gonzalez sums that up in this particular argument.
+ HTML he writes is not a replacement for MD.
+ I have more MD files in my code base
+ than you have individual hairs on your head,
+ but I do agree that HTML is not a good replacement,
+ but artifacts can actually be superior to Markdown
+ in many cases, especially for interactive artifacts
+ or visual ADHD builders like me.
+ So I think this is an and situation, not an or.
+ The Smart Ape wrote a follow-up post
+ that does a pretty good job of trying to parse out
+ when and in what circumstances
+ one works better than another.
+ They write, everyone is now picking sides.
+ Markdown fundamentalists who think HTML is showing off.
+ HTML converts who think Markdown is for people
+ who haven't tried Cloud Code yet.
+ The question isn't Markdown versus HTML.
+ It's for this specific document who reads it,
+ who edits it and how long does it live.
+ Answer those three and the format picks itself.
+ So going deeper, he says the three questions are audience.
+ Is it humans, Claude in a future session or both?
+ Is the life cycle written once or edited many times?
+ And is the horizon lives a day, a quarter or forever?
+ In his argument, when it comes to audience,
+ if Claude is reading it, that's a vote for Markdown.
+ Whereas if humans are reading it,
+ that's a vote for HTML.
+ On life cycle, if it's gonna be edited many times,
+ that's a vote for Markdown.
+ Whereas if it's going to be written once,
+ that's a vote for HTML.
+ And on a horizon basis, if it's indexed and lasting,
+ that's a vote for Markdown.
+ Well, if it's ephemeral, that's a vote for HTML.
+ Now, of course, Ape says when the three votes line up,
+ you have your answer,
+ and when they split, you use a hybrid pattern.
+ So I think all of this is an interesting conversation,
+ but what really fascinated me
+ is that I think that this isn't just about ease
+ of sharing and ease of human consumption,
+ although those things are certainly true.
+ In my estimation, what's actually circling
+ underneath this argument is a shift in what work means.
+ My argument is that in the agent era,
+ the atomic unit of knowledge work has shifted.
+ The operator's job is in most cases not to finish the work,
+ but instead to stage the conditions
+ under which the agent can do the work.
+ Basically, we are moving from producing the final output
+ to staging for the agent who produces the final output.
+ At various points in this conversation,
+ I'll call it staging work or scaffolding work
+ or priming work, but you get the idea.
+ It's that work that needs to be done
+ before the agent can really do its job well.
+ Now, I had already noticed this split a little bit
+ in my own work, and where it comes up most often
+ is in handoffs between sessions.
+ It turns out that when you fully embrace
+ the agent operator life,
+ a lot of your time is spent on the setup.
+ I will frequently be shifting, for example,
+ between the Clod app and Clod code or ChatGBT and Codex
+ or even between these different platforms
+ depending on whether I find one is better
+ for a particular use case than the other.
+ And certainly the tool I use most often
+ to share context from one to the other is an MD file,
+ as I explained at the beginning of this conversation.
+ And yet a couple things started to happen.
+ First, I would very frequently need to also produce
+ a separate HTML file for any sort of visual decision.
+ For example, mockups of a UI for a particular application
+ or even for just explaining more natively visual information
+ like flow charts or diagrams.
+ Now, to be clear, this is a workaround
+ that I was using because of a capability deficit
+ in the Markdown file itself.
+ The other thing that I would very frequently
+ find myself doing is contextualizing
+ on both the production end of the Markdown file
+ and the consumption end of the Markdown file
+ adding a whole bunch of caveats.
+ For example, when I am handing off between
+ a space in which I am brainstorming
+ and a workspace in which I'm going to be building,
+ i.e. from Clod app to Clod code,
+ I always instruct the brainstorming space
+ to try to make it clear what is and isn't actually decided
+ based on our previous conversation.
+ The reason for that is that on average,
+ when I ask an AI to write up a handoff document,
+ it presents everything as though it has been ordained
+ from on high.
+ It is not represented as what it actually is,
+ which is a very in-between, in-made-us-rest sort of document
+ and instead is the canonical summary of what is.
+ That constrains the building AI
+ in ways that I have found not good.
+ Even when you're moving between Clod and Clod code
+ or ChatGBT and Codex,
+ the decisions that the builder agent is going to make
+ are very frequently different
+ than the suggestions of the brainstorming AI.
+ And so in addition to trying to build those caveats
+ into the handoff markdown itself,
+ I would also frequently find myself contextualizing
+ for the receiving builder AI,
+ saying don't take anything in here as gospel,
+ this is all still to be decided,
+ ask questions here, debate with me and we'll figure it out.
+ Point being that whether or not HTML is the answer,
+ there are some big challenges that we're working through
+ in this new type of in-between workspace.
+ And I think it's this in-between workspace,
+ this liminal space to use an overly academic
+ but pretty accurate term
+ where we're just spending much more time
+ than we ever used to.
+ Pre-AI, your job as a knowledge worker
+ was just to go from blank page to finished goal
+ as fast as is reasonably possible.
+ The in-between states were all just transitional
+ to be exited onto the next thing as soon as you could.
+ In the AI and specifically the agentic era,
+ you are going to live in an in-between space
+ where your job is to establish
+ and maintain the conditions for finishing well
+ for most of the process.
+ Even after you've handed off to the agent
+ that is doing the production,
+ you're gonna stay in that liminal space
+ because when it produces something,
+ you're gonna need to go back in there
+ to figure out what else needs to change.
+ This creates a calibration problem
+ of the type that I just described.
+ If you've over-specified, you kill the agent's range
+ and you take away the things that does better than you.
+ If you stay too vague, the agent can flail
+ or produce generic output
+ or ask endless clarifying questions.
+ The new skill is in calibrating
+ how much structure to impose
+ so that the unstructured remainder
+ is something the agent can actually productively resolve.
+ And why this creates a challenge
+ for markdown files specifically
+ is that most times when you're living
+ in this in-between liminal state,
+ you're going to be operating in a state of mixed doneness.
+ What I mean is that some parts of the project
+ are going to be locked, non-negotiable, decided.
+ Some areas, on the other hand,
+ are going to be totally open
+ where the agent can explore generator surface trade-offs.
+ And then, of course,
+ some parts are going to be semi-decided
+ where you're leaning either a little or very hard
+ into a particular decision,
+ but that decision is still provisional
+ and subject to pressure testing.
+ And the point is that in most projects,
+ a bunch of these different states
+ are going to live next to each other at the same time.
+ The example that Claude came up with
+ when I was describing this
+ was a brief for building a new onboarding experience
+ where the goal and the platform were totally locked.
+ The goal was to reduce time to first value
+ from 14 days to under seven.
+ The platform was web-first,
+ mobile and version two, iOS native out of scope.
+ The visual system on the other end
+ of the spectrum was totally open.
+ Maybe you want four different distinct directions
+ varying density and color confidence.
+ And then the flow user experience itself
+ as well as the tone,
+ both had directions that the prompter was leaning in,
+ but which were still provisional
+ and at least somewhat open.
+ Now, of course, yes,
+ a markdown file could take the words
+ to describe those different states of doneness
+ in the same document,
+ but to do this, you end up adding
+ a lot of meta commentary about the document
+ inside the document.
+ A lot of things where you give it an instruction,
+ but then you caveat that instruction
+ in parentheses to follow.
+ And so HTML isn't without its challenges.
+ But the reason that I think it's interesting
+ for some of these questions
+ of the liminal state and mixed doneness
+ is that you can use native features of HTML
+ to encode that mixed doneness
+ without having to get into that meta commentary.
+ You can use tabs, progressive disclosure,
+ side-by-side cards, annotation, expandable sections,
+ visual hierarchy, color-coded status, interactive elements,
+ all of which give the format itself
+ the ability to communicate which parts are firm,
+ which are exploratory
+ and which are open for the agent to figure out.
+ And even beyond the HTML versus markdown debate itself,
+ I think that we are just the beginning
+ of exploring the right way to work in this new modality
+ where our job has shifted from the producers of the thing
+ to the managers of the agent who produces the thing.
+ Indeed, you can kind of look
+ at a lot of our operator conversations in that light.
+ When we talk about context engineering,
+ that's just another version of this.
+ Where that question is,
+ have we given the agent enough context
+ for it to do its job well?
+ In some ways, this conversation that we've been having
+ is a very particular slice of context,
+ which is the context of the work process so far.
+ So that is our exploration for the day
+ of the right way to talk to your agents.
+ Big thank you to Tariq for writing the article
+ and getting this exploration rolling.
+ I'll be excited to see
+ what people's individual experience with this is,
+ but for today's AI Daily Brief.
+ Appreciate you listening or watching as always,
+ and until next time, peace.
