@@ -1,0 +1,754 @@
+ Today on the AI Daily Brief, a defense of token maxing, the controversial practice of incentivizing
+ employees to spend as many AI tokens as they can.
+ Before that in the headlines, Google starts dropping announcements ahead of I.O., including
+ the new Gemini Intelligence.
+ The AI Daily Brief is a daily podcast and video about the most important news and
+ discussions in AI.
+ Alright friends, quick announcements before we dive in.
+ First of all, thank you to today's sponsors, KPMG, Granola, Super Intelligent, and Zencoder.
+ To get an ad-free version of the show, go to patreon.com.ai-dailybrief or you can subscribe
+ on Apple Podcasts.
+ To learn more about sponsoring the show, send us a note at sponsors.ai-dailybrief.ai.
+ To other quick announcements, first registrations are live for Enterprise Claw, Cohort 3.
+ You can get a link from the AI Daily Brief site or at enterpriseclaw.ai.
+ And second, as I mentioned yesterday, I am hiring a growth engineer for the podcast and
+ podcast ecosystem.
+ All of these crazy things we do, like the Context Portfolio Builder and these free education
+ programs, that's the type of stuff you're going to get to build as a growth engineer.
+ Your job will be to expand not only the audience of the podcast, but the impact of the audience.
+ You can find information about that at jobs.ai-dailybrief.ai.
+ We are actively recruiting.
+ I am looking to hire fast and it is a full-time role.
+ And with that, let's get to the headlines.
+ We got a lot today, so let's cook.
+ First up, Google has announced a new agentic suite for Android users called Gemini Intelligence.
+ Framing their vision, Google wrote, as Android transitions from an operating system into
+ an intelligent system, your devices are becoming even more helpful with upgrades
+ that will save you time.
+ Now, you might be thinking to yourself, wait, isn't Google I.O. just around the
+ corner?
+ Why are we getting announcements now?
+ What we've actually seen this for the last couple of years, where there's so much that
+ Google has to announce at their big I.O. event that they actually start dropping things
+ the week before, I will say when they're introducing an entire new agentic suite in
+ advance of the event, you got to wonder what's going to come at that event.
+ But in any case, Gemini Intelligence will include a major upgrade to the Gemini Assistant,
+ allowing it to handle more complex tasks and multi-step processes, as well as a new
+ feature called Personal Intelligence, which is Google's AI memory system.
+ Gemini Intelligence will roll out to the latest generation of Google and Samsung
+ headsets over the summer and will become available on smartwatches, glasses, and
+ laptops later this year.
+ Speaking of laptops, also on Tuesday, Google unveiled the Google Book, a new
+ iteration of the Chromebook designed with AI in mind.
+ The device will now run on a mix of Android and Chrome OS, allowing
+ handset features to be easily migrated across.
+ The Google Book will have a built-in AI Assistant built on the same Gemini
+ Intelligence stack with a bunch of new modes of interaction.
+ For example, instead of learning a new hotkey to summon the Gemini Assistant,
+ users can simply jiggle the mouse and Gemini will pop up.
+ DeepMind actually showed a research demo of where the concept of an AI-enhanced
+ mouse pointer is going.
+ The demo showed a user gesturing with the mouse while giving voice
+ instructions, asking the AI to do things like add these two ingredients to my
+ shopping list without naming them.
+ This seems directly related to the conversation we were having yesterday
+ about interaction models, where the next generation of AI interfaces is
+ about having them interact more like we do rather than us having to
+ learn how to interface with them.
+ Now, there is some competitive weirdness here, given that Google is
+ powering the new Siri, but it also named its tool set, Gemini Intelligence
+ after Apple named its Apple Intelligence.
+ This frenemy era is frankly very hard to keep a handle on.
+ Google is also the latest company taking a closer look at orbital data
+ centers.
+ The Wall Street Journal reports that Google is in talks with SpaceX to
+ launch data centers into space.
+ The sources said that those exploratory talks are also being held with
+ other rocket companies, with Google planning to have their first
+ prototypes in orbit by next year.
+ While to some orbital data centers seemed like a fantastical sci-fi
+ concept, there has been a major groundswell over recent months.
+ As part of their recent deal with SpaceX, Anthropics seemed to express
+ a genuine interest in orbital data centers as a way to get around
+ land permitting issues.
+ There's also been a huge surge in new startups pursuing the idea.
+ This week, for example, Robin Hood co-founder, Bajubat, unveiled
+ his new startup space Cowboy Corp and announced fundraising at
+ $2 billion.
+ In an accompanying article, the Wall Street Journal asked
+ whether data centers in space were just a pipe dream or the
+ next big thing in AI, noting that even Nvidia is getting on
+ board, recently posting a job ad for an orbital data center
+ system architect.
+ This, I think, is going to continue to be a growing theme.
+ But before we leave Google, there is one additional story on
+ that front, just a day after OpenAI confirmed their
+ consulting plans, and a week after Anthropics announced
+ their new initiative, Google is apparently jumping on the AI
+ consulting bandwagon as well, with a new plan to hire hundreds
+ of forward-deployed engineers.
+ The new group will be housed within Google Cloud as part of
+ the go-to-market team.
+ Google Cloud CEO Thomas Kurian wrote in a LinkedIn post,
+ while having FTEs is not new for Google Cloud, the demand
+ from customers and partners for Google Enterprise AI
+ products and Google engineers to help them embrace
+ agent development is growing very rapidly.
+ In a separate post, Chief Revenue Officer Matt Renner
+ noted that the way AI services are sold looks very
+ different to traditional cloud services.
+ He wrote that adding hundreds of FTEs would help Google show
+ up for our customers with more technical resources
+ versus just the notion of salespeople.
+ Google is also apparently taking the fight directly
+ to Anthropics and OpenAI with their own
+ private equity partnerships.
+ The information reported that Google is in talks
+ with Blackstone, KKR, and QT to deploy Google's AI
+ products throughout their portfolio companies.
+ The very clear takeaway is that the AI race is no longer
+ just about model performance and benchmarks, but has a major
+ new dimension in model deployment.
+ Moving on to Anthropics, the company is attacking
+ their next vertical with the expansion of Cloud for Legal.
+ The legal plugin for Co-Work was first released earlier
+ this year and since then Anthropics says legal professionals
+ have become the most engaged users among knowledge workers.
+ This release is similar to the Cloud for Finance update
+ from last week, consisting of a series
+ of new connectors and pre-built agents.
+ Anthropics has added connectors for dozens of legal tools
+ including DocuSign, Trellis, and Thompson Reuters
+ Co-Counsel.
+ Interestingly, Co-Work can also now connect
+ directly to Harvey, the largest legal-specific AI startup.
+ This means legal professionals can use Co-Work
+ as their agentic harness to interface with Harvey's
+ legal knowledge base and reasoning engine.
+ There's also a suite of 12 pre-built agents
+ designed around specific practice areas,
+ including commercial law, regulation monitoring,
+ employment law, IP, and client management.
+ Anthropic Associate General Counsel Mark Pike
+ said that the launch of Co-Work specifically
+ had massively boosted the number of legal professionals
+ using Cloud.
+ In fact, he said that lawyers are now
+ the most frequent users of any profession other
+ than software engineers.
+ Now, one of the things that's worth watching
+ is whether we start to see a convergence
+ in how the big labs take on knowledge work.
+ Anthropic has now a pretty consistent and clear pattern.
+ They roll out packages of connectors and pre-built agents
+ designed to give professionals a solid set of AI workflows
+ right out of the box.
+ Each package is marketed under its own branding,
+ in this case, Cloud for Legal, but forms
+ part of the overall Co-Work platform.
+ In contrast, at least at the moment,
+ OpenAI appears to be sticking to their super app strategy.
+ Knowledge workers are all routed to Codex,
+ where there are starting to be some basic
+ pre-packaged connectors, but not the sort of branded Codex
+ for legal experience that we're getting from Anthropic.
+ I wonder if that will change as more and more knowledge work
+ gets consolidated around those interfaces.
+ For now, though, we're actually gonna close the headlines
+ there because Maine gets a little long today.
+ Something to watch for sure, but for now,
+ that's gonna do it for today's headlines.
+ Next up, the Maine episode.
+ One of the most important AI questions right now
+ isn't who's using AI, it's who's using it well.
+ KPMG and the University of Texas at Austin
+ just analyzed 1.4 million real workplace AI interactions
+ and found something surprising.
+ The highest impact users aren't better prompt engineers,
+ they treat AI like a reasoning partner.
+ They frame problems, guide thinking,
+ iterate and push for better answers.
+ And the good news, these behaviors are teachable at scale.
+ If you're trying to move from AI access to real capability,
+ KPMG's research on sophisticated AI collaboration
+ is worth your time.
+ Learn more at kpmg.com slash us slash sophisticated.
+ That's kpmg.com slash us slash sophisticated.
+ Today's episode is brought to you by Granola.
+ Granola is the AI notepad
+ for people in back-to-back meetings.
+ You've probably heard people raving about Granola,
+ it's just one of those products
+ that people love to talk about.
+ I myself have been using Granola for well over a year now
+ and honestly it's one of the tools
+ that change the way I work.
+ Granola takes meeting notes for you
+ without any intrusive bots joining your calls.
+ During or after the call, you can chat with your notes,
+ ask Granola to pull out action items,
+ help you negotiate, write a follow-up email
+ or even coach you using recipes
+ which are pre-made prompts.
+ Once you try it on a first meeting,
+ it's hard to go without.
+ Head to granola.ai slash ai daily
+ and use code ai daily,
+ new users get 100% off for the first three months.
+ Again, that's granola.ai slash ai daily.
+ It is a truth universally acknowledged
+ that if your enterprise AI strategy
+ is trying to buy the right AI tools,
+ you don't have an enterprise AI strategy.
+ Turns out that AI adoption is complex.
+ It involves not only use cases
+ but systems integration, data foundations,
+ outcome tracking, people and skills and governance.
+ My company Super Intelligent
+ provides voice agent-driven assessments
+ that map your organizational maturity
+ against industry benchmarks
+ against all of these dimensions.
+ If you want to find out more about how that works,
+ go to besuper.ai
+ and when you fill out the get started form,
+ mention maturity maps.
+ Again, that's besuper.ai.
+ So coding agents are basically solved at this point.
+ They're incredible at writing code
+ but here's the thing nobody talks about.
+ Coding is maybe a quarter of an engineer's actual day.
+ The rest is stand-ups,
+ stakeholder updates, meeting prep,
+ chasing context across six different tools
+ and it's not just engineers.
+ Sales spends more time assembling proposals than selling.
+ Finance is manually chasing subscription requests.
+ Marketing finds out what shipped two weeks after it merged.
+ ZenCoder just launched ZenFlow work.
+ It takes their orchestration engine,
+ the same one already powering coding agents
+ and connects it to your daily tools.
+ JIRA, Gmail, Google Docs, Linear, Calendar, Notion.
+ It runs goal-driven workflows that actually finish.
+ Your stand-up brief is written before you sit down.
+ Review cycle coming up.
+ It pulls six months of tickets and writes the prep doc.
+ Now you might be thinking,
+ didn't Open Claw try to do this?
+ It did, but it has come with a whole host
+ of security and functional issues
+ which can take a huge amount of time to resolve.
+ ZenCoder took a different approach.
+ Sock 2, type 2 certified, curated integrations,
+ tighter security perimeter, enterprise grade from day one,
+ model agnostic and works from Slack or Telegram.
+ Try it at zenflow.free.
+ Welcome back to the AI Daily Brief.
+ When it comes to today's episode,
+ honestly, my hand was forced.
+ There was just too much lazy thinking,
+ getting too loud for me to not wait into this conversation.
+ And I actually genuinely think it matters
+ because lots and lots of,
+ by which I mean every company is right now
+ trying to figure out how to address AI adoption.
+ And so when we have lazy thinking
+ that rejects something out of hand
+ as is happening now with this idea of token maxing,
+ I think it can be actively harmful to people
+ and companies who are trying to figure out
+ what they're supposed to be doing
+ in this quickly changing world.
+ What I'm discussing today
+ is the new AI actually isn't good narrative.
+ It also conveniently has the new AI bubble narrative
+ all wrapped up in it.
+ And in short, what the narrative is,
+ you're wasting tokens.
+ So what's going on?
+ Well, right now we are of course
+ in the midst of a shift in the way AI is being used.
+ You can think about this loosely
+ in the prioritization shift among the frontier model labs
+ in seeing themselves as moving
+ from selling seats to selling tokens.
+ Now this is not just a business model shift.
+ This is reflective of a work shift
+ from assisted AI
+ where AI is helping me do the things that I do
+ to agentic AI
+ where my job is no longer to produce things
+ but instead to set up the conditions
+ in which agents can do things for me.
+ In that agentic paradigm,
+ success is not just in how many people
+ are using their chat GPT or cloud subscriptions.
+ It's in what they're doing with them.
+ And frankly, this presents a challenge for enterprises.
+ It was already hard enough
+ just trying to get people to integrate chatbots
+ into their work process
+ despite the easy productivity gains and improvements
+ to how people could do their existing set of work.
+ We talk all the time at this show
+ about the capability overhang
+ which is the space between what AI is capable of
+ and what organizations are actually getting out of it.
+ And that capability overhang,
+ that gap is in the agentic era
+ getting nothing but bigger.
+ And the important thing
+ and the premise from which all other parts
+ of my argument will stem
+ is that there is no way to figure out
+ the best ways to use agents without experimentation.
+ People simply have to go try things.
+ You have to hack and build and see what works.
+ And along the way,
+ you're gonna abandon a lot of half-done projects.
+ The problem, at least according to some,
+ has come in how enterprises
+ are trying to scorecard this.
+ Earlier this year,
+ we started to see stories in the press
+ about how companies were doing things
+ like creating token leaderboards
+ where they were incentivizing employees
+ to use more AI.
+ Effectively, how many tokens you consume
+ was used as a proxy for how good at using AI you were
+ and the people who were using the most tokens
+ were lauded above all.
+ Kevin Roos at The New York Times
+ wrote about this all the way back towards the end of March.
+ He wrote,
+ An engineer at OpenAI processed 210 billion tokens,
+ enough text to fill Wikipedia 33 times
+ through the company's AI models over the last week,
+ the most of any employee.
+ At Anthropik,
+ a single user of the company's AI coding system,
+ Cloud Code,
+ racked up a bill of more than 150,000 in a month.
+ And at tech companies like Meta and Shopify,
+ managers have started to factor AI use
+ into performance reviews,
+ rewarding workers who make heavy use of AI tools
+ and chastening those who don't.
+ This, Kevin writes,
+ is the new reality for coders.
+ AI was supposed to help tech companies
+ boost productivity and cut costs,
+ but it has also created an expensive new status game
+ known as token maxing.
+ Now, even in this first piece,
+ Kevin got that this was a direct byproduct
+ of the shift from assisted to agentic AI.
+ And again, the new phenomenon was not just
+ wanting people to use a lot more AI,
+ it was incentivizing them.
+ And so really the article
+ was exploring two things simultaneously.
+ One was the underlying shift
+ in what it meant to use AI for work.
+ And the second was the new incentive structures
+ companies were putting around it.
+ It is that second part
+ that has generated much more attention.
+ A couple of weeks later,
+ the information reported
+ that Meta employees were competing
+ in this token maxing sort of way.
+ Their sources told of a new internal leaderboard at Meta
+ that aggregated AI usage
+ from across Meta's 85,000 employees
+ listing the top 250 power users.
+ Users near the top of the list
+ got cool titles like Session Immortal
+ or Token Legend.
+ And it was very clear from the very beginning
+ that the journalists writing these articles
+ thought that all of this was dumb.
+ Indeed, the information called it Silicon Valley's
+ newest form of conspicuous consumption.
+ And it turns out it wasn't just Silicon Valley.
+ A couple of weeks later, Business Insider reported
+ that Disney had an AI adoption dashboard.
+ According to a screenshot viewed by BI,
+ the dashboard shows things
+ like the number of employees actively using AI,
+ the number of requests made,
+ the number of tokens used over a given period
+ and the most active AI users
+ by requests made and tokens used.
+ Visa, it appears, is also giving internal awards
+ for individuals and teams who use AI the most.
+ And it wasn't long before the debate started to rage.
+ On the one side,
+ are those like the companies mentioned so far
+ or like AI startup writer,
+ whose CEO, Mehabib, said,
+ it's existential for us.
+ We are in the most competitive space
+ that has ever existed and will ever exist.
+ On the other hand,
+ is the perspective valiantly summed up
+ by Nick Hodges in Infoworld.
+ Token maxing is super dumb.
+ Now, this whole narrative crescendoed this week
+ based on two things.
+ The first was a Financial Times report
+ that claimed that Amazon staff
+ were using AI tools for unnecessary tasks
+ to inflate these usage scores.
+ Wrote the Financial Times,
+ Amazon employees are using an internal AI tool
+ to automate non-essential tasks
+ in a bid to show managers
+ they are using technology more frequently.
+ Some employees said colleagues were using the software
+ to automate unnecessary AI activity
+ to increase their consumption of tokens.
+ An employee said managers are looking at it
+ when they track usage,
+ it creates perverse incentives
+ and some people are very competitive about it.
+ Now, this hit at the same time
+ as Vasuman on Twitter went viral
+ after he posted a Slack message that said,
+ whoever spent $600 on Anthropic last night,
+ great job leveraging AI.
+ But to the person who spent $23 on Uber Eats,
+ please remember our limit for food is $20 per meal.
+ Now, I'm always positive
+ that the screenshot itself was a joke,
+ but it doesn't really matter
+ because the resonance of it
+ with 2 million people having seen this
+ and 69,000 having favorited it
+ suggests for the state of the conversation.
+ Now, when it comes to the idea of token maxing,
+ by which we mean rewarding employees
+ for using more tokens than their peers,
+ there are some pretty obvious problems that arise.
+ Most notably, the problem summarized in Good Heart's Law
+ that states that when a measure becomes a target,
+ it ceases to be a good measure.
+ In other words,
+ as soon as you introduce a new metric for success,
+ people are going to game that metric
+ that is just human nature.
+ It's the nature of human systems.
+ It has always been and will always be the case.
+ But what was interesting to me
+ is that that's not where the conversation has really stayed.
+ Instead, what I'm seeing
+ is a couple of old strands of critique finding new purpose.
+ There are two points of view
+ that were everywhere in late 2025
+ that look fairly silly now.
+ The first of those is what I'll call
+ the Gary Marcusian or Ed Zitronian.
+ Actually, AI isn't all that good.
+ The idea that actually all this AI stuff was just hype
+ and that the models weren't even that good
+ at all the things that people said they were good at.
+ This, of course, played directly into the second narrative
+ that was quite popular in Q4 of last year,
+ that AI is a bubble that will never make enough money
+ to justify the infrastructure build out that's going into it.
+ Now, clearly, these things are related
+ in that if AI isn't good
+ and it can actually get all that much better,
+ at some point, people are going to realize it
+ and there's not going to be money on the other side
+ to justify the investment spend.
+ Now, to put it bluntly,
+ these points of view look fairly silly now
+ with the benefit of hindsight.
+ They look silly because, one,
+ AI models have done nothing but get better
+ and the things that we can do with them
+ have gone nothing but up.
+ In fact, we are in a fundamentally new paradigm
+ of what we can do with them.
+ And second, revenue is growing
+ like nothing we've ever seen.
+ And to be very crisp about this,
+ I'm not just saying
+ that these are the fastest growing startups of all time.
+ I'm saying that at the scale that we are talking about,
+ getting to tens of billions of dollars in annual revenue
+ and seeing that revenue in the case of Anthropic this year,
+ ADX in the first part of the year
+ is completely without precedent in business history.
+ And while there is still reasonable debate
+ around how much infrastructure investment
+ that will all justify,
+ it's pretty undeniable that at this point,
+ the demand for AI, i.e. tokens,
+ radically outstrips the supply
+ and we're kind of gonna need
+ all that compute that's coming online.
+ Now, as an aside, I would suggest humbly
+ that the fact that those two points of view
+ look fairly silly now
+ is a good warning for people who make criticism,
+ some combination of their personality
+ and their business model,
+ as it makes it very hard to change your perspective
+ as times change.
+ Now, coming back, however, to the discussion at the moment,
+ you might see where these things are converging.
+ The argument that AI isn't really all that good
+ and that it doesn't have a business model
+ that justifies the investment
+ starts to get new life
+ if all of those tokens that are being used
+ are for utter rubbish
+ and non-productive things and gaming systems.
+ It's a new nuanced version
+ of the actually AI isn't all that good
+ because now the argument is not that AI isn't good,
+ it's that you suck at using it
+ and the stuff that you're doing isn't valuable.
+ TXMC trades on Twitter wrote,
+ if you're vibe-coding some cool website
+ but not making money with it,
+ then AI didn't create value for you,
+ it merely accelerated your hobby.
+ Now, relatedly, this also creates a reason
+ to doubt the business model
+ because if all of that exciting token consumption
+ is actually just employees gaming their employers,
+ then eventually that will come crashing as well.
+ CNBC's Dear Drabosa writes,
+ AI's main demand metric tokens
+ has decoupled from actual economic value
+ like page views during the dot com era
+ and numbers justify the spend until they don't.
+ Nobody special means,
+ they say the demand is insane,
+ but the demand is with a link to the headline,
+ Amazon employees admit to using AI
+ unnecessarily to pump up internal usage scores.
+ There's a bonus gotcha of,
+ if this technology was so good,
+ would you really have to convince people to use it?
+ Jason McEulah asked,
+ did people need to be convinced
+ to switch from fax machines?
+ And since social media rewards people for feeling clever
+ and since being skeptical is a priority
+ treated as being clever,
+ people jumped all over this.
+ Now I think all of this is just absolutely preposterous.
+ I wanna talk about why it's preposterous,
+ but then I wanna go farther
+ and actually defend the token maxing.
+ So first let's talk about why the return of the AI
+ isn't good narrative as you're using tokens poorly
+ and the return of the bubble narrative
+ as people are just using tokens to game the system
+ are both ridiculous.
+ The logical leap that the bubble people are making
+ is that the activity being reported on
+ by the financial times
+ is broadly reflective of the majority of token consumption,
+ i.e. somehow the majority of the demand
+ is people using it for these silly non-consequential purposes
+ rather than actually real valuable stuff
+ which we'll see sustained demand over time.
+ But since we discussed Good Heart's law before,
+ let's talk about a few other types of logical fallacies.
+ The first is selection bias.
+ Token maxing fraud is a story because it's the deviation.
+ People using AI for value isn't a story,
+ especially now that the narrative generally
+ has shifted back to AI being really powerful and valuable.
+ Media is naturally then picking up the thing
+ that swings the narrative pendulum
+ back in the other direction
+ because to get eyeballs and clicks,
+ you have to be saying the thing
+ that's counter to the conventional wisdom.
+ In other words, even if you assume
+ that some amount of this incentive system gaming
+ is happening, it takes a lot of leap
+ to then extract that all the way
+ to that being somehow the majority of AI usage
+ which then gets us to a second logical fallacy,
+ hasty generalization or nut picking.
+ Basically that means taking the visible extreme
+ and treating it as the norm.
+ One of the most important things we teach our children
+ is the fundamental incorrectness of assuming
+ that because one part of group X does something,
+ then all of group X do that thing.
+ And yet that's exactly what we're doing here.
+ Now, a final logical fallacy we'll throw on there
+ just for fun is category error.
+ In this case, gaming as being used as evidence
+ about the quality of the technology
+ when the only thing it can be reasonably considered evidence
+ actually of is the incentive structure.
+ Anyway, none of this really matters
+ because in many cases it is finding resonance
+ among the people who had spent the last six months
+ feeling annoyed at how quiet they had to be
+ after being extremely loud about their bubbles
+ and performance walls for the second half of last year.
+ Those folks aren't trying to logic through
+ with first principles, they're just excited
+ to have a new version of their arguments, identity
+ and skeptics business model to cling on to.
+ What I actually wanna do is go farther
+ and defend token maxing.
+ As a practice, to the extent that token leaderboards
+ are about showing off to the level above you
+ about how much you're doing in AI,
+ yes, that is going to create some warped incentives
+ and is probably not all that valuable.
+ But there are very good reasons
+ to encourage people to experiment more.
+ First of all, historically speaking,
+ some of the biggest barriers to getting enterprise employees
+ to try and learn AI is those employees sense
+ that they just don't have time.
+ This came up in basically every study and survey
+ from 2023 to 2025.
+ People were expected to just pick up and learn AI
+ on top of doing their normal jobs.
+ And given how much that didn't work
+ and how many challenges that created,
+ it would be reasonable to think
+ that creating incentive structures around experimentation
+ might now be a practical necessity.
+ Second, the shift we're now experiencing
+ from assisted to agentic is in my estimation,
+ a much more significant disruption
+ than the chat GBT moment.
+ In the age and era, the question shifts from just,
+ can we do the same thing but faster or cheaper
+ to should we change how we do the thing
+ or even more, what other things can we do?
+ Many knowledge work jobs are shifting
+ from I produce or do a thing
+ to I set up the conditions for an agent
+ to produce or do things.
+ Prompting chat GBT was not a new knowledge work primitive.
+ It was a new work skill, but not a new work primitive.
+ Managing agents is a new work primitive, full stop.
+ And it's a new knowledge work primitive
+ where there are no experts.
+ There are only people who have experimented more than you.
+ In a few years, things will start to be different
+ but at the moment, they're pretty much aren't best practices.
+ When it comes to how roles and jobs and tasks get agentified.
+ And what that means is that the only way
+ to figure it out is to experiment.
+ The problem that I have with all these claims
+ of the non-economic value of token consumption
+ is that they assume that unless a thing produces
+ specific discernible financial value right away,
+ it's not valuable.
+ Again, that tweet that I shared before,
+ if you're vibe coding some cool website
+ but not making money with it,
+ AI didn't create value for you,
+ it merely accelerated your hobby.
+ This point of view leaves literally zero room
+ for this type of experimentation
+ that I am arguing is essential.
+ Now two things can be true at the same time.
+ One, a huge, huge portion, in fact, a vast majority
+ of the tokens consumed in the short term
+ could lead to no immediately quarterly reportable
+ financial gain.
+ And that could be true while it is also true
+ that the people who consumed those tokens
+ in the service of real experimentation
+ and the companies that benefited from their learnings
+ are going to be absolute light years ahead
+ in figuring out what it looks like
+ to remake your business for this different era.
+ To make it personal,
+ take my billion or so tokens I used last month.
+ A vanishingly small portion,
+ by which I mean somewhere around 0%,
+ led to direct financial gain.
+ As in, I didn't sell the outputs of any of that work
+ but are you really gonna try to tell me
+ with a straight face that those tokens were wasted?
+ Despite listeners on this show
+ getting to hear the output of those experiences
+ and in some cases actually play around
+ with the products that came out of them
+ and despite the sheer tonnage of what I learned
+ about what does and doesn't work
+ and how to get the most out of those systems,
+ those experiments obviously had massive amounts
+ of learning value, including much learning value
+ that will significantly improve my token efficiency
+ in the future.
+ I'm sorry but the simple reality is that
+ for a good while into the future,
+ incentivizing experimentation is simply going to be
+ the name of the game.
+ It is R&D translated to the unit level
+ and there is literally no way around it
+ other than to be willing to play catch up later
+ with no guarantee that you'll actually be able to.
+ But you say what about all the fakers and the frauds?
+ Do we really think that companies are so stupid
+ and that managers are so inept
+ that they're not going to be able to figure this out?
+ Jim from accounting goes from zero
+ to a billion tokens in a month.
+ Do you think that his company is just gonna give him
+ a trophy and a slap on the back?
+ Or do you think that the first thing they're going
+ to say is, freaking awesome, show us what you built,
+ what you're doing and what you learned?
+ Obviously it is going to be the second
+ of those things.
+ This is highly traceable activity.
+ So here we have not one but two dreary cynical views
+ stacked on top of each other.
+ The first dreary cynical view is that if your token usage
+ isn't producing financial gain right now,
+ it's not worth doing.
+ And the second dreary cynical view is that companies
+ are too stupid to figure out incentive exploits.
+ Look, man, cynicism may make you feel clever on X,
+ but it does so at the cost of precluding you
+ from participating in the world
+ as it is messiness and all.
+ Now, do I think that there are more sophisticated,
+ nuanced ways of incenting people
+ to do this sort of experimentation?
+ Of course.
+ And if you don't think so, go ask all the VP
+ and up folks you know and see how many
+ of their internal planning conversations
+ are about some version of exactly that.
+ Companies are even smart enough to see
+ that their alternative versions to token maxing
+ can generate them earned media right now.
+ Salesforce got a write up in Axios
+ for unveiling a different type of metric
+ that they call agentic work units
+ that are as Axios puts it designed to measure output
+ and impact rather than token consumption.
+ And yet with all of those caveats in place,
+ would I bet on the long-term success of companies
+ that incentivize this sort of token experimentation,
+ even at the cost of some fraud and wasted tokens
+ on the way over the companies that sit it out
+ out of fear of wasting tokens without question.
+ Do not, and I mean do not be afraid
+ of burning tokens on valuable mistakes.
+ That's gonna do it for today's AI Daily Brief.
+ Appreciate you listening or watching as always.
+ And until next time, peace.
