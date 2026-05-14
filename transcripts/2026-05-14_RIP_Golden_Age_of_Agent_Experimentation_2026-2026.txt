@@ -1,0 +1,870 @@
+ Today on the AI Daily Brief, the big implications of Anthropics' new pricing plan, and before
+ that in the headlines, the USAI Envoy lands in Beijing.
+ The AI Daily Brief is a daily podcast and video about the most important news and discussions
+ in AI.
+ Alright friends, quick announcements before we dive in.
+ First of all, thank you to today's sponsors KPMG, Granola, Robots and Pencils and
+ Zencoder.
+ To get an ad-free version of the show, go to patreon.com.ai-dailybrief or you can subscribe
+ on Apple Podcasts.
+ Ad-free is just $3 a month.
+ If you want to learn more about sponsoring the show, send us a note at sponsors.ai-dailybrief.ai.
+ Three more quick things on the learning program side of the house.
+ Agent OS, which is a platform-neutral agent operating system building program that
+ is free, self-paced, self-directed, is live now and there are more than 5,000 of
+ you doing it, which is just awesome to see.
+ Enterprise Claw, which is the supported enterprise grade version of that sort of Agent OS type
+ program, is signing up folks for Cohort 3 and if you are interested in building the
+ next generation of this podcast and all of these cool things around it, I have a job
+ live for what I am calling a growth engineer.
+ To be clear on the terminology, this does not mean you have to be an engineer by training
+ but you do have to be a Codex, Claude Code, style builder who can think in growth
+ terms.
+ He has a full-time role.
+ It is live now and you can find links to all of this at ai-dailybrief.ai.
+ Well, the AI envoy has touched down in Beijing and Jensen Huang ended up making
+ the flight.
+ Earlier this week, the White House announced that over a dozen executives would
+ be joining the president on his trip to China with those executives representing
+ the industries that would form the core of trade negotiations.
+ Despite Nvidia being a major bargaining chip in US-China relations,
+ Huang was reportedly excluded from the invite list.
+ The White House sources said that after Huang's exclusion made headlines,
+ the president personally reached out to extend a last-minute invite.
+ Now, the full details of the trade agenda are still a little uncertain.
+ Trump likened the deal to Nixon's summit with Chairman Mao in 1972, commenting,
+ I will be asking President Xi, a leader of extraordinary distinction,
+ to open up China so that these brilliant people can work their magic
+ and help bring the people's republic to an even higher level.
+ Meanwhile, the commentary is all swirling around a renegotiation on the status
+ of Taiwan.
+ As with anything in current global politics, this week could be a wild
+ nothing burger, or it could have incredible ramifications, particularly
+ for tech and AI, which of course we'll cover in more detail if and as
+ there's anything to discuss.
+ Next up, we turn to markets where Cerebrus has raised over five
+ billion dollars in the largest IPO so far this year.
+ Interestingly, it apparently almost didn't happen.
+ The IPO was priced on Wednesday after the close, with the final
+ stock price set at 185 dollars.
+ This was significantly above the advertised range of 150 to 160, even
+ after Cerebrus supersized the offering on Monday.
+ The final price implies a market value of 40 billion dollars.
+ Now, Corweave was the last AI-related IPO, but the hype
+ around Cerebrus blew them out of the water.
+ Bloomberg reports that Cerebrus saw orders for 20 times more
+ than the available shares.
+ And as an additional twist, a last-minute acquisition bid
+ almost derailed plans to go public.
+ Sources told Bloomberg that chipmaker Arm and their majority
+ owner Softbank approached Cerebrus for a takeover late last
+ month.
+ Cerebrus reportedly rejected the bid,
+ preferring to go it alone in the public market.
+ And it's kind of hard to second-guess that decision now
+ that they've raised what would have been one of the largest
+ IPOs in any of the past few years.
+ The stock was set to begin trading on Thursday morning
+ after I record, so we'll check in and see how the market
+ receives Cerebrus on the Friday show.
+ Moving over to the political side of the house, a new
+ Gallup poll has found that voter sentiment is breaking
+ hard against data centers.
+ Seven in 10 Americans now oppose data center construction
+ in their local area, including 48% who said
+ they're strongly opposed.
+ Just 7% said they were strongly in favor.
+ The survey was taken in mid-March and is the first
+ time Gallup has polled specifically on data center
+ sentiment.
+ Gallup designed their polling questions to mirror
+ polling on nuclear power plants, which has been
+ conducted since 2001.
+ In their March survey, they found that more people
+ oppose data centers than nuclear plants.
+ In fact, the opposition is so intense that it exceeds
+ the all-time high of nuclear opposition at 63%.
+ The polling also dug into the reasoning behind
+ the sentiment, with 46% of people said that they
+ worry a great deal about the environmental impact
+ of data centers, with an additional 24%, stating
+ they worry a fair amount about that.
+ Half of opponents cited excessive use of resources
+ with 18% mentioning the use of water and electricity.
+ 16% cited pollution, including noise pollution.
+ 22% of opponents said that they were worried about the impact
+ on the local quality of life, including increased traffic
+ and land use concerns.
+ And around another 20% said that they had economic concerns
+ citing higher utility bills, cost of living increases,
+ and use of taxpayer funds in subsidizing
+ construction and operation.
+ Interestingly, only 12% said that they
+ were worried about jobs or AI replacing human workers.
+ And similarly, only 14% of opponents
+ cited a generic negative view of AI, and only 13%
+ cited AI safety as a reason to block data center construction.
+ Now on the opposite side of the ledger,
+ by far the most popular reason to promote data center
+ construction was local economic benefit.
+ 66% gave this explanation for their support
+ with 55% explicitly mentioning job opportunities.
+ No other reason came even remotely close.
+ Interestingly, despite the broader partisan divide
+ in this country, Gallup didn't really
+ find all that much distinction between Democrats
+ and Republicans on this issue.
+ There was also no meaningful difference
+ based on age, race, education level, or urbanicity.
+ Now what's super interesting to me
+ is the extent to which the stated opposition
+ has to do with environmental concerns
+ as opposed to economic concerns.
+ Understandably, many AI advocates
+ are frustrated with the misinformation.
+ Matt DeLuca writes,
+ So 70% of Americans don't understand
+ that data centers will improve schools and local services
+ while not adding any traffic or negligible noise.
+ Electricity increases in water complaints are all myths.
+ Timothy B. Lee writes,
+ It's wild that we're having an environmental panic
+ about data centers, a carbon-free industrial facility
+ that during ordinary operation consumes
+ no natural resources besides electricity and water
+ and emits no waste products besides heat.
+ He continues,
+ Almost every industrial facility
+ requires electricity and water as inputs
+ and produces waste heat.
+ If you think this is bad, you aren't just opposed to AI,
+ you're opposed to the industrial revolution.
+ And yet, for all of the AI people complaining about this,
+ there's no amount of being annoyed
+ at environmental misinformation
+ that's gonna change people's perspectives.
+ I think Mads Campbell has it right when she wrote,
+ Data centers are fundamentally a marketing problem.
+ Railroads used to be one too.
+ Towns fought them over noise, land use and fear of outsiders.
+ Eventually people realized railroads meant
+ commerce, jobs and growth.
+ Stadiums get backlash every single time they're proposed,
+ but teams flip the narrative
+ by turning them into entertainment districts
+ with restaurants and nightlife.
+ Data centers need the same shift.
+ Right now the public narrative is just doom and gloom,
+ power consumption, water usage, giant buildings.
+ People do not feel personally connected to the upside.
+ There needs to be a massive shift in rhetoric
+ from infrastructure people tolerate
+ to infrastructure that benefits your community.
+ In another tweet, she said,
+ no one would care about data centers in their neighborhood
+ if it came with free electricity and wifi.
+ The second Americans benefit from the infrastructure
+ everyone becomes pro data center instead of against it.
+ I don't know how this could be any more obvious to people.
+ And I think that both the AI companies who are funding this
+ and the data center construction companies themselves
+ should be embarrassed at how badly
+ they're losing hearts and minds.
+ I genuinely believe that you could turn around
+ people's perspectives on this
+ with a tiny fraction of the resources spent
+ to actually construct the damn things in the first place.
+ And importantly, that doesn't mean just running ads,
+ trying to correct misperceptions
+ about environmental impact.
+ It means legitimately providing
+ clear and tangible benefits.
+ Anyways, that's a rant deserving of a full episode,
+ but we got a couple more stories before we get out of here.
+ OpenAI is now supporting multiple pieces of AI regulation
+ as part of a broader shift in policy positioning.
+ Earlier this year, OpenAI laid out their policy views
+ in a white paper called Industrial Policy
+ for the Intelligence Age.
+ The document was poorly received.
+ Speaking of rants, you might remember my episode about that one,
+ although the big complaint was actually different than mine,
+ with many claiming that OpenAI's lobbying efforts
+ to stop AI regulation didn't align with their proposals.
+ In a new interview with Axios,
+ OpenAI's Chief Global Affairs Officer, Chris Lahane,
+ discussed a rethink on how the company interfaces
+ with policy in the American voter.
+ Lahane acknowledged that AI companies
+ will be crushed by public sentiment
+ if they don't find a way to redistribute AI wealth,
+ similar to how Alaska shares oil
+ and gas revenue with citizens.
+ He said, people need to feel like they're gonna have
+ a piece of this and participate in it.
+ You can't talk beyond people or above people.
+ You need to talk with people
+ and involve them in the conversation.
+ Now alongside the interview,
+ OpenAI has thrown their weight
+ behind regulatory efforts in Illinois.
+ They are supporting both the Kids Online Safety Act
+ and SB315, a bill that mirrors the regulations
+ in New York and California.
+ It seems that OpenAI is now on board
+ with state-by-state regulation
+ as long as it doesn't result
+ in a patchwork of different standards.
+ Axios reporter Ashley Gold commented,
+ in state consistency, out praying hopelessly
+ for a federal standard.
+ Lastly today, just a fascinating one
+ that I think is a good reminder
+ of how entrenched anti-AI feeling is becoming.
+ Schlumstein X posted,
+ I just generated an image
+ in the style of a Monet painting using AI.
+ Please describe in as much detail as possible
+ what makes this inferior to a real Monet painting.
+ Hundreds and hundreds of people
+ were willing to do exactly that.
+ In a follow-up tweet, they wrote,
+ please focus on the specific visual elements
+ that distinguish the AI image
+ from a real Monet painting like the below.
+ So in each of these tweets,
+ there was a Monet style image.
+ In the second, it was a real Monet
+ and in the first, it was, you guessed it,
+ also a real Monet.
+ The social experiment then
+ was that Schlumstein posted a real Monet,
+ a specific close-up crop of one,
+ but said it was AI
+ and asked people to say why it sucked.
+ And boy, did he get responses.
+ Hundreds and hundreds of responses.
+ It is Monet-ish, yes, and certainly pretty,
+ but at the risk of sounding pretentious,
+ it, in my opinion, would not hold up
+ next to the real thing seen face-to-face in a museum.
+ Another account writes, there's a certain harshness,
+ no soft blending of colors, no depth,
+ no symbiosis of the elements.
+ Another account, it's all borked nonsense
+ with no sense of space.
+ Another account, Monet shows more distinction
+ in how he uses colors and outlines of objects.
+ Another, it's not a physical painting
+ created by a well-known artist, that's it,
+ that's the difference, et cetera, et cetera, et cetera.
+ Indeed, the depth that people go
+ to point out the specific ways
+ in which it sucks compared to a Monet
+ is really fascinating.
+ Now, the point in this case
+ is not to dunk on people's artistic knowledge,
+ not at all, it's to remind us
+ as we're talking about things like regulations
+ and like Gallup polling on data centers
+ that those of us who actually care about AI
+ and the potential for it to have a positive impact
+ on the future have a hell of a lot of work to do.
+ That's gonna do it, however, for the headlines.
+ Next up, the main episode.
+ One of the most important AI questions right now
+ isn't who's using AI, it's who's using it well.
+ KPMG and the University of Texas at Austin
+ just analyzed 1.4 million real workplace AI interactions
+ and found something surprising.
+ The highest impact users aren't better prompt engineers,
+ they treat AI like a reasoning partner.
+ They frame problems, guide thinking,
+ iterate and push for better answers.
+ And the good news, these behaviors are teachable at scale.
+ If you're trying to move from AI access
+ to real capability, KPMG's research
+ on sophisticated AI collaboration is worth your time.
+ Learn more at kpmg.com slash us slash sophisticated,
+ Today's episode is brought to you by Granola.
+ Granola is the AI notepad for people in back-to-back meetings.
+ You've probably heard people raving about Granola,
+ it's just one of those products that people love to talk about.
+ I myself have been using Granola for well over a year now
+ and honestly it's one of the tools
+ that change the way I work.
+ Granola takes meeting notes for you
+ without any intrusive bots joining your calls.
+ During or after the call, you can chat with your notes,
+ ask Granola to pull out action items,
+ help you negotiate, write a follow-up,
+ and share your thoughts on what you think
+ and action items help you negotiate,
+ write a follow-up email, or even coach you
+ using recipes which are pre-made prompts.
+ Once you try it on a first meeting,
+ it's hard to go without.
+ Head to granola.ai slash ai-daily and use code ai-daily,
+ new users get 100% off for the first three months.
+ Again, that's granola.ai slash ai-daily.
+ Today's episode is sponsored by Bolt.New.
+ Bolt.New is a genetic engineering on multiplayer mode.
+ Designers, product managers, and engineers
+ build in the same environment
+ and the design system agent keeps every screen on brand.
+ No more Frankenstein UIs stitched from a dozen prompts.
+ Whether you're shipping internal tools,
+ moving from prototype to production
+ or replacing a legacy admin panel,
+ Bolt.New takes your team from concept to deployed app.
+ One personal recommendation,
+ hit plan mode before you build.
+ I had a project I'd half described
+ in three different prompts
+ and plan mode made me actually think through it
+ with Bolt.New before a single line got written.
+ It saved me from rebuilding the same screen
+ probably about four times.
+ Build better apps faster.
+ Start with the link in the description.
+ Here's a harsh truth.
+ Your company is probably spending thousands
+ or millions of dollars on ai tools
+ that are being massively underutilized.
+ Half of companies have ai tools,
+ but only 12% use them for business value.
+ Most employees are still using ai
+ to summarize meeting notes.
+ If you're the one responsible for ai adoption
+ at your company, you need section.
+ Section is a platform that helps you manage ai
+ transformation across your entire organization.
+ It coaches employees on real use cases,
+ tracks who's using ai for business impact,
+ and shows you exactly where ai is
+ and isn't creating value.
+ The result, you go from rolling out tools
+ to driving measurable ai value.
+ Your employees move from meeting summaries
+ to solving actual business problems,
+ and you can prove the ROI.
+ Stop guessing if your ai investment is working.
+ Check out section at sectionai.com.
+ That's S-E-C-T-I-O-N-A-I dot com.
+ Welcome back to the ai daily brief.
+ Today we are discussing the most recent changes
+ to how paid Claude plans work.
+ This has caused a ton of angry discussion among developers,
+ but I think that what it reflects
+ is actually a much bigger shift.
+ A couple of weeks ago, we published a show
+ called the ai subsidy era ends,
+ and this story is really that coming home to roost.
+ So first of all, let's talk about what happened.
+ On Wednesday, Anthropic announced a big change
+ to their pricing model.
+ As of June 15th, paid users will be able
+ to claim a monthly credit
+ for what Anthropic calls programmatic usage.
+ Basically, there are kind of two different ways
+ that people use Claude and Claude code.
+ One is what Matt Pocock calls human in the loop,
+ where you are sitting interacting with Claude
+ via Claude AI, Claude code, or Claude co-work, the apps,
+ and then there's what he calls
+ the away from keyboard uses,
+ which include the Claude agent SDK, Claude dash P,
+ which calls up Claude code from the CLI
+ or Claude GitHub actions.
+ Previously, people had been able to use
+ their Claude subscriptions
+ for either of these categories of uses
+ and their subscription limits, such as they were,
+ didn't matter whether they were being used up
+ in one area or the other, at least sort of.
+ Throughout the year, there have been back and forth
+ and questions on exactly what type of behavior
+ Anthropic did and didn't want to support
+ with Matt himself jokingly posting
+ at the beginning of April.
+ I don't know what the fuss is about.
+ Anthropic's rules on using subscriptions are very simple.
+ Claude code, okay, Claude's online platform, okay,
+ agent SDK running in personal software, okay-ish,
+ agent SDK running in commercial software, not okay,
+ Claude code running in CI, not sure.
+ Oh, maybe it's not so simple.
+ Agent SDK running in CI, not sure,
+ Claude dash P running in CI, not sure, et cetera, et cetera.
+ The point is that even before this,
+ people were confused.
+ It certainly seemed however, ever since changes
+ that seemed to impact how people could use
+ their open-claw subscriptions,
+ that the team at Anthropic was clearly nudging you away
+ from what Matt called those away from keyboard use cases
+ and towards the human in the loop use cases.
+ Basically it has seemed too many like Anthropic
+ wants you to interact with their models
+ through their own harnesses.
+ Anthropic sort of acknowledged this confusion,
+ writing in the X thread,
+ we've heard your questions about SDK and Claude dash P usage
+ sharing your subscription rate limits
+ with Claude code in chat.
+ They say then that this is a way to address that.
+ Now for what it's worth,
+ what Matt is calling human in the loop usage,
+ Anthropic is calling interactive use
+ and what he is calling away from keyboard usage
+ they are calling programmatic use.
+ Now, the way that the Claude devs account
+ tried to present this change
+ is that it was actually just a bonus
+ that effectively nothing is changing
+ about your subscription limits
+ for how you use the normal interactive Claude accounts
+ IE when you're sitting there in front of Claude AI,
+ Claude code or Claude co-work
+ but that on top of that,
+ you are now getting this bonus credit
+ where you didn't before.
+ With the bonus credit being equal to the amount
+ that you're paying for your plan.
+ So if you're paying $20 for a pro account,
+ you get a $20 credit
+ to be used for that programmatic API based usage.
+ So Anthropic is basically trying to say
+ that this is good in three ways.
+ First of all, it's good because it clarifies things.
+ Second of all, it's good because it means
+ with that clarity that you are in fact allowed
+ to use your Claude subscription for third party tools.
+ No more confusion about that.
+ They write, this means that third party tools
+ built on the agent SDK like conductor
+ and open-claw will work with your Claude plan.
+ And they say it's a good thing
+ because you're getting this free credit.
+ Lydia Halley from Anthropic tried to visualize it
+ showing that Anthropic has just simply now
+ cut things into two different categories of use
+ with a separate accounting for when you start to hit overages
+ and have to start paying the going API rate.
+ So this is good, right?
+ You're just getting free credits
+ on top of your existing plan.
+ Not so for many developers.
+ And the issue at core is token subsidies.
+ The TLDR is that for a very long time,
+ power users have been able to use dramatically more tokens
+ than the equivalent value of API credits in their plans.
+ What I mean by that is that the most powerful users
+ of Claude Mac subscriptions, for example,
+ are in many cases not using $200 worth of tokens
+ like the $200 a month plan would suggest,
+ but are in fact using thousands of dollars worth of tokens
+ if those tokens were charged for
+ in the same way that the API charges.
+ No one knows the exact ratio,
+ but the fact that there is a subsidy is very clear.
+ And the problem is that as it turns out,
+ lots of people have built their third party projects
+ around an assumption of that subsidy persisting.
+ Now, what Anthropic is saying with this announcement
+ is that that subsidy is persisting
+ when it comes to people who are using Claude code
+ through the Claude code or Claude co-work harness,
+ but it is not persisting
+ if you're trying to use your Claude subscription
+ for third party experiences.
+ Those experiences are now going to be built
+ straight on API rates.
+ A big chunk of the developer community
+ absolutely crashed out at this.
+ AI YouTuber and T3 code builder Theo writes,
+ I can't help but feel personally burned
+ by the Claude code changes announced today.
+ We put so much work into wrapping
+ the atrocious Claude agent SDK and T3 code.
+ It was the only path they supported, so we made it work.
+ It was hell.
+ Now our users are getting their rate limits
+ cut by 40X despite us doing everything right.
+ I listened to the Claude code team.
+ I had my issues with their direction,
+ but I trusted them and took them at their word.
+ I will never make that mistake again
+ until we see significant change.
+ It is safe to assume any statement
+ from an anthropic employee is a lie on a timer.
+ The rug will be pulled no matter how many promises
+ are made beforehand.
+ That was one of about a hundred tweets
+ from Theo about this.
+ If you use any of the following
+ with your Claude sub, he writes,
+ your usage just got cut by 25X.
+ T3 code, conductor, Z, John, Claude P and your CI
+ scripts to call Claude code from other tools.
+ They're disguising this as free credits.
+ Don't fall for it.
+ And honestly, relative to some
+ of the other tweets out there,
+ Theo's were restrained.
+ Robin Ebers, who calls himself
+ an AI coach for founders said,
+ Anthropic literally effing disgusts me.
+ I said this before and I'll say it again,
+ they hate developers.
+ Their marketing and legal teams
+ write the most intentionally misleading
+ copy and rules.
+ They sell dumpster fires as wins
+ to the clueless and they're getting away with it.
+ Never been happier to have canceled my subscription.
+ Lucolato writes,
+ really a shame that Anthropic
+ intentionally harms their own developer community.
+ And indeed this sentiment
+ that Anthropic was in fact abandoning
+ the people that got them to where they are
+ was pretty prominent.
+ Mario Zetschner writes,
+ I don't think Anthropic is dumb.
+ Pretty sure they have data telling them
+ that dev and social sentiment
+ doesn't matter anymore
+ as they've reached corporate decision makers' hearts and minds.
+ Enjoy your obligatory enterprise Claude code.
+ In other words, the argument here
+ is that they simply don't care about this class of user
+ because they have bigger fish to fry
+ with their enterprise clients.
+ Mario also said,
+ I do think initial growth was largely based
+ on a focus on absolute nerds.
+ Getting the nerds to get the normies
+ then dropping the nerds
+ is a strategy as old as computers.
+ A lot of the businesses affected
+ are ones like T3 that Theo was talking about
+ which are effectively alternative harnesses
+ for using Claude code.
+ That's what T3 code is.
+ And that's also what conductor is.
+ A third party coding harness
+ focused on multi-agent workflows.
+ Now the argument implicit in a lot of these critiques
+ is that these types of developers,
+ even when they're building interfaces
+ that compete with core Anthropic interfaces
+ are so valuable to the overall ecosystem
+ by giving people different doors
+ and into that ecosystem
+ that they should be actively supported and encouraged.
+ Theo again writes,
+ kind of crazy that Anthropic spends more time
+ trying to lock out better apps and harnesses
+ instead of just fixing Claude code.
+ Now on top of the specific critique
+ in terms of how Anthropic runs its business
+ and what they think about developers,
+ the other big issue that people had with this
+ was feeling gaslit and talked down to.
+ Gotland founder Austin Allred
+ retweeted Lydia Halley's explanation of the change
+ and said,
+ it's dramatically more expensive
+ but you get a few free credits
+ towards the new expense to soften the blow.
+ Your users aren't dumb.
+ Stop trying to dress everything up
+ in 10 layers of PR speak and just say what it is.
+ Robin Nevers again writes,
+ it's not the SDK change
+ but their pathetic attempt at gaslighting everyone
+ into thinking this is a huge win for users.
+ Free API credits, yippee,
+ plus 50 weekly limits for two weeks.
+ But if you don't use Claude code directly
+ you get banned or pay API pricing.
+ This is not a win, it's a rug pull.
+ Peter Yang took the volume of the discussion down a notch
+ and kicked the thoughtfulness quotient up when he wrote,
+ I think one thing I learned about engaging your customers
+ is you just have to be honest
+ and upfront about your constraints,
+ especially with developers.
+ They really just want communication
+ that tells it like it is.
+ It's very hard to earn their trust
+ and once lost it's very hard to earn it back.
+ So that is all the critiquing controversy.
+ However, I will say that when I saw this announcement
+ I felt pretty similarly to developer Nick Dobos
+ when he wrote,
+ everyone with an ounce of sense knew this was coming.
+ Did y'all seriously expect to run your insane
+ custom scripts on top of Claude
+ at the massively discounted subscription rate forever?
+ So let's talk about what the possible explanations
+ for this are and which combination of them have it right.
+ Let's talk first about the idea
+ that Anthropic doesn't want third party developers around.
+ It is certainly the case
+ that they have been more assertive about this
+ than for example has open AI.
+ Back in January, VentureBeat wrote an article
+ called Anthropic cracks down on unauthorized
+ Claude usage by third party harnesses and rivals.
+ Even five months ago then identifying
+ that Anthropic clearly had a bias
+ towards getting people to use their harnesses
+ not their models inside other people's harnesses.
+ Given how much we've talked about this year
+ the idea that harnesses,
+ i.e. the products and experiences
+ through which you use a model
+ are ever bit as significant as a model
+ when it comes to a company's success
+ I don't necessarily find this all that surprising.
+ Also at the beginning of the year
+ we saw Anthropic cut off XAI's access
+ to its models for coding.
+ Dario has made it clear that it seems crazy to him
+ that they would just allow their competitors
+ to use their models
+ and then of course there was everything around Open Claw
+ where at no point has Anthropic suggested
+ they were even a little bit interested
+ in making it easy to use third party harnesses
+ that compete with their tools.
+ Indeed whether you think that they're incorrect or not
+ I don't think it's an unreasonable take
+ that Anthropic actually believes
+ that they are making a concession here
+ to officially allowing these third party harnesses
+ with the trade-off that they have to pay the API rate.
+ Now zooming out and not just talking
+ about the competition between Claude code
+ and co-work as a harness and all the other harnesses
+ many of Anthropic's moves also suggest
+ that they have a pretty voracious appetite
+ when it comes to owning the application layer.
+ Just this week we've gotten updates
+ for Claude for legal, Claude for finance
+ and the announcement yesterday
+ of the new Claude for small business.
+ Compare that to Open AI
+ who doesn't have those sort of dedicated focuses
+ and pre-packaged plugins
+ around these different sectors and professional functions
+ whether it's the right approach or not
+ Anthropic clearly has a bias
+ to be a little bit more abolition
+ controlling the end-to-end experience
+ and to use the Apple Google analogy
+ there are obviously people who feel very strongly
+ on both sides of that argument.
+ Developers and builders tend to be more aligned
+ with the Android type of approach
+ that's more open and allows people to do more
+ while end consumers who just like great experiences
+ often find themselves in the Apple ecosystem
+ because they like the consistency
+ that that end-to-end control comes with
+ and don't really bother themselves all that much
+ with all the taxes that creates
+ for the developer ecosystem
+ around that closed end-to-end experience.
+ There's also at least a little bit of an argument
+ this is Anthropic flexing and their pricing power.
+ Anthropic is just increasingly dominant
+ when it comes to enterprise usage.
+ The information spoke to a few enterprise customers
+ and found that even mid-sized firms
+ are readily signing up
+ for six and seven figure Anthropic bills.
+ New data from Ramp backs this up
+ where the latest edition of the Ramp AI index
+ found that Anthropic had overtaken Open AI
+ in terms of business usage for the first time.
+ 34.4% of Ramp's customers
+ are now paying for Anthropic subscriptions
+ compared to 32.2% for Open AI.
+ Anthropic's adoption rate has quadrupled
+ over the past year while Open AI's is basically flat.
+ But honestly, as much as I do believe
+ that Anthropic has a particular perspective
+ that wants people in its own controlled ecosystem,
+ I don't think that the core issue here
+ is really about some acrimony
+ towards third-party developers or even competing harnesses.
+ I think the extremely obvious thing going on here
+ is what I called a couple of weeks ago
+ the end of the AI subsidy era.
+ We have moved from a paradigm
+ of caring about seats to caring about tokens.
+ When you shift from assisted AI to agentic AI,
+ the business model cannot be based on seats anymore,
+ which try to normalize consumption
+ across a big set of people.
+ Agents that can do work in the background
+ can consume the equivalent amount of AI usage
+ in the form of tokens
+ that dozens or even hundreds of those seats
+ would account for.
+ If we had unlimited compute infrastructure,
+ it would be one thing, but we don't.
+ We are crashing right now, headlong
+ into the inevitable market consequence
+ of there being massively more demand for tokens
+ than there is supply of tokens.
+ And Anthropic has been telegraphing these changes for months.
+ Everyone knows they've struggled with compute.
+ Everyone knows they've struggled with latency issues.
+ Everyone who's tried to use Claude or Claude code
+ knows how frequently they've been a victim
+ of their own success with the system going down.
+ And for months, all signs have been pointing
+ in the direction that at some point soon,
+ whatever subsidies there were, we're going to end.
+ Claude codes Tariq, for example, back in February wrote,
+ we want to encourage local development
+ to an experimentation with the agent SDK and Claude-P,
+ but if you're building a business on top of the agent SDK,
+ you should use an API key instead.
+ Let's try to put some real numbers around this.
+ As I said, it's not exactly clear
+ what the full extent of the subsidy was,
+ but to just take a couple of examples.
+ Umang Jaipura wrote, in a recent session,
+ Claude code spent about $31 worth of API tokens,
+ counting it as 7% usage over a five-hour window.
+ That backs out to about $100 per hour of usage
+ for a $100 a month subscription,
+ approximately the base comp of a mid-level software engineer.
+ That is a huge subsidy for subscription usage.
+ No wonder they don't want to subsidize programmatic usage.
+ It will massively cannibalize API revenue.
+ Last month, meanwhile, Anthropic estimated
+ that the average cost per developer for enterprises
+ is $13 per day or between $150 and $250 a month.
+ And that's just for developers using Claude code
+ in the Claude code harness.
+ And that's just the average.
+ That's not trying to capture people
+ running third-party services on top of the agent's SDK.
+ Back in January, it was reported that cursor estimated
+ that a $200 subscription would allow $2,000 in compute,
+ but some sources suggest
+ that it could be as high as 5,000.
+ In other words, the general consensus has been
+ that if you maxed out your Anthropic plan,
+ they were effectively offering a 10x to 20x type of subsidy.
+ They are not yet taking that subsidy away
+ from their main accounts.
+ What they are doing is taking that subsidy away
+ for usage that happens outside of their core ecosystem.
+ And it just seems very clear to me
+ that this is more about capacity constraints
+ than it is about any sort of relationship with developers.
+ Now, a lot of commentary was some version of this tweet
+ from Wes Winder who wrote,
+ they don't have a huge compute constraint anymore
+ after the SpaceX deal though,
+ which sorry to pick on Wes,
+ is so insane as a belief set
+ that it kind of boggles the mind.
+ Anthropic has unlocked a couple hundred thousand
+ H100s and H200s, but when you are dealing
+ with stratospheric growing demand,
+ increasing inference costs,
+ while also still having to figure out
+ how to train the next generation of competitive models,
+ with all of the required pre-training compute,
+ even Colossus one is a drop in the hat.
+ Nityesh from every got it closer to write when he wrote,
+ been thinking about this announcement.
+ I think it connects directly to something
+ I've been thinking about since listening
+ to the Dylan Patel episode
+ on the Duarkesh podcast back in March.
+ Their core thesis,
+ we are going into a semiconductor shortage till around 2030.
+ It's not just AI chips, it's everything underneath.
+ Memory, logic, ASML machines, TSMC fab capacity,
+ power infrastructure, every layer of the stack is constrained
+ and these are years long bottlenecks.
+ What happens when supply is fixed
+ but enterprise demand is exploding?
+ Consumers get rationed.
+ Every big company is racing to deploy AI agents
+ and co-pilots happy to pay for Claude Coat
+ on a usage-based model.
+ This means Anthropic can sell the same opus compute
+ to an enterprise for way more
+ than the $200 a month Mac subscriber.
+ Now, one important point that he makes
+ that I agree wholeheartedly with
+ and which is why I think OpenAI has done a good job
+ so far to not try to revel in this moment
+ comes when he writes,
+ OpenAI is not going to do that for a few more months
+ because they're not seeing the crazy ADX growth
+ like Anthropic, but they will also follow
+ a similar model in the less than one year range.
+ So we might need to prepare for a world
+ where consumers rely more on open source models
+ running on their own hardware
+ until that gets supply constrained as well.
+ Simply put, this situation was a complete inevitability.
+ I simply don't believe that you can persist
+ in a scenario of extremely limited compute
+ and effectively unlimited in growing demand
+ and expect tokens to stay subsidized,
+ no matter how valuable it is to have the affinity
+ of those who are once subsidized.
+ And I agree, I think that OpenAI will be forced
+ to make a very similar decision before very long at all.
+ Do I think Anthropic handled the comms poorly?
+ Big time.
+ They are doing a spectacular job right now
+ of alienating pretty much everyone
+ with their communications in one way or another.
+ But the real bummer here
+ is not just that certain services
+ that lots of people like using are going to cost more.
+ It's that in general,
+ as George from product management world puts it,
+ the token maxing era is ending.
+ We have had this very brief six month golden window
+ where the coding models were good enough
+ that we could create anything our little brains thought of
+ without really having to worry about the costs.
+ And now unfortunately,
+ because of the laws of physics and supply and demand,
+ we're gonna have to start to consider
+ the cost of what we do.
+ That's a bummer, but it is the reality.
+ I would say for now,
+ if you're doing something that Anthropic doesn't particularly
+ like or competes with their core services,
+ run on over to codecs
+ and soak up as much subsidy as you can
+ before they have to change.
+ And honestly, and this is the drearyest part in some ways,
+ for those of you who are using Claude,
+ even directly in Claude code
+ in the way that they want you to,
+ I would not assume that you're going to get
+ a 10x subsidy forever either.
+ It seems more likely than not
+ that market forces will over the next, I don't know, year
+ force even those subsidies to go away as well.
+ That is the story for now,
+ the times they are a changing
+ and that's gonna do it for today's AI Daily Brief.
+ I appreciate you listening or watching as always
+ and until next time, peace.
