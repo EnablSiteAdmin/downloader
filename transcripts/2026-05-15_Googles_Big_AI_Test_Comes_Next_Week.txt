@@ -1,0 +1,798 @@
+ Today on the AI Daily Brief, the significance of Codex coming to ChatGPT Mobile, the difference
+ between consumer and work AI, and what to expect from Google's IO event next week.
+ Before that in the headlines, a heck of a first day for Cerebrus on Wall Street.
+ The AI Daily Brief is a daily podcast and video about the most important news and discussions
+ in AI.
+ All right friends, quick announcements before we dive in.
+ First of all, thank you to today's sponsors, KPMG, Granola, Bolt and Section, to
+ get an ad-free version of the show, go to Patreon.com slash AI Daily Brief, or you can
+ subscribe in Apple Podcasts.
+ To learn more about sponsoring the show, send us a note at sponsors at AIDailyBrief.ai.
+ While you are on AIDailyBrief.ai, check out our careers page.
+ I am hiring a full-time growth engineer that is someone who is engineering growth, not
+ a developer by training necessarily, although you will be building lots.
+ But it is a very cool way to be a part of this ecosystem.
+ And one final note, Enterprise Claw Cohort 3 is currently enrolling.
+ You can find out about that either from our website or at enterpriseclaw.ai.
+ Today we kick off with a follow-up of a story that we have been watching this week, which
+ is the public market debut of Cerebrus.
+ TLDR, the company delivered a massive first day of trading, kicking off a potentially
+ significant IPO season for AI companies.
+ Now heading into the big day, Cerebrus had upsized their share offering, raised their
+ price, and still, after all of that, ended up pricing the sale above their guided range.
+ Red hot demand during the private roadshow flowed through into public markets on Thursday,
+ with the opening trade seeing the stock double in price before settling into a 68% gain at
+ the end of trading.
+ Cerebrus began the day as a $40 billion company, touched $100 billion for a minute
+ and now has a market cap of $66 billion.
+ Now predictably for a frothy IPO, and I think that is a certainly reasonable frame,
+ the launch brought out a fair number of contrarians on the stock.
+ CNBC's Jim Kramer warned his audience to tread carefully, arguing that the price had
+ detached from fundamentals.
+ While there might be a situation in the future where I can recommend Cerebrus, he said,
+ I just can't even come close to justifying the valuation up here, given how much it's
+ already run right out of the gate.
+ For now, I say keep your bat on your shoulder and hope the stock gives you a giant pullback
+ because at these levels it's too rich for me.
+ Meanwhile, General Intelligence's Andrew Picconelli was one of many declaring,
+ quote, the Cerebrus IPO may be the top.
+ CNBC reported that there were 45 buyers for every seller of the stock,
+ with Pakhi McCormick tongue-in-cheek arguing that the same is true for Cerebrus' product,
+ posting,
+ Once again, you people don't understand infinites.
+ If inference demand is infinite, Cerebrus at $400 is ridiculously cheap.
+ Infinity times their inference market share equals infinity.
+ Now obviously any time you see this much intense demand for a single issue,
+ it's worthy of some amount of skepticism, however.
+ It sets up a pretty interesting dynamic for the mega IPOs coming down the pike.
+ SpaceX is expected to finalize their paperwork next week,
+ so they could go live by the end of the month.
+ When we have anthropic and open AI rumored to be lining up their IPOs by the end of the
+ year.
+ Investor Kip Harriage suggested we shouldn't overthink it, writing,
+ If you're bearish on this market, just as we are entering the IPO boom phase, good
+ luck to you, you're gonna need it.
+ This is one of those moments where anytime you see anyone arguing about the fundamentals,
+ it kind of feels divorced from the reality of the moment, which is that fundamentals
+ don't matter if everyone is bidding AI and everyone right now is bidding AI.
+ For what it's worth, this is also why I think a lot of the discussion around
+ the open AI versus anthropic IPO is just a little preposterous, like there isn't going
+ to be absolutely infinite demand for both of those stocks.
+ Couple more stories staying in markets, Figma is the latest software company to come back
+ from the dead on the back of strong AI revenue.
+ Figma was one big victim of the Sasspocalypse narrative seeing their stock down as much
+ as 50% this year, however, like Atlassian before them, the addition of AI features
+ seems to have put them back on the right course.
+ During Thursday night's earnings, Figma reported that revenue grew at a 46% pace in the
+ past quarter, accelerating from 40% in the previous quarter.
+ Figma credited their AI features with CFO Pravi Melwani stating,
+ you can't dismiss the significance of new tools.
+ Figma is one of those companies where as the AI's gotten better, so is our pitch
+ for customers.
+ Now an interesting nugget given the themes that we've been exploring around
+ the end of the AI subsidy era.
+ In early March, Figma introduced a usage cap and started charging for token use
+ above a limit.
+ They said that the change hasn't made a dent in retention, noting that 75% of
+ customers are still using their AI features either sticking within the cap or
+ paying for additional use.
+ Whatever the combination of reasons the market now seems to believe in the Sass
+ recovery, sending the stock up 8% in after hours trading.
+ Meanwhile, Nvidia is very quietly having a major surge as the markets
+ get mega bullish on AI.
+ The stock is up 20% over the past seven days, pushing the world's largest
+ company close to a $6 trillion valuation.
+ Thursday's session added 4.7% to an already hot run.
+ Look, things could change fast, but right now the market is very much back
+ on the AI hype train.
+ Next up, a bit of a weird one.
+ Open AI might be heading for another messy breakup as things reportedly get
+ rocky with Apple.
+ The information reports that Open AI is considering legal action for breach
+ of contract in relation to Apple's chat GBT integration.
+ Now you might remember that this all seemed a little weird right from the
+ start.
+ It was announced as part of Apple intelligence during WWDC 2024, but
+ the whole thing had an air of half commitment.
+ Sam Altman was present at the event, but he wasn't called on stage as
+ part of the announcement.
+ And overall the integration turned out to be a bit of an afterthought.
+ The idea was that Apple intelligence could kick complex requests from
+ Siri over to chat GBT, but Open AI's technology was not being
+ integrated as a core part of the product.
+ Now prior to the conference, people treated it like it would be
+ Altman and Open AI's coronation, enshrining them as a cornerstone
+ of the Apple ecosystem.
+ Instead, they kind of got the little brother treatment.
+ Now that said, we know exactly how Apple intelligence has gone or
+ not gone in the subsequent years, but apparently Open AI is now
+ reportedly considering suing Apple for failing to deliver on their side
+ of the contract, such as it was.
+ A source at Open AI said that the company had been trying to
+ improve their relationship with Apple over recent months, but
+ there's been a lack of effort on Apple's part.
+ That source added that Open AI would prefer not to sue, but
+ wouldn't rule it out unless Apple begins showing more interest
+ in collaborating with Open AI.
+ Meanwhile, Open AI did not take part in last year's bake off
+ to determine who would win the contract to power the new
+ version of Siri, which was ultimately won by Google.
+ The information is also reporting that Apple is now largely
+ using Claude internally for coding and business work, and
+ is reportedly testing native integrations of Claude and
+ Gemini for iPhone, giving them the same level of system access
+ as ChatGBT.
+ Right now, this all feels like extremely thin sourcing to me,
+ but it's worth noting, especially as we're heading into
+ a week where there's going to be a lot of discourse thanks
+ to Google I.O. around the state of the AI race across
+ all of these labs.
+ Meanwhile, heading into whatever the next phase of that race
+ is, Anthropic appears to be trying to set a price floor
+ for their IPO, with the Financial Times reporting that
+ a new Anthropic round is all but a done deal.
+ They state that terms have been agreed to and Anthropic
+ will be raising $30 billion at a valuation of $900 billion,
+ inching them ahead of Open AI's last valuation.
+ A number of traditional venture firms like Sequoia
+ and Altimeter are said to be co-leading the round
+ with each likely to invest $2 billion or more,
+ and it appears that Anthropic has no shortage of investors
+ willing to take the rest of the allocation.
+ Once it closes, this will be not only one of the largest
+ venture rounds in history, but also one of the largest
+ jumps in valuation ever at this scale,
+ close to tripling up from the $380 billion valuation
+ during their series G round in February.
+ Now, while investors continue to be extremely enthusiastic
+ about Anthropic, at least one big company
+ is heading in a different direction.
+ Microsoft has begun canceling cloud code licenses,
+ shifting their developers across
+ to the GitHub co-pilot CLI instead.
+ Microsoft first gave their developers access
+ to cloud code in December, a subtle acknowledgement
+ that their own in-house tools were falling behind.
+ Sources told The Verge that Anthropic's tools
+ were extremely popular, maybe a little too popular.
+ Now, they noted that alongside promotion of in-house tools,
+ there's also a financial factor.
+ The licenses will be terminated at the end of June,
+ just in time for the beginning
+ of Microsoft's new financial year,
+ with management reportedly seeing cloud code
+ as an easy place to cut some costs.
+ Look, I don't think this is that insane,
+ especially given that Microsoft has a competing product
+ that they really need to be up to snuff.
+ I think you could argue this both ways,
+ use one of the best tools at the moment
+ to actually help make yours better,
+ or take away that tool to create more internal incentive
+ to improve what you've got,
+ but in either case, it certainly feels like another part
+ of the competitive strategies
+ of these companies firming up.
+ Finally today, one of the big sub-themes running
+ through the AI industry ever since the announcement
+ of Claude's mythos has been security issues
+ with everyone trying to figure out
+ just how real the cybersecurity implications are.
+ Reportedly, security researchers have now used Claude mythos
+ to find a new way to exploit Apple's operating system.
+ The researchers claim that mythos was able to link together
+ a pair of bugs to execute an attack
+ that granted access to kernel memory on Mac OS.
+ Mythos was used to both discover the vulnerability
+ and carry out the attack,
+ which caught a lot of people's attention
+ as Mac OS is generally considered
+ one of the more security-hardened systems available.
+ Researchers seemed blown away
+ by the capabilities, writing,
+ mythos preview is powerful.
+ Once it has learned how to attack a class of problems,
+ it generalizes to nearly any problem in that class.
+ Mythos discovered the bugs quickly
+ because they belong to known bug classes.
+ This is the latest in a series of reports
+ that suggest that mythos was not just marketing hype.
+ Last week, Mozilla announced
+ that mythos had helped them find and patch 423 bugs
+ in the past month,
+ which was more than they had found
+ in the previous 15 months combined,
+ and Anthropic has also released
+ an updated checkpoint for mythos,
+ which massively boosted cybersecurity capabilities.
+ The UK AI Security Institute tested the new update
+ and found that it could complete
+ their automated cyber attack benchmark
+ in six out of 10 attempts.
+ The previous benchmark run had two successes out of 10
+ with GPT 5.5 having one successful run.
+ TLDR, it seems that indeed
+ there are some pretty big capability jumps on the horizon
+ for now that that is gonna do it for the headlines.
+ Next up, the main episode.
+ One of the most important AI questions right now
+ isn't who's using AI, it's who's using it well.
+ KPMG and the University of Texas at Austin
+ just analyzed 1.4 million real workplace AI interactions
+ and found something surprising.
+ The highest impact users aren't better prompt engineers,
+ they treat AI like a reasoning partner.
+ They frame problems, guide thinking,
+ iterate and push for better answers.
+ And the good news,
+ these behaviors are teachable at scale.
+ If you're trying to move from AI access to real capability,
+ KPMG's research on sophisticated AI collaboration
+ is worth your time.
+ Learn more at kpmg.com slash us slash sophisticated
+ that's kpmg.com slash us slash sophisticated.
+ Today's episode is brought to you by Granola.
+ Granola is the AI notepad
+ for people in back to back meetings.
+ You've probably heard people raving about Granola,
+ it's just one of those products
+ that people love to talk about.
+ I myself have been using Granola
+ for well over a year now
+ and honestly it's one of the tools
+ that change the way I work.
+ Granola takes meeting notes for you
+ without any intrusive bots joining your calls.
+ During or after the call,
+ you can chat with your notes,
+ ask Granola to pull out action items,
+ help you negotiate, write a follow-up email,
+ or even coach you using recipes
+ which are pre-made prompts.
+ Once you try it on a first meeting,
+ it's hard to go without.
+ Head to granola.ai slash ai daily
+ and use code AI daily,
+ new users get 100% off for the first three months.
+ Again, that's granola.ai slash AI daily.
+ One thing I keep seeing in enterprise AI,
+ companies hedging across every cloud,
+ every model, every framework,
+ or paying a GSI for a pilot that never ends.
+ The team's actually shipping,
+ they've picked a lane and they move fast.
+ That's one of the reasons I like today's sponsor,
+ Robots and Pencils.
+ They've gone all in on AWS.
+ They're an advanced tier and AWS pattern partner
+ and they ship production AI coworkers in 45 days.
+ That's led to them doing some of the more interesting
+ work I've seen on AI coworkers.
+ And by that I'm not talking about chatbots,
+ I'm talking about actual agentic systems
+ that sit inside a business architecture and do real work.
+ That kind of focus matters if you're an enterprise leader
+ trying to get something real into production
+ or an AWS rep trying to move a customer
+ from interested to deployed.
+ Request an AI briefing at robotsandpencils.com.
+ One conversation with robots and pencils and you'll know.
+ So coding agents are basically solved at this point.
+ They're incredible at writing code.
+ But here's the thing nobody talks about.
+ Coding is maybe a quarter of an engineer's actual day.
+ The rest is standups.
+ Stakeholder updates, meeting prep,
+ chasing context across six different tools.
+ And it's not just engineers.
+ Sales spends more time assembling proposals than selling.
+ Finance is manually chasing subscription requests.
+ Marketing finds out what shipped two weeks after it merged.
+ ZenCoder just launched ZenFlow work.
+ It takes their orchestration engine,
+ the same one already powering coding agents
+ and connects it to your daily tools.
+ JIRA, Gmail, Google Docs, Linear, Calendar, Notion.
+ It runs goal-driven workflows that actually finish.
+ Your standup brief is written before you sit down.
+ Review cycle coming up.
+ It pulls six months of tickets and writes the prep doc.
+ Now you might be thinking,
+ didn't Open Claw try to do this?
+ It did, but it has come with a whole host of security
+ and functional issues,
+ which can take a huge amount of time to resolve.
+ ZenCoder took a different approach.
+ SOC2 type two certified,
+ curated integrations, tighter security perimeter.
+ Enterprise grade from day one.
+ Model agnostic and works from Slack or Telegram.
+ Try it at zenflow.free.
+ Welcome back to the AI Daily Brief.
+ Today we are doing a couple of things at once.
+ Our overarching theme is a bit of a preview
+ of what's going down at Google IO next week.
+ It is Google's big annual event.
+ So there's always some pretty meaningful set
+ of announcements around it.
+ And this year it feels like it's gonna tell us a lot
+ about how they see the competition going forward
+ and where they fit in the AI competition going forward.
+ But to set it up and maybe get a little bit more context,
+ we're actually gonna start with some news from OpenAI.
+ It's no secret that at this point,
+ Codex and coding adjacent knowledge work use cases
+ are where OpenAI's big focus is.
+ They've gone from just a couple hundred thousand
+ to more than four million Codex users per week.
+ And those Codex users,
+ as we've been discussing for the past couple of weeks,
+ kind of represent something categorically different
+ because they are building with agents.
+ They don't represent just individual seats.
+ They represent a huge amount of token spend
+ either on their own or as part of their organizations,
+ meaning that that four million
+ are going to be punching way above their weight class,
+ even relative to the eight or 900 other million consumers
+ who are using chat GBT on a regular basis.
+ Alongside a lot of Anthropics communications troubles,
+ OpenAI has really taken advantage to put Codex
+ for the first time in a really leading position
+ relative to the other harnesses out there,
+ specifically Claude Code,
+ which you see not only in the conversation
+ among developers and AI enthusiasts on Twitter,
+ but also in more direct signals,
+ like the fact that the slash goal primitive
+ came to Codex before it came to Claude Code.
+ Now, real ones also know that it was in Hermes first,
+ but the point is that Codex is clearly
+ where a ton of OpenAI's emphasis is
+ and is making big gains in the industry.
+ With that in mind earlier this week,
+ Codex team member Tebow from OpenAI
+ said that the company was beginning to think
+ about having a stable release cadence
+ with a larger release each week on Thursday.
+ We're gonna announce things whenever they come up,
+ but the flip side, of course,
+ is that it means that we get
+ predictably something new each week.
+ He did confirm later on
+ that this would be their approach going forward,
+ and this was the first Thursday where that came to bear.
+ What was announced was Codex
+ in the chatGPT mobile app.
+ Now, there's been a lot of meming recently
+ around people carrying half open laptops everywhere they go.
+ Basically, when you're running Codex or Claude Code locally,
+ the computer has to stay on for you to continue working.
+ So you've got all these people
+ who are shoving their thumbs in there
+ as they go about other parts of their business.
+ Now, Anthropic had released some features
+ trying to make it easier to interface
+ between Claude Code locally and your mobile app,
+ specifically in the remote control feature,
+ but Codex in the chatGPT mobile app
+ takes it a step farther.
+ This is not just remote control,
+ but a full-fledged experience
+ where you can genuinely work completely,
+ including initiating new work,
+ reviewing outputs, steering the execution,
+ approving next steps, all from within this app.
+ Now, the discussions around this
+ fell into one in three categories.
+ The first was OMG, thank you, I've wanted this.
+ The second was, boy, that feels a little bit buggy,
+ are you sure you wanna push things out every week?
+ But the third and more significant
+ is the one that recognizes
+ that this is not just a feature update,
+ but a continuation of the change in modality
+ of how we do work.
+ Zord calls this a much bigger shift
+ than people realize, writing,
+ this is the beginning of AI agents
+ becoming persistent operators, not just chat interfaces.
+ You start tasks on your phone,
+ Codex keeps executing on your Mac mini,
+ laptop or dev box, and you step in
+ only when approvals or direction are needed.
+ That changes the entire workflow dynamic
+ for builders, researchers, and developers.
+ We're moving from AI helps me code
+ to AI works alongside me continuously.
+ So much of what we have been talking about
+ for the last couple of weeks,
+ but really all year is exactly this shift
+ from doing and producing things
+ to managing fleets of synthetic intelligences
+ that do those things for you.
+ And it makes sense that now
+ from an interface perspective, if you are indeed
+ managing fleets of digital intelligences,
+ that the labs that are creating those intelligences
+ are trying to free you up
+ from being changed to your traditional
+ laptop type of environment.
+ OpenAI's Aiden McLaughlin writes,
+ Codex running while you cook with your partner.
+ Codex running while you push your kid on the swing.
+ Codex running while you call your mom.
+ Codex running on the thing you dreamed about for years
+ but never had time for.
+ Codex doing this while you hang with your loved ones.
+ Meanwhile, Nick Bauman from OpenAI
+ gave a specific example of how this shift
+ had changed the way that he worked.
+ Nick wrote,
+ My laptop has become a satellite device
+ since I started using Codex from my phone
+ and my Mac mini has become the home.
+ It's clunky, but the end state feels more like
+ how we're going to be working in the near future.
+ I'm currently running the Codex app on two devices.
+ My MacBook and my Mac mini.
+ My laptop isn't reliably connected to WiFi enough
+ so I keep a Mac mini on my desk that is always connected.
+ When I kick off new threads from my phone,
+ I start them on the Mac mini.
+ When I'm working for my desk, I run them there too.
+ The cool part is that I've added my MacBook and Mac mini
+ as connected devices to each other.
+ That means I can start or resume threads
+ from either device.
+ So if I'm in a meeting but want to continue a thread
+ on my laptop that was started on my Mac mini,
+ I can do that.
+ What this means?
+ I have an always on Codex that is accessible
+ from my phone with its own dev environment.
+ All threads are always accessible
+ from any of the three devices.
+ I can run heartbeat threads that stay on 24 seven.
+ It's a little makeshift today
+ but the shape of it feels very real to me.
+ Codex is no longer tied to whichever computer
+ happens to be open in front of me.
+ It starts to feel like something I can stay connected to
+ across whatever device I'm using.
+ Early open claw hackers are going to see
+ a lot of the motivation and goals they had
+ for setting up those types of environments
+ on display and how Nick is now using
+ just the straight up normal offering from open AI.
+ Lapo Charisi expands out the implications even farther.
+ Open AI he writes is launching Codex mobile
+ so you can monitor and approve your AI coding agent
+ from your phone.
+ This is the real tell.
+ When AI agents work on supervised,
+ the bottleneck is in generation speed,
+ it's human review cycles.
+ The mobile interface isn't a convenience feature.
+ It's an admission that we're entering a world
+ where your job is triage, not execution.
+ And the SLA is now how fast can you
+ approve the next step while you're in a meeting?
+ B2B will follow the same path.
+ AI SDRs, AI content engines, AI campaign builders
+ all optimized for async human checkpoints
+ not replacing the human entirely.
+ The UX question isn't can the AI do it anymore?
+ It's how do we design approval flows
+ that don't become the new bottleneck?
+ Most martech vendors haven't even started
+ asking that question yet.
+ Now here's where it starts to get really interesting
+ especially in light of the Google conversation.
+ On the one hand, this feels a little bit like
+ chatGPT becoming the super app
+ that open AI has been talking about for some time.
+ Adam GPT from open AI writes,
+ Codex and chatGPT definitely feel super appish to me
+ to be clear directionally towards a super app
+ and not that it is the super app.
+ But there is another possible route
+ which is not that Codex fits inside chatGPT
+ but that Codex kind of becomes chatGPT.
+ And what you start to see is this weird tension.
+ It feels much more like it did in 2025 and 2024
+ that work AI and non-work AI are diverging.
+ There was an essay last year
+ that became fairly influential
+ especially when people were in the scaling bubble
+ kind of debate moment called AI as normal technology.
+ And what it argued was not that AI wasn't significant
+ but that while people were acting
+ like its disruption was going to be faster, broader
+ and more extreme than previous technologies,
+ the essay's authors, Arvind Narayanjan
+ and Syesh Kapoor actually said no,
+ AI was going to be pretty normal
+ in terms of its pattern of diffusion,
+ the inertia with which it hit human systems.
+ And this year, I think it wouldn't be unreasonable
+ to argue that as a consumer technology,
+ AI is while extremely impressive
+ and certainly faster growing than things we've seen,
+ still ultimately normal.
+ In fact, one of the reasons for AI pushback
+ is regular consumers who aren't using this for work
+ having AI features shove down their throats
+ in places that they don't really want them.
+ Meanwhile, over on the work side of the house,
+ we simply cannot get enough.
+ We cannot get updates to the models
+ and harnesses fast enough.
+ We cannot get unlocked access to more tokens fast enough.
+ I think when it comes to work, in other words,
+ AI is an extremely abnormal technology
+ which is not to say that it won't deal
+ with normal problems like institutional inertia.
+ There's a reason the big labs are spending so much money
+ building out forward deployed engineering organizations
+ but the disruption to the way that we work
+ truly doesn't look like anything that came before it.
+ If I am correct in this assertion that I keep making
+ that big chunks of knowledge work are moving
+ from doing the thing to managing AI agents
+ that do the thing for us,
+ that is a category shift in how we work and what we do,
+ not just a change in how we accomplish the same old goals
+ which puts I think companies trying to build
+ for both consumers and the work user
+ in kind of a tricky situation.
+ Over the last six months,
+ open AI made a very clear decision,
+ best expressed in their shutdown of Sora
+ that although they certainly weren't going to abandon
+ their hundreds of millions of consumer users,
+ the big game for them
+ and where they needed to place all of their emphasis
+ was on that work user.
+ Anthropic meanwhile, never really had the benefit
+ of going after both
+ and had always been on the work user train.
+ Microsoft by default, given where it sits in the ecosystem
+ was always going to be work related AI.
+ And on the other side of the ledger,
+ both Apple and Meta were obviously
+ always going to be on the consumer side
+ because it's not exactly clear how much the normalness
+ of AI as a consumer technology has to do with AI itself
+ or just the woeful underperformance
+ of those two companies
+ in finding a way for it to be useful for consumers.
+ All of this leaves Google.
+ Google is the one other company besides open AI
+ that for some time has pursued the consumer AI
+ and the work AI uses in equal measure.
+ Now, Google is even more voracious than that,
+ working on new categories of models and world models,
+ deep multimodal and video type of things and more.
+ In fact, one of the challenges for people
+ using Google's tools is product sprawl
+ which brings us to next week's IO.
+ What are Google planning to announce?
+ And what is it gonna say about how they're choosing to handle
+ the emerging difference between consumer and work AI?
+ First Glances suggest that unlike open AI,
+ they are not going to pick a lane
+ but continue to pursue both.
+ One of the reports is for a new, always on
+ personal-ish AI agent called Spark.
+ This screenshot of a welcome screen for Gemini Spark
+ has been flying around,
+ describing itself by saying,
+ let Gemini do more as your everyday AI agent,
+ ready 24 seven to help with your inbox,
+ online tasks and more.
+ The big promise is similar to what we've talked about
+ in the context of Google and Apple before
+ that Google already has a whole bunch
+ of contextual knowledge about you
+ and can theoretically be using that context
+ to build better experiences for you.
+ And indeed, on that same launch screen it says,
+ the more you use Gemini Spark,
+ the better it understands you
+ and what you want to accomplish.
+ To work on your tasks,
+ it uses your info from sources like connected apps,
+ skills, chats, tasks, websites you're logged into,
+ personal intelligence, location and more.
+ Now it doesn't say that Gemini Spark is strictly personal,
+ but to me it feels like the language
+ leans in that direction.
+ In another part of that same screenshot it says,
+ while it is designed to ask for your permission
+ before taking sensitive actions,
+ it may do things like share your info
+ or make purchases without asking.
+ And at least at first glance,
+ people seem at least a little bit enthusiastic.
+ Andrew Curran writes,
+ I got a new permissions request pop up a few days ago
+ so they're getting everything ready ahead of the launch.
+ Spark is a great name and Gemini
+ will be very good at this.
+ All its best qualities are made for this.
+ Google I.O. is in five days.
+ The agent wars are about to begin.
+ Brasser X writes,
+ if this Gemini Spark leak is real,
+ it actually looks promising.
+ A 24 seven agent that learns from you
+ runs across apps, chats, tasks
+ and logged in websites is exactly
+ where consumer AI has to go.
+ Google I.O. could be spicy.
+ Yan Kroenberg writes,
+ the winning assistant won't be the smartest empty chat bot
+ but the one with the deepest context
+ about your actual life.
+ Google has had that data for 20 years
+ and Spark is finally the product built on top of it.
+ However, I can't help but feel a little bit like
+ Peter Gostev from Arena AI
+ when he tweets a quote from the posting,
+ the more you use Gemini Spark the better
+ it understands you and what you want to accomplish
+ and adds, it's funny.
+ I feel like I've seen that line from Google
+ for about eight years
+ with product name changed once in a while.
+ Hope it will actually work this time.
+ Now I don't know about eight years
+ but it certainly feels like this has been
+ the promise of personal agents
+ since we started talking about them.
+ The question is
+ what the personal use cases for agents
+ actually want to be?
+ To the extent that we're talking about work agents
+ Yan Kroenberg's assessment
+ that the winner won't be the smartest empty chat bot
+ but the one with the deepest context
+ about your actual life.
+ I don't know if I agree with.
+ There's a reason that context bleed
+ can be one of the biggest challenges with agents.
+ Because I use AI and agents
+ to talk about so many different ideas
+ many of which I get to at least second base
+ before abandoning to move on to something else
+ when Claude or Codex have all of the context about me
+ I spend a lot of time telling them to just ignore
+ or remove some past things from their memory
+ because they're no longer relevant.
+ I can't even tell you how confused it gets
+ about my entrepreneurial or builder plans
+ because it's always comparing them
+ to whatever I was talking about
+ a few weeks or a few months ago.
+ Now certainly I think work AI wants better tools
+ to curate context and make it available easily
+ but it's not just gonna be this big old pot
+ of everything about you.
+ On some intuitive level though
+ it makes more sense that this would matter
+ for consumer agent type use cases.
+ People probably aren't gonna wanna take a bunch of time
+ to be perfectly curatorial
+ in what an agent has access to.
+ What I'm not sure yet is what the uses
+ for those agents are actually going to be.
+ I find myself feeling like a marginally old man
+ when I look at people's attempt at shopping agents
+ or travel booking agents
+ and just get really skeptical
+ that that's something
+ that people are going to want agents for.
+ But I certainly don't have enough confidence in that
+ to argue that people shouldn't try.
+ And when you have all of that data
+ and all of that context about people
+ and billions of users for whom your tools
+ are already integrated deeply into their personal lives
+ it makes sense that that would be something
+ that Google would be out on the front
+ trying to figure out.
+ On the other side though
+ it also does seem like Google is going to try
+ to jump back more aggressively into work AI as well.
+ Disappointingly to some
+ early reports are that
+ while we will get new Gemini models
+ they will not be state of the art.
+ Anything that we got it sounds like
+ would be closer to somewhere between 4.7 and 5.5
+ certainly as opposed to anything like Mythos
+ and even that might be pushing it.
+ Where the work AI side of the conversation
+ gets interesting however
+ is in the context of this broader conversation we're having
+ about the end of AI's experimentation era
+ the end of the subsidy era
+ and the beginning of the era of actual factual trade-offs.
+ AI entrepreneur Bindu Reddy writes
+ Gemini 3.2 flash rumors are that benchmarks show
+ it's hitting 92% of GPT-55's performance
+ on coding and reasoning tasks
+ while being 15 to 20x cheaper on inference costs.
+ The latency improvements are insane
+ sub 200 milliseconds for most queries.
+ Google's distillation and sparsity techniques
+ are paying off massively.
+ They've essentially compressed a frontier model
+ into a flash variant without the usual quality cliff.
+ This strikes me as a path
+ where Google could easily become incredibly relevant
+ for all these coding and coding
+ adjacent work related use cases.
+ There are companies all around America right now
+ trying to decide if they can get over their concerns
+ to start running a Chinese open source model.
+ If Google can swoop in with a 20x cheaper inference
+ that's at Opus 4.5 or 4.6 type of levels
+ a lot of those companies will breathe a cool sweep of relief
+ and redesign their systems to use that model
+ for a lot of their big workloads.
+ Even if Google got there accidentally
+ if I were them I would be thinking about
+ how to triple down on this
+ as a real significant opportunity.
+ But even if that's the case
+ there is still a big question around the harness.
+ This week, Ethan Malik posted
+ really curious when Gemini is going to join
+ the co-working codex race to build a local app
+ that isn't just for developers.
+ Anti-gravity hasn't posted updates to X in a month
+ and remains very software focused.
+ Meanwhile, we see accelerated updates
+ and releases from OpenAI and Anthropic.
+ Hater writes OpenAI is putting its energy into codex.
+ XAI just launched GrockBuild for coding.
+ Anthropic already has Claude code
+ but Google still looks a bit unclear
+ on its main agent to coding platform.
+ Gemini, CLI, AI Studio, Jewels,
+ really hoping the upcoming Google IO brings some clarity.
+ That I think would be another huge win
+ if there were clarity and more than just clarity consolidation
+ around what the core agent to harness
+ was going to be for the Google ecosystem.
+ So if at the end of next week after IO
+ we're sitting there having announced Spark for Consumers
+ an OPUS 4.5 or 4.6 class model
+ for 15 to 20 times less money
+ and a clear consolidation on which agent to harness
+ that you're supposed to be working through
+ and hopefully some updates to that harness,
+ how would I think people will have received that?
+ I wouldn't be surprised
+ if the market doesn't really know what to make of it.
+ Unfortunately for them, I think most Wall Street investors
+ are not listening to this show,
+ staying close to conversations like harness engineering
+ and the subsidy era ending.
+ And I think there might be a divergence
+ between what they think is good,
+ i.e. you got to think a lot of them are expecting
+ to hear that Google has a state-of-the-art model
+ at least at the level of GPT-55 or OPUS 4.7.
+ But I think when it comes to actual builders,
+ there is a clear lane for Google to get back in their game.
+ Now, of course, it's also possible that Google just decides
+ that they don't care that much about that type of usage,
+ but I'm skeptical that that's how it will go.
+ In any case, it is going to be an interesting week.
+ Give them a rest this weekend and get geared up.
+ For now, that's gonna do it for today's AI Daily Brief.
+ Appreciate you listening or watching, as always.
+ Until next time, peace.
