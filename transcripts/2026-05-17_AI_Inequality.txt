@@ -1,0 +1,674 @@
+ Today on the AI Daily Brief, AI Inequality.
+ The AI Daily Brief is a daily podcast and video about the most important news and discussions
+ in AI.
+ Alright friends, quick notes before we dive in.
+ First of all, thank you to today's sponsors, KPMG, Robots and Pencils, Super Intelligent
+ and Blitzy.
+ To get an ad-free version of the show, go to patreon.com slash ai-daily-brief or
+ you can subscribe on Apple Podcasts.
+ To learn more about sponsoring the show, send us a note at sponsors.ai-daily-brief.ai.
+ And when you are at ai-daily-brief.ai, you can check out everything else going on in
+ the ecosystem.
+ We've got our newsletter, we've got companion experiences that come out pretty frequently
+ alongside different episodes, and of course we've got our live listing for a growth
+ engineer.
+ You can find that at jobs.ai-daily-brief.ai.
+ Pretty much anything I do is going to be there in some way, shape or form.
+ Now today we are talking about AI inequality, but in a slightly different way.
+ In this case, I'm talking about the possibility of haves and have-nots as dictated by their
+ access to AI models.
+ So this is not a some people will have jobs, some people won't have jobs argument, but
+ an exploration of how we could quickly be going into a world where the quality of
+ the AI that people have access to is far more unequal than it is today.
+ The background context for this and what got me thinking about it is two parts.
+ The first is the business model constraints that have been a theme running throughout the
+ show for the last couple of weeks.
+ One of our major points of discussion has been what happens to the business models
+ of AI companies when the demand for tokens greatly starts to exceed the supply of tokens.
+ Now why of course we are facing this issue now is the broader shift from assisted
+ to agentic AI where a single individual can be consuming billions of tokens thanks
+ to all the agents they have running around building things and doing things on their
+ behalf.
+ This really came home to roost this week, specifically with clawed codes being changed
+ to how it builds, effectively ending the subsidy for people who aren't building
+ within enthropics owned harnesses.
+ The second bit of context for this exploration has been the way that the introduction
+ of mythos has impacted the way that the US government thinks about models.
+ These two things are combining in ways that I think are quite potent when it comes
+ to the landscape of AI access with some not tremendously great outcomes potentially
+ on the horizon.
+ Now this is of course a long read slash big think episode.
+ And so to set up the conversation, we're going to read a piece by Antoine Ligt who
+ has been writing some great stuff about the political economy of AI recently in a
+ piece that he called cut off, summing it up quite simply in the subheader.
+ Soon Antoine writes access to frontier AI will be scarce and selective.
+ So first we'll read Antoine's piece and then we'll build from there.
+ He writes there's a common mantra in the outskirts of AI policy thought driven
+ by market pressures and overheated capital markets.
+ AI tokens will soon be abundant and the future belongs to those who can use them best.
+ The further you get away from San Francisco, the louder this mantra grows.
+ It reaches a fever pitch in the peripheries.
+ The many middle powers of the world still caught up in a plan to navigate
+ the AI revolution on the basis of merely good enough models.
+ That view requires important AI capabilities to be widely accessible.
+ Defenders have access to models before attackers do.
+ Firms in all domains compete based on access to the same AI capabilities.
+ Recent events have thrown that view for a loop and it now seems clear that access
+ to frontier AI will soon be limited by economic and security constraints.
+ In early April, Anthropik announced that it had developed Mythos,
+ a leading cybersecurity model and that it would only make its considerable
+ ability to patch extant vulnerabilities available to a select few companies.
+ Cyber security startups in the Mission District, systems integrators on
+ the Eastern Seaboard and allied capitals on the Atlantic and Pacific all had
+ a similar experience.
+ Scrolling down the page to see the list of privileged partners only to find
+ a limited selection of US based corporations.
+ Perhaps you were hopeful that open AI was going to stick to its preferred
+ method of rollout, that it would release GPT 5.5 Cyber,
+ a model reportedly similar to Mythos and capabilities more broadly.
+ And yet, it did not.
+ In their daybreak initiative, open AI too committed to a limited release,
+ dispelling hopes that this was a fluke or doomer marketing.
+ Even worse, while it's not quite clear to anyone, including the US government,
+ what exactly the US government will do about all this.
+ By all reports, it's at least planning to do something at some point.
+ And while it's easy to dismiss this as a confluence of current events,
+ the Mythos moment actually reveals structural trends that have been
+ ramping up for a while.
+ Mythos and reality.
+ Three trends, compute, security and US government involvement,
+ will further constrain the availability of frontier AI in the future.
+ Compound and reinforce each other, and have dramatically accelerated
+ in recent weeks and months.
+ Everyone outside the inner circle of US based developers needs to grapple
+ with that fact.
+ Security and distillation.
+ The first and most obvious constraint on widespread availability
+ is the one we've seen in the Mythos context.
+ Security considerations prevent developers from providing top tier
+ capabilities to every paying customer.
+ The canonical story starts with misuse risks.
+ A highly capable new model seems realistically useful for conducting
+ some sort of dangerous activity, such as cyber attacks or biological
+ weapons design.
+ Instead of rolling it out to the general public right away,
+ you might first distribute it to defenders who can use their
+ early access to shore up vulnerabilities,
+ like we've seen in the case of Mythos.
+ You continue by rolling out some models only to customers
+ of which you are reasonably sure they won't outright abuse
+ the model for criminal purposes,
+ and perhaps only after the model is no longer state of the art,
+ you roll out to everyone.
+ Already now we're seeing the second stage.
+ The US government realizes that this sort of restricted access
+ is better both for national interest and national security
+ and starts flirting with the idea of making the virtuous
+ early example into a general rule.
+ There are many reasons for the national security apparatus
+ to do this.
+ Perhaps they don't trust AI developers to keep dangerous
+ capabilities away from just as dangerous criminals,
+ non-state actors, and adversaries.
+ Or perhaps they'd rather like to know which exploits
+ the new models are about to reveal so they can use them
+ themselves first as they've done before.
+ Put differently, if I were the NSA and sitting on a bunch
+ of zero days, I'd also love to know which of them
+ Mythos can find so I could use them to my advantage
+ before everyone else gets their patch online.
+ Next to misuse risks, there's another dimension
+ that might motivate even more straightforward
+ crackdowns on availability.
+ Risks of model theft, espionage, and distillation.
+ The former would make developers wary
+ of where to host models,
+ weights in an unsecured data center
+ would pose a substantial vulnerability,
+ and many countries outside the US
+ haven't even started thinking about securing data centers.
+ But the latter, distillation, is the more pressing concern.
+ Multiple reports indicate that part of the success story
+ of so-called fast followers.
+ Model developers six to nine months behind the frontier
+ like China's DeepSeek is based on distillation practices
+ that require more or less unfettered access to API tokens.
+ Distillation is not tenable for model developers
+ in the long run.
+ It will be very hard to capture sufficient revenue
+ if you have to recoup all R&D investments
+ in the six months until someone distilled your model.
+ That point is extremely salient to politicians
+ and plays right into latent concerns
+ on US-China competition and industry espionage.
+ So I'd expect distillation crackdowns
+ if not from the government than from developers.
+ More burdensome KYC, more restrictive default access,
+ more geopolitically motivated access conditions.
+ None of those bode well for broad-based frontier access.
+ Compute crunches.
+ But the trouble does not stop with security concerns.
+ More fundamentally, providing access to a frontier model
+ is a zero-sum game.
+ Veterans of the tech industry
+ and European sovereignty hawks
+ both like to invoke the parallel to software licenses.
+ That yes, software innovation came
+ with some marginal dependencies,
+ but that the logic of consumer market size
+ prevailed in the end.
+ Microsoft and others faced low marginal costs
+ compensated at full market prices
+ for rolling out their software for everyone,
+ but not so with frontier AI.
+ Providing access to AI models,
+ especially those at the bleeding edge,
+ takes massive amounts of computational resources.
+ The marginal compute demand to service
+ another 1,000 tokens is high.
+ So high, in fact, that leading developers
+ time and time again face compute crunches,
+ reduce offerings, and struggle to balance
+ subsidizing their consumer subscriptions
+ against the real constraints on the chips they have.
+ So dire is the compute crunch for Anthropics specifically,
+ that the firm is now shopping around
+ for ad hoc access deals
+ to less well utilized data centers,
+ such as one with rival firm XAI.
+ It seems likely that this situation
+ would get worse, not better.
+ If AI systems really do rival the output
+ of human workers in a few months,
+ the amount of tokens required to reproduce
+ that much human activity would be staggering.
+ The often invoked hope that the efficiency curves
+ will compress token costs quickly doesn't save us here.
+ Efficiency curves mean that next year,
+ mythos level capabilities might be very cheap.
+ They don't mean that mythos too
+ will be cheaper than mythos.
+ The opposite is the case.
+ Frontier capabilities have grown
+ more expensive month to month for years now.
+ And if you, like me, believe that competitive dynamics
+ between economic rivals and attackers and defenders
+ mean you need not only good enough AI,
+ but the best AI efficiency curves will not bail you out.
+ That means the marginal cost
+ of providing access to a new user, country or firm is high.
+ There's still value in expanding your coverage.
+ Inroads into new markets for when your capacity expands,
+ more demand to increase prices,
+ goodwill with governments and so on.
+ But these benefits trade off against costs,
+ compliance costs of entering new markets,
+ product design costs of catering to new customers
+ and the costs in terms of security and relationship
+ to the US government described in this piece.
+ The market power isn't entirely inverted,
+ but it's strongly diminished.
+ You cannot count on your role as interested buyer
+ to carry much weight in securing your access.
+ This is complicated even further by the fact that,
+ faced with this trend, competition around
+ who gets access to these tokens will emerge.
+ The US will be protective of its domestic economy.
+ And I think we might see a comeback of the same logic
+ that motivated the GAIN Act proposal a few months ago.
+ Back then, advocates were toying with the idea
+ of giving Americans right of first refusal
+ to American chips.
+ Soon, perhaps American firms will be declared buyers
+ of first resort of American produced tokens of intelligence
+ or the competition turns purely economic,
+ margins shrink and become razor thin
+ and only those who can shoulder the cost
+ or most effectively turn API tokens into revenue
+ are able to afford them.
+ Who would that be?
+ My bet is neither on governments
+ that haven't internalized the logic
+ of million dollar AI subscriptions,
+ nor on European businesses constrained
+ in their ability to generate software revenue
+ by many, many adverse conditions.
+ The US government is here to help.
+ Lastly, what starts as restrictions motivated
+ only by genuine concerns doesn't always stay that way.
+ Once it has a more formal role
+ in overseeing the flow of frontier tokens,
+ the US government might wield its access control
+ to pursue its political and strategic interests
+ that starts with security concerns.
+ Revisiting the NSA example,
+ it's clearly not in the interest or mission of the NSA
+ to ensure the equitable diffusion of AI capabilities
+ throughout the world.
+ Instead, it's closer to the intelligence community's DNA
+ to limit any potential adversaries access
+ even to the detriment of softer upsides
+ like economic productivity or ally relationships.
+ And it doesn't stop with the security questions.
+ The Trump administration's signature style
+ of international engagement
+ is to wield American leverage as a bundle.
+ Deadlocks and trade negotiations
+ are broken by threatening to withhold intelligence.
+ Tech deals are stalled by reference
+ to food safety standards.
+ And so I don't know when a US administration
+ would choose to leverage
+ its seemingly inevitable pre-deployment authority
+ over frontier models to secure its broader interests,
+ but I'm sure it wouldn't do time.
+ That means that even if we do everything quote unquote right
+ on the security and economic side,
+ frontier access is still fundamentally contingent
+ as long as there'll be divergences
+ between government strategic interests.
+ The next equilibrium.
+ In that new world, access to unlimited APIs
+ is the exception, not the norm.
+ A new frontier model might first make it
+ to the US national security apparatus
+ where embedded interests might decide
+ to stall its deployment for security reasons,
+ wield it first to plug defenses or attack its adversaries.
+ The model might then be handed back to the developers
+ with the implicit understanding or explicit demand
+ that it would first be rolled out to trusted defenders,
+ US firms and perhaps a few internationals
+ if we're so lucky.
+ If the risks are cybersecurity,
+ the defenders might be quick to resolve them.
+ If they're thorny or biological
+ or agent autonomy driven risks,
+ they might take another few weeks.
+ Once that phase is over,
+ the circle of unfettered access might expand again
+ to firms that have cleared high KYC bars
+ and US security concerns.
+ Everyone else, enthusiastic consumers, scrappy startups
+ and nervous governments all over the world
+ might never get clean API access
+ but draw their access
+ through fundamentally limited product layers.
+ Maybe the chatbot and coding agent interfaces of today,
+ maybe the few big startups
+ that could afford to hire the lawyers and lobbyists
+ to make the good list.
+ A few months after development,
+ the model will have made it into the hands of everyone
+ but not everyone will have enough tokens
+ to use that capability well
+ and most might only get to deploy it
+ in ways that trusted vendors have charted out for them.
+ Only when the next generation
+ has already entered the same pipeline
+ would everyone have access to the de facto unlimited access
+ to frontier AI that we still enjoy today.
+ Unevenly distributed futures.
+ This is not a future we should welcome.
+ AI tokens will be strategically
+ and economically central to all future societies.
+ So we should do our best to enable their free flow.
+ If we fail, we'll bear costs, economic and geopolitical.
+ Economically, I think the accelerationists
+ and their criticism of Anthropic have it right.
+ Restricting frontier model access
+ to startups and ambitious employers
+ is antithetical to innovation and economic growth.
+ Iterative deployment unleashes our ability,
+ call it Hakey and a few absolutely must
+ to actually figure out how we want to live
+ and work with AI at scale and capture its benefits.
+ But it's not Anthropic's purported quest
+ for nationalization that it's, that's at fault.
+ It's the market dynamics and security implications
+ of advanced AI that send us barreling toward a world
+ where that's no longer possible.
+ In that world, we'll also see geopolitical rifts opening.
+ Countries will be divided into the frontier haves
+ and have-nots.
+ I don't mean to exaggerate when I say
+ that those living in the former
+ might be much wealthier and safer than the latter
+ with access to better public services,
+ greater economic opportunities
+ and shielded by security agencies
+ that actually operate at the state of the art.
+ If AI will be as big as I
+ and many readers of this publication believe,
+ there's no telling what these suddenly emerging
+ asymmetries do to global order.
+ In the past, when the fruits of industrial revolutions
+ were unevenly distributed,
+ the resulting shifts in relative wealth,
+ security and power have prompted mass migration,
+ reopened dormant conflicts and destabilized democracies.
+ I hope it never gets this far.
+ And there are still many technical and economic trends
+ pulling towards broader diffusion that could bail us out.
+ But we'd be naive to disregard the dangers
+ of asymmetrically distributing transformative technology
+ in an unstable world order.
+ One of the most important AI questions right now
+ isn't who's using AI, it's who's using it well.
+ KPMG and the University of Texas at Austin
+ just analyzed 1.4 million real workplace AI interactions
+ and found something surprising.
+ The highest impact users aren't better prompt engineers,
+ they treat AI like a reasoning partner.
+ They frame problems, guide thinking,
+ iterate and push for better answers.
+ And the good news, these behaviors are teachable at scale.
+ If you're trying to move from AI access to real capability,
+ KPMG's research on sophisticated AI collaboration
+ is worth your time.
+ Learn more at kpmg.com slash us slash sophisticated,
+ that's kpmg.com slash us slash sophisticated.
+ Today's episode is brought to you by Robots and Pencils,
+ a company that is growing fast.
+ Their work as a high growth AWS
+ and Databricks partner means that they're looking
+ for elite talent ready to create real impact at velocity.
+ Their teams are made up of AI native engineers,
+ strategists and designers who love solving hard problems
+ and pushing how AI shows up in real products.
+ They move quickly using RoboWorks,
+ their agentic acceleration platform,
+ so teams can deliver meaningful outcomes in weeks,
+ not months.
+ They don't build big teams,
+ they build high impact nimble ones.
+ The people there are wicked smart with patents,
+ published research and work
+ that's helped shaped entire categories.
+ They work in velocity pods and studios
+ that stay focused and moved with intent.
+ If you're ready for career defining work
+ with peers who challenge you and have your back,
+ Robots and Pencils is the place.
+ Explore open roles at robotsandpencils.com slash careers,
+ that's robotsandpencils.com slash careers.
+ It is a truth universally acknowledged
+ that if your enterprise AI strategy
+ is trying to buy the right AI tools,
+ you don't have an enterprise AI strategy.
+ Turns out that AI adoption is complex.
+ It involves not only use cases,
+ but systems integration, data foundations,
+ outcome tracking, people and skills and governance.
+ My company, Super Intelligent,
+ provides voice agent driven assessments
+ that map your organizational maturity
+ against industry benchmarks
+ against all of these dimensions.
+ If you want to find out more about how that works,
+ go to besuper.ai.
+ And when you fill out the get started form,
+ mention maturity maps.
+ Again, that's besuper.ai.
+ Weekends are for vibe coding.
+ It has never been easier to bring a passion project
+ to life, so go ahead and fire up
+ your favorite vibe coding tool.
+ But Monday is coming and before you know it,
+ you'll be staring down a maze of microservices,
+ a legacy cobalt system from the 1970s
+ and an engineering roadmap that will exist
+ well past your retirement party.
+ That's why you need Blitzy,
+ the first autonomous software development platform designed
+ for enterprise scale code bases.
+ Deploy the beginning of every sprint
+ and tackle your roadmap 500% faster.
+ Blitzy's agents ingest your entire code base,
+ plan the work and deliver over 80% autonomously,
+ validated end to end tested premium quality code
+ at the speed of compute.
+ Months of engineering compressed into days.
+ Vibe code your passion projects on the weekend,
+ bring Blitzy to work on Monday.
+ See why Fortune 500s trust Blitzy
+ for the code that matters at blitzy.com.
+ That's blitzy.com.
+ Some over determined solutions.
+ So, we might wanna do something about all this
+ and avert the cutoff scenario.
+ The solutions at hand are not new ideas,
+ but they are frequently misunderstood.
+ Sometimes, accelerationists that should agree
+ with my wanting to avert restrictions on model diffusion
+ think they're safetyist plots.
+ And sometimes, safetyists think they are accelerationist vehicles
+ to hasten dangerous development in disguise.
+ Neither is the case and I think all these policies
+ are and should be areas of convergence.
+ First, we can make the world safer
+ so the need for security motivated restraints
+ is less pressing.
+ Despite the warranted cynicism
+ on instrumentalized access controls,
+ genuine concerns are still
+ what portends future restricted access.
+ The reason Mythos has scaled the world into action
+ is that firms actually felt vulnerable
+ to the exploits it could find.
+ If we could harden the world
+ against the most obvious pathways
+ for biological agents to cause harms,
+ build resilience, screen the manufacturing
+ of protein structures and so on,
+ the Mythos for Bio moment might not move us
+ further down this path and so on.
+ By the same token, there are many frontier lab employees
+ that argue dealing with distillation
+ is a straightforward technical fix
+ to usage, policy and monitoring.
+ If that's the case,
+ we might wanna start deploying fixes soon
+ before anyone else chooses a more heavy handed way
+ to deal with salient distillation concerns.
+ The same goes for global proliferation of advanced models.
+ Would be importers would do well
+ to improve their own cybersecurity,
+ including specifically data center security
+ to not make it a huge risk for American firms
+ to run their models outside the US.
+ Second, we should simply build a lot of data centers
+ to alleviate the coming compute crunch.
+ This is not complicated, just fairly hard.
+ Much has been said about how to accelerate
+ the build out in the US and elsewhere.
+ And every GPU we get online this year
+ makes a more equitable diffusion
+ in three years more likely.
+ If you've objected to rapid build outs
+ on minimizing the risk grounds, you should think again.
+ Third, non-US countries should build out compute
+ in exchange for access.
+ I've made this argument in greater detail before,
+ but in short, US allies can offer American hyperscalers
+ favorable terms for data center build outs
+ in return for frontier access guarantees.
+ Subsidized energy prices or even outright energy access
+ can be provided to these data centers in return
+ for contractual guarantees
+ to always provide frontier capabilities.
+ If the hyperscalers or labs re-nig,
+ they're on the hook for their capital expenditure
+ on the now unpowered data center.
+ If the US government tries to force access restrictions,
+ it faces an angry lobby of domestic tech companies
+ that would rather make do and take the revenue
+ from their international infrastructure investments.
+ The incentive for going for these deals
+ would have to be commensurate
+ to this downside risk for the investors.
+ But amidst the frenzy to capture markets
+ and get compute online,
+ I feel optimistic that we'll find a middle ground.
+ And last, while I'm still confident
+ they cannot resolve this issue
+ by outright building their own frontier systems today,
+ middle powers will still need contingency options
+ to secure frontier capabilities
+ for the edge cases in which all the above fails
+ and frontier AI access does become the privilege of the few.
+ Much of it has to do with leverage,
+ but some will have to go through retaining
+ some ability to build as well,
+ but that is a much deeper problem.
+ All in all, frontier AI access is not a new problem
+ and it does not require particularly clever new solutions.
+ It just requires taking much more seriously
+ what the center of the AI policy discussion
+ has long suggested we should do.
+ Build infrastructure that can host advanced AI systems
+ at scale and build a world that can handle them
+ without coming apart at the seams.
+ If you still needed a wake up call
+ to execute on that agenda,
+ the mythos moment should be it.
+ Otherwise, we really are headed for the end
+ of the Andy Warhol era of AI access
+ where the rich and poor will no longer have access
+ to the same AI capability.
+ Back to NLW here.
+ If after hearing that,
+ you are not subscribing to Anton's blog,
+ spreading the needle, I don't know what to tell you.
+ So to sum up, the central thesis is that
+ for a set of reasons,
+ security considerations, compute constraints,
+ and geo-strategic necessity,
+ the now golden period of fundamentally equal access
+ to state-of-the-art models
+ could very, very soon be coming to a close.
+ Indeed, one can argue that now that mythos
+ is in the hands of some and not everyone,
+ we are already there.
+ Certainly, holding aside all of our annoyances
+ that we don't have the mythos toy to play with,
+ you're already seeing some amount of this AI inequality
+ show up in the numbers.
+ Microsoft recently released its global AI diffusion report
+ and found that in the last six months,
+ not only was AI usage higher in the global north
+ versus the global south,
+ 27.5% of the population versus 15.4% of the population,
+ AI use in the global north was also growing
+ at more than twice the rate
+ of the growth in the global south.
+ This is, of course, downstream of lots
+ of other types of access issues,
+ including limited access to electricity,
+ internet connectivity, and more,
+ but the point is that this is already happening.
+ Now, there is so much to dig into here,
+ given that this is both an economics
+ and a politics argument,
+ but I just wanna talk about the economic side
+ since that's where we've been for the last several weeks.
+ Even if the governments of the world
+ were totally committed to equivalent access,
+ in the world we live in right now,
+ as we have discussed,
+ AI companies no longer have the ability
+ to serve the market as many tokens
+ as it wants to consume
+ at anything resembling current prices.
+ What that means, as we've seen this week,
+ is prices go up.
+ And in fact, it's not just prices that go up,
+ but the entire structure of access that changes.
+ The reason the developers got so angry
+ about the changes to Claude's pricing model this week
+ wasn't just because numbers went up a little.
+ It's because the new model
+ makes the way that they had been building before
+ in many cases completely uneconomically viable now.
+ It wasn't, oops, this is gonna be more painful to me.
+ It's, I guess I don't get to do that thing
+ that I was doing anymore.
+ Now, if you want a broader conversation
+ about the risks of building on platforms
+ and all that sort of stuff,
+ you can go back to the conversation
+ we had a couple of days ago.
+ But the point is these chickens
+ are not just coming home derused,
+ they are firmly in the coop right now.
+ Which gets us to the policy conversation.
+ One of the great ironies of the moment
+ is that the politicians who are loudest
+ and wanting to ensure equitable distribution
+ for AI in the future
+ are also the ones behind a policy
+ most guaranteed to decrease that equitable access
+ and increase AI inequality.
+ In December, when he started really engaging
+ with these issues, Bernie Sanders tweeted,
+ I will be pushing for a moratorium
+ on the construction of data centers
+ that are powering the unregulated sprint
+ to develop and deploy AI.
+ The moratorium will give democracy a chance to catch up
+ and ensure that the benefits of technology
+ work for all of us, not just the 1%.
+ Now, I wanna be careful
+ not to misrepresent Bernie and AOC's position here.
+ This is not just a misunderstanding of economics.
+ If you were in the camp,
+ that AI is going to take all of the jobs,
+ then slowing down AI
+ so that it can't get to the point
+ where it takes all the jobs
+ becomes politically rational.
+ However, to the extent one believes
+ as it kind of seems like Bernie does,
+ that this technology is inevitable.
+ And to the extent that you actually want to,
+ as he puts it,
+ ensure that the benefits of technology
+ work for all of us, not just the 1%,
+ there is almost no policy less likely to do that
+ than pausing data center construction.
+ You guys are smart
+ so I don't need to really explain supply and demand to you.
+ But the TLDR of the pathway is
+ less data center construction means more scarce compute,
+ which means access gets rationed and costs more.
+ And so users that are already rich
+ and big companies get to keep access
+ and students, independent builders, small businesses
+ and the less resourced in general
+ get pushed to weaker tiers.
+ Now, if Bernie and AOC
+ are doing an almost Trumpian art of the deal thing here
+ where they introduce a moratorium
+ so that they can enshrine into law all the ways
+ that data center construction
+ has to just pour value and resources into the communities
+ where those data centers are being constructed
+ then God bless and good luck.
+ But the policy on the face of it
+ is going to make things worse, not better
+ if it came to pass.
+ None of this ultimately is completely inevitable
+ with the possible exception that in the short term
+ at least we do not have enough compute
+ to give everyone access to all of the AI they want.
+ But when it comes to how we build from here,
+ how we resolve that situation
+ and all of what Anton discusses in his essay
+ as Lawrence of Arabia said, nothing is written
+ at least not yet.
+ This is quietly going to be one of the most significant
+ political moments of our lives
+ and I'm glad we get to talk about it here.
+ For now, that's gonna do it for today's AI Daily Brief.
+ Appreciate you listening or watching as always
+ and until next time, peace.
