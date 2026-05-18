@@ -1,0 +1,1130 @@
+ Today on the AI Daily Brief, we're discussing the AI Doom cycle and how we can
+ move out of Doom desperation into a place of enlightened excitement. The AI
+ Daily Brief is a daily podcast and video about the most important news and
+ discussions in AI.
+ All right friends, quick announcements before we dive in. First of all, thank
+ you to today's sponsors, KPMG, Blitzy, Assembly and Section. To get an ad for
+ your version of the show, go to patreon.com slash aidailybrief or you can
+ subscribe on Apple podcasts. If you want to learn more about sponsoring the show,
+ send us a note at sponsors at aidailybrief.ai. Last two things. First of
+ all, I have an open job for a growth engineer. This person doesn't have to
+ be pre-ai technical, but you do have to be a master of Claude Code or Codex
+ and really interested in value added ways to grow this audience by doing
+ cool stuff for them. Again, you can find that at jobs.aidailybrief.ai. And
+ lastly, we are registering for cohort three of Enterprise Claw. You can find
+ that at enterpriseclaw.ai. Final note, today's episode is one extended
+ episode instead of a split between headlines and main turned out all the
+ headlines fit in the context of the main, but I'm sure we'll be back
+ with our normal format tomorrow. Welcome back to the AI Daily Brief.
+ As I was preparing the show, I noticed that a lot of the stories that
+ people have been discussing over the weekend and the ones that I wanted to
+ cover had in a strange way, a relationship to each other that was worth
+ exploring, not because they were directly related, but because they were all
+ part of something that I've been thinking about for a while, which as
+ of this episode, I am calling the AI doom cycle. Today, I want to explore
+ what the doom cycle is, why different types of people in different
+ contexts fall in different parts of it and how I think we can get to
+ the far side of it, which I believe is the healthiest place from which to
+ actually engage with the big questions around AI, whether it's policy or
+ something else. Now, you guys probably recognize the inspiration for this,
+ which is of course, Gardner's famous technology hype cycle chart. The idea
+ of the hype cycle chart is that new technologies tend to, in their
+ argument, follow a pattern as they diffuse throughout society. It
+ kicks off with an innovation trigger. The sparks of that new thing
+ that becomes available surges up to what they call the peak of
+ inflated expectations. This is the very top of the hype cycle when
+ everyone's excited about a thing. It often comes with big capital
+ injections in the form of venture capital and investment. It's the part
+ of the curve where a big chunk of people are convinced that this new
+ thing is the new thing that's going to change everything. The
+ peak of inflated expectations doesn't last all that long. And
+ from there, you crash back down into the trough of
+ disillusionment. This is the period during which expectations
+ have bottomed in many cases, not because the technology is
+ bad, but because it hasn't lived up to its inflated
+ expectations. A lot of times this is in and of itself a vector of
+ time where it's not even a reassessment of what the technology
+ can do, but a recognition that the timeline for it doing those
+ things is a lot longer than previously thought. Now, not
+ every technology climbs out of the trough of disillusionment.
+ Some stay mired there for a very long time. Metaverse, I'm
+ looking at you. But for those that do, the next stage is
+ what Gardner called the slope of enlightenment. This is where
+ freed from those inflated expectations, people actually
+ start to figure out the right ways to use that technology, the
+ things that it's actually good for the intersection with
+ people's lives or workflows that make it valuable. If not as
+ earth shattering as maybe people once thought that leads
+ eventually to the plateau of productivity, where the
+ technology is actually diffused into the world and is a
+ valuable part of whatever environment it's supposed to
+ be around, even if it never reaches the glorious heights
+ of expectations that it once had. Now, a lot of ink has
+ been spilled on this chart, including much research that
+ suggests that most technologies don't actually follow it
+ exactly. But I think the reason it has resonance is that it
+ is intuitively reflective of our individual relationships
+ with technology in many cases. And I think one of the most
+ revealing things that is true in almost all cases is that
+ even when we realize early on that a thing is going to be
+ extremely impactful in the world, we just tend to
+ wildly underestimate how long it's going to take to make
+ that impact. The AI doom cycle in that in this
+ case, I'm describing the emotional and cognitive
+ states of people and their relationship with AI more than
+ the technology itself. The five stages in this journey
+ that I've identified our first skepticism and
+ disbelief, followed by AI psychosis, which is of
+ course the AI can do everything stage, followed by doom
+ desperation, real world recalibration, and eventually
+ enlightened excitement with excitement, being the
+ portmanteau of anxiety and excitement, that GBT four
+ all the way back in the day, argued strenuously to me
+ was the right way to describe this combination of
+ thrill and caution that many people in the AI space
+ felt. Now of these, for our purposes today, the one
+ that I'm going to spend the least time on is the
+ skepticism and disbelief. This is a category,
+ frankly, that I think is a bit on the wane. In many
+ cases, since the launch of chat GBT in late 2022, I
+ think that much of the skepticism and disbelief
+ came from simply not actually interacting with
+ the technology or interacting with AI only on the
+ neutered free settings, especially early on and
+ never having come back to try it again. You might
+ remember we had that explosive deep seek moment
+ back at the beginning of 2025, when the deep seek
+ app rocketed to the top of the app charts actually
+ displacing chat GBT, also wiping out hundreds of
+ billions of dollars in market value on Wall Street.
+ Part of the reason, in fact, the biggest part of
+ the reason that deep seek had such a moment was
+ that they were giving away a reasoning model for
+ free. And that was for most people the first
+ time they had gotten their hands on a reasoning
+ model. Yes, open AI had introduced 01 back a
+ few months earlier in September of 2024, but
+ it was not widely accessible. And even when it
+ did become a little bit more available in
+ December of that year, it was strictly behind a
+ paywall. So when people got their hands on the
+ deep seek app, which was powered by their R1
+ reasoning model, it felt categorically better
+ to the chat GBT style AI they had used because
+ it was to the extent that there is still
+ skepticism and disbelief today, it often comes
+ down to either a non updated priors about what
+ AI can do because it was bad at the thing
+ that you were interested in it doing for you
+ before. And so you assume it still is bad at
+ that thing. Or frankly, it's attributable to
+ people having AI skepticism be their business
+ model, although even that's being called out
+ more and more recently. But where we go next in
+ the doom cycle is up to the AI psychosis
+ category. I'm using the not so generous term
+ here to acknowledge the fact that for a lot of
+ folks, once they start really appreciating
+ how powerful AI is, they start to see its
+ implications everywhere, perhaps even over
+ estimating what it can do at least in the
+ short term. Now AI psychosis is a term is
+ generally used pejoratively. And I want to
+ be clear that that's not my intention
+ here. What this is shorthand for in the context
+ of our AI doom cycle chart is simply the
+ state of being peak convinced that AI is
+ going to change everything, which is where
+ we get to our first story from the last
+ couple of days, which is the reversal in
+ Citadel CEO Ken Griffin. Back in January,
+ Griffin was relative to many of his finance
+ industry peers, deeply on the skeptical
+ side. And given that he was at the time
+ that 39th richest person in the world with
+ a net worth just shy of 50 billion
+ dollars, his skepticism was enough to make
+ headlines. At a panel discussion at the
+ World Economic Forum, he basically claimed
+ that AI was all hype with the specific
+ intention of that hype being drumming up
+ support for the massive amount of
+ investment which was required to keep the
+ infrastructure build out going. Griffin
+ said you're not going to generate this
+ kind of spend unless you're going to
+ make a promise that you're going to
+ profoundly change the world. Referencing
+ his own work in stock analysis, he
+ described AI generated reports that
+ look impressive at first blush, but
+ once you dig deeper, it's in his words
+ all garbage. Griffin's mind has
+ apparently changed. During a discussion
+ at Stanford Business School earlier this
+ month, he noted that AI had become
+ profoundly more powerful, his words
+ than it was nine months ago, which
+ allowed Citadel to use it in a wider
+ range of cases. He commented, for the
+ first time, AI is real. Now we'll hold
+ aside his dismissal of all the value
+ that people got out of it for the
+ three years previous to the ascent of
+ these coding models and focus on where
+ he's landed. He said, to be blunt,
+ work that we would usually do with
+ people with masters and PhDs in
+ finance over the course of weeks or
+ months is being done by AI agents over
+ the course of hours or days. He said
+ the firm is seeing a 15 to 25%
+ productivity boost, adding when you're
+ seeing really high level research
+ being done by AI engines, it's quite
+ eye-opening. Now importantly, this
+ filled Griffin not with excitement
+ but with trepidation. Continuing, he
+ said, these are not mid-tier white
+ collar jobs. These are like
+ extraordinarily high-skilled jobs
+ being I'm going to pick a word
+ automated by agent to AI. And I
+ got to tell you, I went home one
+ Friday actually fairly depressed by
+ this because you could just see how
+ this was going to have such a
+ dramatic impact on society. And so
+ what you're seeing with Ken Griffin
+ is the fact that very often an
+ increase in one's belief about the
+ power AI can also start to nudge
+ them towards the next category on the
+ doom cycle, which is doom
+ desperation. And this is of course
+ where you extrapolate out from the
+ way you see AI changing the
+ workforce right now, the way that
+ is changing how companies think about
+ hiring. And the implication of that
+ is fewer jobs. One of the biggest
+ jobs doomers right now is former
+ presidential candidate and UBI
+ advocate Andrew Yang, who took the
+ chance to quote, tweet a video of the
+ Griffin conversation, adding finance
+ will quickly follow tech in automation
+ via AI. Now, Andrew and Ken are far
+ from alone in their concerns.
+ Anyone who's been listening to this
+ show certainly knows that it seemed
+ like every couple of days, one AI
+ executive or another has taken it
+ upon themselves to go out into a
+ media tour about just how many
+ jobs are going to be leveled by
+ the technology that they are
+ racing with everything they have to
+ build. And although we didn't get a
+ set of new comments over the last
+ couple of days, giving a sense of
+ how resonant and widespread the
+ doom desperation is right now, a whole
+ bunch of speeches from earlier in the
+ year resurfaced and got another round
+ of life thanks to reprinting in
+ magazines like Fortune.
+ A couple of days ago, Fortune, for
+ example, resurfaced comments from
+ Microsoft AI CEO Mustafa Suleiman
+ from a couple of months ago with
+ the headline Microsoft AI chief
+ gives it 18 months for all white
+ collar work to be automated by AI.
+ The Wall Street Journal also
+ resurfaced videos of anthropic
+ CEO Dario Amade, putting big
+ numbers on his prediction like a
+ 10% unemployment rate overall and
+ a 50% unemployment rate for entry
+ level white collar jobs.
+ That same interviews from around
+ that time also predicted that the
+ cost of software was going to go
+ to zero, which in and of itself
+ would have implications for jobs
+ in that industry, which is not to
+ say that in the tech industry
+ there isn't some skepticism of
+ this or anthropics motivation
+ for it. Soda on X summed up
+ what many people feel when they
+ wrote, it's this narrative that
+ allows Dario to raise $30
+ billion at 900 billion post.
+ Gen AI and LLMs are implicitly
+ framed as a zero sum narrative.
+ Still, Menlo Ventures Didi Doss
+ painted a picture of a Silicon
+ Valley tech industry vibe that is
+ in a word pretty dreary and to use
+ our frame clearly in this doom
+ desperation mode.
+ On Friday, Didi posted something
+ that went wildly viral with about
+ 11 million people seeing it.
+ The vibes in SF feel pretty
+ frenetic right now.
+ He wrote, the divide and
+ outcomes is the worst I've ever
+ seen over the last five years,
+ a group of around 10,000 people,
+ employees at Anthropic Open AI,
+ XAI, NVIDIA, Meta, TBD and
+ founders have hit retirement
+ wealth of well above 20
+ million dollars.
+ Everyone outside that group feels
+ like they can work their well
+ paying, but less than 500k job for
+ their whole life and never get
+ there.
+ Worse yet, layoffs are in full
+ swing.
+ Many software engineers feel like
+ their life skill is no longer
+ useful.
+ The day to day role of most jobs
+ has changed overnight with AI.
+ As a result, one, the corporate
+ ladder looks like the wrong
+ building to climb.
+ Everyone's trying to align with
+ a new set of career paths.
+ Should I be a founder?
+ Is it too late to join
+ Anthropic or open AI?
+ Should I get into AI?
+ What company stock will 10x
+ next?
+ People are demanding higher
+ salaries and switching jobs
+ more and more.
+ Two, there's a deep malaise
+ about work and its future.
+ Why even work at all for quote
+ unquote peanuts?
+ Will my job even exist in a few
+ years?
+ Many feel helpless.
+ You hear the permanent
+ underclass conversation a lot,
+ especially from young people.
+ It's hard to focus on doing
+ good work when you think,
+ man, if I joined
+ Anthropic two years ago,
+ I could retire.
+ Three, the mid to late
+ middle managers feel
+ paralyzed.
+ Many have families and don't
+ feel like they have the
+ energy or network to just
+ start a company.
+ They don't particularly have
+ any AI skills.
+ They see the writing on the
+ wall.
+ Middle management is being
+ hollowed out in many
+ companies.
+ And four, the rich aren't
+ particularly happy either.
+ No one is shedding tears for
+ them and rightfully so.
+ But those who have quote
+ unquote made it experience a
+ profound lack of purpose too.
+ Some have gone from less than
+ 150k to over 50 million in a
+ few years with no ramp.
+ It flips your life plans
+ upside down.
+ For some comparison is the
+ thief of joy.
+ For some, they escaped in
+ New York City to live life.
+ For others still, they start
+ companies just because
+ often to win status points.
+ They never imagined that by
+ age 30, they'd be set.
+ I once asked a post
+ economic founder friend why
+ they didn't just sell the
+ company and they said and
+ do what right now,
+ everyone wants to talk to me.
+ If I sell, I will only
+ I understand D.D.
+ concludes that many reading
+ this scoff at the champagne
+ problems of the valley.
+ Society is warped in this
+ tech bubble.
+ What is often well off
+ anywhere else in the world
+ is bang average here.
+ Unlike many other places,
+ tenure intelligence and
+ hard work can be loosely
+ correlated with outcomes
+ in the bay.
+ Living through a societally
+ transformative gold rush
+ in that environment can be
+ paralyzing.
+ Am I in the right place?
+ Should I move?
+ Is there time still left?
+ Am I going to make it?
+ It psychologically torments
+ many who have moved here
+ in search of success.
+ Ironically, a frequent
+ side effect of this
+ torment is to spin up
+ the very products making
+ everyone rich in hopes
+ that you too can
+ vibe code your path
+ to economic enlightenment.
+ Now, I won't get into all
+ of the critiques of this,
+ which of course are a big part
+ of the reason that 11 million
+ people have engaged.
+ I will use Bukko Capital
+ as a sum up for all of them
+ when he wrote,
+ I can't stop thinking
+ about this post.
+ If you do one thing today,
+ I encourage you to give it
+ a thoughtful, thorough read
+ and then commit to
+ never living your life this way.
+ Life has wasted success
+ on the people described
+ in this post.
+ It really is completely pathetic.
+ They say that comparison
+ is the thief of joy.
+ Look no further than
+ this post for validation.
+ It is indeed true.
+ On their deathbed,
+ they will realize they have lived
+ their life completely wrong.
+ Don't let it be you.
+ The point for our purposes
+ is that part of the reason
+ that doom desperation
+ is so widespread
+ is that a lot of it is coming
+ from the people
+ who are building this technology,
+ which by the way is also
+ why a lot of the animosity
+ is so white-hot
+ with people outside
+ of that cultural bubble
+ asking the obvious question
+ of if this thing is going
+ to be bad for us,
+ why are you building it?
+ And that anger is getting louder.
+ One of the media's
+ favorite themes right now
+ is commencement speakers
+ getting booed off the stage
+ for mentioning AI.
+ On Friday,
+ the graduating class
+ at the University of Arizona
+ loudly booed
+ Google co-founder Eric Schmidt
+ during his commencement speech.
+ Now, it is certainly possible
+ that Schmidt's status
+ as a tech mogul
+ colored the crowd's reaction.
+ His entire speech was essentially
+ about how the tech industry
+ had failed the younger generation
+ throughout the social media era.
+ He was already getting booed
+ as he claimed the damage
+ was unintentional,
+ stating,
+ in the years after I graduated,
+ no one sat down
+ and resolved to build technology
+ that would polarize democracies
+ and unsettle
+ a generation of young people.
+ That was not the plan,
+ but it happened.
+ As an aside,
+ at some point,
+ I'm going to do an entire show
+ about how what I believe
+ is increasingly broad consensus
+ that social media
+ has just been net bad for the world
+ impacts the way that people look at AI,
+ but I digress.
+ But even if they were primed already,
+ the booze reached a crescendo,
+ as Schmidt said.
+ The question is not
+ whether AI will shape the world.
+ It will.
+ The question is whether you will have
+ shaped artificial intelligence.
+ The question is whether you will
+ help shape artificial intelligence.
+ We do not know.
+ We do not know the precise contours
+ of what this,
+ if you, if you'd let me make this point, please.
+ Yikes.
+ Still making it seem like
+ this is a pattern and not a one-off.
+ Days earlier,
+ another speaker who was completely removed
+ from the tech industry
+ garnered a similar response.
+ Gloria Cauffield,
+ the VP of Strategic Alliances
+ at Tavistock Development Company,
+ was loudly booed
+ at the University of Central Florida graduation.
+ She stated the rise of artificial intelligence
+ is the next industrial revolution,
+ and the booze were loud enough
+ to derail the speech,
+ with Cauffield asking the crowd
+ to let her continue.
+ Journalist Alex Cantrowitz wrote,
+ This is incredible.
+ Artificial intelligence getting booed
+ out of the stadium
+ in any commencement speech it's mentioned.
+ Maybe telling college students
+ AI was taking their job
+ wasn't the best strategy.
+ Journalist Derek Thompson
+ retweeted that and said,
+ AI being booed in commencement addresses
+ seems pretty natural to me.
+ It's really, really unusual
+ for the people building and selling a new technology
+ to promise that it will destroy
+ people's livelihoods.
+ Whether you consider this
+ to be horrendous marketing
+ or actually a craven justification
+ for VC investment
+ or really just honest communication
+ or rationally overemphasizing
+ the probability of a long-tail
+ catastrophic outcome
+ or whatever else,
+ the point is it's very unusual.
+ I think today's 22-year-old
+ should probably familiarize themselves
+ with Claude and Chachi BT,
+ but I don't entirely blame them
+ for booing a technology
+ whose architects have said
+ this will destroy your jobs.
+ And I think that's an important point here.
+ It would be wildly oversimplistic
+ to just say graduates hate AI.
+ But, as Trevor Garcia put it on X,
+ getting a job out of college
+ was already brutal.
+ The promise of AI squeezing the market
+ even further while billionaires
+ promise it will create millions of jobs
+ they can't name
+ doesn't exactly inspire confidence.
+ These kids, he says,
+ are not anti-technology.
+ They're anti-being told
+ to be excited about something
+ that feels like it was built
+ for everyone except them.
+ All right, folks, quick pause.
+ Here's the uncomfortable truth.
+ If your enterprise AI strategy is
+ we bought some tools,
+ you don't actually have a strategy.
+ KPMG took the harder route
+ and became their own client zero.
+ They embedded AI and agents
+ across the enterprise,
+ how work gets done,
+ how teens collaborate,
+ how decisions move,
+ not as a tech initiative,
+ but as a total operating model shift.
+ And here's the real unlock.
+ That shift raised the ceiling
+ on what people could do.
+ Humans stayed firmly at the center
+ while AI reduced friction,
+ serviced insight,
+ and accelerated momentum.
+ The outcome was a more capable,
+ more empowered workforce.
+ If you want to understand
+ what that actually looks like
+ in the real world,
+ go to www.kpmg.us slash AI.
+ That's www.kpmg.us slash AI.
+ With the emergence of AI code generation in 2022,
+ NVIDIA Master Inventor
+ and Harvard engineer Sid Pereschi
+ took a contrarian stance.
+ Inference time compute
+ and agent orchestration,
+ not pre-training,
+ would be the key to unlocking
+ high-quality AI-driven
+ software development
+ in the enterprise.
+ He believed the real breakthrough
+ wasn't in how fast AI could generate code,
+ but in how deeply it could reason
+ to build enterprise-grade applications.
+ While the rest of the world
+ focused on co-pilots,
+ he architected something
+ fundamentally different.
+ Blitzy, the first autonomous
+ software development platform
+ leveraging thousands of agents
+ that is purpose-built
+ for enterprise-scale code bases.
+ Fortune 500 leaders
+ are unlocking 5x engineering velocity
+ and delivering months of engineering work
+ in a matter of days with Blitzy.
+ Transform the way you develop software.
+ Discover how at Blitzy.com.
+ That's blitzy.com.
+ You've heard me talk about assembly AI
+ and their insanely accurate voice AI models,
+ but they just ship something big.
+ Universal 3 Pro is a first-of-its-kind
+ class of speech language model
+ that lets you prompt speech recognition
+ with your own domain context and vocabulary
+ instead of fixing transcripts
+ and post-processing.
+ It's more flexible than traditional ASR
+ and more deterministic than LLMs,
+ so you get accurate output at the source
+ and can capture the emotion
+ behind human speech
+ that transcripts often miss,
+ all without custom models
+ or post-processing hacks.
+ And to celebrate the launch,
+ they're making it free to try for all of February.
+ If you're building anything with voice,
+ this one's worth a look.
+ Head to assemblyai.com
+ slash free offer to check it out.
+ Here's a harsh truth.
+ Your company is probably spending
+ thousands or millions of dollars
+ on AI tools
+ that are being massively underutilized.
+ Half of companies have AI tools,
+ but only 12% use them for business value.
+ Most employees are still using AI
+ to summarize meeting notes.
+ If you're the one responsible
+ for AI adoption at your company,
+ you need section.
+ Section is a platform
+ that helps you manage AI transformation
+ across your entire organization.
+ It coaches employees on real use cases,
+ tracks who's using AI for business impact
+ and shows you exactly where AI is
+ and isn't creating value.
+ The result, you go from rolling out tools
+ to driving measurable AI value.
+ Your employees move from meeting summaries
+ to solving actual business problems,
+ and you can prove the ROI.
+ Stop guessing if your AI investment is working.
+ Check out section at sectionai.com
+ that's s-e-c-t-i-o-n-a-i-dot-com.
+ And here, and you can probably feel it,
+ is the low part of our cycle.
+ There's a reason I called it doom desperation,
+ but luckily for you if you're still hanging on,
+ this is not where our story ends.
+ From here we move to real world recalibration.
+ By this, I mean a step away
+ from the loudest voices
+ and the most media friendly extremes
+ to an actual look at what's happening
+ in the real world,
+ whether it validates those narratives or not.
+ Now to be clear, real world recalibration
+ is not just about counteracting those doom narratives.
+ In some cases, real world recalibration
+ is going to be confirming of a concern.
+ Certainly the best example of this right now
+ are what feels like the never-ending
+ string of layoff announcements.
+ A recent example comes from Meta
+ with that company telling around 10% of their staff
+ that their last day will be on Wednesday,
+ impacting about 8,000 people.
+ Now sources said that the official explanation
+ is to run the company more efficiently
+ and offset other investments,
+ meaning presumably that payroll spending
+ is being transferred into infrastructure spending.
+ Wired reports that the looming layoffs
+ and the broader AI restructuring
+ have driven morale to new lows.
+ One anonymous employee said,
+ Everyone is unhappy.
+ The only people who are not unhappy
+ are literally executives.
+ 16 employees said that recently
+ installed screen tracking software
+ said to be used for AI training
+ has contributed massively to the gloomy mood.
+ One policy staffer commented,
+ I don't know anyone having a good time.
+ The vibe is a bit over it.
+ Lack of connection to the mission,
+ upcoming layoffs,
+ American employees being used to train
+ the AI models that will replace them.
+ This is some of the easiest real-world evidence to see,
+ which is why it tends to dominate the discourse.
+ But there are in fact other things
+ happening at the same time.
+ Let's take the conversation around token maxing.
+ This was maybe our biggest theme from last week.
+ The ideas surrounding this
+ are some of the biggest themes
+ that we've been exploring on the show recently.
+ For a bit of background,
+ for the last couple of months,
+ you've seen companies experimenting
+ with some version of leaderboards or incentives
+ for people to consume the most tokens.
+ Now, of course,
+ Goodheart's Law says that as soon as you make something a metric,
+ it's easy to be a good metric
+ because people just game the system,
+ and that's exactly what's happening at places
+ like Amazon and before that, Meta.
+ But holding aside the gamesmanship,
+ the positive idea of token maxing itself,
+ of mass wide-scale experimentation
+ and using AI as much as you can
+ to discover how it's going to actually be useful
+ is starting to crash headlong
+ into the real constraints in the physical world
+ that are forcing a business model shift
+ from the labs themselves.
+ Back in April,
+ before most people were paying attention to this,
+ Anthropic had started to shift
+ their enterprise customers
+ to usage-based pricing for Claude Code and Cowork.
+ The $200 flat rate subscription
+ with generous usage limits, i.e. subsidies,
+ is no longer available for enterprise seats.
+ Instead, enterprise customers have been switched over
+ to a $20 per seat rate with all usage build.
+ This, however, got louder in the last couple of weeks
+ as GitHub also moved to token-based usage
+ and most controversially of all,
+ Claude updating their policies
+ to basically make it so that any usage of Claude
+ outside of a specific Anthropic-owned harness
+ like the Claude Code app
+ would be built on a token basis
+ rather than lumped together
+ with generous subsidy in a flat rate plan.
+ As we've discussed extensively,
+ this is a structural necessity
+ and an inevitability of a world
+ in which token demand starts to exceed token supply.
+ We are at the very beginning
+ of a structural compute shortage
+ that involves basically all of the components
+ required to get more compute online,
+ from electricity to memory to chips and beyond.
+ This is not something that is going to resolve fast,
+ meaning that the only mechanism
+ for solving it in the short term
+ is to use market forces,
+ i.e. to raise the cost of tokens sufficiently
+ so that all of the tokens that are available
+ flow to the people who are most willing to pay for them.
+ I think you're going to start to see
+ a lot more reports like this one
+ from Max Weinbach who wrote,
+ I don't know why it's happening,
+ but around five of my friends mentioned
+ that they had AI spend budgets
+ added to their given AI platforms
+ at their respective jobs this week.
+ It was effectively unlimited before.
+ And to give a sense of just how much
+ these companies were subsidizing things previously,
+ the GitHub Co-Pilot subreddit
+ is filled with people sharing screenshots
+ of Co-Pilot's estimator
+ of what their usage would cost
+ under usage-based billing.
+ This Marzipan 9239
+ in a post titled aptly
+ I'm Cooked Dog Ain't No Way
+ showed that while their current billing was $451,
+ their usage-based billing
+ would be $11,432.22.
+ Yuzuko's current billing was $39,
+ but their usage-based billing
+ would be $5,8177.
+ Ginger Tapers is currently spending $54.43,
+ which, while more modest than the others,
+ was still a 22x subsidy
+ with their usage-based billing equivalent
+ being just under $1,200.
+ When you start to see the numbers
+ I think you get
+ why this is not a short-term trend,
+ but is in fact structural.
+ And what that's going to mean
+ for good and ill
+ is a lot less raw consumption
+ just to try stuff out.
+ Companies are increasingly going to be back
+ into an ROI mindset
+ where they want to see a direct relationship
+ between token spend and value created.
+ A couple weeks ago, Axios published a piece
+ titled simply AI can cost more than human workers now
+ and boy if that cost reality
+ isn't going to shift the thinking
+ on just how fast humans get displaced
+ by their automated equivalents.
+ And this is what I mean
+ when I say real-world recalibration,
+ the constraints of the real world,
+ in this case, the physical real world,
+ in which AI, it turns out,
+ is an expensive capital-intensive technology
+ is changing just how quickly
+ companies could even theoretically
+ automate everyone away.
+ And so real-world recalibration
+ is what starts to flow
+ into what I've called
+ the end state of enlightened excitement.
+ And hopefully it's clear from the word
+ excitement
+ that I am not saying
+ that the end of the AI doom cycle
+ is a 100% Pollyanna-ish Kumbai AI,
+ everything's going to be fine.
+ It's enlightened
+ because instead of being generally anxious
+ and assuming that everything's going to change
+ and it's going to change tomorrow,
+ we can start to get more specific and clear
+ about what's actually happening,
+ what we think is going to happen next,
+ and what we should do about it.
+ Enlightened excitement also allows
+ in a lot more space
+ for nuanced discourse.
+ What I mean by that is things like
+ when we talk about AI
+ taking away all the software jobs,
+ being able to zoom out and see
+ that even as AI has come around,
+ we've also been recalibrating
+ for post-COVID zero interest rate hiring
+ or being able to see
+ that if in fact
+ we are in this structural shortage
+ of the amount of compute that we need,
+ along with every other component
+ in the AI supply chain,
+ that the quote-unquote jobs that AI will create
+ aren't just interesting
+ unimaginable ones in the future,
+ but some very clear ones right now.
+ The boom, for example,
+ in data center construction jobs
+ looks very different
+ in a world where it's a short-term
+ one-time shift
+ versus one where we're talking
+ a generational buildout.
+ And that recognition makes it
+ a little bit easier to see perhaps
+ why blue collar unions
+ are increasingly trying to provide
+ a bridge between big tech on the one hand
+ and local communities
+ who have all sorts of reasonable
+ skepticisms of data centers
+ in their communities on the other
+ and find a way
+ to make these things be net positive
+ for everyone.
+ Another type of discourse,
+ that real-world recalibration
+ and the new state of enlightened
+ excitement allows for,
+ is for economics discussions
+ that don't fit inside tweets and headlines
+ but actually explore
+ how savings and surplus
+ from one industry and type of work
+ that will be changed
+ flow into others.
+ I think we'll look back
+ at economist Alex Emas' essay
+ What Will Be Scarce
+ as one of the more influential in 2026
+ in which he explored
+ how the relational sector
+ where the provenance
+ of human creation or human service
+ is actually part of the economic value
+ of a thing
+ is likely to rise
+ proportional to the savings
+ in where it doesn't matter
+ if a human or a computer creates something.
+ I've noted importantly
+ that Alex's essay
+ isn't just playing in tech circles
+ but is also finding its way
+ into larger political discourse
+ vis-a-vis people like Ezra Klein
+ who discussed it
+ in his recent New York Times essay
+ why the AI job apocalypse
+ probably won't happen.
+ Real-world recalibration
+ and enlightened excitement
+ look like open AI and anthropic
+ launching massive consulting efforts
+ because it turns out
+ no matter how powerful AI is in the lab
+ it smashes against the wall
+ of institutional and human inertia
+ that is the corporate sector.
+ It requires intensive amounts of work
+ to actually be integrated
+ and close the capability gap
+ between what it can theoretically do
+ and what it's actually doing.
+ Paul Baum nailed it
+ when he jokingly tweeted
+ And to put a fine point on this
+ there was genuinely
+ for many years inside the labs
+ an extreme debate
+ between the enterprise business-focused folks
+ and the research side of the organization
+ about just how much they should focus
+ on business model at all.
+ If AGI is the big game
+ and the only path to AGI is from the researchers
+ there's at least a compelling theoretical argument
+ that all of your resources
+ should go into that bigger play
+ not distracting yourself
+ by helping heavy industry in the Midwest
+ figure out how to use coer
+ and yet here we are
+ the constraints
+ of the real world
+ have won and demanded
+ that these efforts go into place
+ and consume significant resources
+ in the process.
+ There's also just different ways to look
+ at even the frustration
+ that we're seeing on these college campuses.
+ Journalist Joanna Stern
+ retweeted the Eric Schmidt booing
+ and says
+ this wasn't the case a year ago
+ when I gave my commencement speech
+ almost entirely about AGI.
+ I find this pushback unsurprising
+ and even encouraging.
+ I say encouraging
+ because it means
+ there's debate and discussion.
+ And by the way
+ one commencement speech
+ that didn't get nearly as much attention
+ was Jensen Huang's at Carnegie Mellon
+ which one news outlet called
+ the most anxiety relieving speech
+ in the A.I. era.
+ This is because Jensen clearly genuinely believes
+ and has been saying so forever
+ that A.I. doom is not destiny
+ that we including those students
+ in the audience
+ have power to shape
+ what the next phase looks like.
+ He talked as he always does
+ about the generational opportunity
+ for the United States
+ to reindustrialize
+ and restore its capability to build
+ about all the specific new jobs
+ that are going to be needed
+ in the very short term
+ for that reindustrialization.
+ And whether one agrees or not
+ it's very clear that from
+ a sheer efficacy standpoint
+ this type of message
+ is a better place to build from
+ than the presumption
+ that what's next is already written
+ and we have no control.
+ You can see the rest of the A.I. industry
+ finally getting the memo
+ basically starting at the beginning of May
+ open A.I. Sam Altman
+ finally decided to run away
+ from the doomsday story
+ and recommit to a different type of narrative.
+ On May 1st he said
+ we want to build tools to
+ augment and elevate people
+ not entities to replace them.
+ A week later he said
+ way cooler to help software developers
+ Pokemon evolve into superheroes
+ than to try to replace them.
+ And even more recently
+ about a week ago
+ he actually went further
+ and painted a picture
+ of how our changing relationship with work
+ could actually make our individual lives
+ better as well.
+ He wrote
+ kicking off a bunch of codex tasks
+ running around with my kid in the sunshine
+ and then coming back at nap time
+ to find them all completed
+ makes me very optimistic for the future.
+ And lastly
+ the point that I want to make
+ about this enlightened
+ excitement state
+ is that it's not just that we feel better
+ but when we are all operating in this place
+ we can have more interesting
+ sometimes harder conversations
+ about policy and what we should do.
+ If A.I. is going to inexorably
+ take all of our jobs
+ there's not a lot of policy discussion there
+ it's basically just UBI or die.
+ If on the other hand
+ it is going to be disruptive
+ but in more specific and discrete ways
+ and over a longer period of time
+ than the doom prophecyers thought
+ that gives us a lot more opportunity
+ for more discrete and better policy.
+ I'm not co-signing on this idea
+ but I think it's going to lead to conversations
+ like this one from Matthew Iglesias
+ who writes
+ allow data centers
+ but only if 20% of the GPUs are set aside
+ as affordable compute for low-income agents.
+ I don't actually even know
+ how tongue-in-cheeky was being
+ but why isn't that something we could discuss?
+ My show over the weekend
+ was about the potential for A.I. inequality
+ in the circumstance of compute shortages
+ but right now local communities
+ and policymakers have a lot of power
+ to set the rules by which data centers are going to play.
+ I don't believe that a lot of them would
+ balk at something like this
+ at least not from the conversation about it
+ or another one from Mark Cuban.
+ On Friday he tweeted
+ we should federally tax tokens at the provider level
+ not a lot less than 50 cents per million tokens
+ it'll accomplish four things at least
+ one it will push big A.I. players
+ to optimize tokenization
+ caching routing and localization
+ which will to reduce energy usage
+ saving them an energy cost
+ more than what they paid in tax
+ and reducing strain
+ created by the growth in energy consumption
+ which will three generate maybe 10 billion dollars a year to start
+ but over the next 10 years could grow 30x to 100x
+ which will four create a source of funding
+ to pay down the federal debt or deploy
+ in response to the things A.I. brings
+ that we don't expect or don't like
+ at some point the models will pass it on to customers
+ of course that's okay
+ customers will have the ability to choose between providers
+ or to do everything using open source models locally
+ thoughts?
+ And boy did people have a lot of thoughts
+ but man if that isn't a more useful conversation to have
+ than any of this BS about a permanent underclass
+ right now the vast majority of the world
+ still lives in this first hump of the A.I. doom cycle
+ somewhere between skepticism and disbelief
+ A.I. psychosis and doom desperation
+ or some part of all of it at once
+ I think the faster more of us can move
+ into the real world recalibration
+ and enlightening excitement
+ the better off we're all going to be
+ for now however that is going to do it
+ for the A.I. Daily Brief
+ appreciate you listening or watching as always
+ and until next time peace
+ you
