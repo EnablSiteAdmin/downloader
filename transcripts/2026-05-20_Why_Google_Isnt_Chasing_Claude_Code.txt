@@ -1,0 +1,974 @@
+ Today on the AI Daily Brief, a look at everything Google announced at I.O. and why it seems
+ like their AI strategy is getting messier and messier, but it also just might not matter
+ because of some of the significant advantages that they are bringing to the table.
+ The AI Daily Brief is a daily podcast and video about the most important news and discussions
+ in AI.
+ Alright friends, quick announcements before we dive in.
+ First of all, thank you to today's sponsors, KPMG, Scrunch, Assembly and Section.
+ To get an ad-free version of the show, go to patreon.com.ai-dailybrief or you can subscribe
+ and upload podcasts.
+ To learn more about sponsoring the show, send us a note at sponsors.ai-dailybrief.ai.
+ Ai-dailybrief.ai is of course where you can find out about everything else going on
+ in this ecosystem as well, job opportunities, newsletters, free education programs, paid
+ enterprise education programs, all of that again is at ai-dailybrief.ai.
+ And now on final note, you always had to know that the Google IO recap was going to be a full
+ end to end episode, but that certainly didn't account for former open AI co-founder Andre
+ Carpethy announcing that he had joined Anthropic.
+ To many if not most enfranchised AI watchers, this was a bigger announcement than anything
+ that happened on the stage at IO.
+ And so with that in mind, we will certainly be coming back to it tomorrow, but for now,
+ we have a lot of Google to talk about.
+ Today we are talking about Google IO, which in this particular case is more than just a
+ set of announcements, but a chance to see how one of the biggest labs thinks about AI priorities
+ and where they sit in the AI race.
+ In short, the event was a little confused.
+ Google is doing a ton, there's absolutely no doubt.
+ What it adds up to is a little less clear, and in fact, it seems to me like Google's
+ leadership may have a very different idea than either Anthropic or Open AI's leadership
+ about what winning the AI race will actually look like.
+ But we need a little bit of background and context before we get into this year's event.
+ Google's history with generative AI in general has been interesting.
+ In the prehistoric times, i.e. the pre-chat GPT times, when very few were paying
+ attention to all of this, Google was ahead simply by virtue of paying attention.
+ Back in 2014, they acquired DeepMind for a then massive $500 million, but
+ problematically, it was not their only AI effort.
+ In fact, part of the reason that they were caught flat-footed when chat GPT first
+ launched in November of 2022 was that AI strategy wasn't consolidated in a single place.
+ That wouldn't come till later, in fact, and it honestly took a very rough year
+ out of the gate in 2023 for them to figure out that they needed to go through
+ that sort of painful restructuring.
+ 2023's IO event was certainly a catch-up event.
+ You might or might not remember that before Gemini, we had something called BARD.
+ BARD was Google's first chat GPT competitor, and frankly, it wasn't great.
+ Honestly, to many, it felt more like the type of product that Microsoft would put out.
+ But Microsoft, shockingly, by virtue of their deal with open AI,
+ was at the time broadly seen as a head.
+ Throughout 2024, there was growing pressure on Google from lots of sources,
+ not least of which was the public markets, to do something beyond and
+ better than BARD, which eventually we got in December with the announcement of Gemini.
+ Gemini was Google starting to consolidate their strategy around DeepMind
+ as CEO Demis Hussabis, but even if it appeared promising,
+ that first announcement was still pretty disappointing.
+ The most powerful version of Gemini wouldn't be available for a number of months
+ and it had the feeling of a rushed move.
+ Early 2024 didn't go much better.
+ At the beginning of the year, there was endless digital links build
+ about their quote unquote woke image generation model,
+ which when asked to do things like generating an image of a 1943 German soldier,
+ would put Japanese women or African American men in Nazi regalia.
+ By the IO event in 2024, we were starting to get fully capable Gemini models,
+ but even then Google wasn't out of the woods yet.
+ One of the big things they pushed at that event was AI overviews,
+ which was Google's first attempt to integrate this new set of generative AI
+ capabilities with their most important existing business line,
+ which was of course search.
+ The problem was that that first set of AI overviews became known
+ not for how helpful they were, but for suggesting that people put
+ glue on pizza and eat rocks.
+ And yet by the end of 2024, Google had started to get their groove back.
+ And part of the shift in momentum came from an interesting source.
+ Now internally, they had consolidated strategy and put everything under one roof.
+ And so some of it was just the dividends from that,
+ but they also for the first time in a very long time had a genuine
+ breakout product hit in the form of notebook LM.
+ Specifically, the audio overview feature of notebook LM, which came in the fall,
+ where you could have a synthetic AI podcast, discuss whatever set of resources
+ you had dropped into notebook.
+ People saw that this could be a really cool way to learn new material,
+ study for exams, familiarize themselves with the news.
+ And lots and lots of people did it.
+ Google's AI efforts then headed into 2025 with good momentum.
+ And I owe 2025 validated that they premiered VO3,
+ which was their first video generation model to have native audio.
+ And throughout 2025, Gemini models were treated as a genuine option and contender.
+ And you saw that in the growth of Gemini,
+ which started to get up to chat GPT style numbers.
+ Google also had a couple of moments where something that they released
+ genuinely expanded the set of things that were possible with generative AI,
+ most notably Nanobanana and Nanobanana Pro.
+ Nanobanana, which came out at the end of August,
+ and which was technically called Gemini 2.5 flash image
+ before they realized that they should just call it
+ by the name that people liked for it,
+ wasn't remarkable because the base level quality of the images
+ was so differentiated, but unlocked a ton of value
+ in the new types of fine grain editing controls that it gave you
+ that were simply not possible with other image generation models.
+ That expanded in November with Nanobanana Pro,
+ which added reasoning over the prompt and significant text rendering capabilities
+ that brought things like infographics online in a real way for the first time.
+ All of this led to a feeling that Google was headed into 2026
+ with the best AI momentum that they had ever had.
+ Quietly, however, something was happening
+ that would push them from a narrative perspective
+ at least significantly back behind again.
+ 2026 has been the year of coding agents,
+ agents for knowledge work, and harnesses.
+ And the seeds of that were laid at the beginning of 2025.
+ One part of that was the reasoning models,
+ which all of the major labs released throughout the course of 2025,
+ but the importance of harness wasn't exactly clear to everyone
+ when Claude Code launched back in February and March of last year.
+ Codex would technically come a few months later in May,
+ and for much of the year, all of this was quietly brewing.
+ Anthropics developer Devotion clearly started to be noticed by OpenAI,
+ and by August, it was clear that they were taking the threat seriously.
+ They tried to position their GPT-5 announcement as all about that,
+ putting coding-based use cases up top of their announcement for the first time,
+ but ultimately that part of the announcement was significantly sidelined
+ both by the genuinely underwhelming performance of GPT-5
+ as well as by the planned deprecation of GPT-4.0,
+ which led to effectively a consumer rebellion.
+ Still, even as they worked through that,
+ by the end of the year it was very clear that OpenAI was all in
+ on Codex and coding-related models.
+ Each incremental new release we got, GPT-5.1, GPT-5.2, GPT-5.3,
+ had a Codex-optimized version along with it.
+ And as we well know, all of these things came together
+ around the Opus 4.5, GPT-5.2 era,
+ where all of a sudden around the beginning of 2026,
+ and especially into January,
+ everyone was realizing that something big had shifted,
+ that the capacity to use code to build things
+ was totally different than it had been before,
+ and that the promise of agents,
+ which had been so exciting for so many years,
+ was no longer just something for the future,
+ but was actually here.
+ When the dominant theme became agents,
+ specifically coding agents,
+ and the reappropriation of coding agents for knowledge work,
+ it absolutely left Google in the dust once again,
+ at least from the insider AI conversation.
+ Now, is there an argument that the insider fixation
+ on coding agents is missing the forest for the trees?
+ Is it actually potentially an indictment of AI progress
+ that we're all obsessed with this one area
+ of immense product market fit,
+ and in fact, over interpolating that product market fit
+ to other areas of knowledge work
+ that are going to be much harder?
+ It is certainly possible that that is the case.
+ Certainly as part of their big code right in December,
+ OpenAI made the decision
+ that it was significant enough
+ that they were willing to for the first time
+ abandon other areas of their ambition
+ that were competing with Google,
+ most notably around Sora,
+ the video model and app
+ that they basically completely gave up on.
+ And yet at the same time, it is very clear
+ that it's not just the extremely enfranchised AI users
+ that think that something significant has changed.
+ The enterprise has gone all-in on this new approach to AI
+ in a way that opens up questions
+ for the labs that aren't there,
+ most notably Google,
+ which is not to say that Google didn't have any big advantages
+ in the first half of 2026.
+ Google's TPU chips have become a bigger deal than ever
+ as compute constraints have come home to roost.
+ And for the first time,
+ Google is starting to think about that
+ as not just as an internal capacity,
+ but as an external business line.
+ And what's more, OpenAI deciding to focus
+ on the enterprise to the exclusion of consumer,
+ although of course they wouldn't put it quite that
+ dramatically over at OpenAI,
+ gave Google what appears to be an increasingly open lane.
+ And so with all of that,
+ the questions coming into this IO,
+ were one, would Google release
+ a competitive state-of-the-art model?
+ Two, would they release, update or consolidate
+ around a real, agentic coding or knowledge work harness?
+ Are we supposed to use anti-gravity?
+ Are we supposed to use Google AI Studio?
+ For OpenAI it's Codex,
+ for Anthropic it's Claude Code or Claude Co-Work,
+ both of which live in the same app.
+ For Google it's a sprawl
+ and it's never been exactly clear
+ which of these harnesses we should invest in.
+ On top of questions of model and harness,
+ would Google clarify their position
+ on consumer versus the enterprise?
+ Or would they lean into this new AI trade-off era?
+ For example, by honing in on lower cost
+ or more efficient models
+ as one of their unique opportunities.
+ What we got was honestly,
+ a little bit of a confusing mess.
+ The key announcements we're going to talk through
+ are Omni, Spark, anti-gravity 2.0,
+ Gemini 3.5 Flash,
+ which together only represent a part of what was announced
+ and try to understand
+ how they all add up to something bigger.
+ Just by looking at Twitter and social media,
+ you would think that Omni was just a video model,
+ but in fact, Google is positioning it
+ as a new family of generative AI models
+ that are eventually an anything to anything
+ truly multimodal medium.
+ The idea is that instead of being constrained
+ to a video model using a video input
+ or a text model using a text input,
+ Omni at full strength
+ will be able to take any input
+ or any combination of inputs
+ to produce whatever output you need
+ in whatever format you need.
+ Again, this is a type of thing
+ that's been promised for a long time
+ but has never fully come to bear.
+ The version that was released
+ was specifically positioned as a video model
+ and that's how most people initially judged it.
+ Researcher and AI water myth dispeller Andy Masley
+ summed up the first impression feelings
+ of many when he tweeted,
+ Google's Omni is fun
+ but definitely not a huge step up for me.
+ Heisenberg on X went farther
+ saying, was expecting VO4 got Gemini Omni instead.
+ Seed Dance 2.0 is going to eat this for breakfast.
+ In the comments, he even said,
+ Grock, imagine is better.
+ And yet, as many jumped in to point out,
+ the comparison to Seed Dance itself
+ was actually not particularly apt.
+ As Carlos Santana wrote,
+ this is a model for editing videos
+ like Nana Banana like we've never had before.
+ And indeed, when you actually read the blog post,
+ that's how Google is positioning this.
+ It's less about the initial quality
+ of the video generation, although that's strong
+ and more about your ability to easily edit it.
+ It wasn't long before some people grok this pun intended
+ with Andy Masley actually coming back later
+ and saying, okay, I take it back on Omni,
+ editing real videos with it is crazy.
+ Henry Dobres writes, Omni feels much closer
+ to a nano banana moment for video
+ than a traditional cinematic generation model.
+ You're comparing apples and pears.
+ I can easily ask Omni to change the entire setting
+ of a sequence and turn day into night
+ while preserving the shot structure.
+ That's a massive deal.
+ Efficient video to video is probably going to become
+ a huge part of the future of entertainment
+ and hybrid productions.
+ Ethan Malik writes,
+ it's really good at instruction following
+ and having a smart model capable of doing video
+ expands what you can do by a considerable margin.
+ Other people shared a bunch of examples
+ of how easy it was to edit video
+ with character consistency,
+ taking an influencer style presentation
+ and making the influencer invisible,
+ changing the background and changing the person's outfit.
+ In another example, there's a video scene of London
+ with a close-up of Big Ben
+ where Omni changed the scene
+ from a generic afternoon daylight scene
+ to New Year's Eve with fireworks
+ with the clock updated as well.
+ Now, I tend to think that based just on what I've seen,
+ we tend to overestimate the importance
+ of base level model upgrades
+ and underestimate and undervalue at least initially
+ changes to the steerability of those models.
+ That's changing a bit post-no-no-banana
+ and you can see why they use that reference point,
+ but it certainly seems like this layer
+ and depth of editability
+ will unlock new use cases in video generation
+ that weren't possible before.
+ Still, it seems to me like in the wake of OpenAI
+ it's deciding to close the SORA experiment.
+ There are more people asking the question
+ of who this is actually for
+ than there might have been just a few months ago.
+ Is this something that Google imagines
+ general consumers using
+ and if so, are they using it for social media
+ or something else?
+ Is this just a prosumer type of feature
+ where a very specific subset of creators
+ are going to be using it?
+ Is it in fact an entirely professional focused tool
+ made for people who actually use video for a living
+ or is it just meant to be a preview
+ of a larger paradigm shift in models
+ with this being the easiest way to demonstrate
+ how those types of models will change things?
+ Google didn't really answer that
+ which may simply reflect the fact
+ that they just aren't sure.
+ Now, speaking of cool things
+ that are a little confused about their audience,
+ next we got Gemini Spark.
+ Google describes it as your 24 seven personal agent
+ that helps you navigate your digital life
+ taking action on your behalf and under your direction.
+ This once again was unclear exactly
+ what the reference point is.
+ Some jumped to the idea
+ that it was their version of Open Claw.
+ That's in fact what the Verge called it
+ and certainly some of the ways
+ that they described it point in that direction.
+ In their announcement thread,
+ they said it runs on Gemini 3.5
+ and is built on anti-gravity
+ so it can perform long running tasks in the background.
+ They called out the idea
+ that because it runs on virtual machines on Google Cloud
+ you don't have to keep your laptop open
+ which is clearly a reference
+ to the people who are walking around
+ cloud code or codexing with their computers open.
+ And they also even reference integrations
+ with Google tools and third parties through MCP
+ suggesting that this might in fact be designed
+ for that more prosumer or professional type of audience
+ that's currently using cloud code, codex
+ or even something like Hermes or Open Claw.
+ And yet the examples they give
+ seem to point it a little bit more
+ in the direction of a consumer use case.
+ Sundar Pichai said it's your personal AI agent
+ that helps you navigate your digital life
+ taking actions on your behalf and under your direction.
+ Google VP Josh Woodward said
+ need to send an email to your boss with a status update
+ Spark can pull all the facts from your emails,
+ your docs, your sheets and slides
+ and write the draft for you.
+ He also said small businesses are using Spark
+ they can watch over their inbox
+ or they never miss a question from a customer.
+ So on the one hand it's clearly not fully a personal agent
+ for a non-professional use
+ but it's also not exactly positioned
+ in opposition to one of those other tools.
+ And maybe to Google this is just supposed to be intuitive
+ that it is supposed to fill a gap that they see
+ for users who are not comfortable with something
+ like cloud code or maybe even cloud co-work
+ but who want this sort of capabilities.
+ But if that is obvious to them, it's not obvious to others.
+ And the way that people didn't know exactly
+ how to frame this is an example
+ of the broader product confusion
+ which I think is everywhere with Google right now.
+ Making it harder to get a handle on
+ the product was announced
+ but not only is it not actually available
+ it's not even clear when it will be available
+ saying it's coming just sometime this summer.
+ One of the most important AI questions right now
+ isn't who's using AI, it's who's using it well.
+ KPMG and the University of Texas at Austin
+ just analyzed 1.4 million real workplace AI interactions
+ and found something surprising.
+ The highest impact users aren't better prompt engineers
+ they treat AI like a reasoning partner.
+ They frame problems, guide thinking,
+ iterate and push for better answers.
+ And the good news, these behaviors are teachable at scale.
+ If you're trying to move from AI access
+ to real capability, KPMG's research
+ on sophisticated AI collaboration is worth your time.
+ Learn more at kpmg.com slash us slash sophisticated
+ Quick question, when was the last time
+ you actually visited a website to research something?
+ If you're like me, AI pretty much does that work for you now.
+ That of course raises a new question for brands.
+ If AI is doing the discovering, researching and deciding
+ who or what is your website really for?
+ That chip to user behavior, the rise of AI bots
+ becoming your most important new visitors
+ is what my sponsor Scrunch is taking head on.
+ Scrunch is the AI customer experience platform
+ that helps marketing teams
+ to understand what's going on
+ and what's preventing them from being retrieved,
+ trusted or recommended.
+ And it's not just visibility.
+ Scrunch shows you the content gaps, citation gaps
+ and technical blockers that matter
+ and helps you fix them so your brand is found
+ and chosen in AI answers.
+ Now for our listeners,
+ Scrunch is providing a free website audit
+ that uncovers how AI sees your site,
+ where there's gaps and how you're showing up in AI
+ versus the competition.
+ Run your site through it at scrunch.com slash AI Daily.
+ You know assembly AI
+ for having the most accurate streaming speech to text out there,
+ but they just want to step further
+ and launched a full voice agent API.
+ The idea is simple.
+ One connection and they handle everything.
+ The listening, the thinking, the speaking.
+ You just stream audio in
+ and get your agent's voice response back.
+ We're talking about things like outbound sales calls
+ that actually qualify leads,
+ customer support that handles complex requests
+ without a script, scheduling agents
+ that sound like a human assistant
+ and you can build one in five minutes with one API.
+ And importantly, their streaming model
+ is the best at catching all the stuff
+ that breaks on other voice agents,
+ things like phone numbers, emails,
+ names and medical terms.
+ And for those of you who are still in experimentation mode,
+ there are no contracts and unlimited concurrency
+ so you can actually test it out without any friction.
+ Head to assemblyai.com slash brief
+ and try the live voice agent demo
+ right there on the site.
+ No signup needed.
+ Here's a harsh truth.
+ Your company is probably spending thousands
+ or millions of dollars on AI tools
+ that are being massively underutilized.
+ Half of companies have AI tools
+ but only 12% use them for business value.
+ Most employees are still using AI
+ to summarize meeting notes.
+ If you're the one responsible for AI adoption
+ at your company, you need Section.
+ Section is a platform that helps you manage AI transformation
+ across your entire organization.
+ It coaches employees on real use cases,
+ tracks who's using AI for business impact
+ and shows you exactly where AI is
+ and isn't creating value.
+ The result, you go from rolling out tools
+ to driving measurable AI value.
+ Your employees move from meeting summaries
+ to solving actual business problems
+ and you can prove the ROI.
+ Stop guessing if your AI investment is working.
+ Check out section at sectionai.com
+ that's S-E-C-T-I-O-N-A-I dot com.
+ But what about the bees?
+ I said coming into this that maybe the two biggest questions
+ were whether Google was going to release
+ a state-of-the-art model
+ and whether there was going to be any clarity
+ on the harness side of things
+ and a legitimate competitor to Codex and Claude Code.
+ To some, it was an indictment of Google
+ that this was even a question.
+ Nvidia-focused analyst Tay Kim wrote,
+ the media establishment consensus
+ is enamored with Demis Hassabis,
+ but Google is soundly losing
+ in the biggest product market fit
+ agentic AI market.
+ So what did we discover?
+ What we did get an update
+ to Google's agentic coding surface, anti-gravity.
+ The team writes,
+ introducing anti-gravity 2.0,
+ a new standalone desktop application
+ that delivers fully on that original glimpse
+ of a truly agent optimized experience.
+ Rebuilt from the ground up with multi-agent teams,
+ scheduled tasks, native voice and one-click integration
+ with other Google products.
+ So this, it appears,
+ is meant to be the agentic coding competitor.
+ Adding some confusion to that, though,
+ was the fact that they also announced
+ a number of new vibe code features for Google AI Studio.
+ And I'm again left feeling like
+ it might be clear-ish inside Google
+ that anti-gravity is the Claude Code equivalent,
+ while AI Studio is the Claude Co-Work equivalent,
+ or maybe the lovable equivalent.
+ Anyway, if that is the conception,
+ it's certainly not clear from their public communications.
+ To demonstrate the new capabilities of anti-gravity 2.0,
+ they rebuilt the core framework
+ of a working operating system using 93 sub-agents
+ and processing billions of tokens
+ with the entire operation taking about 12 hours.
+ Now, there are a couple of first reactions
+ when developers saw this.
+ It went down briefly, which wasn't the best experience,
+ but I think everyone can give them a pass for that,
+ given that any sort of launch day
+ is always gonna involve some throttling the network.
+ But even less positively was chatter
+ around the similarity and derivative feeling
+ of anti-gravity to other tools like Codex.
+ This was made worse by the fact
+ that in the second minute of the launch video for anti-gravity,
+ you can see a folder for Codex on the screen being demoed,
+ which made people shake their heads with wonder
+ that that wasn't caught,
+ and certainly invited even more comparison
+ between anti-gravity 2.0 and Codex.
+ The Codex team themselves
+ weren't shy about sharing their feelings
+ with Tebow from that team saying,
+ I wonder if the anti-gravity team has designers.
+ Couldn't believe my eyes today, ha ha,
+ very flattering to the Codex team.
+ But I would say that others who weren't as concerned
+ with the comparison to Codex did seem to think
+ that at least on first glance,
+ anti-gravity had evolved in the way
+ that an agentic harness needed to evolve.
+ Mark Kretschman wrote,
+ anti-gravity 2.0 is interesting
+ because it no longer feels like Google made an AI IDE.
+ Anti-gravity 1.0 was the full IDE,
+ editor, terminal, browser, agent workspace.
+ Basically, Google's take on agentic coding
+ as a complete environment.
+ 2.0 feels more like they pulled the agent system
+ out of the IDE and made it the product.
+ It feels more like the Codex app,
+ desktop app, CLI, SDK, managed agents,
+ scheduled tasks, sub-agents, integration
+ with AI Studio, Android and Firebase.
+ The IDE is still there,
+ but it's no longer the main story.
+ The agent layer is.
+ What I certainly didn't see is anyone arguing
+ that it had surpassed Cloud Code or Codex in any way.
+ So if we're keeping track of the score,
+ at best, you have to say
+ that we did get a meaningful agentic harness upgrade
+ that at least sort of brings Google
+ into the realm of parody.
+ So what then about the model side?
+ The new model premiered was 3.5 flash.
+ There was no pro version.
+ They say that's coming later.
+ Just the flash version.
+ And as you'll see,
+ flash doesn't exactly mean what it used to.
+ Or at least, to the extent that flash used to be
+ about both speed and cost,
+ it is definitely more about speed now.
+ Now, just going by the benchmarks,
+ it does seem like this is now Google's most powerful model.
+ It scored 76.2% on terminal bench 2.0
+ compared to 70.3% for Gemini 3.1 Pro,
+ but beating Opus 4.7 but falling short of GPT-55.
+ On SWE Bench Pro, it scored a 55.1%,
+ which was a slight jump over Gemini 3.1 Pro,
+ but still significantly behind 5.5 and Opus 4.7.
+ On certain agentic benchmarks, Gemini 3.5 flash
+ appears by the numbers data of the art.
+ For the computer use benchmark OS World,
+ the model is neck and neck with 5.5 and 4.7.
+ On GDP Val,
+ which is a measure of economically valuable
+ real world knowledge work tasks,
+ it is not close to the state of the art
+ but still a significant jump from Gemini 3.1 Pro.
+ Generally by the benchmarks,
+ it looks like the model is going to be competent,
+ but not nestled up against Opus 4.7 and 5.5
+ as truly cross the board state of the art.
+ Of course, raw intelligence
+ was never the focus of previous flash models,
+ which were always, as I said, about speed and cost.
+ And in this case, they definitely wanted to hammer the speed.
+ 3.5 flash is around three times faster than 3.1 Pro
+ while delivering similar performance.
+ It's also around 60% faster than three flash.
+ The problem is that it's not all that inexpensive.
+ The cost is about a 3x increase
+ since the last flash model
+ and about a 20x increase since 2.0 flash
+ and the cost to run many of the big benchmark tests
+ like those from artificial analysis
+ were actually higher than other models
+ like Gemini 3.1 Pro and even GPT-55 Medium.
+ People at Early Access described it as a little strange.
+ Peter Gosdev wrote,
+ It's a pretty weird release.
+ It does way more than what you asked for.
+ It sometimes generates best in class stuff
+ but sometimes crashes out and does something strange.
+ It can be decent at games
+ but weaker than 3.1 in controls
+ while it is good at things like 3D worlds
+ it is really quite bad at web UI, worse than open source models.
+ The pricing of course is the weird bit.
+ It went up to pretty much become a Pro model
+ so losing a lot of what flash was known and loved for.
+ Simon Smith writes,
+ Initial experience with Gemini 3.5 flash.
+ Smart, crazy fast, but quite verbose.
+ Example, I highlighted some text I wrote and asked,
+ does this make sense?
+ The reply was 568 words
+ and included a legal analysis.
+ And this doesn't seem to be an isolated experience.
+ When you go look at the output tokens
+ that were used to run the artificial analysis
+ intelligence index tests
+ which is basically a proxy for token efficiency
+ while 3.5 flash is nowhere near the top
+ of the most token hungry reasoning models
+ it is less token efficient than 3.1 pro
+ and in fact less token efficient
+ than any GPT-55 model except extra high
+ where it's in a very similar range.
+ It used about three and a half times more tokens
+ for those tests than GPT-55 medium
+ which as many are starting to point out
+ is kind of an indictment of the value proposition
+ of speed and cost.
+ If you're really fast but it takes you three and a half
+ times as many tokens to get to the same answer
+ that cuts into a lot of the speed gains
+ and it also eats alive any cost gains.
+ Theo from T3 wrote,
+ The result of this is it costs two times more to run
+ than Gemini 3.1 pro on similar tasks.
+ It's more expensive than GPT-55 medium.
+ And in point of fact,
+ the more that Theo used it,
+ the less he liked the model.
+ He posted a self-admitted crash out video
+ about just how badly it performed
+ on actual agentic tasks that he tested it on,
+ which is certainly the most problematic
+ on top of all these other issues.
+ Tenobrus writes,
+ So far pretty negative impression of 3.5 flash.
+ It is very fast in terms of token output
+ but this basically doesn't matter
+ because it explodes in a huge avalanche
+ of unnecessary tool calls on basically every task.
+ When it gets stuck on something
+ it seems to pretty much never pause or ask for help.
+ It just kind of keeps steam rolling ahead and flailing.
+ Frequently hallucinated fake acronym expansions,
+ writing quality as mid to bad, tons of emoji slop,
+ actual code quality as sonnet tier.
+ This is a very early vibe check.
+ I could be missing things.
+ But even the initial use case
+ of super quick code base exploration sub agent
+ is pretty quickly dissolving for me
+ because it's not actually smart enough
+ to be quick about it.
+ All in all, definitely not what Google needed to drop.
+ And interestingly, zooming out a bit,
+ the decision to focus so much of the messaging
+ around speed seems kind of out of sync
+ with the reality that speed is not the big thing
+ that's an issue for developers right now.
+ That issue is of course cost.
+ One of the questions that I had coming into this
+ was whether Google would lean all the way into the potential
+ to compete not on the full state of the art
+ but on a much more token efficient, lower priced model.
+ And although that's kind of what you would assume
+ a 3.5 quote unquote flash model would bring,
+ that's not exactly how it appears in the real world.
+ Now there was some quiet acknowledgement
+ of the same sort of forces
+ that are changing business models everywhere else.
+ Google made hay about the fact
+ that they had dropped the price of ultra
+ from $250 to $200 a month
+ as well as offering a new $100 plan.
+ But in an email describing the changes
+ which I got as an ultra user,
+ they also wrote that the ultra plan
+ would now include quote compute based usage limits
+ that factor in the complexity of your prompt
+ that features you use in the length of your chat.
+ In addition, agentic tools
+ including the flow design platform and anti-gravity
+ would now switch to a usage limit model.
+ Basically while they're bringing down the base price
+ you are now in certain instances
+ going to have to pay on a usage basis
+ when you didn't before.
+ Now this I don't think
+ is an indictment of Google or anything.
+ In fact, it's an acknowledgement
+ of where everything is going
+ but it does make the decision to focus so much on speed
+ as the big competitive differentiator of 3.5
+ all the more questionable.
+ I don't think it was any accident that on the same day
+ OpenAI introduced their new guaranteed capacity program
+ which is basically a way for customers
+ to guarantee long-term access to compute
+ even with even worse compute shortages on the horizon.
+ And I will say that even though
+ they didn't seem to nail it at IO
+ I do think that this is still an opportunity for Google.
+ Boxes Air and Levy writes,
+ token costs will become a dominant topic
+ in enterprises going forward with AI.
+ Just got out of a dinner
+ with many Fortune 500 enterprise CIOs
+ and this was the most heated topic.
+ A mix of strategies are being employed
+ but basically no one feels
+ like they have the right solution.
+ It's going to be a mix of figuring out
+ how to prioritize workloads to different models
+ giving out access to better or worse agents by user type
+ setting different spend caps by team
+ having teams justify AI by their use case
+ and some just having unfettered access.
+ Everyone is trying to figure out
+ a semi or predictable model right now
+ in a world where the underlying tech
+ and cost models are constantly evolving.
+ Overall, holding aside first reactions to any one product
+ or the model that was announced
+ there were two big strands in the sentiment that I saw.
+ The first was OMG product sprawl.
+ Simon Smith again writes,
+ the barrage of Google announcements today
+ are exciting but also confusing.
+ So now there's Google images,
+ Google photos and Google pics
+ and there's anti-gravity but also spark.
+ In another post he followed up,
+ my head is spinning from Google IO.
+ It leads me to a request for open AI and anthropic.
+ Please avoid sprawl.
+ Just give me a single powerful agentic tool
+ like codecs or co-work
+ through which I can do everything.
+ I don't want to have to think about
+ whether to use spark or anti-gravity
+ or AI studio or flow or Pamela or pics.
+ I accept that these may meet the needs
+ of different users and Google knows
+ how to run a killer business
+ but personally I just want one interface
+ to rule them all and I'm willing
+ to pay for that simplicity.
+ Moving outside of just the pure
+ and franchise AI circle,
+ Marques Brownlee writes,
+ it's getting genuinely difficult to keep track
+ of all the names of AI products being unveiled.
+ In the last hour, Google unveiled Google pics
+ which is not Google photos
+ and updates to Google flow, nano-banana,
+ VO, which are all media generation,
+ Google anti-gravity, Gemini Spark,
+ Gemini Omni, Gemini 3.5 Flash.
+ Nathan Clark summed up
+ with his tongue firmly buried in his cheek.
+ It's in Gemini, just created an AI studio.
+ Oh, that's for your personal Google One account.
+ For workspace, you need Gemini business.
+ No, not Gemini Advance, that's AI Pro now.
+ Unless you need AI Ultra.
+ Oh, agents, you do that in spark actually.
+ For coding, use jewels.
+ Unless you mean the agentic IDE, that's anti-gravity.
+ No, that's the old anti-gravity, download the new one.
+ Actually, Gemini CLI is being deprecated,
+ use anti-gravity CLI.
+ No, the Flash model is smarter than the Pro model,
+ unless you need Pro.
+ If it's video, use flow.
+ No, flow uses VO.
+ Actually, that's in Gemini now.
+ Unless you're in search, then it's AI mode.
+ No, research is notebook LM.
+ Anyway, it's all very simple.
+ So that is one take,
+ that even if these products are good,
+ everyone is left confused.
+ The other take, though, is that it might not matter.
+ The sheer surface area that Google has with its users.
+ The total amount of digital interactions
+ where we already interface with Google
+ may just mean that product sprawl
+ that puts the right version of the thing
+ in the right place where someone's already interacting
+ is for the average consumer, all that's gonna matter.
+ And on that front, it's hard to argue
+ with some of the numbers we got yesterday.
+ The Gemini app has jumped
+ from 400 million monthly active users
+ back in May last year
+ to 900 million users last month in April.
+ In that same period of time,
+ the number of monthly tokens processed
+ across all of their surfaces
+ has jumped from 480 trillion
+ to 3.2 quadrillion per month.
+ And there's also that point about the open lane.
+ Peter Yang wrote,
+ I feel like Google is going to win consumer AI.
+ It's the only US lab
+ that's building video models and consumers love video,
+ e.g. TikTok and YouTube is far more popular
+ than text-based platforms.
+ The only real competition is Seed Dance
+ and other video models
+ that don't care about copyright.
+ Farzad writes,
+ I think Google just won the consumer market for AI.
+ Here's what I think is going to happen.
+ Anthropic, the best models for running businesses.
+ Google, the best models for everyday people and creatives.
+ SpaceX, the biggest hyperscaler by far.
+ OpenAI probably cooked
+ unless they pull a rabbit out of a hat.
+ Now, a couple of people asked
+ whether he actually used these products
+ or whether this was just an engagement tweet.
+ But honestly, the fact that an engagement tweet
+ is placing Google as the default winner
+ of the consumer market says something in and of itself.
+ Hater writes,
+ Google has secured its ecosystem
+ and is playing the long game.
+ Gemini already powers search workspace and more
+ so Google no longer needs to subsidize models
+ to attract users.
+ Gemini Omni may not be the best coding model,
+ but it will become the base
+ for future universal multimodal models.
+ And actually, as we start to round the corner,
+ I want to bring it all the way back to Omni.
+ Prakash Etapai wrote,
+ the impression I got was that Demis Hassab
+ is thinks AGI will require world models.
+ He's thinking of literally any input to any output models.
+ Omni Flash is a toy video model version of this.
+ Demis' intention seems to be that Omni will eventually
+ generate anything from construction blueprints
+ to gene sequences.
+ And with the rest of Prakash's tweet being about
+ how they're now in the let 100 flowers bloom phase
+ and back to being a little disorganized,
+ there's an interesting implication
+ that the reason for that
+ is that their AI leader Demis
+ just doesn't care about the product fight.
+ So fascinatingly we're in a situation
+ where Google may be the default consumer leader
+ by virtue of their massive distribution
+ and existing relationships with consumers,
+ as well as the fact that OpenAI
+ has clearly decided to go compete on Enterprise
+ while also having their main leader
+ not actually care about consumer products all that much.
+ For some, the gap between the AGI rhetoric
+ at Demis' closing keynote
+ where he said we are standing in the foothills
+ of the singularity,
+ the gap between that and the demos that we got
+ was fairly jarring.
+ Even before the event, Prinn summed up,
+ those who have been paying attention
+ know that Demis Hassab has been generally skeptical
+ of the research direction being pursued
+ by OpenAI and Anthropic,
+ i.e. coding agents leading to acceleration
+ and eventually full automation of AI research.
+ Instead, Google has been pursuing
+ its own separate five to 10-year track to AGI
+ to be achieved through continual learning,
+ world models, and a link to the physical world,
+ i.e. robotics.
+ Just four months ago in Davos,
+ Hassab has spoke about the limits
+ on how fast self-improving systems,
+ i.e. those being pursued by Anthropic and OpenAI, can work.
+ But now Prinn's writes,
+ the pace of releases by Anthropic and OpenAI
+ has become relentless.
+ It is clear that Codex and Clodcode in particular
+ is significantly accelerating the pace of AI research
+ at these two labs.
+ We've recently heard rumors
+ that an important faction at Google
+ led by none other than Sergey Brin
+ is not happy about these developments.
+ Brin has allegedly formed a strike team at Google
+ tasked with achieving AI takeoff of AI
+ that can improve itself
+ through improvement of Google's AI coding abilities.
+ For those paying attention,
+ this is the exact path to fully automated AI research
+ and RSI that is currently being pursued
+ by OpenAI and Anthropic.
+ And here lies the tension.
+ Two paths are open to Google now.
+ Will Google turn away from the Hassabist path
+ to pursue RSI?
+ Or will Google stay on its current path,
+ knowing full well that if OpenAI and Anthropic are wrong
+ and the approach of fully automating AI research
+ does not turn out as fruitful as they hoped,
+ then Google's lead in areas like world models
+ and robotics may prove to be decisive.
+ Or finally, is there room, talent, resources, and compute
+ to pursue both of these approaches simultaneously?
+ Question, shaping Google's AI strategy.
+ The answer seems to be for the moment at least,
+ to go both and.
+ Whether that remains the strategy
+ as the world gets even more compute
+ and resource constrained,
+ will be what to watch for next.
+ Subbing up all this, I want to be clear
+ that I'm not now somehow massively bearish on Google
+ or anything like that.
+ I think anti-gravity made progress,
+ although I think on first glance it still appears behind.
+ I think when it comes to 3.5 flash,
+ it's surprising that with the stakes as high as they are
+ they couldn't get it together to get a pro model out.
+ But I'm not particularly interested in judging
+ how it compares to 55 and 47
+ until we actually have 3.5 pro.
+ When it comes to Spark,
+ I think we are in such a new space
+ in terms of what the right type of agent interaction is
+ for most people that epistemic humility demands
+ that we be open to different possibilities
+ and frankly, I'm interested to see Google
+ explore a different one.
+ So none of this is about counting Google out.
+ What it is ultimately is a feeling
+ that whereas they had started to feel
+ over the course of 2025 especially,
+ locked in, focused and rowing in the same direction,
+ in this product sprawl we may be seeing
+ splinters of both different strategy
+ and different priorities showing up once again.
+ I will certainly be trying out things
+ like anti-gravity 2.0
+ and Spark when it becomes available
+ and I will report back what I find.
+ For now though, that's gonna do it
+ for today's AI Daily Brief.
+ Appreciate you listening or watching as always
+ and until next time, peace.
