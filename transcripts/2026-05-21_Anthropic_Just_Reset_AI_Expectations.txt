@@ -1,0 +1,547 @@
+ Today on the AI Daily Brief, huge news out of Anthropic as the company hires a former Open AI co-founder and has their first-ever quarter of profitability.
+ Before that in the headlines, Open AI is on the precipice of filing for an IPO.
+ The AI Daily Brief is a daily podcasted video about the most important news and discussions in AI.
+ Alright friends, quick announcements before we get going.
+ First of all, thank you to today's sponsors KPMG, Robots and Pencils, Assembly and Section.
+ To get an ad for your version of the show, go to patreon.com.ai-dailybrief or you can subscribe on Apple Podcasts.
+ If you want to learn more about sponsoring the show, send us a note at sponsors.ai-dailybrief.ai.
+ And ai-dailybrief.ai is also where you can find out about everything else going on in the broader Open AI ecosystem.
+ We got some juice today man.
+ One of the biggest things that markets are watching is the moves that the big labs are making vis-a-vis going public.
+ And the Wall Street Journal reports that Open AI has engaged investment bankers and expects to file IPO paperwork as soon as Friday.
+ They will file confidentially, meaning that full financial disclosure won't be required until much later.
+ Now to be clear, if you're not familiar with this process, filing is only the first step in an overall process that will take several months.
+ SpaceX, for example, filed at the beginning of April and are expected to begin trading in mid-June.
+ And their 10-week sprint is absolutely on the faster end of IPO listings.
+ Sources said that Open AI has set the goal of being ready to IPO by September.
+ The journal noted that the resolution in the Elon Musk lawsuit has cleared the way.
+ Although unlikely, it was possible that that lawsuit could have unwound Open AI's for-profit conversion, sending them back to the drawing board on the IPO.
+ Open AI's newfound haste could change the IPO race pretty significantly.
+ Up until now, it seemed like Anthropic might get out first with their reported target of October.
+ But Anthropic is said to be putting together one last private round, meaning it's unlikely they'll be able to move out their timeline to match Open AI.
+ When I was doing my 2026 predictions, one that very clearly I will get wrong was I thought that ultimately Anthropic and Open AI would not go public this year
+ based on just what a pain public markets can be when you're trying to move fast, as well as the seemingly endless amount of funding in the private markets.
+ But the circumstances have clearly changed, the constraints on compute are even greater than I had imagined,
+ and so public market access is looking even more important than it might have just a couple of months ago.
+ Now there's an interesting question on whether the sequence actually makes sense.
+ I tend to be in the camp that there is going to be effectively infinite bids for both of these companies,
+ but the one interesting wrinkle is that if you think these IPOs could actually stretch public market liquidity,
+ which isn't totally inconceivable given the trajectory that they're on, there could be some disadvantage in going last.
+ Frankly, the fact that the SpaceX IPO is now not a referendum on Grok,
+ but is going to be much more about Elon settling into this new role as the hereditary Earl of compute,
+ I actually think makes it much more exciting for public market investors than it was just literally two weeks ago.
+ Bloomberg's Conor Sand wrote,
+ The same day that it's reported Open AI wants to IPO as soon as September,
+ we get a Wall Street Journal story with updated impressive anthropic financials.
+ Doesn't seem like a coincidence.
+ I like the game theory of three one to two trillion dollar companies all about to IPO,
+ trying to beat each other to the liquidity window,
+ and public market investors thinking about the impact on their holdings.
+ Should make for an interesting summer.
+ Over in policy land, the major labs have been read in on a new AI executive order that could arrive by the end of the week.
+ The information reports that the White House's office at the National Cyber Director held a briefing on Tuesday to discuss the contents of the order.
+ Sources said that CEOs from Open AI, Anthropic, and Google were among those in attendance.
+ Sources also said that the president could sign the order as soon as Thursday.
+ There's no news as of the time of recording,
+ but of course I'll cover it on tomorrow's show if that signing happens.
+ Now, there has been a lot of back and forth around what exactly a new AI executive order would include.
+ This one is reported to be aiming at establishing a voluntary framework for disclosure and testing of new advanced models.
+ The White House's proposal appears to be that models should be shared with the government 90 days ahead of release.
+ The labs are reportedly pushing for a much shorter timeline,
+ with one source stating that the labs want to share their models just 14 days prior to release.
+ A longer timeline could obviously be an issue for the labs.
+ It's been less than two months since the first rumors of mythos emerged, and that feels like an eternity in this industry.
+ A 90-day review period could pretty significantly slow down the release cadence for the major labs,
+ which has implications for their ability to iterate quickly, correct issues, etc.
+ Now, currently the rumors suggest that the government review will be voluntary and a relatively minor part of the plan,
+ but the executive order is also expected to instruct the Pentagon to harden critical systems within 30 days.
+ In addition, the Treasury will be instructed to establish an AI clearinghouse,
+ which partners frontier labs together with critical industries to find and patch vulnerabilities ahead of new model releases.
+ Details of how the vetting process will work are far more vague.
+ It seems like about half a dozen agencies are going to be collaborating to create a definition of frontier models,
+ as well as to create a classified benchmarking process.
+ Rumors state the NSA will be given responsibility for model testing,
+ placing the framework squarely within the national security portfolio.
+ Preparation of the framework will be given a 60-day time horizon,
+ so we're unlikely to see model releases going through the new process until the end of the summer.
+ Based on the rumors, it seems to me that the administration is less concerned with delaying or restricting model releases,
+ instead focused on establishing formal protocols for preparedness.
+ Functionally, it feels a lot like Anthropics' project Glasswing,
+ i.e. the way that they've rolled out mythos, is just becoming a formal part of government policy.
+ Now of course, sources noted that the situation is still fluid and the draft order is subject to change.
+ They also emphasized strong collaboration from the AI labs in dialing in the details.
+ With one source telling Politico, everybody's involved.
+ That's why it's been on the table and off the table and on the table and off.
+ It does seem like it's getting more real, however.
+ Reports are that basically every big tech CEO has been invited to the White House for the signing,
+ so we'll see who actually shows up and if it actually happens.
+ One interesting story around the compute crunch.
+ I mentioned this briefly before, but a new offering from OpenAI promises to lock in the supply of AI
+ for rapidly scaling enterprise customers.
+ The program is called OpenAI Guaranteed Capacity,
+ and it allows firms to make one-to-three-year commitments in return for discounts and certainty for critical workflows.
+ The new structure makes AI billing look a lot closer to cloud than to SaaS.
+ Enterprises will commit to long-term budgets which can be drawn down across various services
+ rather than topping up accounts at the end of the month.
+ This obviously helps firms get a better handle on their AI budgets,
+ which has become one of the biggest challenges for executives this year.
+ In April, Uber CTO made headlines when they said they had burned their entire annual token budget in just four months.
+ Meanwhile, Box's Aaron Levy says that the problem has been kicked to the CIOs and CFOs,
+ with token strategies becoming a hot topic.
+ There is also an implicit benefit here if OpenAI hits capacity constraints.
+ Enterprise customers will presumably be able to nominate critical workflows to receive guaranteed service
+ without interruptions, which feels close to uptime guarantees provided by cloud services.
+ Wrote Sam Altman,
+ customers are increasingly asking us for certainty on capacity.
+ As models get better, we expect that the world will be capacity constrained for some time.
+ It also helps us plan, so hopefully a big win-win.
+ For now, OpenAI seems to have enough GPUs,
+ but as I've said before, that does not strike me as a likely permanent state.
+ And by the way, as a side benefit,
+ this gives some pretty rock solid ARR numbers heading into an IPO.
+ Now, one of the ways that companies are looking to handle compute constraints is more efficient models.
+ And I actually wanted to circle back to Cursor's new Composer 2.5 model
+ as something that has made some major gains on that front.
+ According to artificial analysis, it is now in third place on their coding agent index.
+ It's behind Opus 47 on Max and GPT-55 on Extra High,
+ but ahead of both Opus 47 and GPT-55 on their medium settings.
+ What's more, according to artificial analysis,
+ it is 10 to 60x lower cost than the higher effort of 47 and GPT-55,
+ which could make it a serious contender
+ as cost and token efficiency become one of the biggest constraints for the enterprise.
+ And one last story on compute.
+ OpenAI is now offering 2 million in tokens
+ to every Y Combinator startup in the current batch in exchange for equity,
+ which I think is less like free AWS credits,
+ and at this point is actually more like headcount cash.
+ Another boss many writes,
+ I can't wait to see what's unlocked when you let the most driven,
+ creative and formidable founders token max.
+ All men seem to agree writing,
+ I'm excited to see what will happen with token maxing startups,
+ both how they work internally and the products they can build.
+ Good time to be in YC,
+ but for now that's going to do it for the headlines.
+ Next up, the main episode.
+ One of the most important AI questions right now isn't who's using AI,
+ it's who's using it well.
+ KPMG and the University of Texas at Austin just analyzed
+ 1.4 million real workplace AI interactions
+ and found something surprising.
+ The highest impact users aren't better prompt engineers,
+ they treat AI like a reasoning partner.
+ They frame problems, guide thinking, iterate and push for better answers.
+ And the good news, these behaviors are teachable at scale.
+ If you're trying to move from AI access to real capability,
+ KPMG's research on sophisticated AI collaboration is worth your time.
+ Learn more at kpmg.com slash us slash sophisticated,
+ that's kpmg.com slash us slash sophisticated.
+ Today's episode is brought to you by Robots and Pencils,
+ a company that is growing fast.
+ Their work as a high growth AWS and Databricks partner
+ means that they're looking for elite talent
+ ready to create real impact at velocity.
+ Their teams are made up of AI native engineers,
+ strategists and designers who love solving hard problems
+ and pushing how AI shows up in real products.
+ They move quickly using RoboWorks,
+ their agent acceleration platform,
+ so teams can deliver meaningful outcomes in weeks, not months.
+ They don't build big teams, they build high impact nimble ones.
+ The people there are wicked smart with patents,
+ published research and work that's helped shaped entire categories.
+ They work in velocity pods and studios
+ that stay focused and move with intent.
+ If you're ready for career defining work
+ with peers who challenge you and have your back,
+ Robots and Pencils is the place.
+ There are open roles at robotsandpencils.com
+ slash careers that's robotsandpencils.com slash careers.
+ You know assembly AI for having the most accurate streaming
+ speech to text out there,
+ but they just want to step further
+ and launch a full voice agent API.
+ The idea is simple.
+ One connection and they handle everything.
+ The listening, the thinking, the speaking.
+ You just stream audio in and get your agent's voice response back.
+ We're talking about things like outbound sales calls
+ that actually qualify leads,
+ customer support that handles complex requests
+ without a script, scheduling agents that sound like a human assistant
+ and you can build one in five minutes with one API.
+ And importantly, their streaming model is the best at catching
+ all the stuff that breaks on other voice agents,
+ things like phone numbers, emails, names and medical terms.
+ And for those of you who are still in experimentation mode,
+ there are no contracts and unlimited concurrency
+ so you can actually test it out without any friction.
+ Head to assemblyai.com slash brief
+ and try the live voice agent demo right there on the site.
+ No sign up needed.
+ Here's a harsh truth.
+ We're probably spending thousands or millions of dollars
+ on AI tools that are being massively underutilized.
+ Half of companies have AI tools,
+ but only 12% use them for business value.
+ Most employees are still using AI to summarize meeting notes.
+ If you're the one responsible for AI adoption at your company,
+ you need Section.
+ Section is a platform that helps you manage
+ AI transformation across your entire organization.
+ It coaches employees on real use cases,
+ tracks who's using AI for business impact
+ and shows you exactly where AI is
+ and isn't creating value.
+ The result? You go from rolling out tools
+ to driving measurable AI value.
+ Your employees move from meeting summaries
+ to solving actual business problems,
+ and you can prove the ROI.
+ Stop guessing if your AI investment is working.
+ Check out Section at sectionai.com
+ that's S-E-C-T-I-O-N-A-I dot com.
+ Welcome back to the AI Daily Brief.
+ Today we are discussing a set of news
+ that I think in many people's estimation
+ has actually reset their sense
+ of where we are when it comes to AI.
+ Anthropic has been surging for a while now,
+ but after this week's news,
+ it is not unreasonable to ask
+ whether we've entered some new end game.
+ The first story dropped on the same day as Google I.O.
+ and was certainly for the AI builder
+ and insider community much more
+ significant than anything that happened at the event.
+ On Tuesday morning,
+ renowned AI researcher Andre Karpathy,
+ one of the founding team members of OpenAI,
+ announced that after a couple of years
+ of being solo, he would be joining an AI lab once again.
+ Except this time, it was Anthropic.
+ Personal update Andre tweeted,
+ I've joined Anthropic.
+ I think the next few years at the frontier of LLMs
+ will be especially formative.
+ I'm very excited to join the team here and get back to R&D.
+ I remain deeply passionate about education
+ and plan to resume my work on it in time.
+ So for those who aren't familiar,
+ let's do a quick background on Andre.
+ Like I said, he was initially one of the founding members
+ of OpenAI way back in the day
+ when it was just a nonprofit with a dream.
+ Later though, he was lured away by none other than Elon Musk.
+ In recently released documents that were part of the court case,
+ we get an email from Elon to Tesla's Jim Keller that reads,
+ Just talked to Andre and he accepted joining
+ as director of Tesla Vision.
+ So anyone working on neural net software would report to him.
+ Andre is arguably the number two guy in the world
+ in computer vision after Ilya.
+ The OpenAI guys are going to want to kill me,
+ but it had to be done.
+ Then in 2022, however, Andre came back to OpenAI
+ and was there through the pivotal early chat
+ period, finally leaving again in mid 2024,
+ as part of the executive exodus that happened
+ in the wake of the Sam Altman firing and rehiring.
+ At the time, Andre announced that he was going to be starting
+ an AI education company called Eureka Labs.
+ Writing that with the progress that had recently come
+ in generative AI, the ability to design a totally
+ different type of educational experience
+ was right there waiting to be seized.
+ Over the last couple of years though,
+ we didn't really hear much about Eureka Labs,
+ but Andre never left the conversation.
+ You might have heard about him on this show
+ as the person who coined the term vibe coding
+ back in February of 2025.
+ There's a new kind of coding I call vibe coding,
+ he wrote, where you fully give in to the vibes,
+ embrace exponentials, and forget that the code even exists.
+ Now, recently, there were some interesting indications
+ that Andre might be getting antsy about his position
+ outside of the arena.
+ When V.C. Saragwo asked what she should ask Andre
+ on her upcoming podcast conversation with him
+ back in March, OpenAI's Noam Brown wrote,
+ why is he not at a frontier AI lab
+ at the most pivotal time in human history
+ since at least the Industrial Revolution?
+ And one of the things he said in that conversation
+ was basically that anyone outside the labs
+ would inevitably start to drift away from the frontier.
+ So with those tea leaves,
+ perhaps the move was in retrospect telegraphed,
+ but the choice of Anthropic hit people
+ with the force of a freight train.
+ By the way, Noam Brown to his great credit
+ classily retweeted Andre's announcement post saying,
+ I would have loved for him to rejoin OpenAI
+ but I'm happy he's at any frontier lab
+ pushing the field forward.
+ It's easy to frame this as zero sum among the labs,
+ but in truth, we're collectively advancing
+ the most important tech of our era.
+ However, for lots of folks that was not the main take away
+ and the zero sum thinking was exactly where they were headed.
+ Capturing my feelings, Signal wrote,
+ this is bigger news than Google I.O.
+ Aish wrote, worth noting,
+ Yann Leakey left OpenAI for Anthropic,
+ John Shulman left OpenAI for Anthropic,
+ now Carpathie, that's a serious pattern.
+ Anthropic isn't just building good AI products anymore,
+ they're assembling an absurd research bench.
+ Signal again wrote,
+ this is like a leading franchise recruiting someone
+ who's simultaneously the best player and
+ the league's best broadcaster and its most watched
+ developmental coach all in one.
+ In terms of what Andre is doing,
+ Nicholas Joseph from Anthropic wrote,
+ excited to welcome Andre to the pre-training team.
+ He'll be building a team focused on using
+ Claude to accelerate pre-training research itself.
+ I can't think of anyone better suited to do it
+ looking forward to what we build together.
+ Now what makes this interesting is that
+ this idea of recursive research is something
+ that Andre's been talking about a lot recently.
+ Back in March we talked about his approach to
+ auto research, where AI agents do a research run
+ in a continuous loop as something that was
+ both demonstrative of as well as advancing
+ this loop type pattern that we were starting
+ to see spring up in agent work all over the place.
+ And for some of the more sophisticated observers,
+ this was less about any horse race dynamics
+ and much more a statement about how close we were
+ to what's referred to as recursive self-intelligence
+ where the AI actually does the research that improves the AI.
+ TMT long short wrote,
+ seeing concern now that this Carpathie move
+ indicates Anthropic already won and is therefore
+ bearish for the other labs.
+ My take is this indicates that we are close to RSI
+ and therefore an acceleration in Model IQ increases.
+ He then went on to talk about some of the market implications.
+ In that scenario the value of compute is going to explode
+ as supply chain scale-ups are linear
+ while demand creation is non-linear.
+ Anyone with compute is sitting pretty regardless
+ of lab talent.
+ Full stop, every GPU will explode in value.
+ If you can run a million von Neumann in a data center
+ we will quickly have AI inventing use cases
+ for token consumption faster than we can supply them.
+ New fields of science, reverse aging, the gunosphere,
+ it all gets pulled forward and it will all require compute.
+ Shanu Mathew wrote, I had a similar initial read.
+ This is a move you do to try and accelerate
+ to the end game at this point in the cycle.
+ RSI must be in sight for the labs,
+ at least they believe so they are locking in talent
+ and compute as necessary to take that final sprint.
+ Altimeters Frida Dwan had an interesting take
+ about whether we might start to see a break in the pattern
+ where each of the labs takes its turn
+ being at the state of the art for a few weeks
+ before the next lab comes in
+ and pushes things forward again.
+ Frida wrote, We're used to state-of-the-art
+ rotating every few months.
+ One lab pulls ahead and other catches up.
+ Gemini was state-of-the-art literally two quarters ago.
+ Feels like ages.
+ But RSI, recursive self-improvement,
+ could change the competitive dynamics.
+ When anthropics Dario Amade was on Dwarkesh's podcast
+ back in February, Dwarkesh challenged him.
+ If recursive improvement is real,
+ why does state-of-the-art keep rotating between labs?
+ Dario's answer was that, until very recently,
+ the compounding advantage from AI-assisted AI research
+ was still too small to matter, but it's changing.
+ Since January and February,
+ I've heard more and more researchers talk about RSI.
+ The idea is simple.
+ You build a better AI,
+ that AI helps you build the next better AI,
+ and the loop starts compounding.
+ It also explains part of the current token-maxing dynamic.
+ Big companies spending billions of dollars on Claude Coe
+ just to keep up.
+ And it helps explain the rumors that open AI and Google
+ are reorganized around coding as the top priority.
+ Once that loop crosses a certain threshold,
+ it starts to look like a true industrial revolution.
+ Horses were never going to catch up with cars.
+ And for some, this shift is now a foregone conclusion.
+ Layton Spaces' Swix writes,
+ RSI is here. Jesus.
+ Anthropic, though, is not done shocking the industry.
+ Wall Street got their hands on recent financials
+ that were given to investors in the current fundraising round
+ that show not only that Anthropics numbers continue to grow,
+ but that they're actually expecting to turn a profit this quarter.
+ Anthropic is currently forecasting $10.9 billion in revenue for Q2
+ and an annualized rate of $44 billion.
+ Last quarter, Anthropics closed the books with $4.8 billion in revenue.
+ They also expect a small operating profit of $559 million.
+ Now, this isn't just a first for Anthropic.
+ It's the first profitable quarter for any foundation lab.
+ Coming into this year, Anthropics had forecast
+ that they wouldn't be profitable until 2029
+ while open AI wasn't expecting profitability until 2030.
+ Now, there are a few caveats and provisos here.
+ Anthropics, for example, has a slightly different accounting process
+ than, for example, open AI, where reports are that they count
+ top-line revenue before partner shares as Anthropic revenue,
+ which potentially inflates the total number
+ that actually makes it into Anthropics coffers.
+ And honestly, maybe the bigger asterisk is,
+ they probably wouldn't be profitable if they had their druthers.
+ In other words, part of why they are profitable
+ is that Compute is so sold out
+ that they couldn't spend more even if they wanted to.
+ Still, frankly, this pretty dramatically challenges the math once again
+ for AI skeptics.
+ This year's shifted goalpost as revenue has grown
+ was that even if revenue was growing,
+ profitability at this scale was basically impossible.
+ One of the loudest AI skeptics
+ literally wrote a post to this effect this week.
+ For others who aren't pot-committed to their skeptical position, however,
+ this moment is a bit of a reset in expectations.
+ Journalist Derek Thompson wrote,
+ Anthropic just had a profitable quarter
+ at a $44 billion annual run rate
+ with a fairly enormous compute shortage
+ that's forced them to ration service and push some customers,
+ perhaps just in the short term, into the arms of competitors.
+ I don't think it's crazy to think their annual revenue
+ would be $100 billion or more with sufficient compute for inference.
+ Mr. Radable, in an ironic tweet,
+ pointed out that it absolutely in no way makes sense
+ to think about Anthropic as some startup anymore,
+ that these numbers are massive not on a startup scale
+ but on a company scale in general.
+ He tweeted,
+ On a recent podcast appearance, Gavin Baker
+ made the point that an uncompute constrained Anthropic
+ could do even more than $100 billion.
+ Reflecting on the difference between the telco bubble back in the late 90s
+ and the infrastructure buildout today,
+ Back then, supply could largely keep up with demand
+ because there was massive underutilized wafer capacity
+ coming out of the 1998 Asian crisis that could ramp quickly.
+ The relatively quick supply response led to an overbuild
+ which caused the crash as the overbuild was largely debt funded
+ which required an immediate ROI for the clerks to service their debt.
+ There is no comparable slack in the system today.
+ Leading edge wafers in power are both structurally constrained
+ and neither can be turned on in a matter of months.
+ That's the core difference in my opinion
+ and obviously the largest buyers of Compute
+ will have no trouble servicing their debt anytime in the near future.
+ Now coming in over the top to reinforce these points
+ was NVIDIA's Wednesday night earnings
+ which delivered a record quarter and beats across the board.
+ Revenue came in at $81.6 billion beating estimates of $78.9 billion
+ and earnings per share also outperformed
+ coming in at $187 per share ahead of estimates of $167.
+ Data center revenue grew at a 92% pace
+ which was up 21% on the quarter.
+ This is the first quarter we've seen blackwell revenue
+ firing on all cylinders and it's a return to form for NVIDIA.
+ This earnings call felt similar to the mind-boggling period in 2024
+ when Jensen Huang presented earnings to a stadium full of investors.
+ It's also the first time that NVIDIA has separated out
+ data center revenue between hyperscalers and other customers.
+ 46% of revenue came from hyperscalers
+ growing 12% quarter over quarter
+ with NVIDIA also saying that they are gaining market share
+ among the hyperscalers
+ putting to bed the idea at least for now
+ that Google's TPUs are somehow eating into NVIDIA's lead.
+ Bloomberg presented this as the earnings call
+ that silences skeptics and reinforces that AI is going mainstream.
+ In a statement, Jensen said,
+ Build out of AI factories,
+ the largest infrastructure expansion in human history
+ is accelerating at extraordinary speed.
+ Agenetic AI has arrived
+ doing productive work, generating real value
+ and scaling rapidly across companies and industries.
+ NVIDIA is uniquely positioned at the center of this transformation
+ as the only platform that runs in every cloud,
+ plowers every frontier and open source model
+ and scales everywhere AI is produced.
+ Compounding how dramatic the growth is
+ Huang reinforced that NVIDIA is selling zero chips in China
+ and doesn't expect to return to that market in a meaningful way.
+ In a side interview with CNBC, he said,
+ The demand in China is quite large.
+ Huawei is very, very strong. They had a record year.
+ They'll likely, very likely have an extraordinary year coming up
+ and their local ecosystem of chip companies are doing quite well
+ because we've evacuated that market.
+ We've really largely conceded that market to them.
+ And although NVIDIA squeezed the spotlight for a moment,
+ Huang couldn't avoid discussing Anthropic.
+ This year he said we had the benefit of winning Anthropic.
+ We're helping them scale capacity
+ so they could have more reach, more revenues and grow their company.
+ With Anthropic, we're scaling very, very quickly.
+ We've got big plans for them.
+ Surprisingly though, the stock plunged by 3%
+ in after-hours trading despite the incredibly strong report.
+ Analyst Patrick Morehead had this to say about that.
+ On the stock reaction, he wrote,
+ The challenge with NVIDIA at a 5 trillion plus market cap
+ is that investors do not know how to deal with it.
+ If you take Jensen's 1 trillion forward demand pipeline
+ from GTC at face value, this is an 8 or 9 trillion dollar company.
+ People are afraid to move even on exceptional earnings.
+ In other words, we are simply in uncharted waters.
+ And still somehow after all of this,
+ Anthropic was not done for the week.
+ It was a huge deal recently
+ when a new alliance between Elon Musk's SpaceX and Anthropic
+ made headlines with Elon announcing
+ that Anthropic would be using the Colossus-1 data center
+ to expand Anthropic's compute capabilities.
+ On Wednesday, however,
+ Anthropic Chief Compute Officer Tom Brown
+ announced that that partnership would be deepening
+ with Anthropic scaling up GB200 capacity in Colossus-2 throughout June.
+ Colossus-2 is a much larger data center than the original Colossus
+ and very quickly it's beginning to look like a significant portion
+ if not all of Elon's short-term compute resources
+ are being poured into scaling Anthropic.
+ Separately, the SpaceX IPO filing has revealed
+ just how much Anthropic is paying to take over Colossus.
+ The filing said Anthropic had agreed to pay 45 billion over 3 years.
+ That's about 1.25 billion a month or around 15 billion a year.
+ Capacity will begin ramping over May and June at a reduced fee
+ and the deal instantly makes Colossus the biggest revenue generator for SpaceX
+ overtaking Starlink's 11 billion in 2025.
+ Just this contract alone adds 80% to SpaceX revenue based on last year's figures
+ and that's not even considering the new contract for Colossus-2
+ which should add substantially more to the top line.
+ It is entirely possible that Claude will quickly overtake the Tesla Model 3
+ as the single biggest revenue driver in Elon, Inc.
+ Musk, for his part, clearly understands that he is now in the Anthropic business
+ and is settling quite quickly into his role as Compute ZAR.
+ He tweeted,
+ Signal reflected on the impact for OpenAI, calling it really really bad news for them
+ because, quote,
+ Still for most, it was just a capstone.
+ On a massive moment of AI acceleration, investor in Bloomberg opinion columnist Connor Sen wrote,
+ Just a headspinning amount of news, but that is going to do it for today's AI Daily Brief.
+ Appreciate you listening or watching as always.
+ Until next time, peace.
