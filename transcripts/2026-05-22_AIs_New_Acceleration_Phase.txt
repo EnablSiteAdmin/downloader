@@ -1,0 +1,706 @@
+ Today on the AI Daily Brief, a week of surprise AI acceleration.
+ The AI Daily Brief is a daily podcast and video about the most important news and discussions
+ in AI.
+ All right, friends, quick announcements before we dive in.
+ First of all, thank you to today's sponsors, KPMG, Super Intelligent, Section, and Zen
+ Coder.
+ To get an ad-free version of the show, go to patreon.com slash AI Daily Brief, or
+ you can subscribe on Apple Podcasts.
+ If you want to learn more about sponsoring the show, send us a note at sponsorsataidealybrief.ai.
+ Also at aidealybrief.ai, you can find out about all the other things we have cooking.
+ One specific one to note is that Cohort 3 of Enterprise Claw is closing very soon, so if
+ you are interested in that, check that out at enterpriseclaw.ai.
+ Now, this week, once again, we are using this Friday episode to do a bit of a recap.
+ And I think that this week it's particularly relevant in the sense that some weeks, the
+ big stories represent so obvious a change that it barely needs to be point out how
+ much has shifted.
+ But this week was instead a week of surprising AI acceleration, where the individual
+ stories add up to a whole that is much more than the sum of the parts and where we
+ can feel almost more than intellectually recognize the acceleration all around us.
+ Now, when I'm discussing acceleration, I'm going to refer to it in a lot of
+ different contexts.
+ There's model development acceleration, policy acceleration, business redesign
+ acceleration, and more.
+ But where I want to start is with profitability acceleration and the
+ corresponding acceleration in market sensibility.
+ One of the huge stories from this week is that Anthropik expects to have
+ its first ever profitable quarter.
+ And of course, this is not just Anthropik.
+ This is the first ever profitable quarter for any AI lab.
+ Now, there are some caveats.
+ First of all, the quarter is not done yet, so this is projections
+ not realized revenue.
+ Second, there are, as we've mentioned before, questions around how
+ Anthropik recognizes revenue, specifically around the idea that they
+ count pure top-line revenue before partner distributions, even for
+ established rev-share deals.
+ And three, they are, as we learned, given other information revealed around
+ their partnership with SpaceX, getting access to certain amounts of
+ compute for the next couple of months at a discount.
+ And yet, I think for most people, those are all relative quibbles with
+ the overall idea, which is a resetting of expectations around just how
+ much money these labs can make.
+ The bubble narrative at the end of last year was all about the idea
+ that we were going to overbuild compute infrastructure as agents
+ started consuming massive amounts of tokens at the beginning of
+ this year.
+ The bubble narrative to the extent there still was one was instead
+ about the idea that the big labs were never going to be able to
+ serve these tokens profitably.
+ And so the fact that Anthropik is doing so, even if it's with a few
+ ups from their partners at SpaceX, to most honest viewers, has an
+ impact in changing the way that they think about the acceleration
+ of business model development in the AI sector.
+ And by the way, while they're not profitable yet, open AI also had
+ a banger of a first quarter.
+ In fact, they generated about a billion dollars more in revenue
+ than Anthropik in Q1, although revenue acceleration for
+ Anthropik has since outpaced that.
+ But one of the big boost for open AI's revenue was, of course,
+ token hungry codecs.
+ And it wasn't just these startups that were absolutely
+ crushing.
+ NVIDIA also had a massive quarter, beating basically
+ every analyst's expectation, although at this point we're
+ in such uncharted waters that it feels like the market
+ doesn't quite know what to make of them.
+ Quoting Patrick Moorhead again in the same quote that I used
+ a couple of days ago, but one which I think bears
+ repeating, the challenge with NVIDIA at a 5 trillion plus
+ market cap is that investors do not know how to deal with
+ it. If you take Jensen's one trillion dollar forward
+ demand pipeline, this is an eight to nine trillion
+ dollar company.
+ People are afraid to move even on exceptional earnings.
+ And while I think he's absolutely right about that,
+ I also think that increasingly the market is gearing up
+ for full send mode when it comes to AI.
+ Now, deeply corresponding with the acceleration of business
+ models and market expectations, we also got an acceleration
+ in the shift away from one pricing paradigm to another.
+ Many folks including me on this podcast have framed this
+ as the end of the subsidy era of AI and the beginning
+ of the trade off era, where the introduction of token
+ hungry agents means that flat rate plans that subsidize
+ the most active users are no longer economically viable,
+ even a little bit.
+ One of the interesting small stories from Google I.O.
+ this week was their quote unquote price cut on their
+ ultra plan from $250 a month to $200 a month, which
+ actually when you dug into it came along with a shift
+ to usage based billing for certain types of token
+ hungry use cases.
+ This was not at all dissimilar to what everyone got
+ so worked up about with Anthropic last week.
+ Although in this case, Google was pushing usage based
+ pricing even in their own harnesses like anti gravity,
+ whereas at least for the moment, Anthropic is still
+ trying to subsidize you when you're doing things
+ specifically through Claude code or Claude co-work.
+ And speaking of Anthropic and the shift to usage
+ based pricing, much was made of Microsoft canceling
+ its Claude code licenses this week, with at least
+ part of the reasoning being a cost consideration.
+ Now there are also reports that this is about
+ creating an incentive to get GitHub co-pilot up
+ to snuff as tools like Claude code and codex
+ just absolutely eat its lunch.
+ But I don't think that the token cost issue is just a front.
+ As hedgy markets put it, token based pricing is forcing
+ every enterprise customer to confront the actual cost
+ of running these models at scale.
+ And the number turns out to be far higher
+ than the flat rate experiments suggest.
+ By the way, for those who are still on Claude code
+ and adapting to new usage based paradigms,
+ the Anthropic team did announce
+ that you could now run slash usage to see a breakdown
+ of where your tokens were being consumed,
+ specifically which skills agents, MCPs or plugins
+ were being the biggest token hogs.
+ Now in this new paradigm, everyone is shuffling
+ and jockeying for position in narrative space.
+ I discussed already the mixed messaging from Google IO
+ where I thought based on the entire corpus of communications
+ that they were really emphasizing the speed of 3.5 flash
+ over the price, given that it was so much more expensive
+ than previous flash versions
+ and actually pretty comparable prices to the medium levels
+ of the state of the art models like 55 and 47.
+ But on the main stage, they did try to pitch their tools
+ as a way that big enterprises could save billions of dollars.
+ Meaning that they are aware of this new token shortage
+ even if 3.5 flash itself isn't necessarily the answer.
+ And speaking of answers,
+ I also think that part of the acceleration this week
+ is that you're not just seeing a recognition
+ of the subsidy era ending,
+ but companies moving to fill in the gap.
+ Cursor introduced Composer 2.5,
+ a seemingly very high performing coding model
+ and artificial analysis found that it performed
+ at a very comparable level to Opus 47 and GPT55,
+ a little ahead of them on their medium settings
+ and a little below them on extra high and max settings.
+ But it did all that at 10 to 60x lower cost.
+ Now, if more efficient models are one part of the answer,
+ the other is getting access to more compute.
+ And one of the other accelerations we saw this week
+ without a doubt was Elon Musk
+ fully settling into his shifted role as AI Computes are.
+ On Wednesday, he tweeted,
+ as the recently expanded partnership
+ with Anthropic AI demonstrates,
+ SpaceX is offering AI compute as a service
+ at significant scale.
+ We're in discussions with other companies to do the same.
+ Over time, especially with orbital data centers,
+ we expect to serve AI at extremely high scale.
+ This was more than just talk.
+ Anthropic's chief compute officer, Tom Brown,
+ announced that the company
+ was expanding their partnership with SpaceX,
+ starting to scale up not only on Colossus 1,
+ which we already knew about,
+ but also on the Colossus 2 data center.
+ Not only does this have implications for Anthropic
+ and their ability to serve their big models,
+ as well as open AI
+ and what they're dealing with
+ from a competitive perspective,
+ but I think this is going to significantly
+ increase interest in the SpaceX IPO.
+ When SpaceX was playing the role
+ of weird amalgamation home
+ for all of Elon's random projects,
+ I tended to think that the IPO
+ was going to be a referendum on Elon
+ more than anything else.
+ Now that they're actually starting
+ to position themselves in this role
+ as almost an alternative neocloud
+ with a unique possibility
+ of actually opening up more compute
+ by moving into space,
+ which is obviously something
+ the other neoclouds can offer.
+ All right, folks, quick pause.
+ Here's the uncomfortable truth.
+ If your enterprise AI strategy
+ is we bought some tools,
+ you don't actually have a strategy.
+ KPMG took the harder route
+ and became their own client zero.
+ They embedded AI and agents
+ across the enterprise,
+ how work gets done,
+ how teams collaborate,
+ how decisions move,
+ not as a tech initiative
+ but as a total operating model shift.
+ And here's the real unlock.
+ That shift raised the ceiling
+ on what people could do.
+ Humans stayed firmly at the center
+ while AI reduced friction,
+ serviced insight
+ and accelerated momentum.
+ The outcome was a more capable,
+ more empowered workforce.
+ If you want to understand
+ what that actually looks like
+ in the real world,
+ go to www.kpmg.us slash AI.
+ That's www.kpmg.us slash AI.
+ It is a truth universally acknowledged
+ that if your enterprise AI strategy
+ is trying to buy the right AI tools,
+ you don't have an enterprise AI strategy.
+ Turns out that AI adoption is complex.
+ It involves not only use cases
+ but systems integration,
+ data foundations, outcome tracking,
+ people and skills and governance.
+ My company, Super Intelligent,
+ provides voice agent driven assessments
+ that map your organizational maturity
+ against industry benchmarks
+ against all of these dimensions.
+ If you want to find out more
+ about how that works,
+ go to bsuper.ai.
+ And when you fill out the get started form,
+ mention maturity maps.
+ Again, that's bsuper.ai.
+ Here's a harsh truth.
+ Your company is probably spending thousands
+ or millions of dollars on AI tools
+ that are being massively underutilized.
+ Half of companies have AI tools
+ but only 12% use them for business value.
+ Most employees are still using AI
+ to summarize meeting notes.
+ If you're the one responsible
+ for AI adoption at your company,
+ you need Section.
+ Section is a platform
+ that helps you manage AI transformation
+ across your entire organization.
+ It coaches employees on real use cases,
+ tracks who's using AI for business impact
+ and shows you exactly where AI is
+ and isn't creating value.
+ The result, you go from rolling out tools
+ to driving measurable AI value.
+ Your employees move from meeting summaries
+ to solving actual business problems
+ and you can prove the ROI.
+ Stop guessing if your AI investment is working.
+ Check out section at sectionai.com
+ that's s-e-c-t-i-o-n-a-i.com.
+ So coding agents are basically solved at this point.
+ They're incredible at writing code.
+ But here's the thing nobody talks about.
+ Coding is maybe a quarter
+ of an engineer's actual day.
+ The rest is stand-ups,
+ stakeholder updates,
+ meeting prep, chasing context
+ across six different tools.
+ And it's not just engineers.
+ Sales spends more time assembling proposals than selling.
+ Finance is manually chasing subscription requests.
+ Marketing finds out what shipped
+ two weeks after it merged.
+ ZenCoder just launched ZenFlow work.
+ It takes their orchestration engine,
+ the same one already powering coding agents
+ and connects it to your daily tools.
+ JIRA, Gmail, Google Docs, Linear, Calendar, Notion.
+ It runs goal-driven workflows that actually finish.
+ Your stand-up brief is written before you sit down.
+ Review cycle coming up.
+ It pulls six months of tickets and writes the prep doc.
+ Now you might be thinking,
+ didn't Open Claw try to do this?
+ It did, but it has come
+ with a whole host of security and functional issues,
+ which can take a huge amount of time to resolve.
+ ZenCoder took a different approach.
+ Sock 2, type 2 certified,
+ curated integrations, tighter security perimeter,
+ enterprise grade from day one,
+ model agnostic and works from Slack or Telegram.
+ Try it at zenflow.free.
+ Now let's move on to another area
+ where this week represented the recognition
+ of some serious acceleration.
+ And this I'll call an acceleration
+ of AI's consumer surfaces.
+ Although I thought that Google's messaging
+ was a little mixed when it came to IO,
+ one thing that was very clear
+ is that AI is everywhere
+ across the Google family of user experiences
+ and people are using it.
+ The Gemini app is now up to 900 million monthly active users,
+ having effectively closed entirely the gap with ChatGPT,
+ and the growth in overall tokens processed each month
+ was even higher, jumping 700% from 480 trillion last May
+ to 3.2 quadrillion this year.
+ And I think one thing that's important to keep track of
+ when it comes to Google
+ is that as much as they're creating
+ unique new consumer surfaces for their AI,
+ they're leaning heavily on the existing distribution
+ and product suite they have
+ to integrate AI into their existing experiences.
+ Now this is nothing new in the sense
+ that we've had AI overview since Google IO 2024,
+ but for the first time,
+ Google Search will feature
+ not only AI's information consolidation capability,
+ but also its agentic capacity.
+ Google tweeted,
+ soon you'll be able to create
+ and manage multiple AI agents
+ for your many tasks right in search.
+ We're starting with information agents.
+ These agents intelligently look across everything
+ on the web, including blogs,
+ new sites and social posts,
+ plus real-time data on finance, shopping and sports
+ to surface updates related to your specific question.
+ Your agent works for you 24 seven,
+ helping you stay on what matters most to you,
+ then it'll send you an intelligence synthesized update
+ with links to learn more
+ at the right moment to help you take action.
+ I think a way to think about this
+ is that previously,
+ people had started to shift some amount
+ of their searching behavior
+ into the chatbots like chat,
+ GBT and Gemini.
+ You could kind of think about searches divided into
+ I'm looking for information
+ versus I'm looking for an answer.
+ And for those I'm looking for an answer queries,
+ chatbots were kind of a more direct way
+ than having to click through a bunch of blue links.
+ Now this is what AI overviews were supposed to solve for,
+ where they brought that answer capability
+ directly into search,
+ but the information gathering aspect of search
+ still kind of continued the way that it always had.
+ Now what you've got
+ with this agent integration with search is two things.
+ First of all,
+ Google can spin up the right sort of presentation interface
+ for your query without being constrained
+ into a preexisting format.
+ If an interactive mini app or website
+ is the right way to answer your question
+ or give you information,
+ well now with agents it can do that.
+ But what's more,
+ this is now Google recognizing
+ that another divide in the categories of search
+ is one time versus ongoing or persistent.
+ The example they give in their announcement video
+ is about a person who's looking for an apartment
+ with a particular set of criteria.
+ Previously when you were using Google search,
+ this would be a one time search.
+ I wanna see what apartment inventory
+ is available right now.
+ However, this I think is a good example
+ of where if you don't find the exact right thing
+ in that moment,
+ the search inherently becomes more persistent or ongoing.
+ And so with this new agentic capability,
+ instead of having to ask Google right now
+ what studio apartments are available that meet my criteria,
+ I can ask Google to keep me updated
+ when apartments that meet that criteria become available.
+ And all of a sudden,
+ Google search becomes a place
+ for persistent information gathering as well.
+ I actually think in many ways,
+ this could be one of the most significant things
+ that Google announced at IO.
+ For the reason that the percentage of people
+ who might be likely to stumble
+ into this sort of persistent query need
+ is a lot higher at least in the short term
+ than the number of people who are going to go seek out
+ some native AI experience.
+ Now Google is taking the same principle into other areas.
+ They also announced an update to docs
+ for example called docs live
+ where users can dictate prompts
+ and then edit to create full documents
+ using just their voice plus AI,
+ which I think is very much an acceleration
+ towards a new interaction pattern of voice first and live
+ that I think is going to come to all sorts
+ of different types of user experiences.
+ Okay, so at this point,
+ we've talked about business model acceleration,
+ token shortage acceleration
+ and consumer surface acceleration,
+ but we also got this week model capability acceleration,
+ although it is for a model
+ that we don't yet have access to.
+ This week, OpenAI announced
+ that they had used AI to make a breakthrough
+ in an 80 year old mathematics problem.
+ The problem was posed by Paul Erdos in 1946,
+ one of the most prominent figures in geometry.
+ The problem asks, if you place end points on a plane,
+ how many pairs of points can be exactly one unit apart?
+ Until now, the prevailing view has been
+ that a square grid arrangement of points was optimal.
+ This week, an internal model at OpenAI
+ disproved this conjecture.
+ The solution leveraged multi-dimensional mathematics
+ flattened down into a 2D plane,
+ producing more pairs than the grid arrangement.
+ Field's metalist Tim Gowers,
+ who wrote the companion paper said,
+ what's significant about this moment
+ is that it's the first really clear example
+ of AI solving not just an unsolved math problem,
+ but a really well-known unsolved math problem.
+ Now, a few points really stand out
+ about the way the solution was found.
+ Firstly, there's actually nothing particularly special,
+ at least nothing mathematically special about this model.
+ OpenAI researcher, Noam Brown,
+ said it was just a general purpose LLM
+ with no specific training for this problem or mathematics.
+ Finding the solution also didn't involve
+ a particularly tricky prompt.
+ The prompt was largely just a clear statement
+ of the problem with appropriate mathematical terminology.
+ Summing up the feeling of acceleration
+ that came alongside this is OpenAI's Alexander Wei,
+ who wrote, 10 months ago, I was ecstatic
+ that AI could win international math Olympiad gold.
+ Today, that excitement feels quaint.
+ Later in the same thread, Alexander writes,
+ math is a leading indicator of what is to come.
+ Soon, perhaps sooner than we all think,
+ AI will begin autonomously producing landmark results
+ in CS, physics, econ, bio, et cetera.
+ We should be prepared for a new world
+ where the nature and methods of science will have changed.
+ And indeed, this idea of AI autonomously advancing
+ was also at the heart of the biggest moment
+ of model development acceleration this week,
+ which was, of course,
+ former OpenAI co-founder, Andre Carpathy,
+ announcing that he was returning to the playing field
+ this time with Anthropic.
+ In his announcement post, Andre said
+ that the next few years at the frontier of LLMs
+ will be especially formative.
+ And what he'll be working on at Anthropic
+ is what many call RSI or recursive self-improvement
+ as Anthropics Nicholas Joseph put it,
+ Andre will be building a team focused on using clod
+ to accelerate pre-training research itself.
+ Now, of course, to anyone who's been following Andre's work
+ with his auto research experiments,
+ it won't be particularly surprising
+ that this is what he's going to work on now,
+ but the combination of him going back to work
+ with Anthropic, what he's going back to work on,
+ and his argument that the next few years
+ will be, quote, especially formative,
+ all contribute to this overall sense of acceleration
+ in a big, big way.
+ Now, one funny joke that came out
+ of the Erdos problem discussion
+ was how much energy it used to solve it.
+ Ethan Malik wrote,
+ using the best public estimates we have of LLM resource use,
+ solving this Erdos problem took between 0.6 and 6.3 kilowatts
+ of electricity and about three to 31 liters of water.
+ So that is less than three almonds worth of water
+ and the electricity equivalent
+ of two to 20 miles of EV driving.
+ The three almonds worth of water was reflective
+ of a larger accelerated conversation this week,
+ which is about data centers.
+ On the one hand, data centers as a political hot button
+ and specifically opposition to data centers
+ is accelerating in a major way right now.
+ However, alongside that particular acceleration,
+ we're also seeing an acceleration in the counter narrative
+ taking down some of the bigger critiques
+ that have been floating around
+ and poking holes in some of the most quoted reasons
+ that people are against data centers.
+ Water use was the big one from this week
+ with a chart flying around
+ showing how the annual water use of data centers
+ compares to golf courses, almonds and lawns,
+ specifically the fact less than a fifth of the water
+ used on golf courses,
+ about a 10th of the water used on almonds
+ and about a 20th of the water used on lawns each year.
+ This narrative is also finding its way into publications.
+ As are other counter narratives,
+ like a CBS affiliate in Richmond, Virginia,
+ profiling an electrician named Josh Price,
+ who talks about how, quote,
+ AI has been a huge win for him and his colleagues
+ who are building AI infrastructure.
+ Before the AI building boom,
+ it was hard to find steady work.
+ Now people don't have to leave Virginia for good jobs.
+ This is to me an extremely encouraging acceleration,
+ not because communities shouldn't be asking hard questions
+ and able to assert agency when it comes to data centers,
+ but obviously I believe that that conversation
+ is going to be better when it's based not generally
+ on a fear of AI and a hatred of big tech,
+ but instead real facts and evidence.
+ Now on the policy front more broadly,
+ we saw both a bit of an acceleration
+ and a strange back and forth
+ where an acceleration turned into a pause.
+ The acceleration came from California Governor Gavin Newsom
+ who signed an executive order aimed at preparing workers
+ for potential AI labor disruption.
+ Now the order is very clearly exploratory.
+ It directs state agencies to work with academics,
+ labor groups and AI companies on the issue
+ with those groups tasked with developing new policies
+ to deal with it, gathering data,
+ developing the ability to identify early warning signs
+ of labor disruption, as well as directing the state
+ to look at reforming things like severance standards
+ and employment insurance.
+ Now a lot of folks had very practical questions here.
+ Ramp's lead economist, Eric Harisarian writes,
+ when it comes to the idea of a dashboard
+ to track AI's impact on employment
+ across different sectors, how is this supposed to work?
+ This is a hard measurement problem.
+ State unemployment insurance systems
+ cannot identify whether a layoff was related to AI.
+ This could lead to worse policymaking regarding AI and jobs,
+ targeting the completely wrong industries and workers.
+ When some sounded a warning on this,
+ others pushed back that this was typical of Gavin Newsom,
+ that it makes his constituency happy
+ by appearing to do things
+ but doesn't ultimately actually do anything about it,
+ meaning that it's mostly all for political show.
+ I think you can take it in one of two ways.
+ One, the non-cynical way
+ that holds aside specific issues.
+ This is the governor of one of the biggest
+ and most important states in the country
+ for the first time tackling head-on
+ the potential implications of AI disruption
+ or even if one chooses to take it cynically
+ given how 100% for sure it is that Gavin Newsom will run
+ to be the Democratic nominee for president in 2028,
+ this is a preview and a test run
+ of the type of language and policy
+ that a major presidential candidate
+ is going to use vis-a-vis AI.
+ Meanwhile, when it comes to the current president,
+ it appeared for most of the week
+ that we were going to be finally getting
+ an AI executive order
+ with the information reporting
+ that a signing ceremony had been prepared
+ for Thursday afternoon
+ with the White House even sending out invitations
+ to leading tech executives.
+ Earlier in the week, a draft had started to circulate
+ with the draft order instructing the government
+ to partner with the AI industry
+ to design a safety benchmarking standard
+ for advanced AI models.
+ Under the framework, AI companies
+ would need to submit the models
+ to the government 90 days ahead of public release,
+ although reports are that industry figures pushed back
+ on the lengthy timeframe, arguing for 14 days instead.
+ In addition, the order would have established
+ public private security hardening protocols
+ led for some reason by the Treasury Department.
+ We'll get into that in a minute.
+ The information reports
+ that throughout the week,
+ White House officials were waffling their word
+ about whether the order
+ would make the review process mandatory.
+ Ultimately, the order was scuttled hours
+ before the signing ceremony was set to take place.
+ Trump told reporters at the White House,
+ I didn't like certain aspects of it,
+ so I postponed it.
+ I think it gets in the way.
+ Now, initially, it wasn't clear
+ what the cause of the delay was.
+ I saw some reports, for example,
+ that it was just that there wasn't enough time
+ to get the tech CEOs to DC.
+ But later in the day,
+ Politico reported that former AI czar, David Sacks,
+ personally intervened to block the order.
+ During a conversation with Trump rights Politico,
+ Sacks told the president
+ that companies were already cooperating
+ and that having the federal government review models
+ before their public release
+ would slow down innovation
+ and harm the U.S. and its AI race with China.
+ Some officials seemed blindsided
+ with one White House source stating,
+ he called POTUS this morning unbeknownst to anyone,
+ his own staff included, and derailed it.
+ Axios had some additional quotes,
+ with one source saying that the main reason
+ for the delay was that Trump just hates regulation
+ and that Sacks also hated it.
+ The source added,
+ the whole thing was unnecessary
+ and quote, just something doomers wanted.
+ It certainly doesn't appear to me
+ that David Sacks was able to convince the president
+ on something that he wasn't already inclined towards.
+ He went out of his way numerous times yesterday
+ to connect the issue to China,
+ said Trump, we're leading China, we're leading everybody,
+ and I don't wanna do anything
+ that gets in the way of that lead.
+ I really thought that could have been a blocker
+ and I just wanna make sure it's not.
+ During that same press briefing,
+ Trump was asked whether he discussed AI
+ with President Xi,
+ responding, I did, I discussed it.
+ He acknowledges how well we're doing.
+ He's doing well too.
+ It's the two of us, the two countries are fighting for it.
+ Other countries are way behind.
+ They're fighting for it, they want it,
+ but they're way behind.
+ My strong, strong guess is that this is not the end
+ that we will hear around.
+ This at this point fabled AI executive order,
+ but who knows what it'll say
+ if anything by the time it actually lands.
+ Like I said at the beginning,
+ in many ways the acceleration this week
+ was less in the news itself
+ and more in the feeling
+ that the implications of the news creates.
+ A regular old forthcoming AI model
+ is solving 80 year old math problems.
+ Revenue for all of these companies is skyrocketing
+ and Anthropic is defying expectations
+ by having their first profitable quarter.
+ Their leading researchers clearly think
+ we're entering a new phase
+ as someone already worth billions
+ decides they can't stay on the sidelines
+ for this next pivotal part.
+ And everywhere, the jockeying for political narrative
+ and positioning vis-a-vis AI
+ is getting more and more dramatic.
+ One thing that was really nice
+ about Google I.O. this week
+ was the willfulness with which they did not participate
+ in the AI doom cycle
+ that I talked about at the beginning of the week.
+ Instead, Google DeepMind CEO, Demis Hasabis
+ took the chance of his closing keynote
+ to frame where we are as a beginning, not an end.
+ Talking about the set of releases
+ that they had and what's upcoming,
+ he argued that they would, quote,
+ help unlock AGI's incredible potential
+ for the benefit of the entire world.
+ When we look back at this time, Demis said,
+ I think we will realize that we were standing
+ in the foothills of the singularity.
+ It will be a profound moment for humanity.
+ This technology will be a force multiplier
+ for human ingenuity
+ and usher in a new golden age
+ of scientific discovery and progress,
+ improving the lives of everyone everywhere.
+ It's a great message
+ and it's our jobs to make sure it's true.
+ For now, that's gonna do it
+ for this weekly recap on the AI Daily Brief.
+ Appreciate you listening or watching, as always.
+ And until next time, peace.
