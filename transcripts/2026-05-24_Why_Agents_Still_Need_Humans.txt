@@ -1,0 +1,585 @@
+ Today on the AI Daily Brief, the next wave of human-agent collaboration.
+ The AI Daily Brief is a daily podcast and video about the most important news and discussions in AI.
+ All right, friends, quick announcements before we dive in.
+ First of all, thank you to today's sponsors, robots and pencils,
+ Zen Coder, Assembly, and Super Intelligent. To get an ad-free version of the show,
+ go to patreon.com.ai-dailybrief, or you can subscribe on Apple Podcasts.
+ If you want to learn more about sponsoring the show or really know anything else about the show,
+ you can go to aidailybrief.ai. One thing I would point you to is the newsletter, which is back.
+ If you're ever wondering where you can find the links to all of the articles and quotes
+ and tweets and things that I reference, the newsletter is going to be your best bet for that.
+ Now today, we are doing a long read slash big think episode,
+ and we're getting in a theme that's at the core of AI operations this year.
+ Obviously, 2026 has been all about agents actually becoming real,
+ and it became real because of a combination of the model advancements at the end of last year,
+ as well as the greater focus on harnesses, i.e. the interfaces through which we interact with
+ agents. Through the combination from January till now, the way that we use AI is no longer sit
+ there, prompt it, wait for an answer, and go off and do the rest of our work.
+ Instead, increasingly, it is about spinning up or managing agents that go out and produce
+ things on our behalf. Agents that can use code to build things or solve problems,
+ even when we're not coders ourselves. And of course, the implications of this have been massive.
+ Business models are shifting as companies are no longer able to subsidize
+ the biggest power users of AI who can consume hundreds of millions or even billions of tokens
+ themselves individually in a single month. Indeed, more broadly, we are starting
+ to live inside a world of token shortage, where the total amount of AI that would be
+ consumed if it could is higher than the amount of AI that is available thanks to constraints of
+ compute. Throughout the last few weeks, we've been talking about some of these big implications,
+ but one that we haven't mentioned for a little while now is what it means for the patterns in
+ how we work. At the beginning of the year, as open clock excitement raged, it was all about
+ Mac minis and even for some Mac studios running 24 seven agents, doing everything you could
+ possibly imagine, not only automating your existing world of work, but uncovering
+ new things that were never possible before. And what was interesting in all of this
+ is that both the promise and the fear of AI, the promise of AI that would reduce how long it took
+ to do your work so you could go enjoy more leisure time, and the fear of AI that would
+ negate your value as a worker, were both very far away from the lived reality of the most
+ advanced users. In fact, instead of finishing your work day at 3pm, the more common challenge
+ was people having to force themselves to go to bed at 3am tearing themselves away from the
+ next thing they could accomplish, which was always just sitting there waiting for them.
+ Now I discussed this phenomenon in my episode, why agents make every job a startup. In that
+ episode, I introduced the concept of the infinite backlog and argued that simply put,
+ agents make it feel like for the first time, we have beaten the end boss of time. Even in the
+ assisted AI paradigm, there was a reasonable end to your work. Because you, as the user of AI,
+ simply couldn't do any more. But agents aren't you doing a thing, agents don't get tired,
+ they don't have to stop. The only reason that an agent isn't working is if you haven't given it
+ something to do. Which means that it no longer feels like there is an actual end, there was
+ always just work that you didn't give the agent. And as it turns out, the amount of work
+ to be done is not actually bounded, there was always something next. This is what I referred
+ to as the infinite backlog. What's amazing about agents is that they can do more of the
+ infinite backlog than was ever possible before. A single person can go deeper into that infinite
+ backlog than was literally ever possible, which is why it feels so incredible to build
+ things with agents that you had never dreamed of. At the same time, agents make it feel
+ like you should be able to do the entire infinite backlog. And that anything your
+ agents are not doing is because you haven't given them the tools to do it. This is a
+ very particular and new type of overwhelm that was not on most people's radars when it came to
+ the implications of AI for work. Now, one of the most interesting companies at the forefront of
+ experimentation with AI is Every. Every is part publication, part product company, part consultancy,
+ and really walks the walk when it comes to experimenting with how to run an AI native
+ company. Every CEO Dan Shipper recently wrote an essay that is effectively his version and
+ his exploration of this same phenomenon that I was looking at with the infinite backlog and
+ the agents make every job a startup episode. He called his after automation,
+ and I want to read a few excerpts right now. Dan writes, there is a paradox at the heart of AI.
+ At every, we've automated everything we can. We use codecs and cloud code across coding,
+ writing, design, customer service, and more. We alpha test all of the new models from Open AI
+ and Thropic and Google before they come out. We are writing the exponential boom in model
+ intelligence and automation as far and as fast as possible. And yet it seems like for us,
+ there's more human work to do than ever. We're a team of almost 30 people and we haven't
+ fired all of our employees in favor of agents. We haven't ditched SaaS products in favor of
+ vibe coded apps. We still hire humans to do customer service with a lot of agent assistance,
+ and we still hire human writers and editors and engineers. Our work does look completely
+ different than it used to though. We don't write code by hand anymore. If you at mention
+ someone in our Slack, it's a toss up whether you're talking to a human or an agent.
+ Managers are committing code like ICs and engineers are talking directly to customers.
+ For the last several weeks, AI has responded to 95% of my work emails.
+ In short, the future looks weird, but also familiar. The familiarity is surprising because one thing
+ CEOs, knowledge workers, and investors seem to agree on is that AI is a threat to jobs,
+ the economy, safety, and human meaning. And Thropic CEO Dario Amadei warns that AI could
+ wipe out up to half of all entry level white collar jobs. Meta just laid off 8,000 people
+ and is installing software on US employees, computers to capture mouse movements,
+ clicks, and keystrokes for a higher quality source of AI training data on advanced knowledge work.
+ Even Citadel's Ken Griffin seemed shaken, saying recently,
+ these are not mid tier white collar jobs. These are extraordinarily high skilled jobs
+ being I'm going to pick a word automated by Agendic AI. Dan then points out that all the
+ benchmarks seem to validate this set of capabilities. It seems he continues that we are
+ on the cusp of an AI smarter than any human with the autonomy to work for almost a full day
+ at a time. And yet the paradox remains. If you talk to anyone in the AI industry or to early
+ adopters outside of it, you'll hear the same thing we've noticed internally. There's more work to
+ do than ever. The big question within the industry and without is, is this just a temporary state
+ of affairs? Will the next model drop be the one to replace everyone? We watch the benchmarks
+ in sweat wondering if there's a tipping point around the corner where all of the jobs go away.
+ There's no tipping point coming where things flip and the jobs are gone.
+ The new reality is the opposite. The more we automate the more expert human work there is to do.
+ Here's why AI commoditizes the residue of human expertise, whatever can be made explicit enough
+ to train on that collapses the value of default model output and creates demand for what's different.
+ And demand for what's different is demand for human experts even as we approach artificial
+ general intelligence. Moving down, Dan discusses the two modes of working with agents.
+ The first he writes is the one the AI discourse predicted pretty well.
+ Agents as employees. These are agents you delegate work to. Some are agents that live in slack,
+ have names and jobs, and can be tagged when you want them to do something.
+ Some are agents embedded in an ongoing workflow, like customer service,
+ acting as always-on gatekeepers for repetitive tasks. The second mode is stranger and in my
+ experience more important. It is human-agent collaboration in tools like Codex,
+ ClodCode, and ClodCowork. These are not just places where you hand off work. They are becoming
+ operating systems for the work itself, where you and multiple agents use the same computer at the
+ same time to do highly complex original work that can't be done by an asynchronous agent.
+ In both of these modes, you can use AI to automate and delegate much of your work,
+ and both of these modes require you or another human in order to work well.
+ Dan then talks about the different types of employees that they have running around at
+ Every. Agent employees, he writes, are given a job and go off to produce an answer,
+ an action, a report, a draft, a triage decision without you in the loop.
+ These include coworker agents, i.e. agents you can tag in slack and ask to do work.
+ One example is Andy, their editorial team's coworker agent. Andy collects nuggets,
+ which are good ideas for stories pulled from internal slack, then turns them into digest
+ and first-pass takes that writers then use to compile the daily newsletter.
+ Embedded agents are agents that live inside a particular product's workflow.
+ Dan writes that these agents are less flexible but can be powerful for helping with repetitive tasks.
+ He points to Finn, which is an agent embedded in their customer service platform,
+ formerly Intercom, presumably, that handles a lot of their support load through chat and email.
+ Across both forms, coworker and embedded Dan continues, the pattern is the same.
+ Employee agents take over more of the stable, repeatable, well-framed layer of work,
+ but there is a lot of work that still requires a human being in the loop.
+ We've found over and over that for any kind of complex task,
+ the best way to get great work is to have an AI and a human going back and forth in the same workspace.
+ This is what Codex, Claude, Code and Co-worker for. They allow you to spin up and delegate work to
+ one or more agents across multiple chat threads. These agents have access to your computer and
+ all of your sources of data. You can see each task the agent is doing and thinking about
+ and can interrupt at any time. And you're responsible for managing the agents at the
+ start and the end of each one of their tasks, making sure it's done well and finding
+ the next piece of work to do. One of Dan's employees at every calls this the human sandwich,
+ with humans as the bread on either sides of AI's work. On one side, human sets the frame of what
+ they're trying to do and what counts as good. The AI then collapses the task into drafts,
+ searches codes, summarizing in comparison. And then the human judges and extends the work.
+ Is this good? Where does it belong? What should happen next?
+ Now what Dan points out next, and something I highly encourage you to go check out in
+ the original piece, which is of course going to be linked in the show notes,
+ is that while coding is an obvious example of this work pattern,
+ it's coming to the rest of knowledge work as well.
+ One thing I keep seeing in enterprise AI, companies hedging across every cloud,
+ every model, every framework, or paying a GSI for a pilot that never ends.
+ The teams actually shipping, they've picked a lane and they move fast.
+ That's one of the reasons I like today's sponsor robots and pencils.
+ They've gone all in on AWS. They're an advanced tier and AWS pattern partner,
+ and they ship production AI co-workers in 45 days. That's led to them doing
+ some of the more interesting work I've seen on AI co-workers.
+ And by that, I'm not talking about chatbots. I'm talking about actual
+ agentic systems that sit inside a business architecture and do real work.
+ That kind of focus matters if you're an enterprise leader trying to get something
+ real into production, or an AWS rep trying to move a customer from interested to deployed.
+ Request an AI briefing at robotsandpencils.com.
+ One conversation with robots and pencils and you'll know.
+ It is a truth universally acknowledged that if your enterprise AI strategy
+ is trying to buy the right AI tools, you don't have an enterprise AI strategy.
+ Turns out that AI adoption is complex.
+ It involves not only use cases, but systems integration, data foundations,
+ outcome tracking, people and skills and governance.
+ My company, Super Intelligent, provides voice agent driven assessments
+ that map your organizational maturity against industry benchmarks
+ against all of these dimensions.
+ If you want to find out more about how that works, go to besuper.ai.
+ And when you fill out the get started form, mention maturity maps.
+ Again, that's besuper.ai.
+ So coding agents are basically solved at this point.
+ They're incredible at writing code.
+ But here's the thing nobody talks about.
+ Coding is maybe a quarter of an engineer's actual day.
+ The rest is stand-ups, stakeholder updates, meeting prep,
+ chasing context across six different tools.
+ And it's not just engineers.
+ Sales spends more time assembling proposals than selling.
+ Finance is manually chasing subscription requests.
+ Marketing finds out what shipped two weeks after it merged.
+ Zen coder just launched Zenflow work.
+ It takes their orchestration engine, the same one already powering
+ coding agents, and connects it to your daily tools.
+ JIRA, Gmail, Google Docs, Linear, Calendar, Notion.
+ It runs goal-driven workflows that actually finish.
+ Your stand-up brief is written before you sit down.
+ Review cycle coming up.
+ It pulls six months of tickets and writes the prep doc.
+ Now, you might be thinking, didn't Open Claw try to do this?
+ It did, but it has come with a whole host of security
+ and functional issues which can take a huge amount of time to resolve.
+ Zen coder took a different approach.
+ Sock 2, Type 2 certified, curated integrations,
+ tighter security perimeter, enterprise grade from day one,
+ model agnostic, and works from Slack or Telegram.
+ Try it at zenflow.free.
+ You know Assembly AI for having the most accurate streaming speech to text out there,
+ but they just went a step further and launched a full voice agent API.
+ The idea is simple.
+ One connection and they handle everything.
+ The listening, the thinking, the speaking.
+ You just stream audio in and get your agent's voice response back.
+ We're talking about things like outbound sales calls that actually qualify leads,
+ customer support that handles complex requests without a script,
+ scheduling agents that sound like a human assistant,
+ and you can build one in five minutes with one API.
+ And importantly, their streaming model is the best at catching all the stuff
+ that breaks on other voice agents,
+ things like phone numbers, emails, names, and medical terms.
+ And for those of you who are still in experimentation mode,
+ there are no contracts and unlimited concurrency
+ so you can actually test it out without any friction.
+ Head to assemblyai.com slash brief
+ and try the live voice agent demo right there on the site.
+ No sign up needed.
+ He describes how he uses it for writing an email, for example.
+ And what he lands on and what the human sandwich implies
+ is that agents need humans in order for the work to work.
+ Now, interestingly, I noticed a couple weeks ago
+ that every had also shifted their philosophy of agents
+ in a pretty dramatic way.
+ Initially around the first blush of open-clock excitement,
+ every had basically every employee spin up their own AI agent
+ who was a replica of themselves.
+ The problem they found was that
+ the problem they found very quickly
+ was what happened when everyone had their own agent.
+ In another essay reflecting on their first set of experiments,
+ they wrote,
+ Every time an agent broke,
+ the person it belonged to had to fix it for themselves.
+ Even with a stable harness,
+ agents require maintenance to perform.
+ This was great for someone who likes tinkering,
+ the maintenance and back and forth are part of the appeal.
+ For every tinkerer, however,
+ there are a lot of people who want the benefits of an agent
+ without the obligation of having to manage and mend it.
+ What they discovered, they wrote,
+ is that rather than agents as extensions of their creators,
+ a more successful model is agents as coworkers
+ who reliably perform parts of many different people's jobs.
+ This, among other things,
+ takes the maintenance burden off of the individual.
+ They continue,
+ Imagine a shared analytics agent.
+ Everyone on the team uses it for metrics-based work,
+ and when its capabilities need to expand,
+ one person updates the agent's skills
+ and the whole team benefits.
+ In the personal agent version of the same scenario,
+ that same update has to happen across 10 different agents.
+ Team-based agents also solve a continuity problem.
+ A personal agent's value is tied to whomever trained it
+ and disappears if that employee leaves.
+ A team agent with defined capabilities
+ retains company context and knowledge,
+ acting more like a project manager, sales lead,
+ or chief of staff than a private assistant.
+ Now this maintenance was part of the reason,
+ going back to the essay we started on,
+ why agents were creating more work for humans.
+ But Dan points out that there is a second reason as well.
+ Continuing with the after-automation essay Dan writes,
+ If you look at AI's exponential trajectory over the last few years,
+ and think about how its architecture works
+ and where its powers come from,
+ you'll see clear feedback loops that create more human work.
+ AI makes yesterday's human competence cheap.
+ Language models are trained on the visible residue
+ of human competence.
+ Code, pros, images support tickets, products, specs, and more.
+ They take all of it,
+ the exhaustive successfully completed tasks,
+ and package it in a form that's available to anyone cheaply.
+ The net effect is that skills that used to be rare,
+ coding a pull request, making a YouTube thumbnail,
+ writing a newsletter,
+ are now broadly available to almost anyone.
+ Cheap competence gets rapidly adopted.
+ When the cost goes down for something previously rare,
+ supply suddenly goes way up.
+ At every, we see this all the time.
+ Operations and customer service people are writing code
+ and issuing pull requests.
+ Marketers are making YouTube thumbnails.
+ Engineers and product people are writing drafts of articles,
+ guides, and landing pages where they never would have before.
+ Abundance creates sameness.
+ Old expertise becomes commoditized.
+ Because everyone has access to the same models,
+ and the models are all based on yesterday's competence,
+ by default the models end up creating work
+ that ranges from a decent start to it's just plain slop.
+ Slop is not any one particular mistake.
+ It's not the use of m dashes or a certain sentence rhythm
+ or purple accents on a landing page.
+ Slop is visible sameness repeated ad nauseam.
+ It is what gets produced by default
+ when humans in many different circumstances
+ use the same tool,
+ trained on the same corpus without thinking too hard.
+ It's what happens when everyone has access to an expert
+ who has the same default tendencies.
+ An abundance of sameness rapidly becomes a commodity.
+ But sameness creates a demand for difference.
+ Humans Dan points out,
+ very quickly spot this sameness and want something better.
+ Demand for difference Dan argues is new demand for experts.
+ Because of the architecture of language models
+ and their broad distribution to everyone on the planet,
+ rare and valuable work must come from a human.
+ The current generation of models
+ only knows about work that has been done.
+ Humans know about what needs to be done
+ right now at this moment.
+ This is the paradox we started with.
+ Making expert work cheaper does not simply replace experts.
+ It creates more situations where expert judgment is needed.
+ In response, human experts move in two directions at once.
+ Some use AI to build systems
+ that absorb and leverage the flood of new work.
+ And some use AI to do bigger, more interesting work
+ than they could have done without it.
+ This is why, in practice,
+ AI does not eliminate expert human knowledge work.
+ It dramatically increases the volume of work being done
+ and none of that work is differentiated or valuable
+ unless a human being is involved.
+ Now the next section of the essay
+ is Dan dealing with the obvious objection of,
+ but once we get to AGI,
+ doesn't AI do all of that expert stuff
+ and planning stuff as well?
+ In other words, even if AI creates new jobs
+ because of new opportunities,
+ doesn't even better AI just do those jobs too?
+ I'm going to leave that section for you to read
+ as it's an interesting meditation on the nature of benchmarks
+ and an argument that from here on out
+ will always effectively be in this race with AI
+ where ultimately it's still is waiting for us to tell it
+ what the next most important thing to do is
+ even if it's helping us make those decisions.
+ If you're interested in a bit more tangible of an answer,
+ check out my episode on the new jobs AI will create.
+ In it, I introduce a framework I call the human premium
+ which are seven categories of value
+ that don't transfer when you remove the human.
+ Basically where even if an AI can do the thing,
+ there are reasons that humans will not want it to do the thing.
+ But where I want to zoom out to
+ is the fundamental insight and observation
+ that based now on the nearly half year
+ of everyone working deeply with agent collaborators
+ in the most AI native type of setting that you can find.
+ The patterns for how we work with agents are changing
+ but it is very much still a pattern of us working with agents.
+ So what is actually shifting about those patterns?
+ Well, one example, the one that we just heard from every
+ is that instead of every individual having their own agent
+ that is a digital embodiment of themselves,
+ they are now experimenting with more unit agents
+ than multiple people whose work interfaces with each other
+ all rely on that same agent
+ which has all sorts of benefits and synchronicity,
+ maintenance and more.
+ This is then a pattern that might be interesting
+ to explore for your own organization
+ instead of everyone independently having their own open clause
+ or agents you've spun up in clawed code
+ thinking about where the then diagrams
+ of people's work overlaps
+ and asking whether there are agents
+ that if they lived in that overlap would help even more.
+ Another area where you're seeing a maturation
+ and change in the work pattern itself
+ is around the first set of early adopters for open claw.
+ Matt Schumer recently wrote,
+ just wiped the Mac mini I had set up for open claw.
+ I'm turning it into an always on dev box
+ to use with Codex mobile.
+ Have a feeling this is going to be amazing.
+ So with open claw, the pattern was one
+ of the minimal possible interaction with your agent.
+ You put it on a Mac mini to give it access
+ to a set of tools and information
+ and then you interface with it
+ through something like telegram.
+ It used the paradigm of heartbeats
+ which are basically recurring timed reminders to itself
+ to make sure that it was continuously progressing
+ against the goals that you had set for it.
+ But if you take what Dan Shipper
+ from every set as exemplary,
+ many people have found that that level of autonomy
+ for agents wasn't actually accomplishing
+ the things that they wanted.
+ One thing that that level of autonomy
+ was good for was absolutely burning tokens
+ and as we move into this token shortage era,
+ obviously there are actual monetary costs
+ with that level of autonomy as well.
+ Matt's not the only one though
+ whose work patterns are shifting around agents
+ and harnesses like Claude Codex and Codex.
+ Nick Bauman from OpenAI recently tweeted,
+ my laptop has become a satellite device
+ since I started using Codex from my phone
+ and my Mac mini has become the home.
+ It's clunky but the end state feels
+ more like how we're going to be working
+ in the near future.
+ I'm currently running the Codex app on two devices,
+ my MacBook and my Mac mini.
+ My laptop isn't reliably connected to Wi-Fi enough
+ so I keep a Mac mini on my desk that is always connected.
+ When I kick off new threads from my phone
+ because remember a full featured Codex
+ is now in the chat GPT app,
+ Nick continues, I start them on the Mac mini.
+ When I'm working from my desk I run them there too.
+ The cool part is that I've added my MacBook
+ and Mac mini as connected devices to each other.
+ That means I can start and resume threads
+ from either device.
+ So if I'm in a meeting but want to continue
+ a thread on my laptop that was started
+ on my Mac mini I can do that.
+ What this means I have an always on Codex
+ that is accessible from my phone
+ with its own dev environment.
+ All threads are always accessible
+ from any of the three devices
+ and I can run heartbeat threads that stay on 24 seven.
+ It's a little makeshift today
+ but the shape of it feels very real to me.
+ Codex is no longer tied to whichever
+ computer happens to be open in front of me.
+ It starts to feel like something I can stay
+ connected to across whatever device I'm using.
+ Okay so zooming out again
+ we've got these early experiments
+ in autonomy with open claw
+ that maybe concluded that the managerial burden
+ of that autonomy
+ wasn't the best fit for that particular harness.
+ Meanwhile these work operating systems
+ in Codex and Claude code
+ feel a little bit closer to the right way
+ to manage the correct level of autonomy
+ for these agents as they currently exist.
+ And with advances of the UX
+ in these harnesses
+ specifically features that make them
+ more accessible from different devices
+ and on the go
+ they become less and less reliant
+ on any given device
+ and more nimble and semi synchronous.
+ Now if you listen to my episode
+ from earlier this week
+ about how to get the most out of Codex
+ the open AI author that inspired
+ the piece Jason Lu
+ was nominally giving nine tips
+ for how he gets the most out of Codex
+ but when you take a step back
+ they pretty much all come back to
+ had a better parallel process
+ and live in a state of semi synchronicity
+ with your agents
+ instead of being stuck
+ in some turn-based paradigm.
+ In other words
+ we don't want the purely turn-based paradigm
+ of assisted AI
+ where you give a prompt
+ you sit around waiting for its response
+ you review the output
+ and then you give the next prompt
+ but we also need more ability to manage
+ the mega autonomy of something like Open Claw
+ that's mostly just using heartbeats to run itself
+ with you checking in via telegram.
+ A lot of what people are then experimenting with now
+ is how to use harnesses for some middle space
+ where there's less latency between the instructions
+ and guidance that you need to give the AI
+ and the way that agents can go do that work.
+ So two experiments to consider
+ one on a personal level
+ one on an organization level
+ on the personal level
+ go check out my episode on nine tips
+ for getting the most out of Codex
+ and start to think in terms of reduced latency
+ how do you use steering features
+ and voice based input
+ to compress the space between AI doing the work
+ and you guiding the AI
+ such that you're working more synchronously
+ with your agents.
+ Then on a more organization or group level
+ look at different people's jobs
+ and try to map the overlap
+ what I called the shared space
+ in the Venn diagrams before
+ and then instead of having each person ask
+ about what an agent could do for them individually
+ see what types of tasks
+ live in that shared space
+ and what agents could do for those
+ that seems to be where AI native companies
+ like every are getting a lot of their current value.
+ And then finally
+ for those who are trying to mentally work your way
+ through the AI tomb cycle that I introduced this week
+ especially those of you who are in this real world
+ recalibration moment
+ where you're taking the evidence
+ of what we're actually experiencing
+ and applying that to thinking about
+ where AI and agents are going to go.
+ I think it's worth taking more seriously the idea
+ that no matter how much of today's work they can do
+ their net impact on employment
+ is going to be to expand it
+ in proportion to all of the new things that we can do now
+ that we never could have before.
+ And it's not just me that's saying this
+ Gardner is starting to argue strenuously
+ that even if we see short-term AI layoffs
+ beginning in 2028
+ they believe and argue that AI is going to create
+ more jobs than it eliminates.
+ And I believe we're even starting to see
+ the very earliest indications of this mindset
+ showing up in markets as well.
+ It might appear like every time there's layoffs
+ stocks for the companies doing the layoff crank
+ but I think that there's evidence that increasingly
+ what markets are looking for is not AI efficiency
+ but AI related growth.
+ Take the example of Atlassian.
+ In March they announced 10% layoffs
+ and that announcement actually marked the end
+ of a mini recovery over the previous two weeks.
+ The stock actually headed into a year to date
+ low in mid-April.
+ Then however, Atlassian reported 29% earnings
+ growth for Q1
+ anchored around strong sales for AI-enhanced products
+ and that sent the stock soaring 29% that evening.
+ Market analyst Dan Ives recently said
+ my biggest concern is tech companies tripping
+ over their own shoelaces
+ talking about job cuts not reading the room
+ saying that their technology is going to
+ wipe out jobs for young people.
+ You do that you just shot yourself in the foot
+ and when the podcaster he was talking to pushed him
+ asking if that was just a market narrative thing
+ or whether people like Anthropix-Oreo Amade were wrong
+ in their predictions of job loss
+ Ives continued 100%.
+ What's going to separate companies?
+ LLMs are going to get commodified.
+ What separates companies is the people
+ it's the engineering
+ it's the marketing.
+ It would obviously be going too far
+ to say that the whole market is shifting
+ to think the way that Dan thinks.
+ But I think that increasingly
+ the burden of evidence is going to suggest
+ that the companies that are crushing with AI
+ are going to be the ones that
+ A are investing in their teams capabilities
+ to use and manage agents
+ that B recognize that growth
+ not just efficiency
+ is what will lead to long-term success
+ and C that agents are not a get out
+ of budget jail free card
+ but one of the best investment opportunities
+ that companies have ever had.
+ Sum it all up and I think we are on the cusp
+ of the next wave of human agent collaboration
+ and it's going to be a good one.
+ For now that's going to do it for today's
+ AI Daily Brief
+ I appreciate you listening or watching
+ as always
+ until next time
+ peace
