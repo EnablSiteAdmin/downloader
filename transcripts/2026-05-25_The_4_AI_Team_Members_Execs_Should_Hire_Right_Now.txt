@@ -1,0 +1,787 @@
+ Today on the AI Daily Brief, four AI employees that you should set up right now.
+ The AI Daily Brief is a daily podcast and video about the most important news and discussions
+ in AI.
+ All right, friends.
+ Happy Memorial Day for US listeners and happy Operator's Bonus Episode for everyone else.
+ I am once again joined on this episode by Newfarg Gaspar.
+ You've probably seen her on the show before.
+ She's back currently with a new AI executive catch-up program.
+ That week is a four-week sprint to get up to speed and to get current with AI.
+ And today she's walking through some specific recommendations about where she thinks leaders
+ specifically should start.
+ All right, Newfarg, welcome back to another AI Operator's Bonus Episode of the AI
+ Daily Brief.
+ How are you doing?
+ I'm good.
+ How are you?
+ We don't set these up as meant to be in some sort of sequence or continuous with one another.
+ But they do end up having the effect of sort of mirroring the pattern that we're going
+ through as we learn more about what the market needs relative to education and upskilling.
+ This episode specifically, I think, comes out of both an experience that you and I
+ have had both separately and together, an observation, as well as sort of some things
+ that have fallen from it.
+ You know, we've been running these agent operating system builder programs called Enterprise Claw,
+ moving maybe to a name Agent Boss.
+ And as everyone across the enterprise has started to recognize the need to move into
+ this agentic way of working, getting people who are ready for it into agentic system building.
+ There are a lot of people who are just racing to catch up and are just a few steps behind
+ that, which led to the creation of the executive catch-up program that we're now offering.
+ And also just this framework that you're going to share with us today.
+ So I'd love to hear a little bit more about the context for this and your experience that
+ led you to it.
+ And then I'm going to turn it over and let you teach us some interesting ways of looking
+ at the world.
+ Right.
+ So, yeah, I fully agree that there is a gap in the market, like the most frontier firms
+ and individuals, they talk about agentic fleet and agent orchestration and are
+ worried about token-maxing and many different things that get some other people's
+ to feel left behind even more so than before.
+ We often call that the capability overhang.
+ And I believe that there are so many things that every executive needs to do, even if
+ they are quite advanced, but let alone if they've been kind of feeling that they need
+ more time to catch up.
+ And today I'll try to frame it in a way that is as tool agnostic as possible and
+ just give executive the core decisions and things that they need to make in order
+ to close some of the gap and be ready for orchestration of agents and so on.
+ Awesome.
+ All right.
+ Well, I can't wait to see what you got for us.
+ Sure.
+ Good.
+ All right.
+ Today, what I was thinking is to kind of share with you what I'm learning based
+ on training executives across like 30 different countries.
+ And I see very frequently three patterns that come up again and again.
+ And I think that mostly there is in at least one of them.
+ So one, I'm calling it the podcast CTO, someone that is deeply informed, that knows
+ every release, every benchmark, but in like many cases, they haven't
+ built a system for their own work at all or not yet.
+ The second one, I'm calling them the weekend tinkerer.
+ They are building stuff.
+ They are impressive for their own private time and their own thing that they're
+ building, but they don't really know yet how to bring it to the day to
+ day because of various considerations.
+ And then we have the manifesto writer.
+ Those are the one that has the clear vision that already funded the
+ transformation committee, but personally, they have not yet
+ feel that AI can do the work at their level.
+ And while all three of them are making progress, all three are
+ leaving enormous value on the table unless they are using the tools to
+ the full advantage because I think the tools have crossed a threshold in the
+ last few months that makes partial engagement kind of a real missed
+ opportunity.
+ And to be even more bold than that, I think that the leader's quality of
+ AI usage is the single biggest predictor of how well their teams adopt AI.
+ And when you see that the CEO is the best user, the organization looks
+ like the most forward AI company out there that I get to see.
+ And when leaders are kind of the ones that hand off the decisions and just
+ talk the talk, they go wrong in both directions.
+ They are underestimating what the technology can do sometimes.
+ And sometimes they go to the flip side.
+ They set unrealistic expectation for the team.
+ And I think that your AI usage, while having its own flavor, it's
+ dealing with a different usage than your ICs or your employees.
+ Because for the most part, leaders have a very high judgment,
+ decisions very complex, stakeholder dynamics and undocumented context
+ that lives in their heads and not necessarily in any document.
+ They also deal in many cases with communications at scale.
+ And thereby a lot of the more generic productivity tips,
+ they just don't serve executives as well as they serve the
+ individuals.
+ And thereby I want you to have a deliberate system built for
+ how executives and specifically you actually work.
+ So in today's episode, what I want to do is to start with
+ what I believe are kind of non-negotiables for
+ any executives who use AI nowadays.
+ And those would be the operating principles that apply no matter
+ what tool you use or what you are building.
+ And then I'll walk you through the four AIs.
+ I'm calling them digital employees or
+ AI team members that you should hire.
+ Namely the AI data analyst, the strategic thought partner,
+ the communication expert and the operational powerhouse.
+ I'm gonna be, as always, very concrete in the methodology.
+ I'll try to give you as many tips on screen and
+ all the thinking behind each and every one of these employees
+ and why I'm saying to use them or prompt them the way I do.
+ So one thing before we dive in, everything that I'm about to
+ cover works on any AI tool.
+ Whether it's like a project in JetGPT, Gemini,
+ the CloudJet, Copilot or similar.
+ Or if you're already using the modern,
+ gigantic tools like Core, Cloud, Codex and others,
+ they're all applicable there.
+ The new answer is in the technique,
+ not in the subject matter expertise,
+ which will be where we focus today.
+ So all will give you results.
+ As long as you work according to some of these principles.
+ In general, I say don't sweat the tool choice,
+ pick one and stick with it at least for a while.
+ Sweat what you're building and how you're building it.
+ And I wanna go over these five operating principles
+ that apply across everything that we will do later on.
+ And these and non-negotiables, from my perspective,
+ they separate executives who get mediocre output
+ from those who get exceptional results.
+ So first thing that I wanted to say is
+ it doesn't matter whether you use the full voice mode
+ or dictation tools like WhisperFlow,
+ and I know that NLW often mentioned that,
+ but typing filters your thinking.
+ And when you speak, it lets your spiral,
+ your intuitive thinking, those come through.
+ And with the newest tools and models,
+ you can think about the smart hands one,
+ whether they're opus models or the latest GPTs
+ or literally all of the latest and greatest thinking models,
+ they handle the unstructured
+ and non-linear input extremely well.
+ And as such, your message thinking
+ becomes the most valuable input
+ because AI needs everything that resides within your head
+ and speaking to AI lets you share
+ as much as possible of that with the tool.
+ The second thing is I wanted you
+ to do a lot of brain-dumping.
+ And the reason why I'm saying that
+ is that executives carry enormous amounts
+ of undocumented context.
+ A lot of the relationship dynamics
+ meeting undercurrents that only they could gouge,
+ half-affirmed intuitions,
+ things that were said before recording started,
+ maybe it was a look on somebody's face during the meeting.
+ AI gives you mediocre answers unless it has this context.
+ So I want you to capture this context habitually.
+ Voice notes, meeting reflections, quick brain dumps,
+ even if you don't know what it is for yet,
+ just start capturing that.
+ And I know that some people really like to use tools
+ like obsidian for it, but no matter how you do that,
+ just make sure that you form the habit
+ and reduce the friction of capturing thoughts
+ such that you will regularly do that.
+ Next, I want you to have AI interview you
+ because the more senior you are,
+ the more unknown unknowns you have
+ as part of your interactions.
+ And before any complex task,
+ whether it's research or decision or communication,
+ let AI grill you first.
+ And Codex even created a command for that.
+ What are the assumptions that you are making?
+ What haven't I considered?
+ What should I provide in forms of a context?
+ This will often surface a lot of the blind spots
+ before you even get the results that you're after.
+ As noted, some tools do that already structurally.
+ In other cases, you can just ask AI interview me
+ until you have everything that covers all these blind spots.
+ The next thing that I wanted to say
+ is the more critical the task,
+ the more you need to separate the planning
+ from the execution.
+ So I don't want you to jump straight into the output
+ when there is some thinking to be done.
+ Have a conversation with AI
+ to help you plan the approach.
+ What information do you need?
+ What is the order that you need to execute?
+ What does success look like?
+ Only after you have a refined plan, then you execute,
+ often even in a separate conversation or a separate tool,
+ and even better,
+ you can always combine that with AI
+ interviewing you as part of the process.
+ And the last non-negotiable that I wanted to mention
+ is that I want you to be very intentional
+ about your intervention point.
+ Because the more judgment heavy the work,
+ the less likely you should probably fully offload it to AI,
+ because you are no longer doing everything manually,
+ I want you to hone the skill
+ of knowing where in the workflow your judgment
+ adds the most value,
+ designing the systems such that AI handles everything else
+ and you step in only at those strategic moments,
+ typically for sure at the beginning
+ and a few intervention points later on.
+ And critically, I wanted to make sure that as a leader,
+ you make sure that primers
+ or initial thoughts are always captured
+ because leaders almost never come to a task
+ with a blank slate.
+ For sure you have your existing assumptions, decisions,
+ premises, maybe half-formed opinions,
+ offload everything that you come to the table with,
+ the beginning,
+ even if it's messy and unstructured,
+ this is your advantage
+ because this is where all of your experience is baked
+ and this is where you being very opinionated
+ will really help steer the AI
+ towards the output that actually reflects your thinking
+ rather than getting generic results
+ that you will reject annoyingly anyway.
+ All right, so with these non-negotiables in mind,
+ let's start talking about which AI digital employees
+ I want you to hire.
+ And it doesn't matter how good your human teams is,
+ odds are you have a very good team,
+ it might even be an exceptional one,
+ but there are some things that you've always wanted
+ that no human team can realistically deliver.
+ It can be like a strategy that is available at 11 p.m.
+ when you are processing a board conversation
+ or a researcher who can run six parallel analysis
+ before your morning coffee
+ or maybe you have in mind like a writer
+ that internalized your 10 years of public speaking and writing
+ is able to truly express your own voice
+ or maybe you need an operator
+ who monitors everything in your organization
+ without getting fatigued or annoyed
+ by your constant request
+ to get more and more and more information.
+ And if you have this well-structured digital workforce,
+ this doesn't replace your human workforce
+ but it gives you capabilities
+ that you never had basically the bandwidths
+ or the headcount four
+ and with the five principles that we mentioned before,
+ the output won't be generic,
+ it will be very much like yours.
+ So I wanna go over these four digital team members
+ that every leader should hire
+ and for each one I wanna give you my top tips
+ on how to get the best possible output,
+ the things that separate the mediocre results
+ from genuinely useful ones.
+ So let's start with the first one
+ and that will be hiring a research analyst.
+ The one that you always wanted
+ but never had time to brief properly,
+ it's now available on demand
+ and what I think is that most people type a question
+ and accept whatever comes back
+ and that's using AI like a search engine
+ and as an executive you always research
+ with a decision in mind or for the most part
+ and you come in with a lot of existing assumptions
+ and knowledge and thoughts.
+ So I want you to state that upfront
+ and then instruct the AI on how to do the research.
+ You want to constrain many things,
+ namely maybe the time horizon,
+ maybe you want to define which sources matter
+ in what order and what priority.
+ Maybe you wanna tell it what to exclude,
+ for example, never use marketing materials
+ as a primary source.
+ Maybe you want to specify what constitute
+ as a reliable data in your domain
+ and you know it probably much better than any AI tool
+ and this applies equally to internal data,
+ maybe your PNL or your team metrics
+ or your customer data.
+ Same principles of being opinionated
+ about the scope and the output.
+ You are briefing the analyst.
+ You're not asking a Google question
+ and that's the state of mind that you need to be in
+ and the more opinionated you are
+ about how the research should be conducted,
+ the better the results.
+ So here are two kind of expert craft specific techniques
+ from working with hundreds of executives
+ that will get you from good to being exceptional
+ in being able to get results with AI research.
+ So the first craft that I want to mention
+ is wisdom of the craft.
+ I don't want you to ask one AI tool
+ and then trust the results.
+ What I like to do is to send the exact same research
+ across multiple models,
+ sometimes even the same model
+ or the same tool in several different sessions.
+ Then after you had multiple threads
+ researching the same question with the various tools
+ or the same tool in various instances,
+ you aggregate and you aggregate on where they agree
+ and you investigate where they diverge.
+ Then what I would strongly recommend that you do
+ is that you use a separate model
+ or a separate thread to fact check the aggregated result
+ because AI is much better at verifying
+ than at generating correct research from scratch.
+ So this is a weird phenomena,
+ but it works here as you aggregate the results.
+ And if there is a consensus across tools,
+ it's likely factual.
+ From my experience, if you see 100% consensus,
+ that's probably a true fact.
+ And if only one tool reports something,
+ that's something that requires going deeper
+ and researching again.
+ So that's also a cheat sheet
+ on how not to have to validate each and every data point
+ from AI by actually expanding the scope of the research
+ and then narrow it down in an intelligent way.
+ The second thing that works very well
+ is that before you act on any research or analysis output,
+ whether it's external market research
+ or internal data analysis,
+ run it through these three questions.
+ The first one is grounded in real sources
+ or is AI pattern matching?
+ The second one will be what's missing
+ that I didn't think to ask.
+ And the last one, and that's the most important one,
+ are you feeling comfortable putting your name to it
+ if someone was asking for that?
+ And if you, even without good justification,
+ intuitively don't feel comfortable to put your name to this,
+ this means that you need to do some more work.
+ It takes about 30 seconds
+ and it catches the majority of the AI research failures
+ before they become bad decisions
+ or a slope that you share with others.
+ And if you really want to take it even further,
+ like a pro tip will be that the output
+ shouldn't default to a wall of text or a boring bar chart.
+ You need to think with the modern tools,
+ what's the easiest way for me
+ or the consumers of this research
+ to actually interact with the data,
+ whether it's an interactive dashboard
+ or an infographic reactive page that you can filter.
+ Maybe it's an audio summary
+ that you listen on your commute.
+ You can build all of this with the same tools.
+ You just have to ask and be as creative as possible.
+ So that's your research analyst that you should hire.
+ The next employee that I want you to hire
+ is the advisor that you couldn't hire at any price.
+ The strategic one that is available 24-7
+ with no ego and infinite patience.
+ If you already have one, enjoy your human one.
+ But for the most part, we all need
+ the strategic advisor in the form of AI.
+ And another point is that the more senior you are,
+ it's probably very lonely to be there up there
+ because decision-making that you are making
+ for the most part is with yourself.
+ And even with the best mentors
+ and a very strong leadership team,
+ it's never enough for the sheer volume of decisions
+ and often also the sensitivity of the decisions
+ that you need to make.
+ So things that you cannot run by the board
+ or that you want to get ready for your board
+ or things that are too early to bring to the team,
+ use AI, use it well,
+ and then AI becomes the sounding board
+ that's always available for you.
+ And it's the one that gets you out of the biases
+ that you often have
+ that can also challenge you out of your comfort zone
+ and that can take you out of the isolation
+ that sometimes comes with being a senior leader.
+ But here's what makes it actually work.
+ And for the most part, it's one word that these listeners
+ are probably very, very aware of regardless
+ and that is context.
+ The more AI knows about you,
+ whether it's your role, your company,
+ your ecosystem, your competitive stance,
+ your recent priorities, history of decisions
+ and what made the decision that you already had
+ to work well or fail, the better it advises.
+ So without that context,
+ you get generic strategy advice
+ and with it you get something
+ that feels like an advisor
+ who've been working for you for years.
+ I strongly recommend that you build
+ a personal context system.
+ You can refer back to an LW great episode
+ on building a personal context system.
+ It was a while back
+ and it feeds into every strategic conversation
+ and that's the foundation everything else is built upon.
+ So how do you do it well?
+ One way that works very well for strategic discussions
+ is to hire not just one strategic advisor
+ but a board of advisor.
+ You can think about all the mentors that you ever had
+ or wished you had.
+ You should build them as personas.
+ You can give them a name.
+ You can even select to have as a mentor
+ someone who is very famous
+ and that you really like their thought leadership.
+ You can give them an archetype
+ or decision-making style.
+ You want to have them debate a decision
+ between themselves before they present it to you.
+ Then you will get a very diverse perspective
+ from all of them.
+ Not just one AI voice
+ that is pretending to see multiple angles
+ and what you definitely need to do here
+ is to calibrate the pushback.
+ Don't just create a board of advisor
+ that is a devil's advocate for sport
+ but rather create one that is not a psychophantic.
+ So I want you to calibrate the pushback
+ not a devil's advocate for the sport
+ and not a psychophantic agreement.
+ I want you to instruct the board of advisors
+ to challenge and then converge
+ and the goal is overall a better decision
+ not an endless debate
+ or one that will just take all the wind out of your idea.
+ Second thing that really moves the needle here
+ is to be aware of your decision style
+ because every leader decides differently.
+ Some leaders need 10 inaugurated options
+ in order to choose from.
+ Others want just one bottom line after a long debate
+ and some want AI to push very hard back on them
+ and then give them the space to sit with it.
+ So you know yourself
+ and you know how best you make decisions.
+ You make sure that you instruct the AI
+ to match your decision-making style
+ that goes a long way to feel like it's an employee
+ working for you rather than you're working for it.
+ And then before any major decision
+ ask AI to also surface the biases.
+ What biases might I as a human have here?
+ What biases might you as the AI have here?
+ And what am I not seeing because of my position
+ or my experience
+ because leaders are in many cases surrounded by agreement
+ and AI should not be another yes voice in your vicinity
+ but rather it also needs to kind of challenge you
+ only when challenge is required.
+ I want you to calibrate it to be the advisor
+ who makes you better not the one that exhausts you.
+ And if you want a pro tip here
+ after any decision run scenario simulation.
+ So something like given this decision
+ what happens if the market shifts to X
+ and if a competitor does Y what happens
+ and if the team pushes back on Z.
+ So try to make sure that you stress test
+ according multiple scenarios
+ and then you can stand behind the decision
+ under multiple futures
+ and not just the one that you're hoping that will happen.
+ Okay, let's talk about the next employee.
+ The next one that I want you to hire
+ is the communication expert.
+ The one that writes in your voice for your audience
+ and not kind of a generic executive prose
+ that sounds smart but is very annoying.
+ And I think the communication is the area
+ with the widest gap between basic and advanced AI usage
+ because it's trivially easily.
+ Now the easy that nowadays to generate text
+ that sounds like everyone and basically no one
+ and generic, pleasant, forgettable AI is very, very common.
+ But if you want AI to actually sound like you
+ and to differentiate between audiences
+ and platforms and goals
+ this is a real skill that you need to adopt.
+ And it's also one of the first areas
+ where people around you can tell
+ whether you are using AI lazily
+ because most people can now identify AI created content
+ quite easily versus people who are using AI well
+ or that are even writing for themselves.
+ So the distance between I can tell this is AI
+ and this sounds exactly like her
+ is entirely about how you steer it.
+ And here what I want you to do
+ with this digital communication expert are to, first of all,
+ do some style profiling.
+ And here I want to offer two approaches
+ that work together.
+ First, I want you to collect
+ all your best writing across document types.
+ Those can be board updates,
+ team emails, LinkedIn strategies and so on.
+ Give them to the AI as examples
+ and then ask the AI to analyze your writing style
+ because AI is very good at naming the patterns
+ that you cannot articulate.
+ You just don't have the language yourself.
+ It will talk about your rhythm, your sentence structure,
+ your rhetorical preferences.
+ Most of us are not linguists
+ and thereby cannot call it out.
+ And if you are in a position
+ where you want to even improve your writing style,
+ combine the examples that you created
+ with the AI and narrated analysis
+ to form a guide that actually captures you
+ but also supplement that with additional writing
+ of people that you truly appreciate how they write
+ or things that you cannot exactly express why you like it
+ but they resonate very well with you.
+ It's not copying,
+ it's just augmenting your style
+ with some of the aspirations
+ of perhaps how you want to sound.
+ So that will also help you to evolve your voice
+ beyond just getting AI to sound exactly like you
+ if you think that there is a room for improvement.
+ If not, just stay with your own profiling.
+ And then another thing that will truly unlock
+ a lot of the goodness of AI as a writing guide
+ or writing companion is to create detailed personas
+ of your actual readers.
+ What they care about, what drives them to action,
+ what they're skeptical of
+ and have these personas a little bit similar
+ to how I was talking about board of advisors.
+ They have those personas review the relevant draft.
+ So they should answer the question of,
+ is the message clear?
+ Would I take action?
+ What's missing?
+ And what would make me stop reading?
+ If they answer all of these questions
+ in a way that resonates with your message
+ by all means do that.
+ Otherwise, there's a lot of room for improvement.
+ And unlike human reviewers who get fatigue,
+ AI gives you an unlimited iterations
+ with pointed feedback from the people
+ who actually met or the persona
+ of the people who actually met her.
+ Those are your readers.
+ So definitely take advantage of that.
+ And the last pro tip here will be
+ whenever you want to give an AI a feedback,
+ don't just give it a generic feedback like,
+ I don't like this.
+ I want you to score on very clear dimensions.
+ You decide what's the dimension,
+ but as an example, maybe you give it a nine out of 10
+ for clarity, five out of 10 for wittiness,
+ conciseness gets a seven out of 10 and so on
+ because AI tools are very gold-driven,
+ they are much better performing
+ when they have clarity of how far they are
+ for where they want to be.
+ And also, when you give it a feedback
+ that is more qualitative, make it very, very concrete.
+ Not just, this is overall bad,
+ but say what exactly don't you like?
+ Is it the center structure?
+ Is it the phrasing?
+ Is it the ideas and so on?
+ That way, you don't have to iterate endless times
+ only to get frustrated in ending up writing it yourself
+ but you will actually get to steer the tools
+ in the right direction.
+ And then we have the very last employee
+ that you need to hire.
+ And this one will be like the operational powerhouse
+ that will help you in the day-to-day stuff.
+ And that will give you the operational visibility
+ and the support that you always wanted
+ but never had typically the headcount or bandwidth to build.
+ And I think that with the prevalence
+ and the accessibility of the connectors
+ within the modern AI tools,
+ it's now much, much easier and more reliable
+ to gather and synthesize across multiple systems
+ in which your data likely resides in your organization
+ no matter how messy it is.
+ And for many leaders,
+ the operational support that they rely on,
+ whether it's meeting, perhaps, status report,
+ briefing documents,
+ this one is the work that their teams
+ they do probably diligently
+ but often truly resents.
+ And also this is probably one of the first thing
+ that your employees will likely automate
+ with the AI for themselves.
+ So leaders should probably do the same.
+ Of course you can rely on your team
+ but I would advise that you go even further
+ and do it yourself
+ because you know best or better than everybody else
+ what are your needs in terms of the specific reports
+ and the specific information that you're looking to get
+ much better than everybody else who needs to brief you.
+ So one thing that you can do here to really nail this
+ is to not just automate what you already do
+ but rather think about any visibility
+ and any operations that you always wanted
+ but never had the bandwidth for.
+ So maybe you always dreamt
+ to have a daily overview across all the departments
+ in your organization without burdening your reports.
+ Maybe you wanted to get like a deep PNL analysis
+ every morning
+ or maybe you just should
+ or have always wanted to have a stay called
+ a relationship tracker that reminds you
+ of the specific context before every meeting
+ or status synthesis across 10 channels
+ you can physically monitor.
+ And AI makes something like that is previously
+ infeasible operations to a very, very feasible thing.
+ And then the question is not what can I automate?
+ The question is what would I build
+ if I had an unlimited amount of headcount in my company?
+ And those I think should be the first operational
+ dashboards and ideas that you should build.
+ And another thing that makes the operational powerhouse
+ digital employee or AI that helps you become even better
+ is to make sure that it's your own and not generic
+ because a generic meeting preparation
+ like summarized last transcript and emails
+ is for the most part for little not good enough
+ because your own meeting prep has your own specifics.
+ Maybe you wanted to capture what was the
+ undercurrents feel like in the previous meeting.
+ Maybe you have other sources that are very relevant
+ for this specific audience and so on.
+ This is something that you should definitely personalize
+ and as mentioned at the beginning
+ the more you document the intangibles
+ as part of the overall usage of AI
+ the more your let's call it personal CRM
+ AKA your traction of what happened
+ with this person previous time
+ the more context you have about the stakeholders
+ that might not be in any official CRM or other systems
+ the better you will be ready for meetings
+ and you can think about the analogy
+ and other things that you need to have
+ prepared on a day to day basis.
+ If you want a pro tip
+ whenever you're contemplating building a dashboard
+ or a meeting prep automation or a morning brief
+ or anything else that you have in mind
+ to automate as part of your day to day activities
+ I want you to never automate
+ before you've tested it manually and repeatedly.
+ So maybe you're created like a morning brief
+ I want you to run the morning brief
+ on every morning for maybe a week or two weeks
+ before you can do it manually
+ before you commit to having it run automatically
+ because only after a week or two of seeing the data
+ and seeing how you consume it
+ you will be able to say yes that's a good use
+ of this automation or something that I can improve
+ and then commit to that.
+ And that by the way is applicable to anything else
+ that the rest of the use cases
+ whether it's research or strategic thinking
+ or anything that you're contemplating automating
+ it's always better to first test it for a while
+ sometimes in a stealth mode
+ meaning in a way that does not truly impact
+ any systems or decisions are only then to automate.
+ So kind of to summarize
+ it doesn't matter where you started today
+ maybe you build a lot of the systems already
+ maybe you're quite a beginner
+ but if you build even one of these systems
+ with the principles that we covered
+ I believe that you start closing the gap
+ between knowing about AI
+ or using it in a certain way
+ to actually having it work fully for you
+ and feeling like a digital employee
+ that you hire that drives value
+ in the way that it moves the needle in your context.
+ You then become a much better AI user
+ and then obviously you get better results
+ hopefully a lot of ROI
+ but also in the process
+ you become a better leader of adoption
+ because you'll make much more informed
+ and inspired decisions about where
+ and how your organization uses AI
+ and that's why I want you to roll up your sleeves
+ and not rely on others to do everything for you
+ and I think that the next steps
+ once you have these four digital team members
+ that are working well for you
+ or your version of the digital workforce
+ that you should have
+ the natural one is to start building a chief of staff
+ that can orchestrate across all of them
+ not just like a task-based assistant
+ which is where we focused a lot of the energy today
+ but one that has a cross-view of your decisions
+ and communication and priorities and so on.
+ That's gonna be like a capstone
+ if you're more of a beginner
+ but you should earn it first
+ by getting a mileage with each individual employee
+ that we just discussed.
+ I want you to spend your time
+ building these digital team members
+ based on the principles
+ not on the technicalities of one tool or the other
+ even though the technicalities of the tools
+ are very tempting
+ and a lot of the training outdoors
+ are focusing a lot on the tools.
+ I actually want you to focus more
+ on the results and your personality
+ and everything that we discussed
+ because I think that the methodology
+ is a much better constant
+ than a lot of the specific features
+ that are available to dare tomorrow.
+ So kind of what to do next.
+ Pick at least one of these four team members
+ implement some of what you heard
+ even if you already have processes in place
+ then refine them with these principles
+ and with actual usage.
+ Curve the time to do this work
+ you cannot just do AI with 15 minutes a week
+ you need more time than that.
+ If you want to do that yourself
+ by all means do that.
+ If you want to do that in a guided way
+ and along other leaders
+ that are undertaking the same accelerated learning
+ I'll be very happy to have you with us
+ in the executive ketchup.
+ But it doesn't matter what you choose
+ just kind of stop learning
+ to swim from the shore or just splashing around.
+ I want you to get in the water with intention
+ and start swimming because that's the only way
+ to not only learn
+ but also be a much more informed change leader.
+ That's it.
+ All right. Great.
+ I love this.
+ I think one of the things that's interesting to me
+ is that these sort of interaction patterns
+ although we're not yet talking about
+ full-fledged agents and agentic systems
+ really will carry people
+ from a simpler use to a more advanced use over time.
+ Right that these
+ this is sort of training a type of muscle
+ when it comes to thinking about how you interact with AI
+ that I think is really important and really valuable.
+ So I'm excited to see if people take you up on this
+ and where they dive in.
+ Sam here.
