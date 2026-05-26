@@ -1,0 +1,666 @@
+ Today on the AI Daily Brief, what the Pope actually said about AI.
+ Before that on the headlines, an update on the mythos rollout.
+ The AI Daily Brief is a daily podcast and video about the most important news and
+ discussions in AI.
+ Alright friends, quick announcements before we dive in.
+ First of all, thank you to today's sponsors KPMG, Blitzy, Robots and Pencils, and Section.
+ To get an ad-free version of the show, go to patreon.com.ai-dailybrief, or you can subscribe
+ on Apple Podcasts.
+ And if you want to learn more about sponsoring the show, send us a note at sponsors.ai-dailybrief.ai.
+ At the end of last week, we got a quick update about Project Glasswing.
+ Now Glasswing, you might remember, was the name that Anthropic had given to the
+ initiative through which they rolled out their new mythos model in a very limited capacity
+ to around 50 partners.
+ It was all about wrestling with the cybersecurity implications of the model, and Anthropic said
+ the project has so far identified more than 10,000 software vulnerabilities of high or
+ critical severity.
+ Most partners they wrote have found hundreds of severe vulnerabilities in a little over
+ a month using the model.
+ Testing the model's accuracy on open-source repos found less than a 10% false positive
+ rate.
+ Wrote Anthropic, progress on software security used to be limited by how quickly we could
+ find new vulnerabilities.
+ Now it's limited by how quickly we can verify, disclose, and patch the large number
+ of vulnerabilities found by AI.
+ Anthropic noted that industry standards demand that bugs are not disclosed for three
+ months after identification, meaning that the comments are vague.
+ At the same time, the report highlighted several public statements.
+ Mozilla recently commented that they had found and fixed 271 vulnerabilities,
+ which was more than 10 times the amount they found using Opus 4.6.
+ Palo Alto Network's most recent release featured five times as many patches as
+ well.
+ The report also noted that some in the finance sector are also using the model
+ for real-time fraud detection.
+ For one firm, Mythos was able to detect and prevent a $1.5 million wire
+ transfer to a threat actor who compromised a customer's account.
+ Now one of the big criticisms of the Mythos rollout has been its
+ exclusivity, with the model provided to only a few dozen top U.S. companies.
+ And in addition to the podcasters and power users of X who have been
+ frustrated that they can't play with the new model, the frustration
+ apparently extends to global policymakers as well.
+ Earlier this month, European officials called an Anthropic to make Mythos
+ available to their financial sector, with similar calls having come from
+ the UK, Canada, and governments across Asia.
+ The Australian government held high-level talks with Anthropic
+ executives last week in an attempt to gain access.
+ Anthropic, for their part, says that they are currently working with
+ critical partners, including the U.S. and allied governments, to
+ expand Project Glasswing and said that while they look forward to
+ releasing a Mythos-class model to the public, that timeline is
+ unclear.
+ At present, they wrote,
+ No company, including Anthropic, has developed safeguards strong
+ enough to prevent such models from being misused and potentially
+ causing severe harm.
+ This is why we've yet to release Mythos-class models to the public.
+ Testing catalog did spot a model called Claude Mythos-1 preview
+ being prepared for release in Claude Code and Claude Security.
+ Their assumption is that this won't be the public release, but
+ rather broader access for trusted partners to use the model in
+ Anthropic's harness.
+ So where this all stands, first, Mythos has seemingly changed the
+ nature and speed of cybersecurity work.
+ While these partners are reporting a 10x increase in the number
+ of vulnerabilities detected, the bottleneck now moves to
+ actually designing and deploying bug fixes.
+ In their update, they wrote,
+ Several maintainers have told us that they are currently severely
+ capacity constrained, and some have even asked us to slow down our
+ rate of disclosures because they need more time to design patches.
+ The bottleneck they continued in fixing bugs like these is the
+ human capacity to triage, report, and design and deploy patches
+ for them.
+ Box CEO Aaron Levy suggested then that the impact of Mythos is
+ ultimately going to be a microcosm for the deployment of AI
+ tools more generally.
+ He posted,
+ This is precisely an example of why engineers don't go away,
+ ever.
+ We've made it far easier to create and find security issues,
+ which means the new bottleneck is in our ability to actually
+ review, respond to, and fix the issues.
+ Far from AI magically solving all of this, there is still major
+ triage work in human judgment required to do the follow on work
+ to actually protect systems.
+ As a result, we're about to enter a security engineer boom,
+ Javon's paradox all over again.
+ Now, speaking of Anthropics partners in the government,
+ the White House has approved a secret $9 billion budget
+ request for intelligence agencies to build their own inference
+ cluster.
+ The New York Times reports that the CIA and NSA made the
+ budget request because they're unable to run the latest AI
+ models on their current classified systems.
+ The funding will go towards the purchase of NVIDIA Blackwell
+ chips and supporting infrastructure.
+ With the report noting, government concerns about a shortage
+ of Blackwell compute and the need to run mythos class models
+ and classified settings.
+ The New York Times suggested that the Pentagon and
+ intelligence services have fallen behind in the AI build
+ out after failing to allocate enough funding in recent
+ years.
+ After putting the issue to the White House for comment,
+ the New York Times received what they characterized as a
+ sharply worded statement.
+ A White House spokesperson said,
+ Sensitive national security deliberations are conducted
+ with the seriousness they demand, not leaked to
+ reporters and repackaged through selectively sourced
+ unverified claims designed to drive headlines rather than
+ truth.
+ The fact is the United States is leading the world in
+ technology and is well prepared to deal with a variety of
+ issues that may arise.
+ The reporting also discussed progress in contracting between
+ intelligence agencies and frontier AI companies when
+ OpenAI signed their agreement with the Pentagon in March
+ that contract specifically excluded the NSA.
+ Sources said that White House Chief of Staff Suzy
+ Wiles has approved the use of anthropic models at the NSA
+ despite the Pentagon designating anthropic as a
+ supply chain risk.
+ They added that anthropic and the government are
+ finalizing a contract to allow the NSA to use
+ anthropic models and classified settings,
+ which could help end the dispute with the Pentagon.
+ Intelligence officials said they hoped the contract
+ with anthropic will also pave the way for an agreement
+ with OpenAI that includes spy agencies.
+ Interestingly, it seems the intelligence agencies are
+ more flexible on guardrails than the Pentagon.
+ The dispute with anthropic kicked off over a limitation
+ on using AI for autonomous weaponry and domestic
+ surveillance.
+ The Pentagon argued these limits could jeopardize
+ active military operations, demanding that the contracts
+ instead allow AI to be applied for, quote,
+ any lawful use.
+ The NSA and CIA, meanwhile, are technically prohibited
+ from gathering intelligence within U.S. borders,
+ so are reportedly more comfortable excluding
+ this language and agreeing to outright
+ bans on using AI for domestic surveillance.
+ Now our next story is on the face of it,
+ just about price and token access,
+ but clearly also has a geopolitical bent as well.
+ DeepSeq has made their deep discount permanent
+ as they close in on a major funding round.
+ DeepSeq's V4 model launched in April
+ with a 75% discount on tokens.
+ That made the model 1 7th the cost of Opus 4.6
+ and a quarter the cost of GPT 5.4 which were the latest models
+ from each of the major labs at the time.
+ Since then, anthropic and open AI have each raised prices
+ on their updated models.
+ With the discounted price now just the price,
+ DeepSeq is serving a model that's roughly equivalent
+ to Opus 4.5 for 44 cents per million input tokens
+ and 87 cents per million output tokens.
+ In addition, DeepSeq management have told investors
+ that they're going ahead with a $10 billion funding round,
+ which will be the first time DeepSeq has taken
+ outside funding with the round reportedly valuing
+ the company at $45 billion.
+ The Chinese government's AI industry investment fund
+ is expected to participate
+ alongside multiple large Chinese companies
+ including Tencent and JD.com.
+ Founder Liang Wenfang has told investors
+ that the focus won't shift to monetizing
+ DeepSeq's technology.
+ He said that the firm will continue
+ to develop open source models
+ and push the boundaries of AI research
+ with an end goal of achieving AGI.
+ If the round closes at these numbers,
+ it will be a new record for the Chinese venture ecosystem.
+ Bloomberg analysts wrote,
+ Asia's AI models are decoupling from the US
+ as they shift towards a token-based economy.
+ China is leveraging low power costs
+ and a huge developer pool to treat AI tokens
+ as tradable assets.
+ The quote-unquote industrial approach to AI
+ is being fueled by a surge in one person firms
+ using tokens to raise productivity.
+ What will be interesting to see
+ is as token constraints and token budgets
+ get more pinched in the US,
+ will companies start to look
+ to these open source models as a viable alternative?
+ Certainly if you just read the tea leaves
+ of how young startups are doing it,
+ the answer is likely to be yes.
+ Lastly today, a little bit of model news to close us out.
+ Grock might still have a few iterations left
+ as Elon Musk announces a successful new training run.
+ Now I think it's a fair assumption
+ that at this point,
+ Elon is at least orienting towards a new role
+ as SpaceX becoming an AI cloud company,
+ but at least for the moment it appears
+ that XAI, which is now SpaceX AI,
+ isn't fully done with training their own models.
+ Elon announced that a foundation model
+ called Grock V9 Medium has finished training.
+ The model has 1.5 trillion parameters
+ with Musk writing,
+ evals look good.
+ A lot of cursor data was added in supplementary training
+ and there is more to come.
+ Fine tuning is underway
+ and reinforcement learning begins in a few days,
+ two to three weeks to public release.
+ This will be a major improvement
+ over the 0.5 trillion V8 small
+ that currently serves all Grock production traffic,
+ especially for difficult coding tasks.
+ In addition, XAI has rolled out access to Grock Build
+ for Super Grock and X Premium.
+ Grock Build is XAI's competitor
+ for Codex and Claude Code
+ and was previously only available for Grock heavy users,
+ which is the premium $300 a month tier.
+ The people seem pleasantly surprised.
+ Justin Schroeder of DMUX says,
+ Grock Build is surprisingly good,
+ much better than I expected.
+ The harness is solid, models are very fast
+ and it already seems less buggy than Claude.
+ Now, I'm still not exactly clear
+ how this is all going to shake out in terms of strategy
+ but for the moment at least,
+ it appears that we will continue
+ to get new Grock updates.
+ That however is going to do it for the headlines.
+ Next up, the main episode.
+ All right, folks, quick pause.
+ Here's the uncomfortable truth.
+ If your enterprise AI strategy is we bought some tools,
+ you don't actually have a strategy.
+ KPMG took the harder route
+ and became their own client zero.
+ They embedded AI and agents across the enterprise,
+ how work gets done, how teams collaborate,
+ how decisions move, not as a tech initiative
+ but as a total operating model shift.
+ And here's the real unlock.
+ That shift raised the ceiling on what people could do.
+ Humans stayed firmly at the center
+ while AI reduced friction, serviced insight
+ and accelerated momentum.
+ The outcome was a more capable, more empowered workforce.
+ If you want to understand what that actually looks like
+ in the real world,
+ go to www.kpmg.us slash AI.
+ That's www.kpmg.us slash AI.
+ You've tried in IDE co-pilots.
+ They're fast but they only see local silos of your code.
+ Leverage these tools across a large enterprise code base
+ and they quickly become less effective.
+ The fundamental constraint, context.
+ Blitzy solves this with infinite code context,
+ understanding your code base down to the line level
+ dependency across millions of lines of code.
+ While co-pilots help developers write code faster,
+ Blitzy orchestrates thousands of agents
+ that reason across your full code base.
+ Allow Blitzy to do the heavy lifting,
+ delivering over 80% of every sprint autonomously
+ with rigorously validated code.
+ Blitzy provides a granular list of the remaining work
+ for humans to complete with their co-pilots.
+ Tackle feature additions, large scale refactors,
+ legacy modernization, green field initiatives,
+ all five X faster.
+ See the Blitzy difference at blitzy.com
+ One thing I keep seeing in enterprise AI,
+ companies hedging across every cloud,
+ every model, every framework,
+ or paying a GSI for a pilot that never ends.
+ The team's actually shipping,
+ they've picked a lane and they move fast.
+ That's one of the reasons I like today's sponsor,
+ Robots and Pencils.
+ They've gone all in on AWS.
+ They're an advanced tier and AWS pattern partner
+ and they ship production AI co-workers in 45 days.
+ That's led to them doing some of the more interesting work
+ I've seen on AI co-workers.
+ And by that I'm not talking about chatbots.
+ I'm talking about actual agentic systems
+ that sit inside a business architecture and do real work.
+ That kind of focus matters if you're an enterprise leader
+ trying to get something real into production
+ or an AWS rep trying to move a customer
+ from interested to deployed.
+ Request an AI briefing at robotsandpencils.com.
+ One conversation with Robots and Pencils and you'll know.
+ Here's a harsh truth.
+ Your company is probably spending thousands or millions of dollars
+ on AI tools that are being matched
+ half of companies have AI tools,
+ but only 12% use them for business value.
+ Most employees are still using AI to summarize meeting notes.
+ If you're the one responsible for AI adoption at your company,
+ you need Section.
+ Section is a platform that helps you manage
+ AI transformation across your entire organization.
+ It coaches employees on real use cases,
+ tracks who's using AI for business impact
+ and shows you exactly where AI is
+ and isn't creating value.
+ The result, you go from rolling out tools
+ to driving measurable AI.
+ Your employees move from meeting summaries
+ to solving actual business problems
+ and you can prove the ROI.
+ Stop guessing if your AI investment is working.
+ Check out Section at sectionai.com
+ that's s-e-c-t-i-o-n-a-i.com.
+ Welcome back to the AI Daily Brief.
+ Today we have something that is very different
+ from our normal coverage.
+ Obviously at this point it's not surprising
+ that AI is increasingly not just
+ a technology issue or even an economy issue,
+ but a larger political and social issue as well.
+ And yet, I've rarely seen
+ the amount of social discourse
+ around AI as a global societal force,
+ as we've had in the last 24 hours
+ in the wake of the release of Pope Leo XIV's
+ Magnifica Humanitas.
+ Magnifica Humanitas is what's called
+ an encyclical, which is a major
+ teaching letter from the Pope.
+ They actually go all the way back to the early church
+ when important teachings were passed
+ around Christian communities.
+ As actual physical letters.
+ Encyclicals in general are not
+ new doctrine.
+ More often they interpret existing Catholic
+ teaching in light of new circumstances.
+ And for Popes in the modern era
+ they become an increasingly important tool
+ as the church responds to everything
+ from industrialization to globalization
+ and now with Leo's first
+ encyclical to AI.
+ One of the most famous of these is
+ the Rerum Novarum from Pope Leo XIII
+ in 1891, which addressed
+ labor, capital, wages, workers' rights
+ and industrial society at the height
+ of the industrial revolution.
+ They're not particularly common.
+ Recent Popes have tended to publish an encyclical
+ every two or three years.
+ And the first encyclical is often seen as important
+ because it can signal some of the major themes
+ of a Pope's pontificate.
+ For those of you who are not familiar with Pope Leo
+ he was elected in May of 2025
+ and immediately identified the rise
+ of AI as the central social question
+ of his papacy.
+ He was called up as a tribute to Leo XIII,
+ that same Pope from the late 1800s
+ who led the Vatican through the industrial revolution.
+ Leo XIV
+ during his first address last May
+ said, quote,
+ In our own day, the church offers to everyone
+ the treasury of her social teaching
+ in response to another industrial revolution
+ and to developments in the field of artificial intelligence
+ that posed new challenges for the defense
+ of human dignity, justice and labor.
+ Now my read broadly is that as much
+ as people try to put the Pope
+ on another, as either too antagonistic
+ towards AI or not antagonistic enough
+ the central theme throughout all
+ of his discourse on AI
+ has been less about trying to designate it
+ as good or bad, but rather acknowledging it
+ as a pivot point in both history and in faith.
+ Now the other things that are worth noting about
+ Pope Leo is that A, he's the first American
+ Pope and B, he's also one of the first
+ Popes to actually use modern technology.
+ He has a cell phone and a computer
+ he has an Apple Watch, he watches cable TV.
+ He's of the modern world in a way that
+ the Popes before him just simply were not.
+ And so yesterday we got Leo's first Encyclical
+ which again was called Magnifica Humanitas
+ subtitle on safeguarding
+ the human person in the time of artificial intelligence.
+ The first thing that I will note
+ and the most important thing probably
+ that I will say in all of this
+ is to echo AI policy Reacher Miles
+ Brundage when he writes,
+ my main Encyclical take is that folks
+ should just try to read it. Most of the takes
+ are bad. As in most social media takes
+ are bad, not most of the Encyclical takes are bad.
+ Obviously, regular listeners will know
+ that I try to be as nuanced as possible
+ and provide as wide an array of legitimate
+ takes as possible. But even in this case
+ as you will see I am going to put words in the
+ Pope's mouth and ascribe what I believe
+ is the central point of the whole piece
+ despite the fact that the thing is longer
+ than a lot of books. Now I will say
+ that if the mark of a nuanced piece
+ is lots and lots of people from lots
+ of different sides of an argument being angry
+ that it didn't do more to support their argument
+ then Pope Leo succeeded spectacularly
+ wholly deciding to not engage
+ with anything in the actual text of the piece.
+ Timnit Gebru instead focused on the fact that
+ a representative from Anthropic was invited
+ to give comments as part of the day's ceremonies
+ saying,
+ On the other end of the spectrum
+ lots of folks cherry picked a quote
+ that extrapolated an entire position instead of assumptions from it.
+ One of the quotes that came up most often
+ for people on the other side of the argument
+ was this one.
+ Entrepreneur Blake Scholl wrote
+ The other thing that I saw a lot of with the Encyclical
+ is sort of the inverse of what we just heard
+ with people being angry that it didn't support
+ their position enough to instead cherry picking
+ how it supported all of their positions.
+ Connecticut Senator Chris Murphy wrote
+ Really important.
+ AI threatens to undermine the basic building blocks of humanity
+ as it seeks to replace our most basic functions
+ like creativity, friendship, and critical thinking.
+ Chief Water Use lie propagator
+ Karen Howe wrote
+ One of the strangest but also kind of most revealing
+ frustrations came from Dean Ball
+ who was, to be frankly
+ a little overly reductive about his position
+ upset that the Pope didn't grapple more
+ with the possibility of AI cognition
+ or frankly even personhood.
+ He wrote a lot of tweets about it
+ but one of them read
+ Now as some pointed out
+ Dean's critique kind of contains within it
+ an axiomatic assumption of AI cognition
+ that many, many people
+ disagree fairly vociferously with
+ although I think a lot of people's bafflement about this argument
+ was better summed up by Jonathan Lytle
+ who wrote
+ And the reason that I'm hanging on this point
+ is that I think it actually does get
+ to perhaps the most central discourse in the piece
+ and so I want to give Dean the last word
+ before we dig in a little bit deeper
+ where he responded to these critiques by saying
+ Now before we get into that central point
+ I want to take a big step back
+ Fascinatingly, I think the group that on average
+ had the best read of the underlying tone
+ and intent of the piece
+ were Catholics themselves
+ Christopher Hale wrote
+ The Catholic sad account on Twitter writes
+ The church offers principles for discernment
+ rather than blanket rejection
+ And at a high level
+ that's what I got reading the entire piece as well
+ It's a document that very much positions us
+ at the beginning of the beginning
+ To the extent it provides warnings
+ it's warnings for what could be
+ It's much more an exploration of what
+ we should think about and discuss
+ as opposed to specific things we should change
+ but to the extent that it does carve out positions
+ it's about the foundational principles
+ that Leo believes we should bring into the discourse
+ rather than a strict delineation of the conclusions
+ that those principles should lead us to
+ and perhaps unsurprisingly
+ given that the subtitle is safeguarding
+ the human person in the time of artificial intelligence
+ the core plea in fact of the piece
+ is in my estimation
+ to keep real living humans
+ not artificial intelligences
+ nor anonymous market forces
+ as the barometer of our success with this
+ in any technology
+ That line about the pursuit of greater profits
+ not justifying choices that systematically sacrifice jobs
+ is about the ever present tension
+ between on the one hand
+ markets as unfeeling
+ efficient allocators of scarce resources
+ and on the other hand
+ markets as ultimately
+ servants of human wants and needs
+ AI is of course reigniting this tension
+ in a massive way
+ but that fundamental tension at the core of
+ who markets are supposed to serve
+ is and has been ever present
+ Now when it comes to the Pope's argument
+ about the potential for a new form of colonialism
+ it is not I don't believe
+ the argument that Karen Howe paraphrased
+ when she said that the Pope had weighed
+ in and decided that AI is currently deeply
+ exploitative instead
+ the piece recognizes
+ that when a new resource is identified
+ the potential for exploitation
+ and new power dynamics based on that resource
+ become something that we have to pay
+ attention to the piece recognizes
+ that people's data has become
+ extremely valuable
+ ultimately a new type of power to mine
+ and that given that we are already seeing
+ how much aggregation
+ of that data can lead to economic power
+ we need to have a conversation as the Pope puts it
+ about how to ensure that shared
+ knowledge becomes a true common good
+ rather than an instrument of dominance
+ now to me reading that paragraph
+ which is 178 by the way
+ and more about the potential misuse of health data
+ the Pope writes
+ and yet more than anything else
+ to me the central argument that underpins
+ the entirety of Magnifica Humanitas
+ is that human value cannot be reduced
+ to an intelligence benchmark
+ that even if and when AI becomes
+ quote-unquote smarter than us
+ it will remain categorically different
+ from us and in part the reason for this
+ is a rejection
+ of the idea of the foibles
+ and problems and challenges
+ and limitations of humanity
+ as inherently problems to be fixed
+ one of the most contentious paragraphs
+ for people like Dean Ball
+ who have some belief in AI cognition
+ is paragraph 99
+ where Leo writes
+ offering tangible benefits across many fields
+ yet this power remains entirely tied to data processing
+ so called artificial intelligences
+ do not undergo experiences
+ do not possess a body
+ do not feel joy or pain
+ do not mature through relationships
+ and do not know from within what love, work, friendship
+ or responsibility mean
+ nor do they have a moral conscience
+ since they do not judge good and evil
+ grasp the ultimate meaning of situations
+ or bear responsibility for consequences
+ they may imitate language, behavior
+ and analytical skills
+ or even simulate empathy and understanding
+ but they do not understand what they produce
+ for they lack the effective relational and spiritual perspective
+ through which human beings grow in wisdom
+ even when these tools are described as capable of learning
+ their way of doing so is different from that of a human person
+ it is not the experience of those who allow themselves to be shaped by life
+ and grow over time through choices, mistakes, forgiveness and fidelity
+ rather it is a form of statistical adaptation
+ based on data and feedback
+ which can be very effective but does not imply inner growth
+ as much as this may come as a shock
+ to the researchers and technologists building AI
+ this is not going to be a controversial take
+ among the vast majority of people
+ including people who use AI every single day
+ for most the idea that even if AI can do math
+ or write things faster and even better than us
+ does not change the fact that it remains
+ fundamentally different to us
+ in ways that should be enshrined
+ in our policy and positioning towards it
+ now what I will say is that as AI gets more advanced
+ there will be more debate to be had here
+ people who currently feel right now
+ as I just argued that AI being
+ quote-unquote smarter than humans
+ doesn't make it of equivalent value
+ from a societal and policy perspective to humans
+ my guess is that in the future
+ more people will have more questions about that than they do now
+ in that way, I think the Magnifica Humanitas
+ is a flag planting
+ it's a preparation for the period where that conversation heats up
+ closely related I think is paragraph 118
+ where Leo writes
+ our relationship with life seems to be in crisis today
+ everything that appears as a limit
+ incapacity, illness, old age, suffering, vulnerability
+ tends to be seen primarily as a defect to be corrected
+ rather than as reality through which our humanity matures
+ and opens itself to relationship
+ and yet we must remember that humanity flourishes
+ not despite limitations, but often through them
+ now from there the argument veers a little bit more
+ into the theological than I want to go into
+ in the context of this particular episode
+ but in many ways this pairs with the denial
+ of the specialness of AI intelligence
+ as central pillars in a fundamentally
+ contra transhumanist type of argument
+ that the encyclical is setting a foundation for
+ now obviously this debate is going to get nothing but louder
+ and in that I think Boyantungus might have it right when he writes
+ the most important thing about Magnifica Humanitas is that it exists
+ challenges posed by AI are real
+ they will only increase and they will have a massive impact on all aspects of human life
+ the fact that the Catholic Church takes this matter very very seriously
+ to the point that Pope Leo decided to dedicate his first encyclical to it
+ is very laudable and encouraging
+ it shows urgency, centrality and importance
+ given to this topic by one of the biggest
+ and most visible global institutions
+ I hope that many other institutions
+ especially governments and professional organizations
+ start approaching matters of AI with the same focus
+ and dedication and high level urgency
+ and I think that that's right
+ and I will only add as we conclude
+ that despite some of the throw away
+ sound-bitey type takes I shared earlier in the show
+ in general the discourse and discussion
+ around this particular piece
+ has been so elevated
+ compared to the average mud-fest
+ that is the discourse on AI
+ and frankly any big political issue these days
+ like I said at the beginning I highly encourage you
+ to take some time to read the whole thing
+ or at least drop it in your AI of choice
+ and have a conversation about it
+ for now however that is going to do it for today's AI Daily Brief
+ appreciate you listening or watching as always
+ until next time peace
+ you
