@@ -1,0 +1,834 @@
+ Today on the AI Daily Brief, the annual summer AI slowdown panic has arrived a little early
+ this year.
+ Before that in the headlines, a new coding benchmark that's getting rave reviews.
+ The AI Daily Brief is a daily podcast and video covering the most important news and
+ discussions in AI.
+ Alright friends, quick announcements before we dive in.
+ First of all, thank you to today's sponsors, KPMG, ZenCoder, Scrunch, and Bolt.
+ To get an ad-free version of the show, go to patreon.com.ai-dailybrief or you can subscribe
+ on Apple Podcasts.
+ Reminder that it is just $3 a month for ad-free.
+ If you want to learn more about sponsoring the show, send us a note at sponsors.ai-dailybrief.ai.
+ By the way, for anyone who is interested, we are selling many, many months ahead now.
+ So if you think you might be, I'd encourage you to reach out.
+ And lastly today, a quick thing, the most important way that the podcast has grown
+ over the last few years is when people share it internally with their work colleagues.
+ And I realized that the podcast as it is can be fairly dense and actually sort of difficult
+ to transmit into that sort of work setting.
+ I've got a survey up on the website right now about how I can help make that easier.
+ It's only a couple of questions.
+ It'll take you less than a minute to do.
+ And I would so appreciate it if you take the time to let me know how I can make
+ AI DB for teams work better.
+ You can find a link right on the main page there at AIDailyBrief.ai.
+ We kick off today with a new benchmark that has people pretty excited.
+ Now, if you are a regular listener, you might remember my episode from back
+ a couple of months ago called Why AI Needs Better Benchmarks.
+ Effectively, the lament of that piece is that most of the benchmarks we have
+ either are or are getting saturated incredibly quickly.
+ And even if they're not, are highly susceptible to gaming in a way that
+ makes their value in terms of understanding how good a model actually is pretty low.
+ One of the ways that this shows up is a real disconnect between what benchmarks
+ say when a model is first released and what people go experience.
+ One of the areas that this has been on display recently is in the realm of
+ agentic coding, where people's lived experience with the models has been
+ fairly different than what's suggested by the benchmarks.
+ Well, now we have a new entry into the field called Deep SWE.
+ The benchmark comes from a company called DataCurve.
+ And in their announcement, DataCurve's Serena Ga writes,
+ On public leaderboards, top models often look relatively close in capability.
+ Deep SWE or Deep SWE shows where they actually diverge.
+ We wanted tasks that reflect realistic, novel engineering work.
+ The SWE bench family scrapes existing GitHub issues in PRs,
+ reflecting the realistic experience of developers in their day-to-day work.
+ Now, coming to a critique of what has previously existed Serena writes,
+ we wanted tasks that reflect realistic, novel engineering work.
+ The SWE bench family scrapes existing GitHub issues in PRs,
+ which causes two problems.
+ Memorization, i.e. models have already seen the solution.
+ And triviality, most tasks are small.
+ Deep SWE tasks are built from scratch, keeping prompts intentionally short and
+ natural, while requiring significantly more code to solve.
+ On the initial benchmarking run, DataCurve found that GPT55 was head and
+ shoulders above the competition with a score of 70%.
+ GPT54 was in second place with 56%, narrowly beating Opus 47 at 54%.
+ Results rapidly trail off from there, suggesting the benchmark is very good at
+ identifying the handful of models that are truly able to handle long horizon coding
+ tasks.
+ To give one example of the difference in performance,
+ Kimmy K2.6 narrowly beat GPT54 on Terminal Bench 2.0 and SWE Bench Pro,
+ while on Deep SWE, GPT54 beat Kimmy 2.6 by more than 30 percentage points.
+ In fact, all of the Chinese models look pretty far behind on this benchmark.
+ Kimmy was the highest scoring with 24%, but
+ DeepSeq V4 is way down the leaderboard at just 8%.
+ Beyond the simple pass-fail dimension, DataCurve also published cost,
+ speed, and token efficiency findings, with once again,
+ GPT55 being the clear leader in all three.
+ Compared to Opus 4.7, GPT55 used around half as many tokens, completing the run in
+ less than half the time and costing around a third as much.
+ This obviously has big implications as we move into AI's trade-off area that
+ evolves effectively token shortages.
+ In addition to just the results, there's a bunch of things that people are
+ responding positively to about how Deep SWE does things.
+ The tasks require real-world workflows like parsing repos, working across multiple
+ files, tool use, and long context reasoning.
+ And in addition, DataCurve isn't uploading their solutions to GitHub to
+ prevent them being included in training data.
+ Developer and entrepreneur Siki Chen summed up the feelings of many when he
+ wrote, this benchmark very much matches the vibes for my real-world Long
+ Horizon usage.
+ Adds Y Combinator CEO Gary Tan, this is the new standard for engineering evals.
+ Chubby noted that this is a real alignment between what was rising as the
+ pro-codex and 5.5 vibes, putting it in numbers that validated people's feelings.
+ A couple more interesting things from deeper in the notes.
+ DataCurve designed a qualitative evaluation harness to figure out why
+ models fail tasks.
+ The evaluation found that the biggest difference between the leading models and
+ the rest was self-verification.
+ GPT54 and Opus 4.7 wrote their own tests to verify their work over 80% of
+ the time while the weaker models were far less likely to take this approach.
+ DataCurve also found a distinct failure pattern for anthropics models.
+ Claude often missed stated requirements for a multi-part prompt.
+ For example, if a task required support for both sync and async, Claude would
+ often do one and forget the other.
+ OpenAI models were unlikely to make this same error, and
+ this prompt adherence was consistent across multiple runs.
+ DataCurve did note a few limitations.
+ Most notably their benchmark harness forced models to use bash commands,
+ which DataCurve wrote could hold the models below their native ceiling.
+ The testing also strips out synergy from native harnesses like Claude Coder Codex,
+ potentially degrading performance in an uneven manner.
+ Overall, when I was imploring the world to have better benchmarks,
+ this is exactly the type of thing that I was hoping for, so
+ I'm very excited to see where this one goes.
+ Moving now from the realm of benchmarks to the realm of narrative,
+ a portion of AI leaders at least are finally starting to change their tune
+ on the AI Jobs Apocalypse.
+ One of my big beefs with the Frontier Labs for the last several years
+ has been the way that they've seen to jump at any chance to tell everyone
+ how likely it is that the technology that they're building inexorably for
+ some reason is going to inevitably steal everyone's livelihoods.
+ Now, of course, my much bigger beef with the messaging is the fact that they
+ actually believe it, which regular listeners will know, I simply do not.
+ And before we're all done here, I will spend hours and hours and
+ hours explaining exactly why I disagree.
+ But regardless, whether it's based on a changing assessment of what is likely to
+ happen or just, you know, like a third grade level analysis of how
+ terrible the communication strategy has been, it does seem like OpenAI at least
+ has changed their tune.
+ This week, Sam Altman is reinforcing his new talking points that actually,
+ it looks like people will probably continue to have jobs despite powerful
+ new work tools being introduced.
+ During an interview on Tuesday, he said,
+ I don't think we're going to have the kind of jobs apocalypse that some of
+ the companies in our space advocate or talk about.
+ I thought there would have been more impact on entry level white collar
+ jobs being eliminated by now than has actually happened.
+ With a healthy dose of humility, in fact,
+ Altman suggested the industry had miscalculated how easily people could
+ be replaced by computers.
+ He continued, I now think I understand more about why it hasn't and
+ I'm obviously grateful, but that is an area where my intuitions were just off.
+ He went on to explain that the human part of employment can't be replaced
+ by AI adding, we really do care about our interactions with people,
+ which updated me to thinking that the jobs picture is likely to be very
+ different than we thought.
+ Now, many economists have attempted to make similar points over the past
+ year, but you know, when push comes to shove, you're all going to
+ lose your jobs is a much better headline.
+ In any case, for those economists, the argument is typically that task
+ automation is categorically different to job automation and or that
+ the frictions of deploying AI at an organizational level provide a
+ natural speed limit to any change.
+ Up till now, those arguments have been a bit theoretical, but we are
+ starting to hear practical case studies that explain the
+ difficulty of mass AI replacement.
+ Last week, for example, Goldman Sachs CEO David Solomon published
+ an op-ed in the New York Times declaring the AI job
+ apocalypse concern overblown.
+ Now, he was not polyannish about the situation, citing Goldman
+ Sachs economists who believe a quarter of work hours will be
+ automated over the next decade.
+ Within his own firm, his estimate was that AI had already
+ displaced 16% of entry-level tasks.
+ Solomon's argument was that AI, like previous technological
+ revolutions, will create more jobs than it destroys and
+ generate a productivity boom.
+ He observed that markets rarely deploy productivity to sell
+ the same product at a lower cost.
+ Instead, they use new tools to deliver a better product at
+ the same price.
+ Giving an example from his own world of investment banking,
+ he wrote that this might look like delivering more
+ comprehensive analysis on a faster timeline with
+ higher-touch client service.
+ Ultimately, the thing that is encouraging to me is not just
+ the shift in tone, but the actual first principles
+ thinking and observation of real-world phenomenon that's
+ going into these changed estimations of just how
+ disruptive AI is likely to be.
+ Finally, in the funding world, the inference layer is
+ gathering the next big wave of startup funding as the
+ token crunch crunches.
+ The information reports that base 10 is closing in on a
+ billion-dollar fundraising round that would value the
+ startup at $11 billion.
+ Base 10 is a neocloud of sorts, providing a vertically
+ integrated solution for fine-tuning open-source models
+ and deploying them in production.
+ Base 10 doesn't own their GPUs, instead serving as a
+ middleman and value-added reseller for
+ larger cloud providers.
+ This round would see their value more than double
+ from their last fundraising round announced just
+ three months ago.
+ The growth in valuation is in line with some
+ incredible revenue numbers so far this year.
+ Sources said Base 10 saw annualized revenue
+ triple from $200 million to $600 million during the
+ first quarter, with their run rate increasing 20x
+ since March of last year.
+ OpenRouter is another beneficiary of the funding
+ surge becoming the latest AI unicorn this week.
+ They announced a $113 million Series B on Tuesday
+ led by Capital G, which is the investment arm of
+ Google parent Alphabet.
+ Sources said the round valued OpenRouter at
+ $1.3 billion doubled their value from their
+ Series A last June.
+ As the name suggests, OpenRouter is a token
+ routing service, basically a way for a customer to
+ get access to lots of different AI models with
+ a single platform.
+ So for example, if you're designing some
+ application that is at least a little bit
+ model agnostic and you want to optimize for
+ factors like performance, cost, or simply have
+ some redundancy, you can build on top of
+ OpenRouter instead of chunky APIs from all
+ the different model providers directly.
+ Like Base 10, OpenRouter's business is
+ absolutely booming.
+ Current OpenRouter investor Menlo Ventures
+ reported that the company is now serving
+ 100 trillion tokens per month, a 5x increase
+ from where they were six months ago.
+ Menlo also noted that their revenue run rate
+ has already doubled since the round was
+ opened in February.
+ These raises demonstrate just how much
+ focused the AI industry has now on
+ inference and serving models above and
+ beyond just simply training runs.
+ Dylan Brislot of Nebius posted,
+ Sim Altman recently said we have to
+ become an AI inference company now.
+ Editors note I'm pretty sure he said
+ we are an inference company now,
+ but regardless the point remains,
+ Dylan continues, feels like that sentence
+ is the cleanest reorg of the year
+ and kind of went under the radar.
+ The frame the public still uses is
+ training, who had the biggest cluster,
+ the most data, the best post-training
+ pipeline, the boldest scaling bet.
+ That story is still real, but it's not
+ where the marginal dollar goes in 2026.
+ The marginal dollar goes to serving
+ a reasoning model that has to think
+ for 10 seconds before it answers,
+ hold a million token context without
+ falling over, fan out to a tool,
+ come back, verify itself and bill you
+ for every token in the trajectory.
+ The training run is amortized.
+ The serving run repeats every time
+ a user opens the app.
+ Congrats to base 10 and open router,
+ but for now that is going to do it
+ for the headlines.
+ Next up, the main episode.
+ All right, folks, quick pause.
+ Here's the uncomfortable truth.
+ If your enterprise AI strategy is,
+ we bought some tools,
+ you don't actually have a strategy.
+ KPMG took the harder route
+ and became their own client zero.
+ They embedded AI and agents across
+ the enterprise, how work it's done,
+ how teams collaborate, how decisions move,
+ not as a tech initiative,
+ but as a total operating model shift.
+ And here's the real unlock.
+ That shift raised the ceiling
+ on what people could do.
+ Humans stayed firmly at the center
+ of the network.
+ Humans stayed firmly at the center
+ while AI reduced friction,
+ serviced insight, and accelerated momentum.
+ The outcome was a more capable,
+ more empowered workforce.
+ If you want to understand
+ what that actually looks like
+ in the real world,
+ go to www.kpmg.us slash AI.
+ That's www.kpmg.us slash AI.
+ Quick question.
+ When was the last time you actually
+ visited a website to research something?
+ If you're like me,
+ AI pretty much does that work for you now.
+ That, of course, raises a new question for brands.
+ If AI is doing the discovering,
+ researching, and deciding
+ who or what is your website really for?
+ That shift in user behavior,
+ the rise of AI bots becoming
+ your most important new visitors,
+ is what my sponsor, Scrunch, is taking head on.
+ Scrunch is the AI customer experience platform
+ that helps marketing teams
+ understand how AI agents experience their site,
+ where they show up in AI answers,
+ where they don't,
+ and what's preventing them from being
+ retrieved, trusted, or recommended.
+ And it's not just visibility.
+ Scrunch shows you the content gaps,
+ citation gaps, and technical blockers that matter,
+ and helps you fix them so your brand is found
+ and chosen in AI answers.
+ Now for our listeners,
+ Scrunch is providing a free website audit
+ that uncovers how AI sees your site,
+ where there's gaps,
+ and how you're showing up in AI versus the competition.
+ Run your site through it at
+ scrunch.com slash AI daily.
+ Today's episode is sponsored by Bolt.new.
+ Bolt.new is a genetic engineering on multiplayer mode.
+ Designers, product managers, and engineers
+ build in the same environment.
+ And the design system agent keeps every screen on brand.
+ No more Frankenstein UI stitch from a dozen prompts.
+ Whether you're shipping internal tools,
+ moving from prototype to production,
+ or replacing a legacy admin panel,
+ Bolt.new takes your team from concept to deployed app.
+ One personal recommendation,
+ hit plan mode before you build.
+ I had a project I'd half described
+ in three different prompts,
+ and plan mode made me actually think through it
+ with Bolt.new before a single line got written.
+ It saved me from rebuilding the same screen
+ probably about four times.
+ Build better apps faster.
+ Start with the link in the description.
+ So, coding agents are basically solved at this point.
+ They're incredible at writing code.
+ But here's the thing nobody talks about.
+ Coding is maybe a quarter of an engineer's actual day.
+ The rest is stand-ups, stakeholder updates,
+ meeting prep, chasing context across six different tools.
+ And it's not just engineers.
+ Sales spends more time assembling proposals than selling.
+ Finance is manually chasing subscription requests.
+ Marketing finds out what shipped two weeks after it merged.
+ ZenCoder just launched ZenFlow work.
+ It takes their orchestration engine,
+ the same one already powering coding agents,
+ and connects it to your daily tools.
+ JIRA, Gmail, Google Docs, Linear, Calendar, Notion.
+ It runs goal-driven workflows that actually finish.
+ Your stand-up brief is written before you sit down.
+ Review cycle coming up.
+ It pulls six months of tickets and writes the prep doc.
+ Now, you might be thinking,
+ didn't Open Claw try to do this?
+ It did, but it has come with a whole host
+ of security and functional issues,
+ which can take a huge amount of time to resolve.
+ ZenCoder took a different approach.
+ Sock 2, Type 2 certified,
+ curated integrations, tighter security perimeter,
+ enterprise grade from day one,
+ model agnostic and works from Slack or Telegram.
+ Try it at zenflow.free.
+ Welcome back to the AI Daily Brief.
+ Every year, like clockwork,
+ the summer sees some AI slowdown panic.
+ Now, the particular nature of the narrative
+ has changed each year,
+ but it has come without fail every single time.
+ It appears to me that we might be getting ours
+ a little early this year,
+ and with the Memorial Day holiday coming a little early
+ and kicking off the summer in the U.S.,
+ sure enough, the shape of the panic
+ is starting to reveal itself.
+ Now, these panics are sort of
+ an unintentional collaboration
+ between the professional critics.
+ In other words, the people who have made it,
+ their personality and or business model
+ to deny or disparage AI,
+ with the people who are just tired and desperate
+ for AI not to be as big a deal as it seems,
+ because thinking about adapting to it is just exhausting.
+ Back in the summer of 2023,
+ the narrative hit when in June,
+ ChatGPT had its first down month ever.
+ Similar web who presented the stats
+ claimed it was the quote novelty wearing off.
+ Pretty soon, people came to the conclusion
+ that it was about students going home for the summer,
+ which, if true, according to
+ vaunted publications like Business Insider
+ was a bad sign for open AI's long-term prospects.
+ Fast forward to 2024,
+ and the summer panic was an early version
+ of a pre-training wall
+ where a lot of the discourse
+ was that companies were just going to run out of data
+ to train their models on
+ and walking down that implication path
+ if there wasn't new data,
+ that at some point models were just going to stop improving.
+ Now, 2025 was a doozy.
+ It was that oh-so-lovely MIT study
+ and I used the most aggressive air quotes possible around study
+ that found that 95% of generative AI projects fail,
+ which was, of course, not the only factor.
+ GPT-5 came out to largely universal disappointment
+ and given that there had been a flurry of infrastructure deals
+ signed by companies like OpenAI in the previous couple of months,
+ the financial side of the AI bubble narrative
+ really picked up steam.
+ The combination of the idea
+ of AI not being able to get all that much better
+ as witnessed by GPT-5
+ plus not really performing inside organizations
+ as witnessed by MIT
+ had big implications the story went
+ for the financial stability of the AI industry.
+ Spoiler alert, however,
+ these panics never last all that long.
+ In Q4 of 2023,
+ we had a number of companies start to release their own GPT-4 class models.
+ Maybe most notably in December,
+ Google got back in the game in a big way launching Gemini.
+ In 2024 in September,
+ OpenAI answered the concerns about pre-training walls
+ with a fundamentally different approach to scaling
+ in the introduction of 01,
+ which would become their first reasoning model.
+ Now, in 2025,
+ the bubble narrative actually persisted longer than the summer.
+ It was a driving story throughout Q4 of last year,
+ but eventually it was absolutely smashed
+ by the combination of Claude Code,
+ Opus-45, GPT-5, 3 and 5-4
+ and the recognition that in fact
+ not only was AI still getting better,
+ but some major Rubicon of capability had been crossed.
+ This, of course, set up the first half of this year,
+ which has been insane, exciting,
+ and for many, completely exhausting.
+ Agents became real.
+ People started to recognize the importance of harnesses
+ with many getting their first taste of harness engineering
+ as they set up their open claws on new Mac minis.
+ In the enterprise world,
+ the capability overhang
+ became more pronounced than urgent than ever
+ and it has been an absolute race to catch up.
+ Now, it is in that cauldron
+ that we've gotten phenomenon like token maxing.
+ Token maxing in short is the idea of incentivizing team members
+ to use AI as much as possible
+ as measured by the number of tokens they consume.
+ We found out that Meta had a token leaderboard,
+ but that actually this was happening
+ in companies outside of technology as well.
+ Companies like Uber announced
+ that they'd burnt through their annual token budgets
+ in just a few months
+ and we were truly off to the races
+ and alongside the massive shift from assisted AI
+ to agentic AI
+ came an incredible increase in revenue
+ as the thing that mattered for the big labs
+ was no longer the number of seats that they could sell,
+ but the number of tokens that those seats could consume.
+ This is what has gotten us to open AI
+ being at a $30 billion run rate
+ and Anthropics surging to a $45 billion run rate.
+ Caveat-Asterisk, the comparison isn't a perfect one-to-one
+ as they have different accounting practices,
+ but hold aside the specifics.
+ The trend line is what matters.
+ Revenue at Skyrocketed leading many people
+ to question some of those bubble assumptions
+ that had been so prominent at the end of last year.
+ If we were, as everyone would admit,
+ just barely scratching the surface
+ of how much AI could be used
+ and already we were seeing revenue numbers like these,
+ maybe these big infrastructure deals didn't look so crazy.
+ As recently as the beginning of this month on May 1st,
+ the Atlantic published a piece called So
+ about that AI bubble.
+ Thanks to the rise of Claude Code and other AI agents,
+ revenues are finally catching up to the hype.
+ And yet, for those watching closely,
+ it's been clear that there's something of a reckoning coming.
+ Tokens are too expensive and there's not enough of them.
+ All of a sudden,
+ companies are having to change their business models
+ to be usage-based instead of seat-based.
+ This has caused incredible consternation
+ among especially prosumer-style users
+ who were sometimes consuming
+ five or even $10,000 worth of tokens
+ on a $200-a-month plan.
+ The shift from the subsidy model
+ to the pay-per-use kind of model
+ is now showing up everywhere,
+ and it's clear that the AI subsidy era
+ is well and truly over.
+ Putting a fine point on the idea that we are shifting
+ from a subsidy era to a trade-offs era,
+ the U.S. government is even at this point
+ getting involved in the rationing
+ of the most powerful models.
+ Recently, when Anthropic wanted to expand access
+ to their most powerful
+ and still limited access mythos model,
+ the White House opposed the expansion
+ not just because of cybersecurity concerns,
+ but because they wanted first crack at all those tokens.
+ The sum total of this
+ is that the very, very short golden age
+ of agent experimentation,
+ which lasted from the beginning of this year
+ to the middle of this year,
+ has come to a close.
+ And what's bad about this
+ is that experimentation plays
+ an incredibly important role
+ in figuring out how we're going to actually
+ get the most value
+ from these agents.
+ The implication of agents
+ is not doing the same stuff
+ we were doing before
+ just a little bit faster
+ or a little bit cheaper.
+ It's doing totally new types of things
+ in totally new ways,
+ and I don't think that there's any way to figure that out
+ without just actually going around and doing it.
+ This is especially true
+ when it's lots of non-technical folks
+ doing totally net new work,
+ and so the loss of the ability to experiment freely
+ is a genuine loss.
+ It also significantly increases
+ the chance of AI inequality,
+ where only the already resourced
+ have access to the most advanced models
+ and the differential between the models
+ that the most well resourced have access to
+ versus everyone else gets bigger and bigger.
+ And yet on the flip side,
+ there are some good things
+ about the place that we find ourselves as well.
+ Certainly the fact that we're discovering
+ that extensive agentic usage
+ is actually much more expensive than we thought
+ changes the calculus on human replacement
+ fairly significantly.
+ Even if it's just a temporary state of affairs,
+ there is incredible value
+ in buying ourselves time to adapt to transition.
+ The question of AI disruption
+ is not just about
+ how much of our current work AI can do.
+ It's about the speed with which it starts to do it
+ and the pace of our ability to adapt.
+ Having the most advanced agentic uses
+ not be clearly short-term financial wins
+ gives us more time to adapt.
+ And by the way,
+ this sort of market-based adaptation
+ is a way healthier and more sustainable type of adaptation
+ than some sort of forced slowdown
+ pronounced from on high.
+ Speaking of healthier markets,
+ although it sucks for us
+ who are losing some of our toys,
+ companies being forced to make the market pay
+ at a sustainable price
+ is obviously way healthier long-term
+ for the sustainability of the industry as a whole.
+ The irony of what we will see
+ as the resurgence of the bubble narrative
+ is that a world in which companies
+ are continuing to subsidize usage
+ is one that is way more likely
+ to have a big bubble form
+ than one where the market is adapting
+ to the actual price of the goods being sold.
+ Still, regardless of what's good
+ or what's bad about how this is changing,
+ what is completely inevitable
+ is that this was going to generate
+ a new bubble narrative.
+ I discussed on a recent show
+ that the new line from the professional AI deniers
+ is no longer that the AI models themselves aren't useful
+ but that actually your vibe-coded apps are crap.
+ And of course, it's more than that.
+ Not only are your vibe-coded apps crap,
+ but if those crappy vibe-coded apps
+ aren't making money, they're not useful.
+ And if they're not useful
+ or not making money, then you're just wasting money.
+ And since we're now in a token shortage
+ and when that money wasting gets cut off,
+ well, then of course, all that revenue growth
+ from OpenAI and Anthropic will stop
+ and as the market sees that,
+ they won't have the resources to need
+ to continue their infrastructure build-out
+ and the bubble will finally pop.
+ Again, I am saying that this narrative
+ was completely inevitable
+ based on the changes that are happening.
+ And of course, it was going to line up
+ with the summer session.
+ And boy, howdy, here we are.
+ AI Policy Advisor Dean Ball wrote recently,
+ I feel us approaching yet another summer
+ of discontent with AI,
+ just like last year when many of my peers
+ in the AI Commentariat declared deep learning
+ to have hit a wall because of GPT-5, blah, blah, blah.
+ And sure enough, yesterday,
+ Uber somehow once again made big news
+ when following the revelation from its CTO
+ that the company had burned through its token budget
+ in four months, now in a new interview,
+ the COO said that all that token spending
+ wasn't worth it.
+ Specifically, he said that there wasn't a link
+ between that increased token usage
+ and an increase in the number of useful consumer features
+ that were being pushed out.
+ And my goodness did the professional critics
+ jump up all and down over this,
+ weaving basically a story
+ just like the one I just gave you
+ that draws a direct line from this one interview
+ to the catastrophic failure
+ of the entire American economy
+ as the AI bubble bursts.
+ And to be fair, it's not just the most died-in-the-wold
+ AI deniers that are starting to walk down this path.
+ CNBC's dear Drabosa writes,
+ Part one is companies
+ realizing they're spending too much on AI.
+ Part two is companies switching to cheaper AI
+ because there are good enough models to do the job.
+ This may not bode well for open AI
+ and anthropic valuations
+ that assume they can hold pricing power.
+ The argument here is that if companies start to choose,
+ for example, cheaper Chinese versions,
+ that could threaten the ability for open AI
+ and anthropic to charge what they want to charge,
+ which could have big implications for their revenue growth,
+ which could have big implications for their IPO price,
+ which could have big implications
+ for the way investors see AI as a whole.
+ Adding to this, you got this wildly viral chart this week
+ of the daily install counts of AI coding assistance
+ in VS Code that basically saw a plateau
+ over the last couple of months
+ in terms of the number of daily installs.
+ Reharjark writes,
+ It's clear that growth for coding tools such as Quad Code
+ has decelerated from the pace it was
+ since the start of the year.
+ It might be compute-constrained related
+ or due to many clients blowing their full-year AI budgets,
+ monitoring this trend very closely.
+ And of course, all of the AI consultants
+ will come out of their holes
+ to shake their heads vigorously and agree
+ with how aimlessly companies are spending tokens
+ because, of course, it becomes just an advertisement
+ for their services.
+ These are the same firms that were the biggest culprits
+ in perpetuating the MIT lie last year
+ because they got to say,
+ 95% of AI work fails.
+ We can help you be in the 5%.
+ Now, as you can probably tell from my tone,
+ don't put a lot of stock in this resurgent bubble narrative.
+ Professor Ethan Malik wrote,
+ We aren't gonna do this again so quickly, are we?
+ Rising demand results in higher costs.
+ Higher costs result in lower demand.
+ It's almost like some sort of equilibrium
+ is being achieved.
+ But there's no indication I see that companies
+ are finding AI less valuable over time.
+ Journalist Derek Thompson writes,
+ We're getting another round of the AI bubble is popping stories
+ with the news about Uber and Microsoft
+ pulling back on AI subscriptions
+ because their agent cost went crazy.
+ Maybe, but GPU rental prices are still up 2X
+ from where they were four months ago.
+ It doesn't seem like demand is slowing down at all.
+ When, e.g., New York City hotel prices
+ are twice as high as they were last year,
+ you shouldn't believe people telling you
+ that nobody is going to New York City anymore.
+ Maybe someone smarter than me can correct me on this logic,
+ but if the price for accessing AI compute is skyrocketing,
+ that's because demand is still significantly
+ outrunning supply, which sounds to me like
+ the opposite of the beginning of the end of a bubble.
+ Research firm Epic AI put some numbers around this
+ trying to estimate both the expansion of token supply
+ versus the expansion of token demand.
+ And the TLDR is that while global inference capacity,
+ i.e., the supply of tokens is more than tripling each year,
+ their estimates have global demand for tokens
+ growing by roughly 10X per year.
+ Now, I wasn't a math major,
+ but a 3X expansion of supply
+ in the face of a 10X expansion of demand
+ certainly doesn't seem like a scenario
+ where open AI or Anthropoc are gonna have
+ any problem selling every token they produce.
+ But let's go beyond the macro
+ because the really interesting things that are happening
+ are the way the market is trying to adapt
+ to what it's spotting as this shortage.
+ First of all, we're getting innovation
+ in the models themselves.
+ I've talked a bunch recently
+ about cursor's new Composer 2.5 model,
+ which has jumped to third place
+ on artificial analysis's coding agent index
+ behind only Opus 47 Max and GPT-55 Extra High
+ while costing 10 to 60 times less than those models.
+ And although they didn't choose to highlight it much
+ at I.O. last week,
+ sneakily Google's small cheap model Gemma 4
+ is seeing adoption that outpaces Chinese models
+ like Quen 3.5 and 3.6.
+ Layton Spaces-Swix writes,
+ everybody talks about the China to U.S. catch-up,
+ not enough people talking about the U.S. to China catch-up.
+ And what about that VS Code chart?
+ Now, first of all,
+ I think it would be reasonable
+ to be not all that stressed out about a plateau
+ after a period of massive growth.
+ Things don't tend up only forever.
+ Growth in most areas tends to come
+ in fits of punctuated equilibrium
+ where things stay pretty stable for a while
+ and then spike up and then stay stable for a while
+ and then spike up again.
+ But honestly, I don't even think that's what's going on here.
+ Remember, Rehard who shared the chart said,
+ it's clear that growth from coding tools
+ such as Cloud Code
+ has decelerated from the pace it was
+ since the start of the year.
+ Developer Simon Willison bit back,
+ or does it reflect
+ that the most popular interface surfaces
+ for coding agents these days
+ no longer live in developer IDEs?
+ What he means by that
+ is that if you're wondering what VS Code even is
+ because you use Cloud Code or Codex,
+ you're a person who wouldn't be counted in those numbers
+ even if you had recently adopted these tools.
+ As Ronan Berder put it,
+ cursor and VS Code are just losing market share.
+ Lots of folks now using CLIs,
+ i.e. the terminal interface or desktop apps.
+ But are there perhaps some numbers
+ we should put around that?
+ Simon again shared a chart of NPM installs of Codex,
+ which means when Codex was installed
+ directly through a terminal interface.
+ He points out that they were at
+ about 100,000 a day in January
+ and are at over a million a day right now.
+ In fact, in the last couple of days
+ they've surged up to one and a half
+ and 1.8 million.
+ In other words, this chart is as much or more
+ about VS Code as it is about Cloud Code or Codex.
+ Now I want to be clear.
+ We are entering a new moment
+ and as we peel off the frenetic pace of growth
+ of the last six months,
+ there is a lot of valuable discourse to be had.
+ As I tried to articulate before
+ there's a lot of good that can come out
+ of a resource constrained era.
+ Entrepreneur and content creator Greg Eisenberg
+ recently talked about a trip to San Francisco
+ where he writes,
+ I heard the phrase agent debt for the first time
+ like technical debt, but for agents.
+ When you hack together an agent workflow fast
+ and never clean it up,
+ the system prompts conflict,
+ the memory gets polluted,
+ the tools overlap.
+ Six months later,
+ the agent is doing weird things
+ and nobody knows why.
+ Now treating agent debt as a new phenomenon
+ of this agent era
+ and figuring out how to deal with it
+ is exactly the type of conversation
+ that can be extremely valuable
+ in this type of slower period.
+ You're also going to continue to see,
+ I believe more and more resources flood in
+ to help support better,
+ more thoughtful adoption.
+ That's why both open AI and Anthropic
+ have spun up consulting ventures recently.
+ Look, ultimately for those in the know,
+ these AI slowdown panic periods are amazing.
+ If you are even the least bit competitive
+ and want to be getting ahead of peers
+ in understanding how you use these tools,
+ there's nothing better than everyone else opting out
+ for a couple months,
+ hoping that this whole thing finally goes away.
+ In any case,
+ inevitably we will continue to track
+ the AI slowdown panic here on the show,
+ but for now that is going to do it
+ for today's AI Daily Brief.
+ I appreciate you listening or watching
+ as always
+ until next time.
+ Peace.
