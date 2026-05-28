@@ -1,0 +1,894 @@
+ Today on the AI Daily Brief, the case for an AI token tax.
+ And maybe the case against it.
+ The AI Daily Brief is a daily podcast and video about the most important news and discussions in AI.
+ Alright friends, quick announcements before we dive in.
+ First of all, thank you to today's sponsors KPMG, Robots and Pencils, Assembly and Zencoder.
+ To get an ad-free version of the show, go to patreon.com.ai-dailybrief
+ or you can subscribe on Apple Podcasts to learn more about sponsoring the show.
+ Send us a note at sponsors.ai-dailybrief.ai.
+ At ai-dailybrief.ai you can also find out about everything else going on in the ecosystem.
+ Right now I am asking for a quick maybe 30 to 45 second set of answers around some ideas
+ for how to make it easier to share AIDB with your teams and get more value out of it that way.
+ And anytime there's something new going on in AIDB, you can find it again at ai-dailybrief.ai.
+ Now I am traveling today and so had to prepare this episode in advance.
+ Luckily though, I think this topic was some of the most interesting discourse yesterday,
+ especially after Elizabeth Warren released an op-ed in Time Magazine about why AI should be taxed.
+ But we are doing a main only type of episode.
+ We should be back with our normal format headlines and domain shortly.
+ Today we're going to talk about the argument for attacks on AI tokens.
+ Now to be clear, we're also going to talk about the arguments against that.
+ But you better believe that this is a conversation that is just going to increase.
+ Now one of the things that I feel very strongly is that it is wildly in the interest of the AI industry
+ to not reject out of hand these types of novel policy approaches.
+ If we are indeed entering in such a critically and categorically different period,
+ it follows that policies that have served well enough for many years
+ may simply not make sense in the new context.
+ That does not mean we have to ultimately be in favor of the new policies that get proposed,
+ but I think that the healthiest stance is one of open engagement.
+ Now when it comes to an AI token tax specifically, this is a conversation on the rise.
+ It's been around for a while.
+ El Pais, for example, wrote a big piece last November called
+ If AI Replaces Worker Should It Also Pay Taxes,
+ but it's getting a second wind in a major way right now.
+ Just yesterday on Wednesday, US Senate candidate from Michigan, Mallory McMarrow,
+ released a new comprehensive policy about protecting workers in the age of AI,
+ featuring, among other things, a token tax.
+ Again, as tempting as it is, especially for the more libertarian minded among you,
+ to reject out of hand any new government policy,
+ I don't think it's particularly hard to tell when someone is coming at the conversation in good faith versus bad faith
+ and there are a lot of completely reasonable things in McMarrow's policy
+ that I anticipate seeing in other people's platforms and in bills to come.
+ Some of the policies in McMarrow's plan are a little bit more well trodden.
+ For example, she's proposing an AI workforce reinvestment fund
+ that requires companies that automate jobs away to contribute pooled resources
+ to a professional apprenticeship program
+ and what she calls a worker-centered retraining and upskilling program.
+ However, for our purposes, the more notable one is a token tax,
+ which she calls a modest fee on commercial companies' AI usage,
+ ensuring that as AI scales, so do the benefits for working people.
+ Quote,
+ as AI use grows to billions of queries per day,
+ a fraction of a cent charge per token becomes a meaningful, sustainable,
+ funding stream for government programs without raising taxes on a single American worker.
+ But it wasn't just a Senate candidate talking about this this week,
+ this is also a growing talking point from people already there in the Senate.
+ In Time Magazine on Wednesday, Elizabeth Warren published an op-ed called
+ Why We Need to Tax AI.
+ Again, a lot of it is pretty well trodden territory,
+ critiques of AI data centers for quote,
+ jacking up utility bills, concern around an AI financial bubble,
+ but also a growing focus on the implications of AI
+ for what Warren calls our rigged tax code.
+ Warren writes,
+ taxing AI is one way we make sure the winnings from AI benefit all Americans,
+ rather than channeling them only to the wealthy few.
+ If millions of people lose their jobs to AI,
+ we'll need the funds to deliver universal health care
+ so those workers are not bankrupted by a visit to the doctor.
+ If AI transforms the future of work,
+ we'll need to invest in free education and apprenticeships
+ and a new jobs guarantee so that all Americans have good paying work.
+ And while workers get back on their feet,
+ we'll need the revenue to bolster unemployment insurance to keep families afloat.
+ The only way we can get there, she writes, is by overhauling our tax code.
+ Now in the next couple paragraphs,
+ she focuses on tried and true complaints
+ around things like the effective tax rate billionaires pay,
+ basically stuff that has nothing to do with AI itself.
+ However, she writes,
+ rethinking our tax code must also include going to the source.
+ That means taxing AI companies directly,
+ which can start with taxing AI data centers.
+ The majority of AI data centers are controlled
+ or operated by trillion-dollar companies.
+ By imposing a reasonable excise tax on the energy used by data centers,
+ families could recoup some of the gains of AI
+ while America continues to stay competitive in the AI race.
+ A well-designed tax would focus on the companies
+ that can afford it and scale with AI's impact.
+ The bigger the data center, the more they pay.
+ She continues,
+ we can't be afraid to consider even bigger and bolder proposals to tax AI too,
+ including ideas that sound radical today
+ but may quickly become common sense.
+ If we overhaul our tax code and tax AI,
+ we can use that money to build a country that works for everyone.
+ She concludes,
+ AI was trained on human creativity and intelligence,
+ AI was funded in part by federal investments in scientific research,
+ and AI is powered by data centers that are built on American land
+ and use our shared electric grid.
+ The American people deserve to share in the success of this technology,
+ and I'm willing to work with anyone to get it done.
+ Now I will be honest,
+ when it comes to innovation policy,
+ I don't normally find myself particularly aligned with Elizabeth Warren,
+ even if there are plenty of other issues we might agree on.
+ However, I will say in this case,
+ if our options are on the one hand,
+ the Bernie Sanders AOC moratorium on data centers,
+ or option B,
+ the Elizabeth Warren cut everyone in on the benefits of data centers,
+ I'm certainly more inclined philosophically towards that second position.
+ And recently there have been some surprising voices
+ calling for policies that you might not expect to associate with them.
+ A couple of weeks ago, for example, Mark Cuban tweeted,
+ we should federally tax tokens at the provider level.
+ Not a lot, less than 50 cents per million tokens.
+ It will accomplish four things at least.
+ One, it will push the big AI players to optimize tokenization,
+ caching, routing, and localization,
+ which will, two, reduce energy usage,
+ saving them in energy costs more than what they paid in tax,
+ and reducing strain created by the growth in energy consumption,
+ which will, three, generate maybe $10 billion a year to start,
+ but over the next 10 years could grow 30x to 100x,
+ which will, four, create a source of funding
+ to pay down the federal debt
+ or deploy in response to the things AI brings
+ that we don't expect or don't like.
+ At some point, the models will pass it on to customers.
+ Of course, that's okay.
+ Customers will have the ability to choose between providers
+ or to do everything using open source models locally.
+ Thoughts?
+ And, of course, he got a lot of thoughts.
+ For some, it was the principle of it.
+ Investor Steven Sinovsky wrote,
+ imagine a bit tax in 1995.
+ Palmer Lucky disagreed with some of the logic behind Cuban's post,
+ writing,
+ there are already massive economic incentives to optimize,
+ so this is just a tax on American companies
+ that make foreign models and products more attractive.
+ Along with creating the infrastructure for government
+ to track all AI usage and punish anyone who doesn't report.
+ Others were a little less generously engaged.
+ Flex Sports' Ryan Peterson retweeted the post and said,
+ claiming a token tax would save AI companies money
+ earns the 2026 Dumbest Economic Thinking Award.
+ Impressive work considering this current year's competition.
+ Another perhaps unexpected source
+ is Duck Duck goes Gabriel Weinberg,
+ who doesn't even really dispense with a logical justification
+ for a token tax,
+ but at the end of April,
+ basically argued that we should do it
+ and start stashing that money away for a displaced worker fund.
+ He says,
+ we should start collecting an AI token tax now
+ and figure out exactly what to do with the funds later,
+ holding them in a true lockbox outside general appropriations,
+ with statutory protection limiting use of funds
+ to supporting displaced workers in the future.
+ We at Duck Duck go would be willing to support bills
+ to this effect and ultimately pay a token tax,
+ presumably collected by the leading AI companies
+ on a usage basis,
+ for example, a 10% surcharge on token charges.
+ The amount would roughly match the 10%
+ employers pay in payroll taxes,
+ and also further reduces the incentive to replace
+ human workers with AI workers.
+ Gabriel is not, however, the only tech leader
+ to suggest such a step.
+ In an interview with Axios last year,
+ anthropics Dario Amade floated the idea of a token tax,
+ whereas Axios wrote,
+ every time someone used a model in the AI company
+ made money,
+ perhaps 3% of that revenue would go to government
+ and be redistributed in some way.
+ Dario added,
+ obviously that's not in my economic interest,
+ but I think it would be a reasonable solution
+ to the problems.
+ And Axios added,
+ AI's power races ahead the way he expects,
+ that could raise trillions of dollars.
+ Alright folks, quick pause.
+ Here's the uncomfortable truth.
+ If your enterprise AI strategy is,
+ we bought some tools,
+ you don't actually have a strategy.
+ KPMG took the harder route
+ and became their own client zero.
+ They embedded AI and agents across the enterprise,
+ how work gets done,
+ how teens collaborate,
+ how decisions move,
+ not as a tech initiative,
+ as a total operating model shift.
+ And here's the real unlock.
+ That shift raised the ceiling on what people could do.
+ Humans stayed firmly at the center
+ while AI reduced friction,
+ serviced insight,
+ and accelerated momentum.
+ The outcome was a more capable,
+ more empowered workforce.
+ If you want to understand
+ what that actually looks like in the real world,
+ go to www.kpmg.us.ai,
+ that's www.kpmg.us.ai.
+ One thing I keep seeing in enterprise AI,
+ companies hedging across every cloud,
+ every model, every framework,
+ or paying a GSI for a pilot that never ends.
+ The team's actually shipping,
+ they've picked a lane,
+ and they move fast.
+ That's one of the reasons
+ I like today's sponsor,
+ Robots and Pencils.
+ They've gone all in on AWS.
+ They're an advanced tier
+ and AWS pattern partner,
+ and they ship production AI co-workers
+ in 45 days.
+ That's led to them doing
+ some of the more interesting work
+ I've seen on AI co-workers.
+ And by that,
+ I'm not talking about chatbots.
+ I'm talking about actual
+ agentic systems that sit
+ inside a business architecture
+ and do real work.
+ That kind of focus matters
+ if you're an enterprise leader
+ trying to get something
+ real into production
+ or an AWS rep
+ trying to move a customer
+ from interested to deployed.
+ Request an AI briefing
+ at robotsandpencils.com.
+ One conversation
+ with Robots and Pencils
+ and you'll know.
+ You know Assembly AI
+ for having the most accurate
+ streaming speech to text out there.
+ But they just want to step further
+ and launched a full voice agent API.
+ The idea is simple.
+ One connection
+ and they handle everything.
+ The listening, the thinking, the speaking.
+ You just stream audio in
+ and get your agent's voice response back.
+ We're talking about things like
+ outbound sales calls
+ that actually qualify leads,
+ customer support
+ that handles complex requests
+ without a script,
+ scheduling agents
+ that sound like a human assistant,
+ and you can build one
+ in five minutes with one API.
+ And importantly, their streaming model
+ is the best at catching
+ all the stuff that breaks
+ on other voice agents,
+ things like phone numbers,
+ emails, names, and medical terms.
+ And for those of you
+ who are still in experimentation mode,
+ there are no contracts
+ and unlimited concurrency
+ so you can actually test it out
+ without any friction.
+ Head to assemblyai.com
+ slash brief
+ and try the live voice agent demo
+ right there on the site.
+ No signup needed.
+ So coding agents
+ are basically solved at this point.
+ They're incredible at writing code.
+ But here's the thing
+ nobody talks about.
+ Coding is maybe a quarter
+ of an engineer's actual day.
+ The rest is stand-ups,
+ stakeholder updates,
+ meeting prep, chasing context
+ across six different tools.
+ And it's not just engineers.
+ Sales spends more time
+ assembling proposals
+ than selling.
+ Finance is manually chasing
+ subscription requests.
+ Marketing finds out what shipped
+ two weeks after it merged.
+ ZenCoder just launched ZenFlow work.
+ It takes their orchestration engine,
+ the same one already powering
+ coding agents,
+ and connects it to your daily tools.
+ JIRA, Gmail, Google Docs,
+ Linear, Calendar, Notion.
+ It runs goal-driven workflows
+ that actually finish.
+ Your stand-up brief
+ is written before you sit down.
+ Review cycle coming up.
+ It pulls six months of tickets
+ and writes the prep doc.
+ Now you might be thinking,
+ didn't Open Claw try to do this?
+ It did, but it has come
+ with a whole host of security
+ and functional issues,
+ which can take a huge amount
+ of time to resolve.
+ ZenCoder took a different approach.
+ Sock 2, Type 2 certified,
+ curated integrations,
+ tighter security perimeter.
+ Enterprise grade from day one.
+ Model agnostic and works
+ from Slack or Telegram.
+ Try it at ZenFlow.free.
+ So what is the argument here
+ from a first principles basis?
+ I think the thrust of Gabriel's argument,
+ which is that we're going to have
+ a bunch of displaced workers
+ that we need to support
+ so we should start collecting it now,
+ is fairly unconvincing,
+ at least on a first principles basis.
+ But there is a certain coherence
+ in the idea that the category shift
+ in who does work from humans
+ to agents creates a shift
+ in the way that taxes work right now
+ that something like a token tax
+ could theoretically solve.
+ Across the OECD,
+ the average tax for a single average worker
+ was 35.1% of labor costs in 2025.
+ Whether you think that's
+ insanely high or too low
+ doesn't really matter.
+ That's the starting point
+ that we're working with.
+ Now suppose, however,
+ that AI agents increasingly perform
+ those same productive tasks,
+ whether it's customer support, analysis,
+ medical paperwork, accounting, design,
+ or something else.
+ When a human performs the task,
+ the resulting income is taxed
+ through income and payroll taxes.
+ But if an AI agent performs the task,
+ the value might show up as lower costs,
+ higher margins, cheaper services,
+ or capital gains,
+ much of which is harder to tax.
+ And even when it is taxed,
+ tax less than labor.
+ By the way, the IMF started arguing
+ about this all the way back in 2024
+ when they explicitly warned
+ that labor substitution
+ could erode the income tax base
+ if capital income was taxed
+ at less than labor income.
+ So basically the first principle's claim
+ would be something like
+ the tax base should follow
+ the locus of productive capacity.
+ If AI agents become a major class of workers
+ in the economy,
+ some public revenues should be collected
+ from AI work rather than from human work.
+ But why tokens?
+ The reason to tax tokens
+ would be that in AI systems
+ tokens are going to be
+ one of the most observable
+ units of AI labor.
+ Providers already meter
+ inference by tokens,
+ meaning that it would be relatively
+ mechanically simple to apply a token tax
+ as a usage-based surcharge
+ on top of model inference.
+ Yes, it is an imperfect measure
+ of synthetic labor,
+ but then again,
+ so are ours worked.
+ Tax bases are chosen
+ because they are
+ administratable proxies
+ for something economically important.
+ Theoretically then,
+ you could get some sort of
+ tax neutrality
+ between human and AI labor.
+ Imagine option A,
+ hiring a person for $100,000,
+ which brings with it payroll taxes,
+ income tax withholding,
+ unemployment insurance,
+ workers' comp,
+ compliance costs,
+ versus B,
+ buying AI agent services
+ for $100,000 worth of inference,
+ even in this paradigm
+ that we're going into
+ where the AI tokens themselves
+ aren't necessarily
+ much cheaper than humans,
+ but that $100,000 of inference
+ comes with no labor tax equivalent.
+ Even if the AI is only
+ slightly better or slightly cheaper,
+ the tax system itself
+ would then push the firm
+ towards automation
+ because the human option
+ carries a public finance
+ surcharge,
+ which the AI option does not.
+ One could argue
+ that that's not
+ free market mediated
+ automation,
+ but instead,
+ a token tax,
+ perhaps also paired
+ with a recalibrated
+ or lowered payroll
+ or wage tax,
+ would say in principle
+ we are not trying
+ to stop automation.
+ We're trying to remove
+ an artificial physical preference
+ for replacing taxable humans
+ with untaxed agents.
+ Finally,
+ going a step deeper
+ on the philosophical case,
+ a labor tax implicitly says
+ when a human converts
+ their time or skill or effort
+ into economic output,
+ society is determined
+ that they are allowed
+ to claim a share of that
+ to fund public goods.
+ That made sense
+ when labor was the main source
+ of production
+ and wages were the main way
+ that ordinary people
+ shared in that growth.
+ But if AI agents
+ perform more of the work,
+ then taxing only human labor
+ ends up taxing the thing
+ that we may want to protect.
+ Human participation,
+ employment,
+ earned income,
+ bargaining power.
+ A token tax then
+ is a way of saying
+ that the obligation
+ to fund society
+ should be attached
+ to productive capacity,
+ not just human toil.
+ Okay,
+ so that's one version
+ of a First Principles
+ argument for this.
+ But as I said,
+ we're not just talking
+ about the case for an AI token tax.
+ We're also talking
+ about the case against it.
+ And there are
+ a lot of cases against it.
+ David Friedman wrote up
+ a bunch of them
+ in a response post
+ to Mark Cuban's proposal.
+ One of the main arguments
+ that he makes
+ is that tokens
+ are a terrible proxy
+ for economic value.
+ One million tokens
+ might be used
+ to generate spam
+ or summarize a novel.
+ They could coordinate
+ a supply chain
+ or create a meme.
+ They could help a student
+ learn calculus,
+ vibe-coded app,
+ perform high-value
+ or something else entirely.
+ The point being
+ that the economic value
+ per token
+ could vary by orders
+ of magnitude.
+ And even more importantly,
+ the purpose of every token
+ consumed is not
+ to produce economic value.
+ Many of the tokens consumed
+ will not be
+ in the service of work.
+ Friedman also
+ points out something
+ that Claude,
+ I think interestingly,
+ called the
+ tokenizer endogeneity problem.
+ Basically,
+ that different providers
+ are going to tokenize
+ the same content differently.
+ Mandarin is going to run
+ two to three times
+ more tokens than English.
+ Source code
+ is going to be
+ 1.5 to 2x times more,
+ and some low-resource languages
+ are going to be
+ 10 to 15x more.
+ A flat per token tax
+ then discriminates
+ between providers
+ and users on a basis
+ completely unrelated
+ to the externality
+ being taxed.
+ Dave writes,
+ This is bad tax design
+ under any framework,
+ but is especially bad
+ when the providers
+ writing the tokenizers
+ are the same parties
+ paying the tax.
+ He also points out
+ that the token tax
+ doesn't have a clean
+ and easy way to deal
+ with the fact
+ that we've seen
+ as he puts it
+ a secular 200x
+ annual decline
+ in per-token prices
+ for two years running.
+ Dave writes,
+ If token prices fall
+ 200x per year
+ and the tax is fixed
+ at 50 cents per million,
+ the tax-to-price ratio
+ grows 200x per year.
+ A tax that is 5%
+ of a frontier price
+ in year one
+ is a thousand percent
+ of that same price
+ in year three.
+ Either Congress indexes
+ the tax downward,
+ in which case the revenue
+ collapses,
+ or it doesn't,
+ in which case the tax
+ becomes confiscatory
+ at the low end
+ and providers
+ wrote around it.
+ There is no stable
+ equilibrium where
+ this raises 30 to 100
+ times more revenue
+ They've also pointed out
+ that there's a geographic problem
+ where the tax
+ is levied on providers
+ but providers can be anywhere
+ and given how much
+ of token consumption
+ is with companies
+ outside the U.S.,
+ it means in effect,
+ he writes,
+ A U.S. per-token tax
+ on U.S. providers
+ is structurally
+ an import substitution
+ subsidy
+ for non-U.S. inference.
+ American enterprise
+ customers serving
+ American end-users
+ will increasingly route
+ through foreign-domiciled
+ API providers,
+ model-hosting platforms
+ and jurisdiction
+ without the tax
+ or aggregation layers
+ that obscure the
+ underlying provider.
+ Interestingly,
+ a lot of the academic work
+ so far on this issue
+ has come to similar conclusions.
+ Brookings sponsored a paper
+ that came out in January of this year
+ called Public Finance
+ in the Age of AI.
+ This tries to deal directly
+ with the possibility
+ of artificial intelligence
+ eventually eroding
+ what they call the
+ two main tax bases
+ that underpin
+ modern tax systems,
+ labor income
+ and human consumption.
+ So this is a group
+ that is acknowledging
+ that in that situation
+ the burden of taxation
+ will have to shift away
+ from labor.
+ However, what that means
+ in practice
+ is not going to be simple.
+ What they end up doing
+ in that working paper
+ is splitting the AI transition
+ into two stages.
+ Each of those stages
+ have a different set
+ of optimal tax instruments.
+ In fact,
+ they differ dramatically
+ between them.
+ In stage one,
+ which is where labor starts
+ to be displaced
+ but humans are still consuming,
+ they suggest that
+ the right answer
+ is in a token tax
+ on production
+ but a consumption tax
+ that captures value
+ where humans actually
+ use services.
+ Effectively,
+ they're arguing
+ that token taxes
+ in principle are okay,
+ but only at the point
+ of consumption
+ integrated into VAT
+ and sales tax infrastructure
+ with B2B use
+ is exempted to avoid
+ some sort of cascading.
+ In stage two,
+ what they call
+ the AGI economy
+ where AGI
+ is the autonomous producer
+ and consumer,
+ they propose deeper
+ capital taxation
+ on AGI entities.
+ Indeed,
+ one of the big things
+ that they hammer
+ over and over again
+ both in the working paper
+ itself
+ as well as in their
+ companion blog post
+ is the importance
+ of distinguishing
+ between intermediate
+ and final use.
+ Effectively,
+ they're arguing
+ research use,
+ manufacturing use
+ or a genetic workflow
+ discovery.
+ It becomes a tax
+ on intermediate production
+ which distorts productive
+ investment and adoption.
+ Now,
+ this is one of the areas
+ where I find the strongest
+ disagreement with the token
+ tax in principle.
+ A token tax
+ as defined
+ like Mark Cuban does
+ as just a flat percentage
+ of all the tokens used
+ creates a significant
+ known ROI bias.
+ Here's what I mean by that.
+ We are already
+ in a period
+ where experimentation
+ with AI use cases
+ is getting costly
+ because there is
+ greater demand for tokens
+ than the supply of tokens
+ enabled by our
+ compute energy
+ and other infrastructure
+ token prices are on the rise.
+ Companies are responding
+ as you might expect
+ by placing more
+ severe restrictions
+ on token usage
+ and prioritizing
+ use cases
+ that have known
+ or clear ROI.
+ That's going to mean
+ a significant prioritization
+ of what I have
+ frequently called
+ efficiency AI.
+ Make customer support
+ cheaper.
+ Make analysts produce
+ decks faster.
+ Make sales reps
+ write emails faster.
+ It's not that
+ but there are productivity improvements
+ inside an existing model.
+ My very strong contention
+ is that the biggest value
+ from AI
+ is in fact going to be
+ in the new opportunities
+ it unlocks
+ and if we add
+ another layer
+ of disincentive
+ to experimentation
+ we would be significantly hamstringing
+ the ability
+ for firms
+ in the private market
+ to go out and discover
+ the highest value uses
+ for these tokens.
+ Now exacerbating that problem
+ is the fact
+ that in no universe
+ would a token tax
+ fall equally on everyone.
+ The biggest firms
+ would negotiate discounts
+ reserve capacity
+ self host models
+ amortize experimentation
+ over huge revenue bases.
+ Basically the possibility
+ for this to also entrench
+ incumbents would be just
+ massive.
+ So where all this
+ leads me
+ is that I think
+ that the first principles idea
+ that in a world
+ where the burden of production
+ moves increasingly
+ from human labor
+ to agentic labor
+ might come with
+ some serious changes
+ required
+ to the way we structure
+ the tax base around it.
+ Now as you've heard
+ me talk about a lot
+ I also think that the idea
+ of substitution
+ is wildly overblown
+ so I expect
+ I would disagree
+ on the extent to which
+ the labor tax base
+ gets disrupted
+ because I think people
+ are still going to have jobs
+ doing all sorts of new things
+ meaning they'll continue
+ to have wages
+ that can get taxed
+ but I'm also generally
+ speaking sympathetic
+ to the goal
+ of making sure
+ that this transformational
+ technology
+ benefits everyone.
+ I tend to be a big fan
+ of the real
+ politics strategy
+ of buying them off.
+ What do I mean by that?
+ When it comes to data
+ centers and communities
+ I tend to look for ways
+ that the data centers
+ can be economically valuable
+ in very clear
+ and tangible ways
+ to those communities.
+ Support for jobs
+ and employment
+ is an obvious one
+ but I think that there are
+ many, many other ways
+ that data center builders
+ and the companies
+ that are going to use them
+ could buy goodwill
+ by subsidizing electricity
+ and other utility costs
+ or creating public
+ infrastructure in some way.
+ Mostly though
+ I just think
+ that if the changes
+ are as immense
+ as most of the people
+ listening to this podcast
+ are convinced that they are
+ we have to be willing
+ to have
+ different uncomfortable
+ conversations
+ and so I'm glad we're
+ starting to talk about
+ an AI token tax.
+ I think we can do a lot
+ better but that's what
+ a good debate is for.
+ For now that's going to
+ do it for today's
+ AI Daily Brief.
+ Appreciate you
+ listening or watching
+ as always
+ and until next time
+ peace.
