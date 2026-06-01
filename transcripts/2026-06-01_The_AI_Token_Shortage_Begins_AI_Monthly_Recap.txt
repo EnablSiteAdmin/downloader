@@ -1,0 +1,710 @@
+ Today on the AI Daily Brief, we're recapping the month of May, one of the single most consequential
+ AI months we've had in a very, very long time.
+ The AI Daily Brief is a daily podcast and video about the most important news and discussions
+ in AI.
+ Alright friends, quick announcements before we dive in.
+ First of all, thank you to today's sponsors, KPMG, Robots and Pencils, ZenCoder, and OutSystems.
+ To get an ad-free version of the show, go to patreon.com.ai-dailybrief or you can subscribe
+ on Apple Podcasts.
+ If you want to learn more about sponsoring the show, send us a note at sponsors.ai-dailybrief.ai.
+ Today is the first day of June, and while I don't always use the first of the month
+ to look back and reflect on the month that was, in this case, I think it's pretty
+ important.
+ We are now experiencing the second big AI transitional moment of 2026.
+ Although you could argue that the first actually began in the end of 2025, in the November
+ and December period where Claude Code and Codex were on the rise and we got the series
+ of models including Opus 4.5 and GPT-5.2, which of course all came together to unleash
+ the true agent era at the beginning of 2026.
+ At this point, you've heard me talk ad nauseam about the fact that everyone went
+ home for the holidays, started hacking around on Claude Code with these new models
+ and discovered that what you could do had changed fundamentally.
+ That led into the open-claw period where all of a sudden people were getting
+ their hands messy with harnesses in a new way and just an absolute explosion
+ of new behavior around AI.
+ Not only were software engineers actually using agentic coding tools in a mainstream
+ way, not just vibe coding prototypes and things like that, but actually pushing
+ agent-created code into production.
+ But the people who had previously just been knowledge work-style vibe coders using
+ tools like Lovable and Replet were moving to a way more advanced period, building
+ much more extensive and complex applications in harnesses like Claude
+ Code and Codex, or even spinning up and building entire agents and
+ agentic systems thanks to tools like Open Claw and later Hermes, really
+ signaling that the times had changed.
+ Now, one of the consequences of this shifting behavior is that the most
+ relevant economic unit for AI companies ceased to be the seat and
+ instead shifted to the token.
+ And what I mean by that is that revenue for Open AI and Anthropic was no
+ longer constrained to what percentage of their users they could convert into
+ paid seats either on the consumer or on the enterprise side, but instead
+ how much API revenue they were getting through people actually using and
+ consuming tokens.
+ API-based usage looks very, very different from an economic standpoint than
+ seat-based usage.
+ To put just a little personal example on it, when I dropped the personal
+ Context Portfolio Builder at contextportfolio.ai, turns out a lot of
+ you wanted to use it.
+ So much that it racked up about a $5,000 bill over the first six
+ weeks or so of it existing.
+ Compare that $5,000 to the $200 a month Claude seat that I'd been
+ paying for forever.
+ You're talking about more than two years worth of Claude Mac seats
+ in spend with a single six-week project.
+ Now, this is of course where the massive explosion in revenue came
+ from for the foundation model companies this year.
+ Open AI searched a $30 billion in ARR and Anthropic went even
+ farther, even faster, getting as we recently learned all the way up
+ to $47 billion in annualized run rate as of right now.
+ To go from $3 billion in revenue, which was where they were at the
+ beginning of 2025 to $47 billion in annualized revenue a year
+ later is just staggering.
+ And the realization of what this meant kind of where this
+ month started.
+ This was perhaps best captured in an article in The Atlantic
+ called So about that AI bubble.
+ And while the author themselves wasn't apologizing for
+ getting it wrong or anything like that, the article itself
+ served as a bit of a mea culpa for the Q4 period in which the
+ media's obsession was the idea of AI as a bubble.
+ Now, remember in Q4 the argument had never been that AI
+ wasn't valuable.
+ It's that the ability for the foundation model labs, i.e.
+ the token sellers to realize that value felt too many as
+ unlikely to be able to keep up with the cost of this
+ incredibly extensive AI infrastructure build out in the
+ form of all these compute deals and all the things that
+ we heard about throughout the back half of 2025.
+ That starts to look very different when you see the type of
+ growth numbers and frankly the type of pure raw revenue
+ numbers that companies like Open AI and Anthropoc were
+ putting up.
+ And again, because it was not based on seats, which have a
+ natural and imaginable cap and was instead based on
+ tokens where we were seeing these numbers despite it
+ being the very, very beginnings of us scratching the
+ surface of how much AI we could use.
+ A lot of people to their credit readjusted their
+ priors about the possibility of an AI bubble and really
+ calibrated up their expectations of just how big
+ this could all get.
+ And this part of the story has never gone away.
+ And one of the big themes throughout May was as
+ summed up in a single headline from the New York
+ Times, how Anthropic got so big so fast.
+ They closed the month with a $65 million fund raising
+ round, valuing them just under a trillion dollars.
+ And there was also a competitive dynamic to
+ this with the month seeing Anthropic racing out ahead
+ of competitor Open AI when it came to business
+ adoption, according to statistics from Ramp.
+ And we even got what Anthropic anticipates to be
+ not only their first profitable quarter, but the
+ first profitable quarter for any of the big
+ foundation model labs.
+ Once again, the psychological impact of achieving
+ profitability with this type of growth rate, with
+ this type of expenditure really reset people's
+ expectations.
+ And yet, as we're coming out of the month, we are
+ once again in the midst of a massive shift in
+ understanding.
+ You could sum this up with a recent Axios article, AI
+ sticker shock hits corporate America.
+ I believe that the period we are heading into now
+ is one that is fundamentally defined by
+ constraints and the second half of this month.
+ And really the meta trajectory of this month
+ was all about starting to realize what that
+ meant and what it was going to look like.
+ Going back a couple of months previously,
+ Uber made headlines in April when its CTO
+ shared that the company had burned through
+ its entire 2026 AI budget in just four months.
+ Now on the one hand, when I saw this article,
+ it didn't seem all that surprising to me
+ in the sense that you have to think that those
+ token budgets were being figured out, probably
+ not even in the November or December period
+ where the Opus 45 level models had started
+ to really be brought to bear, but before that.
+ And so of course they weren't expecting the
+ type of usage that we were going to see
+ once agentic AI really came online.
+ And yet at the same time, this became the capstone story
+ for a lot of different things going on.
+ Every day it felt like we were getting some new
+ token maxing story, where some company or another
+ was creating some sort of internal leaderboard,
+ incentivizing people to consume as many tokens
+ as they possibly could.
+ I did a couple of episodes about this whole
+ token maxing idea, actually providing more
+ of a defense for it, even though I think
+ that a lot of people's first instinct,
+ which is completely reasonable, is to point out
+ the truism of Goodheart's law that once you start
+ to measure something it ceases to be a good measure
+ because people just start to game the measure
+ rather than whatever it was intended to measure.
+ And what's more in the context of token maxing,
+ you're measuring an input rather than an output
+ when inherently and in the long run
+ outputs are all that's going to matter.
+ Now my argument was of course about
+ the value of experimentation and in fact
+ the necessity of experimentation in a period
+ where no one knows the best way to use these tools.
+ But it would be very clear very quickly
+ if there would be consequences of this idea
+ of token maxing that would rear their ugly head soon.
+ Once again, it was Uber that helped shift the conversation
+ when in an interview with Uber's COO this time,
+ the COO shared a lot of skepticism
+ about how much value they had actually gotten
+ from that AI budget that they had burned through
+ in just a few months.
+ This got reinterpreted and reduced to headlines
+ like the informations, uncharacteristically oversimplified
+ Uber COO says AI lacks ROI
+ and really has brought up this whole conversation
+ once again embodied in this AI sticker shock piece from Axios.
+ Now my contention is that we're in a secular shift
+ from one business model paradigm of AI to another.
+ In short, we're moving from an AI subsidy era
+ to a token scarcity era.
+ So what are those terms mean and what are the implications?
+ Well, first of all, let's talk about
+ the idea of an AI subsidy era.
+ The idea of the subsidy era is that for some time,
+ especially the max level subscriptions from the labs,
+ the $100, $200, $300 a month type of subscriptions,
+ while perhaps being profitable for some portion of users
+ were very, very frequently very unprofitable.
+ We don't know for sure, but estimates
+ around the actual value of the tokens
+ that you could theoretically consume
+ on one of those $200 a month plans
+ could sometimes be 10 or 20 times that $200 value.
+ In other words, the most active power users
+ of those max plans were sometimes getting 2,000,
+ 4,000, 5,000, even $10,000 of value
+ out of just $200 a month.
+ And that was the AI subsidy.
+ Now, there was a lot that was really great about that.
+ I basically haven't for a second
+ at any point over the last six months
+ paused to consider the financial implications
+ of any dumb idea I wanted to try on Godox or Claude God.
+ I just start building it.
+ I just start releasing it.
+ We have been in a letter rip kind of place.
+ Now that may work for me as an independent content creator
+ whose job it is basically to do that
+ and then share what I learned with you all.
+ But for companies that starts to get a little bit tricky
+ on both sides of the equation
+ for the provider companies, there's only so long
+ they can subsidize that type of usage
+ to the tune of 10 or 20 X.
+ And if they cease to subsidize it,
+ there's only so long that the companies
+ that are now paying for it on a per usage basis
+ can actually afford to do so.
+ And that shift in business model
+ is the first big implication of the AI subsidy era ending.
+ Over the course of the month,
+ we had a number of different companies announced
+ that they were shifting from a flat seat sort of model
+ to more usage-based billing.
+ One of the first of those was GitHub Co-Pilot
+ who actually made the announcement
+ at the very end of April.
+ In their announcement post, they wrote,
+ Co-Pilot is not the same product as it was a year ago.
+ It has evolved from an in editor assistant
+ into an agentic platform
+ capable of running long multi-step coding sessions
+ using the latest models
+ and iterating across entire repositories.
+ Agentic usage is becoming the default
+ and it brings significantly higher compute
+ and inference demands.
+ Today, a quick chat question
+ and a multi-hour autonomous coding session
+ can cost the user the same amount.
+ GitHub has absorbed much of the escalating inference cost
+ behind that usage,
+ but the current premium request model
+ is no longer sustainable.
+ A few weeks later at Google IO,
+ we got something similar,
+ where yes, nominally the headline was
+ that they had reduced the cost of their premier plans.
+ Gemini Ultraplan dropped to 200
+ and they also introduced a new $100 plan,
+ but they also introduced on top of that usage limits
+ and usage-based billing on top of those limits,
+ meaning that really for a lot of power users,
+ this was going to represent a big cost increase.
+ Same with Anthropic,
+ who specifically focused on billing around third-party tools,
+ meaning that while the subsidy persists,
+ if you are using an Anthropic-specific harness
+ like Claude Code,
+ as soon as you move to a different type of harness
+ or a different environment that's not owned by Anthropic,
+ you're shifting to per token billing
+ with huge financial consequences
+ that created frankly a bit of an uproar throughout the month.
+ So the shift in business model was one response
+ to the AI subsidy era ending
+ and the token shortage era beginning,
+ but it's not the only one.
+ One of the most important AI questions right now
+ isn't who's using AI,
+ it's who's using it well.
+ KPMG and the University of Texas at Austin
+ just analyzed 1.4 million real workplace AI interactions
+ and found something surprising.
+ The highest impact users aren't better prompt engineers,
+ they treat AI like a reasoning partner.
+ They frame problems, guide thinking,
+ iterate and push for better answers.
+ And the good news,
+ these behaviors are teachable at scale.
+ If you're trying to move from AI access to real capability,
+ KPMG's research on sophisticated AI collaboration
+ is worth your time.
+ Learn more at kpmg.com slash us slash sophisticated,
+ that's kpmg.com slash us slash sophisticated.
+ One thing I keep seeing in enterprise AI,
+ companies hedging across every cloud,
+ every model, every framework,
+ or paying a GSI for a pilot that never ends.
+ The team's actually shipping,
+ they've picked a lane and they move fast.
+ That's one of the reasons
+ I like today's sponsor robots and pencils.
+ They've gone all in on AWS.
+ They're an advanced tier and AWS pattern partner
+ and they ship production AI coworkers in 45 days.
+ That's led to them doing some of the more interesting
+ work I've seen on AI coworkers.
+ And by that I'm not talking about chatbots,
+ I'm talking about actual agentic systems
+ that sit inside a business architecture and do real work.
+ That kind of focus matters if you're an enterprise leader
+ trying to get something real into production
+ or an AWS rep trying to move a customer
+ from interested to deployed.
+ Request an AI briefing at robotsandpencils.com.
+ One conversation with robots and pencils and you'll know.
+ So coding agents are basically solved at this point.
+ They're incredible at writing code.
+ But here's the thing nobody talks about.
+ Coding is maybe a quarter of an engineer's actual day.
+ The rest is standups.
+ Stakeholder updates, meeting prep,
+ chasing context across six different tools.
+ And it's not just engineers.
+ Sales spends more time assembling proposals than selling.
+ Finance is manually chasing subscription requests.
+ Marketing finds out what shipped two weeks after it merged.
+ Zen coder just launched Zenflow work.
+ It takes their orchestration engine,
+ the same one already powering coding agents
+ and connects it to your daily tools.
+ JIRA, Gmail, Google Docs, Linear, Calendar, Notion.
+ It runs goal-driven workflows that actually finish.
+ Your standup brief is written before you sit down.
+ Review cycle coming up.
+ It pulls six months of tickets and writes the prep doc.
+ Now you might be thinking,
+ didn't Open Claw try to do this?
+ It did, but it has come with a whole host
+ of security and functional issues
+ which can take a huge amount of time to resolve.
+ Zen coder took a different approach.
+ Sock 2, type 2 certified, curated integrations,
+ tighter security perimeter, enterprise grade from day one,
+ model agnostic and works from Slack or Telegram.
+ Try it at zenflow.free.
+ This episode of the AI Daily Brief
+ is brought to you by OutSystems,
+ a leading agendic systems platform built for the enterprise.
+ Organizations all over the world are building,
+ orchestrating and governing agendic systems
+ on the OutSystems platform and with good reason.
+ OutSystems open and unified platform allows teams
+ to architect, deliver and scale
+ governed agendic systems with agility.
+ Teams of any size and technical depth can use OutSystems
+ to build, deploy and manage AI apps and agents
+ quickly and cost effectively
+ without compromising reliability and security.
+ With OutSystems, you can rapidly launch ideas
+ from concept to completion.
+ It's the leading agendic systems platform
+ that is unified, agile and enterprise proven,
+ allowing you to accelerate growth,
+ reduce operational friction
+ and deliver real enterprise impact with AI.
+ OutSystems, build your agendic future.
+ In addition to that business model response,
+ we've also seen a big uptick in the recognition
+ that when it comes to really adopting
+ the full capabilities of agendic AI well,
+ companies are just gonna need a lot of help.
+ Already, even coming into this year,
+ there was what we call a big capabilities overhang.
+ In other words, a space between what the AI models could do
+ and what most companies were actually getting out of them.
+ But you sprinkle a little bit
+ of agendic capability on top of that,
+ especially as it moves out of the realm of just coding
+ and into the realm of every type of knowledge work.
+ And that capability overhang has just completely exploded.
+ So much so that this month,
+ both OpenAI and Anthropik announced initiatives
+ to more directly support enterprise level transformation.
+ The forms that they took are a little bit different.
+ OpenAI announced their deployment company,
+ which is a majority owned but separate venture
+ to put forward deployed engineers inside big clients.
+ While on the Anthropik front,
+ they partnered with Blackstone,
+ Hellman and Freeman and Goldman Sachs
+ to also launch a separate as yet unnamed
+ enterprise AI consulting or services firm,
+ the guts of which are our friends at Fraction,
+ also congrats to them.
+ But in that one, Anthropik has a smaller stake
+ than OpenAI does in their deployment company.
+ In either case, they both represent the same instinct,
+ which is that in this new period of agendic change
+ and token shortage,
+ more support for enterprise deployment
+ is going to be needed.
+ Yet at the same time,
+ while these consulting and services lines
+ may be a necessary budget line item,
+ the core reality of the period that we're going into
+ is one where companies have to be much more diligent
+ about managing AI costs.
+ And this is not going to be an easy thing to do.
+ A lot of the companies that we had heard about
+ doing some sort of token maxing experiment
+ are now scrapping their AI leaderboards
+ with Amazon being the most recently announced example.
+ And it's not just because of concerns around gaming,
+ those leaderboards or anything like that.
+ It's also because of those shifts
+ that we just saw in the business model
+ where it's just too expensive to token max now.
+ The fundamental and anchor characteristic
+ of the world that we are moving into
+ is one where there is a structural shortage of AI tokens.
+ There simply is not enough compute
+ to produce all of the AI that people would want to consume,
+ meaning that the cost of AI is going to be high
+ with all sorts of different
+ potentially problematic implications.
+ A cool thing, however,
+ is that we're already starting
+ to see market-based responses to that.
+ Cursor announced the next generation
+ of their composer model, Composer 2.5,
+ and not only is it performing well,
+ it's doing so at a much lower cost
+ than Opus 47 and GPT-55.
+ So part of response to the token shortage
+ is market-based innovation
+ to bring the cost of tokens down
+ without sacrificing performance.
+ Google seemed to recognize
+ that this might be part of their play as well,
+ giving lip service on the main stage
+ at Google I.O. this month
+ to the idea of Gemini 3.0 Flash
+ being a way for enterprises to cut costs.
+ However, in practice,
+ that's not really how it's playing out.
+ As artificial analysis points out,
+ Gemini 3.5 Flash costs about five times as much
+ as Gemini 3.0 Flash,
+ both based on higher token prices
+ as well as higher token usage,
+ which isn't to say that Google might not have
+ some better shots on goal
+ when it comes to market-based solutions
+ for token scarcity.
+ Their Gemma series of models,
+ which are their smallest and cheapest models,
+ are actually seeing really fast adoption.
+ With the adoption of those models
+ outpacing similar Chinese models
+ and a sign that people and companies
+ are adapting to this new economic reality.
+ Now, one of the things that I would expect
+ is some pretty serious price warring going on
+ with China running its tried-and-true playbook
+ of artificially keeping prices low
+ to create a competitive advantage,
+ which it seems like might be happening around Deepseek,
+ who has just made a recent temporary 75% price cut
+ on their V4 model permanent.
+ To be clear, that's not because Deepseek
+ has figured out some way to serve those tokens
+ at 75% of the cost.
+ It's because in a world of token shortage,
+ a lot of companies around the world
+ are going to be forced to look away
+ from the state-of-the-art open AI and anthropic models
+ to more affordable alternatives,
+ and Deepseek wants to be right there
+ scooping up that business.
+ Another thing that's happening
+ in the context of this token shortage
+ is that everything regarding AI infrastructure
+ is, as SWIX, Sean Wang put it, going vertical.
+ Inference provider base 10 is raising a billion dollars
+ at an $11 billion valuation,
+ more than doubling its valuation
+ from just one quarter ago.
+ OpenRouter, which can help developers
+ automatically toggle between models
+ that have different trade-offs
+ in terms of cost efficiency performance, et cetera,
+ raised $113 million Series B becoming an AI unicorn.
+ And even more than that,
+ we're seeing some big realignments
+ in the broader infrastructure world as well.
+ The most notable of these undoubtedly,
+ and something that happened this May
+ that I think will have fairly dramatic implications
+ for the industry as a whole,
+ is Elon shifting into a very different type of role
+ vis-a-vis the AI industry.
+ Up till now, Elon's headliner role in the AI space
+ has been as one cheerleader of Grock,
+ which candidly has never at any point
+ really caught up to any of the leading models,
+ and two, as main antagonist of Sam Altman in OpenAI.
+ Now, Elon's lawsuit against OpenAI this month
+ was thrown out based on
+ Statue of Limitations considerations,
+ but that wasn't the big thing that changed.
+ The big thing that changed is that
+ whether it was because of economic opportunity
+ or an assessment of the reality
+ of where Grock sat relative to the models
+ or simply wanting to stick it to Sam Altman,
+ Elon decided to team up with Anthropoc.
+ The first announcement was that SpaceX AI,
+ which is the new XAI inside of SpaceX,
+ basically SpaceX's AI division,
+ would allow Anthropoc to use Colossus 1
+ to provide additional capacity to Claude.
+ Now, Anthropoc has been severely compute constrained
+ throughout the year, causing major headaches for users.
+ So this was very welcome news to Claude users
+ and started to show this realignment happening.
+ However, then just a couple of weeks later,
+ we found out that not only would Anthropoc
+ be using Colossus 1,
+ which was SpaceX slash XAI's first big data center
+ that they spun up at the end of 2024,
+ but at least on a temporary basis,
+ Anthropoc would also be using Colossus 2.
+ In the span of just a couple of weeks,
+ SpaceX became a neocloud
+ with absolutely massive implications
+ for the upcoming IPO.
+ I could talk about this basically endlessly,
+ but I think Elon moving into a place
+ where he is focused on a thing that he does
+ better than just about anyone,
+ which is building big, ungodly physical infrastructure,
+ using that as his way to leverage
+ and influence the AI race
+ by virtue of being a self-appointed czar of compute
+ and by providing a clear line pathway
+ between SpaceX as neocloud provider right now
+ and future orbital data center provider
+ just makes the SpaceX IPO
+ make so much more sense in context.
+ First of all, it allows investors to get excited
+ about a different part of the AI stack
+ and increasingly important infrastructure
+ part of the AI stack,
+ as opposed to just investing in an also ran in Grok.
+ And by the way, for those of you who love Grok,
+ I'm not trying to yuck your yum.
+ There are lots of reasons
+ that it still has value to many people.
+ And I don't think Elon has given up entirely on it.
+ I just think that the trend line
+ is pretty clear at this point.
+ And it's very clear
+ that Wall Street is right now extremely excited
+ about the infrastructure side
+ and effectively the entire AI supply chain.
+ This month saw AI memory stocks absolutely surged
+ with companies like SK Hynex and Micron
+ becoming trillion dollar companies.
+ And now even Meta is talking about the possibility
+ that they could also become a cloud business as well.
+ For the first time in a very long time,
+ Meta's AI narrative wasn't completely freaking out investors
+ because if they can go sell back
+ the 130 billion dollars
+ or whatever worth of compute that they're investing in
+ at a premium, it's significantly de-risks
+ that big CapEx spend.
+ I think the theme of the compute build out
+ as a response to the token shortage era
+ is going to do nothing but grow in June,
+ especially surrounding the SpaceX IPO.
+ Just to put one more fine point on this,
+ when about a month and a half ago,
+ Elon started talking about orbital data centers,
+ it was getting a lot of sci-fi blank stares.
+ Now the narrative has shifted so much
+ that Jeff Bezos is talking about orbital data centers
+ not as a whether we can or if we will
+ but instead saying that two to three years feels to him
+ to be a little ambitious as a timeline for them.
+ Anyway, watching what happens around the SpaceX IPO
+ will be hugely instructive I think
+ in how the market is digesting this token shortage.
+ But before we wrap up, there are a couple other things
+ that happened this month that I did want to point out as well.
+ It was relatively quiet in terms of new model releases.
+ We did just at the end of the month get Claude Opus 48
+ but part of what was interesting about that to me
+ was how much the emphasis has shifted from models alone
+ to the harnesses they sit in.
+ Creator and entrepreneur Riley Brown wrote,
+ unless it's a major breakthrough in model capability
+ I'm much more excited for super app updates
+ like codecs and Claude desktop.
+ There's so much to be unlocked
+ by making those surfaces better.
+ That was his response to the release of Claude Opus 48
+ basically saying I'm not interested
+ if it doesn't come with a Claude code update.
+ Greg Eisenberg went farther saying
+ I didn't cover Claude Opus 4.8 on my pod
+ because I don't think it's meaningfully better
+ than GPT-55 as of May 29th.
+ We're entering the era where model releases
+ start to feel like iPhone releases.
+ Remember when every new iPhone was a genuine leap?
+ Now it's a slightly better camera
+ and you can't really tell the difference.
+ That's where models are heading.
+ 46 to 47 to 48, each one is a little different.
+ Nobody can agree if it's better or worse.
+ The benchmarks say one thing, the vibes is another.
+ The thing that actually matters right now
+ is what's happening around the models.
+ Claude code shipped dynamic workflows this same week
+ and that genuinely changes what one person can build.
+ And indeed that was definitely the story of this month.
+ We talked a little bit about
+ this new dynamic workflows approach
+ as part of the Opus 4.8 coverage.
+ And of course, May was also the month that slash goal
+ became a real primitive jumping from codex
+ where it started to something that's in Claude code as well.
+ If you wanna learn more about slash goal
+ go check out the episode we did
+ for this week's Long Read Sunday
+ which is a primer on how to use slash goal
+ especially for knowledge work.
+ On the narrative side, May might go down
+ as the month where Sam Altman and Daria Amade
+ finally figured out that they probably shouldn't tell everyone
+ that the thing that they were building
+ and which was making them unfathomably rich
+ was going to take everyone's jobs and livelihoods
+ and totally change the world in ways
+ that didn't all seem that particularly good.
+ Now I would say that the Dario reversal
+ is much more nascent than the Sam reversal
+ with Sam actually putting in some time
+ to articulate why he was changing his opinion
+ arguing that evidence had suggested
+ that he had just overestimated
+ how the transformation was going to happen
+ much to his delight.
+ I think that this has opened up some new narrative space
+ which allows for a lot more nuance to conversation
+ around AI on a policy perspective
+ for which I'm very thankful.
+ Now speaking of the policy side
+ you do see a lot of jockeying
+ particularly on the democratic side of the aisle right now
+ for how they're going to interact with AI.
+ And what's interesting is that it's very clear
+ that there's not one fully embraced approach yet.
+ You've got the Bernie and AOC wing
+ who are calling for data center moratoriums
+ but you now have Elizabeth Warren coming in
+ basically saying let's not stop AI
+ with data center moratoriums.
+ Let's get our cut.
+ She wrote an op-ed last week in Time
+ called Why We Need to Tax AI
+ and I think that the conversation
+ about novel taxation structures like token taxes
+ is going to become a more prominent theme
+ in the months to come.
+ Certainly when it comes to politics
+ in a backwards looking way
+ the story of May was all about the White House
+ getting fully involved in model releases
+ surrounding the release or non-release
+ of anthropics mythos.
+ And what's interesting about this
+ bringing it back to the token shortage
+ meta theme of the moment
+ is that not only is the White House
+ thinking about cybersecurity issues
+ they are also positioning the US government
+ relative to the token shortage
+ with a story coming out at the very end of April
+ and the very beginning of May
+ that part of the reason that they were opposing
+ Anthropics plan to expand access to mythos
+ was that they knew that there was a token shortage
+ and they didn't want other people
+ using up the tokens that they might want to use.
+ So what comes next?
+ Certainly a huge theme this month
+ is going to be the SpaceX IPO.
+ It's also likely that we'll get
+ another open AI model pretty soon.
+ Anthropic has explicitly said
+ that some version of mythos
+ will be here in the coming week
+ so I would expect that in June as well.
+ But overall, I think that a lot
+ of the immediate term next period
+ is going to be all about how to recalibrate
+ for an era of token shortage.
+ From business model changes
+ to different approaches in the enterprise
+ to new policies, we are in for a big shift.
+ And one where I think that there are going to be
+ serious advantage opportunities
+ that can accrue especially to enterprises
+ who figure out how to manage this
+ more quickly and more efficiently than others.
+ We will discuss exactly how I think companies
+ can come at this token shortage in episodes to come.
+ But for now, that's going to do it
+ for today's AI Daily Brief.
+ I'm back from traveling tomorrow
+ and we will be back with our normal formats.
+ For now, however, appreciate you listening or watching
+ and until next time, peace.
