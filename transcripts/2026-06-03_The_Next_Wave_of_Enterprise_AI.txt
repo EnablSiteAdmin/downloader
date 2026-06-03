@@ -1,0 +1,1042 @@
+ Today on the AI Daily Brief, the next wave of enterprise AI is upon us.
+ Before that on the headlines, the very confusing and weird process around the latest AI executive
+ order. The AI Daily Brief is a daily podcast and video about the most important news and
+ discussions in AI. Alright friends, quick announcements before we dive in. First of all,
+ thank you to today's sponsors, KPMG, OutSystems, ZenCoder, and Bolt. To get an ad-free version of
+ the show, go to patreon.com.ai-dealybrief or you can subscribe on Apple podcasts.
+ And if you want to learn more about sponsoring the show, send us a note at sponsors.ai-dealybrief.ai.
+ Today we begin with the latest in the saga of this Trump AI Executive Order. This is just one of the
+ absolute strangest policy processes I've seen. So what's going on? How did we get here and what
+ was actually signed? First of all, by way of context, the reason that this is coming up at all
+ is a couple parts. Firstly, there are some very, very different and contentious groups when it
+ comes to AI, including in Trump's own coalition. Republicans like Governor DeSantis in Florida,
+ as well as very loudly former presidential advisor Steve Bannon, have been squawking
+ quite loudly about AI and more broadly, decrying Trump's close alliance with the
+ technology industry for some time now. And yet the specific catalyst for this new round of policy
+ discussion was the cyber capabilities of Anthropics mythos model. So the executive order we started
+ hearing about a few weeks ago seemingly had something to do with labs needing to give the
+ government access to their most advanced models before actually releasing them. Indeed,
+ that was the core policy of the draft that was circulated two weeks ago that seemed at the
+ time like a done deal. A signing ceremony had been scheduled, a who's who of tech CEOs had been
+ invited to attend. However, hours before the event, President Trump pulled the order stating,
+ I didn't like certain aspects of it and adding that he thought that it would get in the way of the
+ US lead over China in the AI race. Now, it later surfaced that former AIs are David Sacks had
+ intervened at the 11th hour, placing a call to the president to talk him out of signing the
+ policy, at least for now. The order that was signed this week is substantially the same as
+ the draft order that was scrapped a couple of weeks ago. Both versions of the order made
+ safety testing voluntary, although in the current climate that's not all that meaningful a distinction.
+ All major AI labs have agreed to submit advanced models for testing, and while some White House
+ personnel were reportedly pushing for compulsory testing, it appears that that position never
+ made it into a draft. Indeed, it seems like the only significant change is that companies
+ are encouraged to make their models available 30 days prior to public release, as opposed to the
+ draft order which had asked for a 90 day period. It was that 90 day period more than anything
+ else that triggered industry backlash for its potential to significantly slow down the release cycle.
+ Neither version of the order provided any mechanism for the government to block a model's release.
+ In fact, one subtle change in the new version is an inclusion of a disclaimer which reads,
+ nothing in this section shall be construed to authorize the creation of a mandatory
+ government licensing, pre-clearance or permitting requirement for the development
+ of new AI models. This sounds like a direct response to the critique that many had had
+ that what the White House was doing with this executive order was a de facto licensing regime.
+ Functionally, however, the policy just allows the government to assess new capabilities before
+ they're available to the public. The NSA has been assigned primary responsibility for
+ model testing with support from various cyber technology and defense agencies.
+ In addition to safety testing, the order establishes a cybersecurity clearinghouse
+ run by the Treasury in consultation with the NSA, the Department of Homeland Security,
+ and the Cyber Security and Infrastructure Security Agency. There's also provisions
+ instructing civilian and military agencies to harden systems against AI-driven cybersecurity
+ Outside of the 90-to-30-day switch, the other biggest difference with this version of the order
+ is the way that it was presented to the public. Rather than a high-profile signing ceremony,
+ the order was signed in private with zero fanfare. I don't think it's an unreasonable interpretation
+ to see this as the administration treating this sort of AI safety regulation as some
+ version of eating its vegetables rather than the Big Mac or the well-done steak that it
+ would prefer. The order does contain some language reaffirming the administration's
+ commitment to AI acceleration, talking about a commitment to the United States' AI global
+ dominance. But ultimately, this is the sort of Rorschach test policy that gives everyone
+ something to comment on, everyone something to claim victory around, while ultimately doing very
+ little. The New York Times reported the order, as in their words, signaling a shift from the
+ hands-off approach the White House had previously taken toward AI. The White House Office of
+ Science and Technology policy, however, called this lazy and inaccurate reporting from the
+ New York Times, trying to draw in line in the sand around the difference between oversight and
+ voluntary sharing. The EO they wrote creates a process for Frontier Labs to voluntarily share
+ cutting-edge cyber models in order to secure critical infrastructure and strengthen the
+ government's own cyber defenses. We are not conducting oversight of all new models,
+ as that level of government overreach would have chilling effects on free speech and
+ innovation. David Sacks himself chimed in to explain that the policy is intended to
+ only cover models that, in his words, represent, quote,
+ meaningful step change in cyber capabilities, i.e. mythos, not incremental changes to
+ existing models like Opus 4.8. He also took the chance to comment on the slippery slope argument,
+ writing, I understand the concerns of many that this could morph into an FDA for AI. Of
+ course, bureaucratic mission creep is always a danger and this should be closely
+ monitored, but the EO expressly forbids the creation of a new licensing,
+ pre-clearance, or permitting regime. From the labs, all of the commentary was
+ pretty similar. Clearly, talking points were circulated, suggesting they all used
+ the language of this being a, quote, important step. Former White House
+ advisor, Dean Ball, was concerned about the implications of this first step, calling
+ it a, quote, fairly major win for the safety contingent within the administration
+ and a significant loss for the Sacks' acceleration swing. Now, Dean, despite
+ Sacks' assurances to the contrary, thinks this heads in exactly one way. He writes,
+ This is clearly teeing up the infrastructure for a model licensing regime and the
+ fact that the administration is classifying the details of how this
+ voluntary system will work is egregious. The public and the employees of the
+ labs have a right to know how this works. Most lab staff don't have
+ clearances, but if the literal regulatory thresholds that trigger
+ pre-deployment review are classified, researchers themselves won't know whether
+ what they are training is regulated by this EO. All for a benefit that is barely
+ articulable? What exactly is the intelligence community going to do in
+ 30 days to make the model safer? It's not a huge mistake, but a small to
+ medium-sized one. But I am fairly confident this is a
+ mistake nonetheless. And again, while Sacks says this
+ isn't a step to more, the more safety-minded certainly see this as a
+ crack in the Overton window that they can pry open. Right-wing pundits see
+ Bannon said, For the first time it's on a piece of paper, a
+ structure and a process. That process is still pretty ill-defined, it
+ doesn't meet our requirements. But as I tell people, we're going to
+ eat the elephant one bite at a time. I strongly believe we're
+ heading towards mandatory within the next couple of months. We
+ intend to ramp up the pressure campaign. And showing how weird AI
+ makes different political bedfellows, Bernie Sanders seems to want
+ the same thing as Steve Bannon saying, After calling efforts to
+ regulate AI foolish, Trump finally acknowledged AI poses a real
+ threat. That's the good news. The bad news? His executive order is
+ voluntary and does almost nothing to protect Americans.
+ Congress must act. Ultimately, the reason that everyone is
+ speculating around what the implications are is that the
+ order itself doesn't do all that much. The AI labs already
+ have agreements in place to share new models with the
+ government ahead of release. David Remler from the Center
+ for a New American Security said that the order, quote,
+ effectively formalizes what has already been happening
+ between the U.S. government and the leading AI companies.
+ And so speculation about what comes next is the natural
+ next place to go. Certainly there will be a lot to watch
+ here, but for now we actually do still have a few more
+ headlines. One of them from the very project which got this
+ whole ball rolling, which is Project Glasswing, the specific
+ way, of course, that Anthropic is releasing their Mythos model.
+ Anthropic has just expanded access to Mythos, adding
+ 150 new partners. With this new announcement, Anthropic is
+ rolling Mythos out to firms across 15 countries, with the
+ expanded group of partners, including new sectors that
+ weren't covered by the initial project, including energy,
+ water, communications, healthcare, and computer hardware.
+ Right to Anthropic, what each partner has in common is
+ that a successful attack on their code base could be
+ catastrophic. For most partners, we estimate that a major
+ attack could affect more than 100 million people with
+ important ramifications for both global and national
+ security. Now, the announcement also included some
+ further discussion of a public release. You might remember
+ that during the rollout of Opus 48 last week, Anthropic said
+ that they expect to have a Mythos-level model ready
+ in the coming weeks. In Tuesday's Glasswing update,
+ they wrote, we're working as quickly as we can to
+ safely release Mythos-level capabilities in general access.
+ To do so, we'll need highly robust safeguards that
+ prevent the model's cyber capabilities from being
+ misused. Safeguards that we, and to our knowledge, all
+ other AI developers have yet to develop. Because
+ cybersecurity has both helpful and destructive uses,
+ making safeguards that are both strong and precise
+ enough is a major challenge. Which to me, honestly,
+ kind of feels like walking back the language that they
+ had used in the Opus 48 announcement, all the way
+ back then, last Thursday, they said it was coming
+ in the next couple of weeks, but now they're
+ saying they need infrastructure that doesn't exist.
+ Honestly, the messaging is about as confusing as the
+ government's executive order. Meanwhile, the information
+ checked in with some of the teams working with
+ Mythos, finding that although the model is powerful,
+ it is also eye-wateringly expensive. Most of the
+ testers are finding themselves running through
+ millions of dollars worth of tokens very quickly.
+ And what's more, for now, Anthropic is subsidizing
+ use so firms aren't even paying the full cost.
+ At the same time, it also appears valuable enough
+ to justify that cost, with many of the firms
+ that the information talked to saying that
+ they're basically aligning their budget so that
+ they can build their strategy around Mythos
+ when it becomes more broadly available.
+ And lastly today on that steam theme of the
+ token shortage, SK Hynex now plans to double their
+ manufacturing capacity for memory chips to help
+ address the global shortage. This year's rapid
+ growth in token use has led to shortages
+ throughout the AI supply chain with one of the
+ more prominent shortages being in memory chips.
+ The cost of high-bend with memory for AI services
+ more than doubled so far this year, and up until
+ now, memory manufacturers have been reluctant
+ to build new plans to boost supply. In the
+ past, cyclicality in chip pricing has punished
+ long-term investment, with new plants often
+ missing the window of peak demand. SK Hynex's
+ new plans suggest that they now view AI-driven
+ demand as a structural change, and they're
+ deploying capital to take advantage of it.
+ Now to be clear, they're talking about
+ doubling capacity by the end of the decade,
+ so this is unlikely to do much for the
+ chip crunch in the short term. Indeed, Chairman
+ Shea-Tae Wang told reporters that the
+ shortage could last until 2030, and yet
+ still the deeper investment is the right
+ policy, with Chairman Shea arguing,
+ the whole AI industry needs to be more
+ sustainable. We have to continue to
+ grow, but sudden jumps in price can
+ become a problem and actually hurt
+ sustainability.
+ So, lots of big movement today, but that
+ is going to do it for the headlines.
+ Next up, the main episode.
+ One of the most important AI questions
+ right now isn't who's using AI, it's
+ who's using it well. KPMG and the
+ University of Texas at Austin just
+ analyzed 1.4 million real workplace
+ AI interactions and found something
+ surprising. The highest impact users
+ aren't better prompt engineers, they
+ treat AI like a reasoning partner.
+ They frame problems, guide thinking,
+ iterate and push for better answers.
+ And the good news, these behaviors are
+ teachable at scale. If you're trying
+ to move from AI access to real
+ capability, KPMG's research on
+ sophisticated AI collaboration is
+ worth your time. Learn more at
+ kpmg.com slash us slash
+ sophisticated, that's kpmg.com slash
+ us slash sophisticated.
+ One thing I keep seeing in enterprise
+ AI, companies hedging across every
+ cloud, every model, every framework,
+ or paying a GSI for a pilot that never
+ ends. The team's actually shipping,
+ they've picked a lane and they move
+ fast. That's one of the reasons I like
+ today's sponsor robots and pencils.
+ They've gone all in on AWS, they're
+ an advanced tier and AWS pattern
+ partner and they ship production
+ AI coworkers in 45 days. That's
+ led to them doing some of the more
+ interesting work I've seen on AI
+ coworkers. And by that I'm not
+ talking about chatbots, I'm talking
+ about actual agentic systems that sit
+ inside a business architecture and do
+ real work. That kind of focus
+ matters if you're an enterprise
+ leader trying to get something real
+ into production or an AWS rep
+ trying to move a customer from
+ interested to deployed. Request an
+ AI briefing at robotsandpencils.com.
+ One conversation with robots and
+ pencils and you'll know.
+ You know assembly AI for having the
+ most accurate streaming speech to
+ text out there. But they just want
+ to step further and launched a full
+ voice agent API. The idea is simple.
+ One connection and they handle
+ everything. The listening, the
+ thinking, the speaking. You just
+ stream audio in and get your
+ agent's voice response back.
+ We're talking about things like
+ outbound sales calls that actually
+ qualify leads, customer support
+ that handles complex requests
+ without a script, scheduling
+ agents that sound like a human
+ assistant and you can build one in
+ five minutes with one API. And
+ importantly, their streaming model is
+ the best at catching all the stuff
+ that breaks on other voice agents,
+ things like phone numbers, emails,
+ names and medical terms. And for
+ those of you who are still in
+ experimentation mode, there are no
+ contracts and unlimited concurrency
+ so you can actually test it out
+ without any friction. Head to
+ assemblyai.com slash brief and
+ try the live voice agent demo
+ right there on the site. No sign-up
+ needed. This episode of the AI
+ Daily Brief is brought to you by
+ OutSystems, a leading
+ agentic systems platform built for
+ the enterprise. Organizations all
+ over the world are building,
+ orchestrating and governing
+ agentic systems on the OutSystems
+ platform and with good reason.
+ OutSystems open and unified
+ platform allows teams to
+ architect, deliver and scale
+ governed agentic systems with
+ agility. Teams of any size and
+ technical depth can use OutSystems
+ to build, deploy and manage AI
+ apps and agents quickly and
+ cost effectively without
+ compromising reliability and
+ security. With OutSystems you can
+ rapidly launch ideas from concept
+ to completion. It's the leading
+ agentic systems platform that is
+ unified, agile and enterprise
+ proven, allowing you to
+ accelerate growth, reduce
+ operational friction and
+ deliver real enterprise impact
+ with AI. OutSystems, build
+ your agentic future.
+ Welcome back to the AI Daily
+ Brief. Yesterday we had two
+ dueling events, both focused on
+ enterprise AI. One was from open
+ AI and one was from Microsoft
+ and they each provided in their
+ own way some indications of
+ where enterprise AI is
+ currently and where it's
+ headed. Now the context for
+ this, of course, is the
+ broader shift we've been
+ discussing on this show of
+ moving from the subsidy
+ era of AI to the scarcity
+ era of AI or the token
+ shortage era of AI. The basic
+ idea is that as we move from
+ assisted to agentic workloads
+ the sheer quantity of the AI
+ tokens we use goes up and
+ we're now running into the
+ limits of what the available
+ compute and physical
+ infrastructure can produce,
+ meaning that business models
+ are realigning, costs are
+ going up and everyone's
+ scrambling to figure out
+ how to adapt to all of that.
+ In the meantime though, part
+ of what makes this
+ challenging is that it's not
+ at all clear to most
+ organizations how to best
+ use this new set of tools.
+ In other words, the question
+ of enterprise AI adoption is
+ not just a question of costs
+ but also one of tool and
+ use case fluency and
+ increasingly enterprise users
+ are living inside the power
+ tools like cloud code
+ and co-work and Open AI's
+ codecs. Interesting codecs
+ has been surging for a while
+ with Google searches for codecs
+ actually spiking past
+ cloud code for the first
+ time in May. The information
+ wrote about how the quote
+ vibe shift on codecs has
+ been palpable and Open AI's
+ event yesterday centered
+ on a set of new updates
+ for codecs that are all
+ about it moving out of the
+ strict realm of the
+ developer into the broader
+ world of knowledge work. Now
+ alongside the event Open AI
+ released a report called
+ the next era of knowledge
+ work and the TLDR on the
+ thing was not only that codecs
+ was growing hitting five
+ million weekly active users
+ but that the biggest source
+ of its growth was not
+ developers but non-technical
+ knowledge workers who are
+ now adopting codecs at a
+ three times faster pace
+ than developers are. And one
+ of the things that's
+ interesting about the report
+ is that it's not just a
+ bunch of reported stats but
+ actually shows quite a bit
+ of the design philosophy
+ and the first principles
+ understanding that's going
+ into how Open AI is
+ thinking about codecs. One
+ of the central themes is
+ what Open AI calls
+ a strange abundance.
+ Modern workers they write
+ can produce documents,
+ messages, dashboards,
+ models and presentations
+ faster than ever
+ yet they spend a remarkable
+ share of their time looking
+ for context, reconciling
+ conflicting versions,
+ waiting for responses
+ and moving information
+ across systems.
+ They point to a McKinsey
+ study that found that
+ the average knowledge
+ worker right now
+ spends more than a quarter
+ of their work week
+ managing email
+ and almost a fifth of it
+ looking for internal
+ information or trying
+ to find people who can
+ help within their company
+ around some specific task.
+ Overall they say
+ to find the daily cost
+ of knowledge work.
+ The first is the cost
+ of finding relevant inputs
+ across as they put
+ its sprawling
+ on transparent systems.
+ Second is information
+ coordination costs
+ are in third are
+ approvals and verifications.
+ In fact they argue
+ that these frictions
+ are what accounts
+ for the delays
+ between a new technology
+ being introduced
+ and it actually
+ showing up
+ in the productivity
+ statistics.
+ Knowledge work they write
+ is still waiting
+ for its factory redesign.
+ Previous generations
+ of workplace software
+ lowered the cost
+ of producing
+ intermediate artifacts
+ but did not reduce
+ the attention required
+ to consume them.
+ Email made correspondence
+ cheap then multiplied
+ correspondence.
+ Docs made drafting
+ cheap then multiplied
+ drafts and review cycles.
+ The result is in excess
+ of documents and tools
+ and even scarcer time
+ and attention.
+ And you might be seeing
+ where they're going with this
+ codex they write
+ is that factory redesign.
+ So what are they seeing
+ and how people are actually
+ using codex?
+ First of all
+ everyone is producing artifacts.
+ 72 percent of knowledge
+ workers using codex
+ are producing some sort
+ of artifact be it
+ a PDF or a spreadsheet
+ or something else
+ on a weekly basis.
+ Outside of coding
+ and software
+ engineering related tasks
+ they're also doing research
+ 41 percent
+ data analysis 27 percent
+ as well as implementing
+ what they call
+ business function
+ workflows at 15 percent.
+ Importantly though
+ people are doing
+ a lot of these
+ at the same time.
+ The most consequential
+ shift in behavior
+ they write
+ is towards parallel tasks.
+ Roughly 50 percent of users
+ now have more than one
+ codex task
+ running simultaneously
+ at some point
+ during the day
+ up from less than one
+ third in mid April.
+ The shift they write
+ from sequential to
+ parallel use
+ is what lets a single
+ knowledge worker
+ operate at the scale
+ of a small team.
+ One turn to inspect a dataset
+ another to draft a script
+ another to assemble a report
+ another to check an application
+ the user becomes the
+ orchestrator of work streams
+ rather than executing
+ a single task at a time.
+ So what goodies
+ did we actually get?
+ The three highlights
+ are annotations
+ plugins and sites.
+ Annotations are effectively
+ a more precise way
+ to interact with context
+ within codex
+ when you're looking
+ at a specific document
+ or artifact
+ you can highlight
+ rather than having
+ to explain with words
+ the specific part
+ of the document
+ that you want to discuss
+ or query about or change
+ you can use
+ the annotations feature
+ to select
+ just that part of the document
+ for the model to reason
+ over within codex.
+ Simon Smith from Click Health wrote
+ you can already use
+ annotations to give
+ feedback on websites
+ but now it looks like
+ that interaction model
+ is expanding across outputs.
+ I love working with codex
+ by selecting things
+ in the preview pane
+ adding them into the chat
+ context
+ and then talking to
+ codex about them.
+ This makes that way
+ of working more powerful.
+ Next up was an expansion
+ of codex plugins.
+ Now previously plugins
+ were a way to connect
+ specific software
+ into the codex ecosystem
+ but with this latest update
+ codex is adding a set
+ of role specific plugins
+ for common functions
+ including sales
+ data analytics
+ creative production
+ product design
+ public equity investing
+ and investment banking.
+ Now given the IPO
+ horse race dynamics
+ and competitive storyline
+ between enthropic and open AI
+ this is the update
+ that a lot of mainstream media
+ focused on
+ as it resembled to them
+ and thropic strategy
+ of releasing a set of tools
+ for specific functions
+ and industries as well.
+ In their announcement
+ open AI writes
+ each role specific plugin
+ bundles the relevant apps
+ skills instructions and workflows.
+ Across these six new function plugins
+ they include access to 62 apps
+ and 110 skills
+ basically about 10 apps
+ and 20 skills per role.
+ You can almost think about
+ the role specific plugins
+ as organized bundles
+ of features that were already available
+ but presented in a way
+ that requires much less setup.
+ Another way to think about it is
+ that this goes a long way
+ to productizing best practices.
+ You can think about it
+ kind of like this.
+ If you took the best user
+ across each of these six functions
+ from a wide variety of companies
+ and you looked at the app integrations
+ and skills they most often drew from
+ and then turn those average set of skills
+ and app plugins
+ into a bundle
+ that would effectively be
+ what Codex is releasing here.
+ And interestingly
+ this becomes sort of product led education
+ where the salesperson for example
+ who now has access
+ to the plugins and skills
+ that are used by the salespeople
+ who are best at getting the most value
+ out of Codex
+ can start to imitate those best practices
+ by virtue of what's being presented
+ in this functional plugin.
+ Simon Smith again notes
+ plugins seem to follow
+ what Anthropic is doing
+ with plugins focused on different business domains
+ but what's interesting
+ is that OpenAI plugins
+ seem like they can do more
+ than provide instructions and connectors.
+ They can add interactivity
+ inside the Codex preview pane
+ like buttons and guided actions
+ that make powerful workflows
+ more clickable.
+ Still the update
+ that I'm most excited about
+ and one which at some point
+ I might do an entire operator episode on
+ is the new sites feature.
+ My guess is that a lot of you
+ have had the experience
+ at this point
+ of realizing
+ as you're going about your normal work
+ that something that you might
+ previously have done
+ as some sort of static document
+ might now be better suited
+ to presenting as some sort of small website.
+ For example, instead of some PDF presentation
+ maybe you just send them a URL.
+ It's easier to share
+ because they don't have to download anything
+ plus you can update it as makes sense.
+ Codex Sites productizes
+ that type of behavior.
+ It allows you to turn
+ any sort of artifact
+ that you've built inside of Codex
+ into a full website
+ or web app
+ that's shareable with your team.
+ They give the example
+ of a revenue forecast planner
+ that represents
+ a sort of much more interactive way
+ to look at budget planning
+ than a traditional spreadsheet
+ or presentation might have been
+ an event operations dashboard
+ and a product launch hub
+ with both the event operations
+ dashboard and the product launch hub
+ representing a way to keep track
+ of operational progress
+ with a highly customizable set of inputs.
+ Rounding out his analysis
+ of these three
+ Simon Smith again writes
+ sites are kind of like
+ Claude artifacts
+ but on steroids.
+ This puts vibe coding
+ even more directly
+ in the hands of everyone
+ in an organization.
+ You can build stuff
+ share it deploy it
+ and importantly do it
+ in a more secure way
+ which has been a real issue
+ with some internal vibe coded tools.
+ Now I think that
+ Simon's analysis is right
+ but I think this is where
+ we have a terminology problem.
+ Part of why vibe coding
+ never really fit
+ for this type of use
+ is that these sort of sites
+ are effectively
+ disposable software
+ and web apps.
+ They're meant for a specific purpose
+ for a specific set of time
+ and the only thing that
+ they have in common
+ with software engineering
+ is that they use code
+ to deliver an output
+ but this isn't non coders
+ all of a sudden
+ becoming product designers
+ and engineers
+ and trying to get in
+ on the product building game.
+ This is people using code
+ and websites
+ to improve
+ how they share things
+ and collaborate with colleagues.
+ My argument would basically be
+ that in the same way
+ that building a slide deck
+ or writing a document
+ or interacting with a spreadsheet
+ is a core knowledge work primitive
+ building websites
+ and disposable web apps
+ is also going to be
+ a core knowledge work primitive
+ going forward.
+ Codex sites is a
+ hyper simple version
+ of that experience
+ that's going to make
+ that primitive
+ much more accessible
+ to a large number of people.
+ Like I said
+ I actually think that
+ sites might be deserving
+ of an entire operators episode
+ to dig into different types
+ of things
+ that people might be able
+ to do with it
+ but if you had just
+ one thing to play around with
+ in the short term
+ that's where I'd be looking.
+ It's very clear
+ that OpenAI
+ and the Codex team
+ see the Codex app
+ as the new interface
+ for knowledge work
+ and are going to continue
+ pushing to figure out
+ all the implications
+ of what you can do
+ in this new type of environment.
+ But as I said at the beginning
+ the question of the next phase
+ of Enterprise AI
+ is both one of interface
+ which we've been discussing
+ with Codex
+ but it's also one
+ of efficiency
+ and cost management.
+ Uber a company
+ that has somehow found
+ itself in the headlines
+ as exhibit A
+ and the changing tides
+ of agentic AI
+ has now put
+ a $1,500 monthly cap
+ across token spending
+ for all employees.
+ Now I have a lot more to say
+ about what I think does
+ and doesn't work
+ about that strategy
+ but we'll save that
+ for another episode.
+ The point for us today
+ is that cost management
+ is that another vector
+ of the next wave
+ of enterprise AI
+ is going to be cost management.
+ And interestingly
+ that seemed to be
+ at the core of the announcements
+ from Microsoft Build.
+ Nominally the big announcement
+ was seven new
+ Microsoft AI models.
+ Image 2.5
+ Image 2.5 Flash
+ Transcribe 1.5
+ Thinking 1
+ Voice 2
+ Voice 2 Flash
+ and Code 1 Flash
+ a family of models
+ that were optimized
+ around different sets
+ of use cases.
+ And certainly just like
+ any other time
+ that we get model releases
+ there was a bunch
+ of discussion
+ of the benchmarks.
+ The headliner was
+ MAI Thinking 1
+ a one trillion
+ parameter model
+ using a mixture
+ of experts architecture
+ for inference optimization
+ that Microsoft
+ tried to place
+ as a model somewhere
+ in the Sonnet 4.6
+ to Opus 4.6 type of range.
+ Now to sum
+ the discussion
+ was just about Microsoft
+ making progress
+ in the model training game
+ at all.
+ Wrote Sean Wang
+ you have to give
+ Microsoft props
+ for training
+ all these in-house
+ models from scratch
+ and getting all of them
+ to near state of the art.
+ Mustafa Selimun built
+ a full-fledged Neolab
+ inside Microsoft
+ in two years
+ that Microsoft
+ now fully controls
+ from chip to model
+ to harness.
+ Absurdly impressive.
+ Prime Intellect's
+ Eli Bakoush
+ writes that
+ Thinking 1
+ uses zero synthetic data
+ or distillation
+ from previous models.
+ Quote
+ this means
+ reasoning,
+ agentic behavior,
+ tool use
+ are all learned
+ fully during
+ post training
+ with no cold start.
+ Bold choice
+ that makes it
+ harder
+ and requires
+ more iterations
+ to reach
+ state of the art
+ but you get
+ full control
+ over your model series
+ and it proves
+ they are serious
+ about being
+ a frontier lab.
+ Ethan Malek
+ lamented the fact
+ that no one really
+ has gotten their hands
+ on these things
+ so we're just left
+ to squint at the benchmarks
+ which themselves
+ are confusing.
+ He writes
+ It's difficult to know
+ how good
+ MAI
+ Thinking 1
+ is from the scores alone
+ like weirdly low
+ GPQA
+ in Terminal Bench 2.0
+ but Microsoft
+ makes it really hard
+ to try its models upon
+ release
+ so I don't know.
+ Others like
+ Leak or I
+ Rule the World
+ who pood
+ the releases
+ saying
+ in case it's unclear
+ the Microsoft
+ model is
+ in competitive
+ particularly not
+ for anything
+ agentic
+ and indeed
+ Thinking 1
+ scores on the agentic
+ coding tests
+ like Terminal Bench 2.0
+ and SWE Bench Pro
+ were meaningfully lower
+ than competitors
+ even one generation ago
+ from Anthropic and Open AI.
+ But go one step deeper
+ and it's quite clear
+ that Microsoft
+ is playing a different game.
+ I believe that
+ they have very clearly
+ identified
+ cost optimization
+ as an issue
+ and believe that
+ their approach
+ can be part of the answer.
+ In his announcement
+ post Mustafa Suleiman
+ wrote
+ All of this is the foundation
+ for Microsoft Frontier Tuning.
+ It lets you customize
+ our models
+ to create custom
+ company specific agents
+ that only you control.
+ Early adopters
+ are already seeing a difference.
+ When we tuned our models
+ for McKinsey's tasks
+ MAI delivered
+ the highest win rate
+ outperforming GPT-55
+ on quality
+ while being 10x lower
+ on cost.
+ On stage
+ Microsoft CEO
+ Satya Nadella
+ called this
+ a pretty significant shift.
+ He said
+ we believe the time
+ has come for every company
+ to just move
+ from consuming
+ a Frontier model
+ to fully participating
+ at the frontier
+ in the Frontier ecosystem.
+ In other words
+ I don't think
+ that we should be
+ looking at this series
+ of models
+ completely in raw terms
+ as something
+ where one of us
+ as listeners
+ is going to decide to fire up
+ MAI thinking one
+ instead of GPT-55
+ or OPUS-48.
+ Instead
+ they are very
+ self-consciously
+ being positioned
+ as part of an
+ overall strategy
+ to not only
+ get state-of-the-art
+ performance
+ but to do so
+ at a lower cost.
+ And given that Microsoft
+ already has
+ the strongest distribution
+ inside the enterprise
+ of any company
+ their play here
+ is worth taking seriously.
+ If you want to simplify it
+ when it comes
+ to enterprise AI
+ the second half of 2026
+ is going to be about
+ wrestling into
+ a workable
+ cost-effective approach
+ all of the opportunities
+ that the first half of 2026
+ unlocked.
+ In different ways
+ both OPEN AI
+ and Microsoft
+ showed off big plays
+ yesterday to those ends
+ and I certainly don't
+ anticipate that's
+ the last we'll be hearing
+ about
+ and it's very clear
+ that the race
+ for the next wave
+ of enterprise AI
+ adoption
+ is fully on.
+ For now that's going to do it
+ for today's AI Daily Brief.
+ Appreciate you listening
+ or watching as always
+ and until next time
+ peace.
+ you
