@@ -1,0 +1,674 @@
+ Today on the AI Daily Brief, how companies are becoming AI token efficient.
+ Before that on the headlines, chat should be T becomes the fastest app to ever reach a billion
+ users.
+ The AI Daily Brief is a daily podcast and video about the most important news and discussions
+ in AI.
+ Alright friends, quick announcements before we dive in.
+ First of all, thank you to today's sponsors KPMG, robots and pencils, assembly and out systems.
+ To get an ad-free version of the show, go to patreon.com.ai-dailybrief or you can subscribe
+ in Apple Podcasts.
+ If you want to learn more about sponsoring the show, send us a note at sponsors.ai-dailybrief.ai.
+ And one more quick thing, if you are looking to get up to speed fast on AI, you might
+ have heard that episode that I did with NuFAR about a week ago on the four AI hires
+ that executives need to make right now.
+ NuFAR is now offering a four week executive AI sprint called Executive Catch Up.
+ There are just a couple days left to register, you can find out about it at AIexecutivecatchup.com
+ and there will also be a link in the show notes.
+ We kick off today with another big check mark from my 2026 predictions, although honestly
+ I have to say this was the most gimme of all those predictions.
+ ChatGPT has officially hit a billion monthly active users.
+ That is according to new estimates from data analytics firm Sensor Tower, who looked
+ at monthly active users in May.
+ Now the milestone has been a long time coming and there's actually been a fair bit of digital
+ links built over it.
+ Specifically, back in April, the Wall Street Journal made a very big deal of open AI's
+ failure to hit this milestone as their end of year target for 2025.
+ That article also highlighted a failure to reach monthly revenue targets and was part
+ of a fairly negative news cycle for open AI.
+ Ostensibly, the narrative was that ChatGPT had hit a growth plateau as Claude and
+ Gemini gathered steam, but in reality and as listeners of this show well knew
+ even back then, for those paying close attention, the narrative already seemed
+ out of date by the time it was published.
+ Open AI did have a rough end of the year as Claude Coat took the world by storm.
+ Those issues led to Sam Altman calling a code red in December and Fiji Simo
+ declaring the end of side quests in March.
+ By April when the article was published, however, Open AI was already well into
+ the middle of their resurgence.
+ Codex was seeing a spike in popularity and the release of GPT-55 had for many
+ folks the first time in a long time that Open AI stated the art model
+ was in the vibes lead compared to its anthropic pair.
+ And you have to think that for most people, now that the milestone has been
+ reached, the five month delay on reaching the billion user milestone
+ wasn't all that big a deal.
+ ChatGPT is still by far the fastest app to reach a billion users
+ taking just three and a half years.
+ That's better than TikTok's five years and significantly faster than
+ the eight years it took YouTube and Instagram.
+ Around 12% of the global population is now logging into ChatGPT every month,
+ making Open AI's flagship product dramatically different to everything
+ else in the industry.
+ Now, Sensor Tower's report did capture how dramatic the rise of Claude has been.
+ The company has seen 640% user growth over the past year,
+ but that still puts them only at 56 million monthly active users.
+ In other words, they're still around just 5% of the consumer use of ChatGPT.
+ But that also shows just how valuable the business audience is,
+ given that anthropic are officially ahead of Open AI in the revenue race right now.
+ It is worth noting that Sensor Tower also found that most users aren't
+ making a hard switch from ChatGPT to Claude, despite Claude's rising numbers.
+ ChatGPT users who installed Claude at the first quarter ended up using ChatGPT 5% less.
+ That's not a nothing number, but it certainly suggests that people are adding Claude as a second chatbot
+ rather than as a direct replacement.
+ Now, why do all these numbers matter?
+ Well, frankly, it's because they're going to be thrown around a lot in the horse race narrative
+ when it comes to Wall Street IPOs.
+ But for anyone who's not invested in one to the exclusion of the other,
+ it just shows how incredibly dynamic and fast-growing both of these companies are.
+ Speaking of big AI milestones, bots and agents have overtaken humans in web traffic for the first time.
+ According to Claude Flair's data, bots now represent 57.5% of web traffic that flows through their service.
+ Now, a big chunk of this is of course AI data scrapers,
+ but the growth in web agents has also been dramatic over the past year.
+ This is creating some challenges.
+ The rise in bot-based browsing means a drop-off in website ad revenue,
+ and there's also been a sharp rise in malicious automated traffic.
+ Claude Flair now classifies 37% as bad bots that ignore web-crawling rules in robots.txt.
+ And yet, this was an entirely inevitable outcome.
+ In an interview at South by Southwest back in March,
+ Claude Flair CEO Matthew Prince predicted that bots would overtake human web traffic by next year.
+ He said,
+ For a long time, the internet was about 20% bot traffic.
+ Google was the largest, but you had a whole bunch of other things,
+ including hackers and spammers and all kinds of miscreants that were online.
+ With the rise of gen AI, it's just an insatiable need for data.
+ We're seeing a rise where we suspect that in 2027,
+ the amount of bot traffic online will exceed the amount of human traffic that's online
+ and will continue to grow after that.
+ In an ex post on Wednesday, Prince wrote,
+ Well, that happened faster than I predicted.
+ Thought it would be end of 2027 than early 2027,
+ but a genetic traffic growing so fast that bots have now passed human traffic online
+ for the first time in the internet's history.
+ And of course, for the entrepreneurs out there,
+ the great agent adaptation is on.
+ I'm pretty sure that we're going to need to deliver the AI Daily Brief
+ via MCP and API fairly soon.
+ Next up in the headlines,
+ Meta is taking on the enterprise with the launch of a new business-focused agent.
+ Sort of.
+ We'll get into why enterprise is maybe the wrong way to look at this.
+ Meta unveiled the new agent at the WhatsApp-focused conversations conference
+ in London on Wednesday.
+ They said that the product will be built on top of existing business messaging services,
+ allowing users to do things like automating appointment booking or closing sales.
+ In the future, Meta expects the agent to be able to conduct market research
+ and manage calendars across an organization.
+ In a recorded message, Mark Zuckerberg said,
+ As our models advanced, your agent will take on more
+ and eventually help you run your whole business.
+ The easy comparison for the headline writers out there
+ is that it seems like Meta is attempting to deliver open claw for small businesses.
+ Meta's head of product Naomi Gleet told Reuters,
+ This is definitely an enterprise play.
+ We actually want to take actions now.
+ We actually want it to be able to complete the payment
+ to process the booking to place the order.
+ Meta said that the agent is already in testing in some regions
+ and they already have a million businesses using it.
+ The agent will initially be available for free,
+ but Meta will shift to a paid subscription over the coming months.
+ Alongside the business agent within Meta's apps,
+ the company will also launch a broader business agent platform.
+ The platform will allow businesses to build custom agents for other operations
+ and will include connectors for hundreds of non-Meta platforms,
+ including Shopify and Zendex.
+ Gleet commented that one of the big missing pieces in the AI landscape
+ is a unified platform that caters to the smaller end.
+ The number one thing I hear she said,
+ especially from small businesses,
+ is I just want to go to one place that can do all the things.
+ And this is where I want to draw the distinction
+ with the enterprise language.
+ This is definitely a product for business, a B2B product,
+ but I think that the confusion is that
+ when we say Meta is building an agent for the enterprise,
+ it's natural to think that the implication
+ is rolling out some agent across a 5,000 person company.
+ Analyst Patrick Morehead summed up the feelings of many
+ when he said,
+ I'm so tired of Meta's work getting into B2B
+ take a seriously this time trope.
+ Every fiber of their soul is consumer ads.
+ He then went on to list a whole slew of B2B
+ and commercial fails,
+ but I don't really think that what they're talking about
+ is a big enterprise sort of play.
+ That's not really what Meta is talking about.
+ This is for five person companies
+ and those companies are already using WhatsApp and Messenger
+ as the core part of their business stack.
+ When Zuck announced that he said,
+ now a clothing shop in Birmingham or a bakery in Sao Paulo
+ can offer the same always on highly personalized experience
+ as a major brand.
+ Writes five points capital,
+ the biggest problem with AI right now is usability.
+ If you're a restaurant owner,
+ you're too busy to learn how to set up AI agents
+ and you don't want some AI consultant coming in
+ to charge you 20K for something you're not even sure will work.
+ Meta business agents will just work like an iPhone.
+ That convenience and simplicity
+ is what small business owners desperately want.
+ And I think that this is much closer to the right analysis.
+ During the event, Meta said that they currently have 200 million
+ businesses already using WhatsApp around the globe
+ and have reached 2 billion in annual revenue
+ for paid messaging services on the platform.
+ I actually think that this is one of the more unique
+ and valuable roles that Meta could play.
+ So I frankly, I'm excited to see what they do with this.
+ For now though, that is gonna do it for today's headlines.
+ Next up, the main episode.
+ One of the most important AI questions right now
+ isn't who's using AI, it's who's using it well.
+ KPMG and the University of Texas at Austin
+ just analyzed 1.4 million real workplace AI interactions
+ and found something surprising.
+ The highest impact users aren't better prompt engineers,
+ they treat AI like a reasoning partner.
+ They frame problems, guide thinking,
+ iterate and push for better answers.
+ And the good news, these behaviors are teachable at scale.
+ If you're trying to move from AI access to real capability,
+ KPMG's research on sophisticated AI collaboration
+ is worth your time.
+ Learn more at kpmg.com slash us slash sophisticated
+ that's kpmg.com slash us slash sophisticated.
+ This episode of the AI Daily Brief
+ is brought to you by OutSystems,
+ a leading agentic systems platform built for the enterprise.
+ Organizations all over the world are building,
+ orchestrating and governing agentic systems
+ on the OutSystems platform and with good reason.
+ OutSystems open and unified platform allows teams
+ to architect, deliver and scale
+ governed agentic systems with agility.
+ Teams of any size and technical depth
+ can use OutSystems to build, deploy
+ and manage AI apps and agents quickly and cost effectively
+ without compromising reliability and security.
+ With OutSystems you can rapidly launch ideas
+ from concept to completion.
+ It's the leading agentic systems platform
+ that is unified, agile and enterprise proven,
+ allowing you to accelerate growth,
+ reduce operational friction
+ and deliver real enterprise impact with AI.
+ OutSystems, build your agentic future.
+ So coding agents are basically solved at this point.
+ They're incredible at writing code.
+ But here's the thing nobody talks about.
+ Coding is maybe a quarter of an engineer's actual day.
+ The rest is stand-ups, stakeholder updates,
+ meeting prep, chasing context across six different tools.
+ And it's not just engineers.
+ Sales spends more time assembling proposals than selling.
+ Finance is manually chasing subscription requests.
+ Marketing finds out what shipped
+ two weeks after it merged.
+ ZenCoder just launched ZenFlow work.
+ It takes their orchestration engine,
+ the same one already powering coding agents
+ and connects it to your daily tools.
+ JIRA, Gmail, Google Docs, linear calendar notion.
+ It runs goal-driven workflows that actually finish.
+ Your stand-up brief is written before you sit down.
+ Review cycle coming up.
+ It pulls six months of tickets and writes the prep doc.
+ Now you might be thinking,
+ didn't Open Claw try to do this?
+ It did, but it has come with a whole host
+ of security and functional issues,
+ which can take a huge amount of time to resolve.
+ ZenCoder took a different approach.
+ Sock 2, Type 2 certified, curated integrations,
+ tighter security perimeter, enterprise grade from day one,
+ model agnostic, and works from Slack or Telegram.
+ Try it at ZenFlow.free.
+ Today's episode is sponsored by Bolt.New.
+ Bolt.New is a genetic engineering on multiplayer mode.
+ Designers, product managers, and engineers
+ build in the same environment.
+ And the design system agent keeps every screen on brand.
+ No more Frankenstein UIs stitched from a dozen prompts.
+ Whether you're shipping internal tools,
+ moving from prototype to production,
+ or replacing a legacy admin panel,
+ Bolt.New takes your team from concept to deployed app.
+ One personal recommendation,
+ hit plan mode before you build.
+ I had a project I'd half described
+ in three different prompts,
+ and plan mode made me actually think through it
+ with Bolt.New before a single line got written.
+ It saved me from rebuilding the same screen
+ probably about four times.
+ Build better apps faster.
+ Start with the link in the description.
+ Welcome back to the AI Daily Brief.
+ Today we're diving deeper
+ on the big AI theme of the moment,
+ which is token efficiency.
+ Now, you might have heard this term coming up
+ a lot more recently.
+ Matthew Berman recently tweeted,
+ "'Everyone is talking about token efficiency now.
+ I made an argument on Twitter yesterday
+ that every AI business is now
+ and for the foreseeable future
+ a token efficiency business.
+ In other words, every company that is selling services
+ or products around AI
+ is somehow and in some way
+ going to be trying to help companies be better
+ at allocating AI budgets effectively
+ to get the most value from the raw capability
+ that the AI represents."
+ Now, there are a ton of stories right now
+ about advanced early AI adopter companies
+ shifting their strategies
+ as token consumption goes way up in the agent era.
+ Walmart, as we discussed this week,
+ has started to cap usage of their internal AI tool
+ because employees were using it too much.
+ Uber, as we discussed just yesterday,
+ has had a $1,500 a month limit on spend on tools
+ like Claude Code.
+ And the whole issue of token cost
+ is starting to come home to roost for the big labs.
+ In their enterprise event on Tuesday,
+ open AI Sam Altman said that AI budgeting
+ had recently become a, in his words,
+ huge issue for some companies
+ even though cost was something
+ that quote, never came up earlier in the year.
+ Now, again, none of this is particularly surprising
+ if you look at the underlying dynamics.
+ The move from assisted AI
+ to deploying lots of agents to do things for us
+ has meant a significant increase
+ in the amount of AI being consumed
+ represented by the number of AI tokens being used.
+ However, the number of AI tokens being consumed
+ are limited by the number of AI tokens that get produced,
+ which is limited by a whole supply chain
+ of things like power and inputs and components.
+ And unfortunately for all of us,
+ we are in the very early days
+ of the build out of that infrastructure
+ and are very likely to be
+ over the course of the next half decade at least
+ living in a situation of some sort of token shortage.
+ And what happens in a market economy
+ when there's more demand for something
+ than there are supply of something, the price goes up.
+ Or, which is manifesting in the case of the labs
+ as shifting people off of subsidized pursuit based plans
+ and over onto API pricing,
+ meaning that they are paying
+ for all of the tokens they're consuming.
+ And because that consumption can be effectively unlimited,
+ that's why you're seeing companies start to impose caps.
+ Now, part of the reason
+ that the media is so interested in this story
+ is speculation around how this could slow revenue growth
+ for both open AI and anthropic,
+ heading right into their IPOs.
+ And then further, how a slowdown in revenue growth
+ and perhaps an underperforming IPO
+ could change the capital market's appetite
+ to continue to put money into those companies,
+ which could have downstream impacts on that AI build out,
+ which could make the problem worse, et cetera, et cetera.
+ However, for our purposes today,
+ we're not interested in the market discourse side
+ of the conversation.
+ What I wanna focus on is how companies
+ are actually adapting and getting more token efficient.
+ Now, part one of this is a simple recognition
+ that the efficiency and cost of intelligence
+ are just as important as the raw underneath intelligence
+ when it comes to AI in practice.
+ Proplexity CEO, Aravon Srinivas,
+ recently argued on CNBC
+ that the single metric
+ that would determine the winner of the AI race
+ was which company can provide
+ the most token value per watt per user.
+ He continued, whoever is able
+ to maximize this particular objective really well
+ by balancing accuracy, latency, cost,
+ privacy, and intelligence altogether,
+ they're going to win.
+ That's what's going to win long-term.
+ Again, when it comes to AI in practice,
+ it's not just raw intelligence,
+ but the efficiency with which that intelligence is delivered
+ that's going to really matter.
+ Now, we're starting to see efficiency considerations
+ show up in other areas of the discourse
+ like benchmarking as well.
+ Up until this year,
+ pretty much the only things people cared about
+ when it came to benchmarks
+ was the highest overall number in raw intelligence.
+ That's what state of the art meant.
+ However, as we've moved into the agent paradigm,
+ even the benchmarking companies themselves
+ are spending a lot more time
+ on the efficiency of intelligence as well.
+ For example, increasingly,
+ the most important chart from artificial analysis
+ is not just their leaderboard score,
+ but their intelligence versus output tokens used
+ for quadrant chart.
+ This one is a little bit easier if you're looking at it,
+ but for those of you who are listening,
+ I'll try to describe it.
+ In the Y column,
+ we have the raw score
+ on the artificial analysis intelligence index.
+ That's the aggregate score
+ across all of artificial analysis's tests
+ that has at the moment,
+ Claude Opus 4.8 on max setting
+ and 5.5 on extra high setting
+ up at the very top scoring between 60 and 62.
+ On the x-axis is the output tokens used
+ in all of the tests
+ that represent the artificial analysis intelligence index
+ with fewer obviously being better.
+ The top left quadrant then
+ represents a combination of highest scores
+ and best token efficiency
+ and paints quite a different picture
+ than just the intelligence index alone.
+ Specifically, while Claude Opus 4.8
+ is now slightly above GPT-55
+ in terms of its intelligence index score,
+ Claude achieves that score
+ while using about 80 or 90% more tokens,
+ meaning it's significantly less token efficient
+ and actually placing both Opus 4.7 and 4.8
+ outside of the most attractive quadrant.
+ The release of Gemini 3.5 Flash
+ also saw a lot of this discourse around it as well.
+ While the overall intelligence was much higher
+ on Gemini 3.5 Flash than 3 Flash,
+ the cost to run the tests
+ was more than five times as much as 3 Flash,
+ moving 3.5 from just at the edge
+ of the most attractive quadrant
+ to firmly outside of it.
+ All of this is finding its way
+ into the popular discourse as well.
+ For example, YouTuber and AI entrepreneur Theo recently tweeted,
+ I wonder how much philanthropic's revenue
+ comes from their models costing four times more
+ for real work due to massive token inefficiency.
+ Meanwhile, perception of token efficiency
+ is also part of why Codex
+ has become so much more popular among developers.
+ Bini Am wrote,
+ Codex has gotten noticeably better
+ at token efficiency lately.
+ Same tasks that used to eat up a ton of tokens
+ now feel way more reasonable.
+ Fundamental analysis on X wrote,
+ GPT-55 and Opus 4.8 sit around one point apart
+ on the intelligence index, 60.2 versus 61.4.
+ Their token pricing is almost a match.
+ $5 input on both, $30 versus $25 output.
+ So why is there a 40% gap
+ in the cost of running the full index?
+ And the answer, of course, as we just saw
+ is that the Opus models burned way more tokens
+ to complete the index.
+ Fundy writes, that's the whole game now.
+ Per token pricing is the rate
+ and tokens to completion is the actual invoice.
+ A model can win on price per token
+ and lose badly on price per task.
+ Because the reasoning trace, the restatement,
+ the overthinking is the multiplier
+ nobody printed on the spec sheet.
+ This is why the cheapest per token model
+ is routinely the most expensive per outcome.
+ Researchers have a name for it called the overthinking task.
+ Smaller cheaper models that ramble
+ can cost more in total than a pricier model
+ that's terse and converges fast.
+ The buyer side implication is the part
+ the market hasn't priced in yet.
+ A, the flagship layer now competes
+ on token efficiency, not just capability.
+ 40% fewer tokens for the same score is a moat
+ and it doesn't show up in the pricing table.
+ Enterprises are learning that cheap model
+ and cheap workflow are unrelated numbers.
+ Price per token was always a proxy,
+ which means the real metric was always
+ tokens times price times attempts to correct.
+ And if the new Microsoft models are any indication,
+ this is very quickly going to cease
+ to be a hidden consideration.
+ VC Tomas Tungus wrote,
+ Microsoft put a new column on its latest model card,
+ average token usage, it will become a standard.
+ For example, he writes,
+ MAI code one flash hit 71.6 on SWE bench verified
+ using a third of the tokens Claude Haiku 4.5 burns.
+ Benchmarks now ship on two axes,
+ performance and the cost to get there.
+ Even the most valuable companies cannot afford
+ state of the art intelligence everywhere.
+ Model companies will compete on intelligence per dollar.
+ The app layer will compete one level up on dollars per outcome,
+ a closed ticket, a shipped PR, a resolve support case.
+ Every layer prices the way the customer thinks
+ per result, not per token.
+ And so one of the ways that I think you're going
+ to see adaptation is that the labs themselves
+ are going to start to prioritize different things,
+ not just raw intelligence, but token efficiency as well.
+ Certainly Microsoft thinks it has an opportunity
+ to compete with their new frontier tuning approach
+ in announcing the new models
+ on their frontier tuning program.
+ They gave the example of a collaboration with McKinsey
+ where when the model was tuned for McKinsey's tasks,
+ the Microsoft model delivered the highest win rate
+ even outperforming GPT 5.5
+ while being 10 times lower in cost than GPT 5.5.
+ And it won't just be the big labs.
+ You're also going to see the agent labs
+ and even app layer companies experiment
+ with their own models, their own harnesses
+ and their own routing systems
+ in order to get better token efficiency,
+ which is exactly what I meant when I said
+ that every AI business model is now to some extent
+ a token efficiency play.
+ We saw this with Cursor's composer 2.5,
+ which completes coding tasks in the range
+ of the state of the art from both Claude and open AI,
+ but with a radically higher efficiency.
+ Interestingly, we also just got something
+ from legal AI firm Harvey along the same lines.
+ This week Harvey tweeted,
+ we partnered with Fireworks AI
+ to train open source models for legal.
+ Here's what we found.
+ One, hybrid legal agents can beat frontier models
+ on quality and cost by routing selectively
+ to a frontier advisor.
+ We tested a hybrid setup where GLM 5.1
+ served as the primary worker,
+ routing tasks to Opus 47 as an advisor when needed.
+ GLM invoked Opus sparingly,
+ just 0.83 times per task on average.
+ The hybrid setup beat Opus on both quality and cost.
+ They also found that post training
+ can push open models to frontier level legal performance.
+ With a little bit of post training on Kimmy's K2.6 model,
+ they were able to move Kimmy ahead of Opus
+ on their legal agent benchmark
+ and to do so for 11 times cheaper than Opus alone.
+ Writes Patrick Oyo,
+ this is the multi-model routing thesis proved in production
+ on one of the hardest benchmarks in enterprise AI.
+ The insight isn't that open source beat frontier.
+ It's that smart routing beat brute force.
+ Using the most expensive model for every task
+ is not a quality strategy.
+ It's a laziness tax.
+ The teams building routing layers
+ that send each task to the right model at the right cost
+ are now demonstrably ahead
+ on both dimensions simultaneously.
+ Inference optimization just became
+ a first class competitive advantage.
+ Legal proved it first
+ because the stakes forced the discipline.
+ Now, luckily for enterprise AI buyers,
+ the infrastructure required for this sort of routing
+ and even post training
+ is very quickly becoming productized.
+ Software Development Company Factory
+ just released a new product this week
+ called Factory Router,
+ which they say picks the right model
+ for every task automatically.
+ They write,
+ a higher token build does not mean more work
+ is getting done.
+ One line fix, doc update,
+ too often routine tasks get routed to the priciest path
+ out of fear of losing performance.
+ This only burns budget for no additional gain.
+ You wouldn't have messy play goalie.
+ Every model has different strengths,
+ whether it's reasoning, speed, cost or context.
+ Factory Router automatically picks the right model
+ for every task.
+ And to show that this works,
+ Factory says that router delivered the same performance
+ as Opus 4.7 at 20 to 25% lower cost.
+ Perplexity also announced a product
+ this week in this domain.
+ They're calling it hybrid agentic inference.
+ And basically it's an inference routing system
+ that intelligently distributes AI tasks
+ between resources from your local machine
+ and cloud servers.
+ Perplexity demonstrated the system
+ at the Computex conference on Monday
+ using their Perplexity computer agent.
+ The demonstration used local models
+ running on Intel Core Ultra 3 hardware,
+ so basically a relatively high-end consumer device.
+ Now the ability to run AI models on local hardware
+ obviously isn't novel,
+ but what Perplexity is saying is new
+ is the system's ability to split up tasks.
+ Perplexity's orchestrator can break a task down
+ into components and assign them to subagents
+ using a variety of different AI models.
+ The system can then determine
+ which subagents need to run
+ on the more powerful cloud inference
+ and which can be completed on local hardware.
+ The process is all fully automated
+ and requires no decision making from the user.
+ And Perplexity pointed out that hybrid inference
+ is especially useful when it comes to private information.
+ They claim their orchestrator
+ is able to identify sensitive data
+ and ensure it doesn't leave your computer.
+ Basically the orchestrator was presented
+ as a way to balance intelligence, accuracy, privacy
+ and cost when running fully agentic workflows.
+ And so just in a single week,
+ you have a group of different products
+ all being launched to help solve
+ the problem of token efficiency.
+ And if you want some evidence
+ that there's demand for this,
+ look no farther than the recently released stats from Ramp
+ where their number one trending software vendor
+ was China's deep seek.
+ Ramp lead economist, Eric Karazian writes,
+ in probably the biggest sign that companies
+ are looking for cheaper alternatives
+ to open AI and anthropic,
+ some are willing to use cheaper Chinese models
+ sending US data back and forth
+ from China hosted servers.
+ Eric also pointed out
+ that three open source model service providers
+ made the list this month.
+ Glean CEO, Arvin Jane,
+ captured the overall shift in an essay
+ called your token spend is an AI architecture problem,
+ not just a model problem.
+ He argues that the four architectural levers
+ that determine token efficiency are context quality,
+ i.e. it being too difficult for either the models
+ to retrieve the right context
+ for the enterprise task at hand
+ or for them to be confused
+ by too many different buckets of conflicting context
+ which can just burn tokens
+ before you even get to the actual task at hand.
+ Arvin also talks about model routing
+ where as he puts it,
+ the goal is not to use smaller models everywhere
+ but to use the right level of intelligence for the job.
+ A third vector of token efficiency
+ he argues is continual learning,
+ basically building systems
+ that allow experimentation phases to happen once
+ rather than every time.
+ He writes,
+ when someone does useful work
+ or writes something worth reusing,
+ we document it so we do not have to recreate it
+ from scratch every time.
+ Enterprise AI system should work the same way.
+ If it doesn't, the system keeps paying
+ the same exploratory cost again and again.
+ A system that learns from prior execution
+ can reduce redundant reasoning,
+ skip failed paths
+ and converge faster on the right workflow.
+ The result isn't just higher quality,
+ it's lower cost on repeated work.
+ Lastly, he talks about harness design
+ which has been another big topic this year.
+ But to sum up, as I argued yesterday,
+ it's pretty clear at this point
+ that the big theme of the second half of 2026
+ is going to be how to put all of the exciting things
+ that were uncovered at the beginning of 2026
+ into practice
+ in a way that's actually cost-efficient and effective.
+ If you are building something in AI
+ serving the enterprise,
+ my guess is that in some way, shape or form,
+ that's part of your job
+ even if you haven't identified it as such.
+ For our part, we will continue to track best practices
+ in how companies are adapting,
+ but for now, that is going to do it
+ for today's AI Daily Brief.
+ Appreciate you listening or watching.
+ As always, until next time, peace.
