@@ -1,0 +1,115 @@
+ Today on the AI Daily Brief, this week in AI for ridiculously busy people.
+ The AI Daily Brief is a daily podcast and video about the most important news and discussions
+ in AI.
+ Alright friends, doing a quick experiment here.
+ The AI Daily Brief is obviously quite an information dense podcast.
+ Despite curating the whole world of AI things happening, it can still be a pretty high barrier
+ to climb for people who are paying attention more casually or just don't have time to
+ dedicate 20 or 25 minutes a day for AI news.
+ So for those of you who are looking for something that's closer to five minutes to send your
+ colleagues who need to know exactly what was going on in AI that week, that's what
+ this is for.
+ Let me know how you like it.
+ First up, let's talk about the biggest theme of the week which was absolutely by far
+ token efficiency.
+ I made the argument on Twitter that every AI company is now in some way shape or form
+ a token efficiency company.
+ We have moved officially from the token subsidy era where the per seat models of
+ companies like OpenAI and Anthropic were allowing people to consume thousands of
+ dollars worth of AI tokens for tens or hundreds of dollars.
+ Now we're in the token shortage era where all the business models are moving to usage
+ based models and everyone is having to adapt.
+ This week that adaptation looked like Uber putting $1500 monthly limits on employees
+ AI usage and Walmart having to cap usage of their tool for it being too high in
+ demand and comments from companies like TSMC suggesting that this shortage is
+ not a short term thing but is going to last years.
+ Only though the market is responding, AI software engineering agent company
+ factory introduced native model routing that can figure out what the right model
+ is for a task including models that are cheaper or not state-of-the-art which
+ they say can maintain state-of-the-art performance while cutting costs by a
+ quarter.
+ Perplexity introduced a new system that combines a hybrid local and
+ cloud based inference system which has benefits for both costs and
+ privacy.
+ Harvey announced that it had collaborated with fireworks AI to build a worker
+ advisor agent where an open-weight worker can delegate complex tasks to a
+ closed source frontier advisor powered by one of the state-of-the-art models
+ and found that it outperformed the state-of-the-art model alone on the
+ legal tasks for just a fraction of the costs.
+ Microsoft meanwhile is clearly trying to bring this sort of
+ capability to the rest of the market saying that when they collaborated
+ with McKinsey to post train a model on McKinsey tasks it beat GPT 5.5
+ performance at a tenth of the cost.
+ TLDR the token shortage is here but the market is responding.
+ In terms of what you should be playing with this weekend it is
+ absolutely codex updates.
+ Codex announced an expansion of their plugin ecosystem, new
+ annotations and a new feature called sites.
+ Annotations allow you to edit and interact with specific parts of
+ any given website or document that you're working on.
+ Plugins are expanding to include functional-based plug-ins.
+ So for example you can use a plug-in pack for salespeople
+ that comes with connectors to common tools and skills that
+ are relevant for that function.
+ And sites is maybe the most interesting one where you can
+ turn anything you're working on inside of codex into a website
+ or web app with a single click which I think will help make
+ websites a fundamental unit of knowledge work in a way that
+ they're not right now.
+ Now right now that's just available to business and
+ enterprise users but if you have access to it you
+ should definitely go play around with sites.
+ Next up the thing you have to pay attention to even if
+ you don't think you care is the question of who owns AI.
+ The stakes in the policy discussion are getting higher
+ as the model capability increases and we get towards
+ IPOs.
+ Bernie Sanders came out with an op-ed in the New York
+ Times this week suggesting that the government owned
+ a full half of the major AI labs.
+ And while they might not be getting 50%,
+ it seems like the Trump White House is considering
+ taking equity stakes in the big labs.
+ Meaning that the Overton window on this sort of
+ government company collaboration is changing very quickly.
+ We also got policy related papers from both
+ Anthropic and Open AI this week talking about how
+ they were seeing the early signs of recursive
+ self-improvement in today's AI systems.
+ So I think the policy discourse is about to get
+ much louder very soon.
+ The biggest takeaway for enterprises,
+ simply put you are now in the token efficiency
+ business and you need to be thinking about that
+ A, architecturally, in other words things like
+ model routing and model selection,
+ context management and making sure people aren't
+ wasting cycles trying to find the right context
+ but also B, in supporting best practices and
+ specifically training.
+ The cost of the average enterprise's failure
+ to train their people on these new systems
+ has never been higher.
+ If you don't have a company-wide
+ agent-centric training program yet,
+ you are officially behind.
+ Biggest takeaway for solo practitioners, meanwhile,
+ is that even if you are proficient with agents right now,
+ this is a good time to start building your systems
+ because the cost equation
+ is going to be more of a challenge.
+ That means a smaller version of things
+ like context management,
+ like integrating skills and more,
+ TLDR now is the time to build systems.
+ In terms of what to watch for next week,
+ well of course the big thing will be the SpaceX IPO
+ which will be the biggest IPO in history
+ and tell us a lot about how the market
+ is thinking about these companies.
+ So there you have it, the weekend AI
+ for ridiculously busy people.
+ Let me know what you think about this format
+ and maybe it'll become something that we do more often.
+ Appreciate you listening or watching as always
+ and until next time, peace.
