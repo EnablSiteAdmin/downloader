@@ -1,0 +1,617 @@
+ Today on the AI Daily Brief, 10 or 15 or even 20 sites that knowledge workers should build
+ with AI.
+ The AI Daily Brief is a daily podcast and video about the most important news and discussions
+ in AI.
+ Alrighty friends, quick announcements before we dive in.
+ First of all, thank you to today's sponsors, robots and pencils, assembly, ZenCoder and
+ out systems.
+ To get an ad-free version of the show, go to patreon.com.ai-dailybrief or you can of
+ course subscribe on Apple podcasts.
+ To learn more about sponsoring the show, send us a note at sponsors.ai-dailybrief.ai.
+ AI Daily Brief.ai is also where you can find out about other things going on in the ecosystem.
+ For example, one more call to sign up for the four-week sprint executive catch-up program.
+ This is being led by Nufar Gaspar and she gave a bit of a preview on our episode
+ a couple of weeks ago if you have been feeling behind in practice and want to be
+ up to speed in moving ahead, this could be the program for you.
+ Registration is closing in the next day or so, so check it out at AIexecutivecatch-up.com.
+ Obviously, that link will be in the show notes as well.
+ Now, happy weekend friends.
+ It being a weekend, this is of course a long read style or big think episode.
+ Although today we're going to do something a bit more practical that was
+ inspired directly by a launch from this week.
+ On Tuesday, OpenAI announced a bunch of updates to Codex.
+ One of them was called Sites.
+ And effectively, Sites is just a simplified way to take the things that you're
+ building with Codex and publish them as a website or a web app that your team
+ or friends or colleagues can interact with.
+ I think the idea is, whereas in the past, to actually publish something,
+ you either need to have a hosting platform like Vercell and a database
+ platform like SuperBase and wire that together with Claude Coder Codex
+ or alternately be using an all-in-one
+ vibe code experience like Repletor Loveable.
+ Now that sort of all-in-one experience is native to Codex,
+ simplifying the whole process.
+ Now, one of the things that I think this both recognizes but also amplifies
+ is the idea of the website or simple web app as a new unit of work output,
+ i.e. a new anchor artifact in the Knowledge Workers Toolkit.
+ Now, for decades, knowledge workers have packaged thinking into
+ different types of documents.
+ Decks, spreadsheets, PDFs, email threads, shared folders, etc.,
+ whatever the menu of formats available was.
+ Importantly, though, that menu wasn't chosen because the formats
+ were the best way to carry knowledge necessarily.
+ But the ability to use code to turn those artifacts
+ into something more interactive, dynamic,
+ updateable was limited to a very specific few and the literal cost
+ in terms of money or distraction of other people in the company
+ meant that a website wasn't really on the table as a format.
+ AI has, of course, changed that cost structure entirely.
+ Any semi-capable person can now generate a useful,
+ fairly good-looking website as easily if not more easily
+ than they used to throw together a deck.
+ And increasingly, what we're seeing is that there are many artifacts
+ in the Knowledge Workers Kit right now
+ that are actually better suited to being websites.
+ So that's what we're gonna talk about today.
+ First, though, let's talk about the problems
+ of traditional documents and artifacts that websites solve.
+ The first one is the update versioning currency problem.
+ I would be willing to bet that on your computer somewhere,
+ there's 18 different versions of some file
+ with a confusing set of file names like plan underscore V2,
+ plan underscore V3, plan underscore final,
+ plan underscore final final, plan underscore final V3,
+ plan underscore final V8, et cetera, et cetera, et cetera.
+ The problem is that any sort of downloadable file
+ is a snapshot of a moment in time.
+ And as soon as you send it off,
+ the clock starts running on it going out of date.
+ A URL and doing things as a website fixes that.
+ It gives the knowledge a canonical home.
+ When you continue to control the ability to update it,
+ it means that whenever people land on that URL,
+ it is the most up-to-date version.
+ This saves time, cognitive back and forth,
+ and creates information consistency
+ across the whole organization.
+ Now, this is such a big problem
+ that obviously there are lots of intermediate solutions
+ for this.
+ Docsend, for example, gives you the ability
+ to update PDFs on the same link.
+ Collaboration suites like Google Docs
+ are meant to give you tools
+ so that everyone can be working off the same version.
+ But building things as a website
+ is a more generalist solution to this set of problems.
+ Speaking of sending things off,
+ distribution is the second problem
+ that websites as knowledge work artifact solves.
+ Downloadable files create friction.
+ You have to make sure that the place you're sending them
+ works with the file format in question.
+ The person on the other side has to have the bandwidth
+ to do the download.
+ That download then becomes part of the endless set of files
+ that they eventually need to organize
+ or trash on their computer.
+ And if they need to pass it on,
+ they have to go through that whole process again.
+ A link does none of that.
+ It moves through email, Slack, a text, a CRM,
+ a calendar, invite a newsletter,
+ and it works the same on a laptop or a phone
+ without anyone touching an attachment.
+ Problem number three that websites solve, navigation.
+ Every current type of downloadable knowledge work artifact
+ has a navigation constraint.
+ Docs are linear, spreadsheets are tabular,
+ PDFs are paged.
+ Each one forces a structure onto every reader
+ in the order that it was written.
+ Now sometimes that's the goal,
+ but knowledge work tends not to be consumed
+ by one generic reader in one linear setting.
+ People arrive with different questions
+ in different amounts of time.
+ A website can organize that same material
+ in a variety of different ways,
+ by topic, by role, by urgency, by depth.
+ It allows for dynamism in the consumption.
+ The exec reads the summary,
+ the analyst jumps straight to the evidence,
+ someone else searches the glossary.
+ And all that happens without everyone
+ having to read your table of contents.
+ Now, so far we've just been talking
+ about single documents as if they exist alone.
+ But a lot of knowledge work has context
+ that lives across multiple different types of documents.
+ The charts in a spreadsheet,
+ the explanations in a memo,
+ the sources in a browser tab,
+ the decisions in an email thread.
+ An HTML site gives you a much more dynamic environment
+ to layer context together.
+ You can ship everything that used to be spread
+ across four or five different places
+ all with one single URL.
+ And what's more,
+ the shipping doesn't have to be unidirectional.
+ In the downloadable document paradigm of knowledge work,
+ the artifacts that you send are passive for the consumer.
+ You're gonna choose the order, the format, what's included.
+ A site, on the other hand,
+ opens up all sorts of different interactive possibilities.
+ This also, by the way,
+ makes it easier for a single artifact
+ to serve very different types of audiences,
+ which gets to our sixth problem
+ that sites solve, which is audience fit.
+ Downloadable documents tend to force people
+ to flatten everyone into an imaginary average reader.
+ Websites create a much better canvas
+ for helping people navigate through the experience
+ based on who they are
+ and what information they're trying to get.
+ Sites also add easier and more native action ability.
+ When the report says something important
+ or the deck recommends an action,
+ that action necessarily has to happen elsewhere.
+ At best you have a PDF that opens up,
+ you guessed it, a website.
+ If you just build the thing as a website in the first place,
+ the artifact can actually hold the action layer natively.
+ Websites also increase artifact reusability.
+ This goes hand in hand
+ with the first problem we solved around currency,
+ but web work is modular by nature.
+ A section can link out,
+ a chart can embed elsewhere,
+ a page can expand,
+ a private version can become a public one,
+ a proposal can become a client portal,
+ a report can become a hub,
+ a training page can become part of onboarding.
+ Instead of documents getting copied and degraded each time,
+ they can build on top of each other and compound.
+ And as they compound,
+ you can see who's actually interacting.
+ Sending a deck out
+ is dropping something into the void and hoping it works.
+ A site, if designed well,
+ can produce signal around what got read,
+ what got clicked, what got searched,
+ what got shared, what got revisited,
+ what got abandoned.
+ The feedback means the artifact itself
+ can become improvable.
+ And there are so many use cases,
+ sales, training, fundraising,
+ internal communications, change management,
+ where understanding where the message actually landed
+ is essential for whatever the next steps are.
+ Last couple of problems that websites can help with,
+ the next is presentation,
+ a spreadsheet looks like a spreadsheet,
+ a PDF feels final but inert,
+ a website can look intentional and polished.
+ Now obviously this isn't always going to be the case
+ and you do have to put intention behind it
+ in the same way that there's a big difference
+ between a good deck and a bad deck,
+ but especially in vibe coding world
+ and with tools like Codex's new sites,
+ the ability to present things well
+ and make them feel and look intentional goes way up.
+ To the extent you have lots of different audiences,
+ websites can also help with permissioning
+ and making sure the right people
+ have access to the right parts.
+ And finally, one that will be increasingly important,
+ especially as this week,
+ Cloudflare reported that agent and bot browsing
+ accounted for more web use
+ than human browsing for the first time ever,
+ websites can be designed for agent consumption.
+ That might not be a big deal now,
+ but in a paradigm where knowledge work artifacts
+ have to interact with agents,
+ the old messy system of PDFs and docs and CSVs
+ and PowerPoints starts to look really brittle,
+ especially compared to the comparatively designed
+ for agent HTML and other web languages.
+ One thing I keep seeing in enterprise AI,
+ companies hedging across every cloud,
+ every model, every framework
+ or paying a GSI for a pilot that never ends.
+ The team's actually shipping,
+ they've picked a lane and they move fast.
+ That's one of the reasons I like today's sponsor,
+ Robots and Pencils.
+ They've gone all in on AWS.
+ They're an advanced tier and AWS pattern partner
+ and they ship production AI coworkers in 45 days.
+ That's led to them doing some of the more interesting work
+ I've seen on AI coworkers.
+ And by that I'm not talking about chatbots,
+ I'm talking about actual agentic systems
+ that sit inside a business architecture and do real work.
+ That kind of focus matters if you're an enterprise leader
+ trying to get something real into production
+ or an AWS rep trying to move a customer
+ from interested to deployed.
+ Request an AI briefing at robotsandpencils.com.
+ One conversation with robots and pencils and you'll know.
+ You know assembly AI for having the most accurate
+ streaming speech to text out there,
+ but they just went a step further
+ and launched a full voice agent API.
+ The idea is simple, one connection
+ and they handle everything,
+ the listening, the thinking, the speaking.
+ You just stream audio in
+ and get your agent's voice response back.
+ We're talking about things like outbound sales calls
+ that actually qualify leads,
+ customer support that handles complex requests
+ without a script, scheduling agents
+ that sound like a human assistant
+ and you can build one in five minutes with one API.
+ And importantly, their streaming model
+ is the best at catching all the stuff
+ that breaks on other voice agents,
+ things like phone numbers, emails, names
+ and medical terms.
+ And for those of you who are still in experimentation mode
+ there are no contracts and unlimited concurrency
+ so you can actually test it out without any friction.
+ Head to assemblyai.com slash brief
+ and try the live voice agent demo
+ right there on the site, no sign up needed.
+ So coding agents are basically solved at this point.
+ They're incredible at writing code.
+ But here's the thing nobody talks about.
+ Coding is maybe a quarter of an engineer's actual day.
+ The rest is stand-ups, stakeholder updates,
+ meeting prep, chasing context across six different tools.
+ And it's not just engineers.
+ Sales spends more time assembling proposals than selling.
+ Finance is manually chasing subscription requests.
+ Marketing finds out what shipped
+ two weeks after it merged.
+ Zen coder just launched Zenflow work.
+ It takes their orchestration engine,
+ the same one already powering coding agents
+ and connects it to your daily tools.
+ JIRA, Gmail, Google Docs, Linear, Calendar, Notion.
+ It runs goal-driven workflows that actually finish.
+ Your stand-up brief is written before you sit down.
+ Review cycle coming up,
+ it pulls six months of tickets and writes the prep doc.
+ Now you might be thinking,
+ didn't Open Claw try to do this?
+ It did but it has come with a whole host
+ of security and functional issues
+ which can take a huge amount of time to resolve.
+ Zen coder took a different approach.
+ Sock 2, type 2 certified, curated integrations,
+ tighter security perimeter.
+ Enterprise grade from day one.
+ Model agnostic and works from Slack or Telegram.
+ Try it at zenflow.free.
+ This episode of the AI Daily Brief
+ is brought to you by OutSystems,
+ a leading agentic systems platform
+ built for the enterprise.
+ Organizations all over the world are building,
+ orchestrating and governing agentic systems
+ on the OutSystems platform and with good reason.
+ OutSystems open and unified platform allows teams
+ to architect, deliver and scale
+ governed agentic systems with agility.
+ Teams of any size and technical depth
+ can use OutSystems to build, deploy
+ and manage AI apps and agents quickly and cost effectively
+ without compromising reliability and security.
+ With OutSystems you can rapidly launch ideas
+ from concept to completion.
+ It's the leading agentic systems platform
+ that is unified, agile and enterprise proven,
+ allowing you to accelerate growth,
+ reduce operational friction
+ and deliver real enterprise impact with AI.
+ OutSystems, build your agentic future.
+ Okay, so we've talked through about a dozen or more problems
+ with traditional knowledge work artifacts
+ that websites can solve,
+ but what are some of the best examples
+ that you as a knowledge worker could actually go out and try?
+ I've got 18 different examples here,
+ so we'll go through them pretty quickly,
+ but I do want you to watch out
+ for some common patterns.
+ One pattern is about distribution.
+ A lot of these things are the types of things
+ that get forwarded around a committee
+ without you in the room.
+ Another pattern is things that keep evolving
+ in the world of AI.
+ Another pattern is things that keep evolving
+ after you quote unquote finish them.
+ A third pattern is things that scatter
+ across different channels.
+ The goal in sharing these is not that you're going to use
+ all of these examples,
+ but instead that if these types of artifacts
+ are things that you regularly interact with
+ or create in the course of your work,
+ they're worth considering whether building a website
+ might be in some cases a better alternative.
+ The first and perhaps most obvious one
+ is exactly what I'm doing now,
+ building a narrative website
+ instead of a traditional slide deck.
+ Now, if you've used any of the AI native presentation tools
+ like Gamma, you'll know that they're already collapsing
+ the space between a slide deck and a website.
+ And I think that that's a mega trend
+ that's just going to continue.
+ Also, directionally, a lot of the SaaS tools
+ that are used to distribute PDFs
+ are just approximating with features
+ the things that websites can do natively,
+ including updating them to the latest version
+ and doing access provisioning.
+ But what those tools don't have
+ that native websites do
+ is a lot of the other stuff we just talked about,
+ like the ability to build interactive features
+ or the ability to break out
+ of the 16 by nine aspect ratio,
+ the ability to easily link things out
+ and connect your presentation
+ to other parts of the context.
+ If you do nothing else in this,
+ I would very much suggest starting to explore
+ whether on average and by default,
+ the slide decks that you build currently
+ should just become narrative websites instead.
+ Now, next up we have the shift
+ from a strategy memo to a strategy site.
+ And here's where the breadth
+ that a website can give you
+ I think really starts to play out.
+ Strategy memos, by virtue of the fact
+ that they're trying to argue for something,
+ often tend to be overloaded by design.
+ They have to provide a bunch of context,
+ the problem, the argument, the objections,
+ the evidence, the action.
+ And they have to do that all linearly in a PDF,
+ whereas a site can layer that
+ in a way that's much more navigable
+ and gives different audiences the ability
+ to very quickly hone in
+ on the parts that matter to them.
+ Our next example,
+ moving from a research report to a research hub
+ is very similar,
+ taking one big dense thing
+ and organizing it in a way with a website
+ that's layered, more navigable,
+ has links out to relevant contexts and sources,
+ and just generally makes the important information
+ contained within that report
+ more accessible to a wide variety of readers.
+ Our next example,
+ moving from a spreadsheet to a data site
+ is a recognition that spreadsheets
+ are a powerful tool for their creator,
+ but in general, a pretty poor interface
+ for anyone but the creator.
+ Spreadsheets have all sorts of
+ hidden or semi-hidden information,
+ formulas, the way that tabs are designed,
+ a site meanwhile can take all that data
+ and turn it into a guided view.
+ It can turn it into dashboards, filters, summaries, charts.
+ It can visualize the data.
+ To the extent that the goal of your spreadsheet
+ is people coming to the same conclusion
+ that you're trying to suggest to them,
+ a database website is often going
+ to be a much better example.
+ The next example is one that I'm already seeing
+ quite a bit of,
+ a shift from sales proposals to proposal microsites,
+ whereas proposals are against static documents,
+ microsites can carry all sorts of interactive elements,
+ like the ability to toggle different variables
+ to see how that would change the price
+ or the expected ROI.
+ A proposal microsite does a better job
+ of actually selling when you're not in the room.
+ And what's more, the observability
+ allows you to see how people are interacting with it
+ in a way that a PDF just can't.
+ The next example is another one
+ that I'm seeing a lot in production already,
+ especially from agencies,
+ which is the shift from a client update
+ to a client portal.
+ The failure mode is recurring client updates
+ that are scattered across email, docs,
+ decks and one-off links,
+ versus a portal which gives them a single place
+ to go with the current status,
+ the milestones, the deliverables,
+ the open questions,
+ perfectly queued up for that particular project.
+ The next example,
+ moving from a project brief to a project homepage
+ is a way to keep a canonical source
+ for the changing goals,
+ stakeholders, decisions, et cetera,
+ of a particular project over time.
+ Now this may not always be relevant,
+ especially if a brief kicks off a process
+ that moves into some existing project management software.
+ But for those companies
+ that aren't using existing project management tools,
+ or who just want something a little bit similar
+ and more bespoke,
+ a website is a much more dynamic tool
+ than just a simple brief.
+ Use case eight,
+ a case study becomes an interactive case page
+ and this is all about leveraging
+ that presentation capacity of websites.
+ A case study PDF inherently is going to flatten
+ a potentially rich story
+ into a couple of paragraphs in a logo.
+ The most convincing parts can get compressed out.
+ An interactive case page,
+ because it creates space for people to navigate
+ directly to the parts that matter most to them
+ or are most relevant,
+ creates way more space for a bigger version of the story.
+ It can hold more context around the problem,
+ the process, the metrics.
+ It can also embed other types of rich media like videos.
+ Anyone who's selling something
+ is going to increasingly put not only their decks,
+ but also their case studies
+ into these sort of interactive web pages,
+ I'm quite sure.
+ Example nine is an interesting archetype
+ where it's not so much
+ that a website is a better version of the thing,
+ but actually changes the thing at core.
+ So in this case,
+ we're talking about a competitive analysis
+ and it's not just that a website is a better way
+ to present an existing competitive analysis,
+ but that if you use a website for a competitive analysis,
+ it can instead become a competitive intelligence hub,
+ a living dynamic evolving resource
+ rather than just a one-time resource.
+ Now, I think that this also gives you a sense
+ of how these sort of website builds
+ could start to interface with agents
+ as they get more mature as well.
+ Imagine not just that you've shifted
+ the publishing of your competitive analysis
+ to a competitive intelligence hub,
+ but that you've got your professional open-claw style agent
+ continuously researching the key information
+ and updating that hub at regular intervals.
+ The next example is one that will be very familiar
+ to AI Daily Brief listeners,
+ which is moving from static training materials
+ to dynamic learning sites.
+ If you've ever participated in any of our programs,
+ whether it's Agent OS or Clawcamp before that
+ or the AIDB New Year program,
+ you'll know that their entire platform's purpose built
+ for the particular training experience.
+ And this is despite those programs being offered for free
+ because the cost to produce
+ a bespoke learning management system
+ exactly optimized for a particular program
+ has just cratered to the time it takes
+ to interact with whatever tool you're using to build it.
+ I think there's a similar opportunity
+ in making employee information,
+ the sort of thing that lives in employee handbooks,
+ turn into living interactive experiences.
+ This is a great example of where
+ I think a thing that almost no one would use,
+ which is the PDF version of an employee handbook
+ or only use when they absolutely have to
+ and don't have any better way of getting that information,
+ could become something that's actually a valuable resource.
+ The fact that a living handbook site
+ can also be updated with the latest policies
+ just makes it instantly more useful
+ than even a regularly updated PDF
+ that's gonna deal with versioning problems
+ and all sorts of other challenges.
+ The next two examples are both about presenting information
+ to other stakeholders.
+ The first is board materials,
+ which tend to become massive all-in-one PDFs
+ or folders that have a bunch of PDFs,
+ whereas a portal or website
+ can separate required reading from backup.
+ It can preserve context.
+ It can basically provide all of the background information
+ that you might wanna make available
+ without forcing people to wade through that
+ to get to what really matters.
+ Same idea, moving from an investor update paradigm
+ to an investor page paradigm,
+ where honestly, depending on how transparent you wanna be,
+ instead of giving investors metrics
+ on an every once in a while basis,
+ you can give them access to the most up to the date,
+ potentially even real time,
+ depending on the APIs you have access to.
+ Anyone who has fielded a request from their investors
+ to give them some specific update
+ for, for example, their LP board
+ will know that this can also save time
+ by having a single easy link
+ that you can point people to
+ whenever it is that they need information,
+ which may not be at the same time that you've spent time
+ preparing the latest round of information.
+ Last couple here as we round out,
+ I really like the experience
+ of shifting from recruiting packets
+ and boring job descriptions to full candidate sites.
+ It gives you a much bigger tapestry
+ to explain the role, give background,
+ help candidates be successful in figuring out
+ whether they're a right fit and how to tell you so.
+ It's just an overall incomparably better experience.
+ Brand guidelines can become brand system sites.
+ This is another one where if you're constantly digging up
+ some brand PDF in a folder of assets,
+ that is just so much easier to organize
+ as a single URL with all the current and up to date.
+ Similarly, media kits can become press sites,
+ a single easy link
+ that has everything the press might need.
+ Ultimately, the idea is that with a file,
+ the traditional artifacts of knowledge work,
+ you had a container for a limited amount of information.
+ That container came with constraints,
+ constraints in how easy to move around it was,
+ how up to date it was,
+ versioning issues, access issues,
+ issues so pronounced that they created entire companies
+ around solving them
+ for a particular type of document like PDFs.
+ Websites are much more dynamic and rich environments
+ where you can add interaction, access controls,
+ versioning, all in a much more easy to share format.
+ My observation is that a huge part
+ of the explosion of vibe coding
+ is simply knowledge workers
+ figuring out that websites are better ways
+ to share information
+ than the traditional artifacts that they used to use.
+ And you better believe the fact
+ that platforms like Codex are now embedding features
+ like sites into them
+ means that that's gonna do nothing but expand.
+ Hopefully now after this presentation
+ you can get out ahead of using this approach
+ to make your work work better.
+ And I'm excited to see if you come up
+ with any other use cases that I haven't mentioned here.
+ For now, however, that's gonna do it
+ for today's AI Daily Brief.
+ Appreciate you listening or watching, as always,
+ and until next time, peace.
