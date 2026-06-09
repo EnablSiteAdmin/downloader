@@ -1,0 +1,830 @@
+ Today on the AI Daily Brief, some big questions around the next phase of AI and whether what
+ we now call AI is actually multiple things.
+ Before that in the headlines, OpenAI joins the IPO filing party.
+ The AI Daily Brief is a daily podcast and video about the most important news and discussions
+ in AI.
+ Alright friends, quick announcements before we dive in.
+ First of all, thank you to today's sponsors KPMG, Robots and Pencils, ZenCoder and OutSystems.
+ To get an ad-free version of the show, go to patreon.com.ai-dailybrief or you can subscribe
+ in Apple Podcasts.
+ Remember, it is just $3 a month for ad-free.
+ And if you want to learn more about sponsoring the show, send us a note at sponsors.ai-dailybrief.ai.
+ Also a big thank you to everyone who has filled out our AI DB for team survey.
+ One of the things that's becoming very clear is that something that people are
+ really looking for is an easier way to share specific nuggets from the episodes.
+ We've got a couple new ideas for that coming up, potentially with a brand new web page.
+ So keep your eyes peeled for that over the next couple of weeks.
+ For now though, let's jump into the headlines.
+ You can absolutely feel things heating up right now.
+ We'll have some dimensions of that in our discussion in our main episode, but even
+ throughout the headlines, the stakes are just getting raised, markets are firing
+ up, energy is high.
+ The whole AI space is just vibrating on a different level.
+ One example of that, OpenAI has officially thrown their hat in the ring and filed to
+ go public.
+ The company filed their IPO paperwork confidentially on Monday.
+ Now as I mentioned after the anthropic filing last week, confidential filing is the industry
+ standard and certainly doesn't carry any significant implications.
+ All it really means is that we don't get to look at the company's financials until
+ much later in the process.
+ We also won't know the valuation sought by OpenAI until much closer to the listing.
+ And while the press is casting this as an all-out race between OpenAI and Anthropic,
+ the quotes don't suggest a lot of urgency from the companies themselves.
+ When asked about the IPO last week, anthropic president Daniela Amode simply stated that
+ the filing, quote, gives us the option to potentially go public after the SEC review.
+ In an ex-post on Monday, OpenAI said,
+ We have not decided on timing yet.
+ It may be a while because there are things we want to do that are likely easier as
+ a private company, but it's a complicated set of trade-offs and this gives us the
+ option to go public sooner if that ends up being best.
+ Now if you did decide that that was all just bluster and these companies were in fact in
+ an all-out race, judging from the speed of the SpaceX IPO, you're probably looking
+ at September as the earliest reasonable possibility, but who knows?
+ When it comes to AI, a lot of norms are getting thrown out the window.
+ Now broadly speaking, I would say that there are two categories of takes when it
+ comes to this IPO slate.
+ The first is that the sequencing matters.
+ Chebbi on X writes, Going first could matter.
+ The first major frontier AI IPO may define public market expectations for the entire sector
+ while later entrants risk being judged against that benchmark.
+ And while that's certainly true, I find myself much more in the camp,
+ shared by LaSanne on X who writes, I have a prediction for
+ Anthropic, OpenAI and SpaceX IPO, they will all go vertical.
+ Or as the Kobayisi letter put it, we're about to witness the most incredible IPO
+ run in history.
+ Now as the SpaceX IPO approaches, Elon Musk has unveiled further plans for
+ putting data centers in space.
+ In a half hour long video posted to X on Monday, Musk revealed a prototype
+ designed for the data center satellites.
+ Each satellite will be designed to handle around 150 kilowatts of AI compute,
+ roughly equivalent to a single rack of NVIDIA Blackwells.
+ Musk said during the presentation, An AI satellite is essentially a lot of
+ solar cells, a radiator, and you still need some laser links, but
+ you don't have all of the super complex antennas that you have on a Starlink
+ satellite.
+ Given the two, the easier one to design for is the AI satellite.
+ He later added, Part of what I want to convey here is that there's not some
+ magic that's necessary that doesn't exist for AI satellites.
+ A lot of this technology we've already made for Starlink V3 satellites.
+ We don't think this is a super hard problem compared to things we already do.
+ Now when many people first heard Elon start to talk about data center in space,
+ there was a natural knee-jerk skepticism.
+ And for people that dug in a little bit more, even outside of any pre-existing
+ biases around Elon, there did seem to be some big, possibly insurmountable
+ problems.
+ Chief among them was heat dissipation, as the lack of atmosphere makes
+ passive cooling impossible.
+ We're now getting some details and it sounds like the SpaceX satellites
+ will angle a thin edge towards the sun to minimize solar heating and use
+ radiation panels to expel heat from the GPUs.
+ The system is similar to the cooling already in use on Starlink satellites.
+ Overall, the whole concept is starting to get a lot more credible in recent
+ months, with Google reportedly in talks to partner with SpaceX for
+ their own data center satellites.
+ In other words, while there are still difficult engineering challenges,
+ Musk is increasingly presenting a feasible pathway.
+ His presentation also discussed the manufacturing side of the project.
+ SpaceX plans to expand their Starlink facility to reach 11 million
+ square feet, which would be around the same footprint as the Tesla
+ Gigafactory in Austin.
+ The facility, dubbed Gigasat, will be used to manufacture the gigantic
+ solar panels that are required to power these satellites.
+ Elon also discussed the scale and time horizon for the project.
+ He said that SpaceX will try to achieve an annualized rate of putting
+ one gigawatt of capacity in space by the end of 2027.
+ That would require almost 7,000 satellite launches a year if they
+ remain at 150 kilowatts each.
+ After 2027, Musk said that SpaceX will attempt to scale capacity by
+ an order of magnitude each year, eventually reaching a terawatt of
+ capacity.
+ Now that is a more ambitious schedule than disclosed in the IPO
+ filing, and even Elon himself has acknowledged that it's all a
+ bit speculative.
+ He commented that the plans should be taken with a grain of salt.
+ Still, the thesis of putting data centers in space is increasingly
+ central to the SpaceX public listing.
+ In their perspective, SpaceX claimed that space data centers
+ could be a $23 trillion market, which will to some investors still
+ sound like he's saying that their market cap potential is
+ approximately a bajillion dollars, is getting a little bit more
+ incredible by the week.
+ Data center skeptic and hedge fundee David Orr kind of represents
+ the current smartest guy in the room thinking in that while
+ previously he was ranting about how infeasible this was, he's
+ starting to come around not to the idea that it's obviously
+ going to work, but that now at least Elon is making a bunch
+ of verifiable claims and getting into the details on how
+ it's supposed to work, making it way more tangible and
+ seemingly a lot more real.
+ Orr wrote, if SpaceX has an 80% gross margin on launches,
+ they're a lot closer than I thought for data centers
+ in space.
+ It's still far off, but not wildly far off.
+ I guess if Starship can bring this down another 80%,
+ it could be feasible.
+ I'm biased to thinking this kind of thing is BS
+ and it usually is, but maybe keeping an open mind
+ here is right.
+ Meanwhile for the SpaceX IPO itself, demand seems red hot.
+ Sources told Reuters that stock is roughly two times
+ oversubscribed with $150 billion worth of orders
+ for $75 billion in available stock.
+ Now this level of the demand wouldn't necessarily be
+ out of the ordinary for a regular frothy IPO.
+ What makes it impressive is the sheer magnitude
+ given that this is the largest IPO in history.
+ One hedge fund manager said that there's career risk
+ in abstaining from the sale, commenting,
+ lots of people will have to explain why they don't own it
+ rather than justifying a decision to buy it.
+ Reports are circulating that brokers are being told
+ to spread allocations widely across retail investors.
+ The IPO has an unusually high 30% allocation to retail
+ and according to the chatter, brokers are being forced
+ to ensure that small accounts still get their fair share.
+ Analyst Phil Truby wrote, Elon is serious
+ when he said retail will get allocations.
+ In addition, some brokerages are telling traders
+ that they need to hold on to their shares for 30 days
+ or be banned from buying other IPOs later this year.
+ Trades are being told to fund their accounts
+ by the Wednesday close, implying that the first day
+ of trading is indeed expected on Friday.
+ Staying on infrastructure for a minute,
+ chip makers are turning to Intel
+ as supply chain issues worsen.
+ The information reports that both Google and Nvidia
+ are quietly adding Intel as a backup manufacturer
+ for their AI chips.
+ Until now, both companies had used TSMC
+ as their single supplier for high-end chips.
+ But of course, recently, TSMC's order book
+ has ballooned leading to a multi-year waiting list.
+ During a call with investors last week,
+ TSMC CEO, C.C. Wei, warned that even with new fabs
+ coming online in Arizona and Taipei,
+ it'll be a long time
+ before they can meet full customer demand.
+ That kind of leaves Intel as the only viable alternative.
+ Google has reportedly placed an order
+ for 3 million TPUs to be manufactured in 2028
+ after being satisfied with test units.
+ That's around half of the units Google expects
+ to deliver across 27 and 28,
+ according to estimates from Morgan Stanley.
+ It's also the first major chip order
+ for Intel during the AI era.
+ Nvidia, meanwhile, is said to still be in the testing phase.
+ Sources said that they're currently testing Intel equipment
+ for producing the next-generation Feynman chip
+ set for production in 2028.
+ Now, this is all big news for Intel,
+ who have struggled for years
+ to catch up on AI chip manufacturing.
+ After taking control of the company last year,
+ new CEO, Lip Bhutan, announced that Intel
+ would double down on contract manufacturing
+ for other chip makers
+ with their in-house AI chip family called Gaudi
+ having been a sales disaster.
+ And while, of course, Intel have made big strides
+ in their reclamation project,
+ this story really speaks to how severe
+ chip supply chain issues are becoming.
+ There's no hint of dissatisfaction with TSMC here
+ or even a desire for redundancy.
+ This appears to be purely about TSMC
+ being completely out of spare capacity
+ for the foreseeable future.
+ Now, investors had already been buying
+ the Intel Redemption Arc,
+ almost tripling the stock price in April
+ before entering a downturn in May.
+ And this news broke the month-long downtrend
+ with the stock jumping by 11% on Monday.
+ By the way, one more small one
+ for my market folks out there.
+ Goldman Sachs and JP Morgan are looking
+ at trading compute futures
+ as a way to hedge their data center exposure.
+ Compute futures are expected to launch later this year
+ and will allow traders to bet
+ on the future price of GPU rentals
+ in a similar way to other commodities like oil or wheat.
+ The information reports that Goldman and JP Morgan
+ are exploring the use of this nascent market
+ as a way to hedge against the risk
+ of data center overbuilding.
+ And while many might read the introduction
+ of compute futures as yet another speculative market
+ for clients that are heavily invested
+ in the data center build out,
+ there's currently no direct way to hedge that risk,
+ meaning that this sort of compute market
+ can actually be useful outside of just speculation.
+ Lastly today, it is not just in markets
+ that we feel things heating up.
+ Washington is taking another look at AI regulation
+ with multiple agendas heading to Congress.
+ Axios reports that the White House
+ is negotiating federal preemption of state AI laws
+ in exchange for supporting other key tech priorities
+ in an upcoming bill.
+ Preemption was part of the bipartisan bill
+ proposed by representatives Obernolte and Trehan last week,
+ but it seems a Senate version is also in the works.
+ Axios said negotiations are currently being led
+ by Republican Senator Marsha Blackburn.
+ Blackburn scuttled AI legislation last summer
+ over the preemption issue, pointing to concerns
+ about losing child and copyright protections
+ that are already legislated in various states.
+ This time around, Blackburn is looking to bundle those issues
+ into a federal regulatory package.
+ Her office said Senator Blackburn
+ is spearheading the negotiation with the White House
+ to finalize legislative text of an AI preemption package
+ that includes protection for kids, creators and communities
+ through the Senate version of the Kids Online Safety Act,
+ the No Fakes Act and age verification requirements.
+ They also added that child safety
+ would receive a carve out from preemption.
+ Sources told Axios that leading AI labs
+ would be attending a White House meeting this week
+ to discuss appropriate benchmarking for government vetting
+ pursuant to the recent AI executive order.
+ Now, this could be the actual purpose
+ for the meeting President Trump discussed last week
+ in the context of AI companies
+ ceding shares to a public wealth fund.
+ Separately, Democrat Senator Adam Schiff
+ has introduced a bill to restrict the Pentagon's AI use.
+ The bill would require the Pentagon
+ to keep a human in the loop for autonomous weaponry
+ and protect against the use of AI
+ for domestic surveillance.
+ The bill then essentially legislates anthropics red lines
+ which became the subject of their fallout
+ with the Pentagon back in March.
+ A similar bill was put forward recently
+ by Senators Kelly, Gillibrand and Slotkin,
+ but Schiff is pushing to have his bill attached
+ to the must pass defense funding bill
+ expected to come to a vote later this month.
+ More broadly, these particular restrictions
+ seem to be a core pillar of the AI platform
+ for centrist Democrats heading into midterms and beyond.
+ Schiff told the Wall Street Journal,
+ we're no longer anticipating these impacts, they're here.
+ AI could very well be the dominant issue
+ for the next presidential election.
+ Now, Schiff's bill is of course just one
+ of a myriad of proposals coming
+ from the Democrat side of Congress.
+ Bernie Sanders recently presented his 50% tax
+ on AI equity as legislation
+ while others are pushing for other forms of AI taxation.
+ Michigan Senate candidate Larry McMarrow,
+ who is running on a token tax applied
+ across the economy said,
+ it feels like we are hitting a cultural tipping point.
+ For the AI companies, meanwhile,
+ it seems like regulation is inevitable,
+ spurring far more engagement from lobbyists.
+ Open AI's chief global affairs officer,
+ Chris Lahane said,
+ we think we're going to need to even do more
+ as we go forward given the speed that this is moving.
+ Now, as you sit back and look at all of this,
+ you could be forgiven for thinking
+ that we are on the precipice
+ of yet another phase you might say in AI.
+ And interestingly enough,
+ that's exactly what Open AI has recently said,
+ and that is the subject that we turn to
+ in our main episode.
+ One of the most important AI questions right now
+ isn't who's using AI, it's who's using it well.
+ KPMG and the University of Texas at Austin
+ just analyzed 1.4 million real workplace AI interactions
+ and found something surprising.
+ The highest impact users aren't better prompt engineers,
+ they treat AI like a reasoning partner.
+ They frame problems, guide thinking,
+ iterate and push for better answers.
+ And the good news,
+ these behaviors are teachable at scale.
+ If you're trying to move from AI access
+ to real capability,
+ KPMG's research on sophisticated AI collaboration
+ is worth your time.
+ Learn more at kpmg.com slash us slash sophisticated,
+ that's kpmg.com slash us slash sophisticated.
+ One thing I keep seeing in enterprise AI,
+ companies hedging across every cloud,
+ every model, every framework,
+ or paying a GSI for a pilot that never ends.
+ The team's actually shipping,
+ they've picked a lane and they move fast.
+ That's one of the reasons I like today's sponsor,
+ Robots and Pencils.
+ They've gone all in on AWS.
+ They're an advanced tier and AWS pattern partner
+ and they ship production AI coworkers in 45 days.
+ That's led to them doing some of the more interesting work
+ I've seen on AI coworkers.
+ And by that I'm not talking about chatbots,
+ I'm talking about actual agentic systems
+ that sit inside a business architecture and do real work.
+ That kind of focus matters if you're an enterprise leader
+ trying to get something real into production
+ or an AWS rep trying to move a customer
+ from interested to deployed.
+ Request an AI briefing at robotsandpencils.com.
+ One conversation with robots and pencils and you'll know.
+ So coding agents are basically solved at this point.
+ They're incredible at writing code.
+ But here's the thing nobody talks about.
+ Coding is maybe a quarter of an engineer's actual day.
+ The rest is stand-ups, stakeholder updates,
+ meeting prep, chasing context across six different tools.
+ And it's not just engineers.
+ Sales spends more time assembling proposals than selling.
+ Finance is manually chasing subscription requests.
+ Marketing finds out what shipped two weeks after it merged.
+ Zen coder just launched Zenflow work.
+ It takes their orchestration engine,
+ the same one already powering coding agents,
+ and connects it to your daily tools.
+ JIRA, Gmail, Google Docs, Linear, Calendar, Notion.
+ It runs goal-driven workflows that actually finish.
+ Your stand-up brief is written before you sit down.
+ Review cycle coming up.
+ It pulls six months of tickets and writes the prep doc.
+ Now you might be thinking,
+ didn't Open Claw try to do this?
+ It did, but it has come with a whole host
+ of security and functional issues
+ which can take a huge amount of time to resolve.
+ Zen coder took a different approach.
+ Sock 2, type 2 certified, curated integrations,
+ tighter security perimeter.
+ Enterprise grade from day one.
+ Model agnostic and works from Slack or Telegram.
+ Try it at zenflow.free.
+ This episode of the AI Daily Brief
+ is brought to you by OutSystems,
+ a leading agendic systems platform
+ built for the enterprise.
+ Organizations all over the world are building,
+ orchestrating, and governing agendic systems
+ on the OutSystems platform and with good reason.
+ OutSystems open and unified platform allows teams
+ to architect, deliver, and scale
+ governed agendic systems with agility.
+ Teams of any size and technical depth
+ can use OutSystems to build, deploy,
+ and manage AI apps and agents quickly and cost effectively
+ without compromising reliability and security.
+ With OutSystems, you can rapidly launch ideas
+ from concept to completion.
+ It's the leading agendic systems platform
+ that is unified, agile, and enterprise proven,
+ allowing you to accelerate growth,
+ reduce operational friction,
+ and deliver real enterprise impact with AI.
+ OutSystems, build your agendic future.
+ Welcome back to the AI Daily Brief.
+ Today, we're talking about OpenAI's blog post
+ in which they declare something of a new phase in AI.
+ Now, part of why this is interesting to look at
+ is that it's very clear that we're living through
+ a major transition in AI.
+ On a micro level, we're in our second sort of transition
+ in a couple months.
+ The first, of course, being the agendic transition
+ that happened between November of last year
+ and January of this year.
+ And the second being the shift
+ from the token subsidy era,
+ where we were consuming a lot more tokens
+ than we were paying for,
+ to the token shortage era,
+ where the physical realities of the limits
+ of the compute that we have available to serve
+ means that state-of-the-art AI
+ especially is getting more expensive.
+ Now, when you take a farther step back,
+ obviously, these are parts of the same transition.
+ And really, I think when the history books are written,
+ the reason that this period feels so intense and immense
+ is that it is the second massive transition
+ in generative AI
+ following the launch of Chachi BT itself.
+ Now, I would argue,
+ when it comes to the ultimate shape of AI in society,
+ this agendic transition
+ and all the consequent economic changes that come with it
+ is likely to be even more significant than the first.
+ So much so that part of what I'm wondering today,
+ as I look at the open AI blog post
+ contrasted with the non-event
+ that was Apple's Siri announcements at WWDC,
+ if there is actually a fairly fundamental break occurring
+ in what we now lump together as AI.
+ But first of all,
+ let's read some excerpts from the piece
+ that they published as it's not particularly long.
+ The piece is called Built to Benefit Everyone Our Plan.
+ The first part of it is sort of your standard
+ historical analogy, this is big sort of rhetoric.
+ Every few generations they start,
+ a new technology changes everything.
+ Imagine electricity reaching a rural American town
+ in the 1920s.
+ Before power lines arrived,
+ daily life was shaped by physical limits,
+ hauling water, washing clothes by hands,
+ preserving food with ice
+ and ending much of the day when the sun went down.
+ Electricity did not transform every household overnight
+ and many of its benefits reached people unevenly,
+ but as access spread, ordinary life changed.
+ Light at night extended the day.
+ Electric pumps, appliances and refrigeration
+ reduced some of the hardest daily work.
+ Radios brought news, music and connection
+ from hundreds of miles away
+ into homes and community spaces.
+ The first promise of electricity was practical,
+ but its deeper impact came from the new possibilities
+ it opened up as more people could use it.
+ With time, a lot of new possibilities emerged
+ with machines and computers
+ greatly accelerating progress in medicine,
+ engineering and many other fields.
+ By the end of the 20th century,
+ the average lifespan had increased by over 20 years
+ and the median inflation adjusted income tripled or so.
+ These gains were driven in no small part
+ due to the advances in healthcare,
+ sanitation and living standards,
+ many of which were enabled or accelerated
+ by widespread electrification
+ and related technological progress.
+ This they argue is happening again with AI.
+ AI they write will soon be capable of extraordinary things,
+ but the point is not the technology by itself,
+ the point is what people can do with it.
+ The positive impacts however they write
+ are not a foregone conclusion
+ or as they put it,
+ the future will not happen automatically.
+ They do the standard,
+ there's gonna be a lot of great things
+ but also clear out about the risks kind of paragraphs.
+ With one interesting novel tweak on that theme
+ where you see the continued backing up
+ from the narrative of full knowledge worker replacement
+ when they write entirely automating
+ everything is not the future we want.
+ It would be unfulfilling and it would be dangerous.
+ AI should help people pursue their goals
+ not become untethered from them.
+ As AI systems become more capable,
+ the human role becomes more important,
+ setting direction, making trade-offs,
+ applying judgment and bringing values,
+ taste, care and responsibility to work.
+ Now as a little aside,
+ the way that I feel about open AI
+ finally coming to this rhetoric and this idea
+ that AI in fact will not be used just to replace people
+ but instead to unlock their dreams
+ in ways that were never imagined before
+ I'm reminded of a scene in the West Wing
+ where Press Secretary CJ Craig
+ reveals to her communications colleague Sam Seaborne
+ that she doesn't understand the census
+ even though she's been acting as she does for weeks.
+ After a little pause, Sam Seaborne
+ played famously by Rob Lowe says,
+ I'll tell you what,
+ let's forget the fact that you're coming
+ a little late to the party
+ and embrace the fact that you showed up at all.
+ In any case, from that new rhetorical shift,
+ they move into what is the actual substance of the post.
+ They write,
+ we believe that AI doing AI research
+ will become the determining factor
+ of the pace of progress within the next few years.
+ Faster technical progress
+ makes human judgment and public coordination
+ more important, not less.
+ The future should be shaped by people,
+ institutions and societies,
+ not only the companies building the most capable systems.
+ Indeed, reflecting the broader conversations
+ at the moment,
+ they write that they expect national
+ and global coordination to become more important,
+ arguing that they have, quote,
+ long believed there should ultimately
+ be an international organization
+ that helps coordinate leading AI efforts
+ to reduce catastrophic risk.
+ And then we come to the core internal facing part
+ of the post, open AI's three current main goals.
+ Their first goal is build an automated AI researcher,
+ an AI system they write that can accelerate
+ and increasingly automate the research process itself
+ while remaining steerable, accountable
+ and connected to people.
+ Our internal belief is that by March of 2028,
+ we may have a significant fraction
+ of our research being done by AI systems
+ in tandem with our own researchers.
+ To make sufficient progress on alignment,
+ we believe we will need AI's to iterate alongside us.
+ This will help us navigate the transition
+ to the post-AI world
+ so that we collectively decide
+ the path towards the future.
+ Goal two, accelerate the economy
+ by accelerating scientific progress,
+ productivity and economic growth
+ while working to ensure the gains are widely shared.
+ Everyone should have an opportunity
+ for a meaningful share in the prosperity AI creates.
+ Three, give everyone on earth a personal AI.
+ Empowering them to benefit from one
+ of humanity's most transformative technologies
+ in whatever way they choose.
+ And thus they say, to be able to deliver on this,
+ we are entering the third phase of open AI.
+ The first phase of open AI
+ was about doing research toward AGI.
+ The second phase began when our research
+ became relevant to the real world
+ and we became a product company.
+ Deploying our systems, learning from how people use them
+ and making continued progress toward AGI
+ that is safe and aligned with our mission.
+ Now they declare, we are entering the third phase.
+ The economy is beginning to reshape around AI,
+ the central question now is how to make advanced AI
+ abundant, affordable, safe, useful
+ and easy enough for every person
+ and organization to benefit from it.
+ Frontier capability is only part of the job.
+ The bigger task is turning that capability
+ into tools people can actually use to thrive.
+ Above all, we believe a broad distribution of power
+ will help lead to a better future.
+ Human history shows that concentrated power
+ creates fragility while widely shared power
+ makes societies more resilient, adaptable and free.
+ A good AI future cannot be one
+ where a small number of institutions control
+ most of the capability and most of the upside.
+ It should be a future where many people,
+ companies, communities and countries can build,
+ benefit and hold power.
+ We believe this transformation should belong to everyone.
+ So that's the post.
+ And when it comes to interpretations
+ and the question of why this was released now,
+ for many, it was impossible to separate
+ from their confidential IPO filing
+ which happened earlier in the day
+ and which we just talked about
+ in the headlines part of the episode.
+ Gennaro writes, Sam Altman just called
+ OpenAI's three phase plan built to benefit everyone
+ on the same day they filed their S1.
+ Headlines, altruistic mission statement, it isn't.
+ This isn't a roadmap, it's market segmentation.
+ Consumers by the dream, investors by the TAM,
+ regulators by the public benefit corporation.
+ There are infinite versions of this take
+ and all I will say is that for the next four months or so
+ until the IPOs for Anthropic and OpenAI
+ are both in the rear view,
+ you're going to have people, frankly, reasonably argue
+ that every single thing that they're doing
+ is in some way shape or form
+ about getting the optimal outcome out of that IPO.
+ Now for others, the big emotional takeaway
+ was certainly the idea of power distribution.
+ Tang Yan writes, TLDR, OpenAI's phase three
+ is that AI should be for everyone,
+ not concentrated in a few hands.
+ Stanford prof Andy Hall writes,
+ concentration of power seems to be
+ the central political economy question of AGI
+ and certainly given the rising discourse
+ around Bernie and sovereign wealth funds
+ and Trump taking a cut,
+ the discussion at least
+ around how to ensure AI benefits everyone
+ is reaching a crescendo
+ in a way that it never has before.
+ Now for others, this was all about reading the tea leaves
+ of what's going on behind the scenes
+ and a speculation that the labs now think
+ that we're beyond some event horizon
+ based on things they've seen
+ that aren't available to the public.
+ Chubby writes, sounds like we're now taking
+ the final steps towards AGI and post AGI.
+ Prins writes, conspiracy theory time,
+ OpenAI just announced
+ that we're entering the third phase.
+ Why today, why now?
+ Blog post was co-authored by Sam Altman
+ and Jacob Pachaki
+ who we know is in charge of automating AI R&D
+ at OpenAI.
+ You may remember that the live stream
+ where OpenAI's plans to automate AI R&D were announced
+ was also Sam and Jacob.
+ No mention of the goal to produce an intern
+ anywhere in the blog post.
+ The goal is now just the automated AI researcher
+ by March, 2028.
+ All weekend long, meanwhile,
+ the Codex team posted about loops.
+ Sam Altman posted about recursive loops last night.
+ Do they have it?
+ And by it, I think Prins is referring to some version
+ of recursive self-improvement or RSI.
+ LaSanne argues, no, of course not,
+ but they could have a much larger and stronger model.
+ Now, the other event that happened yesterday
+ that a couple of years ago
+ would have been almost dead on assured
+ to be the lead story of the main episode
+ was Apple's WWDC event
+ where they announced that Siri AI was finally coming.
+ Now, you might remember that we first started hearing
+ about the new quote-unquote Siri AI
+ back in 2024 when Apple launched
+ in huge air quotes, Apple Intelligence.
+ The Verge writes,
+ the whole intelligence bit of the Siri redesign
+ was coming soon, Apple promised.
+ It didn't.
+ In fact, its promotion around Apple Intelligence
+ was so misleading that the company
+ is settling a class action lawsuit
+ and has to pay iPhone owners
+ for the features it never shipped.
+ But now the new Siri is finally here
+ and basically it does the things
+ that it was supposed to do the last time around.
+ It can summarize your messages,
+ add an event to your calendar, search the web.
+ Basically, for the first time,
+ Siri promises to do more
+ than just set a timer incorrectly.
+ And for some observers,
+ especially those outside of the hyper-focused AI discourse,
+ this was just enough to be fine.
+ Bloomberg's Apple Watcher, Mark Gurman, wrote,
+ while there was nothing revolutionary,
+ Apple just rebooted the foundations of its platform
+ with functional AI,
+ a working Siri and improved performance.
+ This is critical ahead of the next three years
+ of blockbuster new devices
+ that run these operating systems.
+ The right move.
+ Or as Samsung's David Lee put it,
+ didn't try to win the game with one possession
+ when down by 10.
+ IDC analyst Francisco Geronimo said in a note,
+ Apple does not need to win AI
+ by having the biggest model or the loudest demo.
+ It needs to make AI trusted, useful
+ and invisible across the ecosystem.
+ And yet of course on the flip side,
+ people who've spent the last six months
+ playing with open claw
+ and becoming codecs and clawed code power users,
+ look at this and are just absolutely baffled.
+ Tenebrous writes,
+ new Siri are fine.
+ Looks like it will be a legit useful upgrade
+ and I'll make use of agentic search
+ over my own text messages.
+ Upgraded voice transcription might kill a few startups,
+ but it's also just exactly the minimal stuff
+ they should have launched in 2024.
+ Signal put it more bluntly.
+ Siri is basically chat GPT 1.0
+ that has no impact on our work.
+ Now on top of that,
+ you also got some articles
+ trying to argue why sneakily Apple
+ is actually going to disrupt chat GPT.
+ Michael Mallowitz wrote,
+ Apple just killed paying for AI.
+ In it, he basically argues
+ that Siri in your phone,
+ while it isn't going to be managing an agent swarm
+ or refactoring your COBOL code base
+ over the course of a week,
+ can probably order you a burrito
+ about as well as Opus or GPT-55 can.
+ And for a lot of people,
+ that's all that's going to matter.
+ And here's what hits me like a truck.
+ I wonder if we have officially hit the point
+ where considering consumer AI,
+ i.e. the day in, day out,
+ turning to a chatbot to help answer a question
+ or find some information
+ as part and parcel of the same thing as work AI
+ where we are literally managing
+ fleets of new synthetic employees
+ that can unlock capabilities
+ that were never possible for us before
+ is just fundamentally wrong.
+ Now, nominally, all of these platforms
+ have all of these features.
+ You can use cloud AI.
+ You can use cloud code.
+ You can use chat GPT.
+ You can use Codex.
+ And with Gemini and Google,
+ it's even blurrier.
+ And yet in some ways,
+ I think this might have distracted us
+ from the fact that we might be at more of a fork
+ than these companies are willing to admit.
+ It is so clear watching open AI's moves
+ that the seat-based revenue of chat GPT
+ is so ridiculously inconsequential
+ compared to the API usage of Codex
+ that I wonder if on some level,
+ chat GPT itself is becoming a distraction.
+ Now, certainly they're giving some interesting signals
+ to that effect,
+ talking about blending the chat GPT in Codex apps,
+ building a super app.
+ And yet still, most of the discourse
+ is talking about the super app
+ as though it's a thing for consumers.
+ Now, I think that there's no way,
+ even if open AI has determined
+ that chat GPT is kind of a distraction
+ and one of those side quests
+ that Fiji Seymour said that
+ they shouldn't be spending their time on,
+ that they'd actually make moves to kill it.
+ First of all, they're gonna see it forever
+ as a great top of funnel
+ for getting people into the Codex ecosystem.
+ But second, it is a massive differentiator
+ between them and Anthropic as they go public
+ and they're going to need to highlight those differences
+ when it comes to the public markets.
+ But I genuinely wonder
+ if they actually care about consumer AI anymore,
+ even the way they're talking about AI
+ benefiting everyone in this blog post.
+ It's one, about the financial
+ and deterministic and control benefits,
+ benefits and participation.
+ And two, by saying that we're giving everyone a personal AGI,
+ almost dragging them into those work-related use cases
+ as opposed to more traditional consumer AI stuff.
+ Now, I sort of wonder, what would change
+ if we were allowed to care less about consumer AI?
+ Would it mean less shoving it down people's throats?
+ With every app, including non-work apps
+ racing to add their AI features?
+ Would the fact that this was a work technology,
+ not an all-encompassing consumer meme,
+ actually make people less angry?
+ I don't know, but it's interesting to think about.
+ I would not go so far as to say
+ that consumer AI has failed.
+ One need only look at how totally embedded
+ in people's lives, chatbots like chatGBT
+ have already become to know that that's not the case.
+ But at the same time, it is also clear
+ that there is no comparison between that
+ and the sheer tonnage of impact
+ that a gentic work-related AI
+ and the consequent business models and infrastructure
+ are going to have on the face of society.
+ And maybe it's time we start talking about them
+ as separate things.
+ Anyway, if the goal of OpenAI's piece
+ was to get people talking, mission accomplished,
+ for now, that's gonna do it
+ for today's AI Daily Brief.
+ Appreciate you listening or watching, as always.
+ Until next time, peace.
