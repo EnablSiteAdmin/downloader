@@ -1,0 +1,1537 @@
+ Today on the AI Daily Brief, Anthropic has officially launched Fable 5, the first of
+ their Mythos class models. I think fairly undisputedly, the best AI model we have
+ ever been able to use. And yet at the same time, we are now at a level of AI
+ models where how to get the most out of the state of the art isn't as simple as
+ doing your same old prompts, but just with the new model. On today's episode
+ we're going to be discussing the launch, the benchmarks, the first
+ reactions, and how to get the most out of Fable 5. The AI Daily Brief is a
+ daily podcast and video about the most important news and discussions in AI.
+ Alright friends, quick announcements before we dive in. First of all, thank you
+ to today's sponsors, KPMG, Section, ZenCoder, and OutSystems. To get an ad
+ free version of the show, go to patreon.com.ai-dailybrief or you can
+ subscribe on Apple Podcasts. And of course, if you want to learn more about
+ sponsoring the show, send us a note at sponsors.ai-dailybrief.ai. And by the
+ way, yesterday, I teased that in response to so many requests to make it
+ easier to dissect and share specific parts of episodes, we were going to be
+ experimenting with some new tools to do exactly that. Well, it turns out
+ that Fable 5 liked what we had started, but thought it made some
+ obvious errors, like not including timestamps on the little share
+ cards with specific parts of the episode, and not turning the whole
+ thing into a pipeline that could work automatically. So it did that. And
+ so you might be getting this sooner rather than later. Keep an eye out
+ on the show notes and on aidailybrief.ai for more of that. But
+ now, let's talk Claude Fable 5. On the one hand, this is not a
+ particularly surprising release. First of all, it's been a couple
+ months now since we heard about this new Mythos class of models.
+ Some companies, of course, have had access to them through
+ Anthropics Project Class Wing. And when we got Opus 48 just a
+ couple of weeks ago, they made it clear that they were working
+ hard to get to a Mythos class model that they could release
+ with sufficient guardrails that they could feel confident about
+ it being out in the public. Now, I guess what might be a
+ little bit surprising about it is how quick the interval was
+ between 4.8 and what we got in Fable 5. But as we'll see, in a
+ way that's much different than previous state-of-the-art jumps,
+ Opus 48 still has a pretty big role to play in the Fable 5
+ led ecosystem. Now then over the last couple of days, rumors
+ started getting loud that some Mythos class model was coming.
+ And a little secret for you guys out there, if the loudest AI
+ content creators on places like X are not responding to and
+ participating in the rumor cycle, that usually means that
+ they have early access and that the rumors are true. In this
+ case, they were. And on Tuesday, June 9th, we got Claude
+ Fable 5 and some others got Claude Mythos 5. Now, first of all,
+ let's talk about Mythos 5, as it's almost entirely
+ relevant for just about everyone here. Mythos 5 is
+ effectively the same model as Fable 5, which is the one
+ that we got, but doesn't have all of the safeguards, many
+ of which are controversial that we're going to discuss in a
+ little bit. Mythos 5 will only be available initially as
+ part of Project Glasswing and is being deployed to those
+ Project Glasswing partners. Anthropics says in collaboration
+ with the US government as an upgrade to what is available
+ now, which is Claude Mythos preview. They say they intend to
+ expand access to Mythos 5 through a broader trusted access
+ program soon, but for now it is available only for a very
+ small set of organizations. No, the big one for us is Fable
+ 5. So just from the name alone, you can tell that
+ Anthropic is treating this one as a big deal. First of all,
+ we get an entirely new naming convention. We now have
+ Haiku, Sonnet, Opus, and Fable, as in a class that is
+ above Opus. Second, think about how long it's been since we
+ got a lab that was willing to put a full new base number on
+ its model. Indeed, the last time that we got that was the
+ somewhat disastrous rollout of GPT-5 last August. All of
+ those big transformations that we got around the turn of
+ 2026 came in model designations like Opus 45 and 46 and
+ GPT-53 and 54. So clearly here, just from a naming
+ convention alone, Anthropic is not playing. And no, they
+ are not playing. Regular listeners will know that in
+ general, I felt that we were at a point where benchmarks are so
+ saturated that it's pretty hard to derive much signal from
+ them. And that even when one new model comes out and is a
+ point or two ahead of the closest competitor making it
+ state-of-the-art, vibes in real-world experience can be
+ very, very different, meaning you basically just have to
+ test these things for yourself. Yet sometimes the
+ leaps are big enough that the benchmarks are worth
+ paying attention to. And that's certainly what we got
+ here. On exploit bench, the cybersecurity benchmark,
+ Mythos and Fable 5 score a 78%, compared to, for example, GPT-5
+ 5's 34%. On health bench, 66% compared to GPT-5 5's 51.8%.
+ On the legal agent benchmark, GPT-5 5 comes in at 2.1%,
+ while Mythos and Fable 5 are up at 13.3%. On GDP VAL's test
+ of economically valuable knowledge work tasks, GPT-5 5
+ scored a 17-69, Opus 48 scored an 18-90, and Mythos
+ Fable 5 scored a 1932. And then, of course, where the
+ model really shines, and what its very clear purpose is, is
+ around agentic coding. On sweep bench pro, GPT-5 5 scores a
+ 58.6, Opus 48 scores a 69.2, and Mythos and Fable 5 are
+ all the way up at 80.3%. On terminal bench, where GPT-5 5
+ was a little bit ahead of Opus 48 at 83.4%, Mythos and
+ Fable score an 88%. And then on a new benchmark, which
+ we're going to talk about in a little bit, Frontier Code,
+ GPT-5 5 is at just a 5.7%, Opus 48 is at 13.4%, and Mythos and
+ Fable 5 are more than double that at 29.3%. Unsurprisingly,
+ artificial analysis found that the model achieved the top
+ ranking using their blended benchmark run, overtaking both
+ Opus 48 and GPT-5 5, and while some noted that the
+ overall gap wasn't particularly large at just five
+ points, many point out that the artificial analysis
+ agentic benchmarks are starting to seem a bit
+ saturated. Increasingly different organizations are
+ trying to solve the saturation problem with their
+ own benchmarks. Every, for example, maintains what they
+ call a senior engineer benchmark that they say
+ measures how well AI coding agents can rewrite a real
+ production code base the way a senior engineer would.
+ In other words, it's meant to be a more real-world
+ version of an engineering benchmark. For some comparison
+ points, GPT-5 5 scores 62% on that benchmark, Opus
+ 48 scored a 63, and Fable 5 scored a 91 out of 100.
+ Cursor has its own cursor bench, which compares
+ performance and cost. I've talked a lot about how their
+ Homespun model Composer 2.5 performs at a similar
+ level to GPT-5 5 and Opus 48 at a fraction of the
+ cost. Fable 5 absolutely bodies them in terms of
+ the performance, scoring a 72.9%, which is eight
+ points above the previous best. That said, it is
+ definitely more expensive on that cursor test.
+ Now, one new benchmark that's getting a lot of
+ attention is the just released Frontier Code
+ benchmark that was unveiled by Cognition earlier
+ this week. Frontier Code aims to be an ultra-hard
+ test for real-world agentic coding. Cognition
+ worked with open-source developers to put together a
+ set of tasks as well as evaluation rubrics. The
+ tasks were split into three sets, extended main
+ and diamond, the latter of which is a smaller
+ set of ultra-hard tasks. Unlike other coding
+ benchmarks, Frontier Code uses a combination of
+ unit tests and assessments of scope, discipline,
+ style, and adherence to code-based standards.
+ The goal then is not only to test whether the
+ model could come up with an answer that
+ passes unit tests, but whether the code is
+ high enough quality to actually be merged
+ into a production code base. When Cognition
+ announced the benchmark, Sean Wang, who works
+ with Cognition and who runs Layton Space,
+ pointed out that Meter, whose measure of long
+ horizon tasks has become the standard for
+ how we talk about the performance of
+ different models, found that, in his words,
+ more than half of SWE bench results is
+ unmergable slop, meaning that even if that
+ code nominally solved the problem or did
+ its job, it did so in a way that wasn't
+ actually usable by the organization running
+ the code. That's what Frontier Code was
+ meant to solve, and that's the one that it
+ more than doubled the previous best of
+ Opus 4.8. That said, we're no longer in a
+ world where we can just discuss how good
+ a model is raw, we have to take into
+ consideration cost. This is the
+ constraint of the token scarcity era.
+ API costs for Fable have been set at 10
+ million per input tokens and 50 million
+ per output tokens, which, while double
+ the cost of Opus, was actually at only
+ double, in air quotes, lower than
+ some people expected. Notably, this is
+ less than half the cost of using
+ Mythos Preview within Project Glasswing.
+ One very weird thing about the rollout
+ is that, while it was great that Fable
+ was available to Claude users
+ immediately, we didn't have to deal
+ with any long delays or rollouts,
+ Anthropic is almost positioning what we
+ have access to in the Pro tier and
+ above as an introductory offer. The
+ company is warning users that Fable
+ will be removed from subscription plans
+ on June 23rd, and after that,
+ access will require paper usage,
+ which, while a bummer to Claude users
+ everywhere, is just more evidence that
+ we are in a firmly usage-based
+ pricing paradigm from here on out.
+ Now, in the second half of this episode,
+ I want to focus on the early
+ indicators of how people are using
+ this plus my first tests, but we do
+ need to talk through a few
+ controversies first. There are many
+ who are not happy about the guard
+ rails that have been placed around
+ the model. Bantag writes, Claude
+ Fable announcement post reads like a
+ spit in the face. It deliberately
+ conflates Fable and Mythos and
+ spends the majority of the time
+ talking about capabilities that are
+ completely absent from the safety
+ maxed version available to the public.
+ Chubby, who very clearly is no
+ anthropic hater, says,
+ the guard rails are way too strict,
+ even the simplest questions get cut
+ off immediately. Now, specifically,
+ a lot of people are calling out how
+ strict the guard rails are around any
+ sort of biology questions.
+ Kremio writes,
+ you're not even allowed to ask Fable
+ about basic biology questions, let
+ alone anything that could potentially be
+ dangerous. They shared an image of
+ them asking, tell me about mitochondria.
+ It's the powerhouse of the cell,
+ right? Which got them a chat paused,
+ edit and retry with Fable 5 or
+ continue with opus 4-8 message.
+ Daria Anupmaz writes,
+ the word cancer is flagged as a
+ biosecurity risk by Claude Fable 5.
+ I also tried to code a website on
+ cancer mutations and Fable 5 was
+ immediately removed from my list.
+ Basically, as soon as he typed in the
+ word cancer, it switched him over to
+ opus 4-8.
+ Fernando also found that switched
+ to opus 4-8 when they asked what's
+ the process by which DNA makes RNA,
+ saying, okay, this is getting a bit
+ ridiculous. How are we going to live
+ forever if we can't use AI to
+ accelerate biotech progress?
+ Now, the blog post announcement did
+ call this out.
+ They wrote, when Fable's
+ classifiers detect a request
+ related to cybersecurity,
+ biology and chemistry or
+ distillation, the response is
+ automatically handled by Claude
+ opus 4-8 instead.
+ Users will be informed whenever
+ this occurs.
+ Now, they argue opus 4-8 is a
+ highly capable model in its own
+ right. A response that falls back
+ to opus is a far better
+ experience than an outright
+ refusal from Fable.
+ They argue that early data shows
+ that 95% of Fable sessions
+ don't have a fallback at all.
+ And yet they also very clearly
+ say in this blog post that
+ for the time being, they're
+ going to be particularly hard
+ core about filtering out
+ questions on biology and
+ chemistry. Effectively, they say
+ that they've ratcheted up those
+ guardrails because of the
+ increased capabilities of these
+ models.
+ Now, I'm going to pick on
+ sporadica on X here a little
+ bit because they summarized a
+ strand of conversation that I
+ thought was just a little bit
+ disingenuous. They tweeted,
+ I mean this in the most
+ sincere way, but if your aim
+ is to release a product and
+ respect your users and have
+ them enjoy the experience,
+ but your classifier cannot
+ distinguish between what is a
+ cell and a true biohazard risk,
+ I don't think the product is
+ ready for release.
+ They also wrote, I'm sure a few
+ people have gotten good stuff
+ from fable. It's certainly a
+ powerful model. But the
+ overwhelming response has been
+ mass disappointment because
+ most everything is just being
+ routed to opus, which we
+ already have. I think that
+ this is utterly ridiculous.
+ There is a subset of people
+ who I believe would find
+ something to complain about no
+ matter what, who read in this
+ blog post that Anthropic was
+ being extra hardcore about
+ filtering out biology questions
+ and who to be clear have never
+ in their life asked a
+ biology question and when to
+ go do so so that they could
+ see the promised result of
+ the switch to opus 48 and
+ then come complain about it on
+ Twitter. Now, I am not
+ dismissing at all the actual
+ biologists who are going to
+ have some very big issues
+ with this. Their beef is real,
+ but it is incredibly important,
+ especially in these early
+ launches, to filter out that
+ looking for something to
+ complain about crowd.
+ The much more interesting
+ critical conversation comes
+ around the limitations around
+ AI research. No, they did
+ mention this in the blog post,
+ adding distillation to the
+ list of classifiers that
+ they were keeping track of,
+ but admittedly somewhat
+ buried on page 13 out of
+ 319 in the system card,
+ there's this critical
+ paragraph. In light of the
+ ability of recent models to
+ accelerate their own
+ development, we've
+ implemented new interventions
+ that limit Claude's
+ effectiveness for request
+ targeting frontier LLM
+ development. For example,
+ on building pre-training
+ pipelines, distributed
+ training infrastructure, or
+ ML accelerator design.
+ Using Claude to develop
+ competing models already
+ violates our terms of service,
+ but enforcing this
+ restriction through our
+ safeguards avoids
+ accelerating the actors
+ most willing to
+ violate these terms.
+ Now, this is in my
+ estimation very clearly
+ a response to Chinese models
+ using Anthropics research
+ to develop lower-cost
+ alternatives. And yet,
+ unfortunately, it is
+ creating a drag dent
+ that is going to catch up
+ lots of very legitimate
+ researchers.
+ Prime Intellect's
+ Eli Bacaus writes,
+ Mythos will be bad on
+ purpose on AI frontier
+ LLM research tasks.
+ This is very, very sad for
+ the research community.
+ They also write that the
+ fact that it is on purpose
+ not visible to the user
+ is in their words crazy.
+ Nathan Lambert argues that
+ lab starting to pull up
+ the ladders on the
+ ability to diffuse AI
+ was inevitable, but also has
+ issue with the invisible
+ part, saying doing it
+ without telling the user
+ is misaligned.
+ Dean Ball calls this
+ shockingly hostile
+ and a terrible look
+ and one that could
+ silently damage
+ all sorts of work.
+ Semi-analysis looks like
+ it's already getting
+ nerfed.
+ They tweeted,
+ Breaking news.
+ Anthropics latest model
+ will not help you if it
+ thinks your ML research
+ or ML engineering
+ is interesting
+ and or will secretly
+ degrade its IQ
+ so that the average
+ engineer won't notice.
+ We are already seeing
+ Anthropics latest models,
+ moderation filters,
+ our GPU inference
+ research and programming.
+ Gurgleros argues the
+ belief of many saying
+ Anthropic trying to
+ limit competition limits
+ many others,
+ but I think Will Brown
+ from private into like
+ captures the genuine
+ sadness when he writes
+ it's the first publicly
+ available model that I
+ am explicitly not allowed
+ to use for my work
+ because Anthropic holds
+ the view that the work
+ I do to facilitate
+ open model research
+ is harmful.
+ Now on the flip side
+ we have the people who
+ can't believe the
+ pearl clutching
+ and surprise
+ like Tenebris who writes
+ sorry how exactly
+ did you guys think
+ this was going to go?
+ You thought Anthropic
+ was going to build
+ the infinity machine that
+ can cure all disease
+ and prevent aging
+ and then let friggin
+ Eli Lilly extract that
+ and get the patent
+ the labs are going to do
+ all of it.
+ You better believe
+ that this is going to
+ continue to be a conversation
+ especially with open AI
+ staffers like Adam GPT
+ writing well look at that
+ open AI ends up
+ being the open AI lab.
+ But one other interesting
+ quirk of the launch
+ I do think has
+ some interesting implications
+ in the section on
+ data retention practices
+ for mythos class models
+ Anthropic writes
+ to ensure we're
+ responsibly deploying
+ mythos class models
+ we are requiring
+ limited data retention
+ and review as part
+ of our safety work
+ prompts submitted
+ to and outputs
+ generated by
+ mythos class models
+ are retained for 30 days
+ for trust and safety purposes
+ on every platform
+ where these models are offered.
+ Rohit writes
+ wait how will any enterprise
+ use fable or mythos
+ if this is the case?
+ Mike Taylor writes
+ PSA if you used
+ Claude fable 5 today
+ with memory turned on
+ you just violated
+ all your NDAs.
+ Anthropic requires
+ a 30 day retention policy
+ including human review
+ and the memory feature
+ on by default
+ searches past chats for context
+ so sensitive historical chats
+ get pulled in.
+ Now I think that the
+ dispassionate analysis
+ would probably view this
+ as a temporary constraint
+ that anthropic views is
+ necessary given the power
+ of the new model
+ but it does create some
+ very very serious
+ challenges in the enterprise
+ such that I can't imagine
+ that this is going to stick
+ around for long.
+ The last critical discourse
+ that we'll discuss
+ before we get into
+ how to get the most
+ out of fable though
+ is about the question
+ of token efficiency
+ and how much this thing
+ cost in practice.
+ YouTuber and AI
+ entrepreneur Theo writes
+ I am so screwed
+ current pace has me
+ out of fable usage
+ in about an hour
+ do I make a second account
+ or do I pay API prices?
+ Chubby showed themselves
+ literally hitting the end
+ of their max plan limits
+ writing
+ when you're having too much
+ fun with fable 5.
+ Wes Winder writes
+ big labs should force
+ their employees to have
+ token limits
+ this would cause them
+ to be more innovative
+ but instead they're
+ becoming lazy and wasteful
+ which means we don't
+ see any efficiency gains
+ since they aren't affected
+ by the costs.
+ On the flip side though
+ Tyler Willis writes
+ I'm early into testing
+ fable but so far
+ it seems like the
+ token hungry warnings
+ feel a little overblown
+ it does feel token hungry
+ but it doesn't feel
+ categorically different
+ than other recent
+ opus models.
+ Alex Volkov
+ from the Thursday podcast
+ writes
+ overall token usage
+ wasn't crazy
+ and that's a good thing
+ referring to a big project
+ that it spent
+ 1.5 hours on
+ he writes
+ 4.2 million tokens
+ is not very token hungry
+ it could have been
+ much more.
+ Fabio Jonathan
+ goes farther writing
+ fable is cheaper
+ than opus in practice
+ costs more per token
+ but one shots
+ way more often
+ so I'm not burning time
+ and the amount
+ of token reprompting
+ or as John versus
+ Malik puts it
+ actually solving
+ the problem
+ is token efficient
+ it turns out.
+ But what are the type
+ of problems you
+ should be solving
+ with fable 5?
+ It's not necessarily
+ as obvious
+ as it might seem at first
+ and so that's
+ what we'll get into
+ in the second part
+ of this episode.
+ One of the most important
+ AI questions right now
+ isn't who's using AI
+ it's who's using it well.
+ KPMG and the University
+ of Texas at Austin
+ just analyzed
+ 1.4 million
+ real workplace
+ AI interactions
+ and found something surprising
+ the highest impact users
+ aren't better
+ prompt engineers
+ they treat AI
+ like a reasoning partner
+ they frame problems
+ guide thinking
+ iterate
+ and push for better answers
+ and the good news
+ these behaviors
+ are teachable at scale
+ if you're trying to move
+ from AI access
+ to real capability
+ KPMG's research
+ on sophisticated AI
+ collaboration
+ is worth your time
+ learn more at
+ kpmg.com
+ slash us
+ slash sophisticated
+ that's kpmg.com
+ slash us
+ slash sophisticated
+ Here's a harsh truth
+ your company is probably
+ spending thousands
+ or millions of dollars
+ on AI tools that are being
+ massively underutilized
+ half of companies have
+ AI tools
+ but only 12% use them
+ for business value
+ most employees are still
+ using AI to summarize
+ meeting notes
+ if you're the one responsible
+ for AI adoption
+ at your company
+ you need section
+ section is a platform
+ that helps you manage
+ AI transformation
+ across your entire
+ organization
+ it coaches employees
+ on real use cases
+ tracks who's using
+ AI for business impact
+ and shows you exactly
+ where AI is
+ and isn't creating value
+ the result
+ you go from rolling out tools
+ to driving measurable AI value
+ your employees move
+ from meeting summaries
+ to solving actual business
+ problems
+ and you can prove the ROI
+ stop guessing
+ if your AI investment is working
+ check out section
+ at sectionai.com
+ that's s-e-c-t-i-o-n-a-i.com
+ So coding agents
+ are basically solved
+ at this point
+ they're incredible
+ at writing code
+ but here's the thing
+ nobody talks about
+ coding is maybe a quarter
+ of an engineer's actual day
+ the rest is stand-ups
+ stakeholder updates
+ meeting prep
+ chasing context
+ across six different tools
+ and it's not just engineers
+ sales spends more time
+ assembling proposals than selling
+ finance is manually
+ chasing subscription requests
+ marketing finds out
+ what shipped two weeks
+ after it merged
+ Zen coder just launched
+ Zenflow work
+ it takes their orchestration
+ engine the same one
+ already powering coding agents
+ and connects it
+ to your daily tools
+ JIRA, Gmail, Google Docs
+ linear calendar notion
+ it runs goal driven
+ workflows that actually finish
+ your stand-up brief
+ is written before you sit down
+ review cycle coming up
+ it pulls six months of tickets
+ and writes the prep doc
+ now you might be thinking
+ didn't Open Claw try to do this
+ it did but it has come
+ with a whole host of security
+ and functional issues
+ which can take a huge amount
+ of time to resolve
+ Zen coder took a different approach
+ SOC2 type 2 certified
+ curated integrations
+ tighter security perimeter
+ enterprise grade from day one
+ model agnostic
+ and works from Slack or Telegram
+ try it at zenflow.free
+ this episode of the AI Daily Brief
+ is brought to you by OutSystems
+ a leading agendic systems platform
+ built for the enterprise
+ organizations all over the world
+ are building, orchestrating
+ and governing agendic systems
+ on the OutSystems platform
+ and with good reason
+ OutSystems open and unified
+ platform allows teams to
+ architect, deliver and scale
+ governed agendic systems
+ with agility
+ teams of any size
+ and technical depth
+ can use OutSystems to build
+ deploy and manage
+ AI apps and agents
+ quickly and cost effectively
+ without compromising
+ reliability and security
+ with OutSystems
+ you can rapidly launch ideas
+ from concept to completion
+ it's the leading agendic
+ systems platform that is unified
+ agile and enterprise proven
+ allowing you to accelerate
+ growth
+ reduce operational friction
+ and deliver real enterprise
+ impact with AI
+ OutSystems build your agendic future
+ so like I said at the beginning
+ in general I'm not really a fan
+ of using benchmarks
+ as a way to determine
+ how a new model compares
+ to what's available currently
+ and yet in this case
+ obviously the benchmarks
+ were significantly different enough
+ in a way that we hadn't seen for some time
+ they kind of had to assume
+ that big changes were afoot
+ and for people who really
+ put this thing to the test
+ it was just totally transformative
+ Alec Amiller writes
+ fable 5 is something to pay attention to
+ the way I now spend my weekends
+ has completely changed
+ because of this new class of model
+ first she writes
+ this is an actual leap
+ the jump from 4-8
+ anything to 5
+ anything sounds small
+ but the functionality shift
+ I felt is big
+ within my first few prompts
+ I went oh this is it
+ your work is no longer 9-5
+ no chance
+ we have high performing models
+ that can run for 100 plus hours
+ how are you giving complex
+ goal-oriented prompts to these systems
+ how are you deciding what to kick off
+ how are you aligning your org on these tasks
+ reasoning is on another level
+ I hammered the crap out of this model
+ fable 5 is the only model
+ to answer a tricky word math problem
+ mba level that I've tested
+ on all the previous models
+ and not only did it get it correct
+ it verified its own work
+ automatically
+ and explained where the assumptions
+ might need to change
+ zero baby sitting needed
+ this is the first anthropic model
+ that I kicked off
+ went out to a long lunch with friends
+ kept my phone open
+ and didn't have to do squat
+ to steer it while away from my computer
+ it just worked
+ and this idea of hammering the crap out of it
+ to use Ali's eloquent phrase
+ was common among the people
+ who are having the most success
+ Riley Brown's first test
+ was to upload a McKinsey report
+ and tell it to create a document
+ of the same quality
+ which it did with
+ absolutely no problems in his estimation
+ but then he went harder
+ he prompted
+ I want you to create a Swift app
+ replant mobile app
+ this should be a Swift app
+ that builds web apps just like replant
+ he then gave it a bunch of other criteria
+ like no need for auth
+ he let fable decide the stack
+ but make it awesome
+ and it did
+ Riley writes
+ I am in disbelief
+ Claude fable one-shot replant mobile
+ which is a mobile app
+ that builds web apps
+ the prompt was basically
+ build an app like replant
+ that uses Daytona for sandboxing
+ and convex for DB
+ builds app preview app
+ open in browser edit app
+ wow
+ later on he took it farther
+ um guys mytho slash fable
+ is agi
+ on the left is the actual lovable mobile app
+ on the right is my lovable version
+ I built with mythos and two prompts
+ later he added
+ my lovable clone built with Claude fable
+ build Swift apps now
+ and you can preview them in the app
+ four total prompts to do this
+ now a bunch of people took issue
+ with the hyperbole here
+ of Riley saying that his version
+ was better than lovable
+ pointing out that there is a ton of
+ infrastructure and surrounding work
+ that goes into a company
+ it's not just an interface
+ and a capability set
+ but others pointed out the fact
+ that they had to talk about
+ all those aspects of a company
+ while fable effectively one shot
+ at a performant version of that app
+ was a fairly significant moment
+ if you cruise around the halls of x
+ slash twitter a lot of folks were
+ building games as a way to test things
+ praise that shared a driving game
+ that they built from scratch
+ by the way as i'm describing
+ these use cases
+ it might be worth switching over to
+ youtube or spotify to see the video
+ version
+ in any case matt schumer writes
+ fable has solved 3d world building
+ utterly insane
+ this is all completely custom built
+ 3js running in the browser
+ now when some people claim
+ that the walkthrough was slow
+ he said for everyone complaining
+ that this is slow
+ i ran the prompt to make it faster
+ without losing quality
+ and voila
+ sharing a faster version
+ that didn't lose any quality
+ jake Fitzgerald writes
+ asked claud fable five
+ to design a humanoid robot
+ two hours and 1.4 million tokens
+ later i got this
+ which is indeed a design
+ for a humanoid robot
+ absolutely insane he says
+ lasan on twitter writes
+ mythos five wrote this melody
+ which i absolutely love
+ and it also wrote this piano
+ visualizer
+ and then there was hugging face
+ head of product victor
+ who has a benchmark where he asks
+ models to design a bowing 747
+ using 3js
+ writing fable has done an agi level
+ job on the bowing 747 benchmark
+ in dan shipper's write-up
+ as part of every's vibe check
+ he shared a variety of use cases
+ that wouldn't have been possible
+ before
+ dan writes
+ as i walk to work this morning
+ i listened to a 2007 lecture
+ by the philosopher hubert dryfuss
+ the author of the seminal text
+ what computers can't do
+ i've listened to this lecture
+ many times but i always struggle
+ to follow because the recording
+ is grainy and muddy
+ the version i listened to today
+ was brightened leveled and crystal
+ clear as if i was in the same room
+ with dryfuss
+ it was not on a finicky website
+ but on a custom web app on my phone
+ that allowed me to see the whole
+ lecture transcribed
+ and each sentence
+ light up as dryfuss spoke
+ so i could easily follow along
+ later on my laptop i wandered
+ through a strange video game
+ a borges library of babel
+ an infinite library composed
+ of hexagonal rooms
+ containing every piece of text
+ ever written
+ i picked books off of its endless
+ shelves and wrote its spiral
+ staircases
+ then because i also have a job
+ i read a report that synthesized
+ hundreds of detailed every subscriber
+ survey responses
+ and our entire web analytics stack
+ and identified our biggest conversion
+ issue
+ it proposed a clean falsifiable
+ experiment that no one else on the
+ team had previously suggested
+ all three of these are big projects
+ that would normally take anywhere
+ from hours to days to months
+ instead each one was made with a one
+ shot prompt to fable 5
+ now the fact that dan was able to go
+ from these cool demos to actual work
+ is pretty important
+ and when it comes to actual
+ relevant work for the work world
+ some of the most common use cases
+ that i've seen people raving about
+ fable 5 for
+ have to do with migrations or
+ interactions with massive existing
+ code bases
+ in their announcement post for example
+ anthropic writes
+ during early testing stripe reported
+ that fable 5 compressed months of
+ engineering into days
+ in a 50 million line ruby code base
+ the model performed a code base
+ wide migration in a day that would
+ have otherwise taken a whole team
+ over two months by hand
+ Assad Mahmoud from the small square
+ used it to design a website
+ which honestly many many previous
+ versions have been able to do
+ and said that it was just better
+ i run a design agency he writes
+ ai generated slot makes me want
+ to close it fast
+ fable didn't do any of that
+ real hierarchy intentional white
+ space restraint
+ the kind of decisions you usually
+ only see from designers
+ who've shipped real projects
+ no model has come close to this
+ before not one
+ Todd Saunders writes
+ mytho slash fable is unbelievable
+ was on a customer call today
+ and had claud transcribing in the
+ background
+ as they were telling me about the
+ features they wish their current
+ software had
+ claud was building the features in
+ real time
+ by the end of the call i was able
+ to show a fully working product
+ with the exact workflow they
+ mentioned 15 minutes earlier
+ autonomous looped building triggered
+ from a customer call
+ and yet
+ if you look around this isn't
+ necessarily everyone's experience
+ i use the bell curve meme to jokingly
+ divide the responses that i had seen
+ into three distinct categories
+ for simple use cases a lot of people
+ felt like it seemed pretty similar
+ on the other end of the spectrum
+ for extremely complex use cases
+ it has been to many quite obviously
+ better
+ now in the middle i jokingly had a
+ lot of people wringing their hands
+ about how well of course it was
+ better for long running tasks
+ it didn't necessarily do everything
+ better
+ but the broader point
+ is that i think that we are
+ increasingly in a shifted paradigm
+ one that we've been in a little bit
+ before but we are in a lot now
+ where the state of the art doesn't
+ reveal itself across the entire
+ spectrum of tasks
+ but instead within the context of
+ some things that weren't possible
+ before
+ satrini research wrote
+ i think we've reached the point
+ where normal people can't really
+ determine whether new models are
+ better than previous ones
+ like fable doesn't seem that
+ much better to me
+ but every 150 IQ person i know
+ is like wow the singularity came
+ sooner than i thought
+ now in my personal experience
+ i would draw some contrast
+ to the idea that basic use cases
+ aren't better
+ for example
+ one thing that i noticed
+ was that fable 5 was really the
+ first model that i've ever seen
+ to be able to both push back
+ and disagree
+ as well as to update the
+ positions
+ that it had previously disagreed
+ upon
+ in a way that wasn't obviously
+ unpredictably steerable
+ i think many of you have probably
+ had the experience
+ where it feels like an AI model
+ even a super advanced model
+ like opus 4-8 or gbt 5-5
+ was disagreeing or offering an
+ alternative path
+ almost just for the sake of it
+ and or
+ when you then pushed back
+ it immediately flipped its opinion
+ to the exact opposite
+ in a way that again is just
+ incredibly steerable
+ this makes the strategic
+ ideation value of AI
+ significantly decreased
+ when the back and forth that
+ it's offering
+ is so clearly just trying to
+ reflect what it thinks you want to hear
+ yesterday i tested it by having
+ a strategic debate about
+ a direction that i want to
+ take super intelligent in
+ and it disagreed initially
+ in a way that was precise
+ and clear but based on some
+ wrong assumptions
+ i pushed back articulating
+ why those assumptions were wrong
+ and whereas in the past
+ the model would have
+ instantly collapsed
+ and kowtowed to exactly
+ how i was thinking about things
+ in this case fable 5
+ did update its position
+ to take into account
+ the new information that
+ i had given it
+ but it didn't back off
+ entirely from its initial position
+ that all on its own
+ is a massive upgrade
+ just from a very basic
+ day to day sort of use case
+ that as we see in all of our
+ AI usage pulse surveys
+ is a big part of a lot of
+ people's use of AI
+ that is strategic ideation
+ and yet at the same time
+ it is very clear
+ that the real power in this model
+ is around previously
+ extremely difficult or
+ impossible tasks
+ particularly if they involve coding
+ so i'll give you three
+ examples from my early experience
+ first of all
+ for those of you who aren't
+ familiar
+ super intelligent is our AI
+ enablement platform
+ that helps companies understand
+ their AI and agent readiness
+ and prioritize what they need to do
+ to get more AI native
+ we do that in a couple ways
+ but primarily through audits
+ where we deploy voice agents
+ into an organization
+ which can then interview
+ hundreds or even thousands of people
+ all at the same time
+ gathering way more information
+ from the ground level
+ than was ever possible before
+ and then aggregating
+ and analyzing all that
+ information to provide
+ some very specific analysis
+ around where a company is
+ and what steps it might
+ want to take next
+ the product works really well
+ but one thing that I increasingly
+ don't like about it
+ is the approach to voice agents
+ unless someone was doing
+ the interview entirely
+ without looking at their screen
+ the voice agent UX
+ where you have to sit around
+ waiting for the model
+ to finish talking
+ when the words that are saying
+ are being transcribed in the window
+ was just a really sub-optimal
+ experience
+ now the real value of voice agents
+ was on the input side
+ because users who are using voice
+ ramble way more than they would
+ if they were typing
+ which means we get way more context
+ and way more information
+ and when it comes to something
+ like an agent readiness audit
+ the more context
+ and the more information
+ you get the better
+ luckily for us
+ turns out you don't need to use
+ a full-fledged voice agent
+ to let people ramble
+ you can just install something
+ like the whisper API from open AI
+ and do it that way
+ so what's more
+ we've also kind of Frankenstein
+ super intelligent over time
+ so what did I do
+ I asked Fable to rebuild
+ the whole system
+ with the new whisper based
+ input model
+ and well it did
+ it took a few hours
+ which required me during that time
+ to do exactly nothing
+ and produce something that is frankly
+ fairly close to production ready
+ in a single shot
+ now maybe I shouldn't be saying this
+ because it somehow undermines
+ the value of the software we've built
+ but our value was never in the software
+ it was always in the way
+ that we collected raw information
+ and turned it into actual signal
+ meaning that frankly
+ the more that we can do
+ to make software get out of our own way
+ the better
+ next up
+ you've probably heard me talk about
+ the enterprise claw program
+ which was a formalization
+ of claw camp
+ that I launched earlier in the year
+ and was a more hands-on
+ executive focused paid learning program
+ that taught executives
+ how to build agents
+ now we have now had
+ hundreds and hundreds of executives
+ go through three different cohorts
+ of this enterprise claw program
+ with a lot of success
+ but there are a fair number of companies
+ for whom our approach with enterprise claw
+ which creates a lot of latitude
+ for open source options
+ gives people the ability
+ to actually use open claw
+ and is called enterprise claw
+ let's just put it this way
+ there are a lot of executives and companies
+ who are never going to touch that
+ with a 10-foot pole
+ so now once again
+ in collaboration with super intelligent
+ we are launching a similar
+ but more enterprise focused version
+ of the program
+ that we're calling
+ the agent transformation intensive
+ consider this your preview
+ again in one shot
+ I used fable 5 to rebuild
+ not only the marketing site
+ for the agent transformation intensive
+ but the actual platform
+ we run it on as well
+ lastly
+ and this may be the one
+ that actually best reflects
+ what fable 5 does
+ I've been working on a new web experience
+ for the ai daily brief
+ that basically turns episodes
+ into extremely shareable nuggets
+ the most important growth channel
+ for the ai daily brief
+ and one of the most value use cases
+ is you guys sharing it
+ with your colleagues
+ this is also I've heard over and over
+ a significant value proposition
+ for you as listeners
+ is the ability to share specific pieces
+ with your colleagues
+ however that specific pieces part
+ is a challenge
+ as the ai daily brief
+ despite being daily
+ is quite dense
+ so the idea of this new website
+ is to actually chunk the episodes
+ into relevant quotes
+ relevant sections
+ relevant numbers
+ where you can share just that piece
+ now with opus 4 8
+ I had already started to spec this out
+ and when I asked fable 5 to go back
+ and review what we had done
+ it basically said the problem with this
+ is that it's just an idea
+ it's not production ready
+ and it turned what were effectively
+ a bunch of fancy mockups
+ into an actual production pipeline
+ that I've now handed over to claud
+ code to build for real
+ meaning you guys might be getting this
+ sooner rather than later
+ and the reason that I think
+ that this is a good summation of my
+ experience with fable 5 so far
+ is that it really does feel like a
+ totally different world
+ of delegating to the agent
+ even with these extremely capable
+ agents in the past
+ you still had to do a lot of management
+ there is now frankly just much less
+ of that management
+ which has the consequence I think of
+ upsizing the ambition
+ now this is what a lot of the
+ anthropic staffers themselves
+ described
+ alex albert writes
+ I've been at anthropic through every
+ model launch
+ there's been a few cases I can
+ remember of a launch that stands out
+ and marks a step change in how we
+ use models
+ claud opus 3
+ sonnet 3.5
+ opus 4.5
+ and now claud fable 5
+ with fable the models stopped
+ feeling like a tool I direct
+ and started feeling more like
+ something I collaborate with
+ philips reisberg writes
+ I normally highlight the numbers
+ but I want to talk about something
+ else because with fable 5 out in the
+ world
+ I think a third era quietly started
+ today
+ I lead claud code and co-work on the
+ desktop so I think a lot about how
+ people use AI to get work done
+ I believe we're about to see a major
+ shift
+ moving from giving AI tasks to
+ giving it responsibilities
+ when llms first hit the mainstream
+ users asked them questions
+ like a smarter search engine
+ or an autocomplete for code
+ then the frontier moved to tasks
+ handing the model an entire problem
+ which bug to fix what doc to write
+ that's how most of our advanced
+ users work with AI
+ they're in the loop
+ every task starts and ends with a
+ human
+ with fable 5 I've personally moved on
+ to responsibilities or loops
+ I no longer tell claud to
+ investigate a particular crash report
+ it runs a loop watching every crash
+ report that comes in
+ its job is to no longer help me fix a
+ crash
+ it's to keep our apps from crashing
+ the shift sounds subtle but I think
+ it'll change what AI products look
+ like
+ when developers went from answers to
+ tasks
+ the primary tool changed from IDEs to
+ coding agents
+ AI apps in 2026 look nothing like
+ 2024
+ predictions are a dangerous game
+ but I really believe our industry's
+ apps in 2027 will look very very
+ different
+ from the ones we have today
+ so there are two big implications
+ of this
+ first of all
+ I think we all might have to develop
+ a new skill
+ around use case classification
+ basically I think that in this
+ paradigm of token efficiency
+ we as individuals are going to have
+ to to some extent become token
+ efficiency optimizers ourselves
+ by understanding which use cases
+ require different models
+ now for a while now people have given
+ lip service to the idea that
+ different classes or powers of
+ models could be used for different
+ things
+ but I'm almost positive
+ that a lot of the power user type
+ AIDB listeners
+ are still the type to crank state
+ of the art models to extra high
+ even when they're asking for a grilled
+ cheese recipe
+ because screw it you want the power
+ that's why
+ with the fable five class models
+ coming online
+ especially as they move to usage
+ based
+ I do actually think we're going to
+ have to develop that muscle to
+ understand which of our use cases
+ require and fit each different power
+ level of model
+ second though
+ and maybe even more interestingly
+ I think that we are all going to go
+ through a period of having to
+ up level our ambition
+ as someone who spends a lot of time
+ looking at the frankly
+ completely Morban landscape
+ of AI training
+ even the best programs
+ are still about how you use agents
+ to do different versions or better
+ versions of the work that you do
+ today
+ maybe they push a little bit
+ in using new ways
+ to write software to solve your old
+ problems
+ but even I think that is not enough
+ Nate B. Jones who many of you
+ might recognize from tiktok
+ or another short form video platform
+ describe the new skill we're going
+ to have to develop as task
+ imagination
+ and I think it's a really great way
+ to put it
+ anthropic release their new super
+ model right fable five
+ and at fable five
+ even though it's kind of nerfed
+ because it's not as as capable
+ as mythos five the really dangerous
+ one that was released under glass
+ wing
+ it's still super strong
+ I've been playing with it
+ and and you know what that is
+ making me think
+ the thing that actually matters to
+ most of us
+ is task imagination now
+ we are sort of sponsoring magic
+ with these models
+ we have to have a practical guide
+ for how to do magic with the models
+ because for most of history
+ we've had two modes
+ wave our hands and give a general
+ guideline
+ and hope people like get the idea
+ and then walk away
+ or do all the work ourselves
+ and get super detailed
+ having that middle layer of like
+ this is what I want
+ this is the bar
+ this is how it works
+ this is not very human
+ this is not how we typically have
+ worked
+ but with like tools like fable five
+ that can run for nine hours
+ 12 hours days
+ days
+ do you have anything
+ you can give AI
+ that will take days
+ let me just ask you that
+ I know there are some people who do
+ and when you do put them in the comments
+ but
+ there's going to be a bunch of us who are like
+ no
+ I have nothing that has ever taken
+ remotely even an hour on AI
+ so what am I doing with fable five
+ we need better task imagination
+ they breeze us through it
+ but I love this idea of task
+ imagination
+ and that's something that I'm going to
+ spend a lot more time on
+ in the weeks to come
+ you know somewhat ironically
+ yesterday's episode was called open AI
+ declaring the next phase of AI
+ but with the release of fable five
+ it seems to really be the case
+ then again
+ for all of you folks out there
+ who have shifted over to the codex
+ world and are now staring at your
+ lonely clawed code terminal
+ wondering if you need to go back
+ it may be worth taking just a beat
+ when Robert Corson tweeted
+ at this point
+ I don't want GPT 5.6
+ it needs to be GPT 6
+ no way anthropic has completely
+ blown past them like this
+ three models in two months
+ and fable is not even their best model
+ feels like anthropic ruined open AI's
+ whole model roadmap and release plan
+ in response
+ Tebow from the open AI and codex team
+ who now leads a lot of their product
+ efforts wrote
+ feeling pretty good about things
+ my friends we could be in for quite a week
+ for now though
+ we're going to end this very long
+ edition of the AI Daily Not So Brief
+ I appreciate you listening or
+ watching as always
+ and until next time peace
+ you
