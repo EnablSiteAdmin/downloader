@@ -1,0 +1,962 @@
+ Today on the AI Daily Brief, why Fable 5 is easily the most controversial AI model launch
+ of all time.
+ Before that in the headlines, more chatter about the AI lab's donating equity to a
+ sovereign wealth fund.
+ The AI Daily Brief is a daily podcast and video about the most important news and discussions
+ in AI.
+ Alright friends, quick announcements before we dive in.
+ First of all, thank you to today's sponsors, KPMG, Robots & Pencils, ZenCoder and OutSystems.
+ To get an ad free version of the show, go to patreon.com.ai-dailybrief or you can subscribe
+ on Apple Podcasts.
+ To learn more about sponsoring the show, send us a note at sponsors.ai-dailybrief.ai.
+ Now speaking of AI-dailybrief.ai, this has come up a couple of times in the past few
+ days in and around my discussions of Fable.
+ But given the increase in capability to just get things done, I have officially pulled
+ the trigger and launched a new AI Daily Brief website.
+ This one is meant to answer the most common request that I get, which is make it easier
+ for us to share specific parts of the episode.
+ Each episode then is going to have a summary page that includes the one big idea, the
+ key numbers from throughout the episode, and 15 to 20 shareable cards that have individual
+ insights, individual quotes, along with time stamps, and the ability to link those
+ specific cards out.
+ For folks who want their agents to grab it, you can also download everything on
+ this page as marked down or get the official episode transcript.
+ Now I decided to push this out fast rather than have it perfect so there's going to be a lot
+ of rough edges.
+ Please shoot me an email if you have any feature requests, and I hope you enjoy the
+ new AIDailyBrief.ai.
+ We kick off today with President Trump once again calling for a sovereign wealth fund seated
+ by AI Equity.
+ In a press conference in the Oval Office on Wednesday, Trump said,
+ I'm going to have meetings with the top 12 or 15 executives very shortly, and
+ we're talking about giving something back to the public.
+ And if we do that, the public will become very rich, the people in our
+ country, because that's the kind of money we're talking about.
+ And I think they'll do that, and I think it will make it very popular.
+ The New York Times noted that Trump's comments have, quote, turned up the
+ temperature on a hot topic in Washington and Silicon Valley, as the tech
+ industry reckons with a growing backlash against AI.
+ Sources said that Sam Altman did not discuss the idea directly with Trump
+ during his visit to the White House last week.
+ However, the concept of a sovereign wealth fund was heavily discussed in
+ Altman's meeting with Bernie Sanders.
+ In good news that the world has not gone completely topsy-turvy,
+ Altman did reportedly object to Sanders' proposal of open AI giving 50% of
+ their equity to the public.
+ Back in Silicon Valley, altimeter capital founder Brad Gertzner is warning
+ the AI companies might need to pay some form of anti-revolutionary tax.
+ During a conference panel this week, he said,
+ It is destabilizing when you're creating trillions of dollars in private
+ value and 80% of Americans think it's a scam where they're left out and
+ left behind.
+ Now, while there is some amount of groundswell around the idea,
+ White House officials said discussions are in very early stages,
+ stating that they're unaware of any real plan or vehicle to acquire stock.
+ Something picks up David Yafia, professor at Harvard Business School, said,
+ The notion that the government should be a partner in new technology is not new,
+ but the idea that the government and American citizens should have equity is
+ a radical departure from the free markets approach of the world.
+ Then again, the New York Times suggested that all of this might not be some
+ grand plan to reshape the US economic system for the AI age,
+ instead arguing that the concept of an AI public wealth fund appears to have
+ one central animating idea.
+ As they put it, the president likes owning equity in businesses.
+ Next up, whatever the ultimate state of their equity looks like,
+ OpenAI is closing a deal to stand up 10 gigawatts of data center capacity.
+ Sources told the information that OpenAI is in advanced negotiations to
+ lease a 10 gigawatt data center campus to be built on federal land in Ohio.
+ The campus is expected to cost $500 billion based on current pricing for
+ chips, labor and power.
+ This would make it not only OpenAI's largest data center commitment to date,
+ but likely the largest data center campus ever built.
+ 10 gigawatts is roughly four and a half times the total output of the Hoover Dam
+ and more than twice the capacity of the largest nuclear power plants operating in
+ the US.
+ Sources said that Nvidia is attached as a financial backer and the current
+ structure of the deal would see OpenAI lease the chips as well as the facilities.
+ They wouldn't be required to begin repayments until the first GPUs are
+ powered up with 800 megawatts expected to come online in 2028.
+ The total life of the lease could be as long as 20 years.
+ And while one of the critiques of Nvidia in the past has been
+ participating in some sort of circular financing deals,
+ they haven't previously backstopped any data center deals whatsoever,
+ let alone one of the size.
+ Instead, the deal has echoes of Project Stargate,
+ which was announced at the beginning of 2025 but stalled out earlier this year.
+ Stargate was originally intended to be a $500 billion joint venture
+ with Oracle and SoftBank who appear to be playing a role in this new deal as well.
+ The site in question is a decommissioned uranium enrichment facility
+ in Pike County, Ohio, around 50 miles south of Columbus.
+ The federal government will own the power plant with SoftBank's
+ subsidiary SB Energy functioning as the plant operator.
+ While it appears that the project is being designed to preempt the major
+ sources of data center outrage, local politics are still turning sour.
+ Controversy erupted this week in Cleveland when legislators discovered
+ their previous governor had signed deals with Amazon, Meta, and Google
+ to provide 100% sales tax exemptions on data center operation lasting for 40 years.
+ While the deal made Ohio an attractive destination for new data centers
+ and has already brought in tens of billions in investment,
+ the state estimates the deals will cost $1.8 billion in lost tax revenue.
+ And as one report states, given the uncapped nature of the tax exemption,
+ final numbers could be significantly higher.
+ Democrat Representative Tristan Radar told local press,
+ I'm just dumbfounded, this is so poorly designed.
+ The tech company saw fertile ground and have been taking advantage of us ever since.
+ Meanwhile, overall bans and moratoriums are increasingly on the table
+ as data center resistance grows.
+ New York looks set to become the first state to hit pause
+ on new data center construction after passing a one-year moratorium late last week.
+ The bill would block any new permits for data centers above 20 megawatts,
+ which is obviously very small scale for AI infrastructure.
+ State Senator Kristin Gonzalez, the lead sponsor of the bill,
+ argued that New York's constrained and aging grid can't keep up with the pace of construction.
+ Almost 10 gigawatts of new facilities are currently seeking approval.
+ Next up, we wait to see whether New York Governor Kathy Hocho will actually sign this one.
+ The city of Seattle followed suit on Tuesday,
+ with city council unanimously approving a one-year ban on new data centers as well.
+ The proposal came after the Seattle Times reported that five proposed data centers
+ could consume up to a third of the city's electricity.
+ Interestingly, the opposition in this case was driven by tech workers themselves,
+ with groups including Amazon employees for climate justice,
+ mounting a letter writing campaign.
+ The reasoning was a little garbled,
+ with a spokesperson for Climate Group 350 Seattle claiming tech workers
+ organized against the data centers because, quote,
+ AI is synonymous with people losing their jobs.
+ The antipathy towards data centers has even reached Texas,
+ with Governor Greg Abbott calling for stronger consumer protections
+ against rising electricity costs.
+ Abbott directed state utilities to require new data centers
+ to fully fund additional infrastructure needed for their operations
+ to ensure the costs aren't passed to ratepayers.
+ In addition, Abbott unveiled a wide-ranging regulatory agenda
+ for consideration in next year's state legislative session,
+ including mandatory closed-loop cooling systems,
+ annual reporting of water and electricity use,
+ and a requirement for data centers
+ to add new electricity generation to the grid.
+ Now to be honest, if you are a person who thinks on the one hand
+ the single fastest way towards guaranteed AI inequality is data center moratoriums,
+ but on the other hand completely recognizes
+ communities not wanting to foot the bill for increased electricity costs,
+ along with dealing with other type of negative externalities of data centers,
+ then looking to a place like Texas,
+ which is a very popular destination for new data center construction,
+ to lead the way in setting standards
+ for what that construction should look like is kind of optimistic.
+ Certainly the money for data continues to flow.
+ Broadcom is getting in the data center financing game
+ with a $35 billion fund backed by Blackstone and Apollo.
+ The initial $35 billion will be used to fund
+ one gigawatt of capacity deployed at sites operated by Fluidstack
+ using Broadcom's custom AI chips and networking infrastructure.
+ The first project will be delivered to Anthropic.
+ The fund is intended to provide a stable, multi-year capital structure
+ to facilitate the long-term compute build-out.
+ The partnership is aiming to fund 20 gigawatts of capacity
+ for leading AI labs through 2028.
+ Apollo and Blackstone will serve as capital providers,
+ syndicating the fund out to their investors.
+ Broadcom and Anthropic are world-class companies
+ operating at the frontier of technological innovation,
+ and we are proud to have led the largest
+ private financing ever executed.
+ AI compute is rapidly emerging
+ as one of the most compelling new asset classes in finance
+ characterized by contracted cash flows,
+ mission-critical utility,
+ and a supply-demand dynamic that continues to intensify.
+ Won Kim, the head of corporate development
+ and infrastructure partnerships at Broadcom, commented,
+ the demand for AI compute is growing faster
+ than traditional capital markets can accommodate,
+ and this initial transaction led by Apollo
+ demonstrates what becomes possible
+ when world-class technology is paired
+ with a partner of that caliber.
+ Lastly today, despite revenue figures remaining strong,
+ huge cost overruns and an ambitious fundraising plan
+ overshadowed Oracle's solid earnings.
+ During their Wednesday night earnings call,
+ Oracle reported $16.5 billion in cat-back spend
+ for the previous quarter,
+ which brings their annual total to $55.7 billion,
+ which was above their $50 billion forecast.
+ Oracle said they planned to raise spending
+ to $70 billion for the coming fiscal year,
+ but reported costs will come in between $20 and $25 billion
+ higher due to prepayment of some components.
+ To deal with rising costs,
+ Oracle plans to raise another $40 billion in equity and debt
+ in the coming fiscal year.
+ Oracle raised $48 billion in debt and equity
+ over the past fiscal year
+ and now carries $117 billion in total debt.
+ Revenue figures remain strong with 21% growth
+ to reach $19.2 billion for the quarter.
+ Cloud infrastructure sales are growing
+ at a 93% pace, meanwhile.
+ Still investors couldn't look past
+ the pile of mounting debt
+ and the stock plummeted 11% in after-hours trading.
+ Now this is not primarily a market show,
+ but there is some interesting new discourse
+ making its way to Wall Street,
+ stuff that frankly, listeners of this show
+ would already have been hearing about
+ and it's likely we'll dive a little deeper
+ into that in the coming days.
+ For now, that is gonna do it for today's headlines.
+ Next up, the main episode.
+ One of the most important AI questions right now
+ isn't who's using AI, it's who's using it well.
+ KPMG and the University of Texas at Austin
+ just analyzed 1.4 million real workplace AI interactions
+ and found something surprising.
+ The highest impact users aren't better prompt engineers,
+ they treat AI like a reasoning partner.
+ They frame problems, guide thinking,
+ iterate and push for better answers.
+ And the good news, these behaviors are teachable at scale.
+ If you're trying to move from AI access to real capability,
+ KPMG's research on sophisticated AI collaboration
+ is worth your time.
+ Learn more at kpmg.com slash us slash sophisticated
+ that's kpmg.com slash us slash sophisticated.
+ Here's a harsh truth.
+ Your company is probably spending thousands or millions
+ of dollars on AI tools that are being massively underutilized.
+ Half of companies have AI tools,
+ but only 12% use them for business value.
+ Most employees are still using AI to summarize meeting notes.
+ If you're the one responsible for AI adoption
+ at your company, you need Section.
+ Section is a platform that helps you manage AI transformation
+ across your entire organization.
+ It coaches employees on real use cases,
+ tracks who's using AI for business impact
+ and shows you exactly where AI is and isn't creating value.
+ The result, you go from rolling out tools
+ to driving measurable AI value.
+ Your employees move from meeting summaries
+ to solving actual business problems
+ and you can prove the ROI.
+ Stop guessing if your AI investment is working.
+ Check out Section at sectionai.com.
+ That's S-E-C-T-I-O-N-A-I dot com.
+ So coding agents are basically solved at this point.
+ They're incredible at writing code.
+ But here's the thing nobody talks about.
+ Coding is maybe a quarter of an engineer's actual day.
+ The rest is stand-ups, stakeholder updates,
+ meeting prep, chasing context across six different tools.
+ And it's not just engineers.
+ Sales spends more time assembling proposals than selling.
+ Finance is manually chasing subscription requests.
+ Marketing finds out what shipped two weeks after it merged.
+ ZenCoder just launched ZenFlow Work.
+ It takes their orchestration engine,
+ the same one already powering coding agents,
+ and connects it to your daily tools.
+ JIRA, Gmail, Google Docs, Linear, Calendar, Notion.
+ It runs goal-driven workflows that actually finish.
+ Your stand-up brief is written before you sit down.
+ Review cycle coming up?
+ It pulls six months of tickets and writes the prep doc.
+ Now you might be thinking, didn't Open Claw try to do this?
+ It did, but it has come with a whole host
+ of security and functional issues,
+ which can take a huge amount of time to resolve.
+ ZenCoder took a different approach.
+ Sock 2, Type 2 certified, curated integrations,
+ tighter security perimeter.
+ Enterprise grade from day one.
+ Model agnostic and works from Slack or Telegram.
+ Try it at zenflow.free.
+ This episode of the AI Daily Brief
+ is brought to you by OutSystems,
+ a leading agendic systems platform built for the enterprise.
+ Organizations all over the world are building,
+ orchestrating, and governing agendic systems
+ on the OutSystems platform and with good reason.
+ OutSystems' open and unified platform allows teams
+ to architect, deliver, and scale
+ governed agendic systems with agility.
+ Teams of any size and technical depth
+ can use OutSystems to build, deploy,
+ and manage AI apps and agents quickly and cost-effectively
+ without compromising reliability and security.
+ WithoutSystems, you can rapidly launch ideas
+ from concept to completion.
+ It's the leading agendic systems platform
+ that is unified, agile, and enterprise proven,
+ allowing you to accelerate growth,
+ reduce operational friction,
+ and deliver real enterprise impact with AI.
+ OutSystems, build your agendic future.
+ Welcome back to the AI Daily Brief.
+ There is apparently something cursed
+ when a big AI lab launches
+ the first five edition of their big model.
+ Last August, it was GPT-5,
+ which caused intense controversy around the choice
+ to deprecate the 4.0 model,
+ not to say other questions around the performance of GPT-5,
+ but the sheer tonnage of the backlash to Fable-5
+ makes that look like nothing.
+ Indeed, it took less than 24 hours of intense response
+ for Anthropic to walk back policy changes,
+ telling Wired,
+ we made the wrong trade-off
+ and we apologize for not getting the balance right.
+ But how did we get here?
+ Why was there so much anger?
+ And why do I think that this particular issue
+ is coming to some sort of resolution?
+ It portends much bigger fights ahead.
+ Summing up the mood late in the afternoon yesterday
+ was Matt Palmer who wrote,
+ Anthropic people,
+ you've got a couple of days at most
+ to mitigate the damage being done
+ by your senior leadership and policy people.
+ The stealth, the nerfing, and data retention decisions
+ are Titanic screw-ups that pose serious risks
+ to both your technical pole position and your bags.
+ And honestly, it wasn't even just these things
+ that people were complaining about.
+ First of all, as we discussed on yesterday's show,
+ there were some pretty strict safeguards put into place
+ around things like biology.
+ Now I will fully admit that on yesterday's episode,
+ I lamented the fact that a lot of the initial response
+ to this I saw seemed to me to be coming from people
+ who were just looking for something to gripe about.
+ And yet as the course of the day went on,
+ there were more and more stories
+ showing just how overwired these guardrails were.
+ Biomedical engineer Daria Anutmaz,
+ who is by the way always given early access to models
+ and who is a huge booster of all of the labs,
+ tweeted,
+ I can't even say hello to Fable 5
+ except in incognito mode, i.e. memories off
+ because it knows I'm a biomedical researcher.
+ It would be nice not to ban biomedical scientists.
+ But I think even if it were that alone,
+ it could have been fairly easy to come
+ to some sort of resolution over a period of time.
+ The problem was that underneath that,
+ the revelation of the power to determine
+ who gets access to the tools of the new economy
+ is something that people are getting more and more unsettled with.
+ Now another issue was the data retention policy
+ that we discussed,
+ where basically enterprises would have to be okay
+ with anthropic keeping their messages,
+ even ones that they deleted for 30 days.
+ Lawyer and AI user Prins writes,
+ the 30-day retention policy is not fine at all.
+ First, it applies only to zero data retention customers,
+ i.e. those customers that have specific reasons
+ to ensure that anthropic can't see their data at all.
+ Second, anthropic employees get to see both prompts
+ and outputs quote flagged for potential serious harm
+ or add a customer's written request.
+ What is flagged for potential serious harm?
+ If I'm a lawyer representing the government
+ in a case involving allegations
+ of improperly conducted surveillance,
+ is that potential serious harm?
+ What's a customer's written request?
+ Which customers are we talking about?
+ The NSA is a customer of anthropic.
+ If my law firm were using Claude,
+ I would tell IT to lock us out of Mythos and Fable immediately
+ and transition us to another provider.
+ He continued in another tweet,
+ reasons of safety are all well and fine,
+ but enterprises will now find themselves
+ in the same position as the DoD.
+ Anthropic is asserting its right
+ to look at their private communications with Claude
+ that have quote potential for serious harm,
+ a vague phrase defined by anthropic
+ in its sole discretion.
+ I am extremely uncomfortable with this notion.
+ By the way, sympathy for the DoD was one
+ fairly widespread and pretty unexpected response to Fable 5.
+ Investor Yanda Erlich writes,
+ I feel like we all got the same treatment from anthropic
+ that the DoW got in February.
+ I this really understand the DoW reaction now.
+ Now what's more,
+ this data retention issue wasn't just theoretical.
+ It took about one hour before the Verge reported
+ that Microsoft had started restricting employees
+ from using Fable 5 and co-pilot
+ because of those data retention concerns.
+ Matt Palmer again wrote,
+ cannot think of a more disastrous set of decisions
+ to make ahead of an IPO.
+ The reaction to data policies alone
+ will show up in their revenue figures
+ to say nothing of cost control measures.
+ Okay, so we've got two things now.
+ We've got the safety classifiers in general,
+ which arena AI's Peter Gustav
+ may have had the best response to writing,
+ a year ago or so I participated
+ in Anthropic's safety testing program
+ trying to get past their safety classifiers.
+ I remember thinking, this is stupid.
+ These trigger on everything.
+ Nobody would ship a model like this to production.
+ Turns out, I was wrong.
+ So we've got that,
+ plus we've got these data retention policies,
+ which were already starting to see enterprises respond to,
+ but the biggest thing,
+ and the thing that really got everyone fired up,
+ was the new limitations
+ on how LLMs could be used for other LLM development.
+ The relevant part of the system card was this.
+ In light of the ability of recent models
+ to accelerate their own development,
+ we've implemented new interventions
+ that limit Claude's effectiveness
+ for requests targeting frontier LLM development.
+ For example, on building pre-training pipelines,
+ distributed training infrastructure,
+ or ML accelerator design.
+ Using Claude to develop competing models
+ already violates our terms of service,
+ but enforcing this restriction through our safeguards
+ avoids accelerating the actors
+ most willing to violate these terms.
+ And yet for many,
+ the worst part was in the next paragraph when they write,
+ unlike our interventions for cybersecurity,
+ biology and chemistry,
+ and distillation attempts,
+ these safeguards will not be visible to the user.
+ Fable 5 will not fall back to a different model.
+ Instead, the safeguards will limit effectiveness
+ through methods such as prompt modification,
+ steering vectors,
+ or parameter-efficient fine-tuning.
+ In other words,
+ this was to be a silent nerfing of the model.
+ Akashkup to summed up,
+ Anthropic is now silently making Claude dumber
+ for certain users on purpose,
+ and there is no way to tell when it's happening to you.
+ If your request looks like frontier LLM development,
+ Fable 5 degrades its own output through prompt modification,
+ steering vectors,
+ or parameter-efficient fine-tuning.
+ You'll never see a refusal,
+ and you never get switched to a weaker model.
+ The answers just get worse.
+ Think about what that breaks.
+ Benchmarks assume the model you tested
+ is the model you get.
+ That assumption just died for an entire category of work.
+ An ML engineer debugging a failing training run
+ can no longer distinguish the model is wrong
+ from the model was made wrong on purpose.
+ And classifiers misfire.
+ Sammy Analysis says GPU inference research
+ is already getting caught,
+ and inference optimization
+ is what every company running open models does,
+ not just frontier labs.
+ A false positive on a visible refusal is annoying.
+ A false positive on silent degradation is undetectable.
+ He concludes,
+ The strategic logic is real,
+ Anthropic has said models now accelerate
+ their own development,
+ which means that they know precisely
+ how much a frontier model compresses
+ frontier timelines.
+ Renting that compression to competitors
+ for $200 a month is a genuine cost,
+ but the precedent is the story.
+ Once silent degradation ships as a feature,
+ every eval needs an asterisk.
+ Results valid unless the lab decided
+ your use case shouldn't work.
+ Research Group Alpha XIV writes,
+ As believers of open research,
+ we are disappointed to see Anthropics
+ silently degrading Fable 5 for AI development.
+ Not only do they get to decide
+ what you use LLMs for in research,
+ but this also enables them to silently
+ intervene in your research without you knowing.
+ This sets a dangerous precedent.
+ If a model refuses openly,
+ users can understand the boundary.
+ If a model falls back to another model,
+ users can still evaluate the difference.
+ But if a model silently modifies
+ or weakens its own answers
+ while still pretending to help,
+ researchers lose the ability to know
+ whether a failed result
+ came from their own idea,
+ their implementation,
+ or an invisible intervention
+ by the model provider.
+ This is not safety.
+ Safety policies should be transparent,
+ auditable, and user-visible.
+ On top of that,
+ the people most harmed by this
+ are not the largest labs
+ with massive teams
+ and proprietary infrastructure.
+ It's the independent researchers,
+ academic groups, startups,
+ and open-source builders
+ who rely on public tools
+ to compete,
+ innovate, and pioneer AI
+ for everyone else.
+ Rohit on X writes,
+ The issue is in the existence of safeguards.
+ It is that the classifier is terrible,
+ exceedingly trigger-happy,
+ unusably so for many,
+ that it silently degrades responses
+ if it's about AI
+ and that it captures all user data.
+ These are actively bad,
+ not just a mistake.
+ There are real trade-offs in safety,
+ and this release chose none of those.
+ It basically nerfed the model
+ in the most blatant way possible,
+ taking none of the nuances into account.
+ AI safety researchers can't use it,
+ bio researchers can't use it,
+ cyber-sec researchers can't use it.
+ Even by the system card's own admission,
+ this isn't an immediately developed
+ super weapons territory,
+ which makes it even more egregious.
+ They did it because they can,
+ which invites scrutiny.
+ How can you trust Anthropic
+ to do the right thing when it counts?
+ We just had this argument
+ about their fight with the DOW,
+ that Anthropic didn't want to be
+ the final arbiter,
+ they just wanted safety.
+ This is the opposite.
+ They really do want to be
+ the final arbiter.
+ David Shapiro agrees,
+ arguing in different words
+ that this is Anthropic wanting to be
+ final arbiter
+ because of where it stands
+ vis-a-vis AI safety.
+ He writes,
+ to anyone who doesn't understand
+ why Anthropic is silently nerfing
+ AI and ML research specifically,
+ it's because they believe
+ in Yudkowsky and delusion of fume
+ whereby achieving recursive
+ self-improvement
+ means that the extinction of humanity
+ is nigh.
+ Thus they believe that hamstringing
+ their one model
+ will meaningfully slow down AI development.
+ And research fellow Tom Davidson,
+ who to be clear ultimately came
+ to the conclusion that silence sabotage
+ is a scary precedent
+ and the wrong call,
+ gave the steelman argument
+ for Anthropic's decision
+ to secretly nerf AI R&D
+ and it was about exactly
+ what the critic said it was.
+ He argued that the strongest
+ defense of Anthropic
+ was that one,
+ by far the biggest risks
+ are from superintelligent AI.
+ Two, to manage these risks
+ the leading company will need to
+ pause part way through
+ the intelligence explosion
+ because pausing allows them to
+ generate evidence of misalignment
+ that would be needed to justify
+ a longer global pause
+ as well as to use powerful AI
+ to accelerate alignment progress
+ that three,
+ a pause is much more likely
+ if the leading company has a big lead
+ and much less likely
+ if multiple companies are neck and neck
+ that four,
+ if lagging AI companies
+ can use the leader's AI
+ for AI R&D during an intelligence explosion
+ the leader cannot maintain their lead
+ and so five,
+ sharing AI R&D access
+ with competitors
+ massively decreases the chance
+ of a pause at the critical time
+ and massively increases the risk
+ from superintelligent AI
+ and six,
+ and this is a big one
+ Anthropic can't block
+ competitors using mythos
+ without the silence sabotage.
+ It's very hard Tom writes
+ for a frozen safeguard to block someone
+ that can iterate against it.
+ It sucks that this is the only way
+ but it is.
+ And this idea,
+ even if it's not fully the way
+ that Anthropic is looking at things
+ has the feel of being close enough
+ that many people are for the first
+ time grappling
+ with just how much power
+ the leading AI lab or labs
+ are going to have
+ and they don't like it.
+ MBU CTO Josh Albrecht writes
+ why stop there?
+ If Anthropic was serious about safety
+ they shouldn't just a great output quality
+ they should insert backdoors
+ exfiltrate your data
+ ban your account
+ and break your computer.
+ Wouldn't want to increase
+ existential risk
+ by letting random humans do science?
+ CMU's Graham Newbig writes
+ first they came for the model builders
+ I feel like we're getting a glimpse
+ of the future
+ where AI is only provided
+ to a privileged few
+ and that's not a future
+ I want to live in.
+ Anthropic's communications
+ did not make it any easier
+ on themselves.
+ Two things were flying around
+ that I think
+ very inarguably
+ made everything worse.
+ The first was that
+ Anthropic CEO Dario Amade
+ wrote a typically
+ massively long piece
+ called policy on the AI exponential
+ that in the context
+ of the discussion
+ that we were having
+ did not sit well with many.
+ Conn Grogan summed up
+ what many readers felt
+ when he said
+ TLDR
+ 1. Declare AI too dangerous
+ for ordinary competition
+ so you propose a regulatory regime
+ where only the largest incumbents
+ can survive.
+ 2. Warn about labor displacement
+ while selling the product
+ to executives
+ as a labor displacement tool.
+ 3. Warn about state overreach
+ while asking the state
+ to license and gate keep
+ frontier models.
+ 4. Warn about corporate
+ power while sketching a corporate
+ state cartel over compute,
+ release, security,
+ export controls, and deployment.
+ So that was one problematic document.
+ And then the second
+ was Bloomberg Originals
+ released this 47-minute deep dive
+ on the company
+ that to put it lightly
+ did not do anything
+ to decrease people's concerns
+ around the role that
+ Anthropic appear to be putting
+ themselves in vis-a-vis the world.
+ Power Bottom Dad
+ who is a market commentator
+ outside of the AI space
+ quoted Dario in the video
+ when he said
+ I'm scared of government having it
+ and added
+ Yeah, this guy thinks he should be
+ God Emperor of AI
+ sole decision maker.
+ Now the point here is of course
+ not that everyone agrees
+ with that analysis
+ but that when you take the combination
+ of the communications
+ coming out of Anthropic
+ the decisions they are making
+ around policy
+ and the inherent power
+ of their position
+ it makes this take feel
+ a lot more reasonable
+ than it might once have.
+ Finn Barron X wrote
+ as my entire feet
+ is criticizing Anthropic
+ I think that the team
+ there genuinely believes
+ what they're saying
+ it's not a marketing
+ or anti-competitive tactic
+ they genuinely believe
+ these models are dangerous
+ and that AI research
+ should be slowed down
+ GMU law professor Samuel Roman
+ retweeted that however and added
+ I think this is the true
+ and fair reading
+ of Anthropics actions
+ but the real problem
+ is that it reveals
+ a real level of hubris
+ vis-a-vis other societal actors
+ the only way
+ their decisions make logical sense
+ is if they presume
+ that they will maintain control
+ over the frontier
+ to dole out access to it
+ without pushback
+ from those other actors
+ regardless of whether you believe
+ that this disposition
+ is morally justifiable
+ there's a practical consideration
+ about maintaining control of it
+ I don't think has been thought through
+ if Anthropic genuinely establishes itself
+ as the toll booth
+ for frontier model access
+ the state is absolutely going to
+ correctly read that
+ as a direct form of competition
+ and act accordingly
+ and I'm sorry
+ but Anthropic just does not win that fight
+ this means
+ the future direction of models
+ just became much more likely
+ to be determined
+ by a small group of bureaucrats
+ via edict
+ rather than a broad societal
+ discussion and development
+ I personally trust the latter
+ much more than the former
+ hence the disappointment
+ everyone I've met at Anthropic
+ has been wonderful and well-intentioned
+ but there's a degree of myopic focus
+ on the mission
+ that I think often ends up
+ blinding them to the fact
+ that these are not
+ single-player games
+ mostly there was just a lot of frustration
+ Neckon X writes
+ the actual audacity
+ Anthropic absorbed the collective intelligence
+ of the world
+ and is now trying to create
+ a class system
+ where that very intelligence
+ is gate kept from anyone
+ and everyone
+ who they deem is not worthy
+ Bubble Boy writes
+ everybody is scared of Chinese models
+ because it won't let you
+ criticize the CCP
+ while Anthropic won't let me
+ use their models for life-saving
+ medical research
+ who's the real villain again
+ summing it up
+ Bayes-Lord writes
+ if future human actions
+ will be largely taken
+ via AI models
+ we need to seriously consider
+ what it means for AI labs
+ to arbitrarily control
+ what people are
+ and aren't allowed to do
+ and this is what I mean when I say
+ hold aside the specific decisions
+ that Anthropic is making
+ hold aside the specific communications
+ that may or may not
+ make those decisions worse
+ there is an inherent
+ power in their position
+ that people are finally coming around to
+ that potentially
+ gives them far more power over people
+ than any private corporation
+ has ever had
+ now back to the change
+ in specific policy
+ like I said
+ it took less than 24 hours
+ for Anthropic to walk back the policy
+ around nerfing LLM research
+ in a statement to Wired Anthropic said
+ we're changing fable 5 safeguards
+ for frontier LLM development
+ to make them visible
+ we made the wrong trade-off
+ and we apologize for not getting
+ the balance right
+ basically now fable safeguards
+ for AI development will be visible
+ as Wired puts it
+ if the company suspects a user
+ is trying to use Claude
+ to build a highly capable AI
+ it will alert them
+ that it's either refusing the request
+ or rerouting the user
+ to a less capable model
+ AI policy expert Dean Ball writes
+ this resolves the central concern
+ I had with the fable release
+ which was the silent degradation
+ I'm glad to see Anthropic
+ make the right call here
+ that said
+ I suspect the residual
+ broken trust and resentment
+ this has created will linger
+ and have a blast radius
+ wider than Anthropic
+ hugging faces Arthur Zucker writes
+ Dear Anthropic
+ you broke our trust
+ and I don't think
+ you'll ever get it back
+ my tokens will no longer fly your way
+ David Kramer makes another good point
+ even if you don't have an ethical
+ or moral stance
+ on the limitations of Anthropics models
+ there's a practical business one
+ I will avoid Anthropic models
+ because they keep imposing
+ more limits on the products I can build
+ I'm not going to build
+ on a completely walled off ecosystem
+ now as we wrap
+ one part of this story
+ is about the implications for Anthropic
+ factory CEO Matan Grinberg writes
+ Anthropics speed run
+ to becoming the bad guys
+ should be studied
+ and truly
+ from an unassailable position
+ just a few months ago
+ to where they are now
+ is quite wild
+ for what my advice is worth
+ now that this particular
+ LLM research policy is resolved
+ I would be looking very quickly
+ into that enterprise data retention policy
+ because there are a heck of a lot of users
+ the users in fact
+ who have made Anthropic
+ the juggernaut that it is
+ who cynically might not care at all
+ about the LLM research question
+ but you better believe
+ aren't going to stick around
+ if their corporate data
+ is subject to Anthropics whims
+ when it comes to competition
+ and next moves
+ the ball is clearly an open AI's court
+ although it's not clear
+ exactly what step they'll take
+ the information reported
+ on a Sam Altman slack message
+ that many people took as indicating
+ that their next AI model release 5.6
+ wasn't at current state
+ up to fable standards
+ The Wall Street Journal
+ meanwhile last night
+ reported that open AI is considering
+ significant price cuts on their tokens
+ which could create a pricing war
+ with fairly significant impacts
+ for this whole industry
+ although at this point
+ it's just a report
+ and clearly just one of many things
+ being discussed
+ ultimately if you are looking for
+ the positive side of this
+ it's a whole lot of folks
+ waking up to the stakes
+ of the role of the labs in society
+ hugging faces claim to Langrout
+ concentration of power
+ capabilities and economic wealth
+ is the biggest risk in AI
+ we need open science
+ and open source more than ever
+ I think the fallout from everything
+ that has happened right now
+ is just like the fallout after GPT-5
+ going to cast a long shadow
+ on the next stage of development
+ and I will of course be here
+ to follow along as it happens
+ for now however
+ that's going to do it for today's
+ AI Daily Brief
+ I appreciate you listening or watching
+ as always
+ and until next time
+ peace
