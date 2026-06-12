@@ -1,0 +1,433 @@
+ Today on the AI Daily Brief, the shift from token-maxing to token panic happened so quickly,
+ I'm going to explain why things are a lot different than a lot of the charts and analysis
+ running around would make you think.
+ Before that in the headlines, a preview of the upcoming SpaceX IPO.
+ The AI Daily Brief is a daily podcast and video about the most important news and
+ discussions in AI.
+ Alright friends, quick announcements before we dive in.
+ First of all, thank you to today's sponsors, KPMG, Section, Zencoder, and OutSystems.
+ To get an ad-free version of the show, go to patreon.com.ai-dailybrief or you can subscribe
+ in Apple Podcasts.
+ If you want to learn more about sponsoring the show, send us a note at sponsors.ai-dailybrief.ai
+ or you can check out the new ai-dailybrief.ai-slash sponsors.
+ By the way, one of the things that we have now on the new AI Daily Brief site, in
+ addition to every episode having a whole page that organizes it into easy-to-share
+ chunks, is a sponsors page where you can go see all of the offers we've shared, like
+ for example getting a free month of Bolt Pro.
+ You can find all of that at aidailybrief.ai-slash-sponsors.
+ And while you're there, check out the rest, send me ideas, we're going to be adding
+ a lot here.
+ For now though, let's talk about the first big AI IPO of the year.
+ We have a bit of an exciting Friday today.
+ After months of anticipation, SpaceX is conducting the largest IPO in history.
+ Now this has been one of the most hyped up events in markets for a very long time.
+ Investment banks have been battling it out for institutional sales and the retail frenzy
+ is already off the charts.
+ As of close of trading on Thursday, Bloomberg reports that retail investors submitted more
+ than $100 billion in orders.
+ Yes, that is billion with a B. Now, SpaceX was only selling $75 billion worth of stock
+ and reportedly reduced the retail allocation from 30% to 20%.
+ That means the retail allocation was almost 7x oversubscribed and would have been enough
+ to fill the entire IPO by itself.
+ The sale was priced at $135 per share, a flat price set by SpaceX earlier in the process.
+ That pricing implies a valuation just shy of $1.8 billion, meaning the company will
+ debut as the 7th largest company in the world, ahead of Saudi Aramco, Tesla, and Meta.
+ Some anticipate the flat pricing will increase day one volatility as there was no price
+ discovery mechanism in the IPO process.
+ Much of the commentary has already declared this a retail bloodbath waiting to happen,
+ and possibly an obvious market top for the AI Bull Run.
+ A rare opinion piece for Reuters declared, there's a serious risk that investors piling
+ into the world's largest IPO will get burned, especially the retail crowd.
+ The analysis focused on the relative lack of revenue for a company of this size.
+ Their 2025 financials showed a $5 billion loss on $18.7 billion in revenue.
+ In contrast, Meta delivered $200 billion in revenue last year, and even a Tesla
+ that isn't at the top of its game managed $95 billion.
+ Even after SpaceX signed mega data center deals with Anthropic and Google over the past month,
+ they're well short of revenue numbers that put them up alongside those other companies.
+ There also has been criticism around the way the company was marketed,
+ with Goldman Sachs simultaneously conducting the IPO and providing wildly bullish research analysis.
+ In a report last week, they forecast that SpaceX could hit $474 billion in revenue by 2030,
+ with their AI division growing a hundredfold.
+ To sum, this was less about plausibility and more about an analyst with a clear incentive
+ forecasting a bajillion dollars in revenue.
+ There is also the sideshow of Elon Musk on the verge of becoming the world's first trillionaire.
+ Based on Bloomberg's net worth calculations, Elon was worth just shy of $700 billion last month,
+ with more than 60% of his wealth tied up in SpaceX.
+ The IPO pricing would bring his net worth to $971 billion,
+ so any significant pop would push him over the line.
+ Now, many expect the IPO to be a bit of a circus,
+ but one of the big questions is what will the implications be for the anthropic and open AI
+ IPOs to come?
+ Some are seeing this as the first chance the US market has to price an AI model company,
+ meaning that if SpaceX does well, it could imply even greater valuations for the frontier labs.
+ Then again, there's also the potential with that line of thinking that SpaceX puts in the
+ market top, theoretically making it more difficult for open AI and anthropic to
+ get their IPOs at the door at a premium valuation.
+ I tend to disagree with this as the right way to look at things.
+ Two big reasons why.
+ The first is the simple one.
+ You can't really apply anything around Elon Musk to anyone else.
+ Love him or love them, he kind of operates in his own vortex,
+ and I don't necessarily think that people are going to read this as a referendum on AI models
+ as much as a pricing on the Elon market halo.
+ Secondly, though, I don't think that anyone is really looking at this as an AI model company.
+ I think that the 11th hour shift to SpaceX as a neocloud totally changes the narrative
+ equation. First of all, it adds a whole bunch of billions to their revenue stream that look a
+ lot more durable and interesting. And second, it makes their whole push to get data centers in
+ space look a lot more aligned and frankly plausible. So yes, I do think that for some,
+ the IPO will be AI related, but it's not going to be about models.
+ It's going to be about the infrastructure build out with a very heavy dose of Elon on top.
+ Now, as I recorded is still early, so markets are yet to open in New York.
+ I will, of course, provide full coverage of whatever is important about the craziness to ensue
+ on Monday's show. I think, though, if you're trying to look for a single take that avoids the
+ hyperbole from either side, economist Peter Atwater kind of nailed it when he said,
+ SpaceX has created an idiot moment for investors. Buy it and it goes down. You are an idiot.
+ Don't buy it and it goes up. You were an idiot.
+ Now, speaking of very high net worth dudes, Jeff Bezos AI startup Prometheus has closed
+ their latest round of funding valuing the company at a measly $41 billion.
+ The round raised $12 billion with participation from JP Morgan, Goldman Sachs, BlackRock and Bezos
+ himself. Prometheus aims to build what they're calling an artificial general engineer, an AI system
+ that can design and manufacture anything, including complex equipment such as jet engines.
+ The company has already staffed up hiring 150 people across offices in San Francisco,
+ London and Zurich. In an interview, Bezos said the goal was to quote,
+ empower engineers to make an invention easier and faster,
+ so smaller teams can do much bigger things on much shorter time cycles.
+ Asks about fears of an AI jobs apocalypse, Bezos dismissed the premise.
+ He believes that AI will instead produce a labor shortage because quote,
+ even though you're shrinking the number of people needed by 10x, AI will create 10x more
+ opportunities. Bezos added, there's going to be two earner income households where one
+ earner drops out of the labor pool because there's going to be so much productivity.
+ Alongside their plans to produce AI that can accelerate the entire pipeline for physical
+ manufacturing, Prometheus is also looking at starting a fund for industrial buyouts.
+ Now there is no new news on this front, but in March the Wall Street Journal reported on
+ talks to raise $100 billion. The fund would essentially take the private equity roll-up
+ model and apply it to the manufacturing sector using Prometheus' proprietary technology to
+ improve productivity. All in all, Bezos dismissed the growing pessimism around AI,
+ claiming that view is the quote opposite of reality.
+ All societal wealth is driven by invention, he said.
+ 6,000 years ago, somebody invented the plow and we all got wealthier.
+ Then much later, somebody invented the steam engine and we all got wealthier.
+ What Prometheus seeks to do is to offer a set of tools that dramatically accelerates
+ that invention loop. Now for most people, what's interesting is the physical aspect of
+ this. As Chubby points out, the problem is that the physical economy can't be scraped.
+ There's no internet of manufacturing data to train on, which is exactly why the reported
+ $100 billion vehicle to buy up legacy industrial companies is interesting.
+ You don't find that data, you acquire the factories that generate it.
+ Or as Dr. Singularity put it, this is how the acceleration escapes the screen and enters atoms.
+ Next up, one brutal one, Meta has completed an operational split with Manus in compliance
+ with orders from Chinese officials. Bloomberg reports that Meta has firewalled
+ operations between the two companies. Manus staff are no longer able to access Meta's
+ data systems and Meta staff can no longer use Manus' tools for internal work.
+ Now by way of recap, Manus was one of Meta's flagship acquisitions as they reset their AI
+ strategy coming into the year. They paid $2 billion for the company just as 2025 turned
+ into 2026. In March however, the Chinese government opened an investigation into the deal
+ and later barred Manus founders from leaving the country. Manus had attempted to circumvent
+ Chinese tech export controls by first relocating operations to Singapore before
+ courting the acquisition. In April, Beijing ordered the deal to be unwound despite the work
+ around. This now leaves Manus in a difficult situation to say the least. Sources said the
+ company is attempting to raise a billion dollars to fund a buyback, but it's unclear if there are
+ any takers. And while the product has seen updates since the separation was ordered,
+ there is a heck of a lot less attention on Manus since the rise of open source
+ harnesses like Open Claw and Hermes and just in general the agentic push of the
+ core harnesses like Claude Code and Codex. In China, the unwinding of the Manus deal
+ has cast an absolutely chilling effect. Manus' strategy of decamping to Singapore before
+ seeking foreign capital was a very common approach, which some even called the red-chip
+ corporate structure. With Beijing cracking down on Manus, the Chinese tech industry has
+ received the message that those times are over. The Financial Times reports that
+ numerous prominent startups are looking to unwind their foreign corporate structures to
+ reincorporate in China. Stepfun has completed the process in anticipation of a Hong Kong
+ IPO, while Kimmy Creator Moonshot, as well as Kling, are considering doing the same.
+ Eugene Wang, an attorney at Shanghai-based Wintel & Co., said,
+ whether to dismantle the red-chip structure is no longer in question. The key is how to
+ complete the restructuring as cheaply and efficiently as possible.
+ Unsurprisingly, the AI industry is a particular focus.
+ Reports claim that Chinese officials are now seizing passports from key researchers
+ and executives at private firms, which was previously beyond the pale.
+ Both capital and talent are facing a major crackdown as Beijing seeks
+ to secure the strategically important industry.
+ Now over in chipland, backlogs at TSMC are driving Google to consider Samsung for parts
+ of their next-generation chips. The information reports that Google is evaluating
+ Samsung's 2-nanometer process for some components of their 10th-generation TPUs,
+ codenamed Icefish. Until now, Google has exclusively used TSMC for the full manufacturing
+ process. However, the Taiwanese chipmaker has a years-long wait list and expects
+ they won't have the capacity to meet demand for quite some time. Customers then are beginning to
+ look elsewhere. Earlier this week, it was reported that Google had placed orders with Intel for their
+ 2028 production run. Google will still be using TSMC to produce the actual processors,
+ but Intel will provide advanced packaging services to mate the processor to networking
+ circuits. Storses said that Google could turn to Samsung for the memory input-output dye,
+ which marries the processor to memory chips. Basically, what's emerging is a complex supply
+ chain, where TSMC just produces the processor which requires the most advanced fabs.
+ Other companies, including Samsung and Intel, are increasingly producing less sensitive components.
+ Now, similar to the Intel news from earlier in the week, this doesn't appear to be a case of
+ people being dissatisfied with TSMC's quality. It is simply the case that long wait times are
+ forcing chipmakers to look elsewhere to keep up with demand. Meanwhile, private equity companies
+ continue to pile into data center investments as KKR and NVIDIA announce a $10 billion construction
+ company. The new company is called Helix Digital Infrastructure and will feature private equity
+ giant KKR and Kuwait Sovereign Wealth as capital partners. NVIDIA will participate in the venture
+ through the deployment of their chips and related infrastructure, and power company Vistra is attached
+ to provide energy. Helix said they have $10 billion in committed capital and have disclosed
+ that they will be a wholly owned subsidiary of KKR. Adam Salipsky, the former CEO of AWS,
+ is attached to lead the new venture. In a LinkedIn post he commented,
+ data center's power and connectivity have all too often been built on separate tracks
+ that fragmentation has become an industry wide bottleneck. This is slowing down the benefits
+ of AI worldwide. Now, this is one of several similar deals in recent months, with Broadcom
+ announcing a similar tie up with Apollo and Blackstone earlier this week. At the same time,
+ real estate firm JLL reports that almost half of data center projects around the country are
+ being delayed. So is it the case that increasingly bringing chipmakers, utilities and capital
+ providers together in a single vehicle will reveal itself to be the best way to ensure
+ that all the components come together for a successful project? With Helix we have another
+ chance to see. Finally today, Goldman Sachs believes everyone is underestimating the AI
+ infrastructure boom by a fairly wide margin. Now you wouldn't think most people would call
+ the current forecast for AI capex spend conservative, but that's exactly what Goldman
+ strategists led by Ryan Hammond have done this week. The median Wall Street analyst
+ believes the AI industry will deploy $920 billion to build AI data centers next year,
+ rising from around $800 billion for this year. According to Hammond's team, those are rookie
+ numbers. In a research note they wrote, consensus 2027 hyperscaler capex estimates are too conservative.
+ Their team now expects $1.1 trillion in AI spending for 2027 as a baseline scenario
+ and $1.4 trillion in a bullish scenario. Now their key assumption is that AI demand
+ is still in the opening innings. They expect to see token consumption increase 24x through
+ 2030 driven by the widespread deployment of agents. Analysts wrote, higher input costs also put
+ upward pressure on the nominal dollars of capex required to support a given amount of token
+ consumption. In other words, excessive demand will keep the pressure on supply chains driving
+ build-out costs even higher. Now you might be thinking that's a pretty bold claim in a
+ week where many on Wall Street are focused on a corporate push to reign in token budgets,
+ but Goldman believes that's just noise, with the signal being the expanding order
+ books for the hyperscalers. Now as you will see very soon, I am firmly in the Goldman camp on this
+ one, and there is in fact one specific new narrative on Wall Street that I would very much like to take
+ on now. One of the most important AI questions right now isn't who's using AI, it's who's
+ using it well. KPMG and the University of Texas at Austin just analyzed 1.4 million real
+ workplace AI interactions and found something surprising. The highest impact users aren't
+ better prompt engineers, they treat AI like a reasoning partner. They frame problems,
+ guide thinking, iterate, and push for better answers. And the good news, these behaviors are
+ teachable at scale. If you're trying to move from AI access to real capability,
+ KPMG's research on sophisticated AI collaboration is worth your time.
+ Here's a harsh truth. Your company is probably spending thousands or millions of dollars on AI tools
+ that are being massively underutilized. Half of companies have AI tools, but only 12% use them
+ for business value. Most employees are still using AI to summarize meeting notes. If you're
+ the one responsible for AI adoption at your company, you need Section. Section is a platform
+ that helps you manage AI transformation across your entire organization. It coaches employees
+ on real use cases, tracks who's using AI for business impact, and shows you exactly where AI
+ is and isn't creating value. The result, you go from rolling out tools to driving measurable AI
+ value. Your employees move from meeting summaries to solving actual business problems,
+ and you can prove the ROI. Stop guessing if your AI investment is working. Check out
+ section at sectionai.com. That's s-e-c-t-i-o-n-a-i dot com.
+ So, coding agents are basically solved at this point. They're incredible at writing code.
+ But here's the thing nobody talks about. Coding is maybe a quarter of an engineer's
+ actual day. The rest is stand-ups, stakeholder updates, meeting prep,
+ chasing context across six different tools. And it's not just engineers.
+ Sales spends more time assembling proposals than selling. Finance is manually chasing
+ subscription requests. Marketing finds out what shipped two weeks after it merged.
+ Zen coder just launched Zenflow work. It takes their orchestration engine,
+ the same one already powering coding agents, and connects it to your daily tools.
+ Jira, Gmail, Google Docs, Linear, Calendar, Notion. It runs goal-driven workflows that
+ actually finish. Your stand-up brief is written before you sit down. Review cycle
+ coming up? It pulls six months of tickets and writes the prep doc.
+ Now, you might be thinking, didn't Open Claw try to do this? It did, but it has come with a
+ whole host of security and functional issues which can take a huge amount of time to resolve.
+ Zen coder took a different approach. Sock 2, type 2 certified, curated integrations,
+ tighter security perimeter. Enterprise grade from day one. Model agnostic and works from Slack or
+ Telegram. Try it at zenflow.free. This episode of the AI Daily Brief is brought to you by
+ OutSystems, a leading agendic systems platform built for the enterprise.
+ Organizations all over the world are building, orchestrating, and governing
+ agendic systems on the OutSystems platform and with good reason.
+ OutSystems open and unified platform allows teams to architect, deliver, and scale
+ governed agendic systems with agility. Teams of any size and technical depth can use
+ OutSystems to build, deploy, and manage AI apps and agents quickly and cost-effectively
+ without compromising reliability and security. With OutSystems, you can rapidly launch ideas
+ from concept to completion. It's the leading agendic systems platform that is unified,
+ agile, and enterprise proven, allowing you to accelerate growth, reduce operational friction,
+ and deliver real enterprise impact with AI. OutSystems, build your agendic future.
+ Welcome back to the AI Daily Brief. Oh, friends, it's my favorite time of year.
+ It's that time when some new set of numbers, or in this case, chart,
+ inflame everyone on Wall Street to go into an absolute frenzy with their AI counternarratives,
+ proving to themselves finally that this time they're right and the bubble is about to burst.
+ Yes, the speed at which the investors have gone from token maxing to token panic is headspinning.
+ And yet, the chart in question, this chart, the Silicon Data LLM Token Expenditure Index,
+ as shared by Citadel Securities, shockingly, and I just mean shockingly, doesn't say
+ what everyone on social media is saying it says. In this episode, I'm going to explain why
+ this chart, which shows a big scary downward line on something called the Token Expenditure Index,
+ has nothing to do with token demand, nothing to do with token volume,
+ and nothing to do with actual token expenditure, which is not to say that there is an interesting
+ signal there. It's just not the signal that Wall Street is trying to look for.
+ And why this matters to you, even if you are not an investor, is that the story that it is
+ telling is part of the shift from the token subsidy era to the token scarcity era that
+ we've been tracking, and does have some interesting implications for how we all built.
+ All right, so let's talk about where this chart started to come online.
+ It is obviously not coming into a vacuum. If you've been listening closely over the last
+ couple of weeks, you've seen the professional investor class really start to take notice
+ of headlines like this one about Walmart capping usage of their internal AI tool because there
+ was too much demand, or even more of Uber setting spending caps after it blew through
+ its token budget in the first four months of the year. This is the natural follow up to
+ that. And in this context, Citadel just published a research note called tokenomics.
+ The primary chart that it shares is the one that I just mentioned before,
+ the Silicon Data LLM token expenditure index, with that big scary downward line.
+ This of course led to the perhaps expected onslaught of social media commentators
+ implying that this was somehow some very scary and big deal.
+ Failed crypto founder Mo Shake writes,
+ Citadel is one of the most significant hedge funds and they just dropped tokenomics,
+ and it's not what you would have expected. That's scary sentiment of course when viral
+ getting over a half million views. There were also endless AI slot posts like this one,
+ from Thierry from RV, who wrote Citadel securities just put institutional weight
+ behind what the AI bulls won't say out loud. When one of the most sophisticated
+ trading firms on earth starts writing about AI in the language of cost curves and rationing
+ instead of limitless demand, the conversation is quietly changed.
+ The hype was about what AI could do. The reckoning is about what it costs.
+ Now by the way, if you're asking me why I say that's an AI slot post,
+ I would point you over to another Twitter post this time from Nicholas Mugali,
+ talking about a related topic OpenAI's plan to cut token prices,
+ that oh weirdly ends with the same line. The hype was what AI could do. The reckoning is what
+ it costs. And then of course we have ZeroHedge, who had been nearly quivering with excitement
+ over a new doom narrative to pedal. Token prices down six days in a row,
+ longest streak since January. Make that seven days. Token price index slide back to mid-January
+ levels, fading much of the agentic frenzy of the past three months. Of course they made
+ their point explicit with a blog post called Tokenomics Equals Panic, and unfortunately it's
+ not just the ZeroHedges. RealVision's Andreas Steno-Larsen writes,
+ this is the chart that everyone should be watching. If the token pricing rolls over,
+ everything from the memory trade to the broader hardware and data center trade is
+ over for this cycle in my humble opinion. The whole setup depends on this.
+ Now as you might be able to tell by now, I am absolutely allergic to this sort of pattern
+ of discourse. When I see the whole setup depends on this dot dot dot, or someone
+ loudly proclaiming something that is so obviously counter to the experience that everyone is having,
+ suggesting that somehow the agentic frenzy of the past three months has now returned to
+ some pre-agentic state, I immediately start to ask, what's actually going on here?
+ What is the chart actually trying to say? Did Citadel securities who have been held up as
+ evidence of all of this actually even make any of the arguments that people are crediting to
+ them? So let's talk about this chart first. As I think it's clear from those posts,
+ the implication that people are trying to suggest is some combination of demand for tokens
+ going down, volume of tokens going down, or, and this I guess is reasonable given that it's called
+ the token expenditure index, the total expenditure on tokens going down. But that, it turns out,
+ is not what this chart is actually trying to measure. And I can prove that to you by going
+ to Silicon Data themselves, who took to Twitter to clarify. They write, our LLM token expenditure
+ index should really have been named the token expenditure price index, because it's an
+ expenditure or usage weighted average token price index. It tells you how much currently the
+ entire market AI is paying for a million LLM tokens, irrespective of models. The naming might have
+ led to some misinterpretations, as some seem to have interpreted the index as either the
+ total volume of tokens used or the average price of tokens. In reality, the index captures
+ something much more subtle than either interpretation. It tells us the marginal willingness to pay
+ for LLM models. Now, much credit to them for trying to clarify, even though the more dramatic
+ assumptions would get their name out there more, although I even disagree with what they
+ say their chart is saying, as I'll come to in a moment. But the specific and important note
+ is that what this chart is measuring has nothing to do with demand, or total volume,
+ or total expenditure. What this measures is the average amount the market is paying
+ right now for a million tokens. What this chart is actually saying, and this line decrease,
+ is that in mid June, the average price that the market was paying in practice for a million
+ tokens had gone down from the peak at the beginning of June and was back at the level
+ that it was paying around the beginning of May. Let me say that again. The average cost
+ of a million tokens that buyers were paying in mid June had gone down from a peak of what
+ they were paying for a million tokens at the beginning of June and was around what they were
+ paying for a million tokens at the beginning of May. Now, as we'll discuss, there is some
+ interesting signal there. But what it's not is signal, again, on anything related to total
+ demand for tokens, total volume of tokens consumed, or total expenditure on tokens.
+ It's just about the average price paid for a million tokens. Now, here's where I disagree
+ with their assessment. They say it tells us the marginal willingness to pay for LLM models.
+ The idea being that if you see the average price paid for a million tokens go down,
+ it means that some portion of the market is necessarily shifting their buying behavior
+ from the most expensive basket of tokens to lower cost options. And I think that that's
+ partially true, or at least that could be one interpretation of what this data is saying.
+ It could also be saying, however, that the cost for tokens on offer from the frontier have
+ gone down. Now, we know that that's not the case in this period, but as we'll discuss that might be
+ something that happens coming up soon. And more importantly, certainly for any listeners of
+ the AI Daily Brief, it will come as no surprise that companies appear to be looking for lower
+ cost token options. As I have loudly said on this show and elsewhere, I think every AI company
+ is now in the token efficiency business. The equation is really simple. The shift from
+ assisted to agentic use cases radically increases the amount of AI that companies use
+ because of the real constraints of the physical world. There are only so many tokens to go around.
+ As demand starts to outpace supply, the prices that people pay get high, and companies which
+ never had to think about token efficiency or mixed basket models of some types of tokens for
+ one use case and other types of tokens for other use cases, now all of a sudden do.
+ That process is exactly what we've been tracking closely for the last couple of weeks.
+ And so in many ways, this chart just reflects exactly what we've been talking about.
+ The reason, however, that I think it's even a little bit less impactful than they think,
+ even when interpreted correctly. And why I don't believe that at least in full,
+ they are right to say that it tells us the marginal willingness to pay for LLM models
+ has to do with the sources of their data, or specifically the data they don't have.
+ The Silicon Data LLM Token Expenditure Index does not measure anything about the
+ average prices that people are paying directly to the major labs themselves.
+ They have no insight, in other words, into the direct customer-to-open AI relationship
+ or the direct customer-to-anthropic relationship. Now obviously on a percentage basis,
+ the vast, vast majority of token expenditure is going to be direct to those companies.
+ So what source of data could they possibly have?
+ The Silicon Data Index draws only from third party token routers.
+ Wait, you might be sitting there saying, you mean the token routers that people explicitly go to use
+ to get access to cheaper tokens? Yes, the token routers whose entire purpose in the market
+ is to route different use cases more efficiently to lower cost and better models for their particular
+ need, bringing costs down. So this chart, which is neither about total demand,
+ nor about total volume, nor about total expenditure, but just the weighted average price of a million
+ tokens, is based on data from companies whose entire purpose in the market is to provide lower
+ cost alternatives. My argument then is that this is going to greatly exaggerate actual shifts in
+ behavior away from high-cost frontier models and towards lower cost alternatives.
+ Which again is not to say that there isn't signal. I think that one could view this as a really good
+ leading indicator of where advanced AI users are oriented. In fact, I would argue that we're likely
+ to see some follow-on behavior over the course of the next six to 12 months that looks fairly
+ similar even from the companies that have their direct relationships with open AI and Anthropic.
+ But what this certainly doesn't reflect is the average experience of buyers in the market
+ right now. It just simply doesn't. And to be clear, the points that Citadel is even making in this
+ are much less bombastic than those who are screenshotting it all over X. In fact, I would
+ bet that if you go read the note, you'll probably agree with a lot of it, and a lot of it will
+ remind you of what we've been talking about here. The simplest version of the point that
+ they're trying to make is that not all AI demand looks the same anymore and increasingly will
+ be separated into different categories. They put it as a bifurcation in frontier versus everyday
+ AI usage, which sounds not dissimilar to the discussion here a couple of days ago about whether
+ consumer and normal chat GBT usage should even be considered as the same thing as work AI.
+ At no point, the Citadel argued that the implications are some cratering of demand for
+ the most expensive tokens. They write, we do not think this implies that the frontier
+ of inference intensive AI will be abandoned, only that it is likely to be concentrated
+ among a narrower set of firms with the balance sheets to absorb the compute costs,
+ the research depth to deploy it effectively, and most important, the operating domain to
+ scale the rewards from solving genuinely hard problems. Another way to put that is that they're
+ arguing that most of the most expensive AI is increasingly going to flow to the firms that
+ can use it best. But in a world of token scarcity, where there's already not enough of
+ the best AI to go around, doesn't that just sound like the market efficiently allocating the
+ most expensive AI to the people who can use it the most effectively? That's not an AI bubble
+ popping. That's an AI market rationalizing. By the way, despite the construction of that
+ statement, that was absolutely not written by an LLM, it just came out of my mouth.
+ But maybe I'm spending a little bit too much time with the LLMs if now I'm talking like that.
+ Now there's another really important part of this discussion, as people have been talking
+ about all of these caps being set. One of the things that gets lost in the discourse
+ is that those are the very most advanced firms who have already consumed sufficient AI
+ to get to the level of agentic usage where they would have to start putting caps.
+ The vast majority of companies aren't even close to that. And here's one example.
+ Finance company Ramp tracks how their customers spend money on AI. They've been tracking it
+ for quite some time now. And they note that as the share of businesses using AI approaches 100%,
+ the focus at their economics lab has started to shift to tracking the intensity of adoption.
+ They're now tracking things like spend per employee. And that spend per employee is a
+ really important number. Right now, the top 1% of firms, those who are fully AI-pilled,
+ are spending about $7,500 per employee on AI. That's a lot, right? Those are the type of
+ numbers where you're going to see firms start to really ask what the ROI of that is,
+ or start to consider caps and more efficient options. But again, that's just the top 1%.
+ When you move down to the top 10%, that number comes all the way down to $610 per month,
+ which you will note is less than half of Uber's $1,500 monthly per employee cap.
+ And the median firm in their index, right firmly in the middle of AI usage across all
+ of Ramp's customers, who by the way are going to be more tech savvy than the average business,
+ AI spend sits at $1138, not $1,138, $11.38. If we are looking at the market implications
+ of a shift in the basket of token consumption towards lower cost options, we have to contrast
+ that against total growth in token demand and total growth in token volume. In other words,
+ actual token expenditure. When the median company is still only spending $11 a person on AI,
+ the sheer amount of growth in total AI that will be consumed, it is very hard for me to imagine a
+ scenario, at least in anything in the short or medium term, where the growth in the total
+ amount of AI consumed does not massively, and I mean massively, outweigh any shift in the balance
+ away from the most expensive tokens to less expensive tokens. But differently, if every firm
+ followed Uber's example and set the cap at $1,500 per month, the total increase in the market size
+ for AI as firms go from $11.38 per employee per month to $1,500 per month is going to dwarf
+ any lost revenue on the other side because companies start to get more efficient.
+ And what about these reports that open AI is considering drastic price cuts as a
+ preemptive strike against Anthropic who they think might also cut costs in a vicious price war for
+ customers. Will that tank revenue for the whole industry? Maybe, but then you have to ask about
+ token margins. Analyst Max Weinbach wrote,
+ If open AI does drop token pricing, this is likely because they've heard from customers
+ they can't adopt AI at volume at the current pricing. Margin is high now for served tokens.
+ They could cut prices by like 60% and still be profitable in my opinion.
+ Now Max isn't coming out of nowhere. While no one knows for sure the margins except the labs
+ themselves, Weinbach has done a lot of work to get to the unit economics of API tokens,
+ and his estimates are pretty similar to a lot of the other estimates that I've seen,
+ which tend to guess something like 70% margins on API pricing for the most inference-intensive
+ tokens. So summing up, the argument is not that this token expenditure price index
+ isn't a useful signal. It's telling a similar story to the one that we've been exploring
+ here and that I think will shape the next period of especially enterprise AI.
+ But at the end of the day, all of these shifts look a lot more to me,
+ like markets doing what markets are meant to do, and figuring out how to allocate
+ scarce resources at the right price to different types of customers.
+ Look, if you take nothing else away from this, if you ever see someone end a tweet
+ with an ellipsis, run in the other direction.
+ For now, that's going to do it for today's AI Daily Brief.
+ Appreciate you listening or watching, as always, and until next time, peace.
