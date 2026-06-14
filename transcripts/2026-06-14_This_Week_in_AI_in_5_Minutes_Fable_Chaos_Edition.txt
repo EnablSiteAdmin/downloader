@@ -1,0 +1,153 @@
+ Today on the AI Daily Brief, this week in AI for terrifyingly busy people.
+ The AI Daily Brief is a daily podcast and video about the most important news and discussions
+ in AI.
+ A quick note before we get into this episode.
+ On Friday evening, as many of us were settling in with our families or watching the first
+ US game at the World Cup, the tides of power in AI shifted in a fairly fundamental way.
+ Based on a report from at the time an unnamed party which later turned out to be Amazon,
+ the US government directed Anthropic to cut off access to all foreign nationals for Fable
+ 5 and Mythos 5 in order to ensure compliance with the request.
+ Anthropic took the models down entirely for everyone.
+ There are many implications of this, not least of which is that the recommendations at
+ the end of this 5 minute recap episode to go out and try Fable 5 don't exactly work
+ at the moment.
+ Now I will be recording a full emergency episode to go out later today on Saturday, June
+ 13th.
+ However, I did still want to have this 5 minute recap as I attempt to continue to make this
+ show more accessible for an even wider audience.
+ So enjoy this partial recap of what ended up being an extraordinarily consequential week
+ in AI and I'll be back soon with the full news about the Anthropic Fable 5 shutdown.
+ Alright friends, welcome back to the AI Daily Brief.
+ Today we continue our experiment in these hyper-fast 5 minute weekly recaps.
+ I had a lot of positive response last week and for those of you who missed that,
+ the idea of these episodes is two part.
+ First, a lot of you have colleagues, friends, family who don't have time to
+ listen to a whole slew of 25 or 30 minute episodes in a week but who do want to
+ know broadly speaking the most important stuff that happened in AI, this is the
+ episode that you can send them.
+ Second, even you diehard listeners sometimes have weeks where you're just
+ busy doing, I don't know, real work or sailing around the Mediterranean or
+ something.
+ Consider these episodes for you as well.
+ Now we kick off today with the biggest story of the week which happens to
+ also be the biggest release of the week which is of course Claude's Fable 5.
+ Yes, we finally have a Mythos class model for the last couple of months ever since
+ the news of Mythos broke and was then confirmed by Anthropic.
+ Us at the pleb class have just been waiting as big institutions get to
+ check it out through Project Glasswing, eagerly anticipating the day when
+ we too would have the powers of Mythos.
+ Well, this week we got them and powers they were indeed.
+ All of the benchmarks were obviously massive but was it actually better?
+ Well, aside from the controversy which we will get to in just a minute, on
+ average I would say the vast majority of people that I saw that really dug
+ into Fable found it to be incredibly powerful and a distinct jump up from
+ what was previously available.
+ In fact, there was this clever little narrative running around
+ that we'd reached the point where AI was so advanced that unless you were
+ using it for really powerful things you wouldn't necessarily know the
+ difference.
+ Citrini Research tweeted, I think we've reached the point where normal
+ people can't really determine whether new models are better than previous ones
+ like Fable doesn't seem that much better to me but every 150 IQ person I
+ know is like wow the singularity came sooner than I thought.
+ Now I think this has a hint of truth to it in that where Fable uniquely
+ shines is super hard things but I also think that this is kind of wrong too
+ because in my experience Fable 5 is way way better for the basic
+ things as well.
+ It is in my opinion a much better strategic thinker
+ and it is also a much better first principles arguer in that it doesn't
+ cow-tow and isn't as easily manipulable by the person prompting it.
+ That makes it a much more valuable thought partner so if you are doing
+ anything with strategy even if you are not coding big unwieldy web apps
+ I think you will find a lot of benefit to Fable 5.
+ TLDR I definitely think that if you haven't yet you should go try Fable 5
+ soon.
+ In fact, by soon I mean really soon because you only have a limited time to
+ do so.
+ That's because Fable 5 was not only the biggest story and the biggest release
+ of the week but also the biggest controversy of the week.
+ Now the part that I just alluded to is that Fable 5 is only available in normal
+ plans until June 22nd.
+ After that you're going to have to pay for it through the API on a usage basis.
+ This certainly continues the trend that we've seen of companies moving to a
+ usage based model instead of a seat based model.
+ And so some of the impact of that was dampened by the fact that it wasn't
+ all that unexpected and yet when it comes to the controversy that was
+ small potatoes compared to first the fact that there were
+ incredibly stringent guardrails on the thing.
+ Biomedical engineer Daria Anutmaz wrote,
+ I can't even say hello to Fable except in incognito mode because it
+ knows I'm a biomedical researcher.
+ Fable 5 also launched with data retention policies that said that
+ they could keep conversations for 30 days in ways that basically made
+ every enterprise sit up and say I don't think so.
+ Already we saw Microsoft limit employee use of Fable 5 as they
+ figure out what the data retention policies mean for them.
+ And yet the biggest deal in the controversy was for sure the
+ secret sabotage for LLM researchers.
+ While the approach to the other guardrails around things like
+ biology and chemistry was to explicitly tell the user that it
+ was shifting them back to a previous model like opus 4-8,
+ when it came to certain types of LLM research,
+ Anthropic said that Fable 5 would nerve its responses without telling the user.
+ This led to an uproar the likes of which I've never seen,
+ ultimately leading Anthropic to walk back that policy in less than 24 hours.
+ Now it turns out that what people were really turned off by
+ wasn't just that specific policy but the realization of just how much power
+ Anthropic and frankly any of these frontier labs really has to control
+ who gets access to the tools of the next stage of the economy.
+ In fact this week I think we saw the confluence of the three great challenges
+ for AI labs, power, i.e. the inherent power they have
+ over our economic destiny, policy, in other words the choices they make in terms
+ of how they wield that power, and PR in terms of how they
+ communicate that stuff which honestly Anthropic got all three of them wrong this week.
+ Now the one other biggest story sneaking in at the very end of the week was of
+ course the SpaceX IPO. If you were watching mainstream media the
+ big thing that they wanted to talk about was Elon Musk becoming the world's
+ first trillionaire, but for us over in the AI industry what we were interested
+ in was the performance and what it might mean for future IPOs.
+ Well on the first day of trading the stock popped 19%,
+ leading all-spring global investments Robert Grundyke to say,
+ it bodes well for the market and for these other IPOs are coming that are
+ going to be quite sizable as well.
+ They clearly priced it right at least on day one it should make you optimistic
+ for the markets especially for growth stocks.
+ Now in terms of narrative to watch this week the big new one was token panic.
+ We've gone from token maxing to token panic in a whiplash inducingly short
+ period of time. The specific idea of token panic and one that I think you're
+ going to see coming up a lot more is the negative market consequences of
+ companies starting to put caps on the amount of AI that their employees can consume.
+ Uber was the first example of this but just as I was recording this it broke that
+ meta was going to be putting those caps on as well.
+ This was given voice in a specific research note by Citadel securities
+ although as I explained in my Friday episode what they were saying was quite
+ different than what social media said they were saying.
+ The thing you shouldn't take away from this token panic is some big idea of
+ token demand rolling over. The thing you should take away is that there's going
+ to be a lot of push for token efficiency in the foreseeable future
+ with implications for all of us.
+ So what should we be watching for next week?
+ One big thing is that the first day of trading doesn't really mean anything
+ with an IPO and when it comes to the implications for the other AI IPOs
+ I want to see what SpaceX does next week before I really start to make any
+ sort of assessments. The other big thing to watch is how Open AI responds to Fable.
+ Do we get GPT 5.6? Do we get what the Wall Street Journal reported
+ might be coming in significant price cuts? Basically the ball is in Open AI's
+ court and everyone's waiting to see what happens.
+ Lastly in terms of what you should try this weekend here are five tests for Fable 5.
+ If I were you and I hadn't played with Fable yet I would test it on
+ one strategy, some sort of big question you're pondering.
+ Two, some sort of first principles debate where you can see how well it pushes back
+ on you without being just subservient to your opinion.
+ Three and four I would test it on research and writing,
+ some tasks that actually come from your normal work experience.
+ And five, yes, I would try to find some big old coding project
+ to really see how much farther it can go in a single shot.
+ Fable 5 has certainly reignited my excitement for a number of different
+ projects because it gets much closer to completion
+ than any of the previous models before.
+ So friends that's going to do it for this week.
+ I hope you are heading into a beautiful early summer weekend,
+ watching the World Cup or binging Widow's Bay in anticipation of this week's final.
+ But for now that's going to do it for the AI Daily Brief.
+ I appreciate you listening or watching as always and until next time, peace.
