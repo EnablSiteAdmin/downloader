@@ -1,0 +1,613 @@
+ Today on the AI Daily Brief, as the work week starts without resolution, the Fable 5 Crisis continues.
+ The AI Daily Brief is a daily podcast and video about the most important news and discussions in AI.
+ Alright friends, quick announcements before we dive in.
+ First of all, thank you to today's sponsors, KPMG, Section, Assembly, and OutSystems.
+ To get an ad-free version of the show, go to patreon.com.ai-dailybrief or you can subscribe at Apple Podcasts.
+ And if you want to learn more about sponsoring the show, send us a note at sponsors.ai-dailybrief.ai.
+ Today we are picking up where we left off, in the chaotic saga of Anthropic vs. the White House around Fable 5.
+ For those just getting up to speed, on Friday night, the United States issued an export control directive
+ to suspend access to Fable 5 and Mythos 5 to any foreign nationals.
+ Given the breadth of that order, the only choice that Anthropic had in their estimation was to take the model down entirely.
+ Now the first phase in the absence of better information was stunned reactions and everyone casting about for who to blame.
+ And while there might have been some partisans for either the Anthropic side or the US government side,
+ candidly no one was looking all that great.
+ I did an emergency episode on Saturday morning, and subsequent to that we started to get a little bit more information
+ both in the form of narrative construction as well as in the form of reporting.
+ The first important post came from former AIsR David Sacks who wrote,
+ I've had a number of conversations with folks inside and outside government about the current situation with Anthropic
+ and here is what I believe to be true.
+ As we know, Anthropic publicly released its Mythos class models earlier this week under the commercial name Fable.
+ Fable is Mythos with guardrails, but if those guardrails fail, then you've exposed Mythos
+ and its advanced cyber capabilities to people who shouldn't have them.
+ Keep in mind that Anthropic itself widely promoted the idea that Mythos was a cyber weapon
+ and needed to be regulated as such.
+ They asked for government regulation of Mythos and championed the guardrails on Fable.
+ If there is a vulnerability, big or small, it is Anthropic's responsibility to patch.
+ A highly credible trusted partner of both Anthropic and the US government who was testing Fable
+ came forward with the jailbreak of these guardrails.
+ The admin asked Dario to fix the jailbreak or de-deploy the model.
+ Dario refused.
+ In their blog post, Anthropic defended its decision by saying the jailbreak isn't serious.
+ That is not what the trusted partner in the US government believe.
+ Nor is that kind of minimizing language consistent with Anthropic's brand as the AI safety company.
+ It's difficult to fathom how they could claim a jailbreak allowing operability of a cyber weapon
+ could be defined as not serious.
+ In the past, Anthropic has always said that safety must be top priority and taken super seriously.
+ In this case, Anthropic prioritized the continued offering of the consumer model over safety.
+ In reaction, the admin issued the export control.
+ The admin did this reluctantly.
+ It's been very surprised that Anthropic hasn't wanted to cooperate with a reasonable safety request,
+ i.e. fixing the jailbreak issue.
+ Anthropic's reaction is very much at odds with their branding and ethos as a safe AI research company.
+ The admin's hope now is that Anthropic remediates the safety issue, the export control is lifted,
+ and Fable goes back into general release.
+ The admin wants all of this to happen as soon as possible.
+ It is frankly bewildered that Anthropic hasn't wanted to comply with safety requests
+ that it previously said were its highest priority.
+ Finally, those trying to misdirect and tie this action to the prior DOW, Anthropic issues are wrong.
+ The admin values Anthropic's technical capabilities and feels that this issue, while serious, should be easily resolved.
+ The ball is in Anthropic's court.
+ Now, everyone saw that, everyone shared it, and everyone had something to say about it.
+ There were some who took sacks out of face value, there were many more,
+ who viewed this as an act of narrative construction more than anything else.
+ And some were just outright skeptical entirely.
+ AI entrepreneur Eric Voorhees responded,
+ The jailbreak wasn't super serious, a situation anyone who has ever received bug reports is familiar with.
+ Anthropic thought the demand to halt the model was absurd,
+ and the federal government used the opportunity to punish and humiliate Anthropic
+ for the prior sins of not bending the knee.
+ Anthropic has more credibility on such topics than Washington.
+ Now, if we take sacks post as the modern-day equivalent of a press release,
+ there are a few things worth noting.
+ First, sacks in numerous cases paints Anthropic as hypocritical,
+ not only in that they're the safety company and not taking a safety issue seriously,
+ but that they had marketed mythos weapon as a cyber weapon,
+ and then were surprised when it needed to be regulated as such.
+ Sacks paints the administration as being reluctant to kneecap Anthropic,
+ and, in my estimation, paints two ways out of the situation.
+ The first is in that second to last line.
+ The admin feels that this issue, while serious, should be easily resolved.
+ This is basically saying, the ball is in Anthropic's court.
+ In other words, Anthropic resolved this and we can move on.
+ So what's the second way out of this?
+ I don't think it should pass our notice when sacks stops talking about Anthropic
+ and starts specifically talking about Dario Amade himself.
+ The admin asked Dario to fix the jailbreaker to deploy the model.
+ Dario refused.
+ Now, so far, no calls from the administration for Dario's resignation have come,
+ although certainly that's been a subtext of some investor conversations
+ and one strand of discourse on the internet.
+ But by specifically targeting out Dario,
+ I do think sacks is at least a little bit setting him up as a potential sacrificial lamb.
+ Now, Anthropic's specific position, restated from their Friday blog post,
+ while not giving details of the specific jailbreak they said,
+ are basically arguing that the jailbreak that was shared with them
+ was specific and discreet rather than universal.
+ And universal jailbreaks are what's really important.
+ In language that was basically guaranteed to not help the situation,
+ Anthropic went out of its way to talk about perfect jailbreak resistance
+ not appearing to be possible today.
+ Still, the key thing as we try to understand what the administration saw
+ is Anthropic is basically saying that not all jailbreaks imply the same level of risk.
+ Just because one narrow jailbreak is successful doesn't mean there's the ability to remove all guardrails.
+ Think back to what these guardrails actually were.
+ They were blocking everything from basic questions about mitochondria
+ to any prompt with the word cancer.
+ If you managed to get the model to tell you that mitochondria is the powerhouse of the cell,
+ that's technically a jailbreak.
+ However, it's also completely different to being able to use the model to build a bio weapon.
+ But what about this highly credible trusted partner?
+ As I was finishing recording on Saturday morning,
+ there were the first indications of who that trusted partner was
+ with that information getting filled out throughout the day.
+ Multiple outlets reported that Amazon was the unnamed trusted partner
+ that reported the jailbreak to the U.S. government.
+ Axios reports that Amazon contacted administration officials on Thursday night to share the issue.
+ Using the precise source language reported by Axios, the report showed,
+ quote,
+ how they were able to jailbreak and access portions of Anthropic's powerful new mythos model
+ that pose a national security threat.
+ Sources said at Anthropic that they had notified the government multiple times
+ prior to the June 9th release and there were no objections.
+ However, Axios reports that senior admin officials fielded calls from at least
+ five other companies across Thursday night and Friday morning.
+ This led officials to make the decision to shut down Fable,
+ contacting Anthropic at 1 p.m. on Friday.
+ Anthropic sources said they received notice that they had 90 minutes to take down Fable
+ and mythos due to a quote,
+ national security threat.
+ But the source also said that Anthropic received no details about the nature
+ of the threat at that time.
+ At 5.30, Anthropic received formal notice that Fable and mythos would be subject
+ to export controls that barred access to all foreign nationals.
+ Around 10 p.m. Anthropic complied by taking down the two models.
+ Anthropic sources said that Dario Amade and other executives
+ spoke with the administration after that 5.30 notification.
+ According to the account provided to Axios,
+ they laid out that the jailbreak was fairly simple,
+ could be achieved with other models,
+ and did not demonstrate a flaw with Fable's guardrails.
+ Now, while Axios had mentioned the administration receiving a number of other calls,
+ at least based on the best reporting that we have so far,
+ it does seem like the decision to impose export controls
+ was based pretty much solely on the Amazon report.
+ Despite those multiple tech companies placing calls to the administration,
+ Amazon CEO Andy Jassy appears to have been the central figure.
+ The Wall Street Journal reports that the decision to shut Fable 5 down
+ was made after conversations between Jassy and key officials,
+ including Treasury Secretary Scott Besant.
+ The Amazon for their part aren't saying much,
+ with a spokesperson stating,
+ as a leading cloud provider that serves a large number of private and public sector customers,
+ it's not uncommon for governments to seek our counsel on potential security risks.
+ When they occur, we don't share details of these discussions.
+ The journal included numerous details about the contents of the report,
+ sourced to Andrew Morris, the founder of cybersecurity firm Grey Noise Intelligence.
+ Reportedly, Amazon's researchers were able to use a jailbreak
+ to make Fable discuss security bugs in at least four software platforms.
+ Morris commented that this is information that would typically be blocked by the guardrails,
+ but was, quote,
+ still a long way from dangerous cybersecurity information.
+ He noted that many other AI models can surface the same information.
+ The key difference that made Mythos a unique security risk
+ was supposedly the ability to translate these vulnerabilities into functional exploit code.
+ Now, Morris said that Amazon researchers had not presented evidence
+ that they'd been able to get Fable to produce this type of code,
+ which is blocked by the guardrails.
+ There's also suggestion that the administration
+ misinterpreted how severe the issue was,
+ writes the WSJ.
+ Jassy's calls to administration officials were viewed by some as a general warning
+ that quickly escalated into a wide commerce department ban
+ on foreign users accessing Mythos and Fable.
+ Now, Politico added further details about exactly who took part
+ in the decision-making process.
+ They wrote that Treasury Secretary Scott Besant,
+ White House Chief of Staff Suzy Wiles,
+ and White House Cyber Director Sean Cairncross
+ were the key administration figures leading the meeting where the decision was made.
+ Besant was apparently so critical to the AI policy decision
+ that he joined the meeting remotely en route to an event in Houston.
+ After the meeting, White House sources said they attempted to reach Dario Amade,
+ but were told he was unavailable because he was attending a wellness retreat.
+ There is, as we will see, a lot of contention about that particular point.
+ White House sources said that Amade called the White House at around 1 p.m.,
+ but Anthropic rejected this version of events stating it was absolutely false.
+ They noted that Amade was first requested around noon
+ and was on the phone within an hour and 15 minutes.
+ The company made other senior leaders available in the interim.
+ Once Amade was available, he participated in three phone calls
+ with around half a dozen officials.
+ In addition to Besant, Wiles, and Cairncross,
+ Commerce Secretary Howard Lutnick participated in the calls
+ together with a handful of other senior Commerce and White House staff.
+ Now, at this point it's worth noting that President Trump's name
+ hasn't been mentioned on the list of decision-makers.
+ The only mention of Trump's involvement came from the Wall Street Journal writing,
+ President Trump later signed off on the action despite reservations
+ about its hindering innovation.
+ As we will see, I think at this point,
+ President Trump himself is basically the only
+ primarily innovation-concerned actor in the White House anymore.
+ During the calls, writes Politico,
+ Amade tried to clear up what he assumed was a misunderstanding.
+ He pushed back on the administration's concerns defending the guardrails
+ and argued that the type of bypass that occurred,
+ which he believed to be specific,
+ did not pose the same risk as a broader jailbreak
+ that would allow it to be used without any of the guardrails
+ put in place by Anthropic.
+ Cairncross and Besant were reportedly unconvinced by the argument.
+ One White House official said that Amazon's findings were run past the NSA,
+ leading Cairncross and Besant to feel that they had quote-unquote proof.
+ Government officials urged Anthropic to voluntarily withdraw the model
+ and coordinate with the government to address vulnerabilities.
+ Amade reportedly requested more time and more information,
+ but refused to commit to taking down the model.
+ Besant at one stage warned Amade that he was making a bad decision.
+ In a statement quoted to Politico,
+ one senior White House official said,
+ export controls were a last resort after begging them for hours to work with us.
+ Anthropic again disputed this version of events,
+ with one source close to the company commenting,
+ the White House gave 90 minutes to take the model down,
+ with no details on the actual threat.
+ There was never any begging or asking for them to work with us,
+ just to declare a 90 minute deadline.
+ Now, three White House officials commenting on the story
+ said that Amazon wasn't the only company to raise concerns,
+ but they didn't name the others.
+ According to Politico's sources,
+ in fact, it seemed like Anthropic's attitude was a deciding factor.
+ One source commented,
+ the crux of the issue was the lack of seriousness
+ that Anthropic was applying to it.
+ Had Anthropic taken it seriously,
+ and rather than dismissing it as isolated move to fix or pause access,
+ this never would have happened.
+ One of the most important AI questions right now
+ isn't who's using AI,
+ it's who's using it well.
+ KPMG and the University of Texas at Austin
+ just analyzed 1.4 million real workplace AI interactions
+ and found something surprising.
+ The highest impact users aren't better prompt engineers,
+ they treat AI like a reasoning partner.
+ They frame problems, guide thinking,
+ iterate and push for better answers.
+ And the good news?
+ These behaviors are teachable at scale.
+ If you're trying to move from AI access to real capability,
+ KPMG's research on sophisticated AI collaboration
+ is worth your time.
+ Learn more at kpmg.com slash us slash sophisticated,
+ that's kpmg.com slash us slash sophisticated.
+ Here's a harsh truth.
+ Your company is probably spending thousands
+ or millions of dollars on AI tools
+ that are being massively underutilized.
+ Half of companies have AI tools,
+ but only 12% use them for business value.
+ Most employees are still using AI to summarize meeting notes.
+ If you're the one responsible for AI adoption at your company,
+ you need Section.
+ Section is a platform that helps you manage
+ AI transformation across your entire organization.
+ It coaches employees on real use cases,
+ tracks who's using AI for business impact
+ and shows you exactly where AI is
+ and isn't creating value.
+ The result?
+ You go from rolling out tools
+ to driving measurable AI value.
+ Your employees move from meeting summaries
+ to solving actual business problems.
+ And you can prove the ROI.
+ Stop guessing if your AI investment is working.
+ Check out Section at sectionai.com,
+ that's s-e-c-t-i-o-n-a-i.com.
+ You know Assembly AI
+ for having the most accurate streaming speech to text out there.
+ They just went a step further and launched a full voice agent API.
+ The idea is simple.
+ One connection and they handle everything.
+ The listening, the thinking, the speaking.
+ You just stream audio in and get your agent's voice response back.
+ We're talking about things like outbound sales calls
+ that actually qualify leads,
+ customer support that handles complex requests without a script,
+ scheduling agents that sound like a human assistant,
+ and you can build one in five minutes with one API.
+ And importantly, their streaming model is the best
+ at catching all the stuff that breaks on other voice agents,
+ things like phone numbers, emails, names, and medical terms.
+ And for those of you who are still in experimentation mode,
+ there are no contracts and unlimited concurrency
+ so you can actually test it out without any friction.
+ Head to assemblyai.com slash brief
+ and try the live voice agent demo right there on the site.
+ No signup needed.
+ This episode of the AI Daily Brief is brought to you by OutSystems,
+ a leading agentic systems platform built for the enterprise.
+ Organizations all over the world are building,
+ orchestrating, and governing agentic systems
+ on the OutSystems platform
+ and with good reason.
+ OutSystems open and unified platform allows teams to architect,
+ deliver, and scale governed agentic systems with agility.
+ Teams of any size and technical depth can use OutSystems
+ to build, deploy, and manage AI apps and agents quickly
+ and cost effectively without compromising reliability and security.
+ Without systems, you can rapidly launch ideas from concept to completion.
+ It's the leading agentic systems platform that is unified, agile,
+ and enterprise proven, allowing you to accelerate growth,
+ reduce operational friction, and deliver real enterprise impact with AI.
+ OutSystems, build your agentic future.
+ Now, one thing going on here
+ is clearly challenges around technical understanding.
+ Luda Securities, Katie Mazuris,
+ wrote a blog post about the specific threat
+ but effectively argued Anthropics point
+ that not only was it not a big deal,
+ but that it can't be addressed
+ without making the model worse at fixing bugs and verifying patches.
+ Software engineer Corey Ward wrote,
+ Can we stop calling an LLM finding bugs in a code base
+ that has access to a jailbreak? That's not what this is.
+ The guardrails are not intended to prevent finding or fixing bugs.
+ They're intended to prevent the model from being used
+ to identify and leverage new exploits.
+ There is no safety issue demonstrated by this example.
+ There is no evidence this is a violation of the guardrails.
+ There is nothing to suggest this is a wholesale jailbreak
+ of the safety measures.
+ There is thus nothing for Anthropic to actually resolve
+ with the behavior of the model. It is entirely down to politics.
+ AI Policy Reacher Miles Brendage wrote,
+ Sounds like some folks at the White House were unaware
+ that Fable has greater than zero cyber abilities
+ so thought something unsurprising was surprising.
+ Dario rightly thought this was a misunderstanding,
+ no one in government who knew what was going on
+ was looped in or could stop it, and people outside egged it on.
+ Part of the issue as Colin Cameron puts it,
+ lots of knowledgeable White House tech people left.
+ Pointing out who Dario participated in calls with
+ and the White House side, Colin argues
+ the White House are way out of their depth.
+ Miles Brendage again later writes,
+ There has been zero indicating that domain experts
+ at CAISI or NSA were involved,
+ all reporting points to senior White House officials.
+ And in that context,
+ what Anthropic thought was calm rational explanation
+ clearly came off as not taking the issue seriously.
+ Remember, one of Politico's White House sources said
+ the crux of the issue was the lack of seriousness
+ that Anthropic was applying to it.
+ Now, we are clearly getting two very different versions
+ of events from Friday,
+ one from the White House and one from Anthropic.
+ One detail that seems to be most at odds is
+ whether Dario was actually at a wellness retreat.
+ Tech reporter Ashley Vance gave his account,
+ writing, None of this was some weeks long back and forth.
+ I was at Anthropic's HQ on Friday
+ reporting when all this unfolded.
+ Dario is not at a wellness retreat.
+ The feds seem to be scrambling to try and make
+ an example of Anthropic again.
+ This is not technical, it's petty.
+ Later Ashley continued,
+ The feds don't like Dario on the day
+ because he won't do all their bidding.
+ And so now we've entered the Soviet style propaganda
+ where White House feeding every reporter it can find
+ with laughable claims like,
+ Dario is unreachable at a wellness retreat.
+ Come on.
+ I'd hope the US would not be self-defeating on AI
+ since it's kind of one of the last hopes the US has
+ versus China.
+ But here we are already.
+ Speaking about the wellness retreat point,
+ Jeff Café writes,
+ This seemingly minor detail included by the White House
+ is what Scott Adams would have called
+ a linguistic kill-shot.
+ A simple, sticky idea that immediately generates
+ a visual in anyone hearing the phrase.
+ Now from there, it just got weirder.
+ On Saturday afternoon,
+ we got an entirely alternate explanation
+ that it was in fact China all along.
+ Washington Insider publication,
+ Semaphore wrote,
+ The White House imposed export controls
+ on Anthropic's powerful mythos AI model partly
+ over suspicions that a China-linked group
+ had accessed it, a person familiar with
+ the matter said.
+ Now beyond that, the article came out
+ with a list of things that were
+ unclear how the White House learned of the issue,
+ which organization accessed the model,
+ and how it gained access to mythos.
+ But if the Chinese government had access to mythos,
+ it could pose national security risks to the US.
+ China could also attempt to reverse engineer
+ and copy the model in a process known as distillation.
+ An Anthropic spokesperson commented that
+ the White House didn't raise any concerns
+ about China during the discussions
+ and also noted that Anthropic models
+ are already blocked in China.
+ Ashley Vance, again,
+ said,
+ Quick, someone say it was China,
+ but it's really well sourced, right?
+ Well, there was a person familiar.
+ Adding more fuel to the fire
+ that this was actually personal and about
+ the White House's antipathy towards Pete Hegseth,
+ despite David Sack saying that it wasn't,
+ Defense Secretary Pete Hegseth tweeted,
+ Three months ago, Department of War
+ kicked Anthropic out of our building forever.
+ Every passing day proves why that was the right move.
+ And at this point,
+ I would argue that even if we find it
+ abhorrent and distasteful,
+ that policy this consequential is being made on the basis
+ of whether people with different political opinions
+ like each other are not,
+ the reality is that in this moment,
+ the world that we actually live in right now,
+ we don't have the privilege of just sitting back
+ and finding that abhorrent.
+ And nor importantly, do Anthropic.
+ Axios published a follow-up article this morning
+ called quoting an administration official
+ saying they screwed us.
+ The article was titled,
+ Personality Clashes Sent Anthropics Models Offline.
+ Axios quotes a source familiar
+ with the administration's thinking saying,
+ Anthropic has not done a great job
+ at trying to speak to the administration
+ and appreciate the ideological differences.
+ It's likely they just speak in different languages.
+ Another source from around the administration
+ argued that the admin viewed Anthropic's position
+ at the outset as no,
+ we're not going to do anything about it, this is not a real issue.
+ For some, the real politic is very obvious here.
+ Bucho Capital Blok wrote,
+ Much of the tech community is exposing themselves
+ for not understanding the absolute basics
+ of political theory.
+ The US government has a monopoly on the use of force.
+ A private citizen cannot speak
+ the way Dario speaks.
+ He will have to change his messaging or be destroyed.
+ Sir Tequeries Ben Thompson
+ wrote a long post this morning
+ called Anthropic Safety Superpower.
+ In it, he made what I believe is a salient point about this.
+ He basically said
+ that all of the things that people have been critical
+ about Fable 4 over the last week or so
+ for Anthropic simply come down to safety.
+ The change in the data retention policy,
+ the guardrails, everything was about safety.
+ Thompson writes,
+ Here's the thing about these safety justifications.
+ I think they work because to Anthropic,
+ they aren't justifications.
+ The company really believes that they are the only
+ ones who believe in superintelligence.
+ And thus are the only ones
+ who are sufficiently concerned about the dangers.
+ That excuses decision after decision,
+ policy after policy,
+ and confrontation after confrontation that
+ to people on the outside
+ looks like a bizarre combination
+ of cynicism and naivete.
+ Ben concludes,
+ I respect this alignment and I fear it.
+ I respect it because it is so clearly effective.
+ The closest analogy is probably
+ Apple, which has framed every
+ self-serving action in the guise of doing right by users,
+ and often they were.
+ So it is with Anthropic.
+ What I fear, however, is that it is one thing
+ to have people convinced they know best
+ building a smartphone that I can take or leave.
+ It's considerably more concerning to have them
+ building superintelligence that has the potential
+ to rival or exceed the power of nation states
+ or the massive corporations.
+ The history of brilliant people convinced they know
+ what humanity needs is a sordid one.
+ Precisely because they have convinced themselves
+ that their intentions are good,
+ justifying actions that very much are not.
+ I personally have seen this sort of thing
+ up close and personal before.
+ And to the extent that Ben is right,
+ I believe that any time people start convincing themselves
+ that they are the only ones who are sufficiently concerned
+ about something and the only ones who know the right remedy,
+ things tend to get very bad very quickly.
+ And as Thompson points out,
+ the implications of all that are radically amplified
+ because of the power inherent in the situation.
+ RSI Senior Fellow Adam Terrier argues
+ that when push comes to shove,
+ as interesting as it might be to debate,
+ whatever got us here the policy is disastrous.
+ Adam writes,
+ But this decision by the Trump administration
+ should not be judged on a desire for
+ payback politics, but on the merits.
+ And specifically, what it means for America's
+ broader AI objectives.
+ In that regard, this action is truly outrageous.
+ How exactly is the government planning
+ on even going about verifying everyone
+ who uses this specific model to ensure compliance?
+ That alone raises huge flags
+ between the latest executive order
+ shifting more control to NSA
+ and this recent chatter about quasi-nationalization
+ and equity stakes. And now this action.
+ We are talking about a significant escalation
+ in the politicization of AI
+ and centralization of control over advanced
+ computation in this country. And this is all being
+ done by an administration that had previously
+ made acceleration in winning the great
+ AI race a priority. We're moving
+ backwards now.
+ And a companion blog post Adam wrote,
+ A leading USAI company was forced to take
+ down a product that millions were using
+ based on non-public, unexplained concerns
+ of a few government officials. This isn't
+ the red tape risk of the FDA,
+ demanding out of the blue and without explanation
+ that everyone stopped drinking milk
+ if milk was 50% of last year's
+ stock market gains.
+ Now at the time of recording, which is right around
+ 9am Eastern time on Monday, everything
+ is still in the air. Last night
+ the Wall Street Journal reported that Anthropic
+ had dispatched a slew of senior staff to DC
+ trying to resolve the issue. Most
+ of the article was just a rehashing of everything
+ we already know, but we got a handful of names
+ of who Anthropics sent to DC. Writes the
+ Journal, Anthropics sent senior
+ technical staff to Washington including top
+ security researchers Nicholas Carlini, Logan
+ Graham, who leads the team that evaluates models
+ for risks, and David OR the company's
+ head of safeguards. They will meet with
+ security experts from the government in hopes of
+ deescalating the conflict, said people
+ familiar with the meetings. Now it's been
+ so little time that we're only just starting
+ to see a public response. On Sunday
+ a group of cyber security leaders, led by
+ former Facebook Chief Security Officer Alex
+ Stamos, published an open letter pushing on
+ the administration. Dear Secretary
+ and National Cyber Director Karen Kross, they wrote
+ we the undersigned executives and technical
+ leaders from across the United States, write
+ to you to ask you to lift the export control
+ directives on Anthropics Fable and Mythos LLMs
+ and commit to an open scientific and transparent
+ process of handling AI risk assessments
+ in the future. Their argument is basically
+ that other models are good at this stuff as well,
+ that the multiple protections that they've built in are pretty
+ good, that it's essential that researchers have
+ access to those tools so they can harden
+ their own defenses with them, and that Chinese open
+ weight models are only months behind. Now
+ this particular letter isn't necessarily getting a
+ ton of reach, but I will be watching to see whether
+ there are other sorts of responses that come
+ up around this as well. Ultimately,
+ from as far as I can tell from outside
+ the resolution to this is
+ like it or not, the resolution to this is
+ not going to primarily be technical.
+ It's going to be interpersonal.
+ Anthropic has up until now clearly
+ thought that they could simply reason with
+ the White House and make them see things as
+ Anthropic does. That is clearly not the case.
+ And whether they wanted to be in this
+ position or not, Anthropic can no longer
+ play the scrappy startup. They are
+ one of two leaders in the most consequential
+ industry certainly for the economy,
+ if not the larger world as well,
+ and they've got to play ball with the government they have,
+ not just the government they'd like.
+ Responding to news about Anthropic's
+ senior technical staff going to Washington,
+ investor Melinda Chu wrote,
+ if Dario Amade is not on the plane,
+ nothing will change. Now it is
+ highly likely by the time you are watching this
+ it'll be out of date, but of course we'll be back
+ with another update very soon. For now that's
+ going to do it for today's a Ideally Brief,
+ I appreciate you listening or watching as always,
+ and until next time, peace.
