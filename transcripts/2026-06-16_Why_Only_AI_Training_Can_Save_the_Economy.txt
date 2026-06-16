@@ -1,0 +1,774 @@
+ Hey guys, a quick note before we dive in. The episode you're about to hear was originally recorded as last weekend's Long Read Sunday.
+ Now of course everything that happened between Anthropoc and the US government and Fable being shut down on Friday night pushed that out
+ and basically we're now still waiting to see what the resolution of that should be. At the time
+ I'm recording this on Monday night, it does not appear like we're going to get a quick resolution to this.
+ Although Anthropoc is on site in DC and it sounds like meetings were had today,
+ although there hasn't been too much reporting about them yet. In the meantime,
+ I'm taking my seven-year-old daughter to a World Cup game today for which I am super excited
+ and so I am sharing with you the big thing style episode that we had originally scheduled for Sunday.
+ If some big news breaks, I will be back very soon with an update, but for now enjoy the show.
+ Today on the AI Daily Brief, we are talking about why only AI training can save the economy.
+ The AI Daily Brief is a daily podcast and video about the most important news and discussions in AI.
+ All right, friends, quick announcements before we dive in.
+ First of all, thank you to today's sponsors, KPMG, Section, Assembly and OutSystems.
+ To get an ad for your version of the show, go to patreon.com.ai-dailybrief
+ or you can subscribe on Apple Podcasts.
+ If you want to learn more about sponsoring the show, send us a note at sponsors.ai-dailybrief.ai.
+ And while you're there, check out the new site.
+ If there is any specific part of a specific episode that you want to share with someone,
+ whether it's a number or some stat or quote, there's a good chance that it
+ is now there, cut up and shareable for you, so go check it out, aidailybrief.ai.
+ Now, today we're talking about a theme which has been pretty much ever
+ present in my entire journey with AI, which I think is now more existentially
+ important not just for the AI industry, but for the economy as a whole
+ than it has ever been.
+ I'm talking about AI training, AI education, upskilling, whatever you want to call it.
+ The process by which we help people close the capability gap between what
+ AI could be doing for them and the value that they are actually getting out of it.
+ Now, this is about as bombastic a title as you're ever going to get on the AI daily
+ brief, but I'm going to try to stand on business for this one.
+ The short of the argument is that we are in a world where the relationship
+ between AI lab revenue growth and AI infrastructure buildout is the defining
+ relationship of the American economy.
+ And where in that context, we will increasingly find ourselves caught
+ between on the one hand, the AI labs need for ever increasing growth
+ in token usage, and on the other hand, increasing scrutiny and limitations
+ from enterprises.
+ My belief is that the only way to solve the two to provide both the labs
+ what they need and the enterprises what they need to keep the whole party
+ going is training.
+ So let me lay out the argument for you guys.
+ Part one of the argument is that the American economy just is the AI trade.
+ AI investment is not a sector story.
+ It is the growth story.
+ In Q1 of this year, GDP grew at 2% annualized, with AI driven
+ investment contributing about 75% of the increase.
+ AI data centers, hardware and networking hit 1.4% of US GDP in Q1
+ 2026, doubling from 0.7% and making AI infrastructure
+ the leading driver of US private investment growth.
+ Data from the St. Louis Fed suggests that AI investment accounted
+ for 39% of marginal GDP growth over the trailing four quarters,
+ which is bigger than the tech sector's 28% contribution at the peak
+ of the dot-com boom.
+ What's more, excluding these investments, growth in the first
+ half of 2025 would have been 0.1% annualized and near
+ standstill.
+ In 2026 alone, big techs AI capex spend will pass $800 billion,
+ which some like AISR David Sacks have argued could represent
+ a 2.5% GDP tailwind this year and a 3% GDP tailwind next.
+ Now this infrastructure spend isn't coming from nowhere.
+ It was justified initially by the belief in the importance
+ of AI in the future.
+ And as time goes on, it is increasingly justified by
+ specifically revenue growth from the labs.
+ That's the contract.
+ As long as token consumption keeps rising and rising fast
+ enough, the capital keeps flowing.
+ In fact, if you think about the difference between Q4 of last
+ year and the first half of this year in terms of the
+ popular market narrative.
+ Last year from about mid August all the way through
+ December, the biggest discussion on Wall Street was
+ about an AI bubble.
+ And there were all sorts of different proximate reasons
+ for that comments from Sam Altman, the MIT air quotes
+ report that said that 95% of pilots were failing, but
+ there was something much bigger underlying it.
+ That wasn't about narratives, but was instead about
+ math, specifically seat math.
+ In short, $20 to $200 a month times the number of
+ addressable seats among knowledge workers was not
+ enough revenue to justify trillions of dollars of
+ infrastructure spending.
+ The TAM of AI when AI is sold as seats just wasn't
+ going to cut it.
+ The shift, of course, is that seats have in the
+ era of viable agents, cease to be the core unit
+ that matters when it comes to AI economics.
+ The shift that we have all lived through is from
+ an assisted seat based paradigm to an
+ agentic usage based consumption paradigm per
+ person economics move from 20 to 200 bucks a
+ month to potentially thousands of dollars.
+ And the revenue evidence is clear.
+ Anthropic had this insane 80 X surge that
+ catapulted it to a $30 billion annual revenue
+ run rate, which then jumped all the way up to
+ $47 billion by late May.
+ This was driven not by all sorts of new people
+ paying for $20 or $200 a month cloud accounts, but
+ an insane amount of usage of cloud code.
+ And thenthropic wasn't the only AI company
+ experiencing this shift.
+ Open AI's revenue also jumped significantly in
+ the first quarter, aided and abetted by their
+ cloud code competitor Codex, which is their
+ vehicle for delivering agentic tokens.
+ In the beginning of the year for Anthropic, the
+ number of enterprises spending a million dollars a
+ year jumped from 500 to more than a thousand in
+ under two months.
+ But of course, this came with consequences.
+ The big theme for the last month or so on
+ this show has been the shift from the
+ token subsidy era to the token scarcity era.
+ Now, we don't know how much exactly the
+ labs have actually been subsidizing their
+ accounts, but recent estimates from
+ semi-analysis estimate that on the
+ cloud $200 a month plan, the max possible
+ spend was approximately $8,000 a month
+ worth of tokens.
+ And on the max chat GBT plan, the max
+ possible spend was up at $14,000 a month.
+ Now, even if these numbers aren't correct,
+ even if they're significantly off, you're
+ still talking about just absolutely huge
+ subsidy as the amount of AI being consumed
+ increases while those infrastructure
+ projects lag in their capacity to
+ increase the availability of AI, both
+ because of delays that they're facing,
+ but also because it just takes a long
+ time to bring that capacity online.
+ The tried and true rules of economic
+ supply and market pricing and incentive
+ start to shift.
+ The end of April, beginning of May is
+ really when we started to see this
+ happen.
+ GitHub co-pilot was one of the first
+ to announce a move to usage-based
+ billing, specifically calling out the
+ fact that agentic sessions were just
+ fundamentally different than the way
+ that they had built the previous
+ pricing model around.
+ At Google IEO, they announced a whole
+ bunch of new pricing, actually bringing
+ down the price of some of the premium
+ tiers, but also adding usage limits for
+ the first time after which you get
+ shifted over to the API, in effect
+ hiding a usage-based shift behind a
+ decrease in the base plan price.
+ One of the biggest dust-ups between
+ developers and Anthropik happened when
+ they started to shift all usage that
+ happened on third-party harnesses,
+ so basically anything outside of cloud
+ code or co-work to usage-based
+ billing as well.
+ And very quickly, the consequences started
+ to hit home on the enterprise side of
+ the equation as well.
+ We've been living through 2025
+ assisted AI budgets meeting
+ 2026 agentic AI reality.
+ Obviously Uber has been the big
+ held-up example, first making news
+ for blowing through their entire AI
+ budget in the first four months
+ and eventually moving to a
+ $1,500 a month cap per employee.
+ Other advanced AI using companies
+ like Walmart did something similar.
+ This is what led me to argue,
+ as I did on Twitter at the beginning
+ of the month, that every AI
+ business is now and for the
+ foreseeable future in some way,
+ shape or form a token efficiency
+ business.
+ And you see so many examples of
+ this.
+ One is you're seeing a lot of the
+ harness companies start to really
+ emphasize model routing.
+ In other words, a more sophisticated
+ approach to routing certain tasks
+ to cheaper lower-cost models,
+ leaving the most state-of-the-art
+ models and highest cost for only
+ the most important tasks.
+ After a factory announced a new
+ model routing feature at the
+ beginning of June, CEO Matan
+ Greenberg said that 13 million
+ had been saved so far in the
+ first 30 days of private preview.
+ Now other companies are just
+ shifting models entirely.
+ DeepSeat came in as ramp's top
+ trending SaaS vendor, as
+ companies like AI startup
+ Lindy have shifted off expensive
+ American models and towards those
+ cheaper Chinese alternatives.
+ In addition to those cheaper
+ Chinese alternatives, you're also
+ seeing a lot of companies
+ experiment with tactics like post
+ training to roll their own
+ alternatives with a specific
+ industry or functional focus.
+ Cursor's Composer 2.5 is
+ performing at Opus 47 and
+ GPT-55 type of levels at a
+ tenth of the cost.
+ And even vertical companies like
+ Harvey are experimenting with
+ more complex structures that can
+ use post-trains versions of open
+ models like Kimmy K2.6 in
+ concert with more advanced
+ models like Opus to perform both
+ at a higher level and at lower
+ cost.
+ Now all of this got us to the
+ freak out that I focused on for
+ Friday's episode, the Citadel
+ Securities note, which showed
+ the Silicon Data LLM token
+ expenditure index starting to
+ roll over and point downward.
+ Now as I explained on Friday,
+ this chart actually isn't showing
+ what people thought it was.
+ Specifically, it has nothing to
+ do with overall demand or
+ overall token volume or
+ overall token expenditure.
+ Instead, the index tracks the
+ average price that customers are
+ paying for a million tokens.
+ But because their data comes
+ entirely from third-party
+ router companies, i.e.
+ not the labs themselves, it's
+ biased towards companies that
+ are actively seeking out lower
+ cost alternatives.
+ Still, it does tell part of
+ the same story where
+ companies, especially leading
+ companies, are looking for
+ cost advantages for the first
+ time.
+ And so we get to this
+ equation.
+ What the labs need versus
+ what enterprises will pay.
+ One of the most important AI
+ questions right now isn't
+ who's using AI, it's
+ who's using it well.
+ KPMG and the University of
+ Texas at Austin just
+ analyzed 1.4 million real
+ workplace AI interactions and
+ found something surprising.
+ The highest impact users aren't
+ better prompt engineers.
+ They treat AI like a
+ reasoning partner.
+ They frame problems, guide
+ thinking, iterate and push
+ for better answers.
+ And the good news, these
+ behaviors are teachable at
+ scale.
+ If you're trying to move from AI
+ access to real capability,
+ KPMG's research on
+ sophisticated AI collaboration
+ is worth your time.
+ Learn more at
+ kpmg.com
+ slash us slash
+ sophisticated.
+ That's kpmg.com
+ slash us slash sophisticated.
+ Here's a harsh truth.
+ Your company is probably
+ spending thousands or
+ millions of dollars on AI
+ tools that are being
+ massively underutilized.
+ Half of companies have AI
+ tools, but only 12% use
+ them for business value.
+ Most employees are still using
+ AI to summarize meeting notes.
+ If you're the one responsible
+ for AI adoption at your
+ company, you need Section.
+ Section is a platform that
+ helps you manage AI
+ transformation across your
+ entire organization.
+ It coaches employees on real
+ use cases, tracks who's
+ using AI for business impact
+ and shows you exactly where
+ AI is and isn't creating
+ value.
+ The result, you go from
+ rolling out tools to driving
+ measurable AI value.
+ Your employees move from
+ meeting summaries to solving
+ actual business problems.
+ And you can prove the ROI.
+ Stop guessing if your AI
+ investment is working.
+ Check out Section at section AI.com.
+ That's S-E-C-T-I-O-N-A-I.com.
+ You know Assembly AI for
+ having the most accurate
+ streaming speech to text out
+ there, but they just want to
+ step further and launched a
+ full voice agent API.
+ The idea is simple.
+ One connection and they
+ handle everything, the
+ listening, the thinking, the
+ speaking.
+ You just stream audio in and
+ get your agent's voice
+ response back.
+ We're talking about things
+ like outbound sales
+ calls that actually qualify
+ leads, customer support that
+ handles complex requests without
+ a script, scheduling agents
+ that sound like a human
+ assistant, and you can build
+ one in five minutes with one
+ API.
+ And importantly, their
+ streaming model is the best
+ at catching all the stuff that
+ breaks on other voice agents,
+ things like phone numbers,
+ emails, names and medical
+ terms.
+ And for those of you who
+ are still in experimentation
+ mode, there are no contracts
+ and unlimited concurrency so
+ you can actually test it out
+ without any friction.
+ Head to assemblyai.com slash
+ brief and try the live voice
+ agent demo right there on
+ the site.
+ No sign up needed.
+ This episode of the A.I.
+ Daily Brief is brought to you
+ by OutSystems, a leading
+ agentic systems platform
+ built for the enterprise.
+ Organizations all over the
+ world are building,
+ orchestrating and governing
+ agentic systems on the
+ OutSystems platform and
+ with good reason.
+ OutSystems open and unified
+ platform allows teams to
+ architect, deliver and scale
+ governed agentic systems
+ with agility.
+ Teams of any size and
+ technical depth can use
+ OutSystems to build, deploy
+ and manage AI apps and
+ agents quickly and cost
+ effectively without compromising
+ reliability and security.
+ With OutSystems, you can
+ rapidly launch ideas from
+ concept to completion.
+ It's the leading agentic
+ systems platform that is
+ unified, agile and enterprise
+ proven, allowing you to
+ accelerate growth, reduce
+ operational friction and
+ deliver real enterprise
+ impact with AI.
+ OutSystems, build your
+ agentic future.
+ Now already even in their
+ private market context,
+ the relationship between the
+ lab's continued growth
+ and token consumption
+ expressed as revenue
+ and the amount of capital that
+ is available for the
+ infrastructure build out is
+ incredibly important.
+ However, when
+ anthropic and open AI IPO,
+ the intensity of the
+ public market pressure to
+ show every single quarter
+ massive and I mean massive
+ growth in token consumption
+ is hard to overstate.
+ Already we live in a world
+ where it doesn't matter
+ that Nvidia grows its
+ revenue by a significant
+ amount.
+ It has to dramatically
+ outperform market estimates
+ or else a stock price tends to
+ go down after quarterly
+ reporting.
+ That sort of phenomenon is
+ going to be even more
+ aggressive around the leading
+ labs, meaning that they
+ will have to do whatever
+ it takes to get people
+ consuming more tokens.
+ Now on the other side of
+ the equation, it's not
+ that enterprises don't want
+ to spend money on tokens.
+ It's not that they don't
+ want to get value out of AI.
+ But increasingly, if
+ the CFO set becomes the
+ most important force in
+ the decisions being made
+ around AI, there are some
+ pretty serious implications
+ for the AI company's ability
+ to achieve that never ending
+ growth that is so important
+ not just to their bottom line
+ but to our overall economy.
+ Now already, you've seen
+ the labs acknowledge that
+ their initial ideas that
+ agents were just going to
+ show up and all of a sudden
+ take over a huge portion
+ of knowledge work have
+ kind of slammed up against
+ the reality of human
+ institutional inertia.
+ Perhaps the best expression
+ of this is that over the
+ last six weeks, both open
+ AI and Anthropic have
+ launched major consulting
+ efforts focused around
+ forward deployed engineering.
+ Now, I applaud those efforts.
+ I think they're a great step,
+ but I think that they're only
+ part of the transformation
+ we're going to see in how
+ the labs think.
+ In short, there are two
+ big realizations that
+ are going to be hurtling
+ towards open AI
+ and Anthropic specifically.
+ The first is that as
+ they dig in with all
+ of their FDEs, they will
+ discover that a huge
+ portion of the value of AI
+ is not going to come
+ from a set of centrally
+ planned agents built by
+ the FDEs in concert with
+ the software engineers
+ inside enterprises.
+ Instead, the value will
+ come from many diverse
+ knowledge workers of all
+ different stripes, building
+ and using agents well.
+ There is a bottoms up agent
+ experimentation that is
+ going to absolutely be
+ required for companies
+ to get the most value out
+ of AI, and that's not
+ going to come from FDE
+ efforts alone.
+ Now, the second realization
+ before allowing ourselves
+ to be a bit more cynical
+ for a moment is that
+ even if some folks
+ inside labs don't believe
+ realization one and don't
+ think that the right
+ paradigm is every
+ knowledge worker off
+ experimenting with their
+ own agents, there's a fairly
+ decent chance that the
+ token growth pressure
+ will force them to act as
+ if that's true anyway.
+ In other words, they'll figure
+ out that they won't be able
+ to hit quarterly token
+ growth with a strategy
+ that only gives leverage
+ to a select few, and that
+ demand expansion will
+ require everyone building
+ and using agents.
+ My prediction then is
+ that over the next six
+ to 12 months, we will
+ see dramatic increases
+ in lab investment
+ in enablement training
+ and expanding the user base
+ and depth of usage.
+ Put differently, if everyone
+ copies Uber and set
+ spending limits of
+ fifteen hundred dollars
+ a month per employee, then
+ the labs have to do
+ whatever it takes to get
+ every employee spending
+ fifteen hundred dollars
+ a month and then having
+ the impact of that fifteen
+ hundred dollars be so high
+ that it makes sense
+ for the enterprises to
+ increase those limits.
+ Now, this is not going
+ to happen on its own.
+ One of the things that I
+ am most worried about
+ when it comes to enterprises
+ moving into this token
+ efficiency period is that
+ that type of thinking
+ and those types of caps
+ come with a hidden cost.
+ Caps don't just limit spend.
+ They shape what gets attempted.
+ Budget scrutiny, even
+ if completely understandable,
+ will push enterprises
+ and individuals within enterprises
+ towards basic productivity
+ type of use cases
+ and away from the big
+ unseemly experiments
+ that are required for the next
+ generation of economic value
+ to be created.
+ I call this the known ROI bias.
+ If people aren't given permission
+ and structure and sandboxes
+ and encouragement to go out
+ and see what new things
+ they could create with a fleet of agents,
+ they're just going to try to do today's work
+ a little bit faster
+ or a little bit cheaper.
+ This will not unlock
+ the full value of AI.
+ In fact, it will limit severely
+ the value that the world
+ gets out of AI
+ and perhaps more pertinently
+ for my predictions
+ for the next six to 12 months.
+ It will limit the amount of tokens
+ that the labs can sell.
+ And so we come back to this equation
+ and my argument that the single
+ and only thing that can solve
+ for the needs of both of the categories
+ of parties on either side of this equation
+ is AI training resources
+ at mass scale and high quality
+ to move people from assisted
+ to a genetic AI
+ and to help them learn
+ to use a genetic AI
+ to uncover the next generation
+ of use cases that unlock value
+ that make the input costs
+ seem negligible.
+ Unfortunately, the state of AI
+ education is abysmal.
+ It is actually just an insane market
+ failure. How little high quality
+ AI training and education
+ has come about in the last few years.
+ An EY AI survey from this year
+ found that only 28 percent
+ of organizations have managed
+ to empower AI employees
+ to utilize AI to actually change
+ any sort of business processes.
+ Data Camp did a survey
+ of more than 500 enterprise leaders
+ and found that while video courses
+ are the most common training format,
+ they produce as data camp puts it
+ awareness without confidence
+ and adoption without judgment.
+ The World Economic Forum notes
+ that the half life of skills
+ is at a critical point,
+ meaning that when it comes
+ to education, content decays
+ before a course catalog
+ can even ship.
+ And guess what?
+ Things were already tough
+ when we were just talking
+ about prompt engineering.
+ Now that we're in the world
+ of agents and agent
+ management and agent building,
+ it is massively more
+ complicated.
+ It's also incredibly more important.
+ Even if you don't agree with me
+ about the intrinsic economic
+ importance of AI training,
+ I think at this point
+ it is very hard to deny
+ that we aren't in the midst
+ of a secular shift
+ in what knowledge work consists of.
+ Simply put, we are moving
+ from a paradigm in which
+ we do things
+ to one in which increasingly
+ we oversee synthetic
+ intelligences that do those things
+ for us.
+ Prompting assisted AI
+ was a new skill,
+ but it was not a new
+ knowledge work primitive.
+ Managing agents, on the other hand,
+ is a new knowledge work primitive
+ that every single knowledge worker
+ in the future
+ will need to be skilled in.
+ This is a lot closer
+ to management training
+ than it is to software training.
+ Now, obviously, if you've been
+ watching my moves this year,
+ it's been pretty clear
+ that I'm thinking about
+ AI education and training a lot.
+ I've now released three
+ different free self-directed programs,
+ the AIDB New Year's program,
+ Claw Camp in the midst
+ of the Open Claw craze
+ and Agent OS,
+ which is sort of an updated
+ agentic operating system program
+ that takes a lot of the pieces
+ of Claw Camp and moves them
+ into the Claude Code Codex
+ type of paradigm.
+ Part of the reason why I've wanted
+ to experiment with these sort
+ of free self-directed programs
+ is that I think that the scale
+ of the need for this training
+ is mass scale.
+ There need to be more free programs.
+ There need to be more paid programs.
+ There need to be more programs
+ of every stripe in between.
+ And to be clear, there are
+ some good educational resources
+ out there.
+ AI entrepreneur and educator
+ Riley Brown
+ is constantly pumping out
+ really, really great
+ how to videos.
+ I often recommend his video
+ about learning 95 percent
+ of codex in just half an hour
+ as a great place for people
+ to start with that tool.
+ And you do have some companies
+ like AIDB sponsor section
+ who are doing their damnedest
+ to try to close the capability
+ gap, but it's just not enough.
+ And we're going to need more.
+ So what to do with this?
+ Well, for my part,
+ you'll be hearing a lot more
+ about some new initiatives
+ coming soon, particularly
+ with Super Intelligent,
+ where we're going to be in
+ some ways returning to our roots
+ quite soon.
+ And more broadly, this is just a
+ drum that I'm going to be beating
+ a lot more.
+ I think everyone has a role to
+ play in this, but I think the
+ most critical role, as you can
+ probably tell, is going to have to
+ come from the labs themselves.
+ So anthropic open AI leaders,
+ if you are listening to this,
+ whether it's now or three
+ months from now or six months
+ from now, I can almost
+ guarantee these are conversations
+ you're going to be having.
+ If you want some ideas for
+ what you can do with this
+ and how you can in the process,
+ not only help your companies,
+ but yes, save the entire
+ American economy.
+ Well, you know how to reach out.
+ For everyone else, keep being
+ the shining examples that you
+ guys are for the communities
+ that you're a part of.
+ People's sense of the
+ possible is shaped by what's
+ around them.
+ And AIDB listeners, I have
+ found over and over again,
+ are the portion of the
+ population who are helping
+ everyone else see how powerful
+ and exciting and dynamic and
+ good AI can be.
+ So keep it up and I'm here
+ to help.
+ For now, that's going to do it
+ for today's AI Daily Brief.
+ Appreciate you listening or
+ watching as always.
+ And until next time, peace.
