@@ -1,0 +1,950 @@
+ Today on the AI Daily Brief some big shifts in the AI race. Before that in
+ the headlines, the latest on Anthropics fight with Washington. The AI Daily
+ Brief is a daily podcast and video about the most important news and
+ discussions in AI.
+ All right friends quick announcements before we dive in. First of all thank
+ you to today's sponsors KPMG, robots and pencils, mission cloud and
+ out systems. To get an ad-free version of the show go to
+ patreon.com slash AI Daily Brief or you can subscribe on Apple
+ Podcasts. If you want to learn more about sponsoring the show,
+ send us a note at sponsors at aidailybrief.ai. We are back
+ with a normal episode today. Appreciate your forbearance
+ yesterday as we got to go make some core memories at the World
+ Cup. And of course the big story happening behind the scenes in AI
+ continues to be the fallout of the fable 5 shutdown and the
+ negotiations to try to bring it back. It has at this point been
+ five days since the US government shut down mytho slash fable or
+ rather impose the conditions upon anthropic where they were
+ forced to shut down mytho slash fable and it doesn't
+ particularly appear like we're any closer to a resolution. On
+ Monday, anthropic leaders touched down in Washington to
+ explain the situation and to try to come to some new type of
+ understanding. Now interestingly, and I think giving some insight
+ into how anthropic is viewing the situation rightly or wrongly is
+ that the talks appear to have been largely technical.
+ Anthropics sent chief compute officer Tom Brown, head of
+ external affairs Sarah Heck, head of red teaming Logan
+ Graham and senior security researcher Nicholas Carlini. The
+ Wall Street Journal actually ran quite a long piece about
+ Carlini titled the hacker sent by anthropic to calm the
+ government's nerves about AI safety. The journal describes
+ him as a well respected hacker who is considered something of
+ a professional skeptic of AI cyber security claims, who has
+ quote, lately changed his mind. Putting some fuel on the fire
+ of know this time was actually different. They write just
+ weeks after getting his hands on mythos, Carlini offered a
+ stark warning to a standing room only crowd of cyber security
+ experts. First, he showed them how he had used anthropics AI
+ to find and exploit a critical bug in a piece of web
+ publishing software called ghost. Then he demonstrated
+ another in the Linux operating system, one of the most
+ battle tested pieces of software which powers billions of
+ devices. Carlini had never before found a bug in Linux
+ or in ghost. Now he had discovered many what he
+ was seeing represented a new world order for cyber
+ security, the balance that existed between attackers
+ and defenders over the past two decades, quote, seems
+ like it's probably coming to an end. He continued, it's
+ pretty clear to me that these current models are better
+ vulnerability researchers than I am. Now that was back in
+ March. And it sounds like Carlini was one of the folks
+ inside of anthropic pushing the company not to release
+ mythos at that time. Fast forward to the situation
+ we have today, former DoD official and counsel on
+ foreign relations senior fellow Michael Horowitz said, the
+ government anthropic clearly have an inability to
+ communicate effectively with each other. More
+ technical exchanges should be helpful in socializing
+ these issues in a way that should lead to better
+ decisions. So coming back to the negotiations on
+ the government side, staff from the Center for AI
+ Standards and Innovation in the Office of the
+ National Cyber Director also attended the meetings.
+ Commerce Secretary Howard Lutnick phoned in from
+ the G seven summit in France. However, it appears
+ that none of the key architects of the
+ decision, including National Cyber Director Sean
+ Karncross, Treasury Secretary Scott Besant or
+ White House Chief of Staff Susie Wiles were in
+ attendance. Given the prior reporting, then it's
+ questionable whether anyone in the room on
+ Monday had authority to actually call off this
+ mythos fable ban. And one thing that is worth
+ underscoring at this point, obviously since so
+ much of the coverage mine included has focused
+ on fable, because gosh darn it, you took our new
+ toy away. This is absolutely not just a fable
+ five ban. It is very much a mythos ban as
+ well. In fact, it seems like the re-release of
+ fable to consumers is fairly low on the list
+ of the government's concerns. Sources said
+ the Commerce Department expressed a willingness
+ to allow fable to come back online, as long
+ as Anthropic fixed the jailbreak that was
+ at the heart of the matter in the first
+ place. Mythos, it seems, is another
+ question. Over the weekend, we had some
+ very thin reporting from 74 that the
+ administration feared the Chinese
+ government had gained access to mythos.
+ And on Tuesday, the Washington Post
+ reported that a big part of the schism
+ with Anthropic had come about from the
+ expanded access to mythos a few weeks
+ earlier. The WP wrote that Anthropic
+ added around 50 firms to project
+ glasswing at that time. And it was
+ then that, quote, senior officials began
+ to consider using export controls to
+ claw back the technology after
+ Anthropic did not identify the new
+ recipients for days. Once the
+ government had the list, they
+ discovered that one recipient was a
+ South Korean telecom company that the
+ administration suspects of having ties
+ to the Chinese government. Now, the
+ nature of the jailbreak is also getting
+ increased attention in the press. On
+ Tuesday, the Atlantic elevated the
+ analysis of Luda security CEO Katie
+ Mussuris, which I discussed in earlier
+ coverage. They rehashed the point that
+ fable will refuse to review insecure
+ code for security issues, but when
+ asked to fix the bugs, it will
+ generate patches. Mussuris's point has
+ been that this was just the model
+ working as intended for cyber defense,
+ arguing that GPT 55 and Opus 48 work
+ in the same way. And yet, of course,
+ as we've seen over and over, part of
+ the meta story is about personal
+ interactions between the major
+ players rather than technical
+ specifics. In Monday reporting, an
+ administration official told Axios
+ that Anthropic knew the model was
+ susceptible to a jailbreak and decided
+ to distribute it anyway. They came to
+ every fork in the road, the source
+ said, and took the wrong fork. A
+ source familiar with the
+ administration's thinking
+ commented, Anthropic has not done a
+ great job at trying to speak to the
+ administration and appreciate the
+ ideological differences. It's like
+ they just speak in different
+ languages. Another quote attributed
+ to an administration official put it
+ more bluntly. Everybody said
+ Anthropic was a bad actor. Some of us
+ said it was time to give them a
+ chance. Now those people are
+ questioning that. They screwed us.
+ As the week has gone on, we've
+ gotten more and more details. On
+ Tuesday, Bloomberg published the
+ full text of the letter from the
+ Commerce Department that shut down
+ mythos and fable on Friday night.
+ It's written largely in legalese,
+ but the thrust of it was that
+ Anthropic risked criminal and
+ civil penalties for non-compliance.
+ The order required them to remove
+ access to all foreign nationals
+ wherever located. And when during
+ his Friday night phone call with
+ Commerce Secretary Howard Lutnick
+ Dario Almaday reportedly said,
+ this means we can't have the model
+ out. Lutnick responded, that's
+ the point. Charlie Bullock of the
+ Institute for Law and I commented,
+ the legal theory strikes me as
+ strange, very aggressive and
+ probably vulnerable to legal and
+ constitutional challenge. That said,
+ I don't think that Anthropic
+ will actually sue to challenge
+ anything. Instead, I think they'll
+ work to resolve their differences
+ with the government without
+ resorting to litigation and that
+ the government will eventually
+ allow them to publish a version of
+ Fable again. Now, Charlie also got
+ into one of the bigger issues here,
+ which is the terrible implications
+ of having a regulatory regime that's
+ not really a regulatory regime.
+ Bullock writes, the takeaway here,
+ as I've said before and will say
+ again, is that this ad hoc last
+ minute licensing regime is bad for
+ companies and for the Trump
+ administration and for the public
+ and that we desperately need to
+ replace it with legislation. It's
+ no good for the administration
+ stated goals that their actions
+ are vulnerable to legal challenge.
+ They should want to fix that
+ problem as much as Anthropic does.
+ Now, I actually think that
+ Ashley on X at Polylethia gets
+ it directionally correct when she
+ writes, I think I see what's
+ going on here. Anthropic is
+ negotiating with a regulator
+ without realizing it. When you
+ submit something risky to a
+ regulator, you have to one,
+ describe what the risk is and two,
+ show how you're going to
+ mitigate that risk. Importantly,
+ you have to properly estimate the
+ scope of the risk. If you scope
+ the risk too broadly, then you
+ place extra burden on your
+ mitigation. If you scope too
+ narrowly, then you run the risk
+ directly. But you must commit to
+ an estimation to the regulator.
+ What happened here is that
+ Anthropic scoped too broadly. And
+ when it was shown that their
+ mitigation was insufficient for
+ the stated risk scope, they
+ responded by trying to narrow
+ it. This is a huge red flag to
+ any regulator for good reasons.
+ So regulatory action followed.
+ And here's what this kind of
+ comes down to for me. I think
+ it's pretty undeniable that
+ the government is telling on
+ itself left and right that it
+ doesn't really have the
+ technical capacity, at least
+ with who's in these rooms right
+ now, to understand anything
+ that's happening. We could be
+ mad at that all that we want.
+ You could also be mad about
+ who's in power. In fact, being
+ mad at that is one of the
+ privileges of democracy. What
+ you don't get to do as a
+ company that is now seen as
+ integral to the economy and
+ national security, and thus a
+ major political consideration is
+ failed to recognize that a big
+ part of your job, a
+ significant part, in other words
+ of what it means to run the
+ company is to deal with the
+ government in power. I think
+ the most charitable
+ interpretations of anthropics
+ actions is that they just
+ haven't realized the extent
+ to which this was now their
+ job. Look, there are lots of
+ little details that seem at
+ least a little bit like
+ political gamesmanship, such
+ as the planted detail about
+ Dario being at a wellness
+ retreat when they were
+ trying to get in touch with
+ him. But there is also a
+ pattern of anthropic not
+ responding particularly quickly
+ to various concerns and
+ contacts. There are reports
+ that Amazon's Andy Jassy
+ reached out to him before
+ he reached out to the US
+ government. We've heard that
+ when they expanded Project
+ Glasswing a few weeks ago, it
+ took them days to get the list
+ of the new actors to the US
+ government. And when even the
+ counter to the wellness
+ retreat narrative was that it
+ took Dario an hour and 15
+ minutes to get back to the
+ US government on Friday as
+ this was all going down. If
+ that's true, what the hell
+ were you doing for the other
+ hour and 15 minutes? If the
+ government calls with
+ something that's clearly this
+ mission critical, that's not
+ finished the meeting that
+ you're having, that's
+ pause whatever you're doing
+ and get on the phone. So
+ again, I think the
+ charitable interpretation is
+ that anthropic just
+ hasn't realized up till now
+ that managing their
+ relationship with the US
+ government is now as
+ important a job as anything
+ that they build in the lab.
+ So where does this leave us?
+ Cyber security experts
+ continue to believe that
+ this is a dangerous misstep
+ from the administration and
+ have said in an open letter
+ with more than 100 signatures
+ now that removing mythos
+ from the cyber defense
+ toolkit makes everyone
+ more vulnerable. Some
+ notable geopolitical
+ analysts believe this is a
+ gift to China. I got the
+ demirate of the Council on
+ Foreign Relations wrote in
+ the Financial Times that
+ quote Washington has just
+ done more to boost the appeal
+ of Chinese AI models
+ than Beijing ever could have
+ hoped. The business world
+ is concerned about the
+ precedent. Jim Reed, the
+ global head of macro at
+ Deutsche Bank, wrote in a
+ Monday note that if the
+ ban continues, quote,
+ it's not great news for
+ US tech firms or for those
+ assuming breakneck speeds
+ of AI adoption. You can't
+ rely on something that could
+ be switched off. And
+ finally, the ban has sent
+ the US based AI research
+ community into a tailspin
+ citing a source close
+ to open AI. The Financial
+ Times writes that in
+ recent days, the industry
+ has been working on
+ ensuring foreign national
+ researchers could continue
+ to work on developing the
+ most advanced models. A
+ practice as they put it
+ that the anthropic directive
+ has now banned. Now, despite
+ the multidisciplinary
+ outcry at this stage, it
+ seems the administration
+ is sticking to their guns
+ and demanding a patch for
+ the jailbreak. For those
+ familiar with the
+ technology, it's not even
+ clear that that's
+ possible. Helen Toner, a
+ former member of the
+ Open AI board said, it's
+ a pretty widely agreed upon
+ fact that you cannot
+ fully fix jailbreaks in
+ these models. It's a
+ very inexact science. Now,
+ while at this stage, it
+ seems like negotiations in
+ Washington have kind of
+ stalled out, this morning
+ CNBC reported that AI
+ leaders including
+ Dario Amade had traveled
+ to France to take part
+ in the International
+ G7 summit this week. And
+ Politico even reports
+ that according to the
+ official agenda, there
+ will be a two and a half
+ hour lunch with CEOs
+ including Dario Amade,
+ Sam Altman, Demis Sassabis
+ and Mistral's Arthur
+ Mench. And while the
+ official agenda is all
+ about economic growth
+ and resilient societies,
+ it's hard to believe
+ that the most important
+ discussion won't be
+ what's happening in
+ Washington right now.
+ We'll see if anything
+ interesting comes from that.
+ But for now, that will close
+ our anthropic headline
+ report today. And next
+ in the main, we'll talk
+ about how Elon Musk is
+ taking advantage of the
+ moment to make some serious
+ moves.
+ One of the most important
+ AI questions right now
+ isn't who's using AI.
+ It's who's using it
+ well. KPMG and the
+ University of Texas at
+ Austin just analyzed
+ 1.4 million real
+ workplace interactions
+ and found something
+ surprising. The highest
+ impact users aren't
+ better prompt engineers.
+ They treat AI like
+ a reasoning partner.
+ They frame problems, guide
+ thinking, iterate and
+ push for better answers.
+ And the good news, these
+ behaviors are teachable
+ at scale. If you're trying
+ to move from AI access
+ to real capability,
+ KPMG's research on
+ sophisticated AI
+ collaboration is worth
+ your time. Learn more
+ at kpmg.com
+ slash us slash
+ sophisticated.
+ That's kpmg.com
+ slash us slash
+ sophisticated.
+ One thing I keep
+ seeing in enterprise AI
+ companies hedging across
+ every cloud, every model,
+ every framework, or
+ paying a GSI for a pilot
+ that never ends.
+ The team's actually shipping.
+ They've picked a lane
+ and they move fast.
+ That's one of the reasons I
+ like today's sponsor
+ robots and pencils.
+ They've gone all in on AWS.
+ They're an advanced tier
+ and AWS pattern partner
+ and they ship production
+ AI coworkers in 45 days.
+ That's led to them doing
+ some of the more interesting
+ work I've seen on AI
+ coworkers.
+ And by that, I'm not
+ talking about chatbots.
+ I'm talking about actual
+ agentic systems that sit
+ inside a business architecture
+ and do real work.
+ That kind of focus matters
+ if you're an enterprise
+ leader trying to get something
+ real into production
+ or an AWS rep
+ trying to move a customer
+ from interested to deployed.
+ Request an AI briefing
+ at robotsandpencils.com.
+ One conversation
+ with robots and pencils
+ and you'll know.
+ The average enterprise
+ is spending 11 and a half
+ million dollars on AI
+ this year and most of them
+ can't prove a single
+ dollar came back.
+ What does AI actually look
+ like when it produces ROI?
+ Ask the health care
+ company that just made
+ their payment processing
+ 320 times faster
+ or the law firm
+ whose document research
+ went from three months
+ to 10 minutes
+ or the contact center
+ who reduced wait times
+ by 99%.
+ These are real mission
+ cloud customers
+ with real results.
+ Mission cloud is a CDW company
+ and an AWS premiere
+ to your partner.
+ They're the AI first
+ outcome subsets
+ to AWS experts
+ who build AI solutions
+ that drive your business
+ forward.
+ Whether you're flooded
+ with AI ambitions
+ but no idea where to start
+ or six months
+ into a deployment
+ that's going sideways.
+ They've seen it
+ and they've fixed it.
+ Stop burning your budgets
+ on AI that doesn't produce
+ results.
+ Start at missioncloud.com.
+ This episode
+ of the AI Daily Brief
+ is brought to you by OutSystems,
+ a leading agentic systems
+ platform built
+ for the enterprise.
+ Organizations all over
+ the world are building,
+ orchestrating
+ and governing agentic systems
+ on the OutSystems platform
+ and with good reason.
+ OutSystems open
+ and unified platform
+ allows teams to architect,
+ deliver and scale
+ governed agentic systems
+ with agility.
+ Teams of any size
+ and technical depth
+ can use OutSystems
+ to build, deploy and manage
+ AI apps and agents
+ quickly and cost-effectively
+ without compromising
+ reliability and security.
+ With OutSystems,
+ you can rapidly launch ideas
+ from concept to completion.
+ It's the leading agentic systems
+ platform that is unified,
+ agile and enterprise proven,
+ allowing you to accelerate growth,
+ reduce operational friction
+ and deliver real enterprise impact
+ with AI.
+ OutSystems,
+ build your agentic future.
+ Welcome back to the AI Daily Brief.
+ Today we're talking about
+ something of a shift
+ in the AI race.
+ And while this isn't directly related
+ to the Fable 5 controversy
+ and anthropics dealings with Washington,
+ it certainly does feel like
+ we are in a moment of realignment.
+ Yes, there is of course
+ a political dimension of that
+ as we are all realizing,
+ but the realignment is also happening
+ as the economics of mature
+ agentic AI start to become clear.
+ As I continue to discuss,
+ companies are starting to grapple
+ with the reality of what
+ full agentic workloads
+ are going to cost
+ and they're quickly working
+ to figure out how to become
+ more efficient with their token consumption,
+ whether it's through lower cost models,
+ better routing
+ or in the case of more poorly considered
+ strategies,
+ limiting who has access
+ to certain types of advanced AI.
+ Meanwhile, one of the downstream
+ implications of the economics
+ of AI labs
+ is the broader state of the US economy.
+ A huge part of GDP growth
+ is related to the AI infrastructure
+ build out, which is of course
+ justified by increases in lab revenue
+ and TLDR, all of these things
+ are happening at the same time.
+ We are in a very liminal moment.
+ Now, SpaceX specifically
+ and Elon Musk more generally
+ have had an interesting place
+ in all of this.
+ On the political side,
+ he was cozy with this administration to start,
+ although that inevitably ran
+ into conflicts fairly quickly.
+ And when it comes to AI,
+ his strategy for a time
+ didn't particularly look like it was working.
+ While Grock has been beloved by some,
+ it is generally not considered competitive
+ with the top models from open AI and Anthropic.
+ The folding of XAI into SpaceX
+ at first seemed to at least
+ a fair number of market commentators
+ as something of an XAI bailout.
+ But then everything shifted.
+ It turns out that when you build
+ two huge supercomputer data centers
+ like Colossus 1 and Colossus 2,
+ that's an asset that you can monetize
+ fairly easily in this environment.
+ Over the last couple of months,
+ Elon and SpaceX signed deals
+ to give Anthropic
+ and then Google access to that compute.
+ And all of a sudden,
+ the economics of SpaceX
+ started to look very different.
+ Basically overnight,
+ Neocloud Revenue became
+ their number one source of revenue.
+ And as they looked to space
+ for the next generation
+ of orbital data centers,
+ the narrative heading into their IPO
+ kind of made a lot more sense.
+ Now, whether you think it was
+ that sort of considered analysis
+ or just SpaceX being
+ the biggest meme stock of all time,
+ one thing that is undeniable
+ is its performance post-IPO.
+ On Tuesday, the stock closed
+ at $201.80,
+ up 49% from the IPO price.
+ The company is now valued
+ at $2.6 trillion,
+ making it the fifth largest company
+ in the world by market cap
+ slightly ahead of Amazon.
+ Now for many observers,
+ they just can't get over
+ Elon Musk's personal wealth.
+ On the back of the IPO,
+ he became the world's first trillionaire
+ and he's now on the order
+ of three times ahead
+ of the next closest
+ of the world's richest people.
+ Now, of course, most of his wealth
+ is tied up in his 46% stake in SpaceX.
+ And even without those lockups,
+ he couldn't really liquidate
+ any sizable part of that stake
+ without absolutely tanking the market price.
+ But still, the sheer numbers here
+ are so gigantic
+ that a lot of people
+ just can't think about anything else.
+ Flexport CEO, Ryan Peterson,
+ pointed out on Monday,
+ with today's 20% SpaceX pop,
+ Elon made more money today
+ than Warren Buffett made
+ in his entire career.
+ Ryan then came back to clarify,
+ I posted this before realizing
+ it was up another 14% after hours.
+ Now the SpaceX IPO is going so well
+ that some are suggesting
+ that they might have even left money
+ on the table
+ and could have raised even more.
+ For others, the whole thing is a farce.
+ Twitter is absolutely a wash
+ with big short video clips
+ that having SpaceX's valuation
+ ahead of Amazon,
+ when Amazon has about 40 times
+ the revenue of SpaceX just seems nuts.
+ Others point out that the vast majority
+ of SpaceX stock is currently locked
+ and that as it becomes unlocked
+ over the course of the rest of the year,
+ that could create its own sort of bearish pressure.
+ But for now, none of that matters.
+ And it's clear that when it comes to the AI race,
+ Elon is going to take advantage
+ of SpaceX's new fortunes
+ and the opportunities it affords him.
+ Investor Bill Ackman wrote,
+ one of the things that makes SpaceX
+ so valuable is how valuable it is.
+ The cursor acquisition,
+ which of course we're about to talk about,
+ costs materially less in dilution
+ because of SpaceX's high valuation.
+ SpaceX's ability to do economically, strategically,
+ and technologically accretive acquisitions
+ is an important component of its value.
+ There is enormous value inherent to a company
+ with a high value,
+ particularly when it is controlled by an entrepreneur
+ that the most talented people want to work for
+ and partner with.
+ Value begets value, talent begets talent.
+ Now, this discussion was around
+ the culmination of the cursor acquisition,
+ which SpaceX had announced the right
+ to engage in earlier in the year.
+ The deal did come in at $60 billion
+ and cursor will become a wholly owned subsidiary of SpaceX.
+ As part of the announcement we found out
+ that cursor had hit a $4 billion run rate
+ and was growing 7x year over year,
+ but what's much more interesting
+ is what cursor is going to mean
+ for SpaceX's AI strategy going forward.
+ As I mentioned at the beginning,
+ the shift of focus on their neocloud strategy
+ has clearly become a more important strategic priority
+ for SpaceX over the past few months.
+ But the cursor acquisition
+ potentially changes a bit about where SpaceX
+ or rather XAI might fit
+ in the model and enterprise AI battle.
+ Now, going back to this transitional moment
+ between token subsidy and token scarcity,
+ cursor identified at the end of last year
+ that they could not just play the harness game
+ they needed to play the model game as well.
+ Since then they've released a series of models
+ under their composer brand
+ with their most recent composer 2.5
+ performing in the same range as Opus 47 and GPT-55
+ at about a tenth of the cost.
+ Now, that model was largely about post training
+ using a Kimmy K model base,
+ but now cursor is teasing
+ a new trained from scratch model.
+ At the compile event, engineer Nick Dobos wrote,
+ new cursor model being teased at compile,
+ same size as Claude Opus and GPT-55
+ trained from scratch, no more Kimmy base.
+ 10 to 20 X more compute versus composer,
+ generally intelligent, not just coding,
+ releases in the next couple of weeks.
+ Some people are extremely bullish
+ about the possibilities.
+ Lasan on X writes,
+ I expect SpaceX AI to be between Google
+ and OpenAI by the end of the year.
+ Composer 2.0 was a very strong model,
+ but Elon isn't stopping at one trillion parameter models.
+ The financial time suggested
+ that buying cursor could be SpaceX's Instagram moment.
+ Referring to the idea that one of the smartest things
+ that Mark Zuckerberg ever did
+ was instead of trying to compete with the hot new thing,
+ just took it off the market very early
+ before it could become a competitive juggernaut.
+ Now, in my mind, what'll be interesting to see
+ is whether this new model continues
+ to try to prioritize efficiency
+ in the way that the previous composer models have
+ or whether this is just X AI and SpaceX
+ getting back into the game,
+ trying to come back out on top
+ and compete at the state of the art, whatever the cost.
+ Investor Tramath Palahapatiya thinks
+ that despite cursor's recent focus on models,
+ it is in fact their harness
+ and their relationship with customers that matters.
+ He tweeted,
+ this is the first but not the last big exit
+ at the application layer of AI.
+ As product value accrues and accelerates upwards,
+ the focus over the next few years
+ will be firmly on the control plane.
+ What gives organizations who want to go all in on AI,
+ the governance, control, auditability,
+ and business continuity across models
+ and across time that they will need
+ to firmly make the leap.
+ This is the next big phase of AI value creation
+ that the SpaceX cursor merger is highlighting.
+ Now, one more small note on X AI,
+ especially given that the lingering background
+ of all of our discussions right now
+ are the goings on in Washington.
+ The US government actually recently intervened
+ in a lawsuit against X AI,
+ claiming that grok is vital to national security.
+ The lawsuit was filed by the NAACP in April.
+ It argues that X AI is in breach
+ of the Clean Air Act by operating
+ unpermitted gas turbines at their Colossus II data center.
+ On Wednesday, the DOJ joined X AI's motion
+ to dismiss the case.
+ Their filings stated that the lawsuit,
+ quote, threatens American national economic
+ and energy security by seeking to shut off
+ the power supply for artificial intelligence innovation
+ that supports the Department of Wars military operations.
+ A supporting filing from a Pentagon official
+ explains that grok was used to quote,
+ support vital national security missions.
+ This includes apparently targeted decisions
+ for recent strikes on Iran.
+ Now, of course, grok isn't the only model
+ being used to support war fighting.
+ We know that anthropic Google and open AI models
+ are also cleared for classified use.
+ Even Dario Amade recently confirmed
+ that Claude was being used for missile targeting
+ but said that he didn't know the specifics.
+ Chebion X wrote, in one June week,
+ two things happened that look unrelated
+ but are actually the same story.
+ Commerce Department forced anthropic
+ to disable Fable 5 and Mythos 5
+ for every foreign national,
+ while the DOJ went to court in Mississippi
+ to defend X AI's unpermitted gas turbines
+ as too vital to national security to shut off.
+ Why is this interesting?
+ Because it clearly demonstrates one thing.
+ AI and everything that goes with it,
+ data center expansion, frontier models, access, et cetera,
+ is increasingly being placed
+ under national security and control.
+ Now, bringing it back to the model lab competition itself
+ and potential changes therein,
+ anthropic is of course not the only company
+ with big financial plans this year.
+ Both anthropic and open AI have filed confidentially
+ for an IPO later this year.
+ And of course, in anticipation of that,
+ we expected to start to get a lot more insight
+ into the company's financials.
+ Well, it happened a little bit
+ before open AI would have wanted
+ with inveterate AI skeptic Ed Zitron
+ publishing open AI's fully audited numbers
+ for the past two years.
+ For 2004, the financials stated
+ that open AI had 3.7 billion in revenue,
+ 12.4 billion in costs,
+ and a net loss of a little more than 5 billion.
+ In 2025, open AI had around 13 billion in revenue,
+ just shy of 21 billion in operational losses,
+ and a net loss of 38.5 billion.
+ Now, to the skeptics view,
+ those 38.5 billion in losses were quote astronomical
+ and far higher than most believed it would be.
+ And yet, when the numbers were shared
+ with the Financial Times,
+ they came to a very different conclusion.
+ While yes, acknowledging the view
+ that costs were outpacing revenues,
+ they highlighted comments from open AI
+ that the majority of the 2025 costs
+ came from a $30 billion quote non-cash accounting change
+ linked to the company's previous structure.
+ In other words, the losses were an accounting entry
+ to reflect the conversion to a public benefit company.
+ Under US accounting rules,
+ revenue sharing rights under the old structure
+ are treated as a liability
+ and are not expected to continue moving forward.
+ According to open AI,
+ when you strip away this one-time accounting charge in stock comp,
+ open AI lost 8 billion in 2025,
+ which is not nothing but certainly a very different story.
+ And frankly, when people dug in,
+ the number that seemed to be most overlooked
+ by both of these reports
+ was that open AI is apparently
+ turning a tidy profit on inference.
+ In 2024, they generated 3.7 billion in revenue
+ on 2.7 billion in cost of revenue.
+ In 2025, they generated 13 billion in revenue
+ on 7.5 billion in direct costs.
+ Now, obviously, it is too simplistic
+ to strip away training, marketing, and staffing,
+ but for those who aren't just trying
+ to find reasons to be skeptical,
+ that's a pretty promising sign
+ that there's solid profit margins
+ in the core business of selling tokens.
+ It also looks like open AI
+ is holding their burn rates steady as the business expands.
+ The information reports that open AI
+ spent 3.7 billion in the first quarter of this year,
+ which is a slightly faster annualized rate than 2025,
+ but not by much.
+ Now, that burn rate does not include training costs,
+ which amounted to 8.6 billion in Q1,
+ but the company currently has 73 billion
+ cash in marketable securities on their balance sheet,
+ which is up from 40 billion in December.
+ As we try to figure out what happens next,
+ this could change some amount
+ of the calculus around IPO.
+ Sam Altman has gone out of his way
+ to say that they have not committed
+ to a timeline for going public yet,
+ and it's not hard to concoct a scenario
+ where between SpaceX unlocks
+ and a dip in the narrative
+ that comes with a dip in the SpaceX price,
+ plus continue weird alignment issues
+ with the U.S. government
+ that open AI continues to take advantage
+ of its cash position and stay private a bit longer.
+ So the point of all of this
+ is that just as it seemed
+ like we were settling into this new agentic phase,
+ it's actually quite clear
+ that the AI race, such as it is,
+ is an incredibly dynamic and fast-moving environment.
+ The big obvious things to watch for next are,
+ one, the resolution of Anthropics Fable 5 issue,
+ two, whether open AI can avoid its own issue like that
+ and actually get out a more advanced model,
+ three, what SpaceX's public price does
+ in the next few months,
+ and four, what the next model to come out of cursor
+ says about what SpaceX's strategy
+ might be going forward.
+ Then, of course, there's always Google
+ who has been fairly conspicuously quiet this year,
+ and you can't imagine
+ that that's gonna stay the case for long.
+ For now, though, that is gonna do it
+ for today's AI Daily Brief.
+ Appreciate you listening or watching, as always.
+ Until next time, peace.
