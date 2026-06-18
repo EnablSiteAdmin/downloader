@@ -1,0 +1,796 @@
+ Today on the AI Daily Brief, the model's trying to replace Fable.
+ Before that on the headlines, what we learned about AI and global politics at the G7.
+ The AI Daily Brief is a daily podcast and video about the most important news and discussions
+ in AI.
+ Alright friends, quick announcements before we dive in.
+ First of all, thank you to today's sponsors KPMG, Section, Assembly and Out systems
+ To get an ad-free version of the show, go to patreon.com.ai-dealybrief or you can subscribe
+ on Apple Podcasts.
+ To learn more about sponsoring the show, send us a note at sponsors.ai-dealybrief.ai.
+ You should also check out the new ai-dealybrief.ai anyways.
+ One of the big things that I have heard from folks is that they want easier ways to share
+ specific parts of these episodes with folks inside their organizations.
+ So that's what we've tried to build with the new website.
+ It divides every episode up into dozens of short, easily shareable cards.
+ Lastly today, there is a link down in the show notes to check out a preview of something
+ that is coming soon, training.besuper.ai.
+ If you've been following along with the AI-DB Learning Program journey, keep an eye there
+ for some more announcements to come soon.
+ With that, let's talk G7.
+ Now spoiler alert, we do not have any particularly big updates when it comes to when we're
+ getting Fable 5 back and the resolution between Anthropic and the US government.
+ However, what we did have was a number of the key players all in the same room as a slew
+ of AI leaders joined the usual heads of state at this year's G7 meeting in France.
+ Sam Altman, Demis Asabis, Metas Alexander-Wang, and yes, Dario Amade were all present as
+ part of the US contingent.
+ France brought along Mistral CEO Arthur Mench, while co-hear CEO Aiden Gomez attended
+ as part of the Canadian delegation.
+ Another half dozen executives from regional AI champions also attended.
+ Now it is not unusual for corporate executives to attend this sort of diplomatic and trade
+ meeting, but it is certainly the first time that G7 has seen such a heavy representation
+ from the AI industry.
+ And frankly, their attendance makes even more sense in the context of the US government's
+ effective banning of Mythos and Fable.
+ At a meeting that is all about international cooperation, for the first time the global
+ community is reckoning with the idea that access to US-made frontier models is not
+ a given.
+ Now the pivotal discussion came at a closed-door lunch meeting focused on AI and innovation,
+ flanking Donald Trump on either side, where Google DeepMind CEO Demis Asabis and open
+ AI Sam Altman, with anthropics Dario Amade being on the exact opposite side of the
+ table, next to France's Emmanuel Macron.
+ At the meeting, Dario Amade and Demis Asabis reportedly led the call for international
+ cooperation on AI risk with the US taking the lead.
+ In his address, Amade said that international cooperation should include structured
+ access to frontier models, chip trade deals that exclude China, and a unified
+ approach to AI risks including cyber attacks and bioterrorism.
+ Amade implored G7 leaders to, quote, resist the temptation to splinter over the
+ deployment of advanced AI.
+ Meanwhile, Canadian Prime Minister Mark Carney, who has recently pushed sovereign
+ AI policies and called for cooperation between AI middle powers, agreed that
+ the US could lead an AI coalition.
+ Francis Macron voiced the concerns of European leaders, warning that the
+ Trump administration had now made it clear that the US government holds
+ the AI kill switch.
+ He told reporters after the meeting that he made a forceful plea for the US to not
+ keep frontier AI to themselves.
+ Macron said the US and Europe have shared interest in keeping the technology
+ from authoritarian regimes.
+ So let us move forward together, he commented.
+ Our relevant agencies must first cooperate so that in the areas of
+ security and cybersecurity, we have a smooth government to government
+ relationship.
+ Sam Altman was aligned on this view that AI is now in the domain of
+ government and regulation should not just be left to corporate policy alone.
+ He said that the technology must be shaped by people,
+ democratic institutions and society as a whole, not just in his words by the
+ companies building the most capable systems.
+ Altman added,
+ We need an international forum for discussion that establishes globally
+ accepted standards for testing, provides expert and impartial analysis
+ of capabilities and risks, and serves as a venue for cooperation among nations.
+ Open AI head of global affairs, Chris Lajane, framed the discussion as
+ moving towards international regulation.
+ He said there really is a coalescing around a forum or a space for
+ the different democratic countries to be able to work together to
+ ultimately see if there's a way to establish some type of AI safety standards.
+ Lajane said the US would lead this body adding,
+ The ability to generate or create standards would be an avenue or pathway
+ helping to ensure ongoing and continued access to frontier models.
+ Now, all of this is well and good, kind of platitudinal,
+ but what do you expect from a G7 meeting?
+ But when it came to the rubber hitting the road, i.e.
+ global access to mythos, it doesn't appear that the US
+ government gave any ground.
+ Now, there's essentially no commentary on what the US delegation said
+ during the meeting itself.
+ President Trump made some classically generic comments in a press conference,
+ stating that the meeting was, quote, excellent and that AI is, quote,
+ going to be the biggest thing ever.
+ We have to be careful with it.
+ It's both great and could be bad.
+ We have to be careful with it, but we're leading China.
+ We're leading the world on that.
+ The European commentary struck a very different tone.
+ Euro news framed the mood in EU policy circles as particularly sour.
+ They noted that European leaders expected to be discussing the need
+ to form a united front against China and they need to rebuild
+ AI supply chains to route around that Eastern superpower.
+ Instead, they found themselves pleading for access to frontier models
+ that are viewed as critical to securing shared financial infrastructure.
+ Thomas Rainier, the European Commission's spokesperson for tech sovereignty, said,
+ we are a trusted partner.
+ I would challenge you to find a more trusted partner than Europe.
+ We got news that UK Prime Minister Kier Starmer had requested
+ to carve out for British nationals and companies from the export control
+ restrictions and was denied.
+ And perhaps for that reason, even as they try to get access to fable and mythos,
+ there is clearly a shift in European thinking as well.
+ Italian politician Brando Benefe said it plainly commenting,
+ the anthropic kill switch shows that tech sovereignty was never abstract.
+ The G7 should not lock allies into competing AI dependencies.
+ Europe must cooperate with the US, Canada and Democratic partners,
+ but from a position of strength.
+ Still, ultimately, it's becoming very clear that strength in the AI era
+ comes from one thing, putting GPUs on racks.
+ And on that front, Europe is lagging badly behind.
+ In April, the European Commission unveiled a grand plan to build up to
+ five AI gigafactories to support the training of frontier models.
+ The only problem is that only 20 billion euros were committed to the project,
+ which expects to deploy around 100,000 GPUs.
+ For comparison, the hyperscalers are on track to spend three times as much
+ every month building out AI data centers in the US.
+ Now, when it came to the mythos situation specifically,
+ when President Trump was asked by a reporter about the negotiations
+ with Anthropic, he said simply, they're going fine.
+ Looking over at Commerce Secretary Howard Lutnick, Lutnick reiterated, going fine.
+ Now, meanwhile, as this was all happening, reporting from Wired
+ added some context to the China dimension of the export control ban.
+ The TLDR was that when Anthropic expanded access to mythos a few weeks ago,
+ one of the companies that got access was Korean Telecom giant SK Telecom.
+ The US government concerned about ties to China,
+ ordered the company to revoke SK Telecom's access a few days before the ban,
+ adding at least some credence to the China reasoning for the ban,
+ as opposed to just personality politics.
+ Now, what one thinks of SK Telecom's supposed connections to China is a different matter.
+ Satrini Anilas-Jukin writes,
+ My God, I'm honestly beyond disappointed with the Trump administration.
+ SK Telecom is absolutely nothing to do with Huawei or China.
+ In fact, the only Korean Telecom operator that uses Huawei equipment is LG.
+ In DC, China-linked company is sometimes a real thing
+ and sometimes an utterly thought terminating process.
+ When I heard it was a Korean company,
+ I immediately thought SK Telecom and went,
+ ah, yes, the network where some of the most valuable IP in the entire AI hardware field
+ is being transacted daily.
+ When all is said and done,
+ I don't think anyone was particularly surprised at the amount of talk
+ versus action from a G7 meeting.
+ I think what people found notable was the extent to which
+ the White House's actions around Anthropic have shifted the tone globally
+ and how little we got from the White House
+ about any sort of timeline or sense of how things are actually going
+ when it comes to the Anthropic issue.
+ I would say that on average, most people who are watching this
+ just had their timelines for when we get Fable back extended, not shortened.
+ Now, moving back into the AI industry itself,
+ we got a really big personnel move
+ with legendary AI researcher, Noam Shazir,
+ leaving Google to join OpenAI.
+ In 2017, Shazir was one of the lead authors
+ on the seminal research paper, Attention is All You Need,
+ which introduced the transformer architecture
+ and kicked off the entire LLM revolution.
+ In 2021, after Google refused to release a chatbot of his design,
+ Shazir left the company to found Character AI.
+ In 2024, Google rehired Shazir as the technical lead
+ on the Gemini project, and in order to retain Shazir,
+ Google spent $2.7 billion licensing Character AI's technology
+ in one of the first big Aquahire deals of the modern AI era.
+ In short, Shazir is one of an elite group of AI researchers
+ that can command a multi-billion-dollar investment,
+ right up there with Andre Carpathy,
+ Noam Brown, and Ilya Sutskever.
+ And yet, less than two years after Google paid up for Shazir,
+ he's already out the door.
+ Sam Altman is that this move
+ has been a long time coming posting.
+ Noam is one of the people I have most wanted to work with
+ since the very beginning of OpenAI.
+ It only took 10 years.
+ I think it will be worth the wait.
+ OpenAI reportedly told employees
+ that Shazir would be working creating new architectures
+ for AI models.
+ Google, meanwhile, was magnanimous
+ in losing one of the world's preeminent researchers,
+ a spokesperson said,
+ "'We are grateful for Noam's meaningful contributions
+ to Google over the years, and we wish him well.'"
+ Still, for many, the news raises even more questions
+ about the future of Google's AI roadmap.
+ The rumor mill has been awfully quiet
+ about the release of Gemini 3.5 Pro,
+ which they said would be coming in June.
+ Yuchen Jin wrote,
+ "'Noam's leaving Google
+ makes Gemini's future feel uncertain.
+ More than one deep-mind person
+ has told me Noam saved Gemini.
+ There's even lore that he tweaked a few lines
+ of training code and Gemini's quality instantly jumped.
+ Gemini's coding ability still feels behind.
+ I really hope Gemini can find its way back
+ to its former glory.
+ We need more model choices.'"
+ Now, one more little product update from OpenAI.
+ The quest to remove the side quest continues
+ as chatGPT announces that they'll be sunsetting Pulse.
+ Pulse was introduced last year
+ and served as a daily AI briefing.
+ Users could tune Pulse to generate relevant daily content
+ based on their interests.
+ OpenAI said the feature would be removed
+ within the next two weeks
+ and encouraged users to build their own daily briefing
+ using scheduled tasks.
+ Now, OpenAI is presenting this
+ as an expansion of the feature set,
+ coupling the removal of Pulse
+ to the expansion of the more generalized
+ scheduled tasks feature.
+ As part of that expansion,
+ scheduled tasks will now be available
+ to all paid chatGPT subscribers,
+ even those on the cut price go tier.
+ Now, for some, this paints a very clear picture
+ of what type of users OpenAI is prioritizing now.
+ On the announcement thread,
+ chatGPT subscriber, D.O.V. wrote,
+ "'After sunsetting 4.5 in Pulse,
+ will there be any reason to keep pro subscription
+ for someone who is not a coder
+ and has zero interest in codecs?'
+ And the short answer is,
+ I'm not sure that OpenAI cares right now.
+ That's gonna do it
+ for this slightly extended edition of the headlines.
+ Next up, the main episode.
+ One of the most important AI questions right now
+ isn't who's using AI,
+ it's who's using it well.
+ KPMG and the University of Texas at Austin
+ just analyzed 1.4 million real workplace AI interactions
+ and found something surprising.
+ The highest impact users
+ aren't better prompt engineers,
+ they treat AI like a reasoning partner.
+ They frame problems, guide thinking,
+ iterate and push for better answers.
+ And the good news,
+ these behaviors are teachable at scale.
+ If you're trying to move from AI access to real capability,
+ KPMG's research on sophisticated AI collaboration
+ is worth your time.
+ Learn more at kpmg.com slash us slash sophisticated,
+ that's kpmg.com slash us slash sophisticated.
+ Here's a harsh truth.
+ Your company is probably spending thousands
+ or millions of dollars on AI tools
+ that are being massively underutilized.
+ Half of companies have AI tools,
+ but only 12% use them for business value.
+ Most employees are still using AI
+ to summarize meeting notes.
+ If you're the one responsible for AI adoption
+ at your company, you need Section.
+ Section is a platform that helps you manage
+ AI transformation across your entire organization.
+ It coaches employees on real use cases,
+ tracks who's using AI for business impact
+ and shows you exactly where AI is
+ and isn't creating value.
+ The result, you go from rolling out tools
+ to driving measurable AI value.
+ Your employees move from meeting summaries
+ to solving actual business problems
+ and you can prove the ROI.
+ Stop guessing if your AI investment is working.
+ Check out section at sectionai.com,
+ that's S-E-C-T-I-O-N-A-I dot com.
+ You know Assembly AI
+ for having the most accurate streaming speech
+ to text out there,
+ but they just went a step further
+ and launched a full voice agent API.
+ The idea is simple.
+ One connection and they handle everything,
+ the listening, the thinking, the speaking.
+ You just stream audio in
+ and get your agent's voice response back.
+ We're talking about things like outbound sales calls
+ that actually qualify leads,
+ customer support that handles complex requests
+ without a script,
+ scheduling agents that sound like a human assistant
+ and you can build one in five minutes with one API.
+ And importantly, their streaming model
+ is the best at catching all the stuff
+ that breaks on other voice agents,
+ things like phone numbers, emails,
+ names and medical terms.
+ And for those of you who are still in experimentation mode,
+ there are no contracts and unlimited concurrency
+ so you can actually test it out without any friction.
+ Head to assemblyai.com slash brief
+ and try the live voice agent demo
+ right there on the site.
+ No signup needed.
+ This episode of the AI Daily Brief
+ is brought to you by OutSystems,
+ a leading agentic systems platform
+ built for the enterprise.
+ Organizations all over the world
+ are building, orchestrating and governing
+ agentic systems on the OutSystems platform
+ and with good reason.
+ OutSystems open and unified platform
+ allows teams to architect, deliver and scale
+ governed agentic systems with agility.
+ Teams of any size and technical depth
+ can use OutSystems to build, deploy
+ and manage AI apps and agents quickly
+ and cost effectively
+ without compromising reliability and security.
+ With OutSystems, you can rapidly launch ideas
+ from concept to completion.
+ It's the leading agentic systems platform
+ that is unified, agile and enterprise proven,
+ allowing you to accelerate growth,
+ reduce operational friction
+ and deliver real enterprise impact with AI.
+ OutSystems, build your agentic future.
+ As the discussions between
+ Anthropic and the US government continue,
+ we are firmly in the fallout phase
+ of the Fable 5 loss.
+ Indeed, even by Monday,
+ when Fable hadn't come back online
+ by the beginning of the work week
+ and the markets opening,
+ it was pretty clear that this was going to end up
+ being a bigger fight than just a weekend annoyance.
+ Over at the G7 meetings this week,
+ we started to see the geopolitical
+ ramifications of the Fable shutdown.
+ With Europe in particular and other US allies
+ trying to figure out both where they fit
+ within the US's prioritization
+ and what they needed to do
+ to on the one hand retain access to US models
+ while also not being totally reliant on the US.
+ Over among AI builders, meanwhile,
+ while the first couple days were disbelief and mourning,
+ since then it's been all about
+ what sort of systems we can MacGyver together
+ to get close to Fable type performance.
+ Now for organizations and enterprises,
+ the question is even more interesting.
+ While few, if any enterprises
+ had actually shifted any sort of meaningful workflows
+ over to Fable,
+ it was yet more fuel to the fire
+ of needing to think beyond just blindly using
+ whatever the most powerful state of the art model is.
+ Now up until the Fable banning,
+ the reason that that conversation
+ had started among enterprises
+ was not a question of access, but a question of cost.
+ As agent work loads actually came online,
+ people's AI bills were going up in meaningful ways
+ and that led many, if not most organizations
+ using AI extensively
+ to start to think about more comprehensive strategies
+ that again weren't just slapping
+ the most powerful model
+ on top of every single use case they had.
+ And yet what's very clear
+ as we now come up on a week of Fable being gone
+ is that the question of the value
+ of the state of the art is higher than ever.
+ Now for some, this is a market question.
+ For a couple of months now,
+ one of the lurking bear narratives among investors
+ has been that if American frontier models
+ remain comparatively over expensive
+ compared to cheaper Chinese models,
+ at some point the concern was
+ buyers would just shift their behavior
+ and all of a sudden that revenue
+ that seemed at least for a time
+ to be justifying the big infrastructure build out
+ might no longer be as durable.
+ For individual organizations though
+ who aren't thinking about market implications,
+ it is a moment in which many
+ are considering alternatives.
+ Chubby on X pointed to headlines
+ in Bloomberg and CNBC and wrote,
+ all the major news outlets agree
+ the biggest winner in the
+ anthropic controversy is open source.
+ Whether it's Bloomberg, Fortune or CNBC
+ the consensus is clear.
+ As Bloomberg put it, making the model open
+ means that companies, governments or organizations
+ with sufficient hardware can run it locally
+ and never have to worry about it
+ being yanked on a whim.
+ In short, what companies are recognizing
+ is that using open weight or open source models
+ is potentially not just a cost issue
+ but also one of predictability around access.
+ If we're getting to the point
+ where the power of AI is such
+ that governments are going to have kill switches
+ that makes it very hard to build
+ mission critical workflows around.
+ As Satrini research put it,
+ the risk of the government deciding
+ that a model is too dangerous
+ should only add to the reasons
+ why open source models running on local hardware
+ can be a reasonable alternative.
+ So what are some of the new model solutions
+ China or otherwise
+ that companies are starting to look towards?
+ Well, the first thing that we should note
+ is the Chinese labs themselves
+ are certainly taking advantage
+ of this particular moment.
+ Right around the same time that Fable came out
+ we got Kimi 2.7 code.
+ The official account wrote,
+ Kimi K 2.7 code, our latest coding model
+ is now released in open sourced.
+ Compared to 2.6, it saw about a 22% improvement
+ on Kimi code bench V2, 11% on program bench.
+ They also argued that it had new reasoning efficiency
+ with 30% lower reasoning token usage
+ compared to 2.6.
+ Clearly cost is a consideration
+ both in terms of raw per token cost
+ but also in terms of efficiency
+ and how many tokens a model uses to solve a problem.
+ Unfortunately for many who tried it
+ it seemed like the benchmarks
+ didn't totally match the reality.
+ As opposed to some past Kimi models
+ people aren't really raving about this one yet
+ and are finding some issues.
+ VentureBeat argued that while teams
+ who are using K 2.6 in production right now
+ can swap in 2.7 code
+ and immediately expect lower inference costs
+ for people who aren't using Kimi
+ this won't necessarily be the reason to switch over.
+ Putting a fine point on that
+ on the agent arena leaderboard,
+ 2.7 code ranked 19th overall
+ and only sixth among open models.
+ Another model that's getting some buzz
+ in the last 24 hours or so
+ is called Vibe Thinker 3B from WebO AI.
+ And this one has people talking
+ because of the ease with which
+ you can actually run it on local hardware.
+ Orcus 108 wrote,
+ what is happening in AI?
+ A three billion parameter model
+ just put up coding benchmark scores
+ in the same league as Claude Opus 4.5.
+ Three billion.
+ The weights are on hugging face,
+ anyone can test it.
+ I genuinely don't know if this is a breakthrough
+ or if the benchmarks are broken.
+ Now I don't want to assume everyone knows
+ what a three billion parameter model is
+ but TLDR it's very, very small.
+ The frontier models are now well
+ into the trillions of parameters.
+ So you're talking about something
+ that is a tiny fraction of the size.
+ Now it seems like what's going on here
+ is that this is super tuned for reasoning
+ and really bad at knowledge.
+ Software engineer Drew Black wrote,
+ this is territory I started researching too.
+ It's great to see something out in the wild.
+ Take a small model
+ and crank its reasoning power up to 11.
+ Then knowledge can live outside the model in a database.
+ Something like this reduces the hardware
+ and power requirements needed to run it.
+ Humans don't know everything all the time
+ so why should an AI model?
+ It just needs the intelligence to figure things out.
+ So once again, here we have something
+ that is not really at this stage for enterprises
+ but is all pointing in this similar trajectory
+ of the viability of smaller
+ and open models running on local hardware.
+ The Chinese open model getting the most buzz right now
+ by far is ZAI's GLM 5.2.
+ Bridgemind AI wrote,
+ two days ago the US band clawed Fable 5.
+ Yesterday China dropped GLM 5.2.
+ Today GLM 5.2 is number one on Bridgebench
+ and number one on reasoning beating Fable 5
+ at one-tenth of the cost and 300 tokens per second.
+ You cannot export control your way
+ out of an open source race.
+ The ban didn't slow China down.
+ Indeed a lot of the early coverage
+ has been around GLM 5.2 beating models like GPT-55
+ on a variety of highly valuable tasks
+ including long horizon coding tasks
+ for a fraction of the cost.
+ On the front end code arena,
+ arena.ai found GLM 5.2 behind Fable 5
+ but ahead of all the opus models
+ and on design arena,
+ GLM 5.2 even went ahead of Fable 5.
+ Now in some tests,
+ there was evidence at least a little bit
+ of benchmark maxing.
+ In other words,
+ where a model is specifically tuned
+ to try to do well on benchmarks
+ for exactly the sort of first impression.
+ AI entrepreneur Bindu Reddy wrote,
+ GLM 5.2 is mind-blowingly good on benchmarks.
+ Yes, it even beats opus 4.8 and GPT-55 on some of them.
+ However, it is also benchmarks.
+ Internal evals have it behind them.
+ Still a huge win for open source AI.
+ And when it came specifically
+ to certain use cases like design,
+ a lot of folks are sharing examples
+ where you don't have to trust the benchmarks
+ and you can just see it with your own two eyes.
+ Hassan from Together wrote,
+ this model is insane at design.
+ I asked GLM 5.2 and opus 4.8 to build me a landing page
+ and you can't even tell the difference.
+ GLM costs six cents while opus costs 49 cents,
+ more than 6x cheaper while being faster
+ and more token efficient.
+ Another win for open source AI.
+ Now, obviously there is a lot of talk
+ about this model being distilled from Anthropic.
+ Pete Cooper wrote,
+ GLM 5.2 is absolutely convinced
+ that it is actually clawed.
+ When I tell it that it's GLM 5.2,
+ it refuses to believe me.
+ So the argument here is not that all of a sudden
+ everyone is going to run out
+ and start using GLM 5.2,
+ but that there is more consideration
+ for doing so than there ever has been
+ because of the gap left by Fable 5.
+ G-Money wrote,
+ is anyone running GLM 5.2 locally on a Mac Studio?
+ How is it?
+ Seriously considering a Mac Studio for the first time now.
+ Now, when it comes to actual changes in enterprise behavior,
+ the maybe bigger news is that Microsoft
+ is apparently considering using
+ a locally hosted fine tune of DeepSeq V4
+ to power co-pilot co-work.
+ Microsoft, as we know, has moved co-work
+ to usage-based pricing
+ and is thus looking for a way to provide
+ cheaper access to their enterprise customers.
+ Based on Axios reporting,
+ it seems like Microsoft isn't just fixated on DeepSeq.
+ They're trying a variety of open source models
+ as lower cost alternative to the models
+ that are coming out of Anthropic and OpenAI.
+ At the same time, this doesn't seem
+ like a theoretical plan.
+ With Axios reporting that Microsoft says it expects
+ to make a lower cost model available
+ in the coming weeks.
+ Reporter Deirdre Bosa wrote,
+ was only a matter of time,
+ DeepSeq already hosted on hyperscalar cloud
+ since last year.
+ Microsoft moving closer to it for enterprise
+ just normalizes DeepSeq
+ and gives cover for others to embrace
+ and adopt it, which is already happening.
+ Bigger question, does this give the Chinese stack
+ a foot in the door in the U.S.
+ since DeepSeq is optimizing for Huawei chips?
+ As an aside, Gail Wiener pointed out
+ the absolute irony of this
+ when it comes to U.S. policy.
+ The U.S. government bans Fable 5
+ and Mythos 5 worldwide
+ because frontier models are too dangerous
+ to let foreigners touch,
+ won't even exempt the U.K.
+ because the threat model says
+ the weights themselves are a national security asset.
+ And simultaneously the most deeply embedded
+ U.S. enterprise software company on Earth
+ quietly fine-tunes a Chinese model
+ and prepares to ship it inside the productivity stack
+ of every Fortune 500 that runs Microsoft 365.
+ Importantly though, it's not just raw Chinese models
+ that are potentially changing the business AI landscape.
+ One of the models that we've talked about most recently,
+ specifically around the token efficiency question
+ is Cursor's Composer 2.5.
+ Now this one was built on a foundation
+ of one of the Kimi models,
+ but was post-trained to be specifically good
+ at coding tasks with very impressive results
+ in the benchmarks, scoring up in the range
+ of Opus 47 and GPT-55.
+ Now of course the most important thing
+ is not just the benchmark scores,
+ but the fact that it does so at a fraction of the cost
+ of either of those comparable models.
+ And now that it's been a couple of weeks,
+ we're starting to get reports from the ground
+ around how good Composer is in practice,
+ not just on the benchmarks.
+ Talking about his experience with Composer 2.5,
+ Ryan Shah wrote,
+ I haven't bothered with anything else in weeks,
+ stronger than 55 medium oftentimes,
+ even though I know nobody believes me.
+ Engineer Yasser writes,
+ Composer 2.5, for a dollar it scored 65%,
+ Fable for $12 it scored 70%.
+ Why would I use Fable for only a 5% increase
+ and pay 12 acts the price?
+ And yet of course this has not been everyone's experience.
+ Ethan Novak wrote,
+ we're trying out Cursor's Composer 2.5,
+ results are not what I expected.
+ I found the model in directly changing files
+ and items without my approval.
+ Opus 48 doesn't go on a rogue UI overhaul
+ off one prompt versus Composer.
+ Many people told me to try it for UI,
+ but I'm not seeing effective results.
+ And after artificial analysis updated its benchmarks
+ to be more focused on agentic coding tasks,
+ throwing out some of the more saturated benchmarks,
+ Composer 2.5 fell fairly significantly,
+ being closer to the open Chinese models like GLM 5.1
+ as compared to where it previously was
+ around GBT55 and Opus 47.
+ Now another interesting experiment
+ that has a lot of people excited
+ is OpenRouter's Fusion API.
+ They're calling it the smartest compound model
+ in the market, achieving fable level intelligence
+ at half the price.
+ OpenRouter writes,
+ we benchmarked Fusion on 100 hard research tasks
+ and found one, panels of model consistently
+ outperform individual models.
+ Two, beyond frontier performance
+ can be achieved with frontier panels.
+ And three, panels of budget models
+ can surpass frontier models at a much lower cost.
+ So basically what you have here
+ is an API that routes model tasks more automatically
+ and performs better or comparable
+ to state-of-the-art models based on that routing.
+ Explaining how it works, they write,
+ when you send a prompt to Fusion,
+ we fan it out to a panel of models in parallel,
+ each with web search and bash tools enabled.
+ A judge model reads every response
+ and extracts the structure.
+ Then a synthesizer writes the final answer
+ grounded in that analysis.
+ Shadu Mathew wrote,
+ this seems to be pretty huge and validates the future
+ where each model will be called upon
+ to do the specific tasks that they excel at
+ for intelligence versus cost trade-offs
+ versus all other models.
+ As each lab further gets better at specific tasks,
+ this will become more of the default
+ assuming labs and model providers allow for this.
+ Multi-model becomes the default
+ and model panels or councils are the way.
+ Investor Anisha Charya writes,
+ been saying for a bit that this compound architecture
+ makes sense for both aggregators and labs.
+ Model consumers want the right capability
+ and cost controls on a per task
+ and even perhaps per token basis.
+ Labs need to protect otherwise depreciating model assets
+ and one way to do it is to selectively expose
+ new features via specific token paths.
+ E.g. I've long thought slash ultra code
+ was a mythos class model exposed via 4.x.
+ The compound workflow matches the way many of us work
+ which is using adversarial models
+ to generate review, iterate, and test.
+ More generally, where all this is going feels
+ like it will be labs vertically integrating
+ to sell capabilities so that they can capture
+ the downstream economics from their models
+ without exposing them to distillation.
+ Which brings me to one of the most interesting experiments
+ where some of these ideas are being put into practice
+ which is around Harvey.
+ Explaining the background,
+ Harvey president and co-founder Gabe Perriero wrote,
+ the belief a few months ago
+ was that model costs were having every six months
+ meaning tokens would get cheap
+ and so application layer companies
+ would need to find a way to charge for the value of tokens
+ by selling the worker services.
+ What actually happened is AI got much more expensive
+ than people realized at the time.
+ The shift from chat to agents led to an explosion in costs.
+ One user could trigger hundreds of agents
+ and each of those agents could trigger more agents.
+ Agents started running longer and more autonomously.
+ On top of that, frontier models like mythos
+ are getting more expensive, not less.
+ The problem for application layer companies like Harvey
+ is how do you take that large token cost
+ and convert it into something useful for your customers?
+ A rough analogy is every company is about to get
+ the ability to hire infinite employees.
+ The main challenge is going to be figuring out
+ how to manage those employees
+ and make your business model work
+ the same way it did with human employees.
+ For Harvey, this means we don't have
+ to become a services company.
+ The infrastructure for every law firm to deploy,
+ train and manage a large number of agents
+ is going to be so complex that model
+ and cloud providers and law firms
+ likely won't build all of it.
+ Now this stuff tells perfectly with an experiment
+ that Harvey recently discussed
+ where they worked with fireworks
+ to build a worker advisor agent.
+ The idea as described by head of applied research, Niko,
+ is that an open weight, in this case, GLM 5.1 worker
+ delegates high stakes and complex tasks
+ to a closed frontier advisor.
+ With their tests, this was Opus 4.7.
+ This combination of models,
+ not only allowed them to do things much more cheaply
+ than just using Opus 4.7,
+ but actually got increased performance as well.
+ Patrick Ojo writes,
+ the insight isn't that open source beat frontier,
+ it's that smart routing beat brute force.
+ Using the most expensive model for every task
+ is not a quality strategy, it's a laziness task.
+ The teams building routing layers
+ that send each task to the right model
+ at the right cost are now demonstrably ahead
+ on both dimensions simultaneously.
+ Inference optimization just became
+ a first class competitive advantage.
+ Now Harvey says that this is just the beginning
+ of their experimentation with models,
+ and I think that they are going to be the vanguard
+ for something that lots of others
+ start experimenting with as well.
+ We don't know when Fable is coming back.
+ What's clear is that as powerful as it is,
+ in a world where frontier costs continue to go up,
+ companies are simply going to have to start
+ to get more sophisticated about the combinations
+ of models they use to get the best results.
+ If we are looking for a bright side
+ to what is an incredibly confusing and chaotic situation,
+ it's that it puts more emphasis on the point
+ that this sort of inference optimization
+ and token efficiency exploration
+ was coming for us no matter what.
+ And now companies have more of a chance
+ to get ahead of it than they might have otherwise had
+ when everyone could just get lost
+ in the sauce of the glory of Fable 5.
+ Anyways, interesting trends to continue to watch.
+ For now, that's gonna do it for the AI Daily Brief.
+ Appreciate you listening or watching as always,
+ and until next time, peace.
