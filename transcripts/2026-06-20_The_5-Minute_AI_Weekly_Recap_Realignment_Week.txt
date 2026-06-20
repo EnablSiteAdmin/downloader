@@ -1,0 +1,132 @@
+ Today on the 5-Minute AI Weekly Recap, why this week was Realignment Week, the AI Daily
+ Brief is a daily podcast and video about the most important news and discussions in AI.
+ Alright friends, back with another 5-Minute Weekly Recap for very, very busy people.
+ Hopefully this helps you regular listeners who were particularly busy this week catch
+ up.
+ And if you have friends, colleagues, family who need to view into what is happening
+ but don't have time for a daily show, send them this one.
+ But very rarely do we have weeks that have as consistent and clear a theme as we did
+ this week, which was the realignment of the entire AI industry.
+ Two big things happened last Friday, right after the time that I was recording the weekly
+ recap.
+ The first was the SpaceX IPO, which we had seen an initial bump as it went public on
+ Friday afternoon, but then the second, and arguably much bigger deal, was Anthropics suspending
+ access to Fable 5 and Mythos 5 in response to a new US export control directive.
+ Both of these contributed to or were part of the realignment this week and for sure the
+ dominant theme was Fable Fallout.
+ Now to fast forward to the conclusion, throughout most of the week we haven't necessarily
+ had all of the best signs that Fable 5 was coming back anytime soon.
+ I think a lot of people expected that with the effective banning happening at the end
+ of business on Friday, the White House had an interest in getting it back online
+ by Monday but that certainly wasn't the case.
+ Now as I record this on Friday June 19th, we are getting some positive signals but
+ at this point there is no resolution.
+ Then what this week was mostly about was another lesson of why people and companies
+ need to think about their relationship with AI models differently.
+ Now this had already started because of growing token costs at the frontier.
+ One of the biggest themes for the last few weeks has been people exploring
+ alternative models and alternative model architecture such as routers.
+ The fact that now models are seen as powerful enough that they can be shut down
+ at random by the government adds a whole new category of risk of overbuilding
+ your strategy around one single model.
+ And a lot flowed into that vacuum this week.
+ One category of that was Chinese models.
+ Indeed one of the big critiques from people who are worried about this move from
+ the White House is that it seems to be a complete boon for open source or
+ open weight Chinese models that people were already looking to because of cost
+ benefits but now are potentially looking to because they can run them locally or
+ have more control.
+ Z.AI meanwhile timed their release of GLM 5.2 perfectly.
+ It did well on all the benchmarks but more than that it seems to for
+ many be passing the vibe test.
+ Layton space summed up the average experience with these new buzzy Chinese
+ models writing in the AI news business there's a bit of trepidation about
+ talking about open models.
+ They come out guns blazing looking pretty unnotable benchmarks and then a month
+ later they fade into disuse like they never existed.
+ GLM 5.2 however they say seems to pass the vibe check of being a frontier
+ model that just happens to be open.
+ They pointed to a tweet from Jeremy Howard who is as they put it not one
+ given a hype who said GLM 5.2 is a marvel it is at least as good as
+ Opus 4.8 and GPT 5.5 it's super fast and expensive and not too verbose.
+ It responds with nuance and judgment and handles long context very well.
+ I've never experienced an open weights model like this before.
+ Matt Pocock wrote folks who are running GLM 5.2 how are you doing it?
+ What harness and provider are you using?
+ Getting FOMO about an open weights model for the first time.
+ AI educator Riley Brown wrote spent a lot of time using GLM 5.2.
+ I've always been skeptical of the open models as they've never lived up
+ to the benchmarks and announcements.
+ This is the first model that passes the vibe check.
+ This feels like a deep seek R1 moment that will push the frontier labs
+ into releasing even better models.
+ Time to buy a beast computer to run these models on.
+ But as I said, it wasn't just Chinese models that were filling
+ in the fable gap, but also new model architectures.
+ Open Router, for example, released their new Fusion API,
+ which they say can achieve fable level intelligence
+ at half the price.
+ Basically, the way that Fusion works
+ is when a prompt is sent into Fusion,
+ it's found out to a panel of models in parallel
+ with a judge model that reads every response
+ and then selects the right model for the job.
+ This is an example of the type of approach
+ that people were already exploring
+ because of token efficiency and cost needs,
+ but now in the days of government AI shutdowns,
+ seems even more valuable.
+ Summing up the feeling of the shift overall
+ is Mike Omingnano from USV who writes,
+ for the first time in around three years,
+ it feels like the AI table has been flipped over.
+ Yes, the labs and hyperscalers will have the highest chance
+ of resetting it before everyone else,
+ but there is now a window for a new ecosystem to emerge.
+ A Rebel Alliance, basically anything that gives people
+ an enterprise's powerful intelligence
+ while maintaining tight incentive alignment.
+ Now this is interestingly where SpaceX
+ story intersects as well.
+ SpaceX's big pop on Friday extended into this week
+ and holding aside the merits of the company's valuation,
+ it gives them leverage
+ and Elon is taking advantage of that.
+ Specifically, SpaceX actually followed through
+ with the acquisition of Cursor,
+ which could have some pretty big implication for models.
+ Cursor indicated that it's got a full model,
+ not just a post train of a Chinese version coming,
+ so I'll be looking for signals
+ about how they plan on competing.
+ Now tied up with Elon and SpaceX,
+ they could go two very different routes.
+ They could continue trying to live at this Pareto frontier
+ between efficiency and performance
+ or Elon's eyes might get big again
+ and maybe they try to actually compete
+ for state of the art, even if it's expensive.
+ Meanwhile, the one other area of fable fallout
+ that was on display this week was in geopolitics.
+ As European leaders at the G7 were caught
+ between begging for access to mythos slash fable
+ while also trying to plan a new AI sovereign path.
+ What to watch for next week then?
+ Well, of course there has never been
+ a more obvious what to watch.
+ Everyone just wants to know if we will get fable back.
+ And in terms of what to work on
+ or build this weekend,
+ the conversation about loops
+ and the different way of interacting with AI
+ they represent is getting louder once again on Twitter.
+ Future forwards Matthew Berman
+ just launched something that he calls loop library
+ which I'll link to in the show notes
+ and gives you a bunch of different copyable loops
+ including for functions outside of engineering
+ that you can go try and play with.
+ So that's it for this week in AI
+ for very busy people or the five minute AI week.
+ Hope you have a great weekend
+ and see you back here for an operator's cut tomorrow.
