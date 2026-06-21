@@ -1,0 +1,1106 @@
+ Today on the AI Daily Brief, how and why to use local AI.
+ The AI Daily Brief is a daily podcast and video about the most important news and discussions
+ in AI.
+ All right, friends, quick announcements before we dive in.
+ First of all, thank you to today's sponsors, robots and pencils, section, mission cloud
+ and out systems.
+ To get an ad for a version of the show, go to patreon.com.ai daily brief or you can
+ subscribe on Apple podcasts.
+ To learn more about sponsoring the show, visit aidealybrief.ai slash sponsors or you can email
+ us at sponsors at aidealybrief.ai.
+ To learn more about the new executive agent training program that NewFar mentioned at
+ the end of this episode, go to training.besuper.ai.
+ And yes, we are back with another NewFar operators cut.
+ Specifically, this week, the conversation has been so much about the changing composition
+ of enterprise AI strategy or just business AI strategy in general, as people deal with
+ one, rising costs from agent work loads and two, the new reality that our AI can be turned
+ off on a whim at any moment.
+ And yet there is a chasm between the idea of using alternatives to the major models and
+ actually being able to do so.
+ And so what NewFar is presented today is a primer that's going to give you a background
+ understanding of a lot of the key concepts, terms and steps you would need to take
+ to even explore thinking in this new way.
+ All right.
+ NewFar, welcome back to the Daily Brief.
+ How's it going?
+ Good.
+ How are you?
+ Good.
+ So we are at the transition point moment.
+ I hope fingers crossed by the time this airs, although I'm not super optimistic, but fingers
+ crossed we might be playing with Fable 5 again.
+ But I think that this week, as I've been discussing all week, has shown why investing
+ only in the biggest model or the best model is not necessarily the best strategy.
+ On Thursday's episode from last week, I talked about what the alternative models and
+ model approaches that companies are starting to think through.
+ But there is a huge gap between just shifting thinking from Fable 5 to some
+ other type of model to understanding what that actually takes.
+ And that's the gap that you are going to fill in, at least on a basic or high
+ level for us today.
+ I'll do my best.
+ All right.
+ So I do think that there is a big gap between saying open source and fully understanding
+ the implications and deciding whether you should go and buy a hardware for your
+ company.
+ There is a lot of understanding that needs to be done of what it all means.
+ So today I'll try to give a very practical overview of why you should care
+ about open source and why you should care about running models locally.
+ In practice, it will also include how can you do it and for whom it might
+ be relevant.
+ So just a quick recap of the perfect storm that makes open source so
+ important nowadays in my own words.
+ So the first force that I see is the cost axis.
+ Everybody is talking about tokens, the cost, and how to maximize value while
+ minimizing the cost or optimization of the cost.
+ Anyway, a lot of conversation around tokens, that's for a good reason.
+ But for the most part, it's becoming more and more expensive.
+ Just a few examples that I'm sure many of you have encountered,
+ the price growth of GPT, the release of Opus 4.7 that changed the tokenizer
+ and all of a sudden companies who hasn't made any change to their prompts
+ has a bill that increased in sometimes 35%.
+ And we're seeing more and more companies leaning towards
+ agent work flows and as such, these harnesses are also a huge cost multipliers.
+ So the thing is that many individuals and companies are more than willing
+ to pay the price if the return is justified.
+ And we're all very excited and pleased to know that there
+ is a new player in the block, namely Fable 5.
+ And then as we all know, it was shut down and we're still kind of waiting
+ to understand the events and maybe by the time it is,
+ your optimism is going to be in motion and we're going to have Fable 5 back.
+ But I think that the eye is becoming increasingly more volatile
+ because of the geopolitical forces.
+ So theoretically, we said it before, but I think that seeing that in action
+ and realizing that all of a sudden you might have a high dependency
+ on a single vendor that can be shut down by a government
+ that create a new category of dependency risk
+ that we all need to start thinking about how to alleviate it.
+ So beyond these two, there's also a third force
+ and we should definitely keep paying attention to the fact
+ that there is a capacity issue.
+ And data centers are being built at a very fierce pace.
+ However, the usage is going even faster
+ and we may be heading towards a world where it's not just about the cost.
+ It's about whether you can even get access to sufficient compute when you need it.
+ So many companies and individuals have hardware
+ that is just sitting idle that could serve their AI tasks.
+ So that's an untapped resource,
+ while the resource that they do tap into might become even more scarce.
+ For reference here, every estimate that I've seen,
+ if you watch just sort of leaders from TSMC or from NVIDIA
+ or anyone, they're all predicting capacity shortages
+ at least through the end of the decade.
+ No one is looking at earlier than 2030.
+ And that might be optimistic just based on the difference in the speed
+ that demand is growing versus capacity is growing.
+ So this is why cost is not just a current issue.
+ It is a leading indicator of a much bigger cost issue in my estimation.
+ I agree.
+ And one more twist to add on that is that even if you are contemplating
+ buying hardware for home or for your company,
+ the hardware itself is increasingly becoming more and more expensive.
+ A lot of it is because of memory shortage.
+ That means that there is a supply chain issue
+ that will not become even better anytime soon.
+ So even if you are contemplating buying,
+ there is something to say for buying sooner rather than later
+ because the costs keep going up and up even for the purchase option.
+ So if I put together all of these sources,
+ I think that what we should all start thinking about
+ is that local AI deployment of open source models on a hardware
+ that you own is very much like building a shelter for your AI capability
+ or the equivalent of the AI bomb shelter that you should consider.
+ Obviously, on the one hand,
+ it keeps you safe from all of the forces that we just name.
+ We also are the owner of your data.
+ You have availability during outages
+ if you have a fully local deployment.
+ On the other hand, it comes with an overhead
+ and you might save on tokens,
+ but you will spend on maintenance, updates,
+ hardware and the people who keep it running.
+ So we'll talk more about it towards the end.
+ But if you are paying a cloud vendor,
+ often all of these costs and implications are hidden
+ across a very well operationalized company.
+ So if you are contemplating bringing it home,
+ it's very important that you understand all of the implications.
+ And that's what we're trying to do today.
+ And namely, I want to meet you where you are
+ because I think that everybody should care
+ whether you are an executive
+ that is steering your company's strategy and vendor decisions,
+ whether you are a practitioner
+ that will drive the actual productization and deployment of local AI
+ or just an enthusiast that wants to experiment
+ and then consider running at least some of your workloads
+ on local models to save costs or just to be more self-sufficient.
+ So bottom line, it's everybody, but I wonder what you think.
+ Yeah, so I think that one of the biggest ways
+ that AI differs from previous technology that I've seen is
+ it's always a priority when there's a new technology movement
+ for companies to come in and reduce complexity as fast as possible.
+ And what's been interesting is that with AI,
+ the market of people who want to actually understand the guts of these systems
+ and really get in there and figure them out, I think is much bigger.
+ It's not just the sort of traditional addressable market
+ of people who are any of these category
+ or the practitioners or executives or IT people.
+ And I think Open Claw is a great example of this.
+ Open Claw became a phenomenon not because
+ there were so many people already in the IT or so many developers
+ who were using it because there was 8000 people
+ who ended up doing clock amp within the first month.
+ And the vast majority of them weren't even technical to start.
+ So this is kind of the same spirit where I don't anticipate
+ I think 99% of people who listen to this episode
+ will not race out to go build something.
+ But it's a blueprint.
+ It'll help you understand the systems you're working with.
+ And I guarantee it'll help you understand even the systems
+ where all of these parts of things are obviated in behind the scenes.
+ So that's why I wanted to put it on the show,
+ especially right now as everyone's paying attention,
+ is that I think the market of people for whom it's applicable
+ is much wider than it might seem.
+ And what it is to be, I agree.
+ All right, so let's dive right in.
+ But before, a very quick and important distinction
+ just to make sure that we are all on the same page.
+ With AI, we have two phases that require very different hardware.
+ In the training phase, we're building the model from scratch.
+ This is what the labs do.
+ It's why they need billion-dollar data center
+ and tens of thousands of specialized chips.
+ It's not what we're talking about today.
+ You shouldn't care as an AI enthusiast
+ about what open AI or entropic orders
+ are doing with their massive data centers.
+ You should care about inference.
+ This is where you use the model
+ that was already built by the various AI labs
+ asking it questions, getting answers
+ and empowering the brains of your agents.
+ So everything in this episode is all around the inference,
+ running a pre-built model on your own hardware.
+ And the hardware requirements for inference
+ are dramatically lower than for training.
+ That's why we are all able to now consider doing that
+ on our own laptop or the hardware that we have lying around.
+ A quick note.
+ I'm going to simplify in places throughout the episode.
+ There are many technical nuances that matter for engineers
+ but would just be noise for many of the other parts of the audience.
+ So if you are an infrastructure professional,
+ I'm sure that you will identify all the areas
+ where I'm kind of cutting corners
+ and you'll also know why it's okay that I'm doing that
+ and will forgive me.
+ That's my disclaimer.
+ All right, so if I'm going back
+ to the bomb shelter analogy,
+ you don't have to go and build a full bunker on day one
+ because there are four levels from takes 10 minutes
+ still cloud all the way to fully on your hardware
+ no internet needed.
+ And I want to walk you through each one
+ and maybe you will find what's the right place for you to be.
+ So at level one, that's the simplest first step.
+ You can use a routing service like OpenRouter
+ that sits between you and all the major provider.
+ You have one account, you have one interface
+ and it connects you to 400 or more models
+ across more than 60 providers.
+ And this gives you, first of all, a mix and match by task.
+ You can route complex reasoning to one provider.
+ You can kind of very quickly do another routing
+ to a simpler model.
+ You can optimize cost versus quality per workflow.
+ So you don't have to have a contract per vendor
+ and you also don't have a vendor lock-in
+ and you can switch models or providers
+ whenever there is something new
+ or maybe something happened that caused you to
+ and want to consider moving between vendors.
+ You also have a very good cost transparency.
+ So you can compare side by side
+ and then select the model that works best
+ for your own workflows.
+ And of course, if there is some kind of outage
+ or problem with one vendor,
+ you can enable an automatic failover to another one
+ which makes it more robust.
+ And lastly, of course, you can experiment with models
+ to decide whether there is a new kid on the block
+ that is catching your attention and you want to swap to that.
+ The trade-off for working with something like that
+ is that the data still leaves your network,
+ you are still cloud dependent
+ and you're still paying quite a lot to a third party
+ but you are not dependent on a single vendor.
+ And obviously, open router is not the only alternative.
+ It's just the most popular one.
+ There are other alternatives like a Lite LLM.
+ If you want more of a router that is self-hosted
+ on your own machine,
+ you have port key for enterprise governance
+ and others just to name a few.
+ Same concept, one interface to many providers
+ with an automatic failover, very quickly to set up.
+ The level two is if your organization is already
+ on some kind of a cloud, whether it's AWS, Google, Azure,
+ and so on, this level uses what you have.
+ So we all heard or maybe are using services like AWS Bedrock,
+ Google Vertex, Azure AI Foundry, and so on.
+ They all let you run several vendors on your own cloud
+ and they all let you run also open source models
+ in a way that is secure, compliant
+ and in a place that you're already
+ most likely operate anyway.
+ That means that your data stays
+ within your own virtual private cloud
+ and for the most part it's gonna be easier
+ to approve that with your own security.
+ You have two ways.
+ You can use the commercial models
+ or you can use them for open source as noted.
+ And I think that this is the path
+ where most large enterprises are already taking
+ or will be taking first whether they're starting
+ to contemplate experimenting
+ with more open source models just to see the option.
+ And then we have an option that is not for the faint of heart
+ which is to self host a cloud.
+ It takes everything that we just discussed
+ one step further.
+ So instead of using a managed server
+ like the ones that we mentioned, you rent a GPU
+ and you install your own model, your own serving
+ will explain what it means in a minute.
+ That means that you don't have any platform,
+ no restrictions and you get to do everything good, bad, ugly.
+ So for most organizations, this is not very practical
+ because it requires a lot of infrastructure engineering.
+ One that know how to work with GPU drivers,
+ work well with containers and many other engineering words
+ but for teams that have that capability
+ it gives maximum flexibility
+ and often it's probably the lowest per query cost
+ at high volume.
+ Again, given that you know how to manage
+ your own bare cloud without any help
+ from the cloud providers.
+ And lastly, this is where you go fully local.
+ That means that everything is on a hardware
+ that you physically control, no internet is needed
+ after the initial model download,
+ no model in the loop at all.
+ And this is where we'll spend most of the rest
+ of the episode to walk you through what it means
+ to deploy AI fully locally
+ because I think that's where most of the learning lives
+ and that's the level that will truly survive
+ any internet outage, export control
+ or vendor going dark or I don't know
+ what's gonna be the future
+ but you have full control with that level.
+ By the way, that's not where I think
+ that everybody should start here.
+ I think that if you are an enterprise
+ you should probably start at level one immediately,
+ evaluate level two for a sensitive workload
+ and you can build toward level four
+ if you have capabilities that must survive
+ all of these disruptions.
+ Of course, that's also the level
+ where many of the individual practitioners
+ can live and build for ourselves
+ and many people are already doing that
+ and we'll focus on that level from here on after.
+ So it's a stack of five layers to go fully local
+ and they all matter.
+ At the bottom we have the hardware
+ where physically do we run our AI
+ then we have the model
+ what is the intelligence that is being loaded
+ then we have the serving layer
+ what software make it available
+ then we have the agent harness
+ or the user interface
+ what orchestrate the action
+ and the very top we have the fully user facing
+ what you actually see
+ and what you actually interact with.
+ So I wanted to go from bottom to the top
+ to make sure that you understand
+ how to do it for yourself
+ or at least as mentioned talk the talk.
+ So layer one is the hardware
+ and the question is where does it physically run?
+ Just going very quickly to the basics
+ because this matters
+ your computer has two types of brains
+ you have the CPU and you have the GPU
+ the CPU is the general purpose chip
+ that runs your operating system
+ the browser, the email
+ every computer has one
+ it can run AI models
+ but typically more slowly
+ because it wasn't designed
+ for this kind of mathematical operations.
+ Then we have the GPU
+ which stands for Graphic Processing Unit
+ originally built for gaming and video
+ but it turns out that the same architecture
+ is perfect for AI.
+ So GPUs do thousands of simple calculations simultaneously
+ which is exactly what's running an AI model requires
+ so GPU is typically what you need
+ and the key number that truly makes a difference
+ is the memory
+ specifically how much memory your GPU has
+ called VRAM
+ and the entire model needs to fit in this memory
+ if you want to have a usable speed
+ if it doesn't fit
+ the system typically falls back
+ to using regular memory through the CPU
+ and everything slows down dramatically
+ just very quick hardware simplification.
+ All right, so what does it mean for different machines?
+ If I have a regular laptop like the PC that I have
+ I don't have any gaming graphic cards
+ I don't have so much memory
+ I can run on my own laptop
+ small models through the CPU
+ it's gonna be quite slow
+ but still functional for simple things
+ primarily to learn and experiment
+ so that's gonna be like the small stuff
+ if however you have a Mac with an Apple Silicon
+ then you have a CPU and GPU
+ that share the same memory pool
+ so your Mac can probably run
+ even large models
+ and that's why Macs have become so popular
+ for local AI
+ and as a result most of them are very hard
+ to come across nowadays.
+ Another great option
+ is if you have a desktop with gaming GPU
+ that's gonna have a dedicated graphic card
+ with sufficient memory
+ it's not gonna come cheap
+ it's gonna come around $2,000
+ that's probably the sweet spot
+ because that can run between medium to large models
+ at a very good speed
+ we also have some interesting offering from Nvidia
+ around this category
+ but you also have the option
+ to run stuff on a phone or a tablet
+ so very small models can run
+ even on your old Android machine
+ so don't be very hasty to throw away old hardware
+ Lastly, a server with enterprise GPUs
+ can run any model well
+ but the cost structure is very simple
+ I'm gonna explain what
+ when you see these numbers of parameters and so on in a minute
+ but for now think about the t-shirt sizes
+ meaning that your hardware determines the largest size
+ that you can wear
+ or the largest model that you can run
+ and typically how smart
+ or how sophisticated the use cases that you have in place
+ Okay, so prices are quite diverse
+ they spend $700 if you wanna buy at the low end
+ some kind of a used high memory graphic card
+ for an existing desktop
+ that gets you to medium size model
+ and that's gonna cost you less than $1,000
+ at the mid-range you will have $3,000 to $5,000
+ that will buy purposefully build AI appliance
+ from Nvidia or AMD
+ and the cost keep going up and up
+ if you're contemplating that's a category
+ that becomes expensive as we go along
+ and at the high end you have these numbers
+ and if we're talking about purchasing a server
+ for a company where like it's a completely
+ different degree of orders
+ a few things to know before you go and pull a credit card
+ first of all as I mentioned
+ the Apple products have a massive wait times right now
+ because of the memory shortage
+ so it can be even month
+ second you may not need to buy anything
+ you can just start with the hardware
+ that you already have lying around
+ answer the ROI question like
+ do you have a justification to go and buy a hardware
+ or do you have a use case that you are able to run locally
+ to satisfaction and you will not default back
+ to paying the cloud vendors sooner rather than later
+ only to have this very expensive
+ or fairly expensive hardware lying at home
+ or at your office not being used
+ and of course if you are working in a regulated industry
+ where compliance prohibits sending data
+ to a third party API
+ local may be a requirement and not a choice
+ but if this is the case you have to be honest
+ because a machine on your own network
+ is not necessarily more secure
+ than a well configured cloud API
+ so the security argument is strongest
+ if you truly are not connected to the internet
+ and no one can infiltrate your network
+ but if you are connected to the internet
+ it's not necessarily the stuff that you have
+ within your walls of your company
+ are more secure than what those cloud providers
+ are doing for you in order to secure you
+ from cyber attacks
+ how different the enterprise costs
+ if you want to buy a server for your data center
+ it starts with a quarter of a million dollars
+ so completely different bulge
+ I cover the capability gap between AI potential
+ and AI reality every day on the show
+ most companies are still figuring out how to start
+ robots and pencils is already launching and scaling
+ a genetic and generative AI in production
+ at large enterprises in weeks
+ AWS advanced tier pattern partner
+ and they're hiring
+ 50 open roles
+ if you're someone who knows this moment is different
+ who wants to be inside it not watching it
+ this is worth a look
+ at robots and pencils the best ideas win
+ and the team is purposefully kept super high quality
+ this is the kind of place you look back on
+ as the best decision you ever made
+ take a look at robotsandpencils.com slash careers
+ here's a harsh truth
+ your company is probably spending thousands
+ or millions of dollars on AI tools
+ that are being massively underutilized
+ half of companies have AI tools
+ but only 12% use them for business value
+ most employees are still using AI
+ to summarize meeting notes
+ if you're the one responsible for AI adoption
+ at your company you need section
+ section is a platform that helps you manage AI transformation
+ across your entire organization
+ it coaches employees on real use cases
+ tracks who's using AI for business impact
+ and shows you exactly where AI is
+ and isn't creating value
+ the result you go from rolling out tools
+ to driving measurable AI value
+ your employees move from meeting summaries
+ to solving actual business problems
+ and you can prove the ROI
+ stop guessing if your AI investment is working
+ check out section at sectionai.com
+ that's S-E-C-T-I-O-N-A-I dot com
+ the average enterprise is spending
+ 11 and a half million dollars on AI this year
+ and most of them can't prove a single dollar came back
+ what does AI actually look like when it produces ROI
+ ask the healthcare company
+ that just made their payment processing 320 times faster
+ or the law firm whose document research
+ went from three months to 10 minutes
+ or the contact center who reduced wait times by 99%
+ these are real mission cloud customers with real results
+ mission cloud is a CDW company
+ and an AWS premiere to your partner
+ they're the AI first outcome obsessed AWS experts
+ who build AI solutions that drive your business forward
+ whether you're flooded with AI ambitions
+ but no idea where to start
+ or six months into a deployment that's going sideways
+ they've seen it and they've fixed it
+ stop burning your budgets on AI
+ that doesn't produce results
+ start at missioncloud.com
+ This episode of the AI Daily Brief
+ is brought to you by OutSystems
+ a leading agentic systems platform built for the enterprise
+ organizations all over the world are building
+ orchestrating and governing agentic systems
+ on the OutSystems platform and with good reason
+ OutSystems open and unified platform allows teams
+ to architect, deliver and scale
+ governed agentic systems with agility
+ teams of any size and technical depth
+ can use OutSystems to build, deploy
+ and manage AI apps and agents quickly and cost effectively
+ without compromising reliability and security
+ without systems you can rapidly launch ideas
+ from concept to completion
+ it's the leading agentic systems platform
+ that is unified, agile and enterprise proven
+ allowing you to accelerate growth
+ reduce operational friction
+ and deliver real enterprise impact with AI
+ OutSystems, build your agentic future
+ Let's talk about layer two of the model
+ and the question that we're trying to answer here
+ is what's the intelligence
+ that we want our hardware to run
+ and I think that most of us never needed
+ to think about what models we're running
+ or more importantly what the size
+ because if you use the HHGPT, Claude, Gemina and so on
+ you are using a model and all you had to decide
+ is between fast and thinking basically
+ because someone else chose it, hosted it
+ and did everything to maintain it
+ however, if you are contemplating
+ deploying your own model
+ you need to understand that model comes
+ in different sizes
+ and the model size is measured in parameters
+ billions of learned values that encode
+ the patterns from the training data
+ you can think of parameters like a vocabulary
+ and experience all combined into one
+ typically more parameters means that the model
+ can hold more nuance
+ and can handle more complex reasoning
+ and produce even more sophisticated output
+ again at a high level
+ the question is if that's the case
+ why don't companies just make every model enormous
+ or more and more big over time
+ and that's because bigger models need more compute power to train
+ to the point of billions of dollars at the frontier
+ and much more memory to run
+ so the size spectrum is what you should understand very quickly
+ at a high level
+ we have the tiny models
+ those will be one to four billion parameters
+ they are very fast
+ they can run on anything literally
+ including even your Android machine
+ can typically hold basic chat, simple summarization
+ or a very like a pointed task
+ we then have the seven to 14 billion parameters
+ those are the small
+ quite capable for everyday tasks
+ they can do writing
+ they could do some boilerplate code
+ they can do Q&A
+ they can run very well on a laptop or a basic GPU
+ and I believe that most of you
+ if you are contemplating doing a local deployment
+ will first deploy models from this family
+ and the medium size we have near frontier
+ and as time goes by
+ we see more and more models at this size
+ that are providing results
+ that are almost as good as the huge ones
+ they need quite a good GPU
+ or a high-end Mac in order to run
+ and that's kind of the sweet spot
+ if you want to be serious about local deployment
+ for yourself or for us like an immediate team
+ the large ones and of course the major ones
+ those are good for powerful reasoning
+ they will typically need more expensive hardware
+ or even a setup that involves multiple GPUs
+ and I think that one pattern
+ that is worth watching for
+ is that especially for well-defined tasks
+ around coding and math for the most part
+ we're starting to see tiny specialized models
+ that match frontier performance
+ just this week we've seen a 3 billion parameter model
+ called ViveTinker
+ that matched the cloud opposite Gemini Pro
+ on coding benchmarks
+ so 3 billion is extremely small
+ such that you can run it as noted even on your phone
+ but the catch is that it only works this well
+ on very structured, very verifiable tasks
+ and not necessarily on the knowledge work task
+ that many of us are doing
+ so still if we need general purpose, general knowledge
+ for things that we do as part of the knowledge work
+ size still matters
+ but seeming like a future where
+ you might run frontier-class specialized model
+ on very modest hardware
+ bottom line, we don't need
+ the frontier-level intelligence for every task
+ a huge amount of what we do with AI
+ can be done on the smaller ones
+ or staying at the like 7 to 14 billion
+ or 7 to 27 billion range
+ those are open, free to download
+ they can run on hardware that all of us have
+ and bigger will be when you need either a more able
+ or a more general purpose type of things
+ what you should care beyond the size
+ because as we say there are other parameters
+ that makes the models different
+ what many people are being caught off guard
+ with how the models behave
+ is that you can download the model
+ that benchmarks beautifully
+ you try to use it for agentic tasks
+ calling the tools following multi-step instructions
+ and they fail spectacularly
+ because it was trained for a chat
+ not for tool use
+ so when you are evaluating a model
+ also check does it support tool calling
+ how large is the context window
+ will it hold the amount of input and output
+ that I plan to run on a single session
+ does it handle images
+ is the license commercial friendly
+ these are on the model card
+ that I will explain shortly
+ but you need to read it like a product spec
+ and don't just look at the size as the deciding parameter
+ and if I need to call out some of the most prominent models
+ in the open source ecosystem
+ and obviously there are a ton more
+ but just to name a few
+ five names that keep coming up
+ Gemma from Google
+ great model to mention
+ comes in different sizes
+ Quinn from Alibaba and the number here
+ is even not up to date
+ we have a more updated model
+ it's a coding champion
+ and it fits well on a one good GPU
+ we have the DeepSync that we all heard about
+ it has a very strong reasoning
+ and it's quite good and capable
+ we have the family of models from Meta
+ the Lama, Scout and others
+ and many models that were based on Lama
+ that are quite good
+ and another one that I wanted to mention
+ is the Hermes
+ it's a fine-tuned model from Noose Research
+ and specifically it was built for agent work
+ and tool calling and some of the things that I mentioned
+ are something that you need to look into
+ so if you are running an agent harness locally
+ it might be an interesting one to look into
+ just maybe one more point on fine-tuning
+ because I mentioned that a couple of times
+ this means that you take a general model
+ and train it further for a specific purpose
+ or with the specific data that you have
+ Hermes is exactly that
+ it took another model and improved it further
+ in order to be good at a workflow
+ this list is going to be changing all the time too
+ obviously you know
+ on the AI Daily Brief I'm trying to keep track of
+ the ones that sort of transcend from
+ developers are playing around with too
+ it's maybe more broadly worth knowing
+ GLM 5.2 is the one that came up this week
+ that more and more people are talking about
+ although we're still only a couple of days into it
+ and a lot of the latest Chinese open-weight model
+ tends to have this pattern of
+ people get super excited about it in the first few days
+ and then a few weeks later no one's talking about it
+ so who knows if it'll stick around
+ but there's that and we're also seeing
+ even from American companies
+ a lot more experimentation with different model approaches
+ cursor's composer is one that I bring up a lot on the show
+ so there's always changes on the model front
+ again which is kind of why this is less a conversation
+ about the exact models and more the principles of running
+ and being able to run and switch in and out
+ these different types of models for different types of goals
+ yeah we have many others which is exactly why
+ in general one more place that I want you to
+ pay attention to occasionally
+ is a hugging face
+ a hugging face is like the app store
+ for all the AI models and the open source models out there
+ and if you haven't been there
+ I strongly recommend it to you go and check it out
+ because everything is there open source or for free
+ and every major release will go there
+ currently they have almost more than 500,000 models hosted
+ and when you go into a specific model page
+ because you heard about it on the podcast
+ or on X or wherever you're trying to stay up to date
+ you wanna understand what's under the hood
+ you will first encounter what is called a model card
+ which is basically like a spec that tells you
+ what it is good at what it was trained on limitations
+ and just ready to make sure that if you are contemplating
+ using a certain model that it fits
+ what you need to do with that
+ you will also be able to see the license of the model
+ typically we're looking to get a model
+ that is either a patchy two or MIT
+ that means that you can use it even for commercial
+ stuff however you want
+ some have other restrictions so pay attention to that
+ if you're planning to use it for a product
+ and lastly you will see a file called gguf
+ that's the compressed ready to run versions
+ that you can download to your own hardware
+ to start deploying and running the model
+ there are different files for different compression levels
+ on more on that in a minute
+ and you need to pick the one that fits your own hardware
+ another thing that I want you to use hugging phase four
+ is that it's a great place to see the vibes
+ okay cause you will see how many downloads
+ what the community is saying about stuff
+ and while I know that we're all sometimes falling trap
+ to the benchmarks which is maybe a good start
+ but I know that Daniel that you repeatedly say
+ that you don't believe in benchmarks
+ but what you can look into is the wisdom of the crowds
+ and that's exactly what you get in hugging phase
+ because if you see that something has been downloaded
+ a ton of times that means that real people
+ are finding real value
+ and that's why they're downloading that
+ they also mentioned trusted publishers
+ so you should use the ones that are official and approved
+ be more wary of third-party unknown publisher
+ before you download anything to avoid any incidents
+ one more thing to say about hugging phase
+ it's not just for models
+ there are applications and data set and spaces
+ like live demos that people upload
+ that you can explore
+ and there is tons of inspiration to draw from hugging phase
+ so even that then I'm not affiliated by anyway
+ but I just think that it's a great source
+ for anybody who wants to understand
+ the art of possible to go and traverse
+ and whenever you are considering a specific model
+ I want you to go beyond the model card
+ and ask your AI tool to do fresh research
+ on the community signals
+ and it can be extradite other places
+ developer forms and so on
+ just to see what actual practitioners are saying
+ cause often what's written in the model card
+ and the vibes from the community are completely different
+ and you need to be aware of them
+ so that's hugging phase
+ I promise that I will say what do I mean by quantization
+ basically the concept is how you fit
+ the large model on a more practical hardware
+ that's something that unlocks basically the entire picture
+ because when a model is published by the creators
+ it stores typically at maximum quality
+ that means that it uses a ton of memory
+ in order to preserve the full accuracy
+ so a 27 billion parameter model at this original quality
+ needs 54 gigabytes of memory
+ and nobody has that in a consumer grade machine
+ so what the companies are doing
+ and the model labs are doing
+ in order to make it more accessible
+ is they do quantization
+ and that basically compresses the model
+ into lower precision
+ and if you need the analogy
+ it's like an image compression
+ the raw photo has a very high quality
+ but the JPEG look nearly identical to the human eye
+ but it's a fraction of the file size
+ so that's the simplification of the concept
+ you can see Q4, Q8, Q5 or Q6
+ but Q4 means that that's the standard default
+ and it cuts the model to about 30% of the full size
+ for most tasks if you see a model with the letter Q4
+ it's more than enough and it will run well on your hardware
+ if for some reason you need a higher quality
+ you can go to the Q8 or in between stuff like that
+ and you will see that on the file name
+ so maybe you will see like a QAN 3.7, 27 billion
+ that's the number of parameters
+ Q4 that means the quantization
+ and the name of the file
+ so that's how you read all of these Qs and files and so on
+ enough about the models
+ let's talk about the serving layer
+ that's the layer that loads the model
+ because we already covered the hardware and the model file
+ but you need software that loads the model
+ and makes it available
+ it's a little bit like a waiter
+ standing between the kitchen and the customers
+ that's the purpose of these software
+ it sits in the background
+ it's ready to serve when it's being asked
+ two dominant offerings here
+ we have Olama
+ that's basically the engine
+ it's free, it's open source
+ it's the most popular way for you to serve models
+ on your machine
+ it's very simple to install just one command
+ and one command to run the actual model
+ and what nice about it
+ it will automatically detects your own hardware
+ and configure itself
+ critically it exposes a standard interface
+ that other tools can talk to
+ which that makes it that anything designed
+ for a cloud AI can point to your local Elama instead
+ so it makes it even very easy to transfer between
+ tools you're currently running AI on
+ versus the cloud to run all of a sudden locally
+ and it has a ton, a ton, a ton of models in the library
+ so it supports almost anything that matters
+ the other thing that you might want to consider installing
+ is the LM Studio
+ it's like the showroom
+ this is a desktop application with visual interfaces
+ where you can browse models
+ see the hardware usage in real time
+ you can test two models side by side
+ and it's very good for understanding
+ what different models can do before you commit
+ so these two work very well together
+ the LM Studio to explore and evaluate
+ an Elama to serve in production
+ and if you need to serve multiple users at scales
+ there are additional tools for that
+ but that will typically also require more technical team
+ so I'm not going down the route
+ of more sophisticated serving and so forth
+ moving to the layer of the agent harness
+ or what orchestrates the AI
+ we have a chat interface that's one thing
+ an agent is another thing
+ and the difference is that the chat interface
+ lets you talk to the model
+ but an agent harness lets the model take actions
+ it can read the files or search the web
+ it can call the various APIs or MCPs
+ send messages, run schedule tasks
+ and all the fun stuff that we love
+ about our various agent capabilities
+ if you want to go down a chat interface
+ for your local AI
+ one very simple path and very useful way to do that
+ is to use OpenWebUI
+ again very popular self-hosted web application
+ that look and feels very much like a chat GPT
+ you can point it at your local Elama
+ and then your team has a very private chat GPT
+ that runs entirely on your hardware
+ it enables multi-user
+ it can document the upload
+ it has a search built in
+ and so it's a very good alternative
+ if you want to create local AI
+ that is primarily for chatting
+ however, if you do want to go all the way
+ to an agent harness that is hosted locally
+ obviously there are a ton of options
+ and the list is getting longer and longer and longer over time
+ but two things to note
+ one is obviously OpenClaw
+ and the other is Hermes agent
+ those are the most dominant
+ in the open source of agent harnesses
+ both of them will run on your own hardware
+ both of them support local models to Elama
+ they do tool calling, persistent memory
+ as well as integrating with various messaging platforms
+ the difference is their philosophy
+ OpenClaw gives tighter manual control
+ because you can create the skills
+ and define the rules and create the context
+ Hermes leans into autonomy
+ it is writing its own skills from experience
+ it does a lot of self-evaluation to improve for you
+ and it has a compound capability over time
+ because both of them are fully open source
+ and you can install in minutes
+ they are both great things to explore
+ if you haven't already
+ but I will say on Hermes
+ that it's at least in my opinion
+ becoming more and more predominant option
+ that if you haven't looked into
+ is something to look into this June or over the summer
+ and I think that if you do go and install one of them
+ or one of the alternative agent harnesses locally
+ and you do all the other layer that we just talked about
+ all of a sudden you are in full control
+ and running everything locally
+ without paying anything beyond electricity
+ one more thing to say with regards to coding specifically
+ is that even if you are used to working
+ with a different coding tool
+ and most of them can be pointed also to local models
+ and not too many people are doing that
+ but all of the major players are now integrating very well
+ into a Olima in order to run stuff locally
+ there is one caveat that some of the features
+ within these tools stay cloud only regardless
+ so for example autocomplete in some cases will not work
+ if you're running on a local model
+ and some other cases automations are run
+ on the cloud and so on
+ but even if you are primarily using these tools
+ and you don't wanna go to Hermes or Open Claw
+ you can work also with local models
+ and reduce the costs and the dependency
+ on the cloud model providers.
+ Last layer, what you actually interact with
+ this is the top of the stack
+ the one thing that you will touch today
+ it can be an open web UI chat window
+ that you give your team
+ it could be the Hermes desktop
+ that was just released a few days ago or a few weeks ago
+ it can be something that you interact with
+ through Slack or Discord
+ or wherever you're conversing with your agent
+ and the point is that once the lower layers
+ are all working this layer is completely flexible
+ you can build anything on top of a locally served model
+ that you could build on top of any cloud API
+ so that's not where you should spend a lot of your energy
+ so I wanna bring this home
+ I know it was a lot
+ there is an honest trade off here
+ let's start with what you gain
+ if you are going local with AI
+ you get a lot of data and dependency
+ nothing leaves your network
+ you have availability
+ you cannot be shut off by export control
+ vendor decisions or internet outages
+ you have cost predictability
+ because after the hardware investment
+ the marginal cost per query is almost zero
+ except electricity
+ you have a learning
+ because running model locally
+ teaches the organization
+ how AI actually works under the hood
+ and many people who interact with the models
+ directly all of a sudden
+ have a ton of a hard moments from the process
+ however
+ you do take on a lot of responsibility and effort
+ hardware if you haven't had it lying around
+ is something that you need to buy
+ maintenance when something breaks
+ it's on you
+ no one will fix your olama that is not working
+ or your open cloud is not working
+ or whatever you decided to install locally
+ these tools have a ton of updates
+ so every time there is a better model
+ or a better software
+ it's on you to update
+ and make sure that it's still running smoothly
+ the security integration
+ if there are new things that are happening
+ it's on you to orchestrate or install them
+ and lastly
+ you might realize that
+ you went all in on local AI
+ in order to save a ton of tokens
+ but you are having a few people
+ that are working around the clock
+ to maintain your local AI
+ and all in all the cost of tokens
+ versus the cost of humans
+ are not comparable
+ so that's something to pay attention to
+ and also the fact that security is not guaranteed
+ if you don't know what you're doing with local AI
+ especially if you are connected to the internet
+ that's that
+ I think that if you need to start somewhere
+ one good machine
+ one useful workflow
+ prove the quality, secure it
+ and then decide whether to scale
+ so if I'm trying to be even more concrete
+ I think that I gave you a ton of vocabulary
+ a mental model and the landscape
+ you understand hopefully the five layers
+ and what decisions live in each layer
+ and so on
+ but what you can do immediately after
+ depends on who you are
+ so if you are an executive
+ maybe you have enough food for thought
+ to ask informed questions of your technical team
+ what's our position on local models
+ have we evaluated our vendor dependency
+ what would we do if our primary AI provider
+ becomes unavailable or overly expensive
+ so these are some of the questions
+ that you should be able to ask
+ if you are a practitioner
+ you can definitely install Olama
+ this week if you haven't had it
+ or experiment with yet another
+ latest and greatest open source model
+ to see how well it serves your own workflows
+ to see how it feels and so on
+ and also I believe that the hands-on experience
+ is worth more than any amount of reading that you can do
+ and of course if you are in a regulated industry
+ that's something to definitely
+ contemplate more and more
+ with your compliance and infrastructure team
+ to see what's the right stance for you
+ and the core message is from my perspective
+ is not that everyone must run AI locally
+ it's that the landscape has shifted enough
+ on cost, on control, on access
+ that every organization making serious AI decisions
+ need an informed position
+ at the very minimum
+ and a very deep conversation on that
+ and even if the position is not for us right now
+ it should be a deliberate choice
+ and not an assumption that you never go back
+ and re-examine
+ so it's not for everyone
+ but understanding is for everyone
+ and one last thing before I go
+ I wanted to mention that we just launched
+ the Executive Agent Leadership Program
+ that is the evolution of the Beloved Enterprise Club Program
+ it was rebuilt for everything
+ that's changed in the last few weeks and months
+ the token economy, the local deployments
+ the security, the vendor independence
+ all of that
+ it's a six-week cohort
+ for leaders who want to build AI agents hands-on
+ and then design how the organization operates
+ in the agent era
+ the first revised cohort will start June 29
+ and if this resonated with you
+ or you want to spend some time with others
+ going through the same process
+ and have fun with us
+ I'll be more than happy to have you there
