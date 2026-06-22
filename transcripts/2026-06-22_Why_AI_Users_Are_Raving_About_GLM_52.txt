@@ -1,0 +1,767 @@
+ Today on the AI Daily Brief, why AI power users are raving about GLM 5.2?
+ Before that on the headlines, Trump talks anthropic and Fable 5 return rumors swirl.
+ The AI Daily Brief is a daily podcast and video about the most important news and discussions
+ in AI.
+ Alright friends, quick announcements before we dive in.
+ First of all, thank you to today's sponsors KPMG, Scrunch, MissionCloud, and OutSystems.
+ To get an ad-free version of the show, go to patreon.com.ai-dailybrief or you can subscribe
+ on Apple Podcasts.
+ And if you want to learn more about sponsoring the show, send us a note at sponsors.ai-dailybrief.ai.
+ For those of you who are looking for deeper training programs, we announced last week
+ that we have upgraded Enterprise Claw and the Executive Catch-Up Program to be
+ more enterprise-grade in collaboration with Superintelligent.
+ You can learn all about that at training.besuper.ai.
+ And specifically the new Executive Agent Leadership Program, formerly known as Enterprise Claw,
+ is registering its next cohort, which will begin next week.
+ So if you're interested in that, again, go check it out at training.besuper.ai.
+ Last note today, we're in this kind of weird period where there's so much headline
+ news that I don't just want to be doing the Fable 5 update story every day for
+ the main episode, but the consequence of that is that the normally five minute
+ headlines is extending to more like 10 or even 12 or 13 minutes.
+ That won't be the case forever, but for now, we got a little bit of a weird balance.
+ And so with that, let's dive into the slightly extended headlines.
+ The theme of this headlines episode is separating out fact from innuendo in the
+ attempt to understand where things actually are in this very confusing moment with AI.
+ We're going to start with some comments that seem to sum to shed light on the
+ whole Fable 5 mythos situation.
+ And by the end of the headlines, see where it leaves us relative to whether
+ we might be getting Fable 5 back this week.
+ Now over the weekend, many folks thought that they figured out some new old
+ information that seemed to make the Fable ban make a little bit more sense.
+ Specifically, they dug up reporting from the Economist from June 14th, in which
+ the Economist wrote, on June 11th, Mark Warner, the Vice Chair of the
+ Senate Intelligence Committee, said that General Joshua Rudd, who leads
+ the National Security Agency and the Pentagon Cyber Command, had told him
+ that mythos, quote, broke into almost all of our classified systems,
+ not in weeks, but in hours.
+ Now, June 11th was the same Thursday that Amazon CEO Andy Jassy informed
+ the administration of the jailbreak that became the center of the story.
+ Once the quote resurfaced, ex-commentators were quick to jump on it,
+ commented chubby, summing up the feelings of many.
+ Wow, that changes the whole Fable 5 story completely.
+ University Professor Pedro Domingos, who is typically not a fan of the current
+ administration, commented, mythos broke into almost all of the NSA's
+ classified systems in hours, per its director.
+ It would have been irresponsible to not impose export controls on it,
+ and on Fable with its pathetically inadequate guardrails.
+ Now, on the one hand, part of why this is resonant is that it has a
+ feel of truthiness to it, in that it would make way more sense if the
+ White House was already keyed up about mythos slash Fable being too powerful
+ from some other evidence that they'd seen with this weird jailbreak report
+ just providing enough pretext for them to do what they had wanted to do in
+ the first place, which is to disallow the model at this time.
+ And yet for those who are reading this line from Mark Warner, as some
+ literal breach of the NSA which demanded some response, the reporter behind
+ the story, Shashank Joshi, added some additional context.
+ While he said that the quote attributed to Mark Warner was accurate, he added,
+ it would be a mistake to read the quote literally, I think.
+ It surely depends on using mythos alongside other tools under very particular
+ conditions.
+ I quoted it to give a sense of mythos potency, but
+ it was a mistake not to have added caveats.
+ In other words, this was not the director of the NSA reporting some
+ terrifying breach.
+ It was them reporting how powerful they had found mythos in their
+ specific controlled tests.
+ AI policy commentator Peter Wildeford gave an example of what he thinks is
+ a more plausible scenario for what happened.
+ He wrote, Senator Warner claimed that he was told by the head of the NSA and
+ cyber command that mythos was breaking into classified systems in hours.
+ This is an important claim to understand better.
+ He thought mythos was very good at cybersecurity, but break into
+ classified systems in hours good?
+ NSA classified networks are physically disconnected from the internet entirely,
+ with specialized hardware controlling what data can even cross between them.
+ More plausible readings of what actually happened then, one,
+ this was a simulated exercise against replica systems, not the real NSA network.
+ Two, mythos was given the relevant code and architecture docks up front rather
+ than breaking in blind.
+ Three, it tore through poorly secured internal IT that got described as
+ classified systems.
+ Four, mythos was operated with significant additional tooling and
+ human expertise.
+ Of course, Peter concludes, none of this means that mythos underlying cyber
+ capability isn't alarming.
+ An AI that compresses weeks of expert security research into hours is a
+ genuine threat to systems that are connected to networks as we've seen.
+ Peter's point then was not to say that his scenarios were exactly what
+ happened, but that they were all in his estimation more plausible
+ explanations than what people assumed was some massive mythos breach of the NSA.
+ The CyberSec guru added even more context in a blog post breaking down the
+ story.
+ They noted additional reporting that confirmed this breach occurred during a
+ red team exercise run by the NSA.
+ IE this was not some outside attacker breach.
+ It was in a specific controlled environment where they were trying to
+ run adversarial tests.
+ Now CyberSec guru also cast at least a little bit of skepticism on the
+ source, pointing out that NSA director Rudd was appointed in a heavily
+ contested vote this March with those who opposed his confirmation citing
+ Rudd's background as a special operations officer with no relevant
+ experience in signals, intelligence or cyber warfare.
+ Right CyberSec guru that doesn't make his claim false, but it's relevant
+ context for a statement about a cyber incident made by the agency's own
+ director.
+ He's a relatively new appointee in a technical domain that wasn't his
+ original specialty, testifying about his own agency's capabilities.
+ And yet even with all of this, I think it is fair to say that the
+ fabled ban wasn't solely or cleanly about the Amazon jailbreak and
+ clearly wasn't just about personality differences between
+ anthropic and the White House.
+ Interestingly, in an interview with the Axio show on Saturday,
+ President Trump spoke about the issue at length.
+ He said, we have a situation with anthropic.
+ We didn't like what they're doing.
+ So far, I think they've responded very responsibly to our
+ request.
+ When asked if he regards anthropic and Dario Amade personally as a
+ national security threat, Trump responded, not now, but a week
+ ago, maybe.
+ Referring to the G7 summit Trump added, I was with him
+ yesterday, he made a speech.
+ I made a little speech, seems like a nice guy, smart guy.
+ He responded to us very quickly because, you know, it's
+ tremendous liability.
+ People get put in prison immediately for that.
+ You can't play games with that.
+ He responded very responsibly, I thought, so far.
+ Asked about the possibility of shutting down anthropic, Trump
+ commented, I don't want to do that.
+ You know, we're beating China.
+ I was with President Xi, we talked about it.
+ We're beating China by a lot.
+ Trump also explicitly ruled out the Defense Production Act
+ to control AI, stating, I don't think we have to do that.
+ So far, it's been very responsible.
+ Summing up, Trump commented, I think the good far outweighs
+ the bad, we are going to find the bad and we're going to stop it.
+ I think the biggest takeaway is that right now, everything is
+ heightened.
+ People are completely geared up.
+ Everyone is looking for any tea leave that they can read
+ to understand when Fable might be coming back, what the new
+ relationship between the White House and AI companies
+ is going to be, all of which is to say it's a good time
+ to be extremely careful about the sourcing of reporting
+ and to try to separate what we know from what we think.
+ Now, one other story from the weekend that was real
+ and does also seem to have some big implications
+ for the AI race was another high-profile departure
+ at DeepMind as Nobel laureate, John Jumper,
+ left for an anthropic.
+ Jumper announced the move in an ex post on Friday,
+ thanking Demis Hussabis for taking a chance on him
+ nine years ago and hiring him to lead the AlphaFold team
+ shortly after he completed his PhD.
+ That work, of course, resulted in an AI model
+ that predicts the 3D structure of proteins
+ based on their amino acid sequence,
+ massively accelerating the field of biochemistry
+ and drug discovery.
+ For that work, Jumper shared the Nobel Prize
+ in Chemistry with Hussabis in 2024,
+ honoring his colleague, Hussabis,
+ thanked Jumper for his collaboration, commenting,
+ what we achieved with AlphaFold changed the world
+ and showing the field what was possible
+ with AI for science and medicine,
+ lighting the way for how AI can benefit humanity.
+ Now, from the outside, lots of folks were left to wonder
+ what the heck is going on at DeepMind
+ to trigger an exodus of elite talent.
+ LaSonnax wrote, Google is in freefall.
+ This is the second VP of engineering
+ that left Google DeepMind this week,
+ first known Shazir, transformer and mixture
+ of experts pioneer.
+ Today, Nobel laureate, John Jumper,
+ who basically built AlphaFold one through three
+ and most recently also worked on AI coding at DeepMind.
+ Now, speaking of that, some suspected that being assigned
+ to lead AI coding efforts rather than continue
+ his work on AI for science
+ may have contributed to Jumper's exit.
+ But still, to have two very, very high-profile leaders
+ of DeepMind head one to Anthropic
+ and one to OpenAI in a single week
+ doesn't look great from the outside.
+ A few minutes after Jumper made his announcement,
+ Leo at synthwaved added some background
+ about plummeting morale in DeepMind.
+ They wrote, after the release of Fable 5
+ and with GPT 5.6 looming,
+ the mood behind the scenes at Google DeepMind
+ has increasingly won a frustration and brought discontent
+ over the labs perceived fall into a distant third
+ or even fourth place.
+ A well-connected DeepMind employee told me,
+ I can't blame Noam for walking.
+ He won't be the last big name to go either.
+ Leo added that staff were demoralized
+ by ZAI's GLM 5.2 overtaking Gemini 3.1 Pro
+ on the Artificial Analysis Intelligence Index.
+ In addition, the release of Gemini 3.5 Flash
+ and Gemini Omni earlier this year
+ was received with little fanfare
+ and DeepMind has now gone four months
+ without a flagship model release.
+ Another source at DeepMind told Leo
+ that Gemini 3.5 Pro is, quote,
+ not the step change we need to be truly competitive
+ in the race to AGI.
+ That model is reportedly slated
+ to be released next Tuesday, June 30th.
+ Leo added, the consensus seems to be that leadership
+ at Google has all but conceded the race
+ to Anthropic and OpenAI
+ and that only a big shake-up
+ will propel them back to the heights of mid to late 2025.
+ Another DeepMind source commented,
+ we no longer have a frontier model
+ and text, image, video, voice, or even vision.
+ If we can't release a real frontier model
+ after over four months of work with all these resources,
+ what are we doing?
+ Now, Google or Logan Kilpatrick
+ did offer some pushback,
+ responding, everyone I know is hopeful and locked in.
+ Lots of things in the pipeline
+ that will hopefully pay off short and long-term.
+ And once again, I will caution,
+ this is all behind-the-scenes sources and reporting.
+ Meaning you have to take it with at least
+ a little bit of a grain of salt.
+ I think in general that we tend to make too much
+ of any individual career move.
+ For example, there was another story this weekend
+ that Barrett Zulf was out at OpenAI
+ just five months after rejoining.
+ And this is a guy that has now absolutely ping-ponged
+ between OpenAI and thinking machines labs
+ and then back to OpenAI.
+ And while of course any high-profile departure
+ could be an indication of something going on in a lab,
+ humans are complex creatures
+ with lots and lots of reasons and motivations
+ behind their decisions
+ that we on the outside aren't going to be privy to.
+ What is true, however,
+ and what is worth noting about the Google story
+ is first that two very high-profile leaders
+ does start to make a pattern.
+ And that too, the drop-off in where Google fits
+ relative to at least the coding and enterprise side
+ of the AI race is in 2026 absolutely notable.
+ Now, we haven't seen 3.5 Pro yet
+ and Google has many strengths
+ outside just where they sit at the state of the art.
+ But you do have to think that the stakes for Google DeepMind
+ with every new model release have raised significantly.
+ Now, really, as we head into this week,
+ the biggest rumors that people care about
+ is when we're going to be getting Fable 5 back.
+ And as much hay as the press made
+ about Trump saying a week ago
+ that Dario and Anthropik were national security threats,
+ others actually saw the interview
+ as the first step to a resolution.
+ Dan McAddy wrote,
+ if you listen to Trump, he's quite conciliatory.
+ He doesn't want to kill the goose
+ that lays the golden egg.
+ Trump knows AI is the foundation of America's future.
+ Claude Fable back next week, bet on it.
+ Now, beyond that,
+ we did get even more substantial rumors
+ about what comes next.
+ Andrew Curran, who's one of the best follows
+ for actual AI news
+ and tends to have good sources
+ when he reports something that hasn't been reported yet,
+ wrote, a new, more capable version of Mythos
+ has emerged from training.
+ I don't know whether it will be called
+ Mythos 5.1 or Mythos 6,
+ or if Anthropik will keep it internal
+ to accelerate further development,
+ but it has arrived.
+ Then Andrew points out something important
+ that we haven't discussed enough.
+ He continues,
+ stopping models like Fable 5 or Mythos 5
+ from being served to the public
+ does nothing to slow down development.
+ In fact, it probably speeds it up slightly
+ by freeing up resources.
+ There are also no rules preventing the labs
+ from continuing to advance capabilities
+ while any current model is under embargo
+ or from keeping progress quiet
+ until they choose to release it.
+ None of them can afford to pause or slow down.
+ We need only look at how capable GLM 5.2
+ is as proof of this.
+ To protect their business models,
+ the frontier labs must continually train
+ increasingly capable systems
+ to stay ahead of open source and each other.
+ The current continues to rage beneath the ice,
+ and we continue to race towards our destination.
+ Now, in addition to a potential Mythos 5.1 or 6
+ emerging in the labs,
+ some found evidence that Sonnet 5
+ might be nearing release.
+ Leo at Synthwave again,
+ wrote, the slug Claude Sonnet 5
+ has appeared on an Anthropik partner provider.
+ Gonna be a busy week.
+ Chubby responded,
+ so we get Claude Sonnet 5 instead of Fable 5 soon.
+ Looks like a busy week, probably GPT 5.6 and Sonnet 5.
+ But hey, keep them coming.
+ Leo responded, I suspect it'll actually be Fable 5
+ plus Sonnet 5 plus 5.6, but let's see.
+ Now, regarding GPT 5.6,
+ some are reporting that they're already
+ seeing the model show up in Codex,
+ implying that we're getting pretty close.
+ A French ex-user called Mirachel
+ posted a playable demo of a Pokemon game
+ supposedly one-shotted by GPT 5.6.
+ Meanwhile, within OpenAI,
+ Codex lead Tebo has begun the vague posting.
+ He wrote, we built the Codex app
+ with models that were okay-ish at front-end.
+ Wait to see what we can do
+ when we finally improve front-end capability
+ significantly in our models.
+ That day will be something.
+ Scientist Daria Newt-Maz,
+ who typically gets early access to models,
+ joined in the vague posting writing,
+ people were flabbergasted by Fable 5 rightly so.
+ But those who think this will remain the best AI
+ for a long time will soon be proven wrong.
+ When some thought he was just stating the obvious,
+ Newt-Maz urged them to read between the lines,
+ adding, read the words long time versus soon.
+ I didn't say eventually.
+ Now I think Andrew Curran's visual metaphor
+ of the current raging under the ice is a good one.
+ And what's important to note with all these rumors
+ is that even if we are in line for a big week right now,
+ there is so much that could happen
+ that could change that path.
+ Still, if you wanna let yourself
+ get excited about anything,
+ my fellow builders out there,
+ I have no doubt will be very excited to see
+ that the way that the OpenAI team
+ seems to be teasing the next models
+ is them being better at front end.
+ We should be so lucky.
+ For now though, that's going to do it
+ for this extended headlines.
+ Next up, the main episode.
+ One of the most important AI questions right now
+ isn't who's using AI, it's who's using it well.
+ KPMG and the University of Texas at Austin
+ just analyzed 1.4 million real workplace AI interactions
+ and found something surprising.
+ The highest impact users aren't better prompt engineers.
+ They treat AI like a reasoning partner.
+ They frame problems, guide thinking,
+ iterate and push for better answers.
+ And the good news, these behaviors are teachable at scale.
+ If you're trying to move from AI access to real capability,
+ KPMG's research on sophisticated AI collaboration
+ is worth your time.
+ Learn more at kpmg.com slash us slash sophisticated
+ that's kpmg.com slash us slash sophisticated.
+ Quick question.
+ When was the last time you actually visited a website
+ to research something?
+ If you're like me, AI pretty much does that work for you now.
+ That of course raises a new question for brands.
+ If AI is doing the discovering, researching and deciding
+ who or what is your website really for?
+ That shift in user behavior,
+ the rise of AI bots becoming your most important new visitors
+ is what my sponsor Scrunch is taking head on.
+ Scrunch is the AI customer experience platform
+ that helps marketing teams understand
+ how AI agents experience their site,
+ where they show up in AI answers,
+ where they don't and what's preventing them
+ from being retrieved, trusted or recommended.
+ And it's not just visibility.
+ Scrunch shows you the content gaps, citation gaps
+ and technical blockers that matter
+ and helps you fix them
+ so your brand is found and chosen in AI answers.
+ Now for our listeners,
+ Scrunch is providing a free website audit
+ that uncovers how AI sees your site,
+ where there's gaps and how you're showing up in AI
+ versus the competition.
+ Run your site through it at scrunch.com slash AI daily.
+ The average enterprise is spending
+ 11 and a half million dollars on AI this year
+ and most of them can't prove a single dollar came back.
+ What does AI actually look like when it produces ROI?
+ Ask the healthcare company
+ that just made their payment processing 320 times faster
+ or the law firm whose document research
+ went from three months to 10 minutes
+ or the contact center
+ who reduced wait times by 99%.
+ These are real mission cloud customers with real results.
+ Mission cloud is a CDW company
+ and an AWS premiere to your partner.
+ They're the AI first outcome obsessed AWS experts
+ who build AI solutions that drive your business forward.
+ Whether you're flooded with AI ambitions
+ but no idea where to start
+ or six months into a deployment that's going sideways,
+ they've seen it and they've fixed it.
+ Stop burning your budgets on AI
+ that doesn't produce results.
+ Start at missioncloud.com.
+ This episode of the AI Daily Brief
+ is brought to you by OutSystems,
+ a leading agentic systems platform
+ built for the enterprise.
+ Organizations all over the world are building,
+ orchestrating and governing agentic system
+ on the OutSystems platform and with good reason.
+ OutSystems open and unified platform
+ allows teams to architect, deliver
+ and scale governed agentic systems with agility.
+ Teams of any size and technical depth
+ can use OutSystems to build, deploy
+ and manage AI apps and agents quickly and cost effectively
+ without compromising reliability and security.
+ Without systems, you can rapidly launch ideas
+ from concept to completion.
+ It's the leading agentic systems platform
+ that is unified, agile and enterprise proven
+ allowing you to accelerate growth,
+ reduce operational friction
+ and deliver real enterprise impact with AI.
+ OutSystems, build your agentic future.
+ Welcome back to the AI Daily Brief.
+ Last week, in the wake of Fable 5 going offline,
+ one of the major topics of conversation on this show
+ was the new models and new model approaches
+ that were rushing in to fill the gap,
+ not only trying to win people's usage,
+ but also having a side effect
+ of making people think differently
+ about how to construct their AI stack.
+ Now, part of what has made this Fable 5 moment
+ so resonant and important among businesses
+ is that already the changes in the context
+ is that already the changes in the cost paradigm
+ based on the shift to agentic AI
+ and magnified by the broader compute shortage
+ were already causing companies to look around
+ and ask whether there would be different approaches
+ than just firing up the most out of the art model
+ for every single AI use case.
+ Now, in those conversations last week,
+ we mentioned the first impressions of GLM 5.2
+ and they were good, but we have now had a weekend pass
+ where people actually got their hands on the thing
+ and the stature of the model
+ and people's belief about its implications
+ has done nothing but grow.
+ So today we're going to talk a little bit
+ about those second impressions of GLM 5.2
+ and explore whether it's something
+ that you should actively consider.
+ Now, the analogy that everyone is plumbing for
+ is the deep seek R1 moment.
+ You Chen Jin writes, looking at my timeline,
+ it feels like GLM 5.2 is having its deep seek R1 moment.
+ I never thought an open source model
+ could break into the top three coding models this soon.
+ Chen Zhu writes, GLM 5.2 feels like a turning point
+ that's as significant as deep seek R1.
+ The Fable Saga and GLM 5.2 release happening
+ at the same time just changed the adoption calculations
+ and things will only accelerate from here
+ with deep seeks massive funding,
+ Kimmy Minimax 10 cent Quenol lining up releases
+ in the coming months.
+ Burkov writes the GLM 5.2 moment
+ is the new deep seek R1 moment.
+ The last remaining mode is gone
+ unless the US labs pull something unseen
+ before from the sleeve.
+ So what are we referring to
+ when we talk about the deep seek moment?
+ Many of you might remember
+ that there was this crazy thing
+ that happened in January of 2025
+ where all of a sudden there was this new model
+ in this new application called deep seek
+ that had raced at the top of the Apple App Store
+ and that for many casual users felt distinctly better
+ than whatever they were getting with chat GPT.
+ Now, what had happened was that deep seek,
+ a Chinese lab spun out from or connected
+ to a hedge fund, believe it or not,
+ had plopped a reasoning model inside a free app.
+ This was not the first reasoning model that was available.
+ OpenAI 01 had been announced back in the previous September
+ and it started to be rolled out more broadly
+ in December of 24, but it was behind a paywall
+ whereas deep seek was putting its R1 reasoning model
+ right there for free use.
+ Now, anyone who remembers the shift
+ from non-reasoning models to reasoning models
+ will remember just what a huge difference it was.
+ And so all of a sudden
+ all these people were having that experience in real time.
+ Pair that with some reports from deep seek themselves
+ which ended up being a little misleading
+ about how little they had spent to train that model
+ and the market absolutely freaked out.
+ Nvidia had the single biggest daily loss
+ in terms of pure numbers
+ with deep seek peeling off 589 billion
+ from its market cap in a single day.
+ Now, of course, this ended up being the market getting
+ way ahead of itself.
+ The deep seek phenomenon eventually receded
+ but it did force American labs to think differently
+ about how fast they got reasoning models
+ into the free versions of their applications.
+ And yet deep seek has kind of a weird legacy.
+ Every time a new Chinese open weight model comes out
+ it scores super high on benchmarks.
+ Everyone talks about how it's closed the gap
+ with the Western labs
+ and then a couple of weeks later, no one's using it.
+ And honestly, a couple of weeks later is being generous.
+ What usually happens is that these models
+ don't really survive first contact
+ with the real world of usage and fade almost instantly.
+ Now, GLM 5.2 had some of these hallmarks
+ which is not to say that Chinese models have been irrelevant.
+ In fact, over the course of the last year
+ they have been increasingly integrated into the stack
+ especially for startups and younger and smaller companies
+ that don't necessarily have as many big constraints
+ in which models they can use.
+ And on top of that, as the overall state of the art increases
+ being just a few months behind the state of the art
+ still means lots of use cases that are viable.
+ In other words, what it means to be three
+ or six months behind the state of the art now
+ has a lot more viable use cases
+ than what it meant to be three or six months
+ behind the state of the art a year ago.
+ Now coming back to GLM 5.2, at first blush
+ it did the same thing that these Chinese open weight models
+ always do, impressive benchmarks, lots of excitement
+ but the vibes have been very clearly different.
+ Turns out it's not just random Twitter hypebeats
+ that are talking about GLM 5.2
+ but some very respected figures in the industry.
+ Versailles CEO Guillermo Roche writes,
+ genuinely impressed, almost shocked
+ at how good GLM 5.2 is at coding.
+ This changes things.
+ Itamar Golan writes,
+ GLM 5.2 is not just another open model.
+ I played with it for a few hours
+ and for the first time an open or public model
+ felt meaningfully close to frontier lab quality
+ across real tasks.
+ Not perfect, not fully benchmarked
+ but very different.
+ In another post he wrote,
+ this is not another AI slot model, don't ignore it.
+ It feels like a chat GPT moment for public open models.
+ However, Itamar does have a caveat about cost
+ which we'll come back to in a moment.
+ Now even more than just random people
+ talking about GLM 5.2,
+ I think a lot of folks started paying attention
+ after design arena wrote a log post on X
+ about how GLM 5.2 beat Fable 5 at website design.
+ Now this is one of those benchmarks
+ that one might have been tempted to be skeptical of
+ when it was first announced.
+ How could GLM 5.2 possibly be ahead of Fable 5 on design?
+ And how could it do so for a significantly lower price point?
+ Now importantly, they do caveat that GLM 5.2
+ doesn't surpass Fable 5 in everything.
+ It's behind Fable 5 on game development,
+ data visualization and 3D design
+ and it's down all the way at fourth place on UI component.
+ But when it comes to websites themselves
+ that's where it ranks first.
+ Now design arena pointed to
+ three different model behaviors
+ that they suggested made the difference.
+ The first they wrote is that the outputs seem to indicate
+ a beautiful set of starting templates.
+ And while they point out that all of the models
+ use a starting point of web design templates,
+ GLM 5.2s seem to avoid some of the most infamous
+ anti-patterns like the purple gradients
+ that were all over early AI web design.
+ Now what they found is that when you compare the outputs
+ in GLM 5.2 to something like Fable 5,
+ they're much, much more concentrated.
+ That concentration means that on average,
+ they might be better,
+ although they are going to be less diverse.
+ The second model behavior is that GLM 5.2
+ avoids common error cases.
+ Specifically, it seems to be really good
+ at using certain dependencies
+ such as chart.js and 3JS.
+ Design Arena writes,
+ while other models often fail
+ to effectively use these libraries,
+ GLM 5.2 calls and uses them naturally.
+ It also uses Tailwind CSS in 91% of sessions
+ as compared to Opus 48,
+ which only uses Tailwind CSS in 57% of sessions.
+ The third model behavior
+ is more intricate detailed outputs.
+ Now they do point out though
+ that this complexity comes with a cost.
+ That cost being longer generation times
+ as the model outputs more tokens.
+ In fact, GLM 5.2 websites produced 25% more characters
+ and lines of code in their testing
+ and had an average generation time
+ that was about double Claude Fable 5.
+ Now one thing that is worth pointing out
+ that you start to see here with GLM 5.2
+ is that I think that in general,
+ people's assumption are that these Chinese open weight models
+ are going to be much, much less expensive to run.
+ And in this case, it's not as clear cut.
+ YouTuber and AI entrepreneur Theo writes,
+ I see a lot of people hyped about GLM 5.2, rightfully so.
+ Having an open weight model surpassed GPT-54
+ in every Gemini model is dope.
+ That said, it's not cheap.
+ Both Opus 48 and GPT-55 set to medium
+ are cheaper and smarter than GLM 5.2.
+ It also uses way more output tokens.
+ The tokens are cheaper,
+ but the volume of them means
+ you spend more time waiting for results.
+ Still dope, just trying to make sure
+ people set their expectations properly.
+ Now it's fascinating, especially for those of you
+ who listened to the episode this weekend
+ about local models with new FAR,
+ is that a lot of people are acting
+ like the only way to use GLM 5.2
+ is running it locally yourself.
+ Going back to Intermar Golan, he writes,
+ the catch of GPT-5.2 is that running it properly
+ is still expensive.
+ You probably need something like
+ eight NVIDIA H200 GPUs,
+ which means roughly 400K to buy
+ or around 20K a month to rent.
+ Shutterstock founder John Orranger
+ also did this sort of math,
+ talking about how many blackwells
+ you need to run this, under what settings.
+ But of course in reality,
+ most people are just going to use this model
+ via one of the routing tools like OpenRouter
+ or in one of the open source harnesses
+ that they can maintain for themselves.
+ OpenCode, for example, tweeted,
+ GLM 5.2 is a hit, been out for three days
+ and it's already sixth on our leaderboard.
+ And I would strongly suggest
+ for those of you who want to try this,
+ that rather than trying to hack
+ at some very complex physical infrastructure
+ at least to start,
+ you go try it via some service like OpenRouter.
+ Still, you can absolutely feel the Overton window shifting
+ on how fast people think we'll get
+ a fabled class model from China.
+ Elon Musk actually got into a bit of a debate
+ with ex-user tier taxes about this.
+ After tier suggested
+ that we'd see a full Chinese mythos
+ by November or December of this year,
+ Elon Musk argued that it would actually be Q1.
+ When the founder of ZAI responded
+ that it won't take that long,
+ Elon Musk responded again,
+ on benchmarks, yes, but as measured
+ by true usefulness,
+ even Q1 would be very impressive.
+ Anthropic is rightly focused
+ on maximizing useful intelligence,
+ which does not show up in benchmarks,
+ but definitely shows up in revenue.
+ And yet as boxes Aaron Levy points out,
+ the fact that open weight models
+ are being discussed credibly
+ at this level of capability
+ should be a huge update for many.
+ The implications of open models
+ getting to frontier performance
+ ensures that you can always have sovereign AI,
+ have the ability to post train
+ for your specific workflows,
+ cost optimized for various workloads
+ and actually afford to do much more with AI,
+ which opens up meaningfully different applications.
+ Huge win for the applied AI layer.
+ So for those of you who are running businesses
+ and are trying to figure out what to do with this,
+ my recommendation is not that you race out
+ and try to buy expensive hardware.
+ Now, if you do want to start experimenting
+ with local AI,
+ you can absolutely go check out the episode
+ I did with NuFar.
+ But I think that the bigger thing here
+ is that even assuming we get fabled back this week,
+ I think the idea that AI was fully down
+ to a two horse race between open AI and Anthropic
+ with a little asterisk for Google
+ if they can get their mojo back
+ has been broken over the course of the past six weeks or so.
+ The combination of workloads getting so much more intense,
+ meaning so much more costly,
+ plus the double-edged sword of models getting powerful enough
+ that they're subject to government review and restriction,
+ while also meaning that models just behind them
+ are probably gonna be viable for a lot of use cases,
+ means just this incredible potential flowering
+ of new diverse model architectures
+ and setups inside companies
+ that can optimize for different priorities,
+ whether it's speed, cost performance or something else.
+ I don't think that on average,
+ most companies need to be trying to race
+ and shift off of their core subscriptions,
+ whatever they may be.
+ But I do think that having some part of the organization
+ have some license and sandbox to experiment
+ with some of these alternative model architectures
+ is probably time and money well spent right now.
+ Certainly as we see more evidence
+ and case studies of how companies
+ are putting this together, I will bring them to you.
+ For now though, that's gonna do it
+ for today's AI Daily Brief.
+ Appreciate you listening or watching.
+ As always, until next time, peace.
