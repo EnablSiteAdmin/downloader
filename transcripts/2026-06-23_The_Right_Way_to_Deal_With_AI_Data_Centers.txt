@@ -1,0 +1,722 @@
+ Today on the AI Daily Brief, the right way to deal with AI data centers.
+ Before that in the headlines, updates on mythos, SpaceX's neocloud and much, much more.
+ The AI Daily Brief is a daily podcast and video about the most important news and discussions
+ in AI.
+ All right, friends, quick announcements before we dive in.
+ First of all, thank you to today's sponsors, KPMG, robots and pencils, mission cloud
+ and out systems.
+ To get an ad-free version of the show, go to patreon.com slash aidailybrief or you can
+ subscribe on Apple podcasts.
+ And to learn more about sponsoring the show, send us a note at sponsors at aidailybrief.ai.
+ Last note, I've been sharing the new training.besuper.ai.
+ This is the updated home of some of the programs that we've been experimenting with
+ this year, including the executive catch-up program, as well as the inheritor to Enterprise
+ Claw, which is the Enterprise Grade Version Executive Agent Leadership Program.
+ That is a six-week sprint that will have you not only building agents, but also building
+ the organizational infrastructure policies, et cetera, around them that you need to actually
+ use agents.
+ The next cohort for that launches on June 29th.
+ Sign up now.
+ Again, you can find all the links that are relevant at training.besuper.ai.
+ We kick off today with an update in a story that we were covering yesterday, which is
+ around the NSA dimension of the mythos fable ban.
+ Now, the TLDR of what I was discussing in that initial coverage was that there
+ seemed to me to be a mismatch between what was actually said in the way that it was
+ being interpreted.
+ In short, people sitting around waiting for fable to return were looking for a reason
+ that made a little bit more sense than there just being this jailbreak that
+ Amazon had reported.
+ And when they went back and found a story that seemed to indicate that the NSA had
+ been hacked by mythos, it seemed to some to make more sense.
+ Now, commentators with an understanding of NSA operations pointed out that what the
+ director was telling Senator Mark Warner was likely a discussion of a controlled
+ red team exercise rather than some live cyber attack.
+ Shashank Joshi, the economist reporter whose article went viral, has now provided an
+ update writing,
+ A U.S. official tells me that Senator Warner misunderstood the NSA director
+ General Rudd in this case.
+ Rudd did use the hours not weeks wording, but the use of mythos in this context
+ was, as widely assumed, part of a red teaming effort, i.e. testing the
+ security of internal networks.
+ The official also told me that the agency's red teams no longer have
+ access to mythos because their authority for accessing it was under
+ Project Glasswing.
+ Joshi pointed to commentary from a cybersecurity account called Iris C2,
+ suggesting that they had the correct read on what had actually happened.
+ That account noted that, quote,
+ In the case of almost every exercise, the red team begins with some kind of
+ initial access to the air-gapped classified network.
+ Essentially, classified NSA systems aren't generally accessible from the
+ outside, and gaining that initial access is one of the most difficult
+ parts of any attack.
+ Iris C2 commented that mythos doesn't suddenly mean that any random
+ person can suddenly hack the NSA.
+ However, they did note that if an attacker manages to gain access, mythos
+ makes the design an execution of an exploit much faster,
+ reducing the available time to detect and contain an intruder.
+ So the point if we're looking for takeaways is not that mythos has
+ broken into the NSA, but that it does raise the stakes for
+ cybersecurity by making attackers far more efficient.
+ Now, the bigger detail for many was the throwaway line about the
+ NSA not having access to mythos anymore.
+ Yet another reason to want this situation to be resolved as soon
+ as humanly possible.
+ Now, staying on the cybersecurity train, OpenAI has updated
+ their cybersecurity model alongside a big new cyber initiative.
+ On Monday, OpenAI announced a significant update to their
+ Daybreak security initiative.
+ Daybreak was first launched in May as an answer to
+ Anthropics Project Glasswing.
+ As part of the initial rollout, OpenAI made a preview
+ version of GPT-55 Cyber available to trusted partners.
+ As a point of differentiation to Glasswing, OpenAI
+ invited smaller organizations to apply for access.
+ OpenAI wrote,
+ Frontier defensive capabilities should not be concentrated
+ in the hands of a few.
+ As AI changes the pace of vulnerability discovery,
+ defenders everywhere need democratized access to these
+ models to find, fix, and protect their infrastructure
+ before attackers can identify and abuse these flaws.
+ With the expansion, OpenAI has now launched the full
+ version of GPT-55 Cyber, their first model that's been
+ fine-tuned for cybersecurity work.
+ Like Mythos, the model has reduced guardrails to ensure
+ professionals can use it freely in their work,
+ and OpenAI has updated the Codex security plugin to make
+ their harness more performant for cybersecurity tasks.
+ OpenAI is claiming that with the new updates,
+ their new cyber model has overtaken Mythos on the
+ relevant benchmark cyber gem.
+ In addition, OpenAI is launching a new initiative
+ called Patch the Planet in partnership with
+ security research firm Trail of Bits.
+ Reporting on their initial testing of GPT-55 Cyber,
+ Trail of Bits wrote that they'd found hundreds of
+ bugs in open source libraries.
+ They've deployed 37 patches so far and have many more in
+ the pipeline.
+ Over 30 open source projects have already joined
+ Patch the Planet, with the goal of securing the
+ critical software that underpins the digital world.
+ Trail of Bits noted that the introduction of
+ strong AI security models has fundamentally
+ changed the nature of the work.
+ They wrote,
+ If it wasn't already clear from the last
+ several months of security news, this week makes
+ one thing clear, the expensive part of
+ security work has moved.
+ The advantage is no longer in finding bugs,
+ but everything after.
+ Confirming a finding, getting it severity right,
+ writing a patch a maintainer will accept,
+ and coordinating a disclosure.
+ That is the work that floods of AI-generated
+ reports threaten to bury.
+ The release comes as the Five Eyes Intelligence
+ agencies, which is an intelligence alliance
+ between Australia, Canada, New Zealand, the UK,
+ and the United States, issued a rare public
+ alert for AI-driven cyber risk.
+ In a bulletin published on Monday,
+ the UK National Cyber Security Centre wrote,
+ The evolving landscape of AI is rapidly
+ transforming cyber risk and we must act
+ swiftly to remain ahead.
+ The bulletin called on the business
+ community to assess the changing risk,
+ prioritize cyber security practices, and
+ quote, stay actively engaged as threats
+ and guidance evolve.
+ The agencies warned that the rapid pace
+ of frontier AI development means
+ cyber risk assumptions can become
+ outdated in months, not years.
+ They also heavily encouraged the
+ integration of AI tools into
+ cyber security operations, and warned
+ that, quote, cyber risk can no longer
+ be treated as a purely technical issue.
+ This is a core business risk and
+ leadership responsibility.
+ Now nothing in the bulletin will be
+ surprising to anyone who has been
+ paying attention, but it's pretty
+ clear that the intention of the
+ bulletin was to light a fire under
+ the enterprises who perhaps are not
+ spending as much time listening to the
+ AI Daily Brief as they should.
+ Now staying in the regulatory space,
+ a story that isn't exactly related
+ to AI, but which is being kind of
+ lumped in as frontier tech writ large,
+ President Trump has called for the
+ construction of a powerful quantum
+ computer in a pair of new executive
+ orders.
+ One order instructs federal agencies,
+ including the energy department, to
+ collaborate with private industry to
+ deploy a quantum computer for
+ scientific research purposes.
+ Michael Cratios, director of the
+ White House Office of Science and
+ Technology Policy, said he believes
+ a functional computer can be done by
+ 2028.
+ In addition, the first order instructs
+ the government to migrate to
+ quantum secure cryptography by 2031.
+ The second order deals with
+ protection of intellectual property
+ within quantum companies and
+ hardening the supply chain for
+ components for quantum computing.
+ This order emphasizes the need for
+ international cooperation to prevent
+ the technology from falling into the
+ hands of adversaries.
+ Now for anyone who's been paying
+ attention to the quantum story, it
+ is honestly a little hard to tell
+ exactly where the state of the
+ technology is, nor is it
+ particularly easy with its
+ administration to know at any given
+ time what the motivations behind an
+ executive order are, so for this one
+ I'm going to have to just leave it
+ at the news and make of it what you
+ will.
+ Now on the market side of the house,
+ SpaceX has signed another
+ multi-billion dollar data center
+ deal as Elon Musk extends his
+ compute empire.
+ Open source AI startup Reflection
+ AI agreed to pay $150 a month to
+ rent capacity from the Colossus
+ 2 data center.
+ That agreement begins next month and
+ runs through to 2029
+ putting the total deal value at
+ $6.3 billion, as with the other
+ SpaceX deals either party can walk
+ away on three months notice.
+ This is also significantly smaller
+ than the anthropic and Google
+ deals, each running at around a
+ billion dollars a month.
+ Still with SpaceX coming down from
+ its IPO sugar rush,
+ anything that helps people
+ understand the long term of the
+ business is probably helpful.
+ Reflection AI meanwhile used the
+ deal as a way to promote
+ themselves as a domestic open
+ source alternative.
+ In a press statement the startup
+ said,
+ Recent events highlight how
+ important open source is to the AI
+ ecosystem, with more nations and
+ enterprises recognizing the risks
+ and costs associated with
+ exclusively depending on closed
+ models.
+ They said that the deal signals
+ their strategic importance in the
+ frontier AI ecosystem and that
+ more compute would give them more
+ runway to develop leading open
+ models.
+ Now Reflection is yet to release
+ their first frontier model, but
+ has been working with government
+ partners including the Pentagon
+ and the Department of Energy's
+ Genesis mission.
+ Now Swigs from Latent Space
+ thinks what we might be
+ underestimating the potency of
+ SpaceX's new moves.
+ He tweeted,
+ I don't think anyone is correctly
+ doing the math around how SpaceX,
+ the Neocloud plus Neolab, is
+ currently going to market.
+ SpaceX has already recouped about
+ half its investment in cursor in
+ compute deals.
+ The other half is paid for if
+ Composer 3 does well.
+ No other company is simultaneously
+ a leading model lab and Neocloud,
+ at least where GPUs is concerned.
+ It's a crazy effective combo if
+ you've adequately planned out
+ GPU supply if in-house training
+ one goes very well or two doesn't
+ go very well.
+ Which is certainly not to say
+ the SpaceX did well yesterday,
+ actually experiencing a 16% drop,
+ but it wasn't the only AI company
+ running into some trouble.
+ Google stock fell sharply as the
+ market reacted to the loss of
+ two key AI researchers.
+ On Monday show, I covered the
+ departure of Nobel laureate John
+ Jumper, who left DeepMind for
+ Anthropic just a couple of days
+ after Noam Shazir packed his bags
+ to join OpenAI.
+ The sort of standard reading of
+ the situation is things going
+ sideways at DeepMind,
+ and there were plenty of anonymous
+ quotes to be had to suggest
+ morale was plummeting as Google
+ lags behind in the AI race.
+ Now, while my personal take was
+ that we have a tendency to
+ overreact to personnel changes,
+ evidently the market disagrees.
+ Google stock was down as much
+ as 7.2% on Monday,
+ its largest intraday move since
+ February.
+ That means that if you can
+ attribute this directly to
+ those two employees departing,
+ those departures cost the company
+ over $200 billion in market cap.
+ Now, it might be reasonable to
+ chalk this up to the market
+ overindexing on AI headlines
+ once again as they did during
+ the deep seek moment.
+ But there is also a more
+ fundamental narrative shift
+ happening around Google.
+ Up until very recently,
+ Google had been the top performer
+ in big tech
+ and even briefly became
+ the largest company in the world.
+ And yet the more that the
+ perception is that Google's
+ models aren't keeping pace
+ with anthropic and open AI,
+ particularly on enterprise
+ essential agentic use cases,
+ skepticism has started to creep in.
+ With that as background,
+ Jumper and Shizir moving to
+ rival labs seems to confirm
+ that point of view
+ rather than simply representing
+ some new trend.
+ Gil Lauria,
+ the head of technology research
+ at DA Davidson,
+ summed up that viewpoint saying,
+ Google is losing the war
+ for talent at the frontier of AI.
+ Google had the state-of-the-art
+ model for a few weeks last year
+ which helped it get credit
+ as an AI winner
+ but has fallen off since
+ and these departures may mean
+ it is falling behind.
+ Now, I will say I'm sticking
+ to my guns around reading
+ too much around any personnel moves
+ and I think prime intellects
+ Florian Brand is directionally
+ correct when they write,
+ we are in peak
+ Google is done for
+ and will never catch up
+ which is always followed
+ by them releasing a new model
+ and people going
+ the others are done for
+ no one has the TPUs and data
+ that Google has.
+ For now it is for Marcus to debate
+ which side of that equation
+ is more accurate
+ but for us that is going to do it
+ for the headlines.
+ Next up the main episode.
+ One of the most important
+ AI questions right now
+ isn't who's using AI
+ it's who's using it well.
+ KPMG and the University of Texas
+ at Austin
+ just analyzed 1.4 million
+ real workplace AI interactions
+ and found something surprising
+ the highest impact users
+ aren't better prompt engineers
+ they treat AI
+ like a reasoning partner
+ they frame problems
+ guide thinking
+ iterate
+ and push for better answers
+ and the good news
+ these behaviors are teachable at scale
+ if you're trying to move
+ from AI access to real capability
+ KPMG's research
+ on sophisticated AI collaboration
+ is worth your time
+ learn more at
+ kpmg.com
+ slash us slash sophisticated
+ that's kpmg.com
+ slash us slash sophisticated
+ One thing I keep seeing in enterprise AI
+ companies hedging across
+ every cloud
+ every model
+ every framework
+ or paying a GSI
+ for a pilot that never ends
+ the team's actually shipping
+ they've picked a lane
+ and they move fast
+ that's one of the reasons
+ I like today's sponsor robots and pencils
+ they've gone all in on AWS
+ they're an advanced tier
+ and AWS pattern partner
+ and they ship production
+ AI co-workers in 45 days
+ that's led to them doing
+ some of the more interesting work
+ I've seen on AI co-workers
+ and by that I'm not talking about chatbots
+ I'm talking about actual agentic systems
+ that sit inside a business architecture
+ and do real work
+ that kind of focus matters
+ if you're an enterprise leader
+ trying to get something real
+ into production
+ or an AWS rep
+ trying to move a customer
+ from interested to deployed
+ request an AI briefing
+ at robotsandpencils.com
+ one conversation with robots and pencils
+ and you'll know
+ The average enterprise is
+ spending 11 and a half million
+ dollars on AI this year
+ and most of them
+ can't prove a single dollar came back
+ What does AI actually look like
+ when it produces ROI?
+ Ask the healthcare company
+ that just made their payment processing
+ 320 times faster
+ or the law firm whose document
+ research went from 3 months to 10 minutes
+ or the contact center
+ who reduced wait times by 99%
+ These are real mission cloud
+ customers with real results
+ Mission cloud is a CDW company
+ and an AWS premiere to your partner
+ They're the AI first outcome
+ obsessed AWS experts
+ who build AI solutions
+ that drive your business forward
+ Whether you're flooded
+ with AI ambitions
+ but no idea where to start
+ or 6 months into a deployment
+ that's going sideways
+ they've seen it
+ and they've fixed it
+ Stop burning your budgets
+ on AI that doesn't produce results
+ Start at missioncloud.com
+ This episode of the AI Daily Brief
+ is brought to you by OutSystems
+ a leading agendic systems platform
+ built for the enterprise
+ Organizations all over the world
+ are building, orchestrating
+ and governing agendic systems
+ on the OutSystems platform
+ and with good reason
+ OutSystems open and unified platform
+ allows teams to architect,
+ deliver and scale
+ governed agendic systems
+ with agility
+ Teams of any size and technical depth
+ can use OutSystems
+ to build, deploy and manage
+ AI apps and agents quickly
+ and cost effectively
+ without compromising
+ reliability and security
+ With OutSystems
+ you can rapidly launch ideas
+ from concept to completion
+ It's the leading agendic systems
+ platform that is unified
+ agile and enterprise proven
+ allowing you to accelerate growth
+ reduce operational friction
+ and deliver real enterprise impact with AI
+ OutSystems
+ Build your agendic future
+ Welcome back to the AI Daily Brief
+ Today we're going to take advantage
+ of a slightly slower news cycle
+ in which everyone is somewhere between
+ sitting on their hands
+ waiting for fable 5 to return
+ or going full open source tinker
+ or building out local infrastructure
+ in their basements
+ to try to discuss calmly
+ one of the most contentious issues
+ surrounding AI
+ which is the impact of data centers
+ Now on any given day
+ I could find a reason to discuss this topic
+ especially with midterm elections
+ coming up
+ it is becoming more and more of a hot button
+ and it's also rising in cultural significance
+ On his popular this past weekend podcast
+ Theo Vaughn recently went on a data center rant
+ he said
+ nobody wants a data center dude
+ and the people that want them to me
+ they seem kind of evil
+ one of these companies is going to own all this information
+ there's going to become this social
+ or emotional credit score
+ and then AI is going to try to become our new god
+ which by the way
+ has to be a contender
+ for the most misperceptions or concerns
+ depending on your perspective
+ about AI shoved into a single paragraph
+ and yet Theo Vaughn here is I think
+ more reflective of an emerging mainstream point of view
+ than he is even a leading indicator
+ AI researcher Andy Masli recently posted a New Yorker cartoon
+ of a little robot coming into its parents' bedroom
+ with the mom reaching over to the dad and whispering
+ it's AI again
+ he wants another thousand glasses of water
+ as Andy who has done more to debunk some of these myths
+ than just about anyone captioned
+ this idea will never die
+ and on those lines you might have recently noticed
+ that famed activist Aaron Brockovich
+ has started a major campaign against data centers
+ and on the other side of the political aisle
+ former Tea Party conservatives are now planning
+ a nationwide protest against AI data centers
+ The New York Times quoted comedian Charlie Barron's
+ calling opposition to data centers
+ the most bipartisan issue since beer
+ Now when you hear critiques
+ despite Theo grabbing some concerns
+ that we've previously heard around things like
+ central bank digital currencies
+ i.e. the worry about a social credit score
+ for most people the two big issues come down
+ to water use and energy prices
+ Take for example this recent tweet
+ from Indiana resident Valerie Ann Smith
+ she wrote
+ Amazon is dropping an 11 billion dollar
+ AI data center right in Indiana
+ this monster will guzzle electricity for
+ 1 million homes and 300 million gallons
+ of water every single year
+ just one facility
+ our grid is already crumbling
+ bills will explode
+ water shortages incoming
+ blackouts while they power their AI overlords
+ and the same tech giants lecture us
+ regular people about climate change
+ Nicole Dividar
+ who so far as I can tell from just their
+ Twitter profile seems to be
+ pretty much as opposite politically
+ as she can be from Valerie Ann Smith
+ reposted that and reiterated that key point
+ Amazon's monster data center projected
+ to consume 300 million to 330 million
+ gallons of water every year
+ insane
+ the way we're going will be the
+ downfall of humanity in every living
+ being
+ the madness must end
+ the thinking that nature is here to
+ exploit must end
+ now these numbers do seem at first
+ glance huge
+ 300 million gallons of water a year
+ seems like just an enormous amount right
+ overall Amazon recently released
+ full water use statistics for their data centers
+ and according to their figures
+ their global data center operations consumed
+ 2.5 billion gallons of water in 2025
+ now that report did note
+ that water use at its sites
+ had actually fallen 2% from 2024
+ even though it expanded its data center
+ footprint meaningfully
+ but still 2.5 billion gallons of water right
+ the problem
+ is that relative to many of our other uses of water
+ these numbers actually aren't particularly large
+ so to use some comparisons
+ the 16,000 golf courses in the United States
+ consume over 500 billion gallons of water a year
+ that means that a full year of operations for Amazon's data centers
+ is slightly more than a single day of U.S. golf course maintenance
+ another frequent point of comparison is almonds
+ California almonds used between 1.2 and 1.8 trillion gallons of water each year
+ which is somewhere between 5 and 8 times the total amount of water used by all data centers in America
+ one recent study found that the U.S. lost 3.29 trillion gallons of water per year to leaky pipes
+ about 15 times as much as data centers use
+ and one of the key sources for the myth of water consumption
+ author Karen Howe in her book Empire of AI
+ had to apologize for her most dramatic claim
+ being a factor of a thousand wrong
+ basically she claimed that a google data center in Chile
+ consumed a thousand times more water than the surrounding population
+ but she was off by a factor of a thousand due to a unit mix-up
+ Howe eventually acknowledged the error and issued the correction
+ but the book is still out there saying the same thing
+ in Indiana where the citizens were concerned about Amazon's data center
+ using 300 million gallons of water per year
+ the state delivers a little under 500 million gallons of water per day for domestic use
+ or around 182 billion gallons per year
+ that means the Amazon data center represents 0.2% of water use for the state
+ without including industrial use
+ and this gets to one of the biggest problems
+ with the data center conversation when it comes to water
+ which is that if you don't like the thing that the water is being used for
+ even one gallon is too many
+ and that's really what a lot of this critique comes back to
+ big numbers are politically potent
+ because most people don't have any idea of how much water we actually consume
+ and these numbers all just sound so astronomically large
+ that it's very easy to grab attention
+ and get people to think that the water being used is just too much
+ now it's more for those who think that even this is too much water
+ the companies in the data center space
+ are working to reduce it even more
+ Nvidia recently touted what they called one of the biggest efficiency leaps in data center history
+ saying that their new approach to liquid cooling could cut water use to near zero
+ now as i mentioned the second big issue that comes up around data centers
+ is the idea that they drive up electricity prices
+ and once again digging into the numbers
+ it's a lot less clear than the data center opposition would make it seem
+ the institute for energy research recently concluded
+ there is no statistically significant correlation between the number of data centers in a state
+ and its current electricity prices
+ in fact prices in the top 10 data center states
+ are virtually identical to the average across other states
+ furthermore there is no statistically significant relationship between data
+ center concentration and faster increases in electricity rates
+ now where i think that this does get more complicated
+ is that ultimately most electricity price pressure
+ is due in some way not just to new data centers coming online
+ but to costs associated with upgrading an aging grid
+ a problem that we have to face even without the new data center build out
+ the daily economy explored this research and asked why so many americans are convinced
+ that data centers do increase their electricity prices
+ they concluded in the short run at the local level the story is more complicated
+ a bloomberg analysis of wholesale electricity prices across 25 000 grid nodes
+ found that prices have risen as much as 276 percent since 2020
+ in areas near major data center clusters
+ more than 70 of nodes recording price increases were located within 50 miles
+ of significant data center activity in these regions data centers create a surge
+ and demand on local grids when transmission capacity is constrained
+ and the new generation has not yet come online prices spike
+ those higher wholesale costs can then filter into retail bills at least in the short run
+ and local customers bear the brunt of this regional electricity demand
+ now continuing later they write concentrated price spikes are not
+ evidence that data centers are inherently incompatible with affordable electricity
+ they are evidence that grid infrastructure and cost allocation rules haven't kept up
+ they then point to some of the examples of how policy is racing to catch up with this
+ and make things more fair in the short run as well
+ they point to for example oregon's power act which requires the biggest electricity users i.e.
+ the data centers to bear the cost of infrastructure that is built specifically for them
+ this is also the same principle behind the white house's rate payer protection pledge
+ where companies agreed to quote protect american consumers from price hikes
+ due to data center energy and infrastructure requirements
+ and lower electricity costs for consumers in the long term
+ the five commitments in the pledge included specifically building bringing or buying new
+ power supply paying for new power delivery infrastructure upgrades paying whether they
+ use the power or not investing in local job creation and workforce development
+ and contributing to electric and community resilience
+ now my personal belief and why i think this is worth talking about
+ is that as with much in the ai debate the conversation on both sides gets wildly
+ reductive and extreme it tends to be snarky reactions like marca andreason
+ reposting theovans post saying i have bad news about your podcast dude
+ pointing out the inherently hypocritical position of critiquing data centers
+ when they are the thing that allows his podcast to reach all the people that it reaches
+ or you have commentary as alex finn said that just calls this insane dribble
+ now alex is someone who's incredibly excited about ai and i think rightly points out
+ that there is a huge excitement gap between for example america and china when it comes to ai
+ he writes if a large majority of americans believe the most powerful prosperous important
+ technology of our lifetimes is somehow evil we simply won't be able to keep up with a country
+ that believes it's good and while i think that that's right we're not going to convert people by
+ not taking their concerns seriously now i think that in all of this maybe the most important
+ actor for finding space in the middle are the labor unions labor unions represent multiple
+ constituencies on the one hand they are of the communities that have these concerns and i
+ think take them seriously i think they are sympathetic to concerns that ai in any big tech
+ is another way to disproportionately benefit the already rich at the same time
+ unions representing key skilled blue collar work are also at the forefront of seeing how valuable
+ the data center build out can be as the demand for more skilled work from their members just
+ goes up and up and up the informations and davis von recently wrote a piece called debunking
+ the myths that ai data center critics believe and i actually think that the title
+ undersells the value of the piece i think that her lead paragraph nails it when she writes
+ i've been visiting large ai data center projects in rural and industrial communities in the midwest
+ southeast and west and i have found that two things can be true at the same time ai data centers have
+ drawbacks but are better for communities than their residents think and those communities can
+ win a lot more financial concessions and benefits from the tech firms than they realize i think
+ right now communities are being taught to felt like their choices are rollover and let big tech
+ in the data centers do whatever they want with the natural resources surrounding their homes
+ or on the other end of the spectrum get your signs in pitchforks and stop it from happening
+ entirely i think communities should absolutely get to advocate for what they think is right
+ for their communities whatever it may be relative to data centers but i think that
+ they're missing that there is a massive middle path where they can be negotiating for the
+ data center builders to effectively give them the world and articles starts to make this a
+ little bit real she writes in rural richland parish louisiana for instance hundreds of teachers
+ are set to receive unprecedented $50,000 bonuses this year funded by a surge in tax receipts tied
+ to meta platforms which is building a large ai campus there an existing ordinance mandates
+ that teachers get a slice of sales taxes and teacher bonuses quintupled due to the activities
+ related to campus construction not to be too crass about this but i think that with the
+ amount of money involved and the stakes of what's being built we're not just talking
+ about data center builders and owners making sure that people's electricity prices don't go up
+ we're talking about major intentional economic benefits to the communities if negotiated well
+ i hope that we can move past the knee jerk binary phase of this conversation
+ into the how everyone wins phase sooner rather than later for now that's going to do it for
+ today's ai daily brief i appreciate you listening or watching as always until next time peace
