@@ -1,0 +1,623 @@
+ Today on the AI Daily Brief, we're talking about bot-sitting and the hidden labor that
+ comes with the AI transformation of work.
+ The AI Daily Brief is a daily podcast and video about the most important news and discussions
+ in AI.
+ All right, friends, quick announcements before we dive in.
+ First of all, thank you to today's sponsors, KPMG, Superintelligent, MissionCloud, and
+ OutSystems.
+ To get an ad-free version of the show, go to patreon.com.aidailybrief, or you can subscribe
+ on Apple Podcasts.
+ If you want to learn more about sponsoring the show, send us a note at sponsors.aidailybrief.ai.
+ Two other quick notes.
+ First of all, check out training.besuper.ai for the newly updated enterprise-grade
+ versions of the executive catch-up and the executive agent leadership program.
+ The executive agent leadership program is a six-week intensive that kicks off on
+ Monday, so last chance to get in on that.
+ And finally, just to let you know, I am recording this a couple days early because of some
+ end-of-the-school year travel, so this will be a main only episode, but we will be
+ back with our normal format on Monday.
+ Today, we're talking about a new report from Glean and the Work AI Institute that's
+ part of their Work AI Index for 2026, and it's all about something called
+ bot-sitting or the hidden human labor of AI at work.
+ Now, one of the things that you may or may not have noticed this year is that
+ I've done a little bit less coverage of studies from, for example, consulting firms
+ or enterprise-focused research houses, and there is an actual specific reason for that.
+ There's actually a couple of reasons, but they all come back to my feeling that
+ the paradigm has shifted so much between non-agentic and agentic work that
+ anything that's interacting with non-agentic work is largely irrelevant.
+ Now, of course, if you are an enterprise AI leader, that's not the case.
+ There are still lots of use cases that are non-agentic that are going to be
+ valuable and productivity enhancing, but you guys know that I have a very
+ strong bias towards being interested in opportunity AI, not just efficiency AI,
+ and the big changes that I see happening in terms of how we work,
+ not just doing the same stuff we've always done a little bit faster.
+ This report, however, starts to get into and name some new types of work
+ that surround AI and agents that I think is really valuable to call out
+ and start to explore.
+ So that's what we're going to get into.
+ Now, let's start with the statistics that they use to set everything up.
+ Their big banner tweet-worthy statistics are that 87% of digital workers
+ now use AI at work with 75% saying it makes them more productive,
+ saving them 11 hours per week through automation.
+ Yet only 13% say their organization is performing significantly better as a result.
+ And these numbers are almost a perfect encapsulation of what I was just talking about.
+ 11 hours per employee is nothing to sneeze at.
+ AI reaching nearly full penetration with the vast majority of people
+ saying it makes them more productive are also interesting things.
+ And of course, the contrast between that individual performance
+ and organizational performance reinforces a story that will be very familiar
+ and that we hear over and over again,
+ which is that translating individual AI gains into larger organizational gains
+ is very difficult and not at all implied just by using AI well individually.
+ Now, interestingly, I disagree with the report's key argument
+ about why only 13% of those workers say their organization is performing better.
+ I believe that on a fundamental level,
+ individual productivity gains, wherever they come from,
+ do not inherently translate to organizational gains
+ unless there is a mechanism to actually facilitate that transformation.
+ The question is what specifically are people using those 11 hours per week for?
+ And how much does it have to do with actually advancing key company missions?
+ The report's argument is that the gains are, in their words,
+ being swallowed by a new, largely invisible form of labor.
+ They continue, we call it bot-sitting,
+ the work required to make AI usable,
+ including feeding it missing context, checking its outputs, debugging its mistakes,
+ rerunning prompts and cleaning up the confident but wrong answers AI leaves behind.
+ Workers now burn an average of 6.4 hours a week bot-sitting.
+ So basically, the argument is the reasons that organizations aren't getting gains
+ is that those 11 hours per week that people are saving
+ are being eaten in large part by the 6.4 hours a week that they now have to bot-sit.
+ My position is that even if they weren't spending those 6.4 hours a week bot-sitting,
+ you still wouldn't see a direct translation
+ from individual productivity to organizational performance.
+ But, and this is important,
+ I think that this new largely invisible form of labor that they're calling out
+ is extremely important to understand as we figure out how to integrate AI.
+ So let's talk more about bot-sitting.
+ One important note, certainly,
+ is that this is a byproduct of AI being successful on an individual level.
+ As the report puts it,
+ workers are handing over bigger parts of their jobs to AI and want to hand over even more.
+ Workers they surveyed said that AI now automates about 27% of their work output
+ and those workers on average expected it to climb to 35%.
+ 57% said that they want AI to automate even more of their job
+ than they think it actually will ultimately be able to.
+ But that success comes with some challenges.
+ Maybe the most interesting chart in the entire report
+ is the chart about where AI time actually goes.
+ The Work AI Institute organized people's AI use into three categories.
+ The first was learning and building agents,
+ which is exactly what it sounds like.
+ It includes building workflows,
+ reading online discussions about how others are building
+ and experimenting with new models.
+ That represented about 27% of people's time.
+ 36% of people's AI time was spent actively using AI,
+ in other words, completing work with AI.
+ But 37% was on what they are calling bot-sitting.
+ Now, interestingly, they break bot-sitting
+ into two different categories, unproductive and productive.
+ The productive part just kind of looks like what it means
+ to manage increasingly autonomous AI.
+ So that includes verifying high-stakes outputs
+ to ensure they're correct,
+ iterating on a prompt to make the output meaningfully better
+ or adding domain context the AI couldn't have known.
+ The report argues that these are basically
+ good versions of bot-sitting.
+ The unproductive versions will be familiar to many of you,
+ reloading the same context into multiple AI tools,
+ comparing outputs across tools
+ because the first answer wasn't good enough
+ or cleaning up AI-generated work.
+ Now, of the 6.4 hours spent bot-sitting per week,
+ 2.3 hours of that, representing 14% of the total
+ overall AI time was in feeding the AI context.
+ Another 2.2 hours a week went to supervising outputs,
+ 1.7 hours a week went to debugging
+ with about 10 or 15 minutes a week
+ on other things like cleanup or switching tools.
+ Now, interestingly, they also introduced
+ a concept of an exhaustion multiplier,
+ writing that for every 10% more time workers
+ spend feeding AI context,
+ they're 25% more likely to report feeling worn out by it.
+ In other words, bot-sitting is unfun,
+ unglamorous grunt work,
+ and it can have negative consequences.
+ In fact, the report found that frequent bot-sitters,
+ which they define as respondents who spend 40%
+ or more of their AI time on bot-sitting activities,
+ i.e. above the median for AI users,
+ 73% were more likely to be actively hunting
+ for another job.
+ Now, in terms of who is bot-sitting more,
+ one culprit is simply a higher volume of work.
+ Heavy AI users are more likely to report
+ frequent bot-sitting than light users,
+ which I think makes intuitive sense.
+ But the report argues that actually tools sprawl,
+ in other words, the number of different AI tools
+ workers use is another big culprit
+ with workers who use multiple AI tools
+ 35% more likely to report frequent bot-sitting.
+ They also found that right now,
+ 60% of workers are rerunning the same problem
+ to cross multiple tools
+ because the first output wasn't good enough,
+ all of which adds up to what they call the AI toggle tax.
+ Now, outside of just feeling overwhelmed or burning out,
+ there is another even more pernicious outcome of bot-sitting,
+ which the report labels bot-sitting.
+ Now, I had my editors bleep it there,
+ but I don't think it takes too much imagination
+ to add the H to bot-sitting to understand the term.
+ Effectively, the process of bot-sitting
+ turning into bot-sitting
+ is when workers start to cognitively offload
+ too much to AI.
+ Now, this can happen even without bot-sitting.
+ We've all seen others and felt probably in ourselves
+ the temptation to hand over more and more of our thinking
+ and judgment to the AI's we use.
+ As we start to trust the outputs more,
+ especially around common or routine tasks,
+ we stop checking the outputs,
+ we stop verifying the sources.
+ And in an enterprise context,
+ many admit that they start to ship the first output
+ that looks good enough
+ instead of pushing for one they can actually explain,
+ defend and stand behind.
+ Now, of course, these things can happen
+ even if we're not spending a ton of time bot-sitting,
+ but when you add the additional layer of burnout
+ and frustration that comes with that bot-sitting work,
+ this can become even more likely.
+ The report writes,
+ bot-sitting is rarely a single bad decision
+ or a reckless click.
+ It's usually a slow surrender of agency
+ one shortcut at a time.
+ First, workers stop fully understanding the output,
+ then they stop interrogating it.
+ Eventually, they stop feeling responsibility
+ for it at all.
+ And not only does this come
+ with offloading understanding or offloading judgment,
+ people also offload responsibility.
+ The report writes that when AI generated work fails,
+ 40% of workers blame AI
+ and only 29% admit that it was their own fault.
+ They call this an example of moral disengagement,
+ writing, it's the gradual mental process
+ by which people stop holding themselves accountable
+ for harmful or careless behavior.
+ Heavy AI users they found are 3.4 times more likely
+ than light users to blame the tool
+ when something goes wrong.
+ So the cycle that they're identifying
+ looks something like this.
+ First, the organization deploys AI
+ for whatever combination of good reasons
+ and signaling reasons that might be.
+ Next, bot-sitting rises
+ as workers absorb the labor of making AI usable,
+ think feeding at all that context
+ and checking its mistakes.
+ Third, fatigue sets in.
+ People realize that their work is no longer doing the work
+ but checking to make sure that AI has done the work.
+ That leads to the bot-sitting phenomenon
+ as the fatigued workers take shortcuts.
+ And as that behavior goes up,
+ we get to the fifth stage
+ where those unverified outputs move upstream.
+ And finally, the cleanup piles up
+ as bad AI-assisted work creates more rework downstream.
+ One of the most important AI questions right now
+ isn't who's using AI, it's who's using it well.
+ KPMG and the University of Texas at Austin
+ just analyzed 1.4 million real workplace AI interactions
+ and found something surprising.
+ The highest impact users aren't better prompt engineers.
+ They treat AI like a reasoning partner.
+ They frame problems, guide thinking,
+ iterate and push for better answers.
+ And the good news,
+ these behaviors are teachable at scale.
+ If you're trying to move from AI access to real capability,
+ KPMG's research on sophisticated AI collaboration
+ is worth your time.
+ Learn more at kpmg.com slash us slash sophisticated.
+ That's kpmg.com slash us slash sophisticated.
+ Today's episode is brought to you
+ by the new executive agent leadership program
+ produced by superintelligent
+ and by frequent AI DB operators guest, New Far Gaspar.
+ To tell you a little bit more
+ about the executive agent leadership program,
+ here is New Far.
+ The best predictor of agent adoption in an organization
+ is how hands-on their leaders are.
+ Talking about agents is completely different
+ than building them.
+ Our participants, ICs, all the way to C-suite
+ have built working agent fleets, governance frameworks
+ and the playbooks to scale it.
+ Executive agent leadership
+ is the evolution of enterprise claw.
+ Everything we've learned across three cohorts
+ rebuilt for right now.
+ The token economy, security, vendor resilience
+ and architecture to lead agent adoption at scale.
+ The next cohort of the executive agent leadership program
+ is signing up now and will launch on June 29th.
+ You can find out more at training.besuper.ai.
+ The average enterprise is spending
+ 11 and a half million dollars on AI this year
+ and most of them can't prove a single dollar came back.
+ What does AI actually look like when it produces ROI?
+ Ask the healthcare company
+ that just made their payment processing 320 times faster
+ or the law firm whose document research
+ went from three months to 10 minutes
+ or the contact center
+ who reduced wait times by 99%.
+ These are real mission cloud customers with real results.
+ Mission cloud is a CDW company
+ and an AWS Premier tier partner.
+ They're the AI first outcome obsessed AWS experts
+ who build AI solutions that drive your business forward.
+ Whether you're flooded with AI ambitions
+ but no idea where to start
+ or six months into a deployment that's going sideways
+ they've seen it and they've fixed it.
+ Stop burning your budgets on AI
+ that doesn't produce results.
+ Start at missioncloud.com.
+ This episode of the AI Daily Brief
+ is brought to you by OutSystems,
+ a leading agentic systems platform built for the enterprise.
+ Organizations all over the world are building,
+ orchestrating and governing agentic systems
+ on the OutSystems platform and with good reason.
+ OutSystems open and unified platform
+ allows teams to architect, deliver
+ and scale governed agentic systems with agility.
+ Teams of any size and technical depth
+ can use OutSystems to build, deploy
+ and manage AI apps and agents quickly and cost effectively
+ without compromising reliability and security.
+ Without systems you can rapidly launch ideas
+ from concept to completion.
+ It's the leading agentic systems platform
+ that is unified, agile and enterprise proven
+ allowing you to accelerate growth,
+ reduce operational friction
+ and deliver real enterprise impact with AI.
+ OutSystems, build your agentic future.
+ OutSystems, build your agentic future.
+ OutSystems, build your agentic future.
+ Now one reason that I think this is interesting to explore now
+ is that another part of my disinterest
+ in many of the studies that have been published this year
+ is that at least some meaningful portion
+ of their data collection happened
+ before the full ascendancy of agentic work.
+ Remember, even the most Vanguard AI users
+ weren't really using agents fully
+ and agentic coding tools and things like that
+ until the very end of last year or beginning of this year.
+ And in fact, the 6,000 people that they surveyed
+ for this report were answering those questions
+ in December of last year and January of this year
+ meaning that this probably wasn't people using
+ Claude code to go run autonomous agents.
+ There is an interesting argument though
+ that in this particular case
+ rather than nullifying these results
+ or making them not relevant,
+ a repeat of this study might find
+ this behavior even more amplified.
+ One of the things that the study found
+ is that the smarter the tool the sloppier the worker.
+ They write that among ChatGPT, Claude, Gemini
+ and Microsoft co-pilot, the tools whose workers
+ report the biggest productivity gains
+ which was ChatGPT at 67% and Claude at 59%
+ were also the tools whose users reported
+ the most bot-shitting at 71% and 92%
+ admitting to it at least monthly respectively.
+ As we really start to move from efficiency AI
+ to opportunity AI where people are doing things
+ that were not possible for them before,
+ it creates this whole new category
+ of potential bot-shitting
+ where it's not that people are being lazy
+ but that they don't actually have the capability
+ to verify or check the output.
+ I feel this acutely every time a new model comes out
+ and people race to figure out
+ if it's better at coding or not
+ and I try it out as well
+ but can only use very impressionistic views
+ of the outputs as my way to understand
+ because I've never coded before.
+ Now very clearly in my estimation
+ that does not mean that only the people
+ who previously could do what the AI can do now
+ should be using those tools.
+ Democratization of skills is a key value
+ of this entire shift
+ and yet it does inherently point to this new challenge
+ that is going to be a part of integrating agents at scale.
+ So how to deal with this?
+ I think that the right way to look at these problems
+ is not at core about people doing something wrong.
+ I think that they are important consequences
+ and artifacts of the transition that we're all experiencing
+ and we're in effect always going to happen
+ in some way, shape or form.
+ Part of our work in this transition
+ is figuring out how to deal with these exact challenges.
+ The Work AI Institute in Glean
+ argue that we need a new human infrastructure of AI
+ that can't be bought but has to be built.
+ They argue that it has to be built at three levels,
+ how individuals work with AI, how teams manage with it
+ and how organizations design with and around it.
+ First of all, they designate a group
+ called high AI achievers.
+ These are people who report that AI
+ has improved both their productivity
+ and the quality of their work.
+ So what do they do that's different?
+ The first thing they do is that they're a little bit
+ more particular about where they use AI.
+ While it's the case that basically everyone
+ uses AI for the core of their work,
+ i.e. developers using it to write code
+ or analysts using it to crunch numbers,
+ low AI achievers spend roughly half
+ of their AI time performing their core job tasks,
+ whereas high AI achievers spend closer to a third.
+ It's the difference between 48% and 38%.
+ Now frankly, right away,
+ I think we're gonna see why these problems
+ are so challenging and they don't have easy answers.
+ The report is arguing that the difference
+ between effectively better AI users
+ and worse AI users is better AI users
+ still doing more of their core work themselves.
+ But this feels to me like a very,
+ very temporary state of affairs.
+ Take for example, in coding.
+ They found that low AI achievers in coding
+ used 46% of their AI time on core tasks of coding
+ versus high AI achievers using 37%
+ of their AI time on core tasks.
+ But again, this was back in December of last year
+ and January of this year.
+ For a significant number of advanced coders at this point,
+ AI is doing all of their previous core task.
+ When the coders who created cloud code
+ basically don't code anymore,
+ it kinda throws this whole idea into a tizzy.
+ Also, the entire paradigm of AI time spent
+ kind of ceases to make sense in an agentic paradigm.
+ In other words, if you give codex or cloud code
+ a slash goal command that's going to work overnight,
+ do you count all of its time working
+ as part of your AI time spent?
+ The entire artifice of this construction
+ just sort of ceases to make sense in an agentic world.
+ And yet I do think that if you are taking away
+ an important part of this,
+ it's that people who are good at the stuff
+ that they're doing are still being discerning
+ about what AI is going to be used for
+ and trust themselves and their judgment
+ to still lead the AI
+ whatever that leadership actually means.
+ The second characteristic of high AI achievers
+ was actually bot-sitting more
+ but orienting it towards the productive.
+ They found that high AI achievers
+ were more than twice as likely to rate AI itself
+ as a valuable teacher.
+ Effectively, they use bot-sitting
+ not only as a way to stop bot-sitting,
+ but as a way to improve their own work with AI.
+ Which gets to the third point,
+ they reinvest that AI dividend,
+ i.e. the 11 hours they saved on average,
+ into new skills, not just more work.
+ Now what about team architecture?
+ Once again, high-achieving AI teams,
+ i.e. those who report both productivity increases
+ and quality of work increases,
+ do things differently than low-achieving AI teams.
+ One difference is while they treat AI as a teammate,
+ they keep accountability on the people.
+ For example, when AI underperforms,
+ rather than just giving up on AI
+ and doing the task themselves,
+ high AI-achieving teams are far more likely
+ to run the same prompt in other AI tools
+ or add more context and try again.
+ High-achieving AI teams see AI adoption
+ spreading peer-to-peer, not just top-down.
+ In a buried but incredibly important statistic they found,
+ when a leader uses AI,
+ it makes the average employee 2.4 times more likely to adopt it.
+ When a direct teammate uses it,
+ it makes them 3.2 times more likely to adopt it.
+ But when a cross-functional teammate adopts it,
+ that makes the average employee 5.6 times more likely to adopt.
+ This is worthy of an entire exploration all on its own.
+ The report starts to explore this,
+ asking why do cross-functional teammates carry so much weight
+ and basically argues that it's because
+ this is where the rubber of AI
+ hits the road of actual organizational messiness.
+ They continue,
+ because they're painfully aware
+ of the coordination tax of work,
+ the bottlenecks, the silos,
+ the duplicated efforts, the dropped balls.
+ So when they build an AI workflow or an agent,
+ they aren't designing
+ for some tidy fantasy version of the work.
+ They're designing for the messy version
+ that they have to deal with,
+ where the marketer needs the data
+ the analyst hasn't pulled yet,
+ and the engineer needs to spec
+ the product manager hasn't written yet.
+ Their workflow spread
+ because they survive contact with real work.
+ The third distinguishing feature
+ of high-achieving AI teams
+ is managers using AI to cut coordination costs
+ and reinvest that time in people.
+ High AI-achieving managers delegate 32% more
+ of their time on coordination to AI.
+ As the report puts it,
+ they aren't using AI to replace management.
+ They're using it to clear away
+ the administrative sludge
+ that gets mistaken for management.
+ And with the take that I love the report writes,
+ that sounds like bad news for managers,
+ but we think it's the opposite.
+ The best managers don't try to compete
+ with AI on coordination work.
+ They delegate the coordination work to AI,
+ using AI to draft the status update,
+ route the request, summarize the meeting.
+ And they reclaim precious time for the work
+ they ought to be spending more of their time doing,
+ coaching, developing, and inspiring their people.
+ And the dividends of this are enormous
+ in terms of employee trust.
+ When asked whether they were comfortable
+ with AI playing a role in performance reviews,
+ pay decisions, and termination decisions,
+ workers with good managers,
+ which the report defines as managers,
+ whose direct reports would recommend them as managers,
+ are basically twice as trusting
+ as those with bad or average managers.
+ For example, 53% of workers with good managers
+ are comfortable with AI playing a role
+ in performance reviews.
+ That number drops to 26%
+ for workers with bad or average managers.
+ On pay decisions and termination decisions,
+ it's the same story,
+ with workers with good managers
+ being about twice as likely to be comfortable
+ with AI playing a role
+ as those with bad or average managers.
+ Finally, on the third level,
+ the organizational level,
+ the report tries to understand
+ what transformative organizations do differently.
+ They define transformative organizations
+ as those organizations whose employees report
+ that AI has significantly improved
+ their organization's performance and outcomes,
+ not just their individual performance and outcomes.
+ Basically, this is the 13% who say
+ their organization is performing significantly better
+ because of AI,
+ and the Work AI Institute is asking
+ what are the 13% are doing
+ that the other 87% aren't?
+ The first thing is that they have a bias
+ towards relevant metrics versus vanity metrics.
+ Transformative organizations spend much more time
+ trying to measure things like quality of work,
+ productivity and output, and time saved.
+ And here's a small one that's really interesting.
+ Employees of transformative organizations
+ are much, much more likely to have visibility
+ into their own AI usage.
+ While only 40% of workers
+ in non-transformative organizations report
+ that they can see their own AI usage data,
+ 71% of workers in transformative organizations
+ report that they have access to that information.
+ This makes AI feel like a feedback mechanism to improve
+ rather than just a surveillance mechanism
+ for who should be fired.
+ Relatedly, transformative organizations
+ make governance a living system.
+ For example,
+ while 55% of workers at non-transformative organizations
+ say that those organizations review their AI policy regularly,
+ that number jumps to 93% of workers
+ at transformative organizations.
+ When it comes to explaining the rationale behind AI policy,
+ only 57% of workers at non-transformative organizations
+ say their org explains that rationale,
+ and that number jumps to 91% for transformative organizations.
+ This all translates to trust.
+ 57% of workers in non-transformative organizations
+ report trusting their company's AI strategy,
+ and that number jumps to 93%
+ for workers in transformative organizations.
+ Now, in bad news for companies who think that AI strategy
+ is basically just a vendor selection choice,
+ that point of view is actually a hallmark
+ of non-transformative organizations
+ as opposed to the ones who actually get value out of AI.
+ Unsurprisingly, transformative organizations
+ are much, much more focused
+ on building good systems for enterprise context.
+ And finally, and totally unsurprisingly,
+ transformative organizations actually invest in their people
+ not just in the AI tools themselves.
+ When asked whether their organization
+ formally rewards AI skills,
+ the number was only 48% for workers
+ in non-transformative organizations
+ and jumped to 84% for workers
+ in transformative organizations.
+ When the question was whether their organization
+ provides enough AI training and support,
+ only 52% of workers in non-transformative organizations
+ said they did,
+ and that number jumped to 90%
+ for transformative organizations.
+ Now, as I mentioned before,
+ part of why I wanted to take the time
+ to actually dig into this report
+ is that contra many, many reports
+ that I've seen throughout 2026.
+ I think that if you redid this one right now
+ with increased agentic adoption,
+ you'd actually find,
+ rather than contradicting what they found,
+ I think almost everything in here
+ would be significantly amplified.
+ And the reason for that is simple.
+ The work of AI transformation is transformation,
+ not just implementation.
+ It is about complex, messy change,
+ not just in how you do, but what you do.
+ It requires new systems, not just new tools.
+ Bot sitting and bot shitting
+ are all part and parcel of the transition
+ that we will all be experiencing for many years to come.
+ There are not short, easy answers to these problems.
+ There are only organizations willing to do the work
+ and those that aren't.
+ Great work to the teams at WorkAI Institute in Glean.
+ For now, that's gonna do it
+ for today's AI Daily Brief.
+ Appreciate you listening or watching, as always,
+ and until next time, peace.
+ I'll see you then.
+ Bye.
