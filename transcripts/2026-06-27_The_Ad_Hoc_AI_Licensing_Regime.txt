@@ -1,0 +1,240 @@
+ Today on the AI Weekly Brief, meet your ad hoc AI licensing regime.
+ AI Daily Brief is a daily podcast and video about the most important news in discussions
+ and AI.
+ Alright friends, we are back with another 5 minute AI Weekly Brief.
+ Use this episode to catch up on what you missed or to forward along to someone who needs
+ to know what's going on but isn't quite at the daily episode stage yet.
+ Quick note before we get into the show.
+ After recording and editing this episode, we got some big news updates on Friday afternoon
+ and evening.
+ What you're about to hear is the episode that happened before that news came out and
+ stick around at the end for a few thoughts on the latest on Mythos and GPT 5.6.
+ This was a week where the hallmark was there was at no point any one huge story in AI
+ but instead every single part of AI from politics to markets to models had something
+ happened that inched us along towards a future that in many cases not everyone is loving.
+ Certainly the big background noise continues to be the fable 5 story.
+ Last weekend people started chattering about a quote from Senator Mark Warner who reported
+ that the NSA had told him that Mythos had been able to break into their classified
+ systems.
+ Now many people took this as Mythos literally breaking into NSA's classified systems when
+ of course what it actually was was that during a red teaming exercise, in other
+ words a controlled experiment to figure out just how dangerous Mythos could be, the NSA
+ saw much more significant capabilities than they had seen before.
+ And this really set the tone for the week when it came to fable and Mythos in that everyone
+ wanted to latch on to any small rumor or comment as an indicator of when we were actually
+ going to get this thing back.
+ One big whipsaw throughout the week was in the prediction markets which started very
+ bleary but then had a single day where the likelihood of fable 5 returning by July 1st
+ jumped all the way up above 60%.
+ Now it appears that the source for that were reports that the White House was having a better
+ time interacting with anthropic co-founder Tom Brown after CEO Dario Amade had been sidelined
+ in the conversations and yet the week closed on the most important and most substantive
+ news in all of this which is that yes indeed this is not just a personality clash between
+ the White House and Anthropic but a new ad hoc, informal, unaccountable and seemingly
+ not particularly technically competent licensing regime.
+ The newest news is that GPT 5.6 is indeed being delayed by the Trump administration as well.
+ In a Wednesday company Q&A Sam Altman told OpenAI that GPT 5.6 would not be coming to
+ the public but would instead be released in a limited preview to a small group of partners.
+ The reason was that the government had asked OpenAI to do it like that.
+ Now in a memo on Thursday, Altman added that the government would be quote approving
+ access customer by customer during this preview period.
+ Altman did say in the Thursday memo we've made clear to the US government that this is not our
+ preferred long-term model and we'll work with them and others in industry to achieve a more
+ sustainable approach for future releases but here we are.
+ Now if you are sensing a bit of snark, vitriol, acrimony in my tone, you are indeed
+ picking up on that correctly.
+ The best I can tell from the outside is that while Anthropic didn't handle
+ themselves particularly well with regard to the government, mostly this whole
+ thing started by the US government not really having paid attention until a
+ different company, Amazon, told them that mythos could do a thing that
+ Anthropic had been clear that mythos could do.
+ And now we have the worst possible outcome, which is as Neil Chilson put it,
+ arbitrary, unknown, non-transparent license requirements are far worse than red tape.
+ Zvi Mausiewicz said, the new AI policy is that the White House
+ decides ad hoc for whatever reasons it likes, who does and does not get
+ access to frontier intelligence.
+ This seems rather maximally terrible.
+ And Andrew Curran reminds for the people saying this is a pause or
+ a victory for safety, it is not.
+ This does not slow development in any way, it only slows the rate at which
+ the labs can release the models, not how fast they can train them.
+ The gap between what is available to the public and what the labs have
+ internally will steadily widen from this day forward.
+ This actually makes no one happy.
+ And it's not just that it makes no one happy, it is good for no one.
+ I very, very much hope that the White House can get its act together and
+ or that Congress can step in and you know do its job.
+ So there were not left with this incredibly capricious scenario
+ that makes literally everyone worse off.
+ Meanwhile, other people in other companies are doing what they do,
+ i.e. adapting.
+ Throughout the week organizations, especially smaller organizations and
+ startups continue to experiment with Z.AI's new GLM 5.2 model.
+ And all of the positive buzz that we've seen before seems to be continuing.
+ Now a little bit closer to home in the US,
+ Google also reported that Gemma 4 had just hit 200 million downloads,
+ providing more evidence that people really are looking for
+ lower cost alternative model architectures.
+ We also got a reminder this week that when it comes to AI advancements,
+ it's not just a model question anymore.
+ The harnesses through which we use AI and the UI UX patterns that
+ become normalized have a big impact on the value we get from AI as well.
+ The most interesting example of this this week was Claude Tag.
+ Claude Tag is basically a native integration of Claude into Slack,
+ where you can tag Claude from any channel or conversation and
+ have it initiate work in the background.
+ But if you're not just calling upon Claude,
+ it's actually calling upon a full instance of Claude code,
+ which has the potential to dramatically lower the barrier to
+ people on the team who aren't technical using Claude code in ways
+ that both the technical team and more early adopter knowledge
+ workers have been getting value from it for the last six months or more.
+ What's more, by embedding Claude Tag directly into the context flow,
+ it has the potential to change just how much context it has available.
+ Anthropic says that 65% of their code now originates by people talking
+ about what needs to happen or what they need to build in Slack,
+ which is just a massive behavior pattern shift.
+ I think we're going to see a lot more experimentation and discussion
+ around the idea of AI as moving to multiplayer in the coming weeks.
+ But interestingly, the Fable 5 background context,
+ along with the token efficiency considerations and
+ cost concerns that had been growing even before that,
+ have made people a little bit less willing to just jump in to
+ the latest feature from one of the big labs.
+ As Will Brown from Prime Intellect summed up,
+ something has definitely shifted in the past few weeks.
+ Seeing a huge uptick in large enterprises wanting to secure
+ compute and post-train their own models in-house,
+ frequently on top of GLM 5.2,
+ everyone is starting to understand how open source wins.
+ Now, this I think actually might dovetail with our most
+ interesting stat of the week, which comes from KPMG's
+ Global AI Pulse Survey for quarter two,
+ that found that CEO-led AI efforts were 3x more likely
+ to produce ROI than efforts where the CEO was less involved.
+ Always going with whatever the state of the art model is
+ from the close source labs is sort of the default option
+ these days.
+ More complex, open source integrated, or even post-trained,
+ the sort of novel architectures that can provide more
+ data sovereignty and cost efficiencies are the types of
+ things that I think organizations with CEO-led AI efforts
+ are going to be a lot more capable of implementing.
+ Lastly today, if you're looking for any strong clear
+ signals from markets, I apologize in advance.
+ The beginning of the week looked like the AI bubble was
+ popping and in fact that was a popular narrative.
+ But then Micron absolutely destroyed its earnings
+ and what's more reinforced with their projections
+ that the structural supply chain shortage
+ for every single aspect of the AI supply chain
+ wasn't going away anytime soon,
+ which got everyone back on board.
+ OpenAI it is now reported is starting to lean towards
+ waiting until next year for IPO
+ and honestly with everything going on who can blame them.
+ In terms of what to watch for next week,
+ it remains the Fable 5 return watch,
+ but I think we saw this week that the stakes
+ are getting even higher.
+ The situation that we're in now,
+ the ad hoc text messages between Howard Lutnick
+ and Sam Altman type of licensing regime
+ is I will repeat bad for everyone
+ and I hope that this has changed
+ as soon as humanly possible.
+ All right, so two things happened
+ after the recording of that episode.
+ The first is that news outlets started reporting
+ that while we were not getting Fable 5 back,
+ the US had lifted its block on Mythos
+ for a handful of selected partners.
+ The reporting was that it was about 100 institutions
+ including major US companies and government agencies
+ that would now have access.
+ As Andrew Kern wrote,
+ the vibe shift was nightmarish around this.
+ Writer Justin Murphy captured the sentiment saying,
+ if they really start to gatekeep
+ who gets to use the best models,
+ that is a declaration of war.
+ This prospect fills me with the most sincere,
+ bodily cypherpunk will to power
+ that I've ever felt at least since I was a teenager.
+ If they really go down this route,
+ I would go all in on building the most psychotic swarms
+ of open source models and fine tunes possible,
+ all geared toward a chaotic good
+ jamming of the entire institutional public sphere.
+ If we didn't do that,
+ all of political life in the marketplace of ideas
+ would be over before we know it.
+ And yet that wasn't the only news.
+ We also did finally start to get a little bit more information
+ about GPT 5.6,
+ and exactly as the reporting had suggested,
+ it is going to be rate limited at first
+ by the US government.
+ Sam Altman summed it up this way on Twitter.
+ Good news first.
+ Sol is a smart, efficient, and significant step forward.
+ It is the same price as GPT 5.5,
+ also launching in the GPT 5.6 family is Terra
+ with 5.5 level performance at half the price.
+ Bad news.
+ At the request of the US government,
+ it is launching today in limited preview
+ instead of the open access launch we were planning on.
+ We are working with the government
+ to get general availability as fast as we can.
+ I think it is quite reasonable to roll out models,
+ especially as they reach significant new levels
+ of capability in this way.
+ It fits with our long held strategy
+ of iterative deployment.
+ But this isn't quite the process
+ that we think is optimal.
+ Now we will get with the government
+ to attempt to get a transparent, reliable process
+ for early access
+ and to ensure that as long as our safeguards work
+ is intended we can release widely.
+ We will work as quickly as we can
+ to get this model in your hands
+ and we hope you will love it.
+ Now obviously there is going to be a lot more
+ to discuss about this at the beginning of next week.
+ But maybe to try to end on a note of some optimism,
+ we turn to Rune from OpenAI who writes,
+ today it's popular to say
+ the unofficial AI licensing regime
+ is slowing down innovation or whatever.
+ But people are not looking at the big picture
+ of how quickly this enormously consequential technology
+ is moving.
+ The particular circumstances around mythos
+ may have accelerated all this slightly
+ but it was inevitable
+ and earlier is better than too late.
+ Any good choice will look early inside the exponential.
+ I think it's a positive development
+ that the feds understand the gravity of this technology.
+ Models being publicly delayed by a week here or there
+ is really not the end of the world.
+ Procedurally this is not the right way to do it
+ but they'll figure it out.
+ One very sad outcome will be
+ if non-Americans are just left behind
+ from the frontier forever.
+ The Pax Technologica of the free world
+ and frankly later on the unfree world
+ should be maintained.
+ We'll leave it there for now
+ but please do come back on Monday.
+ We are going to have a lot more to talk about then.
+ For now that it's going to do it
+ for today's AI weekly brief.
+ If you want to help the show
+ send this to someone who you think
+ needs to know what's going on with AI.
+ And until next time, peace.
