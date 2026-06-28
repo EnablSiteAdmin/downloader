@@ -1,0 +1,1100 @@
+ Today on the AI Daily Brief, the capability overhang a playbook.
+ The AI Daily Brief is a daily podcast and video about the most important news and discussions
+ in AI.
+ Alright friends, quick announcements before we dive in.
+ First of all, thank you to today's sponsors, robots and pencils, super-intelligent, mission
+ cloud and out systems.
+ To get an ad-free version of the show, go to patreon.com slash ai-daily-brief, or
+ you can subscribe on Apple Podcasts.
+ And to learn more about sponsoring the show, send us a note at sponsors.ai-daily-brief.ai.
+ Lastly we've got our next executive agent leadership program coming up.
+ This is the enterprise grade descendant of Enterprise Claw.
+ You can learn all about that at training.besuper.ai.
+ This is a weekend episode, meaning it's a long read, big think, how-to operators
+ type of episode, where we get to move beyond the news into the realm of the practical.
+ So the context for today's episode is at least a little bit going to be what's going
+ on right now.
+ The premise of the episode is in short, we appear to be in a forced involuntary AI pause,
+ at least when it comes to new models.
+ The good news about that is that even the previous generation of models like 5.5 and
+ Opus 4.8 have a lot more capability, particularly within the harnesses we have access to,
+ than most of us are getting real value out of.
+ So my proposal is that during this forced AI pause, where we have a little bit of
+ a breather in terms of the next new thing, this is a good time to try to both in our
+ individual and organizational lives close the capability overhang at least a little bit.
+ So what I'm going to do is share what I'm calling the capability overhang playbook,
+ a set of ideas for what you and your organization can be doing in this period.
+ But before we do, I do want to give a little bit of context, at least as of Wednesday,
+ June 24th in the afternoon when I'm recording this, around why it feels like this might
+ be a bit longer of a pause than we initially thought.
+ Obviously excitement has been building all summer for the next big wave of model
+ releases.
+ We got our hands on Fable 5 ever so briefly and
+ most believe that GPT 5.6 would follow closely behind.
+ Heading into the week, the rumor mill was indicating that we wouldn't just get
+ GPT 5.6, but also the surprise release of Sonnet 5.
+ And last month at Google IO, DeepMind had indicated that Gemini 3.5 Pro
+ was also expected in June.
+ It now seems model releases are off the menu.
+ Prediction markets collapsed on Tuesday, with odds of a GPT 5.6 release this week
+ plummeting from almost 90% to below 30%.
+ Those in the know suggested it wasn't just open AI pushing back release plans,
+ but Google as well.
+ Leo at Synthwave 2 is quickly becoming the go-to rumor monger on X-Route.
+ GPT 5.6 has been delayed and will no longer release this week.
+ New target is mid-July.
+ DeepMind are not satisfied with the current state of 3.5 Pro and
+ it will no longer launch this month.
+ Preparations for the launch of Biddy, Open AI's new voice model,
+ are underway in chat GPT and we could see it available as soon as this week.
+ Claude Sonnet 5 is currently available for select enterprise customers
+ under an early access program and is seen as a stop gap as progress
+ on getting Mythos and Fable 5 back out have stalled.
+ A bit of a disappointing end of the month, but July should prove more fruitful.
+ AI Battle noted that we are currently in the longest stretch between
+ updates for the GPT 5 era since the actual gap between GPT 5 at the
+ beginning of August and GPT 5.1 at the beginning of November.
+ Since then it's been 29 days, then 56 days, then 28 days, then 49 days,
+ in between each iteration and we've been now waiting for GPT 5.6 for an
+ absolutely intolerable 61 days.
+ Wording of the rumors around Sonnet 5 also isn't all that promising.
+ As Chubby discussed earlier in the week, some editions of Sonnet have been
+ genuinely game-changing, delivering near frontier performance for a fraction of the cost.
+ But if Anthropic is viewing Sonnet as a stop gap,
+ it could suggest performance is not that.
+ For Google, they are facing a real challenge.
+ Sentiment has already turned on DeepMind's ability to keep up with the frontier
+ and mothballing their next flagship model does nothing to help that perception.
+ Then again, releasing a model that was behind the frontier would do worse,
+ so if they are delaying, I understand the decision.
+ Finally, it's looking like we'll have another weekend of not being able to play with Fable.
+ Prediction markets are now showing 24% odds of the government
+ allowing Fable to return by the beginning of next month
+ and only a 57% chance by the end of July and only 72% by the end of August.
+ Jv Mausiewicz commented,
+ It's not looking like an easy fix and this suggests non-US persons might actually stay
+ locked out indefinitely.
+ Many have tied the GPT 5.6 delay to a broader government crackdown on frontier model releases,
+ but so far we have no solid reporting on that.
+ Policy Advisor Dean Ball, who is now at OpenAI, commented,
+ I'd assume the whole AI industry in America is effectively frozen from new public releases
+ until the US government resolves the Fable situation they have stumbled into.
+ As Rand Long-Jeopardy put it,
+ it feels like we have hit the regulation wall,
+ so let's get back to making some summer lemonade out of all those lemons.
+ Okay, so the setup and premise is clear.
+ We're at a forced AI pause, but we're at a forced AI pause
+ where we are all already dealing with the capability overhang.
+ So what can you do and what can your organization do to close that overhang?
+ What follows is all just my ideas for how to make the most of this time,
+ and we're going to kick it off with the first part,
+ which is establishing your personal learning agenda.
+ In short, I'm about to articulate a very general high-level overview
+ of ideas that I have for everyone closing the capability gap for themselves and their organizations,
+ but I, of course, have no idea where you are with any of this.
+ So my first suggestion is that you actually assess your weaknesses.
+ You actually map out, in other words,
+ what your personal capability gap is or what your organization is working with.
+ This means an honest assessment of the capabilities,
+ tools or workflows you're not good at yet,
+ and naming what you've avoided or failed to learn or only touched superficially.
+ That list can become your personal learning agenda,
+ which frankly might replace the rest of this playbook.
+ Now, for the sake of us all being in this together,
+ an example of what I might put in here,
+ and something that I'm very actively thinking about for this summer,
+ is while I have done a ton with what you might call spot agents, individual agents,
+ one of the very obvious things that I have not done,
+ much to the harm of the potential audience of this show,
+ is wired together in a genetic system for turning this content into social media content.
+ Now, we do have our new website where each of the episodes
+ is chunked into highly shareable little cards,
+ but the next step is to wire that together with an
+ genetic system for distributing that out into the world.
+ So that's the type of thing that I'm going to be thinking about
+ as I do my own personal assessment.
+ But let's provide some general tips for those of you who aren't sure
+ exactly what those weaknesses or challenges are,
+ and just want to sense of the types of things
+ that some others might get value out of in this period.
+ The second category of work we're going to call
+ building your personal AI infrastructure.
+ And the first one actually has to do with what you do
+ whenever we get the next frontier models.
+ One of the things that can be really challenging,
+ especially now as the models are so highly capable,
+ is figuring out how to figure out what the new models are better at
+ than the models that you were previously using.
+ One idea to address this is to build a personal benchmark or eval portfolio.
+ What I mean by this is pinning down the tasks that matter
+ most in your work and life
+ and turning them into a reusable evaluation set.
+ So that could be what you're using models for,
+ the specific prompts that you would feed in,
+ the expected outputs and the success criteria.
+ Now imagine you have a set of those.
+ Well, when a new model drops,
+ you're going to be able to actually run it
+ against a consistent set of evaluations
+ and actually more quickly understand
+ where it can fit in your model stack.
+ Next up in personal infrastructure,
+ I returned to a theme which has been ever present
+ for quite some time now,
+ which is building your portable context assets.
+ As you heard in our recent episode
+ about the Work AI Institute Glean Study about bot sitting,
+ one of the things that people spend the most time on,
+ something like 2.4 hours a week in their study,
+ was organizing context for the AI and agents they use.
+ This is a huge drain on productivity,
+ it's an exhausting exercise,
+ and while you're not going to be able
+ to get out of it entirely,
+ this is a time period where you can do some work
+ to build more portable context assets.
+ Broadly speaking, there are two ways
+ that you could approach this.
+ First, you could assemble
+ a broad-based personal context portfolio.
+ To get an example of what I mean by this,
+ you can check out contextportfolio.ai,
+ which is a project that I released
+ back at the beginning of April.
+ The personal context portfolio builder
+ is going to allow you to interact
+ with an agent that through the interview
+ will be building out a set of context documents,
+ which then you can share
+ with any new AI tool or agent you're using.
+ Now, contextportfolio.ai is live right now,
+ but if you prefer,
+ you can also grab the template files,
+ i.e. the identity.md,
+ the role and responsibilities.md,
+ the current projects.md,
+ from GitHub directly.
+ Another resource on this front
+ is called the Librarian,
+ which was built by Jim Sangwine,
+ a software developer
+ who went through our Agent OS program.
+ He describes the Librarian as
+ an agentic OS,
+ a curator that builds a library
+ of context for your AI agents.
+ It runs on its own,
+ but you teach it what matters,
+ so the knowledge it keeps reflects
+ how you actually work,
+ and every AI tool you use
+ gets better at the job.
+ I'll include a link to that,
+ but it's codeministry.net
+ slash the dash Librarian,
+ and looks like a super cool project
+ that is actually being maintained
+ and thoughtfully updated
+ as opposed to the context portfolio,
+ which is cool,
+ but a one-off that I did
+ as part of the show.
+ So one way to do this
+ is to build that
+ broad-based personal
+ context portfolio.
+ Another way to do it
+ is almost to build
+ per project context packs.
+ It may be that
+ when you're using agents,
+ especially for work,
+ what matters is them
+ not knowing everything about you,
+ but them knowing about
+ some specific project
+ that really matters.
+ Dividing your context portfolio
+ and your portable context assets
+ into those per project context packs
+ might be a better approach.
+ This is one of those things
+ that you are going to have to do
+ over and over and over again,
+ and so why not use this time
+ to do a really good base job once
+ so that you're just maintaining
+ what's already a strong foundation?
+ All right,
+ our next section
+ of closing the capability overhang
+ is different ways of interacting
+ and learning the current building tools.
+ Now Cali out of course,
+ this is the area
+ where there's going to be the widest spectrum
+ of different users among listeners,
+ so feel free to zone out
+ for anything you're well acquainted with.
+ We'll get to some more advanced things
+ in a little bit,
+ but I wouldn't be surprised
+ if even many of you
+ intermediate to advanced users
+ hadn't done everything on this list.
+ For example,
+ most people I run into
+ have invested fairly heavily
+ in either Claude code
+ slash co-work or codex.
+ That's understandable,
+ and I think it's a reasonable approach
+ to just double down on one,
+ assuming that even if
+ on a feature basis,
+ the harness,
+ or the models underneath it
+ are behind temporarily,
+ they're not going to be behind long.
+ But for those of you
+ who really want
+ a very broad based understanding
+ and who want to be able to use
+ all the tools at any given time,
+ I think it is worthwhile
+ to actually run the experiment
+ where you build the same project
+ within both tools,
+ comparing the interfaces,
+ the way that it interacts
+ with tools and context,
+ the feel of the models underneath
+ to decide which of these
+ is better for you
+ or in what context one
+ or the other is better for you.
+ Another way to put this is
+ since you can experiment
+ with all the frontier models
+ that haven't come out,
+ you might as well spend some time
+ experimenting with the harnesses
+ that they run in.
+ Next up,
+ hearkening back to an episode
+ from a couple of weeks ago,
+ one of the shifting ways
+ that knowledge workers
+ are using AI
+ is to get out of the constraint
+ of file formats
+ like PDFs or spreadsheets
+ or static documents
+ and moving things into HTML
+ and websites and web apps
+ more broadly.
+ Codex launched its sites feature
+ and Anthropic is pushing
+ a similar pattern.
+ And if you need some inspiration,
+ go check out my episode
+ from June 7th
+ called 10 Things You Should Build
+ with AI Instead of Sending Files.
+ It's all about this new primitive,
+ the benefits that I see with it,
+ and some specific examples
+ or use cases
+ of where I think an HTML
+ or web app style approach
+ is going to be better
+ than the former way
+ that you used to do things.
+ Another one,
+ which I am 100% guilty of as well,
+ is that especially Claude Code
+ but also increasingly Codex
+ and other tools
+ have done a ton of work
+ to build function-specific plugins
+ and tooling
+ for different types of work roles
+ and even different industries.
+ But if you're anything like me
+ in the day-to-day grind,
+ you get pretty locked in
+ in the ways that you're already
+ using AI
+ and taking some random time
+ for experimentation
+ can kind of fall to the bottom
+ of the to-do list
+ meaning that it falls off
+ the to-do list.
+ I think this is a really good moment
+ as simple as it seems
+ to go explore the plugins
+ that are actually available
+ and relevant for whatever
+ your role is
+ and see how they might change
+ the way that you interact
+ with Claude Code
+ or whatever tool you're using.
+ Finally,
+ in the Personal Build section,
+ for those of you holdouts
+ who avoided the Open Claw Hype
+ and have skipped my ClawCamp
+ or Agent OS program,
+ it is time.
+ Time to go build yourself
+ an actual agent.
+ You're going to go past a single prompt,
+ you're going to go past
+ a simple web app vibe code
+ and build a real
+ full end-to-end agent architecture.
+ There are some good learning resources
+ out there for this,
+ but if you need one,
+ check out aidbagentos.ai.
+ It's a free self-directed program
+ that'll help you build
+ your own agentic operating system
+ that helps you work
+ differently in this new agentic way.
+ Bite the bullet,
+ I know it's intimidating,
+ but you have to remember,
+ as long as you give yourself time,
+ whether you're using
+ the Agent OS program
+ or something else,
+ you have the world's most
+ infinitely patient
+ and knowledgeable tutor
+ in the actual tools themselves.
+ I would recommend,
+ and it sounds simple,
+ but this is how I've learned
+ everything that I've ever
+ learned with AI.
+ Two windows,
+ the window where you're building
+ and the window
+ where you're asking the questions.
+ Now, yes, you can just do
+ all of these things
+ in one interface
+ within the chat that you're building,
+ but I find it really valuable
+ to be able to screenshot
+ every web developer term
+ that I don't understand,
+ bring it over into the tutor chat,
+ and ask it to explain it to me
+ slowly until I get what
+ the build partner
+ is actually doing.
+ This one is ultimately
+ just about the commitment
+ to go bigger,
+ but I can't recommend it
+ highly enough,
+ you will feel like a wizard,
+ I promise you.
+ I cover the capability gap
+ between AI potential
+ and AI reality
+ every day on the show.
+ Most companies are still
+ figuring out how to start.
+ Robots and Pencils is already
+ launching and scaling.
+ A genetic and generative AI
+ in production
+ at large enterprises
+ in weeks.
+ AWS Advanced Tier
+ pattern partner
+ more than doubled in a year.
+ And they're hiring.
+ 50 open roles.
+ If you're someone who knows
+ this moment is different,
+ who wants to be inside it,
+ not watching it,
+ this is worth a look.
+ At Robots and Pencils,
+ the best ideas win,
+ and the team is purposefully
+ kept super high quality.
+ This is the kind of place
+ you look back on
+ as the best decision
+ you ever made.
+ Take a look at robotsandpencils.com
+ slash careers.
+ Today's episode is brought to you
+ by the new executive agent
+ leadership program
+ produced by super intelligent
+ and by frequent
+ AI DB operators guest
+ Newfarr Gaspar
+ to tell you a little bit more
+ about the executive agent
+ leadership program
+ here is Newfarr.
+ The best predictor
+ of agent adoption
+ in an organization
+ is how hands on their leaders
+ are.
+ Talking about agents
+ is completely different
+ than building them.
+ Our participants,
+ ICs,
+ all the way to C-suite
+ have built
+ working agent flits,
+ governance frameworks,
+ and the playbooks to scale it.
+ Executive agent leadership
+ is the evolution
+ of enterprise claw.
+ Everything we've learned
+ across three cohorts
+ rebuilt for right now.
+ The token economy,
+ security,
+ vendor resilience,
+ and architecture
+ to lead agent adoption at scale.
+ The next cohort
+ of the executive agent
+ leadership program
+ is signing up now
+ and will launch on June 29th.
+ You can find out more
+ at training.besuper.ai
+ The average enterprise
+ is spending $11.5 million
+ on AI this year,
+ and most of them
+ can't prove a single dollar
+ came back.
+ What does AI actually look
+ like when it produces ROI?
+ Ask the healthcare company
+ that just made their payment
+ processing 320 times faster,
+ or the law firm
+ whose document research
+ went from three months
+ to 10 minutes,
+ or the contact center
+ who reduced weight times
+ by 99%.
+ These are real mission
+ cloud customers
+ with real results.
+ Mission Cloud is a CDW company
+ and an AWS Premier
+ tier partner.
+ They're the AI first
+ outcome-subsessed AWS experts
+ who build AI solutions
+ that drive your business forward.
+ Whether you're flooded
+ with AI ambitions
+ but no idea where to start,
+ or six months into a deployment
+ that's going sideways,
+ they've seen it,
+ and they've fixed it.
+ Stop burning your budgets
+ on AI that doesn't produce results.
+ Start at missioncloud.com.
+ This episode of the AI Daily Brief
+ is brought to you by OutSystems,
+ a leading agendic systems platform
+ built for the enterprise.
+ Organizations all over the world
+ are building,
+ orchestrating,
+ and governing
+ agendic systems
+ on the OutSystems platform
+ and with good reason.
+ OutSystems open and unified platform
+ allows teams to architect,
+ deliver, and scale
+ governed agendic systems
+ with agility.
+ Teams of any size
+ and technical depth
+ can use OutSystems
+ to build, deploy,
+ and manage AI apps and agents
+ quickly and cost effectively
+ without compromising
+ reliability and security.
+ With OutSystems,
+ you can rapidly launch ideas
+ from concept to completion.
+ It's the leading agendic systems
+ platform that is unified,
+ agile, and enterprise proven,
+ allowing you to accelerate growth,
+ reduce operational friction,
+ and deliver real enterprise
+ impact with AI.
+ OutSystems,
+ build your agendic future.
+ Next up,
+ section 4 is about
+ exploring model independence.
+ And if you've been listening
+ to this show
+ throughout the Fable 5
+ situation,
+ and frankly even before
+ as we started to explore
+ new token efficiency solutions,
+ there are a lot of reasons
+ why people are reevaluating
+ their adherence
+ to a single frontier model
+ right now.
+ Now I think for individuals,
+ the things to explore
+ are using model routers
+ and open models.
+ And there are a number
+ of resources for this.
+ You can go check out
+ and play around with models
+ on Hugging Face.
+ You can go explore
+ something like Open Router.
+ If you're comfortable
+ using APIs,
+ I think it's a good idea
+ to perhaps go build something
+ using Open Router
+ to see how their approach
+ to this works.
+ And as you're exploring this,
+ it's worth thinking for yourself
+ how much does this
+ really matter to you?
+ In what context
+ would model sovereignty
+ actually impact your work?
+ Is cost the bigger
+ consideration
+ and what would make cost
+ the bigger consideration?
+ Are there dynamics
+ of privacy or portability
+ or control
+ that would influence
+ the way that you think
+ about this?
+ This is one area
+ where I don't think
+ you need to come
+ to any conclusions,
+ but the questions
+ that you ask
+ are going to become
+ increasingly important
+ the more powerful
+ these models get
+ and the more governments
+ get involved
+ with those powerful models.
+ And so I think this
+ is a good time
+ to be starting
+ to ask those questions.
+ Now there is an obvious
+ organization level
+ extension of this
+ which is in general
+ most enterprises
+ don't really have
+ org level policies
+ about things
+ like open models
+ or router architectures.
+ And if you do
+ my guess is that
+ the assumptions
+ that underpin it
+ might not be the same
+ anymore.
+ This is a really good
+ time to reevaluate
+ whether you have
+ those policies
+ and if you don't
+ to understand
+ where your organization's
+ instincts are
+ and if they need to be
+ challenged at all.
+ Speaking of organizations
+ let's move to
+ section five
+ which is all about
+ the organizational
+ capability overhang
+ playbook.
+ We've talked individuals
+ but now we'll move
+ to company level.
+ First of all
+ this is a very good
+ moment to review
+ the learning,
+ training,
+ upskilling resources
+ that you are making
+ available to your organization.
+ Some of you
+ especially in big companies
+ are going to be
+ slinking down
+ in your chair
+ realizing that
+ there's really very
+ little formal
+ and others might be
+ looking over at
+ some three-minute
+ video course
+ about prompt engineering
+ realizing that
+ maybe that doesn't hang
+ with today's
+ a genetic type
+ of use cases.
+ So
+ are your learning resources
+ actually good enough?
+ Are they contemporary
+ and current
+ with today's tools?
+ And do the people
+ who are supposed to
+ be getting value
+ from them
+ actually know
+ what they should be
+ learning?
+ Are there ways
+ for them to figure that out?
+ Do you need
+ new learning resources
+ i.e. end courses
+ or programs?
+ Do you need a better
+ system around
+ your learning resources
+ to better help people
+ figure out
+ what they should be
+ learning?
+ And do you have a way
+ to understand
+ the difference
+ after versus before
+ a person has used
+ whatever learning
+ resources you have?
+ Now this is one
+ of those recommendations
+ that I think would
+ be valid and important
+ whether we were
+ in a forced AI
+ model pause or not
+ but this is certainly
+ a good time
+ to go in
+ on all these details.
+ Next up
+ related to that
+ this is a good time
+ to review
+ the incentive structure
+ for AI use
+ in your organization.
+ In other words
+ are people rewarded
+ formally
+ or informally
+ for effective
+ AI adoption?
+ Is strong work
+ called out
+ and lauded?
+ Are people incentivized
+ to experiment
+ with new use cases
+ or just to execute
+ against known use cases?
+ Are people incentivized
+ to share lessons
+ and build reusable
+ systems?
+ And is there
+ infrastructure for them
+ to actually do
+ that sharing?
+ Do you have any
+ current incentives
+ that accidentally
+ are quietly
+ discouraged adoption?
+ Again, given that
+ this is a moment
+ to catch our breath
+ this is exactly
+ the type of conversation
+ that is worth having.
+ In addition
+ to reviewing
+ your incentives
+ you should also
+ be reviewing
+ what you measure.
+ Now if you're
+ not measuring anything
+ any progress here
+ is going to be valuable
+ but this is also
+ a moment to understand
+ the complexity
+ of what you measure
+ and whether it
+ actually aligns
+ with the goals
+ that you're trying
+ to achieve.
+ Measuring adoption
+ is different
+ than measuring usage
+ is different
+ than measuring outcomes
+ and despite
+ what the snarks
+ on X might tell you
+ each of those things
+ even silly
+ imprecise measures
+ like token consumption
+ do have their place.
+ What you need
+ overall is not
+ one measure
+ versus another
+ it's an entire
+ measurement philosophy
+ and system
+ that can understand
+ the relationship
+ between what people
+ are doing
+ and how those things
+ are impacting
+ both their individual outcomes
+ as well as
+ larger business outcomes.
+ Now one bias
+ I have
+ as you were thinking
+ about that
+ one of my big concerns
+ with this moment
+ of token efficiency
+ that we're moving into
+ necessarily based
+ on the increasing cost
+ of using AI
+ across agenda workflows
+ is that I'm really
+ worried that organizations
+ are going to see an overly
+ strong known ROI bias.
+ In other words
+ very understandably
+ organizations will say
+ hey we really like to
+ increasingly see
+ a relationship
+ between the AI
+ that you're consuming
+ especially if it's a
+ big chunk of AI
+ on an API basis
+ and the ROI
+ that we're actually
+ getting out of it
+ as an organization.
+ The problem is that
+ if done
+ in elegantly
+ or too heavy-handedly
+ that could lead directly
+ to people prioritizing
+ what I call
+ efficiency AI use cases.
+ In other words
+ just doing the existing
+ work but faster
+ or cheaper.
+ And of course
+ there's nothing wrong
+ with that
+ that's a great value
+ to try to leverage
+ out of AI
+ but it should be viewed
+ as a foundational layer
+ not the ultimate goal.
+ In my belief
+ the ultimate goal
+ should be opportunity AI.
+ New products
+ new capabilities
+ things that weren't
+ possible before.
+ We are not operating
+ in a good enough economy
+ where you get
+ to a certain size
+ in performance
+ and you say
+ that's good enough
+ let's just do it
+ a little bit more efficiently
+ we operate in an economy
+ that should always
+ be striving.
+ As Robert Browning wrote
+ a man's reach
+ should exceed
+ his grasp or else
+ what's a heaven for.
+ So set ambitious goals
+ and as we've just discussed
+ figure out how to incentivize
+ them figure out
+ how to help people
+ learn how to do them
+ and then measure
+ to see if it actually works.
+ Now one small one
+ if you do happen to have
+ access to Claude tag
+ get it up and running.
+ You can check out my episode
+ from last week
+ Wednesday
+ about why I think
+ it's more significant
+ than your average
+ feature release
+ and is about a new
+ multiplayer mode
+ of interacting with AI
+ that breaks it
+ out of the individual
+ worker realm
+ and puts it squarely
+ in the workspaces
+ where you're actually operating.
+ Lastly today
+ let's talk about a few
+ advanced patterns.
+ Some of you still
+ and if this is you
+ and you've made it this far
+ bless you
+ but some of you are yawning
+ saying sure sure
+ I've got this all under control
+ give me something else.
+ Well for you
+ let me suggest
+ three advanced patterns
+ that this would be
+ a good time to dig into.
+ The first of all
+ is thinking about
+ prompting AI
+ not as a process
+ in which you are actively
+ managing and iterating
+ with the AI
+ but as one where you have set
+ a goal
+ and have architected a loop
+ through which the AI
+ can iterate itself.
+ If you go look up
+ agent loops on X
+ you will find a hundred articles
+ chock full of tips
+ from the last couple of weeks
+ and frankly
+ even when some of them are
+ derivative
+ they're almost all valuable.
+ This idea of loops
+ and the slash goal feature
+ that has become a primitive
+ inside all of these tools
+ is really that
+ in this new agentic paradigm
+ we have to get out
+ of thinking about this
+ as a tool we manage
+ and instead
+ treat it as an actual
+ teammate or employee
+ where we set the objective
+ and then evaluate
+ on the other side
+ the work that comes out.
+ Now I will note
+ that part of what makes loops
+ viable
+ is the sort of clear
+ evaluation criteria
+ that isn't always that clear
+ when it comes to
+ certain types of knowledge work
+ but that doesn't mean
+ you shouldn't be using loops
+ it means you should be
+ experimenting to figure out
+ if and how
+ they can be useful for you.
+ Next up
+ for those of you
+ who want to take
+ that context portfolio idea
+ and take it to the next level
+ I recommend
+ turning your context portfolios
+ whether they are your overall
+ context portfolio
+ or your per project
+ context packs
+ turn them into mcp servers
+ to make them even more
+ transportable
+ to wherever you need to use them.
+ This will of course
+ have two benefits
+ first of all
+ you'll get a lot more familiar
+ with the mcp server architecture
+ which currently
+ an important part
+ of the overall agentic ecosystem
+ and secondly
+ if you do a good job with it
+ it will actually make
+ these assets
+ that you've spent time
+ developing for yourself
+ much much more useful
+ if the goal is to
+ decrease the time
+ that you spend on context
+ putting these files
+ into mcp servers
+ that are accessible very quickly
+ as opposed to having
+ to drop in a bunch of files
+ obviously is a lot
+ more efficient approach.
+ Next up
+ try to interact with
+ and build the ecosystem
+ around them
+ specifically take some time
+ to package
+ your recurring capability
+ as a reusable skill
+ this is going to take
+ a bunch of the work
+ that you did
+ with one agent
+ and make it transportable
+ and useful
+ across other projects
+ and agents as well
+ I did a show
+ with new forum
+ a month or two ago
+ about agent skills
+ which you can go search
+ up in the archive
+ but there are tons
+ of great resources
+ out there about this
+ and this is an area
+ where if this has seemed
+ a little out of reach
+ so far
+ this is a really great time
+ to dig in.
+ Ultimately
+ when push comes to shove
+ there really isn't
+ all that much different
+ about this pause moment
+ than any other time
+ all of the things
+ I just articulated
+ would be really valuable
+ no matter what models
+ were available
+ but the fact that we are
+ in a comparatively
+ quiet period
+ where we are not just
+ being barraged
+ with a new thing
+ to try every other day
+ does create a moment
+ in time
+ where you can
+ change your objectives
+ just a little bit
+ to actually use this space
+ to close
+ some part of the capability
+ overhang
+ that you yourself
+ or your organization
+ experiences
+ hopefully this is
+ some good food for thought
+ and if not
+ well sorry
+ for wasting your time
+ I appreciate you guys
+ listening or watching
+ as always
+ and until next time
+ peace
+ you
