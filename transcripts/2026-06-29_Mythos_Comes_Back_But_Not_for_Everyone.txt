@@ -1,0 +1,883 @@
+ Today on the AI Daily Brief, the return of mythos begins, but the bigger questions remain.
+ The AI Daily Brief is a daily podcast and video about the most important news and discussions
+ in AI.
+ Alright friends, quick announcements before we dive in.
+ First of all, thank you to today's sponsors, KPMG, robots and pencils, mission cloud
+ and out systems.
+ To get an ad for a version of the show, go to patreon.com.ai-dailybrief or you can subscribe
+ on Apple Podcasts.
+ To learn more about sponsoring the show, send us a note at sponsorsataidailybrief.ai.
+ Of all of the sins of this particular administration when it comes to artificial intelligence,
+ the one that is personally most disruptive to my life at this point might be the fact
+ that important news keeps breaking late on Friday afternoon after I've finished recordings
+ for the weekend.
+ And this Friday it was a big one.
+ In a letter to Anthropik, Commerce Secretary Howard Lutnick set the terms for a narrow reintroduction
+ of mythos.
+ Notably, the letter was addressed not to Dario, but to Chief Compute Officer Tom Brown,
+ who has become increasingly the main point of contact between this White House and Anthropik.
+ And in the letter, Lutnick starts to craft a path forward.
+ Since the issuance of my June 12th letter he writes, Anthropik has worked with the
+ US government to address risks associated with Claude Mythos 5 and Claude Fable 5.
+ These efforts have yielded significant progress.
+ In addition, Anthropik has committed to work with the US government on protocols and standards
+ and releases for these models.
+ In light of this progress, as well as the Department of Commerce's evaluation of the diversion
+ risks currently presented by the covered models, I have determined that appropriate safeguards
+ are in place to permit certain trusted partners to access the Claude Mythos 5 model.
+ Basically, Lutnick goes on to say that a certain selected handful of partners, including
+ presumably both companies and US government agencies, could once again have access to Mythos.
+ Now, no one has seen the full list provided by the Commerce Department, but reports suggest
+ that around 100 organizations will regain that access.
+ Still, what's clear from the letter is that frontier AI models, if you were in any
+ doubt, are now subject to a licensing regime.
+ It's a licensing regime that hasn't been passed by Congress, established in an
+ executive order, or even fully articulated in public.
+ At this moment, it is a licensing model based on the whims of Howard Lutnick.
+ Indeed, in that same letter, he says,
+ I reserve the right to reevaluate and adjust the scope of license requirements on
+ the covered models should circumstances change.
+ So, presuming this is the beginning of the end, people should be excited, right?
+ Mythos is coming back for select partners and presumably Fable 5 can't be all
+ that far behind it.
+ And yet, excitement is not the word that I would use to describe the tone.
+ Future Forward's Matthew Berman was very upset about this all weekend.
+ Writing Anthropic just struck a deal with the government to allow 100 select
+ companies and governmental agencies to use mythos.
+ The government and Anthropic are now deciding who uses frontier intelligence.
+ Hopefully, this is just mythos and not the standard for all frontier models
+ going forward.
+ Well, sorry, Matthew, but it appears that it is not just mythos and
+ not just Anthropic models going forward, as the other big news from Friday was
+ the release, surrounded by the biggest air quotes possible, of GPT 5.6.
+ GPT 5.6 is actually three models, Sol, which they call their next generation
+ frontier model, as well as 5.6 Terra, a balanced model for efficient
+ everyday work, and 5.6 Luna, a fast and affordable model for high volume work.
+ Now, as I mentioned in the addendum to the weekly recap, at the request
+ of the US government, these models will once again only be available
+ to a small group of trusted partners.
+ In their announcement post open AI wrote, we believe in broad access
+ and we plan to make GPT 5 Sol, Terra, and Luna generally available
+ in the coming weeks.
+ As part of our ongoing engagement with the US government, we previewed
+ our plans and the model's capabilities ahead of today's launch.
+ At their request, we are starting with a limited preview for a small
+ group of trusted partners whose participation has been shared
+ with the government before releasing more broadly.
+ During this preview, we will continue testing and coordinating
+ closely with partners as we work toward broader availability.
+ We don't believe this kind of government access program
+ should become the long-term default.
+ It keeps the best tools from users, developers, enterprises,
+ cyber defenders, and global partners who need them.
+ We are taking this short-term step because we believe it is the
+ strongest path to broader availability in the coming weeks
+ while we work with the administration to develop the
+ cyber executive order framework and a repeatable process
+ for future model releases.
+ In additional comments, Sam Alman once again supported the
+ premise of a limited rollout but disagreed with how it's
+ being executed.
+ He wrote, I think it's quite reasonable to rollout models,
+ especially as they reach significant new levels of
+ capability in this way.
+ It fits with our long-held strategy of iterative deployment.
+ But this isn't quite the process that we think is optimal.
+ Now, we will, with the government, attempt to get a
+ transparent, reliable process for early access and to ensure
+ that as long as our safeguards work is intended,
+ we can release widely.
+ We want to be a reliable, dependable partner that works
+ with all stakeholders, and we also want to live by our
+ mission of benefiting all of humanity.
+ I believe the government shares most of our goals
+ and that they are overall doing a good job in a very
+ difficult situation.
+ We will work as quickly as we can to get this model
+ in your hands and we hope you will love it.
+ Now, as for the actual model, OpenAI has introduced
+ new nomenclature for the family.
+ Again, the model will be available in three different sizes.
+ Luna, the cost-effective version, Tara, the medium version,
+ which they say will deliver GPT 5.5 level performance
+ at half the cost.
+ And Sol, which is the new flagship that OpenAI says
+ will be a step function better than GPT 5.5.
+ API costs for Sol remain the same as GPT 5.5
+ at $5 per million input tokens and 30 per million
+ output tokens, which was, you'll remember,
+ lower than the $10 and $50 pricing for Fable.
+ OpenAI will also introduce a new max reasoning setting
+ for Sol as well as an even heavier setting called Ultra.
+ When working in Ultra mode, Sol will spin up
+ multiple sub-agents to allow the completion
+ of more complex work.
+ Now, at this stage, none of the three model variants
+ are available for public release,
+ making it impossible to know exactly how strong they are.
+ Based on the benchmarks released by OpenAI,
+ 5.6 Sol on Ultra settings is the new state of the art
+ in agentic coding.
+ It scored 91.9% on terminal bench 2.0,
+ beating mythos by almost 4 percentage points.
+ Sol on max settings is also slightly ahead of mythos.
+ Terra matched Fable score,
+ which is slightly behind mythos,
+ while Luna is slightly less performant than GPT 5.5.
+ On exploit bench, a cybersecurity benchmark
+ that tests a model's ability to autonomously find,
+ code and execute an exploit,
+ OpenAI claims that Sol pushes
+ the performance efficiency frontier.
+ It appears that its performance on max settings
+ is roughly in line with mythos,
+ but using around one third of the tokens.
+ Terra's performance on this benchmark
+ is slightly better than GPT 5.5 or Opus 4.8,
+ while Luna is roughly in line with Opus 4.8.
+ OpenAI also released a handful of other benchmarks
+ showing strong performance in biological analysis
+ and cybersecurity.
+ On model safety, OpenAI is taking a layered approach
+ similar to Anthropic with the Fable release.
+ Some guardrails are trained into the model layer,
+ others are present as prompt refusals,
+ and OpenAI also plans to continually monitor
+ for prolonged misuse.
+ In addition, OpenAI will be feeding some high-risk outputs
+ into their own reasoning model to check for misuse
+ before delivering the output to the user.
+ Now, one thing that you might be scratching your head about
+ is that it's not obvious that Terra or Luna
+ are significantly more advanced than GPT 5.5 or Opus 4.8,
+ making it theoretically puzzling
+ on why the less powerful model variants
+ are being held back.
+ It could imply that the government
+ has halted all model releases for the time being,
+ not just the largest and most capable versions,
+ or even if they haven't explicitly,
+ that OpenAI is just being extra careful
+ not to tread on any toes, or finally, of course,
+ that OpenAI doesn't want to release
+ an incomplete set of these models
+ without the flagship available.
+ Now, when it comes to external benchmarks,
+ one group that did apparently have early access
+ to GPT 5.6 Sol was Metre.
+ They wrote, with our access,
+ Metre conducted a pre-deployment evaluation of GPT 5.6 Sol,
+ including an attempted measurement of its 50% time horizon.
+ This is, of course, Metre's well-known test
+ to see in human equivalent terms
+ how long the most complex task
+ that a model can accomplish is.
+ Just as a reminder,
+ if the 50% time horizon measure is 10 hours,
+ that does not mean that the model
+ worked continuously for 10 hours,
+ but that the equivalent task that it accomplished
+ at a 50% success rate would take a human 10 hours.
+ Metre benchmarks this with the 50% success rate
+ as well as an 80% success rate.
+ Going back to Metre's tweet, they continue,
+ however, the measurement depends heavily
+ on our treatment of cheating attempts
+ and GPT 5.6 Sol's detected cheating rate
+ was higher than any public model we have evaluated.
+ If we follow our standard methodology
+ as marking cheating attempts as failures,
+ we arrive at a 50% time horizon point estimate
+ of around 11.3 hours.
+ But if we count the cheating attempts
+ as legitimate successes,
+ the point estimate jumps beyond 270 hours.
+ They then go on to say that while this makes them uncertain
+ about 5.6 Sol's time horizon,
+ that additional information that was given to them
+ by OpenAI leads them to believe
+ that quote, this model does not post catastrophic risks
+ from fully automated AI R&D.
+ Trying to get some behind the scenes sources,
+ Leo at SynthWaved on Twitter wrote,
+ my impressions on GPT 5.6 having asked around,
+ the 5.5 base that 5.6 inherits is fundamentally weaker
+ than the larger Mythos and Fable base
+ with some good reinforcement learning 5.6 can beat Fable,
+ but only with everything maxed out,
+ i.e. Sol Ultra with multiple Sol agents on max efforts.
+ OpenAI were very selective
+ with the benchmarks they published for a reason.
+ I doubt the results we see from other notable benchmarks
+ once this is released will be as significant
+ of a jump from 5.5.
+ 5.6 is a heinous reward hacker,
+ and while all models do cheat on benchmarks,
+ GPT 5.6 is the most aggressive.
+ This combined with some other conversations
+ makes me think Fable will still feel like a better model
+ in real world use.
+ The price is perhaps the most attractive thing about 5.6.
+ $5 per million input and $30 per million output
+ is significantly better than Fable's 10 and 50,
+ but Fable can do more with less tokens in most cases.
+ Personally, Leo concludes,
+ my go-to is unlikely to change.
+ Fable is a beast and a great model to use,
+ and once it's back I won't hesitate
+ to use it as my default again,
+ but 5.6 will be great for checking Fable's work
+ in the very rare instance where Fable gets stuck.
+ Others noted this lack of complete benchmarks as well,
+ with Professor Ethan Molyk grumbling,
+ annoying that OpenAI doesn't seem to give
+ a GDP val measure for GPT 5.6,
+ one of the best measures of economically valuable work.
+ Accelerate harder responded, I don't think it's by accident.
+ My suspicion is that GPT 5.6
+ is not actually release ready,
+ and the one that's broadly released
+ will not be the same one that exists today.
+ Now, in the absence of information
+ and the ability to actually test this new set of models,
+ a lot of people were left
+ with a kind of sour taste in their mouth.
+ Simon Smith wrote,
+ I like seeing posts that show what GPT 5.6 can do
+ and what it's like to use.
+ They also make me angry.
+ If this is the trend,
+ I can feel the backlash growing in me.
+ Like it makes me wanna do anything I can
+ to ensure frontier non-US models win.
+ Indeed, as AI chronicler Andrew Curran wrote,
+ nightmarish vibe shift today,
+ maybe one of the all timers.
+ Basically the one-two punch of mythos coming back
+ but not for you and GPT 5.6 being around,
+ but again, not for you,
+ really reinforced for some people
+ the new reality that we live in.
+ AI leaker, I rule the world, wrote,
+ it looks like the era of us
+ living on the bleeding edge of frontier is over.
+ If these models are being taken away,
+ we're on the steepest part of the curve.
+ I know for a fact that the newer versions,
+ mythos 5.1 and GPT 5.7, let's say,
+ are as significant to jump as mythos was.
+ Sadly, our access to such models
+ will be an ever-receding point.
+ This is terrible for society and safety.
+ Sam's entire philosophy has always been to democratize AI
+ and ensure the frontier is making contact with the public
+ so we can figure this out together.
+ If the next model we get our hands on is GPT 10,
+ this would be an absolute societal disaster
+ for so many reasons.
+ Many resurfaced Zvi Mausiewicz's tweet,
+ our new AI policy is that the White House decides ad hoc
+ for whatever reasons it likes,
+ who does and does not get access
+ to frontier intelligence.
+ This seems rather maximally terrible.
+ But is this all being overblown?
+ How much of what people are feeling right now
+ is the collective psychosis of us
+ terminally online AI early adopters
+ just being frustrated that we know
+ there's a thing that's available
+ that we can't get our hands on?
+ Perhaps made even worse by the fact
+ that for a few short days we did have our hands on it.
+ I shared a tweet at the end of last week
+ from OpenAI's Roon,
+ who basically implored everyone to chill.
+ His main point, I think it's a positive development
+ that the feds understand the gravity of this technology.
+ Models being publicly delayed by a weak here or there
+ is really not the end of the world.
+ Procedurally, this is not the right way to do it,
+ but they'll figure it out.
+ And interestingly,
+ while I think Andrew Kern was right
+ to note that the vibe shift had gotten very bad,
+ there was an increasing strand
+ of folks who, frankly,
+ seemed to be willing to give the administration
+ the benefit of the doubt.
+ Frequent AI commentator Prins wrote,
+ I generally do not view this administration
+ as being interested in holding frontier AI models back
+ from the public unless the circumstances warrant it.
+ This is particularly the case
+ when keeping the models back for an extra few weeks
+ is presumably giving the US government more time
+ to use them defensively to squash bugs in its own system.
+ I suspect that the industry will try to get the US government
+ to publish a clear written process
+ for mandatory not voluntary testing of covered models
+ together with specific disapproval standards,
+ a right of appeal and some transparency around the process.
+ I also suspect that the US government
+ will push against this
+ and want to keep the process in line
+ with the executive order.
+ IE lacking specifics regarding the process itself,
+ public transparency or concrete disapproval standards.
+ This will doubtlessly be blamed on the administration,
+ but I'm actually quite sympathetic to their predicament.
+ Imagine being told by the labs
+ that AI is close to improving recursively.
+ The risks currently include cyber,
+ but in the future could include just about everything else
+ including unknown unknowns
+ and that even the labs themselves
+ can't easily predict the risks or their timing.
+ As the US government,
+ you're going to want maximum flexibility.
+ You're not going to want specific written standards
+ or any limits on your power to yank a model
+ at a moment's notice.
+ Much has been written about this specific administration's
+ lack of transparency and trigger happiness
+ throughout the process,
+ but I suspect that most other administrations,
+ Democratic or Republican would act much the same.
+ Chubby at Cominismus on Twitter piled on
+ to basically agree with Prince that one,
+ it was unlikely that any sort of fear mongering
+ from anthropic was the reason for this
+ and that two, the US government's challenge
+ with regard to this is understandable
+ even if they don't like all the actions
+ that are being taken.
+ Karen Levy from Box wrote,
+ AI regulation is far less simple than it looks.
+ It's a prisoner's dilemma at an insane scale.
+ In theory of all leading AI labs globally agreed
+ to the same process of review and slowdown
+ then we get frontier intelligence at similar rates
+ and it diffuses relatively evenly.
+ If the US remains at the frontier at all times
+ and has heavy regulation on the release of intelligence
+ then we end up with an economic and geopolitical edge
+ because we can control who has access
+ to frontier intelligence.
+ If we delay model releases however
+ and another player specifically China doesn't slow down
+ and has equally strong models, not now but soon
+ then our delays end up advantaging their models
+ and eventually their tech stack.
+ Now the US could ban these models
+ but that actually only puts the US at a steeper disadvantage
+ because other countries won't have those bans.
+ Then from a relative competitiveness standpoint
+ the US now has fallen behind
+ even though it started in front.
+ So none of this is as simple as it looks.
+ At some point it's a simple bet
+ of can close models remain at the frontier
+ in perpetuity or is there a risk
+ of any other player or market catching up
+ or just not falling behind.
+ One of the most important AI questions right now
+ isn't who's using AI, it's who's using it well.
+ KPMG and the University of Texas at Austin
+ just analyzed 1.4 million real workplace AI interactions
+ and found something surprising.
+ The highest impact users aren't better prompt engineers,
+ they treat AI like a reasoning partner.
+ They frame problems, guide thinking,
+ iterate and push for better answers.
+ And the good news, these behaviors are teachable at scale.
+ If you're trying to move from AI access to real capability,
+ KPMG's research on sophisticated AI collaboration
+ is worth your time.
+ Learn more at kpmg.com slash us slash sophisticated
+ that's kpmg.com slash us slash sophisticated.
+ I cover the capability gap
+ between AI potential and AI reality every day on the show.
+ Most companies are still figuring out how to start.
+ Robots and pencils is already launching and scaling.
+ Agenetic and generative AI in production
+ at large enterprises in weeks.
+ AWS advanced tier pattern partner
+ more than doubled in a year.
+ And they're hiring, 50 open roles.
+ If you're someone who knows this moment is different,
+ who wants to be inside it, not watching it,
+ this is worth a look.
+ At Robots and Pencils, the best ideas win
+ and the team is purposefully kept super high quality.
+ This is the kind of place you look back on
+ as the best decision you ever made.
+ Take a look at robotsandpencils.com slash careers.
+ The average enterprise is spending
+ 11 and a half million dollars on AI this year,
+ and most of them can't prove a single dollar came back.
+ What does AI actually look like when it produces ROI?
+ Ask the healthcare company
+ that just made their payment processing 320 times faster.
+ Or the law firm whose document research
+ went from three months to 10 minutes.
+ Or the contact center
+ who reduced wait times by 99%.
+ These are real mission cloud customers with real results.
+ Mission cloud is a CDW company
+ and an AWS Premier tier partner.
+ They're the AI first outcome-subsessed AWS experts
+ who build AI solutions that drive your business forward.
+ Whether you're flooded with AI ambitions
+ but no idea where to start,
+ or six months into a deployment that's going sideways,
+ they've seen it and they've fixed it.
+ Stop burning your budgets on AI
+ that doesn't produce results.
+ Start at missioncloud.com.
+ This episode of the AI Daily Brief
+ is brought to you by OutSystems,
+ a leading agentic systems platform
+ built for the enterprise.
+ Organizations all over the world are building,
+ orchestrating and governing agentic systems
+ on the OutSystems platform and with good reason.
+ OutSystems open and unified platform
+ allows teams to architect, deliver
+ and scale governed agentic systems with agility.
+ Teams of any size and technical depth
+ can use OutSystems to build, deploy
+ and manage AI apps and agents quickly
+ and cost effectively
+ without compromising reliability and security.
+ With OutSystems, you can rapidly launch ideas
+ from concept to completion.
+ It's the leading agentic systems platform
+ that is unified, agile and enterprise proven,
+ allowing you to accelerate growth,
+ reduce operational friction
+ and deliver real enterprise impact with AI.
+ OutSystems, build your agentic future.
+ And yet, if there was this emergent strand of sympathy,
+ there remains a ton of concern
+ about the precedent being set
+ and the seeming arbitrariness of the policy.
+ At the same time, Aaron also pointed out
+ that writing off the risk as Runehead suggested
+ as just a short delay isn't necessarily accurate as well.
+ He wrote,
+ The risk is a year from now,
+ the review process is actually six months
+ because a red team has convinced the government
+ they can jailbreak in a novel way
+ to create a cyber attack or bio weapon
+ in an entirely impractical way
+ and we spend months trying to agree on
+ is it a real risk or not.
+ Who would want to take the risk
+ when something inevitably bad happens
+ with any new model update?
+ AI progress will begin to be at the mercy
+ of the most paranoid people with government relationships.
+ Again, maybe inevitable,
+ but ideally not at these levels of model capability.
+ Discussing the ad hoc licensing regime
+ Accelerate Harder wrote,
+ I feel less angry that they're doing it at all
+ than that they are doing it so incompetently.
+ The government is very far behind.
+ I'm happy they are paying attention.
+ We should have a coherent framework for responding.
+ This arrangement is unacceptable,
+ but if it's a temporary measure
+ to buy them time to develop a clearer framework,
+ I can live with it.
+ We'll see.
+ The reality is I expect the actual framework
+ they adopt to make me very unhappy.
+ Once we have a specific policy under discussion,
+ that's worth fighting about,
+ but getting mad at the ephemeral chaos
+ of this administration is fruitless.
+ Now, one interesting voice in all of this,
+ someone who has up until now
+ been a totally stalwart defender of administration policy
+ is former AI czar, David Sacks.
+ Referencing a Wall Street Journal article
+ about GLM 5.2, Sacks wrote,
+ a year ago, President Trump declared
+ that America was in a global AI race
+ and that the way to win it was to be pro-innovation,
+ pro-infrastructure, pro-energy, and pro-export.
+ President Trump was exactly right.
+ We deviate from that strategy at our peril.
+ Now, obviously this is hardly a full-throated
+ condemnation of the policy,
+ but its implication that the Trump White House
+ is deviating from Trump policy
+ is pretty on the nose given the source.
+ Now, this article from the Wall Street Journal
+ was actually the next point of discussion
+ in this whole weekend saga.
+ Indeed, as if on cue, the weekend headlines blared
+ that China has reached the frontier on AI cybersecurity.
+ Wrote the journal,
+ Chinese AI systems have matched the performance
+ of anthropics powerful model mythos
+ in some cybersecurity scenarios.
+ A development poised to reset the global tech race
+ and pressure the White House in its overhaul of US AI policy.
+ Now, this is obviously a very big claim,
+ so it is worth being specific about.
+ The report relates to a new product released
+ by Chinese cybersecurity firm, 360 Security Technology.
+ The tool uses GLM 5.2,
+ recently released, of course, by Z.AI,
+ subject of a lot of conversation here on AIDV last week,
+ and 360 Security claims it's comparable
+ to mythos in finding bugs.
+ Separately, Western cybersecurity company, SEMGREP,
+ released benchmarking tests showing GLM 5.2
+ being better than Opus 4.8 at bug hunting.
+ With some additional instructions,
+ the researchers claimed that both GLM 5.2
+ and Opus 4.8 can outperform mythos.
+ In a quote seemingly designed to court controversy,
+ 360 Security CEO Zhu Hongyi said at a recent conference,
+ this kind of powerful weapon that can alter
+ the landscape of cyber warfare
+ can't remain solely in American hands.
+ Now, when mythos was first released,
+ there were two separate claims made about cybersecurity
+ that have become a little conflated
+ over the following months.
+ The first big headline was that mythos had found
+ a ton of previously undiscovered bugs in open source software,
+ triggering panic and the launch of Project Glasswing.
+ It later became clear that this wasn't really
+ a mythos-specific capability.
+ Other models like Opus 4.8 and GPT-55
+ were also highly proficient at finding bugs.
+ The second far more novel claim
+ was that mythos was capable of taking those bug reports,
+ turning them into functional exploits,
+ and executing a cyber attack in record time.
+ The government's effective fable ban
+ completely muddied the waters on these two capabilities.
+ The Amazon report that triggered the ban
+ merely claimed that fable was still able
+ to find bugs and code bases.
+ The claim that mythos had broken into NSA systems
+ during red team exercises
+ was an example of the second much more dangerous capability.
+ Now, this new report from the journal
+ doesn't in any way suggest that GLM 5.2
+ is capable of carrying out autonomous cyber attacks
+ like mythos.
+ It only claims that GLM 5.2 can find bugs and code bases
+ similar to other frontier models.
+ Notably, this is exactly the kind of model behavior
+ that cyber defenders need access to
+ if they are to have any hope of patching vulnerabilities
+ before mythos level AI is broadly available.
+ If you know who to follow,
+ people were fairly quick to point out
+ that the headline was a little sensational
+ to put it mildly.
+ Ethan Malik wrote,
+ GLM 5.2 is good,
+ but it is not GPT 5.5 or Opus 48,
+ and even further for mythos.
+ What is happening is that open weights
+ crossed into GPT 5.2 territory
+ and capabilities at that point are considerable.
+ Like if you've been using Quen and Kimmy and Minimax,
+ it feels like GLM is right on the curve,
+ which is itself impressive
+ and suggests that mythos class models
+ are coming in six to 12 months
+ if they are allowed to be released.
+ AI forecaster Peter Wildeford was much more dismissive,
+ retweeting a post about the journal article
+ and saying, this is fake news, lol.
+ Tech commentator, Kim was even more angry, writing,
+ this is how dumb our government is.
+ One, China already has advanced models
+ that can find exploits.
+ Two, by banning mythos in GPT 5.6,
+ the government denies the general public
+ and companies the ability
+ to defend themselves in cyber security.
+ Three, haphazard policy,
+ which casts doubt on whether future models
+ will be available,
+ is driving our allies and the rest of the world
+ towards building on non-US models.
+ Four, the uncertainty may hurt leading USAI companies
+ by limiting their ability to invest aggressively
+ in better models down the line.
+ The business model breaks down
+ if anthropic and open AI
+ can't sell their upcoming models to the world.
+ If you want a 30-day rational vetting process
+ with clear transparent rules
+ and no one-off micromanagement
+ on who gets access, fine, get it done.
+ But this current system is absolute insane idiocy.
+ Now, when it comes to China policy,
+ many picked up on the strange tension
+ in the administration when it comes to the AI race.
+ Think about these two divergent priorities.
+ On the one hand, the US government sees itself
+ as needing to prevent China from taking the lead
+ and developing advanced models
+ with the AGI and warfare implications
+ that come with advanced AI.
+ On the other hand,
+ the US government has a vested interest
+ in ensuring broad diffusion of US models
+ to cement US-made AI as the global standard.
+ The problem is that if the current policy
+ is arguably advancing the first track,
+ that makes it more likely the US is headed for disaster
+ along the second track.
+ Former Commerce Department official Emily Weinstein
+ argued that China is pushing hard
+ to make their models broadly available.
+ During a panel discussion earlier this month, she said,
+ I think we're seeing another example
+ of the Huawei strategy
+ in the context of open source AI models.
+ China is able to offer not even just the models,
+ but often the underlying or associated infrastructure
+ at either no cost or significantly lower cost.
+ She suggested this could result in the global south
+ adopting the Huawei model on steroids,
+ where they install an AI stack
+ that's completely incompatible
+ with US technology.
+ On the same panel,
+ former State Department tech advisor Daniel Remer said
+ that following the mythos ban, quote,
+ the entire industry is kind of frozen in place,
+ waiting for something that seems kind of more coherent.
+ That's concerning when the Chinese
+ are trying to move as fast as possible.
+ Saif Khan, a former advisor
+ to the Commerce Department noted,
+ you're seeing many more calls now for AI sovereignty.
+ I think it will mean that much of the rest of the world
+ will likely, at least on the margin,
+ prefer Chinese open-weight models.
+ And this discussion is increasingly not theoretical.
+ As AI daily brief listeners, you guys know
+ that even before the whole Fable 5 dust-up,
+ companies were actively looking for ways
+ to manage their costs better and find more efficiencies
+ as we moved into fully-agentic workloads.
+ One of the paths for that was taking advantage
+ of largely Chinese open-weight models.
+ And it's very clear that in this new context,
+ companies are, if anything,
+ increasing the speed with which they look
+ at those alternatives.
+ On Friday night,
+ Coinbase CEO Brian Armstrong discussed
+ what his company is doing
+ to address spiraling AI costs.
+ Rather than implementing usage caps,
+ Coinbase is experimenting with cheaper default models.
+ They've now set up their AI infrastructure
+ to default to open-source models,
+ including Chinese models GLM 5.2 and Kimi 2.7.
+ Armstrong said that engineers are still encouraged
+ to select the right model for the job,
+ but the default is now a cheaper Chinese model.
+ He noted that 91% of Coinbase employees
+ never hit their usage cap,
+ so this approach is arguably better
+ than reducing token limits.
+ By doing so, Armstrong claimed
+ that Coinbase has managed to cut their AI bill in half
+ while continuing to grow token usage.
+ He wrote,
+ Our goal isn't to suppress usage,
+ it's to build the infrastructure
+ that makes exponential growth sustainable.
+ OpenRouter also said that they're beginning
+ to see a switch in user behavior.
+ In their June report,
+ OpenRouter wrote that four open-weight models
+ are now frequently being used in agentic workflows,
+ largely for cost reasons.
+ They named Deepseq V4, Kimi 2.7, GLM 5.2,
+ all from China,
+ alongside Nvidia's Nemotron 3 Ultra
+ as the model seeing serious usage in production environments.
+ According to OpenRouter,
+ each had its pros and cons,
+ but the main point was that open source
+ is now more than capable of performing valuable tasks.
+ They wrote,
+ Contrary to the expectations of many,
+ the intelligence and capability of open-weight models
+ are keeping up with US frontier labs
+ and have been maintaining a consistent
+ three to six month gap for over 18 months.
+ The frontier labs do not, at this moment anyway,
+ appear to be accelerating away from open-weight labs.
+ So where do we go from here?
+ On the one end of the spectrum,
+ Summer convinced that the world has changed irrevocably
+ and that we are all worse off for it,
+ writes AI entrepreneur, Alex Finn.
+ Unfortunately, it appears the world
+ has changed and we are never going back.
+ OpenAI just announced GPT-56 Sol,
+ a model that beats Mythos at a third the price.
+ It will only be in limited release
+ to start as the government reviews it.
+ The days of wide release frontier models are over.
+ Now only the select few will get access
+ to super intelligence leaving the normie class behind.
+ It's a massive loss.
+ Now winners and losers will be picked by the government.
+ Others begin the week thinking that
+ market forces will win out.
+ Metarevals Charles Foster writes,
+ I think that folks are anchoring too hard
+ on the recent Vable 5 and GPT-56 release restrictions.
+ Expect the pendulum to swing back in the other direction.
+ There are massive economic and strategic pressures
+ towards wide rollouts of ever more advanced AI systems.
+ Miles Brundage points out
+ that even if the Overton window has shifted
+ to a much increased awareness in Washington,
+ he argues that, I don't think it's at all settled
+ that this approach specifically is the new normal.
+ There are many ways to do things
+ besides basically nothing and semi-random export controls.
+ AI policy advisor, Dean Ball,
+ who used to work at the Trump administration
+ and is now at open AI,
+ argues almost that when it comes to the legal side of this,
+ the game begins now.
+ He wrote, the most important legal questions in AI right now
+ all relate to the First Amendment.
+ What are the best fact patterns to demonstrate
+ that the creation, distribution,
+ and use of frontier AI is a form of protected expression.
+ Who outside the labs has standing to bring such suits?
+ We need to move beyond code of speech copium
+ and beyond the impulse to post into the void.
+ Courts will be where the issues
+ of the last two weeks ultimately get decided.
+ It's not going to be easy
+ given the national security implications,
+ but also the underlying technology
+ is a large language model
+ and this should count for quite a bit indeed.
+ The best legal minds of our time
+ should be stewing over these and many related questions.
+ Taking what might be considered a middle position,
+ Andrew Curran argues that it will perhaps feel
+ by the end of this week that this chapter is resolved
+ but that in fact underneath,
+ the world will still in fact be changed.
+ He writes, I think both Fable 5 and GPT-56
+ get approved for general release next week
+ and for use outside of the United States as well.
+ But people should remember this moment
+ and remember this feeling
+ because it is almost inevitable
+ that we eventually reach a point
+ where approval does not arrive.
+ Capitalism is going to tip the scales this time.
+ I doubt they will approve one model and not the other
+ because doing so would be seen
+ as incredibly anti-competitive.
+ Fable and 5.6 will probably receive
+ the same clearance probably on the same day.
+ I also doubt they want to restrict sales outside the US
+ because that would be seen as anti-business
+ and would trigger a major backlash
+ against American close source AI,
+ the rumblings of which you can already hear today.
+ There is also a plan now taking shape
+ on both the US left and right
+ to create some version of an AI public wealth fund
+ that pays a dividend directly to American citizens.
+ That fund needs to be fed by the global sale
+ of the big labs top models to people outside the US.
+ So I think there will be no freeze
+ on their use outside the United States this time.
+ The other reason is that allowing this
+ will make people happy.
+ And it will soften the fact that Mythos,
+ as was announced yesterday,
+ is available only to a vetted group
+ of US agencies and companies.
+ I do not think that this basic structure
+ will change from here on out.
+ Mythos may eventually be made available to certain allies,
+ but only after the US government,
+ its agencies and then some chosen American companies
+ have access to Mythos 2, Soul 2,
+ or whatever the new Uber model turns out to be.
+ I do not think this gap ever closes again,
+ not even for allies.
+ And that means the US will increasingly possess
+ an intelligence advantage that touches almost everything,
+ voting, markets, corporations, academia, infrastructure,
+ and the internal operations of foreign states.
+ Having Mythos N will always be trumped
+ by whoever has Mythos N plus one.
+ Anthropic themselves have said within nine months,
+ Mythos will look like a toy.
+ That advantage standing at the top of this tower
+ is too large to give up voluntarily.
+ It also means that many things will become suspect.
+ People will see shadows everywhere,
+ barring espionage, a deliberate leak,
+ or the emergence of a non-US competitor
+ at the top end of the scale.
+ This structure will persist for some time.
+ The public fight is about access to models,
+ but the real fight is about access to the future.
+ And from this point forward, whoever holds this power
+ will also become increasingly capable
+ of keeping it for themselves.
+ Now I am not as sure as Andrew is
+ that we get these models back this week.
+ I think ever since this ban went into effect,
+ we have been reading every single tea leaf as confirmation
+ that our long wait would soon be coming to a close.
+ Certainly the fact that some folks have access to Mythos
+ and that Howard Lutnick explicitly said
+ that there has been a lot of progress made
+ on the anthropic US government relationship
+ are better indicators than some of the evidence
+ that we've had before,
+ but I'm not ready yet to bet on any particular timeline.
+ I think Andrew's broader point
+ that even when this situation is quote unquote resolved,
+ the bigger questions will remain is dead on.
+ I think that it's tempting when conversation is so fraught
+ and everyone is keyed up to 11
+ to try to intellectually slow things down,
+ to say we must be getting ahead of ourselves.
+ And while I do think that, yes,
+ this particular denial of access
+ will feel like a short time once that time has ended,
+ I believe that people sense
+ that something big has changed is correct.
+ I don't think any of us can know
+ the full slate of implications
+ or how it will all play out,
+ but the world that we will have
+ on the other side of this fable and mythos ban
+ will, I believe, be different
+ than the one we had before it.
+ For now that's gonna do it for today's AI Daily Brief.
+ Appreciate you listening or watching, as always,
+ and until next time, peace.
