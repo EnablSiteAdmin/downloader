@@ -1,0 +1,839 @@
+ Today on the AI Daily Brief, Fable 5 is officially coming back.
+ Before that on the headlines, the quest to cut inference costs.
+ The AI Daily Brief is a daily podcast and video about the most important news and discussions
+ in AI.
+ Alright friends, quick announcements before we dive in.
+ First of all, thank you to today's sponsors, KPMG, robots and pencils, Blitzy and
+ AirTable.
+ To get an ad-free version of the show, go to patreon.com.ai-dailybrief or you can subscribe
+ on Apple Podcasts.
+ And if you want to learn more about sponsoring the show, send us a note at sponsors.ai-dailybrief.ai.
+ We kick off today with a story that is very of the zeitgeist that we are living in right
+ now.
+ OpenAI has found a way to slash their inference costs in half, sort of.
+ This headline from the information grabbed a lot of attention, and understandably so.
+ Then right now is looking for new approaches to token efficiency, and the implications of
+ these searches have huge impacts on the business models and the companies that are shaping
+ AI and the larger market structures they're operating in.
+ Now when it comes to this article specifically, the details do suggest that it might be a smaller
+ breakthrough than it appears at first.
+ The claim is that OpenAI researchers have discovered a new optimization technique
+ that cut their inference requirements in half for existing models.
+ When the technique was applied to chat GPT users who weren't signed into the service,
+ OpenAI was able to serve that entire user base segment on just 100 GPUs.
+ The OpenAI source didn't disclose what the technique was.
+ The information speculated it could be quantization, cache optimization, batching
+ queries or rooting queries to a lower power model.
+ Notably, none of those techniques would improve service for OpenAI larger models without
+ compromises.
+ The universal truth that there is no free lunch remains, and most attempts at optimizing
+ inference come at the expense of model quality.
+ Now there's also the question of what it means that OpenAI is testing this technique
+ on a tiny batch of their least engaged users.
+ That might be a totally reasonable starting point just the first test of many,
+ or it could be a cautionary approach that implies that there's some risk of quality
+ degradation.
+ The TLDR is that while there seems to be something interesting here,
+ we probably shouldn't treat it like some sort of silver bullet to resolve the compute crunch.
+ Still, the information Stephanie Palazzolo is convinced that OpenAI is onto something.
+ In an accompanying video, she said,
+ This is a very important secret sauce for them that they don't even want to tell
+ other OpenAI employees about, because if these things leak, it can quickly be picked up
+ by other labs, which can also then use that to lower their costs.
+ This is something they're holding very close to their chests.
+ Now many pointed to a new research paper from DeepSeq, which open sources a speculative
+ decoder system called dSpark that can speed up inference by 85% during testing on small models.
+ Now it's unclear how dSpark impacts costs, but it is a reminder
+ that inference optimization is not even close to a solved problem,
+ meaning that theoretically huge gains from some novel technique are definitely plausible.
+ And of course, even if OpenAI hasn't found a way to boost efficiency by 50%
+ across the board, any sort of gains here could still be a very big deal.
+ OpenAI's army of free users are a significant drag on profitability,
+ so anything they can do to cut inference costs to that user base could really move the needle.
+ And given the particular audience, certain types of quality reductions
+ may be more tolerable.
+ Everett Randall of Benchmark Ventures has been talking about a phenomenon
+ he's calling the AI mom test.
+ He recently said, there's nothing my mom actually asks of her AI products
+ that needs to be done by the frontier or even a near frontier model.
+ And it seems to be at least initially like that could be the group
+ that this new technique addresses.
+ Certainly there is a lot of chatter out there about innovations
+ and new approaches in this area.
+ AI aggregator Andrew Curran tweeted,
+ I'm posting this prediction now so I can quote it later.
+ There has been a significant breakthrough in architecture,
+ specifically around memory efficiency,
+ not by one of the big labs, but by a team that was spun out of OpenAI.
+ They will probably announce it soon.
+ Now in addition to labs finding new approaches,
+ companies themselves are also finding new more efficient architectures.
+ 20 minute VCs Harry Stebbings tweeted,
+ In the last 24 hours, I have had five founders message me of varying sized companies,
+ some 10 person startups and one $200 billion public company.
+ All of them stated they have been able to cut inference spend by 75% or more
+ with little effort, no performance change and better latency.
+ The times they are a changing.
+ Now speaking of innovations in this new token efficiency era,
+ Vibecoding platform base 44 has launched their own AI model
+ in an attempt to shore up the business.
+ The model is called base one
+ and follows the same playbook as cursor's composer.
+ Namely base 44 has taken an open source base model
+ and applied their own fine tuning using training data
+ from hundreds of millions of user interactions on their platform.
+ CEO Maior Shlomo laid out the strategic thinking
+ in a few different ways.
+ Firstly, base 44 is making the bet that narrowly trained models
+ can be competitive with the frontier.
+ This bet appears to be paying off for cursor
+ with most viewing composer 2.5 is good enough for common tasks.
+ Right Shlomo, general models need to be good at everything.
+ They need to understand many programming languages,
+ many workflows, many domains and many kinds of reasoning.
+ However, base 44 only needs their model
+ to be good at building web apps.
+ Now, of course, base 44 also views the model
+ as a cost control measure.
+ Shlomo wrote, it gives us more control over cost,
+ latency, reliability and quality
+ while still letting us use the best external models
+ where they are the right fit.
+ Finally, he writes, the model gives base 44
+ a way to utilize platform data to improve the product.
+ The idea is similar to the harness model pairing
+ that OpenAI and Anthropik have pursued
+ with their own coding platforms.
+ Base 44 believes they can develop the model and harness
+ in tandem to deliver strong platform-specific results.
+ As AI becomes a bigger part of how software
+ is created, right Shlomo,
+ owning more of that intelligence becomes just as important
+ as owning the infrastructure around it.
+ Now, speaking of strategic convergence,
+ AWS is launching a new division
+ to join the AI deployment race.
+ AWS announced that they will invest a billion dollars
+ to create a new unit staffed with forward deployed engineers
+ to help customers set up and use AI tools.
+ Now, this follows, of course, OpenAI and Anthropik,
+ both launching private equity partnerships
+ to house their FTE divisions
+ with Google in May expanding their existing FTE division
+ and Microsoft announcing an FTE partnership
+ with EY in June.
+ Francesca Vasquez, VP of AWS' Frontier AI Engineering
+ and Services, said that the company
+ has been upskilling salespeople to be FTEs,
+ giving them the title of solution architects.
+ Vasquez said the effort is an expansion
+ of AWS' Generative AI Center,
+ which was first announced in 2023.
+ She added that AWS will focus on industries
+ with the strongest demand,
+ including healthcare government and financial services.
+ Reinforcing the themes of the moment,
+ Vasquez also noted that the big shift
+ towards AI budget optimization
+ rather than just the deployment of AI capabilities.
+ She said,
+ OpenSource and the use of open-weight models
+ is definitely gaining traction for customers
+ for a variety of different reasons.
+ Price performance, but also they service the task.
+ In another indication of just how significant this trend is,
+ the AI engineer World's Fair,
+ which is happening this week in San Francisco,
+ is actually hosting an AI FTE mini-conference
+ within the event.
+ Now, following up on the Claude tag story from last week,
+ Anthropik seems to be preparing to bring agents
+ to Microsoft Teams as well.
+ The information reports that Anthropik
+ recently told Microsoft that they planned
+ to bring a version of Claude tag
+ to Microsoft's Slack equivalent Teams.
+ Claude tag, you might remember,
+ allows users to summon Claude into a channel
+ to receive tasks or take instruction.
+ Unlike previous Claude integrations,
+ Claude tag isn't tied to any particular user.
+ Instead, it functions as an organization-centric agent
+ with persistent memory and tool access
+ independent of the user.
+ In fact, it's actually not calling Claude exactly,
+ it's calling the full suite that comprises Claude code.
+ Now, one interesting sub-story behind all of this
+ is what it says about the relationship between
+ Anthropik and these platforms,
+ both Slack and in the future, Microsoft.
+ There has been some Scuttlebutt that behind the scenes,
+ some Salesforce employees were concerned
+ about Anthropik being allowed into the ecosystem
+ on such a fundamental level,
+ although I don't think that that was universal
+ given the amount of PR that I got
+ from Salesforce about this integration.
+ But still, introducing Claude tag to Microsoft
+ does add another level to this power struggle.
+ Currently, both Salesforce and Microsoft
+ allow third-party agents
+ to access their ecosystems free of charge.
+ In fact, Microsoft CEO Sacha Nadella
+ went one better during an investor call in April.
+ He claimed that Claude helped reinforce
+ Microsoft's ecosystem commenting,
+ it's fascinating that here we are in 2026
+ and the most exciting things in AI
+ are plugins in Word or Excel.
+ When you see that,
+ that means we have a structural position in knowledge work.
+ That said, will the tune change
+ as Claude gets more endemic
+ across the knowledge work spectrum?
+ It's certainly something interesting to keep an eye on.
+ Lastly today,
+ one of the things that we've been talking about
+ when it comes to the data center build out
+ is the opportunity for the data center builders
+ and operators to,
+ if I might be allowed to put it crassly for a moment,
+ buy off the communities that they're operating in
+ or perhaps a better way to think about it
+ is to cut them into the benefits
+ that the data centers might represent.
+ One example of someone starting to nudge down that path
+ comes from SpaceX.
+ The company is discounting
+ Starlink subscriptions in Memphis
+ in an attempt to quell backlash.
+ SpaceX's Colossus data centers are located
+ just south of Memphis
+ and have been the subject of significant local controversy.
+ The campus operates on 46 gas turbines
+ providing off-the-grid power.
+ Local groups have complained about air pollution
+ and noted the turbines are operated without a permit
+ as they're technically portable,
+ which some see as abuse of a legal loophole.
+ The US government, in fact,
+ recently intervened in a lawsuit to shut down the turbines
+ claiming that Colossus is a matter of national security.
+ On Tuesday, SpaceX announced
+ that residents in the Greater Memphis area
+ will receive half-price Starlink subscriptions
+ and free hardware for new signups.
+ In addition, the mayor of Memphis recently announced
+ that SpaceX has recommitted
+ to the construction of a wastewater treatment plant.
+ Those plans had been halted in April
+ with SpaceX claiming they were prioritizing
+ the construction of the Colossus II data center.
+ However, the construction halt came just days
+ before the lawsuit was filed.
+ Announcing the discount VP of Starlink, Michael Nichols,
+ wrote,
+ the unique capabilities of the Colossus data center
+ could not be accomplished without the partnership
+ and support from the local Memphis community.
+ Happy to bring affordable
+ and great Starlink connectivity to our neighbors.
+ Look, directionally,
+ I'm glad that we're starting to see this,
+ but I have to say,
+ but for anyone from SpaceX who might be listening,
+ while I applaud this direction,
+ I would be going a lot harder than a half-price discount
+ for people who have to become your customers
+ to even get that discount.
+ Still some encouraging signs
+ that we're starting to think differently
+ about these relationships,
+ so that's gonna do it for today's headlines.
+ Next up, the main episode.
+ One of the most important AI questions right now
+ isn't who's using AI, it's who's using it well.
+ KPMG and the University of Texas at Austin
+ just analyzed 1.4 million real workplace AI interactions
+ and found something surprising.
+ The highest impact users aren't better prompt engineers,
+ they treat AI like a reasoning partner.
+ They frame problems, guide thinking,
+ iterate and push for better answers.
+ And the good news,
+ these behaviors are teachable at scale.
+ If you're trying to move from AI access
+ to real capability,
+ KPMG's research on sophisticated AI collaboration
+ is worth your time.
+ Learn more at kpmg.com slash us slash sophisticated,
+ I cover the capability gap between AI potential
+ and AI reality every day on the show.
+ Most companies are still figuring out how to start.
+ Robots and pencils is already launching and scaling.
+ Agendic and generative AI in production
+ at large enterprises in weeks.
+ AWS Advanced Tier pattern partner
+ more than doubled in a year.
+ And they're hiring, 50 open roles.
+ If you're someone who knows this moment is different,
+ who wants to be inside it, not watching it,
+ this is not going to happen.
+ If you're someone who knows
+ and be inside it, not watching it,
+ this is worth a look.
+ At robots and pencils, the best ideas win
+ and the team is purposefully kept super high quality.
+ This is the kind of place you look back on
+ as the best decision you ever made.
+ Take a look at robotsandpencils.com slash careers.
+ If you're looking to adopt an Agendic SDLC,
+ Blitzy is the key to unlocking
+ unmatched engineering velocity.
+ Blitzy's differentiation starts
+ with infinite code context.
+ Thousands of specialized agents ingest millions of lines
+ of your code in a single pass,
+ mapping every dependency.
+ With a complete contextual understanding
+ of your code base, enterprises leverage Blitzy
+ at the beginning of every sprint
+ to deliver over 80% of the work autonomously.
+ Enterprise grade end-to-end tested code
+ that leverages your existing services,
+ components, and standards.
+ This isn't AI auto-complete.
+ This is spec and test-driven development
+ at the speed of compute.
+ Schedule a technical deep dive
+ with our AI experts at blitzy.com.
+ That's blitzy.com.
+ This episode of the AI Daily Brief
+ is brought to you by HyperAgent
+ where you run fleets of agents
+ your team can manage together.
+ New users get $1,000 in inference.
+ Forget local agents and chat workflows
+ waiting on your laptop to be prompted.
+ HyperAgent deploys always-on agents in the cloud,
+ doing real work across the tools
+ your team already uses.
+ Marketing's agent turns competitor moves
+ into landing pages.
+ Sales' agent enriches leads,
+ drafts emails, and updates the CRM.
+ Ops' agent chases the paperwork
+ and tracks the budget.
+ Every agent has access to shared context
+ and follows your rules about scope and approvals.
+ It's time you add agents that feel like teammates.
+ Hire yours at HyperAgent
+ built by the team at Airtable.
+ Claim your $1,000 in inference
+ at hyperagent.com slash AI Daily Brief.
+ Welcome back to the AI Daily Brief.
+ Well, friends, after something like 19 days offline,
+ it should be that by the time you're listening to this,
+ Fable 5 has been turned back on.
+ On Tuesday night, Anthropic announced
+ that the government had lifted export controls
+ and cleared them to begin redeploying Fable 5.
+ At 7.52 PM, this tweet exploded onto the scene.
+ We've received notice that the Department of Commerce
+ has lifted export controls,
+ will begin restoring access tomorrow
+ and will share an update soon.
+ We're grateful to our users for their patience
+ and to everyone who worked with us
+ on redeploying the models.
+ A few hours later, they shared further details
+ on the rollout beginning today, July 1st.
+ Fable 5 will once again be available
+ to all global users across all paid subscriptions.
+ There will be a short extension of the subsidy period
+ that we were promised when it first came out.
+ Fable 5 will be included for up to 50% of weekly usage limits
+ until next Tuesday,
+ but after that, access to the model
+ will require the purchase of usage credits.
+ Mythos restrictions remain as they were
+ at the end of last week,
+ with approved U.S. firms able to access the model
+ for both domestic and foreign workers.
+ Anthropic said they will continue to work
+ with the government on an expanded rollout
+ under Project Glasswing,
+ including providing the model to international firms.
+ Several administration officials commented on the resolution.
+ White House Chief of Staff Suzy Wiles,
+ who according to reports has been
+ one of the AI policy leads in recent months, wrote,
+ under President Trump's leadership,
+ the United States is the undisputed winner in the AI race.
+ My gratitude to companies across industries
+ who continue to work closely with the White House
+ to implement the president's executive order,
+ promoting advanced AI innovation and security.
+ This includes excellent work
+ around advanced model access
+ and guardrail testing and security.
+ The government and private sector have worked together
+ in a way we have never seen before
+ and this foundation of America First is unprecedented.
+ Our shared priority remains get the best tech deployed
+ as quickly and safely as possible.
+ Commerce Secretary Howard Lutnick,
+ who has been in charge of applying
+ the export controls added more specifically,
+ over the past two weeks,
+ we have worked closely with Anthropic
+ to analyze and improve Fable 5
+ to ensure alignment across the US government
+ and strengthen America's leadership in AI.
+ Now, alongside the announcement,
+ Anthropic provided their own version
+ of the events of the past few weeks.
+ They discussed the jailbreak reported by Amazon
+ and their efforts to convince the administration
+ that nothing was amiss.
+ As a refresher, the core claim
+ was that Fable was able to identify
+ serious vulnerabilities in a code base,
+ which the administration believed
+ was a mythos-level capability.
+ Our testing, wrote Anthropic,
+ confirmed that many less capable models,
+ including Claude Opus 4.8, GPT 5.5, and Kimmy K2.7,
+ could identify the same vulnerabilities
+ as Fable 5 did in the report.
+ When it came to the demonstration
+ of how to exploit the single vulnerability,
+ every model we tested could produce
+ the same demonstration as Fable 5,
+ including Claude Haiku 4.5, Sonnet 4.6,
+ Opus 4.6, Opus 4.7, Opus 4.8, GPT 5.4, GPT 5.5,
+ and Kimmy K2.7.
+ Importantly, they continued,
+ the reported technique did not expose
+ any unique mythos-level cyber capabilities.
+ The behavior reflected a borderline case
+ for Fable 5's safeguards.
+ There are some tasks that are unlikely to be dangerous,
+ but are nonetheless blocked by the safeguards
+ out of an abundance of caution.
+ The reported technique allowed access
+ to one such behavior,
+ but it only involved routine defensive cybersecurity work.
+ Now, this has been Anthropics' position from the beginning,
+ that although this was a genuine jailbreak,
+ it didn't unleash dangerous cyber attack capabilities.
+ Nevertheless, Anthropics has amped up the guardrails
+ for Fable's return.
+ They have trained a new classifier designed to target
+ and block the behavior described in the Amazon report
+ with a claim success rate of 99%.
+ As with the previous version,
+ users will be informed if they trip the guardrails
+ and will be reverted to Opus 4.8 for that request.
+ Anthropics said that they have tested the new classifier
+ with the Commerce Department Center
+ for AI Standards and Innovation,
+ which agrees that Anthropics safeguards
+ are quote, extraordinarily strong.
+ Anthropics noted, the new classifier also comes
+ at the cost of flagging benign requests more often
+ during routine coding and debugging tasks.
+ As with all our safeguards,
+ we'll continue to refine this
+ to better distinguish genuine misuse
+ from legitimate requests and reduce false positives.
+ Now, one of the first responses was effectively
+ that while folks were glad that Fable was coming back,
+ it wasn't exactly clear what had changed
+ that addressed the government's initial concerns.
+ Policy Advisor, Dean Ball wrote, great news,
+ but we have no idea what Anthropics did
+ to make the model safe,
+ what commitments Anthropics has made going forward,
+ and whether or how any of this applies
+ to other frontier models in the government's licensing queue.
+ We know that GPT 5.6 is in that queue,
+ but it's fair to assume that other model developers
+ are at least in early stages of submitting their models.
+ Reinforcing the point that he has made
+ over and over again, Dean continued,
+ this opacity will not lend itself well
+ to a stable, investable, trustworthy industry over time,
+ but, and here Dean ends on a positive note,
+ the US government needn't figure this all out in a day
+ and a two week review timeline is not insane
+ in the grand scheme of things.
+ The status quo is not tenable, but we made progress today.
+ That progress is just a first step,
+ but it is worthy of applause nonetheless.
+ Prins also pointed out how many new questions,
+ the letter about the export controls
+ being lifted brought up with Anthropic agreeing
+ to quote proactively detect and address security risks
+ associated with Fable 5 and Mythos 5.
+ Prins asks, how is Anthropic required
+ to proactively detect these security risks,
+ not publicly disclosed?
+ When Anthropic agrees to work diligently
+ with the US government on protocols and standards
+ and releases for Mythos, Fable, and future models,
+ Prins notes that this is extremely broad language
+ that appears to cover all future models
+ and is not limited to cybersecurity risks.
+ Still, I think Miles Brundage captured
+ the sentiment of many when he wrote,
+ the first rule of Fable Club is you do not ask
+ too many questions about what exactly Anthropic agreed to
+ that they weren't doing before and you enjoy your access.
+ And overall, from a policy perspective,
+ that seems to be the tone,
+ even though people have lots of questions,
+ the fact that we're getting the model back in this version
+ gives people reason to be cautiously optimistic.
+ Writes Boxes Aaron Levy,
+ it's been a messy process to get here,
+ but at least there's some semblance
+ of a framework that could be practical.
+ The note of caution here would be
+ that there's a lot of subjectivity
+ that goes into various risks
+ and their actual levels of exploitability in practice.
+ We're likely going to be living with a framework
+ that requires heavy judgment and back and forth
+ between labs and the government for major releases.
+ The best we can hope for is
+ that this is a relatively efficient process
+ and hopefully has ways of being sped up
+ for incremental version updates and models.
+ It would be a bad outcome if every release
+ after this level of threshold of capability
+ required the same review process
+ and we don't get the same rate
+ of breakthroughs we've been seeing.
+ Now, one of the reasons that I think people were willing
+ to extend that benefit of the doubt
+ was that as recently as yesterday,
+ people were speculating about Fable 5
+ coming back only with things like a new KYC regime
+ where people had to verify their identities
+ and perhaps verify their identities as American citizens
+ before they could get access.
+ That appears not to be the case.
+ Fable 5 is not just coming back for US users,
+ but for all users globally.
+ And yet, there is a big question lurking.
+ When I tweeted an image of Dario and Uncle Sam
+ riding an eagle delivering Fable across America
+ flanked by fighter jets,
+ Aaron Schneider asked the key question,
+ but will it be as good as we remember?
+ The specific concern comes around this line
+ from the announcement,
+ in the near term,
+ some routine tasks like coding and debugging
+ will fall back to Opus 4.8.
+ That led folks like LaSanne on X to write,
+ the Fable 5 relaunch is kind of fake.
+ Some routine tasks like coding and debugging
+ will fall back to Opus 4.8.
+ You can use that even more restricted Fable 5 version
+ in your Anthropics subscriptions until July 7th.
+ Lex on X wrote,
+ LMFAO, this cannot be a real statement from Anthropic.
+ Routine tasks like coding, Skull Emoji.
+ They've lost their minds.
+ Do they think people are paying an absurdly high price
+ just for the privilege?
+ Now, Tariq from the Claude Code team
+ came on to clarify that that tweet
+ had particularly loose language.
+ He wrote,
+ as with the original classifiers,
+ a small fraction of routine coding and debugging tasks
+ will be flagged and fall back to Opus.
+ In other words, while the tweet made it seem
+ like coding and debugging were part of the routine tasks
+ that would fall back to Opus in general,
+ the Claude Code team is saying that no, in fact,
+ it is just a small fraction of routine coding tasks
+ that will be flagged in that way.
+ Now, given all this,
+ I wanna come back and talk about
+ the ways that I think you should start to test Fable
+ right away when it comes back.
+ But before that,
+ we actually do have one more Anthropic model to talk about.
+ Earlier on Tuesday,
+ Anthropic announced Claude Sonnet 5.
+ And if I had to guess,
+ this suggests to me that they were not sure
+ that Fable would be coming back as fast as it was,
+ as I'm not sure that they would have announced
+ this particular model when they did,
+ in the way that they did.
+ If they knew that later that night,
+ they'd get to announce that Fable 5 was coming back.
+ Anthropic pitched the model
+ as their most agentic version of Sonnet yet,
+ writing,
+ it can make plans,
+ use tools like browsers and terminals,
+ and run autonomously at a level that,
+ just a few months ago,
+ required larger and more expensive models.
+ Now, according to the benchmarks,
+ Anthropic tried to pitch the model
+ as almost as good as Opus 48 for a fraction of the cost.
+ It's a few percentage points shy of Opus
+ on the two major coding benchmarks,
+ SWE Bench Pro and Terminal Bench 2.1,
+ with the same gap existing
+ for computer use and knowledge benchmarks.
+ Maybe the most interesting result was GDP Val,
+ where Sonnet 5 delivered a huge jump over Sonnet 4.6,
+ and even slightly outperformed Opus 4.8.
+ Now, this could be indicative
+ of the strong agentic performance
+ that Anthropic was touting.
+ While GDP Val aims to measure economically valuable work,
+ in practice, the score largely comes down
+ to successful tool calls.
+ Sonnet 5's score could indicate
+ that it's much more capable of following through
+ with end-to-end agentic work,
+ rather than getting stuck halfway through.
+ While Sonnet 5 retains the same pricing as Sonnet 4.8,
+ Anthropic is trying an introductory price for API use.
+ Until the end of August,
+ Sonnet 5 will cost $2 per million input tokens
+ and $10 per million output tokens,
+ and will revert to the standard $3 and $15 after that.
+ In contrast, the price for Opus is $5 and $25,
+ so Sonnet 5 could be a more cost-effective option
+ for some use cases.
+ But what about external benchmarks
+ and actual user impressions?
+ On Cursor's Cursor Bench,
+ they wrote that it was a meaningful step up
+ from Sonnet 4.6.
+ It also saw a jump
+ on the Artificial Analysis Intelligence Index
+ from Claude Sonnet 4.6's 47 to a score of 53,
+ which puts it's just one point behind Claude Opus 4.7
+ and a couple points behind GPT-55,
+ but they point out that without the promotional pricing,
+ it will actually cost more per task than Opus 4.8.
+ On Mac's effort, they write,
+ Sonnet 5 used around 40% more output tokens
+ per intelligence task than Sonnet 4.6
+ and around three times the number of agenda turns
+ for their knowledge work evaluations.
+ The overall run, in fact, cost more than Opus 4.8.
+ This is because it generates almost twice as many tokens
+ as Opus 4.8 per task.
+ And when it came to running the entire bench of tasks,
+ Sonnet 5 was actually more expensive than Fable.
+ That led a lot of people to wonder
+ what the heck this is actually for.
+ Mac's Blade wrote,
+ Composer 2.5 is faster,
+ GLM 5.2 is cheaper,
+ Opus 4.8 output is 10 times better.
+ It's an improvement, yes,
+ but without a real use case,
+ it is dead on arrival right now.
+ Will you guys be running it?
+ Now, one important caveat with that
+ is that the Artificial Analysis tests
+ are run at Mac's settings
+ and that might not be the optimal way to run Sonnet 5.
+ David Shapiro writes,
+ Okay, I can't believe I'm gonna say this,
+ but Sonnet 5 Macs is too high effort.
+ It's like giving a box of squirrels a bunch of cocaine
+ and saying, go with God
+ and just seeing what comes out the other side.
+ Ben Davis, who works with YouTuber Theo wrote,
+ After doing around a billion of tokens on it today,
+ you're all wrong, Sonnet 5 is good.
+ Is it inefficient?
+ Yes, slow?
+ Yes, expensive, yes.
+ But if you think it's the same as GLM 5.2,
+ a model I really like
+ and will continue to defend a ton, you're a fool.
+ The thing with this model
+ is you have to use it wildly differently.
+ It's not the type of Sonnet model we're used to.
+ Probably could have been Opus 5
+ if it was slightly bigger.
+ It's basically an automatic Ralph loop.
+ It's spawning tons of sub-agents,
+ making many stacked PRs,
+ reviewing itself adversarily,
+ auto-testing its changes
+ and not drifting off task at all.
+ If you use this thing the same way
+ you've been using old models,
+ you're gonna have a bad time.
+ Indeed, some are wondering
+ if the real way to look at Sonnet 5
+ is as the work model that would run the sub-agents
+ that something like Fable 5 would spin up.
+ Dan McCaddy writes,
+ You'll use Fable 5 as the super intelligent advisor
+ and Sonnet 5 as the fast and efficient implementer.
+ Still, when push comes to shove,
+ the model that people are really excited about
+ having back is Fable 5.
+ And for anyone who used it in those first three days
+ that it was actually available,
+ you'll understand why.
+ So the question becomes,
+ as Fable 5 comes back online
+ and we have this one week
+ where you can use it in your normal subscriptions,
+ what should you be using it for?
+ Aniket Panjwani writes,
+ You have one week to use Fable 5
+ without going bankrupt.
+ Here's how you should make the most of it.
+ One, use Fable 5 for planning, not for implementation.
+ Use the Codex plugin and Claude code
+ to delegate implementation to GPT-55.
+ Two, ask Fable for suggested improvements on your projects
+ starting with your most important and valuable projects.
+ Three, use Opus and GPT-55 to brainstorm
+ what your hardest technical problems are
+ across your projects
+ and then ask Fable to propose solutions to them.
+ Four, use GPT-Pro through Oracle
+ to review Fable's output.
+ Now this reflects a lot of the advice
+ that was around when Fable 5 first came out.
+ Basically, that what it was for
+ was your hardest challenges
+ and that it was almost too powerful
+ for routine day to day things.
+ Now, I agree with half of this.
+ The half where Fable is very good
+ at your most difficult,
+ specifically technical problems.
+ And to the extent you have some of those,
+ whether you're technical or not,
+ if you're working on some hard coding project,
+ obviously spend as much time
+ as you can using Fable 5 for that.
+ But one thing that already
+ in the very first couple of days of using Fable 5
+ that I disagreed with the common sentiment around was
+ that you wouldn't necessarily notice the difference
+ using Fable 5 on more routine banal non-technical tasks.
+ In my experience, that was completely wrong.
+ Likely the two most common categories of tasks
+ that I have outside of coding,
+ building and prototyping things
+ is strategic thinking and writing.
+ Now on strategy, Fable 5 in my limited experience
+ blew GPT-55 and Opus 48 out of the water.
+ Both of those two models are extremely steerable.
+ They are overly deferential to pushback
+ and tend to overinterpret instructions.
+ For example, if you ask them a strategic question
+ and then try to say something to reduce sycophancy
+ like, don't just accept what I'm saying is true,
+ provide pushback if it's warranted,
+ those models will assume 100% that their response
+ will only be successful if there is pushback.
+ Then however, if you pushback on them,
+ they will cave almost immediately
+ and go out of their way to justify
+ whatever it has become clear
+ they think you're trying to get them to say.
+ Fable 5 didn't do that.
+ In my interactions with Fable 5,
+ as I was debating with it,
+ it would frequently accept part of my pushback or ideas
+ while sticking to its guns on other parts.
+ That is behavior that I have never seen
+ from any other model
+ and instantly made it a thousand times more valuable
+ when it came to any sort of strategic thinking
+ or iteration.
+ Given that every single one of you,
+ I guarantee has strategic questions
+ that you're working through at any given time.
+ This is something that I would immediately experiment
+ with in Fable.
+ And by the way, it also has the benefit
+ of not really consuming all that many tokens.
+ So it's not going to use up
+ that 50% usage limit particularly quickly.
+ The second common sentiment
+ that I want to push back on is around writing.
+ Now arguably,
+ every is the most thoughtful tester
+ when it comes to new models in writing.
+ And in their initial vibe check,
+ it wasn't in their estimation all that much better.
+ They called it sharp judgment
+ trapped in familiar prose.
+ They wrote, every's writing benchmark found
+ that Fable's writing is clear
+ but still short of human judgment
+ on what to include in a piece of writing
+ and how to structure it.
+ The benchmark asks the model
+ to write an introduction from scratch,
+ fill in a missing paragraph from context
+ and deliver a promotional email,
+ a LinkedIn post and an ex post
+ on the editing side,
+ it asks the model to replicate human edits
+ and detect common AI isms
+ in a deliberately robotic draft.
+ And set to extra high effort for this,
+ it basically scored between Sonnet 4.6 and Opus 4.8.
+ Now on a particular type of writing task,
+ this is not what I found.
+ In my not tests,
+ but real world uses of Fable 5 for writing,
+ I found that it was way better
+ at instruction following
+ and fell into far fewer of the common AI traps.
+ It's writing wasn't overly wrought and try hard.
+ It had fewer of the standout AI isms
+ like it's not this, it's that.
+ And while I would want more reps in
+ to say definitively that it's better
+ for all types of writing,
+ my suspicion is that especially in situations
+ where you have a fairly clear rubric
+ of what a good example of writing looks like,
+ I think it's going to be able to do a much better job
+ at meeting that standard
+ than those previous models were.
+ Now that doesn't mean that it's any better
+ at blank page writing,
+ but given how many of people's writing use cases for AI
+ are saying here's all the examples
+ of what has been done in the past,
+ do this type of thing in the future,
+ my experience so far is that Fable 5
+ is much better at that.
+ Look, when all is said and done,
+ it is extremely, extremely welcome news
+ that it is coming back to everyone.
+ While I don't think that you should change
+ your fourth of July plans
+ to stay inside hacking at some big project,
+ I certainly wouldn't blame you if you did.
+ For now, that's going to do it
+ for the AI Daily Brief.
+ Appreciate you listening or watching as always.
+ And until next time, peace.
