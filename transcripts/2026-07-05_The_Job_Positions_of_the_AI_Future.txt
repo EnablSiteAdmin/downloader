@@ -1,0 +1,719 @@
+ Today on the AI Daily Brief, the job positions of this new, agentic future.
+ The AI Daily Brief is a daily podcast and video about the most important news and discussions
+ in AI.
+ Alright friends, quick announcements before we dive in.
+ First of all, thank you to today's sponsors, robots and pencils, Retool, Blitzy and
+ Airtable.
+ To get an ad-free version of the show, go to patreon.com.ai-dailybrief or you can subscribe
+ on Apple Podcasts.
+ And if you want to learn more about sponsoring the show, send us a note at sponsorsataidailybrief.ai.
+ Today we are once again turning to the future of jobs.
+ This episode is not about exploring what industries or types of roles are going to be displaced
+ by AI, nor is it exactly like my episode from a month or two ago about the entirely
+ net new roles that are going to be created by AI.
+ Instead, this one is about new ways of working and some patterns that people are starting
+ to observe about how the roles of jobs are changing as we get deeper into AI.
+ Now obviously a lot of this is predicated on the meta shift from doing a job to managing
+ agents that do that job.
+ That I think is going to be a big part of the common shift for all roles is a process
+ of people exploring how much of what they do on any given day or in any given week
+ can be more effectively outsourced to teams of agents that actually do the execution
+ and then working backwards from that.
+ What is the actual substance of the role that remains?
+ Likewise, as with a lot in AI, a big part of what us non-technical users are doing
+ is looking over at the developers and technical users and trying to map their
+ experience back onto the types of roles that we have.
+ Now this particular episode was inspired by a very specific tweet
+ from Claude Code creator Boris Cherny.
+ At the end of last month, he wrote,
+ As engineering, product, design, DS, et cetera, melt into a new kind of role,
+ I was reflecting on what roles might look like in the future.
+ For example, when I look at the Claude Code team, I see what I think is five
+ archetypes.
+ One, the Prototyper comes up with brand new ideas, turns out many ideas,
+ most of which don't ship.
+ Two, the Builder quickly turns a prototype idea into production grade
+ product and infrastructure.
+ Three, the Sweeper cleans up the UI, simplifies the code and system,
+ un-ships, optimizes performance.
+ Four, the Grower takes a product that has been built and iterates on it
+ to improve product market fit.
+ Five, the Maintainer owns a mature system to make it secure,
+ reliable, fast, and efficient as it scales.
+ Many people span across two roles and sometimes three roles.
+ I also noticed that these roles are not really tied to job function,
+ e.g. across Anthropic, some designers match category one,
+ some two, some three, same for engineers, PMDS.
+ A healthy team needs a mix of these depending on the product.
+ A product that is new and pre-PMF needs people that are strong
+ at one, two, and three, Prototyper, Builder, and Sweeper.
+ A product that is growing and has found product market fit
+ needs two, three, and four, Builder, Sweeper, Grower,
+ and some five, Maintainer.
+ A product that has strong product market fit
+ needs three plus four plus five, Sweeper, Grower, Maintainer,
+ and some two, Builder.
+ Maybe product roles of the future will look more like this
+ and less like the domain-specific roles of today.
+ Now this is one of those great posts
+ that's detailed enough to dig into
+ but also open enough and exploratory enough to build off from.
+ And so what I wanted to do is go a little bit deeper
+ into each of these five roles, try to apply it
+ to areas outside of engineering and product work,
+ and then look at what I think might be missing.
+ Now, so one common thread in all of the positions
+ outlined by Boris is that they are product-facing.
+ In other words, they more or less face inward
+ connected to the product that is being built.
+ The order is also a rough lifecycle of a product.
+ Boris even articulates how different teams
+ need different combinations of these things
+ based on where in the product's lifecycle the product is.
+ So let's talk about each of these five work-facing roles.
+ The Prototyper is a role that many of you
+ inhabit on a fairly regular basis.
+ This is a person who is generating brand new ideas
+ and using things like Claude Code and Codex
+ to do the first version of them.
+ Now historically, the knock on the idea person
+ was that ideas were free and it was all about execution.
+ Now what execution means, I think,
+ is getting a little bit different
+ as taking the first steps towards bringing that idea to life
+ gets vanishingly simpler in the context
+ of code-generating agents.
+ And what's interesting about the archetype of the Prototyper
+ is that while obviously Boris is talking about it
+ in the context of the actual product team,
+ this is not at all constrained to product builders.
+ In fact, increasingly, the capability
+ of using agents to prototype and build things
+ means that product-style thinking
+ is infiltrating other parts of the organization.
+ People who have never touched a product before
+ are thinking about how they could build their own products
+ or tools to make whatever it is that they're doing easier.
+ But the Prototyper isn't just valuable
+ because they figure out how to solve problems using code,
+ but also because they're pushing the shape
+ of what their function can actually do.
+ The Prototyper cuts down
+ what used to be an endless discussion phase
+ into much more directed and applied conversations
+ based on looking at something real.
+ In other words, the Prototyper
+ isn't just coming up with new ideas,
+ they're also eliminating an entire step in the conversation
+ which can be extraordinarily time-consuming
+ because that conversation can now be had
+ while looking at something real and tangible.
+ Next up, we have the Builder.
+ This is someone who can take that prototype
+ and turn it into something that is more production grade.
+ Now, production grade is going to have different meanings
+ in the context of a public-facing product
+ versus an internal-facing tool.
+ Obviously, a public-facing product
+ is going to have a much higher burden or threshold
+ on everything from security to bugs to whatever.
+ Internal tools are going to have inherently
+ a lot more forgiveness built in.
+ Now, one thing that's interesting to consider
+ is how much the archetypes of Prototype and Builder
+ are actually different people
+ versus different mindsets within the same person.
+ I think this is fascinating
+ because I feel like I could argue both sides
+ fairly compellingly.
+ On the one hand, my guess is that many of you
+ have gone through processes
+ where you are both of these things at different points.
+ You Prototype at first,
+ use that to generate the conversation
+ that you need to have
+ about the decisions that need to be made
+ and then move into this Builder mode.
+ However, at the same time,
+ I do think that there is a little bit
+ of a dispositional difference
+ between people who are inclined to find themselves
+ as Prototypers versus Builders.
+ The things that you need to care about
+ when moving into production grade
+ are very different than the considerations
+ when you are in that prototyping stage.
+ I can tell this because they're basically
+ all the things that my brain
+ instantly turns off around
+ and stops caring about as soon as they happen.
+ And yet, when it comes to the real world
+ of real artifacts that people are going to interact with,
+ there is obviously a much higher threshold
+ that needs to be met.
+ And so, yes, although I think
+ that many people are going to inhabit Prototyper
+ and Builder at various points in the journey,
+ I do think as we zoom out to the organizational level,
+ these might be different personality archetypes.
+ Now, when it comes to the Sweeper,
+ I think the key word is optimize.
+ I don't think that what Boris is trying to say
+ is that this is a person
+ who just cleans up the mistakes of the Builder.
+ And in fact, I sort of think
+ that if you were to push on trying to combine
+ any of these roles into a single one,
+ sweeping kind of feels like
+ just an integral part of building.
+ The word optimize is where I think that perhaps changes.
+ It's one thing to clean up the UI or simplify the code.
+ It's another thing to think on an almost DNA level
+ about how to optimize things and improve them.
+ And again, if we're starting to map
+ these position archetypes into personality archetypes,
+ the person who is really designed for optimization
+ is also different than the person
+ who's good at building in a hardened way
+ or coming up with lots of ideas.
+ By the way, I think this will be even more apparent
+ in some areas outside of product development,
+ which we'll get into in a little bit.
+ Now, what's interesting about the next role, the grower,
+ is that this is where what has so far been
+ a largely work-facing, internal-facing set of positions,
+ roles, and archetypes starts to turn outward
+ to the rest of the world.
+ The growers are the people who take the thing
+ that is already built
+ and even starting to be optimized by the sweeper
+ and instead is iterating on it
+ towards an even better version,
+ which could mean product-market fit
+ or product-market domination.
+ Now, this is a role that almost definitionally
+ cannot exist entirely in that internal-facing way.
+ The grower is doing things
+ where the product as it exists
+ is interacting with its intended audience
+ and the learnings from that
+ are what goes back into the grower's work.
+ Preview of what I'm going to argue in a minute,
+ I think that the biggest thing missing
+ from Boris's analysis is those externally-facing roles
+ and this is kind of a hint towards that.
+ One thing I keep seeing in enterprise AI,
+ companies hedging across every cloud,
+ every model, every framework,
+ or paying a GSI for a pilot that never ends.
+ The team's actually shipping,
+ they've picked a lane and they move fast.
+ That's one of the reasons I like today's sponsor,
+ Robots and Pencils.
+ They've gone all in on AWS.
+ They're an advanced tier and AWS pattern partner
+ and they ship production AI coworkers in 45 days.
+ That's led to them doing some of the more interesting work
+ I've seen on AI coworkers.
+ And by that I'm not talking about chatbots,
+ I'm talking about actual agentic systems
+ that sit inside a business architecture and do real work.
+ That kind of focus matters if you're an enterprise leader
+ trying to get something real into production
+ or an AWS rep trying to move a customer
+ from interested to deployed.
+ Request an AI briefing at robotsandpencils.com.
+ One conversation with robots and pencils and you'll know.
+ Weekends are for vibe coding.
+ It has never been easier to bring a passion project to life
+ so go ahead and fire up your favorite vibe coding tool.
+ But Monday is coming and before you know it
+ you'll be staring down a maze of microservices,
+ a legacy cobalt system from the 1970s
+ and an engineering roadmap that will exist
+ well past your retirement party.
+ That's why you need Blitzy,
+ the first autonomous software development platform
+ designed for enterprise scale code bases.
+ Deploy the beginning of every sprint
+ and tackle your roadmap 500% faster.
+ Blitzy's agents ingest your entire code base,
+ plan the work and deliver over 80% autonomously.
+ Validated end to end tested premium quality code
+ at the speed of compute.
+ Months of engineering compressed into days.
+ Vibe code your passion projects on the weekend,
+ bring Blitzy to work on Monday.
+ CY Fortune 500s trust Blitzy for the code
+ that matters at blitzy.com.
+ That's blitzy.com.
+ This episode of the AI Daily Brief
+ is brought to you by HyperAgent
+ where you run fleets of agents your team can manage together.
+ New users get $1,000 in inference.
+ Forget local agents and chat workflows
+ waiting on your laptop to be prompted.
+ HyperAgent deploys always on agents in the cloud
+ doing real work across the tools your team already uses.
+ Marketing's agent turns competitor moves
+ into landing pages.
+ Sales' agent enriches leads, drafts emails
+ and updates the CRM.
+ Ops' agent chases the paperwork and tracks the budget.
+ Every agent has access to shared context
+ and follows your rules about scope and approvals.
+ It's time you add agents that feel like teammates.
+ Hire yours at HyperAgent
+ built by the team at Airtable.
+ Claim your $1,000 in inference
+ at hyperagent.com slash AI Daily Brief.
+ Lastly, the maintainer.
+ Anyone who's ever worked inside a big enterprise knows
+ that there is a massive categorical difference
+ in maintaining a mature system
+ that already exists versus building something new.
+ It is an entirely different set of work,
+ an entirely different set of dispositions,
+ an entirely different set of skills.
+ And what we're seeing with Boris's analysis
+ is that while the context might be changing
+ and the mechanism of the job might be changing,
+ that orientation towards maintaining a big system
+ as something that is different
+ than building the system in the first place
+ continues and persists into this new agentic era paradigm.
+ Okay, but as I hinted,
+ I think this is a really interesting and valuable analysis.
+ I think this is a great way to break down
+ a lot of what a lot of particularly small nimble teams
+ are feeling as the slate of different roles,
+ especially that go into the products that they're building.
+ But once you start to look,
+ especially outside of the product organization,
+ it becomes really clear, really fast
+ that there is almost a totally different orientation
+ that's missing in Boris's analysis.
+ And yet the idea that roles are changing
+ such that they are increasingly less
+ about a specific narrow job description
+ and instead about archetypes and categories
+ of agentically enabled work,
+ persists even into the second category.
+ If the first group of positions
+ were the ones that face the work,
+ the ones that interact with the artifact,
+ the second group of positions,
+ the ones that I think aren't explored
+ with Boris's analysis
+ are those that face a little bit more externally.
+ They face the people and the signal around the work.
+ So let's talk about a few different examples.
+ One is the editor.
+ So what happens when the prototyper
+ makes a dozen different ideas over the course of a week?
+ Whose role is it to decide which they should pursue?
+ Even or especially in a world
+ where it's increasingly cheap to get on base,
+ figuring out which projects you actually want to let run
+ becomes even more important.
+ The attention of the market is still scarce
+ and you can't try everything
+ and that's where the editor comes in.
+ The editor archetype is the person or people
+ or simply mindset that helps decide
+ which of the many prototypes deserve to be built.
+ Now importantly, recognizing the editor as a role
+ does not prescribe what approach they might take
+ to making those decisions
+ about which of the many prototypes deserves
+ to be fully built.
+ Some editors are going to be empirical,
+ some are going to be gut-based.
+ What's common is that the selector
+ and focuser of the energy around a particular option
+ once those prototypes exist
+ is going to be an increasingly important role.
+ Now part of what might inform the editor's work
+ is the work of the scout.
+ Where do those prototype ideas come from in the first place?
+ In many, if not most cases,
+ they're going to come through interaction
+ with the real world.
+ Now sometimes, if not many times,
+ it'll be the prototyper themselves
+ who's out observing things
+ who has the spark of the ideas
+ that get built into that prototype.
+ But especially as we move into
+ larger and larger organizations
+ and we think systematically
+ about how organizations might redesign themselves,
+ the idea of a role
+ whose job is specifically to be out in the world,
+ aggregating and exploring the signal coming in
+ and then bringing it back into the organization
+ for the prototypers and others to start building upon,
+ you can see as something
+ that could be increasingly important.
+ Now, scouting might also be something
+ that in many organizations is largely agentic.
+ One of the things that agents are really good at
+ is absorbing,
+ collating and distilling huge amounts of information,
+ which is kind of what the job of a scout is.
+ Now that doesn't necessarily speak to the taste
+ that might be involved in scouting,
+ but it's interesting to note that this is a role
+ that I think in many organizations
+ will be filled by agents, not just people.
+ The next archetype,
+ which is already admittedly a role
+ that many organizations have is evangelist.
+ These are the folks who don't just market the thing,
+ but actually get the market to see the world
+ in the same way that the builders see the world.
+ This person's output might sometimes be around content,
+ it might sometimes be around conversation,
+ it might sometimes be around community,
+ but this is the position
+ that starts to own the intersection
+ of what happens internally and what happens externally.
+ Next up,
+ a role that I think honestly could exist
+ both as a work internal facing role,
+ but also as an external facing role is the orchestrator.
+ And what's interesting about this archetype
+ is that orchestrators are going to function
+ on multiple levels.
+ I think to some extent,
+ orchestration is a skill that everyone will have,
+ even in the context of their own work
+ as they increasingly become managers of agents
+ in addition to whatever they were before.
+ And yet especially in larger organizations,
+ the orchestration layer of figuring out
+ how all these new disparate pieces work together,
+ especially as the work output increases dramatically
+ is going to be extremely important.
+ Orchestrators that live at the intersection,
+ not just of these different role archetypes,
+ but also of these different bundles of role archetypes
+ across different parts of the organization
+ are going to be increasingly important.
+ We could do an entire episode
+ about what it means to be an orchestrator
+ on a micro or a macro level
+ and barely begin to scratch the surface
+ of where I think this is heading.
+ Now closely related and honestly,
+ I don't know if it should exactly be its own thing
+ or something that's just bundled with orchestrator
+ is the conductor.
+ This is a bit more specific to agent management
+ instead of organizational management.
+ But the point is that if we view these teams of agents
+ as actual synthetic or digital employees
+ that need to be managed in some way
+ and need to be made sure that their outputs
+ can be coherent with one another,
+ the conductor is the version of an orchestrator
+ that is focused specifically on that type of work.
+ Now one final role that I think in particular
+ is going to be extremely important,
+ especially the larger the organization you get into
+ or the more sensitive the area that its work relates to
+ is the risk steward.
+ This is more than just a governance guideline
+ sort of manager.
+ I think that one of the implications of agents
+ is that the speed at which all of us,
+ even big organizations can operate and iterate
+ goes way up.
+ That inherently almost definitionally
+ is going to create new categories and new types of risk.
+ And or it's going to amplify existing risks
+ by having less time for organizations to adapt.
+ The risk steward then becomes the archetypal position
+ whose whole focus is on greasing
+ the governance gears of the system
+ so that it doesn't get stopped and thrown off the tracks
+ by a risk that got out of control.
+ Now interestingly, I think especially builders
+ are often used to thinking about people
+ who are focused on risk as the gatekeepers,
+ the bottlenecks, the stoppers of work.
+ But work now in the agentic era
+ has such an incredible momentum
+ that I actually think it's exactly the opposite.
+ That risk stewards in this new paradigm
+ are the people who are trying to anticipate
+ a couple steps down the line,
+ what things could derail the whole process
+ and try to fix them before the project even gets there.
+ I actually think that this new agentic era risk steward
+ is going to be an incredibly dynamic,
+ forward oriented role
+ and the difference between organizations
+ that continue to move fast versus move fast
+ for a little bit and then have to deal
+ with fits and starts and stops
+ is going to be in this role.
+ Okay, so now we've got this whole new set of positions
+ which as I mentioned are sometimes
+ going to be bundled together in a single person
+ and which in many ways represent archetypes of work
+ as much as they do specific roles.
+ Especially when it comes to the work-facing roles,
+ the prototype or the builder, the sweeper,
+ the grower, the maintainer,
+ it might be a little bit easier to visualize
+ how they relate to software engineering or product design
+ than how they might fit in other parts of the organization.
+ So let's look at these roles
+ but in a different area of the org,
+ starting with sales.
+ What would a prototype or look in the sales organization?
+ Well, this might be a person who tests new pitches,
+ segments and offers, the idea person
+ but enabled to take the first steps
+ in a way that they never were before.
+ The builder or the archetypes who are going to take
+ some of those new pitches or segments or offers
+ or whatever it is and turn it into a repeatable playbook
+ that can scale across the entire sales organizations.
+ The sweepers of the folks who are going to go through
+ and cut dead scripts or bag fit segments
+ from the process.
+ Basically, they're the one who are going to go prune
+ the whole thing so that the velocity remains high
+ without less valuable work getting amplified.
+ Within the range of options,
+ they are going to optimize what the builder built
+ to make the public-facing sales process
+ as valuable as possible.
+ Now, the grower in the sales organization
+ is where all these offers and new approaches
+ and sales motions actually start to interact
+ with the real world.
+ They're the ones who are iterating
+ to see how this strategy versus that strategy
+ is performing and orienting the organization
+ to what's working.
+ They're thinking about deal velocity expansion
+ and generally taking what's working
+ and expanding it significantly.
+ Now, as this whole sales process matures,
+ if the maintainer is the one who turns this into
+ and then maintains a complete sales system,
+ not just a bunch of new sales strategies,
+ they're thinking about pipeline discipline
+ and account coverage quarter after quarter.
+ So that's Boris's set of roles,
+ but what about the more externally facing
+ that we talked about?
+ Obviously, the editor archetype has a role here.
+ As you can see, the sales prototype
+ are coming up with just a ton of ideas
+ that might not actually be worth a squeeze.
+ The scout archetype is obviously incredibly valuable
+ as sales is so inherently about
+ how what you're doing internally interacts
+ with the world externally.
+ Finding the signal that can inform the prototyper
+ becomes even more important.
+ And I think in the context of sales,
+ something like the risk steward
+ actually is really important as well.
+ Sales motions can sometimes have a tendency
+ to try to get the sale at any cost.
+ And yet some costs, be they actual costs
+ or PR costs or something else,
+ are actually too high to bear.
+ And in this case, a risk steward
+ can be thinking about those things
+ even in advance of where those issues might come up.
+ I think marketing looks fairly similar.
+ You've got the scout who's reading the audience,
+ the culture, seeing what competitors are doing
+ and bringing those ideas as signals
+ into the organization.
+ The prototyper takes those signals
+ and tries new narratives, campaigns and channels.
+ The editor uses taste and discernment
+ to figure out which stories, which angles,
+ which narratives best fit the brand
+ as it is or where it wants to go
+ with the combination of these scout-informed prototypes
+ refined by the editor.
+ The builder can take the spark of ideas
+ and turn them into real campaign machines.
+ That creates the need for the sweeper
+ who's going to kill weak messaging
+ and channel bloat, simplify the funnel,
+ help prune and decide which channels
+ aren't part of a particular campaign
+ and generally focus the efforts
+ on the areas of highest potential leverage.
+ The grower is the growth marketer
+ who's obsessed with the data that's coming in,
+ who isn't just using taste like the editor
+ or broad signals like the scout,
+ but is instead actually optimizing conversion,
+ optimizing for growth, optimizing for costs.
+ And by the way, the work that the grower is doing
+ is deeply aligned with the next set of scout work
+ that's going to happen as well.
+ The exhaust that spins off the interaction
+ between current and potential customers
+ and the campaign is what the scout uses
+ to inform the next set of ideas
+ that the prototyper will prototype.
+ And of course to ensure that all of this adds up
+ to more than just a single campaign,
+ but an actual marketing system,
+ you have the maintainers.
+ Now within the context of marketing,
+ the maintainers might be everything
+ from brand maintainers and really making sure
+ that everything is aligned there
+ to systems maintainers, the CRM, the life cycle systems.
+ Every marketer knows the pain
+ of having to start from scratch
+ because the glue that kept the whole system together
+ just wasn't there before.
+ Now one important note
+ is that these sets of archetypes and positions
+ aren't going to map cleanly to every function.
+ They obviously were generated
+ from the product and software development organization.
+ And I think that they have some pretty clear fits
+ with these sales and marketing organizations.
+ But what about something like the back office
+ where you've got finance, ops and HR?
+ You might see in those areas
+ a different type of concentration
+ where for example,
+ you have fewer prototypers and builders
+ and more maintainers.
+ In fact, in some ways back office,
+ you could argue is the maintainer of the core functions
+ of the whole organization already.
+ And so it makes sense
+ that that's going to be a key part
+ of what they do internally as well.
+ Now that said, some of these roles really do fit.
+ The sweeper which removes redundant tools,
+ zombie budgets and bad metrics.
+ Obviously the risk steward
+ is extraordinarily important
+ in these sort of back office functions.
+ Orchestrators who actually make systems
+ and data that can fit across teams
+ are incredibly valuable.
+ The grower, the scout that are inherently external facing
+ don't make as much sense
+ in these inherently internal facing roles.
+ And yet interestingly, as a final thought,
+ in some cases, one of the impacts
+ of this new agentic way of working will be
+ that even archetypes
+ that don't seem exactly like they fit
+ in an area like back office
+ might start to fit more
+ as they get their hands on agentic tools
+ and agentic ways of working.
+ Let's take the prototyper.
+ The prototyper doesn't exactly
+ or at least not cleanly have as obvious a role
+ in something like these back office functions.
+ Now I wouldn't say that there's no role.
+ Obviously in any role,
+ whether it's finance or HR or something else,
+ people are constantly thinking
+ about new and better ways to do their job,
+ new tools they have access to, et cetera.
+ And the prototyper can still be
+ a valuable archetype in that context.
+ But the idea of the prototyper as product builder
+ might in the future have even more resonance
+ in something like finance or HR than you might think.
+ And this is where the product organization
+ and product thinking starts to infiltrate
+ the rest of the organization.
+ We have now had tens of thousands of people
+ go through AIDB agent OS and the New Year's program
+ and claw camp and enterprise claw
+ and executive agent leadership and executive catch-up
+ and the vanishing minority of them
+ are in the product or software organization.
+ But they are taking product and software ideas
+ and approaches and bringing them to their areas.
+ Picture a back office person
+ writing a small piece of custom software
+ to handle a very specific kind of expense report
+ or expense reporting exception.
+ It used to be that they would have had to file a ticket
+ and wait a quarter,
+ but now they can just build it themselves.
+ That is a form of prototyping.
+ And to the extent that it works for their roles
+ could turn into building, growing, maintaining, et cetera.
+ When making gets cheap enough,
+ every function starts to grow a maker.
+ And I think that if you are a person
+ who is deep inside a specific function,
+ one very good way to at least
+ in the short-term future-proof yourself
+ is to become the maker for that function
+ in your organization,
+ to take the idea of prototyping
+ and bring it into what you do.
+ Not because your organization
+ is all of a sudden going to use
+ small pieces of custom software
+ instead of SaaS tools for whatever it is that you do,
+ but because by building things
+ you're going to be able to push your organization
+ to think differently and realize
+ that it has more opportunities than it even knew.
+ And in so doing,
+ put yourself in an incredibly important role,
+ not just when it comes to helping your organization
+ do its job,
+ but in terms of the essential organizational change
+ that'll shape what the job is in the future.
+ As I mentioned at the top of the show,
+ the core change I think underlying all of this
+ is the shift to having access to agents
+ and being able to simply do more different things
+ than was ever possible before.
+ As we experiment with what those shifts are going to mean,
+ I do not think that all of a sudden
+ overnight every single role changes,
+ but I do think that starting to think
+ in terms of these different archetypes,
+ which translate probably to people's personalities
+ and temperaments is going to be valuable
+ as part of the process
+ of organizational change and exploration.
+ And so with that, I turn it over to you.
+ I am super interested to hear
+ if and how this resonates with
+ or is contrasting with your experience
+ in organizations as they're operating right now.
+ One great place to come talk about this
+ is the AIDB operators community.
+ I haven't been sharing it for a while,
+ but it's up to about 2,500 different members
+ talking a lot about this sort of organizational development
+ work and other things.
+ You can find it at aidboperatorsstartcircle.so,
+ and I'll include a link in the show notes as well.
+ And let you get back to your July 4th weekend,
+ big ups to Boris Cherni,
+ not only for building a great product in Claude Cove,
+ but in constantly sharing
+ how they're thinking about new ways of organizing work.
+ And thanks as always to you guys for listening or watching.
+ Again, have a great weekend
+ and until next time, peace.
