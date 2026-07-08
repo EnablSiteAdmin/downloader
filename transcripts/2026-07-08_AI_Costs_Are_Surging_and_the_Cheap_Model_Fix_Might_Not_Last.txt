@@ -1,0 +1,619 @@
+ Today on the AI Daily Brief, how does AI change if access to open-weight models starts to get cut off?
+ Before that in the headlines, all the new models you have access to right now and all the ones that are coming.
+ The AI Daily Brief is a daily podcast and video about the most important news and discussions in AI.
+ Alright friends, quick announcements before we dive in.
+ First of all, thank you to today's sponsors KPMG, Blitzy, Airtable and Retool.
+ To get an ad-free version of the show, go to patreon.com.ai-dailybrief.
+ And of course, if you want to learn more about sponsoring the show, send us a note at sponsors.ai-dailybrief.ai.
+ And my friends, if you thought that this was going to be a slow summer, think again.
+ We are just absolutely drowning in model announcements or announcements of announcements in some cases today.
+ So let's get into everything that is here and everything that is coming.
+ The first one is not a surprise, as this was announced during the period that Fable was offline,
+ but the GPT 5.6 family of models including Sol, Terra and Luna,
+ OpenAI announced in the middle of the night for some reason, that they would be officially coming on Thursday.
+ And in addition to that announcement of the announcement, they also unlocked early testers to begin sharing their impressions.
+ We're going to go much deeper into this when the model actually comes out, but a lot of those first impressions are pretty positive.
+ Ali K. Miller calls the model an execution beast.
+ So much, she says, that I think 5.6 is the absolute wrong name considering how big of a leap this felt to me.
+ Her conclusion?
+ When Sonnet 3.7 came out, I think we no longer tolerated bad writing.
+ Having GPT 5.6 in Fable 5 out in the world, I think we will no longer tolerate bad execution
+ or slow bug fixes or unhelpful customer support.
+ Or at least tolerate a whole lot less.
+ Magic Path CEO Pietro Charano wrote,
+ I can finally talk about 5.6.
+ I've been testing it for months and without exaggeration, it's the best model I've ever used.
+ Fast, smart, genuinely creative, and you guessed it, they finally fixed front-end design.
+ I haven't needed to check the code I've written in two months.
+ YouTuber and AI entrepreneur Theo wrote,
+ It's a damn good model.
+ Not quite as quote-unquote smart as Fable, but it's incredibly capable.
+ Fixed all the problems I had with GPT 5.5.
+ It's incredibly determined.
+ Will run for a day without even using a slash goal.
+ It understands sub-agents incredibly well and is great at orchestrating.
+ It's super pleasant in use cases like Open Claw and Hermes Agent.
+ It knows iOS Dev incredibly well.
+ It has rough edges too, but far fewer than 5.5 did.
+ For many things, GPT 5.6 Sol will become my obvious default.
+ Now, of course, the question that many will have is, how does it compare to Fable?
+ And not everyone was convinced that 5.6 beats it.
+ Matt Schumer writes,
+ 5.6 Sol is an amazing model, but for almost every task I tested,
+ Fable was quite a bit better and more agendic to boot.
+ IE, one Fable turn does the same things many 5.6 turns do.
+ Interestingly, however, according to Ethan Malik, that mode of interaction,
+ where Fable goes off and does more things on its own,
+ and 5.6 Sol sticks closer to the user,
+ might be more intentional than it at first seems.
+ Ethan wrote,
+ 5.6 Sol is of similar ability, but quite different feel than Fable.
+ Fable wants to go off and do work on its own pace.
+ Sol is faster, but works with you in steps more.
+ Now, for Ethan, this wasn't in either or.
+ He continued,
+ I found myself switching between Fable and Sol depending on task.
+ Sol for back and forth tasks, especially when I had not yet figured out
+ what I needed exactly.
+ Fable for very long tasks where I could define what I wanted
+ and Sol Pro for really hard problems.
+ Still for some, the biggest and most interesting hint from this commentary
+ was around just how long some folks said that they had been testing this.
+ Remember, Pietro Charano wrote, I've been testing it for months.
+ Chebby Kimanismus writes,
+ Wait, he had already been testing 5.6 for months?
+ That means 5.6 had already finished training when Mythos and Fable 5 had the reveal.
+ And of course, the implication is that these are not the most state-of-the-art models
+ that these labs have access to.
+ Now, while any new state-of-the-art model captures more attention than anything else,
+ it is increasingly the case that people are thinking not just about
+ raw model performance, but also model efficiency.
+ And you can feel increasingly people getting excited,
+ not just about the frontier model releases,
+ but models which offer something discreet and specific as part of an overall robust
+ and complex model architecture.
+ And that is potentially where SpaceX and Cursor's new model comes in.
+ Yesterday afternoon, the information reported that the model release was imminent
+ and could be coming as soon as Wednesday.
+ The memo stated the release was pushed back from earlier this week
+ to allow for efficiency tweaks.
+ Now, when it comes to this particular model,
+ we have had a few breadcrumbs over recent months.
+ Last month, for example, Cursor CEO Michael Truhl announced that they had finished
+ pre-training their first model from scratch using SpaceX AI infrastructure.
+ He said the model had 1.5 trillion parameters
+ and also hinted that the model would be intelligent beyond coding,
+ suggesting that this could end up a more general-purpose model
+ as opposed to the Composer series,
+ which has been very specifically designed for coding tasks.
+ Elon Musk has also hinted at multiple large training runs taking place
+ at Colossus II and a little over a week ago said that
+ Grock 4.5 had entered private beta at SpaceX and Tesla late last month.
+ Grock 4.5, he said, is based on what he called their 1.5 trillion parameter
+ V9 Foundation models with Cursor data added in post-training.
+ At the end of June, Musk wrote,
+ early evals show performance close to perhaps exceeding opus.
+ And that was reinforced when late last night,
+ Elon Musk confirmed the rumors and said that yes, indeed,
+ Grock 4.5 would be coming today.
+ In fact, by the time that you are listening to this,
+ it is highly likely that Grock 4.5 is out.
+ Elon tweeted,
+ Based on strong, positive feedback from customers in our beta test program,
+ SpaceX AI will make Grock 4.5 available to the public tomorrow.
+ It is an open-class model, he wrote,
+ but faster, more token efficient and lower cost.
+ Now, I want you to hold in mind that token efficiency and cost positioning,
+ especially as we get to the main part of our episode in a few minutes.
+ And by the way, you might have noticed that I keep referring to SpaceX as SpaceX AI.
+ That's because that is the new official name of the company.
+ The full integration of Elon's empire continues unabated.
+ SpaceX AI lives.
+ Now, one more small note on SpaceX slash SpaceX AI.
+ The post IPO quiet period ended on Tuesday,
+ meaning we have the first bank analyst ratings for the stock.
+ Everything that I've seen so far is pretty wildly bullish.
+ Morgan Stanley gave a $300 target, Bernstein at $239.
+ And JP Morgan was also wildly bullish, expecting 5,000 starship launches,
+ i.e. 14 per day by 2031.
+ Now, keep in mind the IPO price was $135
+ and SpaceX AI stock is currently trading at $1.60,
+ meaning that these price targets represent a significant increase.
+ Now, one model that you don't have to wait for,
+ but you do get more time with, is Fable 5.
+ Tuesday was expected to be the last day to use Fable as part of Claude subscriptions,
+ with Anthropic switching their flagship model over to usage-based pricing after that.
+ However, you now have until Sunday to make the most of your bundled Fable usage,
+ as they have extended access to Fable 5 on all pay plans through July 12th.
+ That is, of course, unless you've already maxed out your usage,
+ which Andrew Curran thinks is all part of the plan, commenting,
+ with the number of people distraught that they have used up all their Fable usage for the week already
+ under the assumption that today was the last day,
+ it's almost certain that Anthropic will announce a surprise reset.
+ This is how you feed a heroic aura, set the stage, and then save the day.
+ Now, one thing that some folks have been asking me is whether the renewed Fable 5
+ has lived up to not only the hype, but the experience we had a couple of weeks ago
+ before it got turned off, and so far for me it absolutely has,
+ although I'll come back and talk in more detail about that at some episode in the near future.
+ Certainly there are a lot of impressive things that people have done
+ in this very short period that we've had it back.
+ Amar Reshi, for example, the product lead at Google AI Studio
+ showed off an iPad port of the 2003 game Command & Conquer General Zero Hour,
+ claiming Fable had ported all the code across,
+ rewriting it to run natively on the ARM64 with touchpad controls.
+ Not to let the big labs all the fun,
+ Business Insider reports that Proplexity has quietly cooked up a coding agent
+ to take on Cloud Code and Codex.
+ The tool is named TeamMate and has been deployed internally since May.
+ An internal announcement viewed by Business Insider said that
+ TeamMate is designed to oversee software projects from start to finish,
+ with the announcement saying it's built for long-horizon engineering work,
+ owning projects investigating issues and monitoring services.
+ We also have some Google Rovers with some big chatter about Gemini 4,
+ and even Meta has rejoined the party in the model game.
+ Specifically, Meta has launched a new image model that actually looks pretty impressive.
+ The model is called Mu's Image,
+ and it's the first image model released by Meta
+ since restructuring the AI division to launch Superintelligence Labs.
+ The model looks pretty close to state-of-the-art.
+ It can handle photorealistic images as well as various stylized effects.
+ Now, benchmarks are inherently a little tricky for image models,
+ but on the image edit version of Arena AI,
+ image managed to rank in second place behind only GPT Image 2.
+ Meta's AI CEO Alexander Wang gave us a look under the hood
+ to see what Meta was doing with this model.
+ The model is paired with Mu's Spark, Meta's LLM,
+ to apply reasoning to a prompt before producing an output.
+ Now, this approach was, of course, pioneered with nano-banana,
+ and as we've seen, creates some fairly significant upgrades to the capability set.
+ Wang said that he was particularly impressed by three things.
+ Self-refinement, i.e. the model improves its own output within its chain of thought,
+ which he said emerged during reinforcement learning, not by design.
+ Second, multi-reference composition, i.e. many images blended into one coherent generation.
+ And third, multi-turn editing, iterating without losing coherence or starting over.
+ Wang also previewed the upcoming Mu's video model,
+ which he suggests will be competitive on prompt adherence, visual fidelity, and temporal consistency.
+ Now, a lot of the coverage is focused on how this model is being introduced.
+ Like their previous image model, this one will be available in the standalone Meta AI app.
+ But it's also being dropped straight into Instagram and WhatsApp with a bunch of social features,
+ like being able to generate an image according to what's trending.
+ However, the feature that's causing controversy is the ability to tag someone else in a prompt
+ and use their public photos to insert them into a generation.
+ For most, this will just be harmless fun,
+ but people are also worried about it being a one-click deepfake machine.
+ Users can, of course, opt out,
+ but considering the current state of consumer AI sentiment,
+ I would not be surprised to see it cause some controversy in the coming weeks.
+ Now, one interesting note from a very functional perspective
+ is that Meta is planning an advertiser-specific version of Mu's image
+ designed to allow brands to quickly generate product images.
+ There are a ton of AI startups out there who have been focused on exactly that type of use case,
+ but given how deeply integrated advertisers are already into the Meta ecosystem,
+ this could be one that drives business value from AI for Meta very, very quickly.
+ Lastly today, we're also getting rumors out of China of Minimax
+ working on a very new LLM with 2.7 trillion parameters,
+ which is larger than any other Chinese AI model that is currently on the market.
+ According to the information sources, the model could be released as soon as the third quarter
+ and is known as M3 Pro internally.
+ As of now, Minimax is planning to open source the model,
+ but as we will see, depending on how things proceed with the Chinese government,
+ that might not be the way it plays out.
+ For more on that, we will close the headlines and move over now to the main episode.
+ One of the most important AI questions right now isn't who's using AI,
+ it's who's using it well.
+ KPMG and the University of Texas at Austin just analyzed 1.4 million real workplace AI interactions
+ and found something surprising.
+ The highest impact users aren't better prompt engineers, they treat AI like a reasoning partner.
+ They frame problems, guide thinking, iterate and push for better answers.
+ And the good news? These behaviors are teachable at scale.
+ If you're trying to move from AI access to real capability,
+ KPMG's research on sophisticated AI collaboration is worth your time.
+ Learn more at kpmg.com slash us slash sophisticated.
+ That's kpmg.com slash us slash sophisticated.
+ If you're looking to adopt an agentic SDLC,
+ Blitzy is the key to unlocking unmatched engineering velocity.
+ Blitzy's differentiation starts with infinite code context.
+ Thousands of specialized agents ingest millions of lines of your code in a single pass,
+ mapping every dependency.
+ With a complete contextual understanding of your code base,
+ enterprises leverage Blitzy at the beginning of every sprint
+ to deliver over 80% of the work autonomously.
+ Enterprise grade end-to-end tested code that leverages your existing services,
+ components and standards.
+ This isn't AI autocomplete.
+ This is spec and test-driven development at the speed of compute.
+ Schedule a technical deep dive with our AI experts at blitzy.com.
+ That's blitzy.com.
+ This episode of the AI Daily Brief is brought to you by HyperAgent,
+ where you run fleets of agents your team can manage together.
+ New users get $1,000 in inference.
+ Forget local agents and chat workflows waiting on your laptop to be prompted.
+ HyperAgent deploys always-on agents in the cloud,
+ doing real work across the tools your team already uses.
+ Marketing's agent turns competitor moves into landing pages.
+ Sales' agent enriches leads, drafts emails, and updates the CRM.
+ Ops' agent chases the paperwork and tracks the budget.
+ Every agent has access to shared context
+ and follows your rules about scope and approvals.
+ It's time you add agents that feel like teammates.
+ Hire yours at HyperAgent, built by the team at Airtable.
+ Claim your $1,000 in inference at hyperagent.com.
+ This episode is supported by Retool.
+ AI made building software easier than ever,
+ so more people are building it than ever,
+ usually without a thought for security.
+ Right now, people in your company are vibe coding,
+ and every ungoverned app that touches your data is a risk you own.
+ Retool takes that risk off your shoulders.
+ Build apps however you want, natively with Retool
+ or with Claude Code, Codex, or any coding agent,
+ and ship it in a secure, governed environment.
+ Everybody lives in the platform, not in each app,
+ so however it was built, it's governed the moment it ships.
+ It's why teams at Amazon, Stripe, and Brex build on Retool.
+ And new enterprise customers who sign up by September 30th
+ get up to $10,000 in AI credits per year.
+ Learn more at retool.com slash AI Daily.
+ Welcome back to the AI Daily Brief.
+ Today we're doing something a little bit different.
+ While our episode starts in a specific news report from Reuters,
+ the main substance of the episode is actually an exploration
+ of the potential implications of how a particular type of action,
+ which I think is not at all implausible,
+ would change the nature of the AI race
+ and a lot of the key questions that we've been asking
+ for the past several months.
+ So, the specific query that we're going to be exploring
+ is how AI changes
+ and how the answers to all these challenges
+ of token efficiency and token cost change
+ if China were to decide to stop letting their company's
+ premier models be open sourced overseas.
+ Now, the reason we're having this conversation
+ is a report from Reuters that Beijing is potentially
+ exploring ways to block the overseas distribution
+ of leading models.
+ Reportedly, representatives from Alibaba, ByteDance,
+ and Z.AI have attended meetings with Chinese authorities
+ over the past month.
+ The meetings were led by the Ministry of Commerce.
+ It's self an indication that this goes beyond
+ the tech industry regulator and involves
+ the much more powerful economic planning officials.
+ Officials discussed placing limits on the distribution
+ of the most advanced AI models being developed in China,
+ including both open and proprietary models.
+ Sources said the measures under consideration
+ include limits on who can invest in Chinese AI companies,
+ all the way up to making the leaking of AI technology
+ a criminal offense under stringent national security laws.
+ Now, no decisions have yet been made,
+ but the reporting certainly suggests
+ that China, just like the US,
+ now views frontier AI technology as a national security asset,
+ not just a consumer product.
+ Some of the discussion centers around a mytho-style approach
+ where lesser models are able to be distributed,
+ but the roll out of next generation models
+ are under government control.
+ And it is worth noting that officials at this point
+ seem to be mostly thinking about this policy
+ applying to future models, not trying to scrub
+ already released model weights from the internet.
+ Now, I think that most discussions
+ of the AI China US race start from a position
+ that the model of open source distribution
+ that the Chinese companies have used so far
+ is always going to be their strategy.
+ And if nothing else, this reporting calls
+ that assumption into question.
+ Now, some folks are fairly incredulous.
+ CNBC's Deirdre Bosa wrote,
+ Anthropics shutting down access to fable and mythos
+ gave Chinese open source models a huge opening.
+ Unless this is about control and leverage over distribution,
+ why would Beijing restrict access now?
+ Now, a number of Chinese language accounts on Twitter
+ popped up to basically say that Reuters got it wrong.
+ In evidence, they pointed to a sourced document
+ that they were able to find
+ of a public dialogue in the Chinese courts
+ about this set of issues.
+ The process sounds a bit like the EU trilogues
+ where in advance of big decisions being made,
+ there's a broader discussion period.
+ And effectively, the Chinese language X accounts
+ that were reading those documents
+ were arguing that Reuters exaggerated its conclusions.
+ Tech Buzz China's Rui Ma wrote,
+ It's important to note that this is not
+ an official policy document but rather a discussion
+ featuring a Supreme People's Court IP judge
+ alongside leading legal and AI scholars.
+ They say that the 10 biggest themes that repeatedly
+ emerged across the experts were one,
+ open sources no longer presumed to be pro-competition.
+ Two, the real source of market power is the ecosystem,
+ not the model.
+ Three, open source washing, where companies open source
+ enough to attract developers while keeping the most valuable
+ layers proprietary is a major concern.
+ Four, open weights and open AI should be regulated differently.
+ Five, traditional antitrust tools in China are seen
+ as insufficient.
+ Six, cross-border governance is increasingly recognized
+ to be fundamentally different for AI.
+ And finally, China wants to become a global rule maker
+ for AI open source rather than simply adopting
+ US or EU models they wrote.
+ China should develop its own legal framework,
+ strengthen domestic open source infrastructure
+ and play a larger role in shaping international
+ AI open source governance.
+ Now I think that this is a good summary
+ of the document that people went out and sourced.
+ But it seems to me that these accounts
+ are almost willfully misreading the Reuters piece.
+ Reuters is not just referring to the public dialogue
+ in the court.
+ They are explicitly focused on meetings between Chinese
+ authorities and companies including Alibaba,
+ ByteDance and Z.ai about these issues.
+ Now I suspect that's what's happening here
+ is that in conjunction and in the lead-up to that
+ public dialogue in the court, there have been a series
+ of closed-door meetings to take input from those companies.
+ And I do think it's fair to caveat all of this
+ as saying that it feels to be pretty clearly
+ an exploratory phase.
+ But as you can probably tell from the beginning
+ of this episode, I don't think it's at all
+ guaranteed that China doesn't decide to make
+ a very different decision about their approach
+ to open source than the norms are today.
+ Ethan Malik agrees, posting the article and writing,
+ this is a key reason I don't expect the flow
+ of frontier open-weights models to continue
+ indefinitely or even for very much longer.
+ Sovereign AI strategies of all types are built
+ on the assumption of continuous releases
+ of open-weight models that keep pace
+ with the frontier, giving cost-privacy
+ control gains at the expense of only a little
+ worse performance, but that may no longer hold soon.
+ Now, what I don't think is particularly useful
+ is to try to get into the minds of the Chinese
+ government. For the sake of this episode,
+ let's assume that there are reasons,
+ ones we might agree with or disagree with,
+ why the Chinese government who clearly likes
+ having control over the distribution of technology
+ in their country would want to have more
+ control over the distribution of the technology
+ that their country is making than releasing
+ the open-weights of models allows for.
+ So let's say that China does start restricting
+ access. Well, what happens then?
+ The entire theme that we've been exploring
+ for the past several months is the growing
+ realization that in a world of
+ agentic workloads, AI costs
+ look radically different than the SaaS
+ style budgets that people were planning for before.
+ Now, certainly those issues don't go away
+ if China starts restricting access
+ to open-weight models because those issues
+ don't have anything to do with China's open-weight models.
+ They have to do with anthropic and open
+ AI's cost of provisioning the frontier,
+ the shortages in compute, and all the infrastructure
+ challenges that surround that.
+ Now, so far, the first set of answers
+ to the emerging token cost question
+ have been fairly blunt force type
+ of answers. They've been things like token
+ spending caps, which we got another one from Tesla,
+ applied evenly across the entire
+ company, or on the other hand,
+ they're the simplified brute force
+ approach of simply switching to a
+ cheaper model. So what are the implications
+ if that second option of switching
+ to a cheaper Chinese model gets taken off the table?
+ First of all, it obviously
+ creates a lot more opportunity
+ for emphasis on open-weights
+ and alternative model approaches from the U.S.
+ and Western labs. And already it's pretty
+ clear that some companies are sensing
+ this as an opportunity. NVIDIA has
+ recently been putting more and more emphasis
+ on its Nemotron model family
+ just announcing this week that it had reached
+ 100 million downloads. About a month
+ ago, the company introduced Nemotron 3 Ultra,
+ really pushing its differentiation
+ from the other Western models and
+ even the other Chinese models around things
+ like output speed. In this world
+ of China blocking access to the frontier of open-weights
+ models, Google's emphasis around
+ Gemma also gets a lot more interesting.
+ In fact, DeepMind's series
+ of Gemma models are quietly
+ pretty popular. A couple of weeks ago
+ at the end of June, Google announced
+ that Gemma 4 had hit 200 million
+ downloads in just its first two and a half months.
+ For context, they said the total
+ downloads across the entire Gemma family of
+ models when Gemma 3 was launched was at
+ 100 million. Gemma are what
+ Google calls its lightweight state-of-the-art
+ open models and are clearly meant to serve
+ a different part of the market than just the raw
+ frontier. Now, we don't know how good
+ Gemini 3.5 Pro or Gemini 4
+ are going to be and it could be that once
+ released, those models rocket Gemini
+ right back into the conversation alongside
+ the fables and GPT 5.6's of the world
+ but even if they don't, Gemma
+ represents this entirely different bet
+ that at least at this stage, open AI
+ and Anthropic aren't really making. Does
+ that become more interesting in this world
+ where Beijing starts to restrict model
+ access? One would think so.
+ And then there's Microsoft. Earlier
+ this year, Microsoft released a series
+ of new models that they had trained in
+ house. Now, this announcement didn't get
+ a ton of attention because I think the broad
+ perception outside of Microsoft was just
+ that this was them slowly working to catch up
+ with this set of models mostly just functioning
+ as a way to prove that they still had
+ some chops and especially over time
+ should not be considered out of the game.
+ But I actually think that that misses
+ a fairly important strategic change that
+ Microsoft seems to be exploring.
+ Alongside the models, Microsoft
+ introduced something that they called Microsoft
+ Frontier Tuning. Microsoft AI
+ CEO Mustafa Suleiman wrote,
+ Microsoft Frontier Tuning lets you take
+ our models and make them uniquely your own
+ turning them from capable generalist
+ to complete custom partners. He then goes
+ on to explain how the process works
+ and said that their early results have been
+ really promising.
+ He wrote,
+ Within Microsoft, we use
+ our reinforcement learning environments
+ combined with our MAI models
+ to climb towards the best agent use cases
+ for Excel. Our MAI tuned
+ model is on par with GPT-5.4
+ on public and private benchmarks while
+ being up to 10x more efficient. In
+ the overall model announcement post, he wrote,
+ When we tuned our models for
+ McKinsey's tasks, MAI delivered
+ the highest win rate outperforming
+ GPT-5.5 on quality while being
+ 10x lower on cost. Now, obviously
+ the MAI models are not open,
+ but what Frontier Tuning represents is
+ effectively a commercialized and productized
+ version of what a lot of other folks are
+ exploring with these post-training approaches
+ but using Microsoft's models
+ instead of these Chinese models that
+ theoretically we might not always have access to.
+ By the way, this doesn't just seem theoretical.
+ Bloomberg is reporting that Microsoft
+ is actively considering using their MAI
+ models for a number of different functions
+ within their apps. What's interesting is that previous
+ reporting had suggested that they were going to use deep
+ seek, but now they're finding that their MAI models,
+ when optimized
+ for specific tasks, like generating
+ a chart from Excel data, are actually up
+ to the task in a way that would both save money
+ as well as avoid any weird sovereignty
+ issues with China. Now, the announcement
+ of Microsoft Frontier Tuning happened on June
+ 3rd. The Fable 5 banning
+ happened a week and a half later on June 12th.
+ I believe that if this Frontier Tuning
+ announcement had come out after Fable 5
+ got taken offline, during that period where
+ we were all waiting for what was next, it would
+ have had a lot more buzz.
+ By the way, Microsoft is far from the only company
+ playing in this space. Back in October
+ of last year, Thinking Machines Lab
+ launched something called Tinker, which
+ they labeled a flexible API for fine
+ tuning models. Just about a week ago,
+ Thinking Machines Miramarati
+ shared a case study of Bridgewater using
+ the Tinker API to fine tune a model
+ using what she called their unique financial
+ knowledge. Thinking Machines co-founder
+ John Shulman wrote, People sometimes ask
+ why fine tune when general-purpose models
+ keep getting better. Bridgewater's work
+ is a good reminder that with the right data
+ here, expert judgments, you can beat
+ prompting only approaches by a lot.
+ Now in the paper, they show
+ that whereas models between GPT 5.2
+ and Claude Opus 4.8
+ all had an average accuracy
+ of between 74 and
+ 78%. For a cost of between
+ $20 and about $90,
+ their model got up near
+ 85% at a cost of single-digit
+ dollars. Google DeepMind's director
+ of AGI Economics, Alexeemus, wrote
+ the longer I've spent with this paper
+ the bigger of a deal it seems. The economic
+ implications are quite significant
+ and we keep hearing about examples
+ of exactly this sort of thing. Composer's
+ Cursor 2.5 is another example
+ built on a base of Moonshot's Kimmy
+ and then modified and post-trained by them
+ to produce Opus and GPT level performance
+ at a tiny fraction of the cost.
+ Now in addition to China getting out
+ of the open-source game, creating new
+ model opportunities for western companies,
+ these sort of changes also put a fine
+ point on an additional value proposition
+ of model routers. Now
+ model routers are an increasingly popular approach
+ where instead of just interacting with a single
+ model, you can plug in a model router
+ which can theoretically figure out
+ the right model for any particular task
+ leading to efficiencies and cost savings.
+ While especially in a period
+ of increasing regulatory
+ greyness, all of a sudden model routers
+ could start to play an important governance role as well
+ selecting models not only on the
+ basis of capability but on the basis of risk.
+ Already there is so much evidence
+ of things changing. For cell CEO
+ Guillermo Roche recently discussed the extent
+ to which they've observed a shift from
+ companies choosing a single AI lab to partner with
+ to actually building complex model architectures.
+ Now I think what's interesting
+ about this is that in many ways
+ these trend lines are already set. The need
+ for lower cost alternative models and better model
+ architectures to get the right task to those
+ models is going to be there whether it's Chinese
+ models plugging in or not. And personally
+ I think that even the possibility
+ or a growing recognition
+ of the possibility of China cutting off
+ access to the frontier is going to create
+ incredible market opportunities for new
+ model approaches from over here as well.
+ Certainly the reality is if you are an AI
+ buyer at an enterprise, your life
+ is getting more not less complicated.
+ At the same time, I can promise you'll
+ never be bored. These are trends we will continue
+ to watch but for now that is going to do it for today's
+ AI Daily Brief. Appreciate you listening or watching
+ as always and until next time peace.
