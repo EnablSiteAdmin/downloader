@@ -1,0 +1,857 @@
+ Today on the AI Daily Brief, how the count on four new models we got access to this week will change how you work.
+ The AI Daily Brief is a daily podcast and video about the most important news and discussions in AI.
+ Alright friends, quick announcements before we dive in.
+ First of all, thank you to today's sponsors, KPMG, Robots and Pencils, Blitzy and Airtable.
+ To get an ad-free version of the show, go to patreon.com.ai-dailybrief or you can subscribe on Apple podcasts.
+ And if you want to learn more about sponsoring the show, send us a note at sponsors.ai-dailybrief.ai.
+ Welcome back to the AI Daily Brief.
+ Among the many changes that AI is bringing to the professional world,
+ one of them is an almost total obliteration of the previously agreed upon idea that you could actually slow down a little bit over the warm summer months.
+ While not every white-collar professional would agree that July and August are a time for resting and vacations and catching up,
+ it's pretty undeniable that it's a season where things quiet down a bit.
+ Except in AI Land, where almost especially now that the previous cadence was thrown off by the government's interference,
+ we are in for what I believe will just be an absolute cavalcade of models,
+ many of which as you'll see I think have fairly significant implications for how we work.
+ The month of models got off to a big start with the return of Fable,
+ which while yes, of course, technically was released in June,
+ for all intents and purposes for most of us, it actually feels like an early July release.
+ And yet this week we added a whole new slate of models to the roster, including OpenAI's first answer to Fable, 5.6 sole,
+ a new entrant from Grock, their first since they hooked up with cursor called Grock 4.5,
+ a new model from cognition, SWE 1.7, which continues a trend that we saw with cursor and composer 2.5,
+ and finally the model that we're going to start with today, GPT Live.
+ Now you might have seen this announcement floating around social media.
+ It's a set of cute and charismatic grannies talking to chat GPT's new live model
+ in a way that's meant to represent just how much more natural and conversational the new model feels.
+ Now this is not at all the main point of the show, but it is worth noting as a side story
+ that I think of anything that this content was some of the more effective we've seen from OpenAI.
+ Not Boring's Paki McCormick wrote,
+ The OpenAI just-be-normal strategy is working beautifully.
+ Bonus points for making the ladies look very smart and sophisticated
+ and clearly putting them in control of the conversation slash interrupting slash even being kind of rude with chat.
+ Now that particular choice I also think reflects one of the big underlying points of this announcement,
+ which is an evolution in how they imagine consumers interacting with AI.
+ We'll come to that in just a minute though, let's talk about the actual model that was released first.
+ The model is called GPT Live and it comes in two flavors, GPT Live One and GPT Live Mini.
+ It is built on what they call a full duplex architecture,
+ meaning OpenAI says that it can listen and speak at the same time.
+ And a big part of the emphasis here is in how the interaction model has changed.
+ The earliest versions of chat GPT Voice were built on something called a cascaded voice system.
+ Basically, that model was actually three models chained together.
+ The user would speak and then a speech-to-text model would transcribe that speech,
+ an LLM in the background would produce a response,
+ and then a text-to-speech model would convert it back into speech.
+ This approach OpenAI wrote,
+ enabled us to talk to frontier AI models for the first time, but the complexity came at a cost.
+ Information could be lost across models and responses were slow and stilted.
+ Now the next version, which was built into chat GPT Advanced Voice Mode,
+ was a turn-based model system.
+ It generated audio within a single model,
+ as in it didn't have to go through that speech-to-text and text-to-speech translation,
+ which made a big difference in terms of latency,
+ but it still operated in a discrete turn-based way,
+ i.e. the model had to wait for the user to stop speaking before it started,
+ which created all sorts of challenges,
+ because when turn detection was based on silence,
+ something like a brief pause in thought or background noise could be mistaken
+ for the end of the user talking,
+ which could lead to the model interrupting in weird ways,
+ keeping things feeling stilted and not all that natural.
+ The new model makes two big architectural changes.
+ The first is that full duplex architecture,
+ which means that GPT Live, they say, is built for continuous interactions.
+ Instead of processing a sequence of separate messages, they write,
+ GPT Live continuously processes input while generating output.
+ The model, they say, can therefore make interaction decisions many times per second,
+ whether to speak, continue listening, pause, interrupt or invoke a tool.
+ And as you can hear from all of the different tests and videos they shared,
+ this makes for a conversational experience that's a lot closer
+ to what you get when you're interacting in a normal human-to-human conversation.
+ The second architectural decision is that they separated GPT Live as a model,
+ which has its focus on continuous interaction from deeper types of work,
+ including reasoning, agented capabilities or search.
+ So basically, as the GPT Live model is doing that interaction,
+ it can summon another model like GPT 5.5 or now going forward 5.6
+ to go take care of a task like searching or reasoning,
+ even as it keeps the conversation going.
+ Now, you might remember a couple months ago
+ when Thinking Machine Labs introduced their interaction model
+ that took a pretty similar approach here.
+ Riley Brown, in fact, wrote,
+ This graphic from Thinking Machine seems relevant to the GPT voice release.
+ They are, from my understanding, very similar.
+ Real-time voice models have an interaction model
+ that can run background models that use tools.
+ You don't need to wait for the voice model
+ to finish doing something while talking to it.
+ It can just do things in the background.
+ Developer Daniel Vella wrote,
+ I built a project with this architecture.
+ Instead of a secondary background LLM,
+ my project is a voice-first mini-agent
+ that delegates tasks to other agents
+ like Hermes or OpenCode through ACP.
+ You can continuously talk with the agent
+ while heavy task occurs in background.
+ Much more pleasant experience than the usual voice agents.
+ So in some ways, what you're seeing here
+ is a voice equivalent version
+ of an increasingly common architectural pattern
+ in general with advanced AI systems
+ that involve multiple models at the same time
+ and the ability for an orchestrator model
+ to initiate agents or sub-agents
+ to go do some specific set of tasks
+ that work in the background
+ before organizing it all into a coherent single response.
+ So there are a couple interesting things
+ that come up right away from the demos.
+ One of the first places that people went
+ was just how powerful this was going to be
+ for anything involving multiple language interactions.
+ Live, turn-less operation means, for example,
+ that the model can translate each phrase as it's spoken,
+ not having to wait for a break in the conversation.
+ This means the model can function
+ much more like a human translator
+ and less like a wooden computer.
+ Think about when you've seen a translator for a speech
+ where the translation happens just a few seconds
+ after the person being translated starts speaking
+ rather than waiting for that speaker
+ to stop and pause at any given point.
+ Now, people also grok very quickly, no pun intended,
+ that this seemed like a really excellent tool
+ for language learning.
+ Click Health Simon Smith says that,
+ yes indeed, for learning this does rock.
+ He wrote,
+ I tried practicing Spanish with it,
+ it can give me words in English to translate
+ and properly critique my pronunciation.
+ He also, though, saw that this was probably valuable
+ for more than just language learning,
+ noting that if there was a generic flashcard tool,
+ we could use this for all sorts of learning.
+ He writes flashcards, quizzes,
+ blackboard-like sketchpad, and so forth
+ would just be incredible here.
+ This thing could be an exceptional teacher.
+ Now, one thing that is worth noting
+ is that although there is not a flashcard feature specifically,
+ the new model in ChatGBT does now have
+ the ability to show visual cards
+ for things like weather, stock, sports, schedules, and more.
+ This suggests that the jump to something like flashcards
+ wouldn't be all that difficult.
+ And yet the flashcards, I think,
+ are another part of the story
+ that started with the grannies,
+ which that is, to me, this is very clearly
+ the set of use cases that this is really focused on
+ are what we might call the Siri use cases.
+ This is the basic personal assistant stuff
+ that they assume a lot of regular people
+ who aren't using ChatGBT for work using ChatGBT4.
+ When you look at the grandma's ad again,
+ a lot of the things that they ask the new model to do
+ are the things that you've seen for the last several years,
+ people screeching about on social media
+ because it seems like stuff that Siri
+ should be able to do but can't.
+ They're basically actively stress testing it
+ along archetypal failure modes that cause user frustration
+ and it appears to keep functioning properly.
+ And I think in some ways that this sort of interaction mode,
+ Voice First, might be closer to the future
+ of how people interact with AI
+ than the current paradigm of typing.
+ Sam Altman basically said as much,
+ writing,
+ GPT Live launches today in ChatGBT.
+ It feels magical and real.
+ I have always preferred typing to talking to an AI.
+ Now I think that's going to shift.
+ What's interesting though,
+ is that while I think this makes a ton of sense
+ for consumers,
+ it's a more interesting question to ask
+ how this might change the interaction pattern
+ for work-based users as well.
+ Now, regular listeners will know
+ that one of my most common tips to getting more out of AI
+ is to switch to a voice paradigm.
+ Not to switch to these voice models,
+ but to use something like whisper flow
+ to be able to ramble speaker inputs
+ rather than typing them.
+ The reason for this is pretty simple.
+ AI tends to live or die on the basis
+ of the context you give it.
+ And no matter how fast you type,
+ you almost certainly talk faster.
+ Typing also forces you into structure
+ in a way that while it can be useful,
+ it might not always actually be helpful
+ to what you're trying to achieve with AI.
+ In short, when you speak, i.e. ramble,
+ you can provide the AI a lot more context.
+ And at this point,
+ the vast, vast majority of my interactions with AI,
+ even when I'm sitting at my desktop computer,
+ are done via voice.
+ But it's not this sort of back-and-forth voice mode.
+ It's just about voice as my input.
+ Not only do I not care about having the AI speak back to me,
+ in many applications, including the one that we built
+ with Superintelligent that interviews people,
+ I've sometimes found that waiting for the AI to speak back
+ can be incredibly annoying and slow.
+ Basically, your brain's ability to read a sentence
+ and absorb it is a lot faster than having to listen
+ to the AI talk at some mediated pace.
+ So an interesting question I have about this new model
+ is how it might start to interact, if at all,
+ with people's work behaviors.
+ And while it's early,
+ there is some interesting feedback on that front.
+ Early tester Daria Anutmaz wrote,
+ Okay, so we have a skeptic who's starting to be converted,
+ which was also Riley Brown's experience.
+ He wrote,
+ I was not excited for voice models until I tried this one.
+ It's very realistic, almost spooky.
+ The coolest part, the model can search the internet fast.
+ And if you've spent any time with GPT Real Time 2,
+ you know these voice models are getting very good at using tools.
+ Soon, I'm guessing, you'll be able to do your email,
+ check on business data, schedule meetings and basically anything,
+ just by chatting with this voice model.
+ The tech is basically already there for Jarvis.
+ The only thing left is a generative UI layer.
+ Okay, so we have here Riley, not only being a skeptic converted,
+ but starting to see how it might start to become
+ something that changes how he works, even if it's not there yet.
+ Simon Smith again wrote,
+ Ethan Malik made a similar point.
+ GPT Voice is really good and much closer to the science fiction experience
+ of talking to AI in part because it is much smarter.
+ That plus Claude Tag suggests emerging new modes of working with AI.
+ Now, Claude Tag, you'll remember, is the version of Claude that sits inside your Slack
+ and has shared context across user channels,
+ i.e. isn't just limited to a single user's instance of Claude.
+ Max Weinbach wrote,
+ And downstream of that is just controlling your entire computer with voice.
+ Prinz had a great analogy writing,
+ So, is everything different? Did everything change?
+ Not so fast, says Gail Weiner, who wrote,
+ The pacing, the warmth, the naturalness is genuinely impressive.
+ It sounds like someone you'd enjoy thinking with.
+ But the voice isn't the product. The thinking is.
+ A beautiful voice wrapped around shallow reasoning is just a pretty face with no depth.
+ It's pleasant to look at but doesn't help you build.
+ If you're looking for quick answers to questions, it's lovely.
+ If you want a brainstorm and work, it's not great at all.
+ Reinforcing that point is this video from Husk,
+ who showed that while the voice model may have gotten smarter,
+ it still isn't necessarily state-of-the-art when it comes to raw intelligence.
+ ChatGPT just had a big voice update,
+ and this is supposed to be way smarter now,
+ and way more natural.
+ So, let's put that to the test.
+ I have it set to the highest smart setting.
+ Um, hey, can you tell me how many ease are in the number 17?
+ And you're really smart, right?
+ Yeah, 2d ease in 17.
+ And you're sure about that?
+ Absolutely. S-E-V-E-M-T-E-E-N.
+ That is two. That's right.
+ Exactly.
+ Now, this is obviously meant to be a bit of a meme,
+ and the OpenAI folks took it in stride with Adi Aletti saying,
+ bro, you didn't even give us a day.
+ JK, we love your videos.
+ But I think that the important thing here to note
+ is that when you look at the difference between
+ GPT Real Time 2, the API, and GPT Live One,
+ and the GPT 5 class reasoning models,
+ these are not just model tiers, they're interaction tiers.
+ Real Time 2 is the smarter real time voice model for developers.
+ GPT Live One is the chat GPT voice experience.
+ It's a more natural, interruptible, always flowing interface
+ that can call on GPT 5.5 behind the scenes.
+ But if you are looking to do something like it sounds like Gale was,
+ and something that's one of my main use cases,
+ which is extended strategic debate,
+ the benchmark is still going to be the underlying frontier reasoning model,
+ not the voice layer itself.
+ Voice models, in other words, are making a trade-off.
+ They have to listen, decide when to interrupt,
+ respond naturally, avoid awkward silence,
+ and keep latency low.
+ That's a very different optimization target from
+ sit with the problem the user is suggesting and reason deeply.
+ And yet still, this is one more indication
+ that overall, even if it's not this model exactly,
+ the interaction pattern is starting to shift.
+ Sitebringer wrote,
+ GPT Live points at the moment AI stops feeling like software
+ and starts feeling like a live cognitive presence.
+ Text keeps AI at a distance, voice collapses that distance.
+ Once the model can interrupt naturally,
+ respond emotionally, follow rhythm, catch hesitation,
+ hear uncertainty, and keep pace with human thought,
+ the interaction starts moving from tool use into relationship use.
+ Now, obviously, there are implications here
+ for the sort of companionship dimension of AI,
+ which we'll probably discuss at some point in the future.
+ But I think it would be a mistake to solely view this as a consumer shift.
+ Instead, I think it is part and parcel of a larger shift,
+ whereas we delegate more and more,
+ and more of our work becomes coordination and management,
+ voice might be an increasingly important way
+ that we do that coordination.
+ One of the most important AI questions right now
+ isn't who's using AI, it's who's using it well.
+ KPMG and the University of Texas at Austin
+ just analyzed 1.4 million real workplace AI interactions
+ and found something surprising.
+ The highest impact users aren't better prompt engineers
+ they treat AI like a reasoning partner.
+ They frame problems, guide thinking,
+ iterate, and push for better answers.
+ And the good news, these behaviors are teachable at scale.
+ If you're trying to move from AI access to real capability,
+ KPMG's research on sophisticated AI collaboration
+ is worth your time.
+ Learn more at kpmg.com.us.safisticated.
+ That's kpmg.com.us.safisticated.
+ One thing I keep seeing in enterprise AI
+ companies hedging across every cloud, every model, every framework,
+ or paying a GSI for a pilot that never ends.
+ The team's actually shipping, they've picked a lane,
+ and they move fast.
+ That's one of the reasons I like today's sponsor,
+ Robots and Pencils.
+ They've gone all in on AWS.
+ They're an advanced tier and AWS pattern partner
+ and they ship production AI coworkers in 45 days.
+ That's led to them doing some of the more interesting work
+ I've seen on AI coworkers.
+ And by that I'm not talking about chatbots,
+ I'm talking about actual agentic systems
+ that sit inside a business architecture and do real work.
+ That kind of focus matters if you're an enterprise leader
+ trying to get something real into production
+ or an AWS rep trying to move a customer from interested to deployed.
+ Request an AI briefing at robotsandpencils.com.
+ One conversation with Robots and Pencils and you'll know.
+ Want to accelerate enterprise software development velocity by 5x?
+ You need Blitzy, the only autonomous software development platform
+ built for enterprise code bases.
+ Your engineers define the project,
+ feature, refactor or greenfield build.
+ Blitzy agents first ingest and map your entire code base,
+ then the platform generates a bespoke agent action plan
+ for your team to review and approve.
+ Once approved, Blitzy gets to work autonomously generating
+ hundreds of thousands of lines of validated end-to-end tested code.
+ More than 80% of the work completed in a single run.
+ Blitzy is not generating code,
+ it's developing software at the speed of compute.
+ Your engineers review, refine and ship.
+ This is how Fortune 500 companies are compressing
+ multi-month projects into a single sprint,
+ accelerating engineering velocity by 5x.
+ Experience Blitzy firsthand at Blitzy.com.
+ That's blitzy.com.
+ This episode of the AI Daily Brief is brought to you by Hyperagent,
+ where you run fleets of agents your team can manage together.
+ New users get $1,000 in inference.
+ Forget local agents and chat workflows waiting on your laptop to be prompted.
+ Hyperagent deploys always-on agents in the cloud,
+ doing real work across the tools your team already uses.
+ Marketing's agent turns competitor moves into landing pages.
+ Sales' agent enriches leads, drafts emails, and updates the CRM.
+ Ops' agent chases the paperwork and tracks the budget.
+ Every agent has access to shared context
+ and follows your rules about scope and approvals.
+ It's time you add agents that feel like teammates.
+ Hire yours at Hyperagent, built by the team at Airtable.
+ Claim your $1,000 in inference at hyperagent.com.ai Daily Brief.
+ The next new model I want to discuss is Grock 4.5.
+ And candidly, up until very recently,
+ specifically the announcement of the cursor acquisition,
+ there have been a fair number of people
+ who have thought that we might be seeing Elon moving away
+ from owning the model layer to owning the compute layer.
+ Certainly at some point, he started to think differently
+ about his competitive advantage.
+ By giving both Anthropic and Google
+ and even some other companies access to Colossus and Colossus 2,
+ Elon was clearly deciding that he was willing to play
+ at that Computes R-type of level as well.
+ And yet, one of the outcomes of SpaceX AI going public
+ and seeing such a big pop and having success in the public markets
+ is that they have a lot more capital to play with
+ and that capital becomes leverage.
+ The completion of the cursor acquisition was a great case in point.
+ And Grock 4.5 is the first output of the new collaboration
+ between SpaceX AI and cursor.
+ SpaceX AI called this their first model train
+ specifically for coding in agents
+ and really emphasizes those engineering type of use cases.
+ Grock 4.5 they wrote was built for real world engineering.
+ It excels in large code bases and handles long running tasks
+ that span multiple repositories, hundreds of skills,
+ and a variety of tools.
+ Cursor for their part tweeted,
+ it's our most powerful model yet and the first we've built
+ for more than software engineering.
+ Now for those worried that cursor is now headed
+ in a different direction, the main Twitter account
+ made sure to point out that Grock 4.5
+ and Composer are two different model weight classes
+ and that not only will Composer 2.5 continue to be
+ remain offered but they will be releasing new models
+ of that size going forward.
+ Cursor 2.5 you'll remember is their model
+ that was built on a Kimi base and post trained
+ using their unique data to get high performance
+ at a lower cost.
+ When it comes to the benchmarks,
+ Grock 4.5 is more or less a match for
+ Opus 4.8 and GPT-55 across terminal bench
+ 2.1, SWE bench pro, and deep SWE 1.0.
+ On the artificial analysis index,
+ Grock 4.5 places fourth overall
+ behind Fable 5, Opus 4.8, and GPT-55.
+ It has particularly strong performance
+ in agentic knowledge work and coding
+ and also ranks fourth in GDP Val.
+ Importantly though, we continue to see
+ that these models are no longer simply
+ competing on the question of raw intelligence
+ but also on questions of efficiency.
+ On artificial analysis's tests,
+ Grock 4.5 was by far the most
+ cost efficient run of the near frontier models.
+ It cost 31 cents per task
+ across the overall index benchmark
+ as compared to 180 for Opus 4.8
+ and 275 for Fable 5.
+ For some comparisons it was slightly cheaper
+ than GLM 5.2 and Kimi K2.6
+ and slightly more expensive than
+ Haiku 4.5 and Nemotron 3 Ultra.
+ Its cost per task was about a third
+ of GPT-55, a fifth of Opus 4.8
+ and one ninth of the cost of Fable 5.
+ Effectively, based on the benchmarks alone,
+ it is very realistic to say that the model
+ delivers near Opus performance
+ for Haiku level costs.
+ Meanwhile, Grock build seems like
+ a big deal as well.
+ The combination of build and Grock 4.5
+ was the third best harness and model pairing
+ on AA's coding agent index
+ ahead of Opus 4.8 and Claude Code
+ and just behind GPT-55 and Codex
+ and Fable 5 and Claude Code.
+ Grock 4.5 is also fully
+ stated the art on automation bench
+ which is AA's proprietary benchmark
+ that tests the model's ability to use tools
+ to complete a range of real-world SAS workflows
+ in simulated app environments like Excel, Gmail
+ and Slack. Essentially, it's
+ an agendic computer-use-style benchmark
+ based in real-world examples.
+ And not only did it get the top score at 51.4%
+ compared to, for example, Fable 5's
+ 48.6%, it did that
+ at 34 cents per task compared to
+ 135 for Fable. It used less
+ than half the tokens of Opus 4.8's run
+ and fewer turns while using tool calls
+ than other frontier models.
+ But as we know, benchmarks can be deceiving.
+ Back in April, YouTuber and
+ AI entrepreneur Theo wrote,
+ I legitimately believe XAI might have a crazy comeback
+ and after testing Grock 4.5
+ he retweeted himself and said, called it
+ Elon Musk would actually later on
+ retweet the video that Theo ended up producing
+ about Grock 4.5 where he had a lot
+ of positive things to say about the model.
+ After asking it to do multiple
+ code-based changes and PRs at the same time
+ Theo said, this is the kind of
+ back-and-forth and complex multi-target tasks
+ that you could make most models do if you try
+ to break them up really carefully and not try to
+ bloat the context. I had no ergonomic issues
+ with 4.5 at all. It was actually really pleasant
+ to work with. Did it find everything Fable
+ found? No. Was its code as thorough
+ as GPT 5.6? No.
+ Was it able to go back and forth with me on
+ big, big, heavy tasks and be pleasant to use
+ while also being very fast and cheap?
+ Yeah. In a lot of ways I see this model
+ Theo concludes as a good alternative to something
+ like Opus 4.8 and it kind of outclasses
+ GLM 5.2. I have no
+ interest in that model anymore aside from it being
+ open weights. But Grock 4.5
+ is a weirdly good default code model.
+ And I think in some ways what you can view
+ Grock 4.5 as, as the first
+ model that self-consciously understands
+ its relationship to the state of the art
+ in the era of more complex model architectures.
+ Elon Musk who is not one for
+ underselling even tweeted at one point
+ in fairness Fable is definitely
+ better than Grock 4.5 but most
+ tasks don't require Fable level capability.
+ And indeed if you look across
+ the early adopters what they're excited
+ about is not 4.5 replacing
+ the top open AI or anthropic model
+ but using it as the model for one of the
+ implementation agents when you have Fable or GPT
+ 5.6 acting as the orchestrator.
+ Now this comes at an extremely
+ important moment. Remember yesterday's
+ entire episode was about
+ what happens in the unique market
+ opportunities that arise if China
+ decides to back off allowing their
+ companies to continue to push state of the art
+ open weight models. For some playing around
+ with 4.5 that question ceases
+ to matter as they're just going to default
+ to that instead of one of those GLM 5.2
+ or Kimmy K models anyway.
+ Stonk Daddy wrote,
+ not sure people fully grasp what the launch
+ of Grock 4.5 means. Enterprises
+ are already clamping down on token spend.
+ Chinese open source models offer
+ strong price and performance and have gained traction
+ but many orgs still avoid them over data
+ sovereignty, compliance, security, and geopolitical
+ risks. Grock 4.5 delivers
+ better than Chinese open source performance
+ at near Chinese open source cost
+ without the stigma of being Chinese
+ open source, western built
+ and enterprise friendly. They are about
+ to suck the oxygen out of the room.
+ And as Stonk points out, oh and surprise
+ cursor is already in enterprises.
+ That Trojan horse already got Grock
+ through the door.
+ Now because we are back to being absolutely spoiled
+ with new models, we also this week
+ got cognition SWE 1.7.
+ Now this is closer to cursor's
+ composer model. Like composer
+ it's built on a Kimmy base, in this case Kimmy K
+ 2.7. They point out
+ that it's slightly better than GLM 5.2
+ and composer 2.5 on the standard benchmarks
+ and almost as good as frontier models
+ but cost only around half to a third
+ as much as those frontier models for the same
+ tasks. Now not as many
+ people have had a chance to play around with SWE 1.7 yet
+ so it's hard to get too many first impressions
+ of its actual performance in the real world.
+ There were two things that I thought were interesting
+ though about the way that the cognition folks were talking
+ about it. First is the implications for
+ the state of research. Cognition founder
+ Silas Alberti wrote,
+ Recently the industry chatter moved from reinforcement
+ learning to pre-training and mid-training.
+ RL is supposed to get diminishing returns
+ because it hits a ceiling that depends on the quality
+ of your pre-train. While that is
+ certainly true, it's an open question
+ how high the ceiling actually is.
+ We wanted to push this to the limit.
+ For Kimmy K 2.7, which has already been heavily
+ post-trained multiple times,
+ it initially seemed like there wasn't much to squeeze.
+ We dealt with fast entropy collapse
+ and many other issues, however, we used this
+ as a challenge to tune our algorithm and data.
+ At some point it suddenly started working
+ and the model, SWE 1.7, magically improved
+ by much more than we expected.
+ It also seems like the ceiling isn't obviously hit
+ yet so we're excited to see how much further
+ we can push it. Cognition's Jeff Wang wrote,
+ We've made some awesome breakthroughs in research,
+ such as multi-region training, self-compaction
+ and efficiency, as well as changing
+ the overall behavior compared to Kimmy K 2.7
+ the base model. And Ben Dixon
+ points out that this is a broader pattern.
+ Application layer companies, he writes,
+ are using their unique access to UX data
+ to fine-tune specialized models that perform
+ specific tasks on par with closed frontier
+ AI models at a higher speed and at a fraction
+ of the price. Cognition's SWE 1.7
+ is the second application layer model that is
+ showing promising results. Cursor's
+ composer series followed the same pattern.
+ Closed frontier AI models are good for exploration.
+ Open LLMs are the engine for
+ scale and production. Now this is
+ a pattern we're seeing more and more and that we've been paying
+ attention closely to. Now
+ the one other thing that I wanted to flag around SWE
+ 1.7 is its speed.
+ JP Zinaware writes,
+ Just tried SWE 1.7 lightning and
+ holy crap it's fast, my eyes can't
+ keep up. Now what makes this more
+ than just a novelty is that this actually
+ has implications once again for the interaction
+ patterns. Last year, Sean Wang,
+ aka SWIX, had a great
+ graph of one of the challenges for AI-enabled
+ coding where things worked great if you were
+ either A, dealing with tasks
+ that needed enough interaction that you were there and
+ engaged, or B on the other end of the spectrum
+ dealing with tasks that were complex enough
+ that you could just delegate them entirely and go away
+ for a while, but that in the middle there
+ were real challenges because there was too much latency
+ to be actually real time but not enough
+ to go away for long making it really uncomfortable.
+ SWE 1.7 seems to be
+ playing in that space but almost
+ challenging the problems based on its speed.
+ Cognition's Nader Dabbitt wrote,
+ Building this way is a new category
+ of DX, a task that used to justify
+ walking away finishes before
+ you've mentally moved on. There's a weird
+ middle mode now. It's technically async
+ but fast enough that you just watch.
+ This is something that I think is going to be
+ super interesting to watch and actually gets
+ at one part of the conversation of the final model
+ that we're going to discuss today, which is GPT-5.6.
+ The early reviews of GPT-5.6
+ continue to come in
+ and we're starting to get more details
+ than just it was good or not. Specifically
+ we're starting to get a lot more about where
+ it excels and how it compares to Fable 5
+ and how we're likely to use it
+ as part of our new, more complex
+ model architectures. How
+ IAI's Clairvaux writes,
+ Things GPT-5.6's soul is
+ significantly better at than other models.
+ Browser use, writing like a human,
+ communicating to a human, shipping
+ usable product, not just code, video
+ editing, the dark horse use case, front
+ end design, though it loves forest
+ green and productive loops.
+ Dan Schipper from every, who are some
+ of the most conscientious writing
+ testers in AI, also agrees
+ that GPT-5.6 is in his words
+ a much better writer than Fable. Dan
+ continues, it consistently one-shots
+ marketing emails that every previous
+ model would fail at. Fable is too
+ verbose and liable to fall into using
+ sentences in its own private language.
+ Lawyer Prins found that 5.6 was very good
+ at work that related to his job as a lawyer.
+ He wrote, it can replace an
+ associate of any level in the specific
+ task of legal research, provided that
+ the entirety of relevant legal authorities
+ are publicly available online. This
+ is a very narrow claim, but this kind of
+ legal research is a very important part of my work
+ as a lawyer. Now part of why Prins
+ prefers open AI models to
+ anthropic models for this type of legal work
+ is that one of his key tests is around
+ search. He tests a model's needle in
+ haystack search capabilities which are obviously
+ very important when you're dealing with the legal
+ field which needs extremely precise information.
+ Now in terms of overall comparisons
+ people were really plumbing for analogies.
+ Dan Shipper again writes
+ GPT-5.6
+ is like a Porsche. Fable is like a warp
+ drive. He said that after testing 5.6
+ internally for about a month that the team
+ at every decided that it was the best combination
+ of power, speed and performance for your day-to-day
+ knowledge work and coding. Fable is a different beast
+ Dan writes, if you need to get across the galaxy
+ use Fable. If you need to get around town
+ using the best available tool for the job
+ use 5.6. In fact
+ Dan wrote, when they lost
+ access to 5.6 as part of the US
+ government's Fable delay, he said he felt
+ like he was back in the Stone Age. Another member
+ of his team, Austin Tedesco, said that
+ going back to 5.5 after having access
+ to 5.6 felt like, quote, trying
+ to shoot a basketball that's twice as heavy as the one
+ I'm used to using. Going into some more details
+ there were a few things that every found
+ which I think are things that you should look out for as you
+ start to test 5.6. The first
+ they said is that speed changes the model.
+ Sol they wrote is the fastest model we
+ trust as a daily driver. A revision
+ costs minutes which makes it easier to discard
+ a weak draft, try a different direction
+ and keep moving while the problem is still in your head.
+ So here we have a very different example
+ than the coding use case that Nader was
+ describing with SWE 1.7 but still
+ an area where the increase in speed
+ actually changes the way that people think about the
+ work. Second they found that Sol
+ finds the context it needs. Give Sol
+ an outcome and access to the project. It
+ reads the relevant files, follows standing instructions,
+ asks useful questions and keeps those
+ choices through long runs. However
+ this does come with a challenge if there are
+ stale instructions, rules written around older
+ models can make it worse. Their
+ final note was that it works best when you
+ plan to steer. Sol they write gets
+ better when the surrounding system supplies sources,
+ examples, style, guidance and a clear outcome.
+ Review its choices and redirect it
+ as the work changes. Ultimately they said
+ we use Fable for the loosest, longest assignments
+ and opus for when we want to see the work
+ more clearly. Sol is what we want beside
+ us for the work that fills the day.
+ This gets to what has been the most popular review
+ so far which came from Arena AIs Peter
+ Gostev who wrote, Fable 5
+ and GPT 5.6 Sol are not easy models
+ to compare. My overall feel is
+ that Fable is a wise owl who is very
+ thoughtful and very well spoken. GPT
+ 5.6 Sol is like a rottweiler
+ who will grab the problem by the throat and not let it
+ go until it's done. In other words, Fable
+ is a fundamentally smarter model
+ even at low reasoning it can be very insightful
+ and writes in a clear, compelling way.
+ GPT 5.6 Sol on the other hand is extremely
+ diligent. I can give it a list of 8 things
+ to do and you will be sure that they will be done.
+ He then goes through a bunch of examples
+ around how the different models work for
+ video editing, computer use, research,
+ writing, UI and app building
+ but concludes, so is GPT 5.6 Sol
+ better than Fable? On pure intelligence
+ no, but man I missed it when
+ I wanted to get things done. It is an
+ insanely capable workhorse that you can give any
+ task to and just expect it to be done.
+ No lectures or you are absolutely right
+ isms, nothing is beneath it, if it takes
+ two days to do some dirty work it will do it.
+ He concludes, it feels like the first time
+ in a while when we have quite different types
+ of frontier intelligences that benchmark
+ sort of similarly but feel very different.
+ If you can, you would probably be better off
+ using both and iteratively finding what
+ you'd use Fable or GPT 5.6 Sol for.
+ And indeed this is Dean Ball's
+ takeaway as well. He writes,
+ I can't remember a time when the leading models
+ were A, so decidedly ahead of everything else
+ and B, so distinct from one another.
+ Ethan Mollick reinforces that first
+ point writing, my big takeaway
+ is that both Sol and Fable represent jumps
+ over previous models and have opened a large gap
+ with the next best AIs. People will have
+ preferences for one or the other, but if you're
+ doing any work where better intelligence matters
+ those two models are your only choices.
+ And yet, rumors suggest
+ that this might not be the case for long.
+ Leo on Twitter at Synthwave
+ who has become one of the leading
+ speakers, writes that GPT 6
+ is slated to launch in about a month
+ which is earlier than expected and possibly
+ even later in July. GPT 5.6
+ he says will be based on a new significantly
+ larger pre-train versus
+ the 4 trillion 5.5 and 5.6
+ spud base. Leo says, quote
+ there is lots of excitement at OpenAI
+ over this new base, which they believe will be
+ much better able to compete with both Fable 5
+ and upcoming 5.1, which
+ is targeting a similar release window.
+ OpenAI initially intended to continue with spud
+ through GPT 6 but decided against it.
+ On the topic of Fable 5.1, Leo
+ continues, it is in the late stages of the
+ pipeline at Anthropic and a release is expected
+ in the coming weeks.
+ Andrew Curran, who has the benefit of not
+ being an anonymous leaker, writes
+ I have also heard some of this independently and I believe
+ the following to be true. GPT 6
+ is the next release from OpenAI.
+ It's their true answer to mythos and it will
+ arrive much sooner than people expect.
+ Model release cadence has been speeding up for a while
+ now. It's possible that GPT 6 even arrives
+ within the next four weeks. When I say
+ arrive, however, it may not mean a general release
+ because of the last couple months or any indication,
+ GPT 6 will almost certainly be held back
+ by the government at least initially.
+ It's a new, much larger pre-train, as Leo says.
+ Mythos changed everything.
+ Everyone is going big, including Elon
+ who has a 10 trillion grock in training.
+ Both OpenAI and Anthropic see capabilities
+ increasing rapidly, with advancement
+ continuing on a new trajectory over the rest
+ of this year and beyond. Both labs are
+ very confident in what they have internally
+ and see nothing above us but air.
+ No ceiling.
+ So friends, even though we had a lot of models
+ to talk about today,
+ buckle in because I don't think that we're done.
+ For now that is going to do it for today's AI Daily Brief.
+ Appreciate you listening or watching as always
+ and until next time, peace.
+ Thank you.
