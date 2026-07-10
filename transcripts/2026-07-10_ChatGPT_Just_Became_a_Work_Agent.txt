@@ -1,0 +1,1013 @@
+ Today on the AI Daily Brief, more new models plus a big harness update from OpenAI.
+ And before that in the headlines, cursor also appears to be developing a harness to go after
+ the larger knowledge work sector.
+ The AI Daily Brief is a daily podcast and video about the most important news and discussions
+ in AI.
+ Alright friends, quick announcements before we dive in.
+ First of all, thank you to today's sponsors KPMG, Rackspace, Blitzy and Airtable.
+ To get an ad-free version of the show, go to patreon.com.ai-dailybrief or you can subscribe
+ on other podcasts.
+ And of course, to learn more about sponsoring the show, head on over to ai-dailybrief.ai-slash-sponsors
+ or send us a note at sponsors.ai-dailybrief.ai.
+ Quite appropriately, given that our main episode is about a big harness update, we kick off
+ our headlines with the news that cursor is planning a general-purpose agent to
+ compete with Claude Cowork.
+ The information reports that work began on the project in April, shortly after
+ cursor signed their deal with SpaceX.
+ The agent is expected to use GROC 4.5 and will be cursor's first project aimed at anyone
+ other than professional coders.
+ Called sand, it's designed to function as a personal assistant performing standard
+ office tasks like dealing with email or working with spreadsheets.
+ It sounds like it could also eventually become a unified platform, with the information's
+ reporting suggesting that the agent will also be functional at AI coding.
+ Sources said the platform was rolled out internally in June, however it's still
+ unclear whether it will get the green light for a public release or when that would
+ happen.
+ Certainly the product suggests that cursor, now a part of SpaceX AI, is looking to
+ grow beyond their traditional user base of software engineers.
+ This makes sense as we'll see a huge theme of all of the announcements today
+ with OpenAI are all about taking what has been working in coding and bringing
+ it to a broader set of knowledge work.
+ Now speaking of what's working with coding and what's not working, OpenAI
+ has captured the zeitgeist and declared that the leading coding benchmark is
+ bunk.
+ In a new report, OpenAI audited SWE Bench Pro and found the benchmark
+ to be sorely lacking.
+ In their testing, they found that 30% of the tasks on the benchmark were
+ broken and are now formally retracting their support of the benchmark.
+ Many of the issues stem from some of the tasks being public, which can
+ distort results by having those specific problems be included in training data.
+ Others had hidden requirements, contradictory instructions, overly
+ strict tests, or incomplete grading criteria.
+ Their conclusion was that SWE Bench Pro, quote, no longer reliably measures
+ frontier coding capability.
+ And to be clear, the shift away from SWE Bench was already well underway.
+ Cursor has been using their own proprietary benchmark for months,
+ while cognition and Databricks also launched their own benchmarks this week.
+ I think we're officially at the point where there's going to be lots of
+ introduction of new benchmarks.
+ Companies are going to present all of them, including I guarantee they will
+ still present SWE Bench Pro and mostly just wait for people to have the
+ vibes that confirm whether the benchmarks are bunk or not.
+ Now staying on OpenAI for a minute, but going to a very different area,
+ the company has published a new statement that explains their approach
+ to government and military partnerships.
+ Announcing their new national security principles, OpenAI writes,
+ We believe democratic societies should be able to use AI to protect
+ people, defend critical infrastructure, deliver public services, and
+ respond to emerging threats.
+ But increasingly capable AI systems must be deployed in ways that
+ reinforce democratic accountability, meaningful human judgment and
+ the rule of law, and strengthen democratic institutions rather than
+ concentrate power.
+ Distilling the principles into a few key points, OpenAI explicitly
+ stated that they will not support the use of their technology for
+ mass domestic surveillance, high stakes decisions, including decisions
+ over the use of force without appropriate human judgment and
+ accountability, or uses that evade legal obligations oversight and
+ accountability.
+ Now these you might recognize are essentially the same as
+ Anthropics red lines.
+ And given that created such chaos with the government, it's not
+ clear what the goal of this document is supposed to be.
+ But I guess at least we have a clear articulation of what they
+ stand for and something to build from in their conversations with
+ the government.
+ Speaking of the overlap between the government and AI,
+ Anthropic has appointed former Fed Chair Ben Bernanke to the
+ board of their long-term benefit trust.
+ Bernanke of course was appointed Fed Chair by the W.
+ Bush administration in 2006 and served until 2014,
+ presiding over the events that led up to and followed the
+ global financial crisis.
+ He has one of the more controversial Fed chairs in
+ recent history with views on him differing depending on whether
+ you think the bank bailouts in 2008 saved the world from a
+ depression or you view them as the original sin that
+ accelerated the well divide in the United States.
+ When Claude was asked to provide an objective viewpoint on
+ Bernanke, it responded that he's generally well regarded
+ but has critics on both the left and the right who view
+ him as quote, emblematic of an unaccountable
+ technology protecting elite interests.
+ So what then is Anthropics long-term benefit trust?
+ In their own words they write,
+ Anthropic is a public benefit corporation meaning the
+ company was created to balance commercial success with
+ generating social and public good.
+ The benefit trust exists to help the company
+ responsibly maintain that balance over the long-term,
+ providing a check on how Anthropic develops and
+ deploys AI.
+ Essentially, this is an independent oversight and
+ advisory board that sits on top of Anthropics normal
+ board of directors.
+ Importantly, the benefit trust has the power to
+ elect or remove one member of the corporate board,
+ which escalates to two and then three according to
+ time and funding based milestones.
+ By next year they will have a majority control
+ over the corporate board, albeit with a shareholder
+ override that requires a super majority vote against
+ the actions of the trust.
+ Unlike normal corporate boards, no one on the
+ board of the trust is allowed to be a shareholder.
+ There is a lot of discourse on this one,
+ especially from folks on FinTwit, but I think
+ Tom Bruni got at the key question that many
+ of us are asking, will he bring token prices
+ to zero like he did with rates?
+ Moving over to the chips world, Meta is heading
+ north for their next big data center project
+ with a $10 billion facility planned in Canada.
+ Meta announced the groundbreaking for the Alberta
+ site on Wednesday with plans to build a total
+ of one gigawatt of capacity over the coming years.
+ Interestingly, community pledges were front
+ and center in the announcement, with Meta
+ planning to contribute $60 million in Canadian
+ dollars to local infrastructure upgrades,
+ including roads and water.
+ On electricity, Meta pledged to pay full
+ infrastructure costs and officials expect
+ local rates to actually decrease as a result
+ of the project.
+ They will also provide direct funding
+ to local nonprofits.
+ In addition, they plan to hire 3,000
+ construction workers at the peak of the
+ build and support 300 ongoing operational
+ jobs.
+ Now, as I continue to scream from my bully
+ pulpit, these sort of community contributions
+ can be on the one hand incredibly valuable
+ to those communities and are a rounding
+ error in these data center budgets,
+ making it one of the easiest potential
+ alignments between hyperscalers and the
+ communities they operate in that they
+ could possibly imagine if they only take
+ the time to actually do it.
+ So it's great to see Meta actually going
+ down that path.
+ Now, the other big implication here is,
+ of course, that Meta's big AI build out
+ is not slowing down.
+ When news broke last month that Meta was
+ planning to sell extra capacity,
+ many drew the implication that they'd
+ wind back on capex.
+ Adding another gigawatts suggests Meta's
+ plans are still ticking along at a rapid
+ pace, and I think when you get to the
+ main episode, you'll kind of start to
+ understand a bit more why.
+ Meanwhile, Meta's in-house chip program
+ is back from the dead and set to end
+ her production in the coming months.
+ According to an internal memo cited by
+ Reuters, Meta is on track to begin
+ producing the first chips in September.
+ The report states that at least one
+ chip design sailed through the testing
+ phase in just six weeks.
+ Meta is working with Broadcom on design
+ and will contract with TSMC for
+ processors and Samsung for memory.
+ Most semiconductor analysts assume this
+ generation of chips would be shelved
+ just like all the others.
+ Meta has been working on their own
+ advanced AI chip since at least
+ 2022, but each iteration hit
+ roadblocks and was never put into
+ full-scale production.
+ This generation had a similar vibe up
+ until now.
+ It was first announced in March,
+ just one month after Meta had
+ canceled the previous generation,
+ with that announcement describing
+ four configurations across the chip
+ family tuned for different inference
+ and training workloads.
+ Then last month, it was reported that
+ Meta had asked Samsung to temporarily
+ pause development on their custom
+ chip set, and many assumed that was
+ the beginning of the end.
+ To the contrary, it now seems that
+ Meta has a finalized design and
+ just needs to wait for some foundry
+ time with their chip making partners.
+ The chips are expected to be
+ installed in Meta's data centers
+ and allow them to cut down on their
+ spending with Nvidia and AMD.
+ Meta also plans to design a new
+ chip every six months beginning
+ next year, which would be
+ significantly faster than the
+ standard industry cadence.
+ The memo viewed by Reuters also
+ reaffirms Meta's plan to scale
+ compute. The company said that
+ they plan to deploy seven gigawatts
+ of capacity this year and double
+ that pace in 2027.
+ So yeah, doesn't seem like we're
+ getting a cutback from Meta any time
+ soon. But again, for why I think
+ we need to end the headlines and
+ move on to the main episode.
+ One of the most important AI
+ questions right now isn't who's
+ using AI.
+ It's who's using it well.
+ KPMG and the University of Texas
+ at Austin just analyzed 1.4
+ million real workplace AI
+ interactions and found something
+ surprising. The highest impact
+ users aren't better prompt
+ engineers. They treat AI like a
+ reasoning partner.
+ They frame problems, guide
+ thinking, iterate and push for
+ better answers.
+ And the good news, these
+ behaviors are teachable at
+ scale. If you're trying to move
+ from AI access to real
+ capability, KPMG's research
+ on sophisticated AI
+ collaboration is worth your time.
+ Learn more at kpmg.com
+ slash us slash sophisticated.
+ That's kpmg.com slash
+ us slash sophisticated.
+ One of the more interesting
+ shifts in enterprise AI right
+ now is how quickly the
+ conversation is moving towards
+ infrastructure and operations.
+ As AI moves into core workflows,
+ regulated data environments and
+ agentic systems, enterprises
+ need governed infrastructure and
+ inference that can operate
+ reliably day to day with
+ clear operational accountability
+ built in from the start.
+ As those systems scale, the
+ operating model increasingly
+ becomes part of the AI strategy
+ itself. Rackspace technology is
+ the operator of the full
+ enterprise AI stack, from agents
+ to infrastructure across private
+ cloud, hybrid cloud and edge
+ environments. Rackspace builds
+ and operates governed AI
+ infrastructure, inference and
+ production AI systems for
+ organizations where sovereignty,
+ compliance and uptime are
+ non-negotiable.
+ Therefore deployed engineers
+ stay embedded beyond deployment
+ to help operationalize and run
+ AI in live environments.
+ To learn more about where
+ enterprise AI runs and
+ outcomes scale, go to
+ rackspace.com.
+ Blitzy is driving over 5x
+ engineering velocity for large
+ scale enterprises.
+ A publicly traded insurance
+ provider leveraged Blitzy to
+ build a bespoke payments
+ processing application, an
+ estimated 13 month project
+ and with Blitzy, the
+ application was completed in
+ live in production in six
+ weeks. A publicly traded
+ vertical SAS provider used
+ Blitzy to extract services
+ from a 500,000 line monolith
+ without disrupting production
+ 21 times faster than their
+ pre-Blitzy estimates.
+ These aren't experiments.
+ This is how the world's most
+ innovative enterprises are
+ shipping software in 2026.
+ You can hear directly about
+ Blitzy from other Fortune 500
+ CTOs on the modern CTO or CIO
+ classified podcasts.
+ To learn more about how
+ Blitzy can impact your SDLC,
+ book a meeting with an AI
+ solutions consultant at
+ Blitzy.com.
+ That's blitzy.com.
+ This episode of the AI Daily
+ Brief is brought to you by
+ HyperAgent, where you run
+ fleets of agents your team
+ can manage together.
+ New users get $1,000 in
+ inference.
+ Forget local agents and chat
+ workflows waiting on your
+ laptop to be prompted.
+ HyperAgent deploys always-on
+ agents in the cloud, doing
+ real work across the tools
+ your team already uses.
+ Marketing's agent turns
+ competitor moves into landing
+ pages.
+ Sales' agent enriches leads,
+ drafts emails, and updates
+ the CRM.
+ Ops' agent chases the paperwork
+ and tracks the budget.
+ Every agent has access to
+ shared context and follows
+ your rules about scope and
+ approvals.
+ It's time you add agents
+ that feel like teammates.
+ Hire yours at HyperAgent
+ built by the team at AirTable.
+ Claim your $1,000 in inference
+ at hyperagent.com
+ slash AI Daily Brief.
+ Welcome back to the AI Daily
+ Brief.
+ This week, obviously,
+ the entire story
+ has been new models.
+ I mean, it has just been
+ a barrage.
+ We've got GPT 5.6,
+ the entire family,
+ which are finally officially
+ out, available for everyone
+ with all the related public
+ release information.
+ But then also the fairly
+ unexpected GROC 4.5,
+ at least unexpected in terms
+ of its apparent performance,
+ as well as a new one,
+ Muse Spark 1.1,
+ out of left field
+ that actually has people
+ talking about meta again.
+ And yet, in a year
+ where people have come to
+ understand just how
+ significant not only
+ the model is, but the
+ harness in which it operates,
+ it is so appropriate
+ that we are also closing out
+ the week,
+ with in some ways
+ the biggest news being
+ big changes to the open AI
+ harness through which
+ you are going to use the model.
+ Open AI has released
+ chat GPT work,
+ and we are going to talk about
+ what that means in first impressions.
+ But first, let's finally catch up
+ on the now fully released
+ GPT 5.6 model family.
+ Now, this is the first time
+ that Open AI has split
+ their model family
+ into a set of classes.
+ In addition to the flagship model soul,
+ GPT 5.6 also has a midsize
+ version in Terra
+ and a small cost-efficient
+ version in Luna.
+ Now, we have started to talk
+ about these models
+ throughout the week,
+ as Open AI gave clearance
+ to people to start talking
+ about their early adopter
+ impressions of it.
+ But we just now,
+ with the official
+ announcements yesterday,
+ got the benchmarks.
+ And interestingly,
+ the benchmark story
+ as it's presented is very
+ different than the way
+ that Open AI has done this
+ in the past.
+ Sam Altman tweeted,
+ obviously the best model
+ we've ever produced,
+ but also one of the best blog posts
+ we've ever produced.
+ And part of that
+ is that instead of just
+ a simple, easy table
+ of a bunch of numbers
+ for their benchmarks,
+ Open AI is now highly focused
+ on charts that show
+ performance per cost.
+ For example,
+ on the agents last exam test,
+ which is long horizon
+ agentic workflows
+ across a number
+ of professional domains,
+ the chart is actually
+ presented in three ways.
+ The score on the y-axis
+ and some other variable
+ on the x-axis,
+ with the premier chart
+ being the API cost.
+ They show the comparison
+ not only to GPT-55,
+ Claude Opus-48
+ and Claude Fable-5
+ in terms of the score,
+ but also in terms
+ of the cost.
+ With these strong emphasis
+ being that not only
+ do the GPT-56 series
+ of models perform better,
+ but they do so
+ at a much reduced cost.
+ Now, you can also vary
+ that chart to be organized
+ by latency
+ or by output tokens used,
+ which is, of course,
+ another measure of efficiency.
+ You see a similar chart
+ presented this way
+ for the artificial analysis
+ coding agent index,
+ again, cost, latency
+ and output tokens.
+ And this is pretty much
+ now the standard
+ for how they present
+ the benchmarks.
+ Sam Altman reinforced
+ this focus
+ with one of his announcement
+ tweets where he said,
+ we have heard enterprises
+ on their concerns
+ about AI costs
+ and 5.6 sole
+ is a huge step forward
+ for dollars per task,
+ as are Terra and Luna.
+ Now, rather than trying
+ to explain all of these
+ different charts
+ on a podcast
+ that many, if not most of you,
+ still consume via audio,
+ the big overview
+ is basically that
+ 5.6 sole on max settings,
+ benchmarks ahead of Opus 48,
+ near or above Fable 5,
+ and most importantly,
+ at a significantly lower
+ cost to each.
+ For the artificial analysis
+ index run, GPT-5.6
+ was a close second
+ to Fable 5,
+ falling short by a single point,
+ but it completed the run
+ at a third of the cost
+ of Fable
+ and was even 40%
+ cheaper than Opus 48.
+ Meanwhile, on the coding
+ agent index, GPT-5.6
+ is the new state of the art,
+ beating Fable 5
+ by three points.
+ In fact, at least
+ on that artificial analysis
+ benchmark, the mid-sized
+ Terra variant performed
+ at the same level as Fable
+ and would, of course,
+ be significantly cheaper
+ as a daily driver coding model
+ if those benchmark results
+ translate to real-world experience.
+ Now, bringing it back
+ to the model that had
+ so much attention
+ in the Fable 5 shutout period,
+ Simon Smith pointed out
+ that 5.6 Luna
+ actually matches GLM 5.2
+ on the Artificial Analysis
+ Intelligence Index
+ and comes in at 43% cheaper.
+ Getting at the idea
+ that we were talking about
+ in our episode
+ a couple of days ago
+ of the new market opportunity
+ for more efficient Western models,
+ Simon continued,
+ I'm glad OpenWeight's models
+ exist because they push
+ Frontier Labs to innovate
+ and release,
+ but I don't think enterprises
+ will wholesale shift
+ to OpenWeight models
+ strictly for cost reasons.
+ I think Frontier Labs
+ will optimize
+ for both intelligence
+ and efficiency,
+ offer models
+ that multiple performance
+ and price points
+ and train their best models
+ to know how and when
+ to use their cheaper models
+ to maximize impact for cost.
+ And that will make
+ for a compelling value proposition
+ that negates the need
+ to shift to OpenWeight models
+ strictly to save money.
+ Now, as I mentioned,
+ since early testers
+ were allowed
+ to break their silence
+ from the beginning of the week,
+ we've been able to cover
+ a number of first impressions
+ over the last couple of shows.
+ And to recap,
+ the big takeaway
+ is that we now have
+ two Frontier models
+ that perform very differently.
+ Broadly speaking,
+ the early consensus
+ is that Fable 5
+ is the big model
+ for massive long-running tasks,
+ especially ones
+ where there can be a lot of autonomy,
+ while GPT 5.6 Sol
+ is a huge upgrade
+ not only as a daily driver,
+ but for large tasks
+ where you want to be more involved
+ in the intermediate decisions.
+ Reinforcing some of the early takes,
+ every CEO Dan Shipper wrote,
+ 5.6 is powerful, fast,
+ half the price of Fable
+ and my default for almost everything.
+ He noted that 5.6
+ is not as good as Fable for coding,
+ but also pointed out
+ that every benchmark
+ for coding is a massive
+ long-running code refactoring task,
+ which Fable is naturally
+ more suited to than 5.6.
+ Fascinatingly on writing,
+ he said that 5.6 is the model
+ that every has liked
+ more than anything else,
+ arguing that it's clear
+ and more concise
+ than anthropic models.
+ And throughout his review,
+ Shipper continuously comments
+ on the speed.
+ Fable is a big,
+ slow, incredibly powerful model,
+ while GPT 5.6 is very fast,
+ making it more of an active collaborator
+ rather than a model
+ you leave running
+ and come back to.
+ In one of the biggest green flags
+ for a lot of you listening,
+ Shipper said that the real leap
+ is around knowledge work.
+ Sol, he wrote,
+ is the first model I've trusted
+ to run whole loops of knowledge work,
+ not just help with individual tasks.
+ It has shifted my job
+ from doing the work
+ to tending the system that does it.
+ Now, probably many of you
+ have spent the last couple of months
+ listening to all of these new conventions
+ like slash goals
+ and discussions of loops,
+ not exactly sure how they relate
+ when you move outside
+ of the coding domain
+ and into knowledge work.
+ And so the fact that Dan and others
+ are starting to experience
+ some of that with 5.6 Sol
+ is pretty notable.
+ Summing up, he wrote,
+ If I really had to put my finger on it,
+ I'd say Fable has way more big model smell.
+ But that means it's a skill in itself
+ to get value out of it
+ and 99% of people are still not there yet.
+ GPT 5.6 is almost as powerful
+ but it's easy to use,
+ fast and relatively cheap.
+ It should give you an early sense
+ of where model work is going.
+ Theo presented his review
+ in the form of a portfolio posting,
+ over the last month
+ I burned over $200,000 in tokens
+ with GPT 5.6 Sol.
+ I built a lot.
+ And if you listen to the way
+ that Theo describes his building process
+ it once again reinforces the idea
+ that whereas Fable is a model
+ that you let it go off on its own
+ to do things,
+ 5.6 is one you interact with.
+ Now overall,
+ the sentiment towards 5.6 Sol
+ is extremely positive
+ and it feels to me like to some extent
+ it's also being the beneficiary of the fact
+ that heading into the Fable 5 ban
+ open AI kind of had all the momentum
+ when it came to the most enfranchised AI users.
+ Codex had increasingly become
+ the default harness that people were looking for
+ and before Fable at least
+ a lot of folks has shifted over
+ from Opus 4.8 to GPT 5.5.
+ Now given that we've been so excited
+ to have Fable 5 back
+ we haven't talked for a while
+ about some of the constraints
+ that were placed on the model
+ when it was announced
+ but certainly for some buyers
+ those concerns haven't gone away.
+ Gurglia Rose tweeted,
+ interesting take on Fable
+ versus GPT 5.6 Sol
+ from a dev at a large
+ and AI bullish company
+ spending lots of money on AI.
+ They told me
+ Anthropic has not changed
+ their data retention policy on Fable
+ meaning they would store our data
+ so we cannot use it.
+ We're going hard on GPT 5.6 Sol as a result.
+ But as I said at the top of this
+ the story of 2026 is not just a model story.
+ In fact, in many ways
+ it is equally if not more a harness story.
+ As we move into the agentic era
+ the systems that we put around our models
+ to allow them to access tools
+ interact with other models
+ spin up sub agents
+ access context, et cetera
+ are every bit as important
+ as the underlying model themselves.
+ It's pretty clear that part of the reason
+ that OpenAI started to let people talk about
+ GPT 5.6 early
+ is that they wanted the emphasis
+ on the official announcement day
+ to be on the harness updates that we got
+ in a new user interface
+ that they call chat GPT work.
+ OpenAI wrote,
+ chat GPT work is an agent
+ that can take action across your apps and files
+ stay with the project for hours if needed
+ and turn a goal into finished work.
+ Now at a surface level
+ this is OpenAI's answer to Claude coworkers
+ but it's also clearly
+ the next step of their super app strategy.
+ This is a new agentic harness
+ that takes the functionality of Codex
+ and extends that approach out to all knowledge work.
+ OpenAI wrote,
+ the best way to learn how to use chat GPT work
+ is to give it tasks you already know well.
+ Analyze a month and budget variants
+ turn source materials into a marketing campaign brief
+ or prepare for a sales meeting.
+ You can follow its progress, answer questions
+ change direction and improve important actions.
+ Now the interface supports everything you would expect
+ it has connectors for all of the typical tools
+ including Notion, Google Drive and Microsoft 365
+ allowing easy access to full work context.
+ It also supports scheduled tasks
+ and functions on a cloud instance
+ so your agents can work
+ even when your laptop is closed.
+ It's configurable for enterprise grade security
+ and access controls
+ as companies are coming to expect
+ from leading edge AI tools.
+ The early testimonials sound pretty compelling
+ Angela Ferrante the head of enterprise at Zapier wrote,
+ used chat GPT work to build a repeatable system
+ for reviewing thousands of leads each month.
+ It traced customer touch points across Zapier CRM,
+ email and other tools
+ found where follow ups broke down
+ and generated a weekly executive dashboard
+ that highlighted missed pipeline
+ and revealed seven figures and potential sales.
+ And really across the entire set of announcement materials
+ the biggest part of the pitch
+ is about taking work patterns in codecs
+ and applying them more generally.
+ Rather than micromanaging small components of tasks
+ open AI is encouraging knowledge workers
+ to define a goal, load context
+ and use chat GPT work
+ to complete large multi step tasks.
+ What's more, they said that their teams
+ have already adapted to this new approach.
+ All of their teams are now using chat GPT work
+ in codecs with open AI writing.
+ In sales chat GPT work turned a discovery conversation
+ into a tailored proof of concept
+ for a mission critical problem within 24 hours
+ a process that normally takes weeks.
+ Chat GPT structure the notes, routed the request
+ to a solutions architect
+ and collaborated with the technical team
+ freeing the lead to focus on the customer
+ and serve as a high value consultative partner.
+ In finance chat GPT work reduced month
+ then close and forecasting from days to hours
+ by helping teams find source data
+ move it into acceler sheets, reconcile it,
+ create slides and verify the results.
+ This lets the finance team spend more time
+ understanding what's changed in the forecast
+ explaining why it changed
+ and advising leaders
+ on what the company should do next.
+ Now when it came to consumer response
+ it was a little bit more muted
+ than I think open AI might have hoped.
+ Peter Yang summed up one set of feelings
+ I think what he wrote,
+ I think that chat GPT work
+ versus codecs thing is confusing.
+ It raises questions like,
+ so developers aren't working
+ and what if I'm using it to plan my vacation?
+ Is that work?
+ I think the whole thing should just be called
+ chat GPT codecs or chat GPT codecs
+ and there should be no tabs or toggles.
+ In my opinion, codecs is not that complicated
+ for a normie to understand and use.
+ You're still chatting except now it can do stuff.
+ The sooner this is all unified the better.
+ Ethan Malik wrote, this is confusing.
+ Claude cowork was a purposefully more secure
+ and slightly weaker alternative to code
+ designed so non coders couldn't cause too much trouble.
+ I got that.
+ But I don't understand what chat GPT work is
+ or what I am gaining or giving up using
+ it versus codecs on work.
+ Now some were even actively worried
+ about the blending of the apps.
+ Dan Shipper again wrote,
+ I was extremely worried about this
+ because I love the codecs app.
+ OpenAI was caught in an interesting position,
+ how to make an agent orchestration app
+ for regular chat GPT consumers, coders
+ and businesses all in one app.
+ They now split the interface between chat GPT work
+ and chat GPT codecs.
+ They're basically the same except work hides code
+ and chat has been demoted to second tier status
+ for quick questions in either one.
+ It's not a big leap but it's not a huge setback either
+ and it remains my favorite
+ of the desktop agent orchestration apps.
+ Still, when you're coming with a big new announcement
+ having the response be the merged app is fine
+ which is what Dan's headline was
+ is not necessarily exactly what you want.
+ I think that there are confusions
+ in the naming conventions
+ and to get a real feel for this
+ it's just gonna take some time
+ for people to actually experience it
+ and figure out what the benefits
+ or the particular challenges are.
+ Now one additional feature
+ that came alongside chat GPT work
+ was their updated sites feature.
+ This basically allows you to turn any knowledge work
+ into a website or web app
+ that you can share with other users inside your company
+ even if they're not using chat GPT
+ which I already did a whole show
+ about how many different knowledge work use cases
+ I think you should be building websites
+ for instead of the traditional artifacts.
+ And so I think that making that easier
+ and integrating better hosting
+ is gonna actually be a pretty significant change
+ in how people output work with chat GPT.
+ Ultimately, all of this is still first impressions.
+ What's clear is that the open AI team
+ is really excited about all of these things
+ and seemingly fairly confident
+ that as users get more reps on
+ with both five six and with the work harness
+ our second and third impressions
+ are going to be even better than our first
+ but for that we will just have to wait and see.
+ Now we knew that the official release of five six was coming
+ and at least 24 hours before open AI
+ started teasing that a new harness was coming as well.
+ What I don't think anyone expected
+ was for Mark Zuckerberg from Meta
+ to tweet for the first time in three years
+ announcing that Meta was also releasing a new model today
+ this time called Muse Spark 1.1.
+ Now the first edition of Muse Spark landed in April
+ without much fanfare
+ but this updated version
+ seems like an entirely different beast.
+ On the benchmarks the model looks competitive
+ with Opus 4.8 and GPT 5.5.
+ It beat both by a significant margin
+ on humanity's last exam
+ which tests web search, tool execution and knowledge.
+ On coding it's in the ballpark,
+ a couple of points behind Opus and 5.5
+ on terminal bench 2.1
+ and between the two rival models on SWE bench pro.
+ On deep SWE which is increasingly important as a standard
+ Muse Spark 1.1 was a little further behind
+ with a score of 53.3%
+ compared to 59 for Opus and 67 for GPT 5.5.
+ Still for Meta who have struggled
+ to produce a viable LLM since Lama 3
+ this is a big improvement.
+ And where the model shows signs of actually
+ leading the pack is on personal agentic tasks.
+ Muse Spark beats both Opus 4.8 and GPT 5.5 on job bench
+ which tests the ability
+ to complete real life professional work.
+ It's state of the art on MCP Atlas
+ which is a toolathon style benchmark
+ that tests the ability to gather information
+ through MCP servers
+ and on deep search QA
+ which is an agentic search benchmark
+ it's slightly behind GPT 5.5
+ and slightly ahead of Opus 4.8.
+ Basically this is a model
+ that has glimmers of frontier performance
+ especially in the context of Meta
+ focusing on more consumer friendly
+ personal assistant style AI.
+ Now we haven't seen a ton of interaction
+ with the model yet
+ but it also doesn't fully appear to be one
+ that just released with no one ever having
+ had a chance to build with it.
+ The team from Julius for example
+ used Muse Spark to build a Minecraft clone
+ inside Julius
+ which he was able to do in about five minutes
+ for 73 cents in tokens.
+ On the VALS AI public LLM evaluation
+ Muse Spark 1.1 landed at number four
+ ahead of both GPT 5.5 and GROC 4.5
+ and as VALS AI pointed out
+ running three times faster than the top three models.
+ Rayon from VALS wrote,
+ wow this model is fast.
+ Across our benchmarks we found it to be
+ one fourth the latency of Opus 4.8
+ and one half the latency of GPT 5.5.
+ I would expect Meta to have incredible web infra
+ but really don't know what witchcraft
+ they're pulling to host the model
+ for such fast inference at high rate limits.
+ Still the biggest thing that Rayon talked about
+ and that was really key to this announcement
+ was the cost.
+ Chubby writes, Meta Muse Spark 1.1
+ is a very good agentic model
+ but above all it is incredibly affordable
+ and cost efficient.
+ For example on Vibecode Bench 1.1
+ it came in fifth overall
+ but the cost to test it was 92 cents
+ compared to for example $5.09 for Opus 4.8
+ and $12.51 for Fable 5.
+ Rayon again from VALS wrote,
+ the model is so cheap I almost don't believe it.
+ In practice we see it's one tenth the cost
+ of both Fable and GPT 5.5.
+ If you thought open source models
+ would compete away margins just wait till you see this.
+ It's somehow cheaper to use Muse Spark 1.1
+ than host your own OS model.
+ Leo really summed up the feeling of many when he wrote,
+ for my second LMAO WTF moment of this week
+ Meta just announced Muse Spark 1.1
+ and it's also a frontier level model
+ competing with Opus 4.8 and GPT 5.5.
+ Zuck and Elon are back.
+ And I think as we zoom out to broader implications
+ every single model this week,
+ GROC 4.5, SWE 1.7 from Cognition,
+ Muse Spark 1.1 and even GPT 5.6
+ had an incredibly strong emphasis
+ on cost and efficiency in its announcement.
+ Even 5.6 which was also competing
+ for the state of the art
+ so much of the emphasis was about its performance
+ in practice and the difference
+ that that was going to make to overall token budgets.
+ What this all means is not only
+ that the AI race has shuffled
+ which it clearly has
+ but we are now officially at the point
+ where the labs themselves realize
+ that they are competing on an entirely different vector
+ than just frontier performance alone.
+ At the beginning of this week
+ XAI, now SpaceX AI and Meta
+ were not functionally in the conversation at all
+ when it came to model selection
+ especially for enterprises.
+ And they are now ending the week
+ back in that conversation.
+ In fact, Semi-analysis even wrote
+ at the simplest level
+ there are three things you need
+ to build a true frontier model
+ data, talent and compute.
+ We believe Meta is the only hyperscaler
+ slash Neolab on track to be world class
+ at all three
+ and therefore has the best chance
+ at catching up with anthropic and open AI.
+ The AI tectonic plates have shifted once again
+ and in this case, we are all the beneficiaries.
+ I am excited to dig more into these models
+ over the weekend and in the coming weeks.
+ For now though, that is going to do it
+ for today's AI Daily Brief.
+ Appreciate you listening or watching as always
+ until next time.
+ Peace.
