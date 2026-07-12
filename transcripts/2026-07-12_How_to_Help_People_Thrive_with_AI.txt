@@ -1,0 +1,664 @@
+ Today on the AI Daily Brief, how to help people thrive with AI.
+ The AI Daily Brief is a daily podcast and video about the most important news and discussions
+ in AI.
+ All right friends, quick announcements before we dive in.
+ First of all, thank you to today's sponsors, robots and pencils, Blitzy, Section and Air
+ Table.
+ To get an ad-free version of the show, go to patreon.com.ai-daily-brief or you can
+ subscribe on Apple Podcasts.
+ To learn more about sponsoring the show, send us a note at sponsors.ai-daily-brief.ai.
+ The big theme of this week has been models, models, models and more models.
+ And yet, all the models in the world aren't going to help people learn how to get value
+ out of AI.
+ Yes, model improvements can deal with fail cases from previous models and open up new
+ opportunities, but if people aren't supported in learning how to use them, it's kind
+ of all for naught.
+ And that certainly seems to be what today's sponsors section found with their most
+ recent AI proficiency report.
+ The story the report tells is one that will be very familiar for many of you guys who
+ work inside big companies.
+ Their first key finding they summed up, agents are here, agentic readiness is not.
+ While 69% of workers they surveyed reported that their organization had taken some action
+ on AI agents, only 16% actually use an agentic tool at work and less than 10% can define
+ an AI agent in their own words.
+ This isn't surprising when you find out that only 30% of employees at organizations
+ with AI agents have actually received agentic training.
+ Now, this study is the latest to show the sort of detail, but as far from the only one
+ out there telling this story, where we're going to end today is some ideas and
+ examples of how to help people thrive more with AI.
+ But before we do that, since this is a weekend big think slash long reads type
+ of episode, I actually want to read some excerpts of this recent long form
+ piece in the Atlantic by David Brooks called The People Who Will Thrive in the
+ AI Age.
+ Brooks argues that what will differentiate people is not how smart they are,
+ but instead their relationship to mental effort.
+ Brooks writes, remember when AI was going to take away our jobs and leave
+ humans with nothing to do?
+ So far, that doesn't seem to be happening.
+ Researchers from ActiveTrack analyzed the digital activity of more than 10,000
+ workers and found that when people adopted AI, their work life became more
+ intense, not less.
+ The time that these early adopters spent on email messaging and chat apps
+ their use of business software rose by 94%.
+ Researchers from UC Berkeley's Haas School of Business found that when
+ using AI, workers started taking on tasks that they had previously
+ outsourced, because activities such as coding and engineering became
+ easier to do.
+ They squeezed in work bursts in the evening on weekends and waiting rooms
+ and wherever else they had a spare moment and AI was handy.
+ They also did a lot more multitasking, supervising a bunch of bots,
+ doing things simultaneously.
+ The general pattern that the research points to is that many people don't
+ use the time they save using AI to do less.
+ They use the time to take on new tasks.
+ AI also seems to shift workers' expectations and their boss's
+ expectations about how much they should accomplish in a day.
+ Every hour feels more crowded, but also more frazzled.
+ The ActiveTrack researchers found that the time people spent
+ on focused uninterrupted work fell by 9%.
+ There's even a name for this mental state, AI brain fry.
+ Now taking a pause from Brooks' piece for a minute,
+ there is a lot of this feeling going around.
+ Majority founder David Holes recently tweeted,
+ my friends are all feeling extremely productive
+ and also extremely drained with the latest coding models.
+ This makes me feel like something is wrong
+ and also that there might be a big opportunity.
+ Does anyone have any strategies they use
+ to make it feel better day to day?
+ This is also something I've talked about a lot.
+ A couple months ago in an episode,
+ I introduced the idea of the infinite backlog,
+ basically this never-ending list of work
+ that ensures that there is always a next thing to do.
+ Now in the pre-AI world, while the list was never ending,
+ there were reasonable stopping points on that list.
+ What changed with AI and agent specifically
+ is that now that you can effectively
+ duplicate yourself through agents,
+ it feels as though there should never be any downtime in work.
+ Agents don't need weekends, they don't need sleep.
+ So can't they be taking
+ on that infinite backlog constantly?
+ Of course, in reality, the limits have just shifted
+ from how much we can do
+ to how much planning and oversight we can support.
+ In any case, back to Brooks, he writes,
+ a guiding principle of the emerging AI age is this,
+ when intelligence is plentiful, volition is valuable.
+ The people who are going to make a difference
+ are not the ones who seek relaxation
+ and passively use AI to work less.
+ They are the ones who will seek improvement
+ and actively wrestle with AI
+ to develop their own mental capabilities
+ and accomplish more.
+ In other words, what will differentiate people
+ is not how smart they are,
+ but their relationship to mental effort.
+ Right now, some people have what psychologists call
+ a high need for cognition.
+ They enjoy thinking hard.
+ These are the people who enjoy
+ playing difficult games and reading dense books.
+ On the other end of the spectrum,
+ there are the cognitive misers,
+ the people who find it unpleasant to think hard
+ and take any opportunity not to do it.
+ In the middle are the people
+ who have a medium need for cognition.
+ They will put in the effort
+ when they really care about something,
+ but they don't intrinsically enjoy it.
+ Need for cognition correlates with intelligence
+ but is not the same thing.
+ We all know a lot of really smart people
+ who don't like to work hard.
+ And this leads Brooks to start to identify
+ a number of different archetypes
+ for people who will have different experiences with AI.
+ The first category he calls productive passengers.
+ These are the folks who, as he describes it,
+ have a low need for cognition
+ and who because of that
+ will try to find ways to use AI to do less.
+ Now, this does not mean that AI won't be valuable for them.
+ In fact, it will be valuable for them exactly because
+ it makes tasks easy enough
+ that they can be more productive.
+ The challenge, writes Brooks,
+ is that AI might actually diminish their capabilities
+ because of how easy it makes tasks.
+ He points to research from the MIT Media Lab
+ that found people's brain connectivity
+ declines as much as 55%
+ when they are using chat GBT
+ compared to when they are not using it
+ to perform similar tasks.
+ And another study from Possibility Sciences
+ which found that gamma wave activity,
+ a sign of cognitive effort,
+ dropped by roughly 40% when people were using AI.
+ And in his estimation, concerningly,
+ this reduction in cognitive activity
+ he thinks will have predictable effects
+ on people's thinking skills,
+ i.e. it will make them worse at critical thinking.
+ The second category of people that Brooks talks about
+ are the reluctant optimizers.
+ These he describes as people
+ with a medium need for cognition
+ who understand that AI might hollow them out.
+ They will resolve earnestly
+ and with good intentions, he says,
+ to not let themselves fall victim.
+ But in the crowded and stressful rush of everyday life
+ they will get sucked in,
+ their resolve will fail
+ and they'll become over-reliant on the bots.
+ And the problem he suggests
+ is around the relationship to effort.
+ He writes,
+ The core problem with optimization, Brooks writes,
+ is that it will change people's attitude
+ towards effort itself.
+ Chris Seibin is the head of school at Rivendell,
+ a small private school in Northern Virginia.
+ One day he showed his students a film
+ that took more than 200 artists
+ more than five years to make.
+ The students were baffled.
+ Why do that?
+ As one student put it,
+ AI could have done it in five minutes.
+ Sibin called this the industrialization of detachment.
+ He argued Brooks writes
+ that a student who has wrestled with a hard text
+ revised an argument under pressure
+ and failed and tried again is more than informed.
+ He is more solid.
+ The third category Brooks calls the mental marathoners.
+ And in fact, he uses marathon runners
+ as a comparison point.
+ The automobile, Brooks writes,
+ is a perfectly good technology for traveling 26.2 miles.
+ There is no practical reason
+ that any person should train themselves to run the distance.
+ But some people do.
+ They want to put in the effort
+ because they want to accomplish things.
+ They want to expand their capacities.
+ High need for cognition,
+ people are like this when it comes to thinking.
+ In the age of AI, Brooks writes,
+ I suspect that the mental marathoners
+ are going to work really hard to resist AI entropy.
+ They're going to feel a strong desire to be original.
+ Mental marathoners are going to want to produce work
+ that feels personal, that reflects their unique self.
+ They're going to want to find ways to use AI
+ to increase their agency rather than diminish it.
+ Now, so far the essay has been fairly bleak.
+ But as Brooks rightly points out,
+ while I've been treating the need for cognition
+ as some sort of ingrained trait,
+ and although willpower has some hereditary basis,
+ it is also extremely sensitive to context.
+ In other words, he writes,
+ if AI has a tendency to undermine volition,
+ humans can reform institutions to help build it up.
+ He meditates on how the education system might change
+ to shift the orientation from rote memorization
+ and the types of functional outputs it has now
+ to instead focus on things like volition.
+ In other words, he writes,
+ what really matters is not brainpower,
+ but the willingness to run the mental marathons
+ that produce high quality results.
+ The crucial task he writes is to cultivate people's desire
+ to seek out cognitive complexity.
+ He ends on an optimistic note.
+ If we can help people learn to want more or hunger more,
+ they'll be willing to undertake the mental effort
+ to do hard things,
+ and will avoid the cognitive polarization
+ that is staring us in the face.
+ If we can educate people to be clear and wholehearted
+ about what they truly love,
+ then AI will do the calculating and the synthesizing,
+ but humans will still define what matters,
+ what is worth exploring,
+ what missions we go on and where we end up.
+ That would produce a bot-filled society
+ in which human dignity is preserved
+ and perhaps even enhanced.
+ I cover the capability gap
+ between AI potential and AI reality every day on the show.
+ Most companies are still figuring out how to start.
+ Robots and Pencils is already launching and scaling,
+ a genetic and generative AI in production
+ at large enterprises in weeks.
+ AWS Advanced Tier pattern partner
+ more than doubled in a year,
+ and they're hiring 50 open roles.
+ If you're someone who knows this moment is different,
+ who wants to be inside it, not watching it,
+ this is worth a look.
+ At Robots and Pencils, the best ideas win
+ and the team is purposefully kept super high quality.
+ This is the kind of place you look back on
+ as the best decision you ever made.
+ Take a look at robotsandpencils.com slash careers.
+ Weekends are for vibe coding.
+ It has never been easier to bring a passion project to life,
+ so go ahead and fire up your favorite vibe coding tool.
+ But Monday is coming,
+ and before you know it,
+ you'll be staring down a maze of microservices,
+ a legacy cobalt system from the 1970s,
+ and an engineering roadmap
+ that will exist well past your retirement party.
+ That's why you need Blitzy,
+ the first autonomous software development platform
+ designed for enterprise scale code bases.
+ Deploy the beginning of every sprint
+ and tackle your roadmap 500% faster.
+ Blitzy's agents ingest your entire code base,
+ plan the work,
+ and deliver over 80% autonomously.
+ Validated end-to-end tested premium quality code
+ at the speed of compute,
+ months of engineering compressed into days.
+ Vibe code your passion projects on the weekend,
+ bring Blitzy to work on Monday.
+ CY Fortune 500s trust Blitzy
+ for the code that matters at blitzy.com.
+ That's blitzy.com.
+ Here's a harsh truth.
+ Your company is probably spending thousands
+ or millions of dollars on AI tools
+ that are being massively underutilized.
+ Half of companies have AI tools,
+ but only 12% use them for business value.
+ Most employees are still using AI
+ to summarize meeting notes.
+ If you're the one responsible for AI adoption
+ at your company, you need Section.
+ Section is a platform that helps you manage AI transformation
+ across your entire organization.
+ It coaches employees on real use cases,
+ tracks who's using AI for business impact,
+ and shows you exactly where AI is
+ and isn't creating value.
+ The result, you go from rolling out tools
+ to driving measurable AI value.
+ Your employees move from meeting summaries
+ to solving actual business problems,
+ and you can prove the ROI.
+ Stop guessing if your AI investment is working.
+ Check out Section at sectionai.com.
+ That's S-E-C-T-I-O-N-A-I.com.
+ This episode of the AI Daily Brief
+ is brought to you by HyperAgent,
+ where you run fleets of agents
+ your team can manage together.
+ New users get $1,000 in inference.
+ Forget local agents and chat workflows
+ waiting on your laptop to be prompted.
+ HyperAgent deploys always-on agents in the cloud,
+ doing real work across the tools
+ your team already uses.
+ Marketing's agent turns competitor
+ moves into landing pages.
+ Sales' agent enriches leads, drafts emails,
+ and updates the CRM.
+ Ops' agent chases the paperwork
+ and tracks the budget.
+ Every agent has access to shared context
+ and follows your rules about scope and approvals.
+ It's time you add agents that feel like teammates.
+ Hire yours at HyperAgent
+ built by the team at Airtable.
+ Claim your $1,000 in inference
+ at hyperagent.com.ai Daily Brief.
+ So where I want to take the conversation
+ is not so much about schools
+ and how they can change,
+ although I agree wholeheartedly
+ that the entire core goal of education needs to shift.
+ What I'm interested in
+ is how to improve people's relationship
+ with AI in the here and now.
+ Now, there is one section in Brooke's piece
+ where he talks about some of the ways
+ that those mental marathoners use AI well
+ without surrendering their cognitive agency.
+ A couple of the tips and things that people have found
+ include things like asking for AI
+ not to produce your thinking
+ but to challenge it
+ once you've already come up
+ with your own analysis and conclusions.
+ Another suggestion is to make sharp distinctions
+ between rote work and creative work.
+ In other words, to let AI write functional emails
+ but not to let it write essays or memos.
+ I think though that Brooks
+ is missing the biggest opportunity here
+ which is very simply put
+ to not just use AI for things you can already do
+ but to use AI for things you can't do.
+ Brooks, rather unhelpfully I think
+ suggests that we shame people
+ who overly rely on AI for writing.
+ I don't know man,
+ I haven't turned over my email writing to AI
+ but do we really think
+ that most of the corporate communications
+ that were responsible for writing
+ involve within them some paragon of virtue of the effort
+ to discuss the results of the latest meeting?
+ I think we need to better distinguish
+ between the value of different types of work
+ and not be so concerned in many cases
+ about the work that AI can take off our plates.
+ But more than that
+ the people who I find
+ whose brains are not atrophying because of AI
+ but are in fact lighting up with new possibilities
+ are those who recognize
+ that for as useful as the efficiency side of AI can be
+ in getting that type of rote work off their plate
+ the real power
+ and in fact the exciting thing
+ is in doing things that weren't possible before.
+ You know it's not easy even right now
+ figuring out how if you are not a coder by background
+ and not particularly technical
+ how to build an agent that can do things for you
+ doing so involves a lot of humility
+ of asking AI how to do something
+ and then when it tells you how
+ screenshotting what it said and asking another AI
+ what the heck those words mean
+ of trying things coming up against an error
+ and then having to figure out what that error means
+ of feeling the power of releasing something
+ that you never could have built before
+ only to have it crumble on the first touch
+ with other people and to feel the pang in the race
+ as you try to fix it before anyone else shows up.
+ Over time the things that we know how to do become easy
+ and mentally elasticity just like physical workouts
+ comes from doing things that are uncomfortable
+ and that we haven't done before
+ the point is to be not good at things
+ but to do them anyways until we are good at them
+ and then to run the cycle back all again.
+ AI hasn't changed that
+ but for the successful AI users
+ it's changed the level of ambition
+ around those new things that they might go try next.
+ And I'm sure most of you listening are either one
+ the person among your group of friends
+ and colleagues and family who uses AI like that
+ or alternatively the person who is trying
+ to use AI like that.
+ And whether it's you or people close to you
+ or the future you that you're working to be
+ the people who treat AI as this opportunity technology
+ to accomplish things that weren't possible before
+ to stretch themselves in other words
+ and stretch their capabilities are in fact
+ the key pillar upon which the organizational redevelopment
+ around AI will necessarily be built.
+ The Wall Street Journal CIO Journal
+ recently wrote an article about AI champions
+ IE the quote AI super fans companies count on
+ to convert the skeptics.
+ The article argues that a large part of the increase
+ in AI usage and the fighting of skepticism
+ from non users is relying on this category
+ of people inside organizations.
+ The journal writes on the ground champions
+ are playing a key role in those increases
+ through these programs workers volunteer
+ to receive early access to new tools
+ special training and opportunities
+ to present to senior executives
+ in exchange they're asked to promote
+ AI adoption to their colleagues
+ and field questions through both formal meetings
+ and informal conversations.
+ They give the example of a law firm
+ who has seen significant increases
+ in the way that their employees use AI
+ and are now formalizing a program
+ around their 60 some champions
+ on how to promote AI more effectively
+ and track the success of them to do so.
+ Now what this article gets right
+ is to identify this key role
+ but where it misses a little bit
+ is the idea that AI champions
+ are effectively just internal PR agents.
+ Yes it is useful to have people
+ who are willing to have Frank one-on-one
+ conversations about AI
+ and answer challenges and skepticism.
+ The proof is in the pudding
+ and the real value of champions
+ is not in telling people how good AI is
+ it's in showing them what they could actually
+ be doing if they tried.
+ One of my predictions coming into 2026
+ was that we would start to see a role
+ that I loosely called
+ internally deployed vibe coders.
+ Obviously there is a huge trend
+ towards forward deployed engineers
+ where companies who are provisioning AI
+ are also placing engineers inside the organization
+ to embed and help those organizations
+ better integrate the technology
+ and my argument around internally deployed vibe coders
+ was basically an extension
+ of these types of champions programs
+ where people who are increasingly using
+ the new capabilities of AI
+ and specifically agents
+ including the coding and building
+ capabilities of AI agents
+ to pair and partner with business functions
+ in ways that could help those business functions
+ start to figure out
+ how that new capability set
+ could actually change how they work.
+ In other words I argued
+ these would not be folks
+ who are helping people figure out
+ how to make their current work
+ happen 20% faster.
+ It would be people who would pair
+ to help business functions
+ figure out how to fundamentally change
+ not only how they do what they do
+ but even in some cases what they do.
+ And I wanted to end on a case study
+ of one place where some version
+ of this seems to be happening.
+ Uber CTO Praveen Nepali recently tweeted
+ agentic AI adoption is on fire at Uber
+ and it's changing the way we build
+ not just in engineering
+ but across the entire company.
+ Today 99% of our engineers use AI tools.
+ More than 70% of pull requests
+ are attributed to local or cloud agents
+ and our engineers have built 2,500 plus agent skills
+ across the software development life cycle.
+ Those numbers are exciting
+ but they led us to a much bigger question
+ how do we bring agentic AI beyond engineering?
+ Finance, legal operations, marketing,
+ customer support, HR procurement.
+ These functions run on complex workflows
+ that are often manual, highly nuanced
+ and spread across dozens of systems.
+ You can't automate them effectively
+ by looking at process diagrams or documentation.
+ You have to understand
+ how the work actually gets done.
+ So we created something called agentic pods.
+ The idea is simple.
+ We handpicked around 30
+ of our most AI proficient engineers
+ people with deep knowledge of Uber systems
+ and paired each of them with a domain expert
+ from a business function.
+ Then we gave every pod just two weeks.
+ Days one and two, shadow the expert,
+ observe every step, document workflows,
+ ask questions, build intuition.
+ Day three, prioritize opportunities based on scale,
+ repetition, business impact and data availability.
+ Days four to five, build a working agent
+ alongside the person doing the job.
+ Days six to nine, validate with several others
+ performing the same work.
+ Does it generalize?
+ Does it actually make their job better?
+ Day 10, ship.
+ In just the past two months
+ we've run 16 agentic pods
+ across 16 different business functions.
+ Capital allocation across 150 cities
+ from 15 hours to 30 minutes.
+ Financial pacing reports from two days to 10 minutes.
+ Marketing web quality assurance
+ from two weeks to 50 minutes.
+ Support workflow creation,
+ 9,000 manual workflows to self-service automation.
+ The productivity gains he writes are impressive
+ but what surprised us most wasn't the speed.
+ It was how quickly engineers embedded
+ in unfamiliar domains uncovered opportunities
+ that had been hiding in plain sight.
+ The biggest wins rarely come from automating one task.
+ They come from rethinking an entire workflow.
+ Once you redesign the workflow around AI
+ you often eliminate handoffs,
+ remove unnecessary approvals,
+ replace legacy tooling, reduce vendor spend
+ and dramatically accelerate decision-making.
+ The workflow becomes the unit of automation
+ not the individual task.
+ The most impactful agent skills cut across teams
+ orgs functions tools and systems.
+ The biggest lesson, the best AI opportunities
+ are rarely visible from the outside.
+ You discover them by sitting next to the people
+ doing the work, understanding every friction point
+ and building with them not for them.
+ We're now forming a dedicated team
+ to scale this further and go deeper.
+ They'll deeply understand the work,
+ redesign it from the ground up
+ and use AI to fundamentally change
+ how the business operates.
+ Now I think this is super cool
+ and is a type of program that others
+ could imitate almost whole cloth fairly right away.
+ But what I'm interested in
+ is not just the two week results.
+ I think inherently you're going to see
+ these types of low hanging fruit productivity
+ use cases surface and that's great.
+ Organizations should get through that
+ as fast as they possibly can.
+ The question then becomes
+ how they reuse those gains.
+ And my instinct is that while Praveen here
+ is talking mostly about a flow
+ where the engineer figures out what to do
+ based on their close work with the business expert.
+ I think if you start to institutionalize
+ this sort of interaction pattern
+ between engineering and technical thinking
+ and business performers,
+ the real benefits wouldn't be
+ in the course of those two weeks.
+ They'd be over the course of several months
+ where the main locus of change
+ would shift from the engineers
+ doing that low hanging optimization
+ to the business people themselves
+ who influenced by the type of agent
+ working that they were now a part of
+ would start to think differently at core levels
+ about the broader expanse of the work themselves.
+ In other words, while the engineers
+ might help the financial pacing reports
+ move from two days to 10 minutes,
+ it is in many cases going to be the business folks
+ newly influenced by these agent techniques
+ and maybe even building and working
+ with some agents themselves
+ who figure out the best way to spend
+ the other one day 23 hours and 50 minutes.
+ And in many if not most cases
+ that won't be doing more of the same work,
+ it will likely be doing new work
+ orthogonal work,
+ work that was always dreamed of
+ and ever possible before.
+ And I believe it will be in fact
+ those new things that are uncovered,
+ the output not of the productivity itself
+ but the reinvestment of the gains of the productivity
+ that really changes the business.
+ Still, this is the sort of experimentation
+ that is going to help more people
+ and more organizations thrive in this era of AI.
+ This is the type of collaboration
+ that is going to not make
+ late and cognitive relationships with effort
+ be the only factor determining who thrives with AI.
+ Brooks gives lip service to the idea
+ that those intrinsic levels of motivation
+ are not necessarily fixed.
+ But you can almost tell
+ and sorry to David if I'm misinterpreting
+ but it feels to me like you can almost tell
+ that he doesn't really believe it.
+ He's giving a nice spin on things
+ to end with some optimism
+ but it's clear he basically thinks
+ that the marathoners are the only ones
+ who survived this transition.
+ If that is his belief, I disagree.
+ I think that in most cases
+ in both education and in work
+ we haven't really asked people for much
+ for a very long time.
+ We haven't stretched them.
+ We haven't challenged them.
+ We haven't incentivized them to be challenged.
+ We give them discrete buckets of tasks
+ often to be done for nearly inscrutable reasons
+ and tell them success is doing those tasks
+ at the time that they have allotted.
+ That might be fine for corporate functioning
+ but it certainly doesn't maximize
+ people's true potential.
+ And I think if we do AI well
+ by which I mean actually supporting it
+ we will find far more potential
+ in people to be maximized
+ than most people realize is there.
+ Anyway, something to chew on
+ for the rest of this weekend
+ but for now that is gonna do it
+ for today's AI Daily Brief.
+ Appreciate you listening or watching
+ as always and until next time, peace.
