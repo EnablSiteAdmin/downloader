@@ -1,0 +1,636 @@
+ Today on the AI Daily Brief, AI Optimism vs AI Pessimism, the AI Daily Brief is a daily
+ podcast and video about the most important news and discussions in AI.
+ Alright friends, quick announcements before we dive in.
+ First of all, thank you to today's sponsors, KPMG, Airtable, Blitzy and Retool.
+ To get an ad-free version of the show, go to patreon.com.ai-dailybrief or you can subscribe
+ on Apple Podcasts.
+ And to learn more about sponsoring the show, send us a note at sponsors.ai-dailybrief.ai.
+ Today we are checking in on the state of the discourse around AI risk, and more broadly
+ thinking about AI Optimism vs AI Pessimism.
+ Now in that context, if I told you that someone had produced a commercial about AI
+ where the first few images are smash cuts of a burning building, a set of gravestones
+ and mass surveillance, plus a bunch of people being stressed out because they lost their
+ jobs and some homeless people, you might guess that that was a political ad by some
+ anti-AI group, right?
+ But in fact, it is not.
+ Instead, it's the first set of images from a new ad from Anthropic.
+ Now the theme of the campaign is the idea of there being hope in hard questions.
+ That's their phrase.
+ And so what the ad actually is, is a set of very hard questions about AI taking
+ our jobs, and whether or not AI can be trusted, that's where that visceral negative
+ imagery comes into the beginning, moving to a set of more optimistic or positive
+ questions.
+ Like, could AI help me build more connections in the community?
+ And could AI help more people feel understood?
+ Now on the one hand I will say that I understand what the goal of this content
+ asset is.
+ It's to try to meet people where Anthropic imagines they are and acknowledge the
+ hard stuff before pushing on into the good stuff.
+ And yet in practice, I think it is spectacularly tone deaf and completely
+ fails to acknowledge the way that people actually receive media.
+ It is a perpetuation of this long-term fetish that AI companies have had with
+ quote-unquote acknowledging all the bad sides and the risks, rather than just
+ selling the positive vision and blame it on the tension spans or anything
+ else.
+ I think most people who see this aren't going to make it past the first few
+ seconds where it's all burning buildings and gravestones.
+ Now I want to be clear, others were in disbelief as well.
+ Sam Altman, who yesterday seemed to wake up and choose violence on
+ Twitter, retweeted the ad and said, I thought this was satire.
+ And I thought this was an interesting jumping off point for a larger
+ conversation about how some of the AI societal concern discourse is
+ evolving.
+ Because over the last week or so, we've actually gotten a couple
+ different examples that show what I think is a more positive
+ direction in the practicality of that discourse.
+ The first example of this is a new petition on the AI economy that
+ was signed by 16 Nobel laureates.
+ Now if you've been paying attention for a while, you'll know that
+ petitions calling for drastic AI policy change don't necessarily
+ have the best track record.
+ Maybe the best known was back in March of 2023 when the Future
+ of Life Institute issued their AI pause open letter, which called
+ for an immediate six-month global pause and AI training for models
+ more powerful than GPT-4.
+ If the AI labs wouldn't voluntarily commit, the letter demanded
+ that governments step in.
+ The letter was deeply informed by the AI safety movement and concerns
+ of ex-risk, i.e. the risk of extinction, and loomed in the
+ regulatory conversation over the following year.
+ Now part of the reason that it didn't have all that much
+ resonance is that the risks that they were talking about were so
+ clearly disconnected from the state of the technology at that
+ GPT-4 moment that for most casual observers, the response
+ didn't really seem connected to the state of the moment.
+ Now ultimately, nothing much came of the AI pause movement
+ other than a group of dedicated adherents that carry the
+ message forward.
+ This resulted in entirely grounded and realistic works
+ like the book If Anyone Builds It, Everyone Dies, released
+ last year.
+ Another effort to stymie AI development sprang up earlier
+ this year, again led by the Future of Life Institute.
+ This time the petition was called the Pro-Human AI Declaration
+ and focused on guidelines for ensuring that AI development
+ was human-focused.
+ It featured a string of restrictions around the
+ well-being of children, limits to the data center build-out,
+ and the preservation of human agency and liberty.
+ The most notable part of this effort was the broad
+ cross-section of signatories.
+ Both Steve Bannon and former Bernie Sanders staffers found
+ themselves in a secret meeting to hash out the details
+ of their demands, ultimately signing up for a common cause.
+ Now there are a number of big issues with these types
+ of petitions.
+ One is that the entire premise of an open letter signed
+ by a group of so-called experts could not be more out
+ of sync with the tenor of this moment.
+ Now I'm not sure that open letters have ever been
+ a particularly potent political force,
+ but the idea of a closed door meeting with a group
+ of experts, even ones that represent a wide cross-section
+ of politics, being against something,
+ is almost as scary and important to most
+ as a closed door meeting of a group of experts
+ across a wide political spectrum being for something.
+ Now another issue with these petitions has been
+ their lack of support within the AI industry itself.
+ They've been presented as having Nobel laureates
+ and AI experts as signatories,
+ but when you take a closer look, the Nobel laureates
+ are usually basically just Jeffrey Hinton,
+ an early pioneer of AI research who has become
+ one of the leading voices of AI doomerism in this era,
+ and the so-called AI experts are typically
+ the group of internet bloggers who have made a career
+ out of spinning science fiction into prophecies of AI doom.
+ More than that, the arguments usually aren't
+ meaningfully connected to the actual state of AI technology.
+ In other words, it's not that the concept of AI
+ having some catastrophic possibility
+ is completely out of the question for most people.
+ It's that having the conversations start
+ from a place that is completely unmoored from reality
+ does no one any favors.
+ And that's what makes this new letter somewhat different.
+ Produced by the Stanford Digital Economy Lab,
+ this petition is solely focused on the economic impact
+ of AI that is beginning to unfold.
+ It's titled, We Must Act Now,
+ a statement on AI's transformation of the economy
+ and calls for urgent preparations
+ for the economic impact of radically more powerful AI.
+ The statement warns that AI could drive
+ an economic transformation larger than
+ the Industrial Revolution on a vastly shorter timeline
+ and urges economists, policymakers,
+ and technology leaders to prepare.
+ The effort was led by Eric Brinkelson,
+ a Stanford professor and director
+ of the Digital Economy Lab.
+ We featured Eric's work on the show
+ multiple times in the past,
+ and while it can be alarmist,
+ it is as opposed to many of the things
+ that I've just been critiquing
+ always grounded in fact in reasonable analysis.
+ Introducing the new statement, Brinkelson wrote,
+ AI capabilities are advancing far faster
+ than our understanding of the economic implications.
+ In that gap lie the greatest opportunities of our era.
+ We must act now to guide AI to compliment humans
+ rather than simply imitate them
+ and to generate prosperity for the many,
+ not just the few.
+ Michael Spence is one of the Nobel laureates
+ supporting the statement.
+ Now a professor at New York University
+ Spence won the 2001 Nobel Prize in Economics
+ for his 1973 work on markets with asymmetric information
+ leading to the theory of job market signaling.
+ Discussing the AI statement, Spence wrote,
+ the scale, scope, and speed of the advances in AI
+ combined with a high level of uncertainty
+ about the magnitude and timing
+ of the impacts across many parts of the economy
+ call for an all hands on deck approach
+ to steering AI in beneficial directions.
+ Now when you look at the signatories,
+ some of them are actually folks in the AI industry
+ who are building the technology,
+ not just commenting on it.
+ And part of the reason that this statement
+ may be finding a little bit more resonance
+ is that it is not prescriptive in quite the same way.
+ It's not saying AI is moving fast,
+ so we have to do X, Y, and Z.
+ It's saying AI is moving fast,
+ so we have to talk about what we should do.
+ In fact, let's just read the full statement
+ because it's not very long at all.
+ The statement reads,
+ one, AI may become radically more powerful
+ over the next 10 years.
+ Notice the use of may,
+ an inherently intellectually humble word.
+ Two, this could drive an unprecedented transformation
+ larger than the industrial revolution
+ but unfolding over a vastly shorter timeframe.
+ It could, and there's that humility again,
+ bring risks including large scale job displacement
+ as well as opportunities,
+ such as major gains and living standards.
+ Three, economists, policy makers, and technology leaders
+ must act now to understand the economics
+ of transformative AI
+ and to build the incentives,
+ guardrails, and institutions needed to steer AI
+ in a direction that complements
+ humans and benefits society.
+ Signatory Andrew Sandberg wrote,
+ I signed we must act now,
+ a statement on AI's transformation of the economy
+ which is much less alarming than it sounds.
+ It is basically saying,
+ this is a fricking big thing,
+ we ought to investigate this way more than is being done.
+ The statement is not about superintelligence
+ or existential risk.
+ It is merely assuming a transformative general technology
+ happening much faster than past technological revolutions
+ which ought to raise concerns
+ that we need to find things out faster
+ than we are used to.
+ Now, Andrew's argument in particular here
+ is that specifically the economics of AI
+ haven't had enough focus.
+ He continues,
+ it might sound somewhat absurd to call for more research
+ about AI of all topics.
+ Isn't that the most talked about thing at present?
+ But the economics of AI
+ is surprisingly understudied, it turns out.
+ He continues,
+ I am somewhat of an optimist about AI alignment and ex-risk
+ but I become increasingly worried
+ that we as a society might not even handle
+ the transition to merely useful AI well,
+ risking that we shake apart social contracts
+ and institutions.
+ Indeed, you kind of get a sense
+ that a lot of the particularly economics folks
+ who signed onto this
+ are signing on not because things have been scarier
+ than they thought
+ but because they've been surprising
+ in ways that make them want to have more information.
+ Google DeepMind's director of AGI Economics, Alex Emas,
+ wrote,
+ I was at a workshop yesterday
+ and asked several technologists and economists
+ who had predicted large job market losses
+ from AI model improvement
+ whether they are surprised about this,
+ that the unemployment rate for 20 to 24s
+ is effectively unchanged since the AI boom began.
+ Alex continues,
+ models after all have improved
+ in some ways more than projections.
+ Most said yes, some were indeed very surprised.
+ Alex concludes,
+ I do think disruption is likely coming
+ but it is not at all obvious
+ that it will look like mass unemployment.
+ Sam Altman has also reported this surprise
+ and in fact used it to explain
+ why the company has shifted their communications.
+ Altman wrote,
+ so far at least I'm pretty sure AI
+ has been net job creating.
+ This was not what I expected
+ although I was much less pessimistic than others
+ I thought by this level of capability
+ we'd have seen some impact.
+ It is possible this direction keeps going.
+ Now, obviously if you've listened to episodes of mine
+ like the new jobs AI will create
+ you will know that I am fully in the camp
+ of AI being a job changer
+ but a net job on locker
+ but that doesn't mean that the transition period
+ won't be without some incredible challenges.
+ One of the most important AI questions right now
+ isn't who's using AI,
+ it's who's using it well.
+ KPMG and the University of Texas at Austin
+ just analyzed 1.4 million real workplace AI interactions
+ and found something surprising.
+ The highest impact users aren't better prompt engineers
+ they treat AI like a reasoning partner.
+ They frame problems, guide thinking,
+ iterate and push for better answers.
+ And the good news,
+ these behaviors are teachable at scale.
+ If you're trying to move from AI access
+ to real capability,
+ KPMG's research on sophisticated AI collaboration
+ is worth your time.
+ Learn more at kpmg.com slash us slash sophisticated
+ This episode of the AI Daily Brief
+ is brought to you by HyperAgent
+ where you run fleets of agents your team can manage together.
+ New users get $1,000 in inference.
+ Forget local agents and chat workflows
+ waiting on your laptop to be prompted.
+ HyperAgent deploys always-on agents in the cloud
+ doing real work across the tools your team already uses.
+ Marketing's agent turns competitor moves
+ into landing pages.
+ Sales' agent enriches leads, drafts emails
+ and updates the CRM.
+ Ops' agent chases the paperwork
+ and tracks the team's progress.
+ Ops' agent chases the paperwork
+ and tracks the budget.
+ Every agent has access to shared context
+ and follows your rules about scope and approvals.
+ It's time you add agents that feel like teammates.
+ Hire yours at HyperAgent
+ built by the team at Airtable.
+ Claim your $1,000 in inference
+ at hyperagent.com slash AI Daily Brief.
+ You've tried in IDE copilots.
+ They're fast, but they only see local silos of your code.
+ Leverage these tools across a large enterprise code base
+ and they quickly become less effective.
+ The fundamental constraint, context.
+ Blitzy solves this with infinite code context.
+ Understanding your code base down to the line level dependency
+ across millions of lines of code.
+ While copilots help developers write code faster,
+ Blitzy orchestrates thousands of agents
+ that reason across your full code base.
+ Allow Blitzy to do the heavy lifting,
+ delivering over 80% of every sprint autonomously
+ with rigorously validated code.
+ Blitzy provides a granular list of the remaining work
+ for humans to complete with their copilots.
+ Tackle feature additions, large-scale refactors,
+ legacy modernization, greenfield initiatives,
+ all 5x faster.
+ See the Blitzy difference at blitzy.com
+ That's blitzy.com.
+ This episode is supported by Retool.
+ AI made building software easier than ever,
+ so more people are building it than ever,
+ usually without a thought for security.
+ Right now, people in your company are vibe coding
+ and every ungoverned app that touches your data
+ is a risk you own.
+ Retool takes that risk off your shoulders.
+ Build apps however you want,
+ natively with Retool or with Claude Code,
+ Codex or any coding agent
+ and ship it in a secure governed environment.
+ Security lives in the platform, not in each app,
+ so however it was built, it's governed the moment it ships.
+ It's why teams at Amazon, Stripe and Brex build on Retool
+ and new enterprise customers who sign up by September 30th
+ get up to $10,000 in AI credits per year.
+ Learn more at retool.com.ai daily.
+ So to the extent that our discourse can shift
+ from, you know, burning buildings and gravestones
+ to, hey, this is big and we should study it,
+ I think that would be a positive thing.
+ One other evolution of a previous document
+ of AI social discourse is a new discussion piece
+ from the AI Futures Project called AI 2040, Plan A.
+ This was produced by the same people
+ who published AI 2027 last year,
+ which got a whole lot of attention
+ and a whole lot of critique.
+ AI 2027 was for lack of a better term,
+ a doomsday scenario.
+ It ran through a hypothetical chain of events
+ that began in the current day,
+ which was then mid 2025
+ with hapless agents that couldn't do much of anything.
+ In late 2025, the scenario predicted the emergence
+ of the world's largest AI model called Agent One.
+ This fictional model was great at many things
+ like web browsing and autonomous coding,
+ but also developing bio weapons and computer hacking.
+ Open Brain, the fictional company that trained Agent One
+ was careful to align the system
+ to ensure these nefarious use cases would be refused.
+ In particular, Agent One was the first AI model
+ that was truly capable of training other AI models,
+ the dawn of recursive self-improvement.
+ Moving through into 2026,
+ the scenario discussed the rise of autonomous coding,
+ plus China focusing resources more intensely
+ on supporting their AI industry
+ and fully joining the AI race
+ and the start of undeniable AI job loss.
+ In the AI 2027 document,
+ it was in 2027 that the hard takeoff began.
+ Open Brain trains Agent Two with the help of Agent One,
+ focusing even more on recursive self-improvement,
+ with the model held back from release
+ under the guise of responsible AI development.
+ Then in February of 27, the US government
+ glimpses the cyber hacking capabilities of Agent Two
+ and considers nationalizing Open Brain
+ to lock down the technology.
+ It turns out to be too late
+ as the Chinese government steals the model.
+ From there, the scenario spirals off
+ into AI doomer fan fiction.
+ Agent Three has developed another step
+ changed more powerful
+ with even more alignment difficulties.
+ AI becomes the primary national security concern
+ across the globe,
+ self-improving AI becomes a reality
+ and the intelligence explosion replaces all work.
+ By the end of 2027,
+ superintelligence has essentially broken the economy
+ and society as a whole,
+ are scrambling to figure out
+ how to put the genie back in the bottle.
+ Now, instead of being a doomsday scenario,
+ AI 2040 is a plan.
+ The AI Futures Project indeed introduced it
+ as the quote, least bad plan we currently know of
+ and wrote,
+ it's called plan A because it's a recommendation,
+ not a prediction.
+ It's what we think should happen,
+ not what will happen,
+ though we think it's plausible enough to aim for.
+ It's called AI 2040 because in it,
+ they delay the creation of superintelligence to 2040.
+ It would have happened much sooner in 2030 to be precise,
+ if not for the decisive action
+ on the part of the US and Chinese governments.
+ It's basically a big plan
+ for how the Chinese and US government could get together
+ and slow down AI, even if they don't trust each other.
+ And while on the one hand,
+ many of the issues with AI 2027 remain.
+ Timothy B. Lee wrote,
+ I struggle with what to say
+ about the new AI 2040 plan A website.
+ It all seems so implausible to me
+ that I'm not sure where to start.
+ There is an epistemic chasm between those
+ who think superintelligence applies near omnipotence
+ and those, like me, who don't.
+ I've found that people believe it
+ at such a deeply intuitive level
+ that it's hard to have a meaningful discussion about it.
+ Each side finds it baffling
+ to encounter people with the opposite intuition
+ and on some level can't believe they're being serious.
+ At the same time, because it is framed as a plan,
+ people can engage in some more meaningful way
+ with what to actually do about concerns if they happen.
+ Finally today,
+ Google's Demis Hassabis also jumped into the conversation
+ with an ex-post called
+ A Framework for Frontier AI
+ and the Donning of a New Age.
+ Demis writes,
+ I've spent my whole life working on AGI
+ because I've always had a deep conviction that
+ if built and deployed responsibly,
+ it would prove to be one of the most beneficial
+ and transformative technologies ever invented.
+ AGI cannot be compared
+ to standard technological breakthroughs,
+ not even ones as consequential as the internet or mobile.
+ It is much more akin to the discovery of electricity
+ or fire.
+ If you stop to think about it,
+ we've essentially found a way to make Sam think.
+ It's miraculous.
+ The magnitude of this technology's impact
+ will be unprecedented.
+ Perhaps 10x of the Industrial Revolution at 10x the speed.
+ It will help us solve some of the biggest problem
+ society faces from accelerating drug discovery
+ to developing new clean energy sources
+ to creating novel advanced materials.
+ We could even reach a point where resources
+ are no longer the limiting factor for human progress,
+ leading to an amazing new era of abundance.
+ The rest of the piece then
+ is about what Demis believes needs to happen
+ to achieve that positive vision.
+ Now, one challenge in Demis's estimation
+ is that the race around AI doesn't create a lot of space
+ for the type of considered policy discourse
+ that needs to surround it.
+ At the moment he writes,
+ we are locked in an extremely intense
+ multi-layer commercial and geopolitical race.
+ While these competitive dynamics fuel rapid progress
+ and accelerate the incredible upsides,
+ advances on the frontier are outpacing
+ our understanding of the technology.
+ Nobody in the world knows for sure
+ what is going to happen from here
+ and even the experts disagree.
+ When there is a large degree of uncertainty
+ and the stakes are this high,
+ proceeding with cautious optimism
+ is the sensible and correct strategy.
+ That calls for public policy that promotes innovation
+ while also incentivizing responsibility and security,
+ fosters international collaboration on key safety issues
+ and encourages careful consideration
+ of how AI is deployed for the benefit of society.
+ From there, Demis advocates
+ for a new framework frontier AI standards.
+ One he suggests that could establish a new standards body
+ modeled on a federally overseen public-private partnership
+ or self-regulation organization
+ much like the Financial Industry Regulatory Authority
+ or FINRA.
+ The standards body he suggests would be responsible
+ for developing assessment protocols
+ and working with appropriate federal agencies
+ in the U.S. national labs
+ to conduct testing in areas relevant to national security.
+ A model he says would qualify as frontier class
+ if it meets certain thresholds
+ on a set of benchmarks determined by the standards body
+ and regularly updated
+ to keep pace with evolving AI capabilities.
+ He suggests that the frontier labs would share models
+ voluntarily with the standards body
+ for review up to 30 days before release.
+ And basically, he's articulating a sort of formalization
+ of the kind of ad hoc process
+ that the White House has started to wonder down
+ over the last month or so.
+ Now, many commented on the tone of optimism
+ in Demis's piece.
+ Chubby Kimanismus writes,
+ Demis Hasabis has written a piece about AGI
+ and rarely has he sounded so optimistic.
+ The golden future of science lies ahead of us
+ and we are on the threshold of the singularity.
+ Microsoft's Moustafa Suleiman wrote,
+ fully support this important proposal from Demis Hasabis.
+ The time for us all to act is now.
+ Economist Alex Emas, who we heard from before wrote,
+ Demis's proposal for a frontier model standards body
+ is an important blueprint for governance
+ as AI begins to impact almost every aspect of society.
+ Developing a rigorous pre-release testing framework
+ is critical for the collective stewardship
+ of this transformative technology.
+ Others are less sure.
+ Syho writes,
+ TLDR, maybe we should regulate AI,
+ corpo-slop padded with technomessianism.
+ Getting at the same idea with fewer made-up words,
+ investor Andrew Steinwald wrote,
+ Demis is a super genius and I respect the hell out of him.
+ But having the U.S. regulate anything around AI
+ just spells doom for the entire ecosystem.
+ If the U.S. does regulate AI,
+ then we can kiss our slight lead goodbye
+ and welcome our future Chinese AI overlords.
+ A few days ago,
+ Google DeepMind Sevkriya wrote something
+ that I think does a lot to explain
+ different people's reactions to this conversation.
+ He wrote,
+ the reactions to prescriptions about AGI
+ have less to do with being AGI-pilled or not
+ and more about whether you're more concerned
+ with AI's taking over, ex-risk,
+ companies taking over, anti-capitalism,
+ or the abuse of power by empowered governments,
+ anti-authoritarianism.
+ Singularity University's Ramaz Nam writes,
+ I'm firmly in the third camp
+ and making the connection back to AI 2040, he writes.
+ The basic problem with AI 2040
+ is that it uses a fictional
+ and speculative doomsday scenario
+ to justify very real surveillance
+ and control capabilities
+ that governments would be certain to use
+ in authoritarian ways well beyond AI safety.
+ It warrants against concentration of AI power,
+ but its policy proposals serve to increase
+ the power of the most powerful entities on planet Earth.
+ It completely sacrifices freedom
+ in ways guaranteed to cause harm
+ in an effort to forestall a made-up threat.
+ It proposes safety tools
+ that give governments unprecedented capabilities
+ to monitor, suppress, and manipulate.
+ These tools are intended only to stop
+ the development of overly powerful AI,
+ but once they exist, governments
+ will use them as they please.
+ The authors mean well,
+ but are so convinced of a fictional and unproven threat
+ that they do real harm to the world to prevent it.
+ It would create a world that is less free
+ and less safe in the name of safety
+ for a threat that may not even exist.
+ So clearly, there is no consensus here.
+ So how do we make sense of where we are?
+ Honestly, the short of it
+ is that I think even the societal discourse conversation
+ is that I think that there is reason
+ for optimism in the discourse itself.
+ Having watched the AI social discourse
+ since basically the moment that chatGPT launched,
+ the directionality is extremely clear.
+ The conversation has at almost every turn
+ proceeded to more nuance,
+ more epistemic humility,
+ less a priori prescriptiveness,
+ more openness to possibility,
+ and this last one might just be a vector
+ of more time having passed,
+ more interest in and adherence to the facts
+ as they're actually showing themselves
+ rather than what people imagined would happen.
+ Look, even the anthropic ad that I was lambasting
+ at the beginning of this show
+ is trying to drag itself towards optimism,
+ even if I'm not sure it succeeds in practice.
+ In short, I think that the context
+ for useful conversations about AI risks
+ and AI challenges and AI concerns
+ is much better than it has previously been
+ and that the discourse is much more likely
+ to produce actually useful advancement
+ rather than just vague hand-waving notions of threats
+ or overly dramatic responses.
+ And whatever the context is,
+ it's clear that more people are going to get involved
+ in this conversation.
+ For example, the Vatican is about to host
+ what is effectively a conclave on pro-human AI
+ featuring Nobel laureates, AI experts and researchers.
+ If this had been three years ago,
+ I would probably cringe at this,
+ but given where we are today,
+ I'm actually interested to see what they talk about.
+ So there you go.
+ In spite of myself, even in this part of the AI discourse
+ that I historically have had huge issues with,
+ I find more room for optimism than I might have thought.
+ Anyways, friends, that is gonna do it
+ for today's AI Daily Brief.
+ Appreciate you listening or watching, as always,
+ and until next time, peace.
