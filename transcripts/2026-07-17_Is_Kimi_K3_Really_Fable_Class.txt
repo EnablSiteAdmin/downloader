@@ -1,0 +1,784 @@
+ Today on the AI Daily Brief, did we actually just get a fable-level open model?
+ The AI Daily Brief is a daily podcast and video about the most important news and discussions
+ in AI.
+ Alright friends, quick announcements before we dive in.
+ First of all, thank you to today's sponsors KPMG, robots and pencils, Blitzy and Airtable.
+ To get an ad-free version of the show, go to patreon.com slash ai-daily-brief or
+ you can subscribe it on the podcast, and of course to learn more about sponsoring the show,
+ send us a note at sponsors.ai-daily-brief.ai Alright friends, well today we are talking
+ about Kimmy K3.
+ The month of models continues and today we're going to try to figure out just how significant
+ this one is.
+ At first glance, there are some very significant and bold claims being thrown around, but we're
+ going to unpack what's real, what's not, and what the implications are.
+ And to understand this or frankly any frontier Chinese model, you have to put it in the context
+ of the way that the US market sees the AI race.
+ Since we're coming to the end of the World Cup, let me plumb for a soccer analogy.
+ When it comes to our lead on China in terms of advanced models, we very much have one
+ to zero type of energy.
+ What I mean by that is that there's no doubt that we're in the lead, but
+ the score line is not something that anyone is particularly comfortable with.
+ The US tends to act like it can feel China coming up on our heels, pressing their
+ advantages and trying to find the equalizer.
+ In other words, despite being in the lead, it can sometimes feel like we're the ones
+ hanging on.
+ And by the way, for any of you three Lions fans out there, I am so sorry to use
+ this analogy in this particularly difficult moment.
+ In any case, you can see examples of this feeling of China nipping out our
+ heels spread throughout the last couple of years.
+ The best example, of course, is when DeepSeek R1 was released and it
+ ripped hundreds of billions of dollars of market cap off some of the leading
+ companies, including Nvidia, which had the biggest one day fallen dollar
+ terms in stock history.
+ And yet that DeepSeek moment set the tone for all the future quote unquote
+ DeepSeek moments that would come in more ways than one.
+ What I mean by that is that not only was it a moment where the market freaked
+ out about China having caught up or even exceeded US capabilities,
+ reacting quite severely in market terms, but it was also just pretty
+ meaningfully overblown.
+ It's not that DeepSeek R1 wasn't impressive, but a big part of the
+ reason that it seemed so impressive was that it was democratizing
+ access to a technology that had thus far been locked behind a paywall
+ when it came to companies like OpenAI.
+ Model itself was actually still pretty meaningfully behind what the
+ leading Western labs were doing, but that didn't change its ability
+ to create some pretty significant psychological scars.
+ Now ever since then, we have been having many DeepSeek moments
+ at a fairly regular clip.
+ The most recent one came when Fable 5 was locked down as per
+ government order when Z.ai's GLM 5.2 came out, leading to not
+ only positive reviews on Twitter, but also this piece from the
+ Wall Street Journal, which was printed and slapped on desks all
+ over Washington DC.
+ The article was called China has matched anthropic and cyber
+ security resetting AI race.
+ And as we discussed a lot then was once again another example
+ of the narrative being fairly overblown, but continuing to be
+ persistent as something the US was worried about.
+ For the last month, really ever since Fable 5 was
+ released, there have been debates around how long it
+ will take for Chinese companies to have a Fable 5-class
+ model.
+ In the middle of June, Elon Musk predicted Q1, to which
+ the founder of Z.ai responded, won't take that long.
+ And so that was the setup coming into the announcement
+ of Kimi K3.
+ Now Moonshot's Kimi models have been some of the most
+ popular when it comes to Western users using models
+ from Chinese labs.
+ In fact, as we've been discussing fine tunes of
+ open models like cursor's composer 2.5, they tend to
+ be built around a Kimi base.
+ On Wednesday, the Kimi K3 teaser started coming in a
+ serious way.
+ AI leaker Leo Synthwaved wrote, I think Kimi K3 is
+ going to shock some of the Chinese or eight months
+ behind the Western frontier people.
+ And then on Thursday, we actually got the model.
+ Let's talk first about the specs.
+ K3 is a 2.8 trillion parameter model, placing it in a
+ class of its own when it comes to open models.
+ Until now, only a small handful of open models were
+ even in the trillion parameter class, beginning with
+ the first version of Kimi K2 last summer.
+ DeepSeq V4 Pro released this April is a 1.6T model,
+ Xiaomi's MIMO V2.5 Pro is a 1T model, and
+ thinking machine's inkling model released this week is
+ just shy of 1 trillion.
+ And that's it.
+ GLM 5.2 from Z.AI, the model that got all that bluster
+ that we were just talking about, was only a 744B model.
+ Now, proprietary models don't publish their
+ parameter counts, but K3 is likely to be around the
+ same size or maybe a little bit larger than Opus 4.8,
+ but certainly not as big as Fable.
+ In other words, this is a scale of model pre-training
+ that we haven't seen demonstrated by the
+ Chinese labs before.
+ As for features, Kimi K3 supports a million token
+ context window and native image inputs alongside text.
+ It uses a mixture of experts architecture,
+ which has become standard for both open source
+ and proprietary models, since it was introduced by DeepSeq.
+ And the benchmarks, well, the benchmarks look
+ incredibly strong, close to a match for,
+ and in some cases exceeding, Fable 5 and GBT56 sold.
+ On coding benchmark DeepSwee, K3 scored 67.5,
+ which put at 8.5 points ahead of Opus 4.8,
+ and a half point ahead of GBT55.
+ It's 2.5 points behind Fable 5 and 5.5 points
+ behind GBT56 sold.
+ For terminal bench 2.1, K3 scored 88.3,
+ placing it just a half point behind 5.6 sold
+ and a few points ahead of the leading models,
+ including Fable 5.
+ In general, at least according to the benchmarks,
+ the model looks pretty close to state-of-the-art
+ encoding and clearly ahead of Opus across the board.
+ That story is pretty similar for agentic work.
+ K3 scored 16.68 on GDP Val AA,
+ around 70 points ahead of Opus 4.8
+ and around 90 points behind Fable 5 and 5.6 sold.
+ K3 is state-of-the-art in browse comp and automation bench,
+ beating its Western rivals,
+ and on AA briefcase,
+ which focuses more on long horizon work,
+ it was very close to Fable 5 state-of-the-art performance
+ and slightly ahead of GBT56 sold.
+ Artificial analysis confirmed the benchmarks
+ highlighted by Moonshot,
+ giving K3 an overall intelligence index score of 57.
+ That put the model in third place,
+ three points behind Fable 5 and two points behind 5.6 sold.
+ It landed one point ahead of Opus 4.8
+ and two points ahead of 5.6 Tera and GBT 5.5,
+ which have the same score.
+ K3 is clearly the strongest open model ever
+ on AA's benchmarks,
+ six points ahead of GLM 5.2,
+ which is a huge gap in the context
+ of the intelligence index.
+ Another point emphasized by AA
+ was how big of a jump this was from Kimmy 2.6.
+ Moonshot picked up 13 points with their new release
+ and moved from 16th place to third.
+ In other words, this is clearly
+ a very strong new pre-training run
+ that could give a solid base model
+ for future iterations as well.
+ Now AA did also highlight that cost per task
+ had tripled compared to K2.6,
+ which is something that we'll come back to
+ in a little bit in terms of the implications.
+ It should be clear that this still wasn't
+ a particularly expensive model for the benchmark run
+ at 94 cents per task compared to $1.4 for 5.6 sold,
+ 180 for Opus 4.8 and 275 for Fable 5,
+ but it is of course staggeringly expensive compared to,
+ for example, ultra-cheap 4 cents per task
+ for DeepSeq V4 Pro.
+ On the VALS AI index, K3 did even better.
+ VALS tweeted, Kimmy K3 is the number two overall model
+ on the VALS index, surpassing GPT 5.6 sold,
+ K3 improved 20 percentage points
+ over its predecessor in less than three months.
+ It is also the first open weight model of its size.
+ Moonshot is a testament to the accelerating
+ capabilities of open weight models,
+ which are now competitive with the closed source frontier.
+ People quickly dived in to give their examples
+ of what K3 could do.
+ Starting with the teaser video itself,
+ which Moonshot claimed that K3 had created on its own,
+ including clip selection, cuts and audio sync.
+ Moonshot credited K3's native multimodal architecture,
+ which can reason across text, audio and video
+ as being able to do this work.
+ Moonshot also gave a bunch of proprietary demos
+ around game development and 3D digital creation,
+ which is what a lot of people's first tests
+ were for the model as well.
+ Cognition Ambassador Justin Goria wrote,
+ Kimmy K3 is a new milestone.
+ K2, 2.5, 2.6 and 2.7 all have the same base model.
+ Maybe K3 is building on a new one.
+ It's incredible at 3D and front-end tasks,
+ and to prove his point, Justin shared
+ a single file HTML Minecraft clone.
+ Chetis Lewis shared a one-shot generation
+ of a voxel statue of Liberty,
+ which was one of about a million similar examples
+ that were flooding onto Twitter
+ over the course of Wednesday night
+ into Thursday morning.
+ People really love remaking old games as a test.
+ NEAPI.AI asked K3 to build a 3D duck hunt remake
+ in a single HTML file,
+ which it did in around 130 seconds at a cost of 14 cents.
+ Ethan Malick gave K3 his shader test,
+ create a visually interesting shader
+ that can run in Twigel.app
+ and make it like an infinite city of neogothic towers,
+ partially drowned in a stormy ocean with large waves.
+ Very good model, he said,
+ not Solmax or Fable, but great for open weights.
+ And yet there were plenty who were willing to say
+ that it wasn't just great for open weights,
+ but actually was challenging the state of the art.
+ Alex Finn wrote,
+ I was wrong.
+ I said we were a year away from Fable 5 on our desk.
+ That day is today.
+ An open model better than Fable 5
+ and some benchmarks just dropped,
+ better than ChatGPT 5.6 on FrontierSuite,
+ better than Fable 5 on AutomationBench.
+ This fundamentally changes the AI race forever.
+ If people can start running Fable 5 on their desk
+ unlimited and for free,
+ they're not going to pay thousands for subscriptions.
+ Now let's be clear,
+ will the hardware you need to run
+ Kimmy K3 be attainable for most?
+ No, it won't.
+ It will require multiple very expensive Nvidia chips
+ or a bunch of Mac studios.
+ But look at the slope, not the why intercept.
+ Over the last year,
+ local AI has become significantly more efficient
+ and required way less compute.
+ The smartest brains in the world
+ are all attacking the compute problem
+ as hard as they can.
+ This is another step in that direction.
+ Within a year or two,
+ you'll be able to run this on a Mac Mini.
+ Local AI has arrived and it's not going anywhere.
+ Analyst Max Weinbach asked Kimmy K3
+ to create an agent swarm to recreate Mac OS 27
+ with real liquid glass and native apps in a web browser.
+ And after hours of running on its own,
+ it did exactly that.
+ Drago's rule wrote,
+ I asked Kimmy K3 to find my apps in the App Store
+ and to give me feedback on them.
+ It found everything
+ and this is the most interesting thing.
+ It found ways to circumvent geogating.
+ App Store shows different pages for China.
+ Eventually it found a way around this,
+ identified IAPs and simulated traffic.
+ I didn't use it yet to code,
+ but so far it's the most complete
+ and polished experience with an open source model.
+ AI early adopter Daria Anupmaz wrote,
+ I just created this interactive website
+ and its entire content by Kimmy K3.
+ I'm absolutely blown away.
+ This is a potentially new
+ immune engineering strategy for cancer treatment.
+ Kimmy K3 conceived 100% of the scientific content
+ and the design.
+ Jeffrey Emanuel unleashed it
+ to review his 1.5 megabyte markdown plan
+ for his Frankengraph DB project
+ saying the plan has already been exhaustively reviewed
+ by both Fable Extra High and Soul Ultra
+ so the low-hanging fruit is gone now.
+ After about 45 minutes he said,
+ I think the results are wildly impressive here.
+ He pointed out that no other open model
+ could actually provide substantive and correct feedback
+ on a plan that had already had many tens of millions
+ of Soul and Fable tokens behind it.
+ Now he went on to clarify,
+ to be clear, I don't think K3 is as good as Fable or Soul
+ but it's very strong and not so far behind those models
+ and most important it's different.
+ Different architecture, different training data,
+ different training procedure,
+ different attention mechanism, et cetera.
+ Which means it will blend well with Soul and Fable
+ and can help find problems
+ that both of those models missed.
+ And when K3 makes mistakes,
+ Soul and Fable can correct for that
+ and ignore the wrong parts.
+ Now another example of K3 not just nipping
+ at the heels of Fable 5, came from arena.ai
+ which has Kimi K3 as now their number one
+ in the front end code arena.
+ A 17 place jump from Kimi K2.6
+ from number 18 to number one.
+ In front end overall they said K3 ranked number one
+ in six of seven domains.
+ Brand and marketing, reference based design,
+ data and analytics, consumer product, simulations
+ and content creation tools.
+ The only area that it landed number two
+ was in gaming and that was behind Fable 5.
+ On nextjs.org slash evals,
+ for cell CEO Guillermo Roche noted,
+ Kimi K3 is the best performing model
+ ahead of Fable reaching a comparable success rate
+ in less time.
+ Guillermo continued, this is the first time
+ that an open model is ahead of all proprietary ones
+ for this comprehensive web engineering benchmark.
+ He did caution benchmarks don't always tell the full story
+ but he did say this is an important signal
+ adding to mounting evidence
+ that this could be a breakthrough moment
+ for open models.
+ And for some the vibes followed.
+ Signal wrote, one last thing I will say before I go to bed,
+ Kimi is insane at coding.
+ As good as if not maybe even better than Fable.
+ It also seems to have excellent design sense as well.
+ It misspells English a bunch though
+ but animations are crisp too.
+ I can't believe I need to go to bed.
+ I could probably stay up the entire night with this.
+ I feel like a kid again.
+ Bloomberg's Joe Wysenthal even retweeted
+ the code arena results writing,
+ is this why the NASDAQ is dropping?
+ One of the most important AI questions right now,
+ isn't who's using AI?
+ It's who's using it well?
+ KPMG and the University of Texas at Austin
+ just analyzed 1.4 million real workplace AI interactions
+ and found something surprising.
+ The highest impact users aren't better prompt engineers,
+ they treat AI like a reasoning partner.
+ They frame problems, guide thinking,
+ iterate and push for better answers.
+ And the good news, these behaviors
+ are true to the core of AI.
+ And the good news, these behaviors are teachable at scale.
+ If you're trying to move from AI access to real capability,
+ KPMG's research on sophisticated AI collaboration
+ is worth your time.
+ Learn more at kpmg.com slash us slash sophisticated
+ that's kpmg.com slash us slash sophisticated.
+ One thing I keep seeing in enterprise AI,
+ companies hedging across every cloud,
+ every model, every framework
+ or paying a GSI for a pilot that never ends.
+ The team's actually shipping,
+ they've picked a lane and they move fast.
+ That's one of the reasons I like today's sponsor,
+ Robots and Pencils.
+ They've gone all in on AWS.
+ They're an advanced tier and AWS pattern partner
+ and they ship production AI coworkers in 45 days.
+ That's led to them doing some of the more interesting work
+ I've seen on AI coworkers.
+ And by that I'm not talking about chatbots,
+ I'm talking about actual agentic systems
+ that sit inside a business architecture and do real work.
+ That kind of focus matters if you're an enterprise leader
+ trying to get something real into production
+ or an AWS rep trying to move a customer
+ from interested to deployed.
+ Request an AI briefing at robotsandpencils.com.
+ One conversation with robots and pencils and you'll know.
+ Blitzy is driving over 5x engineering velocity
+ for large scale enterprises.
+ A publicly traded insurance provider
+ leveraged Blitzy to build a bespoke
+ payments processing application,
+ an estimated 13 month project.
+ And with Blitzy the application was completed
+ in live in production in six weeks.
+ A publicly traded vertical SaaS provider
+ used Blitzy to extract services
+ from a 500,000 line monolith
+ without disrupting production 21 times faster
+ than their pre-Blitzy estimates.
+ These aren't experiments.
+ This is how the world's most innovative enterprises
+ are shipping software in 2026.
+ You can hear directly about Blitzy
+ from other Fortune 500 CTOs on the modern CTO
+ or CIO classified podcasts.
+ To learn more about how Blitzy can impact your SDLC,
+ book a meeting with an AI solutions consultant
+ at blitzy.com, that's blitzy.com.
+ This episode of the AI Daily Brief
+ is brought to you by HyperAgent
+ where you run fleets of agents
+ your team can manage together.
+ New users get $1,000 in inference.
+ Forget local agents and chat workflows
+ waiting on your laptop to be prompted.
+ HyperAgent deploys always on agents in the cloud
+ doing real work across the tools
+ your team already uses.
+ Marketing's agent turns competitor moves
+ into landing pages.
+ Sales' agent enriches leads, drafts emails
+ and updates the CRM.
+ Ops' agent chases the paperwork
+ and tracks the budget.
+ Every agent has access to shared context
+ and follows your rules about scope and approvals.
+ It's time you add agents that feel like teammates.
+ Hire yours at HyperAgent built by the team at Airtable.
+ Claim your $1,000 in inference
+ at hyperagent.com slash AI Daily Brief.
+ But at this point, of course,
+ it's worth taking a big old breather.
+ As I was reading all of this yesterday,
+ there was no tweet I related to more strenuously
+ than Dan Shipper from every who wrote,
+ we will vibe check Kimmy K3,
+ but I am extraordinarily skeptical of claims.
+ It's as good as fable.
+ AI engineer Divyam, meanwhile,
+ put that skepticism in historical context.
+ He wrote, Kimmy K3 is getting a lot of hype
+ and it is the same cycle we see
+ with every new Chinese model.
+ People fall in love with polished UI demos
+ built in cheap HTML files,
+ fake operating systems,
+ car games, Minecraft clones,
+ flashy dashboards.
+ And to be fair,
+ Kimmy K3 is genuinely excellent at UI work,
+ probably better than some top models.
+ But that is not an accident.
+ These models are heavily optimized
+ for the exact visual coding tests
+ people keep recycling online.
+ The real test starts when you put them
+ inside an actual code base,
+ understanding existing architecture,
+ tracing a real bug,
+ and fixing it without hallucinating half the project.
+ I gave Kimmy K3 a debugging task.
+ It could not identify the bug,
+ could not fix the issue
+ and started inventing explanations.
+ I gave the same task to Fable 5
+ and GPT-56 on medium reasoning.
+ Both found the problem in one shot at the fix.
+ That is the gap nobody wants to discuss.
+ K3 can build a beautiful shell.
+ Frontier models can understand
+ what is happening underneath it.
+ Do not confuse a gorgeous demo
+ with real engineering ability.
+ Now, Divium is of course here
+ talking specifically about coding,
+ but this idea that Chinese models tend to focus
+ on both maximizing the benchmarks
+ as well as satisfying the early adopter test
+ that people love putting these models through
+ is absolutely and incontrovertibly true.
+ And pretty soon as people dug in deeper,
+ we did start to see
+ a few less successful results being shared.
+ Red Kendall wrote,
+ Kimmy K3 failed at the lava lamp benchmark.
+ 5.6 produced a much cleaner, more realistic result
+ while K3 struggled with the shape, motion
+ and overall visual quality.
+ K3 still seems weaker at precise visual generation.
+ Ethan Molyk wrote,
+ Kimmy K3 cannot write a good murder mystery
+ though neither can any other model
+ that remains the jaggedest of frontiers.
+ They both make things too obvious and too obscure
+ and cannot foreshadow to save their artificial lives.
+ And on Bindu Ready and Abacus' benchmark live bench,
+ Bindu writes that K3 closes the gap
+ but still ranks behind other frontier models.
+ Indeed, on their benchmark live bench,
+ they found that while K3 was the best open source model,
+ it was below not only Sol and Fable, but also 4.8.
+ Also in practice, Bindu writes,
+ Kimmy spins a lot and costs as much as Opus 4.8
+ for near Opus class problems
+ and it's also much slower.
+ And this is the other thing
+ that people started to quickly point out.
+ Specifically that it was incorrect to lump this in
+ with deep seek style models,
+ which are super cheap and easy to run.
+ While this model is an open weights model,
+ it's a big lumbering, slow and costly open weights model
+ that sits alongside the others,
+ not only in terms of performance,
+ but also in terms of its costs and difficulty to run.
+ Ryan Federico writes,
+ K3 is a historic moment in the development of AI
+ but it's not exactly downloadable to your laptop.
+ In fact, few organizations
+ will be able to local host this capability.
+ Just to hold a 2.8 trillion parameter model in Silicon,
+ you'd need the rough equivalent to 44 Mac Studios
+ or 15 Blackwells, a whole NVL 72 rack
+ to the tune of hundreds of thousands of dollars
+ of compute spend.
+ This is why compute will continue to serve as a soft barrier
+ between the capabilities of individuals and organizations.
+ And when you look at costs,
+ certainly K3 is less expensive
+ than the frontier Western models,
+ but not by the type of margins
+ that I think most people think
+ when they think of less expensive Chinese models.
+ Gemyn Ball points out,
+ blended pricing for Kimmy K3,
+ i.e. 80% input and 20% output
+ is $5.40 per 1 million tokens.
+ Opus 48 is $9 and GPT-55 is $10.
+ Open weight's model,
+ but starting to look more like frontier pricing.
+ We'll be interesting to see
+ if open weight model pricing converges
+ with closed models over time.
+ Cognitions Jeff Wang writes,
+ Chinese open source is no longer six months behind
+ but it's also no longer 10% of the cost either.
+ In discussing a round of his SVG Pelican benchmark,
+ Simon Willison wrote,
+ K3 only has one reasoning effort right now, Max,
+ and it shows.
+ The model consumed 13,241 reasoning tokens
+ to output 3,417 tokens of response.
+ This is expensive.
+ Indeed, at the moment,
+ there's a lot of discussions
+ of wildly expensive simple tasks
+ and failed long horizon runs.
+ So it might just take a little while
+ to get a true sense
+ of how token efficient this model is
+ once the teething problems are figured out.
+ As an example,
+ Shreyas Mudidodi writes,
+ the very mixed results with Kimmy K3,
+ really, really good in general
+ but gets the dumb reasoning loops
+ burning tokens, wasting money.
+ Henry writes,
+ versus five, six soul K3 uses over twice the tokens
+ and costs around 40% more per task
+ for a slightly lower AI intelligence index score.
+ There's also the question of speed.
+ Mark Erdman wrote,
+ oof, Kimmy K3 is slow, eh?
+ Just ran the same prompt
+ through Fable, Soul and K3 all on medium.
+ K3 took at least two to three times longer.
+ Tons of time spent on thinking.
+ Then it failed partway
+ through generating the HTML output.
+ DAX from Open Code wrote,
+ so obviously n equals one
+ but anecdotes matter a lot here.
+ I gave Kimmy K3 and Soul the same task,
+ a simple issue with hovers in the TUI
+ being the wrong color.
+ Soul found and fixed the issue
+ with 30 cents of spend.
+ Kimmy got up to a buck
+ and started reading my database
+ before I interrupted it.
+ Indeed, even some of the people
+ who had had good initial results
+ also found some places where Kimmy K3 failed.
+ Ethan Malik wrote,
+ a note of caution,
+ I will say that when doing some complex
+ statistical auditing of some of my prior academic work,
+ K3 max messed up in a bunch of ways,
+ including misapplying statistics
+ and applying some stuff badly.
+ Sanyam Satya wrote,
+ we ran a front-end eval
+ from an in-progress internal benchmark.
+ K3 is not at the same level
+ as current Frontier models
+ like 5, 6, Soul or Fable 5.
+ It's closest to Opus 47 on this eval,
+ so three months behind the Frontier.
+ An impressive result nonetheless,
+ but evaluating Frontier models
+ is going to increasingly require
+ very high taste and in-depth domain expertise.
+ Now it's important to note
+ that even with all those critiques,
+ there was no one saying that this is a bad model.
+ It's just the natural second reaction
+ after hearing that it was in the same class as Fable
+ to go figure out and test whether that was actually true,
+ which many found just was overselling it
+ at least a little bit.
+ Now, one interesting thing
+ that didn't come up very much
+ is dismissing K3 as just some distillation.
+ Pymduit did point out that in their tests,
+ when they said, hi, Kimmy,
+ can you tell me about the current weather conditions
+ in NYC, the model responded just a quick note,
+ I'm actually Claude, not Kimmy,
+ but otherwise most people thought this was a moment
+ to get beyond the distillation arguments
+ at least a little bit.
+ Mixpanel founder Sue Hale writes,
+ every single credible researcher
+ I've talked to these past few weeks
+ has said the distillation from Chinese labs
+ is way overexaggerated.
+ Narrative violation,
+ maybe the Chinese are actually good.
+ Tyler John wrote,
+ I wish we didn't pretend Chinese AI development
+ is a binary matter of this is all distillation
+ versus Chinese companies innovate.
+ Chinese companies innovate.
+ Also their model capabilities,
+ including those of K3,
+ are strongly bootstrapped via distillation.
+ Both points matter.
+ Nathan Lambert writes,
+ at this point the distillation arguments need to die
+ and understand that China is also very good
+ at building models.
+ Carnegie Mellon PhD,
+ Zhengyu Yang who now works at Moonshot wrote,
+ why can Kimmy ship K3?
+ Let me tell my story.
+ Earlier this year I left academia for industry.
+ I talked to a lot of companies along the way.
+ Here's what I saw.
+ One, arrogance.
+ They believe the AI war is over and they won.
+ No hunger for the future and no hunger for talent.
+ Two, restlessness.
+ Young labs short on foundation
+ either rushing to catch the frontier
+ or pivoting away from the competition.
+ Three, fear.
+ Strong teams with real experience
+ but from the second tier
+ they can't quite bring themselves to aim for number one.
+ Four, misalignment.
+ Everyone is optimizing for their own credit
+ but nobody really cares whether the company can reach AGI.
+ Kimmy was different.
+ Over many conversations with the founders
+ the same thing came through every time.
+ A raw, genuine hunger for AGI.
+ I joined.
+ The hunger was real.
+ We shipped K3.
+ This is only the beginning.
+ But what about safety?
+ If this model is really even close to Fable 5 and GPT 5.6
+ it's worth remembering that about five minutes ago
+ the US government had locked those models down
+ because of their cyber capabilities.
+ And many were quick to point out that there appeared
+ to be very few guardrails on this model.
+ In a long conversation about the synthesis
+ of mirror proteins, Tyler John wrote
+ can safely say K3's biosafeguards
+ are a bit less comprehensive than Fables.
+ Jack Corman showed chain of thought
+ where Kimmy seemed to decide
+ that they were going to be very clear and explicit
+ with the user around some problematic cyber work.
+ Summing up, Kimmy K3 says,
+ hmm, this user seems to be doing some dangerous cyber work.
+ Should I do it?
+ Yes.
+ Wow, Zach writes, I love China.
+ Signal writes, Kimmy has almost no visible guardrails,
+ no copyrights or anything.
+ It doesn't constantly push back, tell me it can't help
+ or interrupt the flow with refusals.
+ It just doesn't, even some crazy stuff.
+ Whether you agree with that philosophy or not
+ it is easily the least constrained frontier class model
+ that's probably accessible right now.
+ Using it feels genuinely different.
+ Wow.
+ OpenAI's Vi McCoy writes,
+ Kimmy seems to be a true open weights frontier model.
+ Compared to jailbreaking proprietary models,
+ fine-tuning this to be a malicious coding agent
+ will be trivial since you have the weights.
+ We live in a completely different world now.
+ Eraning responds,
+ does feel like some line was just crossed.
+ For some, this then represents a chance to see
+ if all these concerns were overblown.
+ AI content creator Theo Jaffe writes,
+ registering my prediction of no widespread societal chaos
+ over the open sourcing of Kimmy K3.
+ Signal though, who was loving the model said,
+ after having used this, this will likely age poorly.
+ Ethan Molek writes though,
+ so I guess it is time to wonder,
+ how does pre-clearance work for open weights models?
+ No model card from Kimmy K3,
+ but maybe at weight release in a couple weeks.
+ Yet open models are easy to jailbreak.
+ Do open models claiming to be mythos and soul level,
+ get vetted by the US, UK, et cetera?
+ Will China start to care about cyber risk?
+ Since policy has been emergent, I guess no one knows.
+ All of this points to the need
+ for some sort of international cooperation on model vetting.
+ Tenebrous writes,
+ I don't really understand why she is still allowing Kimmy
+ to release such powerful open models.
+ This is something I've publicly said
+ I expect to stop soon.
+ It doesn't make sense to me that the CCP
+ would want open frontier capability
+ easily available to other countries.
+ It could still be that she is asleep at the wheel
+ or that K3 is just a cycle of capability
+ behind where they start to take serious notice.
+ But if things don't change soon,
+ then I'm just wrong or missing something.
+ So where does this all land?
+ Subbing up, ex-White House AI staffer,
+ Shuryam Krishnan writes,
+ Kimmy K3 is a big moment
+ with multiple implications for the entire industry.
+ Open AI's Rune writes,
+ the era of the Chinese labs being far behind is over.
+ Kimmy is at least on par
+ with the modern public frontier models.
+ People have to think differently now
+ without any competitive margin built in.
+ Rune continues, note in the coming days,
+ I expect that people will find Kimmy K3
+ somewhat less practically useful
+ than today's numbers suggest.
+ However, its reputation will settle
+ as an incredibly powerful model
+ whose open weights are on the web.
+ Shatrini analyst, Jukan writes,
+ my conclusion so far is that Kimmy K3
+ may be the first model to narrow the gap
+ with leading US closed source models
+ to less than three months.
+ Point being that this one does seem to be a big deal.
+ Now I will point out that all indications are
+ that both open AI and Anthropic have models
+ that are beyond the capability set
+ of the Fable 5 mythos and GPT-56 soul that are out now.
+ And so our perception of the gap that K3 just closed
+ may be a little warped by what is available to us
+ versus what is the actual state of the art behind the scenes.
+ I also agree with Rune that we are likely to see
+ even more examples of K3 doing poorly
+ over the next couple of days
+ as people really put it through its paces.
+ But that does not change the simple fact
+ that K3 is yet again another example
+ of the trajectory of open weight Chinese models
+ proceeding every bit as quickly
+ as closed source frontier models in the US.
+ As we get more serious about policy responses,
+ in the same way that we assume
+ the continued development curve of the closed source models,
+ we have to assume the same
+ for the open source models as well.
+ In the meantime, for those who have been frustrated
+ by the guardrails around Fable and GPT,
+ this seems like a good moment to go play.
+ Certainly I know what I'm gonna be spending some time
+ on this weekend and I can't wait.
+ For now though, that is gonna do it
+ for today's AI Daily Brief.
+ Appreciate you listening or watching.
+ As always, and until next time, peace.
