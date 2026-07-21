@@ -1,0 +1,987 @@
+ Today on the AI Daily Brief, why everyone is debating AI policy and the battle
+ for the future of open source AI. The AI Daily Brief is a daily podcast and
+ video about the most important news and discussions in AI.
+ Alright friends, quick announcements before we dive in. First of all, thank
+ you to today's sponsors, KPMG, Blitzy, Section, and Airtable. To get an ad-free version of the
+ show, go to patreon.com slash ai-dailybrief or you can subscribe on Apple podcasts. And if you
+ want to learn more about sponsoring the show, send us a note at sponsors at aidailybrief.ai.
+ Today's episode is one of those ones where the headlines are all kind of connected to the
+ main episode, so we're just doing it as one big episode. We will be back presumably with
+ our normal format between headlines and main tomorrow, but for now, let's talk the battle
+ around open AI. Before we get into today's show, let me pitch you on why you should pay attention.
+ Now, if you're listening, maybe you don't need to be pitched, but my observation over the past
+ few years of doing this show is that there is a big chunk of this audience who is primarily focused
+ on how AI matters for you. Specifically, this part of the audience cares about new models and
+ changes in harnesses in the way that we access those models. They are primarily interested
+ in how AI is going to change their work and their careers and what they do. They're interested in how
+ AI opens up new opportunities for them. And this is of course why a lot of this show is biased towards
+ the highly actionable. It's also why almost inevitably there is a little dip in engagement
+ around shows that are more on the policy side or on the macro big picture geopolitics side.
+ Today's show is entirely about that. But my very strong argument is that what we are discussing
+ today is an area of policy and geopolitics that could have dramatic implications for what models you
+ have access to, how you access them, the cost at which you access them, the ways that you design
+ systems for work, the tools that are available to you to design those systems. The stakes,
+ in other words, are extremely high, not just on some random theoretical level,
+ but in terms of the AI that you actually access. What's more, this particular area
+ is a policy discussion which blends into democratic politics in the US in a major way.
+ And so I believe and hope is worthy of your engagement. So what we're talking about today is,
+ of course, the increasingly loud political questions around open source. And specifically,
+ but not exclusively, we're talking about Chinese open weight models and whether they have a future
+ in the US. Now the Genesis for this, of course, is the release of Kimmy K3, the model
+ that was the subject of discussion in our Friday episode. Now at this point,
+ you might be a little anesthetized to every time there is some new advanced Chinese model,
+ everyone having a freak out in the style of the original deep seek freak out back from January
+ 2025. It's almost at this point kind of expected. And yet honestly, since that first deep seek
+ moment back in January, I haven't seen something dominate the discourse quite as loudly as this
+ has over the last few days. Pretty much all anyone talked about all weekend was a tweet from
+ Dean Ball, former policy advisor to the Trump administration on AI now head of strategic
+ futures at open AI, which became just incredibly contentious and controversial as we will see,
+ generating at this point 11 million views. But before we get into Dean's post, let's take a step back
+ and talk about what we know so far around the US's position over open source,
+ as well as the latest out of China around their strategy. Over the past couple of weeks,
+ there have been a growing set of reports that suggest that the White House is taking a closer
+ look at taking action against open models. Last Wednesday, Washington insider publication
+ semaphore reported that the administration was considering or at least not ruling out action
+ on open source models with a senior White House official confirming that there was quote
+ plenty of ongoing work that went beyond the cybersecurity executive order from June.
+ At the very least, it's very clear that the White House is paying close attention to open
+ models. Now, of course, the White House's relationship with models in general is in something
+ of a flux moment. On Friday, CNBC reported that the administration expects to limit
+ the release of Western Frontier models on an ongoing basis. CNBC highlighted the limits around
+ Fable 5 and GPT 5.6, but also tied the policy to the new AI clearinghouse announced last week
+ named Gold Eagle. It was originally believed and frankly framed like the clearinghouse would be
+ mostly about sharing software vulnerabilities detected by AI, but sources indicate that
+ Gold Eagle will also be the mechanism to determine which companies have access to
+ new frontier models. On the record, a White House official said the government doesn't
+ require approval of AI models and any engagement is still voluntary, asserting that quote,
+ decisions on timing and scope of releases rest entirely with the companies. Now, I'm sorry
+ to be cynical, but that is absolutely not the case anymore, as we have seen. And the
+ White House can pretend that this regime is voluntary all at once, but functionally speaking,
+ that is no longer the case. The only question is whether moving forward, the quote unquote
+ voluntary regime, that seemed to be over the last month Howard Lutnick and Susie
+ Wiles getting together and deciding when they thought Anthropic had eaten enough
+ crow for them to allow them to re-release Fable 5 becomes actually something more
+ formalized in the future. Now, for those who think that basically anything
+ formalized would be better than this weird de facto informal regime, over the
+ weekend Bloomberg noted that the White House is also considering a proposal for
+ a self-governing body put forward by Demis Asabis. Financial industry regulator
+ FINRA is considered the model, but then again, many have noted that financial
+ services aren't exactly known for their rapid pace of innovation under this
+ particular model. Now, on Monday, Axios published a
+ provocatively titled article suggesting that there was a secret effort within
+ the White House to curb Chinese AI. They wrote,
+ The Trump administration is showing signs it could ban cutting-edge Chinese AI
+ models, a momentous move that could lock in dominance by open AI and
+ Anthropic. A source close to the administration
+ detailed some of the plans. They claimed that last year, the
+ Commerce Department considered adding Chinese AI firms to their entity list,
+ which would discourage domestic use in the corporate sector.
+ An executive order is also being considered, which would require US tech
+ companies to only host Chinese models if they can guarantee security and take
+ liability for any breaches. They said the Commerce Department has
+ also circulated draft rules that would leverage supply chain security
+ powers to crack down on Chinese AI. Now, one important thing to note as we're
+ discussing all of this, is that the White House understands
+ that they don't necessarily have to actually outright ban Chinese models to
+ have their desired effect of prohibiting access to them.
+ One source familiar with the discussions described a push to highlight
+ potential backdoors and a lack of security. And frankly, anyone who's paid
+ any attention at all to the Operation Choke Point regimes that have happened
+ across various administrations over the past few years with regard to
+ undesirable areas. So right now it's very unclear where
+ this is going to land, but also does seem clear that these conversations are
+ being had. Now adding a bit of a twist to the
+ discussion coming out of Washington, the Trump
+ administration's head of the Center for AI Standards and Innovation has
+ resigned. Now, this organization was set up
+ during the Biden administration and had its power curbed
+ early in the Trump administration, although had seen a resurgence in
+ recent months due to the role it played in assessing Fable during the ban.
+ Many saw the Center as a way to have civilian input over AI regulation
+ rather than leaving the matter entirely to the NSA. On Monday CNBC reported
+ that Chris Fall, the head of the Center, had resigned.
+ Fall had only been in the position for three months, so was a Trump
+ administration pick for the role. Axios characterized the departure as
+ abrupt. There is no immediate replacement with
+ National Institute of Standards and Technology Director Arvind Raman
+ filling the role on an interim basis while he interviews candidates.
+ Analyst Max Weinbach wrote, I hope this is because what he was pushing was
+ stupid and people called him stupid rather than the one I'm terrified of,
+ which is he's fighting for the smart solution and it isn't working.
+ Now, as I've frequently said, overreading a single personnel change
+ is always a little bit dangerous, but the timing does make it at least a
+ little bit notable. Overall, USAI policy is in an
+ extraordinarily confused place. In a piece titled Trump's AI Agenda Collides
+ with Reality, the information wrote, Inside the White House,
+ turf battles, clashing views, staff turnover, and hollowed out
+ offices have contributed to a chaotic environment for policymaking on AI.
+ Many have noted that the administration's apparent White House
+ policy has gone from hands-off to extraordinarily heavy-handed in a
+ very short period of time and seems to be veering wildly between the two
+ even inside. But of course, when it comes to AI
+ policy, it's not like the US government is sitting out there alone.
+ They have a counterparty in Beijing who is likewise going through its own
+ process of evolution and codification of AI policy.
+ Chinese officials recently wrapped up the first World AI Conference in Beijing.
+ Now, heading into the event, it was clear that the purpose was to offer a
+ Chinese-led AI future to the global South and US adversaries.
+ The Chinese Foreign Ministry touted 29 signatories to a new
+ World Artificial Intelligence Cooperation Organization,
+ including some of the US's favorite people in Russia, Indonesia, Pakistan, and Laos.
+ The event itself was headlined by a speech from President Xi Jinping
+ who endorsed an open-source approach to global AI.
+ She said that global AI governance must, quote,
+ uphold openness and win-win cooperation to drive innovation and development.
+ She added, AI is a new engine of global economic growth
+ and an accelerator in the transition from old to new growth drivers.
+ It is moving from the digital world into the physical world.
+ We must seize this rare historic opportunity, encourage open-source development,
+ openness, cooperation, and sharing, and comprehensively advance technological
+ innovation, industrial development, and real-world applications of AI.
+ We should coordinate efforts to transform and upgrade traditional industries,
+ foster and expand emerging industries, and make forward-looking plans
+ for industries of the future, thereby empowering all sectors through AI.
+ Now there had been some questions of late around whether China was going to
+ decide to go in the other direction and start restricting access
+ to its top models that were coming out of labs like Moonshot,
+ but at the moment at least it seems like the narrative thrust
+ is firmly focused on this open strategy.
+ Geopolitics commentator Arnaud Vertrand wrote,
+ it's becoming clearer and clearer that China's AI open-source strategy may end
+ up being seen as one of the greatest strategic master strokes of all time.
+ They started with a clear resource and technological disadvantage,
+ mainly due to the US semiconductor export controls,
+ and have managed to change the rules of engagement
+ in such a way that the US's own tech leaders and officials
+ are now publicly siding with China's approach against their own companies,
+ which is pretty extraordinary.
+ When you can't fight symmetrically, make the adversary's way of fighting
+ obsolete and self-defeating.
+ The greatest irony in all of this is,
+ had the US not done the export controls,
+ there's a decent chance that not only China wouldn't have gone
+ for the open-source approach,
+ but the US would have made an enormous amount of money selling compute to them.
+ Now they're getting neither the money nor the containment.
+ Now according to reporting from the Financial Times,
+ the consultations between the Chinese Ministry of Commerce
+ and AI companies about possible export controls continues,
+ so I don't think that we should take anything of this moment as a given going forward,
+ but it's clear from the speech that at least when it comes to the global story,
+ China is positioning itself as the great defender of open AI.
+ One of the most important AI questions right now isn't who's using AI,
+ it's who's using it well.
+ KPMG and the University of Texas at Austin just analyzed 1.4 million
+ real workplace AI interactions and found something surprising.
+ The highest impact users aren't better prompt engineers,
+ they treat AI like a reasoning partner.
+ They frame problems, guide thinking, iterate and push for better answers.
+ And the good news, these behaviors are teachable at scale.
+ If you're trying to move from AI access to real capability,
+ KPMG's research on sophisticated AI collaboration is worth your time.
+ Learn more at kpmg.com slash us slash sophisticated.
+ That's kpmg.com slash us slash sophisticated.
+ You've tried in IDE copilots.
+ They're fast, but they only see local silos of your code.
+ Leverage these tools across a large enterprise code base
+ and they quickly become less effective.
+ The fundamental constraint, context.
+ Blitzy solves this with infinite code context,
+ understanding your code base down to the line level dependency
+ across millions of lines of code.
+ While copilots help developers write code faster,
+ Blitzy orchestrates thousands of agents
+ that reason across your full code base.
+ Allow Blitzy to do the heavy lifting,
+ delivering over 80% of every sprint autonomously
+ with rigorously validated code.
+ Blitzy provides a granular list of the remaining work
+ for humans to complete with their copilots.
+ Tackle feature additions, large-scale refactors,
+ legacy modernization, greenfield initiatives,
+ all 5x faster.
+ See the Blitzy difference at blitzy.com.
+ That's blitzy.com.
+ Here's a harsh truth.
+ Your company is probably spending thousands or millions of dollars
+ on AI tools that are being massively underutilized.
+ Half of companies have AI tools,
+ but only 12% use them for business value.
+ Most employees are still using AI to summarize meeting notes.
+ If you're the one responsible for AI adoption at your company,
+ you need Section.
+ Section is a platform that helps you manage AI transformation
+ across your entire organization.
+ It coaches employees on real use cases,
+ tracks who's using AI for business impact
+ and shows you exactly where AI is
+ and isn't creating value.
+ The result?
+ You go from rolling out tools to driving measurable AI value.
+ Your employees move from meeting summaries
+ to solving actual business problems,
+ and you can prove the ROI.
+ Stop guessing if your AI investment is working.
+ Check out section at sectionai.com.
+ That's S-E-C-T-I-O-N-A-I.com.
+ This episode of the AI Daily Brief
+ is brought to you by HyperAgent,
+ where you run fleets of agents your team can manage together.
+ New users get $1,000 in inference.
+ Forget local agents and chat workflows
+ waiting on your laptop to be prompted.
+ HyperAgent deploys always-on agents in the cloud,
+ doing real work across the tools your team already uses.
+ Marketing's agent turns competitor moves into landing pages.
+ Sales' agent enriches leads, drafts emails,
+ and updates the CRM.
+ Ops' agent chases the paperwork and tracks the budget.
+ Every agent has access to shared context
+ and follows your rules about scope and approvals.
+ It's time you add agents that feel like teammates.
+ Hire yours at HyperAgent built by the team at Airtable.
+ Claim your $1,000 in inference at hyperagent.com.ai daily brief.
+ All of which gets us to the tweet,
+ which triggered the latest round of conversations,
+ not just on Twitter, but all across the actual AI policy world.
+ Dean Baal, again, former White House advisor
+ and now head of Strategic Futures at OpenAI,
+ began his tweet with mild praise of Kimmy K3,
+ recognizing that the model is pretty much on par
+ with where the US labs were in Q1 of this year.
+ Baal then expressed surprise
+ that the Chinese government was still allowing
+ open-weight models to be released,
+ given the risk posed by the new generation
+ of ultra-large models.
+ Continuing with a line that would cause
+ a ton of consternation, Dean wrote,
+ I suspect the reason they are
+ is that they know open-weight models
+ are effectively ungovernable,
+ and they simply like the overall cloak
+ of ungovernability open-weight models
+ creates over the whole of AI.
+ It's not a bad strategy.
+ It reminds me of James Scott's recounting
+ of the hill people in the art of not being governed,
+ still at the end open-weight models deter further AI capex.
+ The argument, of course,
+ being the same one that some market skeptics are making,
+ which is that if cheaper open-weights models
+ can do everything or close to everything
+ that Fable 5 and GPT 5.6 Sol can do,
+ why the heck would customers spend a premium
+ to buy those frontier models
+ when they can get the good enough models much cheaper?
+ And by extension,
+ if those customers weren't buying those models anymore,
+ why would investors continue to fund
+ the infrastructure build-out
+ that is powering those companies
+ and so on and so forth
+ until all of a sudden
+ we have a big market crash on our hands?
+ Now, of course,
+ there is the less dramatic reading of this
+ that doesn't necessarily implicate a full-on market crash,
+ but they can still recognize that on the margins,
+ the availability of near frontier open-weight models
+ would potentially dampen revenues
+ for open AI and Anthropic
+ and make further investment
+ in both model training,
+ as well as infrastructure build-out
+ to support model training more risky.
+ Dean then attempted to describe
+ where he saw this going, writing,
+ is full AI communism,
+ which is precisely what China proposes.
+ Rather than a market product,
+ AI is a public good,
+ which will ultimately be provided by the state
+ as a kind of digital public infrastructure.
+ Dean continues,
+ Perhaps this is the logical end state of things.
+ Nonetheless, I find myself surprised
+ to see supposed accelerationists
+ excited about such an outcome.
+ I think many of them just don't know what they're doing.
+ Many accelerationists do not view the creation
+ and serving of frontier models
+ as a legitimate business.
+ Turning back to the US ball continued,
+ and honestly, this is where he really stepped in it,
+ I would guess that the Trump administration
+ will at some point realize
+ that their best strategy here
+ would be to create large amounts of regulatory risk
+ around the use of open-weight Chinese models.
+ You don't need to quote-unquote ban open source.
+ You just need to direct every agency
+ to issue soft law that creates FUD.
+ For example,
+ a Federal Reserve advisory bulletin
+ found that there may be backdoors in Chinese AI models.
+ It needn't be that well justified.
+ You just create enough regulatory risk
+ that every regulated enterprise backs off.
+ You probably don't want to create
+ so much regulatory risk
+ that you scare off the hyperscalers
+ from serving Chinese models.
+ This will just drive startups
+ to sketch your providers.
+ There's a happy middle ground here.
+ I'd assume they will do some version of this.
+ Now, this was the section
+ that really had people's flabbers gasped.
+ As they took it as Dean effectively advocating
+ for some version of Operation Choke Point style tactics
+ to use the soft power of the government
+ to soft-ban these models
+ by creating so much risk around them
+ that companies would effectively
+ just ban themselves from using those models.
+ People jumped all over this.
+ Epic CEO Tim Sweeney responded,
+ picture an executive of a taco company
+ saying the sort of thing
+ about a new brand of tacos
+ coming onto the market,
+ speculating about the geopolitical
+ and societal disruptions
+ they anticipate as a result of advances in tacos.
+ Cloudflare engineer Dylan Mulroy wrote,
+ actually an insane thing
+ for OpenAI's head of strategy
+ to publicly say.
+ Deep Dish Enjoyer wrote,
+ LMAO, OpenAI admits it does not want
+ fully automated luxury space communism.
+ They are openly admitting
+ they want techno feudalism
+ where they own everything.
+ Entrepreneur Brian Atwood wrote,
+ This is grotesque.
+ I bet Dean is a good smart guy,
+ yet he is trying to convince you
+ that hosting an LLM in your basement,
+ private and sovereign,
+ as the Founding Fathers would have wished,
+ is dystopian communism.
+ Now, why would he do that?
+ And of course, as you can see,
+ a lot of the critique
+ is not just around Dean's argument,
+ it's the fact that Dean is now
+ an extension of OpenAI
+ making that argument.
+ Ben Norton wrote,
+ This guy who works at the poorly named
+ OpenAI, more accurately closed AI,
+ laments that China's open source models
+ could lead to, quote,
+ full AI communism,
+ precisely what China proposes,
+ rather than a market product,
+ AI is a public good,
+ which will ultimately be provided
+ by the state
+ as a kind of digital public infrastructure.
+ Norton continues,
+ This outcome would be objectively good
+ for the vast, vast majority of humanity,
+ but of course, people who work at OpenAI
+ claim it would be a dystopian hellscape
+ because they would not have a monopoly
+ on AI and could not become
+ trillionaire techno feudal lords
+ by forcing everyone to pay them
+ digital rents.
+ Others made the comparison
+ to Steve Ballmer comments on Linux
+ back from the beginning of this century.
+ Qualia script writes,
+ It's 2001.
+ Open source Linux is better than
+ Windows on servers.
+ Steve Ballmer calls Linux
+ cancer, communist,
+ and asks for it to be regulated away.
+ It's 2026.
+ Open source LLMs
+ are better than chat,
+ GPT and Claude on costs.
+ They are called decelerationist
+ and communist.
+ Now, after all of this,
+ Dean later came back,
+ both who recognize that he effectively
+ doesn't get to tweet the way
+ that he used to anymore
+ now that he works for OpenAI,
+ but also to try to tidy up a few points.
+ He tried to clarify
+ that this wasn't supposed to be
+ a prescription for the Trump
+ administration,
+ just what he sees as the most
+ likely scenario.
+ He also described
+ his longstanding support
+ of open source software
+ and gratefulness
+ for what it's brought to the world.
+ However, he concluded,
+ I think it's pretty clear
+ that we are approaching
+ the point I described,
+ the point where absent
+ a major technical safety breakthrough,
+ the national security implications
+ of frontier open weight model
+ distribution are simply too severe.
+ I don't think we're there yet,
+ but the direction of travel is clear
+ and an analyst must be honest about this.
+ Governments will realize
+ these risks eventually
+ and when they do,
+ they will have much lower
+ risk tolerance than I have.
+ We see this today
+ with the Trump administration,
+ which once proudly championed
+ open source AI
+ and now has a de facto
+ licensing regime for frontier AI
+ that I suspect will make it challenging
+ if they still end up enforcing it
+ to release the weights of models
+ of the mythos tier.
+ Every government will be safetyists
+ once they understand themselves
+ to be in the foxhole.
+ You don't have to like this,
+ I don't,
+ but it is the reality as I see it.
+ Now speaking of the Trump administration,
+ they were among the folks
+ to jump all over Dean around these posts.
+ In comments very clearly befitting
+ the importance of his role
+ under Secretary of War,
+ Emile Michael called Dean Ball
+ the supreme village idiot for AI.
+ While former AI czar David Sacks wrote,
+ I'm not sure whether Dean Ball
+ is confessing to a regulatory capture
+ strategy or simply predicting
+ this will happen,
+ he now says the latter.
+ Either way,
+ the weaponization of regulatory uncertainty
+ as a competitive tool
+ should be completely unacceptable.
+ He argues there's no need
+ to ban Chinese open source models,
+ just direct agencies to issue
+ soft law warnings
+ that create enough fud
+ so regulated enterprises back off.
+ Wrong, regulatory decisions
+ should always be well justified
+ and grounded in facts, logic,
+ and evidence,
+ not the deliberate exploitation
+ of fear and uncertainty.
+ Implementing a surreptitious policy
+ through manufactured doubt
+ rather than strong
+ and explicit justification
+ corrodes the rule of law
+ and invites future abuse
+ against anyone.
+ We are at a critical inflection point
+ in AI policy.
+ The leading closed labs
+ already a duopoly
+ in terms of AI model revenue
+ want the government to eliminate
+ their open source competition.
+ They have laid their cards on the table.
+ It's time for the rest of Silicon Valley,
+ the vast majority that still values
+ open competition to do the same.
+ Dean Ball clapped back,
+ the departments of war, transportation,
+ energy, agriculture, commerce,
+ NASA and Congress
+ have all blocked their employees
+ from using Chinese AI
+ citing ill justified claims of danger.
+ This already has sent a message
+ to regulated firms.
+ All of this happened
+ during this administration.
+ Now for whatever influence
+ David Sack still has at the White House,
+ he seems to not be in favor
+ of the sort of bannings
+ that are being discussed.
+ Talking about Chinese models
+ and their advanced capabilities, he said,
+ this is exactly what I predicted would happen.
+ I said Chinese models
+ would have advanced cyber capabilities
+ within a matter of months
+ and the only thing to do about it
+ was to use AI powered cyber defense
+ to protect our systems.
+ Trying to gatekeep models doesn't work.
+ Box's Erin Levy agrees saying
+ it's fairly obvious
+ that gatekeeping models
+ will not work at scale.
+ Competing in AI is too economically
+ and strategically important
+ for China at this point
+ and we've now crossed the Rubicon
+ where it's clear
+ that they can compete
+ at near frontier levels.
+ The solution to this
+ isn't to get more locked down
+ and slow your own ecosystem.
+ If that happens,
+ you can guarantee
+ that America loses the global battle.
+ The solution is to safely ensure
+ that you keep a high rate of progress
+ and drive diffusion
+ of the technology,
+ build out infrastructure,
+ enable US open source software
+ and more.
+ But given that almost everyone
+ seemed to be against Dean,
+ is there any merit there?
+ A few people tried to look
+ dispassionately at what he was saying
+ and given the benefit of the doubt.
+ Growing Daniel on Twitter wrote,
+ I'll take a hack at Dean's argument
+ without his conflict of interest.
+ What China is doing in AI
+ is called dumping.
+ They do it in literally every industry they enter.
+ The goal is to kill all local competition
+ by subsidizing their own industry
+ so they can produce at a loss.
+ Then once all competitors are dead,
+ they can charge profitable prices
+ and control the market.
+ In steel and automobiles,
+ this is just bad.
+ In AI,
+ it's potentially fatal to our country.
+ Unfortunately,
+ dumping is a very common argument
+ for rent seeking domestic firms
+ who want protection
+ and Dean's position here
+ seems to be a Jones act
+ of sorts for AI.
+ This has famously not saved
+ our shipbuilding industry
+ and I suspect it won't save our AI labs.
+ Stopping open weights is virtually impossible
+ so our only other option
+ is governments taking stakes in labs
+ and subsidizing our own industry.
+ Investor Hasib Qureshi also argued
+ that this is what Dean was trying to say.
+ That quote,
+ releasing the weights for a frontier-level model
+ is effectively dumping.
+ Former Meta Chief AI scientist John LeCun
+ pounced on Hasib writing,
+ so releasing Linux was dumping,
+ Apache, MySQL, PHP,
+ the open-source stack
+ of the mobile communication network
+ signal PyTorchLama,
+ to which Hasib responded,
+ To be clear, I don't agree with Dean
+ and I oppose his call for state intervention
+ but I'm explaining his argument
+ because most people refuse
+ to actually engage with it.
+ He has a point that
+ if Chinese frontier labs
+ are now being encouraged
+ to be totally open,
+ China now sees this
+ as explicitly part of their strategy.
+ I would not assume that
+ this is altruistic but calculated
+ unlike the traditional OSSU layout here.
+ If all of the Chinese labs
+ are extremely unprofitable
+ and they are,
+ and they are encouraged
+ at a state level
+ to remain unprofitable,
+ it is likely to have
+ large and reverberating
+ economic consequences
+ on USAI as well.
+ That's Dean's point
+ and I think it's worth taking seriously.
+ I don't think China is encouraging
+ this strategy
+ with the same spirit
+ of the people who built Linux.
+ Now, Philippe Lemoine points out,
+ and this is exactly
+ why we're having this conversation
+ on this show as well,
+ that this is not just
+ a Twitter debate
+ but it's a conversation
+ that is happening
+ in the halls of power right now.
+ Philippe writes,
+ It's now clear that
+ Dean Ball's post wasn't random
+ but was a public manifestation
+ of a debate that is currently
+ taking place
+ within the Trump administration
+ about how to deal
+ with Chinese open weights models,
+ pitting advocates of competition
+ who probably have
+ their own ulterior motives
+ but still defend
+ the US consumer in this case
+ against an unholy coalition
+ of industry lobbyists,
+ geopolitics-pilled people
+ and AGI-pilled people
+ who are trying to quote-unquote
+ protect US consumers
+ from the benefits of competition
+ by variously arguing
+ that not doing something
+ to hinder the deployment
+ of Chinese open weights models
+ in the US
+ would destroy American AI companies,
+ empower the CCP
+ to harm Americans
+ or push back the advent
+ of the machine god.
+ Now, to the extent
+ that we are trying
+ to take the conversation forward
+ in a weekend piece
+ for the American Enterprise Institute,
+ Ryan Fedeseek added
+ an important aspect
+ to the conversation.
+ He noted that, yes,
+ the conventional wisdom
+ around how far behind
+ the US-Chinese frontier models were
+ has changed,
+ but that there is a very important part
+ of this competition
+ that goes beyond model benchmarks
+ that we need to consider.
+ He noted that while China
+ may have frontier training capabilities,
+ they don't have anywhere near
+ close enough compute
+ to serve their models to the world,
+ who, by the way,
+ spent two years
+ as the State Department's
+ main contact
+ with the Chinese Embassy,
+ quote,
+ Washington would do well
+ to stop measuring victory
+ in the AI race
+ according to model benchmarks,
+ where China has achieved
+ semi-permanent parity
+ and start paying attention
+ to the industrial variables,
+ which will determine
+ which AI labs are capable
+ of serving intelligence
+ to global publics.
+ These factors include
+ high bandwidth memory production,
+ advanced packaging capacity,
+ data center construction timelines,
+ and resilient energy grids
+ with spare capacity
+ in high uptime.
+ He concluded,
+ Kimmy K-3
+ is an important milestone
+ in the US-China AI competition
+ and Americans should treat it as one,
+ not as a sputnik moment
+ demanding panic,
+ but as the formal close
+ of the era
+ in which model capability alone
+ conferred lasting advantage.
+ Frontier AI is quickly
+ becoming a commons.
+ The race now
+ is to build industrial systems
+ that put the frontier to work.
+ Now reinforcing the point
+ that China is severely
+ compute constrained,
+ Moonshot pulled Kimmy K-3
+ over the weekend.
+ On Sunday, they posted,
+ Kimmy K-3 has received
+ far more love than we expected
+ and our GPUs are feeling it.
+ Over the past 48 hours,
+ demand has pushed
+ close to the limits
+ of our current capacity.
+ To protect the experience
+ of existing subscribers,
+ we're temporarily pausing
+ new subscriptions
+ and prioritizing compute
+ for current members.
+ We're adding capacity
+ as fast as we can
+ and we'll reopen
+ new subscription spots
+ and batches.
+ Now running out of compute
+ is pretty normal
+ following a major model release
+ in the West,
+ but this is the first time
+ we've seen it
+ from a Chinese lab.
+ Moonshot made the curious
+ decision to launch
+ entirely on their own servers
+ while previous high-profile
+ Chinese releases
+ had day one inference
+ partners in the US.
+ Now the interesting part
+ is what this says
+ about just how constrained
+ the Chinese labs
+ actually are on inference.
+ Only hardcore AI enthusiasts
+ were clearing the weekend
+ to test the latest
+ Chinese model
+ and that was still
+ enough to knock over their servers.
+ It suggests in short
+ that Chinese labs
+ don't have anywhere
+ near enough capacity
+ to serve AI models
+ to the world.
+ Council on Foreign Relations
+ Chris McGuire jumped
+ all over this, writing
+ Kimmy admits
+ it is compute constrained
+ and is struggling
+ to serve K3.
+ The same thing happened
+ to DeepSeq
+ when it released V4.
+ When Chinese AI labs
+ say their number one
+ constraint is compute,
+ they aren't lying.
+ They don't have enough
+ chips to serve the model
+ at scale to customers.
+ If we stop China
+ from buying,
+ smuggling,
+ or remotely accessing
+ AI chips,
+ it will be harder
+ for them to either
+ make advanced AI models
+ or serve them at scale.
+ But instead,
+ we are selling them
+ the compute capacity
+ they need most
+ and have loosened restrictions
+ on smuggling
+ and remote access.
+ We are making it easier
+ for China to catch up
+ and are acting
+ surprised
+ when they release
+ good models.
+ The good news is
+ if we start closing
+ loopholes
+ in our export control
+ policies
+ and enforcing them
+ more vigorously,
+ we can still constrain
+ China's future
+ AI capabilities.
+ But this is the consequence
+ of our non-serious
+ approach to export controls
+ over the past 18 months.
+ Family Office Investor
+ Ricky Ho wrote,
+ The most important takeaway
+ is not that
+ Kimmy K3 is good.
+ We already knew that.
+ The real signal is that
+ demand for frontier AI
+ is now being constrained
+ by compute
+ rather than customers.
+ Moonshot is effectively
+ saying that it has found
+ product market fit
+ faster than it can deploy GPUs.
+ Ironically,
+ this also highlights
+ the biggest misconceptions
+ surrounding open-weight models.
+ While the model
+ weights may be free,
+ inference is not.
+ Serving millions of users
+ still requires
+ enormous investments
+ in GPU,
+ networking,
+ power,
+ memory,
+ and data center
+ infrastructure.
+ Open weights
+ eliminate software
+ licensing costs.
+ They do not
+ eliminate physics.
+ Now when push comes to
+ shove,
+ I'm not sure that I think
+ that this is really the moment
+ where anything dramatic shifts.
+ I think we are still
+ heading towards the crescendo
+ rather than having reached it
+ when it comes to policy
+ regarding Chinese open-weight models.
+ I think that pretty soon
+ we'll get an announcement
+ of Fable 5.1 or GPT-6
+ and all the attention
+ will shift once again.
+ Professor Ethan Malik
+ put it this way,
+ regardless of what you think
+ the answer should be,
+ the inherent tension
+ between a growing U.S. regulatory
+ and approval regime
+ for frontier closed models
+ and the lack of one
+ for open models
+ is going to need to be resolved
+ in some way or another
+ in the near future
+ with large consequences.
+ Which way do things go?
+ One, approval regime
+ for all models official
+ and unofficial
+ make life difficult
+ for AI labs that do not do it.
+ Two, no required approval
+ or true voluntary.
+ Three, approval for closed
+ weights not open,
+ that's the day or it's reverse.
+ Four, bless or ban
+ individual labs.
+ Now if you need any more
+ evidence that this
+ conversation is going to get
+ loud or not quieter,
+ CNBC's Jim Kramer
+ waited into it
+ saying we must not let
+ our companies use these
+ Chinese models
+ to save a few bucks.
+ Open AI and Anthropic are correct.
+ This is vital national security.
+ One way or another
+ this is going to impact
+ how we build and use AI.
+ So much of our conversation
+ this year has been about
+ how to deal with the rising
+ costs of AI
+ and how to design
+ more complex architectures
+ that can route tasks
+ to different models.
+ Different policy decisions
+ or lack thereof
+ could point in entirely
+ different directions
+ and market incentives
+ for different models
+ with huge consequences to come.
+ Even if you are just using AI
+ as a consumer
+ even if you are just thinking
+ about it
+ in terms of how you're going
+ to help your businesses
+ AI strategy
+ like it or not
+ this conversation
+ is going to impact you
+ and so now is a good time
+ to start paying attention.
+ Of course for those of you
+ who have made it this far
+ you are getting
+ gold stars in paying
+ attention
+ and I appreciate you.
+ Thanks as always for
+ listening or watching
+ and until next time
+ peace.
+ you
