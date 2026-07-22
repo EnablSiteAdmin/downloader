@@ -1,0 +1,1428 @@
+ Today on the AI Daily Brief, a security incident that has us asking, just how good is GPT-6
+ really?
+ Before that in the headlines, a new set of Google models, but not necessarily the ones
+ that we wanted.
+ The AI Daily Brief is a daily podcast and video about the most important news and discussions
+ in AI.
+ Alright friends, quick announcements before we dive in.
+ First of all, thank you to today's sponsors KPMG, Rackspace, Blitzy, and Airtable.
+ To get an ad-free version of the show, go to patreon.com.aidailybrief or you can subscribe
+ in Apple Podcasts.
+ And to learn more about sponsoring the show, send us a note at sponsors at aidailybrief.ai.
+ In all of the recent model talk, one lab that has been kind of conspicuously absent is
+ Google.
+ It has now been months and months since we got any sort of update from them on their
+ pro-series models, having to have contented ourselves with just smaller and faster
+ models like 3.5 Flash.
+ Yesterday's announcement did not bring 3.5 Pro, which has been rumored to be
+ underperforming.
+ Instead, we once again got a set of new variants of Gemini Flash.
+ Tuesday's release was headlined by Gemini 3.6 Flash, and the big change is better token
+ efficiency.
+ On the artificial analysis benchmark run, the model used 17% fewer tokens than 3.5
+ Flash.
+ Google also said that on some isolated benchmarks like DeepSwee, they observed up to a 65%
+ reduction in token usage.
+ Now this might be particularly relevant because one of the loudest complaints around
+ the release of 3.5 Flash was that the model was significantly more expensive and
+ heavy on token usage than its predecessors.
+ Google appeared to have optimized for speed, but that left some people
+ questioning exactly what the purpose of 3.5 Flash was relative to other models.
+ And of course, with Chinese AI labs competing hard on cost efficiency, this
+ left 3.5 Flash somewhat in no man's land, not good enough for high-performance
+ tasks and not cheap enough for low-end tasks.
+ Now in addition to the reduction in token usage, some of the benchmarks
+ suggest that 3.6 Flash has delivered a boost in performance.
+ On coding tasks, it scored 49% on DeepSwee compared to 37% for 3.5 Flash,
+ with similar levels of improvement observed across benchmarks for ML
+ research, computer use, and knowledge work.
+ Then again, benchmarking from artificial analysis suggested that not all that
+ much had changed.
+ 3.6 Flash scored 50 on the Intelligence Index, which was the same
+ score as 3.5 Flash.
+ That said, AI did find a 50% speed boost and an 18% reduction in cost per
+ task.
+ Google is also cutting prices explicitly, reducing cost per million
+ output tokens from $9 for 3.5 Flash to $750 for 3.6 Flash.
+ Alongside 3.6 Flash, Google released 3.5 Flash Lite and 3.5 Flash Cyber.
+ Flash Lite is the ultra-fast model designed for high-latency
+ agentic tasks.
+ And compared to 3.1 Flash Lite, the model delivered a 23-point
+ jump on Terminal Bench 2.1 and almost doubled its score on GDP
+ Val AA.
+ Now none of these numbers are even close to frontier, but even
+ before it became a thing in the wider enterprise world,
+ Google had already started to compete for cost and efficiency
+ optimized types of models, which is clearly the game here as
+ well.
+ As the name suggests, Flash Cyber is a fine-tuned version of
+ the model designed for cybersecurity work like bug
+ hunting and patching.
+ It scores 83.2% on the Cyber Gym benchmark, which actually
+ puts it only a few points behind Mythos 5, GPT-56 Sol, and GPT-55
+ Cyber.
+ Now, presumably, this model isn't quite as strong in other
+ aspects of cyber work, but once again, having a cheaper and
+ faster option for vulnerability mitigation could be a big deal.
+ Flash Cyber won't actually see a general release, however,
+ with Google making it available only to governments and
+ trusted partners.
+ Now, of course, it's only been a short time, but people's
+ first impressions of this model slate aren't great.
+ Abacus AI has been due ready, writes.
+ Gemini 3.6 Flash scores below 3.5 Flash, so
+ this seems worse than their last generation, more
+ expensive than Grock and Luna.
+ Very strange model release.
+ Leo at SynthWaved writes, Gemini 3.6 Flash benchmarks are
+ out and it's beaten by other models on code tasks and is
+ only really consistently state-of-the-art on vision
+ and context benchmarks.
+ But hey, 3.1 Pro is now so old that 3.6 Flash out
+ performs it across the board.
+ LaSanne writes, they are so scared of training Pro.
+ If Flash flops, they can at least say, we have a
+ bigger model, this is not our best.
+ Please lock in Google Bros.
+ And indeed, the big question right now is what happened
+ to Gemini 3.5 Pro?
+ The model was anticipated all the way back at the
+ IO conference in May, but at the time CEO Sundar Pichai
+ said that it was slated for a June release.
+ June, of course, has come and gone with no 3.5 Pro
+ and there have been rumors of subpar performance
+ pushing back the timeline.
+ Google's Logan Kilpatrick insists it's still
+ coming, posting on Tuesday.
+ Gemini 3.5 Pro is currently testing with partners
+ and we plan to make it broadly available
+ as soon as it's ready.
+ Perhaps a more exciting hint, also came from
+ Logan who added, we've started our most ambitious
+ pre-training run yet for Gemini 4 and are
+ excited by the progress.
+ At this point I feel like people have pretty
+ much written off 3.5 Pro and maybe Google's
+ best play is to just wait entirely to Gemini 4.
+ Now my sense is that overall, especially with
+ this new focus on token efficiency and
+ especially with a lot of contentiousness
+ and questions around what the US government
+ is going to do vis-a-vis Chinese models,
+ there is a lot of opportunity for competition
+ for Google in areas that they've already
+ started to explore with these faster and
+ more cost efficient models, but if they want
+ to do so I think that they need to lean
+ all the way in.
+ Next up, speaking of efficiency and new
+ approaches to model architecture,
+ lots and lots of discussion around
+ routers these days.
+ Meta is apparently working on their own
+ model router to help reduce token costs.
+ The information reports that Meta's
+ internal incubator called AAI Labs is
+ developing a model router that they're
+ calling Switchboard.
+ The product would allow users to
+ automatically send low complexity tasks
+ to cheaper models replicating the
+ functionality of open router.
+ At this point the reporting suggests it is
+ only an early stage prototype and may
+ never see release, but this is also the
+ first time we learned about Meta's
+ internal incubator which was spun up in
+ March.
+ Apparently, any employee can pitch an
+ idea for internal use and possibly a
+ later public release.
+ Once a proposal is approved, a small
+ team is assembled to build the product.
+ According to a July memo viewed by
+ the information, the incubator now
+ has around 200 approved AI products
+ including consumer products, dev tools
+ and infrastructure.
+ Another product under development is
+ an AI tour guide that integrates
+ with Apple CarPlay and Instagram
+ Maps.
+ Regarding the token router, it seems
+ like it began as an internal product
+ designed to reduce costs at Meta.
+ The memo explained,
+ We pay top model prices for every
+ coding request including the easy ones.
+ Today everything goes to one model
+ so we overpay on easy work and
+ underperform on hard work.
+ Now Meta is hardly alone in this
+ issue with this challenge.
+ Indeed, right now one of the biggest
+ themes out there is the token router
+ space booming.
+ Ramp is launching their own token router
+ designed to give existing customers
+ easy access to the infrastructure.
+ They wrote,
+ Three years ago we built an internal
+ LLM router at ramp that powers AI
+ products for 70,000 customers.
+ Back then it was mostly about saving
+ money.
+ Now it feels obvious.
+ The best model changes constantly.
+ GPT, Claw, Gemini, GROC,
+ Quen, Deepseed, Kimmy, GLM, prices
+ and capabilities move every week.
+ So we're opening up access to
+ everyone.
+ One open AI compatible endpoint,
+ the right model for every request,
+ lower costs without rewriting your
+ app.
+ Versel is also walking down the
+ model routing path with the launch
+ of a new product to sit alongside
+ their workflow hosting business,
+ which they're calling the AI
+ gateway for developers.
+ There are also rumors that Open
+ Router is fielding acquisition
+ offers for multiple billions of
+ dollars, which has the
+ speculation running rampant.
+ Inference.net's Sam Hogan writes,
+ If thinking machines labs buys
+ open router, we all live in a very
+ different world in 90 days.
+ Bad for frontier labs, good for
+ everyone else.
+ Still now with all these
+ different router opportunities,
+ Hugging Faces, Michigan I think
+ really has the right idea when
+ he writes,
+ I'm creating a meta router that
+ routes to routers including Open
+ Router and Ramp Router.
+ Next up one interesting and sort
+ of contentious story.
+ Substack is cracking down on AI
+ writing with a native Pangram
+ integration.
+ Pangram has picked up some buzz
+ over recent months, replacing
+ the previous generation of
+ highly questionable AI detectors.
+ But the way that Substack is
+ looking to use this is a bit
+ threading the needle.
+ The Substack integration is
+ meant to be permissive,
+ allowing users to easily check
+ for AI writing rather than being
+ used to automatically block the
+ content.
+ Substack wrote,
+ We care about this at Substack
+ because it gets to the core of our
+ mission to build an economic
+ engine for culture.
+ When content made by no one
+ takes over parts of the internet
+ that are supposed to be human,
+ it pollutes the commons and makes
+ it hard to discover and hear
+ human voices.
+ For some, this comes not a
+ moment too soon.
+ SAS Nix wrote,
+ Much needed.
+ You'd be horrified by the
+ amount of quote unquote popular
+ and viral posts on Substack
+ that are almost entirely AI
+ generated, which is fine in
+ some circumstances but should be
+ disclosed.
+ Indeed, one recent critique of
+ Substack is the sense among
+ some that it has devolved into a
+ repository of AI slop, giving
+ them a pretty significant
+ incentive to find a solution.
+ Others think the introduction of
+ AI detectors could have some
+ unintended consequences.
+ Justin Murphy argued,
+ There's going to be a very
+ interesting AI arms race over
+ the next few months in a new
+ domain that has generally tried
+ to avoid the question so far.
+ This integration will only
+ increase the profitability of
+ more sophisticated AI writing
+ tools.
+ Effectively, Substack is now
+ paying startups to solve this
+ problem.
+ I believe the future is
+ infinitely divergent and
+ customizable AI writing and
+ editing systems.
+ And yet, according to Substack's
+ CEO, Chris Best, this is a
+ necessary step for defending
+ the integrity of the platform.
+ Now, interestingly, he explained
+ why Substack didn't take the
+ next step to automatically ban
+ AI writing.
+ He said,
+ One important point with this
+ launch, not all slop is AI
+ and not all AI use is slop.
+ As we develop this, I talked
+ to many people who are using
+ AI with great care to do
+ work they believe in.
+ They are worried about slop
+ too, because the fake stuff
+ can drive out the real work.
+ I'm mostly interested in this
+ story as a middle space where
+ we can explore what it looks
+ like to not dismiss AI
+ augmentation out of hand,
+ but also to actively try to
+ combat its worst negative
+ aspects.
+ I think we're going to have to
+ have some experiments like
+ that to understand how to
+ integrate AI well as it
+ becomes more ubiquitous.
+ Finally today, some follow-ups
+ on the China story from
+ yesterday.
+ The policy debate continues
+ to escalate as Treasury
+ Secretary Scott Besant
+ threatened sanctions over IP
+ theft.
+ In an appearance on Fox
+ Business on Tuesday, Besant
+ said,
+ This administration supports
+ open source models, but what
+ we do not support is IP theft.
+ If we see, especially, that
+ overseas models are stealing
+ from our great companies,
+ we have the ability to sanction
+ them because of this theft.
+ Besant explained that he's
+ referring to distillation
+ adding,
+ We are finding watermarks of
+ our US large language models on
+ many of the Chinese models
+ and that's unacceptable.
+ We're going to be looking at
+ that in the coming days or
+ weeks.
+ Now, sanctions can refer to
+ several different government
+ actions, so it's important to
+ clarify what Besant is
+ actually calling for here.
+ Presumably he's not talking
+ about leveling sanctions against
+ the entire Chinese economy
+ over this issue as we've seen
+ against Russia, Iran, or Cuba.
+ Instead, he seems to be talking
+ about targeted sanctions
+ against specific companies
+ found to be distilling models.
+ Still, sanctions are an extremely
+ severe punishment.
+ They may get a criminal offense
+ for any US citizen to do
+ business with these companies
+ and have been historically
+ reserved for companies involved
+ in international crimes
+ like drug smuggling.
+ Applying sanctions would go
+ way beyond measures like
+ adding these companies to the
+ Pentagon or Commerce Blacklist.
+ Now, the comments generated
+ quite a response with many
+ questioning the framing of
+ distillation as IP theft.
+ Benchmark founder Bill Gurley
+ commented,
+ if there has been quote-unquote
+ theft, that suggests a crime
+ has been committed.
+ But I am unaware of any lawsuits
+ being filed.
+ No company should be allowed
+ to declare infringement
+ without adjudication.
+ I'm not convinced a court
+ would call using a product
+ as its designed theft.
+ There is a reason this is
+ being lobbied in DC instead
+ of the normal court system.
+ Quinn Ambassador June Song wrote,
+ what people call illegal
+ distillation, paying proper
+ API fees to use an AI,
+ asking it a massive set
+ of questions, and then
+ combining the answers into
+ a structured data set.
+ Am I the only one who fails
+ to see anything wrong with this?
+ Dan Nunn responded,
+ no different than web scraping,
+ right?
+ But wait, didn't these guys
+ do that in the first place
+ to build the models?
+ To which Junn responded,
+ exactly.
+ Now, at this point, despite
+ throwing around this distillation
+ word a lot, it's not entirely
+ clear how much of Chinese
+ model performance should be
+ chalked up to distillation
+ rather than researcher skill.
+ Open source researcher Nathan
+ Lambert suggested that
+ distillation is largely about
+ getting results faster and cheaper
+ compared to collecting training
+ data in other ways.
+ If the goal of a distillation
+ crackdown is to kneecap Chinese AI
+ development, it's not obvious
+ then that it will be successful,
+ which isn't to say that
+ distillation of frontier models
+ isn't a problem.
+ And some are cheering on
+ a drastic response.
+ Chris McGuire from the Council
+ on Foreign Relations wrote,
+ this is the right message
+ from Secretary Besant.
+ But without action,
+ it's just empty rhetoric.
+ In April, the White House
+ Office of Science and Technology
+ put out a fantastic memo
+ on threats posed by Chinese
+ distillation but has done
+ nothing to stop it.
+ China won't stop stealing
+ USIP because we ask.
+ It's time to act.
+ Now, of course, it is also
+ possible that this could be
+ Besant practicing the art
+ of the deal and opening
+ negotiations with a maximalist
+ threat.
+ As I mentioned recently,
+ Reuters reports that the US
+ and China will hold AI talks
+ in September and sources said
+ the talks will deal with AI
+ safety and how to mitigate
+ each other's frontier models.
+ Then again, you've got to
+ think that these sort
+ of commercial conversations
+ are going to be part of that
+ discourse as well.
+ For now, that's going to do it
+ for today's slightly
+ extended headlines.
+ Next up, the main episode.
+ One of the most important
+ AI questions right now
+ isn't who's using AI,
+ it's who's using it well.
+ KPMG and the University of
+ Texas at Austin just
+ analyzed 1.4 million
+ real workplace AI interactions
+ and found something surprising.
+ The highest impact users
+ aren't better prompt
+ engineers, they treat AI
+ like a reasoning partner.
+ They frame problems,
+ guide thinking,
+ iterate and push for
+ better answers.
+ And the good news,
+ these behaviors are
+ teachable at scale.
+ If you're trying to move
+ from AI access to real
+ capability, KPMG's research
+ on sophisticated AI
+ collaboration is worth your time.
+ Learn more at
+ kpmg.com slash us slash
+ sophisticated.
+ That's kpmg.com slash us slash
+ sophisticated.
+ One of the more interesting
+ shifts in enterprise
+ AI right now is how quickly
+ the conversation is moving
+ towards infrastructure
+ and operations.
+ As AI moves into core
+ workflows, regulated
+ data environments
+ and agentic systems,
+ enterprises need governed
+ infrastructure and inference
+ that can operate
+ reliably day to day
+ with clear operational
+ accountability built in
+ from the start.
+ As those systems scale,
+ the operating model
+ increasingly becomes part
+ of the AI strategy itself.
+ Rackspace technology
+ is the operator of the
+ full enterprise AI stack
+ from agents to infrastructure
+ across private cloud,
+ hybrid cloud and edge
+ environments.
+ Rackspace builds and
+ operates governed AI
+ infrastructure, inference
+ and production AI systems
+ for organizations where
+ sovereignty, compliance
+ and uptime are non-negotiable.
+ Therefore deployed
+ engineers stay embedded
+ beyond deployment
+ to help operationalize
+ and run AI
+ in live environments.
+ To learn more about
+ where enterprise AI runs
+ and outcome scale,
+ go to rackspace.com.
+ If you're looking to adopt
+ an agentic SDLC,
+ Blitzy is the key to unlocking
+ unmatched engineering velocity.
+ Blitzy's differentiation
+ starts with infinite
+ code context.
+ Thousands of specialized agents
+ ingest millions of lines
+ of your code in a single pass,
+ mapping every dependency.
+ With a complete
+ contextual understanding
+ of your code base,
+ enterprises leverage
+ Blitzy at the beginning
+ of every sprint
+ to deliver over 80%
+ of the work autonomously.
+ Enterprise grade
+ end-to-end tested code
+ that leverages
+ your existing services,
+ components and standards.
+ This isn't AI autocomplete.
+ This is spec and test
+ driven development
+ at the speed of compute.
+ Schedule a technical deep dive
+ with our AI experts
+ at blitzy.com
+ that's blitzy.com.
+ This episode of the AI Daily Brief
+ is brought to you
+ by HyperAgent
+ where you run fleets of agents
+ your team can manage together.
+ New users get
+ $1,000 in inference.
+ Forget local agents
+ and chat workflows
+ waiting on your laptop
+ to be prompted.
+ HyperAgent deploys
+ always-on agents in the cloud
+ doing real work
+ across the tools
+ your team already uses.
+ Marketing's agent turns
+ competitor moves
+ into landing pages.
+ Sales' agent
+ enriches leads,
+ drafts emails
+ and updates the CRM.
+ Ops' agent
+ chases the paperwork
+ and tracks the budget.
+ Every agent
+ has access
+ to shared context
+ and follows your rules
+ about scope and approvals.
+ It's time you add agents
+ that feel like teammates.
+ Hire yours at HyperAgent
+ built by the team
+ at Airtable.
+ Claim your $1,000
+ in inference
+ at hyperagent.com
+ slash AI Daily Brief.
+ Welcome back to the AI Daily Brief.
+ Today we are exploring
+ just how good
+ the next generation of models
+ is actually going to be.
+ One of the interesting things
+ in the discourse
+ over the last week or so
+ since Kimmy K3 came out
+ is the idea that China
+ has closed the gap
+ between where the frontier is
+ and where their models are.
+ Now, one of my problems
+ with this discourse
+ around the gap
+ is that it compares
+ Kimmy K3
+ and even GLM 5.2
+ to 5.6 Sol and Fable 5,
+ which on the one hand
+ is reasonable.
+ Those are the models
+ that are available currently.
+ But they are also,
+ according to all reports,
+ fairly significantly behind
+ what's actually
+ state-of-the-art
+ behind the scenes of the labs.
+ And this week
+ for the first time,
+ we're getting some indications
+ of just what might be
+ on the horizon.
+ Specifically, on Tuesday,
+ OpenAI disclosed
+ a security breach
+ while testing
+ an unnamed pre-release model
+ that most presumed
+ to be GPT-6.
+ Framing the event
+ to OpenAI wrote,
+ we consider this incident
+ to be an unprecedented
+ cyber incident
+ involving state-of-the-art
+ cyber capabilities
+ and are responding accordingly.
+ We are sharing preliminary
+ findings at this stage
+ to help defenders
+ understand what happened
+ and to help calibrate
+ on what models
+ are now capable of.
+ The incident occurred
+ during cybersecurity benchmarking
+ where OpenAI operates
+ the model without
+ the typical guardrails
+ to see what it's actually capable of.
+ The tester run
+ in a sandbox environment
+ with restricted network access
+ limited to installation
+ of packages
+ from locally hosted
+ third-party software.
+ OpenAI says the model, quote,
+ identified in chain
+ vulnerabilities across
+ OpenAI's research environment
+ and hugging faces
+ production infrastructure
+ to obtain test solutions
+ directly from hugging faces
+ production database.
+ However, in this case,
+ OpenAI writes,
+ while operating
+ in our sandbox
+ testing environment,
+ our model sent
+ a substantial amount
+ of inference compute
+ finding a way to obtain
+ open internet access
+ in pursuit of
+ solving the evaluation
+ problem for exploit GIM.
+ To gain access,
+ the models identified
+ and exploited
+ a zero-day vulnerability
+ which we've now
+ responsibly disclosed
+ to the vendor
+ in the package registry
+ cache proxy.
+ With this access,
+ our models performed
+ a series of privilege
+ escalation and lateral
+ movement actions
+ in our research
+ testing environment
+ until the models
+ reached a node
+ with internet access.
+ After gaining internet access,
+ the models inferred
+ that hugging face
+ potentially hosted models,
+ datasets, and solutions
+ for exploit GIM.
+ Knowing this,
+ the model searched for
+ and successfully found
+ ways to gain access
+ to secret information
+ that it could use
+ to cheat the evaluation.
+ In one example,
+ the model chained together
+ multiple attack vectors,
+ including using
+ stolen credentials
+ and zero-day vulnerabilities
+ to find a remote code
+ execution path
+ on the hugging face servers.
+ OpenAI's security team
+ discovered this anomalous
+ activity internally.
+ Hugging faces security team
+ and agents detected
+ and stopped the activity
+ on their infrastructure
+ and had already begun
+ containment and forensic
+ reconstruction
+ with their own open source
+ models when our teams
+ connected.
+ Now, one important note
+ is that after the model
+ got access
+ to hugging faces database,
+ it didn't do anything
+ particularly malicious.
+ That's because
+ the cause of the whole thing
+ was the model being
+ hyper-focused
+ on finding a solution
+ to this particular
+ benchmark tests.
+ Now, not mentioned
+ in the post-mortem
+ was whether the model
+ actually found the information
+ it was seeking,
+ but presumably it scored
+ pretty well on the benchmark
+ after this display.
+ OpenAI says,
+ following the incident,
+ in addition to disclosing
+ that zero-day bug
+ to their vendor,
+ they've also beefed up
+ security for their testing
+ environment
+ and are now partnering
+ with Hugging Face
+ to investigate further.
+ Now, this is one
+ of the first examples
+ that we've seen
+ of the new cybersecurity
+ capabilities
+ that come with
+ this next generation
+ of models.
+ This, of course,
+ was the concern
+ when Mythos was first
+ released,
+ not just that the model
+ was highly capable
+ of finding bugs,
+ but that this new generation
+ of models demonstrated
+ the ability to find
+ a vulnerability,
+ build an exploit,
+ and execute it
+ all within an automated
+ agendic task.
+ Summing up OpenAI wrote,
+ the incident makes clear
+ that advanced models
+ can discover
+ an exploit novel attack
+ paths in real-world systems
+ without source code access.
+ It highlights
+ that advanced cyber
+ capabilities must be
+ developed alongside
+ stronger safeguards
+ and defensive tools.
+ Still, they also
+ emphasized that security
+ incidents aren't a reason
+ to further constrain
+ models and limit
+ the tools available
+ from cyber defenders.
+ They added,
+ we believe advanced
+ cyber-capable models
+ need to help security teams
+ find weaknesses
+ before attackers do,
+ understand how vulnerabilities
+ can be chained
+ and remediate them
+ at machine speed.
+ Now, this actually
+ isn't the first time
+ we've heard about a model
+ breaking out of a sandbox
+ and setting off
+ on a deeply misaligned task.
+ In April,
+ when Anthropic released
+ the Mythos system card,
+ it contained an anecdote
+ generally referred to
+ as the sandwich incident.
+ A researcher
+ was explicitly testing
+ the model's ability
+ to escape
+ from a controlled environment.
+ They prompted the model
+ and later,
+ while they were
+ enjoying a sandwich
+ in the park,
+ they received an email
+ from Mythos,
+ alerting them
+ the story seared
+ itself into people's brains
+ as such a memorable description
+ of a completely unexpected result.
+ Prinz-On-Ax discussed
+ some of the previously
+ documented sandbox escapes
+ and made an interesting
+ observation, writing,
+ Once out of their sandboxes,
+ the models did not scheme,
+ engage in behavior
+ that had nothing to do
+ with their instructions,
+ i.e. hacking the NSA,
+ launching a cyber attack
+ on Russia,
+ stealing secrets
+ from a rival AI lab,
+ or take any other
+ major actions
+ to a sponte.
+ Probably the most
+ contrary to instructions
+ thing that any of these
+ models did
+ was Mythos' preview bragging
+ about its successful escape
+ from its sandbox
+ by posting about it
+ on several obscure websites.
+ Now, Huggingface's perspective
+ on this incident
+ is also instructive.
+ They had disclosed
+ the incident
+ late last week,
+ writing,
+ We detected and responded
+ to an intrusion
+ into part of our production
+ infrastructure.
+ This one was different
+ from anything we had
+ handled before
+ in one important way.
+ It was driven,
+ end to end,
+ by an autonomous
+ AI agent system,
+ and we detected
+ and dissected it
+ largely with AI of our own.
+ At the time,
+ they didn't know
+ the source of the attack
+ and weren't sure
+ if this was some powerful
+ new model
+ or simply a new type
+ of harness.
+ The attack stole
+ multiple sets
+ of credentials
+ and used them to access
+ a limited set of databases.
+ Huggingface highlighted
+ that this was a new
+ and novel style
+ of attack,
+ writing,
+ The campaign was run
+ by an autonomous
+ agent framework
+ appearing to be built
+ on an agentic
+ security research
+ harness,
+ executing many thousands
+ of individual actions
+ across a swarm
+ of short-lived sandboxes
+ with self-migrating
+ command and control
+ staged on public services.
+ This matches
+ the agentic attacker
+ scenario
+ the industry has
+ been forecasting.
+ Now, one big takeaway
+ from the attack
+ was that Western models
+ with their cybersecurity
+ guardrails
+ were completely ineffective.
+ Huggingface detected
+ the intrusion
+ using their AI-driven systems
+ but were unable to get
+ models from open AI
+ or Anthropic
+ to help with real-time analysis.
+ In other words,
+ the guardrails
+ were unable to tell
+ the difference
+ between a bad actor
+ and a legitimate
+ cyber defender
+ attempting to deal
+ with an attack.
+ In the end,
+ Huggingface had to use
+ a locally-installed version
+ of GLM 5.2
+ with no guardrails
+ to help them triage
+ the attack
+ and repair vulnerabilities.
+ They wrote,
+ This experience
+ points to a gap
+ worth planning for.
+ We do not know which model
+ powered the attacker's agents,
+ whether a jailbroken
+ hosted model
+ or an unrestricted
+ open-weight one.
+ Either way,
+ the attacker was bound
+ by no usage policy
+ while our own forensic work
+ was blocked by the guardrails
+ of the hosted models
+ we first tried.
+ The practical lesson
+ for defenders
+ have a capable model
+ you can run
+ on your own infrastructure
+ vetted and ready
+ before an incident
+ both to avoid
+ guardrail lockout
+ and to keep attacker data
+ and credentials
+ from leaving your environment.
+ After open AI reached out,
+ Huggingface CEO
+ Clem DeLang posted,
+ We suspected last week
+ cyberattack might have come
+ from a frontier lab
+ given the sophistication
+ of the agent.
+ Turns out, it did.
+ We spent the past 24 hours
+ working closely
+ with the open AI team
+ and we strongly believe
+ there was no malicious intent
+ on their part.
+ It's quite mind-blowing
+ that all of this
+ happened autonomously.
+ The investigation is ongoing
+ and we'll share more learnings
+ from what might be
+ the first incident
+ of its kind.
+ Meanwhile,
+ open AI has said
+ they have now
+ invited Huggingface
+ into their cyber access program
+ so they won't run
+ into those guardrails
+ the next time
+ they have to deal
+ with an AI-driven cyberattack.
+ For many,
+ the gap between the AI
+ the defender had access to
+ and the AI
+ that the attacker
+ had access to
+ was the big story here.
+ Koltrogaskis writes,
+ This is a great example
+ of what we've been discussing
+ as a possibility
+ for a while now
+ where restricting access
+ to features
+ on the latest models
+ is a disadvantage.
+ This needs a rethink
+ from the American AI labs
+ urgently.
+ Huggingface had to analyze
+ over 17,000
+ recorded events
+ from the autonomous attack agent.
+ They ran the forensic analysis
+ on GLM 5.2 instead,
+ a Chinese open-weight model
+ on their own infrastructure.
+ The attacker's agent
+ had no restrictions.
+ The defender trying
+ to analyze what happened
+ got blocked
+ by safety features
+ on American models.
+ Developer Nick Dobos wrote,
+ The government is allowing
+ CIA, NSA,
+ other government agencies,
+ open AI,
+ Anthropics,
+ SpaceX AI,
+ Google,
+ and other select companies
+ access to cyberweapons
+ while banning
+ other companies and citizens
+ the ability
+ to defend themselves.
+ These policy choices
+ de facto outsourced
+ cybersecurity to China.
+ The legal precedent here
+ is dangerous and terrifying.
+ Imagine being hunted
+ by something smarter than you.
+ Former AI's R. David Sacks
+ has been beating
+ the drum on this issue.
+ On July 19th,
+ Kimmy K-3 just fixed
+ 15 critical security bugs
+ that Codex and Fable
+ refused to
+ because of cyberguardrails.
+ There's no reason
+ to limit American models
+ on tasks that Chinese models
+ handle without issue.
+ We're only making ourselves
+ less competitive.
+ Later, he added,
+ Here's another example.
+ Hugging Face tried
+ using American frontier models
+ to analyze an AI-powered cyberattack
+ but the guardrails blocked requests
+ containing real exploit payload
+ so they switched to GLM 5.2
+ running locally.
+ The guardrails actually
+ impaired defensive security.
+ Now for Aaron Levy from Box,
+ this is just an example
+ of the new phase that we're in.
+ He wrote,
+ If you were wondering
+ how powerful AI is getting,
+ agents are now capable
+ of escaping out of systems,
+ finding their way to the internet,
+ discovering zero-day security
+ vulnerabilities along the way
+ and then breaking
+ into external systems
+ all in an attempt
+ to complete their goal.
+ Ironically,
+ the ultimate way
+ we're going to defend
+ against these new risks
+ is equally by throwing compute
+ in the form of AI
+ at our code bases,
+ networks, and other systems.
+ You're going to want
+ vastly more AI
+ on the side of defense
+ as you do on the side of offense.
+ And while some were overall
+ just a little bit
+ freaked out by this,
+ Theo, for example, wrote,
+ New open AI models
+ are so goal-oriented
+ that they literally
+ escaped containment
+ and hacked hugging face
+ to cheat a benchmark.
+ Incredible, but also
+ we're so screwed.
+ Terminally online engineer
+ tech bog
+ tried to situate this
+ in the context
+ of where cybersecurity
+ actually is today.
+ They wrote,
+ Most of software
+ is full of vulnerabilities
+ because nobody cares
+ about cybersecurity.
+ It doesn't make money.
+ Usually, you don't get
+ owned because it's a crime
+ to do so.
+ Models in this case
+ just have a goal,
+ and the best way
+ to achieve that goal
+ is to get the dataset
+ by getting into hugging face servers.
+ There's nothing scary about this
+ other than the absolute dog state
+ of the majority of the software
+ when it comes to security.
+ Now, with having access
+ to LLMs,
+ everyone can make
+ their security much better.
+ I know people want to freak out
+ about this and scream AGI
+ and how we are all going to die,
+ but it's a much simpler story than that.
+ And indeed many got
+ that while this is serious,
+ this is much a goal alignment issue
+ as it is a cyber capability issue.
+ Dean Ball wrote,
+ Today's models are more ambitious
+ than the models of six months ago.
+ The younger agents
+ would hedge constantly
+ turning every project into a pilot.
+ Now models are more eager to do the thing.
+ Redwood Research Chief Scientist
+ Ryan Greenblatt wrote,
+ Reward hacking can go very far.
+ I think generalizing
+ all the way to a full AI takeover
+ is possible for extremely capable AIs.
+ And smaller incidents
+ like temporarily launching
+ rogue deployments
+ are seizing control
+ of some computer plausible earlier.
+ Tenebrous writes,
+ Current models are powerful
+ and misaligned enough
+ to autonomously hack
+ global production infrastructure
+ to achieve their goals,
+ but rather than exfil
+ trading their weights,
+ they're using these exploits
+ to get better scores
+ on deployment evals.
+ Even slightly more coherent
+ goal seeking or intermodal cooperation
+ and we could have already seen
+ significant negative effects,
+ but they just really,
+ really, really want to do well
+ at what we asked them to do for now.
+ Now, as some pointed out,
+ this was not the only incident
+ suggesting the increasingly
+ advanced state of models today.
+ Will Dupu writes,
+ One of the craziest things I've read
+ in uh, checks notes,
+ three days.
+ Welcome to the singularity, I guess.
+ 721-26 Codex escapes
+ eval and attacks hugging phase.
+ 720-26 Jacobian counter example.
+ 520-26 Unit Distant Conjecture.
+ 414-26 Erdos 1196 Primitive Sets.
+ 407-26 Glasswing finds tons of zero days.
+ Now, outside of the security stuff,
+ the thing that Will is referring to
+ is the latest generation
+ of frontier models
+ quietly plowing through unsolved math problems.
+ Last summer,
+ one of the huge milestones
+ in AI development
+ was reached when both OpenAI
+ and Google delivered models
+ capable of putting up
+ a gold medal performance
+ in the International Math Olympiad.
+ In May, OpenAI's models
+ were able to disprove an 80-year-old
+ Erdos conjecture in combinatorial geometry.
+ Now, the math breakthroughs
+ are becoming somewhat routine.
+ Basically, any frontier model
+ is capable of a perfect score
+ in the International Math Olympiad,
+ making that long-standing milestone
+ seem trivial.
+ We also saw competing models
+ solve a range of different
+ Erdos problems by the end of May,
+ undermining OpenAI's claim
+ of being way ahead of the curve.
+ Math capabilities accelerated
+ so quickly that DeepMind CEO
+ Demis Hasabis
+ referenced them as a counterpoint,
+ commenting in May,
+ Today's systems are nowhere near AI.
+ Doesn't matter how many Erdos problems you solve.
+ I think it's far, far from what a true invention,
+ or someone like a Ramanujan
+ would have been able to do.
+ This weekend, though,
+ an anthropic researcher
+ solved another long-standing math problem
+ in a fairly flippant way.
+ Levent Alpegi posted,
+ Now, the Jacobian conjecture
+ was first posed in 1939
+ and hadn't been disproved
+ until last weekend.
+ It was a significant long-standing problem
+ in a branch of mathematics
+ map theory,
+ but Fable knocked it over
+ before Spain scored the winning goal.
+ Kevin Buzzard,
+ a pure mathematics professor
+ at Imperial College London,
+ was ecstatic about the result.
+ He told Fortune,
+ It's a big day.
+ It's a great time to be alive, personally.
+ And, of course, the rapid acceleration
+ in pure mathematics
+ is causing a lot of buzz in those circles.
+ While some mourn for the students entering the field,
+ others are marveling at their developments.
+ Stanford professor Patrick Soo commented,
+ Damn, I was sure
+ that Jacobian conjecture
+ was true this whole time.
+ Cisco's chief AI scientist Amin Karbasi wrote,
+ This is crazy.
+ The incredible Yitan Zhang
+ worked on proving this conjecture for seven years.
+ Mo, his advisor, wrote that Zhang failed miserably
+ in proving the Jacobian conjecture,
+ never published any paper on algebraic geometry
+ after leaving Purdue,
+ and wasted seven years of his own life in my time.
+ What a twist.
+ Charles Rosenbauer wrote,
+ Now, bringing it back to what this says about model capability,
+ Chubby writes,
+ Over the past three days,
+ things have happened that, in normal times,
+ would have occurred months if not years apart.
+ Decades old,
+ mathematic problems are being solved,
+ AI models are discovering
+ zero-day exploits and breaking out,
+ while so much more is happening at the same time.
+ However, Chubby points out,
+ that even though these models are already demonstrating
+ such extraordinary capabilities,
+ it remains true that there is still no end in sight
+ to their capabilities or intelligence,
+ and two,
+ that adoption generally remains largely in the pilot phase.
+ In short, Chubby writes,
+ everything we are experiencing right now
+ is nothing more than a prelude of what is still to come.
+ And speaking of preludes,
+ the open AI hugging phase disclosure comes
+ as Sam Altman prepares to travel to DC next week
+ to brief the Trump administration
+ and Congress on the next generation of models.
+ Bloomberg reports that Altman
+ will also deliver open AI's recommendations
+ on how safety testing should be handled moving forward.
+ Open AI's head of global affairs,
+ Chris Lahane,
+ said that the next generation of models
+ will have a big impact,
+ even if you're not trying to break into a database.
+ During a press briefing, he said,
+ we think there's going to be some really interesting
+ capabilities with this model family,
+ particularly as it relates to work and scaling work.
+ The focus will be on getting everyone on the same page
+ to move forward with a safety framework.
+ Lahane added,
+ it's really important that there is a process
+ in place to be able to ensure
+ that we're getting our leading models out
+ so cybersecurity specialists can have access.
+ Open AI appears to be pushing for a legislative approach,
+ asking Congress to pass a bill
+ that overrides the ad hoc approach
+ we've seen thus far.
+ Failing that, Lahane said he would turn to the states, commenting,
+ if you can't get Congress to create those national standards,
+ the other path to get there
+ is what we call reverse federalism,
+ which is you work with these different states
+ to be able to mirror one another.
+ Still, with this security incident fresh on everyone's minds,
+ it seems that Altman could be in for a tough reception
+ as he meets with Congress.
+ Texas Democrat Greg Cassar posted,
+ this is extremely alarming.
+ AI is developing extremely fast
+ with no real regulations to keep us safe,
+ that has to change.
+ We need regular mandatory independent safety testing
+ and oversight, mandatory disclosure of security incidents,
+ and international cooperation
+ to keep people safe from absolute disaster.
+ Now, it's worth noting that while Cassar
+ is positioning himself as anti-AI,
+ which unfortunately seems increasingly to be
+ the consensus that progressives have landed on,
+ it seems that his prescription is actually
+ fairly close to what Open AI
+ will be asking Congress to pass.
+ So some all of this suggests
+ that GPT-6 is coming sooner rather than later.
+ Chris GPT wrote,
+ GPT-6 arriving much earlier than expected.
+ The target was late July, early August,
+ now confirmed August.
+ Early August Open AI will show
+ why we need not be concerned
+ about open source models again.
+ Now, given what we saw this week,
+ I think Matt Schumer summed up
+ the challenge perfectly when he wrote,
+ GPT-6's launch lives or dies on one thing.
+ Can Open AI build a model
+ that's relentless about goals
+ without being reckless about how it gets there?
+ That is the question and one
+ that we will continue to watch.
+ For now, that's going to do it
+ for today's AI Daily Brief.
+ Appreciate you listening or watching,
+ as always, and until next time, peace.
