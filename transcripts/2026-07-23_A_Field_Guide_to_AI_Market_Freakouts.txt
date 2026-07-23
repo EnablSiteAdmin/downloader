@@ -1,0 +1,593 @@
+ Today on the AI Daily Brief, a field guide to AI market freakouts.
+ The AI Daily Brief is a daily podcast and video about the most important news and discussions in AI.
+ Alright friends, quick announcements before we dive in.
+ First of all, thank you to today's sponsors, KPMG, Airtable, Retool, and Blitzy.
+ To get an ad-free version of the show, go to patreon.com.ai-daily-brief,
+ or you can subscribe to novel podcasts.
+ To learn more about sponsoring the show,
+ send us a note at sponsors.ai-daily-brief.ai.
+ Now, one other quick note.
+ A couple people have asked me recently if there are better ways that they can support the show.
+ First of all, you listening is all the support I need.
+ I appreciate you being here and diving deep with me in this incredibly fascinating and important AI world.
+ Second, already one of the things that you guys do very frequently,
+ which is incredibly helpful for the show, is just sharing it.
+ For those who don't know, I recently updated the ai-daily-brief.ai website
+ to turn every episode into a set of shareable cards.
+ Some of them are quotes, some of them are themes, some of them are statistics,
+ and each of them can be shared directly to various social media platforms
+ or as an image that you can put anywhere you want.
+ The most valuable way the show grows is when you share it with new listeners,
+ so that is always appreciated.
+ Lastly, for whatever reason, Apple and Spotify both very highly reward ratings and reviews,
+ so if you have not at this point left a five-star rating on those platforms,
+ that is helpful as well.
+ Mostly though, like I said, I am just excited to have you here as we explore this insane world.
+ The one other note today is that it was one of those days where even all of the headlines fit inside the main theme,
+ so we just have one extended theme for the entire episode.
+ Tomorrow we will be back with our normal division between headlines and main,
+ but for now, let's talk about the patternicity in AI market freakouts
+ and what they mean for the future of AI.
+ Welcome back to the AI Daily Brief.
+ We are in the midst right now of our latest round of AI FUD and CONCERN.
+ Now this one specifically is about Chinese AI and how it might impact the revenue potential of companies like OpenAI and Anthropic,
+ especially as they position to go public later this year or early next year.
+ Having watched this very closely now for the last few years,
+ I think there are some pretty clear patterns in the specific ways in which investors get stressed about AI.
+ And so that's what we're going to talk about today.
+ However, to get into it, we first need to do an update in this particular round of concern
+ as the Trump administration levies new allegations against Moonshot.
+ Earlier this week, Treasury Secretary Scott Besant proposed that Chinese AI companies could face sanctions as a response to distillation attacks.
+ And while model distillation has been a hot topic for over a year when it comes to Chinese model performance,
+ this was the first time a member of the executive suggested the government might do something about it.
+ Besant doubled down on his policy view on Wednesday, writing in a post on X,
+ we support open source AI and the innovation it unlocks,
+ but open source is not open season on American IP.
+ When PRC firms conduct covert industrial-scaled distillation attacks that cross the line into IP theft,
+ sanctions and entity list designations will be on the table.
+ Now that post came hours after White House Office of Science and Technology policy director Michael Kratzios
+ made specific allegations against Moonshot, the creators of Kimi K3,
+ wrote Kratzios,
+ we have information that Moonshot AI distilled Anthropics Fable for the development of its K3 model.
+ To do this, they developed a sophisticated internal platform to conduct large-scale distillation against US models
+ allowing them to quickly switch between multiple methods of access to avoid detection.
+ Moonshot AI has also acquired GB 300 equipped servers and has accessed GB 300s in Thailand,
+ likely to train its AI models.
+ The United States strongly supports the free and fair development of AI,
+ including a thriving competitive ecosystem that spans frontier models, specialized systems,
+ open source frameworks and open-weight models.
+ Legitimate AI distillation used to create smaller, more efficient models
+ plays a vital role in this open innovation ecosystem.
+ However, large-scale covert industrial distillation aimed at stealing proprietary US technology
+ and undermining American research is unacceptable.
+ Now here once again, while there have long been whispers of Chinese labs getting access to NVIDIA GPUs
+ through illicit pathways across Southeast Asia,
+ this is the first time a government official has made specific claims about the practice.
+ Anthropic head of public policy and former State Department official Sarah Heck
+ confirmed that Anthropic is working with the administration on this matter with Heck writing,
+ Illicit adversarial distillation is IP theft, an industrial espionage that supports
+ adversary military and intelligence capabilities.
+ It is a national challenge that creates serious national security risks
+ for the United States and Democratic allies.
+ Following the posts, the information reported that the Congress Department
+ has an active investigation into Moonshot and other Chinese labs
+ for circumventing export controls to access NVIDIA GPUs.
+ Signals summed up the feeling of many when they wrote,
+ Wow, am I understanding this correctly?
+ One, put Chinese models on the entity list.
+ Two, force American companies to buy more expensive AI from American labs.
+ Three, watch the rest of the world use cheaper models with equal or better intelligence.
+ Four, discover that distillation did not magically stop
+ because Washington published a list.
+ Five, make American businesses less competitive globally
+ while raising prices for ordinary Americans.
+ Six, meanwhile, none of this stops Chinese AI labs from becoming better and better.
+ Congratulations, you protected domestic AI companies
+ by taxing the competitiveness of the entire country.
+ What a colossal mess.
+ Now, for what it's worth, it's not even particularly clear
+ how much support Besson and Kratios have within the White House.
+ Wired Road on Wednesday, the Trump administration is split
+ over how to respond to the rapid rise of China's leading AI models.
+ The debate is broadly divided between parts of the White House,
+ which has pushed for stricter controls on Chinese AI
+ that may soon rival the powerful US models,
+ and the Commerce Department, which has viewed those restrictions as unworkable.
+ Sources said that Commerce Secretary Howard Lutnik
+ would prefer to combat Chinese AI with competition.
+ He has pitched incentives for US labs to open-source their models
+ and spoken with multiple labs about the idea in recent weeks.
+ Writes Andrew Curran,
+ The Commerce Department is apparently arguing strongly against regulation,
+ which they see as unworkable.
+ They are certain to have David Sacks on their side.
+ American open-source may have a surprise ally in Howard Lutnik.
+ According to the report, he's arguing for direct incentives
+ to US open-source software to accelerate development
+ so they can match Chinese OSS.
+ Commerce sees this as a way to avoid regulating anyone.
+ Apparently, Lutnik has even met directly with leaders
+ at unnamed American labs to discuss how best to accomplish this.
+ Perhaps a rebirth of open AI OSS with federal funding?
+ He should meet with Noose and Prime Intellect, among others,
+ in my opinion.
+ Exciting developments.
+ Writes AEI's Ryan Fetisiak,
+ This might be the most important week for US AI policy
+ so far in 2026.
+ Now, one group that's watching this whole thing very closely
+ is investors.
+ There has been a growing concern,
+ the latest in the long line of AI market concerns,
+ that if all of a sudden enterprise buyers get all cost-conscious
+ and they look to cheaper alternatives,
+ they're going to find themselves moving towards these open China models,
+ undercutting the revenue coming to the major American labs
+ with big implications across the market.
+ And for people who are watching closely,
+ all of this is part of a broader market narrative story
+ that's been happening now for coming up on four years.
+ One of the most important AI questions right now
+ isn't who's using AI,
+ it's who's using it well.
+ KPMG and the University of Texas at Austin
+ just analyzed 1.4 million real workplace AI interactions
+ and found something surprising.
+ The highest impact users aren't better prompt engineers,
+ they treat AI like a reasoning partner.
+ They frame problems, guide thinking,
+ iterate and push for better answers.
+ And the good news, these behaviors are teachable at scale.
+ If you're trying to move from AI access to real capability,
+ KPMG's research on sophisticated AI collaboration is worth your time.
+ Learn more at kpmg.com slash us slash sophisticated
+ that's kpmg.com slash us slash sophisticated.
+ This episode of the AI Daily Brief is brought to you by HyperAgent,
+ where you run fleets of agents your team can manage together.
+ New users get $1,000 in inference.
+ Forget local agents and chat workflows
+ waiting on your laptop to be prompted.
+ HyperAgent deploys always-on agents in the cloud
+ doing real work across the tools your team already uses.
+ Marketing's agent turns competitor moves into landing pages.
+ Sales' agent enriches leads, drafts emails and updates the CRM.
+ Ops' agent chases the paperwork and tracks the budget.
+ Every agent has access to shared context
+ and follows your rules about scope and approvals.
+ It's time you add agents that feel like teammates.
+ Hire yours at HyperAgent built by the team at Airtable.
+ Claim your $1,000 in inference at hyperagent.com slash AI Daily Brief.
+ This episode is brought to you by Retool.
+ Generating a working app now takes about five minutes thanks to AI.
+ Getting it safely into production with auth, permissions, audit logs, security reviews,
+ that part still takes time.
+ That's the gap Retool closes.
+ Build apps however you want, natively in Retool with Claude Code,
+ Codex or any coding agent, or by importing React you've already built.
+ It all deploys into Retool and picks up governance automatically.
+ Security lives in the platform, not in whatever the AI wrote.
+ So your team ships at AI speed without the shadow IT
+ and the endless reviews that stall out most vibe coded projects.
+ It's why teams at Amazon, Stripe and Brex build on Retool.
+ And new enterprise customers who sign by September 30th
+ get up to $10,000 in AI credits per year.
+ Start building at retool.com slash AI Daily.
+ Want to accelerate enterprise software development velocity by 5x?
+ You need Blitzy, the only autonomous software development platform built for enterprise code bases.
+ Your engineers define the project, a new feature, refactor or greenfield build.
+ Blitzy agents first ingest and map your entire code base,
+ then the platform generates a bespoke agent action plan for your team to review and approve.
+ Once approved, Blitzy gets to work autonomously generating
+ hundreds of thousands of lines of validated end-to-end tested code.
+ More than 80% of the work completed in a single run.
+ Blitzy is not generating code, it's developing software at the speed of compute.
+ Your engineers review, refine and ship.
+ This is how Fortune 500 companies are compressing multi-month projects into a single sprint,
+ accelerating engineering velocity by 5x.
+ Experience Blitzy firsthand at Blitzy.com.
+ That's blitzy.com.
+ Since the end of 2022 when ChatGPT was released,
+ which was right in the midst of the Fed rate-hiking cycle,
+ it has been AI versus everything in markets.
+ Indeed, back in the early days of the AI boom at the beginning of 2023,
+ there was a lot of confusion on why markets were ripping while the Fed was still raising interest rates.
+ The Fed didn't stop hiking until July,
+ and it became obvious that rate policy would do nothing to deter AI investment.
+ At this point, AI has become a structural part of the US economy,
+ and arguably the most important part.
+ According to Bloomberg, AI investment now represents 25% of US GDP growth,
+ the largest single contribution of any sector in history.
+ JP Morgan analysts claim that since the release of ChatGPT in late 2022,
+ AI drove 75% of returns in the S&P 500, 80% of earnings growth,
+ and 90% of capital spending growth.
+ In a very real way then, the AI industry is now the driving force in the US economy and US markets.
+ As a consequence of this, the market is extra terrified of AI going badly or reversing,
+ because they feel like so much is riding on it.
+ And in this context, AI bubble talk isn't just a catchy headline,
+ but is a persistent and central piece of market analysis.
+ While acknowledging that this is a bit reductive,
+ at this point, one could be forgiven for looking at the American economy
+ as basically a bet on AI being transformative enough to drive enough revenue
+ to make the infrastructure build out justified so the party gets to continue.
+ And by the way, even if you're not typically interested in markets,
+ we're now at a point in the AI boom where everyone needs to pay attention
+ and understand the narrative, given that around 50% of the S&P 500 is now AI or AI exposed stocks.
+ That means that even if you are just a passive indexer or contribute to a 401k,
+ you, my friend, have significant AI exposure.
+ Now with this background, let's talk about the stuff that freaks investors out.
+ The one that we are living through right now, of course,
+ is cheap models undercutting anthropic and open AI's ability to charge a premium
+ and continue to grow their revenue.
+ This is the freak out du jour, but it's had various versions
+ going all the way back to the deep-seek moment at the beginning of 2025
+ when the market believed that a Chinese lab had produced frontier AI for a few million bucks
+ when the US labs were spending billions on training runs.
+ Now there were a ton of things wrong with how deep-seek had been presented.
+ People learned about the difference between compute for training
+ and compute for inference.
+ Some of deep-seek's claims started to have big asterisks around them.
+ And finally, markets also ultimately discovered that deep-seek R1
+ wasn't actually ahead of the best models trained in the US.
+ It was simply the first and only free reasoning model on the market
+ with open AI's O1 still locked behind subscription.
+ We now find ourselves at another deep-seek moment with the release of Kimi K3
+ which in many ways was teed up with the amuse-bouche of GLM 5.2
+ when Fable was offline, courtesy of the US government.
+ Now to many investors, the oversimplified understanding of the situation
+ is a hardwired belief that Chinese AI is cheap while US AI is eye-wateringly expensive.
+ And it didn't help that K3 arrived just after we had had a month-long narrative
+ about US companies slashing token budgets.
+ Now, we are not out of this deep-seek moment yet,
+ but among other things that will help drag us out is the recognition
+ that while K3 is, yes, cheaper, it is nowhere near as cheap as some believe.
+ K3 is currently being served at around a third of the price of Fable
+ or half the price of Opus.
+ That's still a meaningful savings, but it's not pennies on the dollar
+ like I believe many analysts have in their heads.
+ Still, what is real is that US companies are looking for ways
+ to manage their AI budgets,
+ especially as more agentic use cases come online
+ with potential implications for the market success of the leading companies.
+ Now zooming back into previous versions of the Market Freakout,
+ another one that related to the durability of revenue
+ was the concern around the circularity of revenue.
+ This concern really picked up between the end of last summer and last fall
+ when you started to see graphics like this one floating around
+ showing maps of all the deals that NVIDIA and others were making across the industry.
+ While many of those deals were small-scale investments in startup labs and neoclouds,
+ at that point there had been recent reports that NVIDIA had struck a deal
+ to invest up to $100 billion in open AI.
+ Some investors saw this potential investment
+ as likely to flow straight back into NVIDIA as chip revenue,
+ massively and in their minds artificially boosting the bottom line.
+ Now that deal, by the way, ended up closing at $30 billion in February
+ alongside $50 billion from Amazon and $30 billion from SoftBank,
+ and for some the circular financing means that this isn't just open AI
+ and Anthropics revenue that's suspect,
+ but also a concern that NVIDIA and the other hyperscalers
+ and everyone all the way down the chip supply chain
+ are built on shaky foundations.
+ Now, since people love analogy,
+ the other reason that circular financing has been a concern
+ is the history of circular financing popping bubbles.
+ Some credit the dot-com crash to a type of circular
+ or vendor financing coming unstuck.
+ Hardware providers like Cisco would sell equipment
+ to fledgling startups on finance,
+ so when the startups went belly up,
+ the hardware manufacturers were left holding the bag.
+ That practice was actually made illegal in the early 2000s as a result,
+ and there are a few key differences this time.
+ In this case, NVIDIA isn't actually participating in vendor financing.
+ Open AI is paying cash for their GPUs,
+ even if some of that cash is investment money from NVIDIA.
+ What this means is that if open AI runs out of runway,
+ NVIDIA doesn't have a debt default on their hands
+ in a massive hole in their balance sheet,
+ they just have devalued open AI stock.
+ The companies this time around are also categorically different.
+ Open AI and Anthropic are nothing like Pets.com
+ in their scale or legitimacy or the scale of their revenue.
+ The next category of AI market freak out
+ has a chance to come up renewed every few months.
+ That concern is AI companies not showing revenue growing fast enough
+ to justify spend.
+ And this has been the big story for hyperscalar earnings
+ every quarter since the AI buildout began.
+ At the beginning of the year, some hint of AI ROI
+ tended to be enough for investors.
+ In January, Meta reported 24% revenue growth,
+ suggesting that AI was driving a boost in ad revenue
+ and that was enough for investors.
+ The stock soared by 10% that night.
+ As the year continues, investors are starting to ask a little more
+ from the hyperscalers, but some are still able to deliver.
+ As an example, on Wednesday of this week,
+ Google showed just how much it's going to take
+ to appease this particular market.
+ They delivered a huge earnings beat
+ reporting 24% overall growth
+ and a fairly massive 82% growth
+ for their cloud division year over year.
+ They're making money hand over fist serving AI inference,
+ but the stock didn't soar.
+ In fact, the numbers that the investors were focused on
+ were not the growth of their cloud division,
+ but the growth of their capex spend.
+ Wrote the Wall Street Journal,
+ Wall Street's tolerance for artificial intelligence investment
+ might seem to have no limits,
+ but Google parent alphabet found one on Wednesday,
+ $200 billion.
+ At the beginning of the year,
+ Google estimated that they would spend between $185 billion on capex,
+ making this only an 8% increase
+ that can mostly be chalked up to cost pressure in the supply chain,
+ and yet still, that $200 billion number
+ was the breaking point for some.
+ Brian Mulberry of SAC's Investment Management commented,
+ The $200 was the do not cross line.
+ You can't be offloading this much cash
+ without talking about it.
+ Now, likely this is just the psychological shock
+ of a big round number,
+ but it also demonstrates the point.
+ Even at 82% growth,
+ investors aren't sure that revenue growth
+ will continue to justify the escalating capex.
+ Google stock was the first to see the result
+ falling by 1.2% in overnight markets.
+ So obviously the market freak out concern
+ of revenue growth not growing fast enough
+ has a twin in capex growing too fast.
+ The more capex grows,
+ the bigger the hill that revenue has to climb to justify it.
+ One of the investors the concern
+ is that they just don't understand where this all ends.
+ Hyperscalers have now raised capex guidance
+ every quarter for the past three years.
+ Combined capex is now looking like it will exceed
+ a trillion dollars next year and could head even higher.
+ Now, of course, part of the challenge here
+ is that we are just in totally uncharted waters.
+ Seeing companies go from
+ $1 billion in revenue to $30 billion in revenue
+ in less than two years
+ has absolutely no precedent
+ in the history of any markets anywhere
+ at any time in history.
+ The reason that the bubble narrative from late 2025
+ calmed down this year
+ was exactly this sort of hyper growth
+ from OpenAI and Anthropic.
+ Whereas many investors were counting the number
+ of total knowledge worker seats available,
+ multiplying that by 20 or 30
+ and not finding enough revenue to really justify
+ this big capex spend.
+ When agentic use cases came online
+ and we started to see employees spending
+ hundreds or even thousands of dollars a month
+ it helped jog investors to realize
+ that this is not just a different category of SaaS
+ still fundamentally different isn't necessarily comfortable
+ for investors who like having clear patterns
+ in history that they can draw from
+ as they're making their allocations
+ and even in that new context of massive agentic spend
+ that in and of itself
+ has created new categories of concern.
+ One of the big recurring AI market freak out themes
+ is any suggestions of limits of AI spent.
+ Last year of course
+ we had a version of this in the notorious MIT report
+ that claimed that 95%
+ of gen AI pilots fail
+ and while the study was absolute garbage
+ social science that MIT should be embarrassed
+ to have its name anything associated with
+ all that mattered was the headline
+ and that headline found its way into every desk
+ on Wall Street.
+ This year's version of that is a little less stupid
+ because at least it's based in reality
+ which is of course the idea of token caps
+ as companies begin to limit AI use.
+ Now once again the headlines are more dramatic
+ than the actual policies.
+ Uber is capping users for example at $1,500 per month
+ and Tesla another company in a similar boat
+ is allowing workers to use $200
+ worth of tokens a week with the ability to request
+ larger budgets. Importantly
+ we've barely scratched the surface on the ability
+ for most knowledge workers to use
+ anywhere near that sort of token budgets
+ meaning that even if every company adopted similar
+ policies there is still an enormous amount of growth
+ to be had but still the market understands
+ that everyone will be looking for ways
+ to bring their token budgets under control
+ creating a new looming threat of cheaper inference.
+ Now one last recurring market freak out
+ that is worth mentioning for completeness
+ even though it hasn't been much of a concern
+ this year is the idea of performance plateaus
+ that once again lead to reduced spend.
+ If AI performance hits the wall that limits
+ what it can do which limits the amount that
+ companies will spend on it which limits the total revenue
+ growth which makes it harder to justify the
+ capex. This was the big fear in the fall
+ of 2024 when the major narrative was the
+ pre-training scaling wall. There were rumors
+ at the time that both anthropic and open AI
+ had scuttled flagship pre-training runs over the
+ summer as the minor performance boost they were seeing
+ didn't justify the increased cost.
+ Now from where we are today that argument
+ looks quaint, ridiculous,
+ insane, like Gary Marcus and Ed Zittron
+ were actively trying to lose you money
+ a few months later we got a glimpse of AI
+ reasoning for the first time with 01
+ that pre-training was not the only vector
+ to getting increased performance out of AI.
+ Now subsequent to that we've also just seen
+ pre-training very clearly not having hit a wall
+ with pretty much no one being willing to argue
+ that fable 5 isn't an entirely different
+ beast to for example opus 3.
+ So if these are all the common
+ categories of investor freak outs
+ that we've seen in the three and a half year history of AI
+ let's now turn to some
+ important caveats.
+ First up it may or may not surprise
+ you to find that there is a
+ pretty consistent seasonality to the
+ fud. It's almost like investors want
+ a reason to not care as much in August.
+ Now summer doldrums are a well
+ known phenomenon in markets and the AI
+ boom seems to amplify the effect. This
+ is not just a theory there is a ton of research
+ that momentum breakdowns occur over the
+ summer particularly when momentum stocks like
+ semiconductors are driving the rally.
+ And this has been a historic summer breakdown.
+ Last week Morgan Stanley noted that momentum
+ stocks are down 40% this month
+ making it the worst month on record beating the
+ previous worst of 29% in early 2021.
+ Now that's that to dismiss
+ all of this drawdown as a quirk of the market.
+ In a note earlier this week Goldman Sachs
+ said that hedge funds have sold tech stocks in record numbers
+ but it is still worth contextualizing
+ the fears that you see with that summer seasonality.
+ Now here's another
+ really important caveat. As much
+ as I might bemoan the fact that an entire generation
+ watched the big short, thought Michael Burry was cool
+ and spent the next decade calling everything a bubble
+ the fact that the market is so determined to
+ have the bubble logic at all times is one
+ of the biggest things preventing a runaway bubble.
+ Every time this market gets a little over
+ its skis there is a pressure release to moderate
+ it a little. We're just not seeing the frenetic
+ runaway market we saw in 1999
+ and 2000 with boom and bust IPOs every other day
+ driving 100x gains and massive losses.
+ The reason why the late 2025's
+ bubble talk dissipated is that agents
+ changed the dollar logic and we saw
+ the numbers show up in anthropic and open AI.
+ Rational concern followed by evidence
+ to the contrary. Now
+ when it comes to how I think we drag ourselves out
+ of this round of concern one of my strongest
+ candidates will be an increasing recognition
+ that things like token caps matter
+ far less than the realization that we're
+ using a vanishingly small portion
+ of the intelligence that will ultimately demand.
+ The room to run will give us room to run.
+ I also believe that
+ at the speed at which an infrastructure buildout
+ is even possible. It's almost impossible
+ for capacity to grow faster
+ than demand. In other words building data
+ centers just takes a really really long time
+ and half of data centers that were announced
+ this year have either been canceled or delayed.
+ Bears are calling this a sign that the demand
+ just isn't there but there is literally zero evidence
+ of this and the simpler explanation is simply
+ that it's a really hard to permit
+ and construct a data center and B
+ data center builders have done a spectacularly
+ bad job up to this point
+ of actually addressing citizen concerns in their
+ communities leading to an upswell in anti
+ data center activity. In other words
+ they're just these built in road bumps that will
+ slow things down and give everyone more
+ time to adjust. Now when it comes to this
+ latest round of fud with China
+ I think one of the ways that it becomes resolved
+ is people realizing that it doesn't really matter
+ if your model is cheap if you don't have the
+ inference to serve it. Moonshot was completely
+ tapped out of compute on opening weekend
+ and I think it is extraordinarily questionable
+ whether all of the Chinese AI companies
+ put together can serve even a tiny
+ fraction of the users that the U.S. companies do
+ and lastly and really
+ importantly look at the utter
+ explosion of companies
+ flooding into this new opportunity
+ driven by alternative model architectures
+ and the hunt for cheaper inference
+ we are seeing routers announced every
+ day we're seeing fine-tuning and post
+ train model plays actually working
+ many of which are verticalized to specific industries
+ we're seeing a flourishing
+ in other words of companies flooding
+ into solve a market opportunity
+ and that's even before we see these potential
+ incentives for U.S. open source efforts
+ if those should happen. Investor Nick Carter
+ wrote the U.S. government does not
+ owe either of the large labs a business model
+ if the economics of selling tokens
+ don't work due to distillation cheap clones
+ Chinese AI magic the American enterprise
+ and consumer will be a okay they will
+ benefit from hyper deflation and the cost of digital
+ cognition just like everyone else the
+ hyperscalers will be fine it's just open
+ an anthropic that won't be in their current forms at least
+ if they're willing to adapt they can develop
+ their business models so what if the token merchants
+ don't do well the neoclouds will be fine
+ the internet companies will be fine
+ the consumers get cheaper queries the enterprise
+ will still incorporate AI the AI catback
+ supercycle will still produce tokens
+ closed wait or not American firms will
+ consume these tokens
+ my general base case is that
+ every frontier token for at least the next
+ five years gets bought at a premium price
+ even as cheaper workloads come online
+ I just think the amount of premium state-of-the-art
+ tokens that we're going to be able to produce will still
+ demand even with a lot of non-premium tokens
+ being consumed as well I think the viability
+ of alternative architectures and new model
+ approaches relieves larger macro
+ economic pressure on open AI and anthropic
+ to carry the whole market by better distributing
+ the revenue gains of AI I think natural enterprise
+ inertia combines with the inherent long
+ horizon of the infrastructure build out to stretch
+ the adaptive timeline in a way that allows the economy
+ to adapt better than if the only factor was raw
+ model capability and yet with all of this
+ I think there will be a never-ending sequence
+ of new fud which by the way will frequently coincide
+ with pre-existing market seasonality
+ but also that at the end of the day these
+ fairly consistent and patternistic market freakouts
+ ultimately reduced the likelihood that a full
+ bubble is able to form
+ anyways friends that is my take that's what I believe
+ and for now that is going to do it for today's
+ AI Daily Brief
+ appreciate you listening or watching as always
+ until next time peace
+ you
