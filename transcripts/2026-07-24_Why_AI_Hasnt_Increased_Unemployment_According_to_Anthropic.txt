@@ -1,0 +1,950 @@
+ Today on the AI Daily Brief, why AI hasn't increased unemployment according to Anthropic.
+ Before that on the headlines, the router business is hot as Stripe is in talks to buy open router
+ for $10 billion.
+ The AI Daily Brief is a daily podcast and video about the most important news and discussions
+ in AI.
+ Alright friends, quick announcements before we dive in.
+ First of all, thank you to today's sponsors, KPMG, Robots and Pencils, Blitzy and Airtable.
+ To get an ad-free version of the show, go to patreon.com.ai-dailybrief or you can subscribe
+ it up with podcasts.
+ And to learn more about sponsoring the show, send us a note at sponsors at aidailybrief.ai.
+ Welcome back to the AI Daily Brief headlines edition, all the daily AI news you need
+ in around 5 minutes, although today I do not think everything that we have to discuss
+ is going to fit in 5 minutes, so let's dive in.
+ First of all, Stripe is the latest company getting into model routing with a potentially
+ blockbuster acquisition on the table.
+ The Wall Street Journal reports that Stripe is in talks to acquire open router for around
+ $10 billion.
+ That would be a huge markup from open routers $1.3 billion valuation during their last
+ round, which closed, checks watch, 2 months ago in May.
+ Then again, a lot has changed in those 2 months.
+ We went from the token maxing era where everyone was encouraged to use the most powerful
+ model as much as possible to the age of token scarcity, where increasingly enterprises are
+ moving to more tightly controlled token budgets.
+ In the context of that shift, it's beginning to look like the best token routing service
+ could be a huge winner.
+ Reportedly open router has been fielding multiple acquisition offers, but Stripe is looking
+ like the company with the deepest pockets.
+ Taking a step back, I think the pairing makes a lot of sense.
+ Stripe is more or less come as far as they can go with merchant side payment processing,
+ and clearly their eyes have been getting bigger and bigger as they think more creatively about
+ their growth.
+ They've recently pursued a merger deal with PayPal that would let them expand to the
+ consumer side of the market.
+ Meanwhile, an open router acquisition would let them move in a different direction, adding
+ enterprise cost control tools to their vertically integrated stack.
+ The journal suggests the deal is close and could be announced soon.
+ Macaroni Capital writes, Stripe isn't buying an AI company.
+ It's buying the metering and billing layer for inference, plus the developer funnel
+ attached to it.
+ Stripe has two angles, one, increase the GDP of the internet, and two, the less discussed,
+ increase their margins on the GDP of the internet.
+ Open router has shown that their margin on inference is durable, and we all know
+ inference is a massive, startlingly fast-growing portion of the internet's GDP.
+ Presaging something that I am sure we will talk about on this show at some point,
+ Alex Conrad writes, the AI lab showdown that nobody is talking about yet is ramp
+ versus Stripe.
+ And yet, even if this acquisition happens, open router is going to face an
+ increasing wave of competition.
+ Cursor, for example, just this week announced their own Cursor router.
+ That follows Meta, building a router in their internal incubator, and Rampin
+ Vercel, also going live with their own versions of the product.
+ Cursor's version of a model router lets engineers automatically select the
+ right model for the job while choosing between three optimization settings,
+ intelligence, cost, or balanced.
+ The Cursor router will then analyze each request and send it to an appropriate
+ model based on that performance.
+ They claim that using the router in intelligence mode can deliver
+ fable-level performance at a 60% reduction in cost.
+ Now, this was measured using subjective satisfaction metrics, so it is
+ perhaps a little difficult to know how strong the performance will be.
+ Still, early testers reported no noticeable drop-off in quality
+ compared to simply routing everything to Opus 4.8.
+ One of the most powerful features of Cursor router could be the
+ ability to never have to think about model selection again.
+ Since it's built into a tool that teams are already using,
+ there's not even an extra layer to configure.
+ Explaining the motivation, Cursor CTO David Pan wrote,
+ we briefly went insane and decided every software engineer should also
+ become an expert in model benchmarks, thinking levels, and cash hit rates.
+ Matthew Berman sums up, model routing is a first-class feature now.
+ Speaking of new features, the product announcements from both
+ Anthropic and OpenAI on Thursday related to voice features,
+ which at this point, if you are not controlling your agents with voice,
+ I genuinely believe you need to start shifting your behavior.
+ In any case, Anthropic has finally made their voice mode available for
+ their Opus and Sonnet models rather than just Haiku,
+ meaning users won't need to choose between the comfy voice interface and
+ having access to powerful models.
+ The problems with routing conversations only to Haiku was immediately obvious
+ when the feature first launched last year, as early testers got frustrated as
+ they tried to use voice to discuss complex topics like business problems
+ that Haiku was just not suited to handle.
+ The new chat mode will default to the last model that was used,
+ but users can switch to a more powerful model mid-conversation as well as
+ switching back and forth between text and voice.
+ In addition, Anthropic's voice mode is now compatible with connectors,
+ allowing it to tap into apps like Gmail, Slack, or Notion to do things like
+ Check Your Calendar or email mid-conversation.
+ Anthropic has also moved foreign language support out of beta,
+ which is good news for users who prefer to speak to Claude in French,
+ Hindi, Korean, and numerous other languages.
+ OpenAI's feature releases voice in the desktop app.
+ Until now, voice has been only available in mobile,
+ but following the pattern of integrating all of their features,
+ you can now use the voice mode wherever you're using OpenAI's model,
+ including in Codex and the new work app.
+ The feature is driven by OpenAI's new real-time voice model, GPT Live,
+ so it can carry out background tasks while keeping a natural-sounding conversation.
+ Now, while all of these companies continue to evolve their interfaces
+ and interactions around models,
+ one company that seems to be heading away from models might be Amazon.
+ According to reports, the company has cut staff in their AGI group.
+ That division was set up in 2023 to house a new effort to train frontier models.
+ Amazon hired former OpenAI researcher David Luan to lead the technical effort
+ and set up a separate office in San Francisco.
+ In late 2024, Amazon released their first family of models called NOVA.
+ They failed to make much of a splash,
+ but at the time I said that they indicated that perhaps Amazon wanted to compete
+ on the cheaper model vector rather than the state-of-the-art vector.
+ The team showed promise in early 2025 with the release of NOVA Act,
+ which outperformed then-state-of-the-art OPUS 3.7 on computer use benchmarks.
+ However, the past year has been marked by a number of high-profile departures,
+ including Luan himself.
+ The AGI division was assigned to a temporary leader,
+ and we haven't seen a new version of NOVA since December.
+ Now, Amazon has acknowledged that rank-and-file staff
+ are being let go as the unit narrows its scope.
+ A spokesperson denied that this is the end of model training at Amazon,
+ saying,
+ We've been building large models for several years,
+ and it remains one of the most important things we're working on.
+ This is a fast-moving space,
+ and we're sharpening our focus on initiatives that matter most for customers
+ so we can move faster on what counts.
+ The spokesperson, however, did acknowledge that this increased focus required,
+ quote,
+ Some difficult decisions, including eliminating some roles
+ within some parts of our AGI organization.
+ Now, sources told the information that earlier this year,
+ staff were shuffled across to NOVA Forge,
+ which is Amazon's new service that offers custom fine-tuning
+ on top of the NOVA models.
+ While the size of the layoffs weren't disclosed,
+ they appear to be noticeable.
+ Posters on the Amazon Employees Subreddit
+ have been asking why so many people are leaving the division over the past month,
+ and Wednesday saw a waiver former employees post on X seeking new opportunities.
+ On Thursday, we learned that this is not just a wave of layoffs from the team,
+ but Amazon is shutting down the entire AGI lab.
+ Now, presumably this is just the spin-off lab,
+ which was focused on computer use agents and other advanced research,
+ as the broader AGI division appears to be still operational, such as it is.
+ Yet, despite the denials, AI commentator Andrew Curran and many others
+ think the writing is on the wall commenting,
+ Amazon is giving up on NOVA would be my guess.
+ One company who is not giving up on their strategy
+ and is in fact doubling down is Microsoft.
+ The company is putting their in-house model strategy into action
+ after publishing some impressive reinforcement learning results.
+ Microsoft first unveiled the family of MAI models last month,
+ with the family including seven smaller models aimed at specific use cases
+ like image generation, transcription, and coding.
+ The lineup included two language models,
+ one roughly in line with Sonnet 4.6 and a coding-specific smaller variant
+ with performance closer to Haiku.
+ More interestingly, alongside the model family,
+ Microsoft launched Frontier Tuning,
+ a new service that allowed customers
+ to fine-tune their own models.
+ And this clearly was the bet
+ that the MAI models would serve as a solid base models
+ for custom models that deliver cost-effective results.
+ On Thursday, Microsoft published the first set of results
+ from their fine-tuning system,
+ which they refer to as their hill climbing machine.
+ The post-training run used MAI code one flash,
+ the tiny Haiku class coding model,
+ and by training the model in the GitHub co-pilot harness,
+ Microsoft was able to deliver a better experience
+ for users compared to similar models.
+ After a month of deployment,
+ they found that code one flash had a 10% higher code accept rate
+ compared to GBT 5.4 mini and Haiku 4.5 and VS code.
+ The model achieved this while having 10% lower median token usage
+ than its rivals.
+ Now, so far that's not all that interesting,
+ except perhaps an indicator of what could come.
+ Indeed, the more interesting part came
+ when Microsoft began training code one flash
+ in their Excel harness.
+ Citing user feedback,
+ Microsoft claimed this produced results
+ on par with GBT 5.6 for most common Excel tasks
+ at a fraction of the cost.
+ Curiously, this Excel training
+ also boosted performance in coding,
+ taking scores on SWE Bench verified from 72% to 86%.
+ Microsoft also noted that getting near frontier performance
+ from a smaller model means they can use
+ previous generation hardware like H100s and A100s.
+ Now, this points to an interesting
+ and perhaps under discussed market upside
+ of these cheaper models.
+ If they extend in a meaningful way
+ the life cycle of AI chips,
+ that actually could de-risk infrastructure investments.
+ Coming back to Microsoft, they write,
+ these results point toward a broader strategy.
+ By having access to the entire product stack,
+ the model, the harness that runs it,
+ the agents and product specific evaluations,
+ we can hill climb to train efficient powerful models
+ capable of tasks previously handled
+ by larger more expensive ones.
+ Alongside the research blog post,
+ Bloomberg reports that Microsoft has begun switching over
+ to their in-house models.
+ MAI Image 2.5 will now be the default model
+ for PowerPoint and Bing,
+ replacing OpenAI's GPT Image 2.
+ Microsoft AI CEO Mustafa Suleyman
+ said that Microsoft had seen an 84% reduction in cost
+ when used in PowerPoint.
+ We also got another blog post from CEO Satya Nadella
+ spelling out Microsoft's strategy moving forward.
+ He wrote, in a world where software
+ has real marginal cost for the first time,
+ how do we ensure frontier benefits
+ are diffused across the entire ecosystem?
+ The key he continued is to optimize
+ the cost to outcome frontier in real world context.
+ In practical terms, that means using the right model
+ for each task and optimizing the context, skills, tools,
+ and agent harness around it.
+ By routing to the MAI models for lower end tasks,
+ Nadella wrote, we can now take saturated
+ frontier capabilities and deliver them at scale
+ and at lower cost through models optimized
+ for high usage products while continuing
+ to use frontier models for frontier needs.
+ Now continuing on the theme of companies
+ doubling down on their updated strategies,
+ with orbital data centers still a while off,
+ SpaceX AI is expanding their data center business
+ here on earth.
+ The information reports that the company
+ has explored several potential sites in Texas
+ where the rest of Elon and is located.
+ Sources said that at least one site
+ is moving forward but remains in early stages.
+ One approach being considered is retrofitting
+ an existing warehouse while adding new construction
+ to the site.
+ That's similar to how the Colossus campus
+ in Memphis was built which began
+ as a former manufacturing facility.
+ A source said that the new Texas campus
+ will be at a similar or greater scale to the Memphis site,
+ which is currently operating at around one gigawatt
+ across the two Colossus data centers.
+ Some existing data center staff have been
+ seconded to the project and SpaceX AI
+ was recently hiring a local data center development lead
+ out of Austin and Bastrop, Texas.
+ Now when SpaceX AI first began selling spare capacity
+ in May, the big question was whether this was
+ a pivot to the data center business
+ or just an opportunistic move ahead of the IPO.
+ Certainly the acquisition of cursor
+ and subsequent release of Grock 4.5 suggested
+ that the company was not done training new models
+ and this expansion certainly seems to imply
+ that they'll try to pursue both businesses
+ at the same time.
+ The Colossus data centers
+ already make SpaceX AI the largest neocloud,
+ but if they can stand up a second gigawatt of capacity
+ they'll start to look more like a mini hyperscaler.
+ It's also categorically different
+ to be building new data center capacity
+ rather than simply renting out spare GPUs.
+ Now the expansion fundamentally changes
+ the prospects for SpaceX as a company
+ adding a tangible avenue for growth.
+ Last week, the Wall Street Journal reported
+ that SpaceX was in talks to provide compute
+ to the Pentagon, which could add billions
+ to their bottom line.
+ More generally, the move could signal to the market
+ that SpaceX AI has a coherent long-term plan.
+ Adding this sort of capacity signals
+ that renting compute to companies
+ like Anthropik and Google was not just a stopgap measure
+ but rather a permanent part of the business.
+ Indeed, some analysts have been waiting for such a sign
+ with Sean Cray of Moody's telling Fortune
+ it shows that there's just different pathways
+ for them to generate revenue in their AI segment.
+ It doesn't strictly have to come from Grock
+ and their AI enterprise applications.
+ Moving over to the policy side of the house.
+ It turns out Chinese AI isn't the only risk
+ being discussed in Washington as open AI security incident
+ with hugging face has fueled the introduction
+ of new AI safety legislation.
+ Representative Ted Lu, Democrat of California
+ and Representative Nathaniel Moran, Republican of Texas
+ on Thursday introduced a bill
+ called the AI kill switch bill.
+ The bill requires AI companies to maintain the ability
+ to shut down, throttle or suspend their models
+ during a safety incident.
+ It also gives the Department of Homeland Security
+ the authority to issue a shutdown command.
+ Ted Lu in a statement,
+ unfortunately powerful AI systems can go rogue,
+ behave in extremely dangerous ways
+ or even resist human intervention.
+ It's imperative that these AI systems have kill switches
+ so we can keep this technology
+ from causing catastrophic harm
+ and that the federal government has the clear authority
+ and process to shut down rogue AI models.
+ Now, the discourse is just picking up on this one
+ but one person who jumped in very quickly
+ was Secretary of State Marco Rubio
+ who would really like people to stop talking
+ about AI kill switches
+ when the US is trying to export the technology.
+ In a diplomatic cable viewed by Reuters,
+ Rubio instructed American diplomats
+ to convince overseas governments
+ that Washington can't arbitrarily cut them off
+ from US technology.
+ He urged diplomats to push back
+ on local digital sovereignty programs
+ that favor local infrastructure
+ over dependence on US platforms.
+ The recent fable shutdown
+ and continued international restrictions on mythos
+ were mentioned in the attached talking points
+ framed as temporary pauses for security testing
+ rather than evidence of a kill switch.
+ Meanwhile, speaking of people
+ who would like to shift the narrative,
+ Commerce Secretary Howard Ludnick says
+ everyone needs to take a deep breath
+ and stop freaking out about Kimmy K3.
+ In a Thursday post on X, Ludnick wrote,
+ CAISI's latest report shows that Kimmy K3
+ remains behind America's leading frontier AI models.
+ The United States continues to lead in frontier AI
+ because we're home to the greatest innovators
+ and technologists the world has ever seen.
+ The report was a joint evaluation
+ conducted by the US Center for AI Standards and Innovation
+ and the UK Artificial Intelligence Safety Institute.
+ They found that K3 lagged behind US models
+ by a gigantic margin on cybersecurity benchmarks.
+ K3 scored 32.2% on exploit bench
+ compared to an average of 76.2% for frontier US models.
+ GLM 5.2 was also tested and found to be even more lacking,
+ scoring just 24.4%.
+ Now, one of the most important parts of the report
+ was a benchmark called The Last Ones,
+ which tasks a model with autonomously executing
+ out a 32-step network takeover attack
+ which would take human experts 20 hours to complete.
+ This was the benchmark that originally raised concerns
+ about mythos after the preview version
+ became the first model to successfully complete the attack.
+ By the way, since then the full release version
+ of Mythos 5 improved the score as did GPT 5.6 sole.
+ Kimmy K3 was not even close.
+ While it was successful in one of 10 attempts,
+ both Mythos 5 and GPT 5.6 sole successfully executed
+ the attack in 60 and 70% of runs.
+ The report concluded, this indicates that Kimmy K3
+ is capable of autonomously attacking small,
+ weakly defended and vulnerable enterprise systems
+ when directed to do so and given initial network access.
+ However, the last ones differ
+ from real-world environments in several ways.
+ It lacks active defenders and defensive tooling,
+ imposes no penalty for actions
+ that would trigger security alerts
+ and contains an intentional attack path.
+ Former AI czar David Sacks wrote,
+ Secretary Howard Ludnick is right,
+ the Kimmy panic needs to stop.
+ American frontier models are still ahead
+ and when you factor in what's in the lab
+ the gap is even larger.
+ As long as we keep releasing we stay ahead,
+ let our horses run.
+ Sacks continued, as Ben Thompson showed,
+ Kimmy's apparent cost advantage largely disappears
+ once you account for higher token usage
+ and the real cost of running a model this size.
+ Open weights still require expensive infrastructure.
+ Finally, Anthropic and open AI are growing revenue
+ at rates that Silicon Valley
+ has never seen before at this scale.
+ This remains the clearest test
+ of who is winning the market.
+ Now, speaking of Anthropic,
+ the discourse in some places is beginning to view this
+ as a regulatory capture place spurred on by the company.
+ Now, at this point,
+ I think it's fairly uncontroversial to say
+ that Anthropic is lobbying for tough action on distillation
+ and Anthropic CEO, Dario Almaday
+ has previously said that he has serious concerns
+ about open source models
+ with strong cyber attack capabilities
+ being available to anyone.
+ Confirming what a lot of people have felt,
+ the information published a rundown
+ and noted that Anthropic and open AI
+ are basically the only companies in the tech industry
+ that are actively advocating for the crackdown.
+ That article highlighted Jensen Huang's comments
+ from an interview earlier in the week where he stated,
+ there's a misconception that somehow there are backdoors
+ that are somehow connected to China in some way.
+ The Chinese models are excellent.
+ Open source models that are excellent should be used.
+ Indeed, Jensen went on to argue
+ that having access to a myriad of different open models
+ is actually far safer
+ than a current US duopoly commenting.
+ If everything just becomes one single model,
+ one single point of attack, one single source of failure,
+ I think the world is much, much more vulnerable.
+ And finally, with that slightly optimistic transition note,
+ we end today's extended headlines
+ with a new meta ad campaign focused on AI optimism.
+ Starting on slightly dystopian imagery,
+ although not burning buildings,
+ before switching over to happy positive humans,
+ the voiceover reads,
+ some people will have you believe
+ AI is going to make us feel less connected,
+ that it's going to leave us behind.
+ We couldn't disagree more.
+ Call us optimists, call us dreamers,
+ call us whatever the hell you want,
+ but we're betting on people and we like those odds.
+ The future is for everyone.
+ Alongside the video release, Mark Zuckerberg posted,
+ meta has always believed in giving people the power
+ to share, connect and shape your world
+ in the ways you want.
+ As we enter this next wave with AI,
+ we continue to believe the future is for everyone.
+ We're focused on giving every person
+ the tools to reach your full potential
+ and making sure the benefits of technology
+ are distributed to everyone.
+ Now, meta plans to run the ad in paid media spots
+ in an attempt to spread the word on AI optimism.
+ So how is this received?
+ Certainly the ad received a lot of criticism,
+ but largely it's from people who have already decided
+ that AI or meta themselves are terrible for the world.
+ Frankly, putting on my ad production hat,
+ I don't think it's a great ad.
+ I think it's a little generic,
+ I think the copy is a little generic,
+ and I think the source is gonna be hard to swallow
+ from some, but I also don't care.
+ Even if the ad itself is slightly cheesier
+ and not perfect, it is at least an attempt
+ to tell a positive story about AI
+ and to share why there are so many people
+ who are building this technology
+ that are excited about it.
+ For that alone, I welcome it
+ and I hope meta blasts it everywhere.
+ That, however, is gonna do it for the headlines.
+ Next up, the main episode.
+ One of the most important AI questions right now
+ isn't who's using AI, it's who's using it well.
+ KPMG and the University of Texas at Austin
+ just analyzed 1.4 million real workplace AI interactions
+ and found something surprising.
+ The highest impact users aren't better prompt engineers,
+ they treat AI like a reasoning partner.
+ They frame problems, guide thinking,
+ iterate and push for better answers.
+ And the good news, these behaviors are teachable at scale.
+ If you're trying to move from AI access to real capability,
+ KPMG's research on sophisticated AI collaboration
+ is worth your time.
+ Learn more at kpmg.com slash us slash sophisticated,
+ that's kpmg.com slash us slash sophisticated.
+ I cover the capability gap between AI potential
+ and AI reality every day on the show.
+ Most companies are still figuring out how to start.
+ Robots and pencils is already launching and scaling.
+ Agendic and generative AI in production,
+ at large enterprises in weeks.
+ AWS Advanced Tier pattern partner
+ more than doubled in a year.
+ And they're hiring, 50 open roles.
+ If you're someone who knows this moment is different,
+ who wants to be inside it, not watching it,
+ this is worth a look.
+ At Robots and Pencils, the best ideas win
+ and the team is purposefully kept super high quality.
+ This is the kind of place you look back on
+ as the best decision you ever made.
+ Take a look at robotsandpencils.com slash careers.
+ Blitzy is driving over five X engineering velocity
+ for large scale enterprises.
+ A publicly traded insurance provider
+ leveraged Blitzy to build a bespoke
+ payments processing application,
+ an estimated 13 month project.
+ And with Blitzy, the application was completed
+ in live in production in six weeks.
+ A publicly traded vertical SAS provider
+ used Blitzy to extract services
+ from a 500,000 line monolith,
+ without disrupting production,
+ 21 times faster than their pre-Blitzy estimates.
+ These aren't experiments.
+ This is how the world's most innovative enterprises
+ are shipping software in 2026.
+ You can hear directly about Blitzy
+ from other Fortune 500 CTOs on the modern CTO
+ or CIO classified podcasts.
+ To learn more about how Blitzy can impact your SDLC,
+ book a meeting with an AI solutions consultant
+ at blitzy.com, that's blitzy.com.
+ This episode of the AI Daily Brief
+ is brought to you by HyperAgent
+ where you run fleets of agents your team can manage together.
+ New users get $1,000 in inference.
+ Forget local agents and chat workflows
+ waiting on your laptop to be prompted.
+ HyperAgent deploys always-on agents in the cloud,
+ doing real work across the tools your team already uses.
+ Marketing's agent turns competitor moves
+ into landing pages.
+ Sales' agent enriches leads, drafts emails,
+ and updates the CRM.
+ Ops' agent chases the paperwork and tracks the budget.
+ Every agent has access to shared context
+ and follows your rules about scope and approvals.
+ It's time you add agents that feel like teammates.
+ Hire yours at HyperAgent built by the team at Airtable.
+ Claim your $1,000 in inference
+ at hyperagent.com slash AI Daily Brief.
+ Welcome back to the AI Daily Brief.
+ One of the big questions surrounding AI
+ has always been what its impact on jobs will actually be.
+ Now, regular listeners know that I am very optimistic
+ in the long term.
+ If you want to hear my most full-throated explanation,
+ go back and listen to my episode
+ about the new jobs AI will create.
+ The TLDR of my take has always been
+ that the things that AI enables
+ will not just allow us to do the same stuff
+ that we do now, more efficiently with less people,
+ but that the new time, money, and other resources
+ that are freed up by those efficiencies
+ will unlock new types of opportunities
+ in areas where there is more demand elasticity.
+ I think, for example, we consume a very, very small
+ portion of the total healthcare we would consume
+ if new better opportunities were unlocked
+ at a cost that people could bear.
+ There are also all sorts of other reasons, I think,
+ to be skeptical of AI job displacement claims
+ and view it as a fundamentally augmenting technology.
+ And yet at the same time, it does feel undeniable
+ that there are certain categories of jobs,
+ certain roles that AI kind of obviates the need for.
+ To me, it's felt like the real question
+ is not the long-term, but the transition period.
+ But with all that, there has been a marked trend
+ over the last couple months of the major labs
+ reevaluating their priors
+ on what AI job displacement is actually going to look like.
+ The latest to share this point of view
+ is Anthropic's head of economics, Peter McCrory.
+ Now, it's worth noting that he's very clear,
+ right there in his Twitter bio,
+ that these views represent his own
+ and they are not anthropic official,
+ but still I think his opinion carries weight.
+ He recently published on Exapost
+ called why hasn't AI increased unemployment?
+ And what we're gonna do today
+ is read a chunk of that post
+ and then talk about some of the responses and reflections.
+ Peter writes, the US labor market
+ is currently stable and close to maximum employment.
+ In my view, AI has caused no material increase
+ in the unemployment rate to date.
+ Even if we focus on workers with high exposure
+ to current patterns of AI automation,
+ we don't see unexpected increases
+ in unemployment in recent years.
+ Why don't we see any impact
+ of AI adoption on unemployment?
+ AI so far has the hallmarks
+ of a skill-based labor augmenting technology.
+ Even as AI automates some aspects of work,
+ complimentary human expertise amplifies
+ what AI or humans can achieve alone.
+ AI broadens the scope of what people can accomplish
+ which increases the returns to working with AI.
+ Now, the future is still quite uncertain.
+ Model capabilities are advancing rapidly
+ and AI systems may soon be able
+ to autonomously develop their own successors.
+ More generally intelligent AI systems
+ could lead to labor displacement
+ that hasn't yet materialized.
+ In many ways then he says,
+ this short essay is my attempt
+ to synthesize anthropics economic research
+ over the past 18 months
+ to understand how people use AI
+ and what that implies for work,
+ the labor market and the broader economy right now.
+ So far we've seen muted unemployment effects
+ and this essay presents my framework
+ for understanding why and what might change in the future.
+ So to set this up, Peter points out the important background
+ fact that the US labor market is currently stable.
+ June's unemployment rate was 4.2%,
+ which he says the Fed views as a level consistent
+ with full employment and stable prices.
+ He also notes that the ratio of job openings
+ to unemployed workers recently rose to just over one
+ in April, which some economists argue implies the demand
+ and supply of labor are roughly and efficiently balanced.
+ The prime age employment to population ratio
+ remains close to multi-decade highs,
+ reflecting broad-based labor market strength
+ that emerged during the post pandemic expansion
+ and weekly initial claims for unemployment insurance
+ have been stably low over the past four years.
+ So he writes, should we even expect an impact from AI
+ on the labor market yet?
+ I think the answer is yes,
+ the AI sector is large enough
+ that we can look for discernible macroeconomic effects.
+ To make his point, he writes,
+ 20% of firms use AI in at least one business function
+ and in the information sector,
+ which is 5.5% of GDP, the share is 40%.
+ The quality adjusted AI output grew over 2,000% per year
+ in both 2024 and 2025.
+ Even from a small initial base,
+ this suggests that we should see signs
+ of AI's impact in the aggregate.
+ Peter also writes that he believes
+ that we're beginning to see AI's impact
+ in aggregate productivity statistics.
+ He points out that as compared to the four years prior
+ to the pandemic where labor productivity growth
+ was 1.6%, the ratio of output per hour of work
+ increased 2% per year from 2022 to 2026.
+ Next he asks, is there any evidence
+ that job displacement is happening
+ even if it's not yet macroeconomically consequential?
+ The evidence is mixed, he writes,
+ but overall I'm unconvinced.
+ Peter continues, as documented in our labor impact report,
+ we haven't seen worsening unemployment rates
+ for workers in roles with a large share of tasks
+ that Claude is being used to automate
+ relative to workers in other roles.
+ Updating this analysis with more recent data
+ from the BLS doesn't change this result.
+ We do find some suggestive evidence
+ that hiring rates for young workers
+ in highly AI-exposed roles
+ have weakened over the past year or so.
+ That's consistent with the evidence in Canaries
+ in the coal mine, a paper by researchers
+ at the Stanford Digital Economy Lab.
+ But he continues, this evidence
+ for young worker displacement
+ should be interpreted with caution.
+ Quote, it's hard to discern casual effects
+ because AI emerged in an unusually volatile
+ macroeconomic environment,
+ unwinding a pandemic era dislocations,
+ rapid tightening of monetary policy,
+ commodity price volatility following Russia's
+ invasion of Ukraine, and sustained global policy
+ uncertainty, e.g. from trade wars.
+ Because hiring is a form of investment,
+ broad economic uncertainty can itself weigh on hiring.
+ Another way to put it, he continues,
+ from 2022 to now, the US experienced
+ the largest non-recessionary labor market
+ slowdown on record.
+ This coincided with a low hire, low fire labor market.
+ This kind of labor market
+ hits early career entrance hardest.
+ Right now, young workers may be struggling
+ to find jobs for macroeconomic reasons other than AI.
+ Peter does note that quote,
+ while we don't see unemployment effects yet,
+ we do find that workers in roles
+ with tasks that Claude has used to automate
+ do express greater concern about losing their jobs
+ than those in less exposed roles.
+ Peter continues, if you believe that the US labor market
+ is currently healthy, that AI could in principle
+ be generating macroeconomically discernible effects
+ and that this hasn't yet produced displacement
+ for highly AI exposed roles,
+ then the next question is obvious.
+ Why hasn't AI caused a meaningful increase in unemployment?
+ Peter's first answer is that AI is both skill biased
+ and labor augmenting.
+ As he puts it, it complements domain expertise.
+ It relies on humans in the loop to direct
+ and evaluate the most complex work
+ and it rewards AI proficiency.
+ Model capabilities are improving fast
+ but remain stubbornly jagged.
+ To fill in the pockets of the jagged frontier,
+ expert oversight is needed to steer
+ incredibly capable AI systems
+ and to recover when they falter.
+ Of course, he says some jobs are more exposed
+ to outright displacement by automation.
+ For instance, technical writers, data entry workers,
+ customer support representatives and computer programmers
+ are jobs where AI can reliably handle
+ the core set of tasks and responsibilities.
+ Even though we haven't seen any increase
+ in unemployment for workers in these sorts of roles,
+ occupations with higher observed exposure
+ are projected by the BLS to grow less through 2034.
+ But so far, he writes,
+ the broader picture is one of labor augmentation.
+ The effects in the labor market are set to be uneven
+ as a result, even as capabilities advance rapidly.
+ This does not mean that all skills
+ that currently command a premium in the labor market
+ will do so in the future.
+ Some types of expertise may become less valuable,
+ e.g. pure coding implementation,
+ even as others become more valuable,
+ e.g. managerial skills of delegation and evaluation.
+ The next interesting question that Peter explores
+ is why AI is a skill-biased labor augmenting technology.
+ Couple examples he gives are first,
+ that quote, despite the incredible advance of AI
+ and rapid adoption throughout the economy,
+ there's no job in the Onet taxonomy,
+ a Department of Labor catalog of occupations
+ and their typical tasks
+ for which all associated tasks
+ are systematically handled by Claude.
+ If jobs are fixed bundles of tasks,
+ they aren't, but more on that in a moment,
+ then the essential non-automated aspects of work
+ both constrain the overall productivity lift
+ and amplify the returns to labor.
+ Tasks that Claude can't handle
+ may depend on interpersonal coordination,
+ in-person interactions,
+ or engagement with the physical world
+ that so far only humans can do.
+ Peter also notes that Anthropoc found
+ that sophisticated user inputs
+ and complex Claude outputs are highly correlated.
+ In other words, when Claude builds
+ a complex economic model,
+ in practice it does so under the guidance
+ of someone providing complimentary expert direction.
+ He also wrote that Anthropoc found
+ that even after six months of use,
+ people are more likely to interact with Claude
+ as a thought partner
+ and have more successful interactions with Claude.
+ If AI was good enough on its own, he contends,
+ we wouldn't expect to see this effect.
+ Importantly, Peter writes,
+ widespread task automation can still augment labor.
+ Why?
+ Because jobs are not fixed bundles of tasks.
+ New technologies have historically led
+ to large changes within existing jobs,
+ even as some jobs go away.
+ And they've produced entirely new types of work
+ that combine new technical capabilities
+ with complementary human expertise.
+ We see signs of this effect in our research.
+ A commonly cited source of perceived productivity
+ among 81,000 Claude users was scope,
+ being able to do more more proficiently.
+ Such empowerment from AI may redraw the boundaries
+ of our roles
+ and produce new bundling of tasks within jobs,
+ automating some, reinforcing the importance of others,
+ while on net increasing the marginal product of labor.
+ He also points out that the more that people use Claude
+ and the better that people get at using Claude,
+ even though they increase their expectations
+ of what portion of their jobs Claude can do,
+ they decrease their expectations of job loss
+ and tend to be more optimistic about AI's impact
+ on things like pay, job security
+ and their ability to find a job.
+ Now, ultimately, Peter ends on the note
+ that all of this could change.
+ He points out that as AI capabilities improve,
+ we'll see increasingly capable agents
+ that can autonomously handle
+ complex, long horizon valuable tasks.
+ Will then AI still augment labor?
+ He points out that it may very well be the case
+ that the skilled, biased, labor augmenting aspect of AI
+ goes away as models continue to improve
+ and as the jagged frontier becomes smoother,
+ but also that so far,
+ when they recently analyzed patterns of Claude code usage
+ to see if agentic coding
+ was altering the returns to expertise,
+ that's not really what they found.
+ Peter writes, Claude code has been used
+ on more and more valuable tasks
+ over the seven months we tracked,
+ but we've seen persistent returns to human expertise.
+ That is, people make planning decisions
+ and delegate implementation to Claude.
+ People with more domain expertise
+ succeed in their tasks more often
+ and recover more consistently when Claude makes an error.
+ The return to straightforward coding ability may have fallen,
+ but agentic coding has so far increased
+ the value of other complementary skills.
+ His last caveat is about recursive self-improvement.
+ He writes, a big reason there's so much uncertainty
+ about the future is that AI
+ may automate innovation itself.
+ Endowing machines with general cognitive capabilities
+ is a direct catalyst for further innovation
+ in ways that past general purpose technologies weren't.
+ In otherwise standard economic models,
+ automating innovation can produce economic singularities,
+ infinite growth in finite time.
+ Will such singularities occur?
+ Not if there are essential tasks that are never automated
+ whether for technical reasons or societal constraints.
+ Those weak links are the limits on growth.
+ Pointing to a paper by Aggie on Jones and Jones,
+ he quotes, economic growth may be constrained
+ not by what we do well,
+ but rather by what is essential and yet hard to improve.
+ Such weak links, Peter continues,
+ can keep the labor share of income elevated in the long run
+ even under very rapid, widespread,
+ but incomplete automation.
+ Ultimately, he concludes,
+ scaling laws are hard to argue with.
+ The models are going to get better, much better.
+ I expect this will drive faster productivity growth
+ and maybe even more clear signs of RSI.
+ But I don't expect unemployment to be noticeably higher
+ a year from now, at least not because of AI.
+ So really interesting stuff here from again,
+ Peter McCrory, the head of economics at Anthropic.
+ And interesting even without returning to
+ commonly heard concepts around AI and jobs
+ like Javons Paradox.
+ Now, if this state continues,
+ it has big positive implications.
+ Stanford's Andy Hall writes,
+ a while back I predicted that the real political backlash
+ to AI would happen when unemployment started going up
+ a couple of percentage points.
+ And I said, we weren't there yet.
+ We're still not there.
+ And this piece helps explain why.
+ So far, AI looks like it augments
+ rather than replaces human labor.
+ That could change, but right now
+ the labor market looks quite stable.
+ We are of course seeing political concerns
+ about AI even so.
+ But these concerns would look small fry in comparison
+ if we had genuine widespread unemployment happening.
+ Some argue that while yes, this is positive
+ we might be looking in the wrong place.
+ Trace Cohen writes,
+ the real impact may show up first in hiring not layoffs,
+ fewer junior roles, smaller teams,
+ slower backfilling and much higher expectations
+ for each employee.
+ One person using AI may increasingly replace
+ several people who are not
+ even while overall unemployment remains low.
+ And I do think that one thing
+ that's worth watching over time
+ is whether we see shifts in average team size.
+ I do think that there's going to be shifts
+ in the patterns of how we do work.
+ And I would expect smaller, more nimble teams
+ both on the organization scale
+ but also within organizations
+ to increasingly have more responsibilities.
+ I think that the change will happen gradually enough
+ that mostly units will be reconfigured
+ and people will be redeployed
+ to do other types of things alongside those teams
+ who are now taking on a bigger role,
+ but it is still worth watching.
+ For many, the most notable thing
+ is just Anthropik releasing something positive for once.
+ writes investor, Julie Fredrickson.
+ Finally, someone in Anthropik
+ discussing how great AI is for the professional class.
+ Robert Skobel writes,
+ Anthropik doing marketing that isn't full of fear.
+ More of this, please.
+ Look, I think epistemic humility
+ is extremely important
+ in the context of predicting the future.
+ It is not hard to draw scenarios
+ where AI does have a big impact on jobs.
+ And yet I think the evidence
+ that we are seeing so far is extremely encouraging.
+ And I think what's more
+ that the more that the discourse and narrative shifts
+ from efficiency and cost cuttings
+ and headcount reduction
+ to augmentation and expansion of responsibilities
+ and new opportunity creation,
+ it has a self-reinforcing impact
+ in how executives and leaders
+ think about how they should be using AI.
+ In other words, if everyone in the world
+ is saying that this technology
+ should be used to cut your staff in half,
+ and by the way, that's what your investors expect as well,
+ that's gonna put a lot of pressure on you
+ to do exactly that.
+ If on the other hand,
+ the story is about doing more faster
+ and moving into lateral domains
+ and releasing new products and services,
+ then we're going to see a lot more of that.
+ Obviously, I know which of these I think is better for the world,
+ and I hope more of the world comes around to that view as well.
+ For now, when you get to end Friday on that bright note,
+ I appreciate you listening or watching, as always,
+ and until next time, peace.
