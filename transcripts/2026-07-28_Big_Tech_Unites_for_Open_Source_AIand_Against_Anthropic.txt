@@ -1,0 +1,850 @@
+ Today on the AI Daily Brief, a big tech coalition throws its weight behind open weights models,
+ and before that in the headlines, NVIDIA also throws its weight behind alias Suitsgever's
+ safe superintelligence.
+ The AI Daily Brief is a daily podcast and video about the most important news and
+ discussions in AI.
+ Alright friends, quick announcements before we dive in.
+ First of all, thank you to today's sponsors KPMG, robots and pencils, Blitzy and
+ Airtable.
+ To get an ad-free version of the show, go to patreon.com.ai-dailybrief or you can subscribe
+ on Apple Podcasts.
+ To learn more about sponsoring the show, send us a note at sponsors.ai-dailybrief.ai.
+ And if you want to not just hear about the news and discussions in AI but actually dig
+ in and learn AI, come check out our summer adventure.
+ It is the latest free, self-directed, project-based AIDB learning experience, built-in conjunction
+ with Superintelligent and our superstar, Nufar Gaspar, and is a choose-your-own
+ adventure for you to do everything in AI.
+ From build a personal context file to actually build an agentic operating system.
+ From doing really simple stuff that can still be incredibly impactful all the way to doing
+ advanced agentic loops.
+ Again, you can find that for free at summeradventure.ai.
+ Come join more than a thousand friends on this AI summer adventure.
+ Welcome back to the AI Daily Brief headlines edition, all the daily AI news you need
+ in around five minutes.
+ We kick off today with Nvidia making a substantial investment in safe superintelligence, the
+ enigmatic start-up from former open AI chief scientist, Ilya Sudsgaver.
+ Now, that's a name that hasn't come up on this show at least very much in years.
+ Going back a bit for those who haven't been here for as long, Ilya was one of the central
+ figures in the open AI leadership dispute in late 2023.
+ First he was a major driver into posing Sam, then he came back on board with Sam coming
+ back to the CEO role, it was all very confused.
+ When the dust had settled, he ended up leaving the company, along with CTO Miramarati.
+ Both spinning off to found their own AI labs.
+ As that was happening, the safe bet was on Ilya building something interesting and novel
+ in the space.
+ He was the scientist with the decades-long history in AI, completing his PhD under Jeffrey
+ Hinton, and pioneering the early work at open AI.
+ Meanwhile, some investors openly scoffed during Miradis fundraising campaign, and yet
+ almost two years later, Miradis Thinking Machines Lab has hired an all-star team
+ of AI researchers, and is at the center of this new trend of helping companies think
+ about fine-tuning their own models.
+ All of that happening while we haven't heard anything about what safe superintelligence
+ is up to.
+ But then again, the actual mission statement of the company implied secrecy from the start.
+ While Thinking Machines had a practical goal of building a future where everyone has access
+ to the knowledge and tools to make AI work for their unique needs and goals, that's
+ their phrase, SSI's goal was much more narrow, with Ilya proposing a straight-shot research
+ organization to produce safe superintelligence.
+ Indeed, what has been clear from the beginning with SSI is that Ilya was taking
+ the position that the whole game is superintelligence, and that anything that you have to do for short-term
+ commercial purposes on the way to superintelligence is ultimately just a distraction.
+ So while, yes, other companies have raced off two trillion dollar valuations in the
+ private markets based on billions in enterprise sales, Ilya's bet is that that is actually
+ potentially a distraction from what is the ultimate mission, or at least what his
+ ultimate mission is.
+ Now the actual news of this new deal between Nvidia and SSI is very brief.
+ In a joint press release, Nvidia said that they had made a substantial investment in safe
+ superintelligence without giving a number.
+ The release also stated that SSI would receive access to Nvidia's next-generation Vera Rubin
+ chips.
+ SSI said that the deal would 10x their compute resources over the next 12 months.
+ In the background, sources said that SSI had previously been relying on Google's
+ TPUs, and Nvidia said that they made the investment after gaining rare access to SSI's
+ technology.
+ Jensen Huang commented, Ilya has pioneered fundamental breakthroughs at the foundation
+ of modern AI.
+ We are excited to see what new breakthroughs SSI will discover powered by our Vera Rubin
+ platform.
+ Now, SSI still looms very large in the space, and the announcements suggest the company
+ is making progress.
+ SSI commented, We reached the point where our research is worth scaling, and with
+ this partnership we will be able to.
+ Ilya himself chimed in, adding time to scale that SSI.
+ SSI co-founder Daniel Levy added, Deep learning happens when a small cracked team operates
+ a big computer.
+ The computer just got bigger.
+ Now one other Nvidia story, following up from the news that they were going to
+ backstop an open AI facility, the circular AI financing narrative is back with a
+ vengeance.
+ Nvidia stock was down 4% on Monday, as people pointed to a new 3 quarters of a
+ trillion dollars in deals that are for some just a little too circular for
+ their tastes.
+ The two deals include a partnership with SK Group, which will see the
+ companies doing more than 500 billion dollars in business with each other,
+ as well as that $250 backstopping deal to help open AI construct a new
+ data center.
+ Indeed, we even got an update of that circular deal chart that was flying
+ around all of late last year, so expect to see that little chestnut come back
+ over the coming weeks.
+ Still, when it comes to chips, Nvidia remains in a class of its own, and that
+ is perhaps why China is working so hard to change the equation.
+ The Wall Street Journal reported that CCP operatives are pushing the
+ adoption of domestic Chinese technology.
+ Last summer, Huawei held a closed-door meeting to give a demo of
+ their latest generation of chips, showing apparently dramatic progress
+ in catching up to Nvidia.
+ That was enough to give the party the confidence to get more aggressive.
+ According to the Wall Street Journal, China's AIs are, quote,
+ delivered a blunt warning to China's largest AI users.
+ Anyone who resisted employing domestic chips was a traitor.
+ Now, the shift has been fairly dramatic.
+ In 2021, prior to US export controls, China was 90% dependent on US chips.
+ By 2025, that number fell to 60%, and Morgan Stanley believes it
+ could fall to as low as 25% over the next five years.
+ Huawei Deputy Chairman Eric Shu was very clear on the cause, commenting,
+ If the US hadn't forced our country, our company, and our industry
+ into a corner, we never would have done something like this.
+ Now to be clear, even though they've made progress,
+ Huawei chips are still lagging significantly behind Nvidia,
+ and that's primarily because progress has only accelerated
+ in the West as well.
+ Kyle Chan, a fellow at Brookings, said it's like trying to catch up
+ with a bullet train.
+ Even with China's tech ecosystem focused on the problem,
+ it's still a daunting challenge.
+ And one of the biggest issues is simply throughput.
+ China has been denied access to chip fabs made by ASML,
+ the monopoly supplier for Taiwan and the West,
+ and the only company able to manufacture cutting-edge fabs.
+ China's entire supply chain can produce around 28,000
+ advanced logic chips per month currently,
+ a fraction of the output of TSMC.
+ Still, that number is forecast to double each year
+ for the next three years, according to Bernstein.
+ Huawei alone expects to ship 1.5 million AI chips this year,
+ roughly double their total for 2025.
+ Still, Bernstein expects that in the chip race,
+ China will continue to lag behind the US
+ through at least 2030.
+ The technological catch-up has happened quickly as well.
+ On Monday, the information reported
+ that a Shanghai-based company has begun mass-producing
+ deep ultraviolet lithography machines,
+ a key component in advanced fabs.
+ This is the first time that China has had access
+ to this technology that was previously kept from them
+ under those export controls.
+ Overall, all of this reporting highlights the extent
+ to which China's technology base
+ has been mobilized around this idea.
+ Throughout the export control debates over recent years,
+ there have broadly been two camps.
+ Those who think the US interest is best served
+ by restricting China's access to chips
+ in hopes of slowing down their progress on AI models,
+ and those who believe that a better strategy
+ would be to flood the country with Nvidia chips,
+ owning the tech stack
+ and keeping China dependent on the US supply.
+ It's clear now that that chip has sailed,
+ China is developing their own chip economy,
+ and they're doing so at a very rapid pace.
+ Apple, meanwhile, is duking it out with Micron
+ in a lobbying battle for Chinese chips.
+ Last month, reports stated that Apple
+ was lobbying the White House for approval
+ to purchase memory chips from Chinese manufacturers,
+ including CXMT.
+ Their argument was that memory prices
+ were completely out of control,
+ and unless the administration wanted to see
+ $5,000 iPhones, a solution needed to be found.
+ Now, the Wall Street Journal reports
+ that US memory maker Micron has waited into the debate,
+ lobbying the White House to keep restrictions in place.
+ Micron is the only sizable US manufacturer of memory,
+ with the rest of the large producers
+ headquartered in Korea.
+ Sanjay Minrotra has reportedly warned
+ that allowing Chinese manufacturers to enter the US
+ could decimate the local industry,
+ courting the same fate
+ as the US steel and manufacturing industry.
+ Now, technically, Apple doesn't need
+ White House approval to access Chinese chips.
+ The only restriction at the moment
+ is the Pentagon Entity List,
+ which only limits the military supply chain.
+ Then again, Apple does not want to go around
+ the White House during this highly tense moment.
+ Still, the Journal notes the conundrum
+ for the Trump admin.
+ They are currently facing down a rising inflation problem
+ with the spike in memory prices
+ hurting on the margins.
+ The administration has also made it a clear priority
+ to support and promote local chip making.
+ Allowing Chinese chips for the ubiquitous iPhone
+ could undermine that agenda.
+ Micron's solution is further assistance
+ to fast-track the construction of more domestic chipfabs.
+ And beyond that, both Apple and Micron
+ have worked hard to get in the president's good graces.
+ A White House spokesperson shed no light on the situation,
+ stating that the administration would pursue, quote,
+ investments and economic relief for the American people
+ while safeguarding our national security.
+ Still, during a congressional hearing last week,
+ White House director of science and technology,
+ Michael Kratzios, told lawmakers,
+ the most important thing is we have
+ to build capacity here.
+ We obviously don't want to be doing business
+ with anyone that's on the Entity List.
+ Evan Kurtzos thinks this is just the way of the world
+ for the foreseeable future, writing,
+ Apple wants CXMT parts in its supply chain
+ and Micron is lobbying to keep them out
+ and both are dressing it up as national security.
+ Chip policy for the next few years
+ is going to be mostly this.
+ American companies fighting each other
+ in Washington over sourcing
+ with the geopolitics attached afterward.
+ There was a big fight in some related parts of the world.
+ So with that, we will close the headlines
+ and move on into our main episode.
+ One of the most important AI questions right now
+ isn't who's using AI, it's who's using it well.
+ KPMG and the University of Texas at Austin
+ just analyzed 1.4 million real workplace AI interactions
+ and found something surprising.
+ The highest impact users aren't better prompt engineers,
+ they treat AI like a reasoning partner.
+ They frame problems, guide thinking,
+ iterate and push for better answers.
+ And the good news,
+ these behaviors are teachable at scale.
+ If you're trying to move from AI access
+ to real capability, KPMG's research
+ on sophisticated AI collaboration is worth your time.
+ Learn more at kpmg.com slash us slash sophisticated
+ that's kpmg.com slash us slash sophisticated.
+ One thing I keep seeing in enterprise AI,
+ companies hedging across every cloud,
+ every model, every framework
+ or paying a GSI for a pilot that never ends.
+ The team's actually shipping,
+ they've picked a lane and they move fast.
+ That's one of the reasons
+ why today's sponsor, Robots and Pencils.
+ They've gone all in on AWS.
+ They're an advanced tier and AWS pattern partner
+ and they ship production AI coworkers in 45 days.
+ That's led to them doing some of the more interesting work
+ I've seen on AI coworkers.
+ And by that I'm not talking about chatbots,
+ I'm talking about actual agentic systems
+ that sit inside a business architecture and do real work.
+ That kind of focus matters if you're an enterprise leader
+ trying to get something real into production
+ or an AWS rep trying to move a customer
+ from interested to deployed.
+ Request an AI briefing at robotsandpencils.com.
+ One conversation with Robots and Pencils and you'll know.
+ Blitzy deeply understands your code base
+ before it writes code.
+ Here's the first place that pays off,
+ security in the age of AI.
+ Vulnerabilities don't live in isolation.
+ They live buried inside millions of lines
+ of interconnected code where patching one thing
+ quietly breaks three others.
+ That's why surface level scans fail.
+ Blitzy starts from its knowledge graph
+ of your entire application,
+ identifies and surfaces CVEs across the full estate,
+ proactively recommends patches and can execute the PR.
+ Each fix is grounded in how your systems connect
+ and validates or nothing new breaks.
+ And the knowledge graph dynamically updates
+ keeping you ahead of an ever accelerating threat landscape.
+ One Blitzy customer resolved 21 active CVEs
+ across six core microservices in four days.
+ Zero compile errors, every validation scan clean,
+ months of planned work fixed in less than a week.
+ Security remediation grounded in real architectural context
+ at the speed of compute.
+ Harden your code base at blitzy.com.
+ That's blitzy.com.
+ This episode of the AI Daily Brief
+ is brought to you by Hyperagent
+ where you run fleets of agents your team can manage together.
+ New users get $1,000 in inference.
+ Forget local agents and chat workflows
+ waiting on your laptop to be prompted.
+ Hyperagent deploys always-on agents in the cloud
+ doing real work across the tools your team already uses.
+ Marketing's agent turns competitor moves
+ into landing pages.
+ Sales' agent enriches leads, drafts emails
+ and updates the CRM.
+ Ops agent chases the paperwork and tracks the budget.
+ Every agent has access to shared context
+ and follows your rules about scope and approvals.
+ It's time you add agents that feel like teammates.
+ Hire yours at Hyperagent built by the team at Airtable.
+ Claim your $1,000 in inference
+ at hyperagent.com slash AI Daily Brief.
+ Welcome back to the AI Daily Brief.
+ Boy, oh boy, has the open versus closed AI debate
+ reached a new fever pitch.
+ There is so much to unpack here.
+ This is a topic that is completely dominating
+ the insider AI and AI builder conversation.
+ So let's figure out what's going on
+ and try to make sense of it all.
+ With 62 million views on his first post ever on Twitter
+ slash X, Nvidia CEO Jensen Huang's open letter
+ about why open models matter clearly shows
+ just how significant this conversation is getting.
+ Take me a step back though.
+ Let's try to map how we got here for anyone
+ who hasn't been paying insanely,
+ perhaps terminally close attention as some of us have.
+ In Washington, the concern over Chinese models
+ has been building for months.
+ The release of GLM 5.2, which of course happened
+ while Fable 5 was offline,
+ came with some dramatic headlines claiming
+ the model was just as powerful as mythos.
+ Take this gem from that vaunted institution
+ of journalistic integrity Forbes, buckle up,
+ the bad guys now have a model as powerful as mythos.
+ Far be it from me to speak ill
+ of another AI podcast host,
+ but if I ever drop a headline like that,
+ I hope that you will unsubscribe
+ as soon as humanly possible.
+ In any case, while GLM 5.2 clearly wasn't as powerful
+ as mythos for anyone who actually used the model,
+ it was good enough for policymakers in Washington.
+ Shortly afterwards,
+ we got the first rumblings that the Trump administration
+ was considering a new executive order
+ that would ban open source models,
+ at least of the Chinese variety.
+ Then of course, we had the release of Kimmy K3
+ and it certainly made these concerns seem more justified.
+ K3 was the largest open source model ever released
+ weighing in at 2.8 trillion parameters.
+ It beat Fable on arena's front end code arena
+ by a fairly wide margin.
+ And of course, while that also doesn't mean
+ it's anywhere close to Fable across the board,
+ this sort of thing was enough
+ for non-technical policymakers in Washington
+ to move from quietly concerned to a full on freak out.
+ We got public comments from Treasury Secretary Scott Besant
+ and senior tech official Michael Kratios
+ foreshadowing a ban on open source Chinese models.
+ Now importantly, these comments did not discuss
+ raw model performance.
+ Instead, officials said the policy was intended
+ to stop model distillation
+ and could see sanctions applied to Chinese companies
+ known to have accessed Nvidia chips.
+ A canonical example of this sort of rhetoric
+ came from Treasury Secretary Scott Besant who tweeted,
+ we support open source AI and the innovation it unlocks.
+ But open source is not open season on American IP.
+ When PRC firms conduct covert industrial scale
+ distillation attacks that cross the line into IP theft,
+ sanctions and entity list designations
+ will be on the table.
+ And it wasn't just from the White House.
+ In Congress, we began to see
+ a flurry of bills being put forward
+ and complaints that the administration
+ wasn't doing enough to combat Chinese AI.
+ With all of this flying around,
+ Commerce Secretary Howard Lutnick emerged
+ as the sole administration official
+ seemingly still advocating for competition
+ as the right way to deal with Chinese AI.
+ He was rumored to be pushing for the administration
+ to support US open source
+ and was reportedly taking meetings
+ with multiple labs in recent weeks.
+ And late last week, his agenda got a major shot
+ in the arm when it was revealed
+ that Kimmy K-3 lagged significantly
+ behind mythos on crucial cybersecurity benchmarks.
+ Now, as all this was happening,
+ we saw some lightweight pushback from the industry
+ when a trade group called the Little Tech Association
+ urged the administration not to ban Chinese open source.
+ The group which represents a part of the startup community
+ argued that a lot of work in the field
+ was building on top of Chinese models
+ and we could see a mass extinction event
+ for US startups if they were banned.
+ The most prominent member of the group was Y Combinator,
+ but as vaunted as Y Combinator is among startup founders,
+ it seemed pretty clear that this group
+ lacked the political heft, let's say,
+ to block a policy with major geopolitical implications.
+ Then on Friday, Big Tech joined the fight
+ with a widely supported open letter.
+ The letter opened by discussing the history of open source
+ and how free and open software
+ now underpins every critical system in the world.
+ In the 1980s, it began,
+ early open source software pioneers
+ challenged the prevailing belief
+ that software would advance
+ only if companies kept tight control over their code.
+ Open source did more than lower the cost of software.
+ It created a shared foundation of knowledge
+ on which generations of American engineers
+ and entrepreneurs built their institutional sovereignty.
+ Continuing the letter argues,
+ the United States now faces a similar choice
+ with artificial intelligence.
+ Our AI leadership will be judged
+ not by one frontier AI model,
+ but by whether the United States builds a strong,
+ open ecosystem that diffuses into every sector.
+ This is essential for creating opportunities
+ for innovation and prosperity across the country.
+ It requires expanding access to AI,
+ encouraging competition, robust application layers
+ and giving Americans greater control
+ over the technology they rely on.
+ Open weight models, AI models that anyone can download,
+ inspect, modify and run on their own infrastructure
+ are an important part of that foundation
+ because they make advanced AI more accessible,
+ adaptable and widely available.
+ Now from there, the letter runs
+ through the benefits of open weight models,
+ noting that they allow diffusion of control
+ across the industry, increased competition
+ and broad distribution of AI to all consumers.
+ It also does discuss the risks,
+ primarily the risk of making a powerful AI
+ available to cyber hackers.
+ The letter commented, however,
+ the right response to this risk
+ is not to prohibit open weights.
+ In a world where cybersecurity attackers use advanced AI,
+ defenders need access to models with comparable capabilities
+ so they can detect, simulate and respond to emerging threats.
+ Open models broaden defensive capability,
+ increase transparency and allow vulnerabilities
+ to be discovered and remediated across many teams.
+ In fact, the letter stated,
+ openness could be a major contributor to AI safety
+ by ensuring there is no single point of failure
+ in the ecosystem.
+ Taking a perhaps controversial position,
+ the letter sought to distinguish
+ between model distillation and actual IP theft.
+ It stated,
+ distillation or the practice of using one model's outputs
+ to help trainer improve another
+ is a widely used technique for model improvement,
+ evaluation and validation.
+ It reflects a long tradition of learning from,
+ building upon and improving existing technologies,
+ a tradition that has helped to drive innovation
+ since the rise of the open source software movement.
+ By contrast, unlawful efforts to extract values
+ from closed models raise legitimate concerns.
+ Those concerns should be addressed
+ through targeted legal and commercial frameworks
+ rather than sweeping restrictions on techniques
+ that play an important role in AI innovation.
+ The letter concludes,
+ the age of AI can be one of prosperity.
+ With the right choices,
+ open-weight AI can expand opportunity,
+ strengthen competition,
+ extend American technological leadership,
+ mitigate risk and ensure the benefits
+ of this extraordinary technology
+ are shared broadly across our economy.
+ That future is worth building
+ and the United States should lead in building it.
+ Now, what made this letter
+ more than just some random open words
+ was the support that it quickly garnered.
+ As I mentioned at the top of this show
+ Nvidia CEO Jensen Huang led the way
+ using his first ever expose to share the letter.
+ Huang added, AI will transform every industry,
+ power every company and be built by every country,
+ open models strengthen safety and cybersecurity,
+ accelerate innovation and diffusion
+ and enable sovereignty.
+ The world needs both frontier closed models
+ and frontier open models.
+ One by one, the leaders of Big Tech
+ came on board to co-sign the letter.
+ Sundar Pichai retweeted Jensen adding,
+ very happy to support this on behalf of Google.
+ We have long benefited from open source,
+ our big contributors to open source
+ and in fact have consistently made open weights models
+ with Gemma available from Google DeepMind.
+ Satya Nadella signaled Microsoft support posting,
+ open weight models are essential
+ to a healthy AI ecosystem.
+ Together with others across our industry
+ we are outlining a path for open weight models
+ to strengthen American competitiveness
+ and expand economic opportunity
+ while protecting national security.
+ Mark Zuckerberg shared Nadella's post commenting,
+ open source is a positive and important force
+ for both empowering people
+ and preventing centralization.
+ Proud to support this.
+ Elon Musk later retweeted Jensen and said,
+ this has my full support, Jensen is right.
+ Basically the letter enjoyed support
+ from dozens of companies across both big and little tech
+ all with a vested interest in making sure open source
+ isn't shut down by the government.
+ Palantir had an interesting perspective commenting,
+ 20 years ago, Palantir was a new entrant.
+ Today we stand with some of Tech's biggest
+ and emergent players to reject a future
+ where a select few closed frontier models rule them all.
+ Sovereignty and prosperity require American leadership
+ in a strong open weight AI ecosystem
+ that strengthens competition,
+ keeps customers in control
+ and drives the benefit of ingenuity across the economy.
+ And honestly, one strand of the discourse
+ was just gushing and excited.
+ Not boring's Paki McCormick wrote,
+ capitalism is just so beautiful.
+ $8 trillion worth of market cap
+ coming out in support of open weight models
+ because it's good for their business
+ and makes them look good
+ and totally coincidentally also happens
+ to be better for us consumers
+ and practically every business except for a couple of labs.
+ We just get that benefit for free
+ with Microsoft and Nvidia's self-interest.
+ It brings a dear to the eye.
+ Aravon Srinivas wrote,
+ today is the most positive I have felt
+ about the future of American AI.
+ The coming together of so many companies
+ in a united manner to fight against regulatory capture
+ is incredible to watch.
+ Tech commentator growing Daniel posted,
+ honestly, this is bigger
+ than anything else going on today.
+ Opus 5 doing arc puzzles is nothing compared to this.
+ Added box CEO Aaron Levy,
+ not sure if anything in tech has ever gotten
+ as much broad based support and alignment
+ as this post in message.
+ The key now is that America should actually step up
+ and continue to push open weights innovation.
+ It's good for the entire market
+ including the frontier labs.
+ Open weights accelerates the diffusion of AI
+ across the economy by providing more options
+ for specific customer requirements
+ can lower the cost of certain workloads
+ and you can tune models for areas of work
+ that don't always make sense
+ in a horizontal frontier model.
+ Hell Denny's even supported the message
+ sharing a Venn diagram
+ with the overlapping space between them and Nvidia
+ being about knowing the importance of staying open.
+ Now the notable absence was of course
+ the frontier US labs open AI and anthropic.
+ At least initially it didn't take long
+ before Sam Altman responded to the letter commenting,
+ I want the US to win an AI
+ both in open source and proprietary models
+ and I am glad to see this.
+ At the time open AI was not a signatory to the letter
+ but after receiving a ton of pushback
+ they were in fact added to the list of signatories
+ and that left one.
+ Former AI czar David Sacks wrote,
+ the entire tech industry safe for anthropic
+ has come out in favor of open source AI.
+ So what happens next?
+ Will anthropic change its lobbying efforts?
+ Not likely, now the gas lighting begins.
+ Nobody is trying to ban open source
+ we just want to limit who can use it.
+ We just want to limit who can contribute to it.
+ We just want to limit how powerful these models can be.
+ We just want to make sure the guardrails
+ we lobbied for can't be removed.
+ The net effect will be the same.
+ They won't stop until they kneecap open source.
+ The rest of the industry
+ needs to watch these guys like a hawk.
+ Now because of travel I'm recording this
+ on Monday afternoon it's entirely possible
+ that anthropic has shifted by the time you're hearing this
+ but my guess is that that's not gonna happen.
+ And frankly the fact that they don't support this
+ shouldn't be surprising given anthropic's views.
+ They've openly said they are working with the government
+ to prevent distillation attacks
+ so most assume anthropic is lobbying
+ for an open model ban behind closed doors.
+ Hold aside any lobbying that's going on
+ CEO Dario Amade has spoken repeatedly about the risks
+ posed by open models in general
+ and Chinese models in particular.
+ During an interview with Bloomberg in June
+ Amade said what I worry about is if we get
+ mythos class cyber abilities available
+ for anyone to download.
+ I think it's a serious concern.
+ So how to make sense of all of this?
+ Well one interpretation which kind of harkens
+ back to what Pacquie was saying
+ is that this is just everyone talking their book man.
+ Buko Capital writes my read on this is quite simple.
+ Objectively open AI and anthropic
+ are kicking everyone's butts.
+ You can see the revenue ramps.
+ In fact the open letter makes me think
+ they are doing even better than I thought
+ and everyone else is genuinely really scared.
+ The potential losers see an opening
+ or alternatively worse see the door closing
+ and they feel compelled to act now.
+ Geopolitics and morality and nationalism
+ are mostly just noise.
+ I don't think corporations really care about that stuff.
+ Not really but they really care about losing
+ and they are losing.
+ Silicon data head of research Steve Howe
+ reshared that post from Buko and added
+ interesting take the question is
+ which side of the open versus closed models debate
+ is invoking the geopolitical moral
+ and nationalistic arguments though.
+ To the extent that the best open models
+ are predominantly Chinese
+ it seems that the support of open models
+ runs counter to the geopolitical and nationalistic concerns.
+ More broadly I think it's possible
+ that open AI and anthropic could be running away with it
+ on the easier and better UX
+ hence adoption that AI has become their game to lose.
+ My other interpretation of the open letter
+ is that rather than being scared
+ of the raw competitive powers of open AI and anthropic
+ corporate leaders and signatories of the letter
+ are worried about the power of the US federal government
+ and a ban of Chinese open models
+ on non-economic geopolitical and natset grounds
+ thereby reinforcing if not cementing
+ the market dominance of the two labs
+ before US native open models have a chance to sprout up.
+ Now perhaps reinforcing the idea that open AI
+ wasn't just pressured by public opinion to join this
+ but that it does intersect with their actual beliefs
+ in a recent podcast appearance Sam Altman said
+ I think the fight of the current moment is
+ are we going to head to a world
+ of AI authoritarianism or liberty?
+ Every time that humanity has traded off its liberty
+ for safety it's been a long-term net loss
+ we are going to put this in the hands of people
+ we're going to empower them
+ we're going to let society express its ideas
+ and use the technology in the way they want.
+ Business Insider took from that conversation
+ the idea that one of Altman's big fears
+ is a small number of companies controlling AI
+ and indeed for some open advocates
+ it was just a big moment to feel all the feels
+ Nathan Lambert wrote, a big day for open models
+ I feel like I can relax a little soak it in
+ an incredibly powerful coalition said we believe
+ we care that's rare on any topic.
+ Moodyth Jayasakara writes, I really hope that
+ in six months when there is yes
+ another cyclical swing towards closed source
+ we all remember the energy and values
+ that are currently in the discourse
+ it's very easy to rally around open source
+ when the line between the two frontiers is this blurry
+ but the reason we've rallied behind this thesis
+ for so long is that in order to build
+ this safe and democratized future of intelligence
+ it should be shaped by many
+ red team did interpreted by many and served by many
+ yes I really do believe the safest
+ and most fruitful world with the fused AI
+ is the one contributed to by more of the brilliant
+ people in our field than the ones just behind closed doors.
+ Now when it comes to where this leaves Anthropic
+ boy is this another Rorschach test
+ depending on your perspective
+ they are either the villa or the main recipient
+ of aura from this whole affair.
+ AI commentator Andrew Curran reshared David Sacks post
+ and said the crusade against the house of Anthropic
+ continues to build it is increasingly framed
+ as Anthropic standing alone against the entire industry
+ and for some even if they didn't agree
+ said that it was pretty cool
+ that Anthropic was sticking to its guns.
+ Paki McCormick again wrote, I will say
+ it would have been easy for Anthropic
+ to just sign the letter and then lobby behind the scenes
+ and I respect that they didn't.
+ They believe something and they're sticking to it
+ even when costly.
+ Sedonymous AI entrepreneur and commentator signal
+ thinks that the diversity of perspective is a good thing
+ for what it's worth they wrote.
+ I love that Anthropic has a different worldview
+ than many of the other companies.
+ Why wouldn't we want founders with genuine principles
+ who arrive at different conclusions about the future?
+ You don't have to agree with Anthropic's views
+ to respect that they're acting consistently
+ with what they believe.
+ If anything this whole episode gave them more aura
+ because they were willing to again stand on principle
+ time and time again this has been true.
+ The healthy ecosystem for this country is one where people
+ with fundamentally different visions compete
+ to prove themselves right and signal at it.
+ One last thing, if you're a policy maker
+ or a CEO who signed that letter,
+ you now have to be prepared for the possibility
+ that an open weight model could eventually be involved
+ in a serious security or safety incident.
+ If that happens, Anthropic's position
+ will look a lot more prescient than many
+ of its critics are willing to admit today,
+ but that's the nature of taking a principled stance.
+ Sometimes you're wrong,
+ but if events validate your reasoning,
+ history tends to remember that a lot more.
+ One perhaps surprising entrant to the Anthropic
+ is getting aura from this side of the room
+ came from Open AI's Roon who retweeted that post
+ I just shared from Denny's and added,
+ I don't think every corporation in capitalism
+ banding together meekly signing petitions
+ complaining against closed models
+ realizes how cool they're making Anthropic look,
+ unlimited aura farming once again.
+ Interestingly, Ethan Molek pointed to another tweet
+ from Roon to argue that many of the people inside labs
+ just don't think the way the rest of us think.
+ The tweet he pointed to from Roon
+ was one in which Roon said,
+ there is no way to hold a consistent belief set
+ where you're AGI-pilled and pro-open source.
+ And this has been obvious since 2015 or whatever.
+ Enormous cope ensures.
+ The implication of course,
+ is that if you are fully AGI-pilled,
+ you are too scared of what a full AGI world looks like
+ to want it to be open.
+ Ethan Molek added,
+ I think most people when talking about open weights models
+ don't deeply believe in the vision of AGI and ASI
+ that lab insiders believe in.
+ Like they don't expect AI to really present
+ grave semi-autonomous biosecurity
+ or other similar risks,
+ whether it's right or not, no one knows.
+ If you don't believe these risks are real,
+ then you probably believe that the people in the labs
+ discussing them are intentionally spreading flood
+ for purely commercial reasons
+ and making up risks to keep their high margins
+ via regulation.
+ Now I do think that for many people,
+ anthropic standing on principle
+ will be something to be lauded.
+ However, to the extent that is the case,
+ they might not want their employees
+ to be snarky on Twitter.
+ Member of the anthropic technical staff,
+ Julian Schrittweiser,
+ retweeted Jensen's post and added,
+ I'm so excited that Jensen Huang
+ is a believer in open source now.
+ Looking forward to the CUDA and GPU driver
+ open source release,
+ he then added in the same thread
+ retweeting Satya Nadella's post
+ and Satya Nadella coming out for open source too.
+ Can't wait for the open sourcing
+ of Windows and MS Office.
+ The responses to this were fairly aghast.
+ David Sacks, of course, jumped in saying,
+ nobody is saying that all software
+ has to be open source.
+ What they're saying is that open-weight AI
+ should be allowed.
+ By implication, they're rejecting your company's
+ incessant machinations
+ to recap the open model ecosystem.
+ Investor Bill Gurley writes,
+ excited to see anthropic acknowledge
+ the real problem with open is it competes
+ with their corporate economic strategy.
+ The, quote, unquote, awareness here is revealing.
+ When you build the biggest private market cap ever,
+ you should expect competition.
+ I'm sure the secondaries have been nice.
+ Matthew Berman writes, such a bad take.
+ Belief that open source should exist
+ doesn't equate to belief
+ that literally everything should be open source.
+ And NVIDIA invested 20 billion into open source.
+ Embarrassing.
+ Taking the other side of the aura question,
+ A16Z's Justine Moore writes,
+ imagine you're the banker writing anthropics S1
+ and now have to add massive aura loss
+ from employee tweets to the risk section.
+ Summing it up, Jeremy Howard writes,
+ it continues to boggle the mind how many people
+ who otherwise seem to have a functioning intellect
+ appear to lose all cognitive capacity
+ when it comes to thinking about actions
+ that impact the company that pays them.
+ If nothing else that gives you a sense
+ of just how intense this conversation is getting.
+ If you take away anything from this,
+ it is that there are big implications.
+ For whatever policy the US government tries to pursue,
+ whether it's neutral, pro open source
+ or against open source.
+ I will say that wherever you fall in this debate,
+ you are gonna have a lot of room
+ to make your opinions known,
+ because I think that for the moment,
+ this is just about the biggest conversation
+ that we're going to be having.
+ For now though, that is gonna do it
+ for today's AI Daily Brief.
+ I appreciate you listening or watching as always
+ and until next time, peace.
+ Thank you.
