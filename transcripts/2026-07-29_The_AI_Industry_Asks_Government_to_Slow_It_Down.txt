@@ -1,0 +1,851 @@
+ Today on the AI Daily Brief, we are talking about what some are calling the new AI pause
+ letter pacing the frontier and what it says about where we are in the history of this
+ AI transformation.
+ The AI Daily Brief is a daily podcast and video about the most important news and discussions
+ in AI.
+ Alright friends, quick announcements before we dive in.
+ First of all, thank you to today's sponsors, KPMG, Blitzy, Retool and Airtable.
+ To get an ad-free version of the show, go to patreon.com.ai-dailybrief or you can subscribe
+ on Apple Podcasts.
+ To learn more about sponsoring the show, send us a note at sponsors.ai-dailybrief.ai.
+ Also for those of you who are looking to keep your AI skills up this summer, come check
+ out our latest free training program.
+ You can find it at summeradventure.ai and it is a choose your own adventure with
+ a full range of different AI skills available to you.
+ Come join a couple thousand AI friends and have an adventure.
+ Welcome back to the AI Daily Brief.
+ Today was actually supposed to be a prerecord over here.
+ I'm with KPMG at their annual tech symposium event and we have a really fire operators cut
+ show about understanding and maximizing token budgets coming.
+ But then we got the latest open letter in the long lineage of AI open letters and
+ the sheer volume of the conversation around it I think demanded that we dive in a little
+ bit.
+ Now before we get into the pacing the frontier letter, we have to go back a couple of
+ days to where we left off.
+ At that point basically every major company in the tech industry had signed an open
+ letter urging the Trump administration to protect open source AI.
+ The effort was led by Nvidia and Microsoft and supported by several dozen companies
+ across both big and little tech.
+ Most notably after a brief delay upon its arrival, open AI signed the letter but
+ anthropic remain conspicuously absent from the petition, thus leading to the
+ title of yesterday's show on the AI Daily Brief.
+ The debate was of course raging in the context of the Trump administration
+ narrowing in on a framework for AI safety testing.
+ The June executive order set a deadline of August 1st for the creation of the
+ framework so this is the critical week to impact the policy that would
+ govern AI deployment and model releases in the U.S.
+ On top of that, there has been a raging debate about what to do about
+ Chinese AI.
+ Inspired first by sensational headlines around GLM 5.2 and then
+ Kimmy K3, there have been rumblings that the Trump administration was
+ debating a ban on Chinese open source.
+ And what's more, this was not just happening behind closed doors, this
+ was clearly a live debate with multiple factions within the White
+ House advocating their policy views in public.
+ We got tweets on either side of it from Treasury Secretary Scott
+ Besen and Commerce Secretary Howard Lutnick.
+ There is in other words, and I think this is important, a feeling
+ of a crescendo moment right now.
+ The AI of 2026 is very clearly not the AI of 2025.
+ The policy implications of this 2026 AI are clearly much more
+ significant than anything we had before.
+ So far, it's been fits and starts and bumbling and reaction.
+ But a lot of that is now coming to a head in a way that has fairly
+ big implications for how AI in 2027 happened in the United
+ States and beyond.
+ Now, after I recorded yesterday's show, of course,
+ Anthropic broke their silence and formalized their position
+ on open-weight models with a blog post that was personally
+ attributed to CEO Dario Amade.
+ Amade noted the recent accusations that Anthropic is
+ lobbying for a ban.
+ Writing, anyone who has read my past writing should know that
+ I don't regard such bans as a useful measure.
+ But let me state it clearly so there is no doubt.
+ Anthropic has never advocated for a ban on open-weight models.
+ Still, while Dario acknowledged that open-weight models
+ are a valuable public good, he reiterated his core concerns
+ about making powerful models freely available.
+ Indeed, he wrote that protectionist bans do nothing
+ to address the two quote unquote nightmare scenarios
+ he's most concerned about.
+ He claims his primary concern is the risk that authoritarian
+ governments could use powerful AI to achieve total military
+ dominance or deep repression of their people.
+ Amade wrote that the Chinese government is clearly
+ the most capable in this regard,
+ but they're not the sole concern.
+ In this context, Dario noted that open-weights
+ are almost entirely irrelevant.
+ The more dangerous models might actually be trained
+ in secret and used solely by authoritarian governments
+ for weaponry and domestic surveillance.
+ His secondary concern is the use of powerful AI
+ to carry out cyber attacks or create biological weapons.
+ In his estimation, widely distributed open-weight models
+ do carry a much higher risk than proprietary models
+ in this aspect.
+ That's because open-weights make it difficult
+ to apply guardrails or monitor use.
+ Still, Amade noted that the policy being discussed
+ would be pretty ineffective, commenting,
+ banning the use of these models by U.S. businesses
+ does nothing to address the risks
+ because bad actors are unlikely
+ to be legitimate U.S. businesses.
+ It would protect U.S. AI companies from competition
+ but that has never been my goal.
+ Dario then lays out three policy proposals.
+ First, double down on enforcement of export controls
+ to stop the flow of powerful chips into China.
+ Two, crackdown on industrial-scale
+ distillation operations.
+ And three, introduce mandatory safety testing
+ for all models both open and closed.
+ Now, as part of this interestingly,
+ he refined the argument around distillation a little more.
+ He noted that the concern is that distillation allows
+ for much more effective training runs,
+ allowing Chinese labs to more easily catch up
+ to the U.S. frontier.
+ Amade reiterated,
+ we should have policy interventions
+ to deter industrial-scale distillation.
+ A blanket ban on open-weights models
+ is neither the correct remedy
+ nor something we have called for.
+ Now touching on his reasons
+ for not signing last week's open letter, Amade wrote,
+ I agree with much of it.
+ Open-weights expand access to the AI economy,
+ they strengthen competition at least for some use cases,
+ and they give customers greater control.
+ Concerns about distillation should be addressed
+ through targeted legal and commercial frameworks.
+ But I don't agree with the letter's assertions
+ that open-weights models necessarily
+ make it easier to develop safeguards
+ or that broad access to capabilities
+ necessarily helps defenders more than attackers.
+ It seems at least as likely to me
+ that the opposite will be true.
+ Questions like this should be empirically answered
+ by rigorous pre-release testing,
+ not assumed in advance.
+ Making it clear, he concluded,
+ to summarize my in-anthropics position,
+ we have not and are not advocating
+ for a ban on open-weights models as a category.
+ We should instead focus on keeping powerful chips
+ out of authoritarian hands,
+ stopping industrial-scale distillation,
+ and requiring safety testing
+ of all sufficiently capable models, open and closed.
+ Now, first there were a predictable set of critiques.
+ Diponshu Sharma highlighted the part
+ where he said that he didn't agree
+ that open-weights models make it easier
+ to develop safeguards
+ or help defenders more than attackers,
+ pointing out that quote,
+ GLM 5.2 just saved hugging face
+ from open AI's strongest model.
+ Some took issue with the whole tone,
+ feeling like it was an example of anthropics
+ getting to determine which ideas are dangerous.
+ Expanding on that idea, Harrison Kinsley writes,
+ Dario can only see the danger of open-weights models
+ and refuses to comprehend the real
+ and actual danger of a concentration of power
+ for those who deem themselves philosopher kings
+ to control who has access to intelligence,
+ how much intelligence, and when.
+ Notice his entire viewpoint hinges on some person
+ or body deciding who should have access to intelligence.
+ The issue here is thinking some small group of people
+ is somehow the safer path.
+ Who are these people?
+ Why are they safer?
+ Better?
+ Smarter?
+ This concentration of power is the actual dystopic danger.
+ I would like you, dear listener,
+ to keep that thought in mind
+ as we get into the later open letter
+ pacing the frontier.
+ Still, many found the piece,
+ even if they didn't agree with it,
+ ultimately reasonable.
+ In fact, reasonable was one of the words
+ you saw most often when people responded to this.
+ Which got us to Tuesday morning.
+ News started to bubble of a petition
+ calling for the US government
+ to deliberately haste AI development.
+ And pretty soon we actually got the letter itself.
+ The petition pacing the frontier was published
+ complete with over 1,100 signatures.
+ Signatories included Dario Amade,
+ Meta AI Chief Scientist,
+ Shang-Jie Zhao,
+ Open AI Chief Scientist, Jacob Pachaki,
+ Google DeepMind Chief Strategy Officer,
+ Jasjeet Sikhan,
+ and Thinking Machines Co-Founder
+ and Chief Scientist, John Shulman.
+ The statement reads,
+ AI could help create a dramatically better future,
+ but that outcome is not guaranteed.
+ The world's leading AI companies
+ believe they could be close to automating AI research.
+ It is hard to predict exactly
+ how much this will accelerate AI progress.
+ But there is a real risk that capability development
+ rapidly accelerates beyond our ability
+ to understand or control the resulting systems.
+ To realize AI's potential,
+ industry, government and society at large
+ may need the option to buy time
+ to address emerging risks,
+ develop security measures and strengthen oversight.
+ But each company and country
+ is under intense competitive pressure
+ not to unilaterally slow that acceleration.
+ And today the world lacks the technical and governance tools
+ to deliberately pace frontier-wide progress.
+ Building on work already underway
+ to monitor frontier model releases,
+ we request that the U.S. government support
+ an international effort to develop
+ the technical and governance tools
+ needed to deliberately pace
+ the frontier of automated AI development.
+ Both Anthropic and Open AI retweeted the letter,
+ explaining there are different reasonings
+ for backing the statement.
+ For Anthropic, they wrote,
+ our own research on recursive self-improvement
+ published last month points to the need
+ for tools to deliberately pace
+ the frontier of AI development
+ so society can prepare.
+ We're glad to see broad agreement across the field.
+ Similarly, Open AI wrote,
+ at the core of our mission is working through
+ how to ensure increasingly powerful AI benefits everyone.
+ We believe that at some point in the future,
+ AI acceleration for frontier model development
+ may be so high that the world
+ will need to pace the rate of AI advancement.
+ We hope to contribute to work led by the U.S. government
+ alongside other labs and the open source community
+ to develop the tools and mechanisms
+ that could make that possible.
+ Now, for those paying close attention,
+ there have been indications that among some lab employees,
+ this perspective has been growing.
+ Just a few days ago, Open AI's Rune tweeted,
+ if we could coordinate a global capability slowdown today,
+ I would likely press that magic button.
+ But what even is this letter actually calling for?
+ Of course, the AI safety folks jumped all over it
+ as confirmation of everything they've ever said.
+ David Kruger writes,
+ if anyone was wondering whether AI is getting out of hand
+ seeing over a thousand AI company employees
+ practically begging the government to do something
+ should be a wake-up call.
+ Then again, perhaps predictably,
+ it was not nearly enough for some of the folks,
+ like if anyone builds it,
+ everyone dies author Nate Suarez,
+ who said, I think the pacing the frontier statement
+ is decent by the standards of 2024,
+ but ultimately still soft pedaling.
+ And yet for many, the first response was not positive.
+ One of the most common themes in the negative responses
+ was the fact that it felt like the employees
+ were asking the government to step in
+ to do something that they could theoretically just do.
+ Investor Steven Sinovsky wrote,
+ please government stop the very work I am doing.
+ I seem unable to find the agency to get a different job
+ and find an employer with whom I have a shared alignment.
+ Help, we can't stop.
+ In another tweet he added,
+ if you don't like what your company is doing
+ and claim some moral high ground in saying that,
+ then what does it mean
+ if you continue to advance that mission?
+ This is the definition of signaling.
+ Just quit and work on something you deem moral.
+ Your AI expertise is in short supply
+ and many options will avail themselves to you.
+ This virtue signaling type of critique
+ was pretty common as well.
+ Samira Khan, interestingly from Google Deep Mind wrote,
+ seems like some people want to feel morally better
+ about themselves,
+ a perfect example of signaling moral superiority
+ without understanding the problem or taking any action.
+ Now Samira is clearly against pacing,
+ adding neither should we slower the pace
+ nor should we involve government in this process.
+ But this theme as Neil Chilson puts it,
+ of why do these folks think it's someone else's job
+ to make them slow down
+ is one that I think is coming up a lot.
+ Another theme of the critiques
+ was around the feeling
+ that this might be asking for regulatory capture.
+ The idea of an incumbent,
+ effectively pulling up the ladder
+ by getting the government to block out
+ anyone who's not already at the point
+ that the incumbent is.
+ Mixed panel founders to hail writes,
+ if you make an unsafe AI that hacks people,
+ you get regulated and held accountable.
+ You don't regulate the whole industry
+ as a form of regulatory capture.
+ You get asked to slow down.
+ You don't ask the whole industry to decelerate.
+ Even safety should be accelerated.
+ RSI's Adam Theria writes,
+ this is a very troubling development.
+ Open AI and Anthropic are free to slow down
+ their own AI development efforts all they want.
+ They can cap their compute spend
+ and cut back their own capabilities in various ways.
+ That would be a huge loss for America,
+ but that is their own business.
+ It is absolutely outrageous, however,
+ for America's two leading labs to ask our government
+ to advocate global quote unquote pacing constraints
+ be imposed on the entire sector.
+ Calling for a global gatekeeper for AI
+ that will cripple our entire nation's
+ computational capabilities
+ has obvious anti-competitive effects,
+ which make ongoing fears about regulatory capture
+ all the more credible.
+ Adam then however segues to another strand of critique,
+ writing, but that is secondary to the more important point.
+ In the name of addressing one risk,
+ we open ourselves to an even bigger one.
+ A call for mandatory national surrender
+ to a global pacing agreement and body
+ will not constrain China or other actors from advancing
+ and it will leave America more vulnerable as a result.
+ We stay at the cutting edge because we must.
+ We can find far more reasonable ways
+ to address frontier model safety
+ without resorting to extreme
+ and frankly unworkable solutions.
+ Some pointed out that there felt
+ like an inherent contradiction between the open letter
+ that everyone signed about five minutes ago in this one.
+ David Shapiro writes,
+ you can't sign the open weight pledge
+ and then drop this stupidity 24 hours later.
+ Still, the obvious problem with this
+ was the question that has been lurking around all of it,
+ which is China.
+ One of the most important AI questions right now
+ isn't who's using AI, it's who's using it well.
+ KPMG and the University of Texas at Austin
+ just analyzed 1.4 million real workplace AI interactions
+ and found something surprising.
+ The highest impact users aren't better prompt engineers,
+ they treat AI like a reasoning partner.
+ They frame problems, guide thinking,
+ iterate and push for better answers.
+ And the good news, these behaviors are teachable at scale.
+ If you're trying to move from AI access
+ to real capability,
+ KPMG's research on sophisticated AI collaboration
+ is worth your time.
+ Learn more at kpmg.com slash us slash sophisticated
+ That's kpmg.com slash us slash sophisticated.
+ Here's why most legacy modernization projects fail.
+ The AI doing the work
+ can't understand code bases at scale.
+ It sees a small slice of context,
+ examines syntax and misses years of decisions
+ distributed across the global application ecosystem.
+ Blitzy solves this the way it solves everything.
+ Grounded in your code before any migration begins,
+ Blitzy's agents reverse engineer
+ the entire legacy system into a persistent knowledge graph.
+ Every dependency, every constraint,
+ every piece of tribal knowledge
+ that used to live in one engineer's head.
+ From that understanding,
+ Blitzy autonomously executes language migrations,
+ framework upgrades,
+ and monolith to microservices transformations
+ all validated end to end.
+ One Blitzy customer modernized
+ a $10 million monolithic insurance stack in 16 weeks
+ against a 137 week baseline with coding agents.
+ That's nine X compression.
+ Retire technical debt while accelerating your roadmap.
+ See how at blitzy.com.
+ That's blitzy.com.
+ This episode is brought to you by Retool.
+ Generating a working app now takes about five minutes
+ thanks to AI.
+ Getting it safely into production
+ with auth, permissions, audit log, security reviews,
+ that part still takes time.
+ That's the gap Retool closes.
+ Build apps however you want.
+ natively in Retool with Claude Code,
+ Codex or any coding agent,
+ or by importing React you've already built.
+ It all deploys into Retool
+ and picks up governance automatically.
+ Security lives in the platform
+ not in whatever the AI wrote.
+ So your team ships at AI speed
+ without the shadow IT and the endless reviews
+ that stall out most vibe coded projects.
+ It's why teams at Amazon Stripe and Brex build on Retool.
+ And new enterprise customers who sign by September 30th
+ get up to $10,000 in AI credits per year.
+ Start building at retool.com slash AI Daily.
+ This episode of the AI Daily Brief
+ is brought to you by HyperAgent
+ where you run fleets of agents
+ your team can manage together.
+ New users get $1,000 in inference.
+ Forget local agents and chat workflows
+ waiting on your laptop to be prompted.
+ HyperAgent deploys always-on agents in the cloud
+ doing real work across the tools
+ your team already uses.
+ Marketing's agent turns competitor
+ moves into landing pages.
+ Sales' agent enriches leads, drafts emails,
+ and updates the CRM.
+ Ops' agent chases the paperwork and tracks the budget.
+ Every agent has access to shared context
+ and follows your rules about scope and approvals.
+ It's time you add agents that feel like teammates.
+ Hire yours at HyperAgent
+ built by the team at Airtable.
+ Claim your $1,000 in inference
+ at hyperagent.com slash AI Daily Brief.
+ MIT's Christian Catalini writes,
+ if the U.S. labs pace themselves,
+ why would China wait?
+ Taikun AI Xiaoyun Chu writes,
+ it's silly to try to control the pace.
+ China will not follow
+ and Kimi K-4 won't slow down.
+ It makes no sense that when Chinese open weights
+ starts to make more progress
+ and threaten the business model,
+ suddenly slowing down is better for humanity.
+ If you truly care about humanity,
+ why not equip everyone with easier
+ and cheaper access to intelligence
+ and invest in training programs?
+ Now for what it's worth adding some heft to the
+ China will not comply
+ with any of this kind of argument,
+ Beijing is clearly growing more antagonistic
+ around U.S. policy.
+ On Monday, the Chinese Commerce Ministry accused
+ the U.S. government of AI hegemonism,
+ referencing the recent threat of sanctions
+ over model distillation.
+ The Commerce Ministry wrote in a statement,
+ for any action that causes substantive harm
+ to Chinese interests,
+ China will take all necessary measures
+ to firmly safeguard its legitimate rights and interests.
+ TLDR is that Beijing is clearly not in a diplomatic mood
+ given the tone of the discussion over the past month,
+ especially if it's suggested they should undermine
+ their own interest for a global cause.
+ There was also the confusion among some
+ of what made these employees convinced
+ that the government is in a better
+ coordination position than they are
+ and what makes them so ready to hand over power
+ to this theoretically better authority.
+ AI early adopter and lawyer, Prince writes,
+ I'm surprised that the same people
+ who loudly decried the U.S. government
+ for designating anthropocouple supply chain risk
+ suddenly pulling access to fable five
+ and establishing an opaque quote unquote voluntary
+ frontier model approval regime
+ are now petitioning the U.S. government
+ to quote support an international effort
+ to deliberately pace AI development.
+ The domestic and international regimes
+ you are going to get in response to such a proposal
+ will work very similarly to the U.S. government's actions
+ over the past few months or worse.
+ You want to be ruled by a wise technocrat
+ but will instead have handed control over your technology
+ to a ragtag bunch of political animals
+ pursuing goals very different from yours
+ and having little to do with the technical considerations
+ of whether AI development should be slowed
+ at any point in time.
+ You will receive a designation letter
+ just as Anthropic did after the U.S. government
+ suddenly deemed fable to be unsafe a few weeks ago.
+ The designation will make no sense to you
+ since you will earnestly believe
+ that your safeguards work
+ but your only recourse will be to lobby
+ and cross your fingers.
+ Much more difficult to do on an international level
+ by the way, I will be honest
+ this is one of the most gobsmacking points to me
+ even if one accepts all of these concerns
+ as incredibly legitimate.
+ U.S. AI policy is currently being made
+ by a chief of staff, a treasury and commerce secretary
+ a guy who used to work for the government
+ for about five minutes who's loud on Twitter
+ and whatever mood seems to strike the president
+ in any given moment.
+ There is some belief or maybe delusion
+ among the part of seemingly a lot of folks
+ who are building AI
+ that they're gonna get some sorkin
+ as West Wing of Jed Bartlett conscientiously
+ and thoughtfully debating technical details
+ as they pull together some international coalition.
+ And if I sound frustrated because I think that's naive
+ well it's because I'm frustrated
+ because I think that's naive.
+ Once power is handed to the government
+ it does not come back.
+ Now it may be that even with all of that
+ those are risks that we have to be willing to take
+ because the government is the only body
+ that's in a position to do
+ these sort of international coordination
+ that's required to get global alignment
+ but we have to be very real
+ about the risks that come with that.
+ More broadly, I think that the pacing
+ the frontier letter suffers
+ from all of the same communications problems
+ that have been plaguing the AI industry for years now.
+ I think to the extent
+ that anyone outside AI actually pays attention
+ this letter is likely to make them much angrier
+ at the people in AI rather than excited
+ that they're finally being thoughtful.
+ I think that the letter is going to be read
+ as the AI industry saying
+ we can't stop ourselves government
+ so you have to stop us.
+ And I also think that that will strike
+ pretty much everyone who isn't completely
+ absorbed in this world as a total cop out
+ and a shirking of moral responsibility.
+ I think folks will reasonably ask
+ that if we need this time to address risks
+ that requires some sort of ability to slow down
+ why don't you just slow down?
+ The answer the letter gives
+ to why the AI industry can't slow itself down
+ is quote unquote competitive pressure.
+ Now I believe that what the lab employees
+ are trying to say when they use
+ the term competitive pressure
+ is to point out that there is a prisoner's dilemma
+ where unless all the companies agree
+ to some specific type of pacing or slow down
+ then it is ineffectual for a single company
+ to try to opt out of the race.
+ However, that's not what I think
+ most people will read competitive pressure to mean.
+ Rightly or wrongly, I think people will read that
+ as we don't want to stop making money
+ when everyone else is still making money
+ and they will be angry.
+ This is the same type of response by the way
+ that people have had every time Daria or Sam
+ has gotten up on TV
+ and talked about how many risks there are with AI
+ leading naturally to the question
+ of just why don't you stop building it?
+ The response has always been some version of
+ well, someone's gonna build it
+ so we should or China's gonna build it anyway
+ so we should, which is to the vast majority of people
+ a completely unacceptable answer.
+ In fact, to most people, the only acceptable answer
+ to why to keep building something
+ that apparently has all these risks
+ is because the benefits dramatically outweigh those risks.
+ In other words, if AI isn't going to make the world better
+ most people don't think you have the right to build it
+ whether your competitor or China is going to build it
+ anyways or not.
+ And saying that you can't stop
+ because of competitive pressure
+ just isn't going to cut it with those folks.
+ Now I also think the tactic of open letters
+ just needs to be retired
+ and thrown in the junk heap of history once and for all.
+ In today's environment
+ where one of the central challenges
+ is the gap between the way that people
+ present themselves on social media
+ and the way they actually behave in real life
+ having a political medium
+ whose entire political power rests in showing off
+ who signed the thing
+ has an inextractable inherent problem
+ that I believe will haunt
+ any attempted use of that medium to drive political action.
+ I genuinely do not believe
+ that these now 1224 AI lab employees
+ are virtue signaling by signing this letter.
+ I think that the vast, vast majority of them
+ are taking what's available to them
+ to make their voice heard
+ but saying we should take action
+ is not the same as taking action.
+ If this is such a big deal
+ instead of just saying hey US government
+ you should support a development to pace us
+ why didn't Sam and Dario put aside their differences
+ and write a joint statement
+ that explained their first thoughts
+ not their final thoughts, but their first thoughts
+ on the types of circumstances in which
+ this sort of pacing would be necessary.
+ Why didn't they propose a specific date
+ to have the next round of conversations
+ around that topic?
+ Why didn't they go out and recruit
+ the handful of other leaders
+ at the very small number of labs
+ who have control over this
+ to actually put in place
+ the first steps towards that coordination?
+ It's not like the employees that are signing this
+ are so junior that they don't have power
+ we're talking about co-founders, chief scientists
+ and in the case of Anthropic they're CEO.
+ Frankly, it just reads as not serious
+ but and there are a whole slew of butts.
+ We don't need to fully guess
+ at how these employees were thinking
+ because many of them shared their thoughts
+ and the story I think that is pretty clear
+ is not that everyone thinks
+ that this is the perfect or only action
+ and this certainly doesn't feel
+ like something where folks are saying great
+ I signed this now I can get on my merry way
+ of making money.
+ It feels instead like they're just trying to signal
+ that international cooperation is going to be necessary
+ and this was a way to put a stamp on that point.
+ Dean Ball now at OpenAI writes,
+ I'm proud to have signed the letter linked below.
+ I do not know whether or when it may be necessary
+ to deliberately lower the rest of AI development
+ but I do know we need a plan
+ for how we will do it if we need to.
+ Failing to do so would be negligent.
+ And here Dean captures the zeitgeist
+ that this is not in fact pause AI 2.0.
+ This is in his and many other minds
+ a get out ahead of potential problems
+ that we can see on the horizon.
+ If you were going out on a boat
+ and a weather forecaster said that this afternoon
+ there was a 50% chance of a storm,
+ you wouldn't say, oh, because it's not 100%.
+ I'm not going to pay attention.
+ You would make plans and preparations.
+ That's effectively Dean's argument
+ about what's happening here.
+ Analia Layton of Vext Labs writes,
+ coordinated pacing is an anti-progress.
+ It's the difference between building AI deliberately
+ and building it recklessly.
+ Open AI network ecologist Vi McCoy writes,
+ this is the first of this sort of letter
+ that I find meaningfully reasonable,
+ calling on the government to do something
+ that is not possible for their labs to do on their own.
+ Creating the institutional infrastructure
+ for a coordinated pacing of frontier progress
+ gives us all the chance to prepare
+ for what is coming next.
+ Now I think that what Vi is getting at here
+ and which would have been much stronger
+ if the letter just said this
+ is that the thing that the US government
+ is pretty uniquely responsible for
+ and that the labs cannot themselves do
+ is the relationship with China.
+ People who are signing this letter are not stupid.
+ In fact, they're very smart.
+ They know that no deliberate pacing effort
+ that doesn't include China as a constituency
+ actually has a chance to work.
+ That I think is the subtext
+ of why they are calling on the US government
+ and why they are willing to deal
+ with the US government we have to do so
+ because that is in fact the sticking point.
+ But if that's the case, if I'm reading that right,
+ the letter should have just said that.
+ And it's also really important
+ not to ignore the context.
+ It is pretty clear that one of,
+ if not the major catalyst for this
+ was the Hugging Face hack.
+ To many, it demonstrated for the first time
+ how dangerous or serious a rogue AI incident could be.
+ As Hugging Face CEO Clement DeLang
+ has said from the beginning,
+ this was an unprecedented event
+ that deserves unprecedented transparency.
+ Now, Hugging Face and OpenAI
+ have now released full postmortems
+ and to most readers it made the situation seem worse
+ and even more dangerous than they had thought before.
+ We'd already heard that OpenAI's agents
+ slipped out of containment without anyone noticing
+ and spent days loose in Hugging Face's network.
+ Now, we learn that the agent accessed
+ four different services using stolen credentials.
+ One of these was used as an outbound relay
+ and staging path while another was used for data storage.
+ The other two were read-only access to unnamed services.
+ For what it's worth, OpenAI also noted
+ that the unreleased model involved in the hack
+ wasn't GPT-6 but was instead another internal-only model
+ not intended for public release.
+ Hugging Face's technical write-up
+ was largely the details we've already heard
+ but the sheer scale of the attack
+ was the new information.
+ They explained that the rogue agent
+ took 17,600 actions across two and a half days
+ to penetrate their system.
+ Hugging Face writes,
+ volume is what changes the defensive problem.
+ We were not dealing with one clever exploit
+ or a clean sequence of attack or actions.
+ They had to correlate thousands of low-signal events
+ across several systems
+ while the agent continued testing new paths.
+ The successful path was hidden inside the noise
+ generated by the thousands of failed ones.
+ The same scale changed the investigation.
+ Reconstructing 17,600 actions by hand was impractical
+ and we had to rebuild the timeline, decode the payloads
+ and inventory the exposed credentials
+ using an AI-assisted pipeline of our own.
+ Our learning from this type of attack
+ is that machine speed offense
+ makes ordinary weaknesses more expensive for defenders.
+ LLM agents can bring an increase
+ in the number of paths an attacker can test,
+ the speed at which failed paths can be replaced
+ and the volume of evidence defenders must interpret.
+ Sam Altman said about the event,
+ this is the first security incident
+ that I have felt very viscerally.
+ I've been a little surprised
+ that more people don't feel it so viscerally.
+ We paused training.
+ We have to figure out how to secure our sandboxing
+ in a world of multiple zero days being chained together.
+ We may have to pace, there's that word again,
+ the rate of AI development to give ourselves enough time
+ for society to harden around these new capability levels.
+ We're trying to figure out how to do that
+ in a way that does not feel like regulatory capture
+ for anyone and also does not feel like collusion
+ among frontier labs.
+ And this brings me, I think,
+ to the most optimistic part of this for me.
+ One of the biggest reasons that I have had issues
+ with the AI safety and ex-risk discourse in the past
+ is that it always presented the world
+ as waking up one day to have completely lost control.
+ It denied humans in other words,
+ the agency and the merits of our own brains
+ to figure this out along the way
+ before we let things get too bad.
+ Much of the AI safety discourse presumes
+ that we're just going to sleepwalk into disaster.
+ And my feeling was that that was never realistic.
+ There were always going to be moments along the way
+ that caused an ever-increasing portion of people
+ to wake up and take notice
+ and get involved in exactly this sort of discussion.
+ And one of the biggest stories of 2026 AI
+ has been a number of these moments
+ where exactly that sort of sleepwalking didn't happen.
+ Mythos caught everyone's attention
+ and Washington started paying attention in a major way.
+ We now have a ton of AI bills and policy proposals
+ floating around dealing with
+ all these different types of issues.
+ Now, whether they're good or not
+ is a totally different question,
+ but people are paying attention.
+ Yes, I have issues with the efficacy of this strategy
+ and the potential negative consequences
+ when it comes to a big part of the world that I deal with
+ which is broad public opinion about AI,
+ but I also think things like the pacing
+ the frontier letter existing
+ in and of themselves significantly decrease the chance
+ that the worst scenarios come to pass.
+ And of course, the discourse about this
+ is going to be extraordinarily loud and contentious.
+ That is always the case when you debate futures
+ with unknown unknowns.
+ At some point, the body of evidence
+ that any position can pull from is gone.
+ And all you have left is your intuition
+ and belief about what happens next.
+ And that is exactly where the most fracturous
+ and contentious arguments always take place.
+ I've made the argument before
+ that when it comes to an AI bubble on Wall Street
+ as often annoying as I find the bubble discourse,
+ the fact that there is such a prominent bubble discourse
+ and such a loud and sometimes large group of people
+ who are looking for any indication
+ that AI is going to roll over
+ or financing for AI is going to roll over
+ or demand for AI is going to roll over,
+ all of that makes it much less likely
+ that a bubble actually has what it needs to form.
+ At least the version of a big catastrophic bubble
+ that can create systemic risk.
+ And so begrudgingly,
+ that's kind of the same way
+ that I see the pacing the frontier letter.
+ It is an example, both in its existence
+ and in the fierce debate and even acrimony around it,
+ that we are not sleepwalking
+ into whatever future we are headed towards.
+ We are very much participants in this story
+ and that I believe should create immense,
+ immense optimism.
+ But now I gotta get to this event
+ so that is gonna do it for today's AI Daily Brief.
+ I appreciate you listening or watching
+ as always and until next time, peace.
