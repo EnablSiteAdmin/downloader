@@ -1,0 +1,866 @@
+ Today on the AI Daily Brief, six questions shaping enterprise AI.
+ Before that on the headlines, Sam Albin goes to Washington and the conversation has gotten
+ a lot more complicated over the last week.
+ The AI Daily Brief is a daily podcast and video about the most important news and discussions
+ in AI.
+ Alright friends, quick announcements before we dive in.
+ First of all, thank you to today's sponsors, KPMG, Blitzy, Retool and Airtable.
+ To get an ad-free version of the show, go to patreon.com.ai-dailybrief or you can subscribe
+ on Apple Podcasts.
+ To learn more about sponsoring the show, send us a note at sponsors.ai-dailybrief.ai.
+ And a bone up on your AI skills with the last month or so of summer, go check out our
+ latest free self-directed education program, this one being a Choose Your Own Summer Adventure.
+ You can find it at summeradventure.ai.
+ While Sam Albin has arrived in Washington to meet with lawmakers and White House
+ officials and when the trip was set at the beginning of last week, the agenda was pretty
+ simple.
+ Albin would brief Washington on the capabilities of OpenAI's new model and discuss a protocol
+ for release, hopefully avoiding a repeat of the Fable and GBT-56 rollout.
+ Since then, however, we've had the OpenAI hugging face hack, a public debate about
+ open weights models and an intention-getting petition for the government to step in
+ and build the capability to slow down the pace of frontier AI.
+ In other words, conversations have become a lot more complicated for Albin in just a
+ couple of weeks.
+ According to reports, Albin met with Senate Commerce Chair Ted Cruz and several
+ Democrat senators on Wednesday, but we got very little information on what was
+ actually discussed.
+ Speaking to reporters, Albin declined to state when or even whether the model
+ being previewed would be released commenting, not sure, that's the part we're
+ here to talk about.
+ Albin also declined to discuss the new capabilities of the model that give
+ cause for concern.
+ Now, of course, the hugging face incident looms large over this visit, but it
+ increasingly appears like the model at the center of that controversy will not
+ see release.
+ In a Tuesday update to their post-mortem blog, OpenAI said that the model was
+ an internal-only research prototype never intended for public release.
+ In Washington, Albin told the press that the model has now been permanently
+ deactivated and is inaccessible even for internal research, meaning,
+ presumably, it's not the model being previewed to lawmakers this week.
+ Now, Sam said that he and Ted Cruz had not discussed specific legislation but
+ that, quote, we talked about our new model and what it's going to take
+ for America to remain competitive with AI.
+ Albin also said that he didn't support mandatory safety testing,
+ particularly because it could introduce an unnecessary burden on
+ OpenWeights model developers, but added, for frontier models at new
+ levels of capabilities, we think it's really important that the
+ federal government has great testing capacity and capabilities.
+ Albin said he plans to meet with a range of other officials to end
+ the week, including White House Chief of Staff Suzy Wiles, who, for
+ whatever reason, has wound up as one of the key decision makers on AI
+ policy.
+ That meeting will likely include a discussion of the voluntary AI
+ safety testing framework, which has a deadline of August 1st.
+ Reports state that this framework has been circulated to Open AI
+ and Thropic and Google for comment, but Albin declined to comment on
+ the draft.
+ In a hallway interview on Capitol Hill, Albin was asked
+ whether he would talk to the White House about the need to
+ decelerate AI development.
+ Representing the views of his staff from the recent open
+ letter, Albin responded, I wouldn't use the word
+ deceleration, but we talk about the need to pace it as the
+ models get more capable, which I think is in everyone's
+ interests.
+ Now, one other story that I'm going to get into in more
+ depth tomorrow is the significant increase in revenue
+ numbers on both the open AI and Anthropic front, but I do
+ not want to bury that in the headline so that will be a
+ major topic for tomorrow.
+ Come back for that.
+ Suffice it to say, the CFO of Open AI, Sarah Fryer, recently
+ told employees that annualized revenue in July topped all of
+ the previous quarter.
+ One more bit of open AI intrigue.
+ President Greg Brockman says that the company is working on
+ an entire range of devices to give a physical presence to
+ their chatbots.
+ In a new interview with former Wall Street Journal
+ reporter Joanna Stern, Brockman confirmed that Open AI's
+ hardware plans are still on track, stating that the
+ company is building a family of devices.
+ He wouldn't confirm the recently rumored smart
+ speaker or any other form factors that have seen
+ speculation this year, nor would he give a timeline
+ beyond commenting you can expect them soon.
+ Still, this is the clearest confirmation we've had so
+ far that a full hardware range is still on the roadmap,
+ surviving the end of side quests and an IP lawsuit
+ from Apple.
+ Brockman was understandably brief when talking about
+ that lawsuit stating, we are focused on our own
+ development and technology.
+ One interesting bit of competitive news, which I think
+ sounds good for consumers, particularly those of you
+ who are in the enterprise, without a ton of choice
+ on which models and platforms you're going to use,
+ Microsoft appears to be gearing up to compete more
+ directly with Open AI and Anthropic with the
+ development of a co-pilot super app.
+ During Wednesday night's earnings call, CEO
+ Satya Nadella confirmed the app is coming later this
+ year with the goal of unifying the co-pilot
+ experience for both consumer and enterprise customers.
+ He said, co-pilot is rapidly evolving from chat
+ to co-work to autopilots.
+ This quarter we are bringing these co-pilot
+ experiences together including code in one super app.
+ This is a major step forward and I look forward
+ to sharing more soon.
+ Microsoft is beginning to see Open AI and
+ Anthropic as direct rivals, thanks to the capabilities
+ of their new MAI models.
+ Nadella told analysts that the combination of cost
+ and data privacy concerns gives Microsoft an
+ opportunity to sell customers on their own
+ cheaper models.
+ When asked about the rolling debate about
+ open versus closed, Nadella suggested the
+ framing is too simplified.
+ He said, the goal is to have the firm be in
+ control of their own destiny.
+ We are very, very clear about the architectural
+ design of the platform, which is you get to
+ keep your heart as separate from the model.
+ That means any model at any given time is
+ swappable.
+ Now I'm sure some of you will think that
+ that's kind of a corporate answer, but I
+ actually think that his assessment of how
+ most enterprises feel is correct.
+ In that I don't think that most enterprises
+ actually care ultimately about whether a model
+ is open or closed.
+ They care what they can do with it,
+ what control they have and what sacrifices
+ around control they're making to someone else
+ to have access to the systems they're using.
+ Anyway, overall Microsoft is increasingly
+ positioning themselves not as a reseller of
+ open AI or anthropic products, but rather as
+ a model agnostic platform offering a full
+ range of options.
+ Said Nadella, every customer wants the
+ right model for each task based on latency,
+ quality, cost and compliance.
+ We offer the broadest model catalog in the
+ cloud with over 11,000 models, including
+ the leads from open AI, anthropic,
+ Mistral, XAI, as well as our own MAI family.
+ Now along the swirl of all these big
+ discussions and jockeying for position in AI,
+ Mark Zuckerberg has made the case for AI
+ acceleration in a new op-ed in the Wall
+ Street Journal.
+ In an essay titled The AI Future is for
+ Everyone, Zuckerberg argued that the
+ defining question of the AI age won't
+ be whether superintelligence will
+ exist but who will have access to it.
+ In other words, whether we end up in a
+ world where superintelligence is
+ closely held by a handful of
+ institutions or broadly distributed to
+ normal people.
+ Zuckerberg wrote, it is surprising that
+ the discourse from many of those who
+ are developing artificial intelligence
+ is so filled with doom.
+ I don't understand why anyone who
+ believes that AI will eliminate most
+ jobs and much of humanity's relevance
+ would rush to build that future.
+ This is for what it's worth exactly
+ the point that I was trying to make
+ yesterday when I was discussing what I
+ think the normie response to the
+ pacing the frontier letter would be
+ that the only acceptable answer to
+ why are you building AI is not
+ well if we don't someone else will
+ but instead because we think AI will
+ be awesome and dramatically better than
+ all the risks that it comes with.
+ Zuckerberg continued, the notion that
+ AI is so dangerous that the only safe
+ path is an extreme concentration of
+ power seems dangerous.
+ Historically, hoping that an absolute
+ power will benevolently provide for
+ humanity if sufficiently enlightened
+ hasn't led to safe or positive outcomes.
+ Zuckerberg's view is that much like
+ previous technologies, like the
+ internet, the best result will come
+ from diffusing the technology freely
+ across society.
+ He wrote, rather than centralizing
+ this power, we believe that delivering
+ personal superintelligence to
+ everyone is the way to answer this
+ question.
+ This has the potential to begin a new
+ era of personal empowerment in which
+ individuals have greater freedom to
+ pursue their interests and reach
+ their full potential.
+ Now, the op-ed came as part of a press
+ tour that linked up with Meta's new
+ AI optimism campaign.
+ In a separate interview with the
+ journal, Zuckerberg called for the
+ US government to accelerate AI
+ development rather than restrict it.
+ He argued that the benefits of
+ broadly distributing AI outweigh
+ the risks by quite a margin, adding,
+ I get that it's always hard to
+ debate about the future because it
+ hasn't happened yet.
+ But I do think we have a lot of
+ data points at this point and
+ that should point us to be much more
+ optimistic than I believe the
+ current discourse reflects.
+ Specifically, he warned against
+ thinking a 30- or 60-day government
+ review window is harmless, commenting,
+ the field is moving so quickly that
+ actually is quite a meaningful amount
+ of time.
+ Now, notably, Meta is the only
+ frontier AI lab that hasn't agreed
+ to the government's voluntary
+ testing framework.
+ Zuckerberg also said that the US
+ government shouldn't ban Chinese
+ AI in a separate interview with
+ the Financial Times.
+ Not only does he think a ban won't
+ be effective, but he believes it
+ would open the risk of regulatory
+ capture and could stymie the
+ release of open models more generally.
+ Now, Meta's AI CEO, Alexander Wang,
+ recently said that the company
+ will begin launching open source
+ models again, suggesting that this
+ isn't just hollow sentiment.
+ Still, overall, the core message
+ is simply that more AI optimism
+ is needed.
+ Speaking with The New York Times,
+ Zuckerberg said, so much of the
+ discourse from a lot of the other
+ labs that are developing this is
+ overwhelmingly filled with doom.
+ There needs to be a voice or
+ several voices that are bringing
+ realism to this debate.
+ Now, I think, unfortunately, Mark
+ Zuckerberg's power to be the
+ leading face of AI optimism
+ is limited by history and people's
+ fairly negative view of the overall
+ impact of social media on society.
+ Still, to start to have loud,
+ sustained discourse that other
+ people can pick up and run with
+ is immensely important, and you
+ better believe I will be here
+ amplifying that message.
+ For now, however, that's going to
+ do it for today's headlines.
+ Next up, the main episode.
+ One of the most important AI
+ questions right now isn't
+ who's using AI.
+ It's who's using it well.
+ KPMG and the University of Texas
+ at Austin just analyzed 1.4
+ million real workplace AI
+ interactions and found something surprising.
+ The highest impact users aren't
+ better prompt engineers.
+ They treat AI like a reasoning partner.
+ They frame problems, guide thinking,
+ iterate and push for better answers.
+ And the good news, these behaviors
+ are teachable at scale.
+ If you're trying to move from AI access
+ to real capability, KPMG's research
+ on sophisticated AI collaboration
+ is worth your time.
+ Learn more at kpmg.com
+ slash us slash sophisticated.
+ That's kpmg.com
+ slash us slash sophisticated.
+ Blitzy's deep code-based understanding
+ unlocks the thing every roadmap owner
+ cares about, shipping new features.
+ Here's the truth about building inside
+ a massive enterprise code base.
+ Writing code was never the bottleneck.
+ Context is.
+ Which system does this touch?
+ Which contracts can't break?
+ Which standards apply?
+ Blitzy already knows because it reversed
+ engineered your entire code base
+ into a dynamic knowledge graph
+ before future work began.
+ With that complete picture,
+ Blitzy builds features end to end.
+ Architecture, APIs, UI and tests
+ all validated against your existing systems.
+ One Blitzy customer built an AI native application
+ from scratch with 100% autonomous completion,
+ saving over 2700 engineering hours.
+ Features that respect your code base
+ instead of fighting it.
+ Stop letting your backlog grow faster than your team.
+ Accelerate your roadmap at blitzy.com.
+ That's blitzy.com.
+ This episode is supported by Retool.
+ AI made building software easier than ever.
+ So more people are building it than ever.
+ Usually without a thought for security.
+ Right now, people in your company
+ are vibe coding and every ungoverned app
+ that touches your data is a risk you own.
+ Retool takes that risk off your shoulders.
+ Build apps however you want.
+ Natively with Retool or with Claude Code,
+ Codex or any coding agent
+ and ship it in a secure governed environment.
+ Security lives in the platform, not in each app.
+ So however it was built,
+ it's governed the moment it ships.
+ It's why teams at Amazon, Stripe and Brex
+ build on Retool.
+ And new enterprise customers
+ who sign up by September 30th
+ get up to $10,000 in AI credits per year.
+ Learn more at retool.com slash AI Daily.
+ This episode of the AI Daily Brief
+ is brought to you by HyperAgent,
+ where you run fleets of agents
+ your team can manage together.
+ New users get $1,000 in inference.
+ Forget local agents and chat workflows
+ waiting on your laptop to be prompted.
+ HyperAgent deploys always-on agents in the cloud,
+ doing real work across the tools your team already uses.
+ Marketing's agent turns competitor moves
+ into landing pages.
+ Sales' agent enriches leads, drafts emails
+ and updates the CRM.
+ Ops' agent chases the paperwork and tracks the budget.
+ Every agent has access to shared context
+ and follows your rules about scope and approvals.
+ It's time you add agents that feel like teammates.
+ Hire yours at HyperAgent
+ built by the team at Airtable.
+ Claim your $1,000 in inference
+ at hyperagent.com slash AI Daily Brief.
+ Welcome back to the AI Daily Brief.
+ This week I had the chance to be out in Utah with KPMG
+ for their annual tech and innovation symposium.
+ Now, this is the second year that I've been at the event
+ and in each case have had a chance
+ to do a similar type of presentation.
+ This time around, both my focus
+ and the focus of the conversation after
+ was about trying to sum up, broadly speaking,
+ the big questions that are currently shaping
+ how enterprises have to think about AI.
+ And what's extremely notable to me
+ is how much the conversation has changed
+ since last year at this time.
+ Now I'm gonna go through a version of the presentation I gave
+ but before that I actually wanna zoom back to last year.
+ Last year I did where AI is, 15 slides and 15 minutes
+ which was actually, as you can see, 23 slides.
+ And looking back, it's almost quaint
+ what we found interesting or fascinating
+ and what we were discussing at that event.
+ The first theme was acceleration
+ and we talked about how AI wasn't just moving faster
+ but was actually getting faster
+ in the speed it was being adopted.
+ I discussed the more than 100% growth
+ in the total monthly tokens that Google was processing
+ between May and July
+ where they reached nearly a quadrillion tokens.
+ Now, as many of you know, a quadrillion tokens
+ at this point is about what a single open claw
+ left unattended will do in a month
+ but it was a big deal back then
+ to see this massive inflection point.
+ And indeed, some of the themes from that presentation
+ were effectively set up to where we are now.
+ The compute shortage has done nothing but get worse
+ as we've moved to a new era.
+ And of course, even back then
+ the big conversation was agents.
+ Now, what was interesting is that
+ at least in the way that we use agents today,
+ agent to AI was still firmly in the domain
+ of the future.
+ This was the Claude force sonnet 03 type time horizon
+ and we were just wrapping our heads
+ around the meter time horizon task graph
+ that showed that AI capability was doubling every few months.
+ Now, speaking of themes
+ that would continue to be important
+ even back then it was clear that agent coding
+ was the breakout agent use case.
+ Then again, to give a sense of just how long ago this was
+ we were all gobsmacked
+ because we had hit a billion dollar revenue run rate
+ in just about a single year.
+ To put a fine point on how much this has changed
+ right before this I read a post from Dwarkash
+ that suggested that Anthropa could get to
+ $100 or $150 billion revenue run rate this year.
+ Now, I won't go through all of these different slides
+ but what stands out to me reflecting back then
+ was that the questions of AI and agents
+ were really still for some if questions.
+ One slide that I didn't have in this particular chart
+ but I know I had in a longer presentation
+ that was being given around the same time
+ was this chart from McKinsey
+ that showed the growth in the number of organizations
+ that had implemented at least one or two
+ or three different AI use cases.
+ Yes, the big deal in mid 2025 was still
+ that something like 40% of enterprises
+ were up to two or three use cases.
+ A year on the conversation has changed immensely
+ and the historian in me thinks
+ it's worth reflecting how we got here.
+ The big capability jump as we now know
+ came towards the end of the year
+ the November, December time period
+ where we got Opus 45 and GPT 5.2.
+ For whatever set of reasons
+ those were the model updates
+ where agents and agent work flows
+ actually came online in a major way.
+ Now what was fascinating is that it actually took
+ a couple of months for people to really grok
+ that something had shifted.
+ Everyone went home for the holiday
+ had a little bit of time to decompress
+ and when they fired up their instance of Claude Code
+ or whatever tool they were using
+ they found that the stuff that they could do
+ was significantly different
+ than what it had been before.
+ I still remember vividly the absolute title wave of tweets
+ in that week between Christmas and New Year's
+ of entrepreneur after entrepreneur
+ and developer after developer
+ coming back gobsmacked about what they could now build
+ that they simply couldn't before.
+ Now what's interesting is that this almost immediately
+ translated into organizational practice as well.
+ Part of this was because software organizations
+ had been adapting to greater and greater capabilities
+ throughout the year and even before.
+ By the turn of 2026
+ we were long past software engineering organizations
+ viewing AI coding as just an autocomplete solution
+ and they became some of the first groups in the enterprise
+ to actually shift from viewing their job as writing code
+ to managing the agents that wrote the code for them.
+ That said, maybe because the enterprise folks
+ had been paying attention for over two years at that point
+ it wasn't like there was some major lag
+ from the AI early adopters to enterprises
+ thinking about what this new agent
+ to capacity was going to mean for their work.
+ And coming back into 2026
+ it was absolutely not just software engineering organizations
+ that were racing to put into practice
+ these new ways of working.
+ You saw Vanguard builders and early adopters
+ across domains from marketing to legal to finance
+ starting to figure out
+ how to bring this new capabilities
+ into their work as well.
+ Alongside the model jump, folks also recognized
+ that part of the new capability set
+ was actually about the harness
+ that you situated the models in.
+ Now, Claude code had been growing in adoption
+ throughout 2025 but became a real focal point
+ in the new year, which was perhaps augmented
+ by open AI going all in on their Codex product as well.
+ Still, I think in many ways
+ where this whole idea of harnesses
+ and frankly, a much deepened understanding
+ of what we actually mean when we say agents
+ and what it means to build and manage an agent
+ came when Open Claw became popular.
+ Hundreds of thousands of people,
+ perhaps millions if you include the people
+ who were standing in line in China
+ to get access to an Open Claw
+ really got their hands dirty
+ figuring out the guts of how these agents work.
+ And while you don't necessarily see everyone
+ running their Mac mini setups anymore
+ the explosive learning of that early period of Open Claw
+ I think will be seen as a key inflection point moment
+ for the history of agentic AI.
+ Now, of course, all of this wasn't just happening
+ to individual builders
+ and the evidence that something fundamental shifted
+ started showing up,
+ particularly on the revenue side of the ledger
+ for the big labs.
+ For the first few months of this year
+ it seemed like every time we turned around
+ Anthropic in particular had released some new jaw-dropping
+ number about how much their revenue run rate had grown
+ eventually eclipsing open AI
+ although it's not like they've been particularly slow
+ in their revenue growth either.
+ Now the interesting thing is that the enterprises
+ experience is the inverse side of that revenue chart
+ as a cost chart.
+ And on the one hand, this was always inevitable.
+ For years we've been talking about the idea
+ that AI in the enterprise
+ is not just another category of software spend
+ but represented something fundamentally different
+ something more akin perhaps to labor.
+ The explosion of intelligence consumption
+ reflected in that growing revenue
+ and the growing cost for enterprises
+ were simply a manifestation of that fact coming to bear.
+ Now as an aside,
+ the recognition that we were not talking about seats
+ but instead talking about tokens
+ did a whole lot to collapse
+ the AI bubble narratives on Wall Street
+ from Q4 of last year as well.
+ Pretty soon we were getting stories
+ of enterprises absolutely torching their annual budgets
+ in just a few short months.
+ Uber was the most notable of this
+ and although these stories were presented as surprising
+ if you actually think about it
+ it's really not that surprising at all.
+ How are we gonna expect organizations
+ to effectively budget for the agent token era of AI
+ when no one knew that that was right around the corner
+ when those budgets were being made?
+ Subsequently, and regular listeners of this show
+ will know that these are the themes
+ that have dominated for the past several months.
+ We have seen adaptation to this new agent paradigm run
+ in all sorts of different directions.
+ In some corners we're seeing token caps
+ where companies are going with limits per user per month
+ we're seeing companies have to experiment with
+ and try to figure out measurement
+ and monitoring and observability systems.
+ As cost spiral it puts a whole new emphasis
+ something that was already coming up
+ in the harness conversation around the fact
+ that we were no longer just talking about AI
+ as a choice of which models
+ but as an architectures and systems design question.
+ The router of course the product Azure
+ is one response to this
+ but when it comes to enterprise buyers
+ and planners and strategists
+ I don't think anyone
+ certainly my conversations this week
+ at the KPMG event have confirmed this
+ is looking to open router or any other solution
+ as some silver bullet that's going to solve all these problems.
+ And there are new problems.
+ Specifically, the capability gap is growing
+ on both an individual and an organizational level.
+ The capability gap of course
+ is the space between what AI can do
+ and the value that we're getting out of it.
+ Now the good news is that it's grown largely
+ because the upper bound of what AI can do
+ is rocketing upwards at an incredible rate
+ and yet still there are real consequences
+ to that gap widening.
+ One of my bully pulpit issues
+ is that I believe that the upskilling bill
+ is coming due in a huge way.
+ When AI learning was just about whether you could prompt well
+ maybe you could get away with not investing a ton
+ in training your workforce.
+ Now on the other hand
+ we are talking about a fundamentally new work primitive.
+ The way that people work is changing
+ in a core way in many disciplines and functions
+ from I do my work to I manage agents that do my work for me.
+ The need that that creates for training
+ is radically heightened from the previous era of AI.
+ And indeed one of the things that a lot of folks
+ are talking about here at this event
+ is how to deal with apportioning
+ these incredibly powerful tools
+ that are inherently technical tools
+ to folks that aren't engineers
+ and aren't technical by background.
+ There are a lot of stories floating around this event
+ of people accidentally unleashing agents
+ on critical systems,
+ not because even necessarily
+ they were doing anything wrong
+ but because there weren't the right guardrails
+ or access provisioning
+ and these incredibly capable models
+ with their new tenacity
+ just didn't stay in their boxes.
+ Now this is not an upskilling question alone.
+ Again the watchword of the moment
+ is systems and architectures
+ but without that training organizations
+ are almost doomed to face this sort of issue
+ in increasing fashion
+ or on the other hand restrict the opportunity
+ for people who could really be doing
+ incredibly valuable work with these tools
+ to do so because they're not trusted to do so.
+ And this gets us to the questions
+ that were explored
+ not only in the panel discussion
+ that followed this presentation
+ but honestly in the side conversations
+ all over the event as well.
+ The first question is how are enterprises
+ redesigning for the agentic era?
+ And the key word here is redesigning.
+ The biggest caution that folks like Steve Chase
+ from KPMG on the panel had
+ was the warning of the problems with
+ and ill effects of
+ trying to simply bolt on an AI strategy
+ to existing processes and systems.
+ Now that has always been problematic
+ and at least under maximizing
+ for the potential of AI
+ even when we were firmly in the
+ assisted AI and efficiency AI era
+ but in this time of new agentic capability
+ that gets even worse.
+ Relatedly, the second question
+ is about the nature of that redesign
+ and why organizations need to be thinking
+ in terms of architectures, systems
+ not just models.
+ If previously in organizations
+ response to some new challenge
+ brought by technology was to figure out
+ which vendor was best suited
+ to solving that problem
+ that is simply insufficient
+ for the moment that we find ourselves in now.
+ Thinking about architectures
+ means thinking about complex model systems
+ that allow different levels of intelligence
+ for different types of tasks.
+ It means thinking about, yes, the routing systems
+ whether they are products off the shelf
+ or bespoke or something else
+ that allow that routing to happen
+ but it's also about that harness design
+ about which functions and people have access
+ to what types of context and data
+ and systems integration
+ and what the guardrails that surround it need to be.
+ And as we get into the third question
+ how are you provisioning costs
+ across different groups?
+ The big thing that underlies that
+ is another systems design need
+ which is systems for monitoring
+ and measuring AI usage.
+ You have not seen the word token used more
+ at an event since the height of the crypto era man.
+ And obviously the tokens we're talking about
+ at this event are very different
+ but there is a very broad recognition here
+ that without better visibility into
+ the cost of AI and its relationship with outputs
+ it gets very hard to figure out
+ which individuals, which groups
+ which functions, which projects
+ should be getting access to which types of models
+ and at what magnitude.
+ Given that bully pulpit I mentioned before
+ I've certainly been gratified to see
+ how big a concern enablement in education
+ really is among these organizations.
+ If I had to characterize
+ the average discourse I've seen around that
+ there is a lot of throwing up of the hands
+ and saying screw it
+ we're just gonna have to do this ourselves
+ and experimentation with bespoke customized solutions
+ for this that work for the organization
+ and the population that it has.
+ In other words, there's a recognition
+ that this is not gonna be a bunch of cute video courses
+ of the pattern of corporate trainings your
+ but instead is going to involve real messy work
+ of getting people to use these tools
+ in new ways to do new things
+ and then figure out how to transmit knowledge
+ between parts of the organization
+ that are figuring it out well
+ versus parts that are not figuring it out so well.
+ Indeed, one of the big patterns
+ that I am seeing over and over and over again
+ is various forms of collaboration
+ between both AI redesigned software engineering organizations
+ and business units
+ but also AI early adopters and AI champions
+ and other types of business units.
+ I think the sophistication in the conversation
+ is that no one is talking about the marketing folks
+ replacing the engineers
+ but they are now talking about the 10 or 20%
+ of the types of skills
+ and even more than that mindsets
+ that engineers or product managers have
+ that can become a part of the essential toolkit
+ for those people in other functions
+ be it marketing or sales or back office
+ or what have you
+ and how to best do that new sort of transmission.
+ Now I would say
+ that a lot of the discourse at this event
+ has been focused on internal transformation.
+ 2026 is very clearly the year
+ that for this representative sample of enterprises
+ AI is not a technology problem
+ but a transformation problem
+ has really come home to roost as the reality
+ and yet there is also the entire dimension
+ of agent transformation that has to do
+ with what happens externally as well.
+ In other words,
+ how are agentic opportunities reshaping business cases?
+ Some of the examples of that
+ that people are discussing here
+ include shifts to the business model,
+ people experimenting with outcomes based pricing
+ instead of input based pricing like hourly billing.
+ There is some discussion of new types of products
+ and new types of services that become available
+ in this new context
+ and there's also a lot of reevaluation
+ of what the core state of the old product actually means.
+ What is for example, an audit
+ if agents can be doing a lot of that work
+ and if they can be doing it
+ not just on a one-off basis
+ but on a persistent basis.
+ It feels to me as though
+ that while that type of conversation is happening
+ most organizations are viewing themselves as patient zero
+ let's call it
+ for whatever their external AI strategy is
+ and are focusing on shoring up
+ how they work first
+ before necessarily making radical changes
+ to what they sell externally
+ although certainly for certain types of organizations
+ that changes being forced upon them.
+ Now, of course, when it comes to business model disruption
+ it's made all the more difficult by the fact
+ that no one gets to just shut things down
+ for six months to figure this all out.
+ They got to do it in real time
+ even as they're servicing legacy customers
+ on legacy products
+ with legacy methods of delivery.
+ And on top of all of this
+ the last question that we explored
+ and that was floating around here
+ is if and as we are successful
+ in designing new systems
+ how can we build dynamism into that
+ that has almost planned obsolescence
+ and an appreciation of ephemerality built into it?
+ The harnesses around them are going to change.
+ Interaction patterns are going to change
+ customer expectations are going to change
+ market expectations are going to change
+ policy is going to change
+ and so whatever new that gets built
+ has to assume
+ and design for the fact
+ that it's few months down the line
+ from whenever it is ready
+ will likely require it to change all over again.
+ If all of this sounds head spinning it is
+ but I think that there is something immensely positive.
+ Last year even at this event
+ which is about as AI-pilled
+ as an enterprise event can be
+ there were still as I said
+ is so many if questions
+ how do I convince others in my organization
+ that this is real and that we should be doing it?
+ How do I show ROI to prove that what we're doing
+ is worth the time and money that we're spending on it?
+ Now it's not that ROI questions
+ and things of the like are gone
+ but by and large
+ the questions that people are asking now
+ are it feels like to me
+ the foundational questions
+ for redesigning for a new era
+ that we are going to be answering
+ for the next call it half decade
+ companies asking about designing
+ and allocating token budgets
+ are now exploring this new category of spend
+ that is just going to be common essential part
+ of their organization
+ when companies are talking about building
+ observability systems
+ around the new intelligence they're using
+ while the models and harnesses may change
+ it is very likely that whatever gets updated
+ is still going to need that sort of observability.
+ I guess the point is that the paradigm shift
+ has happened.
+ For years, basically since the chat GPT moment
+ enterprises have been anticipating
+ the shift from assisted AI to agentic AI
+ the opportunity for AI
+ not just to help us do work
+ but to actually do the work itself
+ now that that is here
+ all of the questions
+ are about how we solve all the new problems
+ that that new way of working brings
+ and how we best seize the opportunities
+ that it opens up
+ almost none of the questions have answers right now
+ but it should feel good I think
+ that the questions being asked are the right ones.
+ Anyways, thanks to KPMG for having me out
+ it was a great event
+ and I look forward to coming back next year
+ where honestly I can't even imagine
+ how different it's going to be by then.
+ For now that's going to do it for today's AI Daily Brief
+ appreciate you listening or watching
+ as always and until next time
+ peace.
