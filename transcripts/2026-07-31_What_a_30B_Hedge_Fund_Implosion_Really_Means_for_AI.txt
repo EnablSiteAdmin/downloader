@@ -1,0 +1,815 @@
+ Today on the AI Daily Brief, insane revenue growth but also a hedge fund blow-up?
+ What is going on with AI in markets?
+ The AI Daily Brief is a daily podcast and video about the most important news and discussions
+ in AI.
+ All right friends, quick announcements before we dive in.
+ First of all, thank you to today's sponsors, KPMG, Blitzy, Retool, and Airtable.
+ To get an ad-free version of the show, go to patreon.com.ai-daily-brief or you can
+ subscribe on Apple Podcasts.
+ To learn more about sponsoring the show, send us a note at sponsors.ai-daily-brief.ai.
+ Two more quick notes before we dive in.
+ First of all, today is one of those episodes where all of the stories and the headlines
+ also fit the theme of the main, so it's going to be a main only.
+ And second, you're reminded to come check out the AI Summer Adventure.
+ You can find it at summeradventure.ai.
+ It's a Choose Your Own Adventure style program where you can do projects at basically
+ any level of AI learning.
+ Go check it out.
+ I'm excited to see what you do this weekend.
+ With that, let's talk some numbers.
+ Today we have two stories that feel on first glance like they're telling totally
+ different stories about the market surrounding AI.
+ On the one hand, we have just absolutely bonkers, estimates, and real numbers
+ for AI lab revenue, which are in many ways genuinely hard to wrap your head around.
+ And on the other side, we have the utter implosion of a wonderkin-led hedge fund
+ that is surging renewed questions about the durability of AI markets.
+ So let's figure out what stories these two very different events are telling,
+ and where they point for AI markets next.
+ We're going to start on the revenue side, where both OpenAI and Anthropic
+ appear to be having a resurgence in revenue growth.
+ CNBC reported that during a recent all-hands, OpenAI CFO Sarah Fryer told
+ staff that ARR, annualized recurring revenue for July,
+ had exceeded the entire second quarter, adding, and Q2 was no slouch.
+ Now, without the full context, it is not exactly clear what Fryer meant,
+ and the articles didn't do a lot to clear that up.
+ But the takeaway certainly was that OpenAI had an absolute bonanza of a month.
+ Then on Thursday, Axios reported that Anthropic was also seeing revenue skyrocket.
+ Indeed, back of the napkin math put Anthropic at a $71 billion run rate,
+ up from $47 billion in May when they last discussed revenue.
+ This figure was based on a post from Tay Kim, who was referencing data
+ from AI Investment Research Platform, Flunda.
+ Meanwhile, their data also showed that OpenAI was sitting just shy of $50 billion in ARR.
+ Now, obviously, this data should be treated as a very rough estimate,
+ but it seems directionally correct based on Fryer's comments.
+ It also lines up with estimates from Semi-Analysis,
+ who at the beginning of the month wrote that Anthropic is currently operating
+ above $60 billion in ARR and looks set to end the quarter with $1 billion in profit.
+ And some believe they will just keep going.
+ In a recent blog post, Dworkesh Patel wrote,
+ Anthropic likely ends the year with $100 to $150 billion in revenue.
+ Now, on the one hand, those numbers seem absolutely gobsmacking,
+ but if Anthropic really jumped $10 billion in ARR in July alone,
+ it doesn't seem impossible.
+ Pointing out that Dworkesh is in a position to have a lot of behind-the-scenes conversations,
+ former Atlantic author Derek Thompson noted that if Anthropic can hit this mark,
+ they will have eclipsed the revenue-generating capacity of Tesla and SpaceX combined.
+ For those not paying close attention,
+ the surge also felt like it came out of absolutely nowhere.
+ Just a week ago, The Wall Street Journal wrote an article
+ about how corporate America had suddenly decided to stop blowing money on AI.
+ That is obviously their words, not mine.
+ And on the face of it, it seemed reasonable.
+ So much of the media's story around enterprise AI for the past few months
+ is CFOs trying to rein in token budgets
+ and substituting expensive frontier AI for open-source Chinese models.
+ And so how the heck did these two companies have one of their best months yet?
+ Two points that I've made repeatedly that I will use this as a chance to reinforce,
+ which are honestly actually just part and parcel of the same point.
+ And that is, we are currently consuming a tiny,
+ even vanishingly small percentage of the total possible demand for intelligence from AI.
+ Yes, we have a very, very limited handful of companies
+ who have a portion of their users that are deep enough
+ that they actually have to do things like impose token limits.
+ But the vast majority of the user base remains on the upswing
+ with miles and miles of air above them.
+ What's happening in the enterprise
+ is not that companies have decided to stop spending.
+ It's that they are seeing the early warning shots
+ that what they can't do ultimately as AI gets to full mature scale
+ is simply deploy Fable 5 for every single problem they have.
+ They are, in other words, looking to get out ahead
+ of a problem which is primarily the domain of the future
+ by creating more complex AI usage architectures
+ that involve multiple different models
+ and smart harness and provisioning arrangements.
+ But in almost no cases are companies all of a sudden using less AI.
+ Now, it's my personal opinion that we are going to be on that upswing
+ with miles of air ahead of us
+ in terms of total intelligence demand for years to come.
+ And the reason for that is simply physics.
+ The speed at which demand will increase is faster
+ and will be faster than our ability
+ to bring more intelligence online.
+ It turns out that building the entire slate of infrastructure
+ needed to bring more intelligence online at this scale
+ just takes longer than the demand grows,
+ which brings me to the second sub point that I'll make,
+ which is that I believe that every single token
+ that open AI or anthropic produce
+ at almost any cost within the bands of where they are
+ will be bought.
+ The addition and presence of lower priced models
+ and models that make different trade-offs
+ will be adding to the top line, not subtracting overall.
+ Which is not to say that these companies are going to sit back
+ and marinate only in their high priced offerings.
+ In fact, we also just got news
+ that open AI is slashing prices.
+ Effective Thursday, the two smaller versions of GPT 5.6
+ saw a price cut with Luna down 80%
+ to a buck 20 per million output tokens
+ and Tara down 20% to $2 per million output tokens.
+ Sole prices were held steady,
+ but open AI introduced a new fast mode
+ with a 2.5X speed boost.
+ Now this shows some clear awareness
+ that cost is a vector that they need to compete on
+ and that more efficient models are going to increasingly have
+ a more complicated competitive landscape,
+ but make no mistake, this is not a discount sale
+ because open AI is having any problem selling intelligence.
+ It's strategically leveraging their position
+ to try to shore up a part of the market
+ that could increasingly be a weakness.
+ Now why all of these revenue numbers matter
+ as more than just interesting headlines for podcasts
+ is that demand for open AI and anthropic models
+ is upstream of everything else in the AI economy.
+ The equation pretty simply is
+ open AI and anthropic revenue going up enough
+ to justify increasingly large expenditures
+ on new capex development, i.e. data centers
+ and the finance that's requiring for that build out,
+ meaning of course that the concern is on the inverse,
+ if demand were to fall,
+ none of those things would make financial sense
+ and it could all come crashing down.
+ But at the moment when it comes to the revenue,
+ it is just nothing but air up there.
+ Now, close listeners will have heard me talk about
+ before the fact that these massive revenue numbers
+ and the shift that they represented
+ from thinking about AI business models in terms of seats
+ to instead thinking about it
+ in the total addressable market for tokens
+ is what got a lot of folks off of their Q4 AI bubble worries
+ that were such a big story last year.
+ So where have the AI bears focused
+ their concerns this year?
+ To some extent, the bear case hasn't changed.
+ It's still based on things like concerns
+ about NVIDIA's circular deals,
+ which given recent talks for NVIDIA
+ to backstop $250 billion of open AI's data center demand
+ have come back louder recently.
+ When it comes to the semiconductor trade,
+ many if not most analysts still view the industry as cyclical
+ with demand destined to crash.
+ Even though in that particular case,
+ I don't know that there's ever been quite as good
+ an example of past results
+ do not guarantee future performance,
+ i.e. the semiconductor trade now is totally
+ and fundamentally different to what it was
+ before the AI boom,
+ which to be clear doesn't mean that it can't go badly.
+ It's just not going to go badly
+ for the same cyclical reasons that it did before.
+ And indeed, there's the ever present argument
+ that AI demand simply can't continue to grow
+ and has perhaps reached the high water markets,
+ cheaper Chinese models become good enough to substitute.
+ Now, obviously that's just what I addressed.
+ My position on that is pretty clear.
+ However, very importantly,
+ it is very easy for any of us who intersect primarily
+ with one part or one theme of the market
+ to think that that's the most important thing in markets.
+ However, if you take a quick peek outside
+ of the AI ecosystem,
+ you'll notice that a lot of the bearish sentiment
+ on AI right now has absolutely nothing to do
+ with AI fundamentals.
+ This week, the Federal Reserve declined
+ to raise interest rates,
+ but many analysts now believe a rate hike is coming
+ as soon as inflation picks up.
+ The ongoing fracas of the Iran War
+ is making investors extremely jittery.
+ And from the beginning of the year
+ where we saw macro conditions
+ ripe for a boom in speculative tech stocks,
+ over the past couple of months,
+ the market has transitioned
+ into a decidedly risk-off mood.
+ It is important for us to be able to distinguish
+ when AI-related market prices going down
+ has to do with some change in belief about AI
+ or whether they are just the biggest stocks
+ being influenced by broader concerns.
+ Overall, the Nasdaq is currently down slightly on the year
+ and despite a strong recovery in July
+ is once again on the brink of a correction.
+ The Mag-7 is basically flat over the past month
+ and the semiconductor index has taken a 23% drawdown
+ from June highs.
+ The software index is up 3% for the month,
+ but that represents a rotation out of the AI trade
+ and into the names that were beat up
+ during the SaaS Pocalypse.
+ And that's just the US market,
+ which we are continuously surprised to discover
+ is not the only market in the world.
+ If you look abroad to South Korea
+ for one globally interconnected example,
+ that market is in absolute shambles.
+ The major Korean index known as the Cosby
+ is down 40% in a month,
+ making it the worst stock crash in Korean history,
+ worse than the Asian financial crisis in the 90s,
+ worse than the GFC in 2008.
+ Now the Korean stock market is composed
+ very differently to the US.
+ Rather than the major index tracking 500 stocks,
+ it tracks 100 and only a tiny handful of them
+ are large enough to matter.
+ Right up the top of that list are Samsung and SK Hynex,
+ the two major memory producers
+ that make up around 50% of the index by themselves.
+ By way of comparison,
+ the Mag7 are about 30% of the S&P 500.
+ The other big difference
+ is the behavior of Korean retail traders.
+ Around 30% of the population actively trades
+ compared to around 0.2% in the US.
+ They also notoriously love leverage,
+ a word that we are going to talk about
+ a lot in the latter part of this show,
+ to the point that Korean regulators
+ recently banned new leverage ETFs
+ to protect financial stability.
+ According to Goldman Sachs,
+ around 1.2 million Korean accounts
+ were margin called this week,
+ meaning that they had to deposit more money to stay afloat.
+ That's around 3.4% of the adult population.
+ As many as 360,000 accounts were liquidated,
+ meaning they were forced to sell
+ after failing to meet a margin call.
+ It's always dangerous to try to say,
+ market moves are only about this thing versus that thing.
+ And right now you're seeing a competition
+ for interpretations around these particular moves.
+ To some, it's a notoriously cyclical
+ semiconductor industry experiencing a predictable crash
+ as long-term AI demand is questioned.
+ But on the other hand,
+ there is a very mechanical story playing out
+ as a sizable chunk of the Korean population
+ is forced to sell into a price crash.
+ Those two interpretations have wildly different implications
+ for what this all says about the state of AI markets
+ in general.
+ Another big story doing the rounds with AI bearers
+ is the problem of off-balance sheet debt.
+ As I've been discussing for months,
+ we're at the phase where the hyperscalers
+ are increasingly having to turn
+ away from funding the infrastructure build up themselves
+ towards instead turning to debt to fund that build out.
+ Last week, Nikkei Asia did a little digging
+ and came up with some numbers around that.
+ They believe that hyperscalers are holding 1.65 trillion
+ in data center debt.
+ Debt wishes largely being held by the companies
+ not on their balance sheets,
+ but in special purpose vehicles,
+ which are effectively shell companies spun up
+ for the sole purpose of financing individual projects.
+ Shocking, horrifying, terrifying, right?
+ Well, if you listen to the AI bears,
+ this has shadows of subprime.
+ Rather than putting debt on their own balance sheet
+ where they have to disclose it to the market,
+ the hyperscalers are hiding it in shell companies.
+ This debt is sliced and diced into structured credit products
+ and sold off to insurance companies,
+ private credit firms, and pensions.
+ If you're a California teacher,
+ your pension is exposed to this dangerous
+ and shadowy asset.
+ But that's not really the full story.
+ And the comparisons to subprime
+ tend not to make it past the surface level.
+ In his fantastic newsletter notes on the crisis,
+ Nathan Tankus wrote an extremely detailed comparison
+ between Hidden Data Center Debt and the CDOs
+ that brought the financial system to its knees in 2008.
+ And in this particular instance,
+ I do think it is worth noting the source.
+ Nathan is not a David Sack Silicon Valley venture capitalist
+ talking his own book.
+ He's an extremely left leaning,
+ extremely earnest markets commentator
+ who's been writing this newsletter since COVID,
+ who if you have watched for the last five years or so
+ as I have, is basically temperamentally incapable
+ of making an argument that isn't just based
+ on the best information that he can find,
+ regardless of whose talking points it reinforces.
+ In any case, when it comes to this comparison
+ between the Hidden Data Center Debt
+ and collateralized debt obligations,
+ Nathan's core argument is that the hyperscalers
+ are fundamentally a different type of borrower
+ to the subprime borrowers during the financial crisis.
+ Believing that hidden debt
+ will once again break the economy requires you to bet
+ that at least a couple of the hyperscalers go bankrupt,
+ not struggle to maintain cash flows,
+ not see their stock price cut in half,
+ but actually default on their debts.
+ That is quite a burden of belief
+ given the overall strength of these borrowers.
+ Now, the other big difference
+ is how this debt is being used.
+ In the lead up to the financial crisis,
+ subprime mortgages were repackaged
+ as investment grade CDOs.
+ They were accepted as basically the same
+ as US government issued treasury bills
+ for use in the interbank settlement system.
+ This was the part of the system
+ that did the most damage when it broke in 2008,
+ much more so than the crisis being about home prices falling
+ or the collapse of Bear Stearns or AIG.
+ Those were symptoms of the foundations
+ of the financial system falling apart.
+ This time around, no one is pretending
+ that data center debt is the same as treasury bills.
+ The debt is largely being sold to private credit firms
+ and shoved onto the balance sheets
+ of insurance companies and pension funds.
+ Now, to be clear, it would be very bad
+ for these organizations
+ if the data center industry collapses
+ and these debts default,
+ but they're at this moment at least
+ are not the same sort of mechanisms
+ for even those defaults, as improbable as they seem,
+ to cause a systemic crisis in any sort of manner
+ similar to the financial crisis of 2008.
+ Now, just because there isn't systemic risk
+ doesn't mean anyone should be flipping
+ around either the current state of debt
+ or the trajectory of debt.
+ But I think that we should deal with it
+ as it actually is rather than plumbing
+ for this sort of historical analogy,
+ which is mostly interesting for grabbing headlines.
+ One of the most important AI questions right now
+ isn't who's using AI, it's who's using it well.
+ KPMG and the University of Texas at Austin
+ just analyzed 1.4 million real workplace AI interactions
+ and found something surprising.
+ The highest impact users aren't better prompt engineers,
+ they treat AI like a reasoning partner.
+ They frame problems, guide thinking,
+ iterate and push for better answers.
+ And the good news,
+ these behaviors are teachable at scale.
+ If you're trying to move from AI access to real capability,
+ KPMG's research on sophisticated AI collaboration
+ is worth your time.
+ Learn more at kpmg.com slash us slash sophisticated
+ that's kpmg.com slash us slash sophisticated.
+ Blitz's understanding of massive code bases
+ unlocks autonomous security fixes,
+ modernization and new features.
+ So what happens when there's no legacy code at all?
+ Greenfield is supposed to be the easy part,
+ clean slate, no technical debt,
+ but even Greenfield moves at human speed
+ one sprint at a time.
+ Blitzy changes the unit of work
+ from the developer to the project,
+ autonomously planning, building, testing
+ and validating entire applications from scratch.
+ Hundreds of thousands of lines of production ready code.
+ One Blitzy customer stood up a brand new application,
+ 534,000 lines of code,
+ compressing a 65 week roadmap into two weeks.
+ Another shipped an entire application
+ with no front-end engineer.
+ Legacy or Greenfield, the answer is the same,
+ software at the speed of compute.
+ Build what's next at blitzy.com.
+ That's blitzy.com.
+ This episode is brought to you by Retool.
+ Generating a working app
+ now takes about five minutes thanks to AI.
+ Getting it safely into production
+ with auth, permissions, audit logs, security reviews,
+ that part still takes time.
+ That's the gap Retool closes.
+ Build apps however you want,
+ natively in Retool with Claude Code,
+ Codex or any coding agent
+ or by importing React you've already built.
+ It all deploys into Retool
+ and picks up governance automatically.
+ Security lives in the platform,
+ not in whatever the AI wrote.
+ So your team ships at AI speed
+ without the shadow IT and the endless reviews
+ that stall out most vibe coded projects.
+ It's why teams at Amazon, Stripe and Brex build on Retool
+ and new enterprise customers who signed by September 30th
+ get up to $10,000 in AI credits per year.
+ Start building at retool.com slash AI Daily.
+ This episode of the AI Daily Brief
+ is brought to you by Hyperagent
+ where you run fleets of agents
+ your team can manage together.
+ New users get $1,000 in inference.
+ Forget local agents and chat workflows
+ waiting on your laptop to be prompted.
+ Hyperagent deploys always-on agents in the cloud
+ doing real work across the tools your team already uses.
+ Marketing's agent turns competitor moves
+ into landing pages.
+ Sales' agent enriches leads, drafts emails
+ and updates the CRM.
+ Ops agent chases the paperwork and tracks the budget.
+ Every agent has access to shared context
+ and follows your rules about scope and approvals.
+ It's time you add agents that feel like teammates.
+ Hire yours at Hyperagent
+ built by the team at AirTable.
+ Claim your $1,000 in inference
+ at hyperagent.com slash AI Daily Brief.
+ Now all of this was the background
+ as we entered this week of tech earnings.
+ The question on everyone's mind
+ was whether any of the hyperscalers
+ would pull back on capex and announce
+ that AI spending was failing
+ to deliver sufficient returns.
+ Google had already gone first last Wednesday.
+ While growth was strong,
+ they announced their first cash flow negative quarter
+ in years as capex overtook profits.
+ And that was the only message investors heard
+ sending the stock price tumbling.
+ This Wednesday saw Meta and Microsoft report
+ on the same night.
+ Meta's earnings were very poorly received
+ with analysts remaining unclear
+ on what the company's AI strategy actually was.
+ Mark Zuckerberg tiptoed around the idea
+ of renting out spare capacity,
+ suggesting Meta was still better off
+ keeping it for their own use.
+ And as for AI sales,
+ Zuckerberg presented a melange of options
+ that to many didn't seem to really stack up.
+ He is clearly still set on selling AI agents
+ to consumers, what he calls personal superintelligence.
+ But it's obvious that consumers by themselves
+ can't justify hundreds of billions of dollars in capex,
+ i.e. those revenues are much more about seats
+ than about aggregate tokens.
+ Zuckerberg then listed options
+ including enterprise AI,
+ spinning off their internal productivity tools
+ as separate products
+ and a constellation of new vibe coded apps.
+ However, he acknowledged that these would all require Meta
+ to flex a quote different muscle
+ and the stock immediately sank.
+ Microsoft's earnings were a stark contrast.
+ CFO Amy Hood presented a clear message of capital discipline.
+ Earnings were strong but the big takeaway
+ was Hood's forecast that Microsoft
+ would continue to be cash flow positive
+ for at least the next year.
+ Now, this is a pretty big trade-off for Microsoft.
+ Azure is booming reaching 100 billion in ARR
+ for the first time
+ and now representing around a quarter of forward revenue.
+ By limiting their capex, they are also limiting growth.
+ But it is very clear that they read the room correctly
+ and that the market is not in the mood
+ to want growth at all costs
+ and handsomely rewarded Microsoft for their prudence.
+ Now, the great challenge for all of these companies
+ continues to be how to get very short-term investors
+ on side enough to be able to continue to do
+ what you need to do for the long-term
+ while also not making too many concessions
+ to what you need in the long-term to compete.
+ Rounding out the week was Amazon
+ who reported strong earnings in a slight capex bump.
+ AWS sales are up 37% year over year
+ and that seems good enough for investors
+ to endorse this year's capex forecast
+ rising from 200 billion to 220 billion.
+ CEO Andy Jassy explained the increase as increased costs,
+ rather than expanded scope,
+ but he also defended the spending as clearly necessary.
+ Jassy said, even at that amount,
+ we will still not have enough capacity
+ to meet all the demand we have in 2026
+ and I believe this dynamic will also be true in 2027.
+ In fact, the demand we already have for 2028 is striking
+ and this again friends is why the acceleration of revenue
+ for anthropocon open AI matters so much.
+ Among other effects, it gives the hyperscalers
+ the latitude they need to hike spending
+ to match rising costs and keep the AI trade rolling.
+ The hyperscalers say the demand is still there
+ and it's still rising,
+ which brings us to perhaps the wildest story of the week.
+ Tech earnings quickly took a backseat
+ as the most famous AI hedge fund blew up.
+ On Friday morning,
+ it was reported that Leopold Aschenbrenner's Fund
+ situational awareness had been liquidated
+ and taken over by Citadel.
+ Now Leopold has had a crazy story.
+ He like me was a refugee of FTX madness
+ and he like me found his way into AI
+ although intersecting with the industry
+ is a very different spot.
+ While he was originally at open AI,
+ he left under some cloud of questions
+ around whether it was disagreements in policy
+ or him speaking too freely about internal matters
+ but where his story really picked up steam
+ was the summer of 2024
+ when he dropped that namesake essay
+ situational awareness a 165 page tome
+ that woke many on Wall Street up
+ to how fundamentally powerful AI
+ would likely change the world.
+ Aschenbrenner used his newfound reputation
+ to raise several hundred million dollars
+ to start a hedge fund to bet on the rise of AI.
+ Over the coming months, several billion poured into the fund
+ and situational awareness
+ started posting sector leading returns.
+ By the middle of 2025,
+ many were viewing situational awareness
+ as one of the most successful hedge fund stories ever
+ and Aschenbrenner as a genuine wonder kind.
+ As recently as the end of Q1 situational awareness
+ was still riding high,
+ the fund reported 439% net returns
+ which is to use a highly technical phrase
+ absolutely insane for a hedge fund.
+ Other funds copied their trades
+ meaning its downstream impact was a huge driver
+ in the run-up in neoclouds and semiconductors.
+ A big part of the mystique was that Aschenbrenner
+ was in his early 20s with no finance background.
+ And yet it turns out even AI prodigies
+ with incredible foresight
+ can get smashed by leverage as well.
+ Earlier this week, the crack started to show.
+ It began with whispers that the fund had been margin called
+ due to the sharp decline in semis.
+ Then on Wednesday, the Financial Times reported
+ that the fund was seeking additional capital.
+ By Thursday morning, it was all over.
+ Citadel securities, one of the largest trading firms
+ in the world had effectively bought out situational awareness.
+ Now, given how much this is going to be seized
+ in the narrative storytelling,
+ it is important here to get technical
+ into unpacking what really happened.
+ By this year, situational awareness had grown gigantic.
+ Sources say that they took in about 10 billion
+ in investment capital and had grown that
+ to around 30 billion in equity.
+ However, Aschenbrenner was running the fund
+ at forex leverage,
+ meaning that the fund had around 120 billion in positions.
+ Even in the hedge fund world, that is pretty extreme
+ and left the fund massively exposed to a drawdown.
+ Leverage means using borrowed money
+ to make a bigger bet than your capital would allow.
+ So in the example of situational awareness,
+ the fund has 30 billion of its own money,
+ but at forex leverage it controls 120 billion of investments,
+ making the other 90 billion effectively borrowed.
+ Because the investments are four times larger
+ than the fund's actual equity,
+ every market move is amplified fourfold.
+ A 5% portfolio move shows up as 20% gains
+ on the fund's 30 billion,
+ but a 25% down move makes the fund 100% wiped out.
+ But the question isn't just what's happening in the markets,
+ but what the lenders expect from a collateral standpoint.
+ A margin call is the lender saying
+ that the cushion backstopping debt has gotten too small
+ and a demand that the borrower either puts in more cash
+ to increase that collateral
+ or be a forced seller of their investments.
+ So continuing with the situational awareness example,
+ at their 120 billion dollar position
+ with 30 billion dollars of their own equity
+ and 90 billion borrowed on leverage,
+ the bank's 90 billion is protected
+ by the fund's 30 billion dollar cushion.
+ Now, if the positions fall 10%,
+ the portfolio loses 12 billion.
+ The fund now only has 18 billion of equity
+ protecting the bank's 90 billion dollar loan.
+ The banks may decide that that is too thin
+ and demand billions in additional collateral.
+ If the fund can't provide that cash,
+ they have to sell positions and repay some borrowing.
+ Now, critically, this can force the borrower
+ to sell investments that they still believe in,
+ possibly at terrible prices,
+ simply because the bank will not keep financing them.
+ And you can probably see
+ how this becomes a vicious cycle.
+ Positions fail, banks demand more collateral,
+ the fund sells to raise cash,
+ those forced sales push prices even lower,
+ prices going lower produces further losses
+ and more margin calls.
+ You can very quickly lose more than your equity
+ because prices may move faster than positions can be sold.
+ If that 120 billion dollar portfolio plunges 30%,
+ for example, it loses 36 billion,
+ 6 billion more than the fund's 30 billion in equity.
+ The banks would then be owed money
+ that the fund no longer has,
+ so in practice, they try to liquidate much earlier
+ precisely to prevent that outcome.
+ And this is why you see this story happening so quickly.
+ This wasn't some protracted month-long drawdown.
+ Stocks in Leopold's key area of bets
+ had fallen by enough
+ that lender started calling in the positions
+ and as has happened so many times before,
+ Leopold couldn't find enough investors
+ to cover the difference and became a forced seller.
+ Now, while in some ways
+ this has the look of Markets 101,
+ there are some who believe
+ that it's realistic to think that others in the market
+ were pushing for this outcome.
+ SEC registered funds are required
+ to report their positions,
+ so everyone knew situational awareness
+ was massively along the AI trade
+ and knew the specific stocks that would hurt them most.
+ In an interview with TBPN,
+ Martin Shkreli discussed exactly how this works,
+ paraphrasing just a little bit, he said,
+ I think some players were already positioning
+ earlier in the week,
+ looking to do what they call shooting against a fund.
+ If you know somebody has to liquidate,
+ the best thing for you to do
+ is sell all the positions you have in common
+ and then start shorting everything they have.
+ It accelerates the downfall,
+ very common and sadly, very Darwinian.
+ Now, if one believes
+ that this is at least part of the story,
+ it is again another way in which weakness
+ that we've seen in AI names
+ may be driven as much by the structure of markets
+ and in this case, gamesmanship in the markets
+ as opposed to AI fundamentals.
+ Now, in terms of what happens next,
+ the ultimate buyer
+ of the situational awareness portfolio, Citadel,
+ is rumored to have gotten a 20 to 50% discount
+ on the positions.
+ That means there's not really a huge rush
+ to sell it into the market.
+ Now, no fund in the world has the ability
+ to hold $120 billion in exposure indefinitely,
+ but Citadel is certainly among the best place
+ to sell it off slowly.
+ Citadel also isn't a directional player.
+ They make money by trading often
+ and always try to maintain a neutral market position.
+ That means that they were naturally hedged
+ against this drawdown
+ and likely aren't in the same vulnerable position
+ as situational awareness was.
+ Now, it is also worth contrasting this blow-up
+ with other famous hedge fund failures.
+ When LTCM collapsed in 1994,
+ they were trading currency and bonds on massive leverage.
+ The reason that metastasized
+ into the Asian financial crisis
+ was not because a hedge fund blew up,
+ but because the currency market
+ couldn't absorb their liquidation.
+ The Bear Stearns collapse in 2008 was a similar issue.
+ They were trading subprime CDOs,
+ but the core reason that caused contagion
+ was because their corporate debt was being used
+ as collateral across Wall Street.
+ In both cases, the funds were touching important parts
+ of the financial system,
+ which allowed their liquidation
+ to become a systemic shock.
+ This blow-up, on the other hand,
+ looks a more like the Archegos failure in 2021,
+ which you've likely not heard of
+ unless you're in the financial industry,
+ or were also doing a different daily podcast back then.
+ That was a $10 billion blow-up,
+ so not quite as large a situational awareness,
+ but it was similar in that it was trading tech stocks
+ on massive leverage.
+ The blow-up was painful
+ and likely contributed to the bear market of 2022,
+ but it didn't cause a systemic crisis.
+ It did have downstream effects
+ with one of their prime brokers, Credit Suisse,
+ having to merge into UBS after taking a massive loss.
+ One of the big reasons that this time is different
+ is how smoothly the Citadel purchase went.
+ By all accounts, it sounds like the position
+ is still above water,
+ and Citadel is likely well-placed to ride it out.
+ Ken Griffin has seemingly stepped into the role
+ that Warren Buffett played in 2008,
+ or that JP Morgan played in the early 1900s,
+ taking over distressed assets
+ and absorbing the risk of a larger incident.
+ Frankly, Wall Street has just become much better
+ at these private market takeovers.
+ The distress was first publicly reported on Wednesday,
+ and by Thursday morning, the deal was done.
+ Ultimately, financial crises
+ are never about equity drawdowns by themselves.
+ It's when defaults start cascading
+ through the collateral system that there's a major problem.
+ IE, stock market crashes are not fun,
+ but they are fundamentally a very different thing
+ to a full-on financial crisis.
+ Kind of confirming all that
+ is the early indications we have
+ around how the market reacts from here.
+ Now that the liquidation is over,
+ there's no mechanical incentive to short the stocks.
+ Some firms could decide to pressure test Citadel,
+ but that's gone very poorly
+ for everyone who's tried in the past.
+ They're just far too big.
+ Earlier in the week,
+ some analysts were already calling the bottom.
+ JP Morgan wrote on Monday
+ that the market was flashing buy signals
+ and was ready to rally,
+ and the market has bounced hard
+ now that the situation is resolved.
+ The NASDAQ was up 2.8% on Thursday,
+ one of its strongest days in a month.
+ The Korean market, where situational awareness
+ had heavy positions, is absolutely ripping.
+ The COPSI index ended the Friday session up 15%,
+ after cruising up as much as 17% earlier in the day.
+ Now, of course, at this stage,
+ this is just a relief rally after a major event,
+ but it is entirely possible
+ that the blow-up of situational awareness
+ could have actually marked a local bottom
+ for the AI drawdown.
+ There's a famous phrase
+ that you might have heard some version of before.
+ You may not be interested in politics,
+ but politics is interested in you.
+ That's kind of how I feel about AI markets
+ for many of us who are here
+ around the AI Daily Brief.
+ Certainly some of you are professional investors,
+ for whom this is all obviously
+ very mission-critical and important.
+ For the average folks who are just trying to understand
+ how AI is going to affect them,
+ my argument is that at this point,
+ AI is so integrally tied to so many parts of the economy
+ and so much of the current structure of the economy
+ that even if you are not primarily an investor,
+ it is worth understanding what's going on.
+ And right now, if we have to sum this all up,
+ the story is,
+ one, continued concerns around circular financing
+ and just the nature of the debt in general
+ behind the AI buildout,
+ which as I've said in the past,
+ are some of the best pressure release valves
+ when it comes to whether an AI bubble would fully form,
+ a very notable hedge fund that blew up,
+ not mostly because of AI fundamentals,
+ but instead because of tried and true issues of leverage,
+ but behind it all,
+ a demand story for AI,
+ which does nothing but continue to grow.
+ Hopefully you feel like you have a better sense
+ of what's going on out there now.
+ For now, that's going to do it
+ for today's AI Daily Brief.
+ Appreciate you listening or watching, as always,
+ and until next time, peace.
