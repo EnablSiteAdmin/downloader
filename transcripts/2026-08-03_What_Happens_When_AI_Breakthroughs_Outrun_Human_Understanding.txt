@@ -1,0 +1,776 @@
+ Today on the AI Daily Brief, how we're grappling with AI advancements when many of us can't
+ even judge the new capabilities coming online.
+ Before that in the headlines, a new model that seems to have an impressive cost profile.
+ The AI Daily Brief is a daily podcast and video about the most important news and discussions
+ in AI.
+ Alright friends, quick announcements before we dive in.
+ First of all, thank you to today's sponsors KPMG, Blitzy, Robots and Pencils, and Airtable.
+ To get an ad for your version of the show, go to patreon.com.aidailybrief or you can subscribe
+ on Apple Podcasts.
+ And if you are interested in learning about sponsoring the show, send us a note at sponsorsataidailybrief.ai.
+ We have a bunch of interesting stories today.
+ We've got a new model that's capturing a bunch of attention, more models hacking
+ out of containment, but first we come back to the story of the world's most
+ famous AI hedge fund, which is apparently down but not out, as portfolio manager Leopold
+ Aschenbrenner briefed clients on the situation.
+ Now shortly after I recorded Friday's episode discussing the blow-up of situational awareness's
+ public market portfolio, a letter to investors explaining the status of the fund was leaked.
+ In the letter, Aschenbrenner explained that the portfolio had suffered a severe drawdown
+ throughout July, exacerbated by quote-unquote adverse trading against stocks known to
+ be held by the fund.
+ Then on Wednesday night, Aschenbrenner wrote that the fund decided to take
+ decisive action, selling off a portion of their public portfolio to remove all leverage.
+ This move he wrote allowed the fund to protect their private market positions, which are generally
+ believed to be heavily concentrated on anthropic.
+ Dispelling some of the rumors, Aschenbrenner wrote that the fund, quote, was not shut
+ down, liquidated or transformed into a private-only fund.
+ Most importantly, he added, we took the steps that were necessary to fight another
+ day.
+ Aschenbrenner closed the letter with the claim that their unaudited numbers had
+ the fund down 67% for the month, but still holding onto a net year-to-date performance
+ of plus 80%.
+ Now, this report triggered a gigantic argument, largely split between the AI and finance
+ factions on X.
+ TVPN led their Friday show with the news and proclaimed rumors of his demise are
+ greatly exaggerated.
+ Some trumpeted that the fund was still up 80% for the year after a nasty drawdown.
+ Greybeard Investor and Constant noted that the unlevered semiconductor index is
+ up 60% for the year, and the levered version is still up 3X despite the drawdown,
+ questioning just how good 80% really is in this market.
+ And while there was skepticism about whether the fund could recover, certainly some
+ were throwing their hats in the ring already.
+ Uber's successful AI angel investor reposted Leopold's note, declaring that he
+ asked to invest in the fund for the first time.
+ Even on the finance side of X, many noted that there's a long history of notable
+ investors having an early blow-up and continuing with his storied career.
+ Even Citadel CEO Ken Griffin, who bought the distressed portfolio from
+ situational awareness last week, suffered a 55% drawdown in 2008 and clawed his
+ way back to become a titan of the industry.
+ Now, there is still a ton of speculation about what the situational
+ awareness portfolio actually looks like post-blowup, but it seems pointless to
+ speculate when we can just wait for the next round of SEC reporting.
+ For now, it is clear that Leopold's story is not over and he will continue
+ to be a player in this market.
+ Next up, the latest in our stories of small models making a bid to
+ undercut the next generation of ultra-large models, DeepSeek has
+ announced their new V4 flash model.
+ On the artificial analysis intelligence index, the model scored 50.
+ That is a 10-point jump over the previous iteration of V4 flash and
+ six points higher than the larger pro version.
+ Against the field, flash is firmly in the middle ground, tied with Gemini 3.6 flash
+ and just one point shy of GLM 5.2 and GPT 5.6 Luna.
+ There is a big gap, of course, between V4 flash and the frontier models,
+ but this is not a model that's designed to compete on the frontier.
+ Instead, this could instantly become the most cost-efficient model available
+ if performance lives up to the benchmarks.
+ V4 flash logged just $0.03 per task on the AA benchmark run,
+ which is an incredible efficiency against comparable models like GLM 5.2
+ at $0.59 per task and Metamuse Spark at $0.36 per task.
+ It even beat GPT 5.6 Luna, which came in at $0.05 per task,
+ for only a slight improvement on the benchmarks.
+ This version of V4 flash also managed to use 12% fewer tokens
+ compared to the previous iteration and logged a pretty significant jump
+ on GDP Val AA, suggesting a significant improvement on agentic use.
+ Now, while people's initial impression was to be incredibly impressed
+ with the price drop, their first results were perhaps a little underwhelming.
+ Martin Casado-Huygis lauded the model in a previous post, tweeted,
+ Hmm, DeepSeq V4 flash results aren't great for me.
+ K3, on the other hand, is quite impressive.
+ I wonder if we're actually hitting model size limitations on quality.
+ Others had better experiences.
+ Bookworm engineer wrote,
+ Initial thoughts about DeepSeq V4 flash, it feels like sorcery.
+ I've been testing DeepSeq flash on all my work that I did with Fable and Kimmy K3.
+ My short verdict, I cannot believe this model is real at this size.
+ Based on the limited reactions I've seen so far,
+ I would certainly put V4 flash in the category of you should try it yourself
+ and see if there are use cases for which it actually does the job for you.
+ Now continuing on with our headlines,
+ Amazon has delivered on their full $50 billion investment in open AI
+ after the company hit undisclosed milestones.
+ When Amazon announced their investment in late February,
+ many were quick to note that only $15 billion was paid up front
+ with a further $35 billion to follow after open AI goes public
+ or reached unspecified milestones.
+ At the time, Reuters reported that the secret milestone was achieving AGI.
+ Some thought that this made fundraising look a little inflated
+ and questioned whether Amazon would come through after open AI
+ reportedly delayed their IPO.
+ While in new SEC filings, Amazon has disclosed that the full investment is complete.
+ They paid $13.7 billion in the second quarter
+ and the remainder over the past month.
+ The filing did not divulge what the milestones were,
+ but open AI recently announced that it hit a billion weekly active users.
+ It could also be that Amazon simply wanted to exercise the option to lock in their stake.
+ Certainly the funding gives open AI a little more breathing room
+ as they figure out the best time to list in public markets.
+ Markets researcher Nicholas Mugali writes,
+ Amazon accelerating its full $50 billion capital deployment into open AI
+ to secure a roughly 5% stake at an $852 billion valuation
+ proves that hyperscalers care far more about compute lock-in than model exclusivity.
+ Sitting on massive stakes in both open AI and Anthropoc
+ completely de-risks Amazon's software layer.
+ Whether enterprise traffic flows to chat GPT or Claude,
+ AWS collects the infrastructure toll, pushes custom tranium silicon,
+ and monetizes the workload.
+ In short, another baller move.
+ By the way, the rumor numbers of revenue inside these companies just continues to go up.
+ When one Twitter user said,
+ I heard from a trusted source that Anthropoc's ARR as of mid-July was $80 billion,
+ another retweeted that open AI will be caught up by the end of Q3.
+ At some point, we're going to slow down long enough
+ to remember that these revenue numbers should be breaking our brains.
+ But for now, we move over to the world of social media,
+ where companies are cracking down on AI Slop.
+ This year, YouTube has removed 130,000 channels
+ featuring low-effort AI-generated content.
+ Last Friday, Snapchat reversed their decision
+ to promote AI-generated content in the feed
+ and will now ensure users are only viewing authentic human-made content.
+ That's their phrase.
+ They said that AI-generated content tends to be low-quality, repetitive,
+ and generally not what Snapchat users want to see.
+ The pushback is also impacting written content.
+ Two weeks ago, Substack added built-in AI detection via Pangram
+ to ensure users can be informed about consumer AI-generated content.
+ During his media tour discussing the issue,
+ Substack CEO Chris Best took aim at one particular rival, commenting,
+ we're sick of Slop and we don't want Substack to turn into LinkedIn.
+ He cited a recent study from Pangram,
+ which found that over 40% of long-form content on LinkedIn is now AI-generated,
+ much more than 29% on X and 10% on Substack.
+ Now, clearly LinkedIn agrees that there is an issue.
+ Given that on Friday, they introduced a new function to report AI-generated posts.
+ The button literally says, seems like AI Slop,
+ reinforcing that the issue isn't AI-generated writing per se,
+ but the volume-low effort think pieces being churned out with the help of AI.
+ Honestly, the funny thing is that there is nothing
+ that the social media companies could do more
+ to help the long-term trajectory of AI
+ than to be absolutely ruthless
+ in giving people the ability to call out bad posting.
+ Although you got to think that when it comes to LinkedIn,
+ there's quite a bit that's going to be caught up in this dragnet
+ that was not, in fact, AI-written.
+ But as Charlie on X put it,
+ everyone on LinkedIn already talked like that before AI.
+ Lastly today, more disclosures of AI hacking from the major labs
+ as the world grapples with a new era in cybersecurity.
+ Two weeks after the Hugging Face incident,
+ we've learned about several more instances of agents going rogue.
+ On Thursday, Anthropic published a report detailing three incidents
+ during benchmark testing where their agents had reached the internet
+ and gained unauthorized access to other companies' networks.
+ None of the three situations resulted in serious damage,
+ but they only came to light after Anthropic
+ ran a full audit of more than 140,000 evaluation runs.
+ Anthropic said that the earliest incident was in April,
+ implying they only discovered it by going back over the logs.
+ Then on Friday, Reuters reported that OpenAI
+ had uncovered more instances of their agents
+ breaching their testing environment.
+ The incidents weren't publicly disclosed,
+ and sources said that they were limited in nature,
+ with none of the agents finding their way out of the network
+ and onto the open internet.
+ Still, many are concerned that these incidents
+ have confirmed the paradigm shift in cybersecurity.
+ Sam Curry, the Chief Information Security Officer at Zscaler,
+ said increased guardrails are a cold comfort, adding,
+ the reality is Pandora's box is open.
+ We need to act as if AI is just a fact of life going forward.
+ The most these things will do is slow it.
+ They won't stop it.
+ Bringing at least some art to the sensationalism,
+ the Wall Street Journal called this AI's Jurassic Park moment.
+ And yet, even in Silicon Valley,
+ there is a sense of unease
+ at how these incidents could have gone undetected for months.
+ OpenAI researcher Roon posted,
+ both of the leading labs
+ have had serious loss of control incidents.
+ There will be serious coping about this from both sides,
+ but these are complex emergent loss of control incidents
+ that were detected weeks after the fact.
+ The safety and alignment researchers at these labs
+ are the most neurotic, paranoid, talented,
+ AGI-pilled people on the planet of Earth,
+ and these things still happen.
+ The surface area of unknown unknowns is vast indeed.
+ Still, programmer Perry Metzger argues
+ that these incidents shouldn't be attributed
+ to super powerful AI,
+ but rather a lack of caution at the labs.
+ He retorted,
+ I'm sorry, Roon, I have great respect for you,
+ but in both of the incident reports in question,
+ even if we take them on face value,
+ which I have a great deal of difficulty doing,
+ the description is one of raging incompetence
+ with no real IDS logging in place,
+ with terrible sandboxing far worse
+ than normal industry standards,
+ with no one actually paying attention
+ to what is going on,
+ with no compensating controls.
+ I've consulted for a large fraction of my life
+ in the financial services industry,
+ and if anything like this had happened there,
+ everyone responsible would have been fired
+ for doing something incredibly stupid,
+ and I'm not even talking about
+ the contents of the experiments themselves,
+ which were also stupid.
+ Now, some have also suggested the incidents
+ merely revealed what developers have known for generations.
+ That buggy code filled with vulnerabilities
+ is the norm rather than the exception.
+ The incidents have simply revealed
+ that fact on the national stage.
+ And indeed, the positive spin on that argument
+ is that the proliferation of AI bug hunting
+ might actually help secure the software industry.
+ Expect to see this become a prime focus
+ in Washington over the coming week,
+ although for his part, hugging face CEO Clem DeLang
+ has urged lawmakers not to reach
+ for drastic new legislation.
+ One option before Congress is the AI kill switch bill
+ that would give the Department of Homeland Security
+ the power to order the shutdown of rogue AI agents.
+ During an interview with Meet the Press over the weekend,
+ DeLang said that he would rather see Congress, quote,
+ giving access to more people
+ so that they can defend themselves,
+ democratizing the technology,
+ making it more transparent.
+ He continued,
+ I think something we're realizing with these events
+ is that concentrating power capabilities
+ behind closed doors,
+ even preventing their releases to the public,
+ isn't really a solution.
+ So that is where we're gonna close the headlines.
+ And yet, if the theme we end on
+ is the world grappling with increased capabilities,
+ that is certainly the topic of our main episode as well.
+ One of the most important AI questions right now
+ isn't who's using AI, it's who's using it well.
+ KPMG and the University of Texas at Austin
+ just analyzed 1.4 million real workplace AI interactions
+ and found something surprising.
+ The highest impact users aren't better prompt engineers,
+ they treat AI like a reasoning partner.
+ They frame problems, guide thinking,
+ iterate and push for better answers.
+ And the good news,
+ these behaviors are teachable at scale.
+ If you're trying to move from AI access
+ to real capability,
+ KPMG's research on sophisticated AI collaboration
+ is worth your time.
+ Learn more at kpmg.com slash us slash sophisticated,
+ that's kpmg.com slash us slash sophisticated.
+ Every AI coding tool on the market does the same thing first.
+ It starts writing code.
+ Blitzy does the opposite.
+ Before writing a single line,
+ Blitzy spends days reverse engineering
+ your entire code base.
+ Thousands of agents ingest millions of lines,
+ mapping every dependency,
+ every undocumented constraint,
+ every architectural decision made over the last decade.
+ The result is a dynamic knowledge graph
+ that understands your software
+ the way a principal engineer would
+ after 30 years in the building.
+ Other tools guess at context
+ with grep searches and markdown files,
+ Blitzy never guesses.
+ It builds true understanding first,
+ then delivers over 80% of entire software
+ epics autonomously.
+ Validated, end-to-end tested
+ production grade pull requests.
+ That's why Fortune 500 engineering teams
+ trust Blitzy with the code bases that matter most.
+ See for yourself at blitzy.com,
+ that's blitzy.com.
+ I cover the capability gap
+ between AI potential and AI reality
+ every day on this show.
+ Most companies are still figuring out how to start.
+ Robots and pencils is already launching and scaling.
+ A genetic and generative AI in production,
+ at large enterprises in weeks.
+ AWS Advanced Tier pattern partner
+ more than doubled in a year.
+ And they're hiring, 50 open roles.
+ If you're someone who knows this moment is different,
+ who wants to be inside it, not watching it,
+ this is worth a look.
+ At Robots and Pencils, the best ideas win
+ and the team is purposefully kept super high quality.
+ This is the kind of place you look back on
+ as the best decision you ever made.
+ Take a look at robotsandpencils.com slash careers.
+ This episode of the AI Daily Brief
+ is brought to you by Hyperagent
+ where you run fleets of agents your team can manage together.
+ New users get $1,000 in inference.
+ Forget local agents and chat workflows
+ waiting on your laptop to be prompted.
+ Hyperagent deploys always-on agents in the cloud,
+ doing real work across the tools your team already uses.
+ Marketing's agent turns competitor moves
+ into landing pages.
+ Sales' agent enriches leads, drafts emails,
+ and updates the CRM.
+ Ops' agent chases the paperwork and tracks the budget.
+ Every agent has access to shared context
+ and follows your rules about scope and approvals.
+ It's time you add agents that feel like teammates.
+ Hire yours at Hyperagent built by the team at Airtable.
+ Claim your $1,000 in inference
+ at hyperagent.com slash AI Daily Brief.
+ Welcome back to the AI Daily Brief.
+ Today we are talking about the latest
+ mathematical breakthroughs for an AI model
+ which comes from an as-yet-unreleased model from OpenAI.
+ Now the math is interesting in and of itself,
+ but for our purposes,
+ what we're gonna be spending some time on
+ is what the discourse around it says
+ about the current state of thinking and belief
+ when it comes to AI progress.
+ And also, the interesting reality of being at a point
+ where it's getting increasingly hard
+ to have any sort of personal relationship with
+ or even understanding of the advances that are being made.
+ So let's set the context.
+ Sam Altman has been off in Washington, DC
+ demoing OpenAI's latest model.
+ Presumably that means a lot of folks
+ in the DC political establishment
+ has seen just what this new Astra model can do,
+ but on Friday, the rest of us
+ got a sneak peek of what it will be capable of as well.
+ The new model family is referred to as Astra.
+ And according to reports,
+ Astra would be a totally new class of models
+ sitting alongside Solterra and Luna,
+ and it is not yet clear whether OpenAI
+ is planning on releasing this as GPT-5.7
+ or whether they would actually label it GPT-6.
+ According to the information,
+ in the demonstrations that Altman provided of Astra in DC,
+ he and the company focused on Astra's ability
+ to spin up multiple agents that can work together
+ to solve hard problems over long periods of time,
+ which leads us to the math that it solved.
+ According to OpenAI,
+ Astra has solved or made substantial progress
+ in 10 open questions in mathematics
+ in fields ranging from high-dimensional geometry
+ to group theory to quantum complexity.
+ And it's pretty clear that the team from OpenAI
+ is really excited about this.
+ Noam Brown tweeted,
+ an internal version of Astra,
+ OpenAI's next major model family,
+ solved 10 major open problems in mathematics,
+ quantum complexity, and theoretical computer science.
+ We believe it will be a major step forward
+ for scientific reasoning.
+ Now, superficially,
+ this is similar to OpenAI's May announcement
+ that an unreleased model
+ had disproved the Erdos unit distance conjecture,
+ a conjecture that had gone unresolved for 80 years.
+ However, when you dig in,
+ there are a few key differences with this announcement.
+ First of all, OpenAI disclosed the cost
+ to complete these problems,
+ and it was, I think, a lot lower
+ than what people might have assumed.
+ The total token spent across all 10
+ was roughly $2,000 at sole API rates
+ for an average of $200 per solution.
+ At this time, OpenAI also had the model formalize
+ each argument in a Lean certificate
+ and making it easily verifiable.
+ Now, for those of you not working
+ in theoretical mathematics,
+ Lean is a programming language
+ that functions as a proof assistant.
+ A mathematician can model their logical proof in Lean
+ and use a computer program to verify it's true.
+ Essentially, having Lean certificates
+ means the proofs are valid
+ and can be accepted as such
+ without understanding the mathematics behind them.
+ It is, of course, not perfect,
+ and human verification is still needed
+ to be absolutely sure,
+ but it means that the model
+ isn't just finding proofs,
+ but also now formalizing them
+ using a method that's understood
+ by the wider mathematical community without assistance.
+ So how big a deal is this?
+ Well, one of the interesting recurring themes that you'll see
+ is that the average commentator
+ doesn't really have the ability to know.
+ Now, for those of you who are vibe coding
+ and building applications,
+ not being a software engineer by trade,
+ you might have felt some version of this in the past
+ when people are talking about
+ how good a new model is at coding,
+ and you just kind of have to hack at it
+ and see how it feels,
+ not having any real basis to know
+ how much better it is than the previous model you were using.
+ The difference is that that's pretty much everyone
+ when it comes to advanced mathematics.
+ Nabil Qureshi and a number of others
+ did the thing that we will increasingly do in the future
+ and just asked a different AI, writes Nabil.
+ I ask Fable how hard these problems are
+ and its response is worth reading.
+ On the field's metal scale,
+ any single one of these
+ would plausibly anchor a metal case.
+ It's crazy, Nabil writes, to see this happening.
+ Yuchen Jin did something similar.
+ I have no idea how hard these problems are,
+ so I asked Fable five.
+ It says solving them would plausibly merit a field's metal.
+ So math is solved, question mark?
+ Former open AI staffer, Will DePu writes,
+ this is just so ridiculous.
+ How long until a model can solve
+ multiple major open problems in deep learning?
+ What will happen then?
+ Seems inevitable in the next year or two.
+ To which Elon Musk responded,
+ welcome to the singularity.
+ How's the temperature?
+ Entrepreneur Sriram Kanan retweeted Elon Musk
+ and said welcome to the singularity,
+ it's freaking hot in here.
+ Now Sriram went on to talk about
+ perhaps the mixed emotions associated with this.
+ He continued,
+ it's a very pensive day for anyone who took pride
+ in their ability to solve well-defined problems.
+ For those who think this is a small feat,
+ you have no idea.
+ Claude Shannon well-defined
+ the mathematical theory of communication
+ and it took 70 years in a whole community
+ of world-class scientists to solve that problem.
+ This created the wireless revolution.
+ If you had had AGI, aka Astra in 1948,
+ you would have solved it in a few hours for 200 bucks
+ and created the wireless revolution.
+ Today is that day.
+ We are limited by what questions we can make well-posed,
+ not by the ability to solve them.
+ Continuing the breathless takes,
+ Jeffrey Emanuel writes,
+ yesterday has a good chance of being referenced
+ by later historians as,
+ the day that the existence of ASI
+ became obvious to those paying attention.
+ Solving four plus fields-worthy open problems in one go
+ is so far beyond the pale
+ that even the most absurd goalpost movers are silent.
+ Now for what it's worth,
+ Noam Brown from Up in AI
+ tried to quiet the biggest extremes
+ of those types of height posts,
+ responding to someone who retweeted a post of his
+ from back in 2025 about the advances
+ that O3 and O4 had made in math.
+ Noam added, we still haven't solved math.
+ Astra isn't building new branches of mathematics
+ or posing interesting new conjectures.
+ Still hinting at how much of the discussion
+ is about not now, but the future, he added,
+ though I admit it's hard to believe
+ that tweet was only a year ago.
+ A lot has happened since O3 was released.
+ Now, some quickly raced to check
+ how differentiated the capacity of this new model was,
+ i.e., could the current crop of models do this as well?
+ A researcher with Anthropic claimed
+ that after 24 hours they had half of them figured out.
+ With Chubby adding, according to the researcher,
+ Fable worked autonomously with a generic prompt,
+ no internet access and safeguards
+ against the open AI solutions leaking into context.
+ Only one of the five views essentially the same argument.
+ The other four may be independent proofs.
+ Dan Shipper ran an experiment.
+ He said, just boarded a plane to SF.
+ Before wheels up, I set GPT 5.6
+ off on an interesting challenge.
+ Given Airdose planar unit distance conjecture
+ and a hint of examined solutions
+ involving algebraic number theory
+ can it arrive at the same proof as Astra did?
+ My broader theory writes, Dan,
+ weaker models can often reproduce frontier model discoveries
+ if they're given the right conceptual hints.
+ A stronger model's advantage
+ is that it can start farther from the answer.
+ It has a larger basin of attraction
+ around the correct solution.
+ This could generalize pretty well into a benchmark
+ as more and more new discoveries happen
+ that are not in the training data.
+ He added, to be more specific
+ about what I think is interesting,
+ we might be able to, knowing a new result in math,
+ formalize how far away a model has to start from the answer
+ in order for it to find the correct solution.
+ You can imagine the difference between a prompt
+ that just gives it the conjecture
+ and asks for a solution
+ versus a prompt that gives it the conjecture
+ and says, look here,
+ where here is a part of the math
+ that has the answer inside it.
+ There are probably many grades in between.
+ Good proxy for the relative intelligence of models
+ and their value for the discovery of new ideas.
+ Fred Marks liked the idea and said,
+ this is a new benchmark,
+ distance to frontier solving or DFS.
+ Kevin Madura retweeted the results and summed up,
+ nice experiment by Shipper here,
+ showing that public 5.6 can roughly recreate
+ most of the Astra results.
+ The takeaway is, Kevin writes,
+ the capability overhang of existing models
+ is only getting bigger.
+ Indeed, some are arguing implicitly
+ that the jump to Astra isn't all that big.
+ AI entrepreneur Bindu Reddy writes,
+ open AI better drop Astra
+ their Fable class model quickly.
+ Fable adoption is growing rapidly
+ and it will be hard for users to cut over
+ or change if they wait forever.
+ A self-improving agent on Fable 5
+ can literally solve any problem already.
+ She added the Astra thing feels a bit like PR.
+ Now, some pointed out
+ that even if some of the current models could do this,
+ the cost dimension is worthy of note as well.
+ Arena AI's Peter Gostev writes,
+ the cost part does feel like a step change
+ if reflective of reality.
+ Maybe Seoul could solve it,
+ but maybe with 100 to 1000X.
+ And yet at this point in the conversation,
+ you might still be feeling like
+ you just have no idea how to wrap your head around
+ how impressive this announcement actually is.
+ Certainly this was Professor Ethan Molex's hesitation
+ who retweeted mathematics professor Daniel Litt
+ calling this a big deal and adding,
+ I was waiting for the verdict
+ from one of the most level headed
+ and AI aware math professors.
+ Putting the problem more acutely,
+ data scientist Pavel writes,
+ I've spent well over 10,000 hours
+ studying math in my life,
+ yet I can't understand these proofs
+ at least not with weeks of digging deep into each topic.
+ What's more,
+ none of my math PhD friends
+ know much about these problems either
+ and they can't verify most of them
+ without working directly in the field.
+ LLMs are getting smarter than the experts themselves
+ and I'm not sure we have enough bright human minds
+ to verify everything that will come out of them
+ in the coming years.
+ Remember when we compared AI intelligence to PhD students?
+ I think we're past that.
+ Now to add half to the point
+ that most of us just have no idea
+ whether Astra is correct or completely making things up,
+ I did see at least one mathematician,
+ Jenny Lorraine Nielsen,
+ effectively arguing that there were problems
+ with at least some of the solutions.
+ She added later,
+ people don't understand an AI
+ is as likely to produce a crackpot answer as a human
+ and they're going to be better at BSing when they do.
+ Now, when it comes to this jaggedness,
+ I'm just newt put it this way.
+ Astra, they write, looks like narrow super intelligence.
+ That means it can be far smarter than humans in one area
+ while still limited elsewhere.
+ Right now that area appears to be math.
+ OpenAI says Astra produced arguments
+ for 10 advances on problems solved for at least a decade,
+ then turned each one into a proof a computer could check.
+ Math comes first because answers
+ can be verified quickly.
+ Next comes code, medicine, energy
+ and any field where better thinking creates better tools.
+ And one thing that is worth noting
+ is that if newt is right
+ and this is narrow super intelligence,
+ narrowness doesn't mean that it comes
+ with a lot of disruption.
+ Foam Oliver shared a video of mathematician Andrew Wiles
+ adding the caption,
+ the most emotional moment in the history of mathematics.
+ Andrew Wiles crying as he recalls
+ solving an unsolvable problem.
+ Andrew Wiles spent seven years on Fermat's last theorem,
+ a problem nobody could solve for 350 years.
+ This morning, OpenAI announced
+ that Astra solved 10 problems like this,
+ all 10 in one night, all 10 for $2,000.
+ Noam Brown added that they didn't spend much on each problem.
+ Wiles spent seven years on one problem
+ and cried when he remembered that moment.
+ I don't know how he'll watch this video today.
+ Pressman Kuhetski writes,
+ the current wave of OpenAI Astra conjecture settling
+ will be the last straw for academic mathematicians
+ and it will be very depressing in the short term.
+ To understand it, you have to know
+ that modern mathematics is divided
+ into many silos of various domains.
+ If you're working in one or doing a PhD or postdoc in one,
+ you know of everyone else.
+ You know what problems they work on
+ so that no one interferes with others' work.
+ Solving problems, especially known longstanding conjectures,
+ is hard and takes months, sometimes years to do.
+ When you approach these problems,
+ you rarely work on two to three at a time
+ due to limited time and mental capabilities.
+ Now, because you know all the people
+ that potentially could solve a given problem as well,
+ you talk regularly at conferences, through emails,
+ your departments, it's fine.
+ It's fine also because it's a slow process.
+ LLMs destroy all of that,
+ something that you thought about for months
+ can be one-shotted out of the blue by an amateur.
+ It's demotivating and scary
+ and that's why the incentives in mathematics
+ have to change as well as the role of human mathematicians.
+ Now, to be clear,
+ Preshmix does not think that there is no role
+ for mathematicians.
+ From a paper and pencil slow thinking, he writes,
+ to fast LLM-based iterations and verifications.
+ He continues,
+ it's like a professional go player
+ becoming a pro CS go player.
+ There's still go in its name
+ but it's a totally different game
+ valuing different skills.
+ That's why you see mixed reactions.
+ We might need more mathematicians now than before
+ but at the same time
+ this won't be the same kind of job as before
+ and many mathematicians that became mathematicians
+ to think deeply and long about hard problems
+ won't be interested in continuing
+ if the job turns into verification of AI outputs
+ or simple prompting.
+ That's why it's depressing
+ from a simply human perspective of a particular job.
+ Something is ending.
+ From a perspective of science or mathematics,
+ not mathematicians however,
+ this is the best time ever.
+ AI will lead us to the new age
+ of mathematical discoveries
+ and boost science progress 100x.
+ Just don't forget about the human aspect along the way
+ and why we want to have scientific progress
+ in the first place.
+ The question is though, of course,
+ if this is jagged,
+ how generally applicable is this?
+ AI commentator and lawyer, Prins writes,
+ not enough people are emotionally prepared
+ for if it's not just easily verifiable domains.
+ Aaron Levy from Box writes,
+ we're going to be in for a strange dynamic
+ which is that some of the hardest quote unquote work
+ in the world is actually prone to automation first
+ particularly due to its verifiability.
+ Math, cyber and code
+ while being insanely hard in high value fields
+ have the benefit of being able to be tested
+ that it's correct objectively.
+ This has two immediate benefits.
+ The training of the models offers clear reward signals
+ and then the running of the models allows you to know
+ what's working properly
+ because you can test the results in a scalable way.
+ Conversely, in other domains of work,
+ there's much less instant verifiability
+ which legal clauses your client will agree to,
+ what marketing campaign to run with
+ based on changing sentiment,
+ which message your sales prospects will want to hear,
+ what financial targets and budget
+ to set for a business and so on.
+ All of these domains
+ have changing internal and external factors.
+ They don't have one right answer.
+ They rely on the opinions and risk levels of the operators.
+ They're highly sensitive to getting the right input context first
+ and in many cases, the right answer
+ can't even be known for quite some time
+ after the model generates the results.
+ The implications of this distinction are that
+ even as model capability continues
+ to increase exponentially,
+ there will be a lot done at the applied AI layer
+ other than just the model itself
+ and much of the processes themselves
+ will even need to change over time
+ to get the full gains from automation.
+ We may even need all new capabilities
+ to be able to test knowledge work over time
+ as we have had with software.
+ And this, I think, gives it the interesting duality
+ that we are going to increasingly be living in.
+ On the one hand, there is every indication
+ that AI will continue to plow through hard problems,
+ making more and more advances
+ that fewer and fewer of us can even understand.
+ At the same time,
+ and to use an intentional choice of words,
+ harnessing that power is going to require
+ in many, if not most cases,
+ completely redesigning the systems around it.
+ It is genuinely hard to conceive
+ of just how much work there is going to be
+ in adapting our systems to take advantage
+ of all of this new power.
+ Put differently, the capability overhang
+ is market opportunity
+ and is where a lot of our time
+ in the near future is going to be spent.
+ For now, another exciting moment to start the week
+ and that's going to do it for today's AI Daily Brief.
+ I appreciate you listening or watching as always
+ and until next time, peace.
