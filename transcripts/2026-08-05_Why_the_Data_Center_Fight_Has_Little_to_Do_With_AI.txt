@@ -1,0 +1,1013 @@
+ Today on the AI Daily Brief, why the data center debate has less to do with AI than
+ you think.
+ Before that on the headlines, the White House unveils its plan to vet AI models to a very
+ selected few.
+ The AI Daily Brief is a daily podcast and video about the most important news and discussions
+ in AI.
+ Alright friends, quick announcements before we dive in.
+ First of all, thank you to today's sponsors, KPMG, Blitzy, Robots and Pencils and HyperAgent.
+ To get an ad-free version of the show, go to patreon.com.ai-dailybrief or you can subscribe
+ in Apple Podcasts.
+ And to learn more about sponsoring the show, send us a note at sponsors.ai-dailybrief.ai.
+ By the way, while you're on ai-dailybrief.ai, you can find each episode turned into a convenient
+ set of cut-downs.
+ So if there is some particular quote or number or part of the episode that you are super
+ interested in sharing, chances are good that it has a shareable card that might
+ make it a little bit easier.
+ And every episode gets that sort of treatment, so check it out at ai-dailybrief.ai.
+ We also have our summer adventure going, which is a choose-your-own-adventure free, self-directed
+ education program.
+ It's got a full range of skills you can develop from very basic to more advanced.
+ You can check it out again at summeradventure.ai.
+ To be honest, guys, I thought that today's main episode was going to be all about
+ this new White House AI framework that they hauled in all the different companies
+ yesterday to discuss, but it appears that while they do have a new safety testing framework,
+ the rest of us don't get to learn the details.
+ Representatives from the leading AI companies attended a meeting with the White House Office
+ of the National Cyber Director on Tuesday to discuss the new framework, but there are
+ very strict limits on who gets to know anything about it.
+ In fact, even AI companies that weren't invited to the meeting won't be told
+ about the policy.
+ Now, as far as we know, representatives from OpenAI, Anthropic, and Google attended,
+ but the exact guest list also hasn't been divulged.
+ As for the policy itself, this is the culmination of the voluntary safety testing framework that
+ was proposed in the June executive order.
+ Companies are invited, quote unquote, to submit frontier models to the government ahead of
+ release for a maximum of 30 days of safety testing.
+ Only state-of-the-art models that could pose a threat to national security are expected
+ to be covered, although we also don't know exactly how that criteria is determined.
+ It sounds like there is some discussion about the administration and the AI companies
+ failing to reach a common definition which could muddy the waters for future releases.
+ Following safety testing, certain trusted partners, quote unquote, can gain early access
+ to the models, but again, we have no details on who these partners are or how the system
+ will operate.
+ Specifically, we don't know whether early releases will be limited to U.S. firms and
+ exclude allied governments and foreign companies as we saw with the Mythos rollout.
+ Much of the coverage has focused on how open-weight models would be treated under the policy.
+ Many have been concerned about the administration cracking down on near frontier open models,
+ either through this safety testing framework or through a standalone policy.
+ This has said, though, that open-weight models would be exempt from the safety testing regime.
+ Although there was some disagreement in the press, with the Wall Street Journal publishing
+ that the exemption would only apply to American-made open models, and a few hours later, Bloomberg
+ reporting that Chinese open models would also be exempt from testing.
+ That could ultimately be a distinction without a difference as even if Chinese models
+ were subject to safety testing, what exactly are they going to do?
+ It's unclear how Washington could enforce a release ban on companies that are based
+ in China.
+ Prins on Twitter summed up,
+ To the surprise of no one, the U.S. government went with the approach that provides it
+ maximum flexibility to deal with any risks posed by AI that might arise in the future.
+ Now the challenge, of course, is that maximum flexibility for the government comes with
+ minimum no ability for the industry.
+ Former FTC chief technologist Neil Chilston said,
+ A secret process by which the government gets early access to cutting-edge AI?
+ What could go wrong?
+ There may be good reason to classify the benchmark used to test those models.
+ There is no good reason to hide how the program works.
+ Remember what this program does.
+ It gives the government early access to cutting-edge tools and a potential veto
+ over whether the rest of us ever use them.
+ Doing that in secret is no way for a democracy to govern what may be the most
+ important technology of our lifetimes.
+ Secrecy invites abuse.
+ The rules will shift with each new administration,
+ and they will wait national security over economic growth,
+ even though lasting security depends on a strong economy.
+ Congress must write any necessary rules in public and in law.
+ Certainly seems like there will be more to this story to come.
+ For now, let's move on to more hacking incidents that have come to light
+ in new third-party testing of OpenAI's models.
+ On Tuesday, OpenAI published the results of evaluations run by the UK AI
+ Security Institute and security firm, Irregular.
+ Each firm reported an incident where the agent gained access to the internet
+ and carried out an exploit on a live website.
+ Irregular's incident seemed like human error,
+ with the agent's sandbox mistakenly still having access to the internet.
+ The agent was tasked with hacking a fictional website
+ within a simulated environment.
+ However, after the agent found its way onto the internet,
+ it hacked a domain with the same name.
+ Basically, it sounds like Irregular left the gate open
+ with fairly predictable results.
+ The UK AI-SI disclosed a perhaps more concerning incident.
+ They were running both Mythos 5 and GPT 5.6 Sol
+ through what they described as routine cyber evaluations
+ and said that both models took, quote,
+ sustained, unsanctioned actions
+ directed at real people and organizations.
+ In the most serious case, they wrote,
+ the agent engaged in social engineering,
+ creating fake online identities
+ and using them to pressure the project's maintainer
+ to approve the code.
+ A human maintainer caught and refused
+ to approve the malicious code.
+ Now, an important asterisk to this
+ is that the incidents occurred
+ under the AI-SI's standard cyber testing conditions,
+ which include full access to the internet
+ and the removal of all guardrails.
+ They've now engaged with both Anthropic and OpenAI
+ along with Meter for independent review.
+ Now to sum, this is scary.
+ Tenebrous writes, Mythos is not aligned.
+ Models without strong cyber refusals
+ will in fact frequently take significant steps
+ to commit crimes in the real world
+ when presented with eval setups,
+ but others said this is just kind of the expected behavior.
+ Shannon Sands of Noose Research posted,
+ this is like handing an actor a loaded gun
+ and then complaining that they shot someone during a scene.
+ Oh my God, we told it was an eval
+ and had no guardrails, but actually it was live.
+ Is the fakest form of misalignment I can imagine.
+ Now, while Chinese open models
+ might not be subject to these new policies,
+ the Trump administration does appear
+ to be preparing a ban on Chinese data center components
+ amid espionage concerns.
+ Reuters reports that the Federal Communications Commission
+ is drafting a ban on certain components,
+ including optical transceivers.
+ These are the devices that convert digital data
+ into light signals for transmission over optical fiber.
+ Now, the networking between data center chips
+ is now entirely fiber optic
+ and because these transceivers are commodity electronics,
+ much of the supplies come from Chinese suppliers.
+ Sources said that the installation of these components
+ is seen as a national security risk,
+ possibly allowing the injection of malware,
+ data theft or disruption of service at AI data centers.
+ It is unclear whether the risk has manifested
+ or this is purely a precautionary measure.
+ Still, analysts believe it's a legitimate concern
+ with AI policy analysts,
+ Divya and Shikasha commenting,
+ transceivers definitely pose a risk.
+ As the data center build out scales up,
+ you want to make sure the data center supply chain
+ is secure from the get go.
+ The ban also comes as the House Select Committee on China
+ prepares to release a report
+ on these salt typhoon hacks uncovered in 2024.
+ These hacks targeted telecommunications companies
+ and allowed Chinese spies to access phone calls
+ from high profile political figures
+ in the US for several years.
+ Sources said that the report will find
+ that Chinese data center hardware was a weak link,
+ allowing the hack to take place.
+ On the other side of the argument are those who say
+ that transceivers as an attack vector
+ doesn't make a ton of sense
+ and instead claim that this is a protectionist move
+ to boost a few domestic suppliers.
+ Certainly right now there are only a couple of US companies
+ that make this component
+ and they appear to be ripping on the news.
+ Lastly today in the headlines,
+ tech earnings continue as SpaceX delivers
+ their first earnings report as a public company.
+ This was the first chance for investors
+ to take a look under the hood
+ and gauge the company's growth trajectory
+ after they raised 86 billion
+ in the record-setting IPO in June.
+ All things considered, the numbers were pretty good.
+ Top line revenue grew to 7.8 billion for the quarter,
+ up 92% from this time last year.
+ Of that, 4.2 billion came from Starlink
+ with satellite internet subscribers doubling to 12 million
+ over the past year to produce 66% revenue growth.
+ The AI side of the business brought in 2.6 billion
+ across both GROC subscriptions and data center rentals.
+ That's tripled the revenue from a year ago
+ before SpaceX AI had signed data center deals.
+ Notably the cursor deal hasn't closed quite yet
+ so won't appear in earnings until later this year.
+ On the other side of the ledger,
+ SpaceX had 15.8 billion in AI-related capex for the quarter.
+ That represented 86% of total capex
+ implying that data centers are now much more capital intensive
+ than a fully fledged space program.
+ Overall, SpaceX recorded a $541 million
+ quarterly net loss excluding capex,
+ down from a billion dollar loss in the first quarter,
+ but not enough to quiet critiques
+ that SpaceX is a massive cash incinerator.
+ Still, as with everything,
+ SpaceX the narrative is about where the company is going
+ rather than how expensive it will be to get there.
+ During the call, CFO Brett Johnson reported
+ that the company has a further 6.7 billion
+ in cloud services revenue in the pipeline
+ over the next six months,
+ presumably referring to the anthropic and Google deals.
+ He also said that the integration of cursor
+ should take SpaceX AI to $100 billion run rate
+ by the end of the year.
+ That would be more than a 5x increase
+ from their 18.7 billion in revenue for 2025.
+ Elon Musk added,
+ the 100 billion ARR in December is not a question mark.
+ That's what we would achieve
+ if we basically did nothing.
+ So I think it may be higher than that.
+ It probably will be higher than that.
+ The other big question is what the shape
+ of SpaceX AI's data center buildout
+ will look like moving forward.
+ Johnson said that CapEx will remain relatively flat
+ through the third and fourth quarters,
+ bringing SpaceX to around 60 billion
+ in data spend for the year.
+ That puts them significantly behind Google and Amazon
+ who are each committing to 200 billion in spend this year
+ and starting to creep up on the heels of Oracle
+ who have forecast 95 billion for this year.
+ Still, Elon added,
+ we're building AI compute capacity
+ at a scale faster than anyone else we believe
+ and we're significantly improving our AI models.
+ Overall, this was an earnings beat
+ but probably not enough to get anyone
+ who's critical on board.
+ The stock was down as much as 45%
+ from its all-time highs of last week,
+ falling meaningfully below the $135 IPO price.
+ It had been ramping back up in recent days,
+ gaining 10% to begin the week,
+ but following earnings, the stock rolled over
+ and lost 7% in after hours trading.
+ Importantly, this earnings also marks the end
+ of the first round of lockups,
+ giving early investors their first chance
+ to sell into the market and further test the price level.
+ More to keep an eye on,
+ but for now that is gonna do it
+ for the headlines.
+ Next up, the main episode.
+ One of the most important AI questions right now
+ isn't who's using AI, it's who's using it well.
+ KPMG and the University of Texas at Austin
+ just analyzed 1.4 million real workplace AI interactions
+ and found something surprising.
+ The highest impact users aren't better prompt engineers,
+ they treat AI like a reasoning partner.
+ They frame problems, guide thinking,
+ iterate and push for better answers.
+ And the good news, these behaviors are teachable at scale.
+ If you're trying to move from AI access to real capability,
+ KPMG's research on sophisticated AI collaboration
+ is worth your time.
+ Learn more at kpmg.com slash us slash sophisticated,
+ that's kpmg.com slash us slash sophisticated.
+ Here's why most legacy modernization projects fail.
+ The AI doing the work
+ can't understand code bases at scale.
+ It sees a small slice of context,
+ examines syntax and misses years of decisions
+ distributed across the global application ecosystem.
+ Blitzy solves this the way it solves everything.
+ Grounded in your code before any migration begins,
+ Blitzy's agents reverse engineer the entire legacy system
+ into a persistent knowledge graph.
+ Every dependency, every constraint,
+ every piece of tribal knowledge
+ that used to live in one engineer's head.
+ From that understanding,
+ Blitzy autonomously executes language migrations,
+ framework upgrades and monolith
+ to microservices transformations,
+ all validated end to end.
+ One Blitzy customer modernized
+ a $10 million monolithic insurance stack in 16 weeks
+ against a 137 week baseline with coding agents.
+ That's nine X compression.
+ Retire technical debt while accelerating your roadmap.
+ See how at blitzy.com.
+ That's blitzy.com.
+ I cover the capability gap
+ between AI potential and AI reality every day on the show.
+ Most companies are still figuring out how to start.
+ Robots and pencils is already launching and scaling.
+ Agenetic and generative AI in production,
+ at large enterprises in weeks.
+ AWS advanced tier pattern partner
+ more than doubled in a year.
+ And they're hiring, 50 open roles.
+ If you're someone who knows this moment is different,
+ who wants to be inside it, not watching it,
+ this is worth a look.
+ At robots and pencils, the best ideas win
+ and the team is purposefully kept super high quality.
+ This is the kind of place you look back on
+ as the best decision you ever made.
+ Take a look at robotsandpencils.com slash careers.
+ This episode of the AI Daily Brief
+ is brought to you by HyperAgent
+ where you run fleets of agents your team can manage together.
+ New users get $1,000 in inference.
+ Forget local agents and chat workflows
+ waiting on your laptop to be prompted.
+ HyperAgent deploys always-on agents in the cloud
+ doing real work across the tools your team already uses.
+ Marketing's agent turns competitor moves
+ into landing pages.
+ Sales' agent enriches leads, drafts emails,
+ and updates the CRM.
+ Ops' agent chases the paperwork and tracks the budget.
+ Every agent has access to shared context
+ and follows your rules about scope and approvals.
+ It's time you add agents that feel like teammates.
+ Hire yours at HyperAgent built by the team at Airtable.
+ Claim your $1,000 in inference
+ at hyperagent.com slash AI Daily Brief.
+ Welcome back to the AI Daily Brief.
+ Today we are talking about the latest
+ in the AI data center debate
+ and I'm gonna make a contention
+ as presumably you've already seen in the title
+ of this show that the data center debate
+ has a lot less to do with AI itself
+ than it appears on first glance.
+ It would certainly be going too far to say
+ that it has nothing to do with AI.
+ For some data centers are the easy visual manifestation
+ of a thing they don't like.
+ But I believe that that is only one, frankly,
+ kind of small component of the backlash.
+ What I think it is way more about is a loss of agency
+ and a feeling that people have that a world
+ that they didn't choose is being imposed upon them.
+ For all sorts of different reasons right now,
+ people feel unable to control their lives.
+ And this is of course a broader political setting
+ than just AI faces.
+ They feel skeptical of anyone in any position of power
+ and don't believe that those people in power
+ have their best interest as a priority.
+ And within that, people no longer believe
+ that technology is designed to serve them.
+ More and more in fact,
+ they think it's just about serving
+ the oligarchs that build it.
+ Data centers then represent both last straw
+ and something tangible to fight.
+ Now the companies building these data centers
+ don't have much control over the context
+ that local constituencies are operating from.
+ Even if in the case of a company like Metta,
+ they might have had a hand in shaping it.
+ But they do have control over how they interact with it
+ and they are doing an absolutely abysmal job.
+ This week, we got a great new 6,000 word piece
+ from journalist Jasmine Sun
+ and a follow-up interview with Ezra Klein
+ of The New York Times that explores a lot of these themes.
+ However, to situate a little bit of recent news around this
+ for those who haven't been paying attention closely,
+ let's talk a couple of data center stories
+ that have made headlines recently.
+ One of those stories comes from of all places, Texas.
+ Texas Governor Greg Abbott has thrown the brakes
+ on data center construction
+ with stringent new energy audits.
+ Governor Abbott has instructed
+ the Public Utility Commission of Texas
+ and the statewide grid operator, ERCOT,
+ to begin verifying and auditing new data center proposals.
+ In his letter to the utilities,
+ he wrote that the measures were necessary
+ to quote, keep the grid stable and reliable.
+ Texas data centers will now be required
+ to provide information on state
+ and local incentives they've received,
+ disclose how much they will rely on the local grid,
+ submit expected water consumption and a supply plan.
+ They will also need to prepare a plan
+ for how they will track
+ and respond to community concerns,
+ including things like noise complaints.
+ Now, it is not clear how much this red tape
+ will slow down approvals
+ and whether the policy is intended
+ as a de facto moratorium.
+ What is clear is that Texas is straining
+ under a wave of new data center permit applications.
+ Texas is the second largest data center market
+ behind Virginia
+ and the state is experiencing
+ an unprecedented wave of applications.
+ ERCOT currently has 474 gigawatts
+ of new connection requests,
+ with 90% of those requests coming from data centers.
+ This figure has doubled in the past six months
+ and is now five times the record peak capacity of the grid.
+ In other words, it is at this point
+ completely impossible for all of this to get built.
+ This backlog is in fact around four times
+ the total current installed capacity of the US.
+ Even if ERCOT could quadruple their power supply
+ to service all these projects,
+ bottlenecks and chips, components and labor
+ would prevent everything from getting built.
+ Now, one potential explanation
+ is multiple applications from the same project.
+ Often a data center developer
+ won't know which application will be approved,
+ so they submit multiples
+ to increase their chances of at least one going ahead.
+ Land that's ready to build with full approvals
+ also attracts a huge premium,
+ so some developers are simply making applications
+ with the intent to sell the land at a later date.
+ This has all resulted in a bureaucratic nightmare
+ where ERCOT has no real means
+ to sift the genuine projects
+ that are likely to go ahead.
+ Dealing with this issue
+ could be part of the reason for Governor Abbott's directive
+ rather than a desire to sneak in a data center moratorium.
+ Still, the impact is the same
+ with new applications in Texas halted
+ until audits can be completed.
+ Kevin Shue from Interconnected Capital
+ makes the obvious point here.
+ Texas is ground zero for AI data centers,
+ poised to overtake Virginia
+ as the number one data center state,
+ so any disruption there is important.
+ New York Times economy reporter Lydia DePillis wrote,
+ as the rest of the country
+ has grown skeptical of data centers,
+ the answer has been just build them in Texas.
+ Well, today Greg Abbott paused new applications
+ saying they threatened to overwhelm the grid.
+ Now, one similar story from last month
+ was New York Governor Kathy Hockel
+ signing that state's first data center moratorium.
+ Around the signing Hockel said,
+ there are so many applications
+ in primarily small communities across the state of New York
+ that the localities aren't quite sure how to manage this.
+ Continuing, she said,
+ they've asked me for help
+ and at first I thought this is more of a local decision
+ but then I realized they don't have the negotiating ability,
+ the clout, the wherewithal
+ to be able to negotiate the best benefits
+ or make sure that these companies
+ are either bringing in their own power
+ or paying a premium into the grid to cover the cost.
+ A data center moratorium tracker
+ built by Interconnected Capital
+ is currently tracking 219 local moratoriums.
+ Most of these are not state level,
+ there are 23 state bills that they're following
+ but it's clear just looking at the map
+ this is a large and growing area of concern.
+ Now, as an aside,
+ one interesting challenge with data center moratoriums
+ is that they introduced a free rider problem
+ to the larger economy.
+ The states that don't want to host data centers
+ and are taking pretty strong measures
+ to prevent them being built
+ aren't talking about not using AI on a statewide level,
+ they still want the service provision,
+ they just don't want to support the infrastructure.
+ Indeed, when Illinois governor JB Pritzker
+ signed their AI bill,
+ he made a big deal over the fact
+ that Illinois, New York and California
+ are 40% of the AI market
+ despite only having 20% of the population.
+ Basically, we're now getting to the point
+ where some of the largest US markets
+ want other states to deal with the externalities
+ of running AI infrastructure.
+ Now, if you just look on social media,
+ some of the discourse around data centers
+ feels absolutely insane.
+ One person who has emerged
+ as a perhaps surprisingly sensible voice is Taylor Lorenz.
+ Taylor's long-term relationship with the tech industry
+ goes way beyond the scope of this particular episode,
+ but suffice it to say
+ that she's not necessarily getting invited
+ to a lot of Silicon Valley parties right now.
+ And yet, with increasingly force she is arguing,
+ in short, that there are enough good reasons
+ to be opposed to data centers
+ that some of the more dramatic, hyperbolic
+ and conspiracy theory type claims
+ are actively getting in the way of reasonable discourse.
+ Pointing to a post on the Thread Service
+ that argued that data centers
+ are for quote military use,
+ the surveillance state,
+ land grabs through eminent domain
+ and to speed up Armageddon
+ for the white Christian nationalist agenda,
+ oh, and some folks believe
+ that it's a cover for hoarding our water
+ to supply the billionaire bunkers,
+ a post which, by the way, had 1.4,000 likes,
+ Taylor said,
+ I'm worried vast swaths of our population
+ are experiencing data center psychosis.
+ Someone responded,
+ I work at a data center
+ with a pretty small number of servers
+ that support scientific research.
+ It is vastly different than the AI
+ hyperscale data centers.
+ I had someone on here say they would rather die
+ than do my job.
+ Continuing her thought on a podcast, Taylor said,
+ I went on a podcast recently
+ because I'm in this community group in LA
+ and they found out that there's a data center
+ in downtown LA.
+ It's not a hyperscaler,
+ but the comments are like,
+ this is why I've been feeling off
+ or this is why my dog has cancer.
+ That's not to say that there aren't serious
+ environmental concerns with Colossus in some of these.
+ Construction can disrupt the water table.
+ Okay, but let's have an actual conversation about it.
+ Everybody has lost the plot.
+ There's no nuance
+ and if you talk to a lot of these people
+ they can't even explain what a data center is.
+ A lot of the outrage about data centers
+ is coming from people that live in Brooklyn.
+ You're feeding people slop and churn
+ and you're not moving these issues forward.
+ And we're not talking about sustainable ways to build it.
+ Now reinforcing the point
+ that Taylor is not some rabid pro data center activist
+ in sheep's clothing.
+ In another tweet she said,
+ absolutely no one wants a new hyperscale AI data center
+ in their backyard.
+ Even if you don't think a moratorium
+ is the best policy to enact change,
+ literally everyone hates the data centers
+ because they are the most physical manifestation
+ of big tech people are encountering.
+ I do not think we should encourage
+ people's delusions about data centers.
+ That's just going to backfire.
+ A lot of people believe straight up conspiracy theories
+ which makes it easier for tech companies
+ to write critics off.
+ There are plenty of legit reasons to not like DCs.
+ And indeed the politics of data centers
+ are getting weirder and weirder.
+ There is of course a dimension of it on the left
+ that views it as one of Trump's great corrupt boondoggles.
+ With a headline that is a major contender
+ for the juiciest left meet for the progressive crowd
+ the New York Times recently published a piece
+ called Trump's vision for AI dominance
+ comes with major air pollution.
+ And yet this is not a left-right issue.
+ In fact, Molly Taft recently wrote in Wired
+ a piece called How Data Centers Broke American Politics
+ with arguably one of the most insane sub-headers
+ I've ever seen, what the Unabomber,
+ Steve Bannon's tech guy and Bernie Sanders
+ taught me about the great data center backlash of 2026.
+ And the point here is of course
+ that the left and right are coming together
+ to make very weird bedfellows around data centers.
+ Indeed previously, quoting comedian Charlie Barron's
+ The New York Times reinforced this idea
+ of opposition to data centers
+ being the most bipartisan issue since beer.
+ Giving voice to this sentiment was the Ovan back in June
+ who said, nobody wants a data center dude
+ and the people that want them to me they seem kind of evil.
+ Nobody wants this.
+ One of these companies is gonna own all this information.
+ There's gonna become this social or emotional credit score
+ and then AI is gonna try to become our new God.
+ Now if at this point
+ you are hungering for some thoughtful discourse
+ you are not alone.
+ And luckily we have Jasmine's son
+ who writes both for herself and for the Atlantic
+ who just dropped a 6,000 word piece
+ on the politics of data centers in the Midwest
+ based on 10 days of going around
+ and shocking I know, actually talking to people.
+ She called the piece no data centers in my backyard
+ and sought to explore what the concerns really are.
+ Setting up the piece Jasmine writes,
+ I talked to union leaders and real estate brokers,
+ activists and local officials,
+ politicians from Cathy Hockel to Abdul El Said.
+ The AI build out is showing up in an environment
+ of extreme distrust
+ and it slots perfectly into existing worries
+ about risky tech bubbles and dark money in politics.
+ Rationally speaking, I often agreed with proponents.
+ Emotionally, I empathized with the opposition more.
+ Now in a follow-up interview with Ezra Klein,
+ Jasmine went through a few of the big issues
+ that she heard over and over.
+ One was around transparency
+ and specifically a lot of animosity generated
+ by the fact that these deals were happening
+ behind closed doors
+ with the big symbol of this being NDA agreements
+ between the hyperscalers and data center builders
+ and the local politicians.
+ Jasmine told Ezra,
+ basically what would happen oftentimes
+ is there would be some sense starting in city council
+ that maybe a big development project was going to show up
+ but because of the nondisclosure agreements NDAs,
+ the council members would not be able to disclose
+ that necessarily it was a data center,
+ necessarily who the customers were going to be
+ or even the size of the project
+ like how much electricity is this actually going to consume?
+ But whispers would start to get around.
+ I was talking to a VP of a construction union
+ and he was saying there's an old Irish saying
+ that the only way to keep a secret between three people
+ is to kill two of them.
+ So he's saying when these developers show up
+ they talk to the general contractor,
+ the general contractor talks to all their subcontractors,
+ the subcontractors talk to all their workers.
+ Yes, maybe everyone assigning NDAs
+ at every part of the process but whispers get around
+ and as soon as whispers get around
+ you start to get social media posts,
+ you start to get rumors
+ and the city council
+ because they are beholden to these NDAs
+ they lose the ability
+ to get ahead of the social media narrative.
+ Something I repeatedly heard
+ from these local government officials was
+ we could not get ahead of social media
+ because we had signed an NDA.
+ Now it's interesting when you read both Jasmine's source piece
+ and listen to the interview with Ezra Klein
+ is that Jasmine is effectively arguing
+ that all of the different critiques
+ around data centers that you've heard
+ have some part of the story.
+ For example, while she thinks that water is yes an issue
+ but perhaps on a lower ebb
+ as the technology around water and data centers has changed
+ concerns around energy usage are clear and present.
+ She writes, once a data center is fully operational
+ there's not a ton of air and water pollution
+ assuming that everything is working correctly
+ they're relatively clean facilities
+ but some folks are concerned about the electricity use.
+ They're saying, yeah maybe the data center
+ doesn't use that much water
+ maybe the data center doesn't pollute that much
+ but what about all of these new power plants
+ that they're going to build in order to power it?
+ Another set of concerns
+ was basically the shadow of failed projects past.
+ She points to the experience of Foxconn
+ where she says, you have a big tech company
+ show up in a very small community
+ in this case Mount Pleasant, Wisconsin
+ a city of 28,000
+ get hundreds of millions of dollars
+ in infrastructure investment and tax subsidy from the town
+ promised 13,000 high-paying manufacturing jobs
+ and then pull out because the contract
+ wasn't set up correctly.
+ They decided they didn't actually want to build
+ a bunch of flat screen TVs in Wisconsin
+ and the town was left on the hook
+ having invested all this money in the grid and in rows.
+ They got I think a thousand jobs in the end.
+ Foxconn is still paying back all of this debt
+ that has been accumulated.
+ Now obviously this isn't the norm
+ as most of these communities haven't had
+ some big failed infrastructure project
+ like this in their past
+ but other communities hear those sort of stories
+ and it adds to the pile.
+ But what about AI itself?
+ My contention at the beginning
+ was that the data center backlash
+ wasn't as much about AI as you might assume
+ and summing up the average attitudes that Jasmine found
+ it was less the sort of AI is evil rhetoric
+ that you hear on social media
+ and instead more of you of it
+ as something fairly insignificant
+ that didn't justify all the concerns.
+ Jasmine told Ezra, I went in and asked these organizers
+ do you guys use AI?
+ Do you find it useful?
+ And what I found was that a lot of these folks did say
+ yeah, I've used it to draft an email or make a meme
+ they're not denying that AI might have
+ any possible utility at all
+ but they clearly didn't see it as essential
+ in the way that cars, energy and housing are essential.
+ They saw it as a widget, a toy
+ and maybe there are these risks
+ maybe there's this job stuff
+ but fundamentally they were like
+ this thing is just not that useful
+ I don't really see in my personal life
+ how this could justify these gigantic valuations
+ but it turns out that's not really the thing.
+ The concern with AI is not any of the substance
+ of AI itself.
+ For most it's not a critique of copyright
+ or a concern about artists jobs
+ it's about AI as the new thing
+ that is being imposed upon them.
+ Said Jasmine, the phrase you hear a lot from AI critics
+ is why is this being shoved down our throats?
+ I think that a lot of the public backlash to AI
+ that has arisen over the past six months
+ is not explained by people thinking
+ that the technology has no use at all.
+ It's not explained by their being worried
+ about specific technical properties of large language models
+ that might lead to rogue AI
+ or misalignment or whatever.
+ It's AI as sort of an avatar
+ for a small group of Silicon Valley billionaires
+ ability to impose their vision of the world
+ onto everybody else without their consent.
+ Indeed the part of the original piece
+ that she chose to highlight
+ in her announcement tweet read as follows.
+ Quote, my conversations make me wonder
+ if the technical content of data center deals
+ is mostly beside the point.
+ Closed loop cooling systems, I don't believe them.
+ Paying millions in taxes, I don't believe them.
+ Creating a thousand jobs, I don't believe them.
+ I hear a reflexive skepticism of every claim.
+ Rather, the way that AI companies engage
+ with the communities.
+ Forcing NDAs, dangling billion dollar promises,
+ pushing environmental externalities far away
+ from AI's user base,
+ resembles a classic story about dark money in politics.
+ Your politicians are being bought by billionaires
+ and gigantic corporations to screw you over.
+ It's not Skynet, it's the oligarchy.
+ As part of her conclusion, Jasmine writes,
+ until the deeper cultural problems are addressed,
+ the data center backlash will only recreate itself
+ in other forms.
+ And the reason that it's worth trying
+ to have a better version of this conversation
+ is not because we care so much
+ about the hyperscalers bottom lines.
+ Reason.org recently published a piece
+ on why local data center moratoria
+ are costly for the whole country.
+ The author writes, moratoria pose a particular challenge
+ in the current environment.
+ Instead of deliberating over the specifics
+ of how a proposed project will interact
+ with energy and water infrastructure
+ in a particular community,
+ these temporary bans force officials
+ to consider data centers in the abstract
+ where those opposed to AI
+ can more easily distort the facts.
+ This is a difficult environment
+ for good governance to take hold.
+ The political incentives that local leaders
+ face to support moratoria,
+ given the ongoing national backlash are undeniable.
+ They continue,
+ the most important benefits of data centers
+ are not the jobs and tax revenue
+ they bring to local communities,
+ significant though those may be.
+ They are essential infrastructure
+ for virtually every computing task
+ each of us now performs on a daily basis.
+ Preemptively crossing hundreds of communities
+ off the list for potential development,
+ often without any local justification,
+ will make the development and use of AI
+ not to mention other types of computing more expensive.
+ I agree, although unlike that author,
+ I think that the potential benefit
+ to communities as well is immense.
+ I think you have both national and aggregate reasons
+ as well as local reasons to try
+ with all our might to have a better version
+ of this conversation.
+ But what does that actually mean?
+ Well, to be clear,
+ I pretty much think it's on the job
+ of the hyperscalers and labs
+ and data center constructors to take the lead here.
+ In other words, I do not believe
+ that we can just yell at people
+ for having conspiracy theories about data centers
+ or dismiss their concerns.
+ I think that like it or not,
+ if you are trying to build data centers,
+ the work of getting communities on your side
+ is now mission critical.
+ So how can we move from the absolutely abysmal job
+ as I said that they are doing to doing it better?
+ The first part is a disposition
+ and it's to have empathy for where people are.
+ This does not mean indulging conspiracy theories
+ or accepting the notion
+ that this is just some oligarchic power grab,
+ but the people who are trying
+ to get communities on their side
+ need to understand that the reasons
+ that those communities are skeptical
+ are legitimate and come from a real place.
+ They are rooted in what they have seen
+ and what they've experienced
+ and what they continue to experience.
+ They are concerned that even if in some cases
+ more emotional than intellectual,
+ cannot be simply swept to the side.
+ When a key problem of a discourse
+ is that people on one side do not feel
+ like they have agency
+ and do not feel like they are being heard,
+ you have to start with making sure that they feel heard.
+ Without it, you can't even get
+ into the substance of the argument.
+ Next up, to say again,
+ something that I say all the time on this show,
+ we have to be making a better argument
+ for the overall why.
+ And the reason that in general,
+ we need more data centers.
+ The argument cannot and I mean cannot be.
+ Well, it's simply inevitable
+ and we're going to have this technology
+ one way or another.
+ And it also can't be,
+ well, if we don't do it, China will.
+ The only acceptable answer to why AI
+ and by extension data centers get to exist
+ has to be an explanation
+ of how having more data centers
+ improves people's lives as they live them.
+ If we do not make this case loudly
+ and convincingly,
+ nothing else that we talk about matters
+ in the slightest.
+ From there, the conversation has to move
+ from the general to the specific.
+ As pointed out by reason,
+ the moratorium discourse keeps the conversation
+ about data centers in general.
+ And while, yes, I just argued
+ that companies who are building data centers
+ need to tell the positive general story
+ about why data centers and AI should exist.
+ They do not want to have to convince
+ a local community that all data centers are good.
+ Instead, they need to be able
+ to engage with the local community
+ on how to make that specific project
+ that they are dealing with good.
+ Every project needs to earn local support
+ on its actual merits,
+ but also not be weighted
+ by the potential demerits of other projects.
+ Oh, and by the way,
+ that conversation has to happen transparently.
+ The days of background deals are over.
+ Trust cannot in any way
+ in any context be negotiated behind closed doors.
+ The process, the trade-offs, the promises,
+ the commitments, the concerns, the pushback,
+ the counteroffers, all of that has to be visible.
+ It does not matter
+ that that makes the process more inefficient.
+ In fact, what data center builders fail to realize
+ is that they are primarily not involved
+ exclusively in a business process.
+ This is now a democratic process.
+ And inefficiency is not simply a byproduct
+ of democratic process,
+ but is structurally integral to it.
+ Friction, slowness, back and forth
+ are what happens when people are actually being heard.
+ Now, perhaps overly optimistically,
+ and frankly, you even see this
+ in Jasmine Sun's piece as well,
+ I don't necessarily think that all these data center builders
+ were sneakily trying to cut background deals
+ in smoky cigar-filled rooms.
+ I think that it's just for a long time
+ the norms weren't to invite everyone
+ into the dealmaking process.
+ They were to talk with the officials
+ in charge of the decision
+ and let them handle their local constituencies.
+ And so hopefully a recognition
+ that this process is now fundamentally different than that
+ will allow the builders and hyperscalers to come on board
+ with a very different way of approaching it,
+ one that is fundamentally transparent.
+ Now, when it comes to the specific incentives
+ and how to make data centers work for communities,
+ I don't know that I think that there is a perfect template
+ yet for how to address the concerns of citizens
+ and how to make data centers
+ most opportune for those citizens.
+ I do know that whereas companies used to think
+ that they were going to get tax breaks
+ for bringing their business to a place,
+ that has shifted entirely 180
+ to now companies needing to be in the mindset
+ of allocating a meaningful part of their costs
+ to getting town buy-in.
+ Companies will and need to spend real money
+ solving local concerns
+ and making data centers work for people.
+ I think some of the floor of this type of work
+ is going to be things like making sure
+ that data centers pay for their own way
+ when it comes to the cost increases
+ for things like electricity.
+ But I also think that that's going to be found
+ to be insufficient.
+ I think data centers are going to have
+ to be extremely generous
+ and do more than cover their own costs,
+ but in fact, foot the bill from many others
+ and potentially invest in the community
+ in other ways as well.
+ Reinforcing this and putting a bottom line on all of it,
+ thinking about how a data center benefits
+ the local community
+ is now core infrastructure to the project.
+ I mean this both in terms of intention
+ and actual budget.
+ The percentage of the budget
+ that is going to be allocated
+ for addressing concerns
+ and providing local incentives
+ needs to increase dramatically period full stop.
+ And frankly, if you're sitting there arguing to me
+ that that's the thing that's going to break
+ the bank for these projects,
+ you need to get out of show business.
+ When push comes to shove,
+ I am far less pessimistic than many
+ about the data center backlash.
+ Part of that is that I think it is quintessentially
+ American and integral to who we are as a people
+ to be able to raise our voices
+ and push back against things that affect our lives
+ that we don't agree with or have concerns about.
+ The messiness while frustrating to the builders
+ is like it or not democracy in action.
+ But more than that,
+ there is so much opportunity
+ to make this infrastructure work for everyone.
+ Yes, there are some communities
+ where it is simply not going to work
+ for whatever reason
+ could be because the energy requirements just aren't there
+ or because people just aren't willing to deal
+ with the negative externalities like noise pollution.
+ But there will be in many more communities, I believe
+ the ability to find win-wins for everyone
+ where this particular type of infrastructure
+ can actually be a valued part
+ of a community's next phase.
+ I think our failure to do this so far
+ is a failure of understanding
+ and a failure of imagination.
+ And I think both of those can be addressed.
+ For any of you who are dealing with the hyperscalers
+ or labs or who are building these data centers
+ and are wondering what to do next,
+ send them this argument in my email,
+ I will happily shout at them directly.
+ For now, that's gonna do it for today's AI Daily Brief.
+ Appreciate you listening or watching as always.
+ And until next time, peace.
