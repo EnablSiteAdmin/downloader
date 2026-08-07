@@ -1,0 +1,924 @@
+ Today on the AI Daily Brief, a massive AI leadership shake-up at Google, and before
+ that on the headlines, Meta drops two new models and a coding harness.
+ The AI Daily Brief is a daily podcast and video about the most important news and discussions
+ in AI.
+ All right friends, quick announcements before we dive in.
+ First of all, thank you to today's sponsors, KPMG, Rackspace, Blitzy, and Hyperagent.
+ To get an ad-free version of the show, go to patreon.com.ai-dailybrief or you can subscribe
+ in Apple Podcasts.
+ And if you want to learn more about sponsoring the show, send us a note at sponsors.ai-dailybrief.ai.
+ Meta continues its comeback quest with the release of MuseSpark 1.2 and Muse Code.
+ Alongside the twin model release, they are releasing their first coding harness as well.
+ Meta described MuseSpark 1.2 as a coding-focused update to the 1.1 version which was released
+ in July.
+ This is the first model that Meta has trained in a harness, improving its agentic capabilities
+ in that environment.
+ The results look like a pretty strong coding model on the benchmarks.
+ It scored 82.9% on terminal bench 2.1, placing it between opus 5 and GPT-56 Terra.
+ On deep sweep, it scored 59.3%, placing it behind opus 5 and GPT-56 Terra, trailing by
+ around 5 points.
+ Meta chose not to compare MuseSpark to the Frontier models, likely because it's not
+ in the same size class as Vable 5 or GPT-56 Sol, and the model appears to be designed
+ to be cheap and efficient as a daily driver rather than taking on the larger models on
+ the benchmarks.
+ Artificial analysis had similar findings.
+ The model scored 54 on the AA Intelligence Index, placing it behind opus 5, GPT-56 Terra
+ and Kimmy K3, tying it with Grock 4.5 and putting it a few points ahead of GLM 5.2.
+ AA also wrote that Spark 1.2 is, quote, among the most cost-efficient models at its
+ intelligence level.
+ It cost 40 cents per task on their benchmark run, which gave it a similar cost to intelligence
+ ratio as Grock 4.5 and GPT-5.6 Sol turned down to medium effort settings.
+ Its run was around half the cost of Kimmy K3, further reinforcing the idea that every
+ Chinese model is not just some incredibly low-cost wonder, MuseSpark 1.2's run on
+ the AA Index was around half the cost of Kimmy K3 with results in the same ballpark.
+ AA also noted that the 3-point overall improvement was almost entirely down to
+ agentic performance.
+ The update delivered a big jump on GDP Val, making it the sixth highest ranked
+ model behind Opus 5, Fable 5, Quinn 3.8 Max, GPT-56 Sol and Kimmy K3.
+ On the harness side, the biggest thing besides meta actually bringing a
+ coding harness to market, is sub-agents.
+ In his launch thread, once again on Twitter where Mark Zuckerberg has been
+ spending a lot more time recently, Zuckerberg wrote,
+ Muse code runs specialized background agents that stay active your whole
+ session, so they build up context over time instead of starting from
+ scratch on every task.
+ When a job is big enough, it fans out to separate sub-agents working in
+ parallel in isolated work trees.
+ Your working copy is never touched.
+ In testing, we had it build six features for a game simultaneously with no
+ collisions.
+ Meta saw a very strong performance for long-horizon tasks with this
+ architecture.
+ During testing, they deployed the model to a kernel optimization task,
+ and the model successfully ran for 24 hours, executing more than a
+ thousand tool calls and delivering steady improvements throughout the
+ session.
+ Meta is also selling Muse code as suitable for professional work due to
+ its auditability.
+ The harness logs every tool call and code edit and has the ability to
+ use these logs to restart midway through a task if it crashes.
+ Now, aside from the release, Zuckerberg also teased parts of the
+ future roadmap.
+ He wrote that larger and more capable models are on the way, as
+ well as hinting that Muse code might be open sourced.
+ Now, so far, if you dig around, you can find both positive and
+ negative responses.
+ I would say, overall, the steady drumbeat of each sequential
+ release getting a little bit better from Meta and them getting
+ closer and closer to relevant again continues with this set of
+ releases.
+ Teasing what will be the subject of our main episode, Hader wrote,
+ How quickly the tables have turned.
+ Meta is starting to look like Google, moving fast, shipping AI
+ products and finally building momentum.
+ Meanwhile, mighty Google suddenly looks like last year's Meta,
+ confused, reactive, and somehow watching everyone else move
+ faster.
+ Now, this was not the only Meta story in the news, not to be
+ left out of the current trend.
+ Meta's agents have also escaped containment and hacked into
+ third-party systems.
+ Meta said that during cybersecurity testing for
+ Muse Spark 1.1, the model left its sandbox and
+ exploited a vulnerability to break into systems owned by
+ another unnamed company.
+ A Meta spokesperson said the issue was a misconfigured
+ sandbox provided by security evaluation partner Irregular.
+ Irregular, by the way, was also involved in the
+ incidents reported by OpenAI and Anthropik, with those
+ companies stating that the sandbox failed to quarantine
+ the model away from the open internet.
+ Meta said that the hack was carried out, quote,
+ in a manner similar to previously reported instances
+ with other companies.
+ They're still conducting an investigation and said they
+ will provide a full report once they have all the facts.
+ But a spokesperson for Irregular confirmed that
+ the Meta incident involved the exact same sandboxing
+ issue previously disclosed by the other labs.
+ Moving over to another hot-button topic, ByteDance's
+ founder has ruled out distillation as a way to
+ keep up in the AI race.
+ On Wednesday, the information reported on a meeting
+ held last month, shortly after the release of
+ Kimi K3.
+ ByteDance founder Zhang Yiming told his AI team that
+ they wouldn't resort to distillation, even if
+ it means falling behind the other Chinese labs.
+ He said that ByteDance should be, quote,
+ willing to sacrifice some short-term gains for
+ longer-term goals.
+ These comments reportedly came in response to AI
+ leaders at the company proposing a distillation
+ project as a way to catch up quickly.
+ Notably, ByteDance is, at this particular moment,
+ something of an outlier among the Chinese labs.
+ Their latest LLM, called Seed 2.1 Pro, went pretty
+ well on notice when it was released in June.
+ It ranks 19th on Arena AI's coding leaderboard,
+ distantly behind models from DeepSeek,
+ ZAI, Alibaba's Quen team, and Moonshot's
+ Kimi team.
+ On the flip side, ByteDance does produce the
+ highly-acclaimed Seed Dance video models,
+ but their text models have never been all
+ that competitive.
+ They're also the only major Chinese lab that
+ keeps their LLMs proprietary rather than
+ releasing them as open weights.
+ Sources suggested that the hesitancy to distill
+ US models stems from ByteDance having
+ experienced the wrath of US policymakers.
+ Washington has threatened to ban their core product, Tiktok,
+ multiple times over recent years.
+ That situation was resolved last year with a forced sale
+ of portions of the US-facing infrastructure stack,
+ including data handling and algorithm control.
+ And so either A, ByteDance leadership,
+ is in no rush to provoke another round of scrutiny
+ on Tiktok by getting caught distilling US models,
+ or B, and this is kind of where I would put my money,
+ having gone through the process of getting
+ to a resolution with the US,
+ I think they might see the writing on the wall
+ for other Chinese labs and see an opportunity
+ to tort us in the herit by being the one Chinese lab
+ that can continue to play in the US environment
+ based on not resorting to the same techniques
+ that are arousing the US's ire elsewhere.
+ Over in Chip World, Anthropic is getting
+ into the chipmaking game with the creation
+ of an in-house chip design team.
+ Business Insider reports that Anthropic
+ is beginning to staff up the new team
+ with a spokesperson confirming the move,
+ stating that Anthropic wants to co-design hardware
+ and models to allow them to run faster
+ and more efficiently at the scale our customers need,
+ quote-unquote.
+ According to earlier reports,
+ Samsung is being considered as a manufacturing partner.
+ Over the past year, Anthropic has taken
+ a multi-chip approach.
+ Across various applications,
+ they're using chips from Amazon,
+ Google, Nvidia, and AMD.
+ And at this stage, while all of the frontier labs
+ have started to dabble with custom silicon,
+ we're yet to see a huge benefit.
+ Certainly even these customization projects
+ are not in a short term about replacing other things.
+ As witnessed by the fact that earlier this week,
+ Bloomberg reported that Anthropic is in talks with Blackstone
+ to issue 36 billion in debt to fund
+ the use of Google's TPUs.
+ Finally today, two SaaS Pocalypse adjacent stories.
+ Figma is seeing echoes of that SaaS Pocalypse moment
+ as what the market perceives as weak earnings
+ sending the stock plummeting.
+ On Wednesday night, Figma reported 48% annualized growth
+ but forecasts a significant slowdown
+ to 36% for Q3.
+ Now, technically these earnings beat
+ analyst expectations and saw a hike in forecasts
+ but slowing growth is the canary in the coalmine
+ that SaaS investors have been watching for.
+ Part of the issue is the transition
+ to usage-based pricing.
+ AI sales provided a tailwind to this quarter's earnings
+ but there's a fear that increased costs
+ will drive user attrition.
+ In an interview following earnings,
+ CFO Pravir Melwani said,
+ we've transitioned from that moment
+ of unlimited beta free without limits
+ now to one where we've effectively monetized
+ Figma's AI tools on the other side.
+ Largely we've been able to make
+ that transition pretty seamlessly.
+ Investors, however, were less convinced
+ sending the stock down by 15% in after hours trading.
+ On the flip side is Shopify.
+ They reported 34% revenue growth
+ and 68% growth in operating income
+ both beating analyst expectations.
+ Operating costs meanwhile are rising at 21%
+ which came in below expectations.
+ What's more, Shopify delivered a huge hike
+ to expectations forecasting Q3 revenue growth
+ in the mid-30s.
+ So how were they able to do this?
+ President Harley Finkelstein credits
+ the rise of AI search.
+ While publishers have lamented AI search
+ for undermining their web traffic,
+ the same isn't true for Shopify merchants.
+ Finkelstein said that AI had been a quote complement
+ to search rather than a substitute for it.
+ AI driven traffic to Shopify stores
+ is up three X year over year
+ while traditional search continues to grow alongside.
+ And according to Finkelstein,
+ AI has been particularly helpful
+ to some of the smaller brands.
+ On TVPN, he said,
+ the merchants that seem to be benefiting
+ the most from agentic commerce
+ are not the big box stores.
+ It's the long tail of these
+ specialized independent businesses.
+ He continued,
+ agentic commerce is merit based.
+ It's not based on who is supplying
+ the most amount of ad dollars.
+ It is a much better shopping experience
+ and I still think it could get better.
+ Harley continued,
+ 75% of all AI attributed purchases in Q2 on Shopify
+ are from outside of our top 100 categories.
+ Agentic shopping is not I want yoga pants.
+ It's I want reef safe sunscreen
+ that doesn't leave a white cast on my black leather.
+ He basically explained that AI shopping
+ has allowed the smaller merchants
+ that use Shopify to compete
+ on an even playing field
+ with the e-commerce giants saying,
+ while search engines rank by popularity
+ against a handful of keywords,
+ AI agents make multiple calls
+ into Shopify's catalog,
+ working with richer structured data
+ to match products with the buyer's specific intent
+ rather than just keywords.
+ When a buyer asks an AI assistant
+ for the best car seat
+ that fits three across the sedan,
+ traditional search focuses on the keyword car seat.
+ An agent, however, understands the actual need,
+ the dimensions, the vehicle type
+ and the fact that they need three.
+ It searches across all of those constraints
+ once to find the product that actually works,
+ not just the one that ranks highest.
+ The stock was up as much as 25%
+ on Wednesday following earnings,
+ Shopify's largest intraday trade since late 2024.
+ Now, I have not been tracking my 2026 predictions,
+ all of that closely.
+ That is something that I will do
+ at the end of the year, of course,
+ in our fun end of year content.
+ But I do want to call out this one specifically
+ because it was probably the weirdest surprise
+ to be included kind of thing that I had in there.
+ One of my AI predictions for 2026
+ was that Shopify actually had a unique role to play.
+ Not only is there this dimension
+ of how agentic searching
+ can improve the shopping experience for buyers,
+ but the way that Shopify has integrated AI
+ for the actual store owners
+ is exactly the sort of unbelievably powerful,
+ self-evident use case
+ that for a ton of small business entrepreneurs
+ who now make their living from Shopify
+ shows just how valuable this technology can be
+ without anyone having to convince them.
+ I'm very glad to see the company doing well
+ and I hope it will continue to do well.
+ For now though, that is gonna do it for today's headlines.
+ Next up, the main episode.
+ One of the most important AI questions right now
+ isn't who's using AI, it's who's using it well.
+ KPMG and the University of Texas at Austin
+ just analyzed 1.4 million real workplace AI interactions
+ and found something surprising.
+ The highest impact users aren't better prompt engineers,
+ they treat AI like a reasoning partner.
+ They frame problems, guide thinking,
+ iterate and push for better answers.
+ And the good news, these behaviors are teachable at scale.
+ If you're trying to move from AI access to real capability,
+ KPMG's research on sophisticated AI collaboration
+ is worth your time.
+ Learn more at kpmg.com slash us slash sophisticated,
+ that's kpmg.com slash us slash sophisticated.
+ One of the more interesting shifts
+ in enterprise AI right now
+ is how quickly the conversation
+ is moving towards infrastructure and operations.
+ As AI moves into core workflows,
+ regulated data environments and agentic systems,
+ enterprises need governed infrastructure and inference
+ that can operate reliably day to day
+ with clear operational accountability built in from the start.
+ As those systems scale, the operating model
+ increasingly becomes part of the AI strategy itself.
+ Rackspace technology is the operator
+ of the full enterprise AI stack,
+ from agents to infrastructure across private cloud,
+ hybrid cloud and edge environments.
+ Rackspace builds and operates governed AI infrastructure,
+ inference and production AI systems
+ for organizations where sovereignty,
+ compliance and uptime are non-negotiable.
+ Therefore deployed engineers
+ stay embedded beyond deployment
+ to help operationalize and run AI in live environments.
+ To learn more about where enterprise AI runs
+ and outcomes scale, go to rackspace.com.
+ Here's why most legacy modernization projects fail.
+ The AI doing the work
+ can't understand code bases at scale.
+ It sees a small slice of context,
+ examines syntax and misses years of decisions
+ distributed across the global application ecosystem.
+ Blitzy solves this the way it solves everything.
+ Grounded in your code before any migration begins,
+ Blitzy's agents reverse engineer
+ the entire legacy system
+ into a persistent knowledge graph.
+ Every dependency, every constraint,
+ every piece of tribal knowledge
+ that used to live in one engineer's head.
+ From that understanding,
+ Blitzy autonomously executes language migrations,
+ framework upgrades
+ and monolith to microservices transformations
+ all validated end to end.
+ One Blitzy customer modernized
+ a $10 million monolithic insurance stack in 16 weeks
+ against a 137 week baseline with coding agents.
+ That's nine X compression.
+ Retire technical debt while accelerating your roadmap.
+ See how at blitzy.com.
+ That's blitzy.com.
+ This episode of the AI Daily Brief
+ is brought to you by HyperAgent,
+ where you run fleets of agents your team can manage together.
+ New users get $1,000 in inference.
+ Forget local agents and chat workflows
+ waiting on your laptop to be prompted.
+ HyperAgent deploys always-on agents in the cloud
+ doing real work across the tools your team already uses.
+ Marketing's agent turns competitor moves into landing pages.
+ Sales' agent enriches leads, drafts emails,
+ and updates the CRM.
+ Ops agent chases the paperwork and tracks the budget.
+ Every agent has access to shared context
+ and follows your rules about scope and approvals.
+ It's time you add agents that feel like teammates.
+ Hire yours at HyperAgent
+ built by the team at Airtable.
+ Claim your $1,000 in inference
+ at hyperagent.com slash ai-dailybrief.
+ Welcome back to the AI Daily Brief.
+ Some absolutely seismic shakeups
+ over in Google and today.
+ Both DeepMind CEO Demis Asabis
+ and Chief Scientist Jeff Dean
+ have stepped aside from their current roles,
+ marking what is probably the biggest shakeup
+ in a frontier lab since the utter chaos
+ around Sam Altman at OpenAI at the end of 2023.
+ Now, the questions are, of course,
+ what this says about what's going on for Google,
+ what the implications are for the Google AI project,
+ and to reveal my cards a little bit,
+ while I think that the obvious first instinct
+ is to be quite concerned,
+ I also think that there are some strong counterpoints
+ and maybe a different conclusion
+ than some others are coming to
+ that I will share a little bit later.
+ But let's get into the details first.
+ Both Asabis and Dean announced their exits
+ and future plans on Wednesday.
+ Asabis will step aside as DeepMind CEO,
+ but will remain as DeepMind Chairman.
+ Karek Havokoglu, formerly the CTO at DeepMind,
+ will take over day-to-day leadership at the division,
+ but not as CEO instead as Senior Vice President
+ for DeepMind.
+ In other words, the division will no longer have
+ an independent CEO as does YouTube, Google, Cloud, and Waymo.
+ Asabis will remain in his position
+ as leader of Isomorphic Labs,
+ the drug discovery spinoff incubated by Google since 2021.
+ He will also take over as Chief Scientist
+ for all of Google.
+ In a public note, Alphabet CEO Sundar Pichai wrote,
+ Demis has described us as standing
+ in the foothills of the singularity
+ and has been spending a lot of his time
+ engaging externally.
+ He and I have been long discussing a role
+ that allows him to put his full attention
+ on actively shaping the future of AGI.
+ It's work that is vitally important to alphabet and humanity
+ and I can't imagine a better person than Demis to do it.
+ In his own public message, Demis added,
+ we have arrived at a pivotal moment in human history.
+ I have been working towards AGI my whole life
+ and now, like many of you, I feel it is close at hand.
+ It's critical that we collectively get the next steps
+ right to ensure this all goes well for humanity
+ and we usher in an incredible new age
+ of discovery and wonder.
+ With this backdrop, I've decided that now is the right time
+ for me to hand over my day-to-day operational
+ responsibilities at DeepMind so that I have the time
+ and space to focus on the big picture
+ and help influence what is to come
+ to the best of my ability.
+ Now, as surprising as Demis's move was,
+ in many ways, Jeff Dean is the even bigger
+ Google institution.
+ Dean has been at Google since 1999,
+ led the separate Google AIT in between 2018 and 2023
+ and served as Google's chief scientist from 2023 onwards.
+ Unlike Demis, Dean is leaving for something new.
+ In the same note where he talked about Demis's
+ departure, Sundar Pichai wrote that Dean
+ and Google senior fellow Sanjay Gemawatt are, quote,
+ launching an independent public benefit corporation
+ to accelerate discoveries in ML, science and engineering.
+ In a follow-up post on X, Jeff Dean announced
+ that his new startup is called Discovery Loop
+ and will focus on automated research.
+ He wrote,
+ Our general approach is to automate the experimental loop.
+ We think this approach is broadly applicable
+ across many fields of science and engineering.
+ We'll initially focus on machine learning research
+ and engineering, but believe the approach can help
+ with important sub-problems in nearly every one
+ of the 14 National Academy of Engineering
+ Grand Challenge Problems.
+ We think doing this well requires strong expertise
+ in machine learning as well as large-scale systems.
+ In a press release, the company wrote,
+ While science and engineering
+ have tremendously advanced society over past centuries,
+ progress has traditionally relied
+ on slow sequential human iterations,
+ creating a significant bottleneck.
+ Discovery Loop is developing advanced AI systems
+ that leverage massive computational scale
+ to fundamentally transform the speed and efficiency
+ of innovation by automating complete experimental loops.
+ In other words, if you thought that loops
+ were just a buzzword or just something for AI coding,
+ Jeff Dean is trying to say that he and his team
+ believe that that is not the case
+ and that this is in fact the pattern
+ that will lead to other types of major advances.
+ Google will be investing in Discovery Loop
+ as an initial backer,
+ but importantly, the company will be run independently
+ and has raised outside capital from a range of top VCs.
+ Somewhat hilariously,
+ Jeff posted a few slides from his pitch deck,
+ but Siky Chen from Runway got it right
+ when he retweeted that and said,
+ Lol, there are precisely zero VCs in the valley
+ who needed to see a deck from Jeff Dean.
+ Now, listeners who work in the tech industry
+ will already understand the gravity of these moves,
+ but for those outside of Silicon Valley,
+ it's worth emphasizing just how important
+ these two figures have been to Google's AI journey.
+ Hassab has found a deep mind
+ as an independent AI lab in 2010,
+ and until the formation of open AI,
+ they were the locus of pretty much
+ all major advances in the field.
+ They were acquired by Google in 2014
+ and the following year they grabbed major headlines
+ after pitting their go-playing algorithm,
+ AlphaGo, against Grandmaster Fan Hui.
+ Go is considered a much more complicated game than chess,
+ so at the time, it was baffling
+ that a machine could beat a top ranked human player.
+ The most famous moment in that match was Move 37,
+ when the machine played a completely
+ or seemingly unintuitive move
+ that no human would have made.
+ It was so unorthodox in fact
+ that the commentators believed
+ that it was an error or a glitch,
+ but the move paid dividends later in the match
+ and was crucial to the victory.
+ Still, that early triumph was eclipsed in 2018
+ by the release of AlphaFold,
+ an AI model that could predict protein folding
+ based on an amino acid sequence.
+ This was one of the core problems
+ in biology and drug making,
+ and won Demis Hassabis the Nobel Prize in Chemistry in 2024.
+ While it is certainly the case
+ that none of deep mind's achievements
+ are solely attributable to Hassabis,
+ he has been the steady hand at the head of the organization
+ since its inception 16 years ago.
+ For most folks, the only potential knock on his leadership
+ has been his near exclusive focus
+ on long-term, high-minded goals.
+ From the beginning, Hassabis has been extremely AGI-pilled
+ and viewed the ultimate goal of the technology
+ as things like unlocking the ability to cure all diseases.
+ This arguably led him to forego the commercial opportunity
+ of chatbots after the release of chatGBT in 2022,
+ with Google failing to release
+ any sort of viable competitor
+ until 2024 with Gemini 2.
+ Jeff Dean, as I mentioned, joined Google in 1999
+ as employee number 30
+ and has been at the heart of every major technology
+ developed at the country ever since.
+ He is a virtuoso level programmer mentioned in the same breath
+ as luminaries like John Carmack or Linus Torvalds,
+ and arguably has been more instrumental
+ in Google's commercial AI strategy than even Hassabis
+ from his role as the head of Google AI
+ and then chief scientist.
+ Dean also seems like he is just a really good guy.
+ The number of stories about him being a fantastic
+ and generous mentor to everyone in the company
+ have just been pouring out,
+ meaning that the loss for Google truly
+ is more than technical.
+ So what does this mean for DeepMind?
+ One important piece of context is that Hassabis and Dean
+ aren't actually the first high-profile exits
+ from Google's AI work over the past year.
+ Last month, John Jumper left the company
+ after nine years and joined Anthropic.
+ Jumper had been a key part of the AlphaFold project
+ with contributions so notable
+ that he shared the Nobel Prize with Demis.
+ That same week, legendary AI researcher Noam Shazir
+ left to join OpenAI.
+ Shazir had been part of early chatbot efforts at Google,
+ but left in 2021 to found character AI
+ after getting frustrated with Google's refusal
+ to release a commercial chatbot.
+ Then he returned in 2024
+ as part of a $2.7 billion aqua hire deal
+ and since then had served as the tech lead on Gemini
+ playing a major role in getting the product up to snuff.
+ So then one possible and plausible interpretation
+ of this week's news is a continuation of the brain drain
+ that's been happening at Google throughout the year.
+ Core Autos Rohan Anil summed this up,
+ poor one out for Big G, it's so over.
+ And I would say on average,
+ that is probably the most common category of response.
+ Tenebrous writes,
+ Demis is ousted as DeepMind CEO and Jeff Dean and Sanjay
+ are leaving to start a neolab.
+ They're all being very careful to frame these
+ as positive shifts, but there's no way in hell
+ Demis would have accepted this willingly
+ and there's no way Sundar happily accepted Jeff
+ doing this as a totally independent new PVC
+ rather than a bet under Alphabet.
+ Tough to see an interpretation other than Jeff
+ losing confidence in working on AGI under Google.
+ Very bad day for Alphabet overall.
+ Author take him writes,
+ Jeff Dean leaving is a huge red flag.
+ He created nearly everything important to Google
+ from AI to TPUs to search.
+ This is a day for the history books.
+ Markets seem to agree with Google down 4% on the day,
+ although honestly some were surprised
+ that the market impact was that little.
+ Sajima Mood wrote,
+ Google being down only 4% on Jeff Demis news
+ either means one, markets are dumb
+ and don't understand how valuable they are or two,
+ markets are smart and already priced
+ in the risk of top tier talent leaving.
+ Former DeepMind researcher Susan Zhang
+ wrote a very cryptic post about internal politics at Google
+ adding in a follow-up that she had gotten pretty burned out
+ by certain people who just say yes to everything
+ to avoid ever making a hard call
+ and leave it to all the hungry minions
+ to backstab each other until success finds a cursed hole
+ to crawl out of.
+ So perhaps reports that there are some culture issues
+ aren't that far off.
+ And yet practically speaking,
+ some are arguing that this might just at this point
+ be a formalization of something
+ that had effectively already happened.
+ Shortly after the announcement reports surface
+ that suggested that Demis had already been checked out
+ for the better part of a year.
+ Wright Semaphore, Google DeepMind CEO,
+ Demis Hasabis's departure Wednesday
+ from the top job at the company he founded in 2010
+ and sold to Google in 2014,
+ was at least a year in the making
+ said two people familiar with his thinking.
+ Hasabis had been drifting away
+ from the day-to-day responsibilities
+ of running the company's Gemini AI models
+ and its consumer AI strategy,
+ increasingly shifting them to Kevokoglu
+ the company's chief AI architect.
+ Said both sources,
+ Hasabis wasn't pushed out against his will.
+ Rather, he struggled to get satisfaction
+ out of being in the role of a tech executive
+ rather than a visionary scientist.
+ Now this would seem to line up
+ with how Sundar Pichai described Demis's departure.
+ Pichai referred to the shift away
+ from DeepMind to lead isomorphic labs
+ and take on the role of chief scientist
+ as quote, truly his life's work and purpose.
+ And for a lot of folks,
+ this is the self-evident point.
+ One biopharma and CEO Parm kinda crashed out,
+ smashing the keyboard in all caps.
+ He is still the CEO of isomorphic labs.
+ He is doing the right thing.
+ He is building drugs
+ instead of Gemini Pro 7.5 Max Parallel
+ reasoning for you to code Python better
+ so he can keep his promise of saving lives.
+ Now another big implication though of the move
+ is that Hasabis will have the opportunity
+ to focus on policy
+ with day-to-day operations off his plate.
+ And we've certainly seen some evidence of this
+ with Hasabis publishing a lengthy proposal
+ for frontier AI regulations last month.
+ The core idea was to create a self-regulatory body
+ to enable collaboration
+ between the major labs and government regulators
+ modeled after FINRA in financial regulation.
+ Road journalist Alex Heath,
+ inside Google DeepMind,
+ Demis Hasabis leaving his CEO post landed
+ with essentially a shrug.
+ Sources tell me he's already been disengaged
+ from day-to-day management for a while now.
+ However, says Alex,
+ that doesn't mean that there aren't big implications.
+ He continued,
+ but Demis was a firewall between DeepMind
+ and the rest of Google
+ even as the two got pulled closer
+ over the last couple of years.
+ I expect that distance to dissolve
+ more with him stepping back.
+ To some, the bigger surprise
+ is both Jeff Dean leaving to start a new company,
+ but also that company not being incubated
+ within the larger alphabet structure.
+ Indeed, in some ways, the entire premise
+ of Google's parent company alphabet
+ is to function as an incubator on a grand scale.
+ Some don't think the explanation is pretty simple.
+ Author Take Him Again writes,
+ OMG, they didn't wanna work with TPUs.
+ Jensen is probably calling Jeff Dean right now.
+ Google's infrastructure works well
+ for big consumer apps, large ad systems and search,
+ but he said it has very different requirements
+ than the type of infrastructure
+ we want to build for research.
+ In other words,
+ it's a very crazy big Machiavellian thing.
+ It is just talent following compute
+ and the right type of compute for the project at hand.
+ And there are still some keeping the faith over at Google.
+ Very visible member of the team, Logan Kilpatrick,
+ tweeted that he remained steadfast bullish on Gemini,
+ but a lot of folks are asking
+ where the heck Gemini is.
+ In fact, some actually thought
+ that we were finally going to get Gemini 3.5 Pro
+ alongside these announcements,
+ although then the leaker said
+ that it was being pushed today.
+ So who knows, maybe by the time you're listening
+ to this Gemini 3.5 Pro will actually be out.
+ And yet I don't think that 3.5 Pro
+ is likely to solve all their problems
+ or answer the big questions.
+ Alex Heath again reported,
+ Google is currently running behind the frontier,
+ especially on coding and the internal sentiment
+ I'm hearing on Gemini 4 is muted.
+ On its current trajectory,
+ it's not expected to push Frontier AI forward
+ the way Fable and Sol just did.
+ And this could be a major issue.
+ Wall Street might be willing to have a muted response
+ to serious top talent leaving,
+ but proof of what it feels like
+ that Google is unable to keep up
+ with open AI and anthropic at the state of the art
+ would have some serious financial market implications.
+ Now in the past,
+ one of my cautions around personnel movements
+ has been that there is so much
+ that goes into any individual's decisions
+ about what they spend their time on
+ that I think it is very easy
+ to significantly overestimate
+ the broader implications of a personnel move
+ when a lot of it in many cases
+ is in fact just personal.
+ Taking Demis in that light,
+ he is certainly not short on resources.
+ He has been in this leadership role for a very long time.
+ He has dealt with a huge amount of internal politics
+ as Google reorganized its AI divisions numerous times.
+ And he's found himself in the dogfight
+ of all business dogfights
+ when that's never where he really wanted
+ to be in the first place.
+ I think Sundar Pichai's analysis
+ that where he's moving is a better type of fit for him
+ is true even if there's more going on
+ than that post lets on.
+ And for Jeff Dean,
+ as deeply associated with so many
+ of Google's innovations as he is,
+ after 27 years at a single company,
+ in the modern age that we live in,
+ can you really fault the guy
+ for wanting to go out and do something
+ on his own in a new context without the bureaucracy
+ with just a bunch of big brain bro and brouettes
+ that he got to pick for himself?
+ I think the bigger story is that the man lasted
+ for 27 years at a big company,
+ even one as cool as Google.
+ And yet still, while one or even two changes
+ might be seen as individual data points,
+ combine these with the other high-profile departures
+ from the last couple of months
+ and it certainly does seem to be a pattern.
+ And it's a pattern that's happening in a context
+ that is undoubtedly, at least in most people's eyes,
+ of Google having fallen critically behind in the AI race.
+ Tay Cam, who I've quoted a couple of times in this show,
+ wrote a post in July called Google is a Secular Short.
+ In it, he argued,
+ Hasabas and DeepMind chase one shiny vanity
+ science project after another
+ while being blindsided by every major commercial AI advance
+ from LLMs and reasoning models to agentic AI.
+ They miss and fall behind every big AI wave.
+ Most importantly, Google has fallen critically behind
+ in the third major wave of AI computing,
+ coding agents and agentic AI.
+ Anthropic and open AI are thriving
+ by selling coding agents to corporations,
+ generating billions in revenue
+ that could turn into hundreds of billions
+ in the coming years.
+ Gemini has become a laughing stock
+ among AI model enthusiasts in Silicon Valley.
+ Where is Gemini on the coding agent leaderboards?
+ Nowhere.
+ Bloomberg also reported that Google
+ is months behind schedule
+ with Gemini 3.5 Pro
+ as it tries to improve its coding capabilities.
+ Many wonder why Google with all of its resources
+ can't beat a tiny Chinese startup
+ like KimiMaker Moonshot in the AI model race.
+ Even the one time Gemini caught up
+ with its release late last year,
+ it was state of the art for just six days
+ before being overtaken by Anthropics Claude Opus.
+ And so while that is obviously not an argument
+ that this is good for Google,
+ it is instead simply an argument about the facts,
+ about where they are today,
+ I think that some parts of this history
+ are fairly undeniable.
+ Perhaps most emblematic of this
+ is the failure to launch ChatGBT before ChatGBT.
+ Midjourneys Chang Liu recently tweeted,
+ I sometimes think about that Jeff Dean interview
+ where he said that they had an internal bot
+ before ChatGBT,
+ but didn't think it was better than just Googling.
+ Tebow, who now leads Codex and ChatGBT at OpenAI,
+ responded and said,
+ I was part of that team.
+ Basically, ChatGBT one year before it came out,
+ called LMChat and then another codename.
+ Google was too nervous to release it
+ and DeepMind was blocked from shipping products
+ that could disrupt Google.
+ I think about this a lot.
+ Now anyone who is around back then
+ can remember just how insane it was for all of 2023
+ in the beginning of 2024
+ that Google had not only let the startup flank it,
+ but that it simply couldn't catch up.
+ Where it finally started to get some of its mojo back
+ was in late 2024,
+ specifically with the release of Notebook LM,
+ which was their first genuine consumer AI product hit
+ pretty much ever.
+ That momentum rolled into 2025
+ and Gemini actually became a major model,
+ getting to hundreds and hundreds of millions
+ of monthly active users
+ and seemingly coming into 2026
+ positioning Google to compete.
+ Alas, since then we have seen
+ that where the AI battle has shifted
+ in terms of coding agents and harnesses
+ as the anchor for everything else
+ has left them completely in the dust.
+ You can feel throughout all of this sourcing
+ and reporting and even public comments
+ how dismissive and disinterested
+ Demis Hasabis has always been
+ in these sort of things.
+ It feels like even getting to Gemini
+ was like pulling teeth
+ and a compromise to be able to spend time
+ on what he really wanted to do.
+ The point being,
+ without any disrespect to the unique
+ and incredible attributes of Demis Hasabis
+ as a scientist
+ and as a leader for one type of organization,
+ if we are taking it on evidence alone,
+ he has not done the job that has been expected of him
+ as the leader of Google's AI organization.
+ And yes, you might be thinking,
+ well, isn't that a little uncharitable?
+ I mean, look at all the things that they put out.
+ But this is kind of like Real Madrid and soccer.
+ When you get to a certain level,
+ you don't get points for putting points on the board.
+ You only get points for winning.
+ When a team like Madrid doesn't win La Liga
+ and doesn't win the Champions League,
+ those seasons are considered a failure, full stop.
+ And hard questions start getting asked
+ about whether there need to be personnel changes
+ and coaching changes.
+ And yes, I am among those who are soccer-pilled
+ coming off of the World Cup,
+ but the point is that Google is in that similar position.
+ Anything less than state-of-the-art models,
+ anything less than growing consumer usage,
+ these things are going to be considered failures.
+ And it seems very possible
+ that this particular leadership change was overdue.
+ Not only that, if we are for the world's sake
+ just trying to allocate people
+ where their gifts are most going to impact the world,
+ getting Demis out of that commercialized role
+ and into a place where he can do either A,
+ more science or B, more policy shaping,
+ could be better for everyone.
+ Martin Schrelle wrote by Google,
+ as much respect as I have for Dean & Co.,
+ which is a lot, Google is bigger than any person.
+ Further, losing these fine engineers
+ may result in the board of directors asking,
+ what is going on here?
+ And changing management or making other changes
+ which course correct for the better.
+ Now, to the extent that the reporting
+ around broader culture issues is true,
+ it's going to take more than just a leadership switch
+ to solve those problems.
+ But a leadership switch isn't a bad place to start.
+ Look, in short, from where Google was,
+ they were never going to get back
+ to where they needed to be
+ with the same arrangement that they had used
+ to lose their place in the race over the last year.
+ I would not be even close to counting them out
+ and I think there's a strong argument
+ that being able to now redesign the organization
+ to be exactly what it needs to be,
+ could, in some number of months,
+ leave Google in a much better position than it is today.
+ Then again, maybe the whole thing flops
+ and they just sell TPUs and cloud access forever
+ and it's still a big company and who cares?
+ In either case, no doubt it is huge news,
+ something to be debated and discussed,
+ for now that that is going to do it
+ for today's AI Daily Brief.
+ I appreciate you listening or watching as always
+ and until next time, peace.
