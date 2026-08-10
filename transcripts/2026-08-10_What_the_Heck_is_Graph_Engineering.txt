@@ -1,0 +1,725 @@
+ Today on the AI Daily Brief, what the heck is graph engineering and why should you care?
+ Before that in the headlines, OpenAI's Atlas model gets a cyber delay.
+ The AI Daily Brief is a daily podcast and video about the most important news and discussions
+ in AI.
+ Alright friends, quick announcements before we dive in.
+ First of all, thank you to today's sponsors KPMG, Blitzy, Robots and Pencils and HyperAgent.
+ To get an ad-free version of the show, go to patreon.com.ai-dailybrief or you can subscribe
+ on Apple Podcasts.
+ And to learn more about sponsoring the show, send us a note at sponsors at aidailybrief.ai.
+ Late last week, rumors were swirling that OpenAI's latest model, codenamed Astra,
+ was being prepared for an imminent release.
+ Sam Altman even traveled to Washington to preview the model and discuss new model testing policies.
+ In the background, however, the discussion around the hugging face hack just continued
+ to grow in prominence and significance.
+ For those who missed that episode, OpenAI's technical breakdown at the Black Hat Conference
+ revealed that not only had their model escape the sandbox and hacked into hugging faces servers,
+ it also left internal notes instructing future models on how to pull off the same trick.
+ On Friday, OpenAI decided to make a big shift.
+ They wrote,
+ Our latest internal evaluations of Astra, one of our upcoming models over the past
+ few days, indicate significant advancements in agent decoding and cybersecurity.
+ These results, in addition to expert assessments, have led us to conclude last night that
+ we cannot rule out critical cyber capabilities under our preparedness framework.
+ OpenAI defines that critical threshold as the ability to, quote,
+ identify and develop functional zero-day exploits of all severity levels
+ in many hardened real-world critical systems without human intervention
+ or devise and execute end-to-end novel strategies for cyber attacks
+ against hardened targets given only a high-level desired goal.
+ Now, on this front, GBT-56 Sol had been assessed in the high category,
+ which was a little more risky than previous models but still appropriate for a release.
+ Given that the new Atlas models are now in the critical category,
+ as a result, OpenAI is holding back the model from release
+ while beefing up internal safety measures.
+ Testing environments will now be isolated,
+ model weights will have enhanced encryption to prevent leaking,
+ and additional sandbox monitoring will be implemented.
+ OpenAI will also be limiting internal activities using Astra
+ that don't yet meet these enhanced security measures.
+ On Exxam, Altman added some contacts around the decision posting,
+ Astra is a powerful model and we're working to make it generally available.
+ We do not think it is a good strategy to keep powerful models to a chosen few.
+ Given its cyber capabilities, we need a little bit longer to do this safely,
+ but hopefully not too long.
+ Now, one thing we don't know is to what extent this is an OpenAI voluntary pause
+ versus a government-imposed pause
+ or whether that distinction even matters at this point.
+ One interesting note is that there aren't a lot of folks
+ suggesting that this is just a publicity stunt,
+ as was one of the narratives surrounding the Mythos release.
+ Basically, the hugging face incident seems to have made the case
+ that advanced cyber capabilities could be a real concern.
+ OpenAI Head of Strategic Futures, Dean Ball, noted that this year
+ is the first big test of whether Frontier AI Labs
+ would follow their stated safety preferences when push comes to shove.
+ He wrote,
+ Our next model, Astra, may be critical under our preparedness framework.
+ We cannot rule out the serious possibility that it is,
+ and so we are going to take steps consistent with the higher risk level,
+ critical, rather than assuming the model is at a lower risk level.
+ Some of these decisions have the effect of slowing down internal development,
+ and in that sense, they are costly decisions,
+ but they are the right decisions.
+ I am proud of OpenAI for making them.
+ Now, a lot of the discourse surrounding this
+ is what sort of changes OpenAI can actually make
+ to the guardrails and monitoring around these models.
+ OpenAI's RSI preparedness lead, Michael Carroll,
+ wrote,
+ As part of our response to cyber critical,
+ we've expanded chain of thought monitoring
+ to cover all agentic applications of Astra,
+ including training and evaluation,
+ flags trigger a security response to review
+ and interrupt high-risk activity.
+ Now, at the same time, there's also some skepticism
+ around that sort of chain of thought monitoring,
+ but these are the types of discussions and experiments
+ you're going to see a lot more of now,
+ where I believe there will be a significantly increased
+ investment in the resources to properly support models
+ that won't be able to be released to the public without it.
+ Now, speaking of big powerful models,
+ ByteDance is reportedly training an ultra-large model
+ comparable in size to Mythos.
+ The Financial Times reports that ByteDance
+ is in the early stages of a training run
+ that will result in a base model
+ with as many as 10 trillion parameters.
+ So far, we've only seen a couple of large-scale
+ training runs out of Chinese labs,
+ with Kimmy K3 weighing in at 2.8 trillion parameters
+ and Alibaba's Quen38 Max at 2.4 trillion.
+ Anthropic doesn't disclose model sizes,
+ but the best estimates have Mythos at around 8 trillion
+ and Opus 48 at around 3 trillion for some comparison.
+ Sources said that the training run
+ could take three to six months to complete
+ with more time added for reinforcement learning after that.
+ ByteDance also hasn't determined
+ how large the final model will be on release.
+ Still, this could be the first Chinese pre-training run
+ that's truly on the frontier,
+ and while model size is not a guarantee of performance,
+ this could put ByteDance back in the conversation
+ for leading Chinese labs.
+ That is, of course, all the more relevant
+ if they follow through with their pledge
+ not to distill from Western AI models
+ as reported last week.
+ Brookings research fellow Kyle Chan wrote,
+ Chinese AI labs seem confident that they have the compute
+ needed to pre-train five to 10 trillion parameter models.
+ Someway, somehow, compute does not seem
+ to be such a major bottleneck,
+ at least when it comes to reaching
+ these levels of model size.
+ Geopolitics commentator Dimitri Alperovic responded,
+ why would there be when there are no restrictions
+ on remote access to compute
+ and the export controls on chips
+ are full of holes like Swiss cheese?
+ Speaking of, some of those holes
+ do seem to be top of mind in Washington.
+ Shortly after the release of Kimi K3 last month,
+ the New York Times collated research
+ on the flow of compute
+ from large-scale data centers in Southeast Asia.
+ According to semi-analysis,
+ the Oracle data center in Malaysia
+ was being used almost exclusively by ByteDance.
+ The data center was powered on in mid-2025
+ and contains over 100,000 NVIDIA Blackwell GPUs.
+ Think Tank China Talk determined
+ that Oracle makes up around 22%
+ of China's total supply of compute.
+ Bloomberg also reported last month
+ that Moonshot had access to 20,000 NVIDIA H200s
+ to train Kimi K3.
+ This compute was reportedly provided by Alibaba,
+ although they deny the cluster contains H200s.
+ Now, an H200 cluster of that size
+ shouldn't be possible under the current export controls
+ as licenses haven't yet been issued.
+ Bloomberg was unable to confirm
+ the location of the cluster,
+ but heavily implied it could be located overseas
+ and rented by Alibaba.
+ The information offered conflicting reporting
+ that the training cluster
+ actually contained current generation Blackwell chips
+ and around the same time,
+ an administration official accused Moonshot
+ of acquiring Blackwell chips
+ and setting them up for remote access in Thailand.
+ Now, this is all legal.
+ The export control regime
+ only prohibits the import of advanced chips
+ and does nothing to stop them
+ from being installed in another country
+ and then leased to Chinese firms.
+ During its final weeks,
+ the Biden administration proposed rules
+ that would restrict chip supply
+ routed to third countries,
+ but those rules were scrapped on day one
+ of the Trump administration.
+ The Trump Commerce Department
+ is now reportedly looking into the practice.
+ Per sources familiar with the situation,
+ Bloomberg writes,
+ the effort involves compiling a list of countries
+ with alleged black market operations
+ to get restricted Nvidia chips physically into China
+ while within enforcement's usual purview.
+ But the division will also drop a list of countries
+ where Chinese firms access the chips remotely,
+ which isn't typically an enforcement question
+ because it's not illegal.
+ Draft rules that prohibit the export
+ of advanced AI chips into Malaysia and Thailand
+ have been circulated,
+ but none have made it past the drawing board.
+ Part of the issue is the convoluted nature
+ of these arrangements.
+ According to Bloomberg,
+ Alibaba accesses chips in Malaysia
+ through a Singaporean shell company
+ controlled by a Cayman Islands entity,
+ which is ultimately owned by Alibaba,
+ meaning of course that simple identity checks
+ on compute supply are unlikely to be effective.
+ The chips are also installed already,
+ meaning that a forward looking crackdown on imports
+ would do nothing to the existing data centers.
+ Speaking of Alibaba,
+ an interesting business model experiment might be afoot.
+ During last week's release of Quen 3.8 Max,
+ some were surprised that Alibaba would publish the weights
+ to their flagship model.
+ Earlier this year, Alibaba had signaled
+ a shift away from open source
+ with Quen team founders stepping away from the company,
+ management signaling a more commercial direction,
+ and multiple flagships including Quen 3.7
+ being kept as closed source.
+ That's why folks were very excited to see
+ that Quen 3.8 Max was released
+ with the announcement that the full weights
+ would be forthcoming.
+ According to Reuters, however, there is a catch.
+ Reports suggest that Alibaba plans
+ to demand revenue sharing from large commercial users.
+ And while the specifics of revenue sharing deals
+ are still being finalized,
+ we can perhaps look at Moonshots
+ Kimmy K3 release for the blueprint.
+ Moonshot kept the weights proprietary for the first week
+ to ensure that they captured
+ all the curiosity revenue from the release.
+ After that, they reportedly signed 30% revenue sharing deals
+ with all major inference providers,
+ allowing Moonshot to retain pricing power
+ by limiting how much the model
+ can be discounted through other providers.
+ Even now, none of the suppliers on open router
+ are offering K3 for more than a 7% discount.
+ Patty Srinivasan, the CEO of Inference Provider
+ Digital Ocean described this
+ as the freemium model for AI.
+ And Korean aggregator Cozy Bear added,
+ everyone is trying to figure out how to get paid
+ for open weights and revenue share
+ is the most honest attempt so far.
+ It doesn't pretend the model itself is the product,
+ it treats the model as infrastructure with a toll booth.
+ The interesting part they continue is enforcement.
+ You can't track who's making money on top of your weights
+ so this is mostly as a signal to enterprises.
+ Use Quen and when you win,
+ we want to seat at the table.
+ More like a relationship contract than a tax.
+ Open source AI just entered its licensing era.
+ Lastly today, one functional update.
+ Auto mode is now the default for Claude code,
+ marking a big transition point for work automation.
+ Auto mode allows the user to set Claude on a task
+ that gets completed without interruption.
+ Claude will only prompt the user
+ if a code change is extremely significant,
+ i.e irreversible, destructive
+ or aimed at something outside of your environment.
+ Auto mode was first introduced as a preview feature
+ in March with the version prior to that
+ being the dangerously skipped permissions command.
+ The alternative to that was hitting enter every couple of minutes
+ to skip the latest notification and keep the session going.
+ After iterating on auto mode, however,
+ Anthropic now believes that skipping permissions
+ isn't that dangerous and in fact could actually be safer
+ than seeing a prompt for every code change.
+ They conducted a study with over a thousand testers
+ finding that auto mode caught 89% of harmful actions.
+ Human reviewers only caught 13.6% of harmful code changes.
+ Anthropic suggested this is down to approvals
+ becoming basically automatic
+ with their users approving 97% of code changes.
+ One of the interesting things about the evolution of auto mode
+ is that it has forced Claude code to work in a safer way.
+ The system uses a classifier
+ to detect destructive or irreversible code changes
+ and block them.
+ And when this happens,
+ Claude typically finds a safer way to achieve its goal.
+ Only once it runs out of safer options
+ does it alert the user.
+ Auto mode will now be the default for pro, max and team plans
+ but will remain opt in for the enterprise.
+ Still, when it comes to those enterprise users
+ Anthropic suggests there are significant benefits
+ to using auto mode.
+ They claim that auto mode users ship 25% more PRs
+ and that many organizations including Adobe,
+ Gusto and Garner Health
+ are already running auto mode as their production default.
+ For the team at Anthropic,
+ perhaps unsurprisingly, auto mode is the default
+ with Claude code creator Boris Cherney commenting.
+ The team and I use auto mode exclusively
+ and have been for many months.
+ I couldn't imagine going back to permission prompts.
+ Really excited to get this out to everyone.
+ The ascendancy of auto mode is another example
+ of how our default patterns of interacting with AI
+ are changing, which provides the perfect segue
+ to our main episode,
+ a primer on the latest buzzy buzzword, graph engineering.
+ If you're leading AI inside an enterprise,
+ you already know that the gap right now
+ is in capability but execution.
+ That's why KPMG's You Can with AI
+ is back with a new season featuring conversations
+ with leaders like Serojit Chatterjee of Emma,
+ Mehbib of Rider, McKesson CIO Ellery Fisher
+ and others focused on practical execution.
+ What's working, what's not,
+ and what it actually takes to move from pilots
+ to real scaled impact across strategy, data readiness,
+ governance, workforce and value.
+ And of course, it's co-hosted by me, Nathaniel Whittemore.
+ Go listen and subscribe at www.kpmg.us slash AI podcasts.
+ That's www.kpmg.us slash AI podcasts.
+ Every AI coding tool on the market does the same thing first.
+ It starts writing code.
+ Blitzy does the opposite.
+ Before writing a single line,
+ Blitzy spends days reverse engineering your entire code base.
+ Thousands of agents ingest millions of lines
+ mapping every dependency, every undocumented constraint,
+ every architectural decision made over the last decade.
+ The result is a dynamic knowledge graph
+ that understands your software
+ the way a principal engineer would
+ after 30 years in the building.
+ Other tools guess it context
+ with grep searches and markdown files,
+ Blitzy never guesses.
+ It builds true understanding first
+ then delivers over 80% of entire software epics autonomously,
+ validated end to end tested production grade pull requests.
+ That's why Fortune 500 engineering teams trust Blitzy
+ with the code bases that matter most.
+ See for yourself at blitzy.com, that's blitzy.com.
+ One thing I keep seeing in enterprise AI,
+ companies hedging across every cloud,
+ every model, every framework,
+ or paying a GSI for a pilot that never ends.
+ The team's actually shipping,
+ they've picked a lane and they move fast.
+ That's one of the reasons I like today's sponsor,
+ Robots and Pencils.
+ They've gone all in on AWS.
+ They're an advanced tier and AWS pattern partner
+ and they ship production AI coworkers in 45 days.
+ That's led to them doing some of the more interesting work
+ I've seen on AI coworkers.
+ And by that I'm not talking about chatbots,
+ I'm talking about actual agentic systems
+ that sit inside a business architecture and do real work.
+ That kind of focus matters if you're an enterprise leader
+ trying to get something real into production
+ or an AWS rep trying to move a customer
+ from interested to deployed.
+ Request an AI briefing at robotsandpencils.com.
+ One conversation with Robots and Pencils and you'll know.
+ This episode of the AI Daily Brief is brought to you
+ by HyperAgent, where you run fleets of agents
+ your team can manage together.
+ New users get $1,000 in inference.
+ Forget local agents and chat workflows
+ waiting on your laptop to be prompted.
+ HyperAgent deploys always-on agents in the cloud
+ doing real work across the tools your team already uses.
+ Marketing's agent turns competitor moves
+ into landing pages.
+ Sales' agent enriches leads, drafts emails
+ and updates the CRM.
+ OpsAgent chases the paperwork and tracks the budget.
+ Every agent has access to shared context
+ and follows your rules about scope and approvals.
+ It's time you add agents that feel like teammates.
+ Hire yours at HyperAgent built by the team at Airtable.
+ Claim your $1,000 in inference at hyperagent.com
+ slash AI Daily Brief.
+ We'll go back to the AI Daily Brief.
+ Today we are discussing the latest buzzy term
+ on AI Twitter, which is graph engineering.
+ Now this one admittedly is a little confusing
+ because A, it sort of started tongue-in-cheek
+ and B, depending on who's talking about it,
+ it kind of is describing two different things.
+ But I actually think that the concept at least
+ is useful to situate relative to the lineage
+ of engineering we've had from prompt to context
+ to harness to loop.
+ And so I think it's worth doing this primer.
+ And indeed this is definitely more a primer
+ on graph engineering than a complete guide
+ to graph engineering.
+ I wanna bring you up to speed on what this term is
+ and why I think it matters.
+ So the tweet that kind of kicked off this discourse
+ came from open-claw creator Peter Steinberger.
+ Back in mid-July, he wrote,
+ are we still talking loops or did we shift to graphs yet?
+ AI creator Matthew Berman captured the feelings of many
+ when he said, bro, stop, I'm on vacation.
+ And while almost immediately the Twitter article boasters
+ got to work, big bull declarations
+ like loop engineering is dead, long live graph engineering
+ were visible all over the place,
+ but after this initial phase of hype and bluster,
+ there is in fact actually something interesting here.
+ So let's talk about all of the things
+ that have had engineering around them.
+ The first blank engineering that we had
+ was of course prompt engineering.
+ This was what a lot of the AI courses around 23
+ and early 2024 were all about.
+ And depending on which corporation you look at,
+ still unfortunately the substance
+ of a lot of those upskilling courses today.
+ The idea of prompt engineering was a recognition
+ even then that we were shifting how we did work.
+ Instead of doing all the work ourselves,
+ we were debutizing an AI chatbot
+ to do some amount of that work.
+ Now, whether that was final production
+ or just some intermediate step like research,
+ we still needed to find ways to optimize
+ what we were asking for to get the best results.
+ That was prompt engineering.
+ At various points in the life cycle of prompt engineering,
+ you had tips and tricks ranging from telling the AI
+ to pretend it was a certain type of person
+ to fancy JSON engineering,
+ which used this complex way of typing
+ to theoretically better structure requests.
+ And we kind of had every other thing in between as well.
+ Heading into 2025, however,
+ we started recognizing that the prompt
+ was only one part of getting the most out of AI.
+ We didn't just need to be good at asking
+ for things in the right way.
+ We also needed to be good at giving AI
+ all of the information and knowledge it needed
+ to do a good job with whatever that prompt was.
+ To take a simple example,
+ if you're asking your LLM
+ to create a highly successful on-brand marketing campaign,
+ well, first of all, it needs to know what on-brand is,
+ which means giving it access to brand guidelines
+ and potentially other write-ups in the past
+ about things like brand values.
+ And in order to have it not just be guessing
+ at what good means, it would probably be helpful
+ to give it stats and analytics
+ from previous marketing campaigns,
+ perhaps with some subjective reflections
+ on what worked and what didn't as well.
+ That body of information that surrounds the prompt
+ is the context.
+ Context engineering was all about making sure
+ that all of that type of information
+ was accessible in the right way.
+ Now here at this point, we also have an interesting split,
+ which I think we're gonna see once again
+ with this latest graph engineering term.
+ The split broadly speaking
+ is between technical folks and software developers
+ and everyone else.
+ For the software developers,
+ context engineering wasn't just a matter
+ of making sure that your AI
+ had access to the right files for the job.
+ It was in fact an actual engineering task.
+ It was thinking about not just what information is useful,
+ but designing the technical systems
+ by which the AI could traverse
+ the web of accessible context in a way
+ that didn't just spend the entire context window.
+ On this side, context engineers were actually thinking
+ in terms of context budgets,
+ making sure for example,
+ as they were designing applications,
+ that certain parts of a process
+ didn't get bogged down in context
+ while others could go deeper when they needed it.
+ So here we have context broadly
+ referring to the same thing,
+ but engineering being a literal engineering task
+ for the engineers and a mindset for everyone else
+ in terms of how they organized information
+ around the LLMs that they were using.
+ Now this year, just like everything else has sped up,
+ we've also had a speed up
+ in the succession of blank engineering type of terms.
+ Starting with, you've probably heard me talk
+ about harness engineering.
+ The harness is of course, the environment
+ that exists around a model.
+ On a simple level, that might be an actual software tool
+ like Claude Code and Codex,
+ but the more expansive definition of harness
+ includes everything from the tools,
+ to the permission sets, to the skills files
+ that an AI or agent has available to it to do its work.
+ Throughout 2026, people have become more and more
+ comfortable with the idea that the agent
+ is actually a combination of the model
+ and the harness that surrounds it.
+ This is why for example,
+ frequently when we're getting new benchmarks,
+ companies will now explain what harness
+ the benchmarks were running,
+ as that's actually an important part of the story.
+ Now when it comes to harness engineering,
+ once again, we've got two very different meanings
+ of engineering.
+ There are of course, the actual engineers
+ and software developers who have been building
+ different and better harnesses
+ and trying to advance our understanding
+ of harnesses in general.
+ And then there's the more individualist
+ sense of harness engineering,
+ which is about things like,
+ which skills you surround your agents with
+ and what tools they have access to.
+ Now you'll see here,
+ that as each of these new terms comes online,
+ it's not like the old one goes away.
+ Prompt engineering is certainly the one
+ where there's probably at this point
+ the least leverage to be had,
+ but it's not like because we started
+ to understand the value of harnesses,
+ all of a sudden context stopped mattering.
+ In fact, quite the opposite,
+ the harness became a new context
+ for that context engineering.
+ So we've got the prompt,
+ which controls the instructions,
+ we've got context,
+ which controls what the model sees,
+ the harness, which controls the environment,
+ and that brings us to the loop,
+ which controls the iteration
+ that an agent goes through to accomplish a goal.
+ Loops or loop engineering,
+ which has become a big topic
+ over the last few months,
+ is about thinking about your relationship
+ with agents in different ways.
+ The canonical short explanation once again
+ came from Open Clause Peter Steinberger,
+ who said, you shouldn't be prompting
+ coding agents anymore.
+ You should be designing loops
+ that prompt your agents.
+ Loops are the systems by which an agent
+ can observe, plan, act, check results,
+ and repeat until some measurable
+ stop condition is reached.
+ As we've discussed in the past on this show,
+ one of the big challenges for non-engineers
+ who've been trying to put loops to work
+ is in figuring out which aspects of their knowledge work
+ have those sort of measurable stop conditions.
+ One of the things that we discussed in my show
+ about loops from a month or two ago
+ was this idea that in some cases
+ where there wasn't a natural measurable condition
+ to get an agent working in this sort of loop,
+ you were going to have to precisely define
+ something measurable like that
+ to actually get the loop to work.
+ But what you'll notice here
+ is that a loop is about how to get the most
+ out of a single agent or agentic process.
+ It is a work backwards from a specific goal
+ that gives the agent the repeatable steps
+ it needs to follow that,
+ as many times as is necessary
+ to actually achieve that goal.
+ But what about when a goal is more complex
+ and requires multiple different processes
+ interacting to actually accomplish
+ whatever that goal is?
+ What about when we move beyond the output
+ being a single agentic process
+ to actually designing an ongoing
+ agentic system for working?
+ That's where we get into graph engineering.
+ If prompts control the instruction
+ and context controls with the model Cs,
+ harnesses control the environment
+ and loops control the iteration,
+ the graph controls the new agentic organization.
+ Graphed engineering is about designing
+ how multiple agents, tools, knowledge sources,
+ and humans interact and connect.
+ Graphed engineering describes both the parts of the system
+ which some people are referring to as nodes
+ that could be agents, routers, or human gateways.
+ And graphed engineering also explains
+ the interactions between those nodes
+ which handoffs are permitted,
+ what information or state travels between them.
+ Explainx.ai explained a loop
+ as an autonomous cycle for a single agent.
+ A trigger fires, an agent acts, a verifier checks,
+ and if not done,
+ the whole system is retried with updated context
+ until the goal has been met.
+ As they write every guardrail,
+ i.e. max iterations, token budget, et cetera,
+ applies to one agent's run.
+ The loop is the agent's behavioral contract with itself.
+ A graph on the other hand is an organization of agents.
+ As they put it, each node in a graph
+ is an agent running its own loop.
+ The edges or interactions between those nodes
+ define data flows and dependencies.
+ They continue, the graph specifies who exists,
+ which agents and with what specialization,
+ what each owns, their domain context and tool access,
+ how work moves sequentially in parallel or conditionally,
+ i.e. is this a loop between different loops?
+ And finally, the graph defines what happens on failure.
+ Is the node retried?
+ Is it routed to a fallback?
+ Or is there an alert upstream?
+ The graph they conclude is the organization's
+ operating structure, loops live inside nodes,
+ the graph connects them.
+ In short, a loop is how an individual agent does its job,
+ where a graph is how an entire agent organization works.
+ As Google Shubham Sabu put it,
+ loops made agent behavior programmable,
+ graphs make agent organizations programmable.
+ Now, what I don't expect is for all of you to run out
+ and start designing complete agent organizations.
+ But the idea of graph engineering
+ is to be able to think in those system terms.
+ And even slightly differently from the context
+ in harness engineering, with loops and graphs,
+ while sometimes you will use both of these patterns,
+ there will be times when the simpler architecture
+ of a single loop is going to be fine.
+ When a single job has a clear finish line
+ with genuinely sequential steps
+ and one agent's context window able
+ to hold the whole domain,
+ that's a good candidate for a single loop.
+ When the work instead splits into specialties
+ with different handoffs,
+ when parallelism becomes valuable,
+ when different steps in a process
+ want different models or tool sets,
+ when routing has to be explicit,
+ and when you wanna design a resilient system
+ where the failure of one node doesn't take down the rest,
+ that's where you get into this actual graph engineering.
+ Now, as tends to happen, as soon as we get a new term,
+ we very quickly explore all the nuances as well.
+ One discussion, for example,
+ that you're seeing a little bit
+ is the difference between org graphs versus work graphs.
+ Org graphs are gonna be more stable agentic systems
+ that defines a more permanent style of setup.
+ The org graph is gonna have long-lived agents
+ with each agent owning a domain
+ and accumulating context over time, preserved memory,
+ and stable relationships and dependencies
+ that don't change unless explicitly told to.
+ So if you are designing an agentic organization
+ that's going to do the same thing over and over again,
+ for example, if I was designing a multi-agent system
+ that automated the process of going from research
+ to production to editing to publishing
+ to extracting insights to posting,
+ that might be a good candidate for an org graph
+ because these are ongoing recurring processes.
+ This is just how my work happens day in and day out.
+ The work graph, on the other hand,
+ is more dynamic and more ephemeral.
+ It can include task nodes that only exist
+ as long as the work exists.
+ Dynamic edges, remember, edges are the interactions
+ between the nodes that can split or merge.
+ An adaptive structure where tasks can disappear
+ when evidence makes them unnecessary
+ or new tasks can be spawned
+ if new complexities are discovered.
+ But let's wrap up this primer
+ by coming back to the main point.
+ Like I said at the beginning,
+ my expectation is not that all of a sudden
+ you go out and design complex agentic organizations
+ now that you're acquainted
+ with this wonky concept of graph engineering.
+ What I think is valuable for all of us, however,
+ in the same way that even if you weren't designing loops,
+ understanding the architecture of a loop,
+ a trigger that fires an action that's taken,
+ a validator that checks the work
+ and then that on repeat until it's done,
+ that is extremely helpful in thinking about
+ how to use agents to automate chunks of your work.
+ In the same way,
+ what I think graph engineering will unlock for many
+ is the ability to start thinking
+ in multi-agent systems terms
+ where you can start to see different agents
+ with different jobs
+ and actually understand and even design
+ their relationships with one another.
+ Over time, some of you I guarantee
+ will start to design those more complex agentic systems
+ and the best practices and lessons
+ and tool sets that people build
+ around this graph engineering discipline
+ are going to be extremely useful when you do.
+ So yes, graph engineering is the latest buzzy buzzword
+ and some of the early tweets about it
+ were frankly tongue-in-cheek,
+ but designing agentic systems
+ is I believe a new work primitive
+ and something which we will increasingly
+ be called upon to do.
+ So hopefully you now have a better sense of that
+ and can dig in as makes sense for you.
+ For now, that's gonna do it for today's AI Daily Brief.
+ Appreciate you listening or watching as always
+ and until next time, peace.
