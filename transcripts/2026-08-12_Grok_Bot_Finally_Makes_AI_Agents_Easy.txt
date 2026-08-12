@@ -1,0 +1,719 @@
+ the promise of AI agents might finally be becoming a reality. At the beginning of this year, it was
+ clear that 2026 was going to be the year of agents. The combination of the advancement of models plus
+ harnesses meant that around the turn of this year, it was clear that some critical inflection point
+ had been reached, and people came into January racing to uncover all of the new capabilities
+ that tools like Cloud Code and OpenAI's Codex made available to them. When the agent excitement
+ really popped off, however, was with the introduction of Open Claw. With Open Claw, people were able to
+ spin up entire teams of agents, chiefs of staffs, researchers, writers, anything you could imagine
+ and have them actually coordinate and interact with one another, doing big chunks of your work,
+ and coordinated all through easy chat interfaces like Telegram or WhatsApp. The problem was,
+ of course, that it was extremely technically complex and difficult to do so. We even dropped an
+ entire course claw camp just to help people figure that out. And throughout the year, there have been
+ some attempts to make those sort of interfaces for agent work more straightforward for broader
+ adoption. Yet none of them have really hit the mark. Some think that with this week's introduction
+ of Grockbot, that has all changed. Grockbot allows users to spin up multiple agents for
+ different tasks. You can give them access to whatever systems they need, and they go off
+ and do work while you watch or while you're doing other things. It's one of the first
+ products from the combined efforts of Cursor and SpaceX AI, and the companies even say that
+ the bots will learn and get better over time. So is this the agent platform that we've been
+ waiting for, the agent platform that can bring the capabilities of agent work to a much wider
+ array of people? Let's find out. The AI Daily Brief is a daily podcast and video about
+ the most important news and discussions in AI.
+ All right, friends. Quick announcements before we dive in. First of all, thank you to today's sponsors,
+ KPMG, Blitzy, Section, and HyperAgent. To get an ad for your version of the show,
+ you can go to patreon.com.ai-dailybrief, or you can subscribe on Apple Podcasts.
+ To learn more about sponsoring the show, send us a note at sponsors.ai-dailybrief.ai,
+ or you can actually visit the website at aidailybrief.ai and click around to the sponsor section.
+ While you are on aidailybrief.ai, you can also find the complete companion to each episode.
+ Every single episode is broken down into shareable chunks, meaning that if there's just one quote
+ or some number that you want to share with a colleague, it's probably there waiting for you.
+ You can also sign up to our newsletter from there. So again, aidailybrief.ai.
+ With that, though, let's first cruise through the headlines and then talk about this exciting
+ new release of Grokbot. We kick off today with a story that has gotten enough attention that it
+ honestly might make it into a main later this week. Anthropic has stirred up huge amounts of
+ controversy by introducing watermarks for AI-generated text. As of this month,
+ all new Anthropic models will now include invisible watermarks in their generations.
+ Anthropic models will be able to detect the watermarks to help identify AI-generated content,
+ and Anthropic will support third-party AI detectors to do the same.
+ This new policy is part of Anthropic's commitment to the EU Code of Practice on AI-generated content,
+ part of the EU AI Act. Now, the controversial part is that Anthropic is not just including
+ watermarks in images or videos to combat the harms of deepfakes as other companies have done.
+ Instead, they're embedding the watermarks in all-generated text. And importantly, it is not
+ in the metadata, but instead the watermark is somehow included in the text itself. Anthropic
+ claims, you won't see it, and it doesn't change the meaning, quality, or readability of
+ Claude's response. Because the watermark is part of the text, it will travel with the text when
+ it's copied and pasted elsewhere and may persist through some editing. The policy is being applied
+ to all models in all regions, so even if you're not in the EU, your Claude outputs will still be
+ watermarked. Folks were very skeptical that Anthropic can achieve this without degrading
+ the quality of the outputs. Right, Orph? The watermark will basically be the statistical
+ signature or word choice of the models. Anthropic claims this won't affect quality,
+ but this seems non-obvious given that they'll be constraining the model sampling and biasing
+ token choice, and potentially making the model less creative and inventive downstream. The EU
+ does it again. Now, it would be hard to describe in just a couple of tweets how upset people are
+ about this. Recognizing that this is not just for regular word writing but also for code writing,
+ developer Nick Dobos wrote, Claude adding invisible watermarks inside my code base,
+ total BS, diabolical precedent to be setting. What's he ever even doing here? Simon Smith writes,
+ Question about Anthropic's watermarker, if I task Claude with doing research and that
+ research requires quoting something like a legal document, will the quote be subtly
+ changed from the source to introduce the watermark? Because that's terrifying. If not, how can we
+ be sure? And while Andrew Curran points out that Gemini has been doing something like this
+ since 2024, that didn't make people feel much better. Now, this is a debate that's
+ worthy of more than just a headlines but for now, that's the primer on the topic and I am sure it
+ is not the last that we will be hearing about this. Speaking of Google, the company has announced
+ that they have reached a billion users for the Gemini app. CEO Sundar Pichai announced the
+ milestone on Tuesday posting, 1 billion plus people are now using the Gemini app every month
+ to spark new ideas and get things done. It's our fastest growing product ever and our 14th
+ to hit the 1 billion user mark. Now some are a bit skeptical of this, given that Gemini
+ is integrated into search, YouTube and other platforms, but the Verge confirmed that this week's
+ billion user milestone applies specifically to the Gemini app. Google has begun pre-installing Gemini
+ onto Android handsets, but those users still need to engage with the app to be included in these
+ numbers. Google also shared some interesting details about how users are interacting with
+ their chatbot. 63% of users are using the voice interface, demonstrating how eager people
+ are to ditch the keyboard. Gemini has also retained massive volume for their image model,
+ with users generating 150 million images per day. What's really interesting is what this says about
+ the state of models. Ogazirkan points out that Google doesn't have an AI model in the top 10 right now,
+ suggesting this means what wins in consumer markets isn't the product, it's distribution.
+ But you also have to think that a lot of those billion users have no idea what they're missing,
+ given that all of their AI use is stuck in a model that is at this point at least
+ six months behind the frontier. Now staying on the product side for a minute,
+ Manus is returning as an independent company after finalizing their split with Meta.
+ Manus was acquired by Meta for $2 billion in December, but in the following months, Chinese
+ officials scrutinized the deal and in April ordered it to be unwound. The national security
+ concern it seemed was that the big payday would encourage more Chinese startups and
+ talent to seek an exit in the West. In the interim, there has been swirling discussion
+ on how Manus will raise the money to repay Meta, given that the funds had already been
+ distributed to investors. On Tuesday, however, Manus announced that they'll soon return
+ as an independent company serving their millions of users. However, to complete their
+ separation from Meta, they need to delete some user data generated after December 29th,
+ they advised all users to back up their data ahead of the transition date on August 23rd,
+ and said that independent systems will be online from August 25th.
+ Now the big question is whether this is a fresh start for Manus that will let them
+ get back in the agent race. In a post on X, they wrote,
+ As we look ahead, we couldn't be more excited by the future. We're preparing a
+ series of new features that will push the boundaries of what's possible for general
+ AI agents once again. And frankly, while it's reasonable to be skeptical,
+ you gotta think that the innovation that they will pursue now as their backs are
+ against the wall, and as they remain independent, is a lot more than what we
+ would have seen from inside the behemoth that is Meta. As Peter Corbett points out,
+ going back to $0 ARR and starting again is going to make for an interesting case study.
+ Now, on the topic of hot segments of the AI industry,
+ Open Router's $10 billion price tag has apparently triggered a bidding war
+ across the router segment. The information reports that interest in token
+ router acquisitions is off the charts, with multiple large software
+ companies looking to add the infrastructure to their stack.
+ Snowflake is reportedly in the market alongside Base 10, Cloudflare, and Vercel,
+ and the interest is reaching some very small startups in the space.
+ Thibaut Jaigu, the CEO of Requestly, said that his five-person startup
+ has fielded interest from 25 different companies looking to invest, acquire,
+ or partner with Requestly. Dean Mai of Miri Adventures Partners,
+ which has a small token router play in his portfolio, thinks that the seller's market,
+ commenting, it would be unwise for data infrastructure players and hyperscalers
+ not to entertain acquisitions right now. Ari Jacobi, the co-founder of token
+ router concentrate AI, said that he's been approached by seven companies so far this month,
+ commenting, we've been unbelievably popular for the past two weeks in a way that I could
+ have never imagined before. In other words, it seems at this moment that the large companies
+ and incumbents have decided that even if they could build this sort of functionality,
+ the need for speed trumps all and it is time to buy.
+ Moving over to markets for a moment, another story which could easily be an entire main.
+ Nvidia is putting together a $500 billion platform to help improve the financing landscape for
+ data centers. Announced on Monday, the platform will provide financing from investment banking
+ and private credit giants including Apollo, BlackRock, and Blackstone. These firms will provide
+ credit to Neoclouds to help fuel the data center build out. The details of the arrangement
+ aren't entirely clear, but it appears the approach could bring together multiple lenders
+ to standardize data center debt. It also appears that Nvidia GPUs will be accepted as collateral and
+ revenue sharing could be part of the arrangement. In a press release, Jensen Huang said,
+ Nvidia has reached an important milestone. We began by building chips. Today, we are helping
+ create a new class of productive, investable infrastructure, AI factories. In AI, compute
+ is revenue. Nvidia compute is uniquely suited for this role. It is broadly adopted, flexible
+ across models and workloads, fungible, and transferable across customers and operators.
+ These financing platforms will help customers access scarce compute at scale
+ and build the AI factories that will power every industry and country in the age of AI.
+ In a CNBC interview, Huang presented this as a new paradigm for AI financing,
+ saying, this is really the first time that technology chips have become an investable
+ asset class. These are revenue generating assets now. They're productive, they're long
+ lived, they're fungible, they're flexible. Now of course, for the bears who are worried
+ about circular funding, this is just pouring absolute gasoline on the fires of their concerns,
+ but for other more neutral market actors, the move seems to be paying dividends. Tuesday
+ saw Nvidia's credit spreads close, implying a lower risk of default, and their bonds also rallied,
+ reducing the implied interest rate for the next round of borrowing. So at least when it comes
+ to Nvidia themselves, essentially the market interpreted the new vehicle as Nvidia spreading
+ the risk of losses across multiple other parties. If we see an AI slowdown, investors no longer
+ expect Nvidia to take a double hit from reduced revenue and bad debt from data centers.
+ Sal Naro, the CIO at Coherence Credit Strategy, said,
+ nobody knew what the $500 billion potential financing meant. Today you have an idea that
+ they're getting everybody involved and that their exposure isn't as serious as investors
+ originally feared. Lastly today, keeping track of things in Washington,
+ Senator Bernie Sanders has officially joined the pause movement and is calling on Sam Altman,
+ Dario Amade and Mark Zuckerberg to do the same. In a letter to the trio he wrote,
+ almost every day there is a new story about how your companies are losing control of the AI
+ technology you are developing with potentially cataclysmic results.
+ He referenced the recent scientific research about using AI to create novel viruses as the prime example,
+ claiming, this type of development in the wrong hands could lead to new bio weapons that result
+ in the deaths of tens of millions of people. This is of course despite the actual research
+ having no connection to any of these three companies and using a completely different
+ type of AI to their LLMs. But for the sake of Sanders' argument, it's all AI.
+ Sanders also referenced the hugging face hack, arguing it was a clear violation of federal
+ law and leaving the letter on a slightly threatening note. Sanders concluded,
+ Let me be very clear, if you do not take appropriate action now, my colleagues and I in the Senate will.
+ Just another example of the temperature rising in Washington for now though that is going to
+ do it for today's headlines, next up the main episode.
+ If you're leading AI inside an enterprise, you already know that the gap right now isn't
+ capability but execution. That's why KPMG's You Can With AI is back with a new season
+ featuring conversations with leaders like Serojit Chatterjee of Emma,
+ Mehabib of Ryder, McKesson CIO Ellery Fisher, and others focused on practical execution.
+ What's working, what's not, and what it actually takes to move from pilots to real
+ scaled impact across strategy, data readiness, governance, workforce, and value.
+ And of course it's co-hosted by me, Nathaniel Whittemore.
+ Go listen and subscribe at www.kpmg.us slash ai podcasts.
+ That's www.kpmg.us slash ai podcasts.
+ Here's why most legacy modernization projects fail.
+ The AI doing the work can't understand code bases at scale.
+ It sees a small slice of context, examines syntax, and misses years of decisions distributed
+ across the global application ecosystem. Blitzy solves this the way it solves everything.
+ Grounded in your code before any migration begins,
+ Blitzy's agents reverse engineer the entire legacy system into a persistent knowledge graph.
+ Every dependency, every constraint, every piece of tribal knowledge that used to live in one
+ engineer's head. From that understanding, Blitzy autonomously executes language migrations,
+ framework upgrades, and monolith to microservices transformations all validated end to end.
+ One Blitzy customer modernized a $10 million monolithic insurance
+ stack in 16 weeks against a 137-week baseline with coding agents.
+ That's 9x compression. Retire technical debt while accelerating your roadmap.
+ See how at blitzy.com. That's blitzy.com.
+ Here's a harsh truth. Your company is probably spending thousands or millions of dollars on
+ AI tools that are being massively underutilized. Half of companies have AI tools, but only 12%
+ use them for business value. Most employees are still using AI to summarize meeting notes.
+ If you're the one responsible for AI adoption at your company, you need Section.
+ Section is a platform that helps you manage AI transformation across your entire organization.
+ It coaches employees on real use cases, tracks who's using AI for business impact,
+ and shows you exactly where AI is and isn't creating value.
+ The result? You go from rolling out tools to driving measurable AI value.
+ Your employees move from meeting summaries to solving actual business problems,
+ and you can prove the ROI. Stop guessing if your AI investment is working.
+ Check out section at sectionai.com. That's s-e-c-t-i-o-n-a-i.com.
+ This episode of the AI Daily Brief is brought to you by HyperAgent,
+ where you run fleets of agents your team can manage together.
+ New users get a thousand dollars in inference.
+ Forget local agents and chat workflows waiting on your laptop to be prompted.
+ HyperAgent deploys always-on agents in the cloud,
+ doing real work across the tools your team already uses.
+ Marketing's agent turns competitor moves into landing pages.
+ Sales' agent enriches leads, drafts emails, and updates the CRM.
+ Ops' agent chases the paperwork and tracks the budget.
+ Every agent has access to shared context and follows your rules about scope and approvals.
+ It's time you add agents that feel like teammates.
+ Hire yours at HyperAgent, built by the team at Airtable.
+ Claim your $1,000 in inference at hyperagent.com slash ai-dailybrief.
+ Welcome back to the AI Daily Brief.
+ I genuinely don't remember the last time I saw people as excited about a product announcement
+ as people have been about the newly announced Grockbot.
+ And when push comes to shove, I think the reason why is pretty simple.
+ Ever since Open Claw came out at the beginning of the year,
+ people have been looking for ways to build and deploy agents on their behalf,
+ ideally in a simpler way than what that sort of technically complex system required.
+ There have been a variety of shots on that goal, but nothing has really stuck.
+ But first impressions suggest that that's what Grockbot might be.
+ The interface for interacting with Grockbot looks frankly like Telegram,
+ which is of course where most people were interacting with Open Claw when it first came out.
+ To get started, you can either create a new bot,
+ or you can interact with a bot that you've already initiated.
+ You interface with your Grockbots through the chat window,
+ exactly as you had with Open Claw and frankly exactly as you do with Claw or Codex,
+ and Grockbots work in the background in their own virtual computer,
+ meaning you can keep working while the task is running on the cloud.
+ It's also capable of using its computer through human interfaces,
+ so it can sign into web apps and operate software without APIs.
+ When it needs you to authorize something, it'll simply bring up that window
+ and have you sign in on its virtual machine in the same way that you would on yours.
+ Grockbot is of course powered by the family of SpaceX AI models,
+ which are once again getting competitive,
+ meaning that while it might not be as good as Fable or 5.6 sole on certain tasks,
+ the agent likely will be good enough to handle a wide range of work tasks end to end.
+ In fact, as we'll see, SpaceX has been testing Grockbot internally
+ and it is basically taken over as a core work tool.
+ Now, none of this is net new functionality,
+ but the way that they put together the elements in the ease of use has made a huge leap.
+ The interface, again that simple telegram style interface,
+ abstracts all the complexity away.
+ And that includes the native integration of a lot of advanced features
+ that have been difficult to use or disappointing in other products.
+ For example, you can run multiple bots at the same time,
+ but rather than being overwhelming,
+ the interbot messaging system and clean interface makes it feel way more achievable
+ to manage a team of agents.
+ You can even build a whole team of agents,
+ each with a specific role and individual name.
+ Your Grockbots can coordinate with one another,
+ allowing them to function like a single integrated agentic system.
+ And while Grockbot doesn't currently live in workplace messaging apps
+ like Slack or Microsoft Teams,
+ you can set them up to work together across individual's accounts.
+ Integrating a promise that's been around with us since the days of RPA,
+ because the Grockbot is at core a computer usebot using its virtual machine,
+ you can really easily train it on common workflows
+ by asking it simply to follow along the next time you do a particular task.
+ SpaceX AI says that the bot will watch the steps
+ and remember how the work gets done, saving the workflow as a routine.
+ You can also iterate on this process,
+ providing corrections that improve the bot's workflow,
+ kind of like being able to create a skill with a screen recording,
+ but much more native.
+ The company says that the Grockbots will learn over time and get better,
+ adjusting things like writing style or handling of edge cases,
+ or even knowing when to stop and ask for clarification.
+ Now, one thing that I always watch when a new product gets launched
+ is how the team that built it is talking about it.
+ And while you might wonder how valuable that is,
+ because of course the team that built it is going to shill it, right?
+ I think you can actually get a lot of signal for how a team talks
+ about the thing that they've built.
+ And the team at Cursor and SpaceX AI,
+ for whom this is one of their first major collaborative products,
+ are absolutely raving about this thing.
+ Peng Zhang writes,
+ Our relationship with AI is shifting from chatting back and forth
+ to entrusting a team of agents with real work.
+ Grockbot is a glimpse of that future.
+ Sam Sokalen writes,
+ This is one of the coolest projects I've worked on.
+ Grockbot had insane product market fit internally almost instantly.
+ For much of the company,
+ bots have become the interface for all of their work.
+ Cursor's Ricky Dora writes,
+ Grockbot is not a new concept, but its execution is flawless.
+ It's mind-blowing what a good harness,
+ cloud computing, massively advanced computer use,
+ and state-of-the-art models are capable of.
+ Every day I automate 20% more of my job
+ so I can discover the next frontier 20% focus on.
+ First impressions of the community were similarly positive.
+ Vishal Singh's brain exploded with all sorts of different use cases.
+ Calling Grockbot actually kind of ridiculous,
+ he says,
+ It can open a computer by itself,
+ log into your apps, use websites like a human,
+ work while you sleep, clean your inbox,
+ and emails update your CRM.
+ Research people and companies write
+ LinkedIn and email drafts in your style,
+ remember how you work,
+ learn a workflow after watching you once,
+ run that workflow forever,
+ coordinate with other bots,
+ only bother you when it needs a decision.
+ And so much more that I'm yet to decipher.
+ This is less AI-assistant and more
+ at the intern who somehow became COO overnight.
+ Prazenjit writes,
+ First impression with Grockbot,
+ I gave it a GitHub link and told it to read the code,
+ not only to read me.
+ It pulled every file through the API
+ and broke down the entire codebase.
+ This thing is not just a chatbot.
+ Mike P writes,
+ My first impression after chatting with the bot
+ to understand how it works
+ is that this is currently the best mainstream
+ interface for agentic AI
+ that I've seen from any leading company.
+ He explains that it uses a virtual machine
+ but can also access your local file system.
+ The magic he says in the key differentiator
+ is that you don't actually have to toggle
+ a bunch of UI options or set anything up,
+ writes Mike.
+ I think a lot of people open cloud
+ co-work or code or GPT work or codex
+ and don't know WTF is going on
+ and just bail because they don't feel
+ like figuring it out.
+ I just installed Grockbot,
+ hooked up my connectors
+ and just started asking it stuff
+ and it just handled the rest.
+ I was actually shocked when it jumped
+ into a local folder on my Mac
+ just for me asking.
+ There's no UI toggle or anything
+ you need to do to point it
+ where you want it to go.
+ You just tell it what to do
+ and it asks for your permissions
+ and handles everything in the background.
+ It also claims that when I use the iOS app,
+ it reaches for my Mac as a primary machine
+ if I prompt it with something
+ that requires using my Mac.
+ So basically it's a remote control
+ but you don't have to go into
+ a specific part of the UI
+ like you did with dispatch.
+ It just does it.
+ This he concludes is what it's going
+ to take to get mass adoption.
+ A Gentik AI wrapped up in a product
+ so easy to use that people will be
+ able to just unwrap it
+ and start cooking.
+ Now another notable thing
+ in the early discourse to me
+ is that a lot of times you hear
+ people raving about it
+ without being specific
+ about how they used it
+ but I saw a ton of folks
+ actually talking about their use cases
+ and what had impressed them
+ in specific.
+ Tesla's Yun Tu Sai writes,
+ Grockbot was able to
+ A, go through the calendars
+ and find anything I need to make
+ reservations for beforehand
+ that I hadn't done yet,
+ B, determine the best time
+ to make reservations
+ and C, navigate the reservations
+ on a website.
+ While I was walking in the parking
+ lot before getting to my cars,
+ I was talking to it in mixed
+ Chinese and English.
+ Color me impressed.
+ Matt Schumer writes,
+ The little details are what
+ makes Grockbot special.
+ For example, I set up a researcher
+ bot and a writer bot,
+ then made a chief of staff bot
+ and asked it to get the other two
+ working together on a project.
+ I checked in fully expecting
+ that to fall apart
+ because there was no way
+ it would work out of the box.
+ It worked out of the box.
+ Honestly, he says,
+ This feels like it could be
+ the thing that gets millions
+ of normal people using agents
+ for the first time.
+ And that was really the gut sense
+ for a lot of folks.
+ That the promise we first saw
+ in places like Open Claw
+ and then Hermes
+ might finally be getting
+ its moment to scale
+ with something like Grockbot.
+ A16Z's Martin Casado says,
+ This is the first product I've
+ used that really nails
+ the virtual coworker.
+ I suspect we'll view this
+ launch as a pivotal moment
+ in getting the abstraction
+ for AI in the workplace right.
+ Heaton Shah, who if you follow
+ him has been going deep
+ on agent building
+ ever since Open Claw came
+ about, wrote,
+ I spent months building agents
+ the hard way.
+ I gave them servers,
+ memories, skills, tools, and loops.
+ I put them in Slack
+ and built recovery around them.
+ One helped me ship a product
+ in six days.
+ The same system also stalled,
+ lost context,
+ and handed the unfinished
+ edges back to me.
+ I became the infrastructure.
+ That's why Grockbot
+ hit me so hard.
+ I've been testing it early.
+ Its bots coordinate
+ with each other,
+ work from a persisted
+ computer,
+ and keep going across your
+ files and logged in apps
+ while you are away.
+ I recognize what the team
+ built because I had assembled
+ so much of it by hand.
+ Grockbot moves more of
+ the invisible work
+ around the agent
+ into the product.
+ This is the missing work
+ agent I have been waiting for.
+ But no product can be perfect
+ right out of the box, right?
+ So where are people's complaints?
+ One small one is around
+ the naming conventions
+ between Cursor and SpaceX.
+ Mike P. again writes,
+ The Cursor SpaceX AI overlap
+ is giving Venmo PayPal vibes.
+ Are Cursor and Grock
+ going to stay set for things?
+ This is called Grockbot,
+ but I'm getting routed
+ to a Cursor login portal.
+ I need to connect
+ my Grock account to Cursor
+ to launch a Grock product.
+ What are we doing here, fam?
+ And indeed for some,
+ Grock has too much baggage
+ to be excited about this new product.
+ Ben Berry writes,
+ I would have excitedly tried Cursorbot
+ but have little to no interest
+ in trying Grockbot.
+ Way too much negative baggage
+ for me to ever trust it
+ with access to anything.
+ I'll wait for the inevitable offerings
+ from OpenAI and Anthropic.
+ Beyond that,
+ some people just didn't
+ have a great experience.
+ Gerbachs Chahal writes,
+ Sorry guys,
+ but Grockbot feels like
+ a shiny object
+ that looks incredible in demos
+ but simply isn't ready
+ for prime time.
+ The economics are broken.
+ You burn through tokens
+ just trying to onboard it
+ then get pushed towards
+ spending more just to keep going.
+ That's not a sustainable workflow.
+ It feels like a broken slot machine.
+ The bigger issue is memory.
+ It forgets context,
+ loses track of tasks,
+ and struggles to main continuity
+ across longer projects.
+ An AI coding agent
+ needs to remember the mission,
+ not act like it has amnesia
+ every few hours.
+ Now, I want to provide
+ a full range of views
+ so I'm including this.
+ However, this is definitely
+ not a common take that I saw.
+ So contextualize it
+ or give it whatever
+ grain of sand you want.
+ Other complaints include
+ this one from June
+ saying that while Grockbot
+ has a really clean UI,
+ quote,
+ it's still heavily relies
+ on integrations.
+ No one wants to connect
+ 20 plus tools during onboarding.
+ Plus, I'm not sure people
+ want to create a specialized
+ agent for every task.
+ Matt Schumer writes,
+ My only real complaint,
+ which if they nail it
+ will end up being a huge win,
+ was the model router,
+ which wasn't great
+ when I tested it.
+ You don't choose a model
+ for your Grockbot.
+ It's done automatically
+ on the back end.
+ Incredible for regular users
+ when it's done well
+ but frustrating for power users
+ when done poorly.
+ Schumer did add,
+ I'm told they've made it
+ much better since I tested.
+ Max Blade points out
+ a functional issue
+ of logging into your services
+ through Grockbot's virtual computer.
+ He says the biggest issue
+ right now
+ is the data center IP address
+ creates bot blockages
+ on everyday websites
+ which make things like
+ ordering groceries
+ from Walmart problematic.
+ Although he notes, quote,
+ this will be solved
+ by expanding their built-in
+ connectors and plugins
+ to give official support
+ everywhere.
+ Maybe beyond that,
+ there's just a broader
+ question of trust
+ that is not unique to Grockbot
+ but becomes more poignant
+ the more powerful
+ and the more deeply integrated
+ into our work
+ and personal lives
+ these tools get.
+ Peter Yang wrote,
+ The challenge with this
+ and I'm sure upcoming products
+ from the other major labs is
+ 1. How do you get regular users
+ to trust sharing their credentials
+ and logins with a remote computer?
+ 2. How do you reassure them
+ that this remote computer
+ is secure and truly theirs to play with?
+ And honestly,
+ this one resonates with me.
+ When I was playing around
+ and testing Grockbot
+ which spoiler alert
+ I am incredibly impressed with
+ and share a lot of the same excitement
+ that you've heard
+ from other folks in this episode
+ I did have this moment
+ where I was about to log it
+ into my Spotify for creators account
+ which by the way
+ was a relatively simple process
+ of signing in
+ via its virtual computer interface
+ but then paused
+ thinking about just how devastating
+ it would be
+ if something went wrong
+ by nature of the computer
+ use paradigm
+ I wouldn't just be giving it access to
+ for example some analytics API
+ I would be letting it have access
+ to my actual account
+ to click around and do things
+ now I certainly don't think
+ that some Aaron command of mine
+ would lead it
+ to go delete all past episodes
+ of this show
+ but the fact that that's even possible
+ gave me pause
+ and like Peter noted
+ this is certainly not a problem
+ for Grockbot alone
+ but it is a major barrier
+ to fully transitioning
+ to new ways of working
+ still it's important not to overstate this
+ for example I had no problem
+ giving it access to my email
+ because frankly it's sending a bunch of emails
+ that it shouldn't
+ or even deleting a bunch of emails
+ would not be nearly as devastating
+ as anything having to do with the show
+ one very practical knock
+ on the tool so far
+ is that it is only for
+ extremely expensive accounts
+ you're either talking about a $300 a month
+ Grock heavy account that includes it
+ or a $200 a month cursor ultra account
+ which doesn't have access to the top Grock model
+ so at least for the moment
+ this is pretty well price gated
+ that said I would be very surprised
+ if that was a permanent feature
+ rather than an inference preservation
+ mechanism first and foremost
+ at this stage
+ one interesting conversation
+ which is actually an episode
+ that I was thinking about doing later this week
+ is about whether the AI teammate metaphor
+ is actually the right mental model
+ I've been wondering and plan on exploring
+ whether in fact AI teammates
+ are for a variety of reasons
+ the wrong model
+ and a better might be something like consultants
+ but clearly I'm not the only person
+ thinking about this
+ as type.com's Fletcher Richmond wrote
+ we also thought a bunch of AI teammates
+ was the right paradigm
+ but we've learned from customers
+ that having dozens of AI teammates
+ is actually counterproductive
+ it's a vanity metric
+ instead teams need a shared workspace
+ where they can work with any model
+ build a company brain of skills
+ integrations and context
+ slash memory map to their permissions
+ build and host custom apps
+ and interact from Slack email
+ or wherever they work
+ grokbot is pretty slick
+ but it's not how people are going to work
+ now I'm not convinced that it's as binary
+ as Fletcher is posting it
+ but I would agree that I believe
+ we are going to discover
+ that there are two very different modes
+ when it comes to this sort of agentic support
+ the things that you use personally
+ and the things that interact with
+ and integrate your team
+ and they might be pretty significantly different
+ still I expect that over the next couple of weeks
+ we are going to see a lot of exciting experiments
+ that harken back to those
+ early awesome days of open claw
+ when people were spinning up entire teams
+ and to Parko on Twitter
+ has built a core team
+ that includes a chief of staff
+ an engineering manager
+ five engineers a data analyst
+ and a product manager
+ and shares how they interact and work together
+ Farzad has given his team names
+ Webby is his web designer
+ Shatri is his short form content creator
+ Righty is his article slash newsletter writer
+ you get the idea
+ I fully intend to do a bunch of experiments
+ and come back and report to you
+ on where I'm finding value
+ but for now I agree with kettlebell Dan
+ when he says the excitement around
+ Grockbot has been off the charts today
+ I haven't seen this kind of reception
+ for a new product in a while
+ I for one am extremely excited to dig deeper
+ and will report back when I do
+ that however is going to do it for today's AI Daily Brief
+ I appreciate you listening or watching as always
+ and until next time
+ peace
+ you
