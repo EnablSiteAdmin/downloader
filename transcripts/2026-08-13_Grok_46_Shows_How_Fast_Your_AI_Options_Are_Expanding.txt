@@ -1,0 +1,381 @@
+ A year ago, if you were talking about frontier models, pretty much you were referring to a model
+ from one of either OpenAI, Anthropic, or Google. By a couple of months ago, you were probably
+ referring to a model just from either OpenAI or Anthropic. Now, however, things have changed.
+ Over the past couple of months, any conversation about model performance has to include a
+ recognition of Chinese open-weight models that are pushing the frontier of both efficiency
+ and cost, and as of this week, SpaceX AI's Grock is back in the conversation.
+ The just released Grock 4.6 is putting up benchmark numbers that put it in the category of a GPT 5.6
+ or a Fable 5, and doing so at a fraction of the cost. Although, of course, as we know,
+ AI in the benchmarks tends to be very different than AI in the real world.
+ After some initial testing, while users are not ready to declare Grock 4.6 a Fable or
+ GPT-class model yet, they are ready to argue, fairly definitively, that Grock and SpaceX AI
+ are back in the race. The AI Daily Brief is a daily podcast and video about the most important
+ news and discussions in AI. All right, friends, quick announcements before we dive in. First of
+ all, thank you to today's sponsors, KPMG, Blitzy, Hyperagent, and Harbor. To get an
+ ad for a version of the show, go to patreon.com.ai-dailybrief, or you can subscribe on Apple Podcasts.
+ To learn more about sponsoring the show, send us a note at sponsors.ai-dailybrief.ai.
+ And one other thing you should check out on ai-dailybrief.ai. As you know, we've recently
+ updated the website, so now each episode has a full companion edition that includes all the key
+ numbers, all the key quotes, all the key themes, each organized into different shareable
+ cards that make it easy for you to find exactly the part that you want to share with someone
+ else. We have now added an archive as well to hopefully make it easier to find previous
+ episodes about a particular theme. It's organized on both an episode and a card basis,
+ and we'll be continuing to try to improve it as time goes on. Now, with that out of the way,
+ let's get to the headlines which are all about big money and into the change in the model
+ landscape that's the subject of our main episode. Welcome back to the AI Daily Brief
+ headlines edition, all the daily AI news you need in around five minutes, and the theme of
+ today is a big money. Cognition is seeking another funding round on the back of booming
+ coding agent demand. Bloomberg reports that cognition is in early talks with investors for
+ new funding at a valuation of $40 billion. Cognition closed their last round just
+ three months ago, raising $1 billion at a $26 billion valuation. For those doing the
+ quick math, that means that the company's valuation would be up almost 50% in a quarter,
+ and the revenue figures seem to back it up. Sources familiar with the fundraising
+ effort said Cognition has doubled their revenue run rate to $1 billion since they were last seeking
+ funding. One source said that Cognition is seeking $1 billion in this round, giving themselves a
+ substantial increase in resources to address the current agent boom. The numbers also imply
+ that the premium attached to coding agents is growing among venture investors. Cursor is one
+ of the closest comps, and their last fundraising round in March saw them seeking a $50
+ billion valuation on $2 billion in annualized revenue. That round of course ended with
+ SpaceX acquiring the company in a $60 billion all-stock deal, and honestly if Cognition has
+ the ability to price their round at $40 billion, the SpaceX deal could start to look like a bargain.
+ Many think that the path that Cursor took with SpaceX feels inevitable for Cognition as well,
+ writes Richard Wu. I wouldn't be surprised if within the next six to 12 months we see one of
+ the hyperscalers preempt Cognition and offer to acquire them for $60 to $100 billion in stock.
+ Given the success with SpaceX acquiring Cursor, the boards of these companies will put pressure
+ on them to make a move. Jeff Wu says, Google should buy Cognition for $200 billion and make Scott Wu CEO.
+ Sun Deep from Cognition responded, We aren't selling. Also $200 billion, the stock would move
+ three times that in after hours alone. Next up, we have Lovable, who announced their $400
+ million series C round at a $13.3 billion valuation. What's interesting is that
+ you can clearly see how Lovable is evolving just in the way that they describe themselves
+ in their fundraising announcement. In short, Lovable feels to me to be inching farther away from
+ clawed code and closer towards something like Shopify. They write, Lovable is building the
+ software creation platform that gives those closest to a problem the power to solve it,
+ a generational opportunity that spans billions of people all over the world.
+ For most people, turning an idea into software once required so much capital,
+ technical fluency, and time that many ideas never came to life.
+ Lovable's first chapter was about changing that. Since our series B in December 2025,
+ we've been building features people need to reach customers, manage day-to-day operations,
+ and run software securely. For many builders, the product they create with Lovable is becoming
+ the business itself. User survey data shows that's that nearly 8 and 10 are building a
+ business or side project they hope to monetize, and more than one third of those are already
+ earning revenue. In CEO Antoine Ossico's post, he absolutely emphasizes this same idea,
+ saying that Lovable will create, quote, the most intuitive platform to build and run a business.
+ If you are looking for a place to see the intersection of where what was once called
+ vibe coding meets the actual transformation of small and digital businesses, look no further than Lovable.
+ Now moving into public markets, business is booming for the neoclouds as AI demand
+ continues to rise. This week saw Corweave and Nebius report earnings,
+ both vastly outstripping analyst expectations. On Tuesday night, Corweave reported that revenue
+ had doubled over the past year to reach $2.6 billion for the quarter. At the same time,
+ Cashburn also doubled, now running at $5.7 billion per quarter. Still, the big story for investors
+ was a line out the door for compute. Corweave reported a $104 billion backlog in demand.
+ In the footnotes, they added that the backlog had grown by $25 billion since they closed their
+ books at the end of June. The story was the same for Nebius, who reported on Wednesday.
+ They recorded 454% revenue growth over the past year to reach $582 million.
+ Their cash burn is also escalating rapidly. But like Corweave, Nebius has endless demand,
+ with CEO Arcadeo Veloz telling investors,
+ demand for what we are building continues to be enormous. We could sell today our entire 2027
+ capacity if we wanted. Supply is in fact so tight that Nebius is seeing huge profits on their
+ available capacity. Earnings per share beat analysts forecast by 83%, and Volos told investors
+ that their auctions for Blackwell compute, which began in Q2, cleared at 15% above their
+ previous record price for Hopper compute. Markets rewarded both stocks with Corweave up 19% since
+ reporting, and Nebius gaining a staggering 34%. Analysts believe that Neoclouds are some of the
+ best indicators of marginal demand for AI as they service the overflow from the hyperscalers,
+ and even during a quarter when token austerity came into vogue, demand is showing no signs of
+ slowing. Meanwhile, the infrastructure boom also is coming to China as Tencent has tripled their
+ Tencent reported that they spent $7.8 billion on AI infrastructure in the past quarter,
+ boosting their training and inference fleet. Now of course that spending is still relatively
+ modest compared to the US hyperscalers, where Meta had the slowest capex in their group and
+ spent $31.9 billion in Q2. Still, there's a pretty clear attitude shift as the Chinese
+ tech giants commit to scaling up their data center construction. During an earnings call on
+ Wednesday, Chief Strategy Officer James Mitchell said,
+ We are allocating a very substantial portion of new compute to our own models and
+ applications. The company's revenue is growing at 11%, but free cash flow has dipped into the
+ negative with incremental earnings going toward infrastructure. Tencent President Martin Lau said
+ that Tencent could monetize their compute by selling to outside customers if they wanted to,
+ but for now they're prioritizing their own needs. Basically, just like model training,
+ it seems like China's AI buildout and the narratives around it are three to six
+ months behind the US as well. It is uncanny how closely this is following the narratives from
+ the US in Q1. Hyperscalers flipped negative free cash flow, folks like Zuckerberg appeasing the market
+ by telling them that he could sell his compute but he doesn't want to. I'm not sure I think that US
+ market participants have fully accounted for a Chinese capex boom and what it does for the
+ larger global investment environment. Meanwhile, Samsung is seeing incredible efficiency gains
+ from their use of AI and chip design. According to reports from a Korean outlet,
+ the first three months of integrating cloud code into the software stack have been
+ an outstanding success. Development personnel have been able to cut down the time to
+ complete complex tasks like system on chip verification from three months to two days.
+ In one example, a second year engineer was able to complete a month-long task in a single day.
+ Now of course, this report doesn't claim that cloud code produced efficiency gains throughout
+ the entire chip design process, but it does seem like an interesting example of the jagged
+ frontier of AI adoption in the enterprise. Cloud code was able to make highly customized
+ jobs more efficient and able to help a junior employee contribute way beyond their expertise.
+ Lastly today, some reported updates coming to the Trump administration's model testing framework.
+ Last Tuesday, leading frontier labs were briefed on that framework, although the rest of us
+ didn't get to learn all the details. It was reported that the policy would cover only state
+ of the art models, although we didn't know how exactly that was defined. What we did hear
+ with a fair degree of confidence was that the policy wouldn't cover open models.
+ Open source advocates were relieved at that decision, but there was also a contingent
+ of China hawks who believed that this would leave a gap. On Wednesday,
+ Wired reported that the administration has changed their mind. An official said that the
+ White House is expected to expand the policy to cover open models in the coming months.
+ The policy they added is aimed at ensuring that as soon as open models reach the same
+ capabilities as Mythos or GPT 5.6, they're added to the safety testing framework.
+ White House officials said the administration had hoped the policy would be one and done,
+ but the exponential development of model capabilities had forced them to iterate.
+ When it comes to the inclusion of open models, the thinking is that leaving them out of
+ the framework could actually create a two-tiered system that would be negative for those open models.
+ Specifically, officials are concerned that the framework could be viewed as a stamp of approval,
+ leaving enterprises hesitant to use open models if they don't receive the same testing.
+ The concern then is that leaving open models out could actually disincentivize US labs from
+ developing those open models. Adding some evidence to the idea that the government
+ is pro-US open models, Treasury Secretary Scott Besant actually retweeted Mark Zuckerberg this
+ week, saying we welcome Meta's release of Muse glimmer, another win for American innovation.
+ Sustaining US leadership in AI means advancing both open and close weight models,
+ ensuring the future is built on trusted foundations. Overall, it's still pretty clear that there's
+ a lot of consternation around the administration policy. President Trump himself is reportedly
+ insisting on keeping the framework voluntary as he believes formal regulation will help China
+ catch up, but by the same token, the safety-focused faction of the administration also isn't
+ satisfied and are reportedly still pushing for a more formal arrangement.
+ Who the heck knows how that's all going to turn out? But still, this is a perfect segue to a
+ broader discussion of the state of models. So for now, that's going to do it for today's headlines.
+ Next up, the main episode.
+ Hello, everyone. One big change around AI is we've shifted our thinking from how we rank
+ our pages to how do we become the source that AI trusts enough to answer with?
+ At KPMG, they're seeing this firsthand. AI-generated results now surface answers
+ directly, often without a single click. That's why they are increasingly focused on
+ Generative Engine Optimization, or GEO, structuring content so AI systems can retrieve it,
+ understand it, and cite it as trusted authority. This is not just an SEO evolution,
+ but a visibility mandate. And indeed, the GEO mandate from KPMG is simple.
+ If AI is shaping decisions, your expertise needs to show up inside the answer.
+ Read all about it at kpmg.com slash us slash GEO. Again, that is kpmg.com slash us slash GEO.
+ Blitzy's deep code-based understanding unlocks the thing every roadmap owner cares about,
+ shipping new features. Here's the truth about building inside a massive enterprise code base.
+ Writing code was never the bottleneck. Context is. Which system does this touch,
+ which contracts can't break, which standards apply?
+ Blitzy already knows because it reversed engineered your entire code base into a
+ dynamic knowledge graph before feature work began. With that complete picture,
+ Blitzy builds features end-to-end. Architecture, APIs, UI, and tests all validated against your
+ existing systems. One Blitzy customer built an AI native application from scratch with 100%
+ autonomous completion, saving over 2700 engineering hours. Features that respect
+ your code base instead of fighting it. Stop letting your backlog grow faster than your
+ team. Accelerate your roadmap at blitzy.com. That's blitzy.com.
+ This episode of the AI Daily Brief is brought to you by HyperAgent,
+ where you run fleets of agents your team can manage together. New users get $1,000 in inference.
+ Forget local agents and chat workflows waiting on your laptop to be prompted.
+ HyperAgent deploys always-on agents in the cloud, doing real work across the
+ tools your team already uses. Marketing's agent turns competitor moves into landing pages.
+ Sales' agent enriches leads, drafts emails, and updates the CRM.
+ Ops' agent chases the paperwork and tracks the budget. Every agent has access to shared
+ context and follows your rules about scope and approvals. It's time you add agents that feel
+ like teammates. Hire yours at HyperAgent, built by the team at Airtable.
+ Claim your $1,000 in inference at hyperagent.com slash AI Daily Brief.
+ Every episode, I talk about the competition between OpenAI, Anthropic, SpaceX AI,
+ Google, and Meta. And if you've been listening for a while, you might have a favorite.
+ Maybe you think OpenAI and Anthropic can stay ahead, or perhaps Meta's open-source
+ strategy can win out. Whatever your view, every AI lab creates a different investment
+ opportunity. Harbour Capital Advisor's AI Lab Ecosystem ETF Suite lets you invest in
+ the ecosystem behind the AI lab you believe in. Search Harbour AI Lab Ecosystem ETFs
+ wherever you invest or follow at Harbour Capital on X to learn more.
+ Visit harbourcapital.com for a prospectus containing investment objectives, risks,
+ fees, expenses, and other important information. Read and consider it carefully before investing.
+ Risks include principal loss and artificial intelligence-related risks.
+ Harbour ETFs are distributed by Foresight Fund Services LLC.
+ Harbour is not affiliated with AI Daily Brief and the funds are not
+ affiliated with, sponsored by, or endorsed by any AI lab.
+ This is a paid advertisement and not personalized investment advice.
+ Investing involves risk, including possible loss of principal.
+ Welcome back to the AI Daily Brief.
+ The big news that we are covering today is the release of Grock 4.6,
+ which is getting some pretty good reviews out of the gate.
+ But what's interesting to me is not just the model itself,
+ but what it says about the state of the AI race and how that's changing.
+ Now, the version of the AI race story that I am concerned with mostly here, of course,
+ is the one that has to do not just with the achievement of some ill-defined,
+ far-flung goal like AGI or ASI, but the practical impacts on where different labs are
+ for what we get to do with AI at home and in our companies.
+ I think CNBC's Deirdre Balsa summed up the vibes when she tweeted yesterday,
+ what a difference a year makes. A year ago, Frontier basically
+ meant the big three US closed labs, OpenAI, Anthropic, and Google.
+ Now, a credible list includes XAI and multiple Chinese and open-weight labs.
+ And while we'll get into the implications for the leading labs in a minute,
+ I think Nathan Lambert also gets at another part of the sentiment when he writes,
+ the vibe shifting from Anthropic is so far ahead to model competition back to all-time highs took
+ like four weeks. So let's talk Grock 4.6 first. The release appears to put SpaceX AI squarely
+ back in the Frontier model competition. Regular listeners will know that I take
+ any release benchmarks, not just with a grain of salt but with an entire bowl full,
+ but still, Grock's reported benchmarks are pretty hard to ignore.
+ On GDP Val, which is the measure of how agentic AI performs on economically valuable tasks,
+ SpaceX AI claims to have overtaken both GPT-56 Sol and Fable 5 by a small amount,
+ yes, but taken over them nonetheless. Coding performance is improving as well,
+ with Grock scoring right between but in the range of 5.6 Sol and Fable 5 on Cursor Bench,
+ being a few points behind on both DeepSwee and Terminal Bench. On the Overall Artificial Analysis
+ Intelligence Index, Grock 4.6 jumped a full 5 points from Grock 4.5's 56 to achieve an overall score
+ of 61. That puts it ahead of Kimmy K3, tied with 5.6 Sol, and just a point or two behind
+ Fable 5 and Opus 5. What that means is that if this was a new model from either Anthropic
+ or Open AI, we'd probably be talking about how it's not quite state-of-the-art and didn't
+ push the frontier forward, but for SpaceX AI, who many had written out of the model race,
+ until fairly recently, this is a huge achievement, summed up by the broad sense that you can see
+ across AI circles, that we once again have three frontier labs in the race. Also, while SpaceX
+ AI has massively improved Grock's performance from 4.5, it seems like they're still working from
+ the same base model as Grock 4.5. Pricing remains the same at $2 per million input
+ tokens and $6 per million output tokens, making it 60% cheaper than GPT-56 Sol on a per-token basis.
+ Of course, as we know, comparing tokens to tokens is a seductive but ultimately fraud exercise,
+ given the massive differences in how many tokens different models might use to solve the same
+ problem. But once again, artificial analysis is testing found that the model is pretty token
+ efficient as well. It completed the benchmark run at 84 cents per task, putting it in line with
+ Kimmy K3 and making it 32% cheaper than GPT-56 Sol and 73% cheaper than Fable.
+ Wright's investor, Daven Baker, absolute Pareto dominance for Grock and Cursor even after the
+ open AI price cuts. Now, in terms of reactions for the community, for many folks it was just
+ gobsmacked at the achievement overall. Vittorio writes, so they just caught up in three years?
+ How does Elon do it? Ben Davis writes, Grock 4.6 feels very good on first tests,
+ very fast and capable and cheap, but time will tell as always. The cursor and SpaceX AI come
+ back is glorious to watch. On Martin Casado from A16Z's highly technical tests, he found that it was
+ strong. Pavel Hurin writes, tried Grock 4.6 on my bug bench an hour after release,
+ 105 hidden bugs and two real repos judged blind. His conclusion? Looks like it may be my new
+ default model, the best combination of time, value and cost. And yet some folks did not
+ have that same experience. Mehul Mohan writes, Grock 4.6 is not as good as GPT-56 Sol in my 30
+ minutes of usage. It does incomplete work, not incorrect just incomplete. Maybe it's the Grock
+ harness? Justin Schroeder writes, early vibes on Grock 4.6 are not great. It's fast and is
+ willing to do security work. I've already seen multiple instances where it makes dangerous
+ mistakes and later tries to cover up poor decisions. It even gets defensive. Unfortunately,
+ we cannot trust it. Entrepreneur Timmy McKegan writes,
+ Grock 4.6 is one of the most oddly behaved models I've seen so far. It produces many times the output
+ tokens compared to Terra or any similar intelligence model. It is cheap and fast but takes everything
+ extremely seriously and always investigates unclear information. It values completeness above
+ everything including economics. The model seems to be designed to be economically viable but acts
+ differently. Now when someone tried to clarify if this is a positive or a negative sign,
+ Timmy kind of shrugged and said, probably positive. Benjamin DeKrakker tried to sum up,
+ lots of people acting like Grock 4.6 just beat Anthropik in open AI when really it didn't.
+ The Grock 4.6 numbers show that XAI is not out of the race but also not at the top.
+ It's in the middle top-ish against models that the competition is already getting
+ ready to update. It shows that Grock still has a pulse which is a good but different thing.
+ He continues, or in sports terms, they advance past their critical wild card game into the
+ playoffs but are mid-rank against tough competition. They prove they can still hang,
+ not yet winning everything. And by the way he clarified,
+ this is not a slight against Grock 4.6 which looks solid just a read of the actual rankings and
+ situation. Now of course what Benjamin is referring to is the fact that 4.6 is being compared
+ against GBT 5.6 and Fable 5 when both of those models are at this point several months old
+ and pretty much the only reason we don't have updates of them is that we're now
+ past the threshold where the US government is going to be involved in every big new model
+ release and so state-of-the-art for us is very different from state-of-the-art at those top labs.
+ However it sounds like Grock 4.6 is itself just a waypoint. Elon Musk tweeted,
+ Grock 4.7 is significantly better than 4.6 and should be ready in three to four weeks.
+ Initial training is complete and now we're adding a massive amount of SpaceX company data
+ in supplemental training. This will be something special. In another tweet he said,
+ Grock 4.7 will exceed all current models. That said, Anthropic is a great company and
+ will probably release improved models soon. However the SpaceX training corpus is so awesome
+ and unique that I would be shocked if any model is better at real-world engineering than 4.7.
+ Capturing the zeitgeist of credulity around these claims, Chubby shared both those posts and said,
+ I'm taking this seriously now. Grock 4.6 was the leap I've been hoping for. If the 10T model
+ is still to come then Elon's words can be taken seriously. It really could become the best model
+ in general. Although of course Anthropic already has fable 5.5 ready and just waiting to be released
+ that much is clear. Nevertheless the next few weeks will be exciting and XAI has shown just
+ how much potential they possess. Leo at Synthwave DD adds, XAI have made an incredible comeback.
+ From the days of Grock 4 to 4.3 where they were trailing the frontier by far,
+ they're now arguably the third best lab in the world. Behind only Anthropic and open AI.
+ So where does this leave the rest of the field? Well first of all there's Google.
+ The company that many feel, Anthropic has no overtaken as the definitive third place
+ when it comes to state-of-the-art models. After last week's departure of DeepMind CEO
+ Demis Hussabis and longtime product leader Jeff Dean, many are basically counting Google
+ completely out of the frontier AI race. The counterpoint however is that it appears that
+ co-founder Sergey Brin is back in the picture to spur a comeback for Gemini.
+ Reuters reported that Brin has become a key cheerleader for Google's AI team in recent
+ months, encouraging AI engineers to catch up in the AI race. He reportedly addressed a town hall
+ after the release of Mythos, telling engineers it's time for Google to play catch-up. Sergey had
+ of course been out of the picture for several years after stepping down as president in 2019,
+ however he returned to frequent work at Google in 2023 and stepped into his involvement with
+ the AI team in 2024 just as they were getting back on track ahead of the release of Gemini 2.
+ During last week's news cycle, we had already heard that Google was relocating AI training
+ out of the DeepMind office in London and back to the main campus in Mountain View.
+ That relocation would conveniently allow Brin to play a more active role working day-to-day with
+ key researchers. And of course given what else we've heard about internal Google politics,
+ one of the big benefits to having Sergey fully engaged is that presumably he's one of the
+ few people that could effortlessly cut through that bureaucracy to get things done at Google.
+ According to the Reuters report that came out on Wednesday, that has already begun.
+ Reuters writes, Brin has used the implicit power he holds as Google's co-founder to push
+ resource allocation towards specific areas such as recursive self-improvement.
+ And to sum, this is a good enough reason all on its own to not count Google out.
+ Nick the CS guy from Google writes,
+ Don't mess with Sergey and definitely don't underestimate what he can do.
+ Still others think that Google is just temperamentally ill-suited to this particular
+ race. Computer science professor Pedro Domingo writes,
+ Hey Sundar, getting deep mind to be an LLM lab is trying to shove a square peg into a round hole.
+ You're destroying them and you'll still lose the race.
+ Let them focus on AI beyond LLMs which is what they're good at and create a nimble new lab to
+ run the LLM race. Now when it comes to what models we can expect next, I think at this
+ point broad sentiment is that it would not be enough to recapture momentum by releasing a competent
+ Gemini 3.5 Pro at this point. We're already a couple months behind when we expected to get it
+ and just catching up I think would be seen as a failure. According to Leo and some other leakers
+ I've seen, the reports are that teams are instead shifting to work on the scaled up Gemini 4 which
+ while risky I think does make sense in context. Now as Deirdre pointed out in that tweet at the
+ top of this show, the top model labs question now has to necessarily include a bunch of
+ entrants from China. And interestingly just a few hours after grok 4.6 launched we got
+ a significant leak out of China. Specifically we got the benchmarks for the updated version
+ of DeepSeek V4 Pro and they appear on paper at least to be very competitive. For example,
+ these leaked benchmarks claim that the forthcoming model scored 87.9% on terminal bench 2.1,
+ putting it just 0.1% behind Fable and 1.1% behind GPT-56 Sol. It also claims to beat
+ Fable by 0.2% on Cybergym, the main cybersecurity benchmark. Now as always there's the risk
+ that this is just benchmark maxing and actual performance will feel a little flat.
+ And unfortunately almost as soon as these leaks started appearing,
+ other information came out suggesting that the model was more significantly behind
+ than the benchmarks would have it seem. Artificial analysis as benchmark run was
+ pretty disappointing, with V4 Pro scoring just 53. That's only one point ahead of V4 Flash
+ and trails behind Kimmy K3 and Musepark 1.2. On the plus side the model is pretty cheap even
+ after DeepSeek delivered a substantial price increase this morning. At $1.32 per million input and
+ $3.96 per million output, it's about $1.12 the price of Fable and slightly cheaper than Musepark.
+ And people's first impressions also aren't that great. Lucky Faraday writes,
+ DeepSeek V4 Pro is benchmark slop. I had high hopes for this model but it's complete trash.
+ This was supposed to be a Fable level model and it can't even make a simple Minecraft clone.
+ Even DeepSeek V4 Flash did a better job. I know a Minecraft clone isn't a good test for a
+ model but come on this is complete nonsense. And before the don't compare a less than $1
+ output model to Frontier model replies, they are the ones comparing themselves to the Frontier,
+ not me. Still others pointed out that when we're discussing models in the second half of 2026,
+ it is less about raw performance alone and more about where they fit in the model stack.
+ DAX from OpenCode says DeepSeek is insanely good at inference,
+ using about two times less GPU time. And Augustine Lebron writes,
+ I'm sure Kimmy K3 and Grock 4.6 and DeepSeek V4 Pro are benched max more than
+ Fable and GPT but it doesn't matter. These models are an order of magnitude cheaper.
+ As the Frontier proceeds, few and fewer people need the bleeding edge and need it less often.
+ And at first glance, Ramp's latest AI index seems to provide some evidence of that.
+ Ramp's lead economist Ara Karazian writes,
+ New from Ramp AI index, disappointing adoption of Fable 5.
+ We've heard several reasons from businesses, mainly Fable 5 is just too expensive.
+ A model so powerful it was briefly banned and yet businesses don't think it's worth the
+ price. Specifically, Ramp found that Fable 5 has made up only 6% of tokens that businesses purchased
+ from Anthropic and represented only 11.4% of dollars spent on Anthropic models.
+ For comparison, they write, OpenAI's GPT 5.6 Sol comprises 25% of OpenAI tokens and 23% of
+ spend. In fact, they say Fable 5 is less popular with businesses than GPT 5.6 overall.
+ Ramp argues that quote, with Fable 5, we've found a new upper bound to how much
+ businesses are willing to spend on AI. Here, more performance is not worth the price tag.
+ To encourage business adoption of the latest models, the labs will need to prove performance
+ beyond even what Fable 5 is able to achieve and simultaneously ensure that competitors
+ aren't able to come reasonably close. That seems increasingly out of reach,
+ especially as open source models catch up to being only a few months behind.
+ However, I think that story is much less clear than they're letting on.
+ First of all, as Simon Smith points out, Ramp data overall suffers from selection
+ bias and this data suffers from it even more. This data comes from their token and spend management
+ product, meaning users are predisposed to focus on cost control. Fable simply isn't cost effective
+ for most tasks. In other words, this is an extremely enfranchised set of users who are
+ specifically using this in a product that is designed to manage spend and optimize spend away
+ from models that are more powerful than you need, rather than being a general assessment across a
+ wide cross-section of businesses and business use cases. Still to me, that isn't even the most
+ damning thing, as perhaps one could argue that those companies in that type of spend management
+ are a leading indicator of where others will get. I think the bigger and more obvious issue
+ is that Fable 5 still comes with a 30-day data retention policy
+ and most businesses aren't willing to touch that with a 39 and a half foot poll.
+ Indeed, Ara actually came back to Twitter and retweeted himself to add this incredibly
+ important detail saying, a lot of replies from employees who say they aren't allowed
+ to use Fable because Anthropic is required to retain prompts for 30 days for U.S. government
+ safety checks. Look, it is absolutely the case that the more sophisticated buyers get,
+ the less they're just going to smash on the state-of-the-art model at the highest effort
+ level for every single prompt, but the data retention policy really makes this not a
+ particularly clear comparison. Now, lurking behind everything we've discussed in today's show
+ is the fact that Anthropic and OpenAI both have more advanced models,
+ more or less ready to go at this point, that are being held back by a combination of government
+ pressure, internal concern, or is simply the fact that because nothing else is caught up,
+ they don't really have pressure to move things forward faster. Still, even if on the one hand
+ we are seeing a slowdown in the speed with which Anthropic and OpenAI specifically are
+ dropping models, I think it's pretty hard to look around the model landscape right now
+ and not feel like we have increasingly more rather than less choice.
+ Anyways, friends, some fun new treats to try for the weekend,
+ but that is going to do it for today's AI Daily Brief. Appreciate you listening or
+ watching, as always, and until next time, peace!
