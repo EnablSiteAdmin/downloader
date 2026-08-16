@@ -1,0 +1,1316 @@
+ Last year at this time, AI was a very different place.
+ ChatGPT5 had just launched, to not much to claim at all,
+ people were really upset that GPT4O was being deprecated,
+ and there was so much growing conversation and consternation,
+ frankly, about the potential of an AI bubble.
+ And on top of all that,
+ there were some companies out there
+ that were still trying to convince themselves
+ that AI was overhyped and just not going to be a thing.
+ Now you're on from that, the conversation is very different.
+ Not only have the models advanced,
+ not only have the use cases shifted to the agentic,
+ living up to the promise that's been lurking for years,
+ but the businesses that are harnessing AI
+ have gotten so much more sophisticated
+ in the questions they're asking.
+ In fact, over the last year,
+ we've gone from in many cases,
+ not even asking the right questions,
+ to actively solving the new problems
+ that emerge for new work patterns
+ that come alongside specifically agentic AI.
+ Easy production causing an AI slot problem,
+ institute a new AI writing policy,
+ over usage of top models costing too much,
+ come up with new ways to allocate tokens and intelligence
+ to different parts of the organization.
+ Today, we're going to dig into
+ not only the current challenges of AI,
+ but how companies are actually solving them.
+ The AI Daily Brief is a daily podcast and video
+ about the most important news and discussions in AI.
+ All right, friends.
+ Quick announcements before we dive in.
+ First of all, thank you to today's sponsors,
+ Blitzy, Section, Robots and Pencils, and HyperAgent.
+ To get an ad-free version of the show,
+ go to patreon.com.ai-dailybrief,
+ or you can subscribe on Apple Podcasts.
+ And to learn more about sponsoring the show,
+ send us a note at sponsors.ai-dailybrief.ai.
+ One of the things that I like about this moment
+ that we're in with AI
+ is that we're through the first wave
+ of a lot of, call it,
+ less than useful conversations.
+ Even at this time last year,
+ there was still a ton of debate
+ about whether this AI thing was going to be a thing.
+ Now, of course, that wasn't really a debate
+ around these parts,
+ but you still had enterprises all over the place
+ kind of holding out hope
+ that this would just be yet another trend
+ that they would be rewarded
+ for not having dug in around.
+ Now, of course, that is not how it has played out.
+ And in the past year,
+ and especially the past eight months,
+ we have rocketed right on through
+ the first stage of AI
+ into the agentic era
+ with all sorts of attendant consequences.
+ Now, a lot of what's happening now
+ is incredibly powerful.
+ A lot of the work inside businesses
+ of all shapes and sizes
+ is figuring out how to take advantage
+ of capabilities
+ that simply were not there before.
+ And yet, no new technology,
+ AI included,
+ is solely in the business of solving problems
+ no matter how powerful it is.
+ Instead, new technologies solve lots of old problems
+ while, in many cases,
+ through the opportunities they create,
+ also creating new challenges.
+ And when we discuss topics
+ like bot-sitting or AI slop,
+ we are firmly then in the discussion
+ of how to deal with the problems
+ that come along with AI's opportunities.
+ Today, we're going to look at a bunch of changes
+ in how companies and businesses specifically
+ are thinking about AI
+ and what they're doing to solve
+ some of those problems.
+ And by way of kicking off the conversation,
+ we're going to start with a piece from EY
+ called Four AI Misconceptions
+ that Deserve Greater Scrutiny
+ with a specific focus on the first three.
+ I think these are great examples of things,
+ the conventional wisdom
+ around which is quickly shifting
+ and shifting for the better.
+ The first misconception that EY points out
+ is that AI will immediately
+ generate a productivity boom.
+ They write,
+ The assumption that AI will immediately
+ generate a surge in productivity
+ is difficult to reconcile with economic history.
+ Major technological revolutions
+ rarely produce economy-wide gains overnight.
+ It took nearly a century for the steam engine
+ to translate into sustained productivity growth in Britain,
+ roughly five decades for electricity
+ to reshape industrial production
+ and close to a decade before the computer revolution
+ produced measurable improvements
+ in aggregate productivity.
+ The first stage they explain
+ of any technology revolution
+ is the build-out of the infrastructure
+ that enables it.
+ In the case of AI,
+ that means expanding data centers,
+ semiconductor manufacturing,
+ electricity generation,
+ cloud computing capacity,
+ and digital infrastructure.
+ It also requires developing the talent
+ needed to deploy and manage these technologies
+ before they can diffuse
+ across the broader economy.
+ So in this section,
+ EY is talking about productivity
+ in two very different ways.
+ They're talking about measurable productivity
+ showing up in overall macroeconomic numbers,
+ but I think that the more relevant part
+ for our discussion at least
+ is an immediate boom in productivity
+ inside the organization.
+ I believe that what most organizations are finding
+ is that just like the capabilities of AI are jagged,
+ so too is the productivity enhancement of AI.
+ There are areas which,
+ for any organization that has invested
+ any amount of time in AI,
+ the gains are just immediate
+ and transparent and huge.
+ There are other areas
+ where even if one believes
+ AI will impact that area eventually,
+ remains stubbornly stuck
+ in the way that they'd always done things.
+ Moreover, organizations are going through
+ the messy and complicated
+ and time-consuming process
+ of figuring out how to integrate
+ new ways of agentic working
+ with new types of human oversight and management.
+ We're not seeing the sort of one-to-one switch
+ from humans doing jobs
+ to agents doing jobs
+ that some people imagine we would
+ and so figuring out
+ how to take advantage of all the new opportunity
+ creates a whole new set of work
+ that in the short term at least
+ in many cases fills in any time gains
+ that you otherwise would have won
+ from productivity in previous tasks.
+ Which is not to say that this is all a wash
+ and that productivity is going to be neutral.
+ We are very clearly in a transitional phase
+ and there's just going to be an immense amount of work
+ on the path to the new norms
+ and how we do things.
+ By and large, the organizations that I'm interacting with
+ have fully embraced that fact
+ and are now trying to work one by one
+ through those challenges
+ so that they can really take advantage of AI
+ rather than sitting around lamenting
+ why they're not getting as much as they hoped from it.
+ The second misconception that EY points out
+ is one that the more advanced version
+ of the conversation around
+ has been a key part of the discourse
+ for us here at the AI Daily Brief
+ especially throughout the middle part of this year.
+ That is the misconception that AI is nearly free.
+ They write,
+ The assumption that AI adoption is inexpensive
+ overlooks an important economic reality.
+ Unlike traditional enterprise software,
+ AI carries a meaningful marginal cost
+ every time it is used.
+ For many businesses, the initial investment
+ on licenses, infrastructure, and training
+ is only the beginning.
+ Every prompt consumes tokens,
+ computing power, and electricity.
+ As AI becomes embedded across organizations,
+ costs accumulate rapidly,
+ transforming AI from a one-time technology investment
+ into a recurring operating expense.
+ Many early adopters
+ are already discovering this reality.
+ Several firms have reported exhausting annual AI budgets
+ within months as employee usage exceeds expectations,
+ prompting the introduction of token budgets,
+ usage caps, and tighter governance.
+ At the same time, frontier AI providers
+ continue to introduce more capable reasoning models
+ whose greater performance often comes
+ with higher token consumption
+ and greater operating costs.
+ Looking back, they write,
+ The diffusion of new technologies
+ is constrained less by technological capability
+ than by the economics of deployment.
+ AI will be no exception.
+ The pace of adoption will depend
+ not only on what the technology can do,
+ but whether the value created by each token
+ exceeds its cost.
+ They say that the implication is clear
+ that AI should be managed
+ like any other capital allocation.
+ Now, I think what's interesting
+ about this quote-unquote misconception
+ is that this has long been coming down the pipeline
+ and it's just that this year
+ we are finally living in the reality
+ that we knew was on its way.
+ For the first few years of AI's life,
+ post-chat GBT,
+ organizations could get away with
+ treating it like another SaaS subscription.
+ The value equation was
+ headcount times the cost of a seat per month
+ times 12 months in a year
+ and does that come out to less than the value
+ that's being created by folks?
+ However,
+ agentic AI, of course,
+ totally changes that equation,
+ making it less like software
+ and more like a new type of labor.
+ Now, I don't think that this came
+ as some shocking surprise to organizations.
+ I think if anything was surprising,
+ it was the speed at which
+ enfranchised employees especially
+ could actually burn through
+ significant and expensive amounts
+ of those AI tokens.
+ This more than anything has set the context
+ for all of the next set of questions
+ and challenges that AI has to answer.
+ But the media discourse
+ around this is honestly just infuriating.
+ It tends to treat enterprises
+ like they're some incompetent bumpkins
+ who wake up one day shocked to discover
+ that AI is totally different
+ than the thing they thought it was.
+ The discourse presents things
+ like token budgets and usage caps
+ as these frantic attempts to catch up
+ with a train that's running off the tracks.
+ None of that is how this is playing out
+ for real organizations in the real world.
+ Pretty much everyone that I've interacted
+ with at any point
+ in any organization of any size
+ who has any sort of seriousness around AI
+ gets that this is a new challenge,
+ that it's not as simple anymore
+ as just pointing the most powerful model
+ at all of their problems
+ no matter how hard they are,
+ that they're going to need to put together
+ an actual complete architecture
+ of different types of models
+ and different types of structures
+ for different types of problems,
+ and that different people within the organization
+ are going to need to have access
+ to different amounts and powers of intelligence.
+ These organizations that you keep hearing
+ about that slap usage caps
+ and token budgets on things,
+ they're not doing that
+ and then sticking their fingers in their ears
+ and saying don't talk to me.
+ They're all at the same time
+ creating pathways for people to apply
+ for more budgets
+ or demonstrate that they deserve it.
+ In fact, if anything,
+ the speed with which organizations
+ are adapting to this being the new challenge set
+ should be extremely encouraging
+ for the corporate sector overall.
+ I think the fact that the enterprise sector
+ has pivoted so fast to understand
+ that this is the new challenge that they face
+ is hugely to their credit
+ and representative of the fact
+ that this didn't come out of left field
+ and that they've spent the last couple of years
+ preparing, at least in terms of meetings
+ and roundtables and awareness
+ for this new agentic period.
+ But that gets us to misconception number three,
+ that AI will make labor redundant.
+ Now this gets a little bit off our topic
+ of the new problems that come with AI
+ that companies are solving
+ because this is just straight up wrong.
+ It's not actually a problem to be solved
+ because it's not actually a problem.
+ There are two groups
+ who over the last few years
+ have been adamant
+ about AI making labor redundant.
+ Group one is the leadership
+ at the leading AI labs
+ who have spent a disproportionate amount
+ of their media space
+ talking about exactly this,
+ although at least some of them
+ have been trying to walk it back of late.
+ The second group who've been convinced of this,
+ I don't actually even believe
+ we're ever actually convinced of this.
+ And that is the business leaders
+ who have needed good excuses
+ for why they were laying people off.
+ I certainly believe
+ as any regular listeners will know
+ that AI is going to impact
+ the shape of jobs and professions
+ and will have labor market impacts.
+ I think that companies over the last year
+ or so blaming 40% or more
+ of their layoffs on AI
+ is a complete nut or crock
+ that's just a convenient excuse
+ that the market would buy and accept.
+ As I said in a recent episode
+ I don't think that that excuse is working anymore
+ and I think the more stories you see
+ of people having to hire back
+ the people that they fired
+ will just put a dagger
+ in this misconception's heart forever.
+ But like I said,
+ what I'm interested in
+ is not just these misconceptions
+ but the awareness that AI creates
+ a set of new challenges
+ and the way that people are dealing with them.
+ So let's not talk about one of the big problems
+ that has come alongside the advent of AI
+ which is a flood of terrible AI writing.
+ It was very cool early on
+ just how many words
+ and seemingly compelling words even
+ AI could put forward around
+ any particular idea or task you had.
+ People of course
+ being driven by their desire
+ to get as much work done
+ as fast as they possibly can
+ and beyond to other things
+ whether it's more work
+ or something else entirely
+ have fully stretched to see
+ just how many things
+ they can use AI writing for.
+ Now this pattern is of course
+ made it onto the social platforms as well
+ who are all dealing with
+ their own versions of AI slot problems.
+ One of the reasons
+ that this has never stressed me out
+ as much as it has for some others
+ is that it's always seemed pretty clear
+ that institutional or social immune systems
+ were going to create a response
+ and that's what you're starting to see.
+ You're seeing AI detectors
+ pop up in places like Substack
+ although I remain very skeptical there
+ but you're also seeing
+ more pro-social approaches to this
+ such as the new button on LinkedIn posts
+ where you can click
+ that something that you're reading
+ quote seems like AI slop.
+ The more systems like that that emerge
+ the less of an incentive
+ there is to produce AI slop
+ and be lazy in how we use AI to write
+ and it's not just on the social networks
+ that those sort of responses are emerging.
+ You're starting to see it inside companies as well.
+ Varun Anand, the co-founder of Clay
+ just posted this week
+ that the company had instituted
+ an official AI writing policy
+ at their organization.
+ Interestingly originally
+ it was just for the engineering organization
+ but other teams found it helpful
+ enough that they expanded it
+ to a company-wide policy.
+ The four guiding principles were first
+ that when you write something
+ you have to stand behind
+ every idea and sentence.
+ As Varun puts it
+ it is your responsibility
+ to make sure that the entire document
+ is representative of your own thoughts
+ before you share it.
+ The second principle
+ is that writing is thinking
+ that spending time on the writing process
+ teaches you more about your topic
+ and that if you circumvent that process
+ you will walk away
+ with a poorer understanding
+ of the subject matter.
+ The third principle
+ is that more time
+ should be spent writing a document
+ than consuming it.
+ If you generate a document
+ from a short prompt he says
+ then ask your readers
+ to go through the longer output
+ you are disrespecting their time.
+ They can talk
+ to chat GPT themselves
+ if they want to.
+ And fourth and finally
+ longer is not better.
+ AI he notes
+ makes it easy to generate long docs
+ and it loves padding them
+ with sentences that say nothing.
+ If you're producing docs
+ from a short prompt
+ consider just sharing the prompt.
+ Now what you'll notice about this
+ is that this does not say
+ don't use AI.
+ It doesn't brand people
+ with a scarlet letter
+ for using AI.
+ It doesn't even create subtle
+ social pressure
+ against using AI.
+ This is an injunction
+ to not be lazy.
+ To appreciate
+ that the process of producing
+ something is as valuable
+ in many cases
+ as the output it creates.
+ And in that
+ it is a perfect example
+ of how we are solving
+ the new challenges of AI
+ which are inevitable
+ in practice
+ right now
+ inside our companies
+ and organizations.
+ What's more
+ Varun dropped the entire policy
+ and given the fact
+ that 8377 people
+ have liked or applauded
+ or hearted the thing
+ you better believe
+ that this type of policy
+ is going to show up
+ at a lot more organizations
+ in the weeks to come.
+ Now does this all
+ on its own
+ turn back the tide
+ of AI slop?
+ Of course not
+ but social and professional norms
+ can adapt quickly.
+ More quickly I think
+ than we sometimes even expect.
+ Every AI coding tool
+ on the market
+ does the same thing first.
+ It starts writing code.
+ Blitzy does the opposite.
+ Before writing a single line
+ Blitzy spends days
+ reverse engineering
+ your entire code base.
+ Thousands of agents
+ ingest millions of lines
+ mapping every dependency
+ every undocumented constraint
+ every architectural decision
+ made over the last decade.
+ The result is a dynamic
+ knowledge graph
+ that understands
+ your software
+ the way a principal engineer
+ would after 30 years
+ in the building.
+ Other tools
+ guess at context
+ with grep searches
+ and markdown files
+ Blitzy never guesses.
+ It builds true understanding
+ first
+ then delivers over 80%
+ of entire software
+ epics autonomously.
+ Validated
+ end to end tested
+ production grade
+ pull requests.
+ That's why Fortune 500
+ engineering teams
+ trust Blitzy
+ with the code bases
+ that matter most.
+ See for yourself
+ at Blitzy.com
+ that's blitzy.com
+ Here's a harsh truth.
+ Your company is probably
+ spending thousands
+ or millions of dollars
+ on AI tools
+ that are being
+ massively underutilized.
+ Half of companies
+ have AI tools
+ but only 12%
+ use them for business value.
+ Most employees
+ are still using AI
+ to summarize meeting notes.
+ If you're the one
+ responsible for AI
+ adoption at your company
+ you need section.
+ Section is a platform
+ that helps you manage
+ AI transformation
+ across your entire
+ organization.
+ It coaches employees
+ on real use cases
+ tracks who's using
+ AI for business impact
+ and shows you
+ exactly where AI is
+ and isn't creating value.
+ The result
+ you go from rolling
+ out tools
+ to driving
+ measurable AI value.
+ Your employees
+ move from meeting summaries
+ to solving actual
+ business problems
+ and you can prove
+ the ROI.
+ Stop guessing
+ if your AI investment
+ is working.
+ Check out section
+ at sectionai.com
+ that's s-e-c-t-i-o-n
+ ai.com
+ I cover the capability gap
+ between AI potential
+ and AI reality
+ every day on the show.
+ Most companies
+ are still figuring out
+ how to start.
+ Robots and pencils
+ is already launching
+ and scaling.
+ A genetic and
+ generative AI
+ in production
+ at large enterprises
+ in weeks.
+ AWS Advanced Tier
+ Pattern Partner
+ more than doubled in a year.
+ And they're hiring.
+ 50 open roles.
+ If you're someone who knows
+ this moment is different,
+ who wants to be inside it,
+ not watching it,
+ this is worth a look.
+ At Robots and Pencils
+ the best ideas win
+ and the team is purposefully
+ kept super high quality.
+ This is the kind of place
+ you look back on
+ as the best decision
+ you ever made.
+ Take a look at
+ robotsandpencils.com
+ slash careers.
+ This episode
+ of the AI Daily Brief
+ is brought to you
+ by HyperAgent
+ where you run fleets
+ of agents
+ your team can manage
+ together.
+ New users
+ get $1,000 in inference.
+ Forget local agents
+ and chat workflows
+ waiting on your laptop
+ to be prompted.
+ HyperAgent deploys
+ always-on agents
+ in the cloud
+ doing real work
+ across the tools
+ your team already uses.
+ Marketing's agent
+ turns competitor
+ moves into landing pages.
+ Sales' agent enriches leads,
+ drafts emails,
+ and updates the CRM.
+ Ops agent
+ chases the paperwork
+ and tracks the budget.
+ Every agent has access
+ to shared context
+ and follows your rules
+ about scope and approvals.
+ It's time you add agents
+ that feel like teammates.
+ Hire yours at HyperAgent
+ built by the team
+ at Airtable.
+ Claim your $1,000 in inference
+ at hyperagent.com
+ slash ai-daily brief.
+ And part of what makes AI
+ so exciting
+ is that because
+ it is this new experience
+ that we are all going through
+ together at the same time,
+ so many people
+ are sharing their best
+ practices and learnings
+ on the way
+ so that everyone doesn't have
+ to make the same mistakes
+ over and over.
+ On any given week,
+ you can go through LinkedIn
+ or basically any other
+ social channel
+ and find a slew of articles
+ from corporate or business leaders
+ sharing the latest things
+ that they have figured out
+ about how to make AI work for them.
+ And putting a fine point on the fact
+ that no one yet perfectly knows
+ how to do this,
+ a lot of times that commentary
+ is coming from the labs
+ who are creating AI themselves.
+ Open AI CFO Sarah Friar this week
+ published a piece called
+ What Building an AI Native Finance
+ Function Taught Me.
+ Recognizing that AI was about
+ more than doing their old work
+ a little bit faster
+ and instead about
+ totally new opportunities,
+ Friar said,
+ We set two bold ambitions
+ a zero day close
+ and automated continuously
+ updated forecasting.
+ She continues,
+ The idea behind a zero day close
+ is to give leaders
+ a real time reconciled
+ and traceable view
+ of the company's financial position.
+ Continuous forecasting
+ builds on that foundation
+ showing how the business is changing,
+ what could happen next
+ and what decisions
+ could alter the outcome.
+ This is challenging.
+ She notes,
+ It has pushed us beyond
+ the limits of static spreadsheets,
+ manual searches
+ for supporting records
+ and presentations
+ towards live tools
+ built on the full context
+ and data of the business.
+ Importantly, she notes,
+ Getting there requires more than
+ adopting new technology.
+ It requires redesigning work
+ around the decisions that matter,
+ giving people room to experiment,
+ building clear accountability
+ into every workflow
+ and measuring the dependable work
+ AI completes to provide
+ a clear ROI.
+ So what are the five practical
+ lessons that she thinks
+ others can apply as well?
+ The first was to give everyone access
+ then create a reason to use it.
+ Friar argues,
+ People need the freedom
+ to explore AI
+ in the context of their own work
+ and access creates
+ the most value
+ when it is paired
+ with structured experimentation
+ around real problems.
+ Honestly, inner company hackathons
+ have gone from something
+ that I think people would sneer at
+ a few years ago
+ to a genuinely useful architecture
+ that I'm seeing pop up
+ across companies in context
+ all the time.
+ The TLDR for Friar though
+ is that you need both
+ bottom-up experimentation
+ and top-down strategy.
+ And by the way,
+ going back to that token budget
+ question that we were just
+ discussing before,
+ that I think is going to be
+ one of the big challenges
+ as we design
+ more sophisticated ways
+ to allocate the scarce resources
+ that is tokens.
+ It's not going to be as simple
+ as getting everyone to prove ROI
+ for every single AI use case
+ unless people want just
+ the easiest to prove ROI type of use cases
+ which in many cases
+ are going to be
+ the very simple productivity enhancements
+ not these total re-imaginings of work.
+ Another takeaway lesson from Friar
+ is the idea that professionals
+ of all stripes
+ are increasingly becoming builders
+ alongside their other expertise.
+ She writes,
+ The bigger transformation
+ is that finance professionals
+ can now build
+ the tools their work requires.
+ Recent open AI research
+ shows that 40% of finance
+ professional specialized AI use
+ involves work outside
+ traditional finance
+ and 22% involves
+ engineering related tasks.
+ Everyone on my team,
+ she says,
+ is building custom AI dashboards
+ and tools
+ with chat GBT work and codecs.
+ The work is moving
+ from static Excel models
+ and PowerPoint decks
+ towards live dashboards
+ that sit on top of the full context
+ and data of the business.
+ These tools
+ can carry an analysis forward,
+ respond to follow-up questions
+ and update
+ as the underlying information changes.
+ And if you want a simple way
+ to sum up the overall
+ upskilling challenge
+ that every organization
+ full of knowledge workers
+ is going to have to face,
+ is how to help people figure out
+ as Friar puts it,
+ how to use these sorts of tools
+ and how to use their new
+ capabilities to gain the ability
+ to carry their existing
+ expertise further.
+ One more recommendation
+ from Friar comes around
+ how they evaluate things.
+ She suggests measuring value
+ per unit of intelligence.
+ CFO, she writes,
+ although she could be referring
+ to any type of executive,
+ need a scorecard
+ for AI grounded
+ in operating performance.
+ Buying more seats
+ or using more tokens
+ doesn't tell you much.
+ What matters
+ is whether the work
+ gets done well
+ and what it really costs.
+ For each workflow
+ ask four questions.
+ Did AI complete work
+ that mattered?
+ What did it cost
+ including employee time
+ review and rework?
+ Was the result good enough
+ to use
+ and did it help us move faster
+ or make a better decision?
+ And this is exactly
+ what I mean when I say
+ that the conversations
+ that are actually happening
+ real life around AI
+ are way smarter,
+ more sophisticated,
+ more nuanced
+ and more complex
+ than the way that
+ they're presented
+ in the media.
+ Companies aren't stupid.
+ They know that simply
+ looking at how many tokens
+ were consumed
+ is not enough,
+ but they also know
+ that overly simplified approaches
+ to understanding ROI
+ are insufficient as well.
+ And increasingly
+ this nuance
+ is becoming conventional wisdom.
+ Section CEO Greg Shove
+ also posted this week
+ on LinkedIn
+ about the five things
+ that he's telling CEOs
+ about AI right now.
+ The first one
+ hearkens to something
+ that I talk a lot about
+ on this show
+ and that I've even mentioned
+ before in this
+ particular episode,
+ AI token maxing
+ is stupid
+ but so is token minimizing.
+ You're paid to make big bets.
+ Don't shoot yourself in the foot
+ by shrinking your budget
+ before you can see gains.
+ Make some assumptions
+ on org wide productivity,
+ invest in transformation
+ and accept that you won't have
+ the full picture
+ for one to two years.
+ Now Greg goes a little farther
+ and even gives
+ one particular way
+ to go about this.
+ He suggests picking
+ a team
+ and 10xing the investment.
+ Most workforce enablement
+ he writes is a mile
+ wide and an inch deep
+ and while that's
+ a good place to start
+ you also want
+ a lighthouse team,
+ his term,
+ where transformation
+ happens faster
+ with greater results.
+ Finally,
+ trying to get out ahead
+ of what a common challenge
+ is and is going to be
+ Greg suggests
+ avoiding the 12 month stall.
+ Year one he writes
+ was exciting.
+ You rolled out tools,
+ had a kickoff,
+ saw some power users emerge.
+ Now everyone's saying
+ is this really worth it?
+ Don't get skeptical,
+ get specific.
+ Which teams are blocked,
+ what's blocking them
+ and what can you try
+ to get them working differently?
+ In here again
+ is that optimism around
+ how quickly organizations
+ are adapting.
+ Everywhere you look
+ you see a shift
+ and the nature
+ of the questions
+ that companies are asking
+ from simpler to more complex
+ and from lower leverage
+ to higher leverage.
+ BCG global chair Rich Lesser
+ captured the shift
+ in the sophistication
+ around the AI conversation.
+ He wrote,
+ The question we hear most
+ from CEOs about AI
+ has quietly changed.
+ It used to be
+ which model should we use?
+ Now it's
+ are we committing too much
+ too soon
+ to an evolving ecosystem?
+ And basically what he
+ and the companion essay
+ that he points to
+ are describing
+ is companies
+ getting out of the mindset
+ of thinking about AI decisions
+ is simply about choosing
+ the right vendor.
+ Harkening to the same sort
+ of drumbeat
+ that Satya Nadella
+ from Microsoft
+ has been beating recently,
+ they argued that
+ the organization
+ has what they call
+ an enterprise cortex.
+ The IP,
+ essential data,
+ key business rules
+ for proprietary information
+ and codified understanding
+ of how processes work
+ and how they link
+ to core business strategy
+ purpose and values
+ that are
+ the most valuable
+ internal knowledge
+ and that are
+ the essential things
+ that will allow
+ its AI strategy
+ to succeed.
+ Organizations need to
+ own the harness
+ where all of that
+ lives.
+ And so in a very real way,
+ another one of these
+ big shifts
+ and new problems
+ that organizations
+ are trying to solve
+ is shifting away from
+ which model to buy
+ and how to create
+ an organization level
+ harness
+ that can use
+ any model
+ or combination of models
+ while preserving
+ the broader organizational
+ context including
+ tools,
+ skills,
+ guardrails,
+ governance and more.
+ And what's also
+ interesting to me
+ is that alongside
+ people sharing
+ how they're solving
+ some of the more
+ obvious challenges
+ that have emerged
+ from AI.
+ We're also starting
+ to have discourse
+ that looks farther out
+ about preempting
+ problems on the horizon
+ before they become
+ as bad as they could be.
+ Pointing to another
+ BCG paper that argues
+ when everyone uses AI
+ companies risk losing
+ critical skills
+ Ridges-Union writes
+ the risk most leaders
+ aren't tracking
+ is not AI hallucinations
+ not job loss
+ but distributed
+ de-skilling.
+ The collective erosion
+ of judgment,
+ critical thinking
+ and problem framing
+ across an entire workforce
+ happening quietly
+ while adoption numbers
+ look great on a dashboard.
+ Half the leaders BCG
+ surveyed said
+ they're already seeing it
+ over 60% expected
+ to be a real threat
+ within the next three to five years.
+ The skills going soft
+ he says
+ are the exact ones
+ companies say
+ they need for the most decade.
+ And while in the BCG essay
+ they frame it
+ as a systems design problem
+ there is also clearly
+ a talent dimension
+ to this as well.
+ Ridges writes
+ our research tells us
+ that fewer than one
+ in five employees
+ feel confident
+ using AI tools today.
+ Roughly two and three
+ said they'd be more
+ willing to support change
+ if their effort using
+ it was recognized.
+ Token usage is not
+ a proxy for adoption
+ confidences
+ and confidence
+ isn't built by rolling
+ out a tool.
+ It's built by reinforcing
+ the right behaviors around it
+ every time someone does
+ the hard thing
+ instead of the easy thing.
+ And while I think it is
+ absolutely too early to say
+ that we have turned a corner
+ here
+ there is finally
+ some emerging recognition
+ that we have critically
+ underspent
+ on the human dimension of AI
+ in favor of just
+ the technology dimension.
+ In their recent adaptability
+ report
+ KPMG argues
+ that leaders are
+ overspending on technology
+ and underspending on talent.
+ Executives they point out
+ are two times more likely
+ to increase investment
+ in new technology
+ than to invest in employee training.
+ While 57% of leaders
+ say improving performance
+ and efficiency was one
+ of their top priorities
+ in the past year
+ less than 10%
+ say developing
+ stronger workforce training programs
+ was one of their primary objectives.
+ Stating the painfully obvious
+ but still needs to be said
+ KPMG writes
+ in times of disruption
+ workers need more training
+ and support not less.
+ Executives should not
+ view allocating capital
+ to technology or talent
+ as a tradeoff.
+ Organizations see better outcomes
+ when they advance the two together.
+ AI and technology adoption
+ require change management
+ and companies that don't invest enough
+ in building the skills
+ employees need
+ to make the most of new tools
+ often struggle
+ to realize their full value.
+ More importantly
+ and this is not just
+ some feel good thing
+ while 25% of business leaders
+ overall
+ said revenue had risen
+ by 20% or more
+ over the past three years.
+ Among leaders
+ who had increased their investment
+ in their workforce
+ that number was 37%.
+ Now of course
+ AI training is in simple
+ it's not easy
+ it's certainly not
+ just a matter of giving them
+ the best video course
+ and a certification
+ for their LinkedIn profile.
+ It takes really hard work
+ and time on task
+ and adapting processes
+ from the ground up
+ but at least that's now
+ the type of conversation
+ that we're having
+ and as more and more companies
+ figure out approaches
+ that work
+ such as the lessons
+ that Sarah Fryer shared
+ in her post
+ the more templates
+ other companies
+ are going to have
+ and the easier it's going to be
+ to answer the actual challenges
+ that are emerging.
+ As AI evolves
+ and as adoption proceeds
+ and especially
+ as we fully embrace
+ the true transformative aspects of it
+ we are going to discover
+ new emergent challenges as well.
+ The path forward
+ is in being able to identify
+ and name those problems
+ and work on them together
+ out in the open.
+ One that I saw Zara Zhang
+ posting about on X this week
+ that is a super interesting one
+ to contemplate
+ comes from a recent paper
+ called the tragedy
+ of the cognitive commons.
+ Zara writes
+ this paper gives a fancy name
+ to a problem
+ you can already feel in your bones
+ the tragedy
+ of the cognitive commons.
+ Checking AI output
+ requires deep expertise.
+ Deep expertise comes
+ from doing grunt work for years
+ and grunt work
+ is the first thing AI eats.
+ So we're building systems
+ that need expert supervision
+ while dismantling
+ the only known process
+ for making experts.
+ This paper calls
+ the shared pool
+ of human expertise
+ the cognitive commons.
+ Every profession drinks from it
+ nobody's refilling it.
+ By eliminating junior roles
+ each company
+ is acting totally rationally
+ and the collective result
+ a profession that can't
+ catch AI's mistakes anymore
+ because it never learned
+ to do the work
+ in the first place.
+ In other words
+ who checks AI's homework
+ in 15 years.
+ Now when we're talking
+ about far out problems
+ like this
+ I don't think that we should
+ just be accepting
+ beyond a shadow of a doubt
+ that they are going to be
+ the problem that manifests
+ as people are presenting here
+ but they are worth
+ thinking about and spending time on
+ because there isn't a problem
+ in the world
+ that has no answers.
+ Zara argues
+ that deep expertise
+ only comes from
+ doing grunt work for years
+ but is that a law of nature
+ in the professional world
+ or is that simply
+ how it's always happened?
+ Are there other ways
+ to develop that expertise
+ and incentives
+ for companies to put people
+ in a position to do so?
+ None of those are simple
+ and easy questions
+ but they are good ones to ask.
+ I think when push comes to shove
+ if you had to put a big old
+ TLDR on how I feel
+ about particularly how AI
+ has evolved inside of businesses
+ over the past year
+ it's that we've gone from
+ very frequently
+ asking not particularly
+ useful questions of if
+ i.e. is AI actually
+ going to be a thing
+ to much much more valuable
+ questions of how
+ and how to do it well.
+ My encouragement to all of you
+ is to keep asking
+ those questions
+ and sharing your answers
+ in public as much as possible
+ so that everyone
+ doesn't have to solve them
+ on their own.
+ Food for thought
+ in this weekend episode
+ but for now
+ that is going to do it
+ for today's AI Daily Brief.
+ Appreciate you
+ listening or watching
+ as always
+ and until next time
+ peace.
