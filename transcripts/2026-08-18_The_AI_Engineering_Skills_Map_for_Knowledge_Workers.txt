@@ -1,0 +1,962 @@
+ Knowledge work is being totally transformed by agents right now.
+ After years of promise, agents are actually here, and they are changing the way that knowledge work gets done.
+ Broadly speaking, we are increasingly moving from doing our work to managing agents that do our work.
+ But in that transition, what are the key skills that matter?
+ Five that stand out to me are one, AI capability mapping.
+ Two, context and harness management.
+ Three, problem and product prototyping.
+ Four, new opportunity identification.
+ And five, rapid new skill acquisition.
+ When you combine these with a foundation of domain judgment,
+ you get a type of knowledge worker that is more capable and more powerful than ever before.
+ The AI Daily Brief is a daily podcast and video about the most important news and discussions in AI.
+ All right friends, quick announcements before we dive in.
+ First of all, thank you to today's sponsors, KPMG, Section, Blitzy and Hyperagent.
+ To get an ad-free version of the show, go to patreon.com.ai-dailybrief
+ or you can subscribe on Apple podcasts.
+ And to learn more about sponsoring the show,
+ send us a note at sponsors at ai-dailybrief.ai.
+ In the world of AI, nothing is safe as everything gets rebuilt.
+ The latest reminder of this comes from Cursor,
+ who are taking on GitHub with their new repo hosting platform, Origin.
+ The pitch is pretty straightforward.
+ Take Git hosting and add better integrations for the coding agents you're already using.
+ Origin allows developers and their agents to access the code base
+ from the same surface they're already working in.
+ That makes it easier to run natural language queries across the code base
+ or use agents to handle comments and commits without context switching or using connectors.
+ Still, maybe their biggest pitch is around platform stability.
+ GitHub service has been widely perceived to be degrading over the past year,
+ with frequent outages and issues.
+ As if on cue, right around the time that Origin was announced,
+ GitHub experienced a six-hour service degradation.
+ Matt Palmer, a dev experience staffer at SpaceX AI, nodded to the issue commenting,
+ we were going to ship this earlier, but GitHub was down.
+ Vercell's CEO Guillermo Rausch piled on it, saying,
+ you can now host your repos in Cursor Origin and deploy to Vercell via Cursor Origin,
+ which is itself hosted on Vercell.
+ And, unlike GitHub, it's online.
+ Now, at this point, complaining about GitHub is basically just part of the experience of
+ being a developer or, increasingly, being a not-developer who works with code thanks to coding agents.
+ Still, as we've seen so many times in the past, major switches like this ask a huge amount of users,
+ and it's not clear whether a promise of better platform stability
+ and AI integration is enough to drive users to switch.
+ GitHub has incredibly strong lock-in, given how painful migrating code base infrastructure is,
+ and while there were plenty of people ready to immediately crown Origin as a GitHub killer,
+ many questioned the premise.
+ Scott Dolinsky, a content creator focused on DevTools, wrote,
+ I'm going to be real.
+ GitHub's outages are super annoying.
+ I just don't see myself moving all my stuff to Origin.
+ Maybe some of y'all moving your stuff there will take the pressure off GitHub servers for me, though.
+ Cush, a software developer at Cursor, used the opportunity to highlight one of the key
+ design decisions with Origin, commenting,
+ We get it.
+ Moving your code is extremely hard.
+ That's why Origin supports mirroring.
+ Leave your code where it is and let us sync it so you can always access it
+ performantly through Cursor, Agents, Pull Request, local, etc.
+ And if you end up liking Origin, you can make the decision to detach from GitHub later on.
+ This means, in other words, that GitHub can remain the developer's system of record,
+ theoretically minimizing the risk of breaking production workflows.
+ Others weren't sure that Cursor was really in a position
+ to actually promise better long-term platform stability.
+ Veteran developer Michael Cove wrote,
+ I don't trust them.
+ Not that Cursor is a bad company.
+ They are not.
+ But that they don't have a proven track record of security
+ and infra opsec.
+ Because obviously it's a new offering.
+ I like Cursor as a coding harness.
+ I think they have a truly innovative product,
+ and I do trust that my code is not going to be used in training.
+ But a code repository store?
+ That's a bit of a different concern.
+ Ultimately where Cove landed was to say that he would be happy
+ trying out Origin for personal projects,
+ but that he's going to need to see a longer track record
+ before moving customer projects over.
+ The launch itself is happening as an early preview to existing customers,
+ and some were disappointed about that decision.
+ Still most felt that the inevitable early teething issues
+ made that call completely understandable.
+ Still the promise for this kind of product is obvious
+ as software organizations integrate agents deeper into how they work.
+ One developer noted that Origin makes it easier
+ to connect automations to your code base.
+ For example, triggering an agent on a code change
+ or running scheduled tasks from a single platform.
+ And this idea of a GitHub that is built from the ground up,
+ assuming agents are pushing most of the code,
+ is what has people interested.
+ I think of nothing else.
+ The response shows that there is demand for a new agent
+ first approach to code base management.
+ But that does not make Origin's path any easier,
+ as there is also a very high bar for ripping out
+ and replacing core infrastructure like GitHub.
+ One has to be pretty impressed though
+ with the absolute velocity of cursor shipping,
+ especially given that this is happening in the context
+ of the SpaceX acquisition being complete.
+ Now it's early days, but stereotypically,
+ acquisitions tend to significantly slow down
+ the rate of innovation from the acquired companies.
+ SpaceX AI seems determined for that not to be the case.
+ And in their announcement blog,
+ confirming that the acquisition is complete,
+ cursor said that Grock 4.6 was an early look
+ at what the two companies plan to build together.
+ Perhaps framing what we can expect
+ from the division of labor within SpaceX AI,
+ cursor wrote, SpaceX is building the computing capacity
+ needed to scale intelligence far beyond what exists today.
+ Cursor will be one place where that intelligence
+ becomes useful.
+ Now speaking of companies pushing at an incredible rate,
+ more details have emerged about Anthropics'
+ exact financial situation
+ as an official run rate figure of 65 billion is leaked.
+ According to sources who have seen the information,
+ Anthropics hit 65 billion in revenue run rate
+ at the end of July.
+ The figures were reportedly shared with investors
+ as part of a regular update.
+ This represents a seven-fold increase
+ since the beginning of the year
+ and a roughly 40% jump since Anthropics
+ disclosed a figure of 47 billion in May.
+ Now obviously what makes their growth rate
+ so important right now are the astronomical numbers
+ the company is seeking as a valuation for their IPO.
+ Reports from last week suggested that some investors
+ expect the valuation to come in at 2 trillion
+ and some quoted an 800% growth rate
+ as justifying an even larger number.
+ These figures would put the annualized growth rate
+ at 550%, still incredibly strong,
+ but slowing compared to the first half of the year.
+ Now believe it or not, because the sheer growth rate
+ behind these numbers wasn't as stratospheric
+ as it was earlier in the year,
+ there were actually some investors
+ who were a little bummed out by this.
+ Author Take Him wrote,
+ Come on people, you can extrapolate
+ month-over-month growth acceleration to infinity.
+ This is still insane growth.
+ And what's more, when you combine this
+ with the 40 billion in annualized revenue run rate
+ that open AI CFO Sarah Friar has been reporting,
+ that means that between these two companies
+ you're talking about $100 billion in revenue run rate
+ up from low single-digit billions
+ at this time last year.
+ The last day today we got official information
+ about the Stripe open router deal.
+ The deal appears to be complete
+ and Stripe will acquire open router for $7 billion.
+ That price tag is of course less than the rumored $10 billion,
+ but still a huge markup for open router
+ who last raised funds at $1.3 billion in May.
+ Indeed, one of the big strands of conversation
+ is the idea that Stripe overpaid.
+ After the news broke, there were infinite variations
+ on this post from Vercels Max later who wrote,
+ Big congrats to the open router folks,
+ but can someone explain how an AI gateway
+ justifies $7 billion?
+ Surely Stripe can make their own gateway
+ and it's not like switching costs
+ for users are particularly high.
+ FinTech engineer Samir disagreed.
+ He wrote,
+ The reported Stripe open router price is inexpensive.
+ Everyone calling it that is anchoring on the wrong number.
+ $7 billion only looks crazy if you judge it
+ against what open router is worth on its own,
+ and that's not the number that matters.
+ What matters is what the deal does to the acquirer's value.
+ Look at what Facebook did with WhatsApp or SpaceX with Cursor.
+ Big acquirers pay up and they pay up
+ relative to their own market cap, not the target.
+ So here's the real test.
+ Ask yourself if you actually think buying open router
+ for $7 billion improves Stripe's own valuation prospects
+ by more than 5%.
+ If you believe it does, the price makes total sense.
+ It pays for itself.
+ Then it's a competitive tension question.
+ What do you pay to make sure nobody else gets the deal?
+ You get a little more generous than the hurdle.
+ That's how $5 billion becomes $7 billion.
+ And that's why $7 billion makes sense to me.
+ To be honest, I think everyone might be overthinking
+ this a little bit.
+ Stripe is and views itself as the core financial plumbing
+ for the internet economy.
+ Tokens are a new essential currency in that economy.
+ Recently, people have realized that not all tokens
+ are created equal and they need to be able to easily move
+ between different categories of tokens
+ for different types of use cases.
+ And open router is the leading company doing that.
+ To get all those customers, all that infrastructure,
+ the brand, and to have it come online
+ and into your system right away,
+ rather than later down the line
+ after you've introduced your own version
+ and asked people to switch over,
+ especially in the context of the speed
+ at which AI is moving.
+ Basically, you just pay the price
+ that it takes to get the deal done
+ and it turns out that was $7 billion.
+ A great outcome for the open router team, of course,
+ but my guess is that this pays off
+ for Stripe in big ways as well.
+ For now, though, that's going to do it
+ for the AI Daily Brief Headlines edition.
+ Next up, the main episode.
+ A new study from KPMG in the University of Texas at Austin
+ found that when people work with AI,
+ similar skills don't guarantee similar outcomes.
+ Researchers studied more than 500 early career professionals
+ and found that the best performers
+ consistently amplified the value of AI
+ by guiding, evaluating, and refining its outputs.
+ These top performers, called AI amplifiers,
+ weren't defined by what they knew alone,
+ but by how they worked with AI.
+ Learn more about what separates AI amplifiers
+ from everyone else at kpmg.com slash us slash AI amplifiers.
+ Here's a harsh truth.
+ Your company is probably spending thousands
+ or millions of dollars on AI tools
+ that are being massively underutilized.
+ Half of companies have AI tools,
+ but only 12% use them for business value.
+ Most employees are still using AI to summarize meeting notes.
+ If you're the one responsible for AI adoption
+ at your company, you need Section.
+ Section is a platform that helps you manage
+ AI transformation across your entire organization.
+ It coaches employees on real use cases,
+ tracks who's using AI for business impact,
+ and shows you exactly where AI is
+ and isn't creating value.
+ The result?
+ You go from rolling out tools to driving
+ measurable AI value.
+ Your employees move from meeting summaries
+ to solving actual business problems,
+ and you can prove the ROI.
+ Stop guessing if your AI investment is working.
+ Check out Section at sectionai.com.
+ That's s-e-c-t-i-o-n-a-i.com.
+ Blitzy deeply understands your code base
+ before it writes code.
+ Here's the first place that pays off.
+ Security in the age of AI.
+ Vulnerabilities don't live in isolation.
+ They live buried inside millions
+ of lines of interconnected code
+ where patching one thing
+ quietly breaks three others.
+ That's why surface level scans fail.
+ Blitzy starts from its knowledge graph
+ of your entire application,
+ identifies and surfaces CVEs across the full estate,
+ proactively recommends patches,
+ and can execute the PR.
+ Each fix is grounded in how your systems
+ connect and validates or nothing new breaks,
+ and the knowledge graph dynamically updates
+ keeping you ahead of an ever-accelerating
+ threat landscape.
+ One Blitzy customer resolved
+ 21 active CVEs across six core microservices
+ in four days.
+ Zero compile errors,
+ every validation scan clean,
+ months of planned work fixed in less than a week.
+ Security remediation grounded
+ in real architectural context
+ at the speed of compute.
+ Harden your code base at blitzy.com.
+ That's blitzy.com.
+ This episode of the AI Daily Brief
+ is brought to you by Hyperagent,
+ where you run fleets of agents
+ your team can manage together.
+ New users get $1,000 in inference.
+ Forget local agents and chat workflows
+ waiting on your laptop to be prompted.
+ Hyperagent deploys always-on agents in the cloud
+ doing real work across the tools
+ your team already uses.
+ Marketing's agent turns competitor
+ moves into landing pages.
+ Sales' agent enriches leads,
+ drafts emails, and updates the CRM.
+ Ops' agent chases the paperwork
+ and tracks the budget.
+ Every agent has access to shared context
+ and follows your rules about scope and approvals.
+ It's time you add agents that feel like teammates.
+ Hire yours at Hyperagent
+ built by the team at Airtable.
+ Claim your $1,000 in inference
+ at hyperagent.com slash AI Daily Brief.
+ Welcome back to the AI Daily Brief.
+ Today I've got a fun one for you.
+ It's very clear that the skills of knowledge work
+ are changing and changing fast.
+ Not that everything's up undid,
+ but all of a sudden knowledge workers
+ have these totally new capabilities
+ brought on by new tools and new ways of working.
+ And of course alongside that
+ comes with the challenge of figuring out
+ how to harness all that power.
+ Today we're going to go through
+ my AI engineering skills map for knowledge workers.
+ It's a list of five skills
+ that I think broadly are now relevant
+ for knowledge workers of all stripes
+ who want to work in this new paradigm.
+ And the inspiration for this
+ came from Coursera founder Andrew Ings
+ AI engineering skills map,
+ a post that he dropped on X last week.
+ Now in his post,
+ he is talking about AI engineering
+ very specifically in the context
+ of software engineering.
+ Andrew writes,
+ AI allows us to build software
+ very differently today than in 2022
+ and everyone with the skills
+ to take advantage of this shift
+ has numerous exciting project and job opportunities.
+ But with the noisy hype filled
+ information environment around AI,
+ what are the most valuable skills
+ for you to learn?
+ I've been working with my team
+ to synthesize a map of AI engineering skills
+ in order to help developers
+ prioritize what to learn
+ and help employers hire
+ skilled developers.
+ For Andrew,
+ the four most important AI
+ engineering skills are one,
+ building and deploying AI applications,
+ two software engineering fundamentals,
+ three using coding agents,
+ and four shaping the build.
+ I don't want to spend too much time on these
+ before getting to our interpolation,
+ but to give you a quick flavor
+ on something like software
+ engineering fundamentals,
+ he's basically saying that
+ even if you are using coding agents
+ as is the third skill,
+ you need to deeply understand
+ how software works,
+ i.e. understanding trade-offs
+ between cost, scalability,
+ reliability, speed, and more.
+ Even if you are not writing
+ the code directly,
+ this is going to lead,
+ as he puts it,
+ to better decisions
+ in choosing your software stack,
+ designing systems architecture,
+ designing your data store,
+ testing, and so on.
+ So foundations and fundamentals
+ still matter.
+ However, there are obviously
+ new skills as well.
+ As Andrew points out
+ fairly uncontroversially
+ at this point,
+ using agentic coding effectively
+ is now a key skill
+ for every developer.
+ And it is indeed a skill.
+ It involves understanding limitations,
+ how to steer them,
+ how much to intervene,
+ how much to leave them alone, etc.
+ So these are the types
+ of new skills for AI engineering.
+ But what's interesting
+ is that AI engineering
+ is infiltrating
+ the rest of knowledge work as well.
+ And here admittedly,
+ we're using AI engineering
+ in sort of two ways.
+ We're using it
+ in the metaphorical sense
+ of engineering AI
+ to use AI well,
+ but also the literal sense
+ of engineering style skills
+ coming to non-software engineering fields.
+ As you'll see,
+ as many of you have experienced,
+ even without pretending
+ that somehow
+ knowledge workers
+ outside of software engineering
+ are all of a sudden
+ going to be software engineers,
+ the capability that
+ knowledge workers have now
+ to build and use code
+ to solve problems
+ and create opportunities
+ is creating a dramatic shift
+ in how we all work.
+ Still, while I'm going to get into
+ these five new skills
+ of AI engineering
+ for knowledge workers,
+ I do also want to suggest
+ that a foundation is and remains
+ domain judgment.
+ And the analogy here
+ is certainly the software fundamentals
+ from Andrew's post.
+ It's things like
+ the ability to define quality,
+ recognize trade-offs,
+ understand consequences,
+ take responsibility for decisions.
+ It is the judgment
+ that comes with experience
+ in that field.
+ In other words,
+ just because ChatGBT
+ can write all the copy
+ and make all the ad assets,
+ we wouldn't expect
+ someone with no experience
+ in marketing
+ to be able to plan
+ and execute a marketing campaign
+ really well
+ because they lack
+ that domain judgment.
+ And I think it's important to note
+ in the context of your specific work
+ that domain judgment
+ is not just general.
+ It's not to continue that example
+ marketing in general
+ that matters.
+ It is marketing
+ in the context
+ of your organization.
+ In every field,
+ there are going to be things
+ that haven't or even can't
+ get encoded into AI training data
+ and that shape the difference
+ between work
+ that is passable,
+ good or great.
+ Now, one of the interesting challenges
+ that the continued need
+ for domain judgment creates
+ is the apprenticeship question
+ of how young workers
+ can develop that domain judgment
+ if more experienced workers
+ with the domain judgment
+ are simply using the tools
+ to do what the younger workers
+ might previously have done.
+ At the end of the episode,
+ I'll get into a new organizational structure
+ which I think might be
+ an interesting answer to that.
+ But I do also want to point out
+ that domain judgment
+ doesn't exclusively come
+ from 10 or 20 years
+ of working in a particular firm or field.
+ There are lots of different types
+ of judgment that matter.
+ Personal judgment,
+ standards, pattern recognition
+ and trade-off awareness
+ that you've already internalized,
+ borrowed judgment,
+ expertise supplied
+ through collaboration,
+ review, explanation
+ and shared decision making,
+ i.e. younger workers
+ can work with older workers.
+ And of course,
+ there's embedded judgment
+ which is expertise
+ that's captured in examples,
+ rubrics, policies, evaluations,
+ the sort of context
+ that you feed AI.
+ But wherever the domain judgment
+ comes from,
+ it is the foundation
+ for the rest of it
+ and does not suddenly leave
+ when you introduce AI.
+ But let's move on
+ to these five skills.
+ These are not somehow
+ completely disconnected
+ from one another.
+ Indeed, each capability
+ strengthens the next.
+ And I would argue
+ that it starts
+ with AI capability mapping.
+ One term that you'll frequently hear
+ popularized by people
+ like Professor Ethan Malik
+ is the idea of AI
+ having a jagged frontier.
+ What he and others mean by that
+ is that while AI
+ can absolutely blow you away
+ in one minute,
+ it can make a mistake
+ the next minute
+ that you wouldn't expect
+ the least capable intern
+ in the organization to make.
+ Capability mapping
+ is in part
+ understanding that jaggedness.
+ It's about being able to know
+ what AI is natively good at
+ and what it isn't,
+ where in the context
+ of where it isn't great yet,
+ how you can help it.
+ It's the ability to match
+ different tasks
+ with different approaches to AI.
+ In other words,
+ understanding the difference
+ between an assisted approach,
+ a workflow automation,
+ or a truly agentic solution.
+ Increasingly capability mapping
+ is also about understanding
+ which different models
+ and effort levels
+ are sufficient
+ for different types of tasks.
+ And capability mapping
+ is about understanding
+ how much human oversight
+ is going to be needed.
+ And unfortunately,
+ and this will be
+ a recurring theme throughout this,
+ this is not something
+ that in general
+ someone can just
+ hand you to learn.
+ You kind of have to learn this
+ by doing it yourself
+ through trial and error,
+ which isn't to say
+ that standards and norms
+ and conventional wisdom
+ can't be helpful guides
+ on this process,
+ but different people's experience
+ with AI
+ is going to be different.
+ One person may find
+ that on every different
+ type of writing task
+ they've had,
+ Fable is by far
+ the better writer,
+ but for a particular
+ type of technical writing
+ that is the writing
+ that matters for you,
+ five, six soul
+ blows it out of the water.
+ Capability mapping
+ is a combination then
+ of broadly what we all know
+ and specifically
+ what matters for
+ your particular
+ function or role.
+ The next skill
+ after capability mapping
+ is context
+ and harness management.
+ Basically how you
+ set the AI up for success.
+ We've talked a lot
+ over the last calendar year
+ about context engineering
+ and more recently
+ harness engineering.
+ Context engineering
+ or context management
+ is all about making sure
+ the AI has access
+ to the information it needs.
+ Going back to that
+ marketing example,
+ there is likely to be
+ a wild difference
+ in how the AI performs
+ for you
+ if you provide it
+ with past campaign
+ performance, analytics,
+ subjective reviews,
+ customer feedback,
+ as opposed to just
+ giving it a prompt
+ and hoping that it comes
+ up with something great.
+ Harness management builds
+ on context
+ to give us more ways
+ to help the AI succeed.
+ You can think about
+ the harness as everything
+ that surrounds the model
+ that isn't just the context
+ meaning instructions documents,
+ tool access, permissions,
+ memory and more.
+ Now in both of these cases,
+ some amount of this
+ is going to be governed
+ by your organization
+ but a lot of it
+ is going to be customized
+ by each individual worker
+ and how well they've set up
+ their particular instance
+ of a model
+ to be successful or not.
+ Here we also start
+ to understand
+ that these skills
+ are extremely dynamic.
+ Best practices
+ in context
+ and harness management today
+ will almost inevitably
+ have changed
+ six months from now.
+ There might still be
+ strong core ideas
+ but different models,
+ different harness software
+ are going to change
+ the best practices
+ for what you have to do
+ to maximize the AI's environment.
+ The next skill
+ I'm calling
+ problem and product prototyping
+ and this is my sort of catch-all
+ for the new capability
+ that knowledge workers have
+ to use building software
+ and pushing code
+ that used to work
+ very differently.
+ And I want to be clear here
+ and this is why
+ I use the term prototyping
+ although it's not
+ perfectly accurate
+ that what I am not
+ talking about here
+ is all of a sudden
+ marketers being
+ the software engineers
+ but it turns out
+ that when everyone
+ can use code
+ in a much more robust way
+ a lot of previous work
+ can be done
+ much more effectively.
+ Maybe the most obvious example
+ that is going to resonate
+ across a broad cross-section
+ of you listeners
+ is anything having to do
+ with analytics or data.
+ Continuing our analogy
+ of the marketer
+ let's assume
+ that there's some regular
+ reporting interval
+ for figuring out
+ how well a campaign is doing.
+ Previously, getting all that
+ information ready
+ was probably a ton of work
+ going to each of the
+ different platforms
+ analytics suites
+ downloading what you had
+ access to
+ taking it and moving it
+ into another system
+ like Google Sheets or Excel
+ running analysis on it
+ taking that analysis
+ from one channel
+ and trying to
+ combine it with other channels
+ and then once you actually
+ came to some conclusions
+ turning that all into
+ presentations
+ that could help share it
+ with other parts
+ of the organization
+ that changes
+ fairly dramatically
+ in a world
+ where marketers can push code
+ all of a sudden
+ they can build
+ not only an internal dashboard
+ but the engine
+ underneath it
+ that is automatically
+ ingesting
+ and processing
+ that information
+ in a totally different way
+ instead of having to manually
+ go and get all that data
+ they can connect
+ that marketing analytics engine
+ to the APIs of those services
+ and ingest that automatically
+ the first layer of analysis
+ can come not from them
+ crunching through Excel
+ but by the AI
+ surfacing interesting insights
+ of course where
+ domain judgment comes in
+ is that there is an
+ additional translation layer
+ that's still required
+ to turn that into
+ real actionable insight
+ but all of a sudden
+ a huge amount of time
+ is freed up
+ to ask those sort of
+ judgment style questions
+ and do that sort of judgment style work
+ I truly do believe
+ that even though
+ knowledge workers are not
+ and should not think of themselves
+ as turning into full product managers
+ and software engineers
+ being able to build things
+ to solve problems
+ and do parts of our jobs
+ is perhaps the most significant shift
+ in how knowledge work will happen
+ that we've ever experienced
+ for those of you
+ who have been on the fence
+ it is worth taking the time
+ to go messily clunk your way
+ through codex and clod code
+ which parts of your work
+ could be transformed
+ if you were building things
+ that did the work
+ instead of doing it yourself
+ skill 4 is sort of the matched pair
+ and advanced level of skill 3
+ if skill 3 is all about
+ using the new capability
+ to build software
+ to solve problems
+ of the existing way you work
+ skill 4 is about identifying
+ the new opportunities
+ that building software
+ and pushing code open up
+ in what your job
+ actually consists of
+ instead of asking
+ how can AI help
+ with different parts of my job
+ it's about asking
+ what can we do now
+ that was previously impossible
+ or uneconomic
+ in other places
+ I've referred to the idea
+ of the infinite backlog
+ the idea that every knowledge worker
+ has this endless list of things
+ that they would do
+ if time and resources were no limit
+ agents bring forward
+ that infinite backlog
+ and make a much bigger portion
+ of it actually viable
+ and while I don't think
+ that there's any
+ super general shorthand
+ for how to identify
+ the new opportunities
+ of things that were previously impossible
+ that you should be doing now
+ one small tip that I have seen help
+ is to imagine
+ that your organization gave you access
+ to a team of software engineers
+ and said
+ you can do whatever you want
+ with these folks
+ what would you do then
+ maybe the first layer
+ would be things like we saw in number three
+ where you take a lot of the work
+ that used to be manual
+ and turn it into
+ actual automated or agentic systems
+ but before long
+ you might start to run into
+ totally net new ideas
+ I think we're going to start to see
+ some weird and very cool things
+ like marketing teams
+ from small companies
+ building and releasing games
+ as part of their top of funnel
+ and honestly
+ if you've spent any time around this show
+ you'll know that I think this skill
+ is where some of the most exciting outcomes
+ of AI are going to come from
+ skill five is a meta skill
+ that cuts across all of these things
+ which is the ability
+ to rapidly acquire new skills
+ the speed at which AI
+ changes the opportunity set
+ is incredibly quick
+ and while there is organizational
+ and institutional inertia
+ that will limit
+ how fast new systems
+ and processes can be integrated
+ into the way that the organization
+ works as a whole
+ there is far less inertia
+ in how quickly you are able
+ to integrate new ways
+ in how you accomplish what you do
+ and in fact
+ your ability
+ and your team's ability
+ to integrate those new skills
+ and new capabilities
+ more rapidly
+ probably has net positive impacts
+ on how fast your organization
+ can move as well
+ new skill acquisition
+ is a combination
+ of being able to recognize
+ what new or adjacent skills
+ and capabilities
+ have suddenly become valuable
+ it's the ability
+ to create the right type of space
+ to actually go experiment
+ and learn by doing
+ and applying it
+ to real world environments
+ and it's about the ability
+ to assess the output
+ and understand whether it's actually
+ worth integrating into how you work
+ it is both mindset and discipline
+ skill acquisition becomes
+ not the work of semi-regular
+ upskilling seminars
+ but a continuous process
+ that happens in an ongoing way
+ so those are my five AI engineering
+ skills for knowledge workers
+ again to recap its AI capability mapping
+ context and harness management
+ problem and product prototyping
+ new opportunity identification
+ and rapid new skill acquisition
+ I'm super interested to release this show
+ and see which of these resonate
+ the most with you
+ which ones you're struggling with
+ obviously I'm thinking a lot
+ these days about how to support all of this
+ so your commentary and ideas
+ are very welcome
+ lastly one flag
+ for something that I'm thinking about
+ for a future podcast exploration
+ I think this question of
+ what happens to the next generation
+ of domain judgment
+ if young workers aren't being given
+ the chance to develop that judgment
+ because more experienced workers
+ are simply using AI
+ to do what those younger workers
+ might have previously done
+ is a really fascinating one
+ and one of the answers
+ that I think is interesting to explore
+ is a shift in thinking about AI
+ as single player to AI as multiplayer
+ with a core unit of AI
+ moving outside the individual
+ and to the small team
+ I think that that could create
+ some really interesting new opportunities
+ but that is a subject for a future show
+ for now that's going to do it
+ for today's AI Daily Brief
+ appreciate you listening or watching
+ as always
+ and until next time
+ peace
