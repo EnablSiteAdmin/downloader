@@ -1,0 +1,756 @@
+ The anti-AI conversation is somehow getting dumber and more productive at the same time.
+ This week, a centrist governor who just a year ago was touting AI investment in the
+ state reversed course entirely to sign an extremely strong executive order that makes
+ it much harder for data centers to get built in his state.
+ We also saw a commercial go viral that features a former NFL star turn podcaster sending
+ his urine to a data center.
+ There is no doubt that American animosity towards data centers is at a high and politicians
+ are recognizing it.
+ And yet, as open AI voluntarily pauses their training, and that governor that we were just
+ mentioning before chose an executive order with specific criteria that data center builders
+ could meet instead of a blanket moratorium, I actually think that there's way more
+ positive progress on the horizon than it might seem right now.
+ The AI Daily Brief is a daily podcast and video about the most important news and
+ discussions in AI.
+ All right, friends, quick announcements before we dive in.
+ First of all, thank you to today's sponsors KPMG, Rackspace, Blitzy, and Hyperagent.
+ To get an ad for a version of the show, go to patreon.com.ai-dailybrief, or you
+ can subscribe on Apple Podcasts.
+ And to learn more about sponsoring the show, send us a note at sponsors.ai-dailybrief.ai.
+ Now one thing that I wanted to flag coming up next week, if you have listened to
+ any of my recent episodes on graph engineering or loops, we have got a practical
+ webinar and workshop for you.
+ The premise is that your AI can do a lot more than it's probably doing.
+ If you set it up for success, it can work until the job is done.
+ In this session, we're going to take the sort of agentic loops that developers and
+ software engineers are already using and make them applicable for knowledge
+ workers of all stripes.
+ The first 60 minutes will be a live session led by NewFar Gaspar that
+ explains loops, shows a real loop live in action, explains graph engineering, and
+ has time for Q&A.
+ And then in the next 30 minutes, we'll have a hands-on lab where you can design
+ a loop for your own work.
+ This is completely free and happening next Wednesday, August 26th at 2 p.m.
+ Eastern.
+ And if you register and can't make it, we will send you the recording as well.
+ All the information will be on ai-dailybrief.ai, and I'll see you next
+ Wednesday.
+ We kick off today with a story that really got my goat yesterday but is
+ relevant, even if I disagree with the tone of the reporting because of how it's
+ being received on Wall Street.
+ The TLDR is that the two major AI labs, OpenAI and Anthropoc, of course, are
+ facing increased scrutiny after reports around their revenue this week.
+ OpenAI recently told investors that they'd surpassed a $40 billion
+ annualized revenue run rate while Anthropoc told investors they had
+ reached $65 billion.
+ Both numbers seemed pretty positive at first, showing that revenue was
+ still growing quite strongly despite a summer slowdown.
+ However, capturing the zeitgeist of the pre-IPO period, where as many
+ folks are looking for reasons to not be enthusiastic as they are to pump
+ the numbers, the skeptics think that they've found some weaknesses underneath.
+ On the OpenAI side, the Wall Street Journal dropped a piece called
+ OpenAI's second quarter sales show tepid growth compared with Anthropoc.
+ OpenAI had told investors they saw 18% revenue growth across the entire
+ second quarter to reach $6.7 billion in revenue.
+ However, citing sources familiar with the matter, the journal wrote,
+ its operating margins sank further into the red, pushing the company farther
+ away from profitability ahead of a much anticipated initial public offering.
+ So that is factually accurate, so where's my beef?
+ Well, you, being a smart individual who decided to turn on this show today,
+ might notice that we're pretty deep into August right now and
+ that the second quarter ended at the end of June.
+ If we are trying to understand a momentum story, is it perhaps worth asking
+ what has happened in the subsequent seven weeks since the quarter ended,
+ especially in the context of an industry which moves as fast as AI does?
+ What the journal says about that is the one line, OpenAI has told investors that
+ its growth rate has picked up since the launch of a set of new models in July
+ that people said.
+ But not only does that minimize that this entire new period has been
+ subsequent to the release of a frontier model, but
+ it also suggests that our only sources for this information are the same
+ anonymous sources that they had for the rest of it.
+ But that's not true.
+ OpenAI executives have been sharing precise numbers.
+ CFO Sarah Fryer has been running around giving precise details.
+ And Greg Brockman on CNBC told Andrew Sorkin that July revenue had grown
+ 20% month over month.
+ Not including those very out in the open details only serves to reinforce a narrative.
+ If you ever wonder why people have trust issues when it comes to mainstream
+ media, it's crap like this.
+ But however you feel about my beef with that,
+ it is telling that the Wall Street Journal is finding resonance with
+ the increased scrutiny around these companies reported numbers.
+ That is an important signal in terms of understanding where the market is heading
+ into this pre IPO period.
+ Anthropic however in this case has not been spared scrutiny either.
+ Semi-analysis CEO Dylan Patel took a pretty big swipe at Anthropics
+ preferred accounting methods posting, wow have y'all seen Anthropic ARR?
+ As measured by the last one hour at 2 PM times 8,760.
+ The joke is of course that Anthropic doesn't measure revenue in a way that
+ would pass muster in public markets.
+ They take the past four weeks of API revenue and extrapolate that out to a full year.
+ And whether you agree or not that that leads to an inflated figure,
+ at the very least it's not recurring revenue by the nature of being sold on
+ demand through the API.
+ Now the deeper take came from the main semi-analysis account which posted,
+ Anthropic crossed 40% of ARR from indirect channels like Bedrock Foundry
+ and Gemini Agent Enterprise in the second quarter of 26,
+ with API and B2B making up the vast majority of net new ARR dollars at the labs.
+ The mixed shift matters because indirect revenue isn't monetized the same way direct is.
+ Semi-analysis went on to explain that hyperscalers take a cut,
+ but Anthropic counts their revenue before removing that cut,
+ which can make their numbers look a lot better than their competitors.
+ Again, hold aside the details.
+ The takeaway is that scrutiny is ramping up on two of the largest and
+ strongest companies that Wall Street has ever seen.
+ No one has experienced pricing companies that are growing revenue at 20% a month
+ after ramping from single-digit billions to tens of billions in a year's time.
+ As the IPO comes nearer, expect the noise to increase as analysts figure out how
+ to even wrap their heads around these businesses.
+ You can also expect a lot more novel business model-based approaches to competition.
+ For example, OpenAI is discounting tokens to win a bigger share of the developer market.
+ On Monday, OpenAI announced that GPT 5.6 sold tokens would be half price on
+ OpenRouter and Vercel's gateway.
+ OpenAI had already applied the same discount to the smaller Luna and
+ Terra variants in recent weeks.
+ The discount increases OpenAI's ability to compete with cheaper Chinese models and
+ also positions their models as a better cost efficiency choice against models
+ from Anthropic.
+ This is particularly important on OpenRouter and Vercel gateway,
+ as a lot of users simply allow the router to make that choice automatically.
+ The discounting is already paying dividends,
+ with use of Luna skyrocketing over the past month.
+ It's now the top used closed model on the platform,
+ seeing 40% more use than Opus 5 and Sonnet 5 combined and
+ 6 overall, even including the open models.
+ Now AI bears might warn that this discounting is the beginning of a price
+ war that obviously leads to the AI bubble popping.
+ But OpenRouter isn't necessarily a great place to look for
+ evidence that a price war is actually breaking out.
+ Despite its rise in its big sale to Stripe, OpenRouter is a
+ vanishingly small portion of overall token usage.
+ Meaning that OpenAI can discount pretty heavily on OpenRouter without
+ materially impacting the business.
+ In fact, Semi-analysis once again believes that this is actually a
+ canny marketing ploy due to how the media reports OpenRouter metrics.
+ They wrote, despite being a very small portion of OpenAI's total token
+ volumes, OpenRouter and Vercel are disproportionately impactful
+ because they are two of the main data sources everyone uses to
+ estimate AI lab and model market share.
+ If the 50% price cut is able to more than 2x token volumes for
+ 5, 6 sole over the next month, many investors will likely naively
+ view it as a big win for OpenAI versus Anthropiq.
+ Now staying on the theme of the pre-IPO period, the information
+ reports that Anthropiq is preparing a governance overhaul to
+ give Dario Amade greater control over the company ahead of the IPO.
+ The TLDR is that Anthropiq is preparing to grant supervoting
+ shares to Amade and the other co-founders.
+ Now this stat alone had a lot of people's gobs smacked and
+ I thought Pomsum did up pretty well when he wrote,
+ I don't know what is crazier, Dario only owning 2% of
+ Anthropiq or 2% of Anthropiq being worth about 20 billion
+ dollars.
+ Coming back to the substance at hand, despite the founders
+ roughly 15% ownership as a collective, the supervoting shares
+ would allow them to veto shareholder votes and control
+ appointments to the board.
+ Now to be clear, using special classes of shares to allow
+ founders to keep control of their company has become
+ relatively common in the tech industry.
+ Google co-founders Larry Page and Sergey Brand are
+ credited with pioneering the approach in Silicon Valley
+ ahead of Google's 2004 IPO.
+ Mark Zuckerberg then followed prior to Facebook's IPO in
+ 2012 and more recently we saw Elon Musk take this
+ approach with SpaceX.
+ However, even if these sort of founder shares have become
+ increasingly common, it's not hard to understand why some
+ people are having a different reaction to Anthropiq
+ taking that approach than to these other companies.
+ This is a company which, using their own framing, is
+ attempting to build AI systems so powerful they could
+ have a major impact on the trajectory of society.
+ So powerful in fact, where reports say that their
+ founder believes that they could be the only private
+ company left in the world after out-competing everyone else.
+ That's a scenario where me thinks people are gonna want
+ shareholders and the public at large to have more
+ rather than less control over the decisions that they make.
+ Lastly today, an interesting little story that tells us
+ a bit about how companies are valuing unique data.
+ Google has won a bidding war against AI data labeling
+ service Mercor for the corporate data from Spirit Airlines.
+ The data went under the hammer last week in a
+ bankruptcy auction and Google submitted the winning bid
+ at $10 million, beating Mercor at $7.5 million.
+ What we're seeing is the third big data push of the AI era.
+ First, we saw the AI labs scraping every page of the internet
+ and uploading every available book to train their models
+ on writing and general knowledge.
+ Then the rise of coding agents saw AI labs buying out
+ the code bases of failed startups to build.
+ Now the AI labs are paying up for corporate data
+ to help train their agents to do white collar work.
+ In this case, Google isn't buying customer information
+ or payment records to build a better AI travel product.
+ As that data is excluded from the sale,
+ they're purely interested in mundane
+ internal communications data like email,
+ Slack messages and meeting transcripts.
+ The goal is to use this data to help agents
+ understand how corporations function.
+ Commenting on the bidding war, Mercor said,
+ companies are sitting on decades of records
+ that show how real work gets done.
+ There's a surprising amount of interest in this deal,
+ in particular for the possibilities
+ of other data sources that it opens up,
+ although there's also a lot of skepticism
+ that it's going to actually be valuable.
+ Maybe the most common take was exemplified
+ by Shikadelic who wrote,
+ really, we want to train models to be like spirit?
+ For now, however, that is going to do it
+ for today's headlines.
+ Next up, the main episode.
+ A new study from KPMG in the University of Texas at Austin
+ found that when people work with AI,
+ similar skills don't guarantee similar outcomes.
+ Researchers studied more than 500 early career professionals
+ and found that the best performers consistently amplified
+ the value of AI by guiding, evaluating
+ and refining its outputs.
+ These top performers, called AI amplifiers,
+ weren't defined by what they knew alone,
+ but by how they worked with AI.
+ Learn more about what separates AI amplifiers
+ from everyone else at kpmg.com slash us slash AI amplifiers.
+ One of the more interesting shifts
+ in enterprise AI right now
+ is how quickly the conversation is moving
+ towards infrastructure and operations.
+ As AI moves into core workflows,
+ regulated data environments and agentic systems,
+ enterprises need governed infrastructure and inference
+ that can operate reliably day to day
+ with clear operational accountability built in from the start.
+ As those systems scale, the operating model increasingly
+ becomes part of the AI strategy itself.
+ Rackspace technology is the operator
+ of the full enterprise AI stack,
+ from agents to infrastructure across private cloud,
+ hybrid cloud and edge environments.
+ Rackspace builds and operates governed AI infrastructure,
+ inference and production AI systems
+ for organizations where sovereignty, compliance
+ and uptime are non-negotiable.
+ Therefore deployed engineers
+ stay embedded beyond deployment
+ to help operationalize and run AI in live environments.
+ To learn more about where enterprise AI runs
+ and outcomes scale, go to rackspace.com.
+ Here's why most legacy modernization projects fail.
+ The AI doing the work
+ can't understand code bases at scale.
+ It sees a small slice of context,
+ examines syntax and misses years of decisions
+ distributed across the global application ecosystem.
+ Blitzy solves this the way it solves everything.
+ Grounded in your code before any migration begins,
+ Blitzy's agents reverse engineer
+ the entire legacy system into a persistent knowledge graph.
+ Every dependency, every constraint,
+ every piece of tribal knowledge
+ that used to live in one engineer's head.
+ From that understanding,
+ Blitzy autonomously executes language migrations,
+ framework upgrades
+ and monolith to microservices transformations
+ all validated end to end.
+ One Blitzy customer modernized
+ a $10 million monolithic insurance stack
+ in 16 weeks against a 137 week baseline
+ with coding agents.
+ That's nine X compression.
+ Retire technical debt while accelerating your roadmap.
+ See how at Blitzy.com.
+ That's blitzy.com.
+ This episode of the AI Daily Brief
+ is brought to you by HyperAgent
+ where you run fleets of agents your team can manage together.
+ New users get $1,000 in inference.
+ Forget local agents and chat workflows
+ waiting on your laptop to be prompted.
+ HyperAgent deploys always-on agents in the cloud
+ doing real work across the tools your team already uses.
+ Marketing's agent turns competitor moves
+ into landing pages.
+ Sales' agent enriches leads, drafts emails
+ and updates the CRM.
+ Ops agent chases the paperwork and tracks the budget.
+ Every agent has access to shared context
+ and follows your rules about scope and approvals.
+ It's time you add agents that feel like teammates.
+ Hire yours at HyperAgent
+ built by the team at AirTable.
+ Claim your $1,000 in inference
+ at hyperagent.com slash AI Daily Brief.
+ Welcome back to the AI Daily Brief.
+ Today we are talking about an interesting paradox.
+ In short, the anti-AI backlash
+ as embodied specifically in the anti-data center backlash
+ is fairly undeniably getting dumber
+ or at least more meme driven and more performative.
+ But at the same time,
+ some of the latest shifts do suggest
+ that going forward there may be a bit more room
+ for understanding and collaboration
+ than there has been up till now.
+ So how can these two things be true at the same time?
+ Well, to understand we have to start by looking
+ at the performative and meme side of things.
+ Yesterday, this new liquid death commercial
+ featuring Jason Kelsey, a former NFL star
+ and one half of the New Heights podcast
+ with his brother, Mr. Taylor Swift,
+ released with the theme of mailing urine to data centers.
+ Liquid death is of course known
+ for their provocative ad campaigns.
+ And so something like this
+ isn't all that surprising from them.
+ What's notable is that the advertisers
+ read the sentiment in the room
+ and came to the conclusion that an ad
+ about literally mailing urine to data centers
+ would be popular.
+ Wired's Mac Zeff summed it up perfectly.
+ Unfortunately for the tech industry,
+ hating data centers is now so popular
+ that companies think it will help them sell beer and water.
+ Perhaps they were inspired by comedian Charlie Barron's
+ who called opposition to data centers
+ the most bipartisan issue since beer.
+ Now of course it is not just internet memes
+ where this opposition to data centers
+ and AI and tech more broadly is showing up.
+ Georgia Senator John Ossoff
+ who is currently running for reelection
+ and who is increasingly being discussed
+ in Democratic circles as an Obama-esque
+ uniter candidate for the 2028 presidency
+ has made opposition to tech one of his central platforms.
+ In a recent ad he said,
+ when you step back and consider it,
+ the situation is absurd.
+ Tech Titans dig bunkers and warn us
+ the new intelligence they're training
+ could lead to mass joblessness or human extinction
+ while our Congress debates ballrooms and youth sports.
+ But yes, Dario, you're constant badgering
+ about the number of jobs that could be lost by AI
+ definitely isn't impacting the narrative at all.
+ Unless you think this is just
+ a left-right easy partisan divide issue
+ in the race for Wisconsin governor,
+ Republican candidate Tom Tiffany
+ has dropped an ad labeling his opponent David Crowley
+ as data center David Crowley.
+ As though it were swearing on national TV or something,
+ he posted on XA video clip of David Crowley saying,
+ there's an opportunity for us to really become AI
+ and a data hub not only for the entire country
+ but for the entire globe.
+ But that's not the big news
+ that captured everyone's attention yesterday.
+ Pennsylvania governor Josh Shapiro
+ is another person who's frequently mentioned
+ in Democratic circles as a contender for the 2028 candidacy.
+ Relative to the emerging wave
+ of Democratic socialists of America,
+ Shapiro is moderate and a centrist.
+ Just 14 months ago, Shapiro was proudly announcing plans
+ for Amazon to invest 20 billion into Pennsylvania
+ as part of a large AI infrastructure build out.
+ And so people took notice when yesterday
+ he not only signed an executive order
+ around AI data centers
+ but took an extraordinarily aggressive tone
+ in publicizing that order.
+ He tweeted,
+ effective immediately,
+ I'm putting AI data center developers on notice.
+ If they want to even think about doing business in Pennsylvania,
+ they must adhere to the strictest standards in the nation
+ and get approval from the local community.
+ Pennsylvanians deserve the right to say no
+ to unwanted AI data center projects
+ and block developers who are trying to bully their way
+ into our neighborhoods
+ without addressing neighbors concerns.
+ Journalist Scott McFarland wrote,
+ Governor Josh Shapiro used the following words
+ to describe data center developers today.
+ Predators bullies secretive.
+ In another tweet, he said,
+ I will not allow Pennsylvanians to be bullied
+ by greedy developers and bulldozed
+ by the lawyers working for these big tech companies.
+ I'm putting these developers on notice
+ and letting them know that they will not bully Pennsylvanians,
+ disregard our constitutional right to clean air
+ and pure water and drive up our utility bills.
+ I'm using the full weight of my executive authority
+ to block the objectionable, unwarranted projects
+ and put the nation's strictest set of protections in place.
+ Now among the tech forward community
+ of a place like X,
+ there were plenty of people lamenting this turn
+ from Governor Shapiro.
+ RSI Innovation Policy Analyst Adam Terrier writes,
+ what is this nonsense on data centers
+ from Governor Josh Shapiro
+ about being bullied by greedy developers?
+ Nobody is being bullied into building data centers
+ in their states or communities.
+ They decide willingly
+ if they are going to bring those investments
+ and economic and job opportunities
+ into their states and communities.
+ In fact, just last August
+ while proudly announcing major new AI related investments
+ in the state,
+ including 20 billion from Amazon
+ for major data center projects,
+ Governor Shapiro boasted of how his administration was quote,
+ creating thousands of good paying jobs,
+ generating new revenue for our local communities
+ and making it easier for companies
+ to build and grow in Pennsylvania.
+ He said it was about quote,
+ ensuring the future of AI and innovation runs
+ through the Commonwealth.
+ So was the governor being bullied
+ by greedy developers then
+ or instead just wisely welcoming much needed investments
+ into the future of his state?
+ Sad to see the otherwise level headed Governor Shapiro
+ adopt such outlandish rhetoric.
+ I thought he was the clear leader
+ of the abundance Democrats
+ but this is just more
+ of the old business bashing dem playbook.
+ Investor Shilmona points out
+ that Shapiro is getting pressure on the left
+ and the right on this policy.
+ He said, he has a Republican opponent
+ for governor who is anti-data center.
+ She suggested a total pause in Pennsylvania
+ and voters are pretty anti-data center right now
+ both on the right and left.
+ Adding something we'll come back to in a moment
+ Shil also said, from what I can tell
+ his words are stronger
+ than what the actual text of the executive order says.
+ So he is playing to the polling
+ and while there are some moderate liberal
+ and centrist groups lamenting this shift
+ this is absolutely an indicator
+ of where the political winds are blowing.
+ Just a few hours before recording
+ Axios released a piece called
+ GOP Issues Stark Warning to AI Companies.
+ In a memo that was obtained by Axios
+ the National Republican Senatorial Committee
+ warned that toxic voter views of US data centers
+ are threatening Republicans chances
+ of holding one of their seats in Ohio
+ currently held by Senator John Husted.
+ The memo says, if he loses in data centers
+ get the blame politicians across the country
+ will take notice and they will not go near the next one.
+ This has become a sleeper issue
+ for the entire election cycle.
+ And making that point pretty crisply
+ if shockingly is the fact that
+ recent polls have consistently showed
+ individual voters having more opposition
+ to having an AI data center in their community
+ than to having a nuclear power plant.
+ And making the point that this is indeed
+ at least partially about AI
+ that poll that I was mentioning
+ actually asked about data centers twice
+ when asked if they would support a data center
+ to power digital services
+ like online search and video streaming.
+ 35% said that they would support
+ as opposed to 53% who said that they would oppose
+ whereas when the question was a data center
+ to power artificial intelligence
+ just 27% said that they would support
+ and 62% said that they would oppose.
+ That's compared to by the way 34% support
+ and 57% opposition for a nuclear power plant.
+ Historian Aaron Aster writes,
+ I've been trying to say this for months now
+ the argument about data centers
+ is only partly about the environmental,
+ energy or economic effective data centers.
+ It's also about AI
+ and whether people embrace it or not.
+ A lot of people don't see AI as progress at all.
+ So certainly a lot to be concerned about
+ but how then outside of the need
+ for an interesting and contrarian title
+ could I also suggest that things
+ are simultaneously getting better?
+ Well, first let's think about the critique of AI companies
+ that they're behaving irresponsibly.
+ With that background open AI yesterday announced
+ that they were actually pausing
+ certain types of training voluntarily.
+ Sam Altman tweeted,
+ we've paused some frontier RL training
+ to ensure that we can meet the appropriate alignment,
+ security and monitoring standards
+ for the new levels of capabilities in front of us.
+ Model progress is now extremely rapid
+ and we always said we would take action
+ if we felt that model capabilities
+ were outstripping the pace of safety and alignment.
+ We care very deeply about AI safety.
+ We believe the entire field
+ will have to coordinate on shared safety standards
+ but will act unilaterally in the meantime.
+ We expect confidence in safety
+ to increasingly set the pace of AI progress.
+ We're optimistic about the alignment work we are doing
+ and we remain committed
+ to making frontier capabilities widely available.
+ Open AI's lead scientist Jacob Pchaki added,
+ we temporarily slowed some frontier training
+ to strengthen security and monitoring.
+ Our largest planned frontier RL run remains on hold
+ while smaller scale training and evaluations
+ help us test safeguards
+ and gather more evidence of alignment.
+ I expect confidence in safety
+ to increasingly set the pace of AI development.
+ We urgently need tools for labs and countries
+ to coordinate on this,
+ which is why I signed Pacing the Frontier.
+ In the meantime, we're taking practical steps ourselves
+ and we'll continue to share
+ what we learn as our approach evolves.
+ Now, as to specifics,
+ Open AI points to two developments
+ that led them to this decision.
+ The first is of course the Open AI Hugging Face incident
+ where an unreleased model escaped containment
+ and actually hacked into Hugging Face
+ going undetected for some amount of time
+ and also they write preliminary evidence
+ that one of our upcoming models Astra
+ may meet the critical cybersecurity capability threshold
+ under their preparedness framework.
+ Now, during this two week pause period,
+ one of the things that they're talking about doing
+ is expanding their ability to monitor AI.
+ They are significantly expanding
+ how they are monitoring the training and testing process
+ saying that they anticipate spending
+ about 20% of inference compute
+ on this sort of monitoring.
+ Now, some jumped in to cynically suggest
+ that this was just an excuse
+ as the company runs into compute shortages,
+ but all the indications that I can see
+ suggest that this is indeed about an understanding
+ that something has shifted
+ not only in terms of capability
+ but in terms of public awareness.
+ Wyatt Walls wrote,
+ I've been doing a lot of AI governance work
+ for enterprise lately.
+ Hugging Face incident has broken through to normies.
+ Many non-technical people like execs,
+ directors and lawyers
+ don't understand why some agents
+ are much riskier than others.
+ If your model is known for hacking,
+ that means more agentic AI projects
+ in the enterprise get held up over risk concerns
+ and more likely people will choose
+ a different quote unquote safer model
+ which is bad for your enterprise business.
+ Your AI escaping at sandbox
+ is not a selling point with CIOs and IT security.
+ Now, in terms of how this will impact all of us,
+ Sam Alvin clarified that the company quote
+ still expects to ship great new models soon
+ and that this change quote impacts further out releases.
+ Prins added,
+ OpenAI has been testing an internal model
+ that has never been publicly released
+ since at least early May.
+ In contrast, Astra's potential designation
+ as critical for cyber was announced
+ less than two weeks ago,
+ which implies that Astra has been subject to testing
+ accounting for the two week pause in July and August.
+ This would seem to suggest
+ that these two models are different models.
+ In line with this theory,
+ Sam Altman's post below promises
+ that great new models will be shipped soon.
+ This is in contrast to Astra,
+ which would be a further out release.
+ Fingers crossed.
+ Now, in the context of our conversation
+ about the potential for a better discourse
+ about AI's risks,
+ I think Arenas Peter Gaste makes a good point
+ when he writes,
+ This is why the original pause AI
+ for six months never made sense.
+ Just pausing arbitrarily
+ when 20 people will have 20 opinions
+ on what the problems are is completely pointless.
+ Now everyone is clear what the issue is.
+ Pause and solve it, much more productive.
+ Fascinatingly,
+ one of the arch-accelerationist figures
+ of the accelerationist movement, Beth Jayzos,
+ retweeted Greg Brockman's announcement
+ about this pause and said,
+ I've got mixed feelings about this.
+ I do agree all cyber systems need to be hardened
+ given the recent jump in capabilities.
+ I don't like this pausing precedent this sets.
+ At the same time,
+ companies will find the right balance of risk and reward
+ as long as competition is healthy.
+ Now to give you a sense of just how nuanced that is
+ coming from Beth specifically,
+ another tweet from around the same time period
+ was him re-sharing Governor Josh Shapiro's announcement,
+ adding the note,
+ decels are traders serving the interests of China.
+ But let's come back to Shapiro's actual announcement.
+ Former Obama and Biden appointee posted,
+ This is one where it is worth reading beyond the headline.
+ While it restricts data center development,
+ the restrictions themselves make a lot of sense.
+ This is way better than the non-solution of a moratorium.
+ The Philadelphia Inquirer shared some of the details
+ of the executive order,
+ including requiring data center projects
+ to sign legally binding agreements
+ to certain transparency and environmental requirements
+ in grid, such as water conservation standards
+ and early and transparent public notification
+ of proposed projects ahead of key local approvals,
+ prohibiting any state agency
+ from signing a non-disclosure agreement
+ related to a data center project,
+ instructing the Department of Environmental Protection
+ to publish a publicly accessible map
+ of current permitting information
+ for all proposed data center projects,
+ mandating that the projects bring their own electricity generation
+ and pay all costs associated with increased energy usage
+ and requiring a community benefit agreement
+ that includes promises to hire and train local employees
+ and developer investments in schools or infrastructure.
+ Now, I don't want to be dismissive
+ of the devil and the details.
+ Even these provisions could absolutely have been written
+ in a way that it is an effective ban,
+ even if it pretends not to be.
+ However, just from a principle standpoint,
+ anyone who's heard me rant about
+ what I think data center builders
+ should be providing to the community
+ will have heard some version of basically all of these things
+ coming from my mouth at various points,
+ mandating that the projects bring their own electricity
+ generation and pay all costs associated
+ with increased energy usage.
+ That's just the Trump pledge
+ that he had everyone agreed to earlier this year.
+ Shouldn't really be anything controversial about that.
+ The community benefit agreement,
+ including promises to hire and train local employees,
+ as well as investments in schools and infrastructure.
+ This is what you're starting to see
+ from companies like Metta
+ who are going hard on this point.
+ When it comes to environmental standards
+ and transparency around them,
+ one of the problematic memes for data centers
+ is factually inaccurate arguments
+ about their environmental impact.
+ So while this is the area where I believe
+ has the most room to turn into effective bans
+ depending on how the rules are written,
+ nothing could be better for combating those memes
+ than actually meeting strict requirements imposed
+ by local government.
+ And lastly, we get to what I think
+ is one of the most important pieces of this,
+ the prohibition against NDAs.
+ In Jasmine Sun's recent reporting about data centers,
+ one of the things that came out most strongly
+ was not just blanket opposition to AI,
+ but a feeling that people didn't have agency
+ in their own lives as the world changed around them.
+ NDAs become a totem and living embodiment
+ of that lack of agency and control.
+ They are a tool for denying people access
+ to the information they need
+ to make up their minds about something
+ that is going to affect them.
+ I don't care if it makes it harder to do business now.
+ The only way to start building trust back
+ is to have all of these conversations and dealings
+ happen out in the open with full transparency.
+ So am I happy that Governor Shapiro
+ is using these populist trope words
+ like bully and greedy?
+ No, I am not.
+ Not only because of a disappointment in Shapiro,
+ who I don't really have feelings about one way or another,
+ but more because he's good at being a politician
+ and it reflects the signals that he's getting.
+ But do I think that there is more room
+ for positive progress
+ in the context of even a very strict EO like this one,
+ as opposed to a blanket moratorium?
+ Absolutely without question.
+ I will take any set of rules that can be debated
+ and interacted with 100 times out of 100
+ out of a blanket ban.
+ My personal opinion is that moratoriums
+ are an increasingly popular political tool
+ because of how blunt an instrument they are.
+ If people's fears come back to in some way or another
+ of fear of change
+ or a feeling of a lack of control of change,
+ there is no more direct action
+ than saying that change isn't allowed to happen,
+ which is what a moratorium does.
+ But as emotionally satisfying as that might be
+ for people who are feeling the challenge of change,
+ that does not make it a good policy.
+ I don't wanna be overly optimistic here.
+ And unfortunately, I think that Jason Kelsiad
+ says more about where the average person is
+ than the nuance between a moratorium
+ and what Josh Shapiro gave us.
+ But practically speaking,
+ in Shapiro's non-moratorium executive order,
+ I see the thin thread of an opportunity
+ and you better believe I'm gonna grab it.
+ For now, that's gonna do it for today's AI Daily Brief.
+ Appreciate you listening or watching, as always.
+ And until next time, peace.
