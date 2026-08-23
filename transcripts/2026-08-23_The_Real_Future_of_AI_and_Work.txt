@@ -1,0 +1,609 @@
+ You know it's a really boring conversation. Will AI take all of our jobs? This unfortunately is
+ the conversation about jobs that the AI industry has wanted to have for far too long. But finally,
+ we are starting to get a little more thoughtful consideration as more time passes. And it turns
+ out AI doesn't just take all the jobs. What AI does do is change the entire landscape of how
+ we work on both individual levels on team levels in terms of what we can individually
+ inspire to in terms of what our teams can aspire to, in terms of how companies should organize
+ themselves, in terms of what skills we should prioritize. And all of those are the really
+ interesting and productive conversations to have about AI and jobs. And that is exactly what we
+ are talking about today. The AI Daily Brief is a daily podcast and video about the most
+ important news and discussions in AI. All right, friends, quick announcements before we dive in.
+ First of all, thank you to today's sponsors Blitzy, Robots and Pencils, Harbor and HyperAgent.
+ To get an ad for a version of the show, go to patreon.com.ai-dailybrief or you can subscribe
+ on Apple Podcasts. And to learn more about sponsoring the show, send us a note at
+ sponsors at aidailybrief.ai. Now, keep an eye out in general at aidailybrief.ai. In addition
+ to the website having the full summaries of each episode broken into the key quotes, key numbers,
+ et cetera, you can also find out about upcoming events like our free webinar coming up this
+ week on August 26th about agentic loops for knowledge workers. And you'll also get a lot
+ more information about upcoming training programs. The next iteration of our executive agent
+ leadership program led by NewFar Gaspar is kicking off after Labor Day. And again,
+ you can get all of that information at aidailybrief.ai. Now, today's episode is of course a weekend
+ long read slash big think episode. And our friends over at every have the perfect big
+ think content for right now. Every recently announced their first conference called thesis.
+ And alongside it, they announced a new project called thesis statements that will have 100
+ builders and thinkers write short essays about the future that they envision coming with AI.
+ Every CEO, Dan shipper put it this way. We believe there is a bright future for human work
+ after automation. And we believe that there's a small group of humans who know what it looks
+ like because they live the answers every day. But their ideas are still largely missing from
+ the mainstream discourse about AI. That's why we're creating a public record of what people
+ at the frontier are seeing now. So we can get these ideas to as many people as possible.
+ For those of you who want to go check it out for yourself, you can find this at every
+ dot to slash thesis dash statements. I will of course include a link in the show notes.
+ And what we're going to do is look at a set of these first 25 statements,
+ read the short essays that go along with them. And then of course, I'll give my thoughts,
+ we're going to organize them into a few categories. And the first category will call
+ foundations. And it is Dan himself, who I think puts a fine point on the thesis that
+ surrounds all of this with his short essay after automation, there will be more human work
+ than ever. Dan writes one thing CEO, knowledge workers and investors seem to agree on is that
+ AI is a threat to jobs, the economy, safety and human meaning. But if you talk to anyone in the AI
+ industry or to early adopters outside of it, you'll hear the same thing we've noticed internally
+ here at every there's more work to do than ever. I don't believe there will be a tipping
+ point where things flip and the jobs are gone. The new reality is the opposite.
+ The more we automate the more expert human work there is to do. Here's why AI commoditizes the
+ residue of human expertise, whatever can be made explicit enough to train on that collapses the
+ value of default model output and creates demand for what's different. Demand for what's different
+ is demand for human experts even as we approach artificial general intelligence.
+ Every is a team of almost 30 people and we haven't fired all of our employees in favor
+ of agents. We haven't ditched software as a service products in favor of vibe coded apps.
+ We still hire humans to do customer service with a lot of agent assistance and we still hire human
+ writers and editors and engineers. Sure, employee agents take over more of the stable,
+ repeatable, well-framed layer of work, but there is a lot of work that still requires
+ a human being in the loop. We've found over and over that for any kind of complex task,
+ the best way to get great work is to have an AI and a human going back and forth in
+ the same workspace. Humans are still vital. In every example, the agent needs a human in
+ order for the work to well work. The further away an agent gets from a human who is in
+ charge of making sure it works well, the less well it works. Someone has to point it at the
+ right thing, decide whether the output is good, catch the places where it is wrong,
+ and turn the result into a real life decision or process. That's because the current
+ generation of models only knows about work that has been done. Humans know about what
+ needs to be done right now. Humans are alive to a specific time, customer,
+ code base, and conversation in a way the training corpus isn't yet. The aliveness
+ isn't just having more current data. We come to the moment from somewhere with a continuous,
+ constantly new perspective of our own, running wants, running concerns, and a running read on
+ what matters, which changes what we see. Making expert work cheaper does not therefore
+ simply replace experts. It creates more situations where expert judgment is needed.
+ A great start to this whole project from Dan, but before I comment on this
+ particular section, I actually want to pile on one more. This one is from former strategy
+ consultant and author Paul Millard and is called The People Declaring Work Is Solved Will Still Be
+ Working. Paul writes, There is no after automation unless we can radically expand our modern
+ conception of work. For now, we are stuck in what I call a job-shaped reality distortion field.
+ We flatten any conception of work down to activities with a job description and a paycheck.
+ In this reality, we turn humans into numbers and talk about abstract topics like layoffs,
+ employment rates, weak links, bundles of tasks, and lumps of labor. Work is much bigger than this.
+ This month I have been busy, soothing my newborn at 4 a.m., transporting my three-year-old
+ to school, cooking at home, responding to emails, and carving out a little time for writing,
+ which may earn money or not. Despite accusations of wasting my talents and being
+ unemployed, my days are full of work and I am fulfilled. At the same time,
+ we hear loud pronouncements from 23-year-olds in Silicon Valley declaring that work is solved.
+ In two years, maybe three, there will be nothing left to do. But then who will change my daughter's
+ diaper? The thing that makes me laugh about these pronouncements is that they come from people
+ drunk on work, waxing philosophical between all-night coding sessions. But if you ask them
+ if their lives are designed to round work, they'd say no because their job is optional.
+ They can job-hop or take sabbaticals all while getting the things humans crave.
+ Things like dignity, challenge, purpose, from the lives they inhabit,
+ lives centered around work. People without such lives are mystified.
+ What do you mean work is ending? To them, a job is not optional. The work doesn't end
+ when you leave the office. We don't yet have language big enough for where we are going.
+ We live in an era in which people have an easier time imagining the end of the world
+ than life with a free Tuesday afternoon. We need to take off our job goggles and see
+ that our lives are already full of work. If we took the time to look at work,
+ not just in job-shaped form, we might find our way forward.
+ So in these two essays, you have two very different ends working towards the same middle,
+ the idea that there will always be more work. Now for Paul, who you just heard,
+ this is in the fact that the substance of our life is full of all sorts of work,
+ even if it's not the kind that comes with a laptop and a tie. Dan is a little bit
+ more on the nose and using work in the way that most of us think about work,
+ the work that we do for our jobs. I myself am firmly in the There Will Be More work camp,
+ and not only because I think Dan is right that we should expand our perspective
+ on the substance and meaning of what we do beyond the office walls,
+ but because literally even in the context of those office walls,
+ I just think AI unlocks radical new horizons to traverse. It's as though we've been
+ playing in one tiny lit quarter of what seems like it might be a huge room.
+ We stay over where we've always been because that's the only part that's lit up,
+ but suddenly someone comes in and throws the lights, and the size of the room
+ is actually monumental compared to what we had thought. The reality of humanity is that we will
+ race to discover and do more and build more and create more. And so I even think that Dan
+ is understanding it when he just points to the continued need for human expertise.
+ Not that any of his points are wrong, but that the larger reason there will be
+ more human work than ever is because of a radical expansion of what we can all do.
+ But let's now transition into some specific discourse around companies and how
+ businesses will work. The first essay comes from Noah Breyer, co-founder of Alephic,
+ who argues that software companies will outperform software factories.
+ Noah says,
+ The most insidious failure mode in agentic engineering isn't buggy code.
+ It's agents building fundamentally misaligned features, products, and systems.
+ Solving that is a bigger and more interesting problem than reducing defects.
+ This is why I think the software factory is the wrong metaphor for AI engineering.
+ The challenge is less how to stamp out the same door panel every time with Sigma quality
+ than how to evolve a system in line with our vision, values, and architecture.
+ In that sense, the process is closer to Andy Warhol's factory than Ford's car factory.
+ Both are focused on throughput, but Warhol was more concerned with ensuring all work
+ aligned with a single creative vision. The hardest problem for a business is still
+ creating a vision and keeping an entire team of humans and now humans and agents and
+ humans with agents building toward it from the system architecture down to the individual lines
+ of code. As I learned long before agents existed, achieving this is much more like building a
+ startup than assembling a car. Too much of the industry treats software as a problem to be
+ optimized and solved. That may be true for code writing and testing, but the better
+ metaphor is staring us in the face. It's a software company, not a software factory.
+ A factory is one piece of a larger organization where layers of interdependent
+ systems interact and move at different speeds. But a company is and always has been a collection of
+ agents brought together to collectively build something. Understanding the motivations of
+ those agents is what it takes to build a successful software factory and conveniently
+ exactly the job of a software company CEO. Noah's essay here starts to point to something that I
+ think that the enterprise world of AI users actually understands better than the startup
+ world of AI users. That technology, without human and institutional systems around it,
+ is just another set of buzzwords. Exactly how and to what ends we build those systems
+ and reimagine those institutions though is the question. And that brings us to our next
+ post from investor and writer Tina Hough. Boring infrastructure will win. Tina writes,
+ your customer decides to stop using your customer relationship management software at 2am.
+ Why? The sales rep realized that your $30,000 annual contract for your CRM only gives you
+ $12,000 in value. There was no meeting, no negotiation, because the sales rep was an
+ agent. Agents are not loyal. They are rational actors. They look at the numbers in milliseconds
+ and make changes whenever it makes sense for the business, even if it is in the middle of the night.
+ They are, in a way, ruthless. Your software can be easy to use and look good, but AI agents
+ neither see nor care. Some companies will become winners by building headless architecture,
+ which is software built for machine to machine communications. Those companies won't
+ have any human users, only agents. Other businesses that do well are in areas where
+ you can't move fast and make mistakes, like regulatory approval, banking, and compliance
+ systems. These companies aren't competing to be the most sophisticated but to be the most
+ efficient at things like having wire transfers delivered securely. Over the next few years,
+ the companies that own this layer will have an edge in gathering the intelligence about who
+ should do what and when. As the capabilities of the models converge and start to make the
+ same sorts of decisions, companies will compete less on having the best model and more on the
+ systems that connect those decisions to real-world outcomes. Some of these essential
+ systems manage task routing, data access, workflow orchestration, and rule enforcement.
+ Companies that are serving specific customers with specific use cases like these will win
+ over broad agentic use cases. These business models are like toll roads. If you don't want
+ to pay, you've got to build your own bridge, and that could take years and cost hundreds
+ of millions for compliance. That's why in the end, the less glamorous work may be the most
+ rewarding. Sonola gives us the idea that companies will change, and Tina takes a look
+ from the outside in as one of the ways that they will change is rational and
+ emotionless digital agents doing more of their bidding, creating a whole new set of
+ support structure around them. But what does this mean for the leaders who are trying to
+ figure out how the work that they do and their teams do should change?
+ For that, we turn to Sumit Singh, former Andreessen Horowitz partner and now
+ managing partner and founder of WorldBuild, who writes founders who AIFI existing
+ workflows will lose. I've spent the last eight years as an investor watching
+ the same pattern repeat. That era has ended with the advent of generative AI.
+ As an investor, I'm excited. AI has finally opened up the potential for real
+ innovation that's been missing since the mobile revolution. But I see founders
+ building specialist AI products as if they were building the same tools of the
+ last decade. Those who are playing by the old framework are about to make a big
+ mistake. The businesses that will fail in the AI era are those that start
+ with an existing workflow and AIFI it. The ones that will survive will
+ leverage models unique, nuanced properties to invent new workflows that were
+ not technically possible before. I call these post-skeumorphic apps.
+ Skeumorphism is the trap of assuming that a new technology should look like what
+ came before. Early mobile apps constantly fell into this pattern.
+ They replicated the physical world, like the trash can icon that looked like an
+ actual garbage bin. But they weren't exploring what our
+ phones could uniquely do. The apps that broke through also broke this
+ trap entirely. Uber didn't digitize the taxi dispatcher's desk. It asked,
+ what becomes possible when everyone has a phone in their pocket that knows where
+ they are? The phone became a remote control for your
+ life, as investor Matt Kohler has said, for food,
+ DoorDash, for rides, Uber, for groceries, Instacart.
+ They didn't adapt existing workflows, they invented new ones.
+ AI is at the exact same inflection point. The founders who will win are
+ asking a different question. What becomes possible now?
+ What work can we invent that only AI makes possible? The winning
+ applications will discover new workflows and we don't even know what
+ these workflows look like yet.
+ Every AI coding tool on the market does the same thing first.
+ It starts writing code. Blitzy does the opposite. Before writing a single line,
+ Blitzy spends days reverse engineering your entire code base.
+ Thousands of agents ingest millions of lines mapping every dependency, every
+ undocumented constraint, every architectural decision made over the
+ last decade. The result is a dynamic knowledge
+ graph that understands your software the way a principal engineer would
+ after 30 years in the building. Other tools guess at context with
+ grep searches and markdown files, Blitzy never guesses.
+ It builds true understanding first, then delivers over 80% of entire
+ software epics autonomously. Validated, end-to-end tested,
+ production grade pull requests. That's why Fortune 500 engineering
+ teams trust Blitzy with the code bases that matter most.
+ See for yourself at Blitzy.com, that's blitzy.com.
+ One thing I keep seeing in enterprise AI, companies hedging across every cloud,
+ every model, every framework, or paying a GSI for a pilot that never ends.
+ The team's actually shipping, they've picked a lane, and they move fast.
+ That's one of the reasons I like today's sponsor, Robots and Pencils.
+ They've gone all in on AWS. They're an advanced tier and AWS pattern
+ partner and they ship production AI coworkers in 45 days.
+ That's led to them doing some of the more interesting work I've seen on AI
+ coworkers. And by that I'm not talking about chatbots,
+ I'm talking about actual agentic systems that sit inside a business architecture
+ and do real work. That kind of focus matters if you're an
+ enterprise leader trying to get something real into production,
+ or an AWS rep trying to move a customer from interested to deployed.
+ Request an AI briefing at robotsandpencils.com.
+ One conversation with Robots and Pencils and you'll know.
+ Every episode we cover the competition between open AI,
+ Anthropics, SpaceX AI, Google and Meta. Chances are you've already
+ formed an opinion about who's leading. But every AI lab is taking a
+ different approach, building different technologies,
+ forging different partnerships and developing a unique ecosystem.
+ Harbor Capital Advisors AI Lab Ecosystem ETF Suite gives investors a way to gain
+ exposure to the AI ecosystem they believe is best position for success.
+ Search Harbor AI Lab Ecosystem ETFs wherever you invest,
+ or follow at Harbor Capital on X to learn more.
+ Visit harborcapital.com for a prospectus containing investment objectives,
+ risks, fees, expenses and other important information.
+ Read and consider it carefully before investing.
+ Risks include principal loss and artificial intelligence related risks.
+ Harbor ETFs are distributed by Foresight Fund Services LLC.
+ Harbor is not affiliated with AI Daily Brief and the funds are not
+ affiliated with, sponsored by or endorsed by any AI lab.
+ This is a paid advertisement and not personalized investment advice.
+ Investing involves risk, including possible loss of principal.
+ This episode of the AI Daily Brief is brought to you by Hyperagent,
+ where you run fleets of agents your team can manage together.
+ New users get a thousand dollars in inference.
+ Forget local agents and chat workflows waiting on your laptop to be prompted.
+ Hyperagent deploys always-on agents in the cloud,
+ doing real work across the tools your team already uses.
+ Marketing's agent turns competitor moves into landing pages.
+ Sales' agent enriches leads, drafts emails and updates the CRM.
+ Ops' agent chases the paperwork and tracks the budget.
+ Every agent has access to shared context and follows your rules about scope and approvals.
+ It's time you add agents that feel like teammates.
+ Hire yours at Hyperagent, built by the team at Airtable.
+ Claim your $1,000 in inference at hyperagent.com.ai Daily Brief.
+ Now, Sumit, understandably given that he's coming from his experience at A16Z,
+ is looking at this from the standpoint of startups and what they build.
+ But I think that this is every bit as true, if not more true,
+ for legacy enterprises who are in the midst of figuring out
+ where AI can provide the most value.
+ I have often broken this into two different categories of AI.
+ Efficiency AI and Opportunity AI.
+ There is, to be clear, nothing wrong with efficiency AI.
+ Doing the things that you need to do faster, cheaper, better is a good thing,
+ and it is a perfectly reasonable place to start.
+ However, to assume that this incredibly powerful capability unlocking technology
+ will be constrained to doing things the exact same way that they've always been done,
+ just by an agent instead of a human, is to fundamentally misimagine what is possible.
+ Opportunity AI is all about asking those questions about where you can go that you
+ couldn't go before because you have AI in your corner.
+ It is going to be much more difficult and take much more iteration and experimentation
+ to figure out where the greatest opportunities of Opportunity AI
+ actually lie for your particular business.
+ This is why I'm constantly beating the drum of needing to create space for experimentation
+ and not prematurely cut off or overly ROI-ify your AI efforts inside the enterprise
+ as to do so will be to bias people towards those applications,
+ which are just the same old things, but a little cheaper or faster.
+ There is another dimension of this that I haven't spoken about as much,
+ but is why I'm a little skeptical and aggregate of startups whose only job
+ is to watch what people do to train agents to do the same thing.
+ The idea that agents are going to do the same work that we do in the same way
+ has never struck me as making a lot of sense.
+ Agents are almost inevitably going to do things in different agent-native ways,
+ presumably that will be more efficient and native to their strengths,
+ but which will also require another level of organizational integration
+ to make sure that those new agentic processes can be synced with humans as well.
+ Still, I think to meet broader point that we can't think that the new world
+ is just going to look like the old but more efficient is a very, very important one.
+ Writer Tom Critchlow starts to explore this a little bit.
+ In his contribution to the thesis statements,
+ the company with the best clock will beat the company with the best model.
+ Tom says,
+ Before the 1800s there was no universally agreed upon time,
+ but as trains got faster it became more important for each station to agree on what time it was.
+ Noon couldn't mean two different things in London and Bristol,
+ otherwise you'd always be late or early for your ride.
+ The railway system therefore synced the clocks,
+ and the result was the standard time and time zones that still exist today.
+ Now we need to change the clocks again.
+ AI has introduced faster thinking,
+ but we haven't yet coordinated our workflows to keep pace.
+ Agents operate in seconds, teams meet weekly.
+ Finance plans quarterly, leadership revisits strategy annually.
+ Each part of the organization inhabits a different present,
+ each made using a different version of reality.
+ We need a new standard time,
+ a new coordination mechanism for the age of AI,
+ call it standard status.
+ This will be a continuously updated record of goals,
+ decisions, permissions, and constraints shared by humans and agents alike.
+ This sounds like an engineering problem,
+ ingest the context, generate a status,
+ and continually update it so that workers can stay in sync.
+ But staying in sync is not the same thing as staying aligned.
+ The next challenge is to grapple with the ambiguity inherent in the way we work.
+ Team meetings, financial plans, and annual planning were always part ritual,
+ designed as formats to keep individuals and teams aligned, heard, and motivated.
+ Can we just let go of this theater in favor of standard status,
+ or will we need to continue the human process of just checking in?
+ When it comes to alignment, the company with the best clock
+ may soon beat the company with the best model.
+ But only if it remembers that knowing the time
+ is not the same as knowing what the moment requires.
+ Now on this front,
+ one of the things that I'm going to be exploring a lot this fall
+ is a shift from single player AI to multiplayer AI,
+ from individual agents to team agents.
+ And I think a lot of these aspects of coordination
+ and new systems designed around a new type of coordination
+ are going to be the substance of some of those conversations.
+ So far we've been talking just about the organization,
+ but what about the individual?
+ Even though these folks are pretty much all in the group
+ of being quite sure that there will be jobs that remain after AI,
+ many of them think that those jobs will look somewhat different.
+ Oboe CEO Nier Zikerman writes that jobs AI can't do will scale.
+ Technological revolutions always trigger the same cycles.
+ Jobs shift from ones that are easy to automate to ones that aren't.
+ An unprecedented productivity is unlocked.
+ We'll see the same shift with AI.
+ There will be an obvious reduction in jobs
+ related to concrete and verifiable tasks.
+ But there will also be a significant rise in things that AI cannot do well,
+ but which can now be done at unprecedented scale with AI.
+ LLMs have proven exceptionally good at taking over concrete tasks
+ that are easily verifiable, such as coding.
+ These jobs will fade away.
+ But due to structural flaws,
+ LLMs are quite limited in their ability to perform tasks
+ that require ambiguity, open-endedness, and creativity.
+ These are the jobs that will thrive.
+ Creative enterprises will take off for the same reason
+ that digital cameras, digital audio workstations,
+ the internet, and social media turned us all into creators.
+ Roles requiring organizational management and communication
+ will become more important than ever,
+ as will those that require human interaction.
+ Systems-level roles will also flourish
+ as the need to oversee droves of agents' rises.
+ Take the film industry.
+ The rise of video generation models
+ has recently stirred up speculation
+ about the durability of moviemaking.
+ But human actors acting out stories
+ created by human screenwriters aren't going anywhere.
+ Those are creative enterprises that only humans can do well,
+ yet all the other stuff that goes into a movie
+ from financing to casting calls to managing logistics
+ will be streamlined to levels never before seen.
+ This will allow artists to take more creative risk
+ and to do things that were previously
+ neither technically nor economically feasible.
+ It will take several decades,
+ but job markets will eventually have far fewer roles
+ made up of busy work
+ and more roles made up of capabilities
+ that humans uniquely possess.
+ Now, one of the things that I like about this whole thesis series
+ is that one of my beefs
+ with the future projections from the AI industry
+ has been a historic unwillingness
+ to get into the specifics.
+ That's what I tried to address with an episode
+ from earlier this year
+ called The New Jobs AI Will Create.
+ Whether you agree or not with the analysis,
+ I'm glad to see a lot of these authors
+ digging into that exact question.
+ Another who does that is Joe Hudson,
+ founder of the Art of Accomplishment.
+ He writes that wisdom work will replace knowledge work.
+ Before AI says Joe, knowledge set you apart.
+ Knowing more meant earning more,
+ but as models swallow entire fields overnight,
+ wisdom, skills like emotional clarity,
+ discernment, and connection
+ is what keeps you indispensable.
+ AI models don't sleep or burn out.
+ One highly trained model
+ will soon be able to outperform an expert
+ in physics, law, and engineering
+ simultaneously at any hour.
+ Imagine a world where all your knowledge is irrelevant,
+ akin to the ability to build a fire today.
+ Occasionally useful but mostly unnecessary
+ in a world with light bulbs,
+ central heating, and stove tops.
+ AI will also make it harder
+ for brilliant people to get away
+ with culturally destructive behavior.
+ For decades, extraordinary knowledge or skill
+ created a protective moat around difficult colleagues.
+ People muttered, that's just how they are,
+ and kept the peace.
+ But when a model can draft the brief,
+ diagnose the anomaly,
+ or optimize the market strategy in seconds,
+ and do it politely,
+ why keep paying the emotional tax of a brilliant jerk?
+ But you don't have to be a talented blowhard
+ for your skills to be at risk of AI disruption.
+ The leverage has shifted from what you can do
+ to how you show up while doing it.
+ When knowledge is no longer scarce,
+ what remains valuable?
+ Wisdom. Wisdom is how to live.
+ It is the residue of mistakes
+ metabolized by time and reflection.
+ It can't be rushed,
+ and it can't be copy pasted.
+ It isn't embodied as it felt in the body experience,
+ guidance from the inside.
+ No matter how intelligent AI becomes,
+ it can't live your life for you.
+ It can't feel your body signal
+ in a high-stakes negotiation,
+ sense the hidden fear in a boardroom,
+ or hear the unspoken know
+ behind a client's polite words.
+ That's why tomorrow's economy
+ will prize wisdom workers.
+ You can get answers from AI,
+ but how you use those answers takes wisdom.
+ Built first founder Bethany Crystal
+ thinks it goes beyond just wisdom.
+ Weirdness, she says,
+ will be the best human advantage.
+ Bethany writes,
+ Back in high school,
+ I was known only by my appointed nickname,
+ wheeliebaggirl.
+ As the only kid with a rolling backpack,
+ I was made fun of mercilessly
+ and spent a lot of time alone
+ re-alphabetizing my business card collection
+ or adding rubber bands to my basketball-sized ball.
+ I didn't mind.
+ As a child of the early internet,
+ being strange and peculiar was the standard.
+ Then the web grew up,
+ optimized itself,
+ and asked us all to do the same.
+ I listened. I got normal.
+ And then it all changed again,
+ this time with AI at the forefront.
+ Today, I run a company solo
+ that would have required five humans
+ in the pre-AI age.
+ But the biggest surprise
+ isn't that AI has made me more productive,
+ it's that it's made me weird again.
+ AI has reintroduced
+ a playful, experimental way of working.
+ The 9-to-5 is becoming decoupled
+ into a series of project-based interests
+ with a focus on craft and passion.
+ I'm building bingo card apps
+ for my friends
+ and hyper-personalized playlists
+ for my clients.
+ I relaunched my blog
+ as a Choose Your Own Adventure experience.
+ It's not making me any money,
+ but it's something I dreamed about doing for years.
+ Back in school,
+ those quirky habits and extreme niches
+ would get you pushed around the playground.
+ But in a post-AGI world,
+ they're the only things that keep you human.
+ And if you view the return to weirdness
+ as a call it unexpected benefit of AI,
+ this idea of broader,
+ perhaps unexpected benefits
+ is one that runs throughout
+ a number of the other thesis statements as well.
+ Abstract Group co-founder Emily Vernon,
+ for example, argues that AI
+ will spur a resistance to mediocre ideas.
+ Emily says,
+ brand as a concept isn't that complex.
+ It's a good idea that compounds over time
+ when executed consistently.
+ AI is certainly helping with the consistency part,
+ but a good idea is still hard.
+ It's now even harder
+ because AI makes mediocre ideas irresistible.
+ Why spend six figures in six months
+ building your brand
+ when you can generate something passable,
+ even tasteful,
+ with a few quick prompts for free?
+ It's not taste that we should be tracing.
+ Transgressive filmmaker John Waters
+ called to arms
+ as to break free of the tyranny of good taste.
+ Now that tasteful but forgettable brands
+ are cheap and easy to generate,
+ that tyranny is more oppressive than ever.
+ Instead, we have to be unpredictable.
+ Creative professionals have always known
+ that great ideas are unpredictable
+ and neuroscience confirms it.
+ The brain is tuned to both notice
+ and remember surprises.
+ It registers predictable as forgettable.
+ As AI's whole premise is being predictable,
+ this is where we fit in the loop.
+ So how will we foster more unpredictable thinking?
+ The same way we always have,
+ but with more intention.
+ Getting off the grid to hunt for new inspiration,
+ ditching recommendation algorithms,
+ muting comments and noise,
+ rewarding the hard work of creating good ideas.
+ A brand has to repeat one idea forever.
+ To make it last, make it an unpredictable one.
+ One final theme that runs throughout,
+ and will be the substance of the last mini essay
+ that we'll read,
+ is the idea that for each of us personally,
+ the shift in the world
+ and in the way we work,
+ might enable a broader shift
+ in our relationship with the world around us.
+ Sublime CEO and founder Saria Zout
+ argues that this is a gift.
+ Your attention, she says,
+ will be handed back to you.
+ Don't waste it.
+ For most of human history,
+ physical strength was the barrier holding back progress.
+ Then when the industrial revolution
+ took over the heavy lifting,
+ physical power became cheaper
+ and value moved to what we could achieve
+ with our minds, not our limbs.
+ Now AI is doing for brain power
+ what machines did for muscles,
+ amplifying intellectual output.
+ But as intelligence becomes abundant,
+ value will move again.
+ This time towards the heart,
+ that squishy catch-all for judgment,
+ intuition, taste,
+ self-knowledge, creativity, and wisdom.
+ For while our networks are turning neural,
+ we can't yet replicate the follies of the heart.
+ AI is excellent where success can be verified,
+ but the work that matters
+ rarely has a verifiable answer.
+ What strategy should a company pursue?
+ Which product deserves to exist?
+ What idea should we stand behind?
+ More intelligence cannot resolve these questions.
+ AI can tell us what is probable,
+ but it cannot tell us what is worth wanting.
+ This doesn't mean we shouldn't embrace advancement.
+ We should automate whatever can be automated
+ without feeling nostalgic.
+ The old world of work was not great after all.
+ No one should spend their one wild
+ and precious life manually processing insurance claims.
+ We should treat every task machines take over
+ as attention handed back to us.
+ The question is whether we use that attention
+ to manufacture even more work
+ or reinvest it in our squishy skills,
+ cultivating taste, trusting our judgment,
+ making decisions without certainty,
+ and caring about something enough
+ to take responsibility for it.
+ If the last age of work belonged to the brain,
+ the next belongs to the heart.
+ So that my friends is a little taste
+ of what Every has cooking with their thesis statements.
+ It's its own project,
+ but as I mentioned,
+ it is connected to their thesis 27 event,
+ which is happening at the beginning of November.
+ I believe that they have limited room,
+ but you can apply for the event on their website.
+ If you're not following Every and Dan Shipper yet,
+ they're always doing interesting things like that,
+ so I highly encourage it.
+ Mostly, as I said at some point in this show,
+ I'm very excited to see the conversations
+ shifting from big, vague, broad statements
+ to more deeper, more nuanced explanations,
+ if even by nature of the unknowability of the future,
+ they do remain broad and vague.
+ Hope this was a fun way to spend some time this weekend,
+ but for now, that's going to do it for today's AI Daily Brief.
+ Appreciate you listening or watching,
+ as always, and until next time, peace.
