@@ -1,0 +1,388 @@
+ It used to be that when it came to advanced AI models, all that anyone cared about was who was
+ in the lead. Was the model from Anthropic or OpenAI or Google the best one out there?
+ And was it better enough that it meant that I needed to switch right away?
+ These days, things are getting a lot more sophisticated. Not only have all of these
+ models reach the certain critical threshold where they can just do a lot more than any of
+ those models used to be able to do, the sheer volume at which we are using AI on both
+ individual, small team and enterprise levels has created a new moment where people and
+ companies are thinking not only about capabilities but also model efficiency and how they put
+ together complete model architectures or model stacks that can allow for the right tasks to
+ find the right models. Today we're looking at a few ways in which that new moment is showing
+ up in the numbers as well as analyzing a popular AI YouTuber's AI model tier list.
+ The AI Daily Brief is a daily podcast and video about the most important news and discussions
+ in AI.
+ All right friends, quick announcements before we dive in. First of all, thank you to today's
+ sponsors KPMG, Rackspace, Blitzy and Hyperagent. To get an ad-free version of the show,
+ go to patreon.com slash aidailybrief or you can subscribe on Apple podcasts. If you want to
+ learn more about sponsoring the show, send us a note at sponsors at aidailybrief.ai.
+ While you're at aidailybrief.ai, you can find out what else is going on in the community,
+ superintelligence next round of agent training programs for executives is kicking off at the
+ beginning of September and there's a link to register for those. And this week on Wednesday,
+ we have a free webinar and hands-on lab, agentic loops for knowledge workers,
+ which will try to take a thing that has been very buzzy and hypey in developer circles and
+ make it relevant for all of you non-developers. Again, you can find all of that at
+ aidailybrief.ai. The sub theme that's going to run through both the headlines and the
+ main episode today is about the growing place of open models in the overall model stack.
+ And that is certainly the subtext of our first story, which is Huggingface apparently courting
+ acquisition partners. Business Insider reports that Huggingface is seeking a $13 billion exit.
+ Sources say they've engaged an investment bank to field offers, but no deal has been
+ reached as of yet. The company's last round came all the way back in 2023 at a valuation
+ of $4.5 billion. That round saw participation from Google, Amazon, Nvidia, Intel, and Salesforce.
+ Since then, the platform has of course only grown in prominence. It started off as a place for
+ developers and researchers and enthusiasts to explore open models, that while of course they
+ were interesting and important in a variety of different ways, weren't really in the
+ consideration set for professional or business type of users. Over the past year, of course,
+ the gap between open models and frontier has closed, with open models crossing critical
+ thresholds that allow them to be integrated into serious business workflows. In an around
+ that change, Huggingface has become a critical piece of infrastructure, hosting the latest model
+ drops that can dramatically change how AI work gets done. AI commentator Rowan Paul wrote,
+ Huggingface now hosts more than 2 million models, 1.5 million datasets and 1.5 million AI apps.
+ A buyer would be acquiring the distribution layer around those assets, plus the workflow
+ that helps developers find an artifact, judge whether it is safe and put it into production.
+ As open models multiply, that coordination layer becomes harder to replace.
+ Both Stripe's purchase of OpenRouter and this new interest in Huggingface look like a bet on
+ persistent model fragmentation as the future. AI testing catalog writes,
+ To be honest, for NVIDIA it would make a lot of sense. And Jun Song expands,
+ if NVIDIA acquires Huggingface and actually taps into that data,
+ they could easily drop an open weight model that beats China before the end of the year.
+ Certainly it is the case that one of the under followed NVIDIA products is their
+ Numotron series of models. But if you are paying attention, you certainly get the sense that NVIDIA
+ is getting more and more serious about open models as a major piece of the competitive stack,
+ which could make this type of deal pretty interesting. Adding some further heft to that idea,
+ on Thursday, independent tech journalist Eric Newcomer reported that Poolside had accepted what
+ amounted to a partial acquisition deal from NVIDIA. NVIDIA will pay $6 billion for a
+ non-exclusive licensing deal to access Poolside's technology, alongside a billion
+ dollar equity investment at a $12 billion valuation. Poolside was founded in 2023 by a
+ former GitHub CTO to train open source foundation models geared towards software development.
+ As part of the deal, NVIDIA will hire over 100 Poolside engineers away from the company
+ to work on future iterations of their, yep, exactly, Nimotron models.
+ Sources said that this is the bulk of Poolside's engineering team, but according to the
+ letter sent to Poolside investors, quote, this is not an acquisition and it is not
+ an Aquahire. A key distinction is that unlike other huge Aquahire deals in recent years,
+ the founders and key leaders will remain at Poolside and will continue operating the startup
+ with a focus on unspecified research projects. Sources said the plan was to staff up the
+ Nimotron team for an attempt to build the world's most powerful open models,
+ to rival Chinese labs like DeepSeek and Moonshot specifically. In that same letter to
+ shareholders, Poolside's founders wrote that the deal was intended to create a future where
+ AGI, quote, would not be a closed technology controlled by a few but one built by many out in
+ the open. Elie Bacausche of Prime Intellect wrote, wow, this is kind of a shock. From what I understand,
+ NVIDIA bought the model factory part of Poolside and a lot of employees, researchers,
+ got offers from NVIDIA. Founders staying at Poolside is unusual, wondering if they will
+ just become a neocloud slash compute provider since I don't see any mention of PIC,
+ Poolside Infrastructure Company here. The Wall Street Journal reports that the deal
+ came together in a hurry over recent weeks as a result of a busted fundraising round.
+ Poolside founders wrote to shareholders, at the end of last year we had a six week window in which
+ to raise $2 billion to pay for a 40,000 GB 300 cluster coming online in January. We didn't close
+ it in time and we lost the cluster. They said they dusted themselves off and got back to work
+ but quickly realized that they would run out of compute and capital as soon as next year.
+ In their view, NVIDIA was the perfect partner to carry on the work of building
+ a frontier open coding model. Now just to add further heft to the idea that NVIDIA is
+ going deeper on model training, last week the information reported that the company is taking
+ part in the latest fundraising round for data labeling startup Mercor and notably NVIDIA used
+ Mercor for reinforcement learning on their last two nemotron models. On Sunday night,
+ the information added reporting that NVIDIA is also participating in a new fundraising round
+ for Perplexity. The round would value Perplexity at $30 billion, a 50% markup from their last
+ fundraising round almost a year ago. Sources said that NVIDIA was initially interested in
+ a licensing deal that would allow them to hire some staff but are settling for a normal equity
+ investment. Now I think the chattering classes in the AI world are going to have a lot to say about
+ this one so I would expect we'll hear more about it but the point is that it's very clear that
+ across all of these deals NVIDIA is putting serious consideration into research, talent,
+ training data and the app layer as they look at the growing importance of the open source
+ frontier. Now back to NVIDIA's core business, the information again reports that NVIDIA has
+ begun notifying customers that the price for top-end Grace Black and Vera Rubin chips will
+ increase by as much as 17%. The change applies to chips already ordered and set to be delivered
+ next year. The price for a full 72 chip rack of Vera Rubins is expected to reach $8 million,
+ adding $5 billion to the cost of building a gigawatt of compute.
+ Writes the information, it isn't clear whether cloud providers that buy NVIDIA chips will
+ eat some of the price hikes or pass the cost to customers that rent the chips.
+ One person with knowledge of the price hikes said cloud providers will almost
+ certainly need to pass on the increases to their customers.
+ Bloomberg suggests the price increase stems from the spiraling costs of memory.
+ NVIDIA already trimmed the amount of memory to be included on some Vera Rubin systems,
+ but that hasn't made them immune to cost pressures. Overall, it seems like further
+ confirmation that companies are positioning for a memory shortage that will stretch deep
+ into next year or even longer. Now speaking of positioning to deal with AI
+ Flation, Alibaba has raised $10 billion in a record-breaking share sale.
+ The secondary share sale was executed on Friday at the market close,
+ completing the largest offering of its kind in the Hong Kong market.
+ Shares were down as much as 10% on Monday morning, their largest intraday drop since April of last
+ year. The sale suggests that China is ramping up their AI build-out and starting to pull capital
+ from every available source. Vacer and Ling, the managing director at Union Bank Care Privet,
+ noted this is a departure from Alibaba's tight management of share supply asking,
+ why not bonds? It tells me that they may need more funds than we expect for AI investments,
+ and also that they may be rushing to be ahead of other companies.
+ Big Shorter Michael Burry was outspoken on Alibaba following the U.S. tech giants
+ into the AI capex wars. In a sub-stack post, he wrote,
+ Alibaba is making serious inroads in the commodity low-cost LLM bloodbath in the U.S.
+ It is impressive as a disruptive force, and I believe this will continue.
+ But I cannot bless share issuances. This is a new paradigm again for Alibaba,
+ and its return on invested capital will continue to fall.
+ Elsewhere in the Chinese markets, a massive IPO marked the beginning of the humanoid
+ robot hype cycle. Unitry Robotics went public on Wednesday on the Shanghai Stock Exchange,
+ raising $900 million in debuting with a market cap of $9 billion.
+ It appears that the offering was severely underpriced, with the stock surging more than
+ 460% on the first day of trading. Bloomberg intelligence analyst Ian Ma said,
+ Unitry's debut surge signals strong appetite for China's embodied AI sector.
+ IPO proceeds should accelerate AI development and commercialization.
+ Now, the information does note that a huge day one pop isn't all that unusual for Chinese IPOs.
+ In fact, this is now the fourth IPO this year that rose by more than 400% on day one.
+ A range of regulatory guardrails help boost day one performance mechanically by limiting selling,
+ but the Chinese market also features smaller companies going public with much larger returns,
+ which is a little bit different than the scenario here in the U.S.
+ Lastly today, a bit of a narrative violation. Dr. Dre at least isn't worried about AI
+ taking over the music industry. In a profile in the New York Times, the rap legend and his
+ longtime producer Jimmy Iving said that they believe that AI is good for music.
+ Said Iving, I'm very pro AI in music creation. I don't see the downside at all.
+ There will be some crappy music. There's crappy music now.
+ In the studio, when gifted people have AI, they're going to make better records.
+ At the same time, I've been acknowledged, the AI companies have the worst public
+ relations in the history of the world. I don't know the history of the world,
+ but let's just put it this way. They have terrible communication skills.
+ That's why everybody is all up in arms. Dre agreed completely adding,
+ I don't see it as a threat. I think the only people that see it as a threat are the people
+ who have trouble creating. I had a discussion with a few people a few days ago. They were
+ against AI and I'm like, okay, you sound like the person who would have been against
+ the drum machine when it came out. Or synthesizers, right? It's a new tool for
+ creativity. Some people are afraid of learning new things. I'm embracing it. I can't wait
+ to see what's going to happen with this. Dre said that he is extensively using AI in
+ his work, particularly to see how the model might do it differently. Kind of the musical
+ equivalent of brainstorming. Ivy noted that Timbaland is also making use of the tools commenting,
+ there's a lot of closet AI producers out there. Dre added, that's a good way to put it. They're
+ using it. They just don't want to admit it. I think it's a super interesting interview,
+ particularly because music to me has always provided some of the best reason to not be
+ concerned about AI infringing on creativity. If you're interested in that discussion,
+ go dig up the interview I did with Rick Rubin from last year, where we get into why he,
+ as well, views AI simply as a tool in the next generation of things that great
+ musicians are going to use to create great music. For now, that's going to do it for
+ today's headlines. Next up, the main episode.
+ A new study from KPMG in the University of Texas at Austin found that when people work with AI,
+ similar skills don't guarantee similar outcomes. Researchers studied more than 500 early career
+ professionals and found that the best performers consistently amplified the value of AI by
+ guiding, evaluating, and refining its outputs. These top performers called AI amplifiers weren't
+ defined by what they knew alone, but by how they worked with AI. Learn more about what separates
+ AI amplifiers from everyone else at kpmg.com slash us slash AI amplifiers.
+ One of the more interesting shifts in enterprise AI right now is how quickly the
+ conversation is moving towards infrastructure and operations. As AI moves into core work flows,
+ regulated data environments, and agentic systems, enterprises need governed infrastructure and
+ inference that can operate reliably day to day with clear operational accountability built in from
+ the start. As those systems scale, the operating model increasingly becomes part of the AI strategy
+ itself. Rackspace technology is the operator of the full enterprise AI stack, from agents to
+ infrastructure across private cloud, hybrid cloud, and edge environments. Rackspace builds and
+ operates governed AI infrastructure, inference, and production AI systems for organizations where
+ sovereignty, compliance, and uptime are non-negotiable. Therefore, deployed engineers stay embedded
+ beyond deployment to help operationalize and run AI in live environments. To learn more about
+ where enterprise AI runs and outcomes scale, go to rackspace.com. Every AI coding tool on the
+ market does the same thing first. It starts writing code. Blitzy does the opposite. Before
+ writing a single line, Blitzy spends days reverse engineering your entire code base.
+ Thousands of agents ingest millions of lines, mapping every dependency, every undocumented
+ constraint, every architectural decision made over the last decade. The result is a dynamic
+ knowledge graph that understands your software the way a principal engineer would after 30 years in
+ the building. Other tools guess it context with grep searches and markdown files, Blitzy never guesses.
+ It builds true understanding first, then delivers over 80% of entire software epics
+ autonomously. Validated, end-to-end tested, production grade pull requests. That's why
+ Fortune 500 engineering teams trust Blitzy with the code bases that matter most.
+ See for yourself at blitzy.com. That's blitzy.com.
+ This episode of the AI Daily Brief is brought to you by Hyperagent, where you run fleets of
+ agents your team can manage together. New users get $1,000 in inference. Forget local
+ agents and chat workflows waiting on your laptop to be prompted. Hyperagent deploys always-on
+ agents in the cloud, doing real work across the tools your team already uses.
+ Marketing's agent turns competitor moves into landing pages. Sales' agent enriches
+ leads, drafts emails, and updates the CRM. Ops agent chases the paperwork and tracks the budget.
+ Every agent has access to shared context and follows your rules about scope and approvals.
+ It's time you add agents that feel like teammates. Hire yours at Hyperagent,
+ built by the team at Airtable. Claim your $1,000 in inference at hyperagent.com slash AI Daily
+ Brief. Welcome back to the AI Daily Brief. One very common kind of content that you see
+ on social media these days is the tier list. Even back since before social media became a thing,
+ people have always loved lists. It's why there's a billboard, and a Forbes list,
+ and so many other examples. But on the internet, especially in the short-form video era,
+ we really, really love putting things into tier lists. In other words, ranking them on a sort
+ of grading ABCD type of scale with the very top being S tier, which depending on who you ask
+ stands for either Supreme or Superior or just nothing and just S tier, and you just know what S tier
+ means. Over the weekend, AI entrepreneur and content creator Theo put together an AI model tier list.
+ And as they do, it generated a ton of discussion. At the top of the list, he had Fable 5 and S tier,
+ GPT-56 Sol was in A, Kimmy K3, DeepSeek V4 Flash, and GPT-56 Luna were in B,
+ GROC-46 and Muse Spark 1.2 were in C, then below, yes, Muse Spark 1.2, down in D tier were Opus 5,
+ Sonnet 5, GLM-53, GPT-56 Terra, and Cursor slash SpaceX AI's Composer 2.5, DeepSeek V4 Pro was
+ in F tier, and down in their own sad tier below F, called the Google tier was Gemini 37 Flash and
+ Gemini 31 Pro. Now we're going to explore this idea of a model tier list today, not just because
+ it's fun to debate, although it is, but because one of the main things that's happening right now
+ is a diversification of our model stacks. This is certainly happening on an individual level
+ and increasingly it is happening on a business level, where organizations aren't simply picking
+ one model or another, but building an infrastructure that can move between models based on different
+ needs and different tasks. There is even a category of businesses that are made to do
+ exactly this, the router companies, the best known of which open router was just acquired
+ by Stripe for $7 billion. And even mainstream media is picking up on the idea that the AI model war
+ is no longer just about the pure state of the art, although of course they're doing it in a very
+ incomplete kind of way. You might have seen this chart from the Financial Times flying around
+ social media this weekend. The header of the chart is Anthropics best model Fable 5 has
+ drawn limited sales, and it shows that across business spend on Anthropic, Opus 4.8 remains
+ by far the most dominant model. In the last few weeks as Opus 5 has come online,
+ it has also outpaced Fable 5. In fact at the moment, Sonnet 4.6 and Fable 5 are at pretty
+ common levels. Now for some folks this is very surprising. Investor Dan Robinson wrote,
+ This is pretty surprising to me and makes me rethink some assumptions.
+ Are so many enterprise use cases really saturated by Opus? I can't really imagine
+ not wanting frontier intelligence even for simpler tasks. Now his comment section
+ reflects a lot of the discourse about this chart that's flown around X in other places,
+ which is to say that it's confidently sure that businesses in general are making a very
+ conscious decision not to buy Fable because it's too expensive without either A,
+ understanding the context of where this data comes from, or B, having any real experience
+ with what AI in the enterprise actually involves. This data comes from the Ramp AI index,
+ and was shared by Ramp's lead economist Eric Arazzian about two weeks ago.
+ Now the Ramp team is great and the work they do putting out economic analysis of AI
+ is really good and incredibly valuable to the industry. But with this one it was pretty clear
+ to me that they had missed the analysis. When Ara introduced the chart he added the summary
+ statement, a model so powerful it was briefly banned and yet businesses don't think it's worth the
+ price. Except I don't think that businesses making a conscious decision that Fable 5 isn't
+ worth the price has very much to do with this at all. It certainly might be a part of it,
+ but one thing that was completely missed in the diagnosis was the fact that Fable 5 has a
+ 30-day data retention policy. It was part of the provisional safeguards that came with it when
+ the model came back online after being shut down by the government. That, all on its own,
+ is enough for a huge number of enterprises to say absolutely not. There's just no way that
+ causing all sorts of serious infosecond data concerns justifies upgrading to the next model
+ when the models that don't have that data retention policy are still quite powerful.
+ And if you need evidence that this is in fact a big part of this,
+ just look at how aggressively in the past week OpenAI have been pushing
+ their zero data retention policies for frontier models. Now to Ara and Ramp's credit,
+ he actually came back later and said, a lot of replies from employees who say they aren't allowed
+ to use Fable because Anthropic is required to retain prompts for 30 days for US government
+ safety checks. And that's not the only thing here. As Simon Smith points out,
+ this data not only comes from Ramp, which is an extremely tech forward company that only
+ other pretty extremely tech forward companies are interacting with, but comes specifically from a
+ token and spend management product that users are using to try to minimize costs. Simon writes,
+ Ramp data overall suffers from selection bias, and this data suffers from it even more so.
+ This is from their token and spend management product, so users are predisposed to focus
+ on cost control. Fable simply isn't cost effective for most tasks. There's also the
+ startup world blind spot showing through here, where the idea that it's shocking that enterprises in
+ general haven't adopted a model that's just a few months old kind of misses the glacial pace at
+ which most enterprises move. Shocking though it may be, I hear from people every single day who
+ are still using GBT 5.2 and other models from nine months ago, because that's what their companies
+ give them access to, which is not to say that the leading indicators don't suggest that
+ enterprises are in fact getting more model fluent and building more complete model stacks.
+ This week, for example, the information profiled AT&T and reported on their attempt to use open
+ source models to cut down on their AI bills. AT&T's plan, according to Vice President of
+ Data Science Mark Austin, is to hold spending with open AI in anthropic flat over coming years
+ and slowly supplant that use with open models. The company has around 100,000 staff and has
+ embedded AI into workflows across every department, ranging from coding and financial analysis to HR
+ and customer support. The vast majority of AT&T's AI use is internal, and the company claims that they
+ are already using open models to service 40% of employees AI queries. They plan to ratchet that
+ percentage up to between 60 and 70% over the coming years. Austin said that he's found that open
+ models are just as good or better than previous generation models from anthropic or open AI,
+ which were already up to the task. AT&T still uses frontier models for advanced tasks like
+ generating code, but for simpler use cases like summarizing a PR, AT&T is now using an open model.
+ Austin said we expect that to just keep getting better going forward.
+ By the way, it's worth noting that the models that AT&T is using include NVIDIA's Nemotron,
+ as well as open models from Meta and Google. AT&T is also making extensive use of model
+ routers to drive further savings. For AI coding, Austin said that the use of a router has
+ decreased costs by as much as 56% while quality only fell 2%. Now when it comes to competition
+ with China, although at the moment they're not using any Chinese models, they are analyzing the
+ risks of including them in the mix. And one thing which could change how they view that equation
+ is that Austin noted that switching to open models allowed them to host part of the
+ service in their own data center stocked with NVIDIA NAMD chips, which was often cheaper
+ than renting compute from cloud providers. The point being that thinking about what
+ different models are good for compared to one another is in fact more than a vanity exercise
+ and will be something that enterprises do more of. Even if the Financial Times is just grabbing
+ a chart that they can use to reinforce their pre-existing narratives.
+ Now back to Theo's list. Theo didn't only publish the list, he put a companion video with it.
+ And to give a few of the highlights from that before we get into the takes, let's talk
+ first about GPT-56 Sol at A tier and Fable 5 at S tier. On 56 Sol, he says,
+ It's capable of things I never thought AI would ever be able to do. It's unbelievable what you
+ could do. It's my default model I use for most things most of the time, but it's not the most
+ intelligent model I use. It's still not my favorite for writing important code I actually
+ hope to merge. Now on Fable, he writes, Fable knows more than any model I've interacted with,
+ unbelievably thoughtful. He notes that it still trips over things and touches things that it
+ shouldn't sometimes, that it takes unnecessary shortcuts and occasionally loses track of
+ what it's doing. He calls Fable 5 a genius that needs to be tamed whereas 56 Sol is a
+ slightly dumber robot that does exactly what you tell it. Interestingly, even though he rated Fable
+ 5 as the only S tier above GPT-56 Sol's A tier, he said, If I had to pick, I would pick Sol.
+ It's the model I default to. I would miss Sol more than Fable.
+ But Fable is the best model. It's the model that writes code I want to merge.
+ It's the model I trust to double check work from other things. It's the model I talk to
+ about hard, deep things with things I want to build or areas I want to explore.
+ Fable 5 is the next generation. 56 Sol is an unbelievable model that feels next generation
+ while still being built on the last generation of tech. Fable is that genius at the company
+ that no one wants to work with, but no one wants to fire because they're the smartest person
+ there. If you learn how to work with them, it's incredible. Now what's super interesting
+ about this is that this is pretty similar to my experience right now. On any given day,
+ at any given moment, I am jockeying between these two. And for many tasks, I initiate the task in
+ both of them, and after a little bit of back and forth, decide which one I want to hone in on,
+ which tends to be but is not always Fable. To some extent though, what's way more interesting
+ than the A and S tier is how he ranks the other models. Because the other models aren't
+ trying to compete with 56 Sol and Fable 5. They are meant to do different things.
+ A really great example of this is that Luna, which is presented as the least capable of the
+ three GPT-56 models, he has ranked a couple tiers ahead of the theoretically balanced Middle
+ Terra model. Of Luna at the B tier, he says, it's not there because of coding, but because it is,
+ in his words, smart, fast, and good at a bunch of random stuff. Luna, he says, is probably my most
+ used models by sheer calls to it. Not because I'm doing code with it, but I'm doing a bunch of
+ other stuff with my code. The things that he's referring to are things like categorizing
+ code, pulling from GitHub, reading content. Basically, he doesn't trust it with things that aren't
+ reversible. Now, meanwhile, if Terra, he writes, fits in such a weird place. A lot of these numbers
+ can be gotten for much cheaper with Luna. I'd rather use Sol on high because it's going to
+ be much faster because it generates fewer tokens. I have never chosen Terra for anything and I
+ would be surprised if many people do. It makes sense on a pricing chart, but doesn't make sense
+ in reality for me. And I think what's interesting in what this reflects is that because we are
+ just now coming into this model stack and complex model architecture type of moment, where
+ companies are realistically thinking about different models for different tasks, we're
+ starting to get more conscientious tradeoffs in model design with companies actually competing
+ not just at the state of the art, but for various types of performance efficiencies,
+ based on what they hope people will do with their model. And as that transition happens,
+ it's likely to me that you see a lot of models fall in kind of an uncanny middle,
+ where they are neither frontier state of the art models worth the premium that they cost,
+ but are also not the most efficient or fast models for other types of use cases.
+ For example, although Theo likes Kimmy K3, he reminded people in his video that it's not as
+ cheap as people seem to think, that just because it's open weight doesn't mean it's cheaper,
+ and that in fact, it costs slightly more than Sol on extra high, given that Sol does more with
+ fewer tokens. Now, in terms of other people's responses, you get the impression that a lot of
+ folks are just shilling for their personal favorite, and given that a lot of this analysis
+ comes from X, as you might imagine, one of the most common commentaries was that
+ Grock 4-6 needed to be higher. And yet, one other strand of analysis came from Noah who said,
+ I have zero understanding of how people develop opinions about model now ever since
+ Sonnet 4.5 to be honest. They're all fantastic, bro. Feddy's intern writes,
+ One of the reasons I hope we reach AGI is that I'm tired of these model connoisseurs
+ opining nonstop about subtle pseudo differences between the models. This is starting to
+ look like arguing about your favorite color or your favorite Pokemon. In a few years,
+ we will laugh about all this. Even Theo in his video says,
+ Whether you're using expensive best-in-class stuff like Fable or surprisingly cheap and
+ effective stuff like DeepSeek V4 Flash, it's kind of hard to go wrong. I don't think a
+ tier list is the best way to compare models right now because there's so many
+ axes to compare on. Task capability, cost, token efficiency, speed, etc.
+ And in many ways, what becomes more interesting than the tier list is the combined composition.
+ And an interesting source of data for what that composition might look like and how it's
+ changing comes from Vercel. Vercel CEO Guillermo Rauch recently showed how the balance of open
+ weight models versus closed weight models had shifted on their AI gateway product. In terms of the share
+ of tokens used, on June 24th a couple of months ago, closed model tokens represented around 72%
+ while open model tokens represented around 28%. Two months later, that ratio has largely
+ flipped with closed at 38% and open up to 62%. Now, if anything, the Vercel gateway data
+ is going to be even more heavily biased towards developers as it is specifically
+ positioned as an AI routing tool for developers. And yet to some it still shows where the winds
+ might be blowing. Investor Gavin Baker shared the chart and said,
+ more data that open source AI is taking share from open AI and Anthropic.
+ Super impressive given that the sum of open AI and Anthropic accelerated in July.
+ So net token and AI in for demand accelerated even more than the acceleration we saw at the
+ frontier. In Gavin's estimation, open source AI taking share is positive for AI infrastructure
+ demand as it lowers margins at the model layer and an open source token costs just as much compute
+ to produce as a frontier token. Nothing about open source AI inference is free. Gavin predicts,
+ most likely end state in my opinion is that closed frontier tokens are 60 to 90% of economic value
+ but only 15 to 25% of tokens. Doubling down on the conclusion, investor Daniel Newman adds
+ two very important points here from Gavin. One open source models will be the highest
+ utilization and consumption over closed source. Two frontier will still realize most
+ of the economics because premium intelligence commands an economic premium.
+ MIT's Christian Catalini thinks that it will actually split in three different ways.
+ The first spend category is cheap generalist, which is the commodity open weight models.
+ On the other end of the spectrum is the state of the art generalist,
+ i.e the tokens from the closed labs. And then in the middle in the category he's adding
+ is what he calls the state of the art specialist, those that combine open weights with enterprise
+ proprietary context. Now while obviously Microsoft's models are not open weights, this is the type of
+ thesis that Microsoft seems to be pursuing with their Microsoft Foundry product, which allows
+ companies to use their own data to post train and build on the base of their MAI models,
+ although I think there's a lot of reasonable debate to be had around just how common that
+ will be across all enterprises. What's clear is that we don't live in a world anymore
+ where the only thing that matters is what's the best model. Increasingly it will be important
+ to understand where different models fit for different reasons and even enterprises that yes
+ move more slowly and stay a little bit more connected to a single ecosystem are probably
+ going to want to set up environments where small groups of users can test various approaches
+ to look for these new types of efficiencies. But does this mean that the days of getting
+ excited about the latest state of the art model release are gone? We'll have to see. A lot
+ of chatter that Fable 5.1 is coming shortly, although it appears that OpenAI's Astra has
+ been delayed until September, so we'll have a chance to find out soon. For now,
+ that's going to do it for today's AI Daily Brief. Appreciate you listening or watching,
+ as always, and until next time, peace!
