@@ -1,0 +1,546 @@
+ There's always been a gap between an average AI user and the most advanced AI users, but my goodness
+ has that gap grown. In recently released research, OpenAI showed that the gap between the most advanced
+ users and the average AI user had grown from 2.6x back in January to 8.3x by the end of June.
+ In other words, the most advanced users of AI were using 8 times as much AI as were their
+ average counterparts. The reason, of course, is agents. At the beginning of the year,
+ agentic use cases became viable and significantly upgraded the difficulty complexity and importance
+ of the work that AI could take on. The top users have jumped in headfirst, figuring out how to
+ significantly increase the value they get from their AI usage. The average users, on the other hand,
+ just haven't. But as the power users use agents to take on increasingly valuable work, that gap is
+ just poised to grow. The AI Daily Brief is a daily podcast and video about the most important
+ news and discussions in AI.
+ Alright friends, quick announcements before we dive in. First of all, thank you to today's
+ sponsors KPMG, Blitzy, Harbor, and HyperAgent. To get an ad-free version of the show,
+ go to patreon.com.ai-dailybrief or you can subscribe on Apple Podcasts.
+ And to learn more about sponsoring the show, send us a note at sponsors at aidailybrief.ai.
+ You can also find information on the aidailybrief.ai site. While you're there, you can also find a link
+ to our free webinar and hands-on lab, agentic loops for knowledge workers. That is happening on
+ Wednesday. And even if you can't make it, if you register, we will send you the recording after.
+ And of course, if you were looking for a little bit more hands-on support, our next executive
+ catch-up and executive agent leadership program is starting in a couple of weeks.
+ And you can find a link to that program from the top of aidailybrief.ai.
+ According to roadmap documents viewed by the information,
+ Meta is putting the finishing touches on their consumer agent ahead of release in the coming weeks.
+ Now, this is something we've been hearing about for a while,
+ but we're getting more details as the product becomes imminent. Internally, the product is
+ known as Hatch and sounds like it could be sort of in the Grockbot family of delivering a more
+ streamlined version of an open-claw style agent experience. The company is reportedly looking
+ at using Hatch as part of a new AI agent subscription which could justify a $200 a month price tag for
+ high usage accounts. Meta also plans to launch a new platform on WhatsApp to allow better integration
+ for third-party agents. The platform will reportedly allow multiple agents to coordinate
+ with each other using WhatsApp messages, again which is a mirroring some of the functionality
+ like I said of Grockbot. For what it's worth, this doesn't strike me at all as Meta
+ cribbing off of Grockbot. I think these are just interaction patterns that we're likely to see
+ more of. The rollout could begin as soon as this week as a preview to a smaller group of customers.
+ Finally, in Meta model news, a larger model known as Watermelon is being prepared for an October
+ launch. Back in July, Meta's AI CEO Alexander Wang told staff that Watermelon had already
+ caught up with GPT-55 on internal benchmarks. Now, obviously the frontier has moved forward
+ substantially with the release of GPT-56 and will likely move again by the time October arrives.
+ So we'll see whether Watermelon can actually keep pace or continues to fall in the column of
+ Meta getting closer to the frontier without actually reaching it. Speaking of Grockbot,
+ one of the barriers for a lot of you guys testing it has been its extreme premium pricing.
+ In fact, it wasn't just high pricing, it was kind of confusing pricing. Initially,
+ users weren't sure if they had to subscribe to both Cursor Ultra and Super Grock Heavy,
+ which would be a total of $500 a month to access the service, but then many myself included
+ were able to get it just through Super Grock, which is itself not a cheap subscription.
+ But it was very clear that this was an intentionally rate limiting launch to make sure
+ that things didn't go down with the hopeful anticipation that prices would be reduced later.
+ As of this week, Grockbot is included in the $60 a month Cursor Pro subscription,
+ as well as the $100 a month Super Grock subscription.
+ Speaking of dropping prices, OpenAI is also dropping prices for GPT-56 Sol.
+ Accessing Sol over the API will now cost $4 per million input tokens
+ and $20 per million output tokens down from $5 and $30 respectively.
+ Costs for Luna and Terra were already cut late last month.
+ Many are speculating that this is OpenAI trying to put pressure on Anthropic ahead of their IPO.
+ My guess is that for whatever ancillary benefit that might have,
+ OpenAI is more likely to just be realizing that they've got a new set of challenges
+ based on what we talk about every week here on this show,
+ that especially business customers are not just going to use the most expensive state-of-the-art
+ model for everything anymore and have to think in more sophisticated ways about their complete model
+ stack. To the extent that OpenAI has the compute to deliver their frontier models cheaper,
+ it seems like they've decided it makes sense to do so.
+ Now, following up on news from yesterday, Business Insider reported that Huggingface was
+ courting an acquisition at a $13 billion valuation, and according to sources speaking
+ with the information, part of what might justify their high asking price
+ is that the company is now generating more than $150 million in annualized revenue,
+ which is up 50% from two months ago.
+ Now that number may seem low relative to, for example, the coding agent startups,
+ but Huggingface is a company that has specifically not been focused on generating revenue.
+ 97% of users access the platform entirely for free,
+ including downloading the latest model weights.
+ The primary revenue drivers for Huggingface are premium and enterprise-grade accounts,
+ serving inference and partnerships with hyperscale clouds.
+ Essentially, up until now, the profit-seeking segments of the platform have existed to subsidize
+ the free hosting and distribution of open models.
+ In June, CEO Clam DeLang said that the number of premium accounts had doubled in the first half
+ of the year, and based on that, the platform was approaching profitability.
+ For acquirers, this is very likely not a strict revenue-multiple type of conversation.
+ Subbing up the logic, Jess Fields writes,
+ Huggingface should be worth as much as cursor is, way more than $13 billion,
+ maybe three to four times that, considering that Huggingface is the backbone
+ of the open weights challenging frontier gatekeeping,
+ it occupies a uniquely powerful position in the entire economy.
+ Now, one of the companies that people are speculating on might be an interesting fit
+ for Huggingface is, of course, Nvidia.
+ If for no other reason than they seem to be in the conversation for every acquisition right now.
+ In fact, with a flurry of reporting around Nvidia's deal-making in recent days,
+ some are wondering just what Jensen is building.
+ Over the past week, we've heard that Nvidia signed a deal to license technology
+ and acquire talent from poolside, buy a stake in data labeling company Mercor,
+ and potentially invest in perplexity at a potentially perplexing $30 billion valuation.
+ That's to say nothing of other equity investments in neoclouds,
+ land and power deals, and data center backstops.
+ Some have started to conceptualize Nvidia as the central bank of compute,
+ standing behind the AI economy, as well as setting the price of the key resource.
+ Martin Peers of the Information compared Jensen's approach to that of John Malone,
+ who built up a giant cable TV empire in the 1980s.
+ Another rough comparison point might be Google's approach with their holding company
+ Alphabet in the mid-2010s, when Google restructured the company and created their
+ other bets division to house moonshot investments in Waymo as well as Google Ventures.
+ The basic idea was to reinvest their massive earnings from internet advertising into the
+ broader tech ecosystem, and of course subsequently a lot of those bets have now paid off.
+ Nvidia's approach is obviously different.
+ Rather than fanning out across next generation tech,
+ Nvidia is sticking to the AI ecosystem.
+ Still, they are building up a formidable portfolio of other bets.
+ During their last earnings call in March,
+ they reported $42.3 billion invested in private companies,
+ and the number will certainly be higher when they report later this week.
+ And before we scream up and down shouting circular deal making,
+ one thing that's important to recognize is that part of this is a reflection that
+ Nvidia is more or less tapped out when it comes to reinvesting in their own business.
+ Nvidia does not operate their own fabs, so at this stage growing chip revenue is limited by
+ constraints across their network of suppliers. In other words, constraints they can't control.
+ By turning their investments outwards, Nvidia supports the entire AI economy,
+ and that in turn ensures that their revenues can stay strong for years to come.
+ At least that appears to be the goal as they get even more ambitious with their other bets.
+ Still chips remains the big game, and over on the other side of the world,
+ Taiwanese prosecutors have charged nine people for chip smuggling,
+ including one Nvidia manager.
+ On Monday, the Taiwanese announced nine indictments in relation to a scheme to
+ smuggle cutting edge Blackwell 300 systems into China.
+ In addition to the person who has identified as a manager in Nvidia's distribution business,
+ two others worked for Nvidia partner Supermicro.
+ Earlier this year, a Supermicro co-founder was charged in relation to another smuggling incident.
+ Both Nvidia and Supermicro have indicated the problems are contained to a few rogue employees
+ and that they're working with authorities.
+ To give you a sense of the scale of this incident,
+ the group allegedly ordered 130 Supermicro servers containing Blackwell 300s,
+ with prosecutors claiming that 74 were delivered to buyers in China,
+ while another shipment of 56 were stopped by Taiwanese officials.
+ In total, you're talking about less than 10,000 chips,
+ which is not nothing but certainly not enough to build a frontier training cluster.
+ Lastly today, an interesting peek under the hood around how much AI
+ one hyperscalers employees are using.
+ Business Insider got hold of an internal spreadsheet where Microsoft employees
+ self-report key metrics including salary, bonuses, and AI usage.
+ Now this is not a story about token maxing,
+ as BI found no correlation between token burn and financial compensation or promotions at Microsoft.
+ Both across and within different departments, AI usage was extremely jagged.
+ In the Azure department, the range of monthly AI spend was $1 to $7,500.
+ In the cloud and AI division, the top end went all the way up to $15,000,
+ and in Microsoft Customer and Partner Solutions,
+ there was at least one person who ran up a bill of $28,000.
+ The median AI usage across all the different departments was a little more clustered together.
+ Seven of the eight had median AI usage of right around $150 to $500,
+ with Core AI being the outlier where their median AI usage was $975.
+ Now importantly, this is all voluntary self-reporting.
+ The spreadsheet is maintained to allow staff to voluntarily share compensation figures
+ in an attempt to promote pay transparency.
+ Only a tiny sliver of Microsoft's 223,000 employees overall contributed to this chart.
+ Just 600 US employees, in fact, only 350 of whom reported their AI usage.
+ Still, it gives you a sense of the type of magnitude you're seeing
+ among perhaps the more prominent AI users inside a company like Microsoft,
+ which I think is actually the perfect segue into our main episode,
+ which we will begin now.
+ A new study from KPMG in the University of Texas at Austin found that when people work with AI,
+ similar skills don't guarantee similar outcomes.
+ Researchers studied more than 500 early career professionals
+ and found that the best performers consistently amplified the value of AI
+ by guiding, evaluating, and refining its outputs.
+ These top performers, called AI amplifiers,
+ weren't defined by what they knew alone, but by how they worked with AI.
+ Learn more about what separates AI amplifiers from everyone else
+ at kpmg.com slash us slash AI amplifiers.
+ Blitzy deeply understands your code base before it writes code.
+ Here's the first place that pays off.
+ Security in the age of AI.
+ Vulnerabilities don't live in isolation.
+ They live buried inside millions of lines of interconnected code,
+ where patching one thing quietly breaks three others.
+ That's why surface level scans fail.
+ Blitzy starts from its knowledge graph of your entire application,
+ identifies and surfaces CVEs across the full estate,
+ proactively recommends patches, and can execute the PR.
+ Each fix is grounded in how your systems connect and validates or nothing new breaks,
+ and the knowledge graph dynamically updates,
+ keeping you ahead of an ever-accelerating threat landscape.
+ One Blitzy customer resolved 21 active CVEs across six core microservices in four days.
+ Zero compile errors, every validation scanned clean,
+ months of planned work fixed in less than a week.
+ Security remediation grounded in real architectural context at the speed of compute.
+ Harden your code base at Blitzy.com.
+ That's blitzy.com.
+ If you listen to this show, you likely have a thesis.
+ Maybe it's enterprise adoption, maybe it's compute.
+ Maybe it's a specific lab.
+ Harbor Capital's AI lab ecosystem ETFs let you express it via five actively managed ETFs,
+ each seeking exposure to the ecosystem around one major lab.
+ Anthropic, open AI, DeepMind, Meta, or SpaceX AI.
+ Your view of the AI race in ETF form.
+ Harbor Capital Advisor's AI lab ecosystem ETF suite gives investors a way to invest in
+ the AI ecosystem they believe is best positioned for success.
+ Search Harbor AI lab ecosystems ETFs wherever you invest or follow at Harbor Capital on X to learn more.
+ Visit harborcapital.com for a prospectus containing investment objectives, risks,
+ fees, expenses, and other important information.
+ Read and consider it carefully before investing.
+ Risks include principal loss and artificial intelligence related risks.
+ Harbor ETFs are distributed by Foresight Fund Services LLC.
+ Harbor is not affiliated with AI Daily Brief and the funds are not affiliated with,
+ sponsored by, or endorsed by any AI lab.
+ This is a paid advertisement and not personalized investment advice.
+ Investing involves risk, including possible loss of principal.
+ This episode of the AI Daily Brief is brought to you by HyperAgent,
+ where you run fleets of agents your team can manage together.
+ New users get $1,000 in inference.
+ Forget local agents and chat workflows waiting on your laptop to be prompted.
+ HyperAgent deploys always-on agents in the cloud,
+ doing real work across the tools your team already uses.
+ Marketing's agent turns competitor moves into landing pages.
+ Sales' agent enriches leads, drafts emails, and updates the CRM.
+ Ops' agent chases the paperwork and tracks the budget.
+ Every agent has access to shared context and follows your rules about scope and approvals.
+ It's time you add agents that feel like teammates.
+ Hire yours at HyperAgent, built by the team at Airtable.
+ Claim your $1,000 in inference at hyperagent.com.ai-dailybrief.
+ Welcome back to the AI Daily Brief.
+ One of the best things that's happening right now when it comes to AI narratives, at least,
+ is that we're starting to see a shift away from the accepted without question kind of premise
+ that AI is obviously going to be job-destroying.
+ Now, regular listeners will know my position on this is pretty clear.
+ I am not polyannish at all about the potential scale of challenge when it comes to the transition
+ between two totally different work paradigms.
+ You are inevitably going to see certain types of roles
+ that this new category of technology will obviate the need for.
+ That will cause real personal disruption that society would do well
+ to be ready to support the people affected.
+ The idea, however, that there was going to be some radical and rapid jobs apocalypse
+ was never accurate.
+ On this point, Sam Altman has increasingly gone out of his way
+ to not just have changed his position but to explain that he believes that he was wrong.
+ And to try to explain why he thinks he was wrong.
+ In a recent podcast interview, he said,
+ I thought when we got to GPT-4, which was back in 2023,
+ that very quickly after that there was going to be much more disruption.
+ Software business is up for grabs right away, then it turned out to be.
+ I think I was wrong about a few things, but one in terms of the speed.
+ The economy just has so much inertia.
+ People keep doing the same things, buying from the same company,
+ wanting to use their tools the same way.
+ I think this is actually a positive in many ways
+ and it's going to make this big transition go smoother and slower.
+ I'm grateful for it.
+ But it means we've all been too ambitious on timelines.
+ Even with this incredible technology,
+ society and the economy will adapt more slowly.
+ In other words, as I like to think about it,
+ who needs a pause AI movement when you've got corporations?
+ What's interesting, though, is that Sam actually went farther
+ and recognized that while, yes, institutional inertia is perhaps
+ the biggest driver of the slowdown in the rollout,
+ that that inertia happens on an individual level,
+ even with really advanced users as well.
+ In that same interview, he said,
+ That doing this kind of stuff is what it means to work and be productive.
+ If you asked me, I would never say I like doing it that way.
+ In fact, I'd say the opposite and I'd mean it.
+ But by revealed preference, I have a better way to do it now
+ and I still do it the old way.
+ It makes no sense other than I must secretly like it or feel good about it.
+ I don't think it's even some secret satisfaction, though.
+ I just think we all get stuck in the patterns of how we've always done things.
+ We build intellectual mind muscle memory
+ and the thought of undoing that to go build a new type of mind muscle
+ that is much less comfortable often appears exhausting
+ when we know exactly how long it will take us to do it the old way
+ and we could just get that done right now
+ and move on to whatever it is we actually want to be doing,
+ which is why it's so important to spend time looking at
+ how people who have broken out of their mind muscle memory are doing things.
+ And interestingly, a couple of weeks ago,
+ OpenAI published some research about exactly that.
+ Now, I don't know why they weren't screaming about this article from the Rafters,
+ but if I miss something that's putting numbers around
+ how frontier firms are doing things differently than others,
+ you know that thing was not promoted nearly widely enough.
+ In any case, I only noticed the data when A16Z
+ reposted it as part of their charts of the week.
+ The chart that grabbed mine and many others' attention
+ was this one showing Codex user growth by Enterprise job title.
+ It was indexed back to the beginning of February of this year
+ and in that time, while every role has gone up,
+ it is the non-technical roles that have grown the fastest.
+ Now, of course, part of this is because they had a lower starting point.
+ But to give you some examples, while use among engineering
+ and technical practitioners is up 5x in that time,
+ use in finance and accounting is up 20x.
+ In marketing and communications, it's 26x.
+ In people and recruiting and separately sales and account management,
+ it's up 41x.
+ And in legal, Codex usage is 108x from where it was back in February.
+ Joking but not really joking about the lawyer side of this.
+ Spellbook Scott Stevenson quoted Jack Newton saying,
+ LLMs are for lawyers, what spreadsheets were for accountants.
+ But that was hardly the only data that was available here.
+ The big through-line signal in this piece,
+ which was called enterprise signals,
+ what frontier firms are doing differently, was two parts.
+ First, more work is being delegated to agents.
+ And second, because of that, there is a compounding effect
+ where the firms that are farthest along
+ are getting farther away from the firms that are behind.
+ In other words, agentic use compounds their lead.
+ And importantly, this is not a model question.
+ It's about, as OpenAI puts it, how they put those models to work.
+ Moving from assistance to delegation,
+ giving agents the context and tools to complete complex tasks,
+ and accelerating agentic AI beyond software development.
+ So let's talk about a few of the most interesting numbers.
+ A year ago at this time in August of 25, when GPT-5 was announced,
+ the balance between chat GPT usage and agentic usage,
+ as measured by the output tokens produced by the enterprise
+ interacting with the chat GPT ecosystem in any way,
+ was basically 100% chat GPT tokens and not agentic tokens.
+ Between October and February,
+ the first glimpses of the actual agentic era started to be seen.
+ Codex becomes generally available in October,
+ and a low single-digit percentage of enterprise output tokens
+ are now in that agentic category.
+ In December, GPT-5.2 comes out,
+ and we see a bit of a bump that extends up
+ into the beginning of February.
+ In February, when the Codex app launches for macOS,
+ the percentage balance between chat GPT and agentic usage,
+ again, as measured by enterprise output tokens,
+ was 87% chat GPT to 13% agentic.
+ But then from there, the agentic use cases just take off.
+ We get to March.
+ Codex is released for Windows and GPT-5.4 comes out,
+ and we're now at 73% chat GPT, 27% agentic.
+ Towards the end of April, just a month later,
+ GPT-5.5 comes out and we get the flippening,
+ where all of a sudden, agentic output tokens are representing 53%.
+ And by June, when this data set ends, we're down to 36%,
+ while agentic tokens were up to 64%.
+ Now, keep in mind, this does not mean that all of a sudden,
+ 64% of the times that someone sits down
+ to use an open AI product at work,
+ they're doing something with agents.
+ Instead, what this means is that if you use
+ the amount of output tokens that the aggregate set of prompts
+ lead to, in other words, if you use output tokens as a proxy
+ for the amount or volume of work being done,
+ the preponderance of it, almost two thirds by the time
+ these statistics were captured, is now being agentic work.
+ So point one was that agentic uses up in point two
+ was that the gap between the leading AI users,
+ i.e. the ones using agents the most and the best,
+ and the general enterprise users was getting wider.
+ Open AI defines frontier firms as those in the top 10%
+ of usage in a month, as measured by output tokens per active user
+ with the average firm to be between the 45th and 55th percentile.
+ And providing the best numerical advice,
+ you can see that going back to about April of 2025,
+ throughout the year of 2025,
+ the gap in output tokens per active user
+ between the typical firm and the frontier firm
+ was only about 2x, as in the average user at a frontier firm
+ used about twice as many output tokens
+ as an average user at an average firm.
+ The gap started to widen around October
+ and in January stood at 2.6x.
+ The gap now has absolutely exploded
+ with the distance between the typical firm
+ and the frontier firm now at 8.3x.
+ Overall, while the average firm is using
+ about twice as many tokens as they did a year and a half ago,
+ frontier firms are using 17 times as many tokens
+ as they were a year and a half ago.
+ Now part of this is of course that they're just using agents more
+ but part of it is that they're also better at using agents.
+ To measure this, OpenAI looked at the number
+ of weekly active users who use either plugins or skills.
+ Plugins are of course capability sets
+ that can connect to other applications or data
+ whereas skills are reusable instructions
+ that can help with common workflows.
+ At typical firms, about 9% of weekly active users
+ are using plugins and only about 3% are using skills.
+ At frontier firms, which is again the top 10% of enterprises,
+ 19% are using skills and 21% are using plugins,
+ which is not to say that those frontier firms
+ have topped out in terms of their usage.
+ By way of comparison, at OpenAI right now,
+ 93% of their employees are using skills
+ and 95% are using plugins.
+ But still coming back to the gap between employees
+ at frontier and typical firms,
+ you're talking about two and a third times
+ as many people using plugins
+ and more than six times as many people using skills.
+ And in terms of what work they're deploying this towards,
+ as we saw from that chart that kicked off this show,
+ the fastest growth in these agentic use cases
+ is coming from knowledge workers
+ that are outside software and engineering functions.
+ OpenAI diagnoses it like this.
+ Software, they said, moved first for a reason.
+ Codebases give agents clear context,
+ tests make outputs easier to verify,
+ and progress encoding helps accelerate AI research and development.
+ In contrast, they say,
+ progress in general knowledge work has been slower
+ because many tasks provide limited context,
+ can be difficult to specify,
+ and lack clear criteria for verifying the result.
+ But continued scaling, advances in reinforcement learning,
+ and targeted efforts to improve performance on evaluations
+ such as GDPVAL
+ are bringing more real-world tasks,
+ tools, and work environments
+ within the reach of frontier models.
+ As a result,
+ agentic AI has increasingly found product market fit
+ with general knowledge workers
+ since the beginning of the year.
+ Look, it is great that OpenAI
+ is working hard to have their models
+ and harnesses work better for knowledge work,
+ but stuff that OpenAI has done is not the reason.
+ That agentic use has grown among
+ these non-software engineering knowledge workers.
+ The reason that agentic use has grown
+ among general knowledge workers
+ is that we've started to figure out the patterns
+ that actually allow agents to thrive in our own contexts.
+ So what are those patterns?
+ From this, I'm combining the research from OpenAI
+ about the types of use cases
+ both in chat and agentic across departments,
+ plus our own experience at both AIDB
+ and at Superintelligent
+ to provide a little bit of a picture
+ of what that more advanced agentic use
+ actually looks like in practice.
+ You can see in OpenAI's chart
+ that there's a massive shift in the type of work
+ when you move between chat and agentic.
+ And to be clear,
+ this doesn't mean that the type of work
+ being done with chat is not valuable.
+ Support for writing and communications,
+ knowledge retrieval, and search,
+ those things do bring a lot of value.
+ But agentic takes a lot of those individual workflows
+ and instead moves them into systems-level work
+ that can impact more than just the individual.
+ You can almost think about a use case ladder
+ at the base's generation.
+ Think drafting an email, a report,
+ an Excel formula, things like that.
+ On the second rung is synthesis,
+ being able to take disparate data sources
+ and produce something more complete
+ that is informed by them.
+ Moving farther up the ladder,
+ we have execution,
+ where the AI is actually being tasked
+ with interacting with existing systems
+ and doing things within them,
+ which of course is closely tied
+ to the next level of maintenance
+ where agents are tasked
+ not just with executing something specific,
+ but maintaining a system over time.
+ So for example, if you're looking in legal,
+ the context that people are drawing on
+ is of course things like contracts,
+ policy documents, precedent,
+ as well as any relevant counterparty history.
+ The types of agentic work patterns
+ you're going to see
+ are around things like comparing terms,
+ flagging deviations, drafting red lines,
+ recording decisions, monitoring commitments.
+ Humans will continue to negotiate
+ the material terms
+ to set risk tolerance
+ to approve exceptions and final language.
+ So basically you have a division of labor
+ where the agent is handling
+ coverage and coordination,
+ while people still own risk judgment
+ and accountability.
+ If you go back and look at the difference
+ in the categories of work
+ in the legal field
+ that are being done via chat or agentic,
+ writing makes up a full 57%
+ of legal work in chat
+ followed closely by knowledge retrieval
+ at 20.5%.
+ System operation barely registers
+ at 0.2%.
+ Now you move over into agentic
+ and you've got writing down to 16.2%,
+ knowledge retrieval down to 8.3%,
+ and a whole bunch of new categories
+ coming online in a huge way.
+ Classification and extraction jumps to 4.6%,
+ system operations jumps to 17.7%,
+ workflow automation jumps to 7.7%,
+ and coding, actually building applications,
+ even though these aren't the software engineers,
+ jumps to 32.9%.
+ And you see this pattern
+ in basically every other department as well.
+ Writing and knowledge retrieval
+ with a side of education and guidance
+ remain the preponderance of chat tokens,
+ while agentic gets into deeper systems integration work.
+ Now one thing that I think is going to supercharge this
+ to the next level
+ is the emergence of multiplayer and team AI
+ as opposed to just individual AI.
+ I think that even though you are seeing
+ these frontier users move more
+ into these higher order tiers
+ of execution and maintenance of systems,
+ most of these agents are still operating
+ within individual silos.
+ And my belief is that where
+ a lot of the next generation of gains
+ are going to come from
+ is actually at the intersection of different teams.
+ Ultimately, none of this is all that surprising.
+ It has been clear for a while
+ that 2026 was the year that agents became real.
+ But boy, the numbers do not lie.
+ And while even the frontier firms
+ are still just barely beginning to figure it out,
+ the fact that they seem to be racing ahead
+ and putting more and more distance
+ between themselves and the average firms
+ should be a wake-up call
+ for those who aren't deploying agentic uses at scale yet.
+ This is probably where I should insert a shill
+ for our training programs over at Super Intelligent,
+ but if you are a regular listener,
+ you will already know
+ that those are there and available for you.
+ In any case, this is great stuff from OpenAI.
+ Please keep doing this
+ and please promote it more heavily next time.
+ And of course, for you guys,
+ I appreciate you listening as always.
+ Until next time, peace.
