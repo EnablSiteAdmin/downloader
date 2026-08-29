@@ -1,0 +1,413 @@
+ Which of these sound most exciting to you a new ability for Claude to use a browser window to be able to do tasks for you
+ The ability for chat GPT to effectively switch in and out of temporary mode as suits you a new voice model that not only can faithfully
+ Transcribe what you actually say but even clean it up and get it your intent a new video model from Google with massively more
+ Control ability for actually generating videos that you can use for real things or a totally different video model that takes you less
+ Time to generate the video than it does to watch it
+ These are just some of the new features models and tools that released this week
+ The AI Daily Brief is a daily podcast and video about the most important news and discussions in AI
+ All right friends quick announcements before we dive in first of all
+ Thank you to today's sponsors KPMG, Harbor, Blitzy and HyperAgent. To get an ad-free version of the show
+ Go to patreon.com slash AI Daily Brief
+ Or you can subscribe in Apple Podcasts to learn more about sponsoring the show send us a note at sponsors at aidailybrief.ai
+ And lastly if you listen to today's episode and think to yourself man, I want to use all those features
+ But I feel behind I need to catch up in my AI skills the next cohort of super intelligent training programs
+ Which are incubated over here at AI DB are coming up in September
+ You can find a link to them on the AI Daily Brief website or you can just go to training.besuper.ai
+ Kicking off confirmation that hugging face is being sold and that yes
+ It is to Nvidia the information broke the story late on Wednesday night following the earnings call with their sources saying that Nvidia has agreed to buy hugging face for
+ $12.9 billion now rumors of the deal only started emerging over the weekend
+ And while of course this could have all been going on before anyone externally new it seems like it might have been a pretty speedy
+ Negotiation much of the reporting focused on the strong valuation multiple hugging face only has a hundred and fifty million in annualized revenue
+ Meaning that Nvidia is technically paying around 80 times revenue as a price
+ As a point of reference space X is $60 billion acquisition of cursor was around 15 times revenue
+ Still as I said the other day when I talked about the potential of this deal
+ Nvidia is very much not buying hugging face for their revenue
+ Instead the deal seems to confirm that Nvidia is acquiring their way into a full-stack open business model
+ Hugging face is the premier distribution channel for open models
+ Nvidia's $6 billion licensing deal with poolside announced last week allowed them to hire about a hundred veteran AI researchers to staff up their team and
+ Other investments like their strategic partnership with perplexity give them solid harnesses as well as an app player play
+ What's more over the course of around six months?
+ Nvidia has taken their open model series nemotron from a tech demo to a real contender among open models
+ Akash good to suggest that as much as it might be an offensive play
+ It's also a defensive play he writes
+ Google has run its own TPUs for a decade
+ The labs writing Nvidia the largest checks are the ones working hardest to stop open models for the counterweight when meta or
+ Mistral or deep-seek releases weights millions of developers download them fine tune them and serve them
+ Overwhelmingly on Nvidia GPUs through CUDA custom silicon has no answer for that ecosystem
+ I think the defensive positioning is not just relative to Nvidia's chip business
+ But also it's positioning for the world that we keep talking about where companies simply use a diversity of models
+ And many of their common and core day-to-day processes are run not on the state-of-the-art frontier models
+ But on something open lighter more nimble more customizable a while ago
+ Nvidia spotted that opening and has been careening towards it ever since
+ Now in terms of how folks are receiving it no one has a hard time understanding why Nvidia made the move
+ Fumblur writes
+ Nvidia clearly don't just want to sell the picks and shovels they want to own more of the AI economy built on top of them
+ Jen Luca writes
+ Nvidia owns the GPUs CUDA owns the developers hugging face owns the open source AI ecosystem
+ Jensen is slowly putting the whole stack together
+ Nvidia is becoming much more than a chip company
+ Others are wondering if people will stick around hugging face given its new ownership Todd Saunders writes
+ Hugging face is valuable partly because it is perceived as independent and broadly neutral their users include researchers startups
+ Enterprises cloud providers hardware companies and competitors to Nvidia today developers can use the platform without believing that it is designed to push them towards
+ One vendor it's partially what they love about it
+ An Nvidia acquisition could threaten that trust, but this could be a home run
+ Protham thinks that this is a bigger trend as well
+ They write the real question isn't why Nvidia bought hugging face
+ It's what happens to open source AI when its biggest players start buying the places where it lives
+ Eric Hartford thinks that we will see an opportunity. He writes
+ I'm happy for hugging face for their exit, but this is gonna be a loss for open source AI
+ HF is no longer hardware agnostic. This is an opportunity for a new standard bearer to arise
+ Still, that's the kind of concern that people always have around acquisitions and relative to expecting that to be the case
+ I would suggest that there is a lot more optimism around this particular acquisition than you normally see
+ Which shows what a good job Nvidia has done building trust in the AI community
+ Conrad art writes I can't think of a better company to buy hugging face other than Nvidia
+ And it makes sense as it aligns with what they are doing as a whole
+ I bet we will be seeing loads of more amazing features and ways to train and use models on hugging face going forwards
+ Raman's nom writes such a great fit and such a great push towards plural AI
+ Nvidia sells compute hugging face makes it easy to access a plethora of ways to turn that into value
+ Reduces the odds that any one lab company or nation will monopolize frontier AI
+ The world is better with plural AI
+ Nvidia also reported earnings this week and kind of blew the doors off revenue growth accelerated to
+ 106% over the past year
+ 21 points higher than their growth rate at the end of Q1 quarterly sales for the quarter came in at 96.2 billion
+ tantalizingly close to the 100 billion dollar a quarter milestone that only five other companies have achieved
+ Still while forecasts were ahead of expectations
+ Nvidia is still flagging that growth will slow slightly to 89.5% for Q3
+ CFO Colette Crest said that supply chain snarls would continue to weigh on growth
+ Limiting Nvidia to 70% for fiscal year 2027
+ Nvidia also disclosed that major customers are asking for more time to pay
+ Free cash flow fell by 50% compared to a year ago coming in at 21 billion
+ This fall was mirrored by a 50% rise in accounts receivable
+ Nvidia said the cause was quote extended payment terms on large multi-quarter agreements with certain investment-grade customers
+ Certainly this was the big red flag for investors with days sales outstanding rising from 45 days to 60 days
+ Alongside the numbers Nvidia announced that they are officially back in the Chinese market
+ They reported a small volume of sales of each 200 chips under new export control rules
+ But noted that the figure was well short of the total permitted by the Trump administration
+ Ultimately while there was room to find some negatives in the report
+ It's difficult to overlook the raw sales numbers
+ Nvidia was already shipping an incredible number of chips by last summer and they've almost doubled sales since then
+ Reinforcing that point Amazon announced that they would be buying an additional two million Nvidia chips as they accelerate their data center build out
+ Nvidia doesn't disclose how many total chips they sell per year
+ But it's believed to be less than 10 million meaning that this is a huge additional order that will keep demand solid for years into the future
+ The earnings were enough to drive investors back to Nvidia sending the stock up by 4.8% in after hours trading
+ One interesting sub-story given the unique role that Nvidia is increasingly playing in the AI ecosystem
+ The company has paused revenue sharing deal with neoclouds as they rethink their approach to industry backstabs
+ Less than two months ago Nvidia announced that they would start offering new financing deals where customers could receive credit support in exchange for a cut of the profits
+ This was seen at the time as an improvement on Nvidia's previous model where they would guarantee data center demand and hope that translated into cheaper financing from private credit firms or banks
+ Sources told the Wall Street Journal that this program has been put on hold after some employees expressed concerns
+ There is a belief that the arrangement could attract scrutiny for anti-trust and there were sensitivities around how much control Nvidia would exert over customer businesses
+ The journal noted that the precise reason for the pause couldn't be learned and so theoretically the program could return in the future with some tweaks
+ Nvidia for their part denied the reporting and stated the new business model
+ We introduced in July that opens up compute access to the fast-growing AI ecosystem is still in place and continues to evolve due to high demand
+ Now staying on Wall Street for a minute
+ Believe it or not sales force who we will talk about in the main episode as well is
+ Leading a sass comeback with a strong earnings report six months ago
+ One major market narrative was that software was done for and companies would soon be vibe coding their own sass replacements
+ This is the much discussed sass apocalypse if you remember that term that level of disruption
+ Obviously did not play out and increasingly what we're actually seeing is adoption of AI tools within traditional software products is leading to a revenue boost
+ That was certainly the story on Wednesday night when sales force reported that their agent force product is on track to deliver
+ 1.5 billion in revenue this year up from a forecast of 1.2 billion in the first quarter
+ Overall sales were 11.5 billion for the quarter growing at an 11% pace
+ So AI revenue is still a relatively modest part of the picture
+ This was still enough though for the market to identify agent force as a successful and growing product
+ The stock was up a staggering 22% on Thursday with sales force now just 5% away from filling the entire drawdown from the sass apocalypse period
+ Taking a step back one by one
+ We have seen some of the most beaten-down software stocks deliver solid financials and surge back to life
+ Service now figma Atlassian crowd strike octa have all-stage major comebacks over the past months
+ Keybank analyst Jackson adder noted that these companies haven't even needed to post blockbuster earnings to generate a huge return
+ Said adder we're all coming around to the idea that things are going to be more durable and are not going away
+ That's why you see sales force come out with fine
+ But not stellar results, but you see a really outsized reaction
+ Benny off certainly took a victory lap on the earnings call saying I really want to start here at the beginning and talk about this
+ Sass apocalypse
+ Skeptics said that seats would decline and agent force sales service and slack all seats grew year-over-year
+ Skeptics said customers would leave but attrition was near its lowest level ever skeptic said pricing power would erode
+ But bookings more than doubled quarter-over-quarter and contract length terms improved across all segments new business and renewals and
+ Agentic use of the platform surge six-fold via model context protocol calls and CLA calls apps are not dying
+ Former AIs are David sacks pounced on the news posting
+ The AI capex is a bubble and the sass is dead narratives getting shredded this morning
+ Boxes Aaron Levy writes this week's tech earnings call were a critical reminder of how valuable the relationship is between
+ Software and AI software and agents are going to work together and ultimately grow the size of the IT TAM dramatically as a result over time
+ Now bringing the booming revenue story to the app layer
+ According to new numbers sourced by the information cognition has hit 900 million in annualized revenue
+ That's more than a 3x increase since the beginning of the year for the creators of coding agent Devon
+ And it appears to be a similar story across the board Higgs field an interface wrapper for video and image models has also tripled
+ This year to reach 700 million in annualized revenue
+ Proplexity has tripled their run rate to 750 million open evidence the chat bot for doctors has doubled to 300 million and even
+ Manis after the messy unwind of the meta acquisition claims they have a run rate of 400 million quadrupling from last year and
+ If the total numbers still remain far behind the US leading Chinese AI companies are seeing similar types of growth
+ The information again reports that deep-seek has generated 70 million in revenue this year
+ Which is a 10x increase from their full-year numbers for 2025
+ Now as we round the corner a quick check-in on the policy side of the house a new executive order on AI regulation has stalled out after
+ Drafts were quietly circulated in recent weeks
+ Reports say that the Trump administration recently proposed an executive order that would create a self-regulatory body for the AI industry
+ You might remember this idea starting to gather support after deep-mind chairman Demis Asabis formally proposed it in a July blog post
+ The new body would be modeled on FINRA the self-regulatory organization for the financial services industry
+ Essentially this approach would require AI labs to share notes on security issues
+ conduct safety testing for new models and create regulations that govern the industry
+ Treasury Secretary Scott Besant who for whatever reason has a key role in AI policy
+ Publicly supported the idea
+ Reportedly senior officials drafted and circulated an executive order that would create this new body over the past month
+ And while it's not totally clear exactly why the effort has stalled out some sources flagged opposition from former White House
+ AI czar David sacks as a potential cause
+ During last weekend's episode of the all-in podcast sacks called FINRA for AI a quote horrible idea and a Trojan horse for an open-source
+ Model ban he believes that once the body is set up the frontier labs will push for standards that apply equally to all models
+ Ie standards that open model developers will find impossible to comply with sacks also pointed out that FINRA doesn't have a good reputation
+ For promoting competition and innovation many startups looking to enter the financial industry view FINRA as largely concerned with using regulation to protect
+ incumbents whatever the case for now no FINRA for AI
+ But that doesn't mean that industry self-regulatory efforts are not happening
+ Notably open AI and anthropic and more than a hundred other companies have called for an urgent new approach to cyber defense
+ The call came in the form of an open letter
+ My god the open letters signed by companies across the tech finance and industrial sectors
+ Alongside Google Microsoft and AWS the list also includes companies like Visa General Motors and PwC the letter warned
+ We have a limited window to strengthen cyber defenses in the coming months AI enabled cyber attacks will become far more widespread and
+ Sophisticated as models around the world become increasingly capable the companies and public services our communities depend on from hospitals to water treatment plants to the
+ Infrastructure that powers the internet are at risk today's AI advances are already giving defenders new way to fix weaknesses that have accumulated for years
+ If we act decisively we can use the defender's window to make our digital world much more secure
+ The letter proposes a collective response
+ It asserted that the status quo isn't going to cut it with long-standing bugs unpatched vulnerabilities and technical debt across all
+ Computerized systems the letter called for cyber defenders to be provided with access to better AI tools as well as better coordination across industries a
+ Global response is necessary it argues requiring new partnerships to raise security standards and find new solutions for emerging cyber threats
+ Remarking on the open letter Sam Alvin positions security as more important than competition posting
+ This is a critically important moment for cyber defense with AI. There is not much time to act
+ We are happy if you want to work with us or any of our competitors or partners
+ But please take this moment seriously only an urgent and intense collective response will work
+ Putting an exclamation point on it professor Ethan mollick writes your organization is not spending enough of its effort
+ Bolstering cyber security during the window before open weights mythos class models and harnesses become available
+ The hugging face incident shows us you don't even need intentional bad actors to be exposed to AI hacking
+ Like I said quite a meaty headlines to end the week
+ But for now let's move into the main episode and talk about the slew of new features and tools that you could be using and trying right now
+ A new study from KPMG in the University of Texas at Austin found that when people work with AI
+ Similar skills don't guarantee similar outcomes
+ researchers studied more than 500 early career professionals and found that the best performers consistently
+ Amplified the value of AI by guiding evaluating and refining its outputs these top performers called AI amplifiers
+ Weren't defined by what they knew alone, but by how they worked with AI learn more about what separates AI amplifiers from everyone else at
+ KPMG comm slash us slash AI amplifiers
+ If you listen to this show you likely have a thesis maybe it's enterprise adoption
+ Maybe it's compute maybe it's a specific lab
+ Harbor capitals AI lab ecosystem ETFs let you express it via five actively managed ETFs each seeking exposure to the ecosystem around one major lab
+ Anthropic open AI deep-mind meta or SpaceX AI your view of the AI race in ETF form
+ Harbor capital advisors AI lab ecosystem ETF suite gives investors a way to invest in the AI ecosystem
+ They believe is best position for success search Harbor AI lab ecosystems ETFs wherever you invest or follow at Harbor capital on X to learn more
+ Visit Harbor capital comm for a prospectus containing investment objectives risks fees expenses and other important information
+ Reading considerate carefully before investing risks include principal loss and artificial intelligence related risks Harbor ETFs are distributed by foresight fund services
+ LLC Harbor is not affiliated with a ideally brief and the funds are not affiliated with sponsored by or endorsed by any AI lab
+ This is a paid advertisement and not personalized investment advice investing involves risk including possible loss of principal
+ Blitzy's understanding of massive code bases unlocks autonomous security fixes modernization and new features
+ So what happens when there's no legacy code at all greenfield is supposed to be the easy part clean slate no technical debt
+ But even greenfield moves at human speed once printed a time
+ Blitzy changes the unit of work from the developer to the project autonomously planning building testing and validating entire applications from scratch
+ hundreds of thousands of lines of production ready code one Blitzy customer stood up a brand new application
+ 534,000 lines of code
+ Compressing a 65-week roadmap into two weeks another shipped an entire application with no front-end engineer legacy or greenfield
+ The answer is the same software at the speed of compute build. What's next at blitzy.com? That's bl itzy.com
+ This episode of the a ideally brief is brought to you by hyper agent where you run fleets of agents your team can manage together
+ New users get a thousand dollars in inference
+ Forget local agents and chat workflows waiting on your laptop to be prompted hyper agent deploys always on agents in the cloud doing real work
+ Across the tools your team already uses
+ Marketing's agent turns competitor moves into landing pages sales's agent enriches leads drafts emails and updates the CRM
+ Ops agent chases the paperwork and tracks the budget every agent has access to shared context and follows your rules about scope and approvals
+ It's time you add agents that feel like teammates hire yours at hyper agent built by the team at air table claim your
+ $1,000 in inference at hyper agent comm slash ai daily brief
+ We'll go back to the ai daily brief
+ Just like it is nearly impossible to keep up with the onslaught of ai news
+ So too is it extremely difficult for any one person to keep track of all of the new features and models and tools
+ That come out in any given week
+ Mostly our attention just goes to when there are big model announcements that might more fundamentally shift how we interact with ai
+ Although over the course of 2026 we've also gotten a lot more adept at harness updates as well
+ still sometimes it's worth going through and just taking an inventory of all of the feature updates and quality of life upgrades and new
+ Capabilities that the model and harness companies have released to see if any of them can be relevant for the way that we work
+ And with that in mind today
+ We are going through I don't know a dozen updates that I have seen over the last seven days or so that are things that you might find
+ Extremely useful and practical in the immediate term. First up. We have an update for Claude
+ Claude co-work now has a built-in browser to make web-based tasks more convenient
+ If your task includes something that happens on a website like filling out a form interacting with a web app a
+ Browser window will open alongside your session for Claude to use
+ The feature can also be used for agentic browsing
+ Similar to some of the early features that caught people's attention from AI browsers like perplexities comment or dia from the browser company
+ Claude points out that there is nothing new to install that it's built directly into the desktop app and stays separate from your own
+ Browsers and logins in other words. This is its own browser
+ It's not taking over yours
+ Although for those who want to stay in their own browser that feature exists via Claude and chrome for many this one was a big
+ Old finally Dan shipper from every says they did it folks
+ Santi from Ricardo Libre writes it was about time very good feature
+ Vibe obsesentee gets at why although this seems like a small feature update when you combine it with chat
+ GPT work and other new things like grokbot
+ It all adds up to a fairly meaningful inflection AI
+ He writes went from writing text to browsing the web on your behalf in the same month
+ Or as enums put it feels like the line between AI assistant and AI operator just got a lot thinner
+ Sally stock home writes
+ This feels like a much bigger update than just Claude got a browser
+ The interesting part is that Claude can now actually do the web work instead of just telling you how to do it
+ Need to research something navigate a website fill out forms or complete a task the browser opens inside
+ Co-work and Claude handles the process alongside you
+ We're slowly moving away from AI that just gives answers
+ The next phase is AI that opens the tab and gets the job done now some pointed out
+ Anthropic is at least a little late to the party here
+ Token gremlin says open AI has already had basically this in chat GPT work for weeks
+ Julia CEO Rahul points to the browser agent that they released back in July and basically said welcome to the party
+ Still for many the obvious inspiration for this was grokbot
+ When grokbot was released the ability for it to work in its own browser was one of the things that people latched on to as
+ Really powerful and frankly most likely to be copied by all the other labs a 16 z's Martin Casado writes
+ I find chat should be to work more like fancy rpa. It works well, but it is more workflow oriented
+ Where grokbot really is a virtual go worker give it its own browser chat over slack
+ It does a great job adapting to your style and preferences now in terms of chat GPT works version of this feature the official chat GPT account
+ They write you can ask it to set up utilities for a new apartment
+ Book a DMV or passport appointment check reimbursement costs through your insurance find and book an in-network doctor around your availability
+ Check when your car registration expires and prepare the renewal paperwork
+ Compare your rental insurance policy with an issue you're emailing your landlord about find and save apartment listings that match your criteria
+ Restock something just by uploading a photo and so on and so forth
+ They're about a dozen other ideas given our ongoing conversations about the balance between AI for life and AI for work
+ I eat consumer AI versus B2B AI
+ It's interesting to me that they're pitching all of these much more life-oriented tasks as a new capability for chat GPT work
+ Open AI's head of developer experience where main Hewitt writes
+ Chat GPT work now has its own computer in the cloud when it can use the web and take action for you
+ The possibilities start to feel almost limitless
+ Now one other small quality of life upgrade from chat GPT
+ The company realized recently that they need a better way for people to switch back and forth between
+ Temporality and permanence on X they posted we heard your feedback that sometimes a temporary chat becomes something worth saving
+ Now you can choose to personalize a temporary chat with your existing memories custom instructions and plugins and save it to your history
+ If you want to keep it temporary chats
+ Don't create new memories and stay out of your sidebar unless you choose to save them in other words for people who have a little bit more
+ Concern around privacy and who would want to be perhaps default using the temporary chat feature as opposed to saving everything that they do by default
+ This feature now makes it easier to pull in relevant chat GPT context even into temporary chats as well as to upgrade them to non-temporary
+ When it makes sense to
+ Another big quality of life upgrade one which will frankly punch way above its weight class in terms of its newsworthiness
+ I noticed just before I started recording Jason from open AI writes
+ Multiple Gmail accounts available in plugins now in other words instead of connecting only one Gmail
+ You can connect multiple this has long been on many power users wish lists
+ Given that the normal course of business for people of this folks is to have I don't know a half dozen different emails
+ That you interact with in some meaningful way
+ How I AI's Clairvaux was recently raving about how this was in fact her favorite feature of the new grok bot that it didn't constrain connectors
+ To a single Gmail or a single Slack and boy
+ Howdy is this one where I don't care who did it first as long as they all do it
+ Speaking of that many of you will always be quite happy to use whatever tools the big companies give us access to whether
+ It's open AI or anthropic or SpaceX AI or Google or whomever
+ But for those who want more control and who maybe got hooked on the flexibility that's something like open claw enabled
+ It's worth keeping an eye on the Hermes agent
+ The team over at Hermes is clearly watching everything that the harness and model companies are doing because as soon as anything useful gets announced from those
+ Companies
+ Inevitably it finds its way over to Hermes extremely quickly. So for example on Thursday this week
+ They announced that the Hermes agent can now seamlessly browse as you they write
+ Turn on real profile browsing and your agent acts with your logins from a managed copy of your existing chrome profile
+ This follows from about 10 days ago right after the grok bot announcement when the company introduced bot mode for Hermes desktop
+ With bot mode they write your agent profiles become a series of named bots each bot has its own role model memory skills and
+ Profile picture bots can use any model and even communicate with each other build a specialist bot once to use it forever
+ Articulating why this might be of interest to some folks the news research account who makes Hermes writes
+ Hermes agent has its own remote computer too
+ You just aren't locked into using it and it costs a few dollars per month instead of 200 some other big differences
+ Connect any provider sub or model use it completely free on your own machine or with one of several free models on news portal
+ switch between bot mode and classic sessions mode
+ Sell from proving agents that learn to execute tasks cheaper and more effectively
+ Open source so you can modify anything you want about the agent itself to suit your needs
+ Again, this is not going to be necessary for everyone
+ But I think it is pretty rad from a consumer choice perspective that Hermes is very much keeping pace with all of the major
+ Harnesses as these new feature upgrades and capabilities come online and by the way Hermes isn't just copying things
+ They're also doing some really cool experimentation on their own as well
+ They have a Hermes HUD mode which is basically a seamless overlay where you can keep track of things going on in your work life
+ As you're doing other stuff like playing a game the official news account writes
+ I just play games all day and get my work done in that little text box now
+ Now if Hermes is on one end of the spectrum the new collaboration between Salesforce and Claude has to be on the other
+ Salesforce and Anthropic are teaming up for a partnership that they are calling wait for it
+ Claude force at its core
+ This is a new set of plugins and skills to allow Salesforce users to access their CRM using Claude agents
+ They can use Salesforce data as context and thanks to Salesforce's AI harness, which they call AI force
+ Agentsic actions can be taken while respecting existing governance guardrails in their press release Salesforce writes
+ For decades enterprise software required users to manually navigate static UI to get work done now that agents can access the data
+ workflows and rules directly
+ Software as a system that powers every interface
+ The move underscores that there is an inevitable shift in how we interact with things like CRM
+ Making it easier for agents to more natively do so Salesforce CEO Mark Benioff said here
+ The UI is the AI allowing you to build custom apps dynamically and answer any enterprise question
+ Probabilistic intelligence alone doesn't run a company and deterministic systems don't reason which by the way is just about the fanciest way
+ To say that AI and software both have roles to play that you could have possibly imagined
+ Benioff continues by fusing Claude's extraordinary reasoning with the trusted data workflows and governance every enterprise runs on
+ We're delivering a dynamic interface that thinks reasons and acts
+ This is how every business will run and yes, it even got a new Matthew McConaughey ad
+ Now for some especially as Dario appeared next to Benioff on CNVC
+ This was a moment for crack and jokes
+ entrepreneur of our and rum Ganesh writes
+ Anthropic while raising VC money are Tams the US economy. We are the ultimate intelligence. We are killing the entire app layer
+ We are going to create 50% unemployment and make the entire human workforce redundant
+ Anthropic in reality excited to announce Claude force in partnership with sales force
+ But this sort of joking massively undersells just how much of the enterprise world actually runs on things like sales force
+ Thomas Fanning writes Claude force is notable enough to make me rethink my priors
+ The competitive signal is shifting beyond the headline what I find most notable is that the Anthropics CCO saying that CRM integration is the first of many
+ Realistically software vendors always should have been the frontier labs largest customers
+ Up to now however, it seemed like Anthropic and open AI had decided to go direct instead
+ Their strategy is changing and in a dynamic market when the facts change your view has to change
+ Anthropic is clearly recognizing that it's hard to display software outright when the agentic guardrails governance and infra doesn't exist in the
+ Enterprise and won't for another one or two years
+ The question now is do customers still want to move data out of systems of record to build natively and avoid paying software platform
+ API fees or will they accept the utility of enabling AI on an existing software infrastructure the narrative is shifting and
+ Intuitively these native integration should deliver customers the value they want from AI without as much of a lift hard to be bearish on enterprise software at present
+ Given the magnitude of this narrative development data operationally embedded workflows
+ Expertise in Covency are still the motes for software and Anthropic is sending a market signal acknowledging the persistence thereof and look
+ Obviously, it's just a handful of anecdotal examples
+ But the folks that I spoke to about this Claude force deal that actually interact with systems like Salesforce were
+ Extremely excited about it and at least one who had been planning on potentially building some alternatives to Salesforce or at least exploring down that path
+ Basically threw the brakes on that so they could figure out if this just did what they wanted in a way that it justified the cost
+ So while the exposters may get their yucks over in the real enterprise world
+ Some of you I imagine are sitting here thinking that this is the biggest deal of anything I've said so far
+ Now already we've gone through a ton of features
+ But there are a couple models that are worth noting and this week they were clustered around audio and video
+ Gemini was back in the news this week with the release of a new version of their speech to text model Gemini
+ 3.5 transcribe the model supports more than 85 languages and Google says they've made some huge strides and usability the model can
+ Function in verbatim mode if you need a direct transcription or you can use it in smart translate mode
+ Which strips away filler words condenses rambling thoughts and handle self-corrections to deliver a clean version of user intention
+ You can even create custom vocabulary to enhance the model's ability to deal with jargon and slang
+ Google says the model performs well in noisy environments and can distinguish between up to three different speakers
+ The model can be used across Google's AI suite if voice mode is your preferred way of interacting with AI and is also available as an API to
+ Power third-party apps
+ This is then playing very much in the space of something like whisper flow
+ Although built not just to be an end application in itself
+ But also a key piece of infrastructure for other people who can build on top of it AI developer Jan Kronberg wrote
+ This is the kind of release a lot of people are going to miss until now voice input required you to basically speak the way you
+ Write punctuation well-structured sentences fewer corrections along the way Gemini 3.5 transcribe flips that around you speak the way
+ You actually think and the system produces the text you probably wanted to write cleaning it up and organizing it as you speak
+ Now as an aside it is really hard to do that cleanup well
+ For example
+ I am constantly switching back and forth on whisper flow from the version where it does light cleanup to the version where it
+ Does no cleanup no cleanup really does look like rambles without good punctuation and sometimes gets unclear
+ But even on the lightest cleanup setting whisper flow strips away words that I am using as
+ Connectors rather than filler assuming that they are filler in any case for that reason alone
+ I'm excited to see if Google offer something different here
+ Space X AI also dropped grok voice think fast 2.0 noting that it's now number one on the artificial analysis speech-to-speech index
+ They write this index measures whether voice agents can reason over the speech adheres resolve real customer issues and correctly complete tasks
+ Using agent tools at Starling they continue
+ We're using grok voice to resolve over 15,000 inbound customer support and sales calls a day
+ grok diagnosis hardware issues ships replacements and fulfills over 3,000 orders a week via voice calls and chat a bunch of people show
+ Demo's exploring just how much the speed and latency upgrades really change what you can do with voice in the agenda context
+ We also however got a new video model from Google as well
+ The model is called Gemini Omni 1.1 flash and they write that with this update you can extend your scenes
+ Specify starting and ending frames of a shot add video input references upscale your favorite takes to 4k and test ideas quickly in 360p
+ In other words, this is 100% an update that is not just about quote-unquote better video
+ It's about massively more usability of video generation in general now once again
+ We got some new benchmarks arena says that Omni 1.1 flash hit number one in the text to video arena and number two in the image
+ To video arena although when it comes to a new video model the proof is in the pudding
+ It seems like people's first impression is that this is indeed an upgrade over the previous Omni model
+ Chaplin writes the biggest upgrade is the voice and it sounds noticeably better more natural and it also generates more realistic videos than Omni flash
+ Some found however that when they compared it to seed dance 2.5
+ It wasn't as clearly an improvement if it was an improvement at all on the video front fall also introduced h3 max
+ Which they pitched as having better prompt understanding and being just way way faster
+ They claimed an average latency of 3.49 seconds compared to seed dance 2.5 68 seconds and Gemini Omni flash is 26.7 seconds
+ Justine Moore from Andries and Horowitz writes this is an insane model from foul
+ I can't describe how wild it feels to generate a long clip in just 15 seconds. This will be transformative for the space
+ Adam Holter writes very fuzzy on the detail here, but this generated fast in 1.3 seconds for 20 cents
+ That's ridiculous h3 max is a big deal Alex the AI ads guy writes h3 max first impressions
+ 15 second generation time audio is amazing voices sound good and sound effects to
+ Incredibly prompted here, and it does exactly what you tell it to needs more testing
+ But it's hard to beat the balance and price of h3 max writes Ethan Molek a line in AI video was crossed
+ In my experiments with just the web interface h3 max can now create reasonably high quality AI video in less time
+ Than it takes you to watch it
+ Investor Steve Jang responds. Yes, the ramifications are super interesting
+ It opens up live interactive visual environments as a fully generated world
+ One can have massively multiplayer and completely responsive and unique user experiences with no visible cutting or waiting
+ Now for those of you who want to try h3 max out you can do it over on venice.ai
+ Venice is a privacy focused AI alternative that recently crossed the threshold of 100 million in ARR
+ Suggesting that more privacy conscious AI has a market
+ So with all of that from little quality of life upgrades to entirely new video generation models
+ There is a lot of new stuff to go out there and play with
+ Hopefully this episode gave you a few ideas for something you want to jump it and try for now
+ That's gonna do it for today's AI daily brief appreciate you listening or watching as always until next time peace
+ You
