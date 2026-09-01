@@ -1,0 +1,554 @@
+ Late last week, OpenAI announced that they would be cutting off access to their models in Cursor.
+ Now, for many Cursor users, this is a huge blow. They invested in that harness ecosystem
+ and view OpenAI's move as some version of competitive pettiness.
+ Other observers think that this was always inevitable as soon as SpaceX AI decided to buy Cursor.
+ They point to other examples like Anthropic cutting off Windsurf in mid-2025
+ to say that this is just the way that Frontier Lab competition is going to work from here on out.
+ And while this all might seem like just psychodrama competition between the labs,
+ for Enterprise AI users, it has very significant implications.
+ Already, there was a push in enterprises to understand and to better be able to take advantage
+ of OpenWeights models, to build the capability to have more complex model architectures that
+ allow their users to better match the task with the capability level in a way that is more cost
+ effective. With these moves, we make clear that this is not just a cost efficiency conversation,
+ but is more broadly about control and resilience. And with these latest moves,
+ make clear that enterprises have to think not only about these questions in terms of models,
+ but in terms of harnesses as well. The AI Daily Brief is a daily podcast and video about the most
+ important news and discussions in AI.
+ Alright friends, quick announcements before we dive in. First of all, thank you to today's
+ sponsors KPMG, Blitzy, Robots and Pencils and Hyperagent. To get an ad-free version of the
+ show, go to patreon.com.ai-daily-brief or you can subscribe on Apple Podcasts.
+ And to learn more about sponsoring the show, send us a note at sponsors.ai-daily-brief.ai.
+ Lastly, as you guys get prepared for back to school, back to work, if you are looking for
+ more support, the latest crop of super intelligent executive agent training programs is coming up
+ just after Labor Day. You can get that information linked off of ai-daily-brief.ai,
+ or you can go to training.besuper.ai. For anyone who's looking for a boost
+ or who has just liked my guest episodes with New Far Gas Bar, I highly recommend
+ you check those programs out.
+ Today we begin with a follow-up in the ongoing saga of the data center debate,
+ where blue-collar labor unions are organizing to support data center construction.
+ As data centers become a pivotal political issue for the midterms, labor unions are becoming the
+ backlash to the backlash and are threatening to withhold support from candidates who oppose
+ data centers. The Wall Street Journal viewed a memo from Steamfitter UA Local 602,
+ whose members install industrial piping across Virginia and Maryland, covering the
+ region known as Data Center Ali. The union said that they were drawing a quote clear line and won't
+ back any politicians running on an anti-data center platform. They added, this is an existential moment
+ for Local 602. In some cases, unions are breaking their long-standing alliance with local Democrats
+ over the issue. The Kansas HVAC and Railroad Workers Union have supported the Republican
+ gubernatorial candidate for the first time in decades over the issue. Sidney Bonilla,
+ the treasurer for Steamfitter's Local 602, emphasized that union support isn't just about
+ votes. He said his union also participates in door-knocking and fundraising to support local
+ campaigns. Bonilla expects unions across the country to follow suit in rejecting anti-data
+ center candidates, commenting, we are dependent on these jobs. Other union leaders are asking
+ politicians which side they are on. Don Slayman, the political coordinator for
+ electrician workers Local 26 in Virginia and Maryland said,
+ you're not a friend if you're taking away great career opportunities. This is a once in
+ a generation opportunity to really get in the upper middle class. Now, if you have been paying
+ attention to my coverage of this issue for the last several months, you will have seen this
+ start to bubble and emerge. In fact, in my last episode that was a primer all about this issue,
+ one of my arguments was that these labor unions were most uniquely suited to intercede in the
+ middle between these communities and the tech companies that are building the data centers,
+ given that the unions are both deeply rooted in those communities but also stand to benefit
+ economically from the transformation that they bring. Overall, I think it's an extremely
+ positive development that could bring a lot of common rationality to the discussion
+ that has been lacking thus far. For some, this is a moment to turn the tide.
+ Investor Gavin Baker wrote, there were reasonable concerns about data centers 18-ish months ago,
+ water, taxes, jobs, electricity prices, the environment, and what they would do to small
+ towns. Well structured data center projects have largely addressed these concerns today
+ and we should be celebrating this. On balance, data centers are awesome for America in every
+ way. No less than NVIDIA's Jensen Huang reposted Gavin and said, spot on. AI is bringing manufacturing
+ back to America and reindustrializing the nation after decades of offshoring. We have the opportunity
+ to create lasting benefits for communities across America and help America lead the next industrial
+ revolution. Next up, another frequent topic in the headlines. The Trump administration is
+ developing rules to prevent Chinese labs from getting remote access to AI chips now. Earlier
+ this month, CNBC reported that multiple Chinese firms had access to cutting edge NVIDIA chips through
+ data center hubs in Thailand, Malaysia, and Japan. Alongside renting compute from third-party
+ operations, the reporting claimed that some of the data centers were owned by Alibaba and Byte
+ Dance. Importantly, none of this was illegal, as the export controls only govern physical
+ exports into China. But of course, if the administration's goal was to block access
+ to cutting edge chips, then this sort of arrangement undermines the entire policy.
+ The information reports that the Commerce Department is currently working on a new
+ rule aimed at closing the loophole. Sources described it as a slimmed-down version of the AI
+ diffusion rule, which was introduced in the final week of the Biden administration and
+ immediately scrapped once Trump took office. The rule was heavily criticized for having a huge
+ enforcement and administrative burden, but it would have made it difficult to establish
+ third country data center hubs for the Chinese labs. Among other things, the diffusion rule
+ capped AI chip imports at a very low level for unaligned nations. Those caps could be raised
+ if national governments worked with the US to ensure their data centers wouldn't service
+ Chinese companies. Now, it's unclear from the reporting exactly how far the new rule would go
+ and whether it even has support within the administration. Critics of the diffusion rule
+ argued that it would weaken America's dominance in the chip industry, pushing most of the world
+ to adopt Chinese technology. Senior officials at the Commerce Department have been vocally
+ critical of the diffusion rule. With Under Secretary Jeffrey Kessler telling Congress
+ in July, I don't want to replace the diffusion rule because I don't think the rule is worth
+ replacing. It's a bad rule and we're glad that it's not being enforced.
+ But if you have watched anything when it comes to AI policy out of this particular White House,
+ you know that among three people there's going to be four opinions, so we'll just have to wait
+ and see where it lands. Speaking of this administration, Anthropoc has won their lawsuit
+ against the Pentagon, with a federal judge ruling that the government had no basis for declaring
+ them a supply chain risk. In her order, US District Judge Rita Lynn found the government
+ hadn't provided evidence that Anthropoc represented a genuine threat to national security.
+ Instead, Judge Lynn wrote, Defendants' contemporaneous words and deeds confirm that
+ the challenged actions were based on a desire to make a public example out of Anthropoc for
+ its quote-unquote arrogance in criticizing the government. The empty invocation of national
+ security is not a blank check to punish and retaliate against government critics.
+ In particular, Judge Lynn noted that the government's continued use of Anthropoc's
+ models undermined the Pentagon's claims. The order found that the government had
+ violated the First and Fifth Amendments in making the designation. Judge Lynn wrote,
+ Though the Department of War is undisputedly free to select the AI vendor of its choice,
+ the evidence demonstrates that the broad measures imposed on Anthropoc were illegal
+ and baseless. The order directed the government to rescind all guidance and directives that
+ blacklisted Anthropoc as a supply chain risk. Consequently, the order directed the government
+ to rescind all guidance and directives that blacklisted Anthropoc as a supply chain risk.
+ Now, while this is a big win for Anthropoc, they are certainly not out of the woods just yet.
+ A second lawsuit in the DC Appeals Court is still waiting a ruling,
+ and the judge in that case has been so far a bit more receptive to the Pentagon's arguments.
+ One funny little story in a follow-up to the Mac mini craze of earlier this year.
+ In their most recent earnings report, Apple said that Mac sales were up 29%
+ over the past year, which was the fastest growth of any product line of the company.
+ And of course, for those in the know, the open claw boom was a big part of that,
+ leading to an estimated $100 million plus of Mac mini sales.
+ Now, most soon, this was just a consumer trend, with hobbyists and early adopters
+ snatching up Mac minis to run their new suite of agents.
+ When the new Mac mini line was unveiled last week, although the specs were up,
+ the price was up meaningfully as well, making it potentially a little bit
+ more out of reach for that generalist sort of audience.
+ Over the weekend, however, the information published a deep dive
+ on how in fact a big part of the Mac mini explosion has been enterprise demand.
+ In June, Apple held an enterprise-focused hardware sales event with significant emphasis
+ on the Mac mini, which was pitched as a cost-cutting measure,
+ allowing simple agents and AI models to be run locally instead of contributing
+ to rising cloud bills.
+ Former Apple Enterprise Marketing Manager, Todd Daly, remarked on how out of character this was for
+ Apple. Apple doesn't have a dedicated engineering team for business customers or even a developer
+ relations team. Daly commented,
+ the idea that any team at Apple has an actual plan for embracing enterprise AI is a joke.
+ Still, enterprise demand seems to be very real in some pockets.
+ Sources told the information that OpenAI has purchased tens of thousands of Mac minis
+ and Mac studios for reinforcement learning.
+ The machines are used to train computer use agents and sources said OpenAI is desperate
+ to buy more. Anthropic is apparently also renting Mac minis from AWS according to people
+ familiar with the operations. In other words, even with the price increases,
+ it seems that the humble Mac mini will continue to play a significant role in the next wave of AI.
+ Now, speaking of OpenAI, the subject of today's main episode
+ is about a big decision that OpenAI made at the end of last week
+ and what it means for enterprises and companies who have to position themselves
+ for a new competitive reality. Well, speaking of competitive realities,
+ OpenAI recently introduced some significant price cuts. They cut prices on GPT-56 Luna by 80%
+ and the larger Terra version by 20% through the API. They later announced a 20% price reduction
+ on Sol, although that pricing has only been in effect for a couple of weeks.
+ Now, the assumed goal of all of this is to drive up usage on third-party platforms
+ like OpenRouter. This could be part and parcel of a recognition that the Frontier Labs now
+ have to compete not just on the Frontier when it comes to raw capability,
+ but also when it comes to the Frontier of efficiency. However, some also speculated
+ that because media uses third-party platform usage like OpenRouter as a proxy for overall
+ token consumption, even though that's a pretty massive misread of the data,
+ that perhaps OpenAI's goal was to get an outsized PR effect from a relatively minor move.
+ With the battle heating up ahead of Anthropics IPO in the coming months,
+ this could be a way for OpenAI to generate some concerning headlines.
+ Whatever the motivation and the ultimate goal, OpenRouter is reporting a massive boost in usage
+ for OpenAI's models. They report that daily usage of Terra is up 5.6x after the discount,
+ and Luna rose a massive 13.8x. Sol was not yet discounted during the window they looked at,
+ and its usage was relatively flat with just a 10% gain. What's more, while the discounts on
+ Terra and Luna expired on August 14th, OpenRouter reports that users stuck around,
+ with nearly a third of them continuing with OpenAI's models at full price.
+ Boxes, Erin Levy, reposted the chart and said,
+ Sometimes people don't have an intuitive sense of what Javon's paradox looks like for token
+ consumption. Those of us working with enterprises get to see this firsthand every day.
+ Basically, enterprises have an unending stream of tasks that they'd love to be able to bring
+ automation to. But for each individual task, it's either ROI-positive or not based on the
+ cost of bringing automation to it. As tokens get cheaper at a certain capability threshold,
+ enterprises can afford bringing more of them to the work that they do.
+ This could be processing every contract, reading every log,
+ watching new streams of data for insights, having background agents execute workflows,
+ and so on. Anytime we can lower the cost of tokens, we will see a disproportionate increase in
+ consumption. Even a 50% drop in token prices could result in a 5x increase in tokens for these
+ kinds of workloads. That's why it's critical to keep bringing down the cost of AI, and why
+ that's good for all market participants. For sales Brandon Galing added,
+ Beyond just Javon's paradox, cheaper tokens means entire use cases go from 0 to 1 in viability,
+ given an organization's willingness to spend and their risk tolerance for experiments.
+ Many tasks require some minimum quantity of tokens to actually do the job.
+ If the pricing doesn't allow you to hit that minimum feasibility, it won't be done.
+ When the pricing drops, enterprises are able to get to the point of value and greenlight
+ use cases that were previously not viable before. Their total token spend increases,
+ but so does the value and ROI they get from it.
+ Now like I said, today's main episode is all about some new competitive moves,
+ and the reason I wanted to end on this story about the impact of Open AI's competitive
+ pricing experiments is that it's exemplary of the experimental moment that I think we're heading
+ into. But with that, let's close the headlines and move on over into that main episode.
+ A new study from KPMG in the University of Texas at Austin found that when people work
+ with AI, similar skills don't guarantee similar outcomes. Researchers studied more than 500
+ early career professionals and found that the best performers consistently amplified the value of AI
+ by guiding, evaluating, and refining its outputs. These top performers, called AI amplifiers,
+ weren't defined by what they knew alone, but by how they worked with AI.
+ Learn more about what separates AI amplifiers from everyone else
+ at kpmg.com slash us slash AI amplifiers.
+ Every AI coding tool on the market does the same thing first. It starts writing code.
+ Blitzy does the opposite. Before writing a single line,
+ Blitzy spends days reverse engineering your entire code base.
+ Thousands of agents ingest millions of lines, mapping every dependency,
+ every undocumented constraint, every architectural decision made over the last decade.
+ The result is a dynamic knowledge graph that understands your software the way a principal
+ engineer would after 30 years in the building. Other tools guess at context with grep searches
+ and markdown files, Blitzy never guesses. It builds true understanding first,
+ then delivers over 80% of entire software epics autonomously. Validated, end-to-end tested
+ production grade pull requests. That's why Fortune 500 engineering teams trust
+ Blitzy with the code bases that matter most. See for yourself at Blitzy.com, that's blitzy.com.
+ One thing I keep seeing in enterprise AI, companies hedging across every cloud,
+ every model, every framework, or paying a GSI for a pilot that never ends.
+ The team's actually shipping, they've picked a lane, and they move fast.
+ That's one of the reasons I like today's sponsor, Robots and Pencils.
+ They've gone all in on AWS. They're an advanced tier and AWS pattern partner,
+ and they ship production AI coworkers in 45 days. That's led to them doing
+ some of the more interesting work I've seen on AI coworkers.
+ And by that I'm not talking about chatbots, I'm talking about actual
+ agentic systems that sit inside a business architecture and do real work.
+ That kind of focus matters if you're an enterprise leader trying to get something
+ real into production, or an AWS rep trying to move a customer from interested to deployed.
+ Request an AI briefing at robotsandpencils.com.
+ One conversation with robots and pencils, and you'll know.
+ This episode of the AI Daily Brief is brought to you by HyperAgent,
+ where you run fleets of agents your team can manage together.
+ New users get $1,000 in inference. Forget local agents and chat workflows waiting on
+ your laptop to be prompted. HyperAgent deploys always-on agents in the cloud,
+ doing real work across the tools your team already uses.
+ Marketing's agent turns competitor moves into landing pages.
+ Sales' agent enriches leads, drafts emails, and updates the CRM.
+ Ops' agent chases the paperwork and tracks the budget.
+ Every agent has access to shared context and follows your rules about scope and
+ approvals. It's time you add agents that feel like teammates.
+ Hire yours at HyperAgent, built by the team at Airtable.
+ Claim your $1,000 in inference at hyperagent.com slash AI Daily Brief.
+ Welcome back to the AI Daily Brief.
+ On Friday night, OpenAI announced that they would be ending their relationship with Cursor.
+ This is a highly consequential, if not necessarily particularly surprising, decision.
+ And on the one hand today, we are going to discuss what this means for the
+ state of AI competition among the frontier labs,
+ but we will also get into what is I think the more important discussion,
+ at least for all of us in an applied sort of way, which is how to position ourselves and our
+ companies for the inevitabilities that that next phase of competition bring.
+ While we can't read the future, I think that there are some pretty clear patterns that have
+ some fairly significant implications for how we think about enterprise AI strategy.
+ But first, let's talk about the move that OpenAI made.
+ In a late Friday announcement, OpenAI basically said we love Cursor,
+ but we hate Elon, so sorry Cursor users, you don't get to use OpenAI models anymore.
+ Now they tried to frame it a little bit nicer in the press release.
+ They wrote,
+ To work with a large partner like SpaceX, we typically rely on custom contracts to
+ ensure compliance with our terms of service, and the integration provides for safety at scale.
+ After Musk acquired Twitter, now part of SpaceX, the company broke the
+ terms of our contract alongside many others.
+ Under oath earlier this year, Musk admitted that XAI, now also part of SpaceX,
+ had violated OpenAI's terms of service.
+ On the flip side, when it comes to Cursor, they said we've worked with Cursor for
+ nearly four years and have enormous respect for their team, their product,
+ and what they've built for the developer community.
+ We know that the people most affected by this decision are the developers who
+ rely on OpenAI models in Cursor.
+ We care about their experience in this transition and we're ready to go above
+ and beyond to support them.
+ Now the cutoff will not actually come until November 12th,
+ and that long deadline seems to be intentional,
+ with OpenAI saying that they are giving the maximum notice provided by their contract.
+ Now Elon's response will likely come as no surprise.
+ He responded to a post on X saying I couldn't care less,
+ and using his favorite moniker of calling Sam Altman, scam Altman.
+ Cursor CEO Michael Trule said that they were sorry to see the note
+ and were seeing if they couldn't come to some different agreement.
+ Now he also included a note that OpenAI models serve about five percent
+ of Cursor user traffic.
+ Clearly with the implication that even if they weren't able to come to some
+ agreement that this wouldn't be all that bad.
+ OpenAI product manager Tebow, for some reason,
+ felt the need to clarify on that five percent,
+ reposting Michael Trule and arguing, tokens are not a proxy for revenue
+ nor value created and the OpenAI models are on the very frontier of token efficiency.
+ Smaller or less strong models require many more tokens to achieve a task,
+ and therefore will inflate traffic share significantly.
+ His point in other words is that even if that five percent of token traffic
+ is factually accurate, it might represent more like 10 or 15 or 20
+ or even more percentage of the actual value created
+ because of what particular tasks people are using OpenAI models for
+ and how much more efficiently they do them.
+ Now why he decided that he had to increase everyone's awareness
+ of the pain that they were causing for Cursor users isn't exactly clear,
+ but Epic founder Tim Sweeney was happy to jump in and say,
+ maybe don't screw over chat GBT customers who use Cursor then?
+ No developers on earth want you guys waging corporate warfare inside our computers.
+ Now a natural question might be is Anthropic going to follow suit?
+ However, co-founder and Chief Compute Officer Tom Brown said absolutely not.
+ He posted on X,
+ Cursor has been a trusted partner of Anthropic since Sonic 3.5.
+ We'll continue to increase Compute to support Claude models in Cursor
+ and are excited for what comes next with them at SpaceX.
+ Google's Logan Kilpatrick vague but not that vague tweeted,
+ if your opponent is busy making a mistake, don't interrupt them.
+ And certainly for many in the community, it is OpenAI who's making a mistake here.
+ Deism on X writes, biggest loser here is OpenAI.
+ Cursor already has Grock 4.7 on the way, Composer 3 and a bunch of open models.
+ What OpenAI just did is going to make every partner start thinking about Plan B.
+ Yusuf Altuki writes, this behavior is genuinely so poor.
+ Most of my usage of OpenAI models was on Cursor.
+ Cursor, unlike Codex, has a fast mode toggle for the models that actually works
+ and causes a 2x speed increase.
+ Cursor IDE has the most gorgeous UX.
+ OpenAI is stripping this away from paying users due to nothing but pettiness.
+ There is no valid reason to stop paying users from using the model of their choice
+ and the harness of their choice.
+ Then to add insult to injury they reply to Cursor,
+ actually when you look at our efficiency we contributed more than 5%.
+ No point other than rubbing salt in the wound of customers.
+ And yet for others there are pretty clearly some reasons
+ other than pettiness for OpenAI to make this move.
+ Benjamin DeKraker writes,
+ The entire reason SpaceX AI bought Cursor is to harvest training data
+ from people using it for coding.
+ This is very obvious and this advantage was openly touted as a huge win for
+ XAI when the acquisition was announced.
+ Isn't it somewhat reasonable for OpenAI to opt out their advanced models
+ being included in that training data harvester?
+ Pragmatic engineering's Gruglia Rose writes,
+ Frontier model companies don't offer direct integration of their models
+ for tools built by other Frontier model companies.
+ E.g. you can't use GPT-56 from Claude Code or Opus 5 from Codex out of the box.
+ Cursor is now SpaceX so OpenAI pulling GPT not all that surprising.
+ Gellwiener writes,
+ What was OpenAI supposed to do?
+ This isn't just a competitor bought Cursor
+ but it's a competitor who took them to court to try to destroy them.
+ And much more significantly of all,
+ many pointed out that this is not some isolated incident
+ but this is just the norm now of how Frontier labs behave.
+ An early example of this came back in June of 2025
+ after Bloomberg reported that OpenAI was close to nearing a deal
+ to acquire Windsurf,
+ Anthropic cut off Windsurf's access to their models.
+ On June 3rd, 2025,
+ Windsurf's Varian Mohan wrote,
+ With less than five days of notice,
+ Anthropic decided to cut off nearly all of our first-party capacity
+ to Claude 3.x models.
+ This was a point that many brought up with Tom Brown in the comments
+ when he posted about Cursor being a trusted partner of Anthropic
+ since Sonnet 3.5.
+ Replet CEO Amjad Massad wrote,
+ Maybe you've changed your ways
+ but we all remember what you did to Windsurf
+ which was infinitely nastier.
+ Amjad continued pointing out
+ that it is likely that part of Anthropic's difference of approach here
+ has to do with the fact that they now have a compute relationship
+ with SpaceX AI
+ that is integral to the training of their future models.
+ AI researcher Mehul Mohan writes,
+ I don't get the hate OpenAI is getting for banning Cursor
+ and how Anthropic is somehow trying to be the good guy here.
+ Anthropic literally did the same thing with Windsurf one year ago
+ and would 100% have done the same with SpaceX AI
+ if Anthropic was not paying a billion dollars per month
+ for compute to them.
+ Why is this controversial?
+ And the Windsurf thing wasn't an isolated incident.
+ In August of 2025, Anthropic blocked OpenAI's access to the API.
+ They claimed a violation of terms of service
+ which most believed was about using Anthropic's models
+ to build a competing AI model.
+ OpenAI's story was that they were just benchmarking the models
+ but clearly in retrospect
+ the whole move was about concerns about distillation.
+ Then in January of this year,
+ Anthropic also blocked XAI.
+ In a Slack message in January, XAI co-founder Tony Wu said,
+ Hi team, I believe many of you have already discovered
+ that Anthropic models are not responding on Cursor.
+ According to Cursor, this is a new policy Anthropic is enforcing
+ for all its major competitors.
+ This is both bad and good news.
+ We will get a hit on productivity
+ but it really pushes us to develop our own coding models and products.
+ We're at a time in which AI is now a critical technology
+ for our own productivity.
+ The team is rapidly developing our own models and product.
+ We will have something to share with everyone soon
+ in the meantime you may still try different kinds of models in Grock build.
+ Then of course, over the next couple of months,
+ Anthropic changed the way their subscriptions work
+ to not cover third-party tools,
+ specifically things like Open Claw and Hermes.
+ Hermes co-founder Technium was happy to point this one out to Tom Brown as well.
+ A couple months later, Anthropic partnered with Figma publicly
+ and then poached an executive and launched Claw Design to compete directly
+ which led to a July story in the Wall Street Journal
+ about a concern that Anthropic was going to use proprietary information
+ that they got from people using their models
+ to build competing services to their customers.
+ And while these examples have all been Anthropic,
+ many have been beating the drum that this is just the way
+ that it's going to work in the next phase of competition.
+ Palantir's Alex Karp has been screeching about this
+ to anyone and any news outlet that will listen.
+ And the presumption that there is a fundamental misalignment
+ between the frontier labs and their customers
+ now seems to be core to no less than Microsoft strategy.
+ A couple of months ago, Microsoft CEO Satya Nadella
+ released a blog post called the Reverse Information Paradox.
+ In it, he wrote,
+ You essentially pay for intelligence twice, once with money,
+ and again with something even more valuable.
+ The proprietary knowledge you must reveal
+ to make that intelligence useful.
+ The better you want the model to perform,
+ the more of that knowledge you have to feed it.
+ Over time, the information asymmetry becomes increasingly skewed.
+ The seller learns more and more about you
+ as you use what you purchased
+ while you learn very little about what the seller is learning in return.
+ That is what I think of as the Reverse Information Paradox.
+ This requires more than data protection.
+ Models learn from exhaust.
+ The prompts people write, the tools agents use,
+ and especially the corrections people make when the model is wrong.
+ Every correction is distilled into institutional know-how.
+ It's the kind of knowledge a competitor could never buy
+ and the kind that leaks almost imperceptibly.
+ Trace by trace, correction by correction, eval by eval.
+ It's imperative that we distribute the learning infrastructure
+ to every firm so that they can control their own learning loop.
+ Now, if you've been paying attention,
+ this has set the tone for every move
+ that Microsoft has made subsequently.
+ Their new models that they recently released
+ are very much designed to be the base
+ for customizations and post-training,
+ which while they are certainly not open weights,
+ are designed to be more customizable
+ and more owned by the customer,
+ as opposed to just sending off information into a black box
+ that only the frontier lab can access.
+ And as much as OpenAI tries to say
+ that this is a move that is not general
+ but is specific to issues with Elon
+ based on a demonstrated pattern,
+ the implication for many is clear.
+ As Yuchen Jin put it,
+ when Elon acquires cursor, OpenAI cuts off cursor.
+ When OpenAI tried to acquire windsurf,
+ Anthropic cuts off windsurf.
+ Not your weights, not your product.
+ Now, functionally for enterprises,
+ it doesn't matter if there is substantive difference
+ in these two things.
+ The response that they're going to have to have
+ is very similar.
+ As AI content creator Theo put it,
+ if you want to avoid getting hurt
+ by companies beefing with each other,
+ make sure you own your tools
+ and your relations with the products you rely on
+ are direct and not routed through other layers like this.
+ I have a feeling this is not a one-off thing.
+ If anything, it's the start of the end.
+ We're probably going to see more and more moves
+ like this from Anthropic and OpenAI
+ and probably even companies like Google and SpaceX.
+ And of course, already even before this,
+ we had seen companies starting to get more acquainted
+ with open weight models.
+ Earlier in August, the Wall Street Journal profiled
+ how AT&T had started working with open models
+ and Business Insider also talked about
+ how Thomson Reuters had done something similar
+ building off of a base of Alibaba's quen.
+ Now, these stories mostly posited this
+ as a cost control measure.
+ Obviously, a big part of the narrative
+ for the last several months has been
+ how companies build more complex model architectures
+ that allow them to match task difficulty
+ with model capability in a way that is more cost effective.
+ However, there is clearly now a sovereignty
+ and control aspect of those moves,
+ and what this shows is that those questions
+ are moving from strictly the model layer
+ to also the harness layer as well.
+ Again, in the Wall Street Journal's CIO Journal,
+ a recent post introduced the idea
+ of an AI model harness to a wider audience.
+ In explaining why businesses need a model harness,
+ Moody's David Pan called it a way for companies
+ to take back control of their AI.
+ The Journal writes,
+ developing their own software around AI models,
+ a practice Pan calls harness engineering,
+ gives businesses a way to decouple
+ their workflows from the models themselves,
+ and that helps them become less reliant
+ on a single AI provider.
+ Said Pan,
+ if you bring that harness in-house and control it,
+ you're baking in a lot more business resilience.
+ And given that this article came out a week ago,
+ Pan's advice that companies build their own harnesses
+ rather than rely on those offered by labs
+ like OpenAI and Anthropic,
+ seems particularly prescient.
+ So if you are an enterprise AI buyer,
+ what is the move here?
+ First of all, this is another reminder
+ that if you don't have a policy
+ around open weights models yet,
+ you need to go figure it out.
+ Now to be clear, what I do not see
+ is companies abandoning frontier close models entirely.
+ Frankly, even among sophisticated users,
+ it's not like some big majority of use cases
+ have even moved over to those new models yet.
+ But what the sophisticated enterprise AI users understand
+ is that being able to integrate
+ and route certain types of tasks to lighter,
+ cheaper, more controllable, open weights type models
+ is going to be a key capability that they need to have
+ and that like any capability,
+ it's going to take time and they need to start now.
+ What I think that this cursor move puts a point on
+ is that this is not just a model conversation
+ but also a harness conversation as well.
+ My very strong prediction
+ is that you're going to see a lot more discourse
+ around not just open models but open harnesses.
+ An early example of this
+ is that once again earlier this month,
+ DeepSeq released DeepSeq Harness.
+ In their announcement post, they wrote,
+ DeepSeq Harness is an agent harness built around one core idea.
+ Everything is a plugin.
+ Models, tools, skills, sessions, sandboxes,
+ file systems, loops, orchestration, and UI
+ are all implemented as plugins
+ and can be mixed, matched, replaced, and extended.
+ And first impressions of DeepSeq Harness are pretty good.
+ But I think that the DeepSeq Harness itself matters less
+ than the fact that open harnesses are now a tool
+ that enterprises are going to have access to as well.
+ Ultimately, I don't think anything about the cursor move
+ is particularly surprising,
+ which certainly doesn't mean that cursor users
+ shouldn't yell and scream it open AI
+ and see if they can't change their position.
+ I think a highly vulcanized world of models and harnesses
+ is inherently worse for everyone
+ than the one we seem to be going into.
+ So I am fully in support of people using market pressure
+ to try to change the policy.
+ But for enterprises, the lesson is clear.
+ If you want to not be subject to the whims of the companies
+ that control your models and control your harnesses,
+ you basically can't be reliant on any one company
+ to control your models or to control your harnesses.
+ So, you know, for enterprises,
+ just a whole additional set of things
+ that you have to get good at to make AI work for you.
+ Anyways, interesting times.
+ This is a trend that we will watch closely.
+ For now, though, that is going to do it for today's AI Daily Brief.
+ I appreciate you listening or watching.
+ As always, until next time, peace.
