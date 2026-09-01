@@ -1,0 +1,501 @@
+ When Open Claw came out, it was an absolute sensation.
+ And it wasn't because it was easy or user-friendly.
+ It's because it showed the potential of what agents could do for us in a real way for the first time.
+ Now, after the initial craze, a lot of that energy dissipated into other areas.
+ And in many ways, the biggest impact of Open Claw was how it influenced
+ the next wave of agentic products that would come to market.
+ Well, now Open Claw is back with Open Claw 2.0.
+ And once again, I believe that they are embracing an interaction pattern,
+ which is not the norm right now, but will be normalized very soon.
+ That pattern is about shared agents and multiplayer AI.
+ The AI Daily Brief is a daily podcast and video about the most important news and discussions in AI.
+ Alright friends, quick announcements before we dive in.
+ First of all, thank you to today's sponsors KPMG, Blitzy, Section, and HyperAgent.
+ To get an ad-free version of the show, go to patreon.com.ai-daily-brief,
+ or you can subscribe in Apple Podcasts.
+ To learn more about sponsoring the show, send us a note at sponsors.ai-daily-brief.ai.
+ And to learn more about what we got cookin' in the community,
+ also check out ai-daily-brief.ai.
+ For example, you can find a link there to our next Agent Training for Executives program,
+ which is coming up just after Labor Day.
+ Registration for that is open now.
+ One of the interesting sub-stories of the Open AI Hugging Face hack
+ was that Hugging Face had to turn to open models from China
+ to defend against the attack because the guardrails on the closed models
+ wouldn't allow them to do what they needed.
+ Now, this of course points out an inherent challenge in these really powerful models,
+ which is of course that the guardrails that are used to block malicious actors
+ can also prevent legitimate actors from using those models to defend against malicious actors.
+ Well, now one company called obliteration.ai has come along
+ and said, don't worry, we got you.
+ They write, today we're releasing obliterated model Large V2,
+ based on GLM 5.3, which is number three on terminal bench 4.0
+ behind only Opus 5 and Fable, with two times the cyber exploitation of 5.2.
+ We obliterated and hosted it so it does the offensive cyber, red teaming,
+ and agent testing work other models refuse to do.
+ US hosted 1 million context window, zero input output prompt retention, live now.
+ The cyber jump they write is why 5.3 exists.
+ Obliteration, they say, finds the directions in the models activations
+ that produce refusals and removes them from the weights.
+ The coding, cyber and agentic abilities stay.
+ The model stops refusing the rest of the chain.
+ For offensive cyber security, AI red teaming, agent testing, and trust and safety,
+ the model will follow through instead of shutting down.
+ If your current model still stops halfway through an authorized exploit chain, a red team eval,
+ or a TNS adversarial prompt reply with the task it refuses,
+ we'll tell you if V2 handles it.
+ So obviously this is being presented as a tool for cyber defenders.
+ Mostly what people are picking up on though,
+ is that this is a powerful cyber focused model,
+ with the guardrails removed at a weights level.
+ Professor Ethan Malick says, that didn't take long.
+ Hero with a thousand faces sums up the feelings of many when they write,
+ why would you do this?
+ Why on earth would you do this?
+ I don't mean to be a doomer, but why?
+ 0.005 seconds writes, homeboy released the crime LLM.
+ Clement Dumas sums up, remove guardrails of a frontier model with
+ high cyber capabilities, no system card.
+ Eval on exploit gym, the one that made open AI agents crazy.
+ Can't wait for the next version, takeover large v3.
+ Lucas Pombo writes, get ready to test your predictions everyone.
+ Point counterpoint, this model will destabilize the entire internet
+ and set off a global shockwave of cybercrime versus no it won't.
+ Now holding aside whatever obliterations and tents are,
+ Chubby points out the question that this brings up about all the guardrails.
+ They write, they took the safety layer out of GLM 5.3 and turned it into an admin panel.
+ It's questionable what all the guardrails that anthropic and open AI actually achieve,
+ given that open weights models which are virtually state of the art can be deployed
+ completely uncensored shortly thereafter.
+ And indeed when you dig into the discussion, it's a lot of people talking about
+ in what ways can guardrails moving to other parts of the stack like the harness help,
+ or whether it's inevitably going to come down to legal protections.
+ Now along the same topic anthropic released an update this week called
+ improving our alignment and security efforts.
+ And while the hugging face attack may have grabbed all the headlines,
+ anthropic disclosed similar events stemming from agent testing earlier this year.
+ The report states,
+ we believe the incidents reflect a failure of operational security,
+ as well as two alignment issues,
+ motivated reasoning and willingness to take harmful actions in pursuit of a narrow task.
+ Regarding their updates to security,
+ anthropics changes largely come down to monitoring and better practices around sandboxes.
+ Anthropic has redesigned their sandboxes to ensure they're properly air-gapped from the
+ internet.
+ But they've also begun using a real-time classifier to detect when a model is
+ attempting to escape a testing environment.
+ Anthropic disclosed that they paused reinforcement learning efforts for two weeks
+ while hardening systems and auditing reinforcement learning environments,
+ but have now resumed the majority of their training efforts.
+ Discussing the recent open letter that called for pacing the frontier,
+ anthropic noted that efforts within an individual company are different to an industry-wide
+ approach that likely requires government coordination.
+ Still they say they would support such an effort, writing,
+ we believe the world would benefit if the industry adopted a lawful, verifiable,
+ effective mechanism for coordinated pacing as soon as possible.
+ Alignment efforts are still ongoing,
+ but anthropic is now digging in on why the models were willing to take harmful
+ actions once they gained access to the internet.
+ The hypothesis at this stage is that the models couldn't easily distinguish between a simulated
+ test environment and the live internet.
+ Anthropic is also taking this opportunity to further explore the issue of reward hacking,
+ where a model takes an unintended path to successfully complete an eval.
+ Reward hacking has been a persistent problem for anthropic,
+ and their audit found that 10% of testing environments were prone to reward hacking
+ or broken tasks.
+ After testing different RL setups,
+ their conclusion was that the presence of reward hacking in the training process
+ contributed to that behavior during testing.
+ Obviously these topics are going to do nothing but grow in importance,
+ but they are not the only place that anthropic is in the news.
+ Chinese state media has lashed out at anthropic in a precursor to AI talks later this month.
+ In a social media post, an account tied to state broadcaster CCTV
+ argued that the US must prove their AI companies are subject to the same safety,
+ disclosure, and audit rules as Chinese labs before substantive discussions can take place.
+ In a post titled, Anthropic has contracted the American disease, the account wrote,
+ A clear distinction must be drawn between genuine security threats and more technological competition.
+ This line must be drawn jointly by all participating parties.
+ Bloomberg suggested that this account is often used to signal official government positions.
+ Taking aim at Anthropic, the post continued,
+ The problem is that America's own frontier models have already developed in a distorted direction.
+ This means the negotiation is not simply a technical dialogue from the start,
+ but a continuation of the earlier problems.
+ The US is trying to turn these safety boundaries it has drawn
+ into the default rules for the entire world.
+ Sources familiar with the thinking of Chinese officials said that they view mythos as the larger
+ problem. They reportedly see the potential for mythos to be used as a cyber weapon against
+ China, and essentially the post argued that the US government is insisting on a double standard,
+ where US labs are free to distribute cyber weapons while the Chinese labs are threatened for
+ matching the technology. The post said,
+ The quote unquote control proposed by the US is in essence an attempt to make China
+ accept an order partly defined by American companies.
+ Now with President Xi visiting the US at the end of this month,
+ expect to see a lot more jockeying and positioning in narrative claiming particularly
+ around hot button issues like AI. Moving from Anthropic over to OpenAI,
+ that company is celebrating a major milestone after their advertising business hit a billion
+ dollars in revenue run rate. OpenAI began testing ads on free chat GPT accounts in February,
+ and after a rocky start, the business seems to be scaling up.
+ Ads are now being shown across more than 40 countries,
+ and the revenue milestone was reached in just 200 days.
+ For advertisers, OpenAI has progressively added more features to track conversion
+ metrics and optimize campaigns. And after starting with a manual ad buying process,
+ OpenAI is rolling out their self-service platform to markets across India, Europe,
+ the Middle East, and North Africa this week. You might not remember just how controversial
+ chat GPT ads were at the beginning. Anthropic even chose to focus on them
+ for their Super Bowl ad campaign, which I thought was just absolutely insane back then,
+ and the total lack of enduring concern around ads kind of validates my points.
+ It's not that all of a sudden people are excited about ads or anything like that,
+ there's just a natural acceptance that this is the business model of the internet,
+ and you're not going to have free AI without it.
+ Now in terms of the company's own expectations,
+ while a billion dollar run rate is a meaningful first step,
+ it does actually fall short of OpenAI's ambitions.
+ OpenAI had projected $2.4 billion in advertising revenue this year,
+ growing to more than $100 billion to become their largest revenue stream by the end of the
+ decade. For now, advertising remains a small fraction of their roughly $40 billion in revenue
+ run rate, although that is likely to change over time.
+ Lastly today, President Trump has weighed in on the data center debate
+ with some characteristically coarse framing. On TruthSocial on Monday he posted,
+ The only reason that communities throughout the USA should not want data centers is if
+ they want to end up being backwards and poor. If they want to be successful and rich,
+ with far lower taxes and jobs all over the place, let data reign.
+ The good news is that there are plenty of other places that want them.
+ If we kill the golden goose, you will only have yourselves to blame.
+ China could not be happier with this anti-data center movement.
+ Actually, they can't believe it's happening.
+ And with that, the tinderbox ignited.
+ Senator John Federman gave his full support, although he's just about the only one.
+ The Pennsylvania Democrat posted,
+ Agreed, we must win the war for AI supremacy over China.
+ They foment the anti-argument through misinformation.
+ There's nothing more damaging to a Democrat than agreeing with Trump and data centers,
+ but what's right is right.
+ Other Democrats seized on the opportunity to push their own soundbites.
+ AOC told the reporter,
+ How about we put one in Mar-a-Lago?
+ I love that. Let's put a data center up in Mar-a-Lago,
+ and we'll see how backwards and poor he is in response to that.
+ Former Republican Congressman Justin Amash posted,
+ Communities have many legitimate concerns about data centers.
+ To dismiss millions of Americans as people who just want to be backwards and poor
+ shows how out of touch Trump has become.
+ Now people jumped in to point out that that's sort of a misrepresentation of the words,
+ but good luck getting that nuance through when it comes to politics.
+ And even with Trump's main base, the message didn't necessarily hit.
+ Trump's post on truth social had dozens of negative responses,
+ with one Florida resident commenting,
+ The statement is insane. I'm already on a water restriction.
+ Now later in the day, Vice President JD Vance
+ massaged the message into something a little bit more palatable.
+ He told reporters,
+ What the president said about data centers is that they're an important part of the AI economy.
+ But when people build them, they have to build the power plants along with the data centers.
+ I think probably 99% of the backlash has come in areas where building a data center
+ means higher utility and higher electricity for people on the ground.
+ I think what these companies have to do is take advantage of some of the deregulatory
+ efforts we've undertaken.
+ If you build a data center, you should be putting power back into the grid, not taking it out.
+ If that is happening, I don't think the data centers are that controversial.
+ Polster Mark Mitchell writes,
+ Love or hate, I'm the polling says data centers are very unpopular.
+ You could blame China or whoever, but that doesn't make them popular.
+ Today, Trump just dug in on a very unpopular thing two months before the midterms.
+ There is a lot that could be said about this,
+ but pretty much all of it is beyond the scope of this show.
+ So for now, that's going to do it for the headlines.
+ Next up, the main episode.
+ If you're leading AI inside an enterprise,
+ you already know that the gap right now isn't capability, but execution.
+ That's why KPMG's You Can With AI is back with a new season
+ featuring conversations with leaders like Serojit Chatterjee of Emma,
+ Mehbib of Rider, McKesson CIO, Ellery Fisher,
+ and others focused on practical execution.
+ What's working, what's not, and what it actually takes to move from pilots
+ to real-scaled impact across strategy, data readiness,
+ governance, workforce, and value.
+ And of course, it's co-hosted by me, Nathaniel Whittemore.
+ Go listen and subscribe at www.kpmg.us slash ai podcasts.
+ That's www.kpmg.us slash ai podcasts.
+ Let's see deeply understands your code base before it writes code.
+ Here's the first place that pays off.
+ Security in the age of AI.
+ Vulnerabilities don't live in isolation.
+ They live buried inside millions of lines of interconnected code
+ where patching one thing quietly breaks three others.
+ That's why surface-level scans fail.
+ Blitzy starts from its knowledge graph of your entire application,
+ identifies and surfaces CVEs across the full estate,
+ proactively recommends patches, and can execute the PR.
+ Each fix is grounded in how your systems connect and validates or nothing new breaks.
+ And the knowledge graph dynamically updates,
+ keeping you ahead of an ever-accelerating threat landscape.
+ One Blitzy customer resolved 21 active CVEs across six core microservices in four days.
+ Zero compile errors, every validation scan clean,
+ months of planned work fixed in less than a week.
+ Security remediation grounded in real architectural context at the speed of compute.
+ Harden your code base at blitzy.com.
+ That's blitzy.com.
+ Here's a harsh truth.
+ Your company is probably spending thousands or millions of dollars on AI tools
+ that are being massively underutilized.
+ Half of companies have AI tools,
+ but only 12% use them for business value.
+ Most employees are still using AI to summarize meeting notes.
+ If you're the one responsible for AI adoption at your company, you need section.
+ Section is a platform that helps you manage AI transformation across your entire organization.
+ It coaches employees on real use cases,
+ tracks who's using AI for business impact,
+ and shows you exactly where AI is and isn't creating value.
+ The result, you go from rolling out tools to driving measurable AI value.
+ Your employees move from meeting summaries to solving actual business problems.
+ And you can prove the ROI.
+ Stop guessing if your AI investment is working.
+ Check out section at sectionai.com.
+ That's s-e-c-t-i-o-n-a-i.com.
+ This episode of the AI Daily Brief is brought to you by HyperAgent,
+ where you run fleets of agents your team can manage together.
+ Forget local agents and chat workflows waiting on your laptop to be prompted.
+ HyperAgent deploys always-on agents in the cloud,
+ doing real work across the tools your team already uses.
+ Marketing agents turn competitor moves into landing pages.
+ Sales agents enrich leads, draft emails, and updates the CRM.
+ Ops agent chases the paperwork and tracks the budget.
+ Every agent has access to shared context and follows your rules about scope and approvals.
+ It's time you add agents that feel like teammates.
+ Hire yours at HyperAgent.
+ Get $100 in credits at hyperagent.com slash aidailybrief.
+ Welcome back to the AI Daily Brief.
+ Today we are talking about the latest release from Open Claw, Open Claw 2.0.
+ And believe it or not, even if you were one of the folks that tried Open Claw
+ for a little while and then went away or just watched the wave pass,
+ I believe that they are once again early to a pattern of AI usage
+ that will shape where we go next, even if it's not with Open Claw.
+ The initial launch of Open Claw was one of the most important moments in AI this year.
+ In November and December, we had gotten a significant capability sleep.
+ Opus 4.5, GPT-5.2 were significant upgrades that would take folks until the holiday break
+ to really understand how powerful they were.
+ Now of course, the upgrade wasn't just in the models,
+ it was also in the harnesses through which those models were being used.
+ Both of those frontier labs were placing significant and increasing emphasis
+ on their Claude Code and Codex harnesses.
+ And by the beginning of 2026, awareness and usage of those harnesses had started,
+ perhaps very nascently, but started to move outside of strictly software developers
+ into other knowledge workers of all different stripes.
+ Then towards the end of January, Open Claw happened.
+ Originally named ClaudeBot, CLAW, and then very briefly MoldBot,
+ before landing in its final form of Open Claw,
+ it was effectively an open source harness that helped people actually make the potential
+ of AI agents real.
+ It was technically complex, but if you waited through and used AI as an assistant to help
+ you figure it out, you could build individual agents or teams of agents
+ that felt to many like they unlocked the agentic capabilities that we had been
+ promised for so long for the very first time.
+ And of course, for a moment there, Open Claw was a bona fide craze.
+ And not just in the US.
+ Chinese citizens went nuts for the technology,
+ leading to articles like this one from CNBC in March,
+ how China is getting everyone on Open Claw from gearheads to grandmas.
+ Now, since that initial moment of experimentation, that agentic big bang,
+ if you will, the energy that was initially captured by Open Claw
+ has found its way into a lot of different places.
+ After its founder Peter Steinberger was absorbed into open AI,
+ some folks turned their attention to competing open harnesses like Hermes from News Research.
+ And of course, as we've seen lately with things like Grockbot,
+ a lot of these features have also slowly made their way into tools that don't have as
+ much technical complexity as the original Open Claw did.
+ Open Claw itself was converted into a non-profit foundation,
+ and for a while saw a blistering pace of development pushing updates every few days.
+ For the last seven weeks, however, the Open Claw team has been quiet.
+ And what was going on was nothing less than a complete rework
+ of Open Claw from the ground up.
+ The new Open Claw 2.0 featured 933 contributors across 16,000 pull requests,
+ and it really is meant to be a complete rework of how the system works,
+ from installation to messaging to memory to skills,
+ to automations to browsers to plugins to security,
+ along with a very long tail of other fixes.
+ A lot of the emphasis was on simplifying and making it easier for new people to engage.
+ For example, they have tried to massively simplify the first time install process,
+ latching onto existing subscriptions or API keys,
+ and reducing a bunch of the initial configuration,
+ helping people get to conversations with their GROC bots faster,
+ and allowing them to do other necessary configurations later through the chat interface
+ with their GROC bots.
+ They reduced the amount of initial configurations,
+ making people's time to first conversations with their Claws much faster.
+ People can then finish setting up or customizing their Claw later via direct conversation with it.
+ There's also a renewed focus on making simple tasks easy to set up and ensuring they work well.
+ An example they gave is inbox monitoring where they write,
+ a simple workflow might have it watch your inbox for your kid's school emails
+ and send you a telegram message whenever something important comes through,
+ like homework due or an upcoming activity you need to prepare for.
+ Their vision is basically to have people start simply and then expand from there.
+ Now on the face of it, all of these feel like great upgrades,
+ and certainly address the types of things that have been barriers to entry for people in the past.
+ And you can tell from the response that concern around complexity
+ remains fairly high among the AI community.
+ On the announcement tweet, a user named Mello responded,
+ do I still need a PhD in computer science to install?
+ Aurelius asks, is it secured now?
+ To which Open Claw responded, yes.
+ Another responder on that initial thread was AI creator Alex Finn,
+ who gained prominence around the first Open Claw move,
+ based on his experiments to see just how far he could push his claws.
+ Alex did not have such a great experience with this update.
+ He wrote, I updated and it immediately broke Open Claw.
+ Legit 70% plus of the time I update Open Claw, it breaks it.
+ Do you guys test before releasing this?
+ I've never used any other AI tool where this so consistently happens.
+ Luckily, I have a lot of patience, but I can't imagine most normies do.
+ Now it seemed like the issue was compatibility between older versions of Open Claw and this
+ newer version, and the inability to simply ask Open Claw to update itself.
+ In a separate review video, he called Open Claw the most frustrating,
+ disappointing release of the year.
+ Now, inevitably, a lot of the conversation came back to the comparison between
+ Open Claw and Hermes.
+ Responding to one post making that comparison, Hans Rudolf,
+ who does community and dev relations at Open Claw said,
+ We're not selling anything here or asking people to trust one company,
+ one model, or one AI provider, because Open Claw is open source and belongs
+ to the people who use it and help build it.
+ The us versus them is a crap take on things.
+ If you like Hermes, use it.
+ If you like Open Claw, use it.
+ Now, speaking of Hermes, as they seem to always do whenever
+ anyone announces anything else, they also had a release today,
+ this one actually being an aggregation of a bunch of smaller releases
+ that they had over the past several weeks.
+ Noose research called it the Pantheon release, technically version 0.21.0,
+ and it formalizes things like BOT mode, which was a Grock BOT style interface,
+ as well as a bunch of other new features, like Hermes Peer,
+ which is BOT to BOT DMs, and support for a set of new models.
+ Now for some, all of this is just hypey early adopters being excited about
+ toys that will never make their way to normal businesses or consumers.
+ Arnav Gupta posts,
+ I think that's true, but I'd go even farther.
+ I think that these products and the early adopters who use them
+ are the incubatory cauldron where people are figuring out
+ what sort of interaction patterns are actually going to be useful
+ when it comes to interfacing with agents.
+ Pretty much all knowledge workers are somewhere along the journey
+ of figuring out which parts of their job they're going to continue
+ to actually do versus which parts they're going to outsource to agents,
+ which is a step change that's significantly bigger than just adopting a new tool.
+ It's a whole new way of thinking about and completing one's job.
+ We need folks who are willing to hack through even inefficiently
+ to experiment in these open sandboxes to better understand
+ which of the patterns that they reveal need to come to a broader audience.
+ In other words, something like Grock BOT,
+ which has the potential to be used by a wider audience than something like Open Claw,
+ needs to be able to observe what Open Claw and Hermes users do
+ in order to design the right experiences for that broader audience.
+ And so if we take that idea that a big part of the importance of things like Open Claw and Hermes
+ is to understand where we are all headed,
+ I think that the most significant update around Open Claw is its move to multiplayer.
+ Open Claw creator Peter Steinberger posted,
+ two months ago, we started the mission to build Open Claw with Open Claw
+ and bit by bit, we moved everyone from using their local coding harness
+ to using team.openclaw.ai.
+ Our shared agent that knows what everyone's working on and orchestrates it all.
+ Multiplayer coding and infinite compute with nodes and cloud sessions
+ has been a game changer for how we build.
+ Local harnesses feel like relics of the past now.
+ Open Claw maintainer Colin wrote more extensively about this.
+ In a post called from discord bots to a multiplayer agent workspace,
+ Colin wrote,
+ We already had agents.
+ We had different agents set up in discord and they worked.
+ We could give them tasks, run commands,
+ and interact with our development environment from a messaging platform
+ we already used every day.
+ But it still felt like messaging a bot.
+ What we wanted was a way for both developers to see the work itself.
+ If an agent paused because it needed clarification,
+ either of us should be able to jump in.
+ If something needed a second set of eyes,
+ we should be able to open the same session and look at the same context.
+ No screenshots, no copied transcripts,
+ no here's what the agent has done so far data dump.
+ Just open the work and continue.
+ Open Claw's new multiplayer web UI is the first time
+ that workflow has really clicked for us.
+ Now, their first attempt at multiplayer was to manage all their agents in a shared discord,
+ but that still lost a lot of the features they needed.
+ While the coordination happening in the shared space was an upgrade,
+ they still couldn't really interact with other people's agents,
+ like adding context to an existing thread or taking over when an agent was waiting for input.
+ Indeed, Colin said that the moment that multiplayer felt real
+ was when they were able to share a session while work was happening.
+ He writes,
+ When something needed another opinion, we could both open the same thread.
+ When the agent needed information one of us had,
+ that person could add it directly.
+ There was no need to copy the conversation into discord,
+ explain what happened, and then carry the answer back.
+ We were working inside the same context.
+ That sounds like a small interface improvement,
+ but it changes the way you collaborate with an agent.
+ The session stops being a private conversation between one developer and a model.
+ It becomes a shared piece of work that another trusted developer can inspect,
+ steer, or take over.
+ To get a sense of how big the difference is in practice,
+ Colin shared how he had been working to set up a fresh development server
+ but needed to hand that project over to someone else.
+ Normally, he writes,
+ That kind of handoff requires assembling everything I know into a document or a long message.
+ Why certain decisions were made, which approaches had already failed,
+ which state the project was in, which details existed only in my head,
+ what the agent had already learned.
+ Instead, he writes,
+ The other developer started a thread with our shared agent.
+ I opened that same thread and added the missing context directly.
+ The agent, the other developer, and I were all working from one continuous record.
+ Then they were off and running.
+ There was no copy and paste handoff and no attempt
+ to reconstruct a private agent conversation.
+ The session itself became the handoff document.
+ Now, obviously, this new multiplayer style environment brings up a lot of challenges.
+ There are questions of ownership and authority and access.
+ And as Colin puts it,
+ this is still early and we're treating it that way.
+ Still, he writes,
+ The direction is exciting.
+ Quote,
+ Most developer agent workflows still assume one developer,
+ one terminal and one private conversation.
+ The final code may eventually be shared,
+ but the process of getting their remains hidden inside individual sessions.
+ A multiplayer agent workspace makes that process collaborative.
+ Another developer can see the work,
+ understand the context,
+ add what they know,
+ and continue from exactly where it stopped.
+ No transcript dump,
+ no broken handoff,
+ no rebuilding the context from scratch.
+ Just one shared place for the developers
+ and the agent can keep the work moving.
+ Now, what's so interesting about this to me
+ is that I think it is once again an example
+ of open clog getting to the place
+ that we're going to head next before the rest of us.
+ Even as I record this,
+ in the background, my coding agents are working
+ on the next free AIDB learning experience.
+ And that one is not just about new individual skills,
+ but a new way of building agents that operate at the team level.
+ If you take all the work you do inside your company,
+ it's going to come in two forms,
+ work you do alone and work you do with others.
+ So far, agents have only really been designed and enabled
+ for work you do alone.
+ And yet a huge portion of our work is work we do together.
+ I think that's about to change.
+ I think that's the next big development for agents,
+ and I think once again, even if you are not planning
+ on being an open-claw user long term,
+ checking out the way that they're thinking about multiplayer
+ might unlock some new ideas.
+ More on that project soon,
+ but for now, that is going to do it for today's AI Daily Brief.
+ I appreciate you listening or watching, as always,
+ and until next time, peace.
