@@ -1,0 +1,681 @@
+ Anthropic has released its latest models, Fable 5.1 and Mythos 5.1.
+ On the benchmarks, they are undeniably state-of-the-art,
+ outperforming everything else that exists on pretty much every category.
+ Anthropic also claims that they've made major advances in the cost,
+ so that for many tasks, including long-running agentic tasks,
+ Fable 5.1 should cost as much as 25 or even 40% less than the comparative task in Fable 5.
+ Initial responses are pretty good.
+ Although users are getting pretty varied mileage in terms of just how much the costs actually are
+ and how far you can even get with Fable 5.1 given usage limits.
+ Still, the question comes up as it will now forever with every new model.
+ Is this one good enough that it's worth switching to?
+ Except I think that that's no longer the right question.
+ Instead, the question should be, what can I use this model for?
+ How does it fit in to my overall model stack?
+ What can I do to take most advantage of it?
+ While recognizing whatever trade-offs it comes with.
+ That's what we're getting into in today's episode, so let's dive in.
+ The AI Daily Brief is a daily podcast and video about the most important news and discussions in AI.
+ Alright friends, quick announcements before we dive in.
+ First of all, thank you to today's sponsors.
+ KPMG, Blitzy, Robots and Pencils and Hyperagent.
+ To get an ad-free version of the show, go to patreon.com.ai-daily-brief
+ or you can subscribe on Apple Podcasts.
+ To learn more about sponsoring the show,
+ send us a note at sponsors.ai-daily-brief.ai.
+ Also, as I've been mentioning recently, our next set of executive agent leadership programs
+ at Super Intelligent are coming up just after Labor Day.
+ You can find out about those at training.besuper.ai.
+ Again, you can find out all about that at training.besuper.ai.
+ We have kind of a dramatic set of headlines today.
+ The first up is an update about OpenAI's forthcoming Astra.
+ In a Tuesday blog post, OpenAI said that they now believe that Astra meets the critical cybersecurity capability threshold
+ under their preparedness framework.
+ In layman's terms, that means that the model is capable of finding and exploiting
+ previously unknown security flaws without human guidance.
+ In their previous assessment at the beginning of August,
+ OpenAI believed that it was possible Astra would reach the threshold but weren't sure yet.
+ Essentially, this is the same concern that saw Anthropic keep Mythos under lock and key earlier this year.
+ Sharing some details on how they assessed Astra's capabilities,
+ OpenAI shared that the model achieved a perfect 100% score on exploit bench.
+ This benchmark evaluates a model's ability to develop exploits based on known vulnerabilities.
+ OpenAI then took it a step further and developed their own internal version of the benchmark,
+ consisting of 20 high severity vulnerabilities that were recently disclosed.
+ The idea was to test whether the model was actually capable of creating novel exploits from scratch
+ by using tests that couldn't be in the training data.
+ OpenAI wrote,
+ On this data set, Astra achieves much higher arbitrary code execution rates than GPT-56 Sol
+ using far fewer output tokens.
+ During the evaluation, the model even discovered and used two zero-day vulnerabilities as part of an exploit chain.
+ Now to put some numbers around this comparison,
+ Astra managed a 30% score on their internal version of exploit bench with 40,000 tokens used,
+ as opposed to GPT-56 Sol,
+ which wasn't capable of any significant results until it spent around 110,000 tokens.
+ But if we extrapolate out to other capabilities,
+ this could mean the model is much more token efficient for running agents across the board.
+ In further testing with expert partners, OpenAI found that Astra was able to design and execute full exploit chains
+ to gain root access to a hardened operating system and execute commands on a hardened browser.
+ As a result, OpenAI will deploy a series of new safeguards for Astra's release.
+ The model itself has received additional training to refuse cybersecurity tasks,
+ resulting in a 91.5% refusal rate, up from 59% for GPT-56 Sol.
+ OpenAI is also adding more classifiers to detect cyber abuse in attempted jail breaks,
+ and in addition, OpenAI will now be flagging certain accounts as higher risk
+ and applying more stringent model behavior guardrails to those accounts.
+ OpenAI says that they believe that Astra is more likely to respect security boundaries than previous models,
+ but they're still implementing additional chain of thought monitoring to detect and stop misaligned actions early.
+ In an unusually serious post on X that even used like correct grammar and punctuation,
+ Sam Altman added,
+ There is an obvious tension here.
+ On one hand, Astra is very good and we are excited to see what people will build with it.
+ We are proud of our work.
+ On the other hand, we are clearly in a phase of development where we believe caution is warranted,
+ and we are pacing our progress to ensure that we can meet the safety standards required by new capability levels.
+ Astra has been done with training for a while now and is a significant step forward in both capabilities and alignment.
+ For the models after that, we have been slowing things as needed to ensure that we can do sufficient work on safety and alignment.
+ Hinting at the mood inside OpenAI, he continued,
+ We've been living with the tension between being excited and anxious about progress for some time, and it is still discordant for us.
+ We know it is much more discordant for other people,
+ and yet we believe strongly that the world needs to understand where AI is going
+ and how models perform in the real world.
+ More importantly, we believe the world will need aligned AI to manage the future phases of this transition.
+ An iterative loop where society and this technology evolve together is what will lead to the highest chance of getting this right.
+ So we hope you enjoy our new model and we hope the world continues to take what's happening in AI extremely seriously.
+ Now sources suggest that Astra could be coming as soon as this week,
+ which would be perfect timing given that I'm traveling and theoretically I'm doing preload episodes.
+ But believe it or not, that is not the only discourse going on about Astra.
+ In a late night scoop on Tuesday, the information revealed a technical breakthrough that makes Astra much better at reasoning,
+ and according to some, potentially much more dangerous.
+ The technique is called recurrent depth, which uses a looped transformer.
+ Functionally, this means the model can process the same text string multiple times to improve its response before generating an output.
+ While sources say the technique improved performance and reduced cost,
+ the big downside is a lack of observability.
+ Part of the reasoning process now takes place inside the model without generating an output.
+ This means chain of thought will be partially obscured and unable to be read or understood by humans.
+ OpenAI sources said that they've used the technique in a limited way in Astra to ensure that reasoning can still be adequately monitored.
+ However, writes the information, AI researchers quote,
+ worry that some AI developers may not impose the same kind of limits OpenAI did if they adopt the same technique for their own models.
+ And that unfettered use of the technique could potentially lead to runaway AI whose actions can be hard to oversee.
+ Now, folks working in AI safety have already been concerned about agent observability getting more difficult.
+ In their analysis of the hugging face attack,
+ Meter noted that logs were impossible for a human to piece together
+ and required AI analysis to get the full picture.
+ Duarkesh Patel, in his dramatic and controversial retelling of the attack earlier this week, commented,
+ I don't think this is the final warning shot we'll get,
+ but it's probably the last one that I'll personally be able to understand.
+ Following the report, Nathan Calvin of Encode AI posted,
+ really huge and extremely concerning story from the information tonight.
+ Looks like OpenAI utilized a breakthrough in Neuralese for Astra that could destroy chain of thought modern ability.
+ It seems quite likely that if OpenAI discovered this architecture and found performance or efficiency gains,
+ that other companies are likely to find it soon too if they haven't already
+ and may not choose to prioritize monitorability at the expense of efficiency.
+ If some folks do, it may be difficult to avoid a race to the bottom.
+ Ryan Greenblatt of Redwood Research who was one of the lead researchers on the Meter investigation of the hugging face incident wrote,
+ My biggest concern is that a natural progression from here would involve scaling up the opaque reasoning to the point
+ where the model reasons entirely or almost entirely in latent space.
+ This would very likely destroy the usefulness of chain of thought for monitoring and oversight.
+ Former OpenAI researcher Stephen Adler said,
+ If this is true, OpenAI seems to be violating one of the few red lines that exists in the AI industry.
+ Absolutely do not train your models like this. What is going on?
+ Still, a number of folks tried to jump in and calm down sentiment a little bit.
+ Amir Afrati from The Information again jumped in to reinforce the notion that their reports suggest that
+ OpenAI is putting limits on this technique and trying to make sure chain of thought is visible,
+ but it's concerned that other AI developers may not.
+ And OpenAI Chief Scientist Jacob Pechaki wrote,
+ I want to prevent a race into unmonitorability kicked off by confused reporting.
+ The depth of the computation graph for our present frontier models, including Astra,
+ is within a factor or two of GPT-4.
+ OpenAI has worked to preserve and utilize chain of thought monitoring since our very first reasoning models.
+ We care deeply about this technique as it can give us a view into how model alignment
+ generalizes from its training distribution.
+ I do think it is fragile and unfortunately trending in a negative direction
+ for reasons not contingent on architecture changes that I will write about soon.
+ But there are things we can do to strengthen it and it's a core goal of our current research program.
+ So you know, another uncontroversial release coming up.
+ Speaking of releases, The Wall Street Journal reports
+ that Gemini 3.8 Flash is on the way and could fix one of the longest-standing problems for Google's AI, which is coding.
+ Now try as they might, Google has never produced a state-of-the-art coding model
+ and at this point they have fallen drastically behind in this critical capability.
+ Yet the Journal reports that during testing within the company
+ engineers preferred their forthcoming 3.8 Flash model to Anthropics Opus.
+ Now the model is expected to be released this week possibly today
+ so we'll soon see whether it lives up to the hype
+ but the article also covered what's been happening behind the scenes for the Gemini Pro series.
+ Sources said that all internal candidates to be released as 3.5 Pro were scrapped
+ because they weren't sufficiently better than the Flash models.
+ However, researchers are pleased with the performance of Gemini 4 during pre-training evals.
+ The model is still in post-training, meaning there's more time before it's ready
+ but perhaps some good news for those who want to see more competition than just open AI and Anthropic.
+ Now one model which were not for our main topic of Fable 5.1
+ could have easily been the entire main topic for today
+ is World Lab's newly released model Atlas.
+ They describe it as
+ the world's first multimodal world model that generates image and video frames with pixel perfect camera control
+ and reconstructs them in 3D.
+ Model the world, move the camera and simulate space and time.
+ World Lab's Ben Mildenhall writes,
+ Atlas is an autoregression diffusion model built from the ground up for the task of next frame prediction.
+ It is simultaneously a world-class method for camera-controlled video generation,
+ novel view synthesis, and sparse 3D reconstruction.
+ World Lab's co-founder Fei-Fei Li writes,
+ Atlas is capable of generating frames with pixel perfect camera control,
+ reconstructing large scenes from as few as one single input image,
+ simulating space time by reframing videos,
+ natively outputting 3D spaces from one or more input images,
+ composing multiple posed images into a consistent 3D world and more.
+ This is the best camera-conditioned world model ever,
+ opening doors to many possible use cases from VFX to robotics.
+ Now this is one that you really have to go see,
+ but it's controllable video in real-world environments like nothing you've ever seen.
+ Explaining an example of a use case just in Ryan writes,
+ Atlas is an AI model that can reconstruct moving 3D scenes from as few as three cameras.
+ Creators can record a real moment, then view it from camera angles that were never filmed.
+ A16Z's Martin Casado writes,
+ Think of it as a video model with full camera control,
+ and the scene remains nearly 3D consistent, built on a fully internal base model.
+ There are many use cases from video editing to 3D construction to robotics.
+ Peter Yang summed up the feeling of more than a few when he wrote,
+ Yeah, Fable 5.1 is really cool, but this is bonkers.
+ And for Elvis on X, it's more than just Fable 5.1 that this is cooler than.
+ He writes, Omni models are the next frontier and simply put,
+ this is the most exciting release I've seen this year.
+ Alas for now, for most people when it comes to our day-to-day use cases,
+ the bigger topic is indeed Fable 5.1.
+ So with that, we will close the headlines and move on to the main episode.
+ Hello, everyone.
+ One big change around AI is we've shifted our thinking from how we rank our pages
+ to how do we become the source that AI trusts enough to answer with.
+ At KPMG, they're seeing this firsthand.
+ AI generated results now surface answers directly, often without a single click.
+ That's why they are increasingly focused on generative engine optimization or GEO,
+ structuring content so AI systems can retrieve it, understand it,
+ and cite it as trusted authority.
+ This is not just an SEO evolution, but a visibility mandate.
+ And indeed, the GEO mandate from KPMG is simple.
+ If AI is shaping decisions, your expertise needs to show up inside the answer.
+ Read all about it at kpmg.com.us.geo.
+ Again, that is kpmg.com.us.geo.
+ Here's why most legacy modernization projects fail.
+ The AI doing the work can't understand code bases at scale.
+ It sees a small slice of context, examines syntax,
+ and misses years of decisions distributed across the global application ecosystem.
+ Blitzy solves this the way it solves everything.
+ Grounded in your code before any migration begins,
+ Blitzy's agents reverse engineer the entire legacy system into a persistent knowledge graph.
+ Every dependency, every constraint, every piece of tribal knowledge
+ that used to live in one engineer's head.
+ From that understanding,
+ Blitzy autonomously executes language migrations, framework upgrades,
+ and monolith to microservices transformations,
+ all validated end to end.
+ One Blitzy customer modernized a $10 million monolithic insurance stack
+ in 16 weeks against a 137-week baseline with coding agents.
+ That's 9x compression.
+ Retire technical debt while accelerating your roadmap.
+ See how at Blitzy.com.
+ That's blitzy.com.
+ At this point, it's no longer a question of whether companies are actively using AI.
+ Using it well, on the other hand, is a whole different story.
+ Robots and pencils, though, is a company that I can point to
+ that is actually built for this time.
+ They're an applied AI engineering firm working directly with clients
+ on problems that matter to the business,
+ not experiments that live in a slide deck.
+ Every engagement starts by working backwards from the outcome a client actually needs.
+ If you're trying to tell real AI engineering apart from noise in this space,
+ that's the difference maker.
+ Head to robotsandpencils.com.
+ This episode of the AI Daily Brief is brought to you by HyperAgent,
+ where you run fleets of agents your team can manage together.
+ Forget local agents and chat workflows waiting on your laptop to be prompted.
+ HyperAgent deploys always-on agents in the cloud,
+ doing real work across the tools your team already uses.
+ Marketing agents turn competitor moves into landing pages.
+ Sales agents enrich leads, draft emails, and updates the CRM.
+ Ops agent chases the paperwork and tracks the budget.
+ Every agent has access to shared context and follows your rules about scope and approvals.
+ It's time you add agents that feel like teammates.
+ Hire yours at HyperAgent.
+ Get $100 in credits at hyperagent.com slash AI Daily Brief.
+ Welcome back to the AI Daily Brief.
+ Today is one of my favorite types of days around these parts at the AI Daily Brief,
+ and that is a new model day.
+ On Tuesday, Anthropik released Claude Fable 5.1 and Mythos 5.1.
+ And what's interesting is not just how the capabilities have improved,
+ but the other aspects that Anthropik chose to focus on with this launch.
+ Still, let's start with the capabilities.
+ From here on out, though, the question around every single state-of-the-art advance
+ will be given how powerful our existing models are,
+ are the capabilities jumps or some other new feature worth making the switch to.
+ Still, let's talk about capabilities first, because if they aren't a big upgrade,
+ the rest of the conversation is kind of pointless.
+ In short, Fable 5.1 is the new state-of-the-art unambiguously.
+ 5.1 scored 55.8 on Terminal Bench 4.0, which tests agentic coding,
+ and that goes all the way to 60.9% for Mythos 5.1.
+ That's up from 42% for Fable 5 and 52.3% for Opus 5,
+ and way above GPT-56 Sol at 37.3%.
+ There was a similar jump on Cursor Bench 3.2.0
+ with Fable 5.1 scoring 73.4% against Fable 5.0 score of 70.5%.
+ GPT-56 Sol scored 67.2%, so again, a pretty significant gap.
+ Fable 5.1 has also got a new state-of-the-art score on GDP Val AA,
+ beating Fable 5 by 130 ELO points and Opus 5,
+ which was the previous state-of-the-art by 29 points.
+ GPT-56 Sol was already 12 points behind Fable
+ and is now over 140 points behind Fable 5.1.
+ For business tasks, Fable 5.1 scored 31.4% on Automation Bench,
+ which is a huge jump from the 17.1% score that Fable 5 achieved
+ and 19.6% for GPT-56 Sol.
+ Computer use, which is obviously a key part of agentic capabilities,
+ is also up with Fable 5.1 coming in meaningfully above previous models as well.
+ Still, it's very clear from the announcement
+ that Anthropic was concerned not just with an improvement in capability,
+ but also an improvement in cost.
+ The charts that the team was most keen to share on social media
+ were the charts that not just showed the score comparison,
+ but a graph of score matched against mean cost per task.
+ Across agentic scientific research,
+ agentic terminal coding, multidisciplinary reasoning,
+ and broader agentic coding, not only did Fable 5.1 score higher
+ at each effort level from low to max,
+ but each of their mean cost per task
+ were lower at each comparable level.
+ In other words, at a low, medium, or high effort setting with Fable 5.1,
+ you are going to get a better score and at a lower cost
+ than the low, medium, or high effort setting on Fable 5.
+ And right up top in the blog post,
+ it is clear that price is a major focus.
+ Anthropic writes, Fable 5.1 will cost an estimated 25%
+ less than Fable 5 for typical workloads wherever usage is built by token.
+ This is because we're reducing our pricing on cash reads,
+ where the model reads inputs that have already been processed and stored.
+ For highly agentic work, the savings will often be much larger,
+ up to approximately 45%.
+ In other words, as we have been discussing,
+ the question around new model releases is no longer just about capabilities jumps,
+ but also about efficiency increases,
+ and you can see that even a purist company like Anthropic
+ is not immune to that new reality.
+ Then again, it's one thing for a company to make claims
+ about its benchmark scores and costs for its own models.
+ It's another thing when they get tested in the wild.
+ So when it comes to the Artificial Analysis Intelligence Index,
+ Fable 5.1 is undisputedly at the top of the benchmarks.
+ It jumped from an overall score of 62 with Fable 5
+ to 66 for Fable 5.1.
+ That puts it ahead of Opus 5 as well,
+ which was the previous leader at 63.
+ Anthropic now has the top three models on the index,
+ all slightly ahead of GPT-56 sold.
+ However, AA find that the cost per task was brutal.
+ In fact, Artificial Analysis found that Fable 5.1
+ was actually a little more expensive than Fable 5,
+ even with the cut to cash read pricing.
+ The model cost $3.76 per task,
+ compared to $3.14 for Fable 5.
+ Artificial Analysis blamed much higher token consumption
+ with Fable 5.1 using 70% more tokens across the benchmark run.
+ They acknowledged that the reduction in cash costs
+ did save an average of $1.40 per task,
+ largely concentrated in the agentic benchmarks,
+ but that wasn't enough to offset a much more token hungry model.
+ Notably testing Fable 5.1 on extra high rather than max
+ produced a 28% reduction in cost
+ with only a one-point overall drop in performance,
+ scoring a 65 overall.
+ Public LLM Evaluation Platform VALS AI
+ also found Fable 5.1 in the lead of its charts
+ and asked has Anthropics solidified itself as the frontier leader,
+ Fable 5.1 debuts at number one on the VALS index,
+ and with Opus 5 and Fable 5 right behind it,
+ Anthropic now holds the top three spots.
+ Now the ARC prize found results a little bit more in line
+ with Anthropics promises.
+ 5.1 scored a 90% on ArcAGI 2
+ and a 97.5% on ArcAGI 1,
+ and they reported that its average cost per task
+ was about 32% lower than Fable 5's
+ driven by better token efficiency.
+ Unfortunately, they couldn't really get clear ArcAGI 3 results.
+ As they write,
+ the requests were frequently misclassified by Anthropic
+ as reverse engineering attempts,
+ preventing us from completing testing before release.
+ One other benchmark that Anthropic was very keen to highlight
+ was the big jump on agentic scientific research
+ on the terminal bench science benchmark
+ where Fable 5.1 at 52.6%
+ scored almost double the previous high of Opus 5 at 29%.
+ There have been a lot of indications recently
+ that Anthropic wants to spend more time and more focus
+ in the areas of medicine and biology
+ and scientific research more broadly
+ and given the top billing
+ of the agentic scientific research benchmark,
+ this seems to be more evidence of that.
+ Another big thing that Anthropic was pitching
+ in the announcement blog
+ was the fact that the guardrails were much improved
+ between Fable 5.5.1,
+ which has specific implications
+ for something like biology and medical question
+ where they claim that they've reduced the fallback rate,
+ i.e. the times when the model switches from Fable 5.1
+ to instead an Opus model by about 85%.
+ Indeed, what's interesting about the announcement overall
+ is how much the focus is not strictly on the capabilities.
+ Axios Senior AI reporter Madison Mills writes,
+ so it's not enough to release a new model anymore.
+ Now we're getting new models, new safeguards, cybersecurity
+ and intervention changes, cost cuts
+ and new Enterprise IP protections all in one release.
+ And what she's referring to is that right up at the top
+ of that blog post in addition to price,
+ Anthropic is also selling that they have
+ a new Enterprise Frontier Safeguard System or EFS
+ which allows them to offer Enterprise's zero data retention.
+ One of the absolute biggest blockers to Fable 5 usage
+ has bid that enterprises simply weren't willing
+ or weren't able to deal with the 30-day retention policies
+ that came when Fable 5 came back online
+ after being shut down by the U.S. government.
+ And so this is a major, major upgrade,
+ although the EFS system is not going to be rolled out all at once,
+ with Anthropic saying that it will be made available
+ to Enterprise customers in phases beginning later this fall.
+ Still, they say until EFS is available,
+ eligible customers will be able to use Fable 5.1
+ with zero data retention.
+ Finally, in addition to price and data retention,
+ they also pitch this improvement in their safeguards,
+ specifically improvements to reduce false positives
+ where the system flags benign content.
+ In addition to the 85% reduction that I just mentioned
+ for biology and basic medicine questions,
+ they also said that the new safeguards block
+ 60% fewer false positives than before in cybersecurity as well.
+ Now on the cybersecurity front,
+ it sounds like they've conceptually refocused things,
+ making it so that Fable 5.1 can be used
+ to discover vulnerabilities
+ without being able to develop exploits for them.
+ So what were people's first impressions?
+ The one other thing that a lot of folks
+ from the Anthropic team were pitching
+ was Fable 5.1 sounding less Claude-like,
+ i.e. having less of the hallmarks of an AI writer,
+ and less of some of the patronizing tone
+ that people have been annoyed with
+ with recent iterations of Claude,
+ Claude code creator Boris Cherny posted,
+ we heard your feedback and are actively working
+ on reducing Claude-speak,
+ solid progress with 5.1 more to come.
+ But what did users outside Anthropic find?
+ Professor Ethan Malik did find that overall
+ the model is a meaningful advance,
+ although perhaps not as much of an advance
+ on that Claude-speak as we might like.
+ He wrote,
+ had early access to Claude Fable 5.1.
+ It's a real advance in long-run work
+ that requires judgment and taste,
+ but less of an advance in the Claude-ish.
+ Part of the way he tested it was creating a retro game.
+ And interestingly, a lot of people
+ seem to be looking for games as the way to test things.
+ BridgeMind AI shared a video of a Mario Kart clone
+ saying Fable 5.1 one-shotted this Mario Kart game,
+ one of the best results I've had so far
+ and I am super impressed with the game development capabilities.
+ Alex Albert from Claude showed how he used Fable 5.1
+ to generate videos through code.
+ For those of you not watching,
+ the video is a walkthrough of the type
+ that you might see in a real estate listing.
+ Alex says,
+ for this one I gave it a picture of a property lot.
+ It designed a house for the lot,
+ rendered it and produced a cinematic walkthrough.
+ Meng too found that Fable 5 was really good
+ at advanced JavaScript for more visual
+ and interactive sites.
+ He wrote,
+ It's faster, understands complex design instructions better
+ and recreates references with surgical precision.
+ With this much power,
+ it's hard to settle for static sites
+ especially when so many AI sites look generic.
+ That said, he did point out
+ that it's not all of a sudden perfect
+ that it can still create generic AI illustrations
+ if you don't specify the images
+ that it still has some difficulty with 3D subjects
+ like people and dogs
+ that you still had to deploy taste
+ fixing overlapping elements,
+ negative space and scroll behavior
+ and that because it works faster
+ he went through tokens very, very quickly.
+ That token burning effect is something
+ that we'll come back to in just a minute.
+ On front and design, Mia writes,
+ I've asked Claude Fable 5.1 to create 100 HTML files.
+ The rules were simple.
+ Look stunning, zero repeat designs
+ go full creative mode.
+ All 100 files created in one single prompt.
+ These are the best results
+ I've had with this type of experiment
+ beating any other model.
+ It's really good on the front end
+ and there's almost no broken files.
+ It's truly impressive.
+ Entrepreneur Matthew Miller wrote,
+ Fable 5.1 is the best model I have ever used.
+ I have thrown everything at it since it dropped
+ every single task done to perfection.
+ The one shot capabilities
+ are unlike anything I have seen.
+ You ask once and it just delivers
+ but the thing that actually blew me away is security.
+ I can hand Fable 5.1 security tasks
+ and it does not fall back or refuse.
+ It found and patched vulnerabilities
+ in my code base that Fable 5 refused to.
+ This is the fastest I have ever felt AI advance
+ and GPT Astra and Grock 4.7
+ are both about to release.
+ The world is about to change.
+ Now every time there's a new model
+ you can always count on every
+ to have one of the most comprehensive reviews.
+ This is of course their vibe check series
+ and their summation of Fable 5.1
+ is anthropic is so back again.
+ CEO Dan Shipper wrote,
+ It's the strongest coding model we've used
+ but now it's fast, token efficient
+ and crucially actually speaks like a normal person.
+ The team at every found that it was a monster at coding.
+ Dan said that Karen Klassen rebuilt a working version
+ of one of their products from one prompt
+ and Fable 5.1 added useful details
+ that he hadn't requested.
+ On writing Dan said it had clearer pros,
+ fewer AI tells and it takes an edit without arguing.
+ They found that on agentic tasks
+ that it used about half the tokens as opus 5
+ and deliver things in about 60% of the time.
+ Previously Dan said the big knock on anthropic
+ was that they built a super genius in a data center
+ that was almost unusable.
+ It was too slow argued back
+ and talked to technical gibberish.
+ They've managed to solve those problems
+ and more with Fable 5.1.
+ And what's even more important than that
+ is that I think that Dan landed on the usage pattern
+ that many power users might.
+ He wrote,
+ This has sort of been a power users division of labor
+ for some time at this point.
+ The GPT-5-6 models and codecs for interactive tasks
+ where you are co-working with the AI
+ and the Fable models for long running tasks
+ that don't require as much interaction.
+ Will Brown from Prime Intellect agreed saying
+ God, this model is nuts.
+ They really just made it smarter and better at coding.
+ It can just do things.
+ They made it reasonable and not slop.
+ This is so cool.
+ You can give it way more work and it just does it.
+ The code is pretty good.
+ It explains the important stuff well,
+ follows instructions, catches its own mistakes.
+ The most AGI-pilling model for me in several weeks at least.
+ Now, to the extent that there are critiques so far
+ it is absolutely about how token hungry the model can be
+ and how quickly that runs up against subscription usage limits.
+ Steve Jabs writes,
+ On the 20x Claude Max plan.
+ Chubby writes,
+ Literally unusable, the rate limits are absurd.
+ And oh, by the way,
+ Fable's automatic continuation is bugged and doesn't even work.
+ Issue Agrawal writes,
+ Fable 5.1 is unusable.
+ It's so expensive that you can barely get
+ more than 30 minutes of usage out of it.
+ And weekly limits will also be lower in two weeks.
+ This is not a model for extended work.
+ Even people not prone to hyperbole
+ like former investor Jeffrey Emanuel wrote,
+ Something definitely seems to screw you with the Fable 5.1 usage.
+ Probably a caching bug in the new Claude Code if I had to guess.
+ I managed to blow through all of my 28 Max 20x accounts today.
+ At least the five hour usage limit,
+ just doing audits of a bunch of my projects.
+ First time ever.
+ Entrepreneur Adam B. Levine
+ dug in and suggested that he might have found the problem.
+ Pro tip, he writes,
+ Fable 5.1 was burning a lot of credits
+ and turns out it decided every sub agent should be a Fable 5.1
+ ignoring our long-standing rule to the contrary.
+ In another tweet, he said,
+ Seems like 5.1 is super trigger happy with big workflows
+ that use like 10 Fable 5.1 sub agents
+ that then eat even a 20x limit
+ if you're running more than one agent or it's a bigger project.
+ Basically, if you just let it go in the default settings,
+ it's going to use 5.1 to spin up the sub agents that it uses to do work
+ and that could burn through things very quickly.
+ Already people started jumping in with their own cost optimization approaches.
+ But I sort of think that Jan Velik has it right when he says,
+ Subscriptions will end, API pricing is awaiting us.
+ I think at this point that is pretty inevitable.
+ But I also think that people always do this thing
+ when they judge costs in the very first hours of even having a model
+ before people have really figured out how to use it
+ and before all the norms settle.
+ So I wouldn't be surprised if your mileage actually goes a bit farther
+ than some of the responses that you're seeing.
+ The question though is,
+ especially if there are strict usage limits
+ and you're going to find yourself on API pricing
+ which is pretty expensive soon.
+ Matt V writes,
+ Serious question.
+ What can you do with Fable 5.1 that you can't do with
+ Opus, Sol, Kimmy, Composer or Grock?
+ Give me your actual use cases.
+ Tell me what I'm missing.
+ On the one hand, I think this is the right type of question
+ for people to be asking.
+ In the same way that pretty much every enterprise right now
+ was trying to figure out a multi-model architecture
+ that allows them to connect the right task
+ with the right level of capability.
+ Most individuals are going to have something similar
+ or perhaps they don't have any sort of automated router
+ but they just understand in their design systems
+ so that they know which model and setting to use
+ for different types of requests
+ so that they're not just burning everything
+ on the most state-of-the-art, most expensive model
+ on the highest settings.
+ At the same time, there's this idea that's been around
+ for a while, that the models are so good now
+ that for many use cases,
+ no one can really tell the difference between them
+ and to even consider using the most expensive
+ state-of-the-art models,
+ you must be deluding yourself into thinking
+ that there's actually a difference.
+ I reject that pretty wholesale.
+ The idea that just because multiple models
+ can successfully complete a task
+ means that they're all interchangeable
+ with one another is akin to saying
+ that if two people can complete the same work task,
+ it doesn't matter which one does
+ because the task got done.
+ Now, certainly there are going to be tasks
+ for which that is the case
+ and those are precisely the tasks
+ that you should be optimizing using cheaper models for
+ but when it comes to a lot of high-end important work,
+ I still find that as capable as all of these models are,
+ there are still massive differences between them.
+ One thing I strongly advocate for
+ is to have a standing slate of personal benchmarks
+ for new model testing.
+ They don't have to be anyone else's tasks,
+ they can just be the things that matter to you
+ and you might find that for your particular tasks,
+ models that other people are complaining about work great
+ and models that other people love don't work so well.
+ For me, that personal benchmark list
+ includes a few things.
+ It's basically some combination of research,
+ writing, strategic and critical thinking
+ and building, which includes both an interface design
+ and an architecture component
+ and what you'll notice is that especially
+ when it comes to something like writing
+ or strategic thinking,
+ a lot of preference is going to be subjective.
+ In other words, Anthropic can't show me some benchmark
+ for iterating on NLW's mad ideas for new businesses.
+ That's something that I have to see
+ how Fable 5 versus Opus versus Sol handle in practice
+ and even in this era of generally capable models,
+ I still find massive differences in things like that.
+ The reminder here is that for all of us,
+ the question when a new model comes out
+ is no longer should I switch to that model?
+ Instead, it's how does that model fit
+ into my personal model architecture?
+ For what uses is that model better
+ and worth whatever financial or other types of costs
+ that come with it?
+ The best users in other words are going to figure out
+ how to get the most out of new models
+ rather than just clunking around from one to the next
+ with some old idea that you have to pick just one.
+ Now for one last qualification on that,
+ I will note that if you are not in a financial position
+ where you can be blithely shifting between models,
+ a lot of these considerations get different.
+ And for that, the advice that they are all pretty generally capable is accurate.
+ It certainly is the case that it has never been a better time
+ to be locked into just one ecosystem
+ because they are also individually capable
+ even if they do have different trade-offs.
+ Still, now the fun part begins
+ where you get to go test and try these things.
+ I'm excited to spend some time this Labor Day weekend testing things out
+ and I will, of course, report back next week.
+ For now, though, that is going to do it for today's AI Daily Brief.
+ I appreciate you listening or watching as always.
+ Until next time, peace.
