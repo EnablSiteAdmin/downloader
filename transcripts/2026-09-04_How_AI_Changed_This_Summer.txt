@@ -1,0 +1,730 @@
+ This summer was an extremely weird time in AI.
+ On the one hand, there was the standard feeling of summer slowdown.
+ So much of AI usage is driven by people at work,
+ and people at work slow down in the summer,
+ getting some much needed rest and R&R and vacation.
+ At the same time, when it comes to the big issues surrounding AI,
+ this summer was an absolute bonanza.
+ We kicked off with Fable 5 and Mythos and then the Bannings,
+ had a deep-seek moment when Kimmy K3 came out
+ while Fable was still behind US government doors.
+ We saw data centers become an even bigger issue,
+ in fact, one of the topics to jure for the upcoming US midterms.
+ And the Hugging Face incident where open AI agents
+ escaped containment to hack into Hugging Face
+ is being broadly treated as a warning shot
+ that reflects the very different phase of agents
+ that we're headed into now.
+ Yet with all of this, somehow it all feels like prelude.
+ So with all of this as we head into the holiday weekend
+ that traditionally ends summer in the United States,
+ let's look back at what changed in AI this summer.
+ The AI Daily Brief is a daily podcast and video
+ about the most important news and discussions in AI.
+ All right, friends, quick announcements before we dive in.
+ First of all, thank you to today's sponsors KPMG, Blitzy,
+ Robots and Pencils, and Hyperagent.
+ To get an ad-free version of the show,
+ go to patreon.com.ai-dailybrief
+ or you can subscribe on Apple Podcasts.
+ To learn more about sponsoring the show,
+ send us a note at sponsors.ai-dailybrief.ai
+ or you can just find it at the website at aidailybrief.ai.
+ You can also find out about all the different things going on
+ in the broader AIDB community,
+ including Super Intelligent,
+ which is offering executive training programs,
+ the next of which starts the beginning of next week.
+ As I mentioned in yesterday's episode,
+ I am currently traveling,
+ and so we are using that chance to catch up
+ on some of the big picture themes.
+ So let's dig in.
+ Today, we are doing a bit of a retrospective.
+ Summer tends to be a weird time for AI
+ in that there are forces pulling
+ in opposite directions at the same time.
+ On the one hand, there is a natural work lethargy that takes hold,
+ where knowledge workers and white collar workers around the world
+ ease away from their desks a little bit
+ and try to disconnect from the relentless pulse
+ of new technology that's going to influence how they work.
+ At the same time,
+ progress in AI doesn't particularly care about vacation norms
+ and hurdles forward regardless.
+ This year, we had the added elements
+ of the U.S. midterm elections,
+ which brought a whole different dimension
+ to the AI conversation.
+ And what you have in total
+ is a fairly consequential period over the last few months
+ that has certainly changed our expectations
+ about how the next phase of AI plays out.
+ So we're going to talk about eight or nine themes
+ in different ways that AI changed this summer,
+ starting with the models.
+ And right from the start,
+ we have this strange ambiguity
+ that's going to flow throughout this period.
+ As is often the case
+ when you look at any given period of AI history,
+ this summer was defined by the models,
+ although that story is a lot more complex
+ than it has been in the past.
+ June kicked off with the release
+ of Fable 5 and Mythos 5.
+ And for a couple of glorious days there,
+ people felt the power of a major shift up in capability.
+ It was not to last long, however.
+ On Friday, June 12th,
+ the Department of Commerce sent Anthropic
+ an export control letter
+ barring non-U.S. persons
+ from using Fable 5 and Mythos 5,
+ leaving Anthropic no choice
+ but to shut down the service for everyone
+ while they tried to figure things out
+ with the U.S. government.
+ And this of course began
+ the new uneasy paradigm
+ that we find ourselves in now,
+ where Washington has become a release gate
+ for new models.
+ But as we'll see,
+ exactly what that means
+ and how it's implemented
+ remains unclear,
+ frankly, even to people in Washington, I think.
+ While ostensibly the U.S. government's
+ concern with Mythos and Fable
+ was a specific jailbreak,
+ behind the scenes it was very clearly
+ about a bigger paradigm shift
+ where some key capability threshold
+ had been crossed
+ and the White House now very much
+ felt like it needed to be involved
+ in the decision about whether
+ to release new models.
+ A couple of weeks later
+ at the end of June,
+ reports came out
+ that the Trump administration
+ had also asked Open AI
+ to limit their next model release as well.
+ Indeed, for maybe the first time with Open AI,
+ we got the announcement of GPT-5.6
+ before actually getting access to it.
+ It wouldn't be until a few weeks later
+ after the 4th of July
+ that consumers would actually get their hands
+ on the GPT-5.6 series of models.
+ We also got two new Grock models,
+ Grock 4.5,
+ followed by Grock 4.6 in August,
+ that especially when combined
+ with Grockbot,
+ their consumer agent platform
+ put SpaceX AI models
+ back in the conversation
+ in a way that they had it in some time.
+ One flagship model that never arrived
+ was Gemini 3.5 Pro.
+ While the release had been targeted
+ for all the way back in June,
+ it has been continuously delayed
+ presumably because
+ it just can't keep pace
+ with the other frontier models.
+ Unfortunately for Google,
+ the bigger stories around Gemini this summer
+ were the departure of
+ longtime product leader Jeff Dean,
+ as well as the stepping down
+ of DeepMind's CEO, Demosis Abbas,
+ which interestingly were widely interpreted
+ as signs of trouble at Google,
+ but which I argued
+ if you wanted to take a positive view
+ might be necessary for Google
+ to get back in the race in a bigger way.
+ And then there were the Chinese models.
+ Even before the Fable 5 shutdown,
+ people had had very positive
+ first impressions of GLM 5.2.
+ Then however,
+ Moonshot absolutely nailed the timing,
+ releasing Kimmy K3
+ as an open weights model,
+ even as the US government
+ and Anthropic were still figuring out
+ how to get Fable 5 back to the people
+ and mythos 5 back to the companies.
+ The release of Kimmy K3
+ produced another deep-seek moment
+ where analysts began asking
+ if the Western Frontier Labs approach
+ of spending a gargantuan amount
+ of money on big models
+ really was going to make sense
+ if China was only a few months behind
+ and could basically catch up
+ as soon as those models came out,
+ and even led to rumors and discussions
+ of an open source ban.
+ A group of companies led by NVIDIA
+ and noticeably missing Anthropic
+ would ultimately release and sign a letter
+ called Open Weights in American AI Leadership
+ imploring the US government
+ to preserve and protect open source
+ as a part of the AI ecosystem
+ and subsequent communications
+ from the White House have suggested
+ that the questions that they have
+ are not with American open source
+ but of course with Chinese open source.
+ As I record,
+ we still don't have all that many details
+ about the supposed Frontier AI framework
+ that at least some number of the labs have seen.
+ And yet one of the unique and defining
+ characteristics of this summer period
+ was the beginning of an increasingly
+ unified message from the Frontier Labs
+ to ask the US government to get involved
+ in explicitly pacing model development
+ and release.
+ One of the consequences of all of this
+ is that there has never been a bigger gap
+ between the AI that businesses
+ and consumers have access to
+ and where the state of the art
+ actually is in the labs.
+ And as we look out and think
+ about the legacy of this last period,
+ it seems to me very likely
+ that this summer period will be seen
+ as the beginning of a new phase
+ where a certain critical capability
+ threshold was finally reached
+ that required a fairly dramatic shift
+ in how these models actually get released.
+ Now, as all that drama was happening
+ among the labs and with the White House,
+ enterprises were entering
+ their own new phase of AI.
+ If the story of the very beginning of this year
+ was a genetic use cases actually coming online,
+ the story of the middle part of this year
+ was the recognition of the increased cost of AI
+ that come with more agent work flows
+ getting normalized
+ as a part of how businesses do their work.
+ We had just about the world's
+ shortest ever period of token maxing
+ as companies got excited
+ about a genetic experimentation
+ in March and April,
+ quickly followed by the revenge of the CFOs
+ as everyone started to talk about
+ token costs and token efficiencies.
+ In many ways, we hit a point
+ which we had long given lip service to,
+ but which was still fairly breathtaking
+ when it became real.
+ That is of course the idea
+ that AI is not just another software category.
+ It's not something where you can view its costs
+ on simply a per se basis.
+ The total amount that a company can spend
+ and spend effectively on AI
+ greatly exceeds the 20 or 30 bucks ahead
+ that you would expect
+ from previous types of tools.
+ At the same time,
+ it's not like corporations
+ wanted people to use less AI.
+ The reality was that we just needed
+ to start getting smarter about it.
+ And into that moment
+ came a bunch of subtrends.
+ One of them of course was the rise of routers.
+ The idea of routers
+ is to help companies or developers
+ route different types of tasks
+ to different types of models
+ based on the inherent needs of those tasks.
+ The idea, which is easy to say
+ but hard to design systems around
+ is that a quick search of an internal database
+ does not require the same type of intelligence
+ as creating a great presentation,
+ which also doesn't require
+ the same type of intelligence
+ as refactoring an entire code base.
+ Many companies experimented
+ with building their own routers
+ and the companies that had launched routers
+ that had any sort of traction
+ became the bell of the ball
+ when it came to M&A.
+ Of course, the most notable deal
+ in this category
+ was Stripe scooping up open router
+ for a reported $7 billion.
+ However, you also saw this token efficiency
+ show up in the way that the frontier labs
+ were thinking about their own models.
+ Alongside its state-of-the-art
+ 5.6-sol model,
+ OpenAI also released GPT-56 Luna
+ and GPT-56 Terra.
+ Cheaper, faster, and more affordable models
+ that came with different trade-offs
+ and were meant to keep more people
+ in the OpenAI ecosystem
+ while acknowledging that not every task
+ of an OpenAI customer
+ was going to require
+ the highest level of 5.6-sol intelligence.
+ Beyond just releasing a family of models
+ rather than a single model,
+ OpenAI would also later in the summer
+ actually get into a bit of price competition,
+ cutting the price of Luna by up to 80%
+ and the price of Terra and Sol by up to 20%.
+ Although we didn't get a 3.5 Pro,
+ Google did release Gemini 3.7 Flash,
+ although its price efficiencies
+ were ultimately somewhat less clear
+ than its speed advantages.
+ The model is very fast,
+ but it's not clear that it's all that much cheaper,
+ especially when you're comparing it
+ to something like the lower-end OpenAI models.
+ And despite geopolitical tensions,
+ Chinese open-source models
+ also started to find their way
+ into the Fortune 500.
+ On OpenRouter, which it's important to note,
+ represents a very, very advanced slice of the market
+ and not the average Fortune 500 type of company.
+ Chinese models jumped from capturing
+ about 30% of enterprise token usage
+ at the beginning of the year
+ to closer to half by the middle of the year.
+ You're also starting to see big enterprises
+ show up in the headlines
+ based on their experimentation
+ with OpenWeight models.
+ In the middle of August,
+ The Wall Street Journal published a piece
+ about how AT&T was quote
+ betting big on OpenWeight AI
+ that articulated not only the cost argument
+ for using OpenModels,
+ but the data sovereignty argument as well.
+ By running local instances of OpenModels,
+ AT&T basically argued
+ that even if some of those models came from China,
+ they still had a better data sovereignty profile
+ than having to rely on the promises
+ of an OpenAI or Anthropic
+ to say that they're not going to train
+ on an enterprise's data.
+ And of course, that concern was exacerbated
+ by the fact that when Fable 5
+ did come back to the US market,
+ it had a 30-day retention policy
+ around enterprise data
+ as part of the built-in guardrails.
+ That all on its own has made Fable
+ basically totally irrelevant
+ for a big set of enterprise customers.
+ Thompson Reuters has also been in the news
+ for building its own models
+ on top of an Alibaba Quenbase,
+ and it's pretty clear
+ that at least one major US hyperscaler
+ thinks that this is a trend that's going to continue.
+ Satya Nadella and Microsoft
+ have been banging the drum all summer long
+ about companies needing to build systems
+ to better own the entire suite of interactions with AI
+ and of course presenting their new set of base models,
+ the MAI models,
+ along with their model customization services
+ as the right approach to that.
+ One of the big questions to watch for
+ over the next three to six months
+ is just how far this trend
+ of exploring open-weights models goes.
+ Will more companies follow AT&T and Thompson Reuters
+ to rolling their own?
+ Will Microsoft have success
+ building off of the base of their models
+ but doing customization for their customers?
+ Or will companies like OpenAI and Anthropik
+ be able to offer a suite of models
+ that solve the cost equation
+ in a less technologically complex way?
+ A new study from KPMG in the University of Texas at Austin
+ found that when people work with AI
+ similar skills don't guarantee similar outcomes.
+ Researchers studied more than 500 early career professionals
+ and found that the best performers
+ consistently amplified the value of AI
+ by guiding, evaluating, and refining its outputs.
+ These top performers, called AI amplifiers,
+ weren't defined by what they knew alone
+ but by how they worked with AI.
+ Learn more about what separates AI amplifiers
+ from everyone else at kpmg.com slash us slash AI amplifiers.
+ Blitzy's understanding of massive code bases
+ unlocks autonomous security fixes,
+ modernization, and new features.
+ So what happens when there's no legacy code at all?
+ Greenfield is supposed to be the easy part.
+ Clean slate, no technical debt.
+ But even Greenfield moves at human speed
+ one sprint at a time.
+ Blitzy changes the unit of work
+ from the developer to the project.
+ Autonomously planning, building, testing, and validating
+ entire applications from scratch.
+ Hundreds of thousands of lines of production ready code.
+ One Blitzy customer stood up a brand new application,
+ 534,000 lines of code, compressing a 65-week roadmap
+ into two weeks.
+ Another shipped an entire application
+ with no front-end engineer.
+ Legacy or Greenfield, the answer is the same.
+ Software at the speed of compute.
+ Build what's next at blitzy.com.
+ That's blitzy.com.
+ The best teams don't have a single star
+ carrying everyone else.
+ They know their own strengths and each other's weaknesses
+ and play to both.
+ That's the team Robots and Pencils has built on purpose.
+ Nobody there is grinding through busy work
+ to pad a head count number.
+ People come for the hard problems
+ and they stay because everyone around them
+ is leveling up at the same time.
+ In a market full of companies
+ that are just trying to hire fast,
+ that's worth a look.
+ Check out robotsandpencils.com slash careers.
+ This episode of the AI Daily Brief
+ is brought to you by HyperAgent,
+ where you run fleets of agents
+ your team can manage together.
+ Forget local agents and chat workflows
+ waiting on your laptop to be prompted.
+ HyperAgent deploys always-on agents in the cloud,
+ doing real work across the tools your team already uses.
+ Marketing agents turn competitor moves
+ into landing pages.
+ Sales agents enrich leads, draft emails,
+ and updates the CRM.
+ Ops agent chases the paperwork
+ and tracks the budget.
+ Every agent has access to shared context
+ and follows your rules about scope and approvals.
+ It's time you add agents that feel like teammates.
+ Hire yours at HyperAgent.
+ Get $100 in credits at hyperagent.com slash AI Daily Brief.
+ The next way that AI changed this summer
+ is, in short, agent management became a field.
+ At the beginning of the year,
+ we had the initiation phase of agents.
+ We got open claw and non-software developers
+ starting to use codecs and clawed code.
+ Mac minis were sold out
+ and everyone was getting into the agent game
+ for the first time.
+ And the reason that it was so significant
+ is that unlike previous iterations of assisted AI,
+ agents represented not just you doing your job with help,
+ but you actually handing over big chunks
+ of the responsibilities of your job
+ to agents that do it for you.
+ In other words, instead of doing your work,
+ you now manage agents that do that work.
+ And it turns out there is an entire discipline around that.
+ The two big themes that people were talking about
+ within agent management across the summer
+ were harness engineering and loops.
+ Now to be fair, harness engineering
+ is something that people were talking about
+ ever since the recognition
+ that clawed code and codecs and open claw
+ were in fact harnesses.
+ But over the course of the summer,
+ it became more broadly understood
+ and a discipline that particularly enterprises
+ were digging into.
+ There were all sorts of examples
+ of the recognition of the importance of harnesses,
+ some of them in the form of Thoughtboy posts on X,
+ some of them in the form of startups and companies
+ that were focused on the harness.
+ On that point, SpaceX's acquisition
+ of cursor for $60 billion put a price
+ at least in part on how valuable harnesses could be
+ if for no other reason than the data
+ that they collect about how people are interacting
+ with the models within those harnesses.
+ But we also got interesting research
+ like this recently released NVIDIA Evo research.
+ Evo stands for agentic variation operators
+ and they describe it as a general purpose
+ agent coding system.
+ Reaching 100% on ArcAGI 3
+ from a 30% model baseline with Claude Opus 5,
+ their conclusion was that system design
+ rather than model capability alone
+ can unlock frontier level long horizon performance.
+ Harnesses have also increasingly become part of the story
+ when enterprises think about issues like cost
+ and token efficiency as well as AI sovereignty.
+ Putting a fine point on that,
+ in the wake of cursor's acquisition by SpaceX,
+ OpenAI recently announced that they would no longer
+ allow OpenAI models to be accessed through cursor,
+ showing how harness choices can have implications
+ for which models you have access to.
+ It's also quite clear that harnesses
+ are about to become an even more important part
+ of enterprise AI strategy
+ as companies race to release open versions of harnesses
+ that businesses can build on top of.
+ A couple weeks ago, in August, OpenAI developers
+ released Codex as a platform,
+ allowing developers to build on top of their OpenAgent harness
+ and alongside V4 Pro, DeepSeq also released DeepSeq harness
+ as an open source rival to the closed tools like Claude Code.
+ Now if the summer saw growing awarenesses
+ of the importance of harnesses as the ecosystem
+ in which you do AI work,
+ the watchword for how you interact with AI
+ this summer was definitely loops.
+ The simple idea of loops is that instead of
+ prompting AI manually,
+ you design automated recurring systems
+ that allow agents to do work in a repetitive way
+ until they reach a particular goal.
+ In an interview at the beginning of June,
+ Claude Code creator Boris Cherney
+ talked about how his job is no longer to prompt AI
+ but to design the loops through which it can work.
+ Around that same time,
+ OpenClock creator Peter Steinberger wrote,
+ Here's your monthly reminder
+ that you shouldn't be prompting coding agents anymore.
+ You should be designing loops that prompt your agents.
+ We actually just did a deep dive webinar
+ on what it means to actually build loops
+ when you're not a software developer
+ but someone in other parts of knowledge work,
+ which I believe will already be out as an episode
+ on this main AI daily brief feed
+ when you're listening to this episode.
+ So if you want to know more about loop engineering,
+ go check that out.
+ Now what about markets?
+ It's so long ago at this point you might not remember
+ but last August in 2025 was when the discourse
+ about an AI bubble really picked up steam.
+ Now there are a few reasons for that.
+ The first was that OpenAI had announced
+ just an absolute boatload of infrastructure deals
+ which while at first markets were very excited about,
+ they started to get increasingly concerned
+ that there was no way to make the math math
+ for OpenAI actually being able to meet
+ all of its commitments.
+ Remember this was in the days before agents
+ when the math that people were doing
+ was just the total number of knowledge workers
+ times $20 a month per seat.
+ That was compounded by the fact that OpenAI
+ released GPT-5 to near universal underwhelm.
+ And even if GPT-5 was an okay model
+ it was almost doomed to not meet
+ extremely high expectations
+ and it didn't help that the company
+ also deprecated 4.0 at the same time.
+ You take all those factors
+ and you sprinkle a little bit of MIT's 95%
+ of AI as an effective study.
+ I say study with the biggest air quotes that exist.
+ And you had the recipe for basically
+ an entire fall discussion
+ about whether AI was a bubble or not.
+ That narrative was fairly aggressively put to rest.
+ When agents came online and the market started
+ to understand that the total addressable market
+ was not in fact number of knowledge workers
+ times $20 per seat per month
+ but could be hundreds or even thousands of dollars
+ for those same knowledge workers each month.
+ Which is not to say that the bubble narrative
+ has ever fully gone away.
+ There are still many concerns
+ around the circularity of financing deals
+ and some worries about valuations
+ especially in private markets
+ for early stage startups.
+ But mostly this summer has been
+ a quiet acknowledgement of the risks
+ but ongoing participation in the party.
+ The summer saw two of the biggest
+ one-day market cap gains in history
+ with Microsoft jumping $450 billion
+ on July 30th after forward guidance
+ and Nvidia jumping $442 billion on August 27th
+ yet at the same time the market could also
+ punish capex when it wasn't paired with acceleration.
+ When Alphabet reported in July
+ they fell about 4% after hours
+ after they guided that they were increasing capex
+ and the same was true for Metta a week later
+ which fell just under 10% overnight.
+ One of the more dramatic moments in markets
+ came when situational awareness
+ the young gun hedge fund run by
+ mid 20 year old open AI alum Leopold Aschenbrenner
+ almost imploded before selling off
+ a huge chunk of its portfolio to Citadel.
+ Still all of this feels like prelude
+ to the big market stories for 2026
+ which are the potential IPOs of anthropic and open AI.
+ Certainly at this point it appears
+ that anthropic will go first
+ seeking a $2 trillion valuation
+ on the back of a $65 billion annual run rate.
+ Open AI meanwhile reports that it is at
+ about a $40 billion run rate
+ making these not only undisputedly
+ the fastest growing companies in the history of the world
+ but in a category of their own
+ that makes it extremely hard
+ to draw lessons from previous precedent
+ because there really isn't any.
+ Lastly on the market's front
+ in perhaps a sign of the maturation of AI narratives
+ one category that rebounded slightly over the summer
+ was the SaaS companies that had been hit
+ in the years earlier SaaS Pocalypse
+ where with the rise of agents
+ everyone assumed that companies like Salesforce
+ were going to be on their last legs
+ as everyone would simply race to vibe code
+ replacements and pocket the difference in costs.
+ Those companies haven't fully rebounded
+ but they are certainly on their way there
+ especially after Salesforce's recent earnings report
+ and overall the markets shift away
+ from its SaaS Pocalypse narrative
+ to me looks like a broader appreciation for the fact
+ that for as disruptive as AI is going to be
+ and as dramatically as it's going to change
+ how we do business
+ it's not going to come in like a tsunami
+ and change everything overnight.
+ There are big forces of institutional inertia
+ that slow things down and give us time to adapt
+ and a lot of reasons why existing product categories
+ like existing employees
+ have a really positive and strong partnership role
+ to play with the new tool that is AI.
+ Politically speaking we got very little
+ in the way of actual substantive policy
+ just the AI model evaluation framework
+ that had been developed behind closed doors
+ and which hasn't been released publicly
+ but that does not mean that there was no AI in politics.
+ In fact, if you want to point to just one dramatic shift
+ of the summer that is most notable
+ in terms of our relationship with AI
+ it is the emergence of opposition to data centers
+ as the political issue to jure for the midterm elections.
+ Now we have covered this a lot lately
+ because we've had to
+ because it is going to have such a dramatic impact
+ on how AI develops in the United States
+ but the TLDR is that as comedian Charlie Barron's put it
+ this is now the most bipartisan issue since beer
+ something like 75% of Americans
+ now oppose local data center development
+ and it is firmly outside of just a left versus right issue.
+ In fact over the last several weeks
+ Republicans have been racing to break ties with big tech
+ and tell their own version of the anti data center story
+ although for his part President Trump is not among them
+ arguing assertively that data centers are good for communities
+ good for business and good for America.
+ With the midterms coming up in just a couple of months
+ the thing that I will be watching to see
+ is whether we actually find a political Florida this issue
+ and start to see some recalibration
+ as data center developers change their policies and approaches
+ providing more transparency
+ and more incentives for the communities that they want to build in.
+ The final thing that changed in AI this summer
+ and the one that the summer might most be remembered for
+ is our understanding of the cybersecurity risk
+ posed by advanced models and agents specifically.
+ The hugging face incident
+ where open AI agents coordinated to escape containment
+ and access private hugging face systems
+ is being treated by many including many in the labs
+ as a warning shot sort of moment
+ and an indicator of the challenges to come.
+ The debate about the incident has not dissipated
+ for even a moment since it happened
+ and in fact has only reignited over the last week and a half or so
+ since a set of technical reports debriefing on the incident
+ were published by open AI and meter.
+ What there is not is any sort of true consensus
+ about the right answer to this new set of challenges
+ or even honestly a consensus
+ about what the challenges are.
+ What there is I believe is a recognition
+ that these capabilities broadly defined
+ are now a fact of life.
+ Something that we need to harden our systems to
+ something that might demand changes to policy and law
+ certainly something that demands new consideration
+ when it comes to cybersecurity
+ and likely something that's going to influence
+ the next wave of model development and product release.
+ Just like I said the questions of token efficiency
+ and costs and enterprise harnesses
+ and open weights models
+ were the very beginning of that discourse
+ I think that's also true for this new era of cyber risk
+ and I think that's likely to be one of the biggest
+ points of conversation jumping off into the fall.
+ So to sum up AI changed massively this summer.
+ The capability set changed
+ the threat profile changed
+ the opportunities changed
+ the risks changed
+ the political awareness and political sentiment changed
+ and the only thing that's clear is that
+ as we head into this fall
+ there is more recognition than there has ever been
+ that AI is not just a topic for technologists
+ not just a topic for the B2B crowd
+ but something that is going to impact everyone
+ in one way or another.
+ I'm sure that I have missed many things
+ but that is my highlights of how AI changed this summer
+ and that's going to do it for today's AI Daily Brief.
+ Appreciate you listening or watching as always
+ and until next time peace.
+ you
