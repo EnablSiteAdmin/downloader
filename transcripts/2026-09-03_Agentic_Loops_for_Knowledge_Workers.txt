@@ -1,0 +1,988 @@
+ Throughout the summer, one of the hot topics among advanced AI users has been the idea of
+ loops or loop engineering. Simply put, the concept is to think about the way that we interact with
+ AI, not as prompting it and telling it what to do, but to setting up the circumstances where the AI
+ or agent can loop over and over again, working to complete a specific task with a measurable
+ output that it can check itself against, running until that task is complete based on that
+ measurable goal. The first place loops took hold was of course in software engineering,
+ where the nature of the tasks is fairly definable and success is pretty clear.
+ Moving loops into knowledge work domains, where sometimes success is less definable,
+ is more of a challenge, but it's not impossible if you have the right tools to design your
+ knowledge work tasks for this type of agent work. Today's episode is a webinar with Newfarr
+ Gaspar where we do exactly that, and that is coming up right now. The AI Daily Brief is a
+ daily podcast and video about the most important news and discussions in AI.
+ Alright friends, quick announcements before we dive in. First of all, thank you to today's sponsors
+ KPMG, Blitzy, Harbor, and Hyperagent. To get an ad-free version of the show,
+ go to patreon.com.ai-dailybrief or you can subscribe on Apple Podcasts
+ to learn more about sponsoring the show, send us a note at sponsors.ai-dailybrief.ai.
+ And if you like Newfarr's presentation on this and you want to go deeper into the world of building
+ agents, allow me to recommend our super intelligent executive agent leadership program.
+ The next cohort is kicking off next week. It is led by Newfarr and you can find out all
+ about it at training.besuper.ai. Lastly a note, I am traveling currently for Labor Day and my
+ birthday. So if something absolutely crazy has happened and you're wondering why the heck
+ you are getting this agentic loops presentation, that is why. Although obviously if there is
+ something big enough, I will pop back in. For now, let's dive into agentic loops for knowledge workers.
+ Today we will cover I believe some very important topics around loops and graphs and in general
+ how to utilize the most advanced techniques for getting agents to work autonomously and as a group
+ and I want to hand it over to Nathaniel to set the table stakes as to why we are here today.
+ Awesome. So one of the really interesting dynamics right now is we're pretty well past the point
+ where people hear you say you're vibe coding or doing something with Claude Code and assume that
+ you're now all of a sudden as a knowledge worker trying to become a software engineer.
+ It's very clear that we're kind of in the phase of actually figuring out how code and
+ software engineering style processes and these set of tools can make their way into other
+ aspects of work and influence how that work gets done. And there's just a couple of weeks ago open AI
+ dropped these recent usage statistics which show just how dramatically consumption and use of AI
+ has shifted from the assisted to the agentic. So the chart that's on your screen is from that
+ you can see around April, May we flipped from majority AI usage in terms of total tokens
+ consumed being in that kind of chat GPT assisted paradigm to the agentic paradigm.
+ The notable thing about this is that alongside this more advanced type of usage,
+ you also see the firms and individuals who are using AI and these new agentic ways
+ are pulling away there the space between them and others, at least in terms of tokens consumed,
+ you know, which is obviously a pretty rough metric. But at least by that metric,
+ they are getting farther apart from the average. What's really difficult and I'm sure a lot
+ of you have felt is that knowing how to translate these concepts that originate in software engineering
+ to other types of knowledge work can be a difficult process. It can be abstract. It can involve layers
+ of abstraction. And so we wanted to put together this webinar because this idea of using agents
+ in loops and sort of no longer prompting but designing loops and things like that has been
+ kind of part of the buzzy zeitgeist of AI early adopters for a few months now. But
+ I think it's still been remained abstract what it actually means for knowledge workers. So
+ that's the goal of this is to kind of bring everyone into new ways of interacting with AI
+ and I'm excited to see where we go with it. All right. So a loop is basically a job and a
+ graph is an organization. That's a quote actually from you from the podcast. Keep that in mind
+ and we'll walk you through that. But if I need to give you like a TLDR of what we're doing
+ in three sentences. So the first thing is that AI tools, the ones that most of you are using
+ the agentic tools already use loops to do the work behind the scene. And once you learn to give
+ them a concrete and verifiable end goal, they will keep working until the job is actually done
+ without you nudging them or without you being frustrated by the mediocre result potentially.
+ That's the big promise. Okay. And when one loop and one agent stops being enough, you can
+ always compose loops into teams of agents. And that's the whole idea behind the graph
+ engineering noise and the chatter and social. There is substance around that. And this is very
+ important. All of these ideas were born in software engineering. So if you are coming from
+ this background or have computer scientists working for you and your company and so on,
+ the graphs are not news to any of them. And the engineers have been building with these
+ concepts for a couple of years and over the last few months with a lot of focus on specifically
+ on agents, but almost all the practice as Nathaniel said is very focused on coding. And we will try to
+ show you the pros and cons, the pitfalls and how best to leverage that to other types of work,
+ namely knowledge work. One last thing to say upfront, because most of the work that you do
+ regularly probably requires just let's call it regular agent execution. And only in some cases
+ you might need loops. The graph and the more sophisticated things should be for special occasions,
+ meaning I want you to keep things simple and go into loops and graphs and multiple agent
+ orchestrations only when needed. So I want you to keep it simple while being mindful of the
+ full breadth of how far you can take the modern technology. Very quickly, what happened on social
+ for those who are not sitting in the echo chamber of Twitter X all the time,
+ in July, six words by the founder of OpenClaw, what he was basically saying is that they're no
+ longer talking about loops, we're talking about graphs very quickly, millions of views. He was
+ half joking, but very quickly an obituary for the loop engineering. That is primarily a naming
+ event. But I think the joke stuck because it pointed into something that was more real,
+ and to be very concrete of what's kind of happening or the naming letter that does
+ have some substance around it. This is how we got here. And this is I think what tells the story
+ of the evolution of agents and AI over the last month or even one or two years. So we were very
+ obsessed at the beginning about what you say to the model that was born to engineering. And we
+ all learned how to speak effectively to the models. Then we got obsessed about what the model
+ knows. That's the context engineering that we talked about extensively. Then we started talking
+ about where it runs and what tools it can touch. And that became the conversation around harness
+ engineering. And this year we started talking more and more about how long the models and
+ the agents can run on their own. That's the loop engineering. And lastly, we started asking
+ how many of them work together in order to get the job done. And that's the essence of
+ what is now referred to as graph engineering. If you notice kind of the direction of the
+ travel, each evolution is about giving the AI more independence at a bigger scale. That's where
+ we're headed. And some people even claim that this is just a rebranding of a very natural evolution
+ alongside the technologies abilities. And because the field and the practitioner is adding new terms
+ and new skills evolution roughly every couple of months and chasing them can be exhaustive,
+ I think it's the more important thing is the essence is knowing how to get the agents to
+ work effectively and how to orchestrate them. That's the skill that probably survives the
+ every renaming and every buzz on social. At the end of the day, we just want to get the job done
+ and to be ambitious about the type of jobs that we can do. All right. So that's the background.
+ One last data point that I think proves that loops are important. Just three weeks ago,
+ when Jeff Dean, one of the most renowned engineers, I think in the history of modern
+ technology has left Google, he basically went to establish a company literally called Discovery
+ Loop. And this company is going to be on using loops for scientific discoveries. So there is
+ merit about being able to run AI in loops in order to get progressively better results.
+ Okay. So that was the background. Now I want to make sure that we are all on the same page
+ with regards to what is a loop and where can you find one. And the one thing that you
+ need to understand that every agent tool that you use, whether it's co-work,
+ GPD work, codex, cursor, any, any agent tool for that manner, what is being implemented under
+ the hood is already a loop. That's what the harness is doing. And in various degrees of
+ effectiveness, basically it runs through an iterative process of planning how to get the
+ job done, acting, typically using tools, checking whether the results that were received from
+ the tools are sufficient or good enough. And then adjusting. The thing is that the loop that
+ was implemented by the companies behind the agent tools are as good as what they implemented. And
+ in general, they are quite generic. And that's why even though these tools are amazing, and we
+ are able to get very good results out of them, in many cases, we are observing the fact that
+ we need to kind of nudge them, or we need to be very proactive in our prompting if we
+ want them to work extra hard or run multiple iterations on something before it stops.
+ That's not something that native loop that we're already implemented by the companies
+ will not do that for you. But the one thing to understand is that under the hood, there is
+ always a loop. And then the question, what is all this buzzword or what is the loop,
+ the advanced loop that we're talking about? So today, what we're talking is about a loop
+ that basically you control what is the end goal. So we're looking for a loop that happens when you
+ extend the native cycle, the cycle that is already run by the tool. And the way to extend it is by
+ leveraging the specific commands. In most tools, it's called a slash goal command.
+ In cursor, it's called literally loop command. And the entire purpose of this is to give
+ the tool a concrete end goal, and make sure that this end goal is highly verifiable,
+ and making sure that there is a way for the tool to progressively test itself versus
+ is it done or not? Okay, so that's the entire thing that we're talking about today.
+ And if you want to master two things that really matter here is, first of all,
+ you need to understand when you need to create this special loop, the one that you control,
+ the end goal, and the one that you encourage the tool to run in multiple cycles until result
+ is done. And the second thing that you need to know is to define the correct finish line.
+ That's the most important skill for a knowledge worker that wants to leverage that
+ for their day to day. Two additional notes here. One is that a loop is not a synonym for a schedule.
+ A schedule answer the question of when something should run, by when it can be
+ based on the clock, it can be when something happened. For example, when there is an email
+ that is being sent, that's an automation or a schedule, a loop answer the question of until.
+ And it stops when the work meets the bar, however long that takes, or the other constraints that
+ you will give it, I'll show those constraints in a minute. So those are profoundly different
+ promises. Okay, so don't confuse loops with automations, those have different purposes.
+ And also, the other caveat as I mentioned before, because loops were born in coding,
+ they are not as optimized for knowledge work as such, because coders invented them for coders
+ and for coding. And coding has a very clear superpower that not all of our work as
+ knowledge worker has, it has verification as a very abundant thing that they can execute.
+ The code either compiles or it's not compiled. The test pass or they fail. It's very
+ relatively easy if there are coders here on the line, I don't want to say that your work is easy,
+ but in order to verify coding that we have built-in mechanisms, which makes the ability to
+ run until a certain condition is being met, much more doable. Okay. So when we're talking about
+ knowledge work, in many cases, we don't have a built-in referee. Is this report good enough
+ to present to management? Is this analysis deep enough? Nobody's compiler answered these questions
+ for you. So when someone tells you just put it on a loop, they're forgetting that they as coders
+ had free verification and we or you don't have. So the good news, and that's the central move of
+ what we're doing here today, is that verification for knowledge work can be designed by you.
+ It's slightly more difficult than for coders, but you can manufacture the referee, the one
+ that decides whether the job was done. And that's what you need to be able to do well.
+ And if you are unable to design a finish line that is very clear and verifiable,
+ the answer is don't loop it. Okay. So let me give you concrete criteria as to whether the task
+ at hand deserves and can be looked for you. So in order for a task to be loop worthy or
+ loop relevant, it needs to be long running, meaning that it's not something that you can
+ achieve with one prompt and get good enough results with modern models, often that's more than enough.
+ I urge you to use one shot and getting the results if you can. The second thing, and those
+ have to come together, you have to be able to check whether the results are good enough or
+ the progress is headed in the right direction. That's the most important pair. The second
+ thing is that you look for things that you probably and potentially want to send overnight,
+ meaning that you want to be able to run autonomously, maybe over lunch, you don't have to run overnight,
+ and come back to a finished result instead of a draft. That's part of something that might
+ indicate that the loop is in order. Also, we want something that should keep running until
+ a specific bar is met or keep running indefinitely, watching for something. Those might also be
+ good indication for a loop. We also want something that comes by the way from hard experience is
+ we want something that you tried with the Opus, with the Fable, with the GPT Sol, whatever
+ smartest model that you have out there, and it was just not good enough. It didn't meet the bar
+ with the one shot execution. Also, it's relevant for cases where you want to push the model to
+ work harder than one polite pass, which is often will be the default. Think about
+ when you send the model to do the research, and that's going to be the example that we
+ will show in a minute. Often it will run a decent web search, synthesize the results,
+ and that's going to be that, unless you prompt it very rigorously. In many cases, it will not
+ run multiple iterations of trying to improve the quality and the abundance of results,
+ unless you ask for it very nicely or not so nicely. Lastly, we want something that has
+ a natural retina and improved shape, something that can be a draft, but then it gets better
+ with multiple iterations. That's by the way part of why I think Jeff Dean is going to do that for
+ research and science, because this is a place where with more and more and more experiments,
+ typically, you eventually get to the right direction. On the flip side, and that's also
+ very important, if the task is short and one pass does it, if your judgment is the actual
+ work and you cannot offload the judgment to a referee, a normal conversation with your agent
+ is the right call, and choosing that is the smart move, not the cop out. Last thing to say,
+ loops are among the most token hungry executions that you can have with your agentic tools,
+ so be mindful that you're using your tokens for the things that matter and that you don't
+ loop for everything. We want to look for the things that the value is there. All right,
+ so here are some concrete use cases of type of knowledge work that people do
+ in order to leverage loops. I'll start with my first attempt of using a loop. I ironically decided
+ to use a loop in order to do a very extensive research on token efficiency best practices.
+ That's also something that I will demo in a minute. I know that there is a little bit of
+ irony to use the most token wasteful method to look for token efficiency, but that's a very
+ good use case that you can pursue. Research where you want the agent to go deep and
+ wide and synthesize and make sure that you get the results that you're after. Another very powerful
+ example that many people have been leveraging loops for to do the add and campaign optimization,
+ highly verifiable use case because you can always test with very concrete data, whether the click
+ through rate and other analytics that you're using on digital campaigns are actually improving
+ and thereby by iteratively trying multiple things and getting the agents to work on a loop,
+ or sometimes indefinitely, sometimes with some kind of a cap on how many times it's trying,
+ you can overly improve the results and you can see some other results. There are competitive
+ analysis or scans, some audit around content, verifying some results, doing the compliance
+ and so on and so forth. The places where we're not doing loops is anything that requires
+ human judgment and cannot be fully automated. If the executive communication requires your judgment,
+ it's not a loop, similarly with these other folks hiring and strategy, because autonomy
+ at the end of the day does not have a taste on its own, you probably need to be there
+ to be the final say of that. That's a bunch of examples for what people are actually looping
+ and if I need to give you the bottom line of the three requirements in order to
+ build a loop, so one, checkable finish line. Knowledge work only succeeds on loop exactly
+ when you invent a very boring, very checkable finish line. Boring here, by the way, is a compliment.
+ So for example, saying I want 200 verified data points is very boring but very concrete
+ and very machine checkable for you. Every competitor covered, every claim cited,
+ summary under 150 words, very boring, very checkable, and you can think about the
+ equivalent in your domain and you will actually be encouraged to do that in the lab part.
+ Something like make it insightful is not checkable. There is no way for the agent to converge on
+ make it insightful. We're looking for things that the agent can measure itself.
+ The second thing that we want to do is to, as much as possible, have a bounded sandbox.
+ It's a space where the loop mistakes are cheap. So for example, going back maybe to the add
+ campaigns or to the digital campaigns optimization, don't do that on the highest
+ table stakes and let the agent go wild unless you're okay with the results.
+ But for example, doing research in a sandbox or running a specific experiment in a sandbox where
+ if there are mistakes, they are not very costly because we're staying in draft mode
+ or in a bounded place, that's a better place for you to run the loop. And lastly,
+ we want a task that can converge. So we want use cases where we have different paths,
+ go through different potentially gates. We are in the fact of getting closer to be done.
+ Research is a task that can converge more sources, fewer gaps, make it better going back to that,
+ forever doesn't converge and the agent can get into the loop indefinitely.
+ It can always ask itself, is it good enough? I don't know. Let me try again.
+ Is it good enough? I don't know. Let me try again. Okay, so if a task is not well defined
+ and cannot converge, we're not going to loop it. Okay. So how do you define that's like the bottom
+ line? How do you define the goal for the loop? Conceptually, you should think about it designing
+ a goal card. And these are the things that you should configure as part of the goal cards.
+ Those also will be the things that you will append after the execution of the actual
+ loop command. So it starts with a concrete and clear objective. Okay. The objective should be
+ very clear, very machine readable. For example, in the research that I'm going to trigger in a minute,
+ I want to create a definitive token efficiency playbook as of today, as of August 2026.
+ You should define what is the output of the loop. In our case, it's going to be a file,
+ but maybe for you, it's going to be something different. And this is what makes or breaks everything
+ here. Because this is how you define the judging and the stopping criteria, the initial ones.
+ In this case, it's going to be, I want more than 200 unique data points. I want each with URL
+ and date and type. I want a specific mix, at least 40 vendor docs, 40 practitioners,
+ 20 benchmarks, and I want zero duplications. So that's me trying to give the machine a very
+ concrete criteria about what's the purpose of the loop. And once all of these conditions are met,
+ the agent will stop doing the work. So your skill is knowing to configure exactly that.
+ And if you struggle with defining what's the done when, meaning that you're unable to find
+ something that will be very clear, very non ambiguous, you're going to struggle and you
+ might have a loop running either too short or too long. And that's not the right place to go.
+ You can, it's optional, but you can configure stages like specifically what gates or what type
+ of actions you want the agent to take. It's not mandatory. Sometimes you want to manage that.
+ Sometimes you actually don't want to do this because you want to leave the agent sufficient
+ amount of judgment to decide how to go about achieving this objective with these stopping
+ criteria. And in all of the tools, you also have the ability to add an additional,
+ let's call them a fail safe or fallbacks things to avoid the loops running indefinitely.
+ So for example, here, in order to make sure that maybe there aren't 200 unique data points in the
+ internet, and the agent will try to run it forever and ever and ever for me unless I give it
+ another stopping criteria. So I can tell it try up to 30 turns and sandbox only meaning don't
+ go and do stuff outside the world. You can also cap it with time and pair the specific tool that
+ you're using. Sometimes there are additional things that you can constrain in order to make
+ sure that in case this is something that ends up not being convergent, you have a different
+ mechanism to convergent. That's actually very important to have this fail safe mechanism.
+ So that's the proper goal. Let's very quickly try to demo that. So again, going back to my
+ use case, I want to do token efficiency research. I'm within, as you can see, Claude code and Claude
+ code. The loop is called slash goal and take a look at my card here. Research is done when all of the
+ following are true. The artifact, I want the file listed here. I want executive summary, the data
+ and so on. I'm giving it the concrete criteria and giving it a quota. It contains at least 200
+ unique data points about token efficiency and agent work. No two points stating the same fact.
+ The receipt, every data point, create a URL. This is the mix that I'm asking for as noted.
+ And I'm asking for a log. I'm asking for a log in order to show you how the loop work,
+ but I actually think that's a very good practice for you when you're running a loop
+ to ask the model to be a little bit verbose and saying out loud what it's doing and what's
+ the cycle number. So you can see the progression if you want to monitor, especially as you are new
+ to using loops, it's going to be a great practice for you. I'm not going to use fable.
+ I'm going to use opus. And I'm going to move to the auto mode to make sure that it's actually
+ running. Now, obviously, we're not going to sit here and wait for the, I don't know,
+ good 20, 30 minutes or more that it will take it to run. But as you can see, goal set.
+ Okay. And then it's reflecting the interpretation. It will start reflecting the cycles in order to
+ not have you waiting. I already ran this exact command earlier. And that's what you can see
+ as the result. So let's see how it went. Exact same command. And as you can see here,
+ so cycle one checked workspace space doesn't matter. Cycle two, it got 56 out of 200.
+ It checked various sources in cycle three. It got to 90 out of 200 and so on. Interestingly,
+ it went above the 200. In some other executions, it went even all the way to 300. So it's not
+ always as disciplined, but fortunately for us, we do have the cup of 30 cycles. So it will
+ not go above that. And that's the, like the, the finish line and it created an artifact.
+ And it's also giving me some things to pull in front of you guys if you're interested.
+ So that's how you run a loop here. And the other one is running in the background.
+ We can check it out later on, but that's the entire purpose here. So those were loops.
+ Now I want to make sure that you understand that loops can fail and can fail very miserably.
+ The first one is runway spend. It just keeps going. That's why we have the hard cup. And
+ that's why I said that it's very critical. I've seen people running loops indefinitely
+ or much longer than what they expected the loop to run for. We also have a loop that can stack
+ cycles without progress. It's sometimes just because it cannot converge or something about
+ the conditions are not there. If that's something that happens, we need to either stop
+ the execution manually. There are also dedicated commands in different tools,
+ or we can ask it to stop and report if we know that this is a type of loop
+ because you tried it that sometimes gets stuck. Sometimes the loop is done,
+ but it's very mediocre. That's very sneaky because it might have met the letter of your finish line,
+ but the results are still very bland. So what you need to do here is acknowledge,
+ first of all, that it's not the loop failure. That's probably the failure of your definition
+ of the goals. If it met verbatim, the goals that you define, but you are not happy with the
+ result, that means that you need to better define what is the finish line or what are the
+ referee guidelines. And in many cases, it's going to be around quality and taste and things
+ that are going to be harder to configure, but that's something to note. And lastly,
+ sometimes we just started running something on a loop that was meant to be a loop.
+ So if that's the case, the turn cup is your best bet.
+ A new study from KPMG in the University of Texas at Austin found that when people work
+ with AI, similar skills don't guarantee similar outcomes. Researchers studied more than 500
+ early career professionals and found that the best performers consistently amplified the value of AI
+ by guiding, evaluating, and refining its outputs. These top performers, called AI amplifiers,
+ weren't defined by what they knew alone, but by how they worked with AI. Learn more about
+ what separates AI amplifiers from everyone else at kpmg.com slash us slash AI amplifiers.
+ Blitzy's deep code-based understanding unlocks the thing every roadmap owner cares about,
+ shipping new features. Here's the truth about building inside a massive enterprise
+ codebase. Writing code was never the bottleneck. Context is. Which system does this touch,
+ which contracts can't break, which standards apply? Blitzy already knows because it reversed
+ engineered your entire codebase into a dynamic knowledge graph before future work began.
+ With that complete picture, Blitzy builds features end-to-end. Architecture, APIs, UI,
+ and tests all validated against your existing systems. One Blitzy customer built an AI-native
+ application from scratch with 100% autonomous completion, saving over 2700 engineering hours.
+ Features that respect your codebase instead of fighting it. Stop letting your backlog grow
+ faster than your team. Accelerate your roadmap at blitzy.com. That's blitzy.com.
+ Every episode, I talk about the competition between Open AI,
+ Anthropics, SpaceX AI, Google, and Meta. And if you've been listening for a while,
+ you might have a favorite. Maybe you think Open AI and Anthropics can stay ahead,
+ or perhaps Meta's open-source strategy can win out. Whatever your view,
+ every AI lab creates a different investment opportunity.
+ Harbor Capital Advisor's AI Lab Ecosystem ETF suite lets you invest in the ecosystem
+ behind the AI lab you believe in. Search Harbor AI Lab Ecosystem ETFs wherever you
+ invest or follow at Harbor Capital on X to learn more.
+ Visit harborcapital.com for a prospectus containing investment objectives, risks,
+ fees, expenses, and other important information. Read and consider it carefully before investing.
+ Risks include principal loss and artificial intelligence-related risks.
+ Harbor ETFs are distributed by four-side fund services LLC. Harbor is not affiliated with
+ AI Daily Brief, and the funds are not affiliated with, sponsored by, or endorsed by any AI lab.
+ This is a paid advertisement and not personalized investment advice.
+ Investing involves risk, including possible loss of principal.
+ This episode of the AI Daily Brief is brought to you by HyperAgent,
+ where you run fleets of agents your team can manage together.
+ Forget local agents and chat workflows waiting on your laptop to be prompted.
+ HyperAgent deploys always-on agents in the cloud, doing real work across the tools your
+ team already uses. Marketing agents turn competitor moves into landing pages.
+ Sales agents enrich leads, draft emails, and updates the CRM.
+ OpsAgent chases the paperwork and tracks the budget. Every agent has access to shared
+ context and follows your rules about scope and approvals.
+ It's time you add agents that feel like teammates.
+ Hire yours at HyperAgent. Get $100 in credits at hyperagent.com slash AI Daily Brief.
+ So we're done with the loop part of the webinar.
+ Just to summarize, we talked about the fact that loops are already a cycle that is
+ being executed by any agent harness that you're using,
+ but the loop command or the slash goal command, the entire purpose of it is to
+ make sure that you can get the tool to work harder for a longer time,
+ using a verifiable goal, and also distinguish between a schedule and a loop.
+ It was born in coding, so you and we and all of us need to work harder in order to
+ create a finish line that makes sense in knowledge work or not use a loop if we can.
+ The main skill here, both of these things, identify the use case and configure the
+ goal card and always add the caps and the safe sandbox in order to make it work.
+ Now, I want to move from loops to org chart because everything so far was basically one
+ worker. It was one agent working alone until done in loops.
+ And the progression of this whole field is here, okay?
+ We all started on the left, or if you haven't started building agents yet,
+ you should be there already.
+ Then we talked now about looping things when relevant and when doing so well.
+ The next station is where the work itself splits.
+ Basically, we have several agents.
+ Each is doing one piece, passing work between them, passing information between them.
+ That's going to be a work graph and it's built for one job, okay?
+ And the last station is when those agents stop being disposable and become your standing team
+ or what is sometimes referred to as an org graph.
+ So one agent working one time, agent working on a loop,
+ we decompose the work into multiple agents only when it makes sense
+ and when there is a true need for that, more on this to come.
+ And lastly, if we realize the type of work that we want to get done
+ is much more than the one thing, we can build an entire organization of agents
+ as an org graph to get it to work.
+ So maybe one thing to say, it's not like that you have to get to number four,
+ okay? You don't graduate there.
+ There are many tasks that are more than good for number one and so on,
+ but there are some cases where the quality of the results and the scale will only be unlocked
+ if you go all the way to building entire teams of agents and orchestrating them efficiently.
+ So we only move when there is a justification,
+ but in some cases there is huge value to begin here.
+ Okay, so to keep it very simple and concrete,
+ I want to explain what a graph is.
+ And a graph is basically dots and arrows.
+ That's that, okay?
+ The dots are called nodes.
+ For us, a node is an agent or a task that needs to be done.
+ The arrows are called edges and the edges include work or information that is flowing.
+ And when an arrow has a direction, for example,
+ research flows into the writing agent, we say that the graph is directed
+ and one detail that is very fun and also for the computer science curious
+ or passionate folks on the line, look at the bottom line, right?
+ If we have one node with an arrow pointing back to itself,
+ that is the textbook definition of a loop.
+ So a loop and a graph are not different things.
+ The loop is probably the simplest form of a graph
+ or the smallest form of a graph out there, okay?
+ So the real question is and always was,
+ how many nodes does your work deserve?
+ Computer science has drawn work this way for 50 years, so it's not new.
+ But what is new for our day and age is that I made the drawing operational.
+ Today you can draw it and it actually can run for you, okay?
+ So that's the big thing here, right?
+ It's not just something theoretical that you learn in computer science one-on-one.
+ It's something that you can actually execute.
+ Another de-confusion because the same week this trended,
+ half of LinkedIn was also annexed, of course,
+ was also talking about knowledge graph
+ and I've watched very smart people blend three unrelated things into one word.
+ So we have knowledge graph.
+ Those are graphs that stores facts, what we know and how it connects.
+ It's a very beautiful technology, completely different jobs,
+ not very related to what we're talking here.
+ We also have line graph,
+ which you may have heard engineers mention.
+ This is a developer framework.
+ This is a tool for building agent systems in code
+ and it is leveraging the power of graph
+ and a very powerful and good technology.
+ And today we're focusing on the work graph.
+ This is about the execution of the work, specifically for knowledge work.
+ We're focusing here who does what in what order
+ and what flows between them, okay?
+ So these are the concepts.
+ Don't confuse them as much as possible.
+ I'm leaving the computer science engineering alone
+ and I'm talking about graphs and work before everything.
+ So let's talk about what we had before AI and before agents.
+ The main graph that we actually had
+ and have in each and every organization
+ concerned about the org chart.
+ And the org chart, the main problem with it
+ is that it basically pretends that work flows in one direction,
+ top to bottom, right?
+ The manager says something, the CEO,
+ and then it goes to the rest of the organization
+ and that's how we pretended work gets done, not at all.
+ We all know that the work branches, it loops back,
+ it ends up sideways, it ends off sideways.
+ It skips levels and occasionally flows straight up at 11 p.m.,
+ so especially before a board meeting.
+ So that's not how work gets done.
+ The org chart is the diagram of the authority.
+ It's not and never was a diagram of how work gets done.
+ Graph, however, dots and arrows going wherever the work actually goes
+ is the more relevant picture
+ and the picture that we need to paint to our agents
+ in order for them to follow the work.
+ As mentioned, two flavors, the org graph that is more persistent
+ and the work graph that is per request or per task.
+ Okay, so let's talk about what changed, okay?
+ Because the skeptics will tell you one thing.
+ Engineers have been wiring agents into graphs for years.
+ We talked about land graph a minute ago.
+ So why are we all so excited about graphs again
+ beyond the chatter on social?
+ The thing that changes the node,
+ because the node used to be one fragile LLM call, AI call,
+ and in many cases it was not that great
+ and to orchestrate an entire graph like that
+ was not very feasible for a complex task
+ or you have to work very hard
+ in order to get something to work.
+ Today a node is a whole agent,
+ a worker that you hand the job to
+ and a worker has two gears.
+ It can be a quick one pass task,
+ like we normally or typically do,
+ or it can be a full loop running until done.
+ So either one can be a node
+ and loops are just your heavy duty nodes
+ if you want to kind of understand
+ how everything falls together.
+ And what's truly new here
+ is that agents got reliable enough
+ to be building blocks within these graphs
+ and that's a big unlock.
+ So nothing was invented that is new this summer.
+ It's just that something was more democratized
+ and the technology has gone far enough
+ to be able to actually draw this graph
+ on a whiteboard and get it to work effectively.
+ And one last very important thing,
+ we only go into the orchestration
+ or composing these graphs of multiple agents
+ and multiple nodes
+ when the one worker,
+ the one agent that you built
+ is no longer doing the job,
+ you're unhappy with the results that you're getting.
+ Okay, so how do you know that a specific task
+ cannot be executed well with a single agent
+ and requires multiple agents
+ and graphs in order to orchestrate?
+ In some cases, both are valid options.
+ If I'm going back to my example of research,
+ in many cases, a good research agent
+ with or without a loop is more than enough.
+ You've seen that after it took about eight cycles,
+ we got a very interesting report out.
+ So in some cases, that's good enough.
+ If I want to be more comprehensive
+ or I'm discovering that for my intent and purpose
+ as it's going to be better to separate the work,
+ I can do the same research as a graph,
+ meaning as multiple agents that needs to be orchestrated.
+ For example, I can send multiple parallel agents
+ to research different angles that I'm interested.
+ So one can research vendor,
+ one can research what practitioners are saying
+ and one can research benchmarks.
+ And because these are tasks that are independent,
+ I can run them very easily by multiple agents in parallel.
+ Then I can offload the results into a synthesizer,
+ move it to a citation verifier
+ that hopefully is not encumbered
+ by everything that was done prior
+ such that it's an objective verifier.
+ And either the human can verify
+ or maybe I would want to run another verifier by an agent
+ before I publish and I can also maybe add
+ and I will do that an agent that designs the output
+ in a way that I like.
+ So when it is better, first of all,
+ as I said at the beginning, I want you to keep it simple
+ and if one agent works well, that's good.
+ I want you to move into that in several scenarios.
+ First of all, scenario, which I call a rubber stamp.
+ Your agent or your loop says done.
+ Everything checks out and you keep finding issues
+ that it should have caught.
+ In many cases, self-review is not the way to go,
+ especially with things that are critical.
+ There is also a lot of work showing
+ that models tend to agree with themselves
+ if you use the same model to verify the results
+ of the same like a GPT verifying GPT,
+ odds are it will say that it's correct
+ versus Claude verifying GPT.
+ So in many cases, we want to fan out
+ to a graph of multiple workers
+ when we realize that the verification is not very reliable.
+ Another scenario will be that we identify context overflow.
+ Like one agent is wearing too many hats
+ and it starts confusing them.
+ Like you are both the objective researcher
+ but also the very creative designer.
+ So the researcher might start bringing creative results
+ because it's trying to be creative too early on.
+ So when you identify that's the scenario,
+ it's probably better to fan out to multiple nodes
+ or multiple agents.
+ Another thing is where you don't want to sit down
+ and wait for the work to be done seriously
+ when it can be spawned out to multiple agents
+ doing the work parallely.
+ I know that we are all very patient in this day and age
+ and we're willing to wait for many minutes,
+ if not hours, to get the results.
+ But if we can paralyze the work, often we should.
+ And another signal will be
+ when the finish line keeps changing mid-run.
+ So you keep rewriting basically the goal card
+ while it works because it's really two jobs wearing one card.
+ So if you realize that basically it's either an if-else
+ or if-then kind of a goal
+ that under the hood hides two different goals
+ and two different jobs to be done,
+ this is where you probably want to separate.
+ And lastly, when despite your best effort,
+ no matter how much you tried,
+ the quality flatlined too soon.
+ Maybe it's because the context is missing
+ or maybe because it's just not the right architecture.
+ You probably want to bring the second perspective
+ or spend out at least one more agent.
+ Okay?
+ If none of this is correct,
+ stay in the loop or stay in the agent
+ and don't over complicate things.
+ Okay, so up until now it sounds very promising.
+ Like we will build multiple agents,
+ they will work in a graph,
+ we will describe everything that we have in mind
+ and it will work.
+ But the bottom line is how do you actually build a graph?
+ What do you need to do?
+ And I think that it sometimes sounds over complicated
+ if you talk to the practitioners,
+ but in fact there is a progressive level of complexity
+ and they will all work.
+ It's just a matter of different competencies
+ and different needs that defines how to do it.
+ So the very first thing that you should always do,
+ I think, but can be a good start is to just draw it
+ like a paper, a whiteboard,
+ you just sketch the text.
+ This is very critical
+ because you need to be clear about how to get the job done
+ and painting that on a whiteboard gets you to confront
+ all of the things that are not well-defined.
+ And in many organizations,
+ many things are not well-defined.
+ And until you can agree upon a work graph for something,
+ you cannot automate that.
+ So that's the very first thing that you can do.
+ And if you can draw it,
+ that means that you can even just take a picture
+ of this drawing, show it to any agentic tool
+ and it can build it for you.
+ So that's why I'm treating that as not only a gateway
+ but as a concrete modality.
+ Another thing that you already do without knowing,
+ or maybe you are paying attention to that,
+ but the agentic tools improvise little work graphs
+ every time that you give it a task,
+ especially complex tasks,
+ because that's how the modern harnesses work.
+ You've probably seen some tool,
+ maybe it's a cursor or something that's saying,
+ I'm going to spawn several sub-agents
+ to do different types of work
+ or let me divide and conquer the work and stuff like that.
+ So this is under the hood,
+ the tool creating a work graph for you based on the prompt.
+ So you're not in control of that,
+ but that's another way that the job is doing that
+ and also the co-work and the LGBT work,
+ they do that as well.
+ Another way for you to do that is to prompt the graph,
+ basically tell the tool,
+ research these five competitors in parallel
+ with separate sub-agents,
+ then have a fresh context reviewer
+ check the merged results against this rubric.
+ That's just one sentence,
+ but under the hood,
+ what you're describing is a graph
+ that fends out five sub-agents to do different research
+ and one to verify that.
+ You just built in words,
+ seven node graph, congratulations.
+ Another thing that you can do
+ is you can create persistent workers.
+ You can create basically either sub-agents files
+ or you can create what I refer to as folder agents.
+ I'm not going to go deep to all of that
+ because there is a ton of that,
+ but I'll show some examples.
+ You can basically create these agents as persistent workers
+ that you can summon to the conversation
+ as needed.
+ On top of that, you can create a skill
+ if you want to have that as a reusable thing that you do,
+ or you can just ad hoc have the tool
+ refer to the specific sub-agents that you created.
+ We also have the option to create canvases
+ using the tools like NA10
+ and other automation tools
+ that lets you basically create a visual graph.
+ And lastly, we can always create those in code.
+ So there are multiple tools and multiple packages
+ that lets you create these graphs
+ and this orchestration vehicle.
+ So this is the five tiers.
+ Again, it's not a competition
+ as to who can get to the highest tier.
+ It's just an enumeration of all the ways
+ that you can build these war graphs
+ using multiple agents doing the work for you.
+ For most of the knowledge work that we need to do,
+ you will probably live in these tiers
+ and it's more than enough to get the job done.
+ Let's show you some concrete examples.
+ So first of all,
+ let's go back to the execution that we had before.
+ One thing that I did once the result came in
+ is I said to Claude Folling,
+ hand the playbook to the citation verifier sub-agent.
+ I'll share in a minute.
+ Make sure it's fresh context.
+ It knows nothing about how the document was produced
+ and the document will be that.
+ It checks everything there.
+ Sample 10 random data points and verify each agent.
+ Again, it's real URL.
+ They then count the totals and the source mix
+ and I'm giving it like a bar.
+ So that's me basically
+ taking the result of the loop and getting Claude
+ to add another node
+ and that is the node of citation verification
+ manually just by prompting it.
+ And you can see Claude is being very compliant
+ it heading it off cold.
+ The verifier gets the file path and the bar
+ nothing about how documents were built
+ to avoid contamination.
+ And the verifier verdict is a ship
+ with one required fix and now applied
+ and it gives me the sample verification
+ and the total.
+ So you can see how my research went into another node
+ and then I added one more node.
+ I want to make it into something visually attractive.
+ So I had it hand it to the report visual sub-agent
+ build a beautiful self-contained HTML page
+ from output yada yada yada.
+ It's visual language and attribution rules
+ live in its role file save as a output and so on.
+ And then it was done.
+ So that's one way for you to add additional workers
+ into an existing loop or an existing thing.
+ Maybe one of the simplest ways to do that.
+ I can also paint a picture on a whiteboard
+ the research sweep.
+ That's how I would imagine such a research
+ to happen from here on after.
+ And as I said, I can just give this picture to Claude
+ and Claude will be able to implement that quite well.
+ But the fact that I am able to paint this picture
+ means that I can automate that using multiple agents.
+ So that's a very important thing that I can do.
+ Another thing that I can do,
+ I can build a persistent workers.
+ Okay. So what I'm showing you now are sub agents
+ that I created specifically for research.
+ I have a benchmark collector.
+ That's an agent that brings specific research
+ around benchmark.
+ I have citation verifier.
+ Citation verifier is an agent
+ that the entire purpose is to verify the citation.
+ That was the one that you've seen in Claude.
+ And I have the report visualizer
+ that describes exactly how I want to get things visualized.
+ And so on.
+ As you've seen, I can summon them to the conversation ad hoc
+ or I can create a skill.
+ And the skill here basically describes the graph.
+ Take a look in case I want to run the research time
+ and again the same way.
+ That's a skill research with the work graph as a file.
+ And I'm showing it how to do the flow.
+ And I'm giving it phases.
+ And I'm telling it in each phase of the skill,
+ which workers to summon into the conversation.
+ And by the way, as part of the...
+ I don't know if you've seen that,
+ but as part of the agents,
+ I can also configure which model to use.
+ So that's a way that anyone here on the line
+ that knows how to work with Claude
+ knows how to build sub agents cards like you've seen.
+ And knows how to build a skill
+ can orchestrate multiple agents very effectively
+ with a lot of controls.
+ And it's working with any agentic tool.
+ So that's level three basically.
+ Two more things that I wanted to show you.
+ Specifically I chose NA10,
+ but just to make it very visually clear,
+ that's another way for you to,
+ if you want to create a work graph.
+ Okay?
+ So in this workflow in NA10,
+ triggering that on a schedule,
+ I have collector agents for different stuff.
+ I have synthesizer agent.
+ Note that ideally I would probably want to use the synthesizer
+ as a strong model,
+ whereas the collectors might not have to be a very strong model.
+ I have a citation verifier,
+ which definitely as much as possible
+ needs to be a different model.
+ I can put all of that in a loop
+ until a certain quality is met.
+ In this case I added a human verifier
+ and lastly I have a report visualizer and an email.
+ So if you are versed in a tool
+ that is more canvas like tool
+ or that's the way you want to work,
+ the nice thing about this is that it's very visual
+ and you can very easily see
+ how work flows across the graph
+ and you can verify that.
+ So an overkill for most of us,
+ but also an option.
+ And by the way, if you want to see the output,
+ that's the report that we got from the resource
+ that's the one I will share with you.
+ So it's giving you both an executive summary
+ and a ton of data points
+ on how to use your tokens better.
+ Yeah, sorry, last thing, line graph.
+ Line graph is basically a code.
+ If you want to create a work graph in line graph,
+ that's basically a code.
+ That's how it looks.
+ But another thing that is nice about line graph,
+ you can have a visualization built in done by line graph.
+ So even for those of you who are using code,
+ line graph has a built in
+ way to visualize the code that was created.
+ So even the top tier is not that scary in reality.
+ Right, a few more things
+ before we maybe take a couple of questions.
+ The six habits that separate
+ an effective agent orchestration or graph
+ from a very expensive one.
+ Some of those were mentioned there implicitly.
+ You want to match the model to the node.
+ Part of the decision here
+ is which model to use for which work
+ or which type of work.
+ And of course, you want to be cheap
+ and fast for more mechanical steps
+ and yes, no verdicts
+ and much more stronger models where judgment is needed.
+ Each node ideally should get the relevant context only.
+ What's being passed between different nodes is the contract.
+ So you need to be very careful
+ and intentional about what passes between nodes.
+ Maybe a draft and a rubric or finding in a format.
+ You never need to pass the entire conversation.
+ That's not the right way to flow work for most cases.
+ The next thing I want you to spend
+ where verification pays,
+ meaning that if you want to fend out to multiple agents,
+ there is a token cost to that.
+ If you need to summarize between nodes,
+ that can help if you can cap turns per node
+ that can also help.
+ But be very deliberate about that
+ because a beautiful graph like that
+ can easily become a huge token consumer.
+ If you, for example,
+ will use the built-in deep research
+ by some of the tools,
+ those can easily take millions of tokens
+ without bashing an eye.
+ So be careful about that.
+ I want you to verify early.
+ So add these nodes of verification
+ and add clear boundaries
+ whether it's because you ran a loop
+ or just as part of the work graph that you did.
+ Because especially the more complex geographies,
+ the more compounding of mistakes become expensive.
+ And at least as of now, humans are needed
+ and for the most part superior than the beast.
+ So have human at the right gate.
+ Maybe it's at the end.
+ Maybe it's early on to approve the plan.
+ But humans should be intentionally brought into the graph.
+ One last thing that I want to cautious you again.
+ Many people, when they come to design a work graph,
+ they think about exactly the way
+ the work is being done by humans today.
+ And the way work is being done by human today
+ is often highly bounded by human limitations.
+ Attention span, time, bandwidths,
+ ability to be proficient in multiple things.
+ Many of these limitations
+ are not the relevant limitations
+ for your agents and for your tools.
+ So I don't want you to just take the exact way
+ that work is being offloaded between humans today
+ and move it to a machine.
+ That's not the way to go.
+ You need to understand either by testing
+ or by understanding the limitations of the tools
+ how to better configure the work
+ given that in many cases,
+ these tools are much less prone to get confused
+ or get tired than humans are.
+ And in many cases, that requires a little bit of radical thinking
+ about what's the bottom line,
+ what's the job to be done,
+ not what's the current processes
+ of how humans do the work
+ in order to design the best possible graphs out there.
+ I'm sharing with you later on,
+ but these are the concrete commands
+ for the different tools that people are using.
+ So the concrete commands for loops
+ and for using sub agents,
+ because things are moving so quickly,
+ always do a web search or consult
+ with the tool attend as to what's the best way
+ because sometimes they deprecate commands
+ between you will wake one morning
+ and the command is no longer there,
+ as well as different modalities.
+ For example, in the cloud code,
+ the sub task is only accessible in the CLI
+ and not in the desktop.
+ So don't just assume that because there is a command
+ that it's going to be operational
+ in the surface specifically that you're using.
+ I think that if you're looking at loops versus graph,
+ then loops are more forgiving
+ because the graph is a bit of a confession
+ of how your work really flows,
+ who really owns what,
+ and where quality really gets decided.
+ And by the way, this is why you will probably
+ be better in that than most engineers
+ because you've spent your career
+ learning how the specific work that you focus on
+ move through the organization.
+ And that's the knowledge that became the technical skill,
+ knowing how to inject your subject matter expertise
+ into designing these right, the correct systems.
+ If I need to summarize the hour on one slide,
+ and it's only relevant as of August 2026
+ because the thing will continue to grow
+ probably by wintertime,
+ either with a new buzzword or with new skills
+ as we get there.
+ But the best practitioners in knowledge work,
+ they've mastered all of these four.
+ They understand agents
+ and they understand the underlying loop
+ that is being implemented in the harness.
+ They know how to define concrete agent work flows.
+ They know how to configure loops
+ to get the tools to run autonomously well.
+ And they know how to configure teams of agents
+ that work effectively either as one task
+ or in general to implement an entire organization.
+ That's the skill set for you to master
+ as of August 2026.
+ Before I go to Q&A, I will just do a quick plug.
+ If you want to go much deeper,
+ depending on where you are,
+ we do have two training programs.
+ One is the executive catch up
+ for people who are a little bit,
+ let's call it behind all,
+ needs to make sure that they become best in class
+ in AI usage and not just best effort.
+ And the executive agent leadership,
+ that's a much more advanced course
+ for building teams of agents
+ and configuring the strategy
+ for your organization and so on.
+ NLW, do you want to add a few words?
+ I mean, what more words are there?
+ I think that part of what makes this moment important
+ is we've shifted from AI skills
+ being useful new tools
+ to actually being fundamental work primitive shifts.
+ And what I mean by that is that like
+ when we started Super Intelligent
+ a million years ago,
+ the very first iteration of the platform
+ was like how to use mid-journey
+ and how to prompt.
+ And these things were valuable.
+ They were like nice skills to have.
+ They could get you leverage.
+ But the way that we did work
+ hadn't fundamentally changed yet.
+ We are now increasingly finding
+ that big chunks of what we used to do
+ instead our job is to now manage agents to do them.
+ And that is a transitional process.
+ It's not all at once.
+ It's not going to be all of the tasks that we do.
+ But we're all kind of involved now
+ in the discovery to some extent
+ of what it means to manage agents.
+ And so I think that that's the lens
+ through which I look at these things is
+ we're all kind of like piece by piece
+ giving ourselves an MBA in agent management.
+ And it's going to keep iterating and evolving.
+ But I think that a lot of these things,
+ the reasons that we cling on to loops
+ and graph engineering and some of these ideas
+ is that they start to feel more like
+ core primitives as opposed to just
+ another fly by night skill or something like that.
+ So in the same way that you wouldn't expect yourself
+ to know or to be perfect at advanced management techniques
+ in a single session or experiment or a couple of days,
+ it's going to be the same with this.
+ It's just going to take hands on work and experimentation.
+ And there are no experts at this.
+ As I've said in the past,
+ they're just people who have done it more.
+ So even by virtue of being here,
+ I think you're probably ahead.
