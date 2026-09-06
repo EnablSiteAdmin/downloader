@@ -1,0 +1,381 @@
+ A year ago, it was a very different time in enterprise AI.
+ Companies were still talking about things like how many use cases they had for AI.
+ Now, year on, we are no longer talking about use cases.
+ Everything, it turns out, is a use case for AI.
+ And in fact, in 2026, the long-awaited much-discussed transition to agentic AI actually began.
+ Surrounding that, companies have undergone a significant transformation process,
+ one that pretty much everyone is still in the midst of.
+ And yet, as companies try to become more AI native, the question is, what does that actually mean?
+ What are the hallmarks and characteristics of companies that are not just glomming AI
+ and agents onto old processes, but are really doing things in new ways, redesigning from the
+ ground up? While it's all still emerging, I think we're at the point where we are starting to
+ see a set of features and characteristics that define AI native companies.
+ The AI Daily Brief is a daily podcast and video about the most important news
+ and discussions in AI.
+ All right, friends, quick announcements before we dive in.
+ First of all, thank you to today's sponsors Blitzy, Section, Robots and Pencils, and Hyperagent.
+ To get an ad-free version of the show, go to patreon.com.ai-dailybrief,
+ or you can subscribe to novel podcasts.
+ And to learn more about sponsoring the show, send us a note at sponsors.ai-dailybrief.ai.
+ Finally, we're coming up on your last chance to sign up for the latest cohorts
+ of the next executive agent training programs from Super Intelligent.
+ So if you listen to this episode and decide that you too want to be more AI native
+ and think those could help, you can check them out at training.besuper.ai.
+ Welcome back to the AI Daily Brief.
+ Today we have a fun one.
+ I feel like at this point, pretty much all of you are either at big companies who are
+ trying to adapt and become the next version of themselves in this AI-enabled world,
+ or are the people who are being hired by those companies to help them with that adaptation.
+ Whichever side of that table you find yourself on, a core question that exists
+ underneath all of that transformation is, what are we actually transforming into?
+ A term that gets thrown around a lot is AI native.
+ Part of the attraction of the term is that it separates companies that have simply glommed
+ on AI and agents to old processes from those who have actually rethought from the ground up
+ to take advantage of this new era.
+ But what is the substance of AI nativeness?
+ Part of what makes it great for a podcast is that there are a lot of things,
+ and many of them are debatable.
+ Enter Alex Lieberman.
+ Alex is the founder of 10x Labs, which is a company that helps transform
+ existing companies into AI native companies.
+ And before that, he was a founder at Morning Brew.
+ As you might imagine, that experience at Morning Brew means that he is often a great
+ source of content, and the post that inspired this episode is actually a direct crib
+ from his ex-account recently, 30 features of an AI native company.
+ What I thought would be fun, after turning it into a beautiful 1950s
+ retrofuturist themed presentation with the help of Codex and GPT Image 2, is to go through these
+ features one by one, where I will share the aspect of AI nativeness that Alex posted about,
+ and then add any thoughts, qualifications, disagreements, although I don't think that
+ I necessarily disagree in a lot of places, and other observations that I've seen in
+ my work with enterprises as well.
+ Now I should note that I don't think that this is in any particular order.
+ In fact, you can very much tell that this is not AI generated,
+ as it reads much more like a stream of consciousness than, frankly, most of the content
+ that you're used to seeing these days, which is kind of a breath of fresh air.
+ First feature of an AI native company is to blueprint every process,
+ to create in Alex's words a function by function process blueprint of the entire business.
+ Now I said I wasn't going to disagree much, and I'm not exactly going to disagree here,
+ but this is one area where, although I don't disagree with doing this,
+ I think the reasoning behind it for a lot of companies is actually leading them down the wrong
+ path. Some of the reasons that it's valuable to blueprint processes, in other words, to map out
+ how work actually gets done, is that a lot of that information right now lives locked inside
+ people's heads. There are a lot of nuances and edge cases that people have been handling on their
+ own forever, and which are perhaps transmitted person to person through random spoken meetings
+ in the hall, or side chats on Slack, that don't ever find their way into actual operating
+ manuals. That puts the AI and agents that you're bringing into assist with the work at a disadvantage,
+ because they're recreating things from the ground up. And so having better maps of how work
+ currently gets done is an incredibly valuable piece of context as you redesign your organization
+ around AI and agents. So all that part I agree with. Where I get concerned is around an inherent
+ assumption of process mapping that I see pretty often. The assumption is that agents are going
+ to do things the same way that humans do. I think that that's very unlikely to be true.
+ And in fact, I think artificially constraining agents to do things along the pattern of an
+ old workflow is in many cases the wrong approach, as opposed to, for example,
+ giving them the goal and articulating the guardrails of what they can and can't do,
+ and letting them figure it out from there. Now again, that doesn't make process mapping
+ not valuable. But we have to understand and prepare for the reality that the best way to
+ do something in the future will not necessarily just look like an efficient version of the way
+ that we did it in the past. Feature number two of an AI native company is highly uncontroversial,
+ and that is to give everyone a daily driver, i.e. everyone in the organization gets to use
+ a daily driver harness such as Grockbot, Claude Cowork or ChatGPT at work. Now what's interesting
+ here is that nine months ago, 10 months ago, when you saw the term daily driver, you would
+ have assumed you made just access to a frontier model. In other words, people have access
+ to ChatGPT or Claude. But what Alex is talking about is a specific work harness,
+ an environment in which models operate that is designed specifically for advanced knowledge
+ work and coding, whether that's for software engineers or for non-software engineers who are
+ now using code as part of the way that they do their job. Getting comfortable with a harness
+ means getting comfortable with context. It means being able to understand and organize skills,
+ as well as understanding how to provision access to different tools. Like I said,
+ nothing controversial here. The one thing that I will note is that I think that we are
+ going to increasingly see people rolling their own harnesses, often on the basis of an open-source
+ foundation. For example, deep seeks harness that just came out because they're going to want peak
+ flexibility and they're not going to want to deal with things like investing in cursor only
+ to have it sold and no longer being able to access certain models through it because of that sale.
+ Feature number three is one that many in the comments noted is to use AI's favorite term
+ right now, load bearing for the rest of the features. The idea is to build one intelligence
+ layer, to aggregate structure and unstructured data, documents and business logic into a single
+ source of truth that is queryable and that agent work can be built on top of. It is unquestionable
+ that AI native organizations are going to get good at organizing the context their agents need to
+ work. Context management is and will continue to be a major discipline in this new org transformation
+ period. To the extent that I have quibbles here, which is really just for the sake of
+ interesting conversation, I kind of like the metaphor of a mesh or lattice rather than a
+ single layer, because I think especially as you get into larger organizations, trying to have a
+ single source of truth for everything, rather than sources of truth that can interface with one
+ another and that agents can traverse, perhaps even uncovering and trying to reconcile with human
+ support differences in sources of truth is perhaps a more accurate reflection of how this
+ is going to look with the biggest organizations, but obviously the substantive point underneath
+ remains. Feature four of agent native organizations is one that has been a big subject of
+ conversation on this show for the last few months, which is about using model routing to
+ optimize cost per successful task across the business. I think this is right, but it's not
+ just a matter of task routing. I think that task routing is part and parcel of an overall model
+ architecture that is designed to be adaptable and flexible to different types of tasks.
+ I think in some cases that will be reducible to using a router, but in many cases will
+ also implicate a larger architecture based around that idea of matching task difficulty
+ to model capability. Number five is an interesting one in the way that he frames it.
+ He says that AI native organizations will treat context as code. They'll keep architecture
+ documents and conventions updated while making diligent upfront planning part of the operating
+ discipline. In other words, they will treat context not just as the background info that
+ is required, but as the actual foundations upon which agents are building. It's a subtle
+ but important distinction. And I think reflects the idea that a lot of this AI nativeness
+ is not just in operational process, but also comes down to mindset shifts as well.
+ Speaking of feature number six is totally about mindset. Be willing to throw away everything
+ you've built every three months and reimagine the workflows from first principles.
+ Now, I think throwing away everything you've built might be slightly dramatic, but it is
+ absolutely the case that we need to design these new systems for assumptions of change
+ rather than assumptions of stasis. The frequency with which systems will need to be updated,
+ whether it's three months or six months or nine months or a year or a sort of perpetual update
+ marked by bigger periodic reimaginings. However, it actually plays out change is the name of the
+ game. And it's something that organizations are going to have to get way, way more comfortable with
+ than they are today. And that includes not getting attached to the exciting way that you
+ figured out to do something just a couple of months ago, because if the AI companies do
+ their jobs well, advances should mean that we have new ways to do things that are either
+ easier or more powerful. Feature number seven is about info sharing across the organization.
+ Alex says that AI native organizations will use a skills distribution system to manage agent behavior
+ and improve token efficiency by triggering consistent skills throughout the workflow. In other
+ words, organizations will distribute skills, not just prompts. I think this is well as emblematic
+ of a bigger shift, which is the discipline of agent management coming to the fore.
+ Skills are a key aspect of agentic systems. And so having ways to improve them,
+ share them, access them, et cetera, across the organization, not just within the silo of any
+ individual is going to be increasingly important. Feature number eight is about the changing
+ relationship between technical and non technical team members. I think we're mostly
+ past the days where people think that when we talk about vibe coding or using code for
+ knowledge work, we somehow mean that all of a sudden the folks in marketing and HR are going
+ to be the software developers instead of the existing engineers. That's not what's happening.
+ But what is happening is both that those knowledge workers are for the first time able to
+ build things themselves as a way to help do their job. And second, they have more ability to
+ contribute to product and engineering discussions than they might have in the past.
+ Feature eight of a native companies from Alex's list is to separate intent from
+ implementation to keep technical implementation separate from high level specifications.
+ So non technical staff can contribute in a format agents can turn into implementation
+ plans. I think one of the ways that this will play out is as we see more agents triggered
+ from shared spaces, that's a natural place for some of this to happen. For example,
+ when Claude tag was announced, one of the more remarkable things about it was members
+ of the anthropic technical team saying that that was how they initiated a lot of their
+ building now. And by a lot I mean the number that sticks out in my head is like 60% or
+ something ridiculous like that. If agents are being triggered from shared spaces,
+ that creates more of an opportunity for different people to contribute to those
+ conversations. But that in and of itself is going to create a different type of burden
+ and new types of system requirements, which is what Alex is talking about here.
+ Feature number nine is a cost efficiency feature where any of companies will make
+ cost per accepted pull request a key software metric and drive it down through better token
+ efficiency. I think we are just at the beginning of the period of figuring out what
+ the key metrics of a genetic delivery are. And what's clear to us at this point is
+ that whatever the metrics we land on are, it's likely that they include some sense of
+ completeness as well as cost per completeness in order to be able to better
+ compare model harness combos in a more apples to apples kind of way.
+ Every AI coding tool on the market does the same thing first. It starts writing code.
+ Blitzy does the opposite. Before writing a single line, Blitzy spends days reverse
+ engineering your entire code base. Thousands of agents ingest millions of lines mapping
+ every dependency, every undocumented constraint, every architectural decision
+ made over the last decade. The result is a dynamic knowledge graph that understands
+ your software the way a principal engineer would after 30 years in the building.
+ Other tools guess it context with grep searches and markdown files, Blitzy never guesses.
+ It builds true understanding first, then delivers over 80% of entire software
+ epics autonomously, validated, end to end tested production grade pull requests.
+ That's why Fortune 500 engineering teams trust Blitzy with the code bases that matter most.
+ See for yourself at blitzy.com. That's blitzy.com.
+ Here's a harsh truth. Your company is probably spending thousands or millions of
+ dollars on AI tools that are being massively underutilized. Half of companies have AI tools,
+ but only 12% use them for business value. Most employees are still using AI to
+ summarize meeting notes. If you're the one responsible for AI adoption at your company,
+ you need Section. Section is a platform that helps you manage AI transformation across
+ your entire organization. It coaches employees on real use cases,
+ tracks who's using AI for business impact, and shows you exactly where AI
+ is and isn't creating value. The result, you go from rolling out tools to driving
+ measurable AI value. Your employees move from meeting summaries to solving
+ actual business problems. And you can prove the ROI.
+ Stop guessing if your AI investment is working. Check out section at sectionai.com.
+ At this point, it's no longer a question of whether companies are actively using AI.
+ Using it well, on the other hand, is a whole different story. Robots and pencils,
+ though, is a company that I can point to that is actually built for this time.
+ They're an applied AI engineering firm working directly with clients on problems
+ that matter to the business, not experiments that live in a slide deck.
+ Every engagement starts by working backwards from the outcome a client actually needs.
+ If you're trying to tell real AI engineering apart from noise in this space,
+ that's the difference maker. Head to robotsandpencils.com.
+ This episode of the AI Daily Brief is brought to you by HyperAgent,
+ where you run fleets of agents your team can manage together.
+ Forget local agents and chat workflows waiting on your laptop to be prompted.
+ HyperAgent deploys always-on agents in the cloud, doing real work across the
+ tools your team already uses. Marketing agents turn competitor moves into landing pages.
+ Sales agents enrich leads, draft emails, and updates the CRM.
+ OpsAgent chases the paperwork and tracks the budget.
+ Every agent has access to shared context and follows your rules about scope and approvals.
+ It's time you add agents that feel like teammates.
+ Hire yours at HyperAgent.
+ Get $100 in credits at hyperagent.com slash AI Daily Brief.
+ Feature 10 is perhaps one of the features that many organizations are the farthest along with,
+ which is to build agent-native development systems, letting fleets of coding agents plan,
+ write, test, review, and ship code while humans define intent and acceptance criteria.
+ This is a lot less controversial than it would have been a year ago,
+ but obviously there are still many organizations that are using a traditional process,
+ despite there likely being an inevitable shift that will happen in the coming years.
+ Feature 11 once again gets at the sub-theme of token efficiency,
+ dividing the business of work into planning phases and execution phases,
+ using higher effort models for heavy planning and then executing with cheaper and faster models.
+ The good thing will be that if we've done our job with feature number four,
+ about designing efficient token architectures,
+ this is the type of division of labor that should naturally fall out of those systems.
+ Feature number 12 feels at first glance fairly term heavy.
+ It's used CLI tools to parse metadata in markdown files and traverse dependency
+ relationships, allowing agents to be precise about input token usage.
+ But really this is a technically specific way of designing a more token efficient system.
+ Basically what Alex is arguing for is organizing a company's knowledge in a way
+ that agents can only load the slice they need rather than the whole thing.
+ It feels related to the idea of progressive disclosure,
+ which is an information architecture pattern where complexity is unpacked gradually and in sequence
+ in order to not create too much context overhead when an agent is working.
+ Now in addition to just making agents work better, there are obviously cost dimensions of that as
+ well. And why I'm glad Alex included it is that so far we've been operating at a really
+ high level, but this is an example of where you start to get granular and actually do things differently,
+ i.e. making sure that the metadata that an agent can reference to understand whether
+ something is useful is right there at the top of knowledge files that it has access to
+ so that it doesn't waste context window on things it doesn't need.
+ With feature number 13, we're starting to get into specific parts of the organization.
+ He suggests that finance will run more continuously, moving accounting and record keeping towards
+ continuous processes, resetting forecasts on a much tighter cadence.
+ OpenAI CFO Sarah Friar actually recently wrote about how she had done this inside OpenAI
+ and about what a mindset shift and a technological discipline it took to make this sort of change.
+ Alex also suggests that in AI native organizations other parts of the organization
+ and specifically the larger agentic operating system through which it runs
+ will have access to those financial models so that that can be part of the logic
+ as strategy and tactics are designed.
+ AI native company feature 15 is the citizen developers SDLC.
+ It's an approach that Alex has talked about elsewhere as well that enables non-technical
+ employees to take a solution that they are building with coding tools from idea to production
+ with the company's governance access versioning and software conventions built into it.
+ It's basically a process of reconciling the things that the non-engineers
+ are making with the way that engineers build again not with the idea of replacing
+ software engineering in any way shape or form but in order to have the new things that people
+ are building for themselves or their teams or even some segment of customers based on the part
+ of the customer lifecycle that they touch to have that all contiguous with the engineering
+ organization. It reflects again that shifting relationship between different parts of the
+ organization in this new AI native space. Feature 16 gets to the sort of loop
+ engineering that we covered in the webinar that I've shared on the show earlier this week.
+ Make non-engineering workflow self-improving by learning from previous runs through external
+ performance metrics and internal evaluations. The idea of loops is that instead of prompting agents
+ we give them a goal and bumpers around what they can do and design a process that they can loop
+ through over and over again until they achieve that goal. One of the necessary requirements
+ of a loop is some verifiable success metric that is objective rather than subjective.
+ i.e. I need to achieve an x percentage result on this test is a lot more definable an outcome
+ goal than is our interface needs to look good. AI native organizations are going to be good at
+ creating those sort of clear metrics of success not just for the easy deterministic tasks but for
+ the broader array of knowledge work tasks that don't necessarily have that sort of success
+ criteria built in natively. Feature 17 is really two parts. One is to use some AI ROI framework
+ to have an idea of what the organization is looking for out of its AI efforts and to
+ be able to measure against that. The second part is a little bit more opinionated from Alex
+ about the way to set that up with his recommendation being experimental scaling and optimization phases
+ and bets placed across infrastructure innovation and efficiency whatever the phases that you end
+ up using and the way that you organize different types of efforts. I think the big
+ recommendation here is to have a complex ROI architecture that can understand the
+ goal of different efforts as being different from one another but the organization having
+ the ability to judge them even if they are different all within the same framework.
+ Feature 18 is my Dr. Strange theory of agentic work come to life. The idea is that AI native
+ organizations will use agent swarms to deploy many many many perhaps hundreds perhaps thousands of
+ paid marketing creative variations for testing before increasing spend on ads. One of the
+ things that I underestimated when I was first thinking about that which by the way I still think
+ is completely inevitable was the way in which compute constraints in a short term would limit
+ the viability of that sort of approach. Now that we've crossed this capability threshold
+ where many many models are good enough right now to actually do this sort of creative work
+ and will be vanishingly cheaper than they are right now six months from now.
+ I think that's when you'll start to see this sort of experimentation become a little bit more
+ normalized and I think it's going to be super super interesting to see fascinatingly and it's
+ way beyond the scope of this particular conversation. I almost see a marketing barbell where you
+ are going to have just Dr. Strange crazy agentic swarms on one end of the spectrum
+ and utter number denying human taste for brand campaigns on the other basically Rick Rubin on
+ one side and machines on the other and somehow it'll work. Feature 19 is another specific marketing
+ recommendation of auditing rewriting and generating SEO and AO optimized articles every week then
+ measuring to see whether any of it worked. I think the broader idea is that there is just
+ so much interesting room for experimentation with content based strategies now that the cost
+ of producing content has gone down like so many of these recommendations the idea here is that
+ the A.I. Native Organization is not just going to do the thing but to build learning systems around
+ the thing to do it even better in the future. With Feature 20 we're getting into cybersecurity
+ something that has obviously proven itself to be extraordinarily important over the past several
+ months. Alex suggests that A.I. Native Organizations are going to fight A.I. with A.I. using
+ agentic cybersecurity systems built to defend the organization against A.I. powered threats.
+ Now I think this is absolutely true but boy is there a lot to figure out about exactly what
+ type of cybersecurity capabilities organizations and legitimate defenders are going to have access to
+ and how that's going to be provisioned. These are going to be some of the most important design
+ and policy questions for A.I. companies and governments in the immediate term now that we've
+ crossed some of these critical cyber thresholds. We're in our final third and I'll pick up
+ the speed a little bit from here. Feature 21 is another approach to token efficiency
+ and cost management combining a reinforcement learning gym with first party data to fine
+ tune open source models for high volume processes that need state-of-the-art performance at
+ reasonable cost. Basically we now live in a world where the prevalence of customizable and
+ post-trainable open weights models that are very near the frontier opens up a lot of new opportunities
+ for A.I. Native Organizations many of which will find that this sort of model discipline is actually
+ going to be useful for them. Still I would say that I don't believe that every organization is
+ all of a sudden going to be rolling their own models. I think that there are going to be
+ lots and lots of ways that all the labs and hyperscalers try to deal with cost efficiency
+ but to the extent that you're an organization that actually has this technical capability
+ it's definitely a place that you could be exploring to get an edge right now. Feature 22
+ will call the human sandwich keeping human touch and judgment at the first and final mile of most
+ processes. If the argument is that even in A.I. Native Organizations there should always be
+ people on either side of the work sandwich that I agree wholeheartedly with. What I'm less
+ sure is where we'll find the right intervention points are for humans in the middle of
+ processes. Yes there will be many where it pretty much all happens agentically but I don't
+ think that we know exactly the right patterns so to speak of this one too generally
+ feels harder for me to have a lot of confidence around. Feature number 23 I think is a little bit
+ less arguable which is the idea of making evals core infrastructure. Now the specific example Alex
+ gives is whenever new models arrive uses standing apparatus to test their cost and performance
+ against the company's core processes but I just think everyone is now in the eval business more
+ generally. Again going back to the entire architecture of looping instead of prompting
+ you have to basically build in evaluation against some standard or else the loops don't work
+ thinking in terms of evals is just a new part of the discipline and it's going to get to some
+ weird parts of the organization that you wouldn't necessarily expect. Feature 24 again totally
+ unarguable to me is that everyone is a builder and that A.I. Native Organizations will make
+ building parts of every role including and especially perhaps those held by sea level
+ executives. I am not sure that every single person and every single knowledge worker goes
+ from doing their work to managing agents that do their work. I think that'll be a big chunk of work
+ but again saying all of it is a pretty big swath to cover. What I feel much more confident saying
+ is that the capacity to build to use code to develop prototypes to develop products to do
+ your work is now a critical capability. Now of course over time the space between people
+ and the code that they use will get farther and farther as products obscure and abstract the
+ technical details away but that won't make people less of builders if they can still build things
+ to solve their problems and create new opportunities. This one is both practical action and mindset shift
+ and has some pretty big implications for how enterprises even organize themselves.
+ Feature 25 is kind of the twin of Feature 1. Record everything worth learning from because
+ what the organization does not capture cannot be turned into A.I. enabled work.
+ This also gets at evals, context transmission. We just need to live in a paradigm of
+ capturing a lot more much to the delight I assume of the 75 meeting notetakers that show up in
+ every zoom call you have now. Feature 26 I love because people don't talk about this enough.
+ Governance is so frequently seen as a blocker of innovation but A.I. native organizations are
+ going to treat governance as a transformation partner. They are going to treat it in other
+ words as a way to unlock innovation. That's only going to work if you have legal HR and
+ IT work in lockstep with the owners of the A.I. agenda helping to design the enabling policies
+ that address issues while unlocking new types of work. This I think in many ways will be a key
+ hallmark of truly great A.I. native organizations versus those that are still kind of bolting A.I.
+ on to old ways of working. Feature 27 harkens back to the idea of constant transformation.
+ A.I. native organizations will maintain a bias towards disrupting the company before someone else
+ does it for you. This extends beyond just how you do your current work but cuts all the way
+ to what work you should be doing. I think a lot of the big transformation of A.I. is not just going
+ to be in the efficiency with which you do today's tasks but finding those sort of orthogonal and
+ aligned opportunities that you might not have gotten into yet but which A.I. now enables you to go
+ do. Feature 28 is kind of the technical twin to governance as unlock instead of governance as
+ blocker and you could sum up as guardrails before features. Agents inherit the permissions of
+ whoever is asking and those permissions are enforced in the data layer. You build the
+ guardrails in you don't have to relitigate it every time. Feature 29 could be an entire show on
+ its own and it's the idea that autonomy must be earned. These sophisticated powerful agents are
+ not given full autonomy right away but climb a ladder. Observation, suggestion, acting with
+ approval, acting alone until they can run whole workflows inside a defined boundary.
+ Even if we're trying to identify everything we don't have to identify everything all at once
+ and the old adage about an ounce of prevention being worth a pound of cure I think is very
+ applicable here. Feature 30 once again is about the information system that surrounds everything
+ that you do in this new agentic era tracing every output to its prompt model data and
+ approver so human feedback attaches to something specific not to a vague sense that something is
+ off. We have the ability to create much more comprehensive and complex systems that surround
+ our work and if we do so it comes with all sorts of benefits that improve the next work to be
+ done after that. So that is Alex's list with a lot of great food for thought in there.
+ When it comes to what's missing, one of the best answers I saw in the comments
+ came from a number of people but was summed up by Ben T. Jamil who writes
+ clear ownership and accountability. AI can automate a lot but someone still needs to own
+ the outcome. Every AI workflow should have a clear owner, measurable goal and someone
+ responsible when things go wrong. The best AI native companies won't just ask can AI do this
+ they'll also ask who owns the result. This my friends is nothing short of a new
+ management discipline and it's a management discipline that applies not just to the
+ current managers but to everyone because everyone is becoming a manager of agents
+ as well as an implementer of their own work. For that reason a lot of this is going to
+ have to be pressure tested in practice, learned through experience and failure
+ and then summed up as collective wisdom that we can all share. Hopefully there
+ is some good food for thought in here about how you help your company become more AI native
+ for now that that is going to do it for today's AI Daily Brief.
+ Appreciate you listening or watching as always and until next time, peace.
