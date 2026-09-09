@@ -1,0 +1,761 @@
+ GPT-6 Astra is here.
+ And if you feel like people's first impressions are a little strange, you're not alone.
+ This is supposed to be this crazy advanced model from OpenAI.
+ It's a totally new pre-training base.
+ It was so powerful they had to keep it under wraps for a little while.
+ It's supposed to answer Anthropics, Fable, and Mythos.
+ And certainly some of the stuff that's showing up on social, these incredible one-shot games
+ and 3D models and things like that, are really impressive, at least visually.
+ And then in some other and more basic areas, people aren't necessarily finding it all that
+ much better.
+ So what is the story of Astra?
+ The challenge is that GPT-6 Astra is not an efficiency AI model.
+ In other words, it is not about doing what you currently do better.
+ It is, through and through, an opportunity AI model that is going to challenge you to
+ think differently about what you can do.
+ And not only is it bringing a new capability set, with its computer use capabilities, it's
+ also bringing along a new default interaction pattern, where increasingly we will not be
+ sitting there clicking around and typing to our computer, but instead will be ambiently
+ talking to it as it does all the things that we used to do.
+ In short, the changes that it represents are immense, but not easy to package up
+ in a weekend of testing.
+ So let's try to figure out together the right way to look at Astra, and maybe help
+ you figure out where to begin.
+ The AI Daily Brief is a daily podcast and video about the most important news and
+ discussions in AI.
+ All right, friends, quick announcements before we dive in.
+ First of all, thank you to today's sponsors, KPMG, Blitzy, Robots and
+ Pencils, and HyperAgent.
+ To get an ad-free version of the show, go to patreon.com.ai-dailybrief, or you
+ can subscribe on Apple Podcasts.
+ And to learn more about sponsoring the show, send us a note at sponsors.ai-dailybrief.ai.
+ Two other quick things before we get into this very big episode.
+ The first is a last call for our new cohorts of our executive agent leadership
+ program and our executive catch-up program.
+ Both of those are kicking off this week, although you are not too late to join
+ right now.
+ You can find the information to that linked off the top of aidailybrief.ai.
+ And of course, you can also find linked at the top the new multiplayer
+ AI sprint for teams.
+ This is the latest AI DB free program following AI DB New Year's and Claw
+ Camp, Agent OS and the Summer Adventure.
+ And this one is the first one that's designed specifically not just for
+ individuals, but for teams to come together to use agents together,
+ which I believe this shift from single player to multiplayer AI is going
+ to be one of the biggest trends defining the best, most successful AI
+ using companies this fall.
+ You can find the sprint, which is again completely free, linked
+ from the main website or at multiplayerai.ai.
+ Welcome back to the AI Daily Brief.
+ Today, we are talking about one of the most significant and confounding
+ model releases for a very long time.
+ Certainly for all of 2026.
+ Now, inevitably, as soon as I planned a trip for Labor Day weekend
+ and my birthday, you just knew that we were going to get a bunch
+ of important model releases right as I was on my way wheels up
+ and open AI did not disappoint.
+ Now, Astra is one we have been waiting for for some time.
+ It is intended much more than the GPT-56 class ever was to be
+ an answer to Anthropics mythos class models.
+ Unlike the jump between something like 5.5 and 5.6,
+ Astra started as a fundamentally different training run.
+ And while the model has nominally been ready for some time now,
+ Astra is of the new generation of models,
+ which now operate in the paradigm of having to be delayed
+ somewhat before their release based on safety
+ and security considerations.
+ Indeed, in his announcement, Sam Altman said,
+ it took us some extra time to ensure that we could meet
+ the safety and alignment standards required
+ for this capability level,
+ but we think you will find it worth the wait.
+ Now, the rollout was a little bit messy.
+ The model was announced on Thursday,
+ but availability was limited to partners enrolled
+ in the cybersecurity focused daybreak program.
+ And a lot of people, myself included,
+ were very antsy to get our hands on the thing
+ that had been so long anticipated.
+ Tebow from OpenAI promised that for everyday paid subscribers
+ didn't have access to Astra,
+ they would give them one banked reset
+ and Altman promised to begin the broad rollout
+ to their API and chat GPT subscribers as soon as possible.
+ And by Friday night,
+ the new models were in everyone's hands.
+ The announcement video for Astra
+ went absolutely mega viral on X.
+ At the time of recording on Tuesday morning,
+ it has been viewed more than 132 million times
+ and saved more than 100,000 times.
+ The video is three minutes of people
+ sitting in or pacing around a room
+ with a big projection of a screen on the wall,
+ talking to an open laptop
+ and watching Astra do things for them.
+ The use cases are split between business,
+ personal productivity and recreation.
+ One person is listing an item on eBay,
+ one person is doing a contract review,
+ one person is building a presentation,
+ one person is making a game.
+ They also show those same people untethered
+ from old pesky things like browser windows and mouses,
+ doing multiple things at once.
+ While in the foreground,
+ they are working on their main productivity task,
+ in the background they're working on some administrative
+ or simple tasks like ordering food
+ or booking a tennis court.
+ And just from that video alone,
+ you could tell that there was kind of going
+ to be something different about this Astra model.
+ The first takes quickly started rolling in
+ and some parts were kind of expected.
+ Dan Shipper from every summed up,
+ it's a big upgrade from five, six soul
+ with some frustrating habits that keep it
+ from matching fable at the top end.
+ Dan said that it was the best writing model he'd tried,
+ being very easy to steer and producing very little slop.
+ He found that it was incredibly good at computer use,
+ clearly a major priority for this model launch,
+ with Dan saying that Astra can quote go for hours
+ at a time using complicated apps to get work done,
+ hearkening to something that would be
+ all over X all weekend,
+ and which by the way is a good reason
+ to potentially switch to the video version of this
+ if you're just listening,
+ Dan also pointed out that Astra was incredibly good
+ at making 3D games and visualizations.
+ But he said, Astra also had a tendency
+ to overcomplicate things.
+ For example, when he asked for a simple interface,
+ he got extra labels, extra buttons,
+ and features all over the place.
+ He suggested that it quote doesn't quite match
+ fable's ability to intuitively understand your prompt
+ and do something delightful without overcomplicating.
+ Now on the one hand, it's not all that surprising
+ that a new release from open AI,
+ even one that is meant to catapult them
+ ahead of anthropic and fable,
+ had aspects where people who were dedicated users
+ preferred fable more.
+ At the same time, reading the every vibe check
+ after seeing a lot of other people's first experiments
+ with it felt very much like trying to judge a new thing
+ with old criteria that didn't quite fit.
+ There was something almost discordant
+ about the capability set
+ and the tools and tests people were using to evaluate it.
+ Certainly an even more dramatic example of this
+ came when the artificial analysis
+ intelligence index scores came out.
+ Initially, Astra scored a 61 on the intelligence index.
+ That gave it the same score as GPT-56 Sol
+ and left it a full five points behind fable 5.1.
+ It also meant that Met-MU Spark,
+ which was also released at the end of last week
+ and which we haven't had a chance to dig into here yet,
+ but we will, was one point ahead of GPT-6 Astra.
+ And for some, this was evidence
+ of exactly the idea that I just mentioned,
+ that the tests that we're using to judge old models
+ don't really reflect what their impact is likely to be.
+ Now, when it comes to artificial analysis specifically,
+ the index is fairly skewed towards benchmarks that reward,
+ for example, memorization of facts.
+ They have fewer tests that require advanced coding
+ and even fewer still that are about advanced computer use.
+ Unless one thing that this is just a problem
+ for the people who don't get a great score
+ on the intelligence index,
+ the AA team actually rushed out their update
+ to the index over the weekend,
+ announcing their new index version 4.2.
+ The update includes more emphasis on agentic tasks
+ with their AA briefcase test,
+ plus a different structure and weighting
+ on many of the existing tests.
+ In that new version 4.2 iteration,
+ GPT-6 Astra was still behind Fable 5.1,
+ but was ahead of everything else.
+ Hello, everyone.
+ One big change around AI
+ is we've shifted our thinking
+ from how we rank our pages
+ to how do we become the source
+ that AI trusts enough to answer with?
+ At KPMG, they're seeing this firsthand.
+ AI-generated results now surface answers directly,
+ often without a single click.
+ That's why they are increasingly focused
+ on generative engine optimization, or GEO,
+ structuring content so AI systems can retrieve it,
+ understand it, and cite it as trusted authority.
+ This is not just an SEO evolution,
+ but a visibility mandate.
+ And indeed, the GEO mandate from KPMG is simple.
+ If AI is shaping decisions,
+ your expertise needs to show up inside the answer.
+ Read all about it at kpmg.com slash us slash GEO.
+ Again, that is kpmg.com slash us slash GEO.
+ Blitzy deeply understands your code base
+ before it writes code.
+ Here's the first place that pays off.
+ Security in the age of AI.
+ Vulnerabilities don't live in isolation.
+ They live buried inside millions of lines
+ of interconnected code where patching one thing
+ quietly breaks three others.
+ That's why surface level scans fail.
+ Blitzy starts from its knowledge graph
+ of your entire application,
+ identifies and surfaces CVEs across the full estate,
+ proactively recommends patches and can execute the PR.
+ Each fix is grounded in how your systems connect
+ and validates or nothing new breaks.
+ And the knowledge graph dynamically updates
+ keeping you ahead of an ever accelerating threat landscape.
+ One Blitzy customer resolved 21 active CVEs
+ across six core microservices in four days.
+ Zero compile errors, every validation scan clean,
+ months of planned work fixed in less than a week.
+ Security remediation grounded
+ in real architectural context at the speed of compute.
+ Harden your code base at blitzy.com.
+ That's blitzy.com.
+ The best teams don't have a single star
+ carrying everyone else.
+ They know their own strengths
+ than each other's weaknesses and play to both.
+ That's the team Robots and Pencils has built on purpose.
+ Nobody there is grinding through busy work
+ to pad a headcount number.
+ People come for the hard problems
+ and they stay because everyone around them
+ is leveling up at the same time.
+ In a market full of companies
+ that are just trying to hire fast,
+ that's worth a look.
+ Check out robotsandpencils.com slash careers.
+ This episode of the AI Daily Brief
+ is brought to you by HyperAgent,
+ where you run fleets of agents your team can manage together.
+ Forget local agents and chat workflows
+ waiting on your laptop to be prompted.
+ HyperAgent deploys always-on agents in the cloud,
+ doing real work across the tools your team already uses.
+ Marketing agents turn competitor moves into landing pages.
+ Sales agents enrich leads, draft emails,
+ and updates the CRM.
+ OpsAgent chases the paperwork and tracks the budget.
+ Every agent has access to shared context
+ and follows your rules about scope and approvals.
+ It's time you add agents that feel like teammates.
+ Hire yours at HyperAgent.
+ Get $100 in credits at hyperagent.com slash AI Daily Brief.
+ So what is going on here?
+ Well, in just a minute,
+ we're gonna look at the benchmarks
+ that OpenAI chose to highlight
+ and some of the unique and different things
+ that people share that they were doing
+ with Astra over the weekend.
+ But to not bury the lead,
+ GPT-6 Astra is not an efficiency AI model.
+ This is an opportunity AI model.
+ In other words, GPT-6 Astra is not about doing
+ what you currently do better.
+ It's about expanding what you can do
+ that makes Astra extremely interesting,
+ potentially extremely valuable, but also challenging.
+ And part of what we're gonna do in today's episode
+ is look at some comparable past examples
+ of this type of opportunity AI model release
+ to see if and how we figured out
+ what made those models different and how long it took.
+ But first, let's go back to some other benchmarks,
+ specifically to OpenAI and what they chose to highlight.
+ Even if one takes lab benchmarks with a grain of salt,
+ where they choose to put their focus
+ can still tell us something
+ about how the OpenAI team sees the unique
+ and differentiated value of Astra
+ relative to other models.
+ As has become the norm,
+ OpenAI now shows benchmarks,
+ not just as a list of comparative performance numbers,
+ but on charts that can map performance versus cost,
+ building efficiency right there into the core analysis.
+ On coding benchmark terminal bench 4.0,
+ the model scored 57.6%,
+ which beat Fable 5.1 at 55.8%
+ and represented a large jump from GPT-56 Sol at 37.3%.
+ On deep sweep, Astra scored 74.1%,
+ which was slightly higher than Fable 5.1 at 73.7%.
+ Now interestingly for both of those benchmarks,
+ Astra achieved its best score on higher extra settings
+ and actually declined a little bit
+ with effort set to max.
+ This suggests that higher effort could mean overthinking
+ and getting sidetracked.
+ And importantly, OpenAI chose to highlight
+ that not only did Astra score higher,
+ but they did it a lot more cheaply
+ than for example, Fable 5.1.
+ Now on automation bench, which measures computer use,
+ the scores were off the chart.
+ Astra scored 41.1%,
+ which was much higher than Fable 5.1 at 31.4%,
+ and GPT-56 Sol at 18.1%.
+ And honestly, if you had to pick just one thing
+ that OpenAI really wanted you to know about Astra,
+ it is how transformatively different
+ at using computers it is.
+ In the announcement post, they call it explicitly
+ the world's best computer use model,
+ claiming that Astra marks a new frontier in the speed,
+ accuracy, and safety of computer use.
+ OpenAI also emphasized a big increase in capabilities
+ for science and math.
+ On terminal bench science, Astra scored 64.6%,
+ beating Fable 5.1 at 52.6%,
+ and absolutely demolishing GPT-56 Sol's score of 22.4%,
+ and on frontier math, tier four,
+ Astra achieved a near perfect score of 97.6%,
+ another jump from Fable 5.1 score of 90.2%.
+ In cybersecurity, advanced computer use
+ seems to have led to a big breakthrough
+ in capabilities as well.
+ Astra scored 100% on exploit bench across all effort levels,
+ suggesting it can build and execute exploits
+ with little difficulty.
+ Using an internal benchmark
+ of recently disclosed vulnerabilities,
+ Astra scored 39% compared to just 5.5% for GPT-56 Sol.
+ Now, in addition to benchmarks,
+ the GPT-6 Astra announcement post
+ also highlighted some use cases,
+ and it's very clear that OpenAI is not just pitching this
+ as a better way to write documents and do research.
+ They point to game development, circuit board printing,
+ car transmission design,
+ and again, many other things that are very much outside
+ the classic set of use cases
+ that these sort of model announcement posts focus on.
+ And this was reflected in the types of experiments
+ that were going on viral on X over the weekend.
+ OpenAI's Thomas Ricard wrote,
+ Astra is very good at 3D modeling,
+ and then showed a walkthrough of how he built
+ a demo house walkthrough for their blog post.
+ Arita's Peter Gostev used Astra in Blender
+ to recreate a famous Apple announcement video
+ of Craig Federighi doing some weird parkour moves.
+ Now, Blender, which is a 3D creation program,
+ was all over Astra-related posts.
+ Alex Oliver showed its capability and persistence
+ by building a photorealistic bat in Blender,
+ saying, it just kept going until I ran out of tokens.
+ Yunfan Yi modeled the house tour use case
+ that had been on the OpenAI blog post writing,
+ give it a Zillow listing.
+ It can 3D model the house based on the listing photos
+ and create a cool promotional video.
+ This video was created in one shot
+ and there are still some wrong details,
+ but I'm sure it would be much better
+ if I asked it to polish further.
+ Duncan Trussell built a creepy VHS-looking version
+ of Backrooms, sharing something that looks like an old VHS,
+ but actually was an AI-generated video
+ just was all built in Blender.
+ Duncan went on,
+ I wonder how it is at rigging 3D characters
+ and animating them, I'll try that next.
+ He followed up, yeah, we're cooked, it did it, no problem.
+ Rigged a 3D character, put it in the Backrooms
+ and made it walk around.
+ If you've never messed with Blender,
+ this might not seem like a big deal, but rigging sucks.
+ I've tried this with other versions of GPT
+ and it never really works.
+ This did it perfectly in one prompt.
+ Ash Bites writes,
+ I use GPT-6 Astra to create a 3D website
+ that pulls apart a Tesla Model X
+ into 334 modeled pieces.
+ Google applied AI PM Baron Roth wrote,
+ Astra helped me win an argument I had with my fiance
+ on whether glasses drive faster right side up
+ or upside down after dishwashing
+ by simulating the physics of the water molecules
+ and nearby air humidity.
+ Now, many wondered whether this is an advisable use case
+ or not with Michael Briggs responding,
+ one small step for science,
+ one giant leap towards sleeping on the couch.
+ As you might expect from what you've heard so far,
+ lots of people also tested Astra by building games.
+ Ethan Malick wrote,
+ I asked GPT-6 Astra to turn Zork,
+ the classic 1977 text adventure,
+ into a full 3D action adventure game.
+ It kept the original plot and puzzles, added fight scenes
+ and built all of the characters and environment
+ directly in 3JS.
+ Daria Anupmaz wrote,
+ One of the games I absolutely loved playing
+ in the mid 90s was Doom.
+ Now more than 30 years later,
+ I've created my own Doom inspired game
+ in just a few hours with Astra
+ and I keep adding new features,
+ enemies and levels that are so enjoyable to play
+ and have almost no bugs I can notice
+ even in first versions.
+ Building it brought back so many great memories
+ from those early days of gaming and was so much fun.
+ It's beyond remarkable to think that something
+ that once required a legendary team
+ and extraordinary engineering can now be recreated,
+ experimented with and expanded in hours
+ by someone like me
+ who has no software engineering expertise.
+ Theo built a game called Fishslop writing,
+ GPT-6 Astra is world-class at Blender
+ in three-dimensional reasoning.
+ This was a one-shot game it created all running in browser.
+ Now when people assume
+ that this must be just absolutely eating through tokens,
+ Theo responded,
+ Fishslop would have been under $30 to generate.
+ Wouldn't have even noticed the dent on the $200 sub.
+ Entrepreneur Anshu found something similar
+ sharing a game that they created and adding,
+ dude, GPT-6 Astra is some kind of turbo AGI machine god
+ for 3D games.
+ It one shot this in 45 minutes
+ for hardly a couple percentage of my quota.
+ The AI battle account built Sonic
+ and found that on Mac settings,
+ Astra was able to build it in 53 minutes
+ using 4% of weekly usage on a Pro X5 account
+ while Astra on Medium took 25 minutes
+ and used 1% of the weekly usage.
+ Even Sam Altman weighed in on this use case saying,
+ it is obviously trivial relative to everything else,
+ but the fact that Astra can make me
+ whatever fun little game I can imagine
+ and I can be playing it a few minutes later is so cool.
+ Others took this 3D capability in a learning direction.
+ Andragon in wrote, yesterday I built a cell model.
+ Today it showed me how Ozempic works.
+ I asked it to explain the mechanism
+ and one hour later, this,
+ the video that Andrew shares is an interactive 3D model
+ that shows exactly what Ozempic does.
+ Higgsfield head of product combined Astra and Higgsfield
+ to build an overlay for watching soccer
+ that tracks players, maps, passes,
+ and follows possession all in real time.
+ And Emmanuel from Scenario said that GPT-6 Astra
+ helped him build something that he wished he'd had as a kid.
+ He writes, input just an image or an ID and a few words
+ and get a fully buildable Lego set,
+ 100% customized to your prompter image
+ using official Lego parts you can order online.
+ Emmanuel AOF writes, I asked GPT-6 Astra
+ to help me understand my own ankle pain.
+ It gave me a full interactive 3D Atlas,
+ bones, ligaments, tendons, real motion axes,
+ sliders for plant reflection and inversion,
+ and a live readout of what each ligament is doing.
+ One session.
+ Ethan Malik writes, I don't think this was the goal,
+ but the fact that Astra is incredibly good
+ at visually pleasing 3D work like Blender
+ gives it a perception edge over Fable
+ in the war for social media attention.
+ It's harder to judge other kinds of outputs,
+ but the visual stuff comes through.
+ And of course, Ethan is right.
+ This stuff is really cool.
+ But how much does it matter to the average person?
+ If you knew that this sort of 3D design
+ was what Astra was really good at,
+ would you even have something that you could think of
+ to use it for?
+ And indeed, when people were sharing
+ some of their more generic use cases,
+ it wasn't all sunshine and rainbows.
+ A16Z's Martin Casado wrote,
+ the new models are amazing,
+ but it seems coding has saturated.
+ There's clearly a meaningful step in computer use,
+ but I don't notice a meaningful step
+ in coding for the work I'm doing.
+ Maybe a skill issue.
+ But others report something similar.
+ Armin Renansha wrote,
+ I don't know where Astra learned Python programming,
+ but when it's one step removed from normal code,
+ it writes weird Python slop.
+ The unit tests it writes are absolutely horrific.
+ Stripes Chris Puckett wrote,
+ Astra thoughts, absolutely blew me away
+ with taking some shader animation work
+ to an incredible level.
+ Absolutely crap the bed,
+ the sloppiest slop to ever slop on front end design.
+ Dan Driss wrote,
+ GPT-6 Astra has one pretty big problem,
+ front end and UI design.
+ Astra is absurdly good at spatial reasoning,
+ 3D, computer use, math, agents, coding,
+ but ask it to make a beautiful website
+ and Claude can still look noticeably better.
+ This might genuinely be the biggest reason
+ I'd still use Claude,
+ which is not to say that's been everyone's experience.
+ Claire Vo from the How I AI podcast,
+ described in her long review,
+ how she had been trying to build
+ an architecturally complex product intelligence app
+ that aggregates and analyzes data across platforms.
+ She said, Fable did insane things with the architecture.
+ 5.6 just got stuck on quality of insights.
+ Astra one-shotted it.
+ This she says has been my experience this entire model.
+ It's been so hard to do these very specific tasks.
+ I've tried them over and over again for six months,
+ then Astra one-shotted it.
+ And yet still, what comes through
+ in the much more full reviews like the one from Claire
+ or like Ali K. Miller's review,
+ is that in addition to these 3D capabilities,
+ the really transformative thing around Astra
+ seems to be in the realm of computer use.
+ Claire, describing herself as a computer use maxer,
+ said that Astra has taken her computer use to the next level.
+ She described things like managing complex web UI
+ or automating lead routing workflow in CRM
+ and said this kind of thing,
+ just typing and thinking takes forever.
+ Before Astra, I didn't feel like computer use
+ could navigate these notes as well.
+ Now, however, she said,
+ I'm just hands off my computer all the time now
+ and pointed out how different a mental paradigm
+ this type of interacting with computers really represents.
+ Ali Miller agreed, writing,
+ computer use and browser use are just incredible.
+ I'm confident that pretty much any stable workflow done
+ on a computer can be at least partially done by AI.
+ It's just so, so good.
+ Imagine you were a creepy boss
+ and recorded your screen for seven straight days.
+ What would you have AI do that you've been doing?
+ Can you challenge yourself to go mouse-free for a day?
+ Now, there's way more to get into
+ and we are just barely beginning
+ to pull back the curtain on this model.
+ But I wanna close out on this idea
+ of why I'm describing Astra as both significant
+ and confounding all at the same time.
+ When you think about capabilities of advanced AI,
+ LLMs like GPT 3.5 and then four
+ hit pretty directly down the line
+ of an extremely core set of things
+ that lots and lots of people do,
+ looking up answers to questions,
+ researching, writing things.
+ These sort of tasks and queries make up a big part
+ of our daily experience, especially in the work world.
+ And what's more, the interaction pattern
+ of effectively just sending text messages to a bot
+ was something that most people
+ were at that point really comfortable with.
+ But even as those core writing
+ and research type use cases of LLMs
+ have attracted legions of users,
+ we've had a few major jumps
+ outside of what people normally do as well.
+ The first was image generation.
+ Now, this is a little bit borderline
+ because obviously even before things
+ like mid-journey and stable diffusion
+ and later nano-banana and GPT image,
+ people were interacting with images,
+ but still, before it was really easy to generate them,
+ interacting with images or at least creating images
+ remained a more specialized domain.
+ If you look at the big generative AI releases
+ from November 2022 as a proxy,
+ it's not surprising that chat GPT
+ was so quickly so much more ubiquitous
+ than mid-journeys version four,
+ which also came out that month.
+ There are simply more people
+ and more established use cases
+ for the things that chat GPT could do
+ than at that time at least
+ for the things that mid-journey four could do.
+ Over time though, as the AI capability set has changed,
+ the way that people use generative images
+ has increased and expanded
+ and made it a major mainstream use
+ of this technology as well.
+ The second time I think we had a major jump
+ outside of what the average person,
+ call it knowledge worker, does,
+ was with the introduction of advanced AI coding.
+ Now, what makes this interesting
+ is that obviously for some people,
+ a significant number and class of AI early adopters,
+ coding was in fact the major substance
+ of what they do in a day-to-day way.
+ But for the rest of us,
+ who would quickly become vibe coders,
+ it was a little bit different.
+ We hadn't had the ability
+ to interact with code as a way to build things
+ and solve our own problems
+ and accomplish our work
+ up until a set of models and tools
+ made it viable to do so
+ without having to know the underlying coding languages.
+ In many ways, you can chart the long history of 2026
+ back to the end of November 2025.
+ When we got Claude Opus 4.5,
+ which was followed quickly after by GPT 5.2
+ and which together people realized
+ over the next month or so,
+ represented a total step change in their ability
+ to do significant quality work with AI coding.
+ At this point now, 10 months on from that,
+ many of us previously non-coders
+ have integrated AI coding into our work streams
+ in various ways,
+ but that's still a work in progress.
+ It hasn't yet translated
+ all the way across the entire span of knowledge work,
+ even though for those of us who have fully embraced it,
+ it feels like some version of that is inevitable.
+ All of this 3D modeling and design stuff
+ feels like a third example of that pattern.
+ In other words, a set of capabilities
+ unlocked by some new advance in AI
+ that gives people who previously had no way
+ to interact with that capability set
+ the opportunity to now do so.
+ The question will be, what if any use cases
+ will become normalized for that
+ for people whose work at this moment
+ doesn't normally include 3D modeling or design?
+ Will these use cases remain entirely novelty
+ or will some make the jump
+ like AI and agentic coding has made the jump
+ to just a thing that now
+ a much broader set of knowledge workers actually use
+ in a regular way?
+ The other pattern of change that I see with Astra
+ comes in the interaction patterns that it models.
+ What I mean by that is that sometimes
+ the big shift isn't just in capabilities,
+ but in how we interact to leverage those capabilities.
+ When Nanobanana, aka Gemini 2.5 flash image
+ was originally released back in August of 2025,
+ it wasn't notable specifically
+ because it was massively better
+ at making photorealistic images
+ or images in particular styles.
+ What made it so powerful
+ was that instead of having to regenerate
+ an entire image from scratch to change one detail,
+ you could instead prompt it to fix just one specific part.
+ And it turns out that that one small change
+ in the interaction pattern
+ unlocks a tremendous number of use cases.
+ Throughout 2026, coding has also been witnessed
+ to a set of rapid shifts
+ in the interaction pattern as well.
+ Now, some of this obviously
+ has been capability changes as well,
+ but what has been the big watchword
+ for AI and Agenda coding this summer?
+ It's been all about loops
+ and shifting from thinking
+ of prompting a coding agent to do a thing
+ to instead setting up a loop structure
+ in which it can manage itself
+ and continuously progress towards a goal
+ in a way that it can evaluate its own progress
+ and continue on until it actually achieves that goal.
+ That is a totally different type of interaction pattern
+ that will change what we can do with
+ and how much we can get out of AI
+ and that we are in the middle of trying to expand
+ outside of just the initial domain of coding
+ to other areas of knowledge work as well.
+ And it feels to me like even if 3D modeling and design
+ stays more niche than either image generation
+ or coding as a default part of all knowledge work,
+ open AI at least is making a very strong argument
+ that computer use capabilities are changing
+ and will change how we think about interacting
+ with computers.
+ I don't think it's an accident at all
+ that the entire three minute launch video
+ that has been seen 130 million times
+ is people completely hands-free, sitting in a chair,
+ pacing around, verbalizing and externally processing
+ their way through a variety of different types of work
+ all with their voice as the AI manages the interface.
+ Now this sort of interaction pattern
+ has long been a part of sci-fi.
+ There's a reason that everyone references
+ Tony Stark's Jarvis and we've had baby steps towards this
+ with developments in voice mode.
+ Anyone who's done pretty much any of the free training
+ programs that I've released this year
+ has heard me squawk endlessly about anchoring
+ the way that you interact by using voice mode.
+ But it's pretty clear that we're still early days.
+ And I think the upshot of all of this
+ is that Astra is not a model
+ that I think we should expect to fully understand
+ or take anywhere near full advantage of
+ in the immediate term.
+ While there's gonna be lots of debates around
+ whether this is now AGI,
+ as for example, open AI's Greg Brockman says
+ that he believes GPT-6 Astra represents,
+ the real work of the next few months
+ is going to be to figure out
+ not where Astra replaces GPT-56 Sol or Fable 5
+ for the everyday sort of things we do
+ but in a much bigger and more core way,
+ what new opportunities it unlocks for us.
+ One place to keep an eye on that
+ is what's coming out from open AI staffers themselves.
+ Tebow who leaves product over there said, for example,
+ Astra was probably our biggest competitive advantage
+ while it wasn't generally available.
+ Since we've had it, our productivity jumped so much
+ that we shifted some of our plans six months ahead
+ and we'll ship them at Dev Day instead of mid next year.
+ Was it just better agent coding
+ or was it something else entirely?
+ That is the question that faces us
+ and we're gonna have to take a lot more time
+ to figure it out.
+ For now though, that is gonna do it
+ for today's AI Daily Brief,
+ one where even though we've gone wildly long,
+ I feel like we are just barely scratching the surface.
+ Appreciate you listening or watching as always
+ and until next time, peace.
