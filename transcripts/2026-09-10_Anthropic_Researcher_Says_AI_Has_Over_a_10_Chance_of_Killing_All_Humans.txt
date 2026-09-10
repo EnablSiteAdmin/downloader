@@ -1,0 +1,1171 @@
+ This week, an AI researcher went mega viral announcing his resignation from Anthropic,
+ arguing that both IT and open AI were effectively gambling with our lives.
+ Another still-employed AI researcher chimed in to agree and decided to add that he thought
+ that there was greater than a 10% chance that AI kills us all.
+ Doom prognostications are nothing new around AI.
+ But something has shifted to make the message hit different this time.
+ 200 million views on X and dozens of mainstream media outlet interviews later, today we're
+ going to unpack what changed.
+ The AI Daily Brief is a daily podcast and video about the most important news and discussions
+ in AI.
+ Alright friends, quick announcements before we dive in.
+ First of all, thank you to today's sponsors, KPMG, Blitzy, Harbor, and Hyperagent.
+ To get an ad-free version of the show, go to patreon.com.ai-daily-brief, or you can
+ subscribe on Apple Podcasts.
+ And to learn more about sponsoring the show, send us a note at sponsors.ai-daily-brief.ai.
+ While you're on AI Daily Brief.ai, you can also check out all sorts of other things going
+ on in and around the community, such as, for example, the multiplayer AI sprint for teams.
+ If you haven't yet, this is my big prediction for where I think agents are going this fall,
+ and as a totally free, four-week self-directed sprint that you and your team can do to
+ get out ahead of it.
+ Last note, today is a main-only type of episode.
+ The plan is to be back with our normal headlines main breakdown tomorrow.
+ Yesterday, a pair of posts on X escaped their proverbial containment, jumping aggressively
+ from the AI community to dominate discourse even in the broader world.
+ We're going to discuss those posts, the issues that surround them, the responses, and the
+ underlying concern, but first I want to make one request.
+ Anyone who has interacted with modern media in any way, shape, or form will feel
+ on some level how much we are pushed to feel outraged.
+ In the world of algorithms, different political positions are not disagreements to be discussed,
+ but legitimate reasons for loathing the people who hold those different opinions.
+ This is in large part shaped, I believe, by the easy equation of people being angry
+ means they spend more time on your app, but the net result is a lot of us feeling a lot
+ more angry all the time and not being particularly willing to engage with people who think
+ differently than we do.
+ When it comes to AI, this phenomenon is cranked to 11.
+ Part of that is that the stakes are presented as so dramatic, case in point I am literally
+ talking over a mainstream article whose headline is Anthropic Insider's Warn AI Could Kill
+ All Humans, and part of that is because this particular debate is not about the facts
+ of today, but what might be in the future.
+ It is, in other words, an unwinnable debate, where the opposing positions, whatever they
+ may be, are by definition unfalsifiable.
+ That means all we have is the argument, and so the argument gets intense.
+ So my request is to try hard as though it might be to not succumb to the instinct to outrage,
+ to listen to the other side without being angry, even if that listening produces no change
+ in what you believe.
+ The more calmly and thoughtfully we can have this particular conversation, the better
+ I believe the likely outcomes.
+ I know this is not easy.
+ In fact I'm sure many of you are already feeling your blood boiling, simply by me applying
+ equivalents of both sides, when you think it's insane either A, that I could countenance
+ the deniers, when the stakes of this crisis are literal civilizational collapse, or B,
+ that I could coddle these doomsday zealots who have no proof to back up any of their
+ positions.
+ And so with that dramatic beginning, let's actually talk about what happened.
+ Like I said, two posts on X this week went absolutely giga viral.
+ The first was from a researcher named Jacob Coxen.
+ He wrote,
+ I resigned from Anthropoc today.
+ I spent the last three years doing pre-training research at both OpenAI and
+ Anthropoc.
+ Neither company is acting responsibly.
+ They are racing straight to self-improving superintelligence and gambling
+ with our lives.
+ Do not underestimate the power of this technology.
+ These will soon be superhuman systems that can hack anything, revolutionize
+ any field overnight, and acquire real power and resources.
+ We have all witnessed the progress in each of these domains and progress
+ is not slowing.
+ The people building AI earnestly believe that it could kill us all by the end of
+ the decade.
+ That is not a marketing stunt.
+ If anything, many executives and senior researchers will couch their phrasing
+ in the press to sound sensible.
+ But I hear the same people express fear privately.
+ No other human activity poses this level of danger.
+ A common response is, if they truly believe this, then why are they
+ still building it?
+ At OpenAI, many have not deeply internalized the civilizational stakes.
+ At Anthropoc, the stakes are well understood, but they are locked in a
+ race to get there first.
+ They believe no one else will act responsibly, so they must do it
+ themselves despite the risk.
+ Accepting this race and entering the endgame is a hubristic gamble that
+ should not be launched from a private company's slack.
+ Attempting to speed run alignment should require extraordinary
+ confidence that there are no better trajectories available.
+ I am optimistic about the potential for coordination.
+ Warning shots like the hugging face attack have made pacing
+ agreements between US labs more viable.
+ I don't feel we're on track to prevent a global race,
+ which may require costly actions such as a temporary ban on improving
+ model capabilities.
+ If you are a lab researcher, I urge you to consider what the next
+ few years will actually feel like.
+ Do you want to kick off a super-intelligent RL run without a
+ rigorous understanding of its mind?
+ Should you put your head down because it's happening anyway or
+ take this moment to call for different conditions?
+ So that was the first post.
+ The second post was a retweet of one part of it where Jacob
+ reinforced that, quote, this is not a marketing stunt.
+ Evan Hübinger, the alignment science lead at Anthropoc added,
+ We really do earnestly believe AI could kill all humans.
+ Exclamation point.
+ I personally think it is greater than 10% within the next decade.
+ I believe Anthropoc is trying its best, but we do not yet have a
+ plan to solve alignment for super-intelligence and are not
+ clearly on track to.
+ To be comprehensive, which of course is not something that
+ most media outlets are trying to do,
+ Evan did also add in a second post,
+ To be clear, I think the risk from present models is low.
+ What I am worried about is super-intelligence arising
+ from recursive self-improvement,
+ which as we have said is happening faster than we thought.
+ Evan's first post, the repost, is sitting at 39.5 million
+ views at the time of this recording.
+ Jacob's is at nearly 150 million views.
+ The article that I mentioned, the Axios piece titled
+ Anthropic Insiders Warn AI Could Kill All Humans,
+ is just one of many similarly titled articles.
+ The Wall Street Journal writes Anthropic researcher quits
+ over out-of-control AI fears.
+ BBC Anthropic researcher believes more than 10% chance
+ AI could kill all humans.
+ Semaphore AI researchers say industry is
+ quote gambling with our lives, Time Magazine.
+ He helped build powerful AI at open AI in Anthropic.
+ Now he's afraid it could kill us.
+ That one by the way included an actual interview,
+ which is of course what happened next,
+ with Jacob going on Anderson Cooper, NBC, Fox News,
+ and also being interviewed in addition to Time
+ for news outlets like Wired.
+ So why did these posts go viral right now?
+ Anyone who has spent any amount of time with AI
+ knows that these sort of ex-risk narratives,
+ existential risk, are not new.
+ In fact, many people have been beating this drum for years.
+ More than 10 years ago in 2016, the Guardian published
+ an interview with philosopher Nick Bostrom
+ called Artificial Intelligence,
+ where like children playing with a bomb.
+ Back in April of 2022, months before we would get
+ chat GBT, the now imprisoned Sam Bankman Freed
+ invested $500 million in Anthropic Series B
+ leading the round.
+ While some of the revisionist history around this now
+ views it almost as what would have been a visionary investment
+ given that the stake would be worth over $30 billion,
+ according to research by journalist David Z. Morris,
+ who wrote a book about SBF called Stealing the Future,
+ this was less visionary investment
+ and more a bailout of then one-year-old Anthropic
+ by the person who had become the richest
+ in the effective Altruist circles,
+ which was Sam Bankman Freed.
+ Then we got the chat GBT moment
+ and everyone started paying attention to AI.
+ And in early 2023, there was once again
+ a lot of attention on concerns about human extinction.
+ Time magazine published an op-ed
+ from Eliezer Yudkowski called
+ pausing AI developments isn't enough,
+ we need to shut it all down
+ and even put him on that year's AI 100
+ most influential list.
+ Now for a couple years after that,
+ the ex-risk conversation had the volume turned down.
+ In fact, when Yudkowski showed up again last year
+ with a book If Anyone Builds It, Everyone Dies,
+ it didn't really make much of a splash
+ and certainly didn't get the big traction
+ in political circles that the AI safety folks were hoping.
+ Instead for the last couple of years,
+ the AI risks that people have been concerned with
+ have been much more focused on jobs.
+ Think about Anthropics Dario Amade
+ suggesting that AI would disrupt 50%
+ of entry-level white-collar jobs
+ over the next couple of years
+ and AI market bubbles.
+ Specifically not just that this will be an equity crash,
+ but indistinct fears that the AI bubble bursting
+ will cause a repeat of 2008,
+ even if very few analysts have been able
+ to point to an actual mechanism
+ for that sort of systemic fallout.
+ Now of course more recently,
+ cybersecurity has become the big AI risk issue
+ that everyone has been focused on
+ and in some ways it has felt
+ like along this path we were moving from
+ more vague and inarticulate risks
+ to more precise and specific risks.
+ In other words, these cybersecurity concerns
+ were not general futuristic scenarios,
+ they were specifically related
+ to the capability set of models right now
+ and even some evidence of what we've seen.
+ So what changed?
+ Hello everyone.
+ One big change around AI
+ is we've shifted our thinking
+ from how we rank our pages
+ to how do we become the source
+ that AI trusts enough to answer with.
+ At KPMG they're seeing this firsthand.
+ AI generated results now surface answers
+ directly often without a single click.
+ That's why they are increasingly focused
+ on generative engine optimization or GEO,
+ structuring content so AI systems
+ can retrieve it, understand it,
+ and cite it as trusted authority.
+ This is not just an SEO evolution
+ but a visibility mandate.
+ And indeed, the GEO mandate from KPMG is simple.
+ If AI is shaping decisions,
+ your expertise needs to show up inside the answer.
+ Read all about it at kpmg.com.us.geo.
+ Again, that is kpmg.com.us.geo.
+ Blitz's deep code-based understanding
+ unlocks the thing every roadmap owner
+ cares about, shipping new features.
+ Here's the truth about building
+ inside a massive enterprise code base.
+ Writing code was never the bottleneck,
+ context is.
+ Which system does this touch?
+ Which contracts can't break?
+ Which standards apply?
+ Blitzy already knows because it reversed engineered
+ your entire code base
+ into a dynamic knowledge graph
+ before feature work began.
+ With that complete picture,
+ Blitzy builds features end-to-end.
+ Architecture, APIs, UI, and tests
+ all validated against your existing systems.
+ One Blitzy customer built an AI native application
+ from scratch with 100% autonomous completion,
+ saving over 2,700 engineering hours.
+ Features that respect your code base
+ instead of fighting it.
+ Stop letting your backlog grow faster than your team.
+ Accelerate your roadmap at Blitzy.com.
+ That's blitzy.com.
+ Every episode, I talk about the competition
+ between OpenAI, Anthropic, SpaceX AI,
+ Google, and Meta.
+ And if you've been listening for a while,
+ you might have a favorite.
+ Maybe you think OpenAI and Anthropic
+ can stay ahead, or perhaps Meta's
+ open-source strategy can win out.
+ Whatever your view,
+ every AI lab creates a different
+ investment opportunity.
+ Harbor Capital Advisor's
+ AI Lab Ecosystem ETF Suite
+ lets you invest in the ecosystem
+ behind the AI lab you believe in.
+ Search Harbor AI Lab Ecosystem ETFs
+ wherever you invest or follow
+ at Harbor Capital on X to learn more.
+ Visit harbercapital.com for a prospectus
+ containing investment objectives, risks,
+ fees, expenses, and other important information.
+ Read and consider it carefully before investing.
+ Risks include principal loss
+ and artificial intelligence related risks.
+ Harbor ETFs are distributed
+ by Foresight Fund Services LLC.
+ Harbor is not affiliated with AI Daily Brief
+ and the funds are not affiliated with,
+ sponsored by, or endorsed by any AI lab.
+ This is a paid advertisement
+ and not personalized investment advice.
+ Investing involves risk,
+ including possible loss of principal.
+ This episode of the AI Daily Brief
+ is brought to you by HyperAgent,
+ where you run fleets of agents
+ your team can manage together.
+ Forget local agents and chat workflows
+ waiting on your laptop to be prompted.
+ HyperAgent deploys always-on agents in the cloud,
+ doing real work across the tools
+ your team already uses.
+ Marketing agents turn competitor moves
+ into landing pages.
+ Sales agents enrich leads,
+ draft emails, and updates the CRM.
+ OpsAgent chases the paperwork
+ and tracks the budget.
+ Every agent has access to shared context
+ and follows your rules
+ about scope and approvals.
+ It's time you add agents that feel like teammates.
+ Hire yours at HyperAgent.
+ Get $100 in credits at hyperagent.com
+ slash AI Daily Brief.
+ Why did these tweets hit in a way
+ that other AI safety artifacts simply didn't?
+ The first big obvious change
+ is the changing state of the political resonance
+ of the anti-AI message.
+ AI politics have become red meat
+ for both left-flavored
+ and right-flavored populist positions
+ thanks to data centers,
+ an inherent lack of trust in the tech industry,
+ and the huge wealth of the tech industry.
+ Basically, in the last few months,
+ every politician figured out
+ that hating AI plays.
+ You might remember comedian Charlie Barron
+ calling it the most bipartisan issue since beer.
+ And when it comes to these particular tweets,
+ these are quite clearly
+ the most obvious amplifiers.
+ Last night, Michael Adams tried to catalog
+ all of the politicians
+ who had responded directly to the post
+ with calls for legislation to regulate AI.
+ The list included two governors,
+ seven senators, and 13 congressional representatives,
+ plus a couple of British MPs
+ and a handful of candidates as well.
+ The folks calling specifically for legislation
+ were mostly although not all Democrats.
+ Among the 22 current representatives,
+ 19 were from the Democratic side of the aisle
+ and three were Republicans.
+ Unsurprisingly, Bernie was there,
+ writing,
+ the very people building this technology
+ admit that it could threaten the future of humanity.
+ That is why I will soon be introducing legislation
+ to ban superintelligence and pause AI development.
+ Congressman Greg Casar,
+ who is working with Bernie on that bill,
+ added,
+ an anthropic researcher just quit
+ warning their racing to superintelligence.
+ An employee still there agreed
+ and put the odds of AI killing all humans
+ above 10%.
+ This is an emergency.
+ Congress must convene hearings
+ and pass my and Bernie's superintelligence ban.
+ For others, the calls to action were more vague.
+ Illinois Governor JB Pritzker,
+ positioning himself for a likely presidential run,
+ wrote,
+ it's time to sound the alarm louder
+ on reining in artificial intelligence.
+ It's becoming more clear the threat AI poses to humanity.
+ So I'm calling for immediate action
+ from the industry in Washington.
+ He called specifically for the tech industry
+ to stop lobbying against AI safety,
+ for Congress to start holding hearings,
+ and for the federal government to get involved
+ rather than just leaving it to the states.
+ And so on and so forth.
+ Again, there are two dozen versions of this message
+ with various levels of specificity
+ around the proposals they brought up,
+ but all seemingly agreeing that something must be done.
+ So reason one,
+ that the AI safety message had a more receptive audience now
+ than it did before is just the general state
+ of the political discourse around AI in the US today.
+ Now, for the second and third things that changed
+ to make the world more primed
+ for this particular argument at this particular moment,
+ I'll give one sincere and one more cynical.
+ The sincere is, of course, the hugging face incident.
+ Not only was it an actual cybersecurity breach
+ that happened in the real world,
+ not just in theory,
+ it also included behavior among the agents
+ that to some allow them to extrapolate
+ that to even more nefarious actions in the future.
+ Agents coordinating on secret messaging boards
+ made predictions that might have felt to some
+ as pretty sci-fi in the past
+ feel a little less sci-fi and more real now.
+ For many, the hugging face incident
+ made all of the scariest things
+ feel more rather than less likely to come to fruition.
+ Now, certainly there are plenty of people
+ who would identify the hugging face hack
+ as a warning shot,
+ without agreeing that it makes
+ runaway superintelligence more likely.
+ But in general,
+ this is another pump priming sort of incident
+ that made this particular message
+ at this particular time a lot more resonant.
+ Now, as to the cynical thing that changed,
+ it is quite clear
+ that AI skepticism plays extraordinarily well in media.
+ With the possible exception of this audience,
+ who are God bless you here for the nuance,
+ being a doomer is a way better business model.
+ If you need evidence of this,
+ just look at Stephen Bartlett,
+ diary of a CEO's YouTube page.
+ Scary Terminator looking guy
+ with an open AI logo as one eye,
+ headline AI is built on a myth.
+ Another AI is all a scam.
+ Another AI will become a God by 2027.
+ Another quit before AI comes.
+ And obviously Stephen is not out here
+ leading the pack to a more controversial set of thumbnails.
+ He's just optimizing around the things
+ that already work on YouTube.
+ The problem is that while AI skepticism
+ plays well in media,
+ the two other big skepticism narratives
+ have gotten a little bit tired recently.
+ When it comes to the idea of a job apocalypse,
+ not only do we not have a lot of evidence
+ of that right now,
+ we're starting to get some evidence,
+ nascent though it may be,
+ pointing in the other direction.
+ Just this week,
+ the economist published an article
+ called The Job's Apocalypse is Postponed
+ and AI Jobs Boom is Here.
+ Now, the bubble narrative never fully goes away
+ and there are plenty of legitimate concerns there,
+ but it's certainly on a low ebb
+ in its resonance as a narrative right now.
+ So if that's the case,
+ but the audience is still clamoring for anti-AI,
+ where do you go?
+ And just like that,
+ the AI safety narrative shows up again right on time.
+ Now, there is actually a fourth reason
+ that some are arguing
+ that this is having resonance right now,
+ which is an argument that this is
+ some big coordinated campaign
+ to press for a certain type of regulation.
+ AI policy journalist Jordan Schachtel writes,
+ it has all the signs of a highly coordinated op
+ through doomer mega donors in the corporate media.
+ Capital Research's investigative researcher Parker Thayer writes,
+ this post looks like the start
+ of a very sophisticated and well-funded PR operation
+ to get support for Democrats
+ to regulate AI into oblivion.
+ Now, some of the arguments
+ around that sort of astroturfing contention
+ are the fact that previous to this,
+ Jacob Coxson had very few followers
+ and literally no activity on X,
+ and that The Wall Street Journal published an exclusive
+ with quotes from him on his resignation
+ before the post went up
+ and a lot of other arguments
+ about effective altruist funding networks
+ and all this sort of stuff.
+ Even Elon Musk waited in and said,
+ seems like a setup.
+ Now, on that front,
+ there were a number of folks
+ from both open AI and Anthropic
+ who jumped in to say that they had known Jacob for years
+ and as Will DePoe put it,
+ I consider him a deeply thoughtful
+ and measured individual.
+ And arguing the Occam's razor position,
+ technology journalist Taylor Lorenz wrote,
+ I promise you, it's not that deep.
+ I report on influence campaigns for a living
+ and I can assure you,
+ this is not some deep state siob.
+ I don't doubt certain orgs
+ want the Democrats to regulate AI
+ often in ways I'd argue are bad,
+ but these claims are deeply conspiratorial
+ and what's much more likely
+ is simply that Jacob's post got shared
+ in an AI safety group chat
+ and boosted by the same networks
+ that he has been involved in for years.
+ I don't see how him posting on X
+ after the Wall Street Journal
+ went on Peshady at all.
+ Planning was clearly done in advance.
+ No s**t.
+ It's a news article
+ and he gave them the exclusive, lol.
+ And of course Democrats
+ are going to glom on to a viral post
+ with hundreds of millions of views
+ about a topic that is heavily animating
+ their voters ahead of the midterms.
+ Also, EA, Effective Altruist,
+ money is all over the AI safety space.
+ The fact that he got some 20k grant
+ in 2022 is irrelevant.
+ There's no evidence that it affected
+ anything related to his post or announcement.
+ Let's all please deal in reality.
+ Now, I think it's also important to add
+ that Taylor didn't much like Anthropix,
+ Evan Huberger, jumping in to say that he thought
+ that there was a greater than 10% chance
+ that AI would kill all humans
+ in the next 10 years.
+ In fact, she reposted that and said,
+ this sort of sanctimonious doomer posting
+ is so infuriating.
+ You are fomenting terror
+ among the public about a new technology
+ which will be directly channeled
+ into passing the worst laws imaginable.
+ My feeling, she continued,
+ is that if you truly believe
+ the multi-billion-dollar tech company
+ you work for is so negligent
+ that they're endangering all of humanity,
+ a very bold claim,
+ but let's take it as true,
+ you should be forced to provide
+ actual proof and receipts
+ showing specific instances of that negligence
+ so that it can be corrected
+ and so that we know what you're talking about.
+ Otherwise, you're just vague posting
+ and fomenting fear
+ which will result in terrible policy.
+ I will add here only that one narrative
+ that I find fairly unconvincing
+ that's been around critique of AI safetyism
+ for some time now
+ is the idea that they're just doing it for marketing.
+ If you spend any time with any folks
+ who are in this community whatsoever,
+ you will find that they very much believe
+ what they're saying is true.
+ Now, to some, that's even greater cause
+ for concern than the idea
+ that they are just doing it for marketing
+ but I just don't think there's a lot of evidence
+ that there's an ulterior motive
+ other than getting people to agree
+ with their position and their concerns.
+ And like Taylor said
+ and Derek Thompson echoed in a different post,
+ of course the groups who stated purpose
+ is to get regulation around this stuff
+ are going to jump on this opportunity
+ and maybe even involved
+ in coordinating the response to it.
+ That's just how politics works.
+ So what are you even supposed to do
+ with this conversation at this point?
+ One answer is that we could just run around
+ in blind terror,
+ consuming all the media
+ we possibly can to make us more and more scared
+ about an unfalsifiable theory.
+ Another is to follow the politicians
+ and angrily demand largely non-specific action
+ but it is worth noting
+ before we take either of those courses
+ while the majority of response
+ in this particular case
+ has been to give these concerns
+ more of a platform to speak.
+ There are plenty of folks
+ who have issues with this entire discourse.
+ All in Jason Calcanus writes,
+ the time between the we're all going to die post
+ jumping from X.com to national coverage
+ is under 24 hours.
+ Good luck building data centers
+ deploying Waymos and getting AI tools
+ taught in schools.
+ I've never seen anything like this
+ in my 30 plus year career in tech.
+ These PDOOM posts are like Steve Jobs
+ telling you that the iPhone
+ was going to result in eating disorders,
+ political unrest, mass depression,
+ anxiety, and suicide
+ during the debut keynote
+ and you can buy them
+ in one of four playful colors.
+ Mark Kretschmann writes,
+ the AI doomers are firing
+ on all cylinders right now.
+ They see the growing backlash
+ against data centers
+ as their big chance
+ to turn that momentum
+ into support
+ for their dystopian vision of AI control.
+ Make no mistake for them,
+ this is 100% about control.
+ Data centers are merely the pressure point.
+ The real goal is control
+ who gets to build AI,
+ who gets access to it,
+ and how fast progress is allowed to move.
+ This isn't about saving anyone.
+ One of the more popular angry responses
+ came from author Daniel Jeffries
+ who wrote,
+ Not only am I tired of these wild AI
+ speculations of impending doom
+ from self important people,
+ I resent them.
+ I actively resent people proposing
+ to crash the economy
+ or proposing authoritarian control
+ over my life and other people's lives
+ with idiotic and dangerous ideas
+ like chip control or bans
+ or tracking researchers.
+ Every idiot in history
+ who's taken the approach
+ of the ends justify the means
+ to solve an imaginary future disaster
+ created the very disaster
+ they wanted to stop.
+ C, population bomb
+ leading to one child policy
+ and communism
+ leading to Mao's mass famines
+ and fascism
+ leading to the deaths
+ of tens of millions of people in war.
+ These solutions are evil
+ and worse than the disease
+ that they propose to solve.
+ If you believe
+ you can actually predict
+ the end of the world
+ then you are as insane
+ as the Heaven's Gate cult
+ that killed themselves in the 90s
+ thinking UFOs were coming
+ to transcend them.
+ Not only should we not take your policies
+ and fear mongering seriously
+ we should actively throw out
+ any and all of your proposed solutions
+ because they come from a place of delusion.
+ I don't give a s***
+ that you work in the industry
+ or think you saw something
+ or that you want to virtue signal on X.
+ You are actively contributing
+ to a horrible future
+ based on baseless speculation
+ that has no grounding in reality.
+ Don't confuse expertise in a domain
+ with ability to predict
+ impact of that domain
+ or frankly to make predictions
+ a decade out
+ better than a dart
+ throwing monkey.
+ They are orthogonal skills.
+ How's Jeffrey Hinton's
+ we don't need to train radiologists
+ anymore working out.
+ How did the population bomb work out?
+ The global cooling second ice age
+ peak oil?
+ Just because someone is a bridge engineer
+ does not mean they can predict
+ the impact of bridges on society
+ or that they have any actual useful
+ insights at all
+ on the complex ever changing system
+ called life.
+ There are people dying in wars right now
+ children starving
+ homelessness
+ dictatorships
+ in short
+ real problems
+ and we're supposed to drop everything
+ to stop a made up problem in your head
+ pound sand
+ we don't care
+ and we are not going to remake society
+ based on your scary monsters
+ under the bed delusion
+ and for many this idea
+ that there is more danger in the people
+ who seek control because of the risk
+ than the risk itself
+ is the resonant thing.
+ Eric S. Raymond wrote
+ the kind of totalitarian control that
+ dooms and deceleration is want
+ is a far more certain danger to our
+ future than runaway AI.
+ I would much rather risk the latter.
+ People point to the part of Jacob's
+ thread where he says that at open AI
+ many have not deeply internalized
+ the civilizational stakes
+ while at Anthropic the stakes
+ are well understood
+ but they believe no one else will
+ act responsibly
+ so they must do it themselves
+ as evidence of this sort of messianic complex.
+ Not for nothing
+ crypto journalist Laura Shin also
+ connected it to SPF
+ and having been fairly close to that situation
+ it has always been my argument
+ that the reason that Sam was willing to
+ play so fast and loose with the rules
+ was not that he was trying to steal
+ anyone's money
+ but that he genuinely believed that
+ he alone
+ he uniquely
+ could save the world
+ and because that was so urgent
+ he wasn't willing to let any trivialities
+ such as his obligation not to bet
+ people's money on crypto
+ to slow him down.
+ I will remind you again here
+ going back to what I said at the very beginning
+ that we are specifically in the section of the show
+ where I am talking about the negative responses
+ that people had to this
+ I am not claiming that these are the only
+ or correct responses
+ I am just trying to give the full range
+ of how people are engaging with this issue
+ and this message right now.
+ For some the big issue
+ is the hand waviness of the claims
+ and the inability to articulate
+ specific points and problems at which
+ we lose control in these terrible scenarios
+ come to light.
+ As Chubby on X put it
+ the concerns about the potential
+ havoc AI might wreak
+ are so heavily laden
+ with hypotheticals.
+ So far all I'm reading is that AI1
+ can be misused
+ 2 sometimes behaves in ways
+ that defies expectations
+ and 3 is the subject of a global race
+ between nations.
+ All of that is certainly true
+ yet I fail to see how this translates
+ into a danger so significant and tangible
+ that these people would quit their jobs.
+ On the contrary humanity has always
+ found ways to ensure its survival
+ when facing existential threats
+ take nuclear weapons for instance
+ the only difference here is that AI
+ is an entity alleged to be
+ at least in part uncontrollable
+ however I still see no scientific
+ basis for the conclusion or argument
+ that this could lead to humanity's extinction.
+ Sam Lu wrote
+ I dropped out of a PhD in AI safety
+ partially for the opposite reason
+ I didn't believe AI existential risk
+ was as important as the doomers think
+ my biggest pet peeve is that no one
+ can really provide tangible pathways
+ to why it matters.
+ During my PhD my research group
+ half of whom specialized in engineering
+ risk analysis
+ did an internal study trying to assess
+ concrete catastrophic AI scenarios
+ the basic premise was that while we
+ don't know how AI will evolve
+ the ways in which humans perish
+ are pretty consistent through history
+ the horsemen of the apocalypse
+ and institutions have obviously been
+ very motivated to analyze
+ concrete risks from things like plague
+ or etc.
+ You can do a decent risk model
+ by asking how a super intelligent AI
+ can perturb each of these models
+ the result most of the issues
+ e.g. cyber risk
+ are akin to what economists
+ call structural unemployment
+ big problems but ultimately
+ resolvable in the long run
+ and not a deal breaker
+ the only real concerning issue
+ was bio risk
+ and it feels like the intervention
+ points there lie more with bio
+ than with AI as a whole
+ although a holistic approach is needed
+ and for many the issue was even simpler
+ which is in short that if we are
+ going to have this conversation
+ about risk
+ we also need to talk about
+ the potential rewards
+ if AI is just all risk with no gains
+ of course we shouldn't do it
+ but presumably
+ for all these people who are building it
+ there is a good potential future
+ that could be so good it's worth this risk
+ sporadica on x wrote
+ how great would it be if one of the
+ frontier labs decided tomorrow
+ to be the pro AI optimism lab
+ like instead of all the labs peddling doom
+ and gloom amidst their skyrocketing
+ financials and social clout
+ how cool would it be if one of them
+ was just like we think AI is good
+ chris hayek who does life sciences
+ at open AI agrees saying
+ I work at open AI
+ and personally think AI has been
+ and will continue to be
+ an extremely beneficial technology
+ to humanity
+ the conversation should be around
+ how many billions of lives
+ it will save
+ a common way I've seen people describe
+ this is instead of discussing p doom
+ i.e. the percentage chance
+ you ascribe to an extremely negative
+ human extinction type scenario
+ as joe brunette put it
+ we should spend more time discussing
+ p boom
+ superintelligence creating
+ unprecedented human flourishing
+ david zell agreed phrasing it
+ slightly differently
+ if AI is powerful enough to end the
+ world it must be powerful enough
+ to radically improve it too
+ so I wish there was more discussion
+ of p boon
+ the chance that AI goes great
+ and helps us live happier
+ healthier and longer lives
+ if anyone builds it everyone flourishes
+ Ryan Orhan summed up something
+ that I've frequently said on this show
+ when he wrote
+ there are two completely insane extremes
+ in the AI debate
+ the first AI is harmless
+ safety is a Psyop
+ build as fast as possible
+ and don't stop for anything
+ or AI is going to kill us all
+ it's stealing our jobs
+ using our water and destroying humanity
+ shut it all down
+ F both extremes
+ AI should progress
+ as fast as we can make it progress
+ but alignment needs to move
+ just as fast
+ the goal should be to build
+ the most powerful technology
+ humanity has ever created
+ without effing losing control of it
+ I do believe that there is vastly
+ more middle space
+ than these two extremes
+ despite these two extremes
+ tending to dominate the narrative
+ in media space
+ so what are the highlights and
+ concerns that are most resonant
+ for me around this
+ the first is incentives
+ it doesn't have to be a big
+ conspiracy to contextualize
+ how we understand different takes
+ with understanding what people
+ who are amplifying certain
+ messages have to gain from
+ those messages being amplified
+ in other words I'm talking
+ less about nefarious
+ EA funding networks
+ and more about the fact that
+ politicians who might have been
+ pro AI six months ago
+ have seen that now it's not only
+ a net drag to be so
+ but they can actually win points
+ by being against it
+ that should be part of our
+ consideration in how we
+ understand their position
+ and by the way the inverse of this
+ is of course true
+ which I think is why people are
+ skeptical of pro AI messages
+ from people who stand
+ to gain financially from it
+ a second concern is around
+ specificity
+ I fear that the generic
+ hand waviness of these sorts
+ of predictions
+ make them much more dangerous
+ for policy
+ which is not to say that policy
+ can't be made to try to avoid
+ certain future scenarios
+ but that I believe that the more
+ specific those concerning issues
+ are
+ the better the policy is likely to be
+ banned superintelligence for example
+ is a much more blunt instrument
+ than for example
+ having a specific licensing regime
+ for people using AI models
+ for bioengineering
+ above a certain model capability
+ and certainly part of my worries
+ about policy
+ are that I don't particularly
+ have a lot of faith
+ in the current political class
+ in general by the way
+ not just on one side of the aisle
+ or the other
+ to handle these issues with the
+ sophistication and nuance
+ they require
+ I worry that there is a certain
+ political naivety among those at
+ the labs who are just basically
+ asking to pass the buck over to them
+ I also find myself sympathetic
+ to the cure worse than the disease
+ arguments
+ we are living in a classic safety
+ versus freedom conundrum
+ and I just don't think historically
+ speaking giving up a lot of freedom
+ for safety has gone particularly well
+ for those who have surrendered freedom
+ which by the way is another reason
+ for me that I'd like to see the
+ arguments be more specific
+ because painting all policy is giving
+ up freedom
+ is a broad brush that absolutely
+ doesn't have to be the case
+ lastly I have always worried
+ and I continue to worry now
+ that focus on future theoreticals
+ before we're in a position to really
+ understand what those risks are
+ crowds out space for more current
+ and contemporary issues
+ I think it's pretty clear at this
+ point for example
+ that our cyber defense infrastructure
+ is not equipped
+ for the new world we're moving into
+ and that is a clear and present
+ danger that demands response right now
+ and while yes it is absolutely true
+ that theoretically we can do two things
+ at once and that it doesn't have to be
+ a zero-sum choice between one risk
+ or another risk
+ there is only so much political will
+ to go around
+ and apportioning it matters
+ so where would I like to see the
+ conversations go from here
+ first of all
+ on this idea of specificity
+ I actually think that there is an
+ incredible amount of space
+ to build consensus from the ground up
+ on common sense things
+ for example certain types of reporting
+ requirements and oversight
+ are areas where I believe there would
+ be very very broad consensus among
+ people
+ and would provide a foundation from
+ which to build the next more difficult
+ to achieve consensus
+ this is again an area where I believe
+ that the extremes of the argument
+ as presented
+ and as amplified by media
+ do us a disservice by not showing us
+ how much room there is for agreement
+ a second thing that I'd like to see
+ is some actual frigging coordination
+ one of the reasons that I was so
+ frustrated with the whole pacing
+ the frontier thing
+ is that it didn't extend to the
+ actual obvious step
+ which is for open AI and Anthropic
+ to put down their weapons
+ lock arms
+ and say this is what we think we
+ should actually do
+ a single photo op
+ of Sam Altman and Dario Amade
+ alone together
+ agreeing would do more than 10,000
+ Twitter debates ever could
+ John Shulman formally of open AI
+ now at Thinking Machines Lab writes
+ first step is for industry leaders
+ open AI and Anthropic to stop
+ feuding and work on a pacing
+ proposal together
+ they'll cite antitrust
+ but that's fake
+ antitrust prohibits certain agreements
+ but not from jointly developing a proposal
+ bringing in the US government
+ before there's a concrete proposal
+ will likely result in something dumb
+ see art pre-release testing program
+ and by the way I think the
+ attempt at coordination
+ also extends internationally
+ for example Derek Thompson wrote
+ if the frontier labs
+ feel obligated to build something
+ they think is dangerous
+ because China is going to build it
+ anyway
+ we'd better be really sure
+ that China is going to build it
+ anyway
+ like really really sure
+ are we are we actually sure
+ the CCP wants to build an out of control
+ recursively self-improving model
+ because it's neurotically
+ control obsessed government
+ thinks this is a policy worth pursuing
+ we're 100% sure about that
+ now it is dangerous to open up
+ the kettle of fish about China
+ at the very end of this episode
+ but I do think that this is a
+ conversation that we should at least be having
+ I'll leave you here with two thoughts
+ this is unfortunately not the type of
+ episode that has an easy conclusion
+ the nature of this particular debate
+ is such that there will be some crescendo
+ after which it will fade slowly again
+ until the next time it happens to rise
+ but I will leave you with this thought
+ I think in spite of all of this
+ in spite of the direness of the warning
+ the tense tenor of the conversation
+ from all sides
+ the antagonism or even outright hostility
+ to people on the opposite side of the debate
+ whichever side of the debate you are on
+ I believe that there is reason for optimism
+ reflecting on the situation
+ the informations Martin Pierce wrote last night
+ are we sleepwalking
+ our way into AI caused extinction
+ it feels a little like that
+ given an anthropic researchers
+ expost on Tuesday night
+ that there's a greater than 10% chance
+ that AI could kill all humans
+ within the next decade
+ except that's completely wrong
+ this conversation
+ the fact that it made it
+ to every major news outlet
+ the fact that I had to dedicate
+ this entire show to this topic
+ instead of the sort of practical
+ positive thing that most of you are here for
+ this is all exemplary of us
+ not sleepwalking
+ in fact
+ so far
+ with every single capability jump
+ of AI
+ the conversation about its risks
+ and the political resonance of that discourse
+ has gotten louder
+ that is exactly what should happen
+ even the guy from anthropic
+ who gave that greater than 10% chance
+ made clear that he was not talking
+ about today's models
+ but about a future which he sees on the horizon
+ conversations about that future
+ are us not sleepwalking
+ now what's clear
+ is that we're coming to a point
+ where it's likely
+ that some policy
+ about a future that hasn't happened yet
+ will be made
+ if society comes broadly to agree
+ that recursively improving super intelligence
+ cannot be contained once it exists
+ then by definition
+ the policy has to happen
+ before that exists
+ but people are paying attention
+ and the time to have these debates is now
+ now tomorrow
+ God willing we will be back
+ to more practical things
+ about how you can take advantage
+ of this technology
+ to make your life
+ and your work better right now
+ but I do commit
+ to trying to keep this show
+ a space that is unwilling
+ to play to the politics of outrage
+ and where we can have hard conversations
+ without having to get angry
+ at the people who disagree
+ it won't be easy
+ but I'm confident
+ that if you guys are still here
+ and listening at this point
+ that we can make it happen
+ for now that's gonna do it
+ for today's AI Daily Brief
+ appreciate you listening or watching
+ as always
+ and until next time
+ peace
+ you
