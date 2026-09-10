@@ -1,0 +1,635 @@
+ Throughout the summer, the big thing we've been exploring at the AI Daily Brief is all about
+ the move from a single model paradigm where you pick the best model overall and that's the one
+ you stick with to a more complex model architecture where we are both as individuals and as teams
+ able to navigate nimbly between different models and even different harnesses
+ to get the most out of AI based on whatever particular use case we might have. And what's
+ more this summer we got really clear on the fact that getting the most out of AI is not
+ just a question of model or harness capability but also a question of efficiency and cost
+ especially as we move to more complex agentic workloads. And so it's fitting that the beginning
+ of September has been just a cavalcade of new models from fable 51 to GPT-6 Astra to the models
+ that we're looking at today including new spark 1.3 and chat GPT images 2.5 all of these add up to
+ way more diversity in the tools we have access to for you to design the perfect AI stack for
+ your actual life and work. The AI Daily Brief is a daily podcast and video about the most important
+ news and discussions in AI. All right friends quick announcements before we dive in. First of all
+ thank you to today's sponsors KPMG, Blitzy, Section and HyperAgent. To get an ad free
+ version of the show go to patreon.com slash ai daily brief or you can subscribe on Apple Podcasts.
+ To learn more about sponsoring the show send us a note at sponsors at aidailybrief.ai.
+ And finally if you haven't yet you can check out our latest free self-directed training program it
+ is called the multiplayer AI sprint for teams and basically the idea is to shepherd you through a
+ process of figuring out how to build agents that don't just help you but actually sit at the
+ intersection of work that is shared across your teams. I'm pretty convinced that this is the
+ next big paradigm for AI inside companies and so I wanted to build a sprint that could help
+ you guys fully embrace that. There's of course a link to that on the aidailybrief.ai website
+ but you can also find it at multiplayerai.ai. We kick off today with a story that very easily
+ could have been the main episode given how much drama is surrounding it. On Tuesday open AI published a
+ solution to the Navier Stokes problem one of the seven problems selected for the millennium
+ prize in the year 2000. The Wall Street Journal characterized these problems as the quote holy
+ grail of math and that's fairly accurate. Each millennium prize problem has a million dollar
+ reward attached and only one has been solved in the 26 years since the prize was established.
+ The other problems include the most famous unsolved problems in math such as the Riemann hypothesis
+ and p versus np. You know the things we all talk about when we get together for dinner.
+ Now for the purposes of this particular episode I'm actually not going to get
+ into the details of the problem itself or debates around whether it has any significant
+ real-world applications. I'll read open ai's description of the problem just to give you
+ a flavor. They write the Navier Stokes equations use Newton's second law of motion f equals ma
+ to describe how fluids move. Importantly they treat a fluid as a continuous medium rather
+ than tracking individual molecules. These equations are used for aircraft design,
+ weather forecasting, and the study of blood flow. A fundamental open question for these
+ dynamical equations has been whether the continuum approximation of the fluid can
+ break down. Specifically can the Navier Stokes equations for a three-dimensional
+ incompressible fluid with constant density develop a singularity even when the motion
+ starts smoothly? Here a singularity means the dynamics lead to speeds in the fluid growing
+ without bound within a finite amount of time. The development of a singularity would have to
+ deepen despite the presence of viscosity which tends to smooth out motion because a real fluid
+ cannot move infinitely fast. This would mark a breakdown in how the equations model the fluid.
+ To continue modeling the system one would then need to track the behavior of each particle
+ individually. So that's the problem they're addressing here and I think again for context
+ the important note is that this represents a huge step up from something like the
+ Erdos problems that made news last year. OpenAI claims to have solved this problem
+ and they did so using an internal model that is significantly more capable than GPT-6 Astra.
+ Noam Brown said that the result cost several million dollars to find and it seems to have
+ taken a week or two. However the big controversy surrounded exactly how OpenAI had arrived at
+ this result. Shortly after the result was published New York University professor Tristan
+ Buckmaster published his version of the events. According to Buckmaster he and an
+ enthropic employee named Levent Alpegi had been working on the Navier-Stokes problem
+ together for more than a year. This was an outside project for Levent and the pair had
+ used a range of different AI models including GPT-56 Sol in the Codex harness. Crucially
+ Levent and Buckmaster did not find a solution to Navier-Stokes but they did find novel
+ solutions to related problems that could be viewed as a stepping stone to the millennium prize
+ problem. They were also using extremely novel methodology that few in the mathematics
+ world were pursuing. Rumors of their work spread through AI circles in recent weeks
+ incorrectly claiming that enthropic had solved a millennium prize problem.
+ Buckmaster says he reached out to OpenAI last week to clarify the situation.
+ According to Buckmaster's telling, Sebastian Bubeck from OpenAI informed him on Sunday
+ that they had solved Navier-Stokes and wanted to discuss publication. Buckmaster wrote,
+ I asked whether the model had been trained on or had access to our sessions in Codex,
+ into which we had been putting all of our drafts for the whole of the project.
+ I was told the model did not look up user data. I asked again about training and I did not get
+ an answer. He said he was offered two proposals for either OpenAI to publish separately or
+ Buckmaster to join the publication if he agreed to remove Levent from the
+ authorship because of his ties to enthropic. Buckmaster declined both options and
+ threatened to go public if OpenAI published. Continuing his account, Buckmaster wrote,
+ the reply was, why would you ruin your career? I replied that I am an academic and asked why he
+ thought going public would ruin my career. The reply was, if you don't want me to be nice,
+ then I don't have to be nice. OpenAI leaders responded with a series of statements.
+ Sebastian Bubeck called the allegations false and inflammatory, then revealed part of his text
+ message chain, which he claims contradicts Buckmaster's version of events.
+ Sam Altman gave a series of explanations for how this went sideways,
+ but claimed that OpenAI's approach was different than that of Buckmaster and Levent.
+ The OpenAI account claimed, we the researchers and the agents did not see any of their work
+ through any means until they released it publicly. In particular, no specific user data was accessed
+ in order to solve this problem. While unlikely, we cannot rule out that de-identified data
+ derived from the usage of our products helped improve our models. After Levent characterized
+ this statement as quote unquote coming clean, OpenAI chief research officer Mark Chen responded,
+ two things to distinguish. Did any human or agent look at user data as part of the Navier Stokes
+ effort? No. Do we use user feedback and de-identified data to improve chat GPT and codecs in a holistic
+ way? Yes, and so does every LLM company. Now as for the controversy, there are two distinct
+ strains of conversation. Firstly, academics are up in arms over what they see as unethical
+ Assistant Professor Talia Ringer of Illinois University wrote,
+ rushing to get a result after you hear someone else has a result is messed up. That is AI
+ scooping culture and goes against every academic norm that exists in reasonable fields like
+ mathematics. This is how AI culture rots entire fields. Thomas Wolfe, the co-founder of Hugging
+ Face, suggested this might just be a preview of accelerated AI science, commenting,
+ hope this is not a glimpse of the future we'll get in science research,
+ with these dominating players playing marketing games hurtful for the real scientific community.
+ The second, and likely far more relevant criticism at least for the AI daily brief audience,
+ was questions of trust in open AI. From Buckmaster's account, we can assume they were
+ using some consumer version of codecs, but it's unclear whether they agreed to share data to
+ improve open AI's models. For some, it's a wake-up call for anyone who is using AI to work
+ on proprietary tasks. Former DeepMind employee Susan Zhang wrote, everyone getting sniped by
+ the personal drama but missed the more interesting unanswered question. Can these labs see all
+ your work and scoop you when the stakes are high enough? Seeking clarification from open AI leaders?
+ Mathematician Trians Iloris asked, important question, if I opt out from training then paste
+ a trade secret using my paid subscription, do you de-identify my personal details but
+ keep the trade secret and may add it to your training data? At the time of recording that
+ has not received a response. So taking a step back, there are a few reasons
+ that this whole episode is having such resonance. First is honestly the voyeurism of it,
+ people love drama, fighting against that is like trying to fight the tides, but the question
+ of ethics around advanced AI and what these companies can do with data is a question that
+ while it has been present basically since the beginning of LLMs has gotten a lot
+ louder in consideration more recently, especially as model leadership starts to consolidate
+ around a couple of companies, it brings up a lot of uncomfortable questions for people.
+ Now some of those questions go to economic incentives and where the AI companies ultimately
+ One of the things that there is a lot more chatter about right now
+ is questions of whether these companies will ultimately not view themselves just as selling
+ the inputs to innovation but also as selling the outputs of innovation. In other words,
+ does it make more sense for open AI and Anthropic to sell existing scientists and
+ labs and companies the ability to do novel drug discovery or does it make more sense
+ to do that drug discovery yourself and get the money on the other side of the patents?
+ Given all the chatter that we had around whether Dario had actually said that
+ Anthropic was going to be the only company in the world at some point, those questions feel a
+ little bit more pertinent now than they might have in the past. And finally, the fact that
+ the story reveals that open AI has a much more powerful model that they're already using internally
+ certainly captured some notice as well. Unfortunately, as is so often the case,
+ no one looks particularly good coming out of this. The New York Times Mike Isaac wrote,
+ not lost on me that the two labs asking the public to trust them as stewards of responsible
+ AI leadership at existential stakes are having a slap fight on Twitter about who gets
+ credit over a math problem. Like I said, this could have been a homemade episode,
+ but since we're a little compressed on time, let's quickly rip through a couple of other
+ stories before we get to our main, which is all about all sorts of new models that we
+ haven't had a chance to talk about yet. First up, speaking about Anthropic,
+ there is a new class action lawsuit against the company filed on behalf of Claude Mack
+ subscribers with the claim that Anthropic used deceptive marketing and opaque fine
+ print to underserved customers. In particular, the lawsuit claims that the $100 a month
+ 5x plan and the $200 a month 20x plan don't actually deliver five and 20 times the usage of a
+ $20 a month pro plan. Plaintiffs allege the way five hour and weekly usage limits are calculated
+ mean the actual usage is far lower than the advertised multiples. Now, usually this type of
+ case wouldn't be all that interesting to me, but I think it's sort of representative of the
+ type of thing that we're going to see a lot more of as Anthropic and open AI become increasingly
+ interwoven with just the normal way of doing business. The lawyers running the case themselves
+ noted that what made it compelling to them was how ubiquitous and necessary a top tier AI subscription
+ has become. They said that they were frequently hearing from workers who felt they needed to pay
+ high price subscription costs to remain relevant in the job market, but felt they weren't getting
+ what they were paid for. I'm not particularly sure I think this goes anywhere, but it is
+ certainly representative of the level of scrutiny that the top AI labs are going to face going
+ forward. Over in markets, it looks like it's not just open AI and Anthropic that are thinking
+ about IPO. Eleven Labs has also hired a chief financial officer to help the startup head for
+ a public listing. On Tuesday, Eleven Labs announced that Ethan Tandowski had joined the executive team,
+ having most recently served as the CFO of Adyen, a Dutch fintech firm that went public in 2018.
+ Eleven Labs co-founder Mattie Stanizowski said in a press release,
+ Ethan brings a strong track record of scaling financial operations in high-growth environments
+ and valuable experience as CFO of a public company. And that appears to be Eleven Labs'
+ ambition as well. The information reports that they are beginning to explore a possible IPO.
+ The company said that they are on track to reach $600 million in annualized revenue by
+ the end of the year, up from $350 million at the end of last year, and sources said that
+ the company has reached profitability and is now generating more than half of their revenue from
+ large enterprise customers. Cognitions' recently rumored fundraising round has completed.
+ The company raised $2 billion in new funds, catapulting them to a $48 billion valuation.
+ Cognition last raised funds in May at $26 billion, meaning they have almost doubled their valuation
+ in three months. In that time period, Cognition has gone from a $492 million revenue run rate
+ to almost $900 million at present. Beyond the numbers, the raise suggests that Cognition will
+ continue to operate as an independent agent lab. Following SpaceX's acquisition of Cursor for $60
+ billion, there were rumors that they would pursue Cognition as well. CEO Scott Wu strongly
+ denied the chatter at the time, and this fundraising round certainly gives Cognition
+ more runway to continue building their coding agent Devin and pursuing their thesis.
+ In an announcement post, they wrote,
+ We're still at the dawn of the self-driving software era. In this next chapter,
+ agents will become proactive by default, software will improve itself, and even resource
+ allocation will become intelligent as compute budgets self-allocate towards the highest impact
+ use cases. Human engineers will increasingly act as architects, setting goals and priorities
+ while agents take on more of the work to achieve them. Cognition wrote that
+ independence is core to this strategy, saying we can choose and combine the models best suited to
+ the work, including our own, rather than tie customers to one provider. You got to think
+ that after watching OpenAI cut off access to Cursor customers because of SpaceX's acquisition,
+ Cognition sees the value of staying independent even more acutely.
+ For now though, that is going to do it for today's AI Daily Brief Headlines.
+ Next up, the main episode.
+ If you're leading AI inside an enterprise, you already know that the gap right now
+ is in capability but execution. That's why KPMG's You Can With AI is back with a new
+ season featuring conversations with leaders like Serojit Chatterjee of Emma,
+ Mehabib of Rider, McKesson CIO Ellery Fisher, and others focused on practical execution.
+ What's working, what's not, and what it actually takes to move from pilots to real
+ scaled impact across strategy, data readiness, governance, workforce, and value.
+ And of course it's co-hosted by me, Nathaniel Wittemar.
+ Go listen and subscribe at www.kpmg.us slash ai podcasts. That's www.kpmg.us slash ai podcasts.
+ Here's why most legacy modernization projects fail. The AI doing the work
+ can't understand code bases at scale. It sees a small slice of context,
+ examines syntax, and misses years of decisions distributed across the global application ecosystem.
+ Blitzy solves this the way it solves everything. Grounded in your code before any migration begins,
+ Blitzy's agents reverse engineer the entire legacy system into a persistent knowledge graph.
+ Every dependency, every constraint, every piece of tribal knowledge that used to live in one
+ engineer's head. From that understanding, Blitzy autonomously executes language migrations,
+ framework upgrades, and monolith to microservices transformations, all validated end to end.
+ One Blitzy customer modernized a $10 million monolithic insurance stack in 16 weeks
+ against a 137-week baseline with coding agents. That's 9x compression.
+ Retire technical debt while accelerating your roadmap. See how at Blitzy.com. That's blitzy.com.
+ Here's a harsh truth. Your company is probably spending thousands or millions of dollars on
+ AI tools that are being massively underutilized. Half of companies have AI tools, but only 12%
+ use them for business value. Most employees are still using AI to summarize meeting notes.
+ If you're the one responsible for AI adoption at your company, you need Section.
+ Section is a platform that helps you manage AI transformation across your entire organization.
+ It coaches employees on real use cases, tracks who's using AI for business impact,
+ and shows you exactly where AI is and isn't creating value. The result? You go from rolling
+ out tools to driving measurable AI value. Your employees move from meeting summaries to
+ solving actual business problems, and you can prove the ROI. Stop guessing if your AI investment
+ is working. Check out Section at sectionai.com. That's s-e-c-t-i-o-n-a-i.com.
+ This episode of the AI Daily Brief is brought to you by HyperAgent,
+ where you run fleets of agents your team can manage together. Forget local agents
+ and chat workflows waiting on your laptop to be prompted. HyperAgent deploys always-on
+ agents in the cloud, doing real work across the tools your team already uses.
+ Marketing agents turn competitor moves into landing pages. Sales agents enrich leads,
+ draft emails, and updates the CRM. Ops agent chases the paperwork and tracks the budget.
+ Every agent has access to shared context and follows your rules about scope and approvals.
+ It's time you add agents that feel like teammates. Hire yours at HyperAgent.
+ Get $100 in credits at hyperagent.com slash AI Daily Brief.
+ Welcome back to the AI Daily Brief. I gotta say friends, it is so nice
+ to be fully back in the back-to-school, back-to-work, out-of-summer mode.
+ Relative to other industries, AI certainly has less of a summer slowdown,
+ but you can still feel the difference, man, when September hits.
+ In the last nine days alone, we have gotten Fable 5.1, GPT-6 Astra,
+ and the three models and one agent product that we're going to cover in today's episode.
+ I hope you are as excited as I am because there is a lot of new stuff to check out.
+ First up, last week, right as I was leaving for vacation of course,
+ we got a new model from Google. It still is not a pro series model,
+ but it is notable how quickly Google is iterating on their smaller Flash series models.
+ The new Gemini 3.8 Flash comes just a few weeks after 3.7.
+ The central claim from Google around 3.8 Flash is that it will work harder than 3.7.
+ It's trained to call tools iteratively and perform more reasoning steps on complex tasks,
+ yielding much better results. On the benchmarks, the model looks solid if a little spiky.
+ It scored 73.7% on coding benchmark deepswee, just a hair shy of Opus 5 score of 74%,
+ and outperforming GPT-56 Sol by 1%. Terminal bench was another story.
+ The model scored 89.4% on version 2.1, in line with Opus and Sol.
+ However, the scores tanked on version 4.0, falling to 19.1%,
+ compared to, for example, Opus 5's 51.8%.
+ On GDP Val, the scores were very middle of the road at 1545 ELO points,
+ around 300 points shy of Opus, and closer to Sonnet 5 and GPT-56 Terra.
+ Artificial Analysis found the model was pretty solid on their benchmark run,
+ scoring 59, slotting it in just behind GLM 5.3 in 7th place at the time of release,
+ and only a few points off the frontier. However, this was the old formation of the
+ Intelligence Index, the one that gave GPT-6 Astra a fairly low score,
+ prompting Artificial Analysis to rush forward their new version of the index,
+ and once AA updated their formula, 3.8 Flash slipped from 7th to 12th place,
+ behind GPT-56 Terra and GLM 5.3 Flash. Now, the idea of this Artificial Analysis
+ Intelligence Index update was to re-weight, re-prioritize, and add some new tests that
+ better reflected the computer use and broader agentic paradigm, as opposed to just general knowledge
+ tests, which are now pretty much table stakes and saturated. Gemini Flash remains the undisputed
+ leader in speed, outputting around 20% more tokens per second than runner-up Newspark 1.3,
+ which if you're wondering what that is, we will get to in just a moment,
+ and almost four times faster than GLM 5.3 Flash. The question is, of course,
+ which use cases require that much speed at the cost of trade-offs in performance?
+ Maybe the biggest bright spot from their write-up was cost, with Artificial Analysis writing that 3.8
+ Flash was, quote, the cheapest we've measured at this level of intelligence. They continued,
+ this is up 40% from Gemini 3.7 Flash despite unchanged per-token pricing, driven by a 30%
+ increase in output tokens per task and more turns on agentic evaluations.
+ Unfortunately for Google, as we will see with the release of MuSpark 1.3 the following day,
+ Google would very quickly lose their place on the Pareto frontier.
+ Certainly cost and efficiency is a big part of the pitch from Google.
+ Announcing the new model the Google AI account wrote,
+ while solving ambiguous and high-friction tasks is immensely helpful, it can also be expensive.
+ Fortunately, 3.8 Flash features the usual effort controls,
+ ensuring that the amount of thinking required to accomplish the task at hand is proportional to
+ the token spend. Logan Kilpatrick from Google emphasized the speed at which
+ Google is putting out these new versions, pointing out that it's just their third
+ updated Flash model in six weeks. Now when it came to user testing,
+ people validated that it was really fast, but found a lot of performance lacking.
+ Building the same sticky ball game in Kimmy K3 vs. 3.8 Flash,
+ Aditya from Intelligence AI wrote,
+ Flash was insanely fast and used way fewer tokens, but the actual game was nowhere close.
+ K3 had much better mechanics, movement, and overall game design.
+ Flash clearly has the speed and efficiency part down,
+ but the gap in what it can actually build is pretty big, wrote Ethan Malik.
+ It is a very good Flash model, but not equivalent to a Frontier model.
+ Others are more optimistic about what that speed could represent.
+ In another head-to-head no-clip Pepe wrote,
+ Opus 5 won, but Gemini 3.8 Flash was 39x faster.
+ Opus 5 took 24 minutes, Gemini 3.8 Flash took 37 seconds.
+ Opus is clearly more detailed and polished, no debate there.
+ But getting a result this good in 37 seconds completely changes the trade-off.
+ In the time Opus finished one run, Flash could theoretically finish around 39.
+ At what point does speed matter more than the last bit of quality?
+ And it will come of course as no surprise to anyone here,
+ that as always I think that the right way to look at these new models
+ is not whether it's going to replace your daily driver,
+ but instead whether there are specific use cases
+ for which its particular set of trade-offs are the right fit.
+ Is there something you're doing right now,
+ where being able to do it 39 times in a row to iterate
+ is likely to be better than just letting something like Opus do it once?
+ Now the bigger other model release was Meta's Muse Spark 1.3,
+ and Meta Chief AI Officer Alexander Wang was not shy about promoting
+ the progress that's been made.
+ He wrote,
+ This is our most capable model yet.
+ Frontier performance almost too cheap to meter.
+ Much stronger and agentic encoding with better usability.
+ We think users will really notice the jump.
+ Meta chose to compare their new model to GPT-56 Sol in Opus 5,
+ and in that grouping it was pretty competitive.
+ Generally it lagged a little behind on agentic benchmarks,
+ but was a little ahead on coding.
+ Spark 1.3 scored a 75.4 on DeepSuite,
+ compared to 73 for 5.6 Sol and 74 for Opus 5.
+ On terminal bench it scored 88.8%,
+ which tied it with 5.6 Sol and beat Opus 5 by a couple of points.
+ Wang claimed that the model used 20% fewer tool calls
+ and 25% fewer tokens compared to their previous Spark 1.2,
+ while also producing a very clear jump on the benchmarks.
+ A couple of days after the initial release,
+ Meta also added a max effort setting that boosted performance even more.
+ Now the part of the release that really made everyone sit up and pay attention,
+ came when artificial analysis released their benchmark run.
+ On max setting, Spark 1.3 scored a 68 on the Coding Agent Index,
+ making it tied for first place with Opus 5.
+ Now worth noting that at the time testing for Fable 5.1 and GPT-6 Astra hadn't been completed,
+ but still a pretty impressive result.
+ On the Overall Intelligence Index,
+ Spark 1.3 on max setting scored 62,
+ placing it in third place behind Fable 5.1 and Opus 5,
+ tied with Fable 5 and a point ahead of GPT-56 Sol.
+ Now the assumption for many is that this model was
+ absolutely benchmark max to achieve the maximum possible score.
+ Certainly that's what semi-analysis argued, writing,
+ Gemini 38 Flash and MuSpark 1.3 are two of the most clearly benchmarked models we've seen yet,
+ despite being comparable to both GPT-6 and Fable 5.1 on terminal bench 2.1,
+ their terminal bench 4.0 performance is markedly worse.
+ How is this possible?
+ All of the tasks in terminal bench 2.1 are fully public.
+ Though Meta and Google would never train on the tasks directly,
+ they absolutely will buy data from RL environment startups
+ that's designed to mimic TB 2.1 tasks as closely as possible.
+ The net effect is the same.
+ You'd typically expect improved TB 2.1 performance
+ to generalize to other agendic tasks,
+ but Gemini and MuS don't even generalize to TB 4.0.
+ Ultimately, semi-analysis concludes,
+ This is the fate of all good public benchmarks.
+ TB 4.0 is no exception.
+ It's only useful signal now because it was released two weeks ago.
+ Since all the tasks are similarly public,
+ it won't be long until it's hill climbed by all the aspiring quote-unquote frontier labs.
+ Alexander Wang actually responded to that one saying,
+ We don't claim MuSpark 1.3 is as strong as Astra or Fable 5.1,
+ but it is significantly more cost-effective.
+ Our future models will compete more directly with those models.
+ It is worth also noting that after artificial analysis revised their index,
+ note out in part because the original formula had Spark 1.3 outranking GPT-6 Astra,
+ after the revision, Spark 1.3 remained in fifth place with a score of 48,
+ which was slightly ahead of GPT-56 Sol and behind Fable 5, Opus 5 and Astra.
+ And despite the big jump on the benchmarks, the model is still extremely cheap.
+ AA found that the model spent 55 cents per task,
+ which made it slightly cheaper than Gemini 38 Flash,
+ 20% cheaper than GLM53 and about a quarter of the cost of Opus 5.
+ Summing up, artificial analysis wrote,
+ MuSpark 1.3 Extra High is the most cost-efficient model at its intelligence level.
+ No model scoring 59 or above costs less per task.
+ Now the first impressions on this one were pretty positive.
+ SPAC 89 wrote,
+ I've been testing MuSpark 1.3 Max and honestly,
+ it's insanely good and surprisingly efficient.
+ Derrida's code writes,
+ MuSpark 1.3 is kind of ridiculous for a free small model on open code.
+ It also avoids some of the obvious AI design traps like purple gradients and all that.
+ I want to push it into nastier edge cases next,
+ but for the price, this thing is already very good.
+ Now on the topics that we were discussing in the headlines about trust in the labs,
+ for some, Meta is a tough one.
+ After writing about MuSpark 1.3 being good and basically Opus 5 for cheaper,
+ Zwin on Axe adds,
+ There's a catch though.
+ Meta may use your inputs and outputs for training,
+ which is the whole reason the tier on open code is called contributor
+ and the whole reason it's free.
+ Certainly many people were excited to try the discounted open code version
+ with DAX from open code writing.
+ Meta MuSpark has dethroned DeepSeq as the most used model of the day.
+ First time an American model tops this list.
+ And yet if MuSpark 1.3 made some start to wonder,
+ is Meta back?
+ It was the launch of their new personal AI assistant,
+ Muse, that garnered even more attention.
+ On Tuesday, September 8th,
+ Meta announced their long-promised personal agent called Muse.
+ The product has been rumored to be in the works for months under the codename Hatch,
+ with the basic pitch that we had heard,
+ being open claw for normal people with a bunch of usability improvements.
+ Presenting the agent Alexander Wang wrote,
+ Today we're rolling out Muse, our new personal AI assistant.
+ Muse is always on, wicked fast, can use a browser,
+ connect to your apps, and is designed to be secure.
+ Meta claims that Muse can do everything we've come to expect from personal agents.
+ It can triage your inbox, organize your calendar,
+ make bookings, or shop for you.
+ It also has some of the more impressive features introduced in recent months,
+ such as operating a separate virtual computer,
+ which is the same way that GrockBot works.
+ Meta also made a solid attempt,
+ it seems, at dealing with the security nightmare
+ associated with the earliest versions of personal agents.
+ Wang again wrote,
+ A big focus for us here was making sure it was safe
+ to give Muse access to your inbox, calendar, and finances.
+ Each Muse runs in its own secure VM,
+ an isolated computer dedicated to you.
+ A separate system, the Sentinel,
+ checks every action before anything leaves the VM.
+ Your Muse never sees your actual passwords or card numbers.
+ Now, certainly reviews from inside Meta were glowing,
+ with CTO Andrew Bosworth, aka Bosriding,
+ very excited for the launch of Muse today.
+ I've been using it internally for months,
+ and I am hard-pressed to think of any product
+ that I've come to rely on more in such a short period of time.
+ I have it linked to my email, calendar, and credit cards.
+ I use it to help me plan travel,
+ pack for trips, research, and make purchases,
+ and sort through all the communication I get from my kid's school.
+ This is a tool for everyone.
+ You don't need to be an expert or even think about AI.
+ You just talk to it from the app
+ or from WhatsApp like your own personal assistant,
+ except it can do lots of tasks in parallel at the same time.
+ And of course, you'll soon be able to talk to it
+ from your Meta glasses too.
+ Jason Toph from Meta said,
+ When I moved to California this summer,
+ I unplugged my Mac Mini and Mac Studio,
+ both running claws locally, and switched entirely to Muse.
+ They're still unplugged.
+ My favorite thing about Muse is how natural it feels.
+ You talk to it like a person,
+ and it responds like a top-notch personal assistant.
+ And even from the outside,
+ early reviews are pretty positive.
+ EAC spiritual guru Beth Jezos writes,
+ Got to try this product early.
+ It's very solid and quite feature-rich.
+ As model intelligence is no longer
+ the bottleneck for utility,
+ context on your life is,
+ and personal agents running on secure compute is the way.
+ Write signal,
+ Muse has been a genuinely impressive product to play with.
+ It has all the functionality
+ of the iMessage agents in flight today,
+ but also has all of the ingredients
+ that will expose it to hundreds of millions,
+ including a massive friend graph
+ through Insta,
+ increasingly rich context from email
+ and other services which you connect,
+ and more importantly,
+ stuff like Facebook Marketplace.
+ Marketplace in particular
+ is an incredible distribution wedge.
+ Millions of normal people could encounter Muse
+ simply because an agent helps them try to find something,
+ negotiate the price, and arrange pickup.
+ Pretty good execution here from FB.
+ Olivia Moore from A16Z said that she likes
+ the rich library of connectors
+ that are available in-app,
+ thinking that the native connectors
+ will be more reliable than browser use,
+ and also said that she liked
+ that she can set up goals connected
+ to that data and attach artifacts to them
+ to visualize progress.
+ She worried that the UI was still too cluttered
+ and there was a few too many things to do,
+ but concluded this could be one of the first
+ true mainstream consumer agents to get adoption.
+ Still, Meta has some hills to climb
+ when it comes to consumer trust.
+ That same Olivia Moore wrote,
+ I was more reluctant to press
+ the connect email button on Muse
+ than on 10 plus startup agent products I've tried.
+ In my opinion, Meta's distribution advantage
+ cuts both ways here.
+ Do I really want to give an agent my personal data
+ and then set it loose on networks
+ where all my friends are?
+ One of the things that makes Meta interesting
+ and worth paying attention to
+ in the broader AI race
+ is that they are the only company at their scale
+ that is primarily focused on a consumer
+ rather than a business use case.
+ Now, obviously this is all a little blurry,
+ especially when you consider the legions
+ of small businesses that use Meta products
+ as their key communication channels,
+ but ultimately I think it's pretty
+ uncontroversial to say
+ that what Meta cares about
+ is consumers more than B2B.
+ For a while, open AI looked like it was going after both
+ and nominally they still are,
+ but of course the pressure for Manthropec
+ has meant that they have really had to focus
+ a lot more resources
+ on the B2B and work use cases of late,
+ especially as there are more and more questions
+ about whether general consumers
+ will ever really care about AI agents.
+ These sort of experiments from Meta
+ have significance that goes beyond just them.
+ Does agentic shopping actually become a thing?
+ Do people really like having a personal agent assistant
+ to help them with daily things like booking travel?
+ We're not really going to know
+ until those things are available
+ and broadly good enough
+ that they actually do what they promise,
+ and it feels like Meta is finally playing
+ at the level where that promise might be real.
+ Write boxes, Erin Levy.
+ Personal assistant agents
+ are going to be a very exciting AI category.
+ It's the first time you can have
+ high token volume agentic use cases
+ that make sense for consumers.
+ Lots of different approaches emerging right now
+ and it's going to be hyper competitive
+ because these agents will mediate
+ a lot of consumer spend over time,
+ but this certainly plays directly to Meta's strengths.
+ Lots of compute required,
+ can monetize with ads and commerce,
+ software focused experiences
+ so can distribute it at scale, and so on.
+ Summs up why Combinator President Gary Tan,
+ Harness Wars are full on now
+ and Muse is very impressive.
+ Now, I don't have a horse
+ in the Harness Wars or the Model Wars,
+ but I will certainly be rooting for this
+ as a product category
+ if for no other reason
+ than people actually getting value
+ out of a personal assistant agent
+ might make them just a little less hostile
+ to AI in the first place.
+ Lastly, one more model release to talk about
+ also on Tuesday,
+ OpenAI released ChatGPT Images 2.5.
+ This is the latest in the series of models
+ that power built-in image generation in ChatGPT,
+ a feature which still gets a ton of use.
+ OpenAI says that users are generating
+ more than 3 billion images a week
+ and write that the new model
+ will provide sharper details,
+ more precise editing,
+ and faster generation
+ with a 50% reduction in latency.
+ Alongside the model,
+ OpenAI is releasing a new
+ ChatGPT feature called Sketch,
+ which as the name suggests,
+ allows you to draw an input
+ to help guide your image generation
+ directly in the app.
+ Users can add a text prompt
+ to describe a particular style
+ or provide additional details
+ to guide the model output.
+ The model comes in two variants,
+ Flare, which is the fast version
+ designed for quick iteration
+ and Sunburst,
+ which is optimized for professional workflows
+ that require better control across edits.
+ And I think that that word control
+ is really key here.
+ In the same way that the big innovation
+ and update of NanoBanana
+ was more fine-grained control
+ over the editing process,
+ that seems to be a big part
+ of what OpenAI is going for
+ with this new model as well.
+ Exilton Alam Kulav,
+ the head of product at Higgsfield,
+ wrote,
+ What impressed us most
+ about GPT Image 2.5 Flare
+ is how well it understands
+ what not to change.
+ You can make a meaningful edit
+ without losing the character,
+ composition, or visual identity
+ of the original image.
+ That's incredibly important
+ for the way creators and teams
+ actually work across film,
+ UGC, and advertising.
+ And when you combine
+ that level of control
+ with the speed, quality, and cost,
+ Image 2.5 Flare really stands out.
+ One example that you're seeing
+ a lot of, of what the new, better controls
+ and image consistency can lead to
+ is entire new genres
+ like stop-motion animation
+ that become viable for the first time.
+ One of the interesting things
+ that I increasingly feel
+ is I think right now, in general,
+ we under-appreciate the value of images,
+ not just as a consumer differentiator,
+ but actually as a business use case
+ differentiator for OpenAI.
+ As a, for example,
+ while in general I still like
+ the aesthetics of fable-created websites
+ better than GPT-created websites,
+ the fact that I can call upon GPT-image
+ to generate aspects of the UI
+ or certain types of aesthetics
+ makes a pretty big difference
+ and leads me to use
+ the integrated GPT models
+ and image generation in Codex
+ more often than I otherwise would.
+ Point is, although this update feels routine,
+ don't sleep on how significant it could be.
+ So that is the new model story for now.
+ Like I said, lots of exciting goodies to try out
+ and I'm sure there is more on the way.
+ For now that is going to do it
+ for today's AI Daily Brief,
+ I appreciate you listening or watching,
+ as always,
+ and until next time, peace!
