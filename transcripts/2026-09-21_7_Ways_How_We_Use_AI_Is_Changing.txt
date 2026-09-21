@@ -1,0 +1,380 @@
+ The way we use AI is changing.
+ First, we were prompt engineers, then context engineers, then harness engineers, then loop engineers.
+ And while it's tempting to view all of these things as just one silly buzzword giving way to the next,
+ the reality is that we are all together on this journey figuring out just the best way to use a
+ completely new technology that is changing both how we do our current work and opening up new
+ possibilities of what work we can even do.
+ Today we're talking about seven ways that how we use AI is changing.
+ The AI Daily Brief is a daily podcast and video about the most important news and discussions in AI.
+ All right friends, quick announcements before we dive in.
+ First of all, thank you to today's sponsors, Blitzy, Robots in Pencils, Harbor and Hyperagent.
+ To get an ad-free version of the show, go to patreon.com.ai-daily-brief or you can
+ subscribe on Apple Podcasts. To learn more about sponsoring the show,
+ send us a note at sponsors at aidailybrief.ai.
+ Today's episode is about a bunch of patterns that are shifts I think in how, on average,
+ we interact with AI on a daily basis.
+ One thing that's been true since the very beginning of ChatGPT is that our patterns
+ of interaction with AI have never been static for long.
+ At the beginning it was people discovering new ways to prompt the AI that had better
+ or worse results, which was then communicated through hundreds of articles, posts, YouTube
+ videos, podcasts and courses. But over time, the interaction pattern shifts have gotten
+ more significant and more substantive. Over the last week or so, I saw a number of
+ announcements that really reinforce some fairly big shifts in these interaction patterns.
+ And while I don't think that how we use AI will ever be truly static,
+ I do think that some of these shifts, which I'm going to cover in this show,
+ are fairly fundamental and likely to stick. And thus, of course, if one is trying
+ to be efficient with their time, maybe more worthy of attention.
+ So, first up is an interaction pattern that is not so much us changing how we interact with AI,
+ but product design decisions that are shifting the options that we have to interact with AI.
+ Very clearly, there is a push towards simplification and integration
+ and user experiences that have less rather than more cognitive decision making for the end user.
+ One thing that's been interesting for me, sitting in this seat that I have,
+ is the extent to which early AI has tended to defy traditional Silicon Valley logic
+ that users won't show up unless you give them an incredibly simple and clear experience.
+ In fact, quite to the contrary of that, a lot of the early adopters, not just from tech circles,
+ but from broader knowledge work circles, have, rather than resisting complexity,
+ thrown themselves in head first. A great example of this for me was when 9,000 people,
+ most of whom weren't even close to engineers or really technical in any way,
+ signed up for the free claw camp program I put out earlier this year,
+ which basically had them crawling through glass to figure out how to build their own agents.
+ And yet it appears that perhaps, even if the portion of people who were willing to do that sort
+ of hard work has been higher in AI than in other past tech sectors,
+ there are still a lot of folks who want that simplicity. Certainly simplicity is one of
+ the watchwords for the new Metamuse product and something that even the power users,
+ who fully have the capability of dealing with complexity, are lauding in the product.
+ How IAI's Claire Vo has discussed in numerous places how well thought out she thinks the
+ Muse design is, specifically around what it does and doesn't obfuscate from the user.
+ No JS creator, Ryan Dahl, who again, certainly has no shortage of complexity capability,
+ also shouted out Muse for having nailed the simplicity. Wrote technologist Tom Goodwin,
+ the beauty of Muse is that they've managed to introduce it in a very accessible way.
+ Don't tell me how you work, just show me how to do things. David Herman wrote,
+ I think Muse is going to win the casual AI race. I showed my dad who was nearly 70 and it clicked.
+ He was amazed that I could have it create an entire contract for me, update things on it,
+ then email and send it to a customer all through texts. Claude, open AI are great,
+ but so far I'd say less than 1% of the population gets what these models are.
+ Meta just made it all super easy. And it's clear that this was intentional.
+ Meta chief AI officer Alexander Wang wrote,
+ A big part of the team's focus when building Muse was to make something that just worked.
+ So much work went into all the little details to make the product simple and easy to use.
+ And of course, the thing that makes this a trend, not just a design decision from the meta team,
+ is that this sort of simplification is showing up everywhere.
+ One of the biggest product updates that we got this week came when Anthropic announced that Claude
+ co-work and chat are no longer separate things. Claude is careening towards an experience where
+ instead of it being fragmented and full of decisions for the user before they even get
+ started, instead a single unified experience. And again, the watchword was simplicity simplification.
+ And by the way, as pointed out by Claude code creator Kat Wu, this simplicity extends not
+ only to eliminating the difference between co-work and chat, but also to integrating Claude design
+ so that your standard core Claude also has all of the capabilities to do things like make slides,
+ designs, docs, without having to switch into some specialized experience.
+ And again, the team at Anthropic reports that this was based on direct user feedback.
+ Anthropic Labs lead and former Instagram co-founder Mike Krieger wrote,
+ The most common thing we hear people aren't sure which product to start with.
+ That friction gets in the way of getting the best from what these models can do.
+ Now, as I mentioned in an earlier episode this week, I'm not totally sold on this on a personal
+ level because I feel like I like having more specific control, but boy do I seem out of sync
+ with the average here. Christian Selig reposted the announcement and said,
+ Can we do this with codex too? Please? The two modes are like having two parents fighting.
+ Sean and Matthew summed up,
+ People don't want to interact with two to three text agents, two to three chatbot agents,
+ two to three terminals on desktop. You want a simple unified interface and want the agents to
+ coordinate how it gets done. You simply want to ask and receive. The platform should coordinate
+ and delegate agents, route models for tasks, handle whether it's local cloud or VM, be proactive
+ and reactive about tasks. Instinct Muse and Grockbot really hit a nerve and it's
+ increasingly clear we're in another paradigm shift moment in my opinion.
+ Now, if the first change is about the simplicity of the interfaces through which we use AI,
+ the second change is itself also a version of simplicity that has to do with how we control AI
+ and this is the trend towards mono threads. The idea of a mono thread is that instead of
+ having to switch context windows and explain new needs and new prompts separate from the
+ previous things that you've done, instead you use a single long continuously running thread
+ that inherits the context from past conversations as a way to manage the entire experience.
+ Now previously this was limited by the context window. At some point the AI would get tired,
+ i.e its context window would get filled and it would start doing weird things, making errors,
+ losing instructions, etc. Many of the earlier courses and lessons that I did from late last
+ year and early this year were all about how to build good handoff documents to move context
+ between different threads. That started to shift this year though, especially as the team at
+ Codex really focused on compaction to change the way that people could interact specifically with Codex
+ through a single unified thread. Codex's Nick Baumann wrote back in April,
+ so much coding agent design is built on the assumption that breaching context windows and
+ compacting context yields progressively worse results. When you drop this assumption,
+ the product direction it opens up is very exciting. He was responding to developer
+ Anthony Kroger who had written, I literally never worry about context windows using Codex,
+ it can compact like three times and the model still remembers the details somehow.
+ In a post about a week later, Nick from the Codex team expanded on his thoughts
+ in a piece he called My Codex Threads Are Alive. In it he wrote,
+ The most useful Codex thread I have right now is the one I've been using for the last three weeks.
+ Every hour it checks my Slack, Gmail, and PRs I wrote or I'm watching.
+ Every hour it turns the noise into clear signal I can act on.
+ My Codex usage has shifted from starting lots of short live chats
+ to keeping a smaller number of threads alive around recurring work streams.
+ I still start fresh threads constantly but some work should not reset every time I ask a question.
+ In some he writes, I have become monothread pilled.
+ Nick continues, I recently said that the compaction improvements made by the Codex team
+ are opening up new product directions for coding agents. A lot of agent product design
+ assumes long threads eventually degrade. If that is true, the product should push users
+ towards creating new threads and writing context summaries. The Codex team has
+ been doing a lot of work on compaction and that work weakens the assumption.
+ When a thread can stay useful across many turns, I want the same thread to keep working
+ on the recurring task. Put simply, with good context compaction, a thread's value increases over time.
+ Now Nick wrote about that back in April and I have very much found myself throughout the year
+ seeing more and more of my behavior shift to that pattern.
+ Everything that I do on the AI Daily Brief website, for example,
+ is managed at the moment from a single Quad Code thread.
+ When I pop in to make a change or an update, I'm not starting that thread all over,
+ I'm just jumping into where we left off. The social pipeline through which I use
+ Claude to generate video clips from the show is another thread and I've even found this behavior
+ start to influence how I interact in other parts of Claude outside of just Claude Code.
+ Over the past couple of months, for example, inside projects, I find that when it's things
+ that I do frequently, such as updating or writing new ad copy, instead of starting a fresh thread
+ or conversation every time I need to do that task, I just jump in at the end of the last
+ time I did a similar task. Well, it turns out I haven't been the only one who has started
+ to shift their behavior in this way. In fact, this is now, as of this week,
+ officially how Claude projects work. On Thursday, the Claude account posted,
+ projects now run from one conversation starting in Claude Code. You describe what needs doing
+ and Claude directs parallel threads that keep working after you close your laptop.
+ In other words, it's not that there aren't multiple threads, it's that those multiple
+ threads are managed by Claude and what you do is interface with Claude through a single thread.
+ This is very similar to the pattern that I had just described. And by the way,
+ a week before this came to Claude, it had also come to cursor. In fact, when cursor introduced
+ their version of projects, it had this logic built in. In their announcement, they write,
+ rather than creating a chat for every task, you work with a coordinator agent in a single
+ persistent thread. And the impacts of this shift are pretty big. Claude code creator Boris
+ Cheney wrote, projects have changed not only how I interact with Claude, but how I code.
+ I stopped managing sessions. I just send thoughts as they come. Claude splits
+ them into threads and the project remembers how I work. And this I think gets to a very
+ related shift in how we work with AI, which is that chatbots are increasingly agent fleet
+ managers. If you look at all of those examples that I just gave, what was changing was the
+ place that we interact with a coordinator AI. But that coordinator AI was still spinning
+ up lots of different sub agents to do different parts of the work. What's interesting about
+ this to me is that I think for a while, many of us would have assumed that the chatbot
+ interface itself was perhaps an intermediate interface. Something that was convenient and
+ familiar for the time, but might give way to something else. What's interesting is that
+ when you take the combination of mono threads and chatbots as agent fleet managers, what has
+ happened is that instead of shifting away from chatbots, the model and harness companies have
+ quietly shifted what chatbots actually are, but without pulling the interface rug out from under
+ our feet. We still get that same comfortable experience of interacting with a chatbot. In fact,
+ one that's even more simplified because we can do it from a single thread. But what that chatbot
+ is doing is very, very different than what it was doing a year ago. Ethan Malik wrote,
+ What makes Claude project so interesting is that it handles teams of agents really well.
+ You talk to a main orchestrator agent and it spins up specialists. Basically,
+ it creates an organization to solve your issues, mixing expensive and cheap agents depending
+ on your preferences. This also, by the way, has implications for the rest of our software
+ services, which might increasingly start to look like context databases for our main
+ coordinator agents. Signal wrote,
+ All of my iMessages in email now run through a single agent interface. I still text,
+ but I delete every email client from my phone and canceled every email subscription or app I had.
+ Gmail is basically just a database to me now. Increasingly, so are the rest of Google services.
+ i.e. I never want to manually write an email, create a doc, build slides, organize a calendar,
+ or manage files again. I just want to express intent and have the underlying systems of record
+ updated correctly. I think now you'll see apps disappear quickly. Many will become databases at
+ best or entirely obsolete at worst. The agent will be the default interface to your personal and
+ professional life. And even if that doesn't fully happen or if it takes a lot longer than someone
+ is forward thinking a signal might think, it is certainly the case that the chatbots that you
+ interact with are doing something different than they used to. Every AI coding tool on the
+ market does the same thing first. It starts writing code. Blitzy does the opposite. Before writing a
+ single line, Blitzy spends days reverse-engineering your entire code base. Thousands of agents ingest
+ millions of lines mapping every dependency, every undocumented constraint, every architectural
+ decision made over the last decade. The result is a dynamic knowledge graph that
+ understands your software the way a principal engineer would after 30 years in the building.
+ Other tools guess at context with grep searches and markdown files, Blitzy never guesses.
+ It builds true understanding first, then delivers over 80% of entire software
+ epics autonomously. Validated, end-to-end tested, production grade pull requests.
+ That's why Fortune 500 engineering teams trust Blitzy with the code bases that matter most.
+ See for yourself at Blitzy.com, that's blitzy.com.
+ The best teams don't have a single star carrying everyone else. They know their own
+ strengths and each other's weaknesses and play to both. That's the team Robots and Pencils
+ has built on purpose. Nobody there is grinding through busy work to pad a head count number.
+ People come for the hard problems and they stay because everyone around them is leveling up at
+ the same time. In a market full of companies that are just trying to hire fast, that's
+ worth a look. Check out robotsandpencils.com slash careers.
+ Every episode I talk about the competition between OpenAI and Propix, SpaceX AI,
+ Google and Meta. And if you've been listening for a while, you might have a favorite.
+ Maybe you think OpenAI and Anthropic can stay ahead or perhaps Meta's open
+ source strategy can win out. Whatever your view, every AI lab creates a different investment
+ opportunity. Harbor Capital Advisors AI Lab ecosystem ETF suite lets you invest in the ecosystem behind
+ the AI lab you believe in. Search Harbor AI Lab ecosystem ETFs wherever you invest or follow
+ at Harbor Capital on X to learn more. Visit harborcapital.com for a prospectus containing
+ investment objectives, risks, fees, expenses, and other important information. Read and
+ consider it carefully before investing. Risks include principal loss and artificial intelligence
+ related risks. Harbor ETFs are distributed by Foreside Fund Services LLC. Harbor is not
+ affiliated with AI Daily Brief and the funds are not affiliated with, sponsored by, or endorsed by
+ any AI lab. This is a paid advertisement and not personalized investment advice.
+ Investing involves risk, including possible loss of principal.
+ This episode of the AI Daily Brief is brought to you by Hyperagent, where you run fleets of
+ agents your team can manage together. Forget local agents and chat workflows waiting on your
+ laptop to be prompted. Hyperagent deploys always-on agents in the cloud doing real work
+ across the tools your team already uses. Marketing agents turn competitor moves into
+ landing pages. Sales agents enrich leads, draft emails, and updates the CRM.
+ Ops agent chases the paperwork and tracks the budget. Every agent has access to shared
+ context and follows your rules about scope and approvals. It's time you add agents that
+ feel like teammates. Hire yours at Hyperagent. Get $100 in credits at hyperagent.com
+ And by the way, one simple but profound change which we've talked about a lot on this show
+ is that the way that you're interacting with that chatbot is increasingly going to be through your
+ voice. Every free learning program I've released this year starts by imploring people to either
+ use native chat GPT voice controller to get something like whisper flow set up for the sheer
+ efficiency and expanded context that voice is going to enable. And increasingly,
+ this is just table stakes for agent products as well. This week, Grockbot joined the party
+ with its own native voice integration. SpaceX AI's Danny Graziosi wrote,
+ using voice mode to rapid-fire tasks to your chief of staff while it orchestrates your
+ bot team feels like magic. Parker Conrad from that same team wrote,
+ Grockbot already took such a leap towards a more seamless interaction model,
+ a bullish on voice taking that even further. Gar advice and pointed out that it's not just
+ voice alone but the fact that voice is now meeting expanded underlying capabilities.
+ He wrote, tried voice on a bunch of agent products this year and it always felt like a
+ gimmick until the agent could actually go do things. Voice plus real work is the combo.
+ And even the companies and projects that were already voice-pilled are getting even more so.
+ OpenAI just released a new Codex ad with two of their team's developers talking to the
+ voice agent in Codex powered by their new GPT Live 1 model while they're working out.
+ Google is also on this same tip, releasing Gemini 38 Live and 38 Live Extended Thinking this
+ week, writing that major upgrades in intelligence and parallel reasoning make it more intuitive to
+ collaborate and execute complex tasks using your voice. Last week, similar to the thing that Codex
+ was advertising in that workout ad, we got Devon Voice which allowed developers using Devon to
+ also tap into the new GPT Live model to code by talking. And Allie Kay Miller summed it up when
+ she said, whenever I see a new voice first interface, a tiny voice inside of me screams
+ with joy. Voice is the interface of the present and future. Now alongside mono threads and
+ more capable agent coordinators that manage their own fleets and voice-based instructions,
+ the nature of the instructions that we give to our AI has also changed this year.
+ Summarizing the big shift, instead of prompting our AIs, we increasingly set goals for them.
+ Inherently, this creates more latitude and agency on the part of the AIs for figuring
+ out how that work should get done and for working in recurring loops until that work gets done.
+ This started with the introduction of primitives like slash goal and Claude
+ code and Codex. It was a formalization of this interaction pattern that allowed people to
+ specify goals instead of just dropping a prompt. This would later expand to the whole idea of loop
+ engineering, which is something we've talked about throughout the summer and even did a webinar on
+ about a month ago. The idea of loops really got a big lift when open clock creator Peter Steinberger
+ wrote, you shouldn't be prompting coding agents anymore, you should be designing loops that
+ prompt your agents. This idea of a loop is simply that in addition to defining the goal,
+ you define success criteria for the goal that the agent can measure itself against
+ so that it can run in a continuous loop until it achieves said goal,
+ based on the quantifiable criteria given. And the thing is, and the reason that it's
+ worth mentioning in this show, is that although loops and loop engineering has all of the
+ hallmarks of the type of buzzy terms that we love over in our early adopter circles,
+ but which reasonably elicit eye rolls among the rest, this is actually a fairly critical
+ mindset shift when it comes to thinking about how to get the most out of our interactions with
+ AI, which is why we spend so much time on it here. The sixth change in how we interact with AI
+ is I guess you might call multimodality, i.e. the using of multiple different models in a personal
+ stack, not just on an organizational level, but even within the domain of an individual user's work.
+ I have not yet settled on the exact right language to describe this multimodality
+ as a number of my Patreons love to point out. But while on the one hand,
+ many advanced AI users have always viewed model selection as a way to get benefits,
+ in other words not just being constrained to a single model because that's the one you pay for
+ a subscription for, but finding the model that does the best with your particular task,
+ the difference now is that the complexity, difficulty, depth and duration of the work
+ combined with the cost of the most advanced models and shifts in the subsidy of those models
+ in the standard plans means that this is not just an early adopter alpha thing anymore,
+ but basically a cost and efficiency requirement now. It's also enabled by the fact that the
+ more time that goes on, the more that cheaper models that are just outside the state of the art
+ can do things that would have been stated the art just a couple of months ago.
+ You saw this a lot when fable 51 dropped, you had people all over X and the other AI communities
+ sharing their hacks on how to get the most out of the model without breaking the bank,
+ and increasingly you can see this moving from X post tax to actual usage systems discipline.
+ And this interaction pattern shift dovetails very closely with the idea of chatbots as
+ agent fleet managers. One of the things that a lot of folks have noticed is that at least at
+ current, the default for a model like fable 5.1 is to not just use the most advanced model as the
+ coordinator, but also to use it for all the sub agents. Many of us have had the experience where
+ we give fable what we think is a fairly standard task, only to come back and see a major percentage
+ of our current usage cap tapped, because it turns out that the five or 10 sub agents that
+ had spun up to go do some sort of research, we're all using the most advanced fable model
+ as well, even though that was completely not required for the task at hand.
+ TLDR understanding where different types of models and model capabilities are needed
+ and how to normalize that in your management of your AI is going to increasingly be an
+ important discipline. And by the way, this is one trend that if not careful could kind of
+ run at odds with that trend towards simplicity. As all of the model and harness labs try to
+ make the average experience more simple, in many cases that will mean obscuring or even doing
+ away with the more fine grained controls for determining things like which tasks get which
+ model. Now theoretically, the labs and model companies will try to build automated systems
+ underneath that can figure out those specifics for you, i.e. to realize that the sub agents needed
+ for a research task are not state of the art, but I'm not sure that they're always going to get
+ it right. And so I think that this will still be something that people need personal agency around.
+ The last interaction pattern shift is one that I've talked about a lot recently, so I won't go
+ too deep on, but is the idea of shared agents. 2026 will be looked back at as the year that
+ agents became real after years and years of excitement. But for the first two thirds of the year,
+ almost all of that agent behavior was siloed to individuals. It was each of us individually
+ building our open claw teams, changing how we do work, but not necessarily changing how our teams
+ do work overall. You're starting to see that shift. An example of that came this summer when
+ Claude introduced Claude tag, which replaced the old system of Claude and Slack, where each
+ individual could call upon their own Claude instance with a new team based system where each channel
+ had its own Slack that could work across the context of that channel, not tied to any one individual.
+ Now the idea here is pretty clear. Some amount of our work gets done, yes, as individuals,
+ but a lot of it gets done in teams. And we're probably going to need agents that live at
+ the intersection of our teams, not just agents that live in our own little individual worlds.
+ And you're now starting to see tons of efforts towards these ends.
+ Mio XYZ launched this week as the quote first AI employee your whole team shares.
+ In their announcement post, they wrote,
+ In beta since July, Mio saved teams thousands of hours and completed tens of thousands of tasks.
+ You don't need another agent, you need a shared one with your team.
+ On any given day, I feel like I see a half dozen or more examples of this same impulse,
+ although exactly what multiplayer AI means is still very much in development.
+ Earlier this month, Ethan Malik wrote,
+ Multiplayer AI, where many people in an organization can use AI together to
+ accomplish goals, remains one of the biggest non-technical problems in using AI right now.
+ Approaches tend to be pretty primitive and based around AI as a person in your group chat,
+ that is limiting.
+ Arya Bhuktani writes,
+ We still don't have a consistent mental model for who the principal is in a multiplayer
+ agentic system. Is it you, the user? Agent is your proxy, inheriting your context,
+ access and authority? Is it the agent itself? Agent has its own identity,
+ relationships, memory and access. It's the difference Arya continues,
+ between agent civilizations versus human civilizations at agent speed.
+ Realistically, the answer is both, but for different systems and use cases.
+ Atlan's Rishi Garobatnagar writes,
+ Multiplayer AI will be one of the biggest design problems of 2027.
+ The phrase alone means something different to every person I talk to.
+ Is it shared memory, context, org design, or something else entirely?
+ And what's interesting is that Rishi then goes on to show
+ why each of these sounds compelling when you look at it in isolation.
+ The memory lens, he writes,
+ Five agents on one project, five different versions of what happened,
+ none of them talking to each other. It's a mess. Fixing it,
+ one shared memory instead of five private copies is the whole game.
+ But then there's the context lens. Rishi continues,
+ Nearly everyone I talk to has built their own little context layer for their own agents.
+ It works for them, stretch it across the whole team and it falls apart.
+ Personal context feels solved, org wide is wide open.
+ And then of course there's the organizational change dimension.
+ Rishi concludes,
+ The hardest part of multiplayer AI might not be technical at all.
+ Getting a whole team to adopt one shared way of working is more org design than engineering.
+ Nobody wants that to be true.
+ What's clear is that there is going to be a ton of work done in this area.
+ Josh Rosen writes,
+ We've decided AI is going multiplayer before we've agreed on the architectural patterns
+ for multiplayer AI. And then of course proceeds by trying to explain all of that
+ and get us to a slightly more coherent answer.
+ Now, if this is something that you are interested in,
+ I will show for a moment the latest free self directed training program that we've
+ dropped here, which is the multiplayer AI sprint for teams.
+ This does not assume that multiplayer AI is figured out,
+ or frankly almost any of the answers to those important questions.
+ What the sprint does is it gets people to start to build the foundations
+ to how multiplayer AI, which is really just another way in our case of saying
+ shared agents can function inside your team.
+ Over the course of the four sprints,
+ which we've divided into weeks but don't have to be split up that way,
+ you're going to inventory first what your team is actually running right now for AI,
+ and or to the extent that you are even more new,
+ perhaps bring in some champion or export from your organization
+ who is a little bit farther in their stack
+ to help you understand best practices in your specific organizational context.
+ And once you have that sort of inventory,
+ you move then into sprint two, which is all about context,
+ writing down what your AI knows about you and what it should know about you.
+ Sprint three is looking at the overlap in work streams and in context,
+ which is going to give you your possible places to build shared agents
+ and sprint four is going to be where you actually do that building.
+ And of course, you can then repeat sprint three and sprint four
+ multiple times to experiment with multiple agents as much as it helps.
+ There are going to be tons and tons of product experiences
+ and great product thinking coming to the multiplayer AI
+ or shared agent space in very short order.
+ And so to the extent you want to kick that can down the road
+ just a little bit and let the industry and norm settle a bit more,
+ I totally understand that said, I do think for teams who want to dive in,
+ there is certainly some alpha to be had by getting out ahead of that.
+ And hopefully that's what the multiplayer AI sprint,
+ which is, of course, linked in the show notes, can maybe help you do.
+ So that is the seven ways that how we use AI is changing.
+ Hopefully this gives you some interesting new directions to explore
+ and some new ways to think about your relationship with AI.
+ For now, that's going to do it for today's AI Daily Brief.
+ Appreciate you listening or watching as always.
+ And until next time, peace.
