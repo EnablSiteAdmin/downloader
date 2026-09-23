@@ -1,0 +1,1633 @@
+ And just like that, the AI agent wars have begun.
+ Meta's Muse Personal Agent has been a breakout consumer success.
+ This week, the app surged over ChatGPT to be the number one free app in the US,
+ and there are reports from satisfied users all over social media.
+ But with that sort of success brings competition.
+ And this weekend, Amazon decided to cut off Muse's ability to shop on Amazon sites.
+ Will that impact Muse's momentum?
+ Does agentic shopping even matter?
+ As personal agents become a thing, we have a whole new set of questions to explore.
+ The AI Daily Brief is a daily podcast and video about the most important news and discussions in AI.
+ Alright friends, quick announcements before we dive in.
+ First of all, thank you to today's sponsors KPMG, Blitzy, Harbor, and Hyperagent.
+ To get an ad-free version of the show, go to patreon.com.ai-daily-brief
+ or you can subscribe on Apple Podcasts.
+ And to learn more about sponsoring the show, send us a note at sponsors at aidailybrief.ai.
+ SpaceX AI has kicked off what could be a big week for model releases with the launch of Grock 4.7.
+ They call the model a notable improvement over Grock 4.6 at the same price and speed.
+ Now, Grock models in general are competing in the increasingly difficult middle ground
+ between ultra-cheap and cutting-edge frontier.
+ Grock 4.6 lagged behind GPT-56 Sol in Fable 5.1 on performance
+ and was out-competed on cost by Muse 1.2.
+ Still, the model had its fans and was clearly capable of driving the success of Grockbot
+ and what's more for many people showed that SpaceX AI was very much not out of the model race.
+ This release sees some significant improvements at least on the benchmarks.
+ For coding, Grock 4.7 picked up six points on Cursor Bench 4.0 to overtake GPT-56 Sol
+ but is still five points short of Fable 5.1 score.
+ On DeepSwee, the model improved by six points to overtake Fable 5.1,
+ coming in just short of GPT-56 Sol.
+ Purely on the benchmarks then, Grock 4.7 looks like it should be a competitive coding model at a discount price.
+ SpaceX highlighted significant improvements on Long Horizon agentic work.
+ For AA Briefcase, which measures multi-hour white-collar work,
+ the model scored 1,657 elo points,
+ putting it ahead of GPT-56 Sol and very close behind Fable 5.1.
+ Benchmark scores for legal, electrical engineering and healthcare were similarly impressive.
+ In a practical demonstration of the upgrade,
+ SpaceX AI showed off a head-to-head comparison of an open game world.
+ Grock 4.6's version was pretty low quality and unimpressive,
+ while Grock 4.7 did a noticeably better job on both graphics and physics.
+ Artificial Analysis gave the model a fairly favorable review,
+ ranking it seventh on their Intelligence Index behind Astra,
+ two iterations of Fable, Opus, MuSpark 1.3 and GPT-56 Sol,
+ and on the Coding Agent Index, it was ranked fourth,
+ inching ahead of GPT-56 Sol but falling short of Opus, Astra and Fable 5.1.
+ Elon Musk celebrated the result,
+ declaring that SpaceX AI is now the third-place lab for agentic coding behind OpenAI and Anthropic.
+ He wrote,
+ When factoring in that Grock is significantly faster and lower cost,
+ it's a great choice for your everyday workhorse.
+ Yet, as is sometimes the case,
+ benchmarks appear not to tell the whole story,
+ and the model's initial impressions didn't survive contact with public testing.
+ Bobby showed his results in an AI rendering test against Kimmy K3,
+ with both models tasked with animating a rocket takeoff.
+ Grock's animation was fairly bizarre with the screen wobbling all over,
+ leading Bobby to ask,
+ What's wrong with Grock?
+ Scott animated a star-shaped Jell-O mold,
+ and while he gave the render a passing grade, he noted it took 40 minutes,
+ while Astra's version of the test took just 5 minutes.
+ And Theo declared that Grock's version of his fish-slop game was the quote worse I've seen this year.
+ A few people did have slightly more positive rendering results.
+ OpenClawMainTainerTac showed off a pretty slick animation made in Blender,
+ although his prompt was just to make something cool that can be accomplished in 10 minutes.
+ But of course, if you're sitting here thinking to yourself,
+ Are we really going to judge a new model based on 3D renders
+ that are completely outside the use cases of most people?
+ I think that's a fairly decent thing to ask.
+ AI developer Kanchen came to the defense of Grock, commenting,
+ Ignore the reports that say it's terrible,
+ and the only thing they reference is a public benchmark.
+ The same benchmarks told us Opus 5 was better than Fable.
+ They are useless.
+ Also ignore the reports that compare models with 3D games.
+ That's not real work.
+ It's made for attention on social media.
+ I used Grock 4.7 for a whole day as my first mate,
+ and it has been a really solid model with visible improvements over 4.5.
+ Cut noted, I'm ignoring 4.6 because 4.5 has been working better in my experience.
+ Still, overall, the first impression verdict on Twitter is not good.
+ V posted,
+ So, let me get this straight.
+ After releasing Grock 4.6 a month earlier,
+ Elon spent 10 days teasing an imminent Grock 4.7 release,
+ only to postpone it and then shift the narrative from pacing AI
+ to vague claims about how 4.7 and 4.8 would be Fable killers.
+ Now Grock 4.7 is finally out, and it's giving Timu Sanit 5 vibes.
+ Believing benchmarks in September should be a crime.
+ In some ways I think the trajectory of the latest Grock models
+ shows how difficult this middle space between state-of-the-art
+ and really, really cheap actually is.
+ AI entrepreneur and content creator Theo wrote,
+ Grock 4.5 was an incredible model for the price,
+ fast, pleasant to use, reliable, solid default model.
+ Grock 4.6 was a forgivable step in the wrong direction in my opinion,
+ slower and more expensive using way more tokens per task
+ for a slight edge in intelligence.
+ I get it, though, they have to climb benchmarks.
+ Grock 4.7 is much harder to forgive.
+ They claimed it would be more token efficient,
+ and it's less by 30 to 80%.
+ It scores worse than Grock 4.6 in various benchmarks.
+ It's slower, it's less pleasant to use,
+ and real-world costs come out to more than 2x above Grock 4.6,
+ putting it over Astra's cost in real-world use.
+ This was a very disappointing release.
+ I hope that the SpaceX AI team can acknowledge that
+ and impress us with the next one.
+ Now I will certainly say before you jump to judgment,
+ I would wait a couple days to see how it performs
+ particularly in its native environment of Grockbot,
+ but as of right now, just about a day in,
+ that's where the conversation stands.
+ Next up, Treasury Secretary Scott Besant
+ seems to be trying to shift the narrative on safety,
+ rejecting the idea of rogue agents
+ and insisting that AI companies need to bear responsibility.
+ In an interview with CNBC, Besant said,
+ the hugging face incident,
+ that is the responsibility of the open AI management,
+ not a bunch of agents.
+ It is humans who are responsible, not the AI.
+ Now these comments are fairly consequential
+ as Besant has found himself as more or less leading
+ the administration's AI policy.
+ He was also extremely credulous about AI risk
+ during the release of mythos,
+ so was the most likely to support
+ the current regulatory proposals,
+ but it seems he just isn't buying it.
+ He said, a sitting employee came out,
+ said there's a 10% chance of an extinction level event.
+ But then the labs also said,
+ take the liability off of our hands
+ and we will not do that.
+ What the president was saying is that we cannot say
+ we absolve you of responsibility
+ and the government is going to take responsibility.
+ These labs need to take responsibility for themselves.
+ They can slow down anytime they want to.
+ Now, presumably there are a lot of discussions
+ going on behind closed doors right now.
+ It's entirely unclear whether Besant
+ is speaking to a proposal put forward by the labs
+ or if discussions with advisors
+ have led him to believe the labs
+ are looking for liability protection.
+ Still, the Treasury Secretary could not have been clear
+ about the administration's position.
+ He continued,
+ what did they try to do last week?
+ It was, well, there's a 10% chance we destroy the world,
+ but we want the government to give us a liability shield.
+ That's good business for them,
+ for some, the response to this was a solemn head nod
+ and a sturdy good investor.
+ Bill Gurley wrote,
+ Consequences will both harden the product
+ and reduce the press releases
+ where companies brag about their product flaws.
+ Lex on X wrote,
+ Lol watch the fear marketing vanish entirely
+ once senior management becomes legally liable
+ for all the tall tales they've been telling.
+ Texas Congressman Chip Roy wrote,
+ 100% agree that AI companies
+ must take on all liability.
+ Competition and full ownership of liability
+ and tax cost, energy demands, et cetera,
+ is the path here.
+ That addresses many of the questions and concerns.
+ Of course, not everyone agrees.
+ Armand Damolowski writes,
+ Imagine if we said we don't need a TSA or FAA
+ to prevent terrorism because holding airlines liable
+ for 9-11 would have been sufficient to prevent it.
+ When potential catastrophes are so big
+ that they would render a company bankrupt,
+ the company becomes essentially judgment-proof.
+ In Code AI General Counsel Nathan Calvin wrote,
+ We're in a strange situation
+ where the frontier AI companies,
+ Congress and the White House,
+ all do not really want dealing with these impending risks
+ from AI to be thought of as their problem to solve.
+ I agree it would be good for the companies
+ to take more responsibility here than they have,
+ but catastrophic AI risks
+ seem like the archetypal sort of public policy issue
+ where government intervention is needed
+ to address market failures and collective action problems
+ and protect the public.
+ Still, speaking of the companies
+ getting a little bit more responsible,
+ although the current discussion around AI safety
+ is focused on government intervention,
+ the frontier labs reportedly came close
+ to agreeing to their own arrangement earlier in the year.
+ The information reports that OpenAI and Anthropic
+ have been negotiating deal
+ to perform safety tests on each other's models.
+ Sources said the arrangement reached the stage
+ of formal contracting
+ with lawyers hashing out the bilateral arrangement,
+ but at some point the deal was abandoned
+ for unknown reasons.
+ Still, the idea lingers
+ with Elon Musk proposing a similar arrangement
+ last week at the All-In Summit.
+ He claimed that distillation wouldn't be a concern
+ because it would be evident in the testing logs
+ and that labs couldn't risk releasing an unsafe model
+ after a rival raised the red flag
+ because, quote,
+ the liability in that case would be enormous.
+ Microsoft's Suleiman Vassal wrote,
+ OpenAI and Anthropic stress testing each other's models
+ is the smartest safety idea in months.
+ No more grading your own homework.
+ Now make it mandatory and add XAI and Google to the deal.
+ Like I said, friends, we are in the negotiation phase
+ of this next era
+ and all the proposals should be on the table.
+ For now, however, that is going to do it
+ for today's headlines.
+ Next up, the main episode.
+ A new study from KPMG in the University of Texas at Austin
+ found that when people work with AI,
+ similar skills don't guarantee similar outcomes.
+ Researchers studied more than 500 early career professionals
+ and found that the best performers
+ consistently amplified the value of AI
+ by guiding, evaluating, and refining its outputs.
+ These top performers, called AI amplifiers,
+ weren't defined by what they knew alone
+ but by how they worked with AI.
+ Learn more about what separates AI amplifiers
+ from everyone else at kpmg.com slash us slash AI amplifiers.
+ Blitzy deeply understands your code base before it writes code.
+ Here's the first place that pays off.
+ Security in the age of AI.
+ Vulnerabilities don't live in isolation.
+ They live buried inside millions of lines of interconnected code
+ where patching one thing quietly breaks three others.
+ That's why surface level scans fail.
+ Blitzy starts from its knowledge graph
+ of your entire application,
+ identifies and surfaces CVEs across the full estate,
+ proactively recommends patches and can execute the PR.
+ Each fix is grounded in how your systems connect and validates
+ or nothing new breaks.
+ And the knowledge graph dynamically updates
+ keeping you ahead of an ever-accelerating threat landscape.
+ One Blitzy customer resolved 21 active CVEs
+ across six core microservices in four days.
+ Zero compile errors, every validation scan clean,
+ months of planned work fixed in less than a week.
+ Security remediation grounded in real architectural context
+ at the speed of compute.
+ Harden your code base at blitzy.com.
+ That's blitzy.com.
+ Every episode, I talk about the competition
+ between open AI, anthropic, SpaceX AI, Google, and Meta.
+ And if you've been listening for a while,
+ you might have a favorite.
+ Maybe you think open AI and anthropic can stay ahead
+ or perhaps Meta's open source strategy can win out.
+ Whatever your view, every AI lab creates
+ a different investment opportunity.
+ Harbor Capital Advisor's AI Lab Ecosystem ETF Suite
+ lets you invest in the ecosystem
+ behind the AI lab you believe in.
+ Search Harbor AI Lab Ecosystem ETFs
+ wherever you invest or follow at Harbor Capital on X
+ to learn more.
+ Visit harbercapital.com for a prospectus
+ containing investment objectives, risks, fees,
+ expenses, and other important information.
+ Read and consider it carefully before investing.
+ Risks include principal loss
+ and artificial intelligence related risks.
+ Harbor ETFs are distributed
+ by Foresight Fund Services LLC.
+ Harbor is not affiliated with AI Daily Brief
+ and the funds are not affiliated with, sponsored by,
+ or endorsed by any AI lab.
+ This is a paid advertisement
+ and not personalized investment advice.
+ Investing involves risk,
+ including possible loss of principal.
+ This episode of the AI Daily Brief
+ is brought to you by HyperAgent
+ where you run fleets of agents
+ your team can manage together.
+ Forget local agents and chat workflows
+ waiting on your laptop to be prompted.
+ HyperAgent deploys always-on agents in the cloud,
+ doing real work across the tools
+ your team already uses.
+ Marketing agents turn competitor moves
+ into landing pages.
+ Sales agents enrich leads, draft emails,
+ and updates the CRM.
+ OpsAgent chases the paperwork
+ and tracks the budget.
+ Every agent has access to shared context
+ and follows your rules about scope and approvals.
+ It's time you add agents
+ that feel like teammates.
+ Hire yours at HyperAgent.
+ Get $100 in credits
+ at hyperagent.com slash AI Daily Brief.
+ Welcome back to the AI Daily Brief.
+ Last week, we talked about how
+ through a combination of grokbot
+ as a personal agent interface optimized for work
+ and MEWS,
+ a personal agent focused on the consumer
+ or personal experience,
+ people were revisiting their priors
+ when it came to personal agents
+ and wondering if this was now
+ going to be an increasingly important part
+ of the AI landscape.
+ And over the weekend,
+ as Amazon blocked MEWS,
+ it became pretty clear
+ that the agent wars are on.
+ Now, at this point,
+ the driving force of this new phase
+ is MEWS.
+ I think one could argue now
+ that it has solidified its early success
+ to become the first personal agent
+ to reach, if not mainstream success,
+ then certainly this level of mainstream curiosity.
+ We have seen many agents catch fire
+ throughout the course of 2026
+ and even a little bit into 2025.
+ Manus had some early interest.
+ Open Claw obviously set up a lot of the landscape
+ that we've been living in ever since.
+ Hermes, in many ways,
+ took the baton from Open Claw.
+ And then more recently,
+ we've had more consumer focused offerings
+ like town and instinct.
+ And yet still,
+ in general,
+ these have either been crawl through glass
+ to make them work work tools
+ or tech toys for early adopters
+ who are willing to push through some rough edges.
+ MEWS is the first agent
+ that's appearing to see steady
+ and growing consumer adoption
+ outside of tech circles,
+ with the clearest sign of success
+ being how the app is performing
+ on the App Store charts.
+ During launch week,
+ it reached the number two spot
+ on Apple's free app charts,
+ but momentum continued to grow
+ and it even managed to overtake ChatGbt
+ to snatch the number one spot.
+ In the four years
+ since ChatGbt was released,
+ you might be shocked
+ how little time it has spent
+ not at number one.
+ And indeed for many,
+ the success of MEWS
+ is a bit of a surprise.
+ On release,
+ the tech press was very skeptical
+ that people would willingly connect
+ their email,
+ calendar,
+ and other personal information
+ to a metaproduct.
+ And yet,
+ those who don't pay
+ as much attention to consumer tech
+ are learning one of consumer tech's
+ few enduring lessons.
+ Satrini Research commented,
+ in June 2024,
+ I was on odd lots
+ talking about consumer agents
+ and Apple's potential leg up
+ due to trust.
+ Joe Wysenthal said flatly
+ that nobody cares about privacy.
+ After watching,
+ everyone give their email,
+ messages,
+ credit cards,
+ location,
+ screen access,
+ and logins
+ to both instinct and MEWS,
+ I gotta say.
+ Good call, Joe.
+ Now at this stage,
+ MEWS has fully broken out
+ and is even getting credit
+ for a prouder stock market rally.
+ Bloomberg is attributing a rise
+ in AMD and Intel stock
+ to the success of Meta's agent.
+ And while Meta does use
+ some AMD and Intel chips,
+ the reporting is mostly focused
+ on the narrative.
+ As Bloomberg put it,
+ semiconductor stocks soared Monday
+ as early signs of success
+ for Meta's new artificial intelligence agent
+ sparked a wave of enthusiasm
+ around demand for the chips
+ needed to power such agents.
+ At least when it comes to market observers,
+ personal agents
+ have arrived in the mainstream
+ and everyone is now sitting up
+ and paying attention.
+ Microsoft's Nicholas Bustamante wrote,
+ It's funny.
+ Meta went from having my Instagram
+ and WhatsApp data
+ to now having access
+ to my email,
+ calendar,
+ DoorDash,
+ Amazon and pretty much everything.
+ In the last 24 hours,
+ it bought me socks,
+ ordered my Whole Foods groceries,
+ booked a cleaning service
+ and got me a burger for dinner.
+ Meta's last disclosed
+ North American Facebook
+ ARPU was around $227 per year,
+ largely from ads.
+ I suspect it can push that number
+ significantly higher now
+ that it understands
+ not only what I look at,
+ but what I need,
+ what I buy
+ and what I'm planning to do.
+ Also, the much bigger opportunity
+ might be becoming
+ the aggregation layer
+ between me
+ and the entire internet.
+ If Meta can take
+ even a tiny percentage
+ of the commerce it facilitates
+ or of the money it saves me,
+ this could become enormous.
+ It already saved me $200
+ by cancelling subscriptions
+ and services I no longer needed.
+ This feels much bigger
+ than better ad targeting.
+ Ads are useful,
+ but giving me money back
+ is better in my opinion.
+ One additional thought,
+ the agent is increasingly
+ making the decisions for me.
+ I knew nothing about that burger place.
+ The agent researched it,
+ told me which burger I should order
+ and I just said okay
+ without giving it much more thought.
+ Agents are becoming
+ the decision makers
+ in both B2C and B2B.
+ Increasingly,
+ every business will be selling
+ not just to humans,
+ but to their agents.
+ Everything becomes B2A.
+ Box's Aaron Levy
+ reposted that and added,
+ the monetization potential
+ of personal agents
+ that are transacting
+ on your behalf
+ is quite significant.
+ You'll start by slinging
+ your daily simple
+ and annoying tasks
+ at the agent.
+ Then as people get used to it,
+ they'll start to throw
+ more complex tasks,
+ ultimately leading
+ to even more spend
+ through these systems
+ than what they were doing before.
+ And yet,
+ if this feels like
+ a whole new commercial dimension
+ of the AI race opening up,
+ you had to imagine
+ some friction
+ between the platforms.
+ And indeed on Sunday,
+ Amazon altered a policy
+ that could have some
+ big implications
+ for Muse's momentum.
+ Effective immediately,
+ Muse agents won't be able
+ to shop for Amazon products
+ on behalf of their users.
+ A pop up on the site read,
+ continued access
+ by an unauthorized AI agent
+ violates Amazon's
+ conditions of use
+ to which our customers
+ have agreed.
+ Now for many,
+ the decision
+ was kind of baffling.
+ Entrepreneur Jesse Frazel
+ wrote,
+ It's weird to me
+ Amazon would do this
+ when a purchase is a purchase.
+ They're making money
+ either way,
+ kind of stupid.
+ Now officially,
+ Amazon has said,
+ we think it's fairly straightforward
+ that third party applications
+ that offer to make purchases
+ on behalf of customers
+ from other businesses
+ should operate openly
+ and respect service
+ provider decisions
+ about whether or not
+ to participate.
+ And yet,
+ this is actually
+ a fairly
+ out of consensus decision.
+ In general,
+ all indications have suggested
+ that the business environment
+ is getting geared up
+ for agents
+ to make more
+ purchasing decisions,
+ not less.
+ Last week,
+ for example,
+ Mastercard joined Visa
+ in officially supporting
+ virtual credit cards
+ for agents.
+ Jordan Lambert,
+ Mastercard's chief product officer,
+ acknowledged that
+ the personal agents era
+ has clearly arrived,
+ commenting,
+ We believe it's not about
+ if,
+ it's about when,
+ and how quickly.
+ At the same time,
+ Amazon has been fairly aggressive
+ on agentic shopping
+ for a while now.
+ They have their own shopping agent
+ that's tied to their site
+ and they've been
+ very willing to defend that turf
+ over the past year.
+ In November,
+ they went so far
+ as to superplexity
+ for circumventing
+ their agent blockers.
+ The argument wasn't just
+ that perplexity
+ was violating
+ the terms of service,
+ but that they were imposing
+ dramatic costs on Amazon,
+ i.e.,
+ serving web traffic
+ costs money
+ and agents
+ can ping the website
+ significantly more frequently
+ than humans.
+ Still,
+ YouTuber Joseph Carlson
+ believes there's another story
+ going on
+ beyond the competition
+ for agentic shopping.
+ He commented,
+ Amazon blocks Muse.
+ Sure,
+ they will blame it on security,
+ but Amazon made
+ 76 billion
+ in the last 12 months
+ on advertising.
+ Agents don't look at ads.
+ A new age of agentic battle
+ has begun.
+ In other words,
+ as exciting
+ as the new opportunities
+ of agentic shopping might be,
+ and all sorts of
+ new financial opportunities
+ it could theoretically open up,
+ in economics,
+ there's no such thing
+ as a free lunch.
+ And when humans
+ hand over the decision making,
+ one of the first things
+ that might become less valuable
+ is digital advertising.
+ By far,
+ the most common response
+ to this
+ was some version
+ of Strap In.
+ Buko Capital posted,
+ Amazon cuts off Muse.
+ While I am bullish meta
+ and Muse,
+ I think many people
+ are overlooking
+ the digital knife fight
+ that's about to occur.
+ Nobody wants to get
+ commoditized
+ or layered here,
+ but the games begin.
+ MTS's Theo Jaffe
+ sees Balkanization
+ on the horizon.
+ He said,
+ this is an early sign
+ of agent wars.
+ There are going to be
+ some different agent
+ providers
+ and some of them
+ will be allowed
+ on some sites
+ and some of them
+ will be banned
+ on some sites.
+ Palo Alto Networks
+ Nikesha Rora writes,
+ this will be a bigger battle
+ than anyone anticipates.
+ It's only a matter
+ of time before
+ there is an Apple
+ and Google version
+ of Muse
+ and possibly TikTok
+ in addition
+ to the frontier
+ LLM agents.
+ Maybe a commerce agent
+ from Amazon.
+ Every app
+ that is a services,
+ marketplace
+ or commerce app
+ will need to
+ essentially decide
+ to open APIs
+ for consumer agents
+ to interact.
+ Smaller players
+ have no choice.
+ Ad revenues
+ are more
+ than transaction fees.
+ Either the consumer
+ benefits
+ or distribution aggregators
+ will demand
+ a higher transaction fare.
+ I don't know
+ I want an agent
+ for each app.
+ I would like
+ my agent
+ to be able
+ to do tasks
+ I require.
+ We can already
+ see consumers
+ getting trained
+ on that behavior
+ by the frontier labs.
+ Those with
+ network motes,
+ restaurants,
+ groceries,
+ drivers,
+ might be able
+ to withstand
+ for a while,
+ but over time
+ convenience
+ and end user experience
+ will win
+ and they will have
+ to align.
+ Content motes
+ protected by copyright
+ could decide
+ to allow agents
+ or choose to hold on
+ to the consumer
+ interaction.
+ I suspect other
+ than a feeling
+ of a lack of control
+ it won't change
+ their economics.
+ Commoditized back ends
+ will need to worry.
+ Insurance,
+ tickets,
+ hotels,
+ services.
+ If they don't
+ adapt,
+ new players will.
+ Nicholas Bustamante
+ again chimed in
+ the most insightful
+ thing I read
+ about technology
+ 11 years ago
+ was Ben Thompson's
+ aggregation theory.
+ Amazon blocking
+ news is another
+ perfect example.
+ Customers want
+ one agent
+ that knows them
+ and can get things done.
+ The platforms
+ being aggregated
+ want the opposite.
+ They want to own
+ the customer relationship
+ not become interchangeable
+ suppliers
+ behind someone
+ else's interface
+ and
+ they want to protect
+ their ad business.
+ Imagine groceries
+ your agent
+ can compare
+ Amazon,
+ Instacart,
+ DoorDash
+ and UberEats
+ then route every
+ order to the best option.
+ Amazon can block
+ that access
+ because it is
+ a gigantic company
+ but smaller players
+ have every incentive
+ to offer agents
+ a clean API
+ and a seamless
+ experience.
+ If Instacart
+ embraces agents
+ while Amazon blocks them
+ the agent will increasingly
+ route demand to Instacart.
+ Customers will be happy
+ and Amazon will eventually
+ face the dilemma.
+ Keep protecting
+ the relationship
+ or match the
+ better value proposition.
+ This will be
+ the defining tension
+ of the agent economy.
+ Aggregators realize
+ they are now
+ being aggregated.
+ Amazon will push
+ its own assistant
+ of course
+ but a vertical Amazon agent
+ will struggle
+ against a horizontal agent
+ that already knows
+ my email,
+ calendar,
+ preferences,
+ memories
+ and entire life context.
+ Many companies
+ will want to become
+ the aggregation layer
+ very few
+ actually can.
+ Many also pointed out
+ that for Amazon
+ there's basically
+ no choice here.
+ Tom Goodwin wrote
+ A lot of people don't get
+ that Amazon's customer
+ isn't the consumer.
+ They sell to suppliers
+ and vendors
+ to charge them
+ listing fees
+ and advertising.
+ It's often closer
+ to a shakedown
+ than customer marketing.
+ Retail margins
+ could be 0-3%.
+ Ad margins are 70%.
+ The idea they want
+ agents is laughable.
+ The reason the site
+ always looks awful
+ is that they don't
+ care about you
+ buying things
+ easier
+ or faster
+ or being more happy.
+ They want to monetize
+ your confusion.
+ Shilmona agrees
+ writing
+ I hate it as a consumer
+ but it's the right move
+ for Amazon.
+ Agents want to replace
+ the storefront
+ and level the playing field
+ but Amazon
+ is big enough
+ to say no.
+ Owning the customer
+ relationship
+ matters even more
+ than logistics
+ in my opinion.
+ Will be interesting
+ to see it
+ play out.
+ What people are
+ definitely understanding
+ is that this is
+ an opening salvo.
+ A16Z's Angela Strange
+ writes
+ this is just
+ the beginning
+ of the agent
+ and data wars.
+ Amazon cuts off
+ views.
+ Every platform
+ who has done
+ the hard work
+ of aggregating users
+ is trying to figure
+ out how not to become
+ dumb pipes.
+ Do they, one,
+ try to block the agents
+ but risk pissing off
+ their customers
+ in favor of only
+ their own agent experience?
+ Two, strike
+ business development
+ deals to at least
+ extract dollars
+ from the new
+ mode of agent
+ interaction
+ that accesses
+ their data
+ and platforms?
+ Three, something else?
+ Question mark?
+ Signal thinks
+ the answer is
+ number two
+ some form
+ a BD deal.
+ They write
+ the likely
+ resolution
+ to the meta
+ and Amazon fight
+ is some kind
+ of revenue sharing
+ agreement
+ where meta pays
+ Amazon
+ for agent access
+ through muse.
+ There is no doubt
+ the BD teams
+ are cooking here
+ on an agreement.
+ Facebook
+ likely is fine
+ eating the short term
+ cost
+ to make muse
+ relevant initially.
+ That may become
+ the first real
+ business model
+ for agents
+ interacting
+ with large platforms
+ where they pay
+ for access
+ to the service
+ potentially share
+ data
+ and maybe pay
+ a per user
+ or per agent
+ fee.
+ But if every
+ major platform
+ starts charging
+ agents for access
+ only companies
+ with enormous scale
+ can afford
+ to build truly
+ general agents
+ which would create
+ some big
+ motes
+ for already
+ large companies.
+ And Joseph Carlson
+ points out
+ that this isn't
+ something
+ that Amazon
+ can just
+ kick the can
+ down the road on.
+ He adds
+ Amazon
+ is going to
+ have to deal
+ with muse.
+ There's no way
+ around it.
+ Agents are not going
+ away.
+ Amazon
+ can't close
+ their eyes
+ and pretend
+ they don't exist.
+ Today
+ it's muse
+ next
+ it's chat
+ GPT's agent
+ then Anthropics.
+ Users
+ will adopt
+ these
+ in huge
+ numbers.
+ Amazon
+ will be forced
+ to develop
+ a verified
+ and approved
+ process
+ for allowing
+ agents
+ to shop
+ for customers.
+ And yet
+ Poggio
+ Labs
+ Matt
+ Slotnik
+ says
+ I wouldn't
+ overly read
+ into Amazon's
+ posture
+ regarding muse
+ right now.
+ Shopify
+ obviously
+ will play
+ nice
+ will be more demanding
+ about the relationship
+ because
+ they have
+ leverage.
+ Amazon
+ is not
+ anti-agent
+ nor are they
+ dead
+ because
+ they blocked
+ muse
+ in the first
+ week of
+ availability.
+ They're not
+ dumb
+ and they have
+ weight
+ to throw around.
+ And indeed
+ almost
+ prophetically
+ Shopify
+ did jump in
+ to be
+ the anti-Amazon
+ here.
+ On Monday
+ the company
+ announced a partnership
+ with Meta
+ to officially
+ support muse.
+ Similar
+ to their
+ partnership
+ with Openai
+ Shopify
+ will allow
+ muse
+ to access
+ their back
+ end directly
+ giving much
+ better search
+ performance
+ while optimizing
+ traffic.
+ Muse
+ will also
+ see official
+ support
+ agent
+ checkout
+ shop
+ pay
+ across all
+ Shopify
+ stores.
+ The announcements
+ are very
+ clearly
+ meant to be
+ a poke in
+ the eye
+ for Amazon.
+ Meta's chief
+ AI officer
+ Alexander
+ Wang
+ wrote,
+ we are
+ excited
+ for muse
+ to be partnering
+ deeply
+ with Shopify
+ to enable
+ agent
+ checkout
+ with shop
+ pay
+ on all
+ Shopify
+ stores.
+ We want to give
+ our musers
+ access to
+ a wide range
+ of stores
+ to find
+ the absolute
+ perfect products.
+ Mark Zuckerberg
+ even weighed in
+ on X
+ writing,
+ teaming up
+ with Shopify
+ to make shopping
+ and checkout
+ easier
+ in Muse.
+ Shopify's
+ find more.
+ Shop
+ partnerships like
+ this coming
+ soon.
+ Now I think
+ it would be
+ easy to be
+ a bit
+ dismissive
+ of this,
+ believing
+ that while
+ yeah,
+ there's
+ a cool opportunity
+ for Shopify
+ to get
+ out ahead
+ on
+ agent
+ shopping.
+ This is not going
+ to somehow
+ allow them
+ to overtake
+ Amazon
+ which is one
+ of the largest
+ retailers
+ in the world.
+ And yet
+ I continue to
+ think that
+ the significance
+ of Shopify
+ is
+ wildly
+ underestimated
+ on
+ just
+ about every
+ dimension.
+ I know for
+ myself
+ and for
+ many others
+ for
+ basically
+ anything
+ that's
+ not on
+ Amazon.
+ If there's
+ not
+ a shop
+ paylink
+ which can pull up
+ all my information
+ automatically
+ without another
+ login.
+ I'm
+ probably just
+ not buying
+ for that
+ outlet.
+ In fact
+ one of my
+ more
+ out there
+ predictions
+ for 2026
+ was
+ Shopify
+ being one
+ of the most important
+ platforms
+ when it comes
+ to general
+ AI
+ adoption
+ with my
+ logic being
+ that
+ so many
+ small business
+ entrepreneurs
+ now
+ use
+ Shopify
+ that
+ it was a place
+ where a lot
+ of people
+ who might
+ otherwise be
+ inclined
+ to go along
+ with the tide
+ of
+ disliking
+ AI
+ would find
+ out
+ how
+ valuable
+ the tools
+ were
+ when it came
+ to everything
+ surrounding
+ their own
+ small
+ businesses.
+ Still
+ underlying
+ all of this
+ is a question
+ about
+ how much
+ agentic
+ shopping
+ is actually
+ going to
+ matter.
+ I've
+ always been
+ fairly skeptical
+ that the
+ sort of
+ food ordering
+ and airplane
+ ticket
+ buying
+ use cases
+ that people
+ have pitched
+ for
+ years
+ as their
+ demonstrated
+ use cases
+ for personal
+ AI.
+ We're actually
+ going to move
+ the needle
+ when it came
+ to getting people
+ to adopt
+ new tools.
+ In addition
+ to those things
+ just not
+ being all
+ that difficult
+ or at least
+ when it comes
+ to something
+ like flights
+ it being
+ at least
+ as difficult
+ to explain
+ all of
+ the nuanced
+ conditions
+ that you
+ have
+ to an agent
+ as it is
+ to just
+ look on the
+ flight website
+ itself
+ there's also
+ the fact that
+ for many people
+ the browsing
+ and discovery
+ is part of the
+ value of a
+ shopping
+ experience.
+ Now of course
+ we don't
+ have to view
+ shopping
+ as a monolith
+ and if someone
+ argued to me
+ that even
+ for the most
+ excited shoppers
+ there are
+ going to be
+ types of shopping
+ experiences
+ that they don't
+ care at all about
+ and are basically
+ time-wasting
+ for them
+ I would probably
+ agree.
+ But I'm
+ certainly not
+ the only one
+ to have
+ some amount
+ of skepticism
+ around agentic
+ shopping.
+ Ron Johnson
+ Apple's
+ Retail Guru
+ recently commented
+ in an interview.
+ AI is a new technology
+ that will improve
+ the online shopping
+ experience.
+ But I don't know
+ that it's going
+ to change
+ which way we shop.
+ Upstart founder
+ Jave Gerard
+ wrote,
+ I'm skeptical
+ muse in the
+ like will go
+ mainstream
+ with consumers
+ 99% of
+ what I buy online
+ is via Amazon
+ Shopify
+ Instacart
+ and DoorDash.
+ I'm not sure
+ an agent
+ will make those
+ purchases
+ any simpler
+ more pleasing
+ more automated
+ or meaningfully
+ less expensive.
+ Same with restaurants
+ and travel.
+ My view
+ is that the
+ winners in consumer
+ agents
+ will be those
+ tied to the dominant
+ devices
+ i.e.
+ Apple and Google
+ who can make
+ hundreds of
+ small moments
+ in your day
+ easier.
+ Apple
+ oven CEO
+ Adam
+ Farogi
+ says.
+ The reality is
+ part of the
+ world will start
+ using things
+ like agents
+ to optimize
+ certain shopper
+ behavior.
+ For instance
+ I might put
+ my supplement
+ subscription
+ into an agent
+ and have it
+ optimized
+ every single month
+ and delivered
+ on time.
+ But these discovery
+ platforms aren't
+ that
+ and the typical
+ shopper
+ is not the person
+ who's deep into
+ agents
+ and sitting
+ on Twitter
+ and adopting
+ the latest
+ technology.
+ There's
+ still a ton of
+ people using
+ Yahoo properties
+ every single day.
+ The typical
+ shopper
+ wants to find
+ a product
+ they want to window
+ shop
+ they want to
+ go through
+ the transaction
+ experience
+ they want to track
+ it.
+ And if you told
+ them after the
+ fact
+ hey
+ an agent
+ could have
+ done this for you
+ and saved you
+ 20%.
+ I don't think
+ that matters
+ on a
+ $50
+ transaction
+ because the
+ dopamine hit
+ from going
+ through it
+ is what
+ they enjoy.
+ Still like
+ so much
+ of AI
+ this is another
+ area where
+ I think epistemic
+ humility
+ is greatly
+ required.
+ Although I
+ have some amount
+ of skepticism
+ around
+ the power
+ of agentic
+ shopping
+ as a conversion
+ experience
+ for users
+ to adopt
+ AI agents.
+ My confidence
+ in that assessment
+ is not high.
+ And push comes to shove
+ whatever combination
+ of dealing
+ with your email
+ or unsubscribing
+ or buying things
+ the personal agent
+ experience is being
+ driven by
+ the success
+ of Muse
+ is going to be
+ fairly
+ unignorable
+ for the other
+ AI labs.
+ Indeed
+ the information
+ reports that
+ open AI
+ is working on a
+ personal agent
+ to compete
+ with grokbot
+ and have
+ discussed a
+ Muse competitor
+ as well.
+ AI leaker
+ Tibor Blaho
+ suggested
+ we could be
+ getting open
+ AI's agent
+ pretty soon
+ leaking some
+ platform code
+ associated
+ with an agent
+ called
+ Aeon.
+ AI news
+ aggregator
+ Andrew Curran
+ believes Aeon
+ could be launched
+ this Thursday
+ as one
+ of the big releases
+ for open
+ AI's dev day.
+ Now one
+ of the interesting
+ dimensions of open
+ AI
+ launching a dedicated
+ personal agent
+ is that
+ codex
+ already
+ could do
+ everything
+ a user
+ would want.
+ It can
+ triage emails
+ handle a
+ calendar
+ or even shop
+ for you.
+ But as the
+ information
+ puts it
+ many open
+ AI users
+ aren't necessarily
+ aware of these
+ features
+ and it's
+ safe to say
+ SpaceX
+ and META
+ have stolen some
+ thunder
+ with their respective
+ agent products
+ in recent weeks.
+ In other words
+ there are
+ certain use
+ cases for
+ AI
+ were being
+ at the absolute
+ state of the art
+ is all that
+ matters.
+ But when it comes
+ to agent management
+ you got to have
+ a user
+ experience
+ that people
+ understand
+ and that
+ leaves them with
+ something
+ more than a
+ blank
+ page.
+ I think it is
+ likely that
+ we get a
+ lot more
+ on this topic
+ very soon.
+ For now though
+ that is the story
+ Agent Wars
+ have begun
+ and that's
+ going to do it
+ for today's
+ AI Daily
+ Brief.
+ Appreciate you
+ listening or watching
+ as always
+ and until
+ next time
+ peace.
