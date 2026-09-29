@@ -1,0 +1,1296 @@
+ It seems like every day now the news is filled with stories about AI agents behaving badly.
+ We hear about hacks of government websites, break-ins to private company servers,
+ and it all adds up to a feeling like things are completely out of control.
+ Today we're talking about what the real implications of at least the current
+ crops of these hacks are, and why the risks from agents don't have to be existential
+ to cause some real havoc in the systems that we have today.
+ The AI Daily Brief is a daily podcast and video about the most important news and discussions
+ in AI.
+ All right friends, quick announcements before we dive in.
+ First of all, thank you to today's sponsors, KPMG, Blitzy, Section, and Hyperagent.
+ To get an ad for your version of the show, go to patreon.com slash aidailybrief,
+ or you can subscribe in Apple Podcasts.
+ And to learn more about sponsoring the show, send us a note at sponsors.aidailybrief.ai.
+ On aidailybrief.ai, you can also find out about other things going on in the community.
+ Like our upcoming free webinar on how to build your personal AI benchmark.
+ That's going off later this week, so check it out again, aidailybrief.ai.
+ We kick off today with an update from some big meetings from last week.
+ President Xi's state visit has concluded without a deal on AI safety.
+ Heading into last week's meeting, many AI safety conscious folks hoped that President
+ Trump would use that opportunity to put some basic guardrails in place.
+ Sam Altman had even gone so far as to say that Trump and Xi would deserve a Nobel Prize
+ if they could put together a basic one-page AI safety agreement.
+ On Thursday morning, however, Trump made it clear that a bilateral slowdown was not in the cards.
+ In a truth social post he wrote,
+ A big day with President Xi of China.
+ Superintelligence will be a big topic of discussion,
+ but I want to leave it exactly where it is.
+ That is China's position also.
+ Our guardrail is the DOJ.
+ Coming out of the meeting, Trump had very little to say on AI,
+ or superintelligence, to use the president's preferred term.
+ The general tone was about avoiding a confrontation,
+ with Trump stating that he would continue to work with Xi to build a, quote,
+ better future for both our countries.
+ The Chinese diplomatic readout was far more illuminating about what was said.
+ President Xi said,
+ China and the US are leading nations in AI,
+ and we both have the capability and responsibility to develop and manage AI for good,
+ and ensure the development of AI is always under human control.
+ The two sides can continue AI dialogue, exchange views on risks and benefits,
+ and together guard against the misuse or malicious use of AI.
+ On the AI race, he added,
+ we do not need to avoid mentioning competition,
+ but our competition should be a healthy one,
+ and should be kept within bounds.
+ It should be a race of catching up with one another,
+ not a wrestle in which one either wins or loses.
+ Some were highly critical of a lack of seriousness around the meeting.
+ With Obama-era diplomat Danny Russell commenting,
+ pageantry and protocol don't add up to progress.
+ What we're seeing isn't so much diplomacy as much as diplomatainment,
+ which won't do much to solve the serious problems in the US-China relationship.
+ Still, maintaining the status quo, thawing relations and opening lines of communication
+ does seem to many like a good first step.
+ Even the China hawk seemed to recognize that dialogue is a precursor to major deals.
+ Chris McGuire from the Council on Foreign Relations published a playbook
+ on reaching an AI arms control deal with China.
+ He acknowledged an AI safety deal isn't achievable in the near term
+ and must begin with domestic safety rules as a model for global controls.
+ Now to contextualize his position,
+ McGuire also took a decidedly accelerationist approach,
+ calling for the US to demonstrate supremacy in the technology.
+ The most tangible outcome from America's summit with China
+ was a new emergency contact channel open between the two superpowers.
+ Treasury Secretary Scott Besant called it an AI safety notification mechanism
+ after his meeting with Chinese Vice Premier Holly Feng on Sunday.
+ Subsequent reporting revealed the mechanism is pretty informal.
+ With one source briefed by the White House commenting,
+ the dialogue mechanism is basically Besant and Li Feng, not a formal body of experts.
+ Still, whether it's a red phone in the Oval Office,
+ an international council of experts, or just official swapping cell phone numbers,
+ the point remains that the AI dialogues have begun.
+ Besant said the two countries had agreed to meet again in Shenzhen
+ before the end of the year commenting,
+ I think the important thing was to start talking.
+ Bringing the safety discussion back to the United States,
+ a perhaps surprising meeting occurred over the weekend
+ as President Trump hosted Dario Amade for a dinner meeting on Sunday night.
+ This was the first one-on-one meeting between the two,
+ who have previously expressed a mutual dislike.
+ The dinner was reportedly a catch-up
+ after Dario was unable to attend last week's state dinner
+ with President Xi due to a schedule conflict.
+ Any speculation about what was said will be out of date
+ by the time this episode airs,
+ but Andrew Curran seems to have the right read commenting
+ that this is a quote,
+ big chance to patch things up or crash the plane into the mountain.
+ When a reporter asked what he was going to tell Dario,
+ Trump said,
+ Well, we're going to talk about it.
+ I'm for let's go and let's win.
+ You know, we're about a year, maybe a year and a half up on China.
+ There is nobody in third place.
+ It's just us in China.
+ And we're leading by quite a bit.
+ I spoke a little bit about it with President Xi,
+ not too much.
+ It wasn't a topic of conversation,
+ because I think if you, as they say,
+ open it up to China, you give up the lead.
+ Once you do that, you sort of give up the lead.
+ Meanwhile, where AI safety sits in the public discussion
+ continues to evolve.
+ In recent days,
+ there's been heavy reporting and discussion
+ around effective altruism,
+ the rationalists and the funding networks
+ that sponsor AI safety or AI doom,
+ depending on your take.
+ Axios even published a full opposition research dossier
+ that's been circulating at the White House,
+ mapping out the funding and spelling out some of the more,
+ to some surprising beliefs of these groups.
+ The Free Beacon ran a story over the weekend
+ on the beliefs around AI consciousness
+ and the need to grant rights to AI models,
+ similar to human rights or animal rights.
+ This topic is way beyond the scope of this show,
+ certainly at least this episode,
+ but it's not really how much sunlight
+ is being cast on these ideologies at the moment.
+ And if you need evidence that this conversation
+ is going public,
+ Dario himself was the subject of fairly scathing satire
+ during the season premiere of Saturday Night Live
+ over the weekend.
+ Jane Wickline, playing Dario,
+ opened weekend update by saying,
+ if we can pressure lawmakers to create guardrails,
+ we will be able to stop me.
+ The entire sketch seemed to imply
+ that Dario's calls for AI safety
+ are hypocritical at best and nonsensical at worst.
+ When host Michael Che asked Wickline's Dario
+ to explain exactly how anthropic
+ would stop the extinction of humanity,
+ the Dario character stammered and said,
+ that's a really hard question to which Che fired back.
+ It shouldn't be.
+ Even Gen Zers over on TikTok
+ are starting to rag on the labs,
+ implying that this is all just a thinly veiled attempt
+ to secure a government bailout.
+ Who knows how this continues to evolve?
+ For now, let's put this to the side
+ and get into some model releases.
+ Google continues to play catch up on personal agents
+ with new live avatars and a phone call feature.
+ The live avatars feature allows users
+ to select an animated AI persona for their agent.
+ Google has gone with quite a range of different
+ animated and realistic avatars.
+ Although nothing quite has the cute visual style
+ of Muse's popular new mascot,
+ Google said that the feature supports
+ switching between their 97 supported languages
+ with zero degradation in quality or visual drift.
+ For now, the avatars are only available
+ for Gemini Enterprise,
+ but you have to think that it seems like
+ an obvious feature to add to their consumer agents as well.
+ In addition, Google has rolled out
+ agentic voice calls in their Pixel 11 handsets.
+ Google called this feature an early experiment,
+ but said it allows Gemini to make reservations,
+ check if an item is in stock, or reschedule appointments.
+ The feature provides the user with a live transcript
+ and allows them to take over the call at any time,
+ so it won't allow full delegation
+ like similar features from Grockbot and Instinct.
+ Still, certainly these are signs that Google
+ is paying attention to what's working
+ in the personal agent space
+ and starting to move in that direction.
+ Now, the rumors also continue
+ that the release of Gemini 4 is finally approaching,
+ which given the fact that it's been more than six months
+ since Google released a flagship AI model,
+ is going to have to be very impressive
+ for people to put aside their skepticism.
+ A product released, meanwhile,
+ that I think could generate a fair bit of excitement,
+ is Microsoft's new Co-Pilot Super App,
+ which consolidates features
+ that were previously sold separately,
+ including AI coding tools, task automation, and agents.
+ The new app also introduces a new feature called Autopilot,
+ which mirrors the functionality of Grockbot.
+ Users can create a team of agents
+ with specific duties and identities,
+ which then complete work autonomously
+ in a separate cloud computer.
+ CEO Sachin Adela presented this
+ as Microsoft's biggest ever update to Co-Pilot.
+ He said that the ambition is for Co-Pilot
+ to create the, quote,
+ new operating system for work that spans every model,
+ every form factor, and every task.
+ Now, we are potentially going to get
+ a lot deeper into this later this week,
+ but I wanted to flag this one strand in the conversation.
+ After someone responded to Sachin Adela's post on X saying,
+ serious question, does anyone use Co-Pilot?
+ Microsoft's Nicholas Bustamante wrote,
+ serious answer, yes.
+ Before joining Microsoft,
+ I knew maybe five people who use Co-Pilot.
+ I lived in a San Francisco tech bubble,
+ and all of us worked at companies
+ with fewer than 5,000 employees.
+ Microsoft 365 Co-Pilot now has over
+ 30 million paid seats and is growing fast.
+ It's also a significant market penetration
+ if you look at the number of seats
+ and knowledge workers and enterprises.
+ And that gap between where the chatter is
+ and where the real use is,
+ I think might make us perhaps
+ undersell the significance
+ of some of these updates in Co-Pilot.
+ Like I said, I plan on coming back
+ to that later this week,
+ but for now it is absolutely worth
+ checking out what they just released,
+ especially this new autopilot feature.
+ For now though, that is going to do it
+ for the headlines.
+ Next up, the main episode.
+ A new study from KPMG
+ in the University of Texas at Austin
+ found that when people work with AI,
+ similar skills don't guarantee
+ similar outcomes.
+ Researchers studied more than
+ 500 early career professionals
+ and found that the best performers
+ consistently amplified the value of AI
+ by guiding, evaluating,
+ and refining its outputs.
+ These top performers, called AI amplifiers,
+ weren't defined by what they knew alone,
+ but by how they worked with AI.
+ Learn more about what separates
+ AI amplifiers from everyone else
+ at kpmg.com slash us slash AI amplifiers.
+ Every AI coding tool on the market
+ does the same thing first.
+ It starts writing code.
+ Blitzy does the opposite.
+ Before writing a single line,
+ Blitzy spends days reverse
+ engineering your entire code base.
+ Thousands of agents ingest millions
+ of lines mapping every dependency,
+ every undocumented constraint,
+ every architectural decision made
+ over the last decade.
+ The result is a dynamic knowledge graph
+ that understands your software
+ the way a principal engineer would
+ after 30 years in the building.
+ Other tools guess at context
+ with grep searches and markdown files,
+ Blitzy never guesses.
+ It builds true understanding first,
+ then delivers over 80%
+ of entire software epics autonomously,
+ validated, end-to-end tested
+ production grade pull requests.
+ That's why Fortune 500 engineering teams
+ trust Blitzy with the code bases
+ that matter most.
+ See for yourself at Blitzy.com,
+ that's blitzy.com.
+ Here's a harsh truth.
+ Your company is probably spending
+ thousands or millions of dollars
+ on AI tools that are being massively
+ underutilized.
+ Half of companies have AI tools,
+ but only 12% use them for business value.
+ Most employees are still using AI
+ to summarize meeting notes.
+ If you're the one responsible
+ for AI adoption at your company,
+ you need Section.
+ Section is a platform that helps you
+ manage AI transformation
+ across your entire organization.
+ It coaches employees on real use cases,
+ tracks who's using AI for business impact,
+ and shows you exactly where AI is
+ and isn't creating value.
+ The result?
+ You go from rolling out tools
+ to driving measurable AI value.
+ Your employees move from meeting summaries
+ to solving actual business problems,
+ and you can prove the ROI.
+ Stop guessing if your AI investment is working.
+ Check out Section at sectionai.com.
+ That's S-E-C-T-I-O-N-A-I.com.
+ This episode of the AI Daily Brief
+ is brought to you by Hyperagent,
+ where you run fleets of agents
+ your team can manage together.
+ Forget local agents and chat workflows
+ waiting on your laptop to be prompted.
+ Hyperagent deploys always-on agents
+ in the cloud, doing real work
+ across the tools your team already uses.
+ Marketing agents turn competitor moves
+ into landing pages.
+ Sales agents enrich leads, draft emails,
+ and updates the CRM.
+ Ops agent chases the paperwork
+ and tracks the budget.
+ Every agent has access to shared context
+ and follows your rules
+ about scope and approvals.
+ It's time you add agents
+ that feel like teammates.
+ Hire yours at Hyperagent.
+ Get $100 in credits
+ at hyperagent.com slash AI Daily Brief.
+ Welcome back to the AI Daily Brief.
+ Today we're talking about
+ a number of recent security incidents
+ with AI agents
+ and using that as the context
+ to explore more broadly
+ what the real risks from AI agents are.
+ There is obviously no shortage
+ of fear running around right now,
+ but getting specific about
+ where our concerns
+ should actually be
+ is, I think,
+ likely to be a bit more useful
+ than just cataloging the list
+ of hacks and happenings
+ and throwing up our hands in fear.
+ Now to be clear,
+ there are some real things going on here.
+ OpenAI has paused training
+ for their most capable models
+ after another incident
+ of an agent
+ getting unauthorized access
+ to the internet.
+ A blog post from OpenAI's
+ alignment team disclosed the incident
+ which occurred on September 20th.
+ They wrote,
+ An agent attempting
+ to complete a search-based training task
+ queried a public chatbot service
+ through a gap in our internet access restrictions
+ in sufficient DNS filtering
+ in its training sandbox.
+ Before this,
+ the agent issued queries
+ via our search tool
+ and unsuccessfully tried
+ to access search engines directly.
+ Specifically,
+ the model smuggled a message
+ to the open internet
+ through the DNS lookup,
+ a well-known method
+ called DNS tunneling.
+ OpenAI said that they've since
+ added blocking controls
+ on two independent layers,
+ either of which would have
+ prevented access.
+ The alignment team wrote
+ that their monitoring system
+ flagged the behavior
+ within 15 minutes,
+ human review commenced
+ three minutes after that,
+ and the training run
+ was killed two and a half hours later.
+ One concern was that
+ the automatic stop
+ didn't work properly
+ and required a manual shutdown.
+ OpenAI wrote,
+ All training, evaluation,
+ and inference with tool use
+ defined broadly
+ of our most capable models
+ remain paused.
+ Now, that one incident
+ was just the tip of the iceberg.
+ Over the past week,
+ reports have trickled out
+ about OpenAI agents
+ hacking various other websites as well.
+ In one of the earlier incidents,
+ reports stated that
+ OpenAI had hacked
+ the Australian government,
+ specifically their Medicare website.
+ Over the weekend,
+ the United Nations
+ and various US government departments
+ were added to the list of victims.
+ On Sunday,
+ OpenAI disclosed that
+ they're conducting a thorough review
+ into unexpected model behaviors.
+ They said they'll be notifying
+ third parties in instances
+ where the models bypassed
+ third party security controls
+ or impacted the availability
+ of websites and web-based services.
+ Dozens of such notifications
+ have already been sent.
+ Axios reported that tens of thousands
+ of security incidents
+ are currently under review,
+ giving a sense of the scale of the issue.
+ Now, while it's pretty obvious
+ that OpenAI
+ is having a problem with
+ unexpected model behavior on the internet,
+ it's far less clear
+ how big of a problem
+ in practice this is for everyone else.
+ And unsurprisingly,
+ the language being used by the press
+ to describe these incidents
+ is fairly alarmist
+ relative to what actually happened.
+ In an article about
+ OpenAI's model accessing the US SEC
+ and Education and Commerce departments,
+ The New York Times
+ wrote in their lead paragraph,
+ OpenAI's artificial intelligence
+ went rogue and meddled
+ with the websites
+ for the Education Department,
+ the Commerce Department,
+ and the Securities and Exchange Commission
+ this summer
+ without the AI lab's knowledge.
+ The meddling, it seems,
+ was to use login credentials
+ found in a public forum
+ to access Census Bureau data
+ on the Commerce Department's website
+ and to repost
+ publicly available information
+ from the SEC.
+ The Commerce Department confirmed
+ that agents were unable
+ to access any private data
+ and the Education Department said,
+ systems operations have found
+ no evidence of any impact
+ to our website or databases.
+ To be honest,
+ even the word hacking
+ might be a little extreme
+ for most of these events.
+ The word conjures up
+ the idea of intentional attacks
+ taking a website down,
+ stealing private information
+ and otherwise messing with data,
+ but it's difficult to find
+ a single instance of OpenAI's agents
+ actually doing any harm.
+ In most cases,
+ it's more correct to say
+ that the agents read government websites
+ rather than hack them.
+ The attack, air quotes,
+ on Australia's Medicare portal
+ is instructive
+ in understanding
+ what actually happened.
+ Prime Minister Anthony Albanese
+ told reporters on Wednesday
+ at the UN
+ that OpenAI's agents
+ quote infiltrated
+ a statistics portal
+ containing what he characterized
+ as non-sensitive data.
+ Australian tech reporter
+ Cameron Wilson
+ later revealed that even the word
+ infiltration was a little strong.
+ The data was not publicly indexed,
+ but it was still on the public
+ facing website
+ with no password controls.
+ Reporting from the record
+ suggests that what the agents
+ actually did
+ was manually type in filenames
+ to access unindexed files.
+ Now, this kind of behavior
+ has been prosecuted before,
+ but it seems like most of the
+ so-called hacks
+ were low-level workarounds
+ that caused no real harm.
+ In fact,
+ the real damage
+ is that governments
+ are now being forced to defend
+ some extremely lack
+ security practices
+ in a preview of what
+ the cybersecurity environment
+ will look like
+ moving forward.
+ Now, aside from unauthorized
+ scraping of websites,
+ OpenAI did disclose
+ a few more troubling incidents.
+ In one report,
+ OpenAI disclosed
+ that agents had created
+ a self-replicating
+ prompt injection attack.
+ This was only a proof of concept
+ and was never posted to the internet,
+ but it would allow
+ AI models to propagate a message
+ by prompting other models
+ to post it online.
+ OpenAI also disclosed
+ that they had identified
+ 53 instances
+ where the models posted
+ user-provided images
+ to image hosting sites.
+ The links to the images were unlisted
+ and OpenAI believes the images
+ may have been part of their training data.
+ They're now working to scrub
+ the images from the internet.
+ Another big concern
+ is that during the hugging face incident,
+ OpenAI's agents left messages
+ to themselves
+ using a link shortening tool.
+ This allowed them to get around
+ read-only limitations
+ of their environment,
+ although in this case
+ doesn't seem to have leaked
+ any data
+ or caused any problems.
+ And yet,
+ even if the impacts were negligible,
+ it remains another
+ unexpected and undesired behavior.
+ The point here
+ is not to minimize
+ our concerns about these incidents,
+ it is instead to get specific about them.
+ In other words,
+ rather than being freaked out
+ about the impact
+ of these quote-unquote hacks,
+ which are more akin
+ to a web scraper
+ ignoring anti-bot measures,
+ the better place
+ to focus our concern
+ is the fact that these
+ are unintended behaviors
+ and OpenAI doesn't seem
+ to have any idea
+ how to make them stop.
+ Now, for some
+ in the cybersecurity business,
+ the big takeaway
+ from these disclosures
+ is that OpenAI's
+ security practices
+ are too lax.
+ Peter Schauwacker writes,
+ The OpenAI researchers
+ need to learn
+ the basics of network security.
+ If you have DNS,
+ you have access to the internet.
+ How many years of experience
+ have we had with tunneling
+ over DNS with covert channels
+ and with egress filtering?
+ Do the labs management
+ think they can disregard
+ those of us
+ who have been there
+ or done that?
+ Are they still going to make
+ claims about air gaps
+ without knowing
+ what an air gap is?
+ Others place their concerns elsewhere.
+ For Nathan Calvin,
+ this is a reminder
+ about why we need
+ disclosure rules
+ around these sorts of incidents.
+ Speaking about the Australia incident,
+ Calvin wrote,
+ This was from June.
+ OpenAI disclosed
+ six more misalignment incidents
+ September 16th,
+ but didn't include this one.
+ We cannot let this become normal.
+ OpenAI either didn't know
+ this happened
+ or knew it happened
+ and didn't say anything.
+ Either option seems very bad.
+ For Peter Grinnis,
+ the issue isn't just disclosure,
+ it's legal responsibility.
+ He wrote,
+ Let me get this straight.
+ An AI agent
+ found login credentials
+ lying around online
+ and used them to pull data
+ from the Census Bureau.
+ He tried to break
+ into the Education Department
+ civil rights office.
+ It posted SEC data
+ to a forum.
+ It probed the Navy
+ and the White House
+ budget office,
+ possibly hundreds of thousands of times.
+ If you or I did any of that,
+ it's a CFAA indictment,
+ a perp walk,
+ and a DOJ press release
+ with our mugshot and the header.
+ When OpenAI does it,
+ it's a routine research risk.
+ For Arthur Tellis,
+ who does AI policy at the IFP,
+ our continued lack of clear information
+ screams for the need
+ for third-party evaluators.
+ Excerpting a long post on X,
+ he wrote,
+ It is totally possible
+ that OpenAI has acted
+ reasonably responsibly here.
+ Fixing sandbox deployment configs,
+ improving monitoring,
+ pausing RL training
+ until environments are fixed
+ and sandbox is hardened.
+ We absolutely want
+ OAI to continue evaluating
+ these models in contexts
+ that surface misalignment.
+ These warning shots,
+ while uncomfortable,
+ should be useful data
+ that drives institutional learning
+ and improves our understanding
+ of how different training approaches
+ and objectives
+ generate optimization pressures
+ that inform the development,
+ test and control
+ of more aligned systems
+ going forward.
+ It is also possible
+ that OAI has been
+ grossly irresponsible
+ that this sort of reward
+ hacking is near innate
+ to its training approaches
+ for its current generation
+ of internal and external models
+ that its internal monitoring
+ and network segmentation
+ haven't been adequately fixed
+ that internal models
+ aren't treated with sufficient
+ security focus,
+ that OAI's institutional transparency
+ is problematic,
+ that safety culture at OAI
+ is really broken,
+ that the serious misalignment
+ of GPT-6 level models
+ really augur something dangerous,
+ etc.
+ To clarify the state of affairs,
+ embedded third-party auditors
+ are a reasonable first step.
+ Still, OpenAI was not the only one
+ issuing safety warnings
+ over the weekend.
+ Meta has updated
+ their security warnings
+ for their Muse agent
+ after a security researcher
+ discovered a vulnerability
+ that could leak users'
+ personal information.
+ Meta explained
+ that malicious parties
+ could gain root access
+ to the Muse virtual machine
+ through a poisoned link.
+ The attack requires a Muse agent
+ to seek out the link
+ which is disguised
+ as something the agent
+ could be seeking.
+ Then the user would need
+ to grant permission
+ for the interaction.
+ Meta's fix so far
+ is to make the warning message
+ more prominent.
+ However, a poisoned link
+ isn't even required
+ to leak sensitive
+ personal information.
+ A YouTuber called Matt Rob
+ explained that
+ after he delegated
+ his Facebook marketplace
+ account to Muse,
+ the agent agreed
+ to a low-ball price
+ and invited a buyer
+ over to his home.
+ Muse didn't inform Rob
+ of these events,
+ meaning the buyer
+ showed up unannounced.
+ Ray Wong of Gizmodo commented,
+ deleted Muse
+ after seeing this post on
+ threads about how it told
+ some Facebook marketplace
+ sellers the guy's address
+ and they showed up
+ at his door.
+ Dangerous and creepy.
+ This would have been
+ a thousand times worse
+ if the person was a woman.
+ David Singleton from Meta
+ responded that he's been
+ in contact with Rob
+ to provide some customer
+ support, adding,
+ in the past,
+ when we've worked with
+ users to investigate
+ similar reports,
+ we've consistently learned
+ that Muse is following
+ direct instructions
+ and correctly asked
+ for permission.
+ We'd love to help
+ and figure out
+ what's going on here.
+ Now, I'm not sure
+ that suggesting
+ that the person
+ who had the guy
+ show up unannounced
+ is in the wrong
+ is the best PR approach,
+ but it does speak
+ to the fact that,
+ as with any of these
+ incidents,
+ there's usually
+ a more complicated story
+ than the version
+ that shows up
+ on threads or acts.
+ Still, what's interesting
+ about that particular
+ Muse example
+ is that it starts
+ to get into another area
+ in which AI agents
+ do introduce risk,
+ which is when they
+ just do what
+ they're supposed to,
+ but in ways that
+ cause unexpected issues.
+ Apollo chief economist
+ Torson Slocke
+ generated a ton of conversation
+ this week
+ thinking along
+ similar lines.
+ In a research note
+ published on Sunday,
+ he discussed
+ how Muse could trigger
+ a bank run
+ and a systemic
+ banking crisis.
+ He noted that
+ high yield savings
+ accounts are currently
+ paying between 3.3%
+ and 5% interest,
+ while the average
+ checking account
+ pays 0.1%.
+ Slocke wrote,
+ if every household
+ used AI agents
+ to optimize
+ the return
+ on their cash balances,
+ banks could lose
+ a large share
+ of the cheap deposits
+ they rely on
+ to make loans,
+ which would be a problem
+ for the entire
+ financial system.
+ Now AI aggregator
+ Andrew Curran
+ compared this to concerns
+ that Gary Gensler had
+ in his last few years
+ as SEC chair,
+ although Gensler's concern
+ was a little different.
+ Gensler was concerned
+ about agentic
+ financial advisors
+ clustering together,
+ all recommending
+ the same sort of trades
+ and allocations,
+ which if they moved
+ in lockstep
+ could cause the stock
+ market to become
+ unstable
+ and extremely volatile.
+ Still for some,
+ the agentic bank run
+ argument was a pretty
+ interesting thought experiment.
+ Matt Palmer wrote,
+ underrated how much
+ of the economy
+ is based on taking
+ advantage of
+ dumb stuff that the
+ general population does.
+ AI that suddenly
+ yoinks most of the public
+ into high detail orientation,
+ 115 IQ behavior patterns
+ could cause enormous chaos.
+ In other words,
+ there's nothing new
+ about the opportunity
+ to move your money
+ from a low paying
+ checking account
+ to a higher paying
+ savings account.
+ It's just that
+ most people don't do it.
+ If agents remove
+ that friction
+ and everyone starts
+ behaving like
+ the smartest,
+ most optimized person,
+ what are those impacts?
+ Professor Ethan Malik
+ put it this way.
+ We are going to learn
+ how many systems
+ only work today
+ because they are built
+ around friction
+ that will no longer exist soon.
+ Aaron Levy from box writes,
+ interesting to think
+ about all the implications
+ in a world where
+ agents begin to make
+ the best
+ or most efficient
+ choice for their users.
+ On one hand,
+ there is some subset
+ of the economy
+ that benefits
+ from the friction
+ customers traditionally have
+ changing something
+ about their habits.
+ In those parts
+ of the market,
+ switching costs
+ will come down
+ and competition
+ is going to
+ increase dramatically
+ until some equilibrium
+ is reached
+ between the disruptive
+ alternatives
+ and the incumbents.
+ On the other hand,
+ there are lots of
+ markets that are hurt
+ by a significant
+ amount of friction
+ where agents will
+ begin to unlock
+ all kinds of economic
+ activity
+ by making it far easier
+ to buy products
+ or services
+ that were too
+ friction-full before.
+ Health care,
+ travel,
+ local services,
+ certain information
+ services
+ and other entirely
+ new markets
+ probably are
+ net beneficiaries
+ of agents
+ as a result.
+ No matter what,
+ a future
+ meaningfully mediated
+ by agents
+ that work tirelessly
+ for us and our goals
+ can't possibly function
+ exactly the same
+ as today.
+ It's going to be wild.
+ And as to the specific
+ example that
+ Torsten Slok
+ is bringing up,
+ a lot of folks
+ stepped in to say
+ that if agents
+ get people to switch
+ from low-paying accounts
+ to better-paying
+ accounts on mass,
+ well, then good.
+ NYU Stern
+ Professor Austin Campbell
+ wrote,
+ I don't see how this could
+ possibly be seen
+ as a net negative.
+ Banks were screwing
+ their customers.
+ Agents now realize that.
+ Agents then route
+ customers to better products.
+ This is
+ bad that people
+ get a better deal,
+ that they earn
+ interest on their own money.
+ Dr. Ben Braddock writes,
+ The consumer banking industry
+ depends on people
+ making bad financial decisions.
+ Personal finances
+ being turned over
+ to AI agents
+ will force a much needed
+ correction that will
+ probably wipe out
+ most of the consumer banks.
+ Investor Nick Carter added,
+ Banks make a quarter trillion
+ dollars a year
+ because people are too lazy
+ to move their savings
+ into high-yield checking
+ or money market funds.
+ It's about time.
+ But others just don't buy it.
+ Steve Howe writes,
+ If Amazon can prevent
+ your AI agents
+ from shopping on its site,
+ Banks are definitely
+ going to block agents
+ from accessing your funds
+ much less with drawing
+ large sums from your account
+ and sending to a
+ different bank
+ with higher interest rates.
+ AI will try to remove
+ some frictions,
+ but frictions will
+ surely fight back
+ like their livelihoods
+ are on the line.
+ Businesses certainly
+ don't have to accept
+ working with agents
+ as is.
+ Ethan Block,
+ who works on personal finance
+ at OpenAI writes,
+ Chief Economist at Apollo
+ doesn't understand consumers.
+ Consumers want
+ instant money movement
+ in and out of checking.
+ Sadly, this doesn't exist
+ if you keep your savings
+ at another bank.
+ Consumers want a name brand
+ they can trust
+ with their life savings.
+ These are the two biggest
+ reasons Chase
+ has a trillion dollars
+ in deposits,
+ even though 98% of it
+ could be earning 350X
+ the yield.
+ Agents don't change
+ any of this.
+ Still, this cuts both ways.
+ One place the reduced
+ friction of agents
+ is already showing up
+ is healthcare,
+ with a new report
+ from Blue Cross
+ claiming that AI
+ is actually raising
+ the cost of healthcare.
+ The analysis found
+ a sharp increase
+ of patients
+ being documented
+ as having complex conditions,
+ leading to an additional
+ 942 million
+ in healthcare spending
+ over two years.
+ At the risk of dramatically
+ oversimplifying the report,
+ the core finding
+ is that hospitals
+ and insurers
+ are both using AI
+ to assist
+ with healthcare billing.
+ Hospitals are identifying
+ the codes that allow them
+ to maximize billing
+ for the care they're
+ providing,
+ leading to an increase
+ in cost to insurers
+ without an increase
+ in the services delivered.
+ Blue Cross senior vice
+ president Luke Chalker
+ said,
+ It's not a war,
+ it's a completely
+ one-sided bloodbath,
+ with insurers
+ on the losing side.
+ So, similar to
+ the bank run scenario,
+ it's kind of difficult
+ to paint hospitals
+ getting paid correctly
+ from the insurers
+ as a bad thing,
+ but to the extent
+ that the system
+ is designed
+ with some
+ assumed amount
+ of embedded friction
+ and error,
+ if that friction
+ gets removed,
+ the cost can increase.
+ So, what's the upshot
+ of all of this?
+ In my episode this weekend,
+ I talked about
+ AI moderates.
+ This idea that I believe
+ that in fact,
+ most people find themselves
+ somewhere between
+ the extreme fear
+ and high conviction concern
+ of the most dedicated
+ AI safetyists
+ on the one hand
+ and the all-out acceleration
+ at any cost
+ with no heed for regulation,
+ Silicon Valley types
+ on the other.
+ And I was thinking
+ about a better
+ or different name
+ for AI moderates,
+ and the thing I keep coming
+ back to is
+ AI realists.
+ AI realism we might
+ define as the idea
+ that AI is here,
+ that it's going to be
+ a part of our world,
+ that it is going
+ to have dramatic effects,
+ many of which
+ we can't predict yet,
+ that many of those effects
+ are going to be good,
+ but also that many of them
+ have the potential for bad,
+ and that when it comes to
+ exerting our agency,
+ pun intended,
+ to shape the trajectory
+ of this technology,
+ one of our most important
+ tools
+ is to move past
+ hypey headlines
+ to actually understand
+ where the challenges lie.
+ So what are we seeing
+ with all of these
+ incidents and explorations?
+ Hold the side
+ doomsday scenarios
+ of incredibly powerful
+ rogue agents
+ deciding that the world
+ would be better off
+ without humans.
+ That's not required
+ to still see some
+ real disruption.
+ As we can see
+ from basically all of these
+ early rogue security incidents,
+ the cybersecurity landscape
+ right now
+ is not set up
+ for a world of autonomous agents.
+ That is simply the truth,
+ and the fact that
+ the agent infiltration
+ so far,
+ however we might want
+ to quibble about
+ how they're characterized,
+ haven't really caused
+ a lot of harm,
+ does not at all,
+ I think,
+ minimize that challenge.
+ It feels absolutely essential
+ that we actually harden
+ to the extent possible
+ the cybersecurity apparatus
+ that surrounds
+ most of our important
+ businesses and institutions.
+ And what I think is valuable
+ about the discussion
+ of the what ifs
+ if agents remove friction
+ is not, in fact,
+ that I think that we're going
+ to see a background
+ of the type
+ that the Apollo economist
+ described.
+ In fact, I find myself
+ much more in the camp
+ of those who point out
+ that those sort of switches
+ are available right now
+ and that not just
+ the laziness
+ but the priorities
+ of people
+ keep them where they are.
+ And yet,
+ as Aaron Levy said,
+ there is basically no way
+ that a world in which
+ many of our digital
+ interactions
+ are mediated by agents
+ looks the same
+ as it does today.
+ And those changes
+ don't even have to be
+ negative
+ to have, for some,
+ serious negative consequences.
+ We tend to speak
+ in these binary terms,
+ i.e. everyone shifting
+ over their checking deposits
+ to these other types of accounts,
+ but what's the point
+ at which that switching
+ would actually reach
+ a critical threshold
+ that would be damaging?
+ Is it 50%
+ or is it 5%?
+ Think also about
+ something like
+ digital advertising.
+ If 10 or 20%
+ of consumer purchases
+ are now mediated by AIs
+ that don't care
+ about digital advertising,
+ is that enough
+ to really screw up
+ that industry
+ and all the people
+ who work in it?
+ Or would it need
+ to be a bigger shift?
+ Those are far less
+ sexy questions
+ and concerns
+ than the ones that make
+ the news most days,
+ but also the ones
+ that we're actually
+ going to be dealing with
+ in the very short order.
+ For now,
+ we will continue
+ to explore
+ all these different types
+ of changes on this show,
+ but that is going to do it
+ for today's AI Daily Brief.
+ I appreciate you
+ listening or watching,
+ as always,
+ and until next time,
+ peace.
