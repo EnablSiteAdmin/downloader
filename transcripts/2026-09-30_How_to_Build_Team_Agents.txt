@@ -1,0 +1,483 @@
+ 2026 has been the year of Agents. From open-cloth the beginning of the year to now platforms like
+ Muse and Grokbot and Instinct that are getting people to actually take advantage of these
+ incredibly powerful autonomous tools that are getting increasingly large portions of their
+ work done for them, we really have gone from agents being the next big thing to just being
+ here. The problem is our work isn't just done alone. We tend to work in teams with other
+ people. And yet up till now most agents have been solo affairs, only covering the portion of our work
+ that we do on our own. I think that is shifting now. A trend which I've talked about as multiplayer AI
+ or shared or team agents, but what does it mean to even build a team agent? What are the types of
+ considerations that go into it? And how different is it really than just building an agent for
+ yourself? Those are the questions that I get into with NewFar Gaspar on this Operator's Cut
+ edition of the AI Daily Brief. The AI Daily Brief is a daily podcast and video about the
+ most important news and discussions in AI.
+ Alright friends, quick announcements before we dive in. First of all, thank you to today's
+ sponsors KPMG, Blitzy, Harbor, and Hyperagent. To get an ad for your version of the show,
+ go to patreon.com.ai daily brief, or you can subscribe on Apple podcasts.
+ And to learn more about sponsoring the show, send us a note at sponsorsataidailybrief.ai.
+ Just a couple other notes before we get in. Obviously, this is a pre-recorded episode.
+ There are a bunch of things cooking today we will have a lot to talk about,
+ so we will be back with our normal format tomorrow. I also wanted to share a couple of
+ upcoming opportunities. First of all, this Thursday, October 1st, we have a free live
+ webinar all about building your personal AI benchmark. The whole idea is that when
+ you get a new model like Opus 5.5 or Sonnet 5.5 or Gemini 4 or whatever model comes next,
+ this will help you put together your own standard benchmark to better understand where
+ that model is going to fit into your own process. That is completely free and if you
+ register, you will get all the materials after even if you can't attend.
+ Again, that is coming up this Thursday, October 1st. Now speaking of training,
+ if you want to go a little bit deeper, the next cohort of our super intelligent
+ executive AI and agent training programs is coming up. The executive agent leadership program
+ is where you learn how to build AI agents for real business needs, as well as building a
+ playbook to scale them safely across your organization. And if you feel you need a little
+ bit more background before you get into that, you can also do the executive catch-up program.
+ The next agent leadership cohort starts on October 5th,
+ while the next executive catch-up program starts a week later on October 12th.
+ All right, with all that out of the way, let's talk about how to build team agents.
+ All right, Nufar, welcome back to the show. We got an operator's cut today.
+ Yes, happy to be here again.
+ This one has its genesis in some conversations we were having as we were coming up into the fall
+ around what we wanted to do with the, you know, this fall's edition of a free
+ self-directed training program. And we were talking a lot about this idea of multiplayer AI
+ and a shifting pattern from people just building solo agents that they were using
+ themselves to a prediction that we're going to start to see. And I guess we're starting to see
+ early evidence of more agents that live in between people's shared workspace. And this
+ kind of just follows the natural way that people work. A lot of your work is done
+ individually, but then lots and lots is also done at the intersection with other people.
+ And that's where team agents can live. And as we were building out that course that's
+ available right now at multiplayer AI and just thinking about this concept more broadly,
+ one of the things that we kept coming back to was that this is nascent enough that what it means
+ to actually build a team agent won't necessarily be super obvious. And so the goal of today's
+ operator's cut is to help actually think through how to build team agents to understand what team
+ agents look like to understand in what ways they are different from, or I think probably what will
+ argue here similar to the types of agents that people might have already built and where
+ they can go from here. So super excited to have you back and excited to dive in here.
+ Amazing. So I'm going to broaden your definition and I'm going to call them team agents. And the
+ concept is teams that your entire team can work with, whether it's because work happened
+ between them or just because they are something that can be shared across team members. And
+ kind of the short version is that some agents should stay yours and private while
+ others should become the teams level agents. And the ones that do become the teams need
+ a few decisions made on purpose. Some of them as you said overlap with any good agent configuration
+ and some of them are more unique or at least more intentional. And that's what we'll walk through.
+ And I wanted to start as a means of motivation to give you like two stories that you will
+ probably recognize for you from your company or your ecosystem. So the first is about a person
+ that everybody that I work with every company that I work with has at least one like that.
+ And this person, they really know how their price and exception work or what the data is all about
+ or how our biggest customer setup was configured three years ago. And when they're swamped,
+ then work has to wait for them because they're the only one who knows. And when they're on vacation,
+ someone still calls them. And when they leave, a piece of the company lives with them. So
+ in one of the companies that I work with, they had I think a person like that for each
+ and every domain. So no one gets to take vacation without getting a call from their peers. And
+ obviously that's not a desired state. The second scenario is work that nobody fully owns.
+ So a customer can move from sales to marketing to customer success. And then sales made them a
+ promise during the deal conversation. And marketing is running a campaign with slightly
+ different messaging. And then customer success finds out these promises were made to them
+ a few weeks before the renewal. And each team has their own piece. And nobody has the whole picture
+ because the work sits between them. So to your point. And even if they are using AI in each step
+ of the process, these agents don't talk to each other and only worsen the problem in many cases.
+ So an agent that is built for the whole team can help with both of these problems.
+ And they are of course quite different problems. So there is another reason I think why this
+ matters right now and why you should pay attention now, even if you feel a little bit like this is
+ above your head. And that's the pattern that I think that we're starting to see across the most
+ AI forward companies. And it goes in basically three steps. The step one is that everybody builds
+ their own agents and they're happy with their productivity boost, only with enough of those
+ running around. We kind of get into an agent sprawl, lots of agent doing overlapping work,
+ each maintained by one person, each with slightly different picture of the company.
+ And each one stops being useful the day that the owner loses interest or leaves the company.
+ And then what you see in the most AI forward company, they started to merge some of those
+ agents into team level agents. Those will typically be much fewer agents, much broader
+ in their scope. And each with a named owner and used by many people and ideally refined over
+ time as the team learns what they should and shouldn't do. And this is happening very publicly.
+ There are many companies already talking about it. I think you mentioned every experience.
+ They started by giving every employee an agent early in the year. And then by May,
+ they have moved to shared team agents. Sierra merged many of their agents,
+ specialists into one Shopify's internal agent. So we see a lot of these in very public
+ speaking companies all over the place. And most teams that I see are probably either in
+ step one or two. But I think that it's very important for all of us to look at these AI
+ forward companies and understand how to get to number three and how to do it properly.
+ And that's the entire purpose of today. So to make sure that we are talking about the same
+ thing because there are multiple names to basically the same thing. Some people, including
+ yourself, call it multiplayer AI. You probably also heard shared agents. Some people refer to
+ them as the IT mates. And even company brain is sometimes thrown into the mix or interchangibly
+ used to mean agents being used with shared knowledge across the company. I'm going to
+ refer to them throughout the episode as team agents. And what I mean by that is we have
+ one agent that too many people talk to with shared knowledge, shared memory and one configuration,
+ the instructions, the skills, the access and the owner, they are all shared.
+ And you might be thinking when you hear me saying that we already share
+ skills, right? Most companies have an amazing skill library or working on a skill library.
+ And that's awesome. And that's great standardization of how you do the work in the company. But the
+ skill is a playbook for a specific task where a team agent is something that your whole team
+ works with on diverse set of tasks ad hoc as well as repeated stuff. And it does carry the team
+ knowledge remembers what it learns and using the team level skills if you have them.
+ Those of course can also tap into skills marketplaces and so on. So a skill library perhaps
+ is one of the ingredients, but they are not one and the same. And I want you to today think about
+ how and when to start building your next team agent. And one more note on scope because
+ there's a lot of excitement right now about all of the personal agents. I'm talking about
+ muse and instinct and some of the other in this category. Those are for like a home or
+ private life. Today the focus is going to be on work. So that's one thing to make sure that
+ it's clear about the scope we're talking about agents that you build for your job.
+ A new study from KPMG in the University of Texas at Austin found that when people work with AI
+ similar skills don't guarantee similar outcomes. Researchers studied more than 500
+ early career professionals and found that the best performers consistently amplified the
+ value of AI by guiding evaluating and refining its outputs.
+ These top performers called AI amplifiers weren't defined by what they knew alone
+ but by how they worked with AI. Learn more about what separates AI amplifiers from everyone else
+ at kpmg.com slash us slash AI amplifiers. Blitzy deeply understands your code base
+ before it writes code. Here's the first place that pays off. Security in the age of AI.
+ Vulnerabilities don't live in isolation. They live buried inside millions of lines of interconnected
+ code where patching one thing quietly breaks three others. That's why surface level scans fail.
+ Blitzy starts from its knowledge graph of your entire application, identifies and surfaces CVEs
+ across the full estate, proactively recommends patches and can execute the PR. Each fix is
+ grounded in how your systems connect and validates or nothing new breaks. And the knowledge
+ graph dynamically updates keeping you ahead of an ever accelerating threat landscape.
+ One Blitzy customer resolved 21 active CVEs across six core microservices in four days.
+ Zero compile errors, every validation scan clean, months of planned work fixed in less than a week.
+ Security remediation grounded in real architectural context at the speed of compute.
+ Harden your code base at blitzy.com. That's blitzy.com.
+ Every episode I talk about the competition between open AI and Propix,
+ SpaceX AI, Google and Meta. And if you've been listening for a while, you might have a
+ favorite. Maybe you think open AI and Anthropic can stay ahead or perhaps Meta's open source
+ strategy can win out. Whatever your view, every AI lab creates a different investment opportunity.
+ Harbor Capital Advisors AI Lab ecosystem ETF suite lets you invest in the ecosystem behind the AI lab
+ you believe in. Search Harbor AI Lab ecosystem ETFs wherever you invest or follow at Harbor Capital
+ on X to learn more. Visit harbercapital.com for a prospectus containing investment objectives,
+ risks, fees, expenses and other important information. Read and consider it carefully
+ before investing. Risks include principal loss and artificial intelligence-related risks.
+ Harbor ETFs are distributed by four-side fund services LLC. Harbor is not affiliated with
+ AI Daily Brief and the funds are not affiliated with, sponsored by or endorsed by any AI lab.
+ This is a paid advertisement and not personalized investment advice.
+ Investing involves risk, including possible loss of principal.
+ This episode of the AI Daily Brief is brought to you by Hyperagent,
+ where you run fleets of agents your team can manage together. Forget local agents and
+ chat workflows waiting on your laptop to be prompted. Hyperagent deploys always-on
+ agents in the cloud doing real work across the tools your team already uses.
+ Marketing agents turn competitor moves into landing pages. Sales agents enrich leads,
+ draft emails and updates the CRM. Ops agent chases the paperwork and tracks the budget.
+ Every agent has access to shared context and follows your rules about scope and approvals.
+ It's time you add agents that feel like teammates.
+ Hire yours at Hyperagent. Get $100 in credits at hyperagent.com slash AI Daily Brief.
+ I want to make sure that we understand who I build the episode for. I think it's built for
+ everybody and not just the frontier professionals that are building the absolute cutting edge.
+ If you're about to build one, of course, pay attention because it will provide you or verify
+ the full playbook. It's also aimed at people who are not quite there yet because the decisions,
+ as you rightly said, do apply to any agent that you build or use. A team agent just makes some of
+ them even more critical. Even if you are working solo and you have a team of agents or you're
+ contributing building a team of agents, you have the same decisions. The other player in your
+ ecosystems are probably not your peers because you work alone but perhaps you're building it
+ for your customers or you're building it for a future you to make sure that it's robust enough
+ and representative enough of diverse set of work. That's the motivation or who should pay attention.
+ One thing that I wanted to make sure that it's very clear is that not every agent should be shared.
+ There is a dial here or a spectrum with three settings. We have a private agent that's yours
+ for your work with your taste and your access. For example, my own social media agent stays
+ private. I'm probably not going to be able to share it with anybody because I'm the only
+ one that wants to share or write in social in a specific way. Nobody should ever sound like me.
+ Then we have shared knowledge. Those can be shared knowledge and skills but still private agents,
+ meaning the team maintains one body of knowledge. For example, what we sell, how we work, what our
+ words mean, often with a shared skill library and everybody points their own agents at that,
+ but this is where the skill library lives by the way. It's often the right answer and it's
+ the easiest place to start. Another concrete example, say every salesperson has a prospecting
+ agent tuned to their own style and their own preferences, keep those agents as they are because
+ every salesperson wants to have their own voice but give them all the same well-maintained picture
+ of the ideal customer and the messaging for the company. That's a hybrid mode that some
+ companies or some use cases should remain. Lastly, we do have the team agents where we
+ have one agent that many people work with that has its own job and its own owner and agents can move
+ along the dial and if you have a scenario where your colleagues keep asking to borrow your private
+ agent, that's probably a sign that you need to make it a team agent or to consider sharing it
+ with others. The next question that I want to answer is, are all team agents from the same
+ archetype or do they all follow the same type of use cases? The answer is not. Like across the
+ teams that I work with, I can roughly categorize the existing or future built team agents into four
+ kinds and knowing which your kind is, it helps you not only identify use cases but also refine the
+ use cases and also it can tell you what to pay attention to in order to get it right.
+ So the first type of team agent, I'm calling it the expert agent. It's the one person's know-how
+ or one small team's know-how. It's available to everyone who depends on it. You'll recognize it by
+ the person who can take the vacation, you remember from the beginning. If you want another example,
+ it can be the data agent that can answer any data question across multiple departments in the
+ company or a pricing and deal desk agent that serves a lot of go-to-market organizations,
+ compliance agent, and so on. In order to get it right, the knowledge has to come from the
+ experts that holds it in the company. They need to be interviewed. You need to collect the answers
+ they already gave in multiple forums, whether those are direct messaging or emails and other places
+ and the experts have to be involved from day one because for them, this is what finally makes
+ the vacation possible but also a lot of job insecurity. So read carefully when working in
+ this domain. The second type is what I refer to the common work agent. That's the scenario where many
+ people are doing similar requiring work with one shared way to do it. The way to recognize a use
+ case that falls into this category is when three people have each built their own version of the
+ same agent. You can think about a team research and meeting prep agent. That's a very classical one
+ or marketing teams content agent and I'm sure that you can think of others. In order to get
+ this archetype right, you have to agree on how work is done and it's easier to say than to actually
+ execute because you're merging the best of three versions and that's really a conversation about
+ what you agree in terms of the standard for the company. So an interesting conversation at the
+ very least once you start contemplating a unifying an agent like that and then we have the bridge
+ agent. That's the work that flows between roles where nobody can do it alone. You recognize
+ it when the handoffs break and every stage has to explain the context or the agents have to somehow
+ work together between different departments. Example can be a customer agent that spends
+ sales solution, customer success and delivery. That's a very classical one and to get it right
+ we have to have each function their own piece of knowledge that is being fed into this agent
+ and people with different access will be eventually using that. So we have to also pay attention
+ very very carefully to permissions and you'll have to work hard through that.
+ And lastly we have the chief of staff. That's the agent that own the team operating like
+ operationalizing of the day to day work. It can be the decision, the commitment,
+ the status onboarding and you will recognize this one when the team keeps repeating itself
+ and new joiners take weeks to find their footing and in order to get this one right
+ what you need to do, you need to clearly define what it is allowed to learn, how can it learn
+ the processes and the ongoing and how does it do so automatically which is not very trivial.
+ And then there are also of course many questions around permissions and so on.
+ So while you're thinking about these archetypes and which one of them might fit some use cases
+ that you are pondering or that you should be thinking about and before I give you the playbook
+ on how to actually build these team agents a quick detour because I do want to give a quick
+ reality check. There are some signs that a team agent is the wrong move or at least not the right
+ move for you at this moment. So one indication where you shouldn't build a team agent at least yet
+ is when taste beats standards. If different people truly need different answers or not
+ willing to agree on a standard and their own judgment or their own voice is the point
+ those need to remain private agents so people can remain authentic and not have to fight about
+ the ground truth. And the second indication not to build is nobody can own the knowledge.
+ If the team cannot agree on how the work is done or nobody is willing to own and maintain
+ the shared knowledge over time, the agent will drift within weeks, sometimes within days.
+ So sort out the ownership before you go and build the team agent because that's going to
+ be a no go. And lastly, whenever you're realizing that trying to build a shared agent,
+ the team agent only complicates more than it simplifies because you have conflicting needs or
+ tangled permissions and less coordination. If you realize that the result is more work than what
+ the agent can provide for you, that's the answer. Don't build it at least not until you are able
+ to untangle some of the complexities. And of course notice what's missing from the list,
+ sensitive data and high stakes. Those are design questions and they shape how you build it
+ which is where we're going next. So I don't think that when data is overly sensitive
+ is a reason against it's just something that needs extra careful attention.
+ In order to build the candidate use case that hopefully you've gone through the decision
+ checklist that I shared before, it comes down to five core design decisions for your agent.
+ It goes through what it does, where it lives, what it knows, what it can touch and how can
+ you run it. These are the core questions. In order to make it more concrete, I'll use one example,
+ the whole way throughout. So it's going to be a customer agent and it's going to be the bridge
+ kind meaning one that holds everything the company knows about each customer and everything we've
+ promised them and it's probably going to be used by sales and solution engineering
+ and customer success delivery and so on. They will be using that example agent to do
+ various customer related activities. So let's break down some of these decisions to make it
+ actionable. So first the decision that you have to make is what it does. A quick caveat here,
+ there is a lot of scoping that is very similar for any serious agent at work. It needs to
+ have a clear job and a definition of done and a list of what it does and do. I'm going to stick
+ here to what changes when it's built for a team versus an agent that you built just for yourself.
+ So the first decision is who it serves by role. For example, sales asks it different things than
+ delivery does. So write down each role and what they'll come to the agent for to make sure that
+ you're covering all the scope. And of course, you can aim for one broad area of work,
+ because I think the team agent should be quite capable agents. Otherwise,
+ it's harder to justify their existence. In our example, I would expect that the customer agent
+ will be able to prepare meeting answers. Where do we stand with this customer? We'll be able to flag
+ promises that commit other teams and draft every handoff. For example, a quite a broad scope.
+ And what keeps it focused is the area of work. And that is primarily in our case customers.
+ I want you also to pay attention to the team don'ts list. This is the part people often
+ tend to skip. For example, it never makes commitment on someone's behalf, or it never
+ settles disagreement between people. Those go to its owner. You can think about another such
+ examples in your case. Also make sure that the don't list includes permissions and data handling
+ stuff. So for example, it never carries information from one private space into a shared one. So it
+ never discuss one customer in another customer space. And it doesn't speak for one person to
+ another. And of course, like with any agent, ideally start with narrower scope reading and
+ drafting. Only when it earns sufficient trust and was validated enough, then you can increase
+ the scope as you gain more and more confidence. So that's the first decision and we can move
+ to the next one. The second question will be where the agent lives. And this is the question
+ that gets asked most. So let's be a little bit concrete. Basically, if I'm trying to make it
+ as simple as possible, there are roughly three ways to share an agent from the simplest to the
+ most involved. The simplest method will just to create a shared folder with your own tools,
+ like the tools that your company already owns. And then each person just point their own tool
+ to the shared agent. And the folder will include instructions and potentially how to
+ store new information as part of the way the agent overall behaves. That's a very naive and
+ basic way. But as a stepping stone to building shared agents and team level agents,
+ that can be very good start, especially if all of your team members are already using
+ similar agentic tools or agentic tools that can point to folders as sources for their
+ information. So that's the first and simplest method. The second way that we can do that
+ is using a vendor ready made agent. And we're increasingly seeing more and more. And
+ we believe that we will continuously see more and more in the coming weeks and months
+ of the year. We'll talk more about it later. But the way this work is that the vendor host it
+ and you configure it. And in this category, we have many very recently famous tools,
+ including Cloud Tag, OpenAI has their Chatchapiti workspace agent, Copilot has their own offering
+ that can be used like that notion and many others are already offering shared spaces
+ with agents that you can work together on. And it's just a matter of you configuring
+ their specifics. And lastly, and that's of course the most sophisticated is an agent that you host,
+ meaning that something that you run, it can be for example, an open source
+ agent like OpenClaw or Hermes on your own servers or on a list cloud, or you some companies are
+ even building their own custom harnesses specifically for these needs. So that's the most sophisticated,
+ but obviously has the most tech like technically demanding requirements,
+ as well as the most freedom to build around that. So that's the three broad strokes options of where
+ these team agents can live on top of the decisions of how to build or the tools. There are two
+ additional questions that come with them. The first question is who can see each person's
+ conversation with the agent. Maybe it's only the people who are conversing with the agent,
+ maybe it's the entire channel or everyone in the session. Over here, there is a lot of differences
+ between the different tools. In some tools, everybody can read every chat. For example,
+ in Claude in Slack, everyone in the channel sees what the agent does and what the agent converses
+ with others and can also steer it. With many other agents, your chat is private. So that's
+ sometimes a design decision by the vendor. Sometimes it's something that you can configure.
+ And the second question is what it learns stored and who can read it. So an ideal
+ agent is not one that is obviously frozen, but one that has a lot of memory and learning
+ on the go. And then the question, where is this learning being stored and how does it happen?
+ Is it something that happens per person? And then the agent evolves just from its interaction
+ with you? Or is it per channel or team? Or maybe the entire workspace has a shared learning and
+ memory and the agent evolves with everybody in public. And of course, one thing never
+ costs customers. So do check and choose and tell the team before the first real task,
+ what's the status with the team agent that you built, because this is where a lot of trust
+ can be gained or lost. And my role is to pick the simplest option that two people will actually
+ use this week. And for our customer agent, that's probably a channel agent or a simple,
+ like tool agent, because full functions need it. And if I will make it overly complicated and people
+ will need to understand how to connect to that versus just going into a slack or teams channel,
+ it's not going to work. So in our case, that's probably going to be the right solution.
+ This decision, I want to move arguably to the most important decision. And that's
+ what it knows. And I think if you've built any agent, the recipe will sound very familiar.
+ What's different for a team is that this is the moment the team agrees on the ground truth,
+ how the work actually gets done, which definitions we use, which versions of the pricing policy
+ is the real one. And I think that that conversation is worth having, even if you never ship the
+ agent, because in most teams, even just agreeing on the knowledge is a big deal.
+ And it's also where team agents get harder, because the moment knowledge is shared,
+ then you have more contributors and more contradictions and more places for
+ something important to fall through. So the process around the knowledge matters even more than
+ it ever did in your private agent. So you need to pay careful attention here.
+ And ideally, you should go through these four stages. I want you to start by collecting
+ the agent by interviewing the people who hold the knowledge and harvest what's already written
+ in all the channels and all the places where information already resides.
+ And I want AI do a lot of the heavy lifting in terms of aggregating and collecting the data.
+ So for our customer agents, what I would do is I'll make sure that sales and solutions and
+ success and delivery, they all will contribute their own piece. And then I want you to refine.
+ I want you to merge the information coming from different sources, surface the contradictions.
+ I'm sure that you will find five versions of the truth and then date everything and keep out
+ what should never be shared. Of course, that includes passwords, notes about people,
+ one customer's details in another customer space and so on. And then we have to approve it.
+ Each piece should be signed off by whoever owns it. And the agent's owner puts it all together.
+ And lastly, this can go stale very quickly. So you have to maintain. You need to decide what
+ the agent may add to its own memory based on its working experience and what person has to review
+ first when it goes into the knowledge and the memory. And we want to make sure that
+ one person definition of what's last year quietly becomes everyone's without any agreement.
+ And of course, put the upkeep on a schedule because you want the agent to propose updates
+ regularly and a person needs to review and approve the updates. And this is really the place to be
+ very, very diligent and disciplined because it can truly make or break your team agent if you
+ haven't done a good enough and self-sustaining process around acquiring and maintaining and
+ verifying the knowledge that the agent taps into because it no longer serves you where you can
+ very quickly fix anything that goes wrong. It can create a lot of havoc in your company
+ if your team agent is not well educated enough on what matters. The fourth decision is what it
+ can touch. And this is where team agents differ from the private ones because your own agent
+ acts as you and a team agent acts for many people. So of course, there are many security
+ 101 that you need to apply here. Those that apply to any agent definitely stick for the
+ four rules that are specific to like, I'm going to just stick to the rules that apply to team
+ agents. The first thing that you have to decide is whose access it uses and you have three options.
+ You can use the access or to act as whoever is asking. So it only sees what the person
+ that was asking the question can see. And that's probably the safest choice, but
+ sometimes the most complicated to execute unless the vendor already did it for you.
+ And probably the right one when people on the team have different access levels.
+ The other option that you have is to have its own account set up with exactly the access the job
+ needs. And that's right when the whole team works on the same shared material. And lastly,
+ it can use one person's login, only ever do that for read only and nonsensitive material
+ because everyone who talks to the agent effectively gets that person's access. So I would not recommend
+ to go down that path. And what I would probably do for our customer agent is to act as the person
+ asking because sales success and delivery see different things in the CRM and in other systems.
+ So I don't want to have the agents responding to them with information that they shouldn't be
+ able to see. So that was the first rule on what the agent can see. The second rule is to
+ decide who can ask it. And when the agent has its own account, everyone who can talk to it can use the
+ account. And if you put an agent with access to the pricing sheet in a channel of 40 people,
+ a few contractors among them, then all of a sudden all 40 can now get the pricing by asking.
+ The agent knows more than some of the people who can reach it. So decide who can talk to it
+ with the same care you give to what it can see. Okay, so that's something that happens very
+ regularly when people don't pay attention. I also want you to decide where the answer
+ lands. This one runs the other way. The agent uses the askers own access and the asker has
+ every right to ask the question. The problem is that the answer shows up in a shared space
+ in front of people who don't. So this is something that is happening right now.
+ If you will look at the documentation of Claudine Slack,
+ it can use the askers own connections inside the team channel. And after the person approves
+ and the anthropic documentation currently notes that it doesn't consider who else is in the channel.
+ So if I approve to use my connectors and fetch all the information that I am permitted to see,
+ and now the information is thrown at the channel where others can see that,
+ that's the reality currently with the existing cloud implementation. So if it's sensitive,
+ the answer has to go to the person who is asking privately and not in a shared channel.
+ And lastly, keep record of who asked for what. And that's an important logging
+ because when an agent works under its own account, the logs say the agent did it, right?
+ And you want to know which person asked so you can backtrack and make sure that there are no
+ unexpected behaviors. And everything else, like starting with the list access and having a person
+ approve anything that can't be undone is the same for any agent. So I'm not giving you security
+ one on one. Okay, lastly, last decision and the one that will make your team agent live
+ beyond its first week or the first month. That's the full operating manual here. Of course,
+ the multiplayer sprint has a much more comprehensive way of thinking about it,
+ but these four points are what makes or break the agents in practice. So the first thing is one
+ owner. Anyone on the team can hand the work, but I want to have one person or a very small
+ group of people who owns the priorities, maintain the agent and decide when two people ask for
+ opposite things, how to evolve the agent knowledge or feature set. They also decide on
+ standing instructions and so on. So that's one thing. The second thing that I want to
+ mention is the clear rules of engagement. I want you to tell people how to work with it,
+ what it does and doesn't do and what it can see, who can see their conversation with it,
+ and everything that we discussed so far. We also want to have clear indications
+ of how to correct the agent when it's wrong. And I think that people trust the agents that
+ they're using and the team agents the more they know what it's learning and what's the
+ learning process. The next thing I want you to do is to put decisions where it can see them.
+ So a team agent only knows what's written down in a place that it can reach. And if your team
+ decides things in private messages and hallway conversations, the agent will never hear about
+ them and part of running it smoothly is to have it be able to tap into what's happening in real
+ time in the team and to make sure that the team decisions and the team ongoing day-to-days
+ are being learned by the agent itself. And lastly, I want you to keep watching because
+ you will probably start with a small ideally. You should start with a small pilot group and
+ keep a few test questions that you can rerun whenever something changes. But I also want
+ you to just monitor because we know that things change very frequently. So it's not just about
+ having a proper process for whenever you want to introduce a new model or a new tool or a new
+ knowledge or new changes in instructions, but also just to monitor that everything is working
+ properly. And of course, in some cases, we would want to retire the team agent if it's not behaving
+ properly as we expect. We covered a lot of ground. And if I need to pull it together
+ before we close, first of all, I hope that I've convinced you that team agents matter for
+ everyone, even if it will take you a while until you will actually be building one.
+ And that building them properly is what makes the difference. Of course, not every agent should
+ be shared. Private agent or shared knowledge and skills with private agents or team agents,
+ these are all valid options and should be used where appropriate. We talked about the team agents
+ that are coming in four kinds, the experts, the common work agent, the bridge and the chief
+ of staff. And knowing which one your use case fits in to tells you a lot about how to get
+ it right. And we also talked about three signs on when to wait, whether it's because tastes beats
+ the standards, whether because nobody can owns the knowledge or when it doesn't simplifies the work.
+ And once you're building, we went over the five decisions in order of what it does, where it
+ lives, what it knows, what it can touch and how do you run it. And if you take those with you,
+ you have what you need in order to get the team agent properly. If you want to
+ concretely do that, a quick way to do that. So first of all, that we have the multiplayer
+ ice print, which is free and will work you through a team activity of in four weeks,
+ configuring everything that we discussed, some of them in greater detail. If you want to learn how
+ to properly build seriously team agents and agent rosters and how to do that in the best
+ possible way, we have another cohort of the executive agent leadership that starts
+ on October 5th and we'll be happy to see you with all of our builders. However,
+ if you feel that you need a little bit of a catch up before you go and build agents for teams and
+ rosters of agents and so on, we also have the executive catch up that helps you become
+ best in class AI user before you go and build those agents. And lastly, everything is changing.
+ Odds are that every week we will get a relevant release. And by the time you hear this,
+ maybe already something was released. But I do think that everything that we cover today
+ holds no matter what chips next because when an agent is built properly and the decisions are
+ made right, it's orthogonal to any specific tool or feature. It's the business decision and the
+ team standardization that matters much more than the tools that will help make it better
+ by design the more releases we will have. And if I need to make some predictions for the rest
+ of the year, so I think that we will see more and more formalization of what we just covered
+ and more tools and features that will help us get it even better and easier around identity,
+ permissions, ownership, and so on. As well as like we can always trust the practitioners to
+ share many of their learnings in the public eye so we can learn from many of the other AI
+ and like frontier individuals and companies and see how it's working for them. That's it.
+ Awesome. Great stuff, Nufar. I have a few things that I want to lob out their
+ discussion styles just as we close out. First of all, I guess the question,
+ you gave four archetypes of different types of agents that you've seen. Do you see,
+ are any of them more common starting places than others for teams that you've observed?
+ I think that in theory, your definition of an agent that lives between individuals or between
+ teams sounds the most attractive, but it's the hardest to execute. So I think that's actually
+ the ones that will, for what I'm seeing, are not the first to go for. And I've seen various very
+ successful versions of the first one of the expert agents that help create more redundancy
+ in a team, redundancy in a good sense and relieve some of the burden on those bottlenecks within
+ the company. So those have seen a ton of implementations already. And I think the more
+ the tools make it more accessible, the easier those will be to build. So those are probably
+ the lowest hanging fruits. That's funny because that's exactly where my head goes. I'm super attracted
+ to the ones that I think are most difficult to build. I have also seen a lot of a very simple
+ implementation of that expert one, which we talked about for a long time without even identifying
+ it as this sort of team agent is just basically the agentified team internal knowledge hub,
+ policies around whatever like early dismissal. Who knows? The company database of information
+ that you can access through the chatbot instead. That's been something that companies have had
+ a ton of success with as just an early, easy, fast use case right from the beginning.
+ Another question that I have for you is how, I'm sure that a lot of folks are sitting there
+ wondering how much they should invest in building these sorts of things before
+ Grockbot or Microsoft Copilot or one of these sort of core tools that they might be using
+ open AI, Anthropic, just drop the sort of native version of this. And there's clearly
+ some indications that they're thinking in this way. I think Claude tag being the best
+ example so far. But you know, is this one where the value of digging in at this stage
+ is going to be so you understand the theory and the ways to customize when better tools come
+ around in the future? Or how do you think about that trade off?
+ I think the heavy lifting is always going to be the configuration and the knowledge
+ curation. So I would select the one tool that is adjacent the most to your existing
+ tool ecosystem and figure out how to implement all the rest. And if like a new, better improved
+ tools come to play, we'll be ready because you're already agree on the ground truth on the
+ do's and don'ts of these agents on the use cases. So even if you at first implement them very naively,
+ that's going to have your future ready. As for going and building these on like a competing
+ product or your own like team level harnesses and so on, if you have the chops and you can
+ do that easily and you have the justification, you can, but I'm not sure that I would have
+ spend my energy now on going and building the on like my own version of Claude Doug or similar
+ when we were, I think both of us agree that all of these are coming and
+ will probably be made very accessible and very smart. And your mode is probably and everything
+ that these companies cannot tap into. Awesome. Well, thanks as always for another great
+ operator's cut and excited to have you back soon. Thank you. Bye.
