@@ -1,0 +1,688 @@
+ The businesses that are using AI the best are really doing things a little bit differently.
+ According to a recent survey, they are building model routers, building organizational and data
+ sovereignty strategies, and generally making their AI management layer much more robust.
+ Along with that, what they are using AI for and the value that they are seeing from it is changing.
+ And in all of this, they are building a template that other businesses can follow.
+ And that's what we'll be discussing today.
+ The AI Daily Brief is a daily podcast and video about the most important news
+ and discussions in AI.
+ All right friends, quick announcements before we dive in.
+ First of all, thank you to today's sponsors KPMG, Section, Harbor and Granola.
+ To get an ad for a version of the show, go to patreon.com slash aidailybrief
+ or you can subscribe on Apple Podcasts.
+ And to learn more about sponsoring the show, send us a note at sponsors at aidailybrief.ai.
+ A lot of our discussion recently has been around the new emerging competition for personal AI agents
+ and an early win in those agent wars has delivered MetaStock its best month in years.
+ MetaStock was up 27% in September, even with a 5% slide this week on news that OpenAI was
+ launching a competitor to Muse.
+ That made it Meta's best single month performance since November of 2022,
+ when the company began their year of efficiency with mass layoffs,
+ hiring freezes and a bit of temperance on their Metaverse plans.
+ Muse's early success has so far added half a trillion dollars in market cap.
+ But even more important than that, it has given the market an indication that Meta has a viable AI
+ strategy.
+ The Wall Street consensus has pushed Meta to a strong buy, but not everyone is convinced.
+ Neeta Manolis Laura Martin is one of the few sticking with a hold rating in a Thursday note.
+ Giving them credit, she wrote that Meta has quote,
+ clearly pivoted away from the Metaverse and towards personal agent AI with Muse at the center.
+ However, she's skeptical of the payoff, noting that Meta is, in her words,
+ notoriously slow at monetizing new products.
+ And indeed, Muse is currently free for all but the biggest power users,
+ and Meta has said they plan to keep user data segregated from their ad business.
+ Even with the launch of an enterprise platform earlier this week,
+ Morningstar argued that Meta's ability to run an enterprise business is quote,
+ unproven, as consumer products remain at the center of the company.
+ Still, if you're Meta, you gotta be feeling pretty good.
+ Six months ago, investors were questioning the company's basic competence in AI.
+ So the fact that they're now questioning Meta's ability to monetize their successful
+ bets is a huge shift.
+ Now staying on the markets theme, Anthropic is pushing to get their IPO out before Thanksgiving
+ with investor meetings set for later this month.
+ Bloomberg reports that Anthropic aims to begin marketing the IPO in the week of November 9th.
+ That would give them around two weeks for the roadshow,
+ assuming the first day of trading somewhere early on the week of Thanksgiving.
+ Sources said that the timeline is still subject to change,
+ but Anthropic is pushing hard to get the deal out by the end of the year.
+ Ahead of the marketing campaign, Anthropic is planning to host an investor day on October 14th.
+ Institutional investors who may participate in the IPO have been invited to the event,
+ which will give them an opportunity to meet with senior management.
+ News that the timeline is firming up comes after Reuters leaked portions of Anthropic's
+ S1 Prospectus earlier in the week.
+ The S1 revealed that Anthropic had an operating loss of $8 billion on revenue of $4.6 billion
+ in 2025. There has been a lot of doomsaying around these numbers,
+ but my position, which I feel very, very strongly about, is that the idea
+ that when pushed comes to shove, investors are going to care about 2025 numbers?
+ When Anthropic has more than 10x growth in 2026,
+ I just think is treating Anthropic like they are a company from the pre-AI days,
+ which they are very decidedly not.
+ Now that is not at all to say that investors are going to love everything they find in the
+ complete Prospectus, just that to the extent the IPO underperforms,
+ it won't be their operating loss from 2025 that did it.
+ And I appear to be not alone in this, with Bloomberg reporting that potential IPO
+ investors believe the company can achieve its target valuation of between $1.8 and $2 trillion.
+ This is, by the way, expected to be the largest IPO in history,
+ taking in more than the $75 billion raised by SpaceX.
+ Joking about that insanely high target valuation and the inevitable dip that comes
+ after, Lit Quiddity posted,
+ If Anthropic goes public before Thanksgiving,
+ I'd rather just wait to invest during their Black Friday slash Cyber Monday 25% discount.
+ Meanwhile, staying on Anthropic, perhaps against many expectations,
+ President Trump seems to have taken a liking to Dario.
+ On Thursday, Time magazine published a wide-ranging interview with the President
+ and one of the quotes that stood out with Trump's positive impression on meeting the Anthropic CEO.
+ I liked him and his wife a lot, Trump said.
+ Very smart guy.
+ Maybe different than I thought a little bit.
+ Really a little bit different.
+ But no, he understands.
+ Trump met with Amade and his wife for a two-hour dinner on Sunday
+ ahead of this week's gathering of tech leaders.
+ It seems the President came away with a more nuanced understanding of Dario's world view.
+ Trump commented,
+ I spoke to him about his views,
+ and they're much different, I think, than what is portrayed in the media.
+ The comments suggest that at least some amount of the acrimony
+ between the White House and Anthropic has been driven by staffers rather than Trump himself.
+ In June, you might remember,
+ Wired reported that staffers were relieved that Anthropic co-founder Tom Brown had taken over negotiations
+ around Fable's release because he was not, quote, being a weirdo like Dario.
+ The Time article also unpacked just how much the President has gotten into using AI himself.
+ A staffer said Trump had spent hours talking to Grok after a meeting with Elon Musk in December,
+ asking the chatbot about his presidential legacy.
+ At the time, Trump was weighing up an escalation in Venezuela.
+ He asked Grok, writes Time, quote,
+ how Venezuelans would react if the U.S. captured Maduro.
+ Time continued, according to the official present,
+ the chatbot responded that Maduro was a repressive and deeply unpopular dictator,
+ and that many Venezuelans would likely celebrate his downfall.
+ After Trump ordered the mission to seize Maduro the following month,
+ celebrations broke out in the streets.
+ Trump, according to officials, came away thinking Grok was ingenious.
+ That led a lot of folks to jump to the next conclusion,
+ summed up by Hakio on X.
+ Wait, so there's a chance the Iran fiasco is happening
+ because some LLM told him that decapitation is going to quickly lead to regimes' downfall, too?
+ What a timeline.
+ Next up, for those who thought the data centers in space were just a marketing ploy,
+ SpaceX has officially launched an AI chip into space as a first step
+ towards building an orbital data center network.
+ A successful test flight on Thursday used a Falcon 9 rocket
+ to place a satellite containing four Google TPUs into orbit.
+ This is the first launch under Google Suncatcher project,
+ a collaboration between SpaceX and Planet Labs announced last November.
+ Suncatcher aims to determine whether operating solar power data centers in space
+ is feasible with current technology.
+ Now, four TPUs is of course an insignificant amount of compute for any real purpose,
+ so this is purely a stress test for the chips and other components.
+ So far, the test looks good.
+ Travis Beals, the senior director of Project Suncatcher,
+ reported that their team has communicated with the satellite
+ and everything is operating as expected.
+ Beals wrote,
+ This is the first step in a long-term research moonshot
+ exploring whether space could one day host scalable machine learning infrastructure.
+ Over the coming weeks, we'll gather in orbit data on how our TPUs handle
+ the physical stress of spaceflight and the radiation and thermal extremes of space.
+ Some things can only be tested in space.
+ As we begin our experiments, we'll use what we learned to refine our designs
+ and we're excited to share more as the mission unfolds.
+ Now, in terms of the scope of this testing,
+ the TPUs will only operate in 15-minute bursts
+ to avoid straining the satellite's power and thermal management systems.
+ If the chips function,
+ the next step will be to launch a pair of larger satellites
+ to test heavier workloads and laser-based networking technology.
+ Keep in mind, this is a multi-year, if not multi-decade endeavor
+ that relies on multiple technological breakthroughs.
+ In the medium-term, Google plans to launch a network of 80 TPU satellites
+ and is taking meetings to design a mega-satellite the length of a soccer field.
+ Hitting this kind of scale is impossible with the Falcon 9,
+ so the project hinges on the success of SpaceX's Starship,
+ which reached orbit for the first time in September.
+ Explaining the ambition and scope of the project, Beals said,
+ If five years from now, everything we've done has worked perfectly,
+ it probably means we've not taken enough risk
+ and we've not learned as much as we could.
+ If we're really successful with this in the long run,
+ this will ultimately be boring
+ and people won't think anything of the fact
+ that their Gemini query might be getting served in space.
+ Moving over to AI safety drama,
+ OpenAI has fired three employees on their safety team
+ for mishandling corporate information.
+ In a statement, OpenAI said,
+ We have parted ways with three individuals
+ for violating our policies on accessing
+ and handling sensitive company information.
+ Our investigation confirmed that these individuals mishandled
+ sensitive information outside established company procedures,
+ violating our policies and breaking the trust
+ essential to our work.
+ Sources speaking with the information added
+ that the matter involved sharing sensitive information
+ with an outside organization that does AI evaluations.
+ Now, given how contentious everything surrounding
+ AI safety is right now,
+ and given how little we know of the details,
+ there are unsurprisingly a huge range of interpretations
+ when it comes to these particular dismissals.
+ Some wondered whether this should be read
+ as retribution against whistleblowers.
+ And code AI general counsel Nathan Calvin was concerned
+ that OpenAI had let go of skilled safety researchers.
+ After their names were leaked,
+ he noted that they were lead authors on academic work
+ around chain of thought monitoring.
+ Commenting,
+ Them leaving OpenAI right when safety monitor ability
+ is collapsing is terrible.
+ Others had less sympathy for breaking corporate policy.
+ With Mark Kretchman writing,
+ Working on AI safety doesn't give you a free pass
+ to leak confidential information.
+ The label is an immoral exemption from the rules
+ everyone else has to follow.
+ If the allegations are accurate,
+ firing them seems entirely reasonable.
+ From the outside,
+ it is extremely hard to know how justified OpenAI
+ was in removing these employees.
+ In large part because we don't know what information was leaked.
+ My guess is that mostly the interpretations of this
+ are going to be based on what one thinks about AI safety.
+ If one is extremely concerned about safety issues,
+ then OpenAI firing people for sharing their concerns
+ with independent third parties feels unjustifiable.
+ On the other hand,
+ there are going to be lots of people who agree with OpenAI
+ that being concerned about AI safety
+ doesn't give you carte blanche
+ to share confidential company matters
+ with an independent organization
+ outside the existing pathways for doing so.
+ I think what perhaps many of us could agree on,
+ regardless of where we sit on that spectrum,
+ is that this is a good reminder
+ about why it is important to get the formal channels
+ for reporting and third-party evaluation
+ up and running as soon as possible.
+ Lastly today,
+ in case you haven't had enough to do
+ trying new models recently,
+ it appears that the first sightings of Fable 5.5
+ are starting to show up.
+ The rumor mill is suggesting
+ that some anthropic users are getting routed
+ to a model with an updated knowledge cutoff
+ and some slick new design taste.
+ Chubby on X posted,
+ Here we go.
+ Numerous users are reporting
+ that their queries are being routed to Fable 5.5.
+ It was only a matter of time.
+ Get ready.
+ The best model in the world is about to be released.
+ Ads token Gremlin.
+ The first Fable 5.5 results look incredible.
+ Expect a seriously powerful model,
+ especially for design, 3D work, and spatial intelligence.
+ The funny part is that Opus 5.5
+ is already such a monster
+ that it may actually make the jump to Fable
+ feel a little less dramatic than it really is.
+ Something to look forward to for the week to come,
+ but for now, that is going to do it for today's headlines.
+ Next up, the main episode.
+ A new study from KPMG
+ in the University of Texas at Austin
+ found that when people work with AI,
+ similar skills don't guarantee similar outcomes.
+ Researchers studied more than 500 early career professionals
+ and found that the best performers
+ consistently amplified the value of AI
+ by guiding, evaluating, and refining its outputs.
+ These top performers, called AI amplifiers,
+ weren't defined by what they knew alone,
+ but by how they worked with AI.
+ Learn more about what separates AI amplifiers
+ from everyone else at kpmg.com slash us slash AI amplifiers.
+ Here's a harsh truth.
+ Your company is probably spending thousands
+ or millions of dollars on AI tools
+ that are being massively underutilized.
+ Half of companies have AI tools,
+ but only 12% use them for business value.
+ Most employees are still using AI
+ to summarize meeting notes.
+ If you're the one responsible for AI adoption
+ at your company, you need Section.
+ Section is a platform that helps you manage
+ AI transformation across your entire organization.
+ It coaches employees on real use cases,
+ tracks who's using AI for business impact,
+ and shows you exactly where AI is
+ and isn't creating value.
+ The result?
+ You go from rolling out tools
+ to driving measurable AI value.
+ Your employees move from meeting summaries
+ to solving actual business problems,
+ and you can prove the ROI.
+ Stop guessing if your AI investment is working.
+ Check out Section at sectionai.com.
+ That's S-E-C-T-I-O-N-A-I.com.
+ Every episode, I talk about the competition
+ between open AI, anthropic, SpaceX AI,
+ Google, and Meta.
+ And if you've been listening for a while,
+ you might have a favorite.
+ Maybe you think open AI and anthropic
+ can stay ahead, or perhaps
+ Meta's open source strategy can win out.
+ Whatever your view, every AI lab creates
+ a different investment opportunity.
+ Harbor Capital Advisor's AI Lab Ecosystem ETF Suite
+ lets you invest in the ecosystem
+ behind the AI lab you believe in.
+ Search Harbor AI Lab Ecosystem ETFs
+ wherever you invest or follow
+ at Harbor Capital on X to learn more.
+ Visit harbercapital.com for a prospectus
+ containing investment objectives, risks,
+ fees, expenses, and other important information.
+ Read and consider it carefully before investing.
+ Risks include principal loss
+ and artificial intelligence-related risks.
+ Harbor ETFs are distributed by
+ Foresight Fund Services LLC.
+ Harbor is not affiliated with AI Daily Brief,
+ and the funds are not affiliated with,
+ sponsored by, or endorsed by any AI lab.
+ This is a paid advertisement
+ and not personalized investment advice.
+ Investing involves risk,
+ including possible loss of principal.
+ When I'm in a meeting, I'm fully in it.
+ I'm thinking about the iteration
+ and creative back and forth it takes
+ to actually push a goal forward.
+ What I'm not thinking about is capturing
+ takeaways, tracking to-dos, or any of that.
+ And that's where Granola comes in.
+ Granola is an AI-powered notepad
+ that captures what happens in your meetings
+ and turns it into clean, structured notes
+ with the decisions and action items
+ pulled out and easy to find.
+ There's no setup and no configuration.
+ It just fits into how you already work.
+ For me, it means I get to stay in Idea Mode,
+ and Granola makes sure those ideas
+ actually become action.
+ Once you try Granola on a first meeting,
+ it is hard to go without.
+ You can try it totally free
+ at granola.ai slash brief.
+ That's granola.ai slash brief
+ to get your time back.
+ Welcome back to the AI Daily Brief.
+ There have been so many releases recently
+ between new models, new form factors
+ like all these personal agents,
+ that we haven't had a chance to catch our breath
+ and get the latest read on how AI
+ continues to be adopted in the enterprise.
+ Now, let me make a pitch
+ for why this should matter to you.
+ It's obvious if you work inside the enterprise,
+ getting a sense of where other companies are,
+ what's working for them,
+ what barriers they're facing for adoption.
+ All of that can be critical insight
+ that's valuable in helping you understand
+ where your organization sits on the adoption spectrum
+ and what you might need to do differently.
+ But for those who aren't in a big enterprise,
+ for those solopreneurs among you
+ are freelancers.
+ Two reasons why I think
+ this is worth paying attention to.
+ The first is that likely
+ many of you interact with these companies,
+ perhaps as a service provider,
+ and so understanding where they actually are
+ and what they're going through
+ becomes valuable in that way.
+ But for everyone else,
+ enterprise adoption is going to have
+ a dramatic impact on many parts
+ of how AI evolves
+ that matter far beyond just the enterprise itself.
+ Take, for example,
+ the latest data published by Ramp.
+ In this week's AI Index,
+ they found that token spend fell 5.2%
+ from last week.
+ Now interestingly,
+ token volume was up,
+ meaning that companies were able to grow
+ their use of AI
+ while still decreasing the cost
+ to use that AI.
+ Ramp lead economist Eric Karazian
+ also pointed out that this was not about
+ open source models,
+ which remain less than 5%
+ of business spent.
+ The decline, he said,
+ is driven almost exclusively
+ by competition between open AI
+ and Anthropic.
+ Meanwhile, one of the most
+ underappreciated announcements
+ from this week's Open AI Deb Day
+ was that Open AI now has
+ a marketplace feature for enterprises
+ where companies can use
+ their spend commitments,
+ not on Open AI tokens,
+ but on other open models
+ sold through Open AI.
+ So what enterprises get
+ is that multi-model flexibility
+ that they are increasingly looking for
+ and the ability to take advantage
+ of cheaper open-weight models.
+ What Open AI continued to get
+ is customer lock-in
+ and the ability to keep spend
+ in their ecosystem
+ even if it's flowing
+ to other token merchants.
+ All of that impacts
+ how these different model providers
+ compete with one another
+ and, of course,
+ how the market views their prospects.
+ If Wall Street investors become convinced
+ that volumes up but spend down
+ is the permanent trend,
+ you better believe
+ there's going to be implications
+ for how much they're willing
+ to backstop and fund
+ infrastructure build-out.
+ So with all of that said,
+ let's come back to some recent data
+ from where enterprise adoption
+ is right now.
+ And for this,
+ we're turning to a consistent source
+ that we use,
+ which is KPMG's AI Pulse Survey
+ for Q3.
+ The Q3 pulse was based
+ on a survey of more than
+ 2,100 senior leaders
+ across 20 different countries
+ and chose a fairly significant
+ maturation
+ in enterprise AI strategy.
+ Now, one of the things
+ that's really interesting
+ that KPMG has started doing
+ is breaking out results
+ based on where organizations
+ are in their AI journey.
+ What I mean by that
+ is that they're comparing
+ the responses of organizations
+ that are still
+ in an experimentation phase
+ compared to those
+ who have already established ROI
+ from their AI investments.
+ And the gap between those organizations
+ that are still experimenting
+ and those with established ROI
+ reads like a map
+ of where business AI users
+ will go in general
+ over the next several months.
+ And a lot of the types of things
+ that those established ROI
+ organizations are doing
+ and paying attention to
+ are the things that we discuss
+ on the show all the time.
+ To take an easy example,
+ among those organizations
+ with established ROI,
+ 48% are seeing
+ significant employee
+ adoption of AI agents.
+ This should come as no surprise.
+ 2026, as I have said,
+ numerous times was the year
+ that agents became real.
+ And if the people participating
+ in both our free
+ and paid programs
+ are any indication,
+ this is very much a phenomenon
+ that is impacting the enterprise.
+ And yet there remains a huge gap
+ between the organizations
+ that are farther along
+ than the organizations
+ that are still in experimentation phase
+ with those experimenters
+ seeing only 15%
+ with significant employee
+ adoption of AI agents.
+ Now, in this era of agents,
+ obviously cyber defense
+ is becoming more important
+ and 58% of those
+ mature established ROI organizations
+ are putting into place
+ AI assisted cyber defense right now.
+ That's a 50 point gap
+ with the experimenting organizations
+ where just 8%
+ are doing any sort
+ of AI assisted cyber defense.
+ A full 86% of organizations
+ with established AI ROI
+ have a formal AI harness layer.
+ In other words,
+ are maintaining some sort of interface
+ through which their people
+ are interacting with AI.
+ Once again,
+ we see a 55 point gap,
+ although even among the experimenters,
+ 31% have a formal AI harness layer as well.
+ And when it comes to all these questions
+ that we've recently been discussing
+ around data sovereignty
+ and how organizations feel
+ about handing their data
+ over to the model labs
+ and whether they're going to build
+ more complex architectures
+ that allow them to avoid some of those issues,
+ 53% of the established ROI organizations
+ do report having an enterprise-wide
+ sovereignty strategy
+ compared to just 8%
+ of the experimenters.
+ The way that KPMG sums up
+ the big difference
+ and the big shift right now
+ is that we're moving into a phase
+ where the most important thing
+ is the management layer
+ that sits on top of AI
+ and makes sure that all of this works
+ inside the confines
+ in context of the organization.
+ 53% place accountability
+ for AI-informed decisions
+ at the C-suite level.
+ And interestingly,
+ we're starting to see some of the efficiency
+ and cost concerns show up
+ in the management layer as well,
+ with 23% having built
+ some model routing capability.
+ Across all dimensions of AI management
+ from experimentation
+ to strategic planning
+ to scaling
+ to driving adoption
+ to establishing ROI,
+ the more mature an organization gets,
+ the more likely it is
+ that they have a formal cross-functional
+ or formal enterprise-wide approach
+ to that particular issue.
+ But what are they using
+ this new infrastructure to do?
+ Productivity still remains a key goal of AI
+ but is actually down
+ from being reported as a key goal
+ by 42% of organizations in Q1 of this year
+ to 37% of organizations in this year.
+ Instead, a lot of what KPMG calls
+ operating priorities are gaining ground
+ as the important initiatives
+ that AI is meant to address.
+ Human AI collaboration jumped four points
+ from Q1 to Q3,
+ responsible AI in governance
+ and trust and security
+ also jumped four points
+ and adaptability and resilience
+ jumped three points.
+ And when it comes to our perpetual
+ question about efficiency
+ versus opportunity AI,
+ KPMG writes,
+ a quarter of organizations
+ report developing multi-agent systems
+ and a fifth are orchestrating
+ multiple agents.
+ The purpose is broadening as they do.
+ Revenue-focused agent strategies
+ have risen since Q1
+ while efficiency-focused strategies
+ have declined
+ and most organizations
+ now pursue the two together
+ rather than trading one off
+ against the other.
+ And it makes sense then
+ that alongside that maturation
+ of the way that they think
+ about AI use cases,
+ there's also a maturation
+ of cost management.
+ KPMG characterizes it
+ as moving from cost control
+ to thinking about things
+ in terms of AI economic management.
+ Cost visibility they write
+ is widespread.
+ Linking it to value
+ is the next step.
+ For those organizations
+ that are experimenting,
+ they are obviously not linking it
+ to value yet.
+ That's the whole point
+ about why they're identified
+ as pre-established ROI.
+ But for those organizations
+ that have established ROI,
+ 48% report that
+ they consistently assess
+ value against cost.
+ Among the experimenting organizations
+ already 43%
+ have AI cost monitoring dashboards,
+ a number that jumps to 77%
+ among the established ROI orgs.
+ At the point of AI approvals,
+ 50% of experimenting firms
+ have a cost review
+ compared to 73%
+ with established ROI
+ and usage or token budgets
+ are also showing up.
+ 31% of the experimenting
+ organizations have them
+ with 46% of the established
+ ROI organizations
+ having some sort of usage
+ or token budget as well.
+ One of my big soap boxes
+ is of course
+ that I think that being
+ overly restrictive
+ with usage or token budgets
+ when you were in that
+ experimentation phase
+ can be fairly limiting
+ but of course it's hard to tell
+ exactly what people are
+ considering usage or token budgets
+ without seeing the individual programs.
+ Overall,
+ the survey tells the story
+ of AI enterprise adoption
+ as one of increasing
+ organizational maturity,
+ managing the economics of AI,
+ building better systems
+ for monitoring AI,
+ thinking about questions
+ like sovereignty
+ and multi-model architectures.
+ If you go back a year ago
+ to the Q3 2025 poll survey,
+ most of these considerations
+ weren't even on the radar.
+ KPMG was still asking things
+ back then like what percentage of
+ organizations had even tried
+ an agent.
+ Now all of these things
+ are mission critical
+ management decisions
+ and I think that's extremely
+ positive for the industry
+ as a whole.
+ And by the way,
+ for those who are worried
+ that the focus on cost
+ efficiency is going to lead
+ to decreased spend,
+ KPMG found that the average
+ planned AI investment
+ over the next 12 months
+ jumped from 186 million
+ in Q1
+ to 210 million in Q3.
+ I personally think
+ that we are still barely
+ scratching the surface
+ of what we will ultimately
+ spend on intelligence
+ but for now
+ that's going to do it
+ for today's AI Daily Brief
+ Appreciate you listening
+ or watching as always
+ and until next time
+ Peace
