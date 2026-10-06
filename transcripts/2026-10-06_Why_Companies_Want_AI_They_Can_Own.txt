@@ -1,0 +1,638 @@
+ A yet-to-be-released open-weight AI model is getting a lot of buzz.
+ This could be the model, people say, that brings the open-source AI crown back to U.S. shores.
+ What's interesting to me, though, is less the model itself, and more the evolving discourse
+ around open-weight models in the U.S.
+ Increasingly, this is not just one conversation, but three.
+ An AI safety conversation, a national security conversation, and an enterprise strategy
+ conversation.
+ Now, if those conversations point in potentially different directions, which will win out?
+ How will they be reconciled?
+ Today, we explore where open-weight AI is in the U.S. right now, and where it might head next.
+ The AI Daily Brief is a daily podcast and video about the most important news and discussions in AI.
+ All right, friends.
+ Quick announcements before we dive in.
+ First of all, thank you to today's sponsors, KPMG, Section, Robots, and Pencils, and Blitzy.
+ To get an ad-free version of the show, go to patreon.com.ai-dailybrief, or you can subscribe on Apple Podcasts.
+ And if you want to learn more about sponsoring the show, send us a note at sponsors.ai-dailybrief.ai.
+ Slowly but surely, the hyperscalers are getting the message that they cannot treat community attitudes around data centers as a secondary priority.
+ The latest example comes from Amazon, who on Friday committed to spending more than a billion dollars over the next five years
+ on community projects surrounding their data centers.
+ In addition, the company has said that they've stopped using nondisclosure agreements to keep their deals with local officials under wraps.
+ The commitment came as part of a 3,000-word essay from AWS CEO Matt Garmin,
+ who, in addition to making those commitments, implored the public to think about data centers' critical infrastructure for modern life.
+ He called the data center buildout, the race our nation can't afford to lose,
+ and compared it to the construction of the interstate highway system.
+ Garmin wrote,
+ With any change, there will be important questions raised, but there will also be misinformation and outright lies.
+ And in the age of social media and 24-7 news, myths take hold faster than ever before.
+ In fact, this buildout is so important geopolitically that there are widespread reports of various countries intentionally ceding misinformation in the U.S. about data centers to trick us into slowing down.
+ Noting 100 data center moratoriums being considered across the country, Garmin continued,
+ if these measures are enacted, the U.S. could be writing its own losing ticket to this race,
+ and the consequences would last generations.
+ As a country, we can't afford to find ourselves in that position.
+ The new community pledge included all of the commitments that are quickly becoming standard,
+ preventing increases to local energy rates, creating local jobs,
+ and ensuring communities have more opportunities to discuss data center projects.
+ The approach to the announcement saw some pushback in the press.
+ The Verge barely touched on the new community pledges, focusing instead on what it called the scary blog warning communities not to block data centers,
+ and part of the issue was that Amazon buried their new pledge beneath a long section debunking the myths around data centers.
+ Tom's Hardware wrote,
+ From my perspective, while I am very glad to see these sort of commitments starting to become normalized,
+ I tend to agree that this post was fairly tone deaf and ill-advised to the extent that it was trying to actually appeal
+ to the communities where these data centers are going to happen.
+ It's pretty difficult to imagine anyone will change their opinion because a data center developer said that their genuinely held concerns were false,
+ and whether that's right or wrong, these companies have to realize that they have very different constituencies that they're dealing with.
+ The individual in a community has vastly less consideration for the race our nation can't afford to lose.
+ What they care about is their own lives and the lives of people near them.
+ Period.
+ Wrapping what is an otherwise positive pledge in a blanket of PR and myth busting
+ just undermines the pledge as witnessed by the article that the Verge was able to write.
+ For now, the moves that the data center builders are making are positive.
+ The pitch still needs a lot of work.
+ And speaking of the pitch needing some work, Sam Altman has handed a huge new bag of ammunition to everyone who dislikes AI.
+ In an interview with Politico, Altman said that there was a, quote,
+ lot of daylight between open AI and Anthropics views on AI safety.
+ Asked for specifics, Altman responded,
+ We believe that the world should accept some bad things happening for the benefits of this technology and people having the agency.
+ Now, if you are sitting there thinking to yourself,
+ well, that has to be just part of a larger assessment and a much more nuanced argument that Altman is trying to make.
+ You would, of course, be right.
+ It's pretty clear he didn't come into this interview with that line prepared wanting to drop it for some big emphasis.
+ But at some point, the folks who are scheduling themselves on all of these interviews
+ are going to realize that whether they like it or not, we live in a soundbite culture.
+ And if you say we believe the world should accept some bad things happening for the benefits of this technology,
+ that's going to be the only thing that anyone publishes for the next couple of days.
+ Now, as to what Altman was actually trying to get into,
+ the discussion was around current safety proposals and where open AI agreed with Anthropic and where they didn't.
+ For example, in terms of agreement,
+ Altman said that both support things like third party safety auditors.
+ However, one of the big distinctions Altman tried to present was around the risk of regulatory capture.
+ Altman characterized the Anthropic view as,
+ this technology is going to get so powerful and it's so dangerous that a single lab in San Francisco should have it
+ and make sure nothing bad happens and kind of figure out how to dole out its benefits.
+ Altman, for his part, though, called this a completely unacceptable trade-off.
+ He continued,
+ I wouldn't take a trade of saying,
+ well, make sure there's no major hacks, there's no misuse of this technology,
+ there's zero scams, there's zero all the other bad things that will happen,
+ because I think people will do tremendously orders of magnitude more good stuff than bad stuff.
+ In other words, he is getting at the AI version of the classic conundrum of safety versus freedom
+ and is making the case which he is accurate has not been made enough in the popular press
+ that tightly controlling the use of AI or limiting it to some very specific group of people
+ comes with its own set of risks that are certainly no less real than anything being discussed in the AI safety discourse.
+ Overall, it definitely seems like open AI is trying to carve out increasingly different territory when it comes to AI safety,
+ but unfortunately, at least for this round in the discourse,
+ no one was seeing beyond the line that we should accept some bad things.
+ To the extent that bad things do happen, however, Treasury Secretary Scott Besant
+ has reinforced that when they do, the frontier labs who enabled them are responsible for their own actions.
+ Last week's AI summit at the White House ended in an accord between the frontier labs,
+ which normalized and reaffirmed the concept of third-party auditors and board-level oversight.
+ In an interview with Axios on Saturday, Besant said,
+ We want safe acceleration.
+ It's the people at the labs who have to accept responsibility, and I agree with that.
+ I think the labs have come around to that way of thinking too.
+ Besant weighed in on a range of other hot-button issues in AI,
+ representing some updated thinking for the Treasury Secretary.
+ On AI risk generally, Besant scolded the communication from some quarters, commenting,
+ I believe that we have to be prepared for every occasion,
+ but on the other side, this alarmism without solutions by some of the AI community, that's not leadership.
+ Remember that during the early stages of the mythos rollout,
+ Besant seemed fully convinced the model was dangerous and unsuitable for general release,
+ suggesting at least some slight change in perspective.
+ Besant also dismissed the notion of an AI bubble,
+ pointing out that industry leaders like Microsoft are seeing solid returns from their infrastructure spend.
+ Overall, Besant appears to still have concerns,
+ but is expressing increasingly nuanced views of AI safety that go beyond some simplistic slowdown.
+ Now, speaking of last week's White House AI events,
+ after President Trump declared that the term will no longer be artificial intelligence,
+ Elon Musk showed his support for the president's name change by posting,
+ No more AI, SI, it's better.
+ After an ex-user called on him to rename SpaceX AI to SpaceX SI,
+ Musk responded, yes, we will make that change.
+ At the moment, however, friends, I do not have any intentions of renaming the AI Daily Brief to the SI Daily Brief.
+ Lastly today, a much more fun one,
+ Meta has open sourced their code to let users build their own Muse gadgets.
+ When Mark Zuckerberg unveiled the Muse charm device at Meta Connect,
+ it seemed like something the hardware division had cooked up from off-the-shelf components.
+ Zuckerberg showed off a working prototype,
+ but said that they're still nailing down the final build sheet ahead of a December release.
+ Immediately, people started hacking together their own version from cheap generic hardware.
+ And Meta's response on this one was, go right ahead.
+ Nat Friedman announced an open-source build of Muse firmware for ESP32 devices and the Linux SDK.
+ Hardware hackers can now easily build a fully customizable Muse gadget
+ on top of a Raspberry Pi or ESP32 dev board.
+ Meta has also hacked together their own new gadget with the Muse home link.
+ The device is a small USB-powered Wi-Fi link that lets Muse tap into your smart home setup.
+ Meta is making a batch of 5,000 of these devices,
+ and will be giving them away to Muse subscribers once they're ready to ship.
+ The result was a huge wave of people porting Muse onto a ton of random devices.
+ Robert Soriano dusted off his old PSP and turned it into a Muse device,
+ complete with microphone support.
+ Wes Boss got it running on a conference badge, porting the firmware across to MicroPython.
+ Riley Brown installed Muse on his Mod Retro Game Boy by simply asking Codex to port it over,
+ while Meta engineer Jessica Minn went the easier route,
+ loading Muse onto a $50 ESP32 device.
+ He's currently using it as a scanner to inventory his wine collection,
+ but notes that the possibilities are endless.
+ Basically, any device with a Wi-Fi connection can now act as a Muse gadget.
+ Now, not to overstate this,
+ but given how many false starts we've seen when it comes to AI devices,
+ maybe this approach of just letting people build things
+ is a better strategy for figuring out what the form factor for a genetic gadget should be.
+ Historically, launching a dedicated device like a smart speaker has been a risky play.
+ The devices are low margin and prone to failing in the market if they don't function perfectly.
+ Meta is instead going straight to the tech community
+ and giving them open source firmware to use on whatever hardware they happen to have lying around.
+ And while this set of devices might only be for those hobbyists
+ who have enough technical capability to do it themselves,
+ it wouldn't at all surprise me if the quote-unquote right form factor for an agentic device
+ actually comes out of one of these experiments
+ instead of just brainstorming inside one of the labs.
+ If you want to see more examples, go to an X search for Muse gadgets.
+ For now, however, that's going to do it for the headlines.
+ Next up, the main episode.
+ A new study from KPMG in the University of Texas at Austin
+ found that when people work with AI,
+ similar skills don't guarantee similar outcomes.
+ Researchers studied more than 500 early career professionals
+ and found that the best performers consistently amplified the value of AI
+ by guiding, evaluating, and refining its outputs.
+ These top performers, called AI amplifiers,
+ weren't defined by what they knew alone,
+ but by how they worked with AI.
+ Learn more about what separates AI amplifiers from everyone else
+ at kpmg.com slash us slash AI amplifiers.
+ Here's a harsh truth.
+ Your company is probably spending thousands or millions of dollars
+ on AI tools that are being massively underutilized.
+ Half of companies have AI tools,
+ but only 12% use them for business value.
+ Most employees are still using AI to summarize meeting notes.
+ If you're the one responsible for AI adoption at your company,
+ you need Section.
+ Section is a platform that helps you manage AI transformation
+ across your entire organization.
+ It coaches employees on real use cases,
+ tracks who's using AI for business impact,
+ and shows you exactly where AI is and isn't creating value.
+ The result, you go from rolling out tools
+ to driving measurable AI value.
+ Your employees move from meeting summaries
+ to solving actual business problems,
+ and you can prove the ROI.
+ Stop guessing if your AI investment is working.
+ Check out section at sectionai.com,
+ that's S-E-C-T-I-O-N-A-I dot com.
+ The best teams don't have a single star
+ carrying everyone else.
+ They know their own strengths
+ than each other's weaknesses and play to both.
+ That's the team Robots and Pencils has built on purpose.
+ Nobody there is grinding through busy work
+ to pad a head count number.
+ People come for the hard problems,
+ and they stay because everyone around them
+ is leveling up at the same time.
+ In a market full of companies
+ that are just trying to hire fast, that's worth a look.
+ Check out robotsandpencils.com slash careers.
+ Every AI coding tool on the market
+ does the same thing first.
+ It starts writing code.
+ Blitzy does the opposite.
+ Before writing a single line,
+ Blitzy spends days reverse engineering
+ your entire code base.
+ Thousands of agents ingest millions of lines,
+ mapping every dependency,
+ every undocumented constraint,
+ every architectural decision made over the last decade.
+ The result is a dynamic knowledge graph
+ that understands your software
+ the way a principal engineer would
+ after 30 years in the building.
+ Other tools guess at context
+ with grep searches and markdown files,
+ Blitzy never guesses.
+ It builds true understanding first,
+ then delivers over 80% of entire software epics
+ autonomously, validated, end-to-end tested
+ production grade pull requests.
+ That's why Fortune 500 engineering teams
+ trust Blitzy with the code bases that matter most.
+ See for yourself at Blitzy.com.
+ That's blitzy.com.
+ Welcome back to the AI Daily Brief.
+ Today we are talking about open-weight AI
+ in the United States.
+ This is a conversation that's evolved
+ quite a bit in the last year.
+ Its first big moment in some ways
+ was the January 2025 deep-seek moment
+ where Chinese lab deep-seek
+ dropped a reasoning model in a free app,
+ which ended up being most people's first experience
+ with the reasoning model,
+ which was very different than their experience
+ using the existing crop of models
+ that were available at that time.
+ That moment caught the market's attention
+ to the tune of $580 billion
+ ripped off of Nvidia's market cap in a single day.
+ With the concern, of course,
+ being that if cheaper to produce Chinese models
+ were going to become what everyone shifted to,
+ then maybe these infrastructure costs,
+ which were propping up the entire economy,
+ didn't really make as much sense.
+ Over time, that narrative shifted,
+ although it never fully went away.
+ And in 2026, the discussion around open-weight models
+ has changed it again.
+ This year, the discourse around open models
+ is much more about how they potentially solve key issues,
+ not just for startups and developers
+ who are willing to play in uncharted waters,
+ but for enterprises who are worried about costs
+ and data sovereignty.
+ And one of the big questions for the last few months
+ has been whether this was a section of the market
+ that the US was going to compete in
+ or was it just going to seed it all to China
+ and try to stay ahead on the closed-source frontier models
+ in the state of the art.
+ A new report from Axios is getting a lot of buzz.
+ A disproportionate amount, in fact,
+ that I think shows the interest in this particular area.
+ On Sunday, Axios dropped a piece called Scoop.
+ Powerful open model is set to shake up AI race.
+ The rumored model is coming from Reflection AI,
+ who themselves have been a bit of an enigma
+ since their founding in early 2024.
+ The company raised several billion dollars
+ and reached a $25 billion valuation without a product.
+ They won a Pentagon contract in May
+ and signed a $6.3 billion compute deal with SpaceX.
+ Reflection AI did position themselves as a US-based counterweight
+ to the growing popularity of Chinese open-weight models,
+ but without a currently available model,
+ many assumed this was just a fundraising pitch.
+ On Sunday, however, Axios reported that Reflection AI
+ is preparing to release their first model later this month
+ with rumors that it's pretty good.
+ Sources said that the model will be competitive
+ with Chinese rivals and will quote,
+ boast powerful intelligence capable enough
+ to help companies build their own proprietary
+ low-cost AI systems.
+ And this is of course where it piques my interest
+ and should be of interest to those of you
+ who are thinking about enterprise AI deployments.
+ According to the report,
+ Reflection's goal is to build an AI factory,
+ a system designed to help enterprises
+ create their own AI systems based on Reflection's models.
+ Reflection is already piloting this approach,
+ recently announcing a sovereign AI factory partnership
+ with Shinsegae Group in South Korea,
+ and sources said that Reflection held briefings
+ in Washington last week to discuss the new models
+ and this concept of AI factories.
+ They've certainly been securing a ton of compute
+ in anticipation of this launch.
+ In addition to the multi-billion dollar SpaceX deal,
+ Reflection has another billion dollars
+ in contracts with Nebius.
+ Now, all of that's great, all of that's very cool.
+ It'll be interesting to see what Reflection puts out,
+ but what matters much more than the individual model
+ and their approach to factories
+ is the trend that it represents.
+ In fact, sources told Axios
+ that several other US labs
+ are preparing to launch open models this month.
+ We've heard rumors that NVIDIA is training Nemotron 4
+ and we could be due for a new release
+ from Thinking Machines Lab.
+ Summing it up, Andrew Curran wrote,
+ American OSS Renaissance about to begin?
+ Howard Lutnick has been hoping
+ for something like this for some time
+ and at one point was reportedly
+ even considering direct government funding
+ to get the ball rolling.
+ The US government wants American open models
+ to compete with Chinese models globally.
+ The discussion that Andrew Curran is referring to
+ is the one that happened over the summer,
+ when it seemed for a moment
+ like the US government could be trying
+ to include open-weight models in their testing regime.
+ Many thought that that move, if it actually happened,
+ would effectively snuff out that segment of the industry.
+ The cause, of course, came shortly
+ after the release of Kimmy K-3,
+ which the media was very quick to jump on
+ as open-source mythos.
+ According to Wired's coverage
+ of that White House debate at the time,
+ Commerce Secretary Howard Lutnick
+ was a key defender of competition over bands.
+ Back in July, they wrote,
+ Lutnick has contemplated ways to create incentives
+ for top US labs to create their own open-weight models
+ to counterbalance China
+ and has spoken with leaders
+ at a number of AI labs in recent weeks.
+ Lutnick appears to be straddling
+ a middle ground of regulation.
+ He imposed export controls on Anthropic
+ to bring them to heel,
+ but has been more freewheeling than others.
+ One of the long-term geostrategic questions
+ and divides between different people
+ who have different takes on this
+ has been whether the right approach
+ to US leadership is to try to cut off China's access
+ to the inputs by which they can make advanced models
+ or to try to own the entire stack
+ from closed models to open models
+ so that the world runs end-to-end on USAI infrastructure
+ both from a hardware and software perspective.
+ At no point has there ever really been
+ any strategic coherence around that,
+ but that is the constant back and forth
+ that's happening in the halls of power
+ as the conversation evolves.
+ One company though that has quietly or not so quietly
+ depending on how well you're paying attention
+ been a champion of US open-source is NVIDIA.
+ The company has now trained multiple generations of LLMs
+ with NEMOTRON 3.5 seeing significant use
+ and NEMOTRON 4 promising to be
+ relatively close to the frontier.
+ Alongside LLMs, NVIDIA has also trained models
+ in verticals like robotics and self-driving cars.
+ Perhaps unsurprisingly, NVIDIA seems to hold the view
+ that their GPUs are the core product
+ that core product stands to benefit dramatically
+ from more use of freely available AI models.
+ Their outside investments also speak
+ to a strong commitment to open models.
+ NVIDIA is a key backer of reflection AI
+ as well as several other open-source labs.
+ And of course, more recently,
+ they made that huge investment into hugging face
+ spending $12.9 billion to acquire the platform last month.
+ At NVIDIA's developer conference in July
+ when open-weight model regulation
+ was firmly on the table,
+ NVIDIA CEO, Jensen Huang made an impassioned plea
+ to keep the models available.
+ He said, researchers need open-source,
+ developers need open-source,
+ companies around the world need open-source.
+ Open-source models are really, really important.
+ We lead an open-source contribution.
+ We have 23 models on leaderboards.
+ We have all these different domains
+ from language models to physical AI models
+ to biology models.
+ Each one of these models has enormous teams.
+ We are dedicated to this and the reason for that
+ is that scientists need it, researchers need it,
+ startups need it and companies need it.
+ The question is, are the Chinese models good enough?
+ Certainly a ton of startups and smaller companies
+ have already shifted their workloads over to open models.
+ Signal on X writes,
+ tons of people do not realize how much new stuff
+ is being built on top of Chinese open-weight models.
+ You don't even have to disclose it
+ because it's running on US-based infrastructure.
+ When product designer Sam Solomon followed up and said,
+ I keep hearing this
+ but honestly it doesn't actually seem cheaper
+ than using Luna, Signal pointed out,
+ you cannot fine-tune Luna.
+ And increasingly that fine-tuning is the story.
+ This year the conversation around open models
+ has shifted from being about either,
+ A, the market implications of big infrastructure investments
+ or B, the general geopolitical competition with China
+ to instead also including this strong dimension of discussion
+ around how open models potentially solve enterprise AI problems.
+ Investor Joe McCann wrote,
+ this is precisely why I invested in reflection AI.
+ Open source is how enterprises and the government
+ will ultimately trust AI.
+ The discourse about enterprise trust of AI is getting louder.
+ Back in July in a conversation with CNBC,
+ Palantir CEO Alex Karp discussed what customers actually want,
+ what he considers the real business of frontier labs
+ and consequently the importance of open models.
+ Said Karp, what the technical customers want
+ is control over their compute, their models,
+ their data stack and their alpha.
+ They want to know that they own the means of production
+ and it's not being transferred to someone else.
+ Who owns the data?
+ Are the props secure?
+ Is this being transferred to you?
+ If it was so valuable and I can make you a billion dollars,
+ wouldn't I say I'll make you a billion dollars
+ and I want 30%?
+ Why are they charging for tokens if it's so valuable?
+ Now, Karp is a bit of a renegade,
+ but he's not the only one making this argument.
+ Increasingly, this is the pitch
+ that Microsoft is bringing to the market as well.
+ Microsoft CEO, Satya Nadella,
+ wrote a blog post a couple of months ago
+ called the Reverse Information Paradox.
+ In it, he said, in the AI age,
+ the buyer risks giving away knowledge
+ just in order to use what they bought.
+ You essentially pay for intelligence twice,
+ once with money and again with something
+ even more valuable.
+ The proprietary knowledge you must reveal
+ to make that intelligence useful.
+ The better you want the model to perform,
+ the more of that knowledge you have to feed it.
+ Over time, the information asymmetry
+ becomes increasingly skewed.
+ The seller learns more and more about you
+ as you use what you purchased,
+ while you learn very little about
+ what the seller is learning in return.
+ In the same post Satya later argued,
+ enterprises need a real trust boundary
+ for their human capital and token capital to compound.
+ It's where an organization's data
+ traces evals, adapted weights and memory accumulate
+ and improve together.
+ And it is a hard boundary across which nothing crosses,
+ not even the intelligence exhaust without consent.
+ Enterprises will demand the rights
+ to use model outputs to fine tune
+ and or train their own models.
+ I think of this as every firm's right
+ to align models to their enterprise
+ accountability obligations.
+ Now what's interesting about this
+ is that Microsoft is of course not selling open models.
+ What they are selling however,
+ is their own models as a base
+ to do this sort of training
+ with an existing trusted partner.
+ Wrote Microsoft AI CEO Mustafa Seliman,
+ all of this is the foundation
+ for Microsoft Frontier Tuning.
+ It lets you customize our models
+ to create custom company specific agents
+ that only you control.
+ You can make our model your model,
+ your data, your agents, your moat.
+ And while the pitch was largely around sovereignty,
+ there were also clearly benefits
+ on this growing efficiency conversation as well.
+ For example, Seliman said,
+ when we tuned our models for McKinsey's tasks,
+ MAI, which is Microsoft's models,
+ delivered the highest win rate
+ outperforming GPT-55 at the time
+ the state of the art on quality
+ while being 10x lower on cost.
+ Now this trend has been coming for a while
+ and it's getting more and more serious.
+ And everywhere you look, there are more indications
+ that behavior is shifting this way as well.
+ A couple of weeks ago, for example,
+ Vercel CEO Guillermo Roche wrote,
+ looks like today may be a record day
+ for token volume percentage
+ of open models on Vercel AI Gateway.
+ Open models used 78.4% of tokens
+ while closed used 21.6%.
+ And certainly in the discussions
+ that we're having both at AIDB
+ and at Super Intelligent,
+ a conversation about open models
+ which might have not even made the agenda
+ last year at this time
+ is now something that many enterprises
+ are taking much more seriously.
+ One big question of any potential US
+ open-weight AI renaissance, however,
+ is what the regulatory environment
+ for this type of AI might end up being.
+ And on that front, the Trump administration
+ has named their new AI czar
+ and announced a new AI task force alongside him.
+ The Wall Street Journal reports
+ that current director of national intelligence,
+ Jay Clayton, will be empowered as the new AI czar.
+ Clayton has been a senior official
+ across both Trump administrations.
+ He served as SEC chair during Trump won
+ and during the current administration,
+ he began as a US attorney
+ in the Southern District of New York
+ before being appointed director
+ of national intelligence.
+ Alongside Clayton, the administration
+ will now have a cross department AI task force as well
+ with that group including Emil Michael,
+ under secretary of war for research and engineering,
+ Scott Cooper, the director
+ of the office of personnel management
+ and Andrew Ferguson,
+ the chairman of the federal trade commission.
+ The FTC seems to be becoming
+ an increasingly important regulator
+ for the AI industry.
+ Although the task force
+ also includes several officials responsible
+ for AI implementation across the government.
+ Alongside this core group,
+ the Wall Street Journal reported
+ that Bush-era national security advisor,
+ Condoleezza Rice, vice president,
+ JD Vance, treasury secretary, Scott Besant
+ and former AI czar, David Sacks
+ will also be included on the task force.
+ Confirming the task force in a truth social post
+ the president wrote,
+ the super intelligence force is tasked
+ with coordinating the effort of the federal government
+ to ensure that America continues
+ to lead the world in super intelligence.
+ The super intelligence force
+ will coordinate the federal government's engagement
+ with consumers, public interest groups,
+ religious organizations,
+ critical infrastructure providers
+ and super intelligence companies.
+ Now what's super clear so far
+ is that Clayton views his role
+ around artificial and or super intelligence
+ as first and foremost a national security role.
+ Clayton said, the risk of not being first is high.
+ Not being first increases the identified
+ and unidentified risks
+ particularly from our adversaries.
+ Being first will better enable us
+ to address those risks
+ on behalf of the American people.
+ Even before this appointment,
+ Clayton argued in an interview with CNBC
+ against US companies pausing development
+ of AI models
+ for the same national security sorts of reasons.
+ Steve Bannon doesn't like it
+ accusing Clayton basically
+ of being much too close to China.
+ On his podcast, Bannon said,
+ Clayton's a great lawyer
+ but I don't know how an Alibaba general counsel
+ who got them through an IPO,
+ a military info network for the CCP
+ ends up director of national intelligence.
+ On the other end of the critique spectrum
+ tornado cash developer Roman Storm
+ is pretty negative in what this likely means
+ for open source in his estimation
+ based on his personal experience with Clayton.
+ He wrote, it doesn't look like we're headed
+ towards a future that supports open source AI.
+ Jake Clayton headed the US attorney's office
+ for the Southern District of New York
+ which prosecuted me.
+ My instinct is that the two very different conversations
+ we're having around open weights models
+ or maybe honestly even three
+ open models in terms of their implications
+ for the enterprise,
+ open models in terms of their implications
+ for AI safety
+ and open models for their implications
+ in terms of national security
+ are inevitably going to get a bit closer
+ in one form or another
+ given the new regulatory phase we're getting into.
+ Still call me an optimist
+ but I think there are reasons to be excited
+ about the future of American open models.
+ If for no other reason
+ then we tend to pretty aggressively
+ follow market opportunity signals
+ and in a world where enterprises
+ are looking to deal with costs
+ and issues of data privacy and data sovereignty
+ open models get a lot more interesting.
+ Certainly a conversation that we will continue to watch
+ for now though that is gonna do it
+ for today's AI Daily Brief.
+ I appreciate you listening or watching as always
+ until next time, peace.
