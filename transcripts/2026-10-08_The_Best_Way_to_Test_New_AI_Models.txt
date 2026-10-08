@@ -1,0 +1,1432 @@
+ We are currently in the fall glut of new models.
+ Over the past several weeks,
+ we've gotten a slew of new closed models
+ at the frontier, Opus 5.5, Astra 6, Soul 6.1,
+ with more on the way.
+ And from those same labs,
+ we've also gotten more cost-effective and faster models
+ like Sonnet 5.5.
+ And then as if all that wasn't enough,
+ we've also got a number of new open-weight models,
+ which are increasingly relevant
+ for lots and lots of different types of businesses.
+ And of course, every time one of these models
+ gets released, it's released with benchmarks.
+ But benchmarks don't really tell us much
+ about how it's going to be relevant for us personally.
+ For that, you need to build your own personal AI benchmark,
+ a system to tell if and how a model matters
+ for your own personal AI stack.
+ And that is the goal of today's operator-focused episode.
+ The AI Daily Brief is a daily podcast and video
+ about the most important news and discussions in AI.
+ All right, friends, quick announcements before we dive in.
+ First of all, thank you to today's sponsors, KPMG,
+ Robots and Pencils, Harbor and Blitzy.
+ To get an ad-free version of the show,
+ go to patreon.com.ai-dailybrief,
+ or you can subscribe on Apple Podcasts.
+ And to learn more about sponsoring the show,
+ send us a note at sponsors.ai-dailybrief.ai.
+ One more quick note before we get into this.
+ This is a recording of the webinar
+ that was hosted by me in New Far Gas Bar last week.
+ Given that already we've gotten
+ another couple new models this week,
+ I think the system that is discussed here
+ continues to be extremely pertinent.
+ Hopefully, you find this useful,
+ and tomorrow we will be back with a normal episode.
+ But for now, let's talk about building
+ a personal AI benchmark.
+ We prepared some very fun materials to you,
+ so we will share everything at the end.
+ You'll see throughout what are the materials,
+ but basically everything that you see me doing
+ and talking about, you will get everything
+ in order to try and do a similar process for yourself.
+ And do leverage the Q&A box,
+ because we have a large number,
+ so we're unable to open microphones,
+ but Dan is here, and Nathaniel is here,
+ and everybody will try to cater
+ to your questions as best we can.
+ Without further ado, Nathaniel,
+ some motivation on why we are here.
+ Yeah, thanks everyone for being here.
+ I think for those of you who are regular listeners of AIDB,
+ you'll know that this is a soap-boxy issue for me
+ when it comes to benchmarks.
+ Every time we get a new model, which, by the way,
+ is now, I think, 11 days on average for a frontier model,
+ one of my standard cautions is basically first
+ to be skeptical of the published benchmarks.
+ Not so much because we think
+ that any of these companies are lying.
+ That's not the nature of what they do,
+ but more because most of these benchmarks
+ are now in the training data sets,
+ and there's part of the canon that goes into them.
+ There's limited value of benchmarks,
+ and the longer they've been around, the less value there is.
+ Now, lots of people are continuously creating new benchmarks
+ to try to improve that,
+ and it's actually a pretty fertile environment right now,
+ much more so than six months ago.
+ But still, there are just real limits to that.
+ On top of that, even if we assumed
+ that all of the benchmarks were perfect and accurate,
+ we are now at a stage where so much is about
+ not strictly better or strictly worse determinations
+ of model performance, but how a model feels
+ and how it fits into the overall model stack
+ that you're putting together.
+ And there are going to be times I guarantee
+ where the thing that is technically state-of-the-art
+ on some benchmark is worse at the version of the thing
+ that you're doing that's lower on the charts, right?
+ This is particularly the case for things like writing,
+ where so much of it is incredibly subjective.
+ So all of that is to say that there's kind of no
+ shortcut solution to figuring out how a new model is
+ or isn't going to fit into your process
+ other than using it.
+ And so one of the things that I've talked about
+ in the past on the show
+ is trying to put together your own benchmark
+ that has your most common use cases.
+ And Nufar has very kindly gone out
+ and put together a more significant,
+ full, thoughtful version of that
+ so that I don't have to just keep repeating this
+ without being able to actually give you a resource to help.
+ So that's, I think, couldn't be more pertinent.
+ I think we're on model three this week.
+ We got Claude 5.5, Sol 6.1.
+ We didn't technically get Gemini for Argon.
+ We just had it announced, but it's a time right now
+ where I don't see this slowing down
+ despite us pacing the frontier now.
+ And we have some predictions about Gemini,
+ but we will not share them until we will see
+ what happens in reality.
+ And then we can say that we were right
+ or very quietly be mistaken.
+ Very well.
+ All right, the plan for today
+ or what the process that I created
+ to make it more standardized
+ and to help you do it for yourself
+ is comprised of basically five steps.
+ The first and arguably the most important step
+ is to decide which of your tasks
+ need to go into a repeatable benchmark.
+ Those should be tasks that represent
+ diverse set of things that you do for work
+ and if you use AI also for personal reasons
+ then they're as well.
+ They need to be ones that,
+ based on the results that you will get there,
+ you will be happy to make decisions accordingly.
+ That's one of the most important steps
+ that will help you perform.
+ Then you need to decide which are the candidates.
+ Obviously, if there is a single model release
+ that you want to check,
+ you can just check that versus your existing model roster.
+ In many cases, like we're seeing
+ over the last few weeks, models come in groups.
+ Often you might have more than one new candidate
+ to evaluate and sometimes it's just a good practice
+ if you have been working the same way for a while
+ and you just want to freshen stuff up.
+ So deciding what are you evaluating?
+ And by the way, we keep saying models,
+ but sometimes it's just to evaluate a new harness
+ or a new agent tool with a combination of a model.
+ So sometimes it's not just going to be a model.
+ It can also be a specific tool or feature
+ or something that you are considering
+ introducing to your best methods of working.
+ And then you will run the actual benchmark and comparison.
+ In order to make it accessible to everyone
+ I will introduce three ways to do that.
+ One is highly manual but still effective.
+ One with a small script that I created
+ and I'm sharing with you.
+ So you will be able to replicate the exact same steps
+ that I did in order to run mine.
+ And there are also dedicated tools and platforms
+ that help companies do that.
+ And we will mention them in the past
+ and those are not the focus of today.
+ In order to make a benchmark work effectively
+ you will be advised to hide the names of which models
+ or which tools created each result
+ because we are very biased towards our beloved tools.
+ Spoiler alert, I was quite surprised
+ with my results as you will see.
+ And lastly, there is a decision
+ because the fact that in a specific benchmark run
+ one tool or one model outperformed your current setup
+ does not necessarily mean that automatically
+ you need to make changes.
+ First of all, because changes are hard
+ and second, there are sometimes other considerations
+ as to whether or not to make the change.
+ It can be company constraints,
+ it can be cost, it can be latency
+ and perhaps even the delta is not large enough
+ for you to justify the switch.
+ So we will cover all of these five steps
+ in this webinar.
+ So a few thoughts about how to even address
+ all of these new model releases
+ because every release arrives with the same method
+ and announcement and then a table of test of scores
+ you've seen the Gemini table
+ and then a week of very hot takes
+ and everybody is saying I had early access
+ and this is what I think
+ or some preliminary influencer sharing their experimentation.
+ Often early experimentations are very skewed
+ towards creating a toy game or a toy application,
+ creating a 3D something
+ and repeatable use cases that look very nice on social
+ and also some might claim that some of the models are created
+ such that they're optimized specifically
+ for the social media and influencers type of test
+ such that they will look good in reality.
+ And then when we look about seven days in give or take
+ or sometimes longer depending on the traction
+ and the stickiness,
+ we're starting to get like a more real interpretation
+ because then the reports are coming from real work.
+ For example, it quietly dropped the condition
+ in my contract review.
+ That's much more critical for a lawyer versus
+ it was able to generate an amazing 3D game
+ that replicates my 90s beloved whatever.
+ So that's why we're taking with a pinch of salt
+ the early releases we listen keenly
+ because maybe there is a big game changer
+ but eventually we need to see what happens after a while
+ and even more importantly,
+ we need to test it on our own.
+ Specifically for today,
+ we will be looking at some of these new arrivals
+ at the Claude August 5.5 and Grok and GPT 6.1 Sol.
+ Gemini will come when it come
+ and then maybe if you want to wait
+ you can run the benchmark then or rerun it with Gemini.
+ I'm definitely am curious and once we get access to Gemini
+ I will add it and compare it against the other models
+ and the other results that I will show you.
+ So that's the focus for today
+ and the stuff that I will specifically compare.
+ While you are listening to me speaking
+ you might be saying I have a few concerns
+ or objections to the entire concept of personal benchmarking.
+ Typically they come of one of two shapes.
+ The one is everything is so good now.
+ The frontier is so forward.
+ Like why should we even care?
+ Is it just a matter of tool form or model form
+ or that it feels like unless we're chasing the frontier
+ we're not relevant?
+ So that can be one type of objection.
+ My response to this type of objection
+ is first of all you are correct.
+ The frontier is very good and odds are
+ that there is so much more value that you can drive
+ even if you will not necessarily change the tools
+ or the models that you're using.
+ However, in some cases
+ all of a sudden a new model release
+ like NLW is repeatedly saying on the podcast
+ may unlock a use case
+ that was only on the wish list up until now.
+ I think that even for that justification alone
+ to have new use cases being unlocked
+ and to push the envelope of how you use AI
+ this is one justification as to why to
+ at least occasionally consider
+ upgrading to a new model or a new tool
+ just to make sure that you are leveraging
+ the technology to the best of its ability
+ and it doesn't have to be on a weekly basis
+ because that in itself can really create
+ a lot of confusion and so you can run it
+ periodically according to your bandwidth.
+ The second objection or consideration
+ is that sometimes people will say
+ this is all fun and you guys that have
+ the full freedom to use whatever tool
+ and whatever model can enjoy swapping
+ and following up the frontier
+ but in my case my company is limiting me
+ to using a specific tool or a specific model
+ and that's a common reality for many employees
+ so first of all my condolences
+ and I hear you it's not easy at all.
+ However, even with limited set of models
+ and tools there is always a choice
+ even if the choice is just selecting
+ between fast thinking and quick
+ or some of the other configuration
+ for the specific tools so even if you
+ limit the benchmark only to the very narrow
+ set of choices that you do have within
+ your tools those matter and sometimes
+ for either personal use cases
+ or just to maybe encourage
+ the people who decide within the company
+ it's worth running even a benchmark
+ on a mock set of data so you can prove
+ to the people in the company that perhaps
+ you should consider purchasing another license.
+ So that's the anti-pattern with all of that
+ out of the way I want to start with
+ as I said at the beginning the most consequential
+ decision out of the process
+ and these are the concrete use cases
+ that you will be using for your benchmark.
+ In my opinion ideally you need to cover
+ what you actually do
+ either at work and personal usage
+ and of course the balance should be
+ based on your actual balance of what
+ you use AI for if you primarily use
+ for work focus on that if you primarily use
+ AI to do stuff at home then shed
+ more light there and then
+ I want you to try and create a
+ diverse and balanced set of
+ use cases and of course you cannot
+ run each and every task that you do for work
+ so you want to cherry pick a good
+ set that if you're seeing
+ a significant uplift or that a
+ specific model behaves much better
+ with this use case that you will
+ for real consider swapping meaning it
+ needs to be a set that you trust
+ output to make actual decisions
+ for your work it needs to be diverse
+ in the kind of work that you do
+ in the frequency ideally stuff
+ that you do regularly because those are
+ where you get the highest uplift
+ you should also ask yourself
+ what's at stakes and if you know
+ of a costly mistakes or ways for you to
+ evaluate quickly that this
+ is completely off that's also a good use
+ case because if you can evaluate what bed
+ looks like sometimes it's a better use
+ case than the one where you have
+ lots of nuances on what good looks like
+ also for the specific
+ tasks that you're leveraging is it
+ a task that starts from a
+ clean slate or is it a task that can
+ only start from an existing document
+ like polishing an email
+ polishing a deck stuff that requires
+ some substance before it starts
+ and lastly as I said
+ and that's part of the motivation of why
+ to run these benchmarks even if you're
+ quite happy with your existing setup
+ include at least one task that it's
+ in the wish list what do I mean by that
+ something that you've tried with the eye
+ you were unhappy with the results and thereby it's not
+ a type of task that you regularly do with the eye
+ I would strongly recommend that you have
+ one or two of those such that
+ when something new comes at the frontier
+ this is among the top things that might
+ get excited and to move to the frontier
+ model so that's the core
+ decisions that we need to make here
+ and of course you can think about the
+ number that fits your life
+ my recommendation would be like four to six
+ types of such use cases but you can
+ of course create more or less
+ I will show you my process
+ for getting there but just to make it
+ concrete this is my list of six use cases
+ one that posts stuff on LinkedIn
+ one that calls
+ a critical or sometimes
+ an unpleasant conversation with stakeholders
+ around pushing back on a
+ pricing negotiation as well
+ as doing some research around the tool
+ features with some specifics
+ a website that will include
+ content for a course that I run
+ creating an exercise for
+ courses that I manage and
+ this is in the wish list a proper
+ weekly plan that actually is
+ like a good shift of stuff that I'm not
+ getting frustrated and neglecting
+ up until now I'm unable to find a model
+ that everything that they do
+ with regards to an intricate
+ weekly planning is indeed
+ like correct on a one shot
+ instead of me having to prompt it back and forth
+ so that's my season and I'll show
+ you how I got there very quickly once
+ you have the use cases
+ list and the use cases
+ specifics then what
+ you would want to do is to basically
+ do a taste testing ideally
+ of course a blind taste testing
+ we want to select
+ which models or tools or model
+ and tool combinations are the candidate
+ ones to evaluate quick
+ note for this lab I run
+ seven model options and
+ I can tell you that seven is way
+ too much it was extremely
+ tedious to review
+ and rate seven different model
+ options for six different tasks so
+ I'm not or it was five
+ but not recommended I would recommend to
+ run the existing model
+ versus a new one or up to
+ four different candidates one of them should also be
+ the baseline of how you currently do the work so you will
+ know whether you want to convert
+ to a new model and then we want
+ to run every request in a fresh
+ chat such that the context window will not
+ end us on a tailspin and
+ then and that's a very important step we want to hide
+ the names a few thoughts on how
+ to do that in a minute and then
+ once we do the blind taste
+ test we can do a combination of
+ verbal reflection of
+ whether or not we like the output we can
+ do a numeric score and we
+ can do both the programmatic
+ package that you're getting is encouraging
+ you to do both score it on a
+ scale of one to five and give it a one
+ line observation of your likes
+ and dislikes once you're done
+ with the doing the blind taste test
+ you can reveal who
+ were the models it's a very fun exercise
+ to see whether your predictions
+ of which model created what
+ output are I can guarantee
+ you that some of them will surprise you because
+ we do have a lot of beliefs on some
+ of these models that not all meet reality
+ and lastly we need to decide
+ and by the side even though something that was
+ significantly superior might
+ not be superior enough or for
+ other considerations we might not
+ choose to change our habits
+ for that so that's how we run
+ the taste test specifically
+ on how to blindfold the
+ different results from the different models
+ four ways that you
+ can do that one you can
+ call a friend to do the anonymization
+ for you either they run all
+ the results for you and just give you an
+ anonymized set of results to evaluate that's
+ relevant if you're doing the benchmark
+ manually which you definitely can it's just
+ a little bit more work you can leverage
+ a spreadsheet to create a random
+ number and then anonymize like that
+ you can leverage an AI tool
+ to shuffle and relabel
+ them such that you don't know or you can
+ use the script that I created that does
+ that for you when you will be
+ using the scripts one
+ thing that you will need to do is to run
+ the the actual task execution
+ using API keys
+ so one option is to do that with open
+ router that lets you run multiple models
+ with a single API key
+ or you can have API keys for each and every
+ one of the vendors or if you
+ work with just a specific vendor that you
+ just want to evaluate between the different
+ model tiers you can have a single API key
+ but the programmatic or the script
+ based approach requires an API key
+ I can guarantee you that even
+ if you're not technical it's very doable
+ nowadays so that's
+ how you anonymize one more thing
+ to pay attention I strongly recommend
+ that some of the tasks will be more
+ visual whether it's website design
+ application design or
+ image generation just because
+ in most cases it's easier for us
+ to score quickly something
+ that is visual of course if you are not
+ doing anything visual with AI don't
+ choose a task that is visual just for the
+ sake of that but if you are
+ occasionally using AI for something that is more visual
+ make sure that it includes that
+ in order to evaluate visual stuff
+ you will probably need to store it in a
+ dedicated folder so you can open each
+ it's whether it's a website and so on
+ in a dedicated place you will see how I
+ did it with their website design very
+ shortly and then we need
+ to choose so the first
+ method and the most important method
+ is you scoring the results because
+ it's a personal benchmark and nobody
+ knows better than you your preferences
+ and W pointed before there is
+ sometimes an X factor of why you like or dislike
+ even if you don't know to explain you just
+ prefer one result over the other
+ sometimes we don't have the vocabulary
+ to say why we prefer one result
+ over the other but ideally you should
+ be the primary judge of what you like
+ and dislike from my experience
+ it's often very difficult
+ to judge something as a standalone
+ meaning you will get results from a single
+ tool or model and just to give it
+ an absolute score between one and five
+ it's very hard what is often
+ easier is to see side by side
+ several alternatives for
+ a particular task and say I like
+ this the most I like this the least
+ and score it accordingly that's often
+ how you should do that so that's one
+ approach and probably the one that will matter
+ the most because of your taste and this
+ X factor where it's often hard to explain
+ why you like something better than other you just
+ did another approach and you can always run
+ both of them and then compare is
+ to leverage an AI tool as a judge
+ and then it's not just you
+ that scoring but also an AI tool
+ that judges the result according to a
+ predefined rubric that you configured
+ of what's a good LinkedIn post what's
+ a good vendor negotiation what's a good
+ website design you can always
+ compare and see whether
+ the cumulative review is
+ in agreement and whether it creates
+ a clear pattern of stuff that you need to
+ change I do want to warn you
+ that using AI as a judge has
+ its own shortcomings and there is
+ an entire theory around using AI
+ for evaluation but I will say that
+ you should evaluate the judge itself
+ so because if the judge is completely
+ not correlated to your taste it's
+ a bad judge and just throw it away
+ a few more points on judgment
+ because taste is highly
+ subjective that's why we need to do
+ the side by side and the like a verbal
+ description and that's why we're trying to leverage
+ AI to do the subjective testing
+ according to our rubrics but as I
+ said it's not perfect ideally
+ the model that you will use for judging
+ is different from the models that executed
+ the results there is kind
+ of an AI nepotism like odds are
+ that a specific model will
+ favor models from its own family
+ versus from other families
+ not always but often this is seen
+ so if you have another model family
+ that is outside of what you're evaluating
+ make that the judge in
+ my use case because I haven't evaluated
+ anything with Gemini the judge
+ was a Gemini model as I said
+ hiding the names
+ of the models is of very important
+ like a criticality because
+ we are very biased and nobody
+ can prove me otherwise I'm sure that we can prove
+ that this is the case
+ we want to maintain anything as frozen
+ as possible meaning it's going to be the exact same
+ request to each and every one of the models
+ and then compare it in a fair and
+ equivalent way and because answers
+ may vary if you're running this
+ personal benchmark on something that is very critical
+ and there is perhaps a monetary
+ implication or other implications to
+ you making changes to how you work
+ ideally you should run the same request several
+ times per model and then
+ compare these several execution because
+ we know that models have very
+ diverse set of responses
+ even if we're using the exact same model with
+ the exact same configuration and the exact same prompt
+ you will get different results
+ I just saw it today when I
+ gave a model a website to generate
+ I really love the result but something got
+ stuck in the middle and then in the second execution
+ I liked it much less than the first execution
+ so that's something
+ real and if you are concerned about the validity
+ of the benchmark running it several times we'll
+ seal the deal
+ a new study from KPMG
+ in the University of Texas at Austin
+ found that when people work with AI
+ similar skills don't guarantee
+ similar outcomes
+ researchers studied more than 500 early career
+ professionals and found that the best performers
+ consistently amplified the value of AI
+ by guiding evaluating and refining
+ its outputs these top
+ performers called AI amplifiers
+ weren't defined by what they knew alone
+ but by how they worked with
+ AI learn more about what separates
+ AI amplifiers from everyone else
+ at kpmg.com
+ slash us slash AI amplifiers
+ at this point it's no longer a question of whether
+ companies are actively using AI
+ using it well on the other hand is a whole different
+ story robots and pencils though is a company
+ that I can point to that is actually built for
+ this time they're an applied AI
+ engineering firm working directly with clients on
+ problems that matter to the business not
+ experiments that live in a slide deck every
+ engagement starts by working backwards from
+ the outcome a client actually needs
+ if you're trying to tell real AI engineering
+ apart from noise in this space that's the
+ difference maker head to robotsandpencils.com
+ every episode we cover the competition between
+ open AI and thropic spacex AI
+ Google and meta chances are you've already formed
+ an opinion about who's leading but every
+ AI lab is taking a different approach
+ building different technologies forging different partnerships
+ and developing a unique ecosystem
+ harbour capital advisers AI lab ecosystem
+ ETF suite gives investors a way to gain
+ exposure to the AI ecosystem they believe is
+ best position for success search harbour
+ AI lab ecosystem ETFs wherever you
+ invest or follow at harbour capital on
+ x to learn more visit harbourcapital.com
+ for a prospectus containing investment objectives
+ risks fees expenses and other important
+ information reading considerate carefully before
+ investing risks include principal loss and
+ artificial intelligence related risks harbour
+ ETFs are distributed by foresight fund services
+ LLC harbour is not affiliated with AI
+ daily brief and the funds are not affiliated
+ with sponsored by or endorsed by any AI lab
+ advertisement and not personalised investment advice
+ investing involves risk including possible loss
+ of principal here's why most
+ legacy modernization projects fail
+ the AI doing the work can't
+ understand code bases at scale
+ it sees a small slice of context examine
+ syntax and misses years of decisions
+ distributed across the global application ecosystem
+ Blitzy solves this the way it solves
+ everything grounded in your code before
+ any migration begins Blitzy's agents
+ reverse engineer the entire legacy system
+ into a persistent knowledge graph every
+ dependency every constraint every piece of tribal
+ knowledge that used to live in one engineer's head
+ from that understanding Blitzy autonomously
+ executes language migrations framework
+ upgrades and monolith to microservices transformations
+ all validated end-to-end
+ one Blitzy customer modernized a 10
+ million dollar monolithic insurance stack in
+ 16 weeks against a 137
+ week baseline with coding agents that's
+ 9x compression retire
+ technical debt while accelerating your roadmap
+ see how at blitzy.com
+ that's blitzy.com
+ All right, and as we said
+ the final thing is the decision
+ ideally you should make a decision
+ of three types switch
+ meaning I am convinced that this model
+ or this tool is significantly
+ better and given everything else that I
+ have that I need to consider
+ I want to switch to this new
+ configuration split
+ meaning that I might be going
+ between different options with more
+ nuance or stay like I'm not
+ convinced that what I am
+ just saw about the performance of the
+ newest thing that I evaluated
+ justifies me making changes to
+ the way I work so that's
+ there like the core decisions
+ but in order to make decisions
+ it's not just straightforward as
+ like this is the final
+ best result and thereby I'm switching
+ there are other considerations that sometimes
+ will get you to stay with a status quo
+ for example maybe your company
+ does not permit you to move so
+ it's not really relevant or maybe some of
+ the terms and conditions that you are
+ concerned about maybe your own
+ plan is does not offer at all
+ or a generous enough usage
+ for the new tool or model that you're
+ contemplating in some in other cases
+ the winner is not straightforward
+ that it just doesn't justify making
+ changes and if you are
+ in a position to have some tie breaking
+ some things that can help you decide
+ costs the speed of execution
+ maybe there are specific features that you just
+ enjoy and you don't want to change them
+ as well as habits, habit formation is
+ an expensive thing so if
+ there is no like significant boost
+ just staying with the way you use to work
+ also has merits but if
+ all of these tests justify the
+ change then make the change
+ so that's the entire process
+ what you will see from here on after
+ is an automated process that I created
+ and that as mentioned at the beginning
+ you are getting in order to implement for yourself
+ that works as follows
+ it starts with your saved tasks
+ you save them and then I'm using the open
+ router API key in order to
+ create the results for different types
+ of models then we get
+ the answers for each of the options
+ the code itself anonymizes
+ the results such that I don't see
+ what the origin models for the execution
+ you score them blindfolded
+ without knowing which model created what
+ you provide score as well as
+ a verbal description and then
+ there is a fun big reveal that shows you
+ what are your preferences
+ the judge and versus the model
+ names and this is the fun part
+ where often you will be surprised
+ I used open router but there are other model
+ hubs like I said use anything
+ that you find to be relevant
+ but you will need an API key for the relevant models
+ so that's the methodology
+ of what we you are about to see
+ and as I said I'm evaluating
+ multiple models the quote
+ unquote baseline even though I'm not using it for a while
+ is opus 5 and then I'm
+ trying also opus 5.5
+ opus 4.7 gpt 6.1
+ sol and I also wanted to test them
+ against the very expensive frontier model
+ of fable 5.1 and gpt 6
+ astra and to make
+ sure that we give room for the open source
+ I'm also trying them against
+ kimi k3 and that's why I got to
+ seven different options and it was very
+ difficult to evaluate and lastly as I said
+ that different model runs the judging
+ in this case I used gemini pro
+ so that's what you're about to see
+ and now let me walk you through the process
+ the very first step that you will
+ be encouraged to do is to run a prompt
+ you have the prompt as part of the materials
+ that helps you discover
+ which use cases you should
+ include as part of your benchmark
+ so it's a prompt that will interview you
+ and leverage everything that the AI tool
+ that knows you best can advise so
+ definitely run that in a tool that has
+ a ton of memory and a ton of context
+ as much as possible so it will help you
+ figure it out it will run a process
+ of about eight questions
+ and it will help you figure out the best use cases
+ as you can see Claude knows quite a lot
+ it knows my role and it knows
+ what a typical week has so it
+ has some guesses and some initial
+ suggestions for use cases
+ as well as stuff that goes back and forth
+ and then it started asking me questions
+ so I answered all the questions that it had
+ after eight questions
+ a little bit annoying but not too much
+ it created for me a set
+ of six recommended use cases
+ for each use case it will create
+ also a prompt that will be
+ used to do the actual benchmark
+ so it doesn't just
+ uncover the use cases it also uncovers
+ the actual prompt that will be sent
+ for running the benchmark so that's the
+ LinkedIn post from raw notes
+ and that's the prompt pricing pushback
+ plus sensitive email
+ current AI tool feature by Planteer
+ that this requires a web search and some research
+ course participant tab website
+ one short exercise for a new audience
+ and week plan
+ across engagement wish list
+ so these are the top six
+ and at the end it will also show your coverage
+ and I decided for example
+ to not do anything personal because I don't
+ use AI as much personal
+ as I use for work so it was less
+ relevant for me and it did call out
+ some things that are missing potentially to pay attention
+ to that so that's the final
+ results at the end it will if
+ it's an agentic tool it will save it as
+ a dedicated folder where
+ each of these files is a dedicated
+ file on its own for example
+ this is how the LinkedIn post generator
+ file looks like it's the name
+ of the task quick motivation
+ the request this is the actual prompt that will be sent
+ to the model and that's important if you
+ want to judge the benchmark also
+ using an AI tool and not just based on
+ your preferences there is
+ a scoring guide for the judge so
+ this is also appended as part
+ of the task itself
+ one thing that I want you to do is
+ to take a look at the prompt or the
+ task that was created using the process
+ if it seems too
+ generic or not something
+ that will help you make up your mind
+ on a specific usage or you
+ think that it needs to go deeper or be
+ completely different then this
+ is a very important step to refine
+ both the request and the scoring
+ guide such that you will be
+ able to make decisions if
+ you don't trust that these tasks are
+ good representation of the way you work
+ that's not a good enough benchmark
+ so I have six of those from
+ number one to number six that was created
+ by Claude based on the interview
+ and all the instructions that you can also
+ get so once we have all of them
+ we can start running the automated
+ process the automated process
+ is a script that I created and as
+ I said I'm sharing it with you to make
+ it fun and a pleasant experience
+ the script also create this simple user
+ interface that is locally hosted
+ on your machine it doesn't need to go
+ anywhere so it's not there is no
+ sharing of data that you haven't intended
+ and in general by the way if
+ your company is sensitive
+ don't use something like open router
+ with company data use mock data
+ or mock use cases so there is
+ no confidential information leaking
+ anywhere the way this
+ user interface is created you will
+ get here the list of your
+ tasks to be evaluated for each
+ one of them it will generate
+ the all the candidate models in our
+ case it anonymize them from a to
+ and at the top of each
+ use case it will tell you from
+ your rubric what's a good answer
+ also to help you to score it properly
+ and then you have side by side
+ all of the results that we got from
+ open router so this was
+ done after the script run in the
+ background and use the API
+ that was provided and it generated
+ candidate responses for each and
+ every one of my five tasks that you've
+ seen before and it puts them
+ side by side so you can see for
+ this is the LinkedIn post generator so
+ model D offers the
+ this hook option three hands went up
+ the other the other the full post
+ ending option so that's how
+ the first one looks and then what
+ it's asking me to do is to provide
+ a score from one to five and like
+ one verbal evaluation so in this
+ case I scored it a two out of five
+ and said that while it's readable and
+ clear it's also a bit too light and it includes
+ its A and not B pattern
+ and that I personally really
+ liked about the I writing so I got
+ seven of those and as I told you
+ it was very hard to score before I read
+ at least a bunch of those because at least
+ in the LinkedIn it was a little bit overlapping
+ with some of the writing but as you can see
+ I did score it differently so
+ some of them got a three four
+ actually none of them got a five for me
+ because none of them wrote a good enough
+ LinkedIn article so none of them was ready
+ to post as is so that was
+ task number one and when I was done
+ it indicated that this is all
+ scored I also have pricing
+ pushback and one short exercise
+ and weak plan these are all
+ text heavy use cases so they are not
+ that exciting I am
+ thinking that the most exciting thing is
+ to see how the different
+ candidate models created a course participant
+ have website so here
+ if you have like HTML
+ or other visual assets this
+ small fun application that you can
+ build for yourself and you're getting it also
+ it just showcases the
+ different websites I open them in a full
+ window for you to see and a fun
+ exercise for you as I'm
+ scrolling through some of these websites that were created
+ by the different models is to start
+ guessing which is which you can also
+ on the chat if you want start guessing
+ which one seems like a Kimi
+ which one seems like a Claude which one seems
+ like a GPT which one
+ seems like a Grock I'll be very
+ curious how many of you are able to guess it
+ properly so that's one
+ not the greatest but by the way
+ all created quite a complete
+ website so that was nice to see that they
+ created copy and as well as
+ the navigation and so on so that's one
+ candidate that's another
+ candidate for this imaginary company
+ creating a training portal
+ I don't love it but it's not
+ the worst another one
+ that is slightly more opinionated as you can
+ see I think this is the one that I like
+ the most also because I reviewed
+ some of the copy and not just
+ copy functionality and
+ navigation that's another one
+ that was created that's
+ another one and
+ that's almost
+ the last one and finally
+ this one so we have seven
+ candidates if there is someone on the line
+ that is able to guess correctly all
+ seven models hats off to you
+ I was very much off
+ from that but as you can
+ see with anything that is visual
+ it's often much easier
+ to have proper preferences
+ and like something that say okay
+ I'm drawn to that and so on so
+ once I was done
+ and you will be done scoring each and every
+ one of the tasks the next
+ thing that you will be able to do is reveal
+ either my score only or reveal
+ with the AI judge so
+ when you click reveal with the AI judge all of
+ the results will be sent to the judge
+ for review and the judge will
+ also apply and then
+ it does the reveal gradually
+ so as you can see per task
+ these are my top picks and
+ a few words on why and now
+ drumrolls let's reveal
+ the names so for the LinkedIn
+ post generator my
+ favorites were Kimmy, Fable
+ and Opus I was surprised I was
+ sure the GPT will be here
+ for the pricing pushback you can say that
+ GPT models are the best in negotiating
+ at least from my perspective
+ for the exercise then we got
+ GPT and Grok
+ and weak planning
+ and Grok won interestingly
+ and for the course participant
+ have Opus 5.5 maybe some of
+ you will not be surprised by some of that
+ the next thing that I get is
+ accommodation on for each of these
+ models what to do about
+ the specific tasks whether to add it to the
+ model roster whether to consider switching
+ to using this model and of course
+ as we said consider right
+ we need to apply additional judgment
+ and now take a look at the final result
+ because I think that's also very interesting
+ we have the different models
+ with average and
+ how many tasks I selected
+ the judge average so for example
+ Fable got the first because the judge put
+ it first but pay attention here
+ the total cost of Fable
+ is so much higher than
+ everything else and that might be a
+ consideration why not to go with Fable
+ even though theoretically it got better
+ pay attention to my average so
+ in my average Fable and GPT
+ Sol are equivalent but
+ take a look at the cost differentiation
+ this is a degree of order smaller
+ average time is quite similar
+ pay attention this was also interesting
+ the average time for GROC was extremely
+ long even though the cost is very manageable
+ Kimmy is under running
+ interestingly and these models
+ are getting lower scores
+ overall remember that we
+ want a more differentiated use
+ so we might be not just looking
+ for one winner but rather
+ per task we want to make
+ a more differentiated choice and thereby
+ we might have different perspectives
+ and then you have some more
+ data like how long for each
+ task from each of the models
+ and you can see that Kimmy wins on
+ both cost and duration
+ and you can also see that
+ where is 5.1 5.1
+ is probably the most expensive
+ out of the bunch across the
+ board so perhaps cost
+ will not surprise you but some data
+ on cost and velocity some
+ comparison side by side between
+ me and the judge as you can see
+ we are quite in disagreement
+ and thereby I said that take any
+ AI as a judge with a pinch of salt
+ the only thing that we agreed upon is the
+ pricing pushback the rest
+ as you can see we have different choices
+ one thing to point out here
+ the judge could only see
+ the code and the text so
+ the choice with regards to the
+ HAB website was done
+ based on the code and not based on
+ visual and thereby if you want
+ an AI to judge something visual
+ using just the API often is not
+ the best thing because it's not
+ leveraging that as a picture it directly
+ will go into the code so will I make
+ choices based on the judge from
+ here on after probably not I can also
+ go and fix some of the judge
+ instructions but I would much rather
+ rely on myself and then you have
+ some row scores that you have everything
+ there that's the application and
+ that's the process just to showcase
+ final results interesting
+ roster not what I
+ expected at all for some of these
+ things am I contemplating changing
+ some of the ways I'm working honestly yes
+ I'm very biased towards
+ Claude and Kerser with Grock and
+ my day to day and even though I
+ occasionally am reaching out to GPT it's
+ not in my top two and I'm definitely
+ contemplating reaching out to GPT
+ more as part of my top two
+ and if I had to choose one tool
+ I might have based on this result
+ and willing to consider moving primarily
+ to GPT at least in this day and age
+ so that's the full process
+ and that as mentioned you will be able
+ to run completely for yourselves
+ a few more notes before
+ I take questions and
+ take some observations from Netanyl
+ as I said I created
+ a process that can either be run manually
+ or leverage the script in order
+ to run the same process that I did for
+ myself I will be amiss
+ amiss to say that there aren't platforms
+ that do something similar like that
+ out of the box those are
+ typically platforms that are designed to
+ teams that are already doing that at scale
+ or at the company level some examples
+ include Lang Smith and Brain Trust
+ and Langfuse and they are not the only one
+ we also have other options
+ so if you are in a position that you
+ need to do these types of evaluation in a
+ more standardized and regular way
+ these are all
+ good options to look into
+ such that your experimentation
+ and monitoring and evaluation will be
+ done in a more systematic way
+ rather than you having to create these out of
+ the box small scripts but
+ if you are primarily doing that for a person
+ I'll use the method that I've just
+ shown you are more than enough
+ as I said you are getting both
+ the handouts and the session handouts
+ as well as a few other stuff
+ I'll show you in a minute how it looks
+ it's a nice place that you're getting
+ that has all the materials
+ as well as the lab itself
+ very step by step and
+ you can also download the actual
+ script and the benchmark runner
+ and many other stuff and we also have resources
+ so a very extensive view
+ of everything that you've just seen
+ we will share it in a minute
+ so to put everything back
+ in one place these are the five steps
+ most important is the task selection
+ models choose interesting
+ candidates run it in one of the methods
+ do the blind test it's a very fun
+ experience do it once even just for the
+ enjoyment of surprising yourself
+ and contemplate changing
+ stuff if you did a good
+ job and you created a good benchmark
+ from here on you can run the same
+ benchmark every time there is a
+ significant shift that you're contemplating
+ tapping into so it's a
+ one-time effort that if you
+ do properly I can guarantee you that
+ it will serve you well so
+ if you find it to be as highly recommended
+ if you also want to
+ go deeper into anything that you've seen
+ to become a master in building
+ we do have our two
+ existing courses for executive
+ agent leadership and executive
+ catch-up courses that are starting
+ over the next two weeks so we'll be happy to
+ have you join us. Thank you
+ Nufar how is this evolving
+ for you like how would this
+ set of tests be different
+ three or six months ago than they were now
+ and I'm thinking specifically about
+ OpenAI introducing this new ultra-fast
+ mode and Sam Altman basically
+ saying that he didn't really appreciate
+ how much speed mattered to him until he had
+ access to that now obviously that's only
+ available in a $500 a month plan and things
+ like that but how frequently do you
+ imagine updating these sort of
+ criteria and what are the
+ types of things that you think might become
+ more important over time.
+ I guess first of all it depends on how
+ crazy and how ADD you are because if
+ you are crazy and ADD probably every month
+ but specifically to your point when
+ I saw the demo of the ultra-fast
+ and today I had to sit down and wait
+ for sometimes 20 minutes to get the
+ website this poor website generated
+ I honestly was very impatient
+ and I realized that I'm paying way more
+ attention to speed versus how
+ I did before I've seen the ultra-fast
+ demo. Some of the considerations
+ are being updated on the fly
+ some of the use cases and that's
+ exactly why I wanted to have the wishlist
+ some of the use cases that I would now pursue
+ or consider frontier use cases I
+ would never have dreamt to do at that
+ quality and in one shot previously
+ so the bar is getting
+ higher. I don't know that the subject matter changes
+ but I think that the considerations
+ of what makes you change your
+ mind or what good looks like
+ those change quite frequently
+ based on how far we know that the technology
+ takes us. Awesome.
+ I'll get out of the way and let some other people ask questions too.
+ Sure. I've got some stack here
+ Farina Far. I've been cataloging
+ you've been talking. Thank you for that.
+ Yeah no problem. So one of the questions
+ that came up was effort settings
+ whenever you're doing this in terms of
+ whenever you're using open red or are you setting
+ everybody to a similar effort setting
+ whenever you're testing this. So the
+ correct response is ideally yes
+ even though effort setting are not
+ necessarily equivalent in some of the models
+ so if you want to be extra the agent try to
+ compare apples to apples or just use
+ the default of open router that's also
+ a lazy approach that might work well
+ but I agree that the effort setting might
+ create a difference so if you want to be
+ extra the agent you can always run several models
+ with different effort setting and see if it
+ changes the picture because effort setting
+ preference is also part of what I want you to
+ evolve as part of your personal
+ model roster or model configuration
+ roster. Great. And then
+ in terms of whenever I think of
+ tasks I usually try to put them into three buckets
+ to something like content operations
+ and strategy. Do you find
+ that there's any differences whenever you're doing
+ those three different types of
+ tasks or are they generally going through all the same
+ process. So some
+ tasks will require more elaborate
+ setup like to work as part of
+ your own harness with your own context
+ and so on and connectors so
+ several options either if you
+ do put as part of your benchmark a task
+ that is highly involved with the overall setup
+ then that needs to run directly
+ from the harness from the
+ the actual setup and not using a third
+ party API key that will only get partial
+ view if you have to that's one way
+ to do that to just run it to the actual tool and make
+ sure that you're anonymized well enough without
+ cheating yourself. Alternatively
+ if you can create a proxy for this task
+ that doesn't require all of the
+ bells and whistles of running that in the actual
+ configuration then you can try and run
+ that in using this method
+ but for operations I would
+ guess it's going to be most influenced by the
+ overall setup and that's the one to be
+ a little bit more careful to judge without
+ the setup because it's highly dependent on the
+ entire system that you have. Awesome.
+ There were some questions about open source models
+ and if we notice inherently any time
+ whenever we're doing our testing obviously you had Kimmy
+ up there are you noticing anything
+ so there were some questions about Mistral do you notice
+ any big differences or do you find that
+ you're generally happy to
+ test through the open source
+ and the frontier models
+ and just kind of compare. So it goes back
+ to the final criteria because if
+ you are very biased towards open source
+ or the other way around for security
+ or company policy reasons you are biased against
+ then either don't include or primarily
+ include open source. If cost
+ is a critical consideration perhaps you will be
+ leaning much more heavier towards
+ model that are cheap while giving
+ you good enough results and also the task
+ itself has a huge implication because
+ some of the tasks are table stakes
+ for example email drafting
+ or basic research those are
+ table stakes and for them you will
+ probably see that any decent model let's
+ call it Kimmy and above or Mistral
+ and GLM and above you will not be able
+ to see any noticeable difference and then
+ open source will be as good as it gets
+ for the more aggressive things
+ or more sophisticated stuff sometimes
+ you will still see the gap between
+ commercial and open source but it goes back
+ also to the objection that I raised at the beginning
+ if you are primarily working with good enough
+ for most of your risk cases then
+ as of now open source is good enough
+ for most knowledge work tasks especially
+ if the harness in which it's working is a good one.
+ Great and another question
+ that came up was regarding trying to
+ figure out how to get instructions and prompts
+ I'm reminded of our last webinar that we did
+ about loops in terms of what does good
+ like reject if because there were
+ some comments just in terms of whenever you were building
+ and people noticing that you had some very specific instructions
+ do you have any pointers
+ in terms of how to do that or perhaps we
+ have resources that can help people do that
+ so the prompt itself that will
+ help you figure out the tasks and the prompt
+ will go a long way to do that and do that
+ in a smart model in a tool that knows you
+ in general it needs to be
+ measurable we're talking primarily about
+ how those gigantic tools need goals
+ saying create a good blog post
+ is not measurable saying create
+ a blog post that will be engaging
+ for executives as well as
+ ICs is better and saying
+ create a blog post that does not include
+ the following and is limited by this number
+ of words and has the following
+ parts is even better because it's
+ highly measurable and highly attainable.
+ Great and in
+ terms of there was one question about
+ I think cost and it's great that open writer
+ makes those changes do you have anything else
+ to think about whenever you're
+ considering switching as it
+ comes to costs even having
+ because it's nice with open writer you're getting that cost
+ per task but do you have any other thoughts
+ around the cost of switching
+ yes so remember that if you have one
+ of the generous subscriptions like the
+ poor tier or the teams tier
+ some of them are basically
+ hiding or subsidizing a much
+ higher actual token cost
+ so just evaluating cost per
+ say is not necessarily the full picture
+ because if for example with your $200
+ a month Claude or open eye
+ you're getting more than your fair share of
+ what you need from Astra or Fable then
+ perhaps the cost does not matter to you as much
+ as to someone who actually pays per consumption
+ so it's a little bit conditional
+ to your subscription and I think a good prediction
+ to make is that it might not stay
+ as generous in the future and then we all will
+ care about the specific cost
+ and not just the ballpark but if
+ you are a person that also with the
+ generous subscription hit the rate limit
+ very frequently then cost matters to you
+ and then you should optimize more for cost
+ so conditional amazing
+ NLW that was all the questions that I was able
+ to kind of catalog I don't know if you have any others
+ no this I think this is
+ super helpful I think this is one of those areas where
+ I think even more
+ than our normal how to type
+ sessions this one requires
+ definitionally
+ a lot of personal consideration
+ right like this is if there are pieces
+ of this that you don't find useful the whole
+ point is to make it useful so reject
+ try something else and then share
+ it back so other people get a sense of where
+ things are I'm super
+ feel based because I'm using absolutely everything
+ and I'll run the same thing through multiple
+ different models all the
+ time so I'm my approach
+ to this is going to be different than some other folks but
+ new far thanks as always for getting
+ this out there and I hope everyone had a good time
+ yep and join us for the next
+ one once we decide what it is
+ cheers bye
