@@ -1,0 +1,648 @@
+ AI is, to put it mildly, a contentious field.
+ On both a micro and a macro level, it is shaped by debates that will determine how it evolves.
+ From what businesses want to buy, to what and how we should be focused on regulating,
+ these are the most important debates shaping AI right now.
+ The AI Daily Brief is a daily podcast and video about the most important news and
+ discussions in AI.
+ Alright friends, quick announcements before we dive in.
+ First of all, thank you to today's sponsors KPMG, Robots in Pencils, Harbour, and Blitzy.
+ To get an ad-free version of the show, go to patreon.com slash aidailybrief or you can
+ subscribe on Apple Podcasts.
+ And if you want to learn more about sponsoring the show, send us a note at sponsors at
+ aidailybrief.ai.
+ A little over a year ago, I released what would become my most popular episode ever.
+ It was called Five Debates Shaping AI.
+ And given how fast AI moves, it now functions almost like a time capsule.
+ The five debates I discussed on that show were the AI bubble discourse, will entry-level
+ jobs vanish, does AI actually boost productivity, is vibe coding overhyped, and should we
+ accelerate or slow down?
+ Today we're returning to that Five Debates format and it's interesting to see in
+ what ways the key questions have changed.
+ The first debate shaping AI right now is a different version of that previous bubble
+ conversation.
+ The Fall 2025 discourse about a bubble was completely exhausting.
+ It was driven by a bunch of things, some of them legitimate, some of them a bit less
+ so.
+ For all the real concerns there were about circular financing, the nature of AI deals,
+ the speed at which infrastructure investments were increasing, there was also generally
+ Wall Street looking for something to be nervous about, and fairly dubious sourcing
+ that followed from that, like the infamous MIT quote unquote study that argued that 95%
+ of generative AI pilots were failing.
+ This year's version of the conversation has matured quite a bit.
+ The first reason for that is that investors have a much better understanding of what we're
+ actually calculating when it comes to the demand and revenue side of this equation
+ than we did back in September of last year.
+ Having the sincere AI bears the benefit of the doubt, the multiplication that they were
+ doing was looking at the total number of available seats times 20 or 30 bucks ahead.
+ And it was that math result that they couldn't square with the amount that was being spent
+ on infrastructure.
+ However, the first quarter of 2026 changed the way that most people think about this.
+ It also did so by answering one of our other debate questions about whether vibe coding
+ was overhyped.
+ The explosion of revenue this year, which ended up with Anthropic actually flipping
+ and surging past open AI in terms of annualized revenue, was driven not by individual subscriptions
+ but by business spending through the API.
+ It turns out that AI is not a seat game, it's a token game.
+ And the upper bound of what a power user can use is not in the tens or hundreds of dollars
+ per month, but in the thousands or even tens of thousands of dollars per month.
+ As that story became clearer, the shape of the bubble discourse changed quite a bit.
+ As I record right now, the last reported numbers for Anthropic's revenue had it at about a $65
+ billion annualized run rate, while recent reports from open AI suggested that their annual recurring
+ revenue had neared 70 billion, although just before I started recording, another report
+ had just come out suggesting that it was actually closer to 50 billion, with the discrepancy
+ being between how open AI calculates revenue and Anthropic calculates revenue.
+ Basically, when Anthropic gives their ARR numbers, they include Claude tokens
+ sold through partners, but do not remove the cut that goes to those third parties, and so
+ some independent investors were trying to calculate open AI's revenue in the same way,
+ which is what got them to the 70 billion number instead of the 50 billion that open AI has
+ apparently shared with others more recently.
+ In either case, the numbers are astronomical.
+ As A16Z recently pointed out, labs have added more revenue in 2026 than all of public
+ software combined, and yet at the same time, so have capital expenditures.
+ After Q2 earnings calls, 2026 CapEx guidance stood at about $730 billion combined between
+ Alphabet, Amazon, Meta, and Microsoft, and jumped all the way to $825 billion if you
+ included Oracle.
+ Most of those companies had also increased guidance from where they thought at the
+ beginning of the year.
+ Moody's thinks that this Big Spender CapEx will approach a trillion dollars next year
+ in 2027, and so the question animating markets now is, even with all that bonkers
+ revenue growth, does it add up to enough, fast enough, to pay for the infrastructure build
+ out bill that's coming?
+ Bain has argued that the AI industry needs about $6 trillion of revenue by 2031 to fund all
+ this compute.
+ They argue that today's consumers in enterprise use gets to $1.2 to $1.8 trillion, leaving
+ a gap of about $4.2 trillion that has to come from new markets like AI search and
+ ads, autonomous systems, robotics, drug discovery, and more.
+ Bain found that based on its calculation, it is currently projecting about an $800
+ billion shortfall, and that's really the main money question that people are trying
+ to figure out.
+ Now, one thing that hasn't gone away fully from last year is the concern about
+ circular funding, that a lot of the projections of revenue that the companies
+ are making are based on their commitments to each other.
+ Basically what happens is that every quarter, the hyperscalers show up to
+ earnings and talk about both their current revenue but also their revenue backlog,
+ the revenue that they're projecting for the future that's justifying all that
+ future spending on infrastructure.
+ The problem is that that revenue is highly concentrated from just a couple of
+ buyers, which are the AI model labs.
+ Earlier this year, the information reported that about half of that $2 trillion
+ backlog at Amazon, Microsoft, Google, and Oracle comes from just open AI
+ and Anthropic.
+ And so the bears say if things go badly, everyone is all bunched up
+ together and the risk is much higher.
+ Another type of concentration risk comes from where the revenue for open
+ AI and Anthropic is coming.
+ Ramp recently published that 80% of open AI and Anthropics enterprise
+ revenue comes from just 1% of their customers.
+ It is important to note that the data that Ramp has access to is heavily
+ skewed towards early adopter tech forward companies and startups,
+ meaning this may not represent things overall, but still that concentration
+ risk is enough to give some people pause.
+ I would argue that I think that there are multiple interpretations.
+ The obvious one is that if those 1% of customers significantly change
+ their behaviors, it could be catastrophic for open AI and Anthropics
+ business.
+ However, the other argument is that unless you believe that that 1%
+ of businesses have use cases that are totally dissimilar from the 99%
+ of other enterprises, that it looks kind of like the total addressable
+ market that still remains for open AI and Anthropic is absolutely
+ enormous.
+ Whatever the case, this debate is now being played out not just
+ in media outlets, but in the markets.
+ As hyperscaler CAPEX commitments have gone up,
+ their ability to fund them off their balance sheet has ended.
+ They have tapped into equity markets and are increasingly tapping
+ into bond markets as well, looking at credit and debt as a way
+ to foot the bill.
+ That again, creates a new type of risk that wasn't there when all
+ these companies were just funding things from their own balance
+ sheets.
+ And we have seen some jitters in the bond market that
+ suggest that maybe the days of easy capital have come and gone.
+ And coming soon, we'll have quite a bit of opportunity to see
+ just how big the market's appetite for AI companies still is.
+ The blockbuster event for the end of the year is of course
+ Anthropics IPO, which will be followed sometime in 2027
+ by the open AI IPO.
+ With Anthropics seeking a $2 trillion valuation.
+ So that is debate one, does the AI money math work?
+ Debate two, is AI a mass market or a power user market?
+ One thing that you'll notice in the difference between this year
+ and last year's episode is that the debates that I think
+ are most significant are a little bit more at a macro scale,
+ as opposed to the micro of things like,
+ is vibe coding overhyped?
+ Does AI actually increase productivity?
+ I think especially in the wake of Agented Coding
+ becoming such a powerful use case
+ across so many different types of functions,
+ a lot of those questions have shifted pretty dramatically.
+ What a lot of those hype questions though have morphed into
+ is about just how far the value extends.
+ Is it possible in other words,
+ that this is the most incredible technology
+ that's ever been created for high achievers,
+ but not so much for everyone else?
+ Certainly from a REACH perspective,
+ it doesn't seem like AI's viability is limited
+ to just one ambitious type of person.
+ Open AI has recently shared that they are now
+ at 1.2 billion weekly users,
+ a jump from the billion number
+ that they hit over the summer.
+ More than two thirds of Americans now use AI weekly,
+ and the percentage of American adults
+ that report using AI every day
+ has more than doubled in the past six months
+ from 8% in March to 19% in August.
+ And yet, a finishingly small percent of households
+ actually spend any money for AI.
+ In fact, as of the most recent numbers we have,
+ which admittedly are from April of this year,
+ the share of US households with a paid AI subscription
+ is just 2.2%.
+ 98% of households, in other words,
+ are not paying for AI,
+ meaning that those nearly two thirds of American adults
+ who are using AI every week
+ are either getting enough value from it
+ without paying that they don't feel the need to pay,
+ or in their weekly usage,
+ not getting enough value to consider paying.
+ And of course, it's not hard to see
+ how this question starts to intersect
+ with the previous debate about
+ whether the money math maths.
+ One slight counterpoint
+ is that the amount that consumers are spending AI
+ is growing significantly faster
+ than the number of people who are paying for AI.
+ Menlo Ventures recently estimated
+ that global consumer spend was going to hit $40 billion in 2026,
+ which is more than 3x what it was in 2025.
+ And just like we saw when it came to enterprise spend,
+ consumer spending growth is also concentrated
+ in a very slender part of the market.
+ A16Z recently reported
+ that the top 1% of AI spenders
+ now outspend the bottom 50% combined.
+ And that's talking about just the percentage
+ of people who are paying for AI.
+ The top 1% of paying AI users
+ are spending an average of $903 a month
+ while the median customer spends just 25.
+ Even in advanced technical use cases,
+ there is still some of this power law distribution
+ at play as well.
+ At the beginning of September, Cursor reported
+ that over the previous month,
+ the top 10% of users accounted
+ for nearly 2 thirds of all tokens used.
+ So, does this mean that AI is just for power users
+ or that the industry just hasn't been good
+ at serving other types of users yet?
+ There is certainly some increasing evidence for the latter.
+ In 2026, the year of agents kicked off
+ with the explosion that surrounded Open Claw.
+ Open Claw brought the promise of agents
+ to a wide cross-section of people for the first time,
+ but it was also extremely technically complex.
+ Throughout the year, there has been a lot of work done
+ to try to bundle these types of features
+ in more clear user-friendly packages
+ and that has really come to maturity
+ in the last month or so.
+ In mid-August, we got Grockbot,
+ a team of always-on agents
+ that was very similar in some ways to an Open Claw team
+ except set up in a much easier user interface.
+ But the big one is, of course, Muse.
+ Muse is Meta's personal agent.
+ And complete with its cute logo,
+ it has become popular quite quickly.
+ Muse, in fact, has sat for the last few weeks
+ at the top of the Apple app charts in the U.S.
+ It had to dethrone ChatGBT to do so,
+ which is not something that's been easy for apps
+ ever since ChatGBT launched.
+ Muse is not strictly limited to personal use cases.
+ There's a lot of work-type things that you can do,
+ but it kind of obliterates the work versus personal line
+ by organizing your Muse solely around you.
+ Muse was certainly not the only personal AI assistant
+ that was getting traction.
+ For example, there's been a ton of buzz
+ around instinct as well,
+ but its success did make it clear
+ that this was a form factor
+ that every AI company was going to try on.
+ Open AI joined that party at their Dev Day event
+ with the introduction of dots.
+ And many early reports from inside these companies
+ is that these types of features
+ are changing in pretty fundamental ways
+ the way they interact with AI.
+ It is entirely possible
+ that the entire AI industry
+ has been getting away with fairly terrible
+ product experiences for about four years now
+ because the underlying intelligence
+ that they give you access to
+ has made up for the user experience deficits.
+ However, should we continue to see adoption
+ of these sorts of personal AI agents,
+ I think many folks are gonna have to update their priors
+ about just how mass market AI can be.
+ A new study from KPMG
+ in the University of Texas at Austin
+ found that when people work with AI,
+ similar skills don't guarantee similar outcomes.
+ Researchers studied more than 500 early career professionals
+ and found that the best performers
+ consistently amplified the value of AI
+ by guiding, evaluating, and refining its outputs.
+ These top performers, called AI amplifiers,
+ weren't defined by what they knew alone,
+ but by how they worked with AI.
+ Learn more about what separates AI amplifiers
+ from everyone else at kpmg.com.us.ai amplifiers.
+ At this point, it's no longer a question
+ of whether companies are actively using AI.
+ Using it well, on the other hand,
+ is a whole different story.
+ Robots and pencils, though, is a company that I can point to
+ that is actually built for this time.
+ They're an applied AI engineering firm
+ working directly with clients on problems
+ that matter to the business,
+ not experiments that live in a slide,
+ but they're all about AI.
+ Not experiments that live in a slide deck.
+ Every engagement starts by working backwards
+ from the outcome a client actually needs.
+ If you're trying to tell real AI engineering
+ apart from noise in this space,
+ that's the difference maker.
+ Head to robotsandpencils.com.
+ Every episode, we cover the competition between
+ open AI, anthropics, SpaceX AI, Google, and Meta.
+ Chances are, you've already formed an opinion
+ about who's leading,
+ but every AI lab is taking a different approach,
+ building different technologies,
+ forging different partnerships,
+ and developing a unique ecosystem.
+ Harbor Capital Advisor's AI Lab Ecosystem ETF suite
+ gives investors a way to gain exposure to the AI ecosystem
+ they believe is best position for success.
+ Search Harbor AI Lab Ecosystem ETFs wherever you invest
+ or follow at Harbor Capital on X to learn more.
+ Visit harbercapital.com for a prospectus
+ containing investment objectives, risks, fees,
+ expenses, and other important information.
+ Read and consider it carefully before investing.
+ Risks include principal loss
+ and artificial intelligence-related risks.
+ Harbor ETFs are distributed
+ by Foresight Fund Services LLC.
+ Harbor is not affiliated with AI Daily Brief
+ and the funds are not affiliated
+ with, sponsored by, or endorsed by any AI lab.
+ This is a paid advertisement
+ and not personalized investment advice.
+ Investing involves risk,
+ including possible loss of principal.
+ Every AI coding tool on the market
+ does the same thing first.
+ It starts writing code.
+ Blitzy does the opposite.
+ Before writing a single line,
+ Blitzy spends days reverse-engineering
+ your entire code base.
+ Thousands of agents ingest millions of lines,
+ mapping every dependency,
+ every undocumented constraint,
+ every architectural decision made over the last decade.
+ The result is a dynamic knowledge graph
+ that understands your software
+ by the way a principal engineer would
+ after 30 years in the building.
+ Other tools guess at context
+ with grep searches and markdown files,
+ Blitzy never guesses.
+ It builds true understanding first,
+ then delivers over 80% of entire software
+ epics autonomously.
+ Validated, end-to-end tested
+ production grade pull requests.
+ That's why Fortune 500 engineering teams
+ trust Blitzy with the code bases that matter most.
+ See for yourself at blitzy.com.
+ That's blitzy.com.
+ And yet still, at least from a business model perspective,
+ it's clear that for the moment,
+ business spend is the big driver of AI revenue,
+ which is, of course, the key to justifying
+ all of that infrastructure spend.
+ And yet over the course of this year,
+ there have been some fairly big changes
+ in how businesses think about their AI spend.
+ The first phase was to be all excited
+ about agentic coding,
+ whether it was used by coders or by non-engineers,
+ and to try to incentivize the development
+ of the AI industry.
+ And to try to incentivize people to go experiment
+ with figuring out how to use this new power
+ for all sorts of valuable use cases.
+ That's what got us the very short-lived
+ token-maxing era where you saw things like token leaderboards
+ for who could use the most tokens,
+ although companies very quickly found
+ that that was quite an expensive proposition.
+ In fact, almost as soon as we started hearing stories
+ about token-maxing and token leaderboards,
+ we then quickly thereafter started to hear about companies
+ who were starting to impose token spend limits
+ on their companies.
+ The business models followed next,
+ with companies like Anthropic and Microsoft
+ starting to move away from the inherent subsidies
+ inside their subscription accounts
+ and push power users over to the API
+ where they actually had to pay for all the tokens
+ that they were using.
+ This has driven not only power users
+ but many enterprises to care about cost efficiency
+ and performance per unit of cost
+ as just as if not more important
+ than overall intelligence.
+ Undoubtedly, China has been the early leader
+ in that new efficiency push.
+ Chinese models like DeepSeek v4.1 Flash
+ and Kimmy K3 and GLM53 all offered a different set
+ of trade-offs that pushed many businesses
+ to start thinking about experimenting
+ with open-weight models.
+ Open-weight models not only potentially represent
+ a cost reduction, but because they can run
+ on your own infrastructure,
+ they also avoid growing concerns
+ about whether the AI labs
+ that are serving you the intelligence
+ are going to use the traces of your usage
+ of that intelligence to ultimately compete with you.
+ And these two themes,
+ the business need for cost-efficient models
+ and the business need for data sovereignty
+ have fairly dramatically shifted
+ how AI companies are competing.
+ First of all,
+ from the leaders like OpenAI and Anthropic,
+ we are seeing a growing focus
+ on cheaper, more efficient models.
+ We got that with GPT-6 Luna,
+ a cheaper, faster version of GPT-6 Sol
+ and even more recently,
+ Claude joined this party with Haiku 5.5,
+ an extremely performant model for its cost.
+ In fact, at this point,
+ strictly from a cost perspective,
+ these leading low-end American models
+ are basically as cheaper,
+ at least fairly close to their Chinese competitors.
+ And yet, that still doesn't answer
+ the question of sovereignty.
+ Are businesses really worried
+ about the OpenAI's and Anthropics of the world
+ taking advantage of their data
+ to ultimately compete with them?
+ Or is that just the narrative that some have picked up?
+ Certainly that is a story
+ that Microsoft has decided to tell.
+ Satya Nadella and AI CEO Mustafa Seliman
+ have been beating the drum
+ that companies shouldn't have to pay for AI twice,
+ once with their money and once with their data,
+ and have even introduced new post-training products
+ to address it.
+ And this brings us back to this third debate.
+ Does sovereign AI matter or just cheap AI?
+ If just cheap AI matters,
+ if that's really the primary consideration of businesses,
+ they will likely just take advantage
+ of the cheaper American models
+ rather than deal with the complexity
+ of running your own models on-prem
+ or even post-training them.
+ But if sovereign AI matters,
+ that could be an entirely different situation.
+ Certainly through all of this,
+ the evidence points to the idea
+ that companies are going to increasingly demand
+ more options when it comes to models
+ and are going to be less willing
+ than it might have seemed previously
+ to be locked into a single vendor's ecosystem.
+ Maybe the best evidence of this yet
+ came when Elon Musk recently announced
+ that despite all of their emphasis
+ on training their own models,
+ when it came to their personal agent, Grockbot,
+ SpaceX would be using the best backend model
+ for any given task,
+ even if it meant using not a Grock model.
+ There is no doubt that companies
+ are going to continue to compete
+ to have the smartest, most capable AI,
+ but almost every other part
+ of AI model training and delivery
+ is going to in some ways be dictated
+ by the answers to these questions
+ about how much cheap AI versus sovereign AI
+ and model lock-in actually matter to business buyers.
+ The fourth debate shaping AI
+ is about the right way to regulate it.
+ We're past the point where there's a question
+ of whether there needs to be some regulatory structure.
+ The question now is in the details.
+ Very broadly speaking,
+ it's a question of self-regulation
+ versus government regulation,
+ although even that may be a temporary state of affairs.
+ So far, the Trump White House has been focused
+ on voluntary self-regulation style approaches.
+ In June, he signed an executive order
+ committing AI companies to voluntarily give the government
+ preemptive access to their models
+ to review them before release.
+ And then at the end of September,
+ a slew of AI CEOs signed a voluntary safety pact,
+ saying basically that it was their responsibility
+ to pace themselves if their models presented undue risk.
+ Certainly many within the AI industry
+ have come to believe that we are at
+ or getting to a point
+ where more deliberate attention is needed.
+ The key phrase of 2026 on this front so far
+ is the idea of pacing the frontier,
+ of companies coming together
+ to voluntarily slow down the speed
+ at which things get released
+ in order to avoid some of the worst potential consequences
+ of breakaway agents in AI.
+ And more and more those concerns are less theoretical
+ and more based on real world events.
+ The hugging face incident
+ in which agents from an unreleased open AI model
+ broke containment and figured out
+ how to get access to hugging faces servers
+ in order to find results
+ to a benchmark test that they were performing
+ has been for sure the clearest warning shot
+ when it comes to the types of challenges
+ we're going to face as a genetic AI matures.
+ And recently it's not just been cybersecurity concern
+ but existential risk concerns
+ that have made big headlines in mainstream media.
+ Former anthropic researcher Jacob Coxen
+ has been doing a never ending press tour at this point
+ since he resigned
+ telling anyone who will listen and give him a platform
+ about the high percentage chance
+ that he ascribes to AI leading to human extinction.
+ As the anthropic IPO gets clearer
+ investors are struggling to figure out
+ how to put a price on this sort of risk
+ whether it's the rogue AI cybersecurity risk
+ or even more dramatic risks.
+ And in the meantime we are seeing increasing
+ legislative efforts for more dramatic regulatory action.
+ Bernie Sanders for example introduced legislation
+ to ban artificial superintelligence
+ as well as temporarily pause advanced AI development.
+ And we've seen almost endless discussion
+ of kill switch bills designed to create a kill switch
+ for AI systems that are causing undue harm.
+ While right now because of the White House's stance
+ the debate might be self regulation
+ versus government regulation.
+ I think very soon society will decide
+ that self regulation is too limited
+ and instead the debate will shift to
+ which are the most important risks to regulate.
+ Policies designed to improve cybersecurity considerations
+ might look very different in other words
+ from those trying to avoid AI disaster scenarios.
+ I tend to think that almost wherever you land on the spectrum
+ you should welcome this shift
+ as it moves us from having a very theoretical
+ and frankly fairly disempowering debate
+ to one where what we think could actually end up
+ in the policy that gets presented.
+ And the last debate shaping AI right now
+ given the upcoming midterm elections
+ is can data centers win over their neighbors?
+ Data centers of course have become the physical manifestation
+ of people's frustration with AI
+ as well as frankly I think their frustration
+ with the ability of moneyed interests in general
+ to impose their will upon communities
+ without those communities having a strong say.
+ Opposition to data centers
+ has grown significantly throughout the year
+ putting it quite mildly pew at the end of September
+ shared research showing how Americans views
+ of data centers have turned more negative.
+ Since January the percentage of people
+ who had mostly bad views of data centers impact
+ on the environment, home energy costs
+ and local quality of life all rose
+ and very few people wanted data center
+ anywhere near their home.
+ This by the way is an extremely bipartisan position
+ with Republicans and Democrats
+ disliking data centers in fairly equal numbers.
+ Now the AI industry has tried to combat
+ some of the myths that have been driving this discourse.
+ For example, the evidence suggesting
+ that data centers are driving up
+ people's electricity bills is pretty limited.
+ And yet surprisingly people being told
+ that they're wrong about an issue
+ that really matters to them
+ hasn't really worked to change their attitudes.
+ And as their attitudes have hardened
+ politicians have jumped right on board.
+ Again across party lines from Democrats to Republicans.
+ And the playbook trajectory
+ for the people building data centers
+ at this point is pretty clear.
+ They started this year
+ with the rate payer protection pledge
+ committing once again voluntarily
+ to make sure to buy or build the generation
+ needed for their facilities
+ so that it didn't increase the electricity costs
+ for people in their communities.
+ Turns out that's not enough.
+ The next important thing is that companies
+ have been disavowing NDAs.
+ It used to be common practice
+ that the negotiations that data center builders
+ had with local officials
+ were hidden in secret behind non-disclosure agreements.
+ But that has been exhibit A
+ for people who feel disempowered
+ and not included in this process.
+ And so companies have gotten the memo
+ and pledged not to do that anymore.
+ And finally, most recently
+ the data center builders have realized
+ that it's not enough to just make sure
+ that electricity costs don't increase
+ and it's not enough to stop being opaque
+ but that they are going to have to invest
+ a heck of a lot more money
+ in the communities where they want to set up shop.
+ That involves infrastructure investment,
+ supporting local community initiatives
+ and yes, even direct payments to citizens.
+ But will that be enough?
+ It remains to be seen.
+ And the reason that I think this is worth including
+ as a debate shaping AI
+ is that in many ways data centers are
+ at least in part
+ also just the physical manifestation
+ of the larger sentiment around AI
+ which remains in a word not good.
+ And yet despite the fact that Americans
+ are worried about AI
+ and report not liking AI
+ they are sure using a heck of a lot of it.
+ The optimistic take there
+ is that if usage of AI is important to them
+ for whatever reason
+ but that they have concerns
+ about how AI exists right now
+ that creates an incentive for them
+ to be involved in trying to make AI
+ and the AI industry better.
+ Democracy is a messy process
+ but the fact that we're having all these conversations now
+ that this has become a political issue
+ that we're getting specific policy proposals to debate
+ all of these things I think are massive improvements
+ from the previous state of the debate
+ which is just people screeching at each other
+ on social media.
+ So those are the five debates shaping AI right now
+ certainly there are a lot more
+ and if you're interested maybe we'll do a more technical
+ or product and model focus version of this in the future
+ but for now that's gonna do it
+ for today's AI Daily Brief.
+ Appreciate you listening or watching as always
+ and until next time
+ peace.
