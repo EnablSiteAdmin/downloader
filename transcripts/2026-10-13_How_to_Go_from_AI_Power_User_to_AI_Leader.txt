@@ -1,0 +1,1214 @@
+ Every group of professionals organized in any way you can imagine at this point
+ has some subset of people that have become the power AI users.
+ These are the folks who try every new model and every new product.
+ They report back on what works and what others should do
+ and in many cases that role has been formalized into some sort of internal
+ ambassadors or champions program.
+ In fact, across all of my experience with enterprises,
+ the single highest ROI transformation activity that I have seen
+ is when companies structure this sort of internal champions program well.
+ Today's episode is all about what that actually means.
+ The AI Daily Brief is a daily podcast and video about the most important news
+ and discussions in AI.
+ All right friends, quick announcements before we dive in.
+ First of all, thank you to today's sponsors, KPMG, Section, Harbor, and Blitzy.
+ To get an ad-free version of the show, go to patreon.com.ai-dailybrief
+ or you can subscribe on Apple Podcasts.
+ And to learn more about sponsoring the show, send us a note at sponsors.ai-dailybrief.ai.
+ Lastly today, it is a federal holiday in the U.S. today.
+ So this was recorded last week.
+ It's another one of our operators cut practical episodes and I hope you enjoy it.
+ All right, new far welcome back to another operators cut.
+ How are you?
+ I'm good. Thanks for having me excited about this one very much yet.
+ Maybe just to make a bold claim right up front, you and I have both individually and together
+ spent a lot of time interacting with enterprises and companies of all shapes and sizes who are
+ trying to get better at AI. And as part of that, we have tried and they have tried
+ a huge array of different strategies for improving how they use AI, you know,
+ within specific teams or across the board. And what we're going to talk about today
+ is one of the only consistently always successful ways to make the general
+ experience that people have with AI inside a company or inside a team better.
+ Right. It just it it never fails is the short answer.
+ This is just such a critical component of what people do.
+ So I'm really excited to dig into it.
+ Introduce us to what you're doing.
+ And then we'll have a lot to talk about today.
+ Perfect. Yes.
+ So I agree. We're now presenting the one of the highest activities that you can
+ take in a company in order to be successful with AI.
+ And that is to establish a proper network of AI champions.
+ And what I want to do with the session today is the following because we all use AI
+ every day. And I'm sure that everybody has seen the same phenomena where
+ someone on the team finds a great way to do something.
+ Often those are the best users out there.
+ They show two people.
+ And then it never turns into something the whole team uses.
+ And part of what this episode is trying to do is to help resolve the problem,
+ to help define the person.
+ It might be you.
+ It might be others in your company.
+ Their job is to fix that the person that helps spread the AI.
+ And I think that many companies have been establishing AI champions for a
+ while now with varied degrees of success,
+ but always, in my opinion, with a positive outlook and outcome overall.
+ My goal is to go over three things to help make it even better.
+ First of all, what the role really is and how to define it.
+ And maybe as a byproduct to also help the question that maybe someone
+ listening to this has with herself of whether they are already
+ the underdefined AI champion in their environment,
+ or maybe they should opt to become one.
+ I also want to explain how I believe we should establish a poker network
+ of internal champions.
+ And lastly, I want to discuss what the best AI champions in a given company,
+ what they need to do.
+ And before we dive in, I want to add three things, I think to this.
+ First, I know you're about to give us your definition of an AI champion,
+ but just on a naming convention, I want to point out that across all
+ these different teams that we've worked with, you've worked with,
+ I've worked with, the name is different for this.
+ Sometimes it's evangelist, sometimes it's leader, sometimes it's adoption support.
+ Champions is the one I think we've heard the most often, some variation on champions.
+ So that's what we're referring to.
+ It might you might have heard it differently or have it named differently in your team.
+ The second thing is, I think that for those of you who are not
+ inside a big enterprise and are wondering, is this worth continuing
+ to invest my time in for the rest of this episode?
+ I would make a fairly strong argument that once you get past a basic or intermediate level,
+ once you're in that advanced AI category, you are going to be
+ thrusted to this role of champion in some way, shape, or form.
+ It's going to be for your friends and family at the very least,
+ but it also is likely if you are working with any number of people on a team,
+ this role inhabiting the champions role, it's a different muscle than just using AI,
+ but communicating how to use it well and thinking in terms
+ where you can share what you're doing, process terms basically,
+ rather than just implementation, I guess.
+ And third thing, because Nufar wouldn't shout this out,
+ I don't think that there are very many people who have done
+ more versions of this with more different companies than Nufar.
+ So this comes out of a lot of experience and not just hacking at home experience,
+ but direct in-person dozens and dozens of companies in different contexts
+ in which this type of work has been done.
+ Thank you. Okay, I now have cross to bear,
+ and that is to first define what it really is.
+ As Netanyel said, in many cases, you already know this person.
+ That's the person that you pick up the phone to whenever you want to know
+ how to get something with AI done or there is something new that is now accessible
+ and you want to understand how to work with that.
+ And my definition is that the AI champion is the person in the team
+ or in the environment that is responsible for moving AI adoption
+ and value forward.
+ Often I call them peer plus one because they sit within the team,
+ they do the team's work, but they're a step ahead in AI
+ because they already are the person that are most psyched and able in AI
+ or they were appointed to this role.
+ So it doesn't matter whether this appointment was done officially
+ or that's who you are, the factor.
+ I think that the AI champions are people who show
+ what I can do on the work that the peers actually do,
+ not theoretical but use cases from the day to day of their environment.
+ They also connect with other champions and in many cases
+ with the central AI teams or other professionals
+ in order to build and use the relevant things the company offer
+ and they also move people without necessarily having authority on them
+ forward with their adoption.
+ And before we go to the actual job,
+ the role does look quite different in different companies.
+ So I wanted to give you a spectrum.
+ The spectrum is, as Natalia said, based on a lot of experience
+ across multiple companies.
+ On the one hand, we have what sometimes companies
+ will refer to as ambassador doors.
+ These are the best AI users.
+ Their role is primarily to drive AI adoption, to showcase the use case.
+ They will bring their real examples and they will do part of the work
+ as well as training their peers officially or unofficially in that case, by the way.
+ And they also know how to voice what the team needs,
+ the tools and the internal builds that will help the team move forward with their adoption.
+ At the complete other end of the spectrum,
+ we have what we can now call them an internal FDEs.
+ FDEs stands for four deployed engineers.
+ And many of you have probably been hearing this terminology for many years.
+ So it's a bit loaded with many different interpretations
+ because they've been here around for a while.
+ But now many of them are very much focusing on AI.
+ So I'm going to define it quite simply in our context as a professional builder
+ who sits inside a business team and builds what the team needs.
+ It can be all the way from idea to production,
+ including as we will discuss in the second part,
+ the planning, the value realization.
+ Some of them come from software and AI background.
+ Some of them, and I've seen many of those,
+ were subject matter experts who made real career pivot
+ into building for their teams with the many amazing tools
+ that now many people can build with.
+ In between, where many companies typically land,
+ the ambassador builder.
+ So they also build for themselves and for their immediate team.
+ They typically will have a well-defined scope
+ of what they can and cannot do or they should have one.
+ And beyond that scope,
+ they will be almost like a product manager.
+ They will gather the requirements.
+ They will bring them to the relevant either vendors or internal teams
+ that can help them build properly what they want.
+ So with the definition out of the way,
+ let's talk about the how-tos and the how-tos for AI champions.
+ They're comprised of two parts.
+ We have part one, which is the company side,
+ how you build a champion network, stage by stage.
+ And in part two is the champion side.
+ And as we said, whether you're official or unofficial champion,
+ what you need to know and how to do the job well.
+ And I think that the second part, especially,
+ will be applicable to all of you super users
+ who just want to also progress some of what they do
+ and their thinking.
+ So of course, if you are a sponsor,
+ the very first part is the playbook for you,
+ starting with the company side.
+ And I think that whenever a company is talking
+ about the AI champions,
+ they never just ask a single question.
+ They basically ask four questions.
+ Many of them are not necessarily just related to champions.
+ It's just that when you start thinking about
+ how can I create internal movement towards better adoption,
+ often these questions come to play.
+ So the first question they often ask is who gets to build.
+ And that's basically the democratization question.
+ Who uses what others are building
+ and who's the one that is building for others and themselves.
+ The second question is what do we expect from everyone else?
+ Because champions have a job
+ and so does everybody around them, all the other users.
+ So it creates a lot of questions around expectations
+ from regular users versus champions.
+ They also often ask how does AI spread from the field,
+ meaning how people in the ground pick up
+ in a way that works whatever was built for them.
+ And lastly, how do the champion work
+ with the central teams or the vendors?
+ And by that, I mean the people who own the company's AI tools
+ and the IT and the security and everybody else
+ that makes the decision.
+ And even if nobody in your company has the title of central team,
+ you are living with these questions
+ because these are the core things that differentiate
+ between a company that is very opinionated
+ to the ones that are still asking a bunch of questions.
+ Let's go to process of establishing an AI network.
+ I think the very first question that I always like to ask companies
+ is what are you planning to accomplish
+ by establishing an AI champion network?
+ And very often they struggle to answer.
+ And then the second question that maybe I'm asking
+ on the line between the ambassadors
+ that you've seen to the full builders,
+ the four deployed engineers,
+ where do you want your champions to be?
+ This one usually opens the conversation
+ because now we're talking about something more concrete,
+ what these people will be allowed to do,
+ what they'll be expected to do
+ and what stays within central teams
+ or only professional vendors and builders.
+ And even if you've been defining champions for a while,
+ that's an important discussion to have periodically
+ because sometimes that changes for companies
+ and you might have refined your thinking
+ based on actual experience with democratization
+ and building on the ground.
+ When you want to start well,
+ I want you to configure the goals,
+ the responsibilities and the expectations.
+ Ideally written down and agreed with everybody else
+ who is involved like IT security and so on.
+ To give a concrete example,
+ one company that I'm working with
+ after pondering these questions for a while,
+ they realize that primarily what they want
+ is their champions to be a good funnel
+ that brings the relevant use cases from the ground
+ to the central team that is basically blind
+ to the day-to-day reality of the different teams.
+ And as such, it's a completely different discussion
+ and role and training
+ for people whose main purpose
+ is to basically become a funnel
+ for good use cases coming from the team.
+ On the flip side, I've also seen companies
+ that change their mind after a while
+ and then realize that they want to have champions
+ as full-blown builders
+ and then they train them to become much more sophisticated
+ almost like the AI engineers they breed from the ground up.
+ So that's the stage one.
+ Stage two is the nomination.
+ And there are three signals
+ that I want you to look for very first
+ in a good champion.
+ A good champion is a person
+ that among the most sophisticated AI users
+ without being told to use AI, they just do.
+ Their peers already come to them
+ to ask questions and to get guidance
+ and their managers will actually give them enough time
+ to work on AI also for others.
+ And that's a big one
+ because often that's when great nominations fall short.
+ Then there are other things
+ like the ability for them to influence without authority,
+ knowing the business ins and outs,
+ taking initiative and a lot of curiosity
+ because as we know, everything changes all the time.
+ I want you also to remember
+ that the person that you will nominate
+ is a person that you want to retain and promote
+ because getting to be the AI champion
+ and then boasting on that on social and so on
+ is a huge perk
+ and also makes this person highly desirable
+ for the market.
+ So make sure that you nominate the people
+ that truly deserve the role.
+ This is also the area, the nomination
+ where I've seen companies making endless amount of mistakes
+ and I did want to call them out
+ because they are so common
+ that I will be amiss if I will not call them out.
+ The first thing that I'm seeing
+ is very senior people nominating themselves
+ just because they want to improve the AI skills.
+ So they say I'm going to be the AI champion
+ or because they want to have influence
+ on what's being built.
+ So they nominate this themselves.
+ Senior people should sit in an AI committee
+ like a dedicated steering function
+ that helps make the strategic decision.
+ They shouldn't be the people
+ who are chartered to build and train their peers.
+ I've also seen, and that's very common,
+ great candidates in terms of the AI ability
+ and everything else falls in place
+ except they're also the busiest people on the team
+ and they just don't have the bandwidth
+ to be the person who builds and trains and so on.
+ So they are not a good use of your time.
+ I've also seen people nominated as a reward.
+ They're strong players.
+ Let's nominate them as AI champions,
+ but they're just not good enough AI users
+ or doesn't hold some of the other traits.
+ And lastly, never nominate the person
+ who just started working yesterday.
+ One of the most important traits
+ that the AI champion has
+ is the ability to identify use case
+ and know the business ins and outs.
+ If they don't know they're new to the team,
+ they will not be a good enough champion.
+ Okay, the next thing that every company
+ that is serious about champions need to do
+ is the training.
+ And of course, you can run it internally.
+ If you have strong enough people,
+ you can do a more concentrated boot camp
+ which is what I often I get to do.
+ Or you can go gradually and just train them.
+ But even if they are great users,
+ ideally, you should train them on specific things,
+ namely part of what I will share in the second part.
+ In my point of view, whichever format you choose,
+ train them on their own work.
+ And my favorite test is very simple.
+ Every champion takes one real use case
+ from their team
+ and shows how they were able to build
+ or promote it by the end of whatever training that you do.
+ If they can do that, they're ready.
+ If not, maybe there is some work to be done.
+ And usually this stage of the training
+ ends with a kickoff or some kind of certification,
+ a lot of excitement across everybody.
+ People are very proud to have been chosen.
+ And that's where the real test begins.
+ And that's where many of the initiatives fail
+ because the biggest predictor of whether this succeeds
+ is what happens the day after you certify
+ someone as a champion.
+ And this is where we start talking about communities
+ or networks and it needs several things.
+ I think one of the most important things
+ that a successful endeavor like that needs
+ is a sponsor.
+ Ideally, two kinds of sponsors,
+ one that is more of the community type
+ coming from HR or the people team
+ or anyone who knows how to run a community
+ inside an organization effectively,
+ they keep the people side alive.
+ But we also want a professional sponsor,
+ the one who works closely with the chief AI officer
+ if you have one, the one that is very savvy about AI
+ that can also steer the direction of the champions
+ towards the company's AI adoption strategy.
+ This person will set the priorities
+ and will bridge to everyone that the champion depends on,
+ namely all of these internal teams.
+ And they keep the champions on what matters
+ and keep the company clearing the path for them,
+ the approvals and the access and the tools and so on.
+ So these sponsors matter a lot.
+ And I think that to name an example
+ and one of the most successful companies
+ that I've seen in establishing an internal network,
+ they have a dynamic duo of an L and D expert
+ and an AI expert working together.
+ They regularly keep their hand on the pulse.
+ They regularly make sure that they understand
+ where the champions sit, what they need,
+ what they're building, what the state of the industry is
+ and always trying to bridge the gap on the flip side,
+ literally in every company
+ where we might have had an amazing AI champion course
+ that's never materialized into business value,
+ the missing piece was the continuation.
+ Nobody took ownership on making sure
+ that the champions are being used effectively
+ and learning continuously.
+ That means that most will just return
+ to the way they used to work before
+ and just to use AI as they used to work
+ and not take it to the next level
+ that we expect a proper initiative like that will take.
+ One of the things that is interesting
+ and maybe obvious to some
+ but is not necessarily always obvious
+ is that I think a real challenge
+ for enterprise decision makers
+ is both how much to invest
+ and the right way to invest
+ in training their people with AI.
+ It doesn't fit comfortably into previous models
+ of corporate upskilling
+ because it's so much more robust
+ and all-encompassing
+ but at the same time there's no established
+ standards or clear best practices
+ really yet that everyone agrees upon
+ for how to do this.
+ And because of all that
+ that I think makes the question of
+ how much to invest in different categories
+ of people really hard.
+ This is once again one exception
+ where whatever training you can do
+ for this group who is going to be then disseminating
+ the most useful parts of that
+ the most contextually relevant
+ for that business parts of that
+ it's just an extremely high ROI category
+ of training even relative to other areas
+ that makes it a valuable place to intersect.
+ I guarantee that there are still lots
+ and lots of companies out there
+ that have yet to invest
+ in any sort of formal training.
+ If you're one of those
+ this is I think a place to potentially look
+ as a good intersection
+ and a good starting point.
+ Yeah I agree and relatively small
+ number of people that has a huge impact
+ on the company versus training everyone
+ and that often is getting lost
+ in too many people too many variants.
+ A new study from KPMG in the University of Texas at Austin
+ found that when people work with AI
+ similar skills don't guarantee similar outcomes.
+ Researchers studied more than 500 early career professionals
+ and found that the best performers
+ consistently amplified the value of AI
+ by guiding evaluating and refining its outputs.
+ These top performers called AI amplifiers
+ weren't defined by what they knew alone
+ but by how they worked with AI.
+ Learn more about what separates AI amplifiers
+ from everyone else at kpmg.com
+ slash us slash AI amplifiers.
+ Here's a harsh truth.
+ Your company is probably spending thousands
+ or millions of dollars on AI tools
+ that are being massively underutilized.
+ Half of companies have AI tools
+ but only 12% use them for business value.
+ Most employees are still using AI
+ to summarize meeting notes.
+ If you're the one responsible
+ for AI adoption at your company
+ you need section.
+ Section is a platform
+ that helps you manage AI transformation
+ across your entire organization.
+ It coaches employees on real use cases,
+ tracks who's using AI for business impact
+ and shows you exactly where AI is
+ and isn't creating value.
+ The result?
+ You go from rolling out tools
+ to driving measurable AI value.
+ Your employees move from meeting summaries
+ to solving actual business problems
+ and you can prove the ROI.
+ Stop guessing if your AI investment is working.
+ Check out section at sectionai.com
+ that's s-e-c-t-i-o-n-a-i.com
+ Every episode we cover the competition
+ between OpenAI, Anthropics, SpaceX AI,
+ Google and Meta.
+ Chances are you've already formed
+ an opinion about who's leading
+ but every AI lab is taking a different approach
+ building different technologies
+ forging different partnerships
+ and developing a unique ecosystem.
+ Harbor Capital Advisor's AI Lab
+ Ecosystem ETF Suite
+ gives investors a way to gain exposure
+ to the AI ecosystem
+ they believe is best position for success.
+ Search Harbor AI Lab Ecosystem ETFs
+ wherever you invest
+ or follow at Harbor Capital on X
+ to learn more.
+ Visit harbercapital.com
+ for a prospectus containing investment objectives,
+ risks, fees, expenses and other important information.
+ Read and consider it carefully before investing.
+ Risks include principal loss
+ and artificial intelligence related risks.
+ Harbor ETFs are distributed
+ by foresight fund services LLC.
+ Harbor is not affiliated with AI Daily Brief
+ and the funds are not affiliated with
+ sponsored by or endorsed by any AI lab.
+ This is a paid advertisement
+ and not personalized investment advice.
+ Investing involves risk
+ including possible loss of principal.
+ Every AI coding tool on the market
+ does the same thing first.
+ It starts writing code.
+ But let's see, does the opposite.
+ Before writing a single line,
+ Blitzy spends days reverse engineering
+ your entire code base.
+ Thousands of agents ingest millions of lines
+ mapping every dependency,
+ every undocumented constraint,
+ every architectural decision made
+ over the last decade.
+ The result is a dynamic knowledge graph
+ that understands your software
+ the way a principal engineer would
+ after 30 years in the building.
+ Other tools guess it context
+ with grep searches and markdown files,
+ Blitzy never guesses.
+ It builds true understanding first
+ then delivers over 80%
+ of entire software epics autonomously.
+ Validated end-to-end tested
+ production grade pull requests.
+ That's why Fortune 500 engineering teams
+ trust Blitzy with the code bases
+ that matter most.
+ See for yourself at Blitzy.com
+ that's blitzy.com.
+ Let's talk about the community
+ because first thing that I will say
+ that everything that is true
+ for any internal community is true here.
+ You want routines,
+ you want champions to meet regularly
+ and make it easy for them
+ to share the things that they're doing
+ to learn together
+ and to get celebrated
+ when they have interesting accomplishments
+ based on what matters to you
+ that they will do.
+ Another one that is underrated
+ is to work with the champion's managers
+ because what I often see
+ is great champions whose managers
+ don't have realistic expectations
+ or don't know how to use them
+ or there's simply too big of a gap
+ in the knowledge between the champion
+ and the person who manages them
+ and then everybody is very frustrated.
+ So a short session
+ it can be very short
+ to the managers of the champions
+ to explain to them
+ what the champions know,
+ what they expected to do,
+ what like how to effectively leverage them
+ creates a big difference
+ in leveraging the output
+ of the fact that you already established
+ these champions.
+ And lastly,
+ about the day after
+ I think that not everybody
+ who was nominated
+ will actually become champion
+ either because they
+ or their managers
+ have a different expectations
+ than what they have
+ or people might leave,
+ the work gets too busy
+ and some realize
+ and I've seen that many, many times
+ the role is just not for them.
+ It sounded very good on paper
+ but they just don't want to do that.
+ So the network has to be
+ a very living entity.
+ It needs to enable people to go
+ and leave the network easily
+ and then they can hand it over
+ to someone else in the team.
+ We want to make it easy
+ for new people to join
+ in a clear way
+ and education never stops.
+ So it's always happening.
+ And if you already have a network
+ and it's losing energy
+ this is where you start.
+ Name your two sponsors.
+ Check that every champion
+ still have the one or two days
+ or sufficient capacity
+ to do the work.
+ And if needed,
+ reinstigate the commitment
+ with their managers.
+ Also, let the people
+ who can't do the work
+ step out of the role
+ and thank them
+ and nominate new people
+ all the time.
+ The most tired networks
+ that I see
+ are missing one of these
+ elements that I just called out.
+ So that's the company side.
+ The clear goal, the right people
+ the right training
+ and the day after
+ that is also a living breathing entity.
+ Let's move to the champion side.
+ And here I'm also reverting
+ what you said at the beginning
+ even if you're not an official champion
+ but you are the best AI user
+ in the company
+ or in your environment.
+ I think that you should listen to that
+ because these things
+ are what differentiate
+ regular power user
+ from one that is geared
+ towards yielding more business value.
+ So a champion
+ needs to know
+ stuff that other employees
+ not necessarily.
+ I think
+ it doesn't matter if you are like
+ a pure ambassador
+ or you're a full builder.
+ A champion needs to understand
+ the whole road
+ and AI use case travels
+ all the way from idea to production
+ meaning something that people
+ actually use every day.
+ And I think
+ that there are like
+ three stretches
+ before the build
+ meaning that you know your ground
+ you know what the company allows
+ to do
+ and where the use cases reside
+ you also need to decide
+ if what and how to build.
+ Then you have the build itself
+ from POC to production
+ how do you create the agent
+ or the automation of the capability
+ and of course here the proportion
+ is based on the skills
+ and how much you're allowed
+ to build and what are the tools
+ that you have
+ and after the build
+ there is the entire
+ part of the value realization
+ deployment
+ and retiring a solution
+ when needed.
+ So I want to give you a few
+ thoughts on each of them
+ and these are like the main
+ stops or the main things
+ that a good champion
+ should be able to do well.
+ So does by the way
+ a great power user.
+ So the first thing that I want you
+ to hone in on
+ is the use case identification.
+ I want you to find the problems
+ in your domain
+ that are worth solving
+ and where the cost
+ is justifying the money
+ or the investment
+ and you have to be a little bit
+ conservative here
+ in the sense that
+ assume that the investment
+ will be higher than you anticipated
+ and that the value
+ will not necessarily
+ be as high in day one
+ as you anticipated.
+ Your ability to articulate
+ who suffers from this problem
+ how often
+ and what Dan look like
+ really changes the picture
+ and then checking
+ your idea that you have
+ against what already exists
+ so that the company build
+ everything just one time
+ and not 100 times
+ of the same use case.
+ Another thing that I want you
+ to pay attention to
+ as a champion is the ROI.
+ That's just being able
+ to articulate
+ what it worth versus
+ what it cost.
+ The core knowledge here
+ as I said is to be the
+ realistic person
+ and it means that you need
+ to ask a bunch of questions
+ about how it will be used.
+ Does it move a company
+ like a critical performance indicator
+ what would it need to do
+ in order to measure
+ or make sure that we achieve the goals.
+ I also want you to be
+ very focused
+ as a champion
+ on the deployment side.
+ How do we make sure
+ that this great thing
+ that we've built
+ is getting into the
+ right people's hands
+ frequently enough
+ and with the right usage mode.
+ There's a question of
+ where does it live
+ who approves it
+ and who supports it in day two
+ not just day one
+ where everybody's excited.
+ And lastly
+ and that's a big
+ important thing
+ the evaluation.
+ How do you know
+ that the stuff that you built
+ is actually good.
+ How do we know
+ that we can trust it.
+ How do we know
+ when we cannot trust it.
+ How do we understand
+ the risks of the mistakes.
+ And I think it's
+ one of the most important skills
+ for any champion
+ to be able to sign off
+ on is the thing
+ good enough
+ to put in the hands of users.
+ I'm reverting to the definitions
+ and I want to make it more
+ concrete
+ because for the same use case
+ the different types of champions
+ might address differently.
+ For example
+ maybe we have a use case
+ where the team spends hours
+ every week
+ assembling a summary
+ of a customer
+ renewal.
+ Okay.
+ The ambassador
+ is primarily going to
+ spot the use case
+ describe it clearly
+ and make the case.
+ This is what it costs us today.
+ This is where I think it's
+ solvable
+ and then they will take it
+ to a central team
+ or a vendor
+ as a very clean request
+ that someone professional
+ can execute.
+ Once the solution is ready
+ then they make sure
+ that the value is actually
+ realized
+ that the team uses that
+ properly.
+ So they're
+ introduced at the beginning
+ and at the end.
+ The ambassador builder
+ also will build
+ the version that works
+ for their own team
+ inside the scope
+ that the company allows them
+ to build.
+ And then perhaps a second
+ team will take it over
+ from them
+ to fully productize
+ and then of course
+ they will need to be back
+ for the deployment
+ and the internal FDA
+ they can take it all the way
+ including the build
+ and everything else.
+ Whichever
+ your champion's role
+ is configured of
+ I want to give a few playbooks
+ to make sure that the
+ parts that they are doing
+ will be done well
+ and also this is relevant
+ to other power users.
+ Okay, so the first question
+ that you should ask
+ before anything gets built
+ is whether or not
+ you should even build that
+ and I think
+ you will be surprised
+ how many times people
+ don't even stop
+ to ask should we build it.
+ They just go ahead and build.
+ The thing that you need to check
+ is how often does this come up
+ like is it a concrete use case
+ how much does it worth
+ and how costly the mistake is
+ because if the value
+ and the error tolerance
+ justify it
+ the decision will then be
+ between reuse
+ something maybe that is already
+ existing
+ buying something building
+ or maybe just adding it
+ to the backlog
+ for building in future state
+ but I think there is
+ such a huge bias
+ towards building
+ among individuals and companies
+ that part of being a good champion
+ is making these decisions
+ from the grounded
+ and the company
+ connected point of view
+ not as a passion project
+ but something that
+ justifies the investment.
+ The second thing
+ that I wanted to
+ make sure that
+ as a champion
+ you pay attention to
+ is what you need to be
+ because I think that
+ nowadays
+ we feel that everything
+ needs to be an agent
+ fully connected
+ doing everything and so on
+ and I believe
+ that keeping it simple
+ or building the simplest
+ solution that solved
+ the problem is the way to go
+ so a good champion also has
+ the mental model of
+ what's the right technology
+ for the job
+ sometimes it can be
+ a shared set
+ setup that is enough
+ like a prompt instructions
+ and files that your team
+ reuses
+ sometimes a skill nowadays
+ is the best way to do it
+ the most remind way to
+ create the playbooks
+ that can run on demand
+ and sometimes
+ it's an automation
+ the same steps
+ will be executed every time
+ sometimes there is a good
+ justification for it to
+ be a full blown agent
+ that you build
+ for the team and so on
+ but that's not always the case
+ I wanted to start with
+ the simplest one
+ that solves the problem
+ and identify that
+ there is a true justification
+ to go from left to right
+ and we're not just building
+ the most complex thing
+ that we can think of
+ only to be left
+ with something very hard
+ to build, maintain
+ and test
+ and lastly
+ the last playbook
+ that I wanted to make sure
+ that the champions
+ are kind of being
+ mindful about
+ is defining
+ the core properties
+ before you start to build
+ so these are the
+ things that you probably need
+ to write down
+ as requirements
+ or as spec
+ for what's being built
+ and each of them
+ carries a lot of weight
+ who is it for?
+ Everyone is not a good answer
+ because anyone
+ who has done any good UX
+ knows that designing
+ for everybody
+ is designing for nobody
+ so be specific about
+ the target audience
+ what it needs to know
+ and this is by the way
+ often when you discover
+ that you have an entirely
+ new projects to do
+ just to curate
+ the relevant knowledge
+ for your
+ before you can even
+ start executing
+ the idea that you have in mind
+ I also want you to ask
+ how people will use it
+ so that it will actually
+ be used and not a glorious
+ vibe coded application
+ that nobody remembers
+ where the URL is
+ and what it must
+ never ever do
+ aka concrete
+ and detailed guardrails
+ often by the way
+ starting the thinking
+ with what your solution
+ must never do
+ creates much
+ more important clarity
+ about what it should do
+ and then ask yourself
+ who checks the output
+ where do you enforce
+ human judgment
+ as part of the loop
+ and how do you balance
+ business value
+ and quality
+ or safety
+ of what you're building
+ and lastly
+ how do you know
+ that it works
+ you want to configure
+ the use cases
+ it needs to be tested against
+ as early as possible
+ because when you configure
+ the use cases
+ often that surfaces
+ critical conversations
+ about edge cases
+ and how difficult
+ it can be to evaluate them
+ and this also helps
+ to build the right thing
+ and also helps kill it
+ before it's built
+ because of the inability
+ to ensure quality
+ which is often the case
+ so this is going to be
+ the file that champions
+ will hand over
+ whether they're handing it over
+ to a vendor
+ to the central team
+ or even to themselves
+ it's a critical practice
+ to do before
+ so I wanted to give you
+ a glimpse of three questions
+ that I think differentiate
+ between a regular power user
+ and a champion
+ or a user that is very mindful
+ about building the right
+ thing in the right way
+ I'm calling that often
+ the builders
+ or the champions checklist
+ as we're wrapping things up
+ I think that one more thing
+ that I wanted to observe
+ is that unlike many things
+ in AI nowadays
+ these playbooks are not as transient
+ as some of the other things
+ because the tools
+ they will change every quarter
+ and part of being a good champion
+ or fostering a good champion
+ network includes also teaching them
+ the latest and greatest
+ in tools and in building techniques
+ or identifying use cases techniques
+ but I deliberately spotlighted
+ the things that remain valid
+ even if the technology races forward
+ because you will still need
+ the right people
+ with the time to do it
+ you will still need to decide
+ where on the line they sit
+ between ambassador and builder
+ and write it down
+ they will still need to get the whole road
+ from idea to production
+ and somebody will still need
+ to own the day after
+ so if all of these are done right
+ by your champions
+ you are much better positioned
+ to establish a successful process
+ and if you are the champion themselves
+ these are one of the best seats
+ in the company
+ I can guarantee you
+ because you see the problems
+ across the team
+ you work with the teams
+ or you build yourself
+ and you learn the beginning
+ and the end of the road of building
+ while most people only know
+ kind of the middle
+ of how to build the stuff in the middle
+ and in order to help
+ people do that properly
+ we are establishing
+ an AI champions bootcamp
+ so this is all very opinionated
+ towards what we believe
+ champions need to do
+ and we're starting quite shortly
+ so if you want to be a champion
+ in your company
+ or you are nominated
+ as a champion in your company
+ or maybe you are the sponsor
+ who wants to send a bunch of your champions our way
+ we'll be very happy to train them
+ on all of these and more
+ awesome
+ so going back to the idea of
+ how this role evolves
+ and how it doesn't evolve
+ one really important context
+ that I'm seeing more
+ that's sort of been lurking
+ for all year
+ but is getting
+ even more urgent now
+ is it's a version of the internal FTE
+ that's not necessarily
+ a technical person by definition
+ but is someone who's figured out
+ how to start using code
+ and agentic coding tools
+ to solve some parts of their work
+ or to do parts of their work
+ it's the best example I think right now
+ for companies and people inside companies
+ of the power and challenge of AI
+ all at once
+ obviously it is incredibly powerful
+ for all these people to be able to use code
+ to do things for their jobs
+ that they weren't able to before
+ but it creates this massive new set of
+ challenges
+ some of them are just knowing
+ what to use that for
+ and how to do that
+ and how to even think in those terms
+ but a second part is obviously
+ all the sort of security
+ and guardrails
+ issues that come up
+ and increasingly that's not just
+ because people are doing it wrong
+ but because the agents are powerful
+ and tenacious enough
+ that they tend to escape containment
+ pretty quickly
+ and kind of weed their way
+ into lots of different systems
+ so I actually see that as an area
+ where the role of champions
+ is going to become
+ even more mission critical
+ because it's not just
+ hey we're under optimizing this opportunity
+ it's you know
+ the roles are changing fundamentally
+ and creating all these new challenges
+ and we simply have to figure out
+ how to solve all those challenges
+ so we can kind of move forward
+ so I think that this type of mindset
+ and this type of role
+ is going to become
+ just nothing but more important
+ for companies going forward
+ I agree and instead of shutting them down
+ because you're concerned
+ that less professional builders are building
+ do the enablement and the infrastructure
+ and even train more
+ of the subject matter experts
+ because they will work on the right use cases
+ and I believe that this is even more
+ challenging than mastering the technology itself
+ So going back to the training
+ and obviously this is going to be
+ a part of the bootcamp
+ but what do you see broadly speaking as
+ how much is that about the skills of AI
+ and making sure that they're
+ as up to date as possible
+ and current with the state of the art
+ versus some specific discipline
+ around how they transmit it internally
+ I mean obviously I think it's both
+ but you know how do you view that breakdown
+ So obviously you need both
+ but I actually think that the building part
+ is the easy part in the sense
+ that's not necessarily unique knowledge
+ that there are many ways including
+ just trial and error
+ where people learn how to build some of the things
+ where it matters is for example
+ the topic that I've shown
+ so evaluation of what you're building
+ is not something that someone
+ accidentally lands upon
+ that's something that differentiates
+ the champion from the regular user
+ so we will pay a lot of emphasis on the things
+ that are not just teachable
+ by watching a YouTube video
+ or playing with the tool
+ and just figuring it out for yourself
+ because the tool itself is very powerful
+ in letting you know what to do
+ or even doing the work for you
+ but let's call it the
+ in-between business technology and people side
+ of everything that I just called
+ like I mentioned before
+ these are the things that we will make sure
+ that people come out with proper playbooks
+ because many of them are still being written
+ as we speak and it's not something that most companies
+ will know how to train their own people
+ All right well Nufar this is awesome stuff
+ last thing to mention I guess
+ for folks who watch this
+ and who want to start bringing some of these ideas
+ back to their organization
+ I will be posting this presentation
+ on the companion website for this episode
+ which is at aidailybrief.ai
+ so you can go back and see
+ all of these sort of the breakdowns
+ and all this sort of stuff
+ but Nufar always great to have you on the show
+ I think this is a particularly important topic
+ and I'm excited to see how and learn more
+ about how people are approaching this issue
