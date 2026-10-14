@@ -1,0 +1,475 @@
+ It appears we officially have a new player in the Frontier AI race. Earlier this week,
+ Meta has just announced a new series of models that it calls Wunder. And unlike the Spark models
+ it released over the last several months, Wunder is meant to compete head-on with, as Meta Chief
+ AI Officer Alexander Wang put it, the big boys. But can it hang? Today we're going to look at
+ Wunder and its bigger sibling, Wunderful, and ask what it means that Meta is now firmly
+ back in the Frontier AI race. The AI Daily Brief is a daily podcast and video about
+ the most important news and discussions in AI.
+ All right friends, quick announcements before we dive in. First of all, thank you to today's sponsors
+ KPMG, C-Data, Granola, and Blitzy. To get an ad-free version of the show, go to patreon.com
+ slash aidailybrief or you can subscribe in Apple Podcasts. And to learn more about
+ sponsoring the show, send us a note at sponsors at aidailybrief.ai.
+ We kick off today with the latest company to put some emphasis on speed. This is something we've seen
+ increasingly throughout the last couple of months. Obviously it's something that Google has emphasized
+ with their Flash models, but more recently, OpenAI has also been pushing their ultra fast mode,
+ and Anthropic has now figured out how to serve Opus 5.5 at a blistering pace with a new addition
+ to fast mode. They seem to have stepped up the pace for this one, now serving Opus at a
+ verified 285 tokens per second at max. OpenAI hasn't published a speed test for GPT-61's
+ sole on their fast mode, but their docs suggest a theoretical maximum of 280 tokens per second.
+ What's more, OpenAI is charging 50% more for the premium speed, and while people debate which
+ is better, realistically, both are very expensive versions of the product with fairly niche applications.
+ For Anthropic's version, usage isn't included in regular subscriptions, as some found out the
+ hardware this weekend. Still, for those looking to burn through a ton of tokens quickly on a
+ budget, Chubby noted that Anthropic can serve 50% more tokens per dollar. I think that right now,
+ these fast and ultra fast modes are a little bit of a novelty to most people, but as they become
+ more common in deregure, big shifts in the latency of models will change how we interact with them
+ in ways that I don't think they will quite know until we get there. How important this
+ ultimately is as a vector of AI competition we will see, but it's certainly something that
+ all the labs are exploring at the moment. Now speaking of Anthropic, new Anthropic models
+ have been spotted in testing. Users have reported queries being routed to a new model instead of
+ Opus 5.5 with very impressive results. People were showing off code-based animations that were
+ introduced with Opus 5.5, but then seemingly pushed to this new model. Others reported seeing
+ Fable prompts routed to a new model as well, opening the possibility of a double-headed release.
+ Chubby on X wrote,
+ A release should be near, since Anthropic's IPO is also pretty close, they want their new
+ model to be released a few weeks ahead, so the market can really count that into the
+ valuation. Long story short, Fable 5.5 should arrive soon, and it looks to be a much bigger
+ leap than we even expected. In addition to the competitive dynamics, this release could also
+ be a big test of what the major labs are comfortable releasing moving forward. Both
+ Open AI and Anthropic have restricted testing of their most advanced internal models and could
+ commit to pacing the frontier by focusing on mid-size model releases like Opus and Soul,
+ or we could see another round of acceleration as new larger frontier models are unleashed.
+ As to what AI insiders expect from this, Google's Patrick Tomey wrote,
+ I was at an AI dinner last night in New York City, some interesting topics discussed,
+ one of those topics was, as he put it, Consensus was Fable 5.5 will be stunning,
+ but Open AI will beat it in December with Bell. If you thought in other words about slowing
+ down for the holidays, think again, my friends. Speaking of Open AI, the company is reportedly
+ exploring a Sora revival as part of a partnership. Oh so long ago, the TikTok-style
+ video generation app enjoyed a brief moment in the sun. In late 2025, Sora grabbed the number
+ one spot on the App Store chart, displacing ChatGBT. For about five minutes, Sora memes became the
+ hot trend. However, by the beginning of this year, when faced with difficult choices around where
+ to deploy compute, enterprise use cases like coding one out and Sora was mothballed.
+ The shutdown in April was Open AI's best example of its mandate to end what it called
+ side quests. Now, however, a comeback could be in the works. The information reports
+ that Open AI is in talks with an unnamed startup to license the Sora model and relaunch services
+ around it. The stealth startup was reportedly founded in recent months by Bill Peebles,
+ the former Open AI researcher who led the Sora project, and co-founders include former Disney
+ chairman and Hollywood legend Jeffrey Katzenberg, as well as former Dropbox CFO, Sujay Jaswa.
+ Sources said the deal is still coming together and it's unclear whether the startup would
+ get full access to Sora's weights, but they would have enough access to heavily customize
+ the model. So for those who miss those crazy cat memes, you might be back in business
+ soon. In acquisition news, Amazon is in talks to acquire Decart AI in what could be their largest
+ acquisition of the AI era. The Wall Street Journal reports that the deal is being negotiated at a
+ $7 billion valuation and could come together soon. Decart is an interesting target for Amazon and
+ could say a lot about how they view their position in the AI race. The startup was founded in
+ 2023 and has focused on developing world models for use in live video. Their models can produce
+ live generative video for use cases like live character transformations for streams or
+ genitive gaming. While the tech is cool, Decart hasn't found all that much traction.
+ Amazon, meanwhile, hasn't released a new series of models since last December
+ and let go most of their AI researchers in the last round of layoffs. It appeared to most that
+ they had no interest in competing on the model layer for either Frontier or Commodity LLMs.
+ The play then seems to be about hardware optimization. Decart was given early access
+ to Amazon's Tranium 3 chips last year and developed a technology stack they called the
+ Decart optimization system or DOS. They claim this technology allows inference to operate up to
+ eight times as fast and at one eighth the cost. DOS is hardware agnostic, so could help AI models
+ optimized for Nvidia GPUs or Google's TPUs deploy efficiently on Amazon's hardware.
+ So far, it seems like DOS has only been used for Decart's world models,
+ so it's unclear whether the technology can apply generally to LLMs,
+ but Amazon appears to be willing to take the gamble. Last month, Amazon was said to be
+ exploring an acquisition at $6 billion but walked away after performing due diligence.
+ Decart last raised funds in May, reaching a valuation of $4 billion, pointing to Amazon
+ paying a 75% premium on their last mark. If the deal comes together, it's clearly
+ about inference optimization. If the technology works at scale, it would give AWS a huge edge
+ over their rivals. Given how much we're seeing industry attention shift from models and
+ products alone to the business of serving tokens as cheaply and efficiently as possible,
+ Amazon potentially appears to be preparing for a world where hardware efficiency is the only
+ benchmark that matters. One other interesting acquisition in the works, Nvidia is reportedly
+ in talks to acquire US-based open model developer ReflectionAI. You might remember that after a long
+ wait, ReflectionAI unveiled their first model called Beam last week. The model was positioned
+ to rival the best open-weight models from Chinese developers, and while it wasn't quite
+ there on the benchmarks, Beam was still clearly ahead of other US open models like
+ Nvidia's Nemotron. The Financial Times now reports that Nvidia wants to double down on ReflectionAI
+ following their model reveal. Nvidia is already one of the largest investors in Reflection with an
+ $800 million stake, and are reportedly exploring options including further investment in cash or
+ compute as well as a full-aqua hire. Reflection was last valued at $25 billion in March,
+ so this deal could exceed the $20 billion Nvidia paid for GROC in December to become
+ their largest acquisition ever. The FT said a deal could be reached in the coming weeks,
+ but could still fall apart. It is very clear at this point that Nvidia wants to build the best
+ open model stack in the West. Yuchen Jin wrote, Nvidia bought Huggingface,
+ Aquahired Poolside, and EssentialAI, and is now eyeing ReflectionAI. Jensen is assembling
+ these neolabs to train the US best open-source models. As to the question of competition,
+ Zephyr writes, it's pretty clear that Nvidia will compete head-on with the Frontier Labs now.
+ Jensen is pissed because labs are developing their own ASICs and undercutting Nvidia.
+ Sotrini's Jukan, though, writes, I don't think Nvidia's intent with this acquisition
+ is to compete with OpenAI or Anthropic. If it were, why would Nvidia invest in
+ OpenAI's current funding round? It's probably about improving Nemotron's
+ terrible performance. Continuing, he wrote,
+ Let's say this acquisition is intended to turn Nvidia into an AI lab itself.
+ That would only push OpenAI and Anthropic to accelerate their shift away from Nvidia,
+ which would be even less than Nvidia's interest. Whatever the logic,
+ it is very clear that Nvidia is very interested in the open-source side of the market.
+ And with perfect timing to add intrigue to exactly this conversation,
+ Microsoft has unveiled the next generation of their homegrown chips with a plan to deploy
+ them at scale. CEO Sachin Nadella announced the new MAIA 300 chip on Monday, calling it
+ Microsoft's biggest bet on custom silicon to date. He claimed the new chips can deliver 40%
+ more tokens per watt than leading GPU-based hardware. Starting next year, he wrote,
+ We will scale our Maya family to multi-gigawatt deployments,
+ making it the primary inference system for our own product and services.
+ The MAIA 200 chips are already deployed at a smaller scale, but this generation is expected
+ to be a big leap in performance. Wrote investor Chamath Palahapatiya,
+ You should expect the silicon chip companies to move up the stack as the application companies
+ move down the stack. In AI, it is increasingly true that everyone competes with everyone.
+ Everyone will soon offer their own LPs, silicon, cloud, and applications.
+ The question is, what will the constraint be that you can build a long-term market
+ and margins around? Is it distribution? Is it a data mode? Is it a physical constraint,
+ like power? Expect a lot more discussion along those lines in the months to come,
+ but for now, that is going to do it for today's headlines. Next up, the main episode.
+ Hello everyone. One big change around AI is we've shifted our thinking from how we rank our
+ pages to how do we become the source that AI trusts enough to answer with. At KPMG,
+ they're seeing this firsthand. AI-generated results now surface answers directly,
+ often without a single click. That's why they are increasingly focused on
+ generative engine optimization or GEO, structuring content so AI systems can retrieve it,
+ understand it, and cite it as trusted authority. This is not just an SEO evolution but a visibility
+ mandate. And indeed, the GEO mandate from KPMG is simple. If AI is shaping decisions,
+ your expertise needs to show up inside the answer. Read all about it at kpmg.com
+ slash us slash GEO. Again, that is kpmg.com slash us slash GEO.
+ This episode is brought to you by CData. Companies rolling out AI keep hitting the same wall.
+ Token spend is climbing. Security is holding agents back,
+ and no one knows how AI is truly being used. The root cause,
+ AI is cut off from the systems and context your business runs on.
+ That's why CData built Connect AI Gateway. One control point between your AI and your
+ systems. Built on the connectivity layer powering Palantir, Google, Salesforce, and hundreds more,
+ each agent gets exactly the data and tools it needs. It governs down to the record and
+ lets you finally see your org's complete AI usage in one place. Accurate answers,
+ a fraction of the token cost, and a gateway that learns your business with every interaction.
+ See how at CData.ai. When I'm in a meeting, I'm fully in it. I'm thinking about the
+ iteration and creative back and forth it takes to actually push a goal forward.
+ What I'm not thinking about is capturing takeaways, tracking to-dos, or any of that.
+ And that's where Granola comes in. Granola is an AI-powered notepad that captures what happens
+ in your meetings and turns it into clean structured notes with the decisions and
+ action items pulled out and easy to find. There's no setup and no configuration.
+ It just fits into how you already work. For me, it means I get to stay in idea mode
+ and Granola makes sure those ideas actually become action.
+ Once you try Granola on a first meeting, it is hard to go without. You can try it totally free
+ at granola.ai slash brief. That's granola.ai slash brief to get your time back.
+ Blitzy deeply understands your code base before it writes code.
+ Here's the first place that pays off. Security in the age of AI.
+ Vulnerabilities don't live in isolation. They live buried inside millions of lines
+ of interconnected code where patching one thing quietly breaks three others.
+ That's why surface level scans fail. Blitzy starts from its knowledge graph
+ of your entire application, identifies and surfaces CVEs across the full estate,
+ proactively recommends patches and can execute the PR. Each fix is grounded in how your
+ systems connect and validates or nothing new breaks, and the knowledge graph dynamically
+ updates keeping you ahead of an ever accelerating threat landscape.
+ One Blitzy customer resolved 21 active CVEs across six core microservices in four days.
+ Zero compile errors, every validation scan clean,
+ months of planned work fixed in less than a week.
+ Security remediation grounded in real architectural context at the speed of compute.
+ Harden your code base at Blitzy.com. That's blitzy.com.
+ Welcome back to the AI Daily Brief. It wasn't very long ago at all.
+ Less than a year, certainly, that most people paying any sort of attention
+ were more or less writing meta out of the AI race. In fact, in 2025, most of the headlines
+ around meta and AI were about Mark Zuckerberg spending an extraordinary amount of money
+ to lure researchers to meta and then, of course, all of the internal strife that would follow those
+ moves. And yet, in 2026, the year of the agent, with fall of 2026, of course, being the season
+ of the personal agent, meta is fully back in the mix as a frontier lab. We started to see this
+ with the release of the Muse Spark models, which were, if not state of the art,
+ certainly not embarrassing and good enough to power many of the functions for their consumer
+ app Muse. On Monday, however, meta introduced Muse Wonder, a new, larger class of models.
+ The release included two model variants, Wonder and Wonder Full. Wonder is the slimmed down version
+ optimized for speed and Wonder Full is the full version available through the API.
+ Today we're going to talk about how the models perform, early takes and experiences from the
+ community, how this changes the AI race and what it says about pacing the frontier.
+ On the benchmarks, both versions of Wonder show up near the top of the rankings.
+ Wonder Full scored 79% on DeepSuite 1.1, which was almost five points ahead of GPT-6 Astra and Opus
+ 5.5. And on terminal bench 4.0, it was behind those frontier rivals by just two points.
+ For agentic tasks, Wonder Full seemed to have a slight lead. It topped meta's internal personal
+ superintelligence index, beating Astra and Opus by around four points. It was also state of the
+ art across Harvey lab for legal work, Val's finance agent and automation bench. On OS World,
+ which tests computer use, Wonder was a few points behind frontier rivals, but still decidedly in the
+ mix. Artificial analysis backed up meta's results, giving it a 56 on the intelligence
+ index for Wonder Full and 52 for Wonder. That makes Wonder Full tied for second against Sonnet
+ 5.5 and two points behind Opus 5.5. It places it ahead of Quadfable 5.1 and GPT-6 Astra.
+ The slimmer Wonder is a little further behind in seventh place, tied with GPT-6.1 Soul and
+ Gemini 4 Argon, which is of course yet to be released. Artificial analysis highlighted that this is a
+ quote material gain over MewSpark 1.3 and comes just six weeks after that model's release. The big gains
+ were on agentic professional work and coding tasks, including a second place ranking on GDP Val
+ AA and third place on AA briefcase. Mew's Wonder was pretty pricey at $4.52 per task,
+ which represents almost a 3x increase from MewSpark 1.3. That puts it about a dollar
+ per task more expensive than GPT-6 Astra or Grock 4.7 and about a buck 50 cheaper per task
+ compared to Opus 5.5. If then we went purely from the benchmarks, Meta is back at the frontier for
+ the first time in years. For some, that was jaw-dropping all on its own. Oli Lehman writes,
+ What timeline are we in where Zuck is mogging Astra and Fable now?
+ Infinite money plus infinite distribution and now frontier intelligence? Long Meta.
+ Shopify's Toby Lutke writes, This model is very, very good. I was struggling to find anything to
+ throw at it that it couldn't do, even when other top models failed. Meta is back.
+ And yet the benchmarks are never the full story. And it wasn't long before folks
+ started poking some holes in the excited press. Giving Mew's Wonder and Opus 5.5 the same
+ prompt to build a AAA level lawnmower simulator, Max Blade wrote,
+ It's very clear that Mew's is not anywhere near close to frontier and 3D tasks like
+ video games or even printable CAD designs. Pressaging another complaint that we will see,
+ he also continued, Even scarier is it burned my $50 spending plan
+ plus $4.11 in API equivalent tokens. I had to upgrade to the $200 plan just to finish this run.
+ I will spare you the million more examples of Mew's Wonder underperforming on that type of test,
+ but point you to this comment from Theo who writes,
+ Already seeing a lot of people discount Mew's Wonder because it wasn't RL'd in 3D stuff like
+ Astra and Opus. 3D game demos are cool, but they don't represent real code work at all.
+ I could not agree more strenuously with this. In fact, I think that it is actually extremely
+ net negative to the entire industry and world around it, that because 3D games and renderings
+ look good on social media, the frontier labs feel like they all have to optimize for that
+ use case because they know that people on X are going to judge it based on that use case.
+ Meta's chief AI officer Alexander Wang even added,
+ Whole team feels dumb now, but it's true. We did not explicitly train our model on 3D demo games.
+ Obviously, in retrospect, we probably should have done a bit of that,
+ but no regrets, please try Mew's Wonder on your actual coding work.
+ Unfortunately, it wasn't just those 3D tasks where some people found issues.
+ AI researcher Mahu Mohan writes,
+ Sorry, but not impressed with Mew's Wonderful at all.
+ Nowhere near Opus 5.5 performance, I'd argue not even GPT-61 Sol.
+ I'm not sure what model others are using, but the benchmark numbers making it comparable
+ to Opus seem weird. Not pricing just quality itself is bad.
+ These are real programming tasks in my own agents.
+ Everystandshipper wrote, Disappointing show for Mew's Wonder on our senior engineer benchmark.
+ It asks the model to rewrite a vibe-coded slop database from scratch,
+ a good measure of its usefulness for real-world engineering.
+ Mew's Wonder gets 52%, far behind even GPT Sol.61 at 71%.
+ Riley Brown wrote, Used Mew's Wonder for five hours was going to make a video.
+ No need, back to Codex and Claude Code.
+ Some speculated that the issue was actually the fairly significant gap between Mew's
+ Wonder and Mew's Wonderful. Adam Holter wrote,
+ Mew's Wonderful looks really good, but Mew's Wonder isn't doing very well in any of my tests.
+ So now everybody is getting bad results from Mew's Wonder,
+ and it reflects badly on Mew's Wonderful because they have the same name.
+ I honestly think it would have been better to release these at different times.
+ I will note, giving a sense of how engaged the team is, Alexander Wang responded to that,
+ saying, Fair Feedback, DMing you to understand more.
+ And I saw a number of other users suggesting something similar,
+ where they had good experiences with Wonderful, but bad experiences with Fee Slim or Wonder.
+ The one other big complaint was around how fast the plans got consumed.
+ Arafat Shuvo wrote, I can't even do work properly with Mew's Wonder.
+ It burns through the weekly limit so fast.
+ Matt Silver wrote, I just upgraded to the Mew's $50 a month plan to try Wonderful.
+ Even after the usage limit reset an hour ago,
+ it used 13% of my five-hour usage in less than 10 minutes.
+ Now Alexander Wang did report that there might have been a bug that was
+ miscounting how much people were using of their plans,
+ but still whatever the cause, it didn't help the overall initial impressions.
+ And yet, Mew's Wonder, or specifically Mew's Wonderful,
+ did win some adherence as well.
+ Developer and entrepreneur Theo again,
+ put Mew's Wonderful in his S tier alongside Opus 55 and everything else being far below that.
+ Giving an example, he wrote,
+ Asked Opus 55 GPT-61 Sol and Mew's Wonderful to fix a bug.
+ Opus found the root cause and filed a PR.
+ GPT-61 Sol asked a question,
+ crashed from the async question tool interrupt, found the bug,
+ fixed it, wrote 300 lines of tests,
+ and explained it in impossible to understand terms.
+ Mew's Wonderful found a small PR someone else had filed
+ and said you should probably merge this instead.
+ I really like this model.
+ Conductors Charlie Holtz also liked the model.
+ He wrote,
+ Quick impressions found a real security vulnerability
+ in our code base in one shot that other agents missed,
+ it's great at design and visualizations,
+ it really likes sub-agents, and lots of great details in the CLI.
+ Super impressed by the progress here.
+ Bone GPT wrote,
+ I had early access to Mew's Wonder,
+ and it is a surprising model.
+ On every technical benchmark we ran,
+ it was neck and neck or better than Astra, Fable, and Opus.
+ It has a delicate touch.
+ It makes inspired creative decisions.
+ There aren't really benchmarks for soulfulness, but Mew's has it.
+ It's a warm model, a capable model, and it has big model smell.
+ Its outputs are happy, innocent, and friendly.
+ It never talks down to you like some of the other models.
+ It wants to help you make dope stuff.
+ It wants you to make money.
+ It's aligned with you.
+ Meta is going to win consumer agents in a landslide.
+ Clairvaux broke her tests down by category,
+ finding that on front and designed it was quite bad,
+ writing anything other than emails it was bad,
+ that it wasn't great for SVG's videos in creative design,
+ but that as she put it,
+ it rolls with the big boys on coding,
+ and on agentic tasks it crushed,
+ coming in first out of eight frontier models she tested.
+ Now one interesting question is where this is going to fit in Meta's strategy.
+ Meta is of course much more focused on the consumer experience
+ than other labs are given their distribution and network of consumer apps.
+ About a month ago, I had observed that one of the things
+ that was distinct about Mew's was that it was the first AI product
+ where most of its users just didn't care what model was powering it.
+ And yet, even though I believe that that is true,
+ there were a fair number of users that started to run up against some limits
+ in what Mews could do.
+ A week after I posted that on X, Sergito wrote,
+ Anyone else finding Mews to be less smart than Instinct?
+ I gave them both a similar multi-step task,
+ and Mews hallucinated some stuff and then kept compounding its error when trying to fix it.
+ And in fact, we've kind of been in a spot
+ where in the same way that I discussed power users
+ using different models for different tasks,
+ a lot of early adopters are using multiple different personal assistants.
+ Brycent recently posted on X,
+ what I've realized is that there is no one optimal personal assistant.
+ At the moment, I'm currently using Instinct, Mews, Grockbot, and Dots.
+ I genuinely enjoy using them all for specific use cases.
+ Now, that may be how it plays out,
+ but I think for a lot of folks,
+ the context switching cost of using multiple personal assistants
+ is going to be significantly higher than the context switching cost
+ for using models in other types of ways.
+ In other words, there are many use cases for LLMs and coding agents in general,
+ where they can provide a ton of value
+ even if they don't know anything about you.
+ Personal assistants, on the other hand,
+ get more useful in proportion to what they know about you
+ and the systems of yours they have access to,
+ and most people are going to have a hard time
+ giving even one personal assistant access to all that information,
+ much less a half dozen.
+ And with that in mind,
+ the need for something like Mews Wonder or Mews Wonderful
+ is written all over the recent pages of social media.
+ Investor and entrepreneur Satya Malik recently wrote that
+ while Mews is very good at immediate tasks
+ like booking flights and hotels,
+ it is, in his words, terrible for long-term tasks.
+ For example, he said,
+ It reminded me today that a meeting has not been set for 2 p.m.
+ That was a false alarm because the meeting was set for 2 p.m. yesterday.
+ This has happened several times where it panics
+ and tells me something because it gets the day wrong.
+ Investor Sam Lesson wrote,
+ Tried to book a hotel with Mews last night.
+ Hilton's site put my agent in a doom loop.
+ Third retry I gave up and booked it myself.
+ And it's quite clear that this type of challenge
+ was on the mind of the meta team in building Wonder.
+ ChubbyOnX wrote,
+ An interesting insight that was probably drowned in the release news,
+ Meta built Wonder for agents that act on your behalf
+ starting with its Mews app.
+ Two features are really important.
+ Active memory, which keeps track of what matters to you
+ across conversations.
+ And active focus, which keeps a task going when it gets hard,
+ tries other approaches and recovers from errors.
+ Another question I had though looking at the launch media
+ is whether with the Wonder family of models,
+ Meta is actually getting serious about going after
+ not just personal agent use cases, but professional ones as well.
+ Certainly, Mark Zuckerberg called it state-of-the-art performance
+ for personal and professional agent work.
+ Alexander Wang in introducing it wrote state-of-the-art
+ at personal agents and professional agents.
+ And the AI at Meta account also explicitly mentioned
+ both personal and professional agents,
+ meaning that there was a coordinated messaging campaign
+ to make sure to mention professional agents.
+ Now that could mean that Meta is serious
+ about professional use cases this time,
+ or it could mean that they understand that implicit
+ in a personal agent are going to be professional use cases
+ and that drawing a clear line
+ might make sense from a company strategy standpoint,
+ but doesn't match how consumers think about themselves.
+ In other words, it may not be that all of a sudden,
+ Meta wants to compete with Claude Code for enterprise deals,
+ but that they believe that on an individual level,
+ if consumers really choose and invest in a single personal agent,
+ that personal agent is going to have to do professional stuff in many cases.
+ There is, of course, another category of professional
+ that is already deeply clearly important to Meta,
+ which is small business owners who already use tons and tons of features
+ on their other apps like Facebook and Instagram.
+ That's where Citrini Research saw the viability, writing,
+ Our takeaway is that Meta has a real shot
+ at capturing agents for small business.
+ It's a really good balance of capability and execution.
+ For a lot of folks, the big story is not the end point
+ in anything Wonder can do, but the Delta and the rate of change.
+ Pulsio's Ben Serra wrote,
+ Meta is moving at lightning speed.
+ Muse launched 34 days ago.
+ Now they've joined the frontier.
+ Ethan Malik said that it seems to him
+ like a good model from a limited test, but, quote,
+ Perhaps more impressive compare the progress.
+ Very fast progress from Meta in a short time.
+ Yuchen Jin wrote,
+ A year ago, many dunked on Meta for spending billions to hire top AI talent
+ and acquire Alexander Wang.
+ I was skeptical too, to be honest.
+ But the success of the Muse app and models proves one thing.
+ Hire top talent, assemble a cracked team,
+ give them an ambitious goal and enough resources,
+ and they can work wonders.
+ Certainly, markets liked what they saw with Meta up 4% on the news.
+ But what does this mean for the whole pacing the frontier conversation?
+ Among the AI CEOs, Zuckerberg has not been particularly aligned
+ with the messaging coming from the others.
+ He did not sign the pacing the frontier letter,
+ and a few weeks after it was published,
+ he countersignaled with his essay,
+ The Future Is For Everyone.
+ His core thesis is that open and widespread access
+ needs to be the core tenant for the AI era,
+ even if that carries some extra risk.
+ In Zuckerberg's view, the concentration of power that comes
+ from keeping unreleased models for internal use only
+ could be even more disastrous than the risks associated
+ with releasing powerful AI models.
+ Now, clearly this set of wonder models isn't pushing the frontier
+ and do seem to have very strong cyber guard rails,
+ meaning that they are not dangerous compared to what's already available.
+ But from a trajectory perspective,
+ Zuckerberg is showing no interest in slowing down.
+ In an interview with the Financial Times,
+ he declared that Meta has reached the frontier
+ and is, quote, already working on that next step up.
+ Rather than slowing down,
+ he added that model development will, quote,
+ probably feel like it'll go quite a bit faster from here.
+ He declined to give a number for his P Doom,
+ the odds of AI killing everyone that got the entire world
+ riled up over the past month.
+ Instead, he said,
+ I'm much closer to the belief that AI is a technology
+ that can be engineered with normal guard rails
+ and built responsibly than the anthropomorphic vision of AI,
+ which is that it's just going to go do its own thing.
+ Whether you agree with whether it's possible or not,
+ there does seem to be a fundamental difference
+ in how Meta views what they're building from the other labs.
+ In short, open AI and anthropic are either trying to
+ or feel like they inevitably are building machine gods
+ that inspire awe,
+ while Meta is trying to build what it views
+ as just a normal technology.
+ Who's right or wrong about that remains the debate,
+ but that is the fundamental dividing line.
+ Overall, when you take a step back,
+ we headed into 2026 with three frontier model labs
+ in open AI and anthropic in Google.
+ As coding agents forced their way to the top
+ and showed that they were more important than everything else,
+ at least in the short term,
+ that number went down to two.
+ And yet now, especially if Gemini IV Argon
+ can do what Google says it can do,
+ we are back to having five-ish frontier labs
+ competing in the US.
+ Then again, behind closed doors,
+ as we heard in the headlines today,
+ there might be much more powerful models just on the horizon,
+ so maybe that frontier duopoly will be right back soon.
+ For now, it appears that Meta is fully back in the game.
+ That's going to do it for today's AI Daily Brief.
+ Appreciate you listening or watching, as always,
+ and until next time, peace.
