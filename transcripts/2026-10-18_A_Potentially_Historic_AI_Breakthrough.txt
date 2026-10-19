@@ -1,0 +1,804 @@
+ When it comes to AI safety, the news lately has been a little bit dreary.
+ Or at least, I should say, the headlines have been.
+ We've been living through a new wave of panic and concern,
+ driven in part by the reality that models are getting more capable.
+ And closer to what many view as key inflection points,
+ it's also being driven, however, by the juiciness of the scare headlines.
+ And yet the most interesting news in that area this week might be very good indeed.
+ The AI Daily Brief is a daily podcast and video about the most important news and discussions in AI.
+ All right friends, quick announcements before we dive in.
+ First of all, thank you to today's sponsors, robots and pencils,
+ cdata, granola, and blitzy.
+ To get an ad-free version of the show, go to patreon.com.ai-dailybrief
+ or you can subscribe on Apple Podcasts.
+ And if you want to learn more about sponsoring the show,
+ send us a note at sponsors at aidailybrief.ai.
+ Now it's not all that often that a 65-minute,
+ densely technical web article becomes the thing that everyone was talking about.
+ And yet that's exactly what happened at the end of this week
+ with Nick Kamarata's neural networks are already clean.
+ I like many people noticed it.
+ When OpenAI's Rune posted,
+ when Nick told me that he had some interpretability breakthroughs,
+ he was, uh, underselling it.
+ I think this may be remembered as a major moment in scientific history.
+ News so good even Eliezer Yudkowski will have to lower his p-doom.
+ We can start making alignment into a normal science.
+ Nick summed up his article this way.
+ Interpretability might be the most important scientific problem in the world right now,
+ as I don't think we can solve alignment if we don't know what we're building.
+ I think I have good news about it.
+ I co-authored early work in mechanistic interpretability at OpenAI
+ and came away pessimistic,
+ because neural networks appear to fold into arbitrary tangled knots.
+ Years later, I started OpenAI's first large-scale automated interpretability project,
+ finding about 2% of neurons legible with the primitive tools we had.
+ With modern agentic tools and a much closer look,
+ the picture looks totally different.
+ The vast majority in models up to trillions of parameters are legible,
+ and their circuits beautiful.
+ Many famous examples of tangled neurons turned out to be misunderstood.
+ The roadblocks I expected mostly aren't there.
+ I now think ambitious interpretability will be solved by the time we need it most,
+ and possibly quite soon, as automated scientists keep improving.
+ It may be a bitter lesson for interpretability.
+ The simple thing at absurd scale works.
+ So the promise here is that we might actually be able to understand
+ what's going on inside the processes of AI, something that so far we haven't.
+ Today we're going to try to do a understandable version
+ of Nick's densely technical paper, sharing of course both the excited
+ and the skeptical responses to it.
+ Hopefully you come away understanding why this could be a big moment
+ and what cautions we still need to have.
+ One of the uncomfortable facts underneath all of AI
+ is that even the folks building it don't really know how it works on the inside.
+ The systems are trained, not programmed.
+ You set up the conditions and the model learns its own way of doing things,
+ spread across billions of numbers.
+ In AI researcher Chris Olas' phrase, AI is grown more than built.
+ So because we can't read these systems,
+ the way we check them today is basically a very elaborate exam.
+ We ask questions, read team, and grade the answers.
+ While that's useful, it only covers what we thought to ask.
+ And it also introduces a set of problems,
+ like the model behaving well,
+ not because that's what it otherwise would do,
+ but because it knows it's being watched.
+ This is coming up more and more.
+ Ironically, in some recent tests of models like Opus 55,
+ researchers were concerned when they saw the models cheating less.
+ The big drop-off in cheating behavior brought up the question,
+ did the model just shift away from cheating,
+ or did it realize that the humans watching it would think cheating is bad?
+ And so it disguised that behavior.
+ What this means is that in the addition to the race for capability,
+ there's also another race to reach interpretability,
+ to understand what's going on with AI
+ before the models reach what Anthropic called
+ an overwhelming level of power.
+ If you've followed the field,
+ the story of the last six years went from excitement
+ to something closer to despair.
+ In the first phase, from about 2017 to 2020,
+ teams like Chris Olas' team, which included Nick,
+ mapped image AI's detector by detector,
+ and it looked at first like you could read a neural network like code.
+ But then between 2020 and 2023, they started to find a problem.
+ Many of these detectors seemed to fire for unrelated things,
+ meaning that we couldn't really understand exactly what was going on,
+ even though at first it appeared we could.
+ The field settled on an explanation for this
+ that we'll get into in just a minute.
+ When Nick's team at OpenAI used GPT-4
+ to explain GPT-2's detectors in 2023,
+ only about 2% came out clean,
+ i.e. actually interpretable in the way that we thought.
+ Between 2023 and 2025,
+ a bunch of different workaround strategies were tried,
+ some of which showed some progress,
+ but which never really produced many wins.
+ By 2025, many researchers wondered
+ if these systems were just too tangled to read.
+ The mood, in Nick's words,
+ was that ambitious interpretability
+ looked like a, quote,
+ incredibly hard problem,
+ maybe too hard to solve in time to matter,
+ which is why this essay is hitting so hard.
+ It says, in short,
+ that the inside of AI is mostly readable already
+ and that we've been looking at it wrong.
+ And there are reasons to be excited.
+ This comes from an insider
+ who helped create the theory that he's now taking a part,
+ he shows experiments that could have proven him wrong,
+ and his evidence suggests that bigger models are easier to read,
+ which is basically the opposite of what everyone feared.
+ Then again, not everyone agrees.
+ The head of interpretability at Google DeepMind,
+ Neil Nanda, for example,
+ said that the work was interesting,
+ but, quote,
+ not a significant update to the big picture.
+ So let's try to wrap our heads around the quick version of the idea.
+ As mentioned before,
+ AI isn't written like normal software.
+ It's millions of tiny detectors wired together
+ that learn their jobs on their own.
+ Researchers call these neurons.
+ One might light up for edges,
+ another for the color red,
+ another for a dog's ear.
+ The dream of the interpretability field is simple.
+ Work out what each detector does,
+ and then you can read what the AI is doing,
+ just the way you'd read code.
+ One of the most famous detectors
+ shows why some of them made no sense.
+ That detector lit up for cat faces,
+ but also for the front of cars.
+ Cats and cars, of course,
+ have nothing to do with each other.
+ So for years,
+ this one detector was the go-to proof
+ that AI's insides are scrambled.
+ It shows up in the field's most read papers,
+ including one's Nick co-wrote.
+ The explanation the whole field landed on was cramming,
+ or what researchers called superposition.
+ The idea was that an AI has more ideas to store
+ than it has detectors.
+ So it shares detectors between ideas.
+ It works best when those ideas rarely show up together,
+ like Christmas lights and pull floats in the same box.
+ And if that's how it works,
+ the detectors themselves are meaningless.
+ So researchers built unscramblers,
+ second AI's trained to pull the ideas back apart,
+ and studied those instead.
+ A lot of the field's money and effort
+ went into that for years.
+ Nick was there for this.
+ In 2019, he found one of the first examples
+ that seemed to prove cramming and helped name it.
+ In this new research, however,
+ Nick went back to this detector and asked,
+ if I couldn't use the words cat or car,
+ how would I describe it?
+ The answer took him about five seconds.
+ It's a V detector.
+ Pointed shapes switch it on.
+ A fox's snout, a cat's face,
+ the front of a car, a bullet train's nose,
+ a candle flame, and a martini glass.
+ Round shapes, like golf balls or a clock face,
+ switch it off.
+ Nick wrote,
+ Why would an arbitrary mixture of cats and cars
+ need to connect so strongly to a flame?
+ It was never two unrelated things.
+ It was one idea we hadn't recognized.
+ Nick's claim is more or less that most of the scrambling
+ was never in the AI itself,
+ but in the microscopes we were using to look at it.
+ He proposed three causes all of which are fixable.
+ The tools for picturing what a detector wants
+ were blurry and misleading.
+ The early image AI the field studied from 2014
+ was built in a way that made it learn messily.
+ When you retrain a modern design of the same size,
+ about 99% of its last layer detectors are readable.
+ And finally, some detectors branch,
+ one that starts on the letters IY,
+ grows to DIY, and then to do it yourself.
+ That looks random at the end,
+ but obvious if you watch it grow.
+ And it turns out it's not just old image models.
+ In a modern open AI model,
+ about nine out of 10 detectors
+ turn out to have one main job.
+ Compare that again with that 2023 open AI project
+ that could only explain about 2%
+ of detectors in GPT2.
+ Now keep in mind these are early counts,
+ they are self-reported,
+ the exact number depends on where you draw the lines
+ and the full technical paper isn't out yet.
+ What this opens up is the ability
+ to check AI's reasoning,
+ not just judge it by its answers.
+ The example on screen comes from a model
+ with trillions of parameters, Kimmy K3.
+ When asked what to do with the found wallet full of cash,
+ you can watch detectors for lost property
+ and honesty light up and push it to say return.
+ And the point then about deception is,
+ if all we can do is read the answers,
+ the AI can hide a plan from us.
+ But since the plan has to be readable
+ by the AI's own wiring to work,
+ if we can read that wiring as well,
+ it's not just the output
+ but the plan that's readable to us as well.
+ And this is what got Roon so excited,
+ the idea that alignment could become
+ a normal science in his words,
+ with steadily checkable progress
+ instead of guesswork.
+ To read a lot of the responses to this on X,
+ they are, in a word, breathless.
+ And yet even Nick himself
+ calls it a working hypothesis
+ and puts himself at about 85% sure.
+ Other researchers are a bit less convinced.
+ At this point, it's no longer a question
+ of whether companies are actively using AI.
+ Using it well, on the other hand,
+ is a whole different story.
+ Robots and pencils, though,
+ is a company that I can point to
+ that is actually built for this time.
+ They're an applied AI engineering firm
+ working directly with clients
+ on problems that matter to the business,
+ not experiments that live in a slide deck.
+ Every engagement starts by working backwards
+ from the outcome a client actually needs.
+ If you're trying to tell real AI engineering
+ apart from noise in this space,
+ that's the difference maker.
+ Head to robotsandpencils.com.
+ This episode is brought to you by CData.
+ Companies rolling out AI
+ keep hitting the same wall.
+ Token spend is climbing,
+ security is holding agents back,
+ and no one knows how AI is truly being used.
+ The root cause, AI is cut off
+ from the systems and context
+ your business runs on.
+ That's why CData built Connect AI Gateway,
+ one control point between your AI and your systems.
+ Built on the connectivity layer,
+ powering Palantir, Google, Salesforce, and hundreds more,
+ each agent gets exactly the data and tools it needs.
+ It governs down to the record
+ and lets you finally see your org's
+ complete AI usage in one place.
+ Accurate answers, a fraction of the token cost,
+ and a gateway that learns your business
+ with every interaction.
+ See how at cdata.ai.
+ When I'm in a meeting, I'm fully in it.
+ I'm thinking about the iteration
+ and creative back and forth it takes
+ to actually push a goal forward.
+ What I'm not thinking about is capturing takeaways,
+ tracking to-dos, or any of that.
+ And that's where Granola comes in.
+ Granola is an AI-powered notepad
+ that captures what happens in your meetings
+ and turns it into clean, structured notes
+ with the decisions and action items
+ pulled out and easy to find.
+ There's no setup and no configuration.
+ It just fits into how you already work.
+ For me, it means I get to stay in idea mode
+ and Granola makes sure those ideas
+ actually become action.
+ Once you try Granola on a first meeting,
+ it is hard to go without.
+ You can try it totally free
+ at granola.ai slash brief.
+ That's granola.ai slash brief
+ to get your time back.
+ Every AI coding tool on the market
+ does the same thing first.
+ It starts writing code.
+ Blitzy does the opposite.
+ Before writing a single line,
+ Blitzy spends days reverse-engineering
+ your entire code base.
+ Thousands of agents ingest millions of lines
+ mapping every dependency,
+ every undocumented constraint,
+ every architectural decision made
+ over the last decade.
+ The result is a dynamic knowledge graph
+ that understands your software
+ the way a principal engineer would
+ after 30 years in the building.
+ Other tools guess at context
+ with grep searches and markdown files,
+ Blitzy never guesses.
+ It builds true understanding first,
+ then delivers over 80% of entire
+ software epics autonomously.
+ Validated, end-to-end tested
+ production grade pull requests.
+ That's why Fortune 500 engineering teams
+ trust Blitzy with the code bases
+ that matter most.
+ See for yourself at Blitzy.com.
+ That's blitzy.com.
+ So what we're going to do now
+ is go quickly through a bit more
+ of what's in Nick's paper
+ and some of the responses and
+ objections that come up along the way.
+ The first thing we're going to dive
+ deeper on
+ is whether the experts got it wrong.
+ Basically, if the inside of AI
+ was readable all along,
+ how did a field full of brilliant
+ people miss it?
+ Nick's answer as we got a preview of
+ is that three mistakes stacked
+ on top of each other.
+ Now from this point I should say
+ you're likely to get a lot more
+ by watching this episode
+ which you can do on YouTube
+ or on Spotify
+ or just by following along on Nick's
+ paper
+ or my interpretation presentation
+ both of which will be linked
+ in the show notes.
+ In 2019,
+ Nick was building one of the first
+ tools to look inside an image AI.
+ As he was doing so,
+ he saw a car detector
+ feeding into four dog detectors.
+ He took it to colleagues
+ and they concluded that AI
+ was tucking car inside the dog detector,
+ a hiding place to read back out later.
+ That became one of the field's
+ first examples of cramming.
+ Nick even said in the essay,
+ it was the only one we showed
+ and the only one I ever saw.
+ When Nick rechecked it,
+ he found that two of those detectors
+ are just car detectors,
+ but the other two detect a pose,
+ i.e. which way something faces the camera.
+ Cars and dogs share poses.
+ The AI, in fact,
+ has more than 100 of these pose detectors.
+ Nothing was hidden,
+ but because the cramming story felt intuitive,
+ Nick said it didn't prompt
+ diving more into the tools.
+ The second mistake
+ was the microscope itself.
+ One key tool asks the AI
+ to draw a picture a detector
+ most wants to see.
+ In short, Nick found that
+ the drawing tool cheated.
+ It took the easiest path
+ to make the detector fire
+ and after a few small fixes,
+ the drawings matched the photos.
+ As Nick put it,
+ same neurons, better microscope.
+ The third mistake was
+ that the AI that people were studying
+ had a learning problem.
+ That was inception v1,
+ which was Google's 2014 image model.
+ Its last layer
+ was the field's main evidence
+ that AI is unreadable.
+ Nick estimates that 5% of its detectors
+ were readable with the tools of the time.
+ Fix the microscope
+ in the same model
+ as about 50% readable,
+ and when you retrain it
+ with modern settings,
+ about 70%.
+ Build a modern design
+ with the same size
+ and same data,
+ and the readability jumps to 99%.
+ So why did nobody go back and check?
+ Nick argues it's because
+ of how the cramming theory works.
+ If you believe a detector is crammed,
+ a confusing detector is a dead end
+ and you stop looking.
+ Every time detectors came back clean,
+ the theory moved to somewhere
+ where nobody had checked yet.
+ The faint signals
+ the combination of detectors
+ the next layer.
+ Nick calls it superposition of the gaps.
+ Nick confessed,
+ for years I was a staunch
+ superposition believer.
+ He now says it should have been
+ the last explanation tried,
+ not the default.
+ But here we get
+ some of the most serious pushback.
+ Liv Gorton is another interpretability researcher.
+ Nick's essay cites her 2024 study
+ of the same 2014 image AI.
+ In a long thread,
+ she argues that the essay attacks
+ a narrower version of superposition
+ than researchers actually hold.
+ Her point is that superposition,
+ or what we've been calling
+ cramming on this episode,
+ is about capacity.
+ You store more ideas
+ than you have detectors
+ by giving each idea
+ its own slightly different combination of them.
+ Unrelated ideas make good examples
+ because they rarely clash,
+ but related ideas can be crammed too.
+ She also points out
+ that there are only as many
+ perfectly separate directions as detectors,
+ but exponentially many
+ nearly separate ones.
+ She'd wrote,
+ I'd be very surprised
+ if networks didn't use this capacity.
+ Nick basically responded
+ that he wasn't trying to say
+ that AI never puts ideas together
+ in a single detector,
+ but that in general
+ what he cares about
+ is whether AI does the bad version
+ of packing things arbitrarily
+ so they can't be read.
+ And that's what he said
+ wasn't happening
+ in the way that he thought it was.
+ Google DeepMind's interpretability
+ lead, Neil Nanda,
+ said something similar to Liv,
+ it seems to me like language models
+ have far more facts
+ and memorized things in them
+ than they have neurons.
+ I expect that weak neuron activations
+ contain lots of semantics
+ superpositiony info.
+ Nick basically argued
+ that if this is happening,
+ it's happening very differently
+ than the packing random
+ unrelated things together
+ that the field previously thought,
+ and that instead,
+ he predicted that the opposite
+ would be true,
+ where rare facts
+ should ride unrelated machinery.
+ Although those tests
+ haven't been done,
+ Nick argues that that is in fact testable.
+ In fact, when asking
+ why some detectors
+ seem to do several things,
+ Nick argued that it wasn't cramming
+ but in fact something called branching.
+ Nick retrained an old image AI
+ from scratch
+ and watched a single detector take shape.
+ It starts on yellow flower fields
+ in photos that sometimes include a dog.
+ Then it grows along
+ each thing in those photos.
+ Other nature scenes,
+ green round things
+ like tennis balls and fruit,
+ dogs without flowers,
+ and finally broccoli.
+ By the end,
+ the fields are nearly gone.
+ This is branching
+ where each step is small and sensible.
+ The opposite of cramming
+ where unrelated things
+ get thrown together.
+ And by the way,
+ for each of these,
+ there are many, many more examples
+ in the main essay.
+ I'm just cognizant of time and space
+ in our own puny human brains.
+ Still going back to Liv's critiques,
+ she argued that branching
+ and cramming answer different questions.
+ Saying that branching is how a detector
+ picked up several jobs,
+ but cramming is how the information gets stored
+ and that you could have both at once.
+ Nick's theory in the essay
+ is that every branch traces back
+ to one origin
+ and grows out in order.
+ That makes it easy to test
+ and easy to prove wrong,
+ although that work hasn't been done yet.
+ One finding that flips the usual fear
+ about AI getting bigger
+ is that Nick is actually arguing
+ that bigger AIs are easier to read.
+ Nick's analogy is this.
+ In a small town,
+ asking for the financial district
+ barely makes sense.
+ There's a bank on one street
+ and an accountant on another.
+ In New York on the other hand,
+ the financial district
+ is incredibly easy to spot.
+ You know right where it is.
+ His experiment involved dog ear detectors
+ in three AIs
+ that were about 300 times
+ apart in size.
+ The small one has very coarse dog detectors.
+ The big one has very specific ones.
+ So in a small model,
+ you have detectors for general dog,
+ light and fluffy dog,
+ or dark and shaggy dog.
+ In the medium model,
+ local branches emerge.
+ The ear in the head of the dog
+ turns into detectors for curly ears
+ or ear neck and hair.
+ And then in the largest model,
+ the branches converge and split.
+ Head side ears, pale ears,
+ wavy ears are all separate
+ and then move into things like
+ smooth flaps,
+ hanging ears and long ears.
+ Theoretically then,
+ there should be a precision
+ to the detectors in larger models
+ that makes them ultimately
+ easier to read.
+ Now one of the other categories
+ of pushback
+ is that even all the terms
+ that we're using in here
+ are somewhat blurry
+ rather than precise.
+ For example,
+ Neil from DeepMind argues
+ that Nick's essay's bar
+ for a detector doing one job
+ is too generous.
+ Instead, he said that he'd call
+ in his words
+ a fair few of those detectors
+ actually scrambled.
+ Nick acknowledges this
+ and it brings up another point,
+ which is that so far
+ this is just Nick and his team
+ doing this work
+ with no one else having yet
+ checked it.
+ But let's say that Nick is right.
+ What would that then change?
+ Nick argues that clean
+ doesn't mean that every detector
+ matches a word we have.
+ Instead, it means that the AI's
+ parts are organized to be read
+ by the AI itself.
+ Every detector exists
+ to be used by later detectors,
+ so the AI has already organized
+ itself to be legible
+ to its own downstream parts.
+ Our job then is to become
+ another reader of AI,
+ reading it in the same way
+ that it reads itself.
+ In describing where
+ the safety risk actually is,
+ Nick wrote,
+ deception might hide from someone
+ reading a model's outputs,
+ but it has no reason
+ to hide from the model's own
+ circuitry.
+ It needs to be accessible
+ to its readers,
+ and if we become a reader
+ it should be accessible to us.
+ My fear is that deception
+ will be right there
+ in plain sight
+ and we won't know how to read it.
+ Interestingly, the biggest objection
+ to the safety payoff
+ isn't about cramming at all.
+ It's the argument that even
+ if every detector is readable,
+ safety needs more.
+ Knowing how they combine
+ into a decision
+ and being confident
+ nothing important was missed.
+ Neil argued that he was
+ pessimistic about that level
+ of understanding,
+ even if there are practical uses
+ like figuring out,
+ in his words,
+ why did a model do a sketchy thing?
+ As we try to wrap our heads
+ around what smart people
+ think about this,
+ I laid out a representative set
+ of the responses
+ from more excited to more skeptical.
+ On the more skeptical side,
+ you have AI safety researcher
+ Stephen Casper calling it
+ hype until further notice,
+ and if anyone bills it
+ everyone dies,
+ author Eleazar Yudkowski saying,
+ let me know when you've advanced
+ to the point of getting started,
+ and then at the other end,
+ you have folks like people at Open AI
+ calling it one of the most important
+ single days in deep learning history
+ and at the level of significance
+ of attention is all you need.
+ This is going to be one of those papers
+ that really needs
+ more smart people to dig into it,
+ but if nothing else
+ has gotten a ball rolling down the hill.
+ There were a few things
+ that even the critics could agree upon,
+ the idea that perhaps detectors
+ were more useful than the field assumed,
+ and that even if this doesn't solve
+ AI safety,
+ it may work for practical problems.
+ There was a lot of excitement
+ about AI agents reading detectors
+ and pretty much everyone agreed
+ that rechecking the old results
+ was worth it.
+ So some of the open questions remain,
+ is cramming refuted
+ or has it just been redefined?
+ Is the way that the paper defines
+ the one main job of detectors
+ too generous?
+ If we can read all the parts,
+ do readable parts
+ add up to a readable whole?
+ And does all of this hold
+ at the scale and size of models
+ that we actually are dealing with today?
+ When it comes to my take,
+ I am not even close to qualified,
+ despite producing this podcast,
+ to have any real dog in the fight
+ of how significant this is.
+ I will note that my historical pattern
+ recognition would suggest
+ that scientific breakthrough
+ very often does come from simply
+ looking at a problem
+ a slightly different way,
+ and that it's not hard at all
+ to imagine a relatively niche field,
+ with only so many researchers in it
+ getting trapped for a time
+ in a set of assumptions
+ that no one thought to question.
+ As always, I think it's worth
+ being skeptical of the boldest
+ claims of everything changed,
+ but it's hard not to be
+ directionally excited by this.
+ I think a really interesting thought
+ was shared by Christian
+ from the Seeing Clearly podcast.
+ They wrote,
+ One of the primary reasons
+ I'm not a doomer
+ is that human civilization
+ is a complex adaptive system
+ with self-correcting mechanisms.
+ The reason this is so hard to see
+ from the doomer camp
+ is because they themselves
+ are precisely the mechanism
+ by which these restoring forces emerge.
+ As risk from AI becomes more clear,
+ new ecological niches
+ emerge in being anti-AGI.
+ Status markers then shift to areas
+ like mechanistic interpretability
+ and then talent and capital floods in.
+ As swarm incidents get worse,
+ the invisible hand uses legal liability
+ to shift the gradient
+ in the incentive landscape
+ towards more alignment work.
+ So to my accelerationists,
+ the doomers are part of how we make it.
+ They are a necessary half
+ of the opponent processing mechanism
+ used to steer the ship
+ to the promised land.
+ The doomers and the accelerationists
+ need each other
+ to keep checks on each other's excess.
+ Both have important roles
+ to play in this ant colony
+ that is human civilization.
+ Everything is going according to plan.
+ That's a sort of more romantic way
+ to put what I've often said,
+ which is that more and more attention
+ coming the more and more capabilities
+ models have
+ is both the feedback loop
+ I would expect
+ and the feedback loop
+ that makes me think
+ we'll be able to figure things out.
+ As much as it feels
+ like to summon the AI safety camp
+ that the world isn't
+ acting fast enough
+ or with enough focus,
+ you cannot argue
+ that there has been no change
+ after something
+ like the hugging face incident.
+ The fact that all I have to say
+ is the hugging face incident
+ and a huge cross-section of people
+ not just listening to this podcast
+ but my barber yesterday
+ know what I'm referring to
+ is case in point.
+ And the already clean paper
+ is one of the first times recently
+ that the change isn't just a change
+ in people paying attention
+ but a directionally positive change
+ in our ability
+ to do something about it as well.
+ There is so much that I have left out
+ of this episode
+ I highly encourage you
+ to go check out the original paper
+ again linked in the show notes
+ neural networks are already clean
+ but for now
+ that's going to do it
+ for today's AI Daily Brief.
+ I appreciate you listening
+ or watching as always
+ and until next time
+ peace.
