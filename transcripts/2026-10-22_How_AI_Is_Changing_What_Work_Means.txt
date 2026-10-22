@@ -1,0 +1,943 @@
+ Pretty much no one at this point needs to be convinced that AI is changing how work works.
+ Certainly it changes the speed and efficiency with which we do existing tasks,
+ and the magnitude and kind of those changes seems to grow over time.
+ For example, while some of us may have used AI to write emails a couple of years ago,
+ now many of us have personal agents sitting in our email perpetually,
+ notifying us when there's something we actually have to respond to,
+ often after having drafted the response itself.
+ And yet, as I've always argued, that is just the tip of the iceberg.
+ When it comes to how AI will actually change work.
+ A great example of that comes in today's story,
+ where a well-known financial research firm turned itself temporarily into a bio-research lab
+ and collaborated with Anthropic to come up with some potential answers to Scorpion Venom.
+ More than a novelty and more than a clickbait headline,
+ I actually think that this can tell us quite a bit about where AI at work is headed next.
+ The AI Daily Brief is a daily podcast and video about the most important news and discussions in AI.
+ All right, friends, quick announcements before we dive in.
+ First of all, thank you to today's sponsors, KPMG, Cdata, Grenola, and Blitzy.
+ To get an ad-free version of the show, go to patreon.com slash ai-dailybrief,
+ or you can subscribe it up with podcasts.
+ If you want to learn more about sponsoring the show,
+ send us a note at sponsors at ai-dailybrief.ai.
+ And by the way, if you are just looking for all the links that I talk over on any given day,
+ there are two ways you can do it.
+ First, you can go into the episode companion page on the website for any episode.
+ You're going to see everything split up by key numbers, key topics, key quotes.
+ But you can also just subscribe to our newsletter,
+ which is also linked from the website,
+ which is going to have summaries of everything I discuss, as well as the key links.
+ Check it all out at aidailybrief.ai.
+ But with that out of the way, let's dive in.
+ We kick off today with an update on the personal assistant theme,
+ where Meta's Muse has reached 10 million U.S. downloads in just 40 days.
+ That is a very quick pace.
+ In fact, it makes Muse one of only about a dozen apps to have achieved that milestone
+ in a similar period of time.
+ The other 11 are almost exclusively mobile games,
+ specifically the smash hits of mobile gaming like Pokemon Go, Fortnite, and PUBG.
+ Only two non-gaming apps have grown this quickly,
+ which is Disney Plus and Meta's own threads.
+ Curiously, none of chatGPT, Claude, or Gemini grew that quickly as a mobile app,
+ even though they eventually made it to the top of the download charts.
+ Each chatbot was introduced as a web app first,
+ with the mobile app coming later and missing the early phases of explosive growth.
+ With its first month in the books,
+ Sensor Tower had several other interesting data points about the Muse rollout as well.
+ Meta has allocated 39% of their total advertising spend for October to Muse,
+ which is up from 23% in September.
+ That has boosted Muse to become the 21st largest brand by impressions
+ for this month in the United States.
+ Sensor Tower data showed that Muse has a 30% retention rate after 7 days,
+ and a 23% retention rate after 14 days,
+ which compares to chatGPT's 7- and 14-day retention rates at around 25%,
+ and the average retention rates for an iOS app at around 5% after 30 days.
+ Interestingly, there has been some criticism around Muse's retention rate,
+ however that analysis compares Muse unfavorably against Instagram,
+ Facebook, and the Google app,
+ which are some of the stickiest consumer apps ever created.
+ It also looks like Muse is still early in its growth phase,
+ with daily active users reaching 2.5 million last week,
+ which was up 15% week over week.
+ TLDR is yes, they are spending a ton of advertising to push it,
+ but Meta does seem to have a hit on their hands.
+ The next question isn't going to be about short-term retention,
+ but about where people ultimately find the app fitting into their life if it does.
+ Signal on X writes,
+ Most consumer products typically have one of two types of retention.
+ One is desire-driven, which is just pure dopamine,
+ like Instagram, TikTok, and games.
+ They often don't even need notifications
+ because you know there is a reward for your desire always waiting.
+ The second is dependency-driven,
+ like emails, calendars, even credit cards and banking.
+ Most people have to do this,
+ it's not something they necessarily desire.
+ The challenge with personal AI agents right now
+ is that they occupy a weird third space,
+ where they aren't emotionally rewarding most of the time
+ to become entertainment like the first category,
+ and they're not reliable or indispensable enough
+ to become pure infrastructure,
+ i.e. they fail and there's a lot of friction.
+ Outside of pure research-driven tasks,
+ even one failure is often enough to not come back
+ for the utility value proposition.
+ Now he goes on to speculate a bunch about
+ what opportunities that opens up,
+ but I think even though we're seeing early positive signals
+ it is worth remembering that we are still very early days
+ in terms of understanding the behavior surrounding personal agents.
+ Muse also is not without its challenges.
+ Earlier this week researchers reported
+ that the feature by which Muse allows users
+ to share searches, conversations, and images
+ had a particular challenge
+ that were allowing other people to see those conversations.
+ In general, those types of share features
+ usually involve creating a unique URL
+ that anyone who has that URL
+ can use to load a page hosting the content.
+ The way that sensitive information is kept from being accessed
+ is the complicatedness of the URLs
+ that theoretically can't easily be guessed.
+ However, a particular design decision
+ that Meta's engineers made
+ around the construction of those URLs
+ has made them easy to discover.
+ As a result wrote Ars Technica,
+ researchers from security firm Clareock
+ said they were able to enumerate 6,800 links
+ Muse users created for sharing conversations with each other.
+ After opening a few hundred of them they continue,
+ the researchers found information
+ that was clearly not intended to be publicly available,
+ including things like a small business owner's loan application,
+ a real estate investor's internal performance report,
+ and a national marketing company's internal revenue review.
+ Meta has said that they've temporarily taken down the feature
+ and are working to harden it to make sure that doesn't happen.
+ Next up is another place
+ that you're going to interact with agents, your car.
+ For almost a year,
+ a basic version of the Gemini Assistant
+ has been available in Android Auto.
+ The agent mostly functioned as a voice control
+ for maps and the stereo system,
+ but could also send text messages
+ while you were driving and find information on the web.
+ It was not, however, connected to your personal context
+ as users have begun to expect from a personal agent.
+ User feedback also suggested
+ that it didn't really work that well
+ and often failed at basic tasks.
+ The new version adds the ability to access data
+ from the rest of your Google-based services.
+ Google says you can now do things
+ like asking the assistant
+ whether you're going to miss your flight while en route
+ and the agent can rifle through your inbox
+ to find the necessary details
+ while also checking traffic conditions in Google Maps.
+ Another example was the ability to ask for directions
+ based solely on a photo.
+ Google said Gemini could now direct you
+ to a coffee place your friend took you to last week
+ based only on a picture of you enjoying your espresso in a booth.
+ Now, I'm still quite unsure
+ about how important these features are ultimately going to be.
+ On the one hand,
+ I could see this type of interaction with your car
+ becoming something that is so common
+ that we have a hard time imagining
+ that we didn't always have those features.
+ And yet at the same time,
+ I can see a lot of people deciding
+ that the setup and integration into another device
+ isn't worth all the hassle
+ when they can already just pick up their phone
+ that's probably already sitting right there on their console
+ and get the same information.
+ Whatever the case,
+ it seems that companies are going to continue to explore that
+ as Tesla has also integrated Grockbot into their vehicles
+ and you have to imagine everyone else is going to follow.
+ Moving over to markets,
+ an updated financial disclosure from Anthropic has leaked
+ sparking another round of hand-wringing
+ in the financial press.
+ The Wall Street Journal got their hands
+ on Anthropic's updated prospectus draft
+ which included fully audited financials
+ for the first half of the year.
+ Their reporting focused on two big scary numbers.
+ An $80 billion net loss for the first half of the year
+ and up to $750 billion in compute spending
+ over the coming years.
+ The $80 billion net loss is substantially larger
+ than the $42 billion loss for 2025
+ reported from the previous edition of their prospectus.
+ But both numbers stem
+ from the same accounting treatment of stock grants.
+ Around $72 billion of the loss
+ was an on paper accounting change,
+ leaving $8.7 billion as the actual operating loss
+ for the first half.
+ Responding to the claim
+ that this is the biggest loss of any company
+ seeking to go public,
+ financial podcaster Jack Farley commented,
+ This would be worrisome if the $80 billion
+ accounting loss by Anthropic
+ were economically real in any way.
+ Good news, it isn't.
+ When a company issues convertible notes in warrants
+ and the market cap with 1000Xs,
+ the on paper loss from being short calls
+ is massive, not fundamental.
+ Now for others, the bigger deal
+ is the $750 billion in compute spending.
+ The reporting suggested that of that,
+ firm uncancelable commitments
+ were around $450 billion
+ and come due over the next 7 to 10 years.
+ In other words, it's a very high level of spending
+ but one that's far more tenable spread out
+ over a decade.
+ There also could be an element of double
+ ordering in the larger number,
+ with Anthropic making soft commitments
+ to neoclouds in hopes they can actually
+ complete new facilities.
+ The journal commented that,
+ The one other number that people are laser-focused on
+ is the revenue number of $16.3 billion
+ for the first half.
+ Anthropic had claimed a revenue run rate
+ of $65 billion for the year up to July,
+ and while both of those things can be true,
+ actual booked revenue yields a lower number
+ than might have been expected.
+ At last week's investor day,
+ Anthropic said that they added another $16.8 billion
+ in revenue in Q3 for a 45% quarter-over-quarter
+ growth rate, but that un-audited whisper number
+ won't be included in the prospectus when they IPO.
+ The rest of the reporting largely covers
+ risk disclosures that were already in the press,
+ things like alignment issues,
+ the data center backlash,
+ and customer concentration.
+ Realistically, these leaks mostly have served
+ to confirm pre-existing biases.
+ The $80 billion net loss gives AI critics
+ some new material for their next podcast,
+ but it strikes me as fairly difficult to imagine
+ that anyone is surprised that Anthropic
+ issued a ton of stock options
+ and will spend more than a half trillion
+ on compute when all is said and done.
+ Like the SpaceX IPO,
+ this stock offering is not going to be
+ about the past few quarters,
+ it's going to be about what people believe
+ about the next decade.
+ Still, market skittishness matters,
+ and perhaps explains why some investors
+ are pushing Anthropic to moderate their targets.
+ Last week, Reuters reported that some investors
+ are pushing back on the rumored $2 trillion
+ and we'd be more comfortable at $1.5 trillion.
+ Keep in mind both numbers are coming from investors
+ and we've heard nothing attributed to Anthropic
+ or their investment bankers.
+ Meanwhile, OpenAI is rushing to complete
+ their latest round of fundraising
+ ahead of the Anthropic IPO.
+ Reports of the round first circulated
+ towards the end of last month,
+ suggesting OpenAI was seeking $30 billion
+ at a valuation of $1.4 trillion.
+ Now, sources tell Reuters that OpenAI
+ is trying to close the deal in weeks
+ to get ahead of the Anthropic IPO
+ in whatever conditions that brings to market.
+ The sources said that OpenAI is also keen
+ to capitalize on recent growth
+ after the release of GPT-6 Astra,
+ but this is an unusually fast deal
+ even for this crazy sector.
+ The Acceleration Rights Reuters
+ underscores how closely the two AI developers
+ are competing for capital
+ as both pursue trillion-dollar price tags
+ and growing concern about rising interest rates,
+ significant volatility in technology stocks,
+ and rising scrutiny of AI valuations.
+ These money conversations are going to get
+ nothing but more frenetic to end the year,
+ however, for now,
+ that's going to do it for today's AI Daily Brief.
+ Appreciate you listening or watching as always
+ and until next time, peace.
+ If you're leading AI inside an enterprise,
+ you already know that the gap right now
+ is in capability but execution.
+ That's why KPMG's You Can with AI
+ is back with a new season featuring conversations
+ with leaders like Serojit Chatterjee of Emma,
+ Mehabib of Rider,
+ McKesson CIO Ellery Fisher,
+ and others focused on practical execution,
+ what's working, what's not,
+ and what it actually takes to move from pilots
+ to real-scaled impact across strategy,
+ data readiness,
+ governance, workforce, and value.
+ And of course, it's co-hosted by me, Nathaniel Whittemore.
+ Go listen and subscribe at www.kpmg.us slash AI podcasts.
+ That's www.kpmg.us slash AI podcasts.
+ This episode is brought to you by CData.
+ Companies rolling out AI keep hitting the same wall.
+ Token spend is climbing,
+ security is holding agents back,
+ and no one knows how AI is truly being used.
+ The root cause,
+ AI is cut off from the systems and context your business runs on.
+ That's why CData built Connect AI Gateway,
+ one control point between your AI and your systems.
+ Built on the connectivity layer,
+ powering Palantir, Google, Salesforce, and hundreds more,
+ each agent gets exactly the data and tools it needs.
+ It governs down to the record
+ and lets you finally see your org's complete AI usage in one place.
+ Accurate answers,
+ a fraction of the token cost,
+ and a gateway that learns your business with every interaction.
+ See how at CData.ai.
+ When I'm in a meeting, I'm fully in it.
+ I'm thinking about the iteration and creative back and forth
+ it takes to actually push a goal forward.
+ What I'm not thinking about
+ is capturing takeaways, tracking to-dos, or any of that.
+ And that's where Granola comes in.
+ Granola is an AI-powered notepad
+ that captures what happens in your meetings
+ and turns it into clean structured notes
+ with the decisions and action items pulled out and easy to find.
+ There's no setup and no configuration.
+ It just fits into how you already work.
+ For me, it means I get to stay in idea mode
+ and Granola makes sure those ideas actually become action.
+ Once you try Granola on a first meeting,
+ it is hard to go without.
+ You can try it totally free at granola.ai slash brief.
+ That's granola.ai slash brief to get your time back.
+ Here's why most legacy modernization projects fail.
+ The AI doing the work can't understand code bases at scale.
+ It sees a small slice of context,
+ examines syntax, and misses years of decisions
+ distributed across the global application ecosystem.
+ Blitzy solves this the way it solves everything.
+ Grounded in your code before any migration begins,
+ Blitzy's agents reverse engineer the entire legacy system
+ into a persistent knowledge graph.
+ Every dependency, every constraint,
+ every piece of tribal knowledge
+ that used to live in one engineer's head.
+ From that understanding,
+ Blitzy autonomously executes language migrations,
+ framework upgrades, and monolith
+ to microservices transformations,
+ all validated end to end.
+ One Blitzy customer modernized
+ a $10 million monolithic insurance stack
+ in 16 weeks against a 137-week baseline
+ with coding agents.
+ That's 9x compression.
+ Retire technical debt while accelerating your roadmap.
+ See how at Blitzy.com.
+ That's blitzy.com.
+ Welcome back to the AI Daily Brief.
+ Today we're discussing
+ what scorpion antivenom tells us about the future of AI.
+ Seriously, that's actually the subject of the show.
+ Or at least a set of stories
+ that relate to that attention-grabbing headline
+ and the themes that they represent
+ are the broader subject of the show.
+ AI news aggregator Andrew Curran
+ posted earlier this week,
+ drug discovery, new disease cures,
+ advancements in pharma and biomedicine,
+ along with direct dividends or shares
+ as is currently being discussed,
+ these are the only viable ways
+ to turn public sentiment around.
+ And this is an idea that you see
+ bandied about a lot.
+ That to actually get people to stop disliking AI,
+ we gotta hop to and give them
+ some of those disease cures
+ that they've been promised.
+ I actually think that the new activities
+ around biology and AI
+ bring up a much larger set of questions
+ than just that one,
+ although that one certainly matters as well.
+ So first, let's talk about a couple of the stories
+ at the intersection of bio and AI,
+ particularly this crazy one
+ with financial firms to Trini Research
+ working on scorpion sting cures,
+ but the first actually comes from open AI.
+ The company has announced
+ that they have acquired
+ an AI-powered drug discovery startup
+ to build out their biotech offering.
+ Open AI announced on Tuesday
+ that they'd acquired
+ four-year-old AI biotech startup
+ Orchestra Bio,
+ terms of the deal were not disclosed,
+ and Orchestra last raised
+ 20 million in venture funding last year.
+ Orchestra develops AI agents
+ designed to assist
+ in drug discovery workflows.
+ Rather than exploring new candidate compounds,
+ Orchestra has largely focused
+ on streamlining lab tasks
+ like monitoring the compound manufacturing process
+ and tracking drug trials
+ as they progress.
+ The orchestra team
+ will work on GPT Rosalind,
+ Open AI's model variant
+ designed for life sciences work.
+ The model was first released
+ in April as a research preview,
+ but has now been released
+ as a full commercial product.
+ Alongside the model,
+ Open AI offers Rosalind workbench,
+ which is a suite of agents
+ to help the model connect
+ to scientific instruments
+ and analyze data.
+ In their press release,
+ Open AI wrote,
+ Our vision is for AI
+ to help scientists
+ across the full process
+ of discovering
+ and developing new medicines,
+ exploring ideas,
+ designing experiments,
+ interpreting results,
+ and coordinating the work
+ needed to advance
+ promising treatments.
+ Bringing Orchestra Bio
+ together with Rosalind
+ is a step toward that vision.
+ Alongside researchers
+ and our partners,
+ we aim to make
+ more discoveries possible
+ and help new medicines
+ reach patients sooner.
+ Now to be clear,
+ in contrast to some things
+ we're going to discuss
+ a little bit later,
+ this is not about Open AI
+ building their own biotech firm.
+ It's about building better tools
+ to help the existing pharma industry.
+ Also from the press release,
+ they wrote,
+ Realizing the potential of AI
+ in life sciences
+ requires close collaboration
+ with the organizations
+ working at the forefront
+ of drug discovery and development.
+ Our partnership with Novo Nordisk
+ aims to translate
+ its scale and scientific expertise
+ into faster R&D
+ and commercial execution
+ while maintaining strong governance.
+ At Moderna,
+ AI is helping teams translate insights
+ from complex data
+ into experimental workflows
+ with the potential to accelerate R&D.
+ In other words,
+ Open AI is giving you the idea
+ that they want to better support
+ those industries use cases of AI,
+ not do that particular work with AI.
+ Many were enthusiastic
+ about this type of work.
+ Ran longevity on X-Rights,
+ I really hope the big labs
+ keep focusing on drug development.
+ That is where we can really change the world.
+ And Prestogenetics Parmeet Amistra
+ thinks this is part of a trend,
+ sharing the news with the added caption,
+ the bio-hype begins.
+ However, some think
+ that this is just an incremental step.
+ Today, Vashista writes,
+ the only path to profitability
+ for the frontier labs
+ is becoming a biotech company eventually.
+ And that position got a bit more credence last month
+ when Reuters reported that Anthropic
+ had quietly set up its own biology lab.
+ So to be clear,
+ in contrast to Open AI
+ building better systems
+ for existing labs to use,
+ this is Anthropics setting up their own lab
+ to do physical biology work.
+ After the Reuters news broke,
+ the lab's existence was confirmed
+ by Anthropics Head of Life Sciences.
+ Eric Kudera-Abram said,
+ We believe that to do biology,
+ the final test is still
+ and will be for a while in real lab work.
+ We absolutely are doing that today.
+ And I would describe our approaches
+ being typical of what you would see
+ in most biotech companies,
+ where there's some amount of that
+ that we're doing in our own facilities
+ and some amount of that
+ that we're working with external partners on.
+ Now this news broke right at the time
+ that the X-Risk discussion
+ was surging once again,
+ leaving many to wonder if it was exactly
+ the right time for Anthropics
+ to be building a wet lab.
+ However, with further reporting,
+ it became clear that it had
+ a relatively limited remit
+ that had pretty specific limitations
+ in the types of research it could do.
+ Still, this was also the time
+ that there were reports
+ that leaders inside Anthropics
+ believed that at some point in the future,
+ they would be the only company left.
+ And given how much this felt
+ like a move into a totally different area
+ and a fundamentally different model for AI,
+ i.e. not just providing the intelligence
+ but using that intelligence
+ to do things,
+ there was a lot of interest, let's say,
+ to see how it would evolve.
+ That brings us, however,
+ to the story of Satrini.
+ Back in July, Anthropic writes,
+ a team from Satrini Research
+ had approached us with an interesting question.
+ Could Claude and AI drug discovery more generally
+ enable a group of motivated non-experts
+ to tackle a genuine problem in human health?
+ Now, Satrini Research,
+ you might be saying yourself,
+ haven't I heard of them
+ in the context of newsletters
+ about financial issues?
+ And the short answer is yes.
+ When you go to satriniresearch.com,
+ it links directly to their sub-stack,
+ which it sums up as providing insights
+ on thematic equity investing
+ in global macro trading.
+ So what the heck are they doing
+ trying to design new drugs?
+ According to Satrini's long blog post
+ about this work,
+ the origins of the experiment
+ came from, as they put it,
+ searching for opportunities outside
+ of AI infrastructure
+ where they were concerned
+ about markets crowding.
+ One area that seemed to them
+ to have asymmetric opportunity
+ was life sciences and health care.
+ They wrote,
+ The sector had endured
+ the reversal of the pandemic boom
+ in a difficult funding environment
+ as investors found
+ more exciting places for their money.
+ Over the past half decade,
+ it has been a graveyard for returns.
+ While everyone focused on
+ which Japanese semi-due dad producer
+ would sell out next,
+ the cycle had seemingly turned.
+ However, the stocks had yet to climb
+ in any meaningful way,
+ and we kept hearing about
+ AI's promise in drug discovery.
+ A neglected sector
+ with the chance for AI upside,
+ it had the markings
+ of our favorite type of setup,
+ given that their last big AI post
+ had been effectively about
+ how AI doing too well even
+ could also destroy the economy.
+ The opportunity to potentially
+ tell an optimistic story
+ also seemed exciting to them as well.
+ With tongue firmly in cheek,
+ they wrote,
+ Finally, it was our chance
+ to write an article
+ offering a reprieve
+ from the threats of a dystopian
+ AI future dominating the news.
+ Not that we have ever
+ been guilty of fueling fears
+ about the future of AI, of course.
+ The one problem they continued,
+ none of us could claim
+ to know anything about AI
+ as it related to biology.
+ Our usual process, they wrote,
+ would involve deep research
+ and dozens of calls with experts.
+ But survey a dozen experts in biology
+ and you're going to hear both,
+ AI has not created
+ a single important drug
+ and it won't in the future either,
+ to,
+ AI will cure all diseases
+ in the next five years.
+ And everything in between,
+ depending on each individual's degree
+ of AI pildness.
+ We weren't going to get a clear answer
+ by simply asking,
+ we needed to try it for ourselves.
+ So we did.
+ We used the model to design proteins,
+ contracted a lab to synthesize them,
+ and conduct experimental validation
+ and again using the model
+ to interpret the results.
+ Now, this Gonzo approach to biotech
+ seems to have indeed yielded some results.
+ The Satrini folks were able to use
+ Claude to design protein binders
+ for use against scorpion neurotoxins.
+ The group started with a 35-page prompt
+ that Anthropic had already tested
+ in a previous study,
+ modified it to taste and set Claude
+ on its drug discovery work.
+ 300 subagents worked on the protein design,
+ generating 318,000 total candidates,
+ and selecting 211 promising options
+ for further testing.
+ 17 were found to bind
+ to four different scorpion toxins
+ after independent testing in another lab.
+ None of the proteins has yet been shown
+ to stop the neurotoxin from working,
+ but it's a promising initial result.
+ Also, all this work came in
+ under a couple hundred thousand dollars,
+ which, while not cheap,
+ also isn't prohibitively expensive
+ for trying to go after an under-focused
+ on issue that affects a million people
+ a year and actually kills 3,000.
+ Now, what was interesting about the way
+ that Satrini did this
+ is that almost immediately after
+ their ragtag group of stock analysts
+ downloaded Claude for science,
+ they ran headfirst into the biological guardrails.
+ Rather than trying to do some extensive
+ application process,
+ they just reached out to Anthropic
+ and asked if they could do it
+ sitting in the company's offices.
+ Anthropic was interested right away
+ because this is exactly the type
+ of neglected disease
+ that they think AI
+ has a particular opportunity to benefit.
+ Scorpions sting about 1.2 million people per year,
+ which leads to around 3,200 deaths,
+ and most of those come from children
+ in parts of the world
+ that have extremely limited access
+ to quality medical infrastructure.
+ The problem Anthropic writes
+ is that new treatments are expensive to make
+ and also unlikely to earn back
+ the cost of developing them.
+ And this is where the potential step
+ changed in the cost of developing new treatments
+ that AI enables could come in.
+ There was, of course, plenty of skepticism
+ when Satrini dropped the report.
+ Wiz Plum on X writes,
+ So you achieved something demonstrated
+ in the literature 15 plus years ago,
+ proteins that bind scorpion toxins,
+ but didn't demonstrate the thing
+ that actually matters,
+ neutralizing the venom.
+ Maybe make that the headline
+ instead of bearing it
+ in 10,000 words of Claude prose.
+ Satrini responded to that one saying,
+ LMAO, everyone involved in this said,
+ Well, as soon as we publish this,
+ there will be a handful of haters
+ no matter what we do.
+ We weren't going to wait
+ another three months to publish.
+ Still want to pursue
+ the neutralization testing, though.
+ Google Deep Minds director
+ of AGI Economics, Alex Emos wrote,
+ Satrini has an incredible talent
+ for getting the public
+ to pay attention to overlooked,
+ but important issues.
+ Last winter, it was the famous essay
+ on how AI driven productivity
+ could lead to a miseration.
+ I disagreed with parts,
+ but thought it did an excellent job
+ of starting a much needed conversation
+ about economic risks.
+ Today, Satrini got everyone talking
+ about the promise of AI for science.
+ Huge speedups in hypothesis generation
+ and computation,
+ but also illustrates the bottlenecks,
+ verification and testing.
+ We need to be clear eyed about both
+ in order to know where to invest.
+ And in fact, one of Satrini's
+ major conclusions was just
+ how much physical world inertia
+ there is, even when AI speeds up
+ part of the process.
+ They wrote,
+ Our virtual biologists may have
+ compressed a year's worth of work
+ into a couple days,
+ but biology works at the speed of life.
+ DNA had to be synthesized,
+ proteins produced and purified,
+ toxins obtained in usable form,
+ and appropriate controls established.
+ Our digital invention was now set
+ to create work for human scientists.
+ Former open AI researcher, Will de Poop,
+ put two of the charts from Satrini
+ research next to one another
+ and said, God, these two charts
+ really hurt my soul.
+ 64 hours to dry lab design,
+ a multi-binding anti-venom,
+ 39 days for results,
+ and four to seven years to release.
+ I think that the combination
+ of the Satrini anthropic collaboration
+ and this new open AI deal
+ bring up three really interesting questions.
+ The first is whether AI labs will
+ start internalizing scientific results
+ rather than building technology
+ for others to use
+ and what it means if they do.
+ This is the question I said
+ really picked up steam a couple of months ago.
+ First, when reports came out,
+ which by the way are unverified,
+ then anthropic leadership thought
+ that they would be ultimately
+ the only private company left in the world,
+ implying that at some point
+ they do everything,
+ including all the things
+ that their customers do currently,
+ and which picked up more steam
+ a month later
+ when the anthropic wet lab was announced.
+ Yet what this Satrini research shows
+ is that there are so many parts
+ of this process
+ that even adding a wet lab
+ to take theoretical AI initiated experiments
+ a little bit farther
+ doesn't change the fact
+ that there is an immense number
+ of other steps
+ in people and institutions involved
+ in actually bringing something
+ real into the world.
+ I don't think this at all settles
+ the question of whether at some point
+ AI customers will find themselves
+ competing with the AI labs,
+ in fact that is going to be absolutely inevitable,
+ but thinking it's going to happen
+ all at once or across entire industries
+ probably doesn't reflect the reality.
+ The second question is this one
+ about discoveries in public opinion.
+ If AI actually does cure cancer,
+ does that change people's perspective on AI?
+ First of all,
+ at least when it comes to
+ anthropic experiments right now,
+ they seem to be a lot less
+ about these holy grails
+ like curing cancer
+ and more about addressing
+ these medical projects
+ which previously fell through
+ the cracks of market incentives
+ but which don't have to
+ any more thanks to AI.
+ Anthropic might absolutely be correct
+ that there is a lot more leverage there
+ than the big flashy stuff,
+ but a news headline like
+ Anthropic cures scorpion stings
+ which to be clear
+ this isn't even really close to
+ it's just the very very first step
+ in some solutions that could help this
+ still hits very different
+ to anthropic cures cancer.
+ Second,
+ even if AI is totally integral
+ to curing major diseases,
+ it seems unlikely
+ that the way that that works
+ is it just discovers a miracle compound
+ that all of a sudden fixes
+ everything in one fell swoop.
+ In fact, it seems far more likely
+ that AI accelerated discoveries
+ just kind of become the norm,
+ everyone gets used to them
+ and they don't really have
+ all that much bearing
+ on whether they like AI or not.
+ Wilmenides writes,
+ If the AI industry thinks curing cancer
+ is enough to turn public sentiment around,
+ they should look at opinion polling on big pharma.
+ To be clear,
+ this does not in any way mean
+ that I think that AI labs
+ shouldn't be working on these issues.
+ In fact, to me,
+ my belief that very little they can do
+ can in the short term at least
+ actually really impact public opinion
+ means they should be focused on
+ working on the areas
+ that they think are going to have
+ the biggest impact
+ regardless of the headlines they create.
+ As much as I would like there to be,
+ I just simply don't believe
+ that there is any magic bullet
+ to the perception problems
+ that AI has
+ and is going to continue to have
+ for some time.
+ The third and most subtle,
+ but in some ways
+ most interesting question to me
+ is how the Satrini experiment specifically
+ demonstrates the way in which
+ AI will change
+ not only how we work,
+ but what we work on.
+ Remember,
+ the Satrini experiment started
+ from them doing what they normally do,
+ which is look for
+ under-recognized opportunities
+ in the markets
+ from an investment thesis perspective.
+ They went through their normal work process
+ of examining different sectors
+ in the context of returns,
+ public perception,
+ current market values,
+ and basically came away
+ believing that life sciences
+ were undervalued,
+ especially in the context
+ of how AI could change those areas.
+ The problem they ran into
+ is that they didn't think
+ that they could get
+ a robust enough picture
+ about the real potential
+ of AI in life sciences
+ just by asking a bunch of experts.
+ And it was in that context
+ that it became economically viable
+ for them to just experiment
+ for themselves.
+ Now, Satrini was very clear
+ at the end of this
+ that they are not about to become
+ a biolab,
+ that they are
+ and remain a financial research firm.
+ But I think that you're going to see
+ a lot more of this type
+ of orthogonal work,
+ let's call it,
+ where people in firms
+ can do things
+ that they couldn't do before
+ that actually change
+ how well they do
+ their core work stream.
+ This is another version
+ of the efficiency
+ versus opportunity AI divide
+ that I always talk about,
+ to go to original hands-on research
+ deep in the biology
+ and life science process.
+ If nothing else,
+ it is a very entertaining story
+ and I suggest you go read
+ the full Satrini therapeutics research report.
+ For now, I'm excited to keep exploring
+ these themes with you,
+ but that's going to do it
+ for today's AI Daily Brief.
+ I appreciate you listening
+ or watching as always
+ and until next time,
+ peace.
