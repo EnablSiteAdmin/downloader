@@ -1,0 +1,774 @@
+ Yesterday, Anthropoc announced Claude Duet, their answer to Grockbot and MetaMuse and OpenAI's dots.
+ And yet somehow, Duet is not the focus of our main episode.
+ How could that possibly be? Well in short, it's because that right now we are living through
+ what may ultimately be seen as a key transitional moment between two very different eras of cyber
+ security, one where long-term norms held and even exploits and challenges were manageable,
+ and the other, newer era, where it's AI versus AI, and a battle for who can coordinate best.
+ The AI Daily Brief is a daily podcast and video about the most important news and discussions in AI.
+ All right friends, quick announcements before we dive in.
+ First of all, thank you to today's sponsors KPMG, Section, Cdata, and Blitzy.
+ To get an ad-free version of the show, go to patreon.com.ai-daily-brief,
+ or you can subscribe at Apple Podcasts. And if you want to learn more about sponsoring the show,
+ send us a note at sponsors at aidailybrief.ai. And we kick off today with a story that on almost
+ any day on this show would absolutely be the main, and in fact, would usually be a main only
+ type episode. Anthropic has joined the personal agent market with their own twist on Muse slash
+ Dot slash Grockbot, and they're calling it Claude Duet. The two reasons that today for us,
+ it's just a brief headline introduction, are that one, the massive slate of cyber issues
+ going around the internet right now are fairly unignorable, both in the specifics,
+ but also what they allude to for the future. And secondly, I'm working on a full length,
+ long read Sunday episode, which is going to go much deeper into Claude Duet,
+ and exactly how I'm using it and its competitors and what I'm finding so far.
+ So come back on Sunday to check that out. For now, it appears that Anthropic is perhaps
+ unsurprisingly aiming at the professional and small business side of the personal agent market,
+ with their main differentiator seeming to be a focus on being proactive. Describing the core
+ functionality, they wrote, each morning Duet sends you a short brief on the most important
+ items across your connected apps. Throughout the day keeps tabs on those apps and messages you
+ only when something needs your attention. You can also hand it tasks of all shapes,
+ from simple administrative tasks of scheduling meetings, to more complex ones such as building
+ dashboards with dozens of tools, creating financial or sales forecasts, prototyping
+ and building web apps. Besides the proactive approach Claude Duet has all of the features
+ that people have come to expect from the current crop of agents. Duet has its virtual machine,
+ persistent memory and a full suite of connectors, and Anthropic also emphasized a focus on safety.
+ Duet will ask for explicit permission before taking major actions, like making a payment
+ or deleting files. Anthropic has also created what they call a new dedicated classifier
+ and safety system prompt that checks each message and guards against leaks of sensitive
+ information. Right now Duet is being rolled out as a research preview,
+ and you can't just decide to use it you have to get on a wait list.
+ Anthropic warned that this is an early version, which might have some issues like misreading
+ threads or miscalibrating what's urgent, and they also warned that it won't be as
+ capable at personal errands like booking tickets as other agents because of the
+ extent to which their focus is on work tasks. In general the community treated
+ this with excitement if not surprise, and for many is summed up by Dan McAddyer,
+ the big and immediate differentiator wasn't anything about the proactivity,
+ or even necessarily its focus on work tasks, it was the fact that it was
+ built on Opus 5. There were a few folks like Chubby who were surprised to see
+ Anthropic pursuing a personal agent. He basically said that he wasn't sure who
+ the target was for this, but I think that that might be a category error
+ in thinking that personal agents are just going to be for personal uses.
+ It seems to me that there is a bit of a recognition that even though we have work
+ in personal lives, the boundaries of those things are fairly permeable,
+ and when it comes to these so-called personal agents, right now it seems
+ like the labs are betting that while we might gravitate towards one
+ that has our particular use cases emphasized, they just have to be able to
+ do everything that we might want them to do. Signal summed it up this way.
+ Pretty much every major AI company now has a personal agent product except
+ Google. Meta has Muse, Anthropic Duet, Open AI, Dots, SpaceX, Bots.
+ Slowly but surely the competition is shifting from who has the smartest
+ model to who owns the persistent relationship with the user.
+ This will be even more the case going forward. You're seeing this because
+ we likely reached peak intelligence required to power most of the world's
+ workflows probably earlier this year if not late last year.
+ Mostly I think the discussion shows just how nascent this product category remains.
+ There is nothing even approaching consensus on whether these things are the
+ right form factor or what their most important modes of
+ interactions are or what even the essential features are.
+ People disagree around whether we'll have one or many and what the most
+ important distinguishes will be. I know that subsequent to my time
+ using these personal agents so far I'm not 100% convinced that they're
+ going to ultimately be an essential part of the portfolio.
+ But like I said I'm going to get a lot deeper into that on Sunday
+ and I guess a last note on duet for those who are keeping track.
+ If I were a betting man I think this is part one of a one-two punch heading into
+ the IPO. At least from a product perspective
+ for Anthropic. Release your answer to all the personal agents floating around
+ and then give it a new model which makes everyone feel just so far behind.
+ In other words maybe this is just prelude to Fable 5-5.
+ Next up staying on the theme of agents. Contra to some other businesses out there.
+ Walmart has decided to welcome personal agents onto their platform.
+ Recent weeks have seen corporate America divided on the risks of personal agents
+ interacting with services on their owners' behalf.
+ Shopify was of course an emphatic yes while Amazon, JPMorgan and Bank of America
+ were a clear no. It should be noted that the reason for the no's between
+ those companies was a little bit different.
+ JP Morgan and Bank of America are thinking about risk in terms of agents doing
+ something with people's money that they shouldn't while Amazon is focused more
+ on competitive risk. In that light Walmart allowing third party agents
+ is kind of a surprising move. The retail giant was very early to AI adoption
+ and one of the core pillars of their strategy was Sparky, their proprietary
+ shopping agent. Earlier this month Walmart said customers who used Sparky
+ had order values 40% higher than non-agentic online shoppers.
+ Still it seems now that Walmart wants to encourage agentic commerce and they
+ don't particularly care which agents their customers are using.
+ As of next month customers will be able to set up a linked account for their
+ personal agent with configurable spending limits kind of similar to how a
+ child's account might work. Aside from supporting third party agents
+ Walmart's new policy included lengthy terms and conditions that could become
+ a template for safer agentic shopping. Walmart included rules that an
+ agent must not take actions beyond what the shopper intended
+ and that agents can't modify a customer's payment methods.
+ Walmart will require purchases to be approved by default
+ and said they would ban agents that don't comply with their guidelines.
+ However for compliant agents Walmart said agentic purchases would have access to
+ the returns policy even if an agent makes a mistake.
+ Once again we find ourselves in incredibly early days for agentic
+ commerce and I think trying to make definitive statements now about how
+ this is going to play out is very hard if not impossible.
+ Still early evidence suggests that for those who are using personal agents
+ agentic commerce does seem to be an early use case that people are exploring.
+ During Wednesday night's earnings call Metta said that one quarter of active
+ muse users are using the agent for shopping. The average value of their
+ purchases is $200 which surprised even the e-commerce
+ veterans who have been paying attention to the space.
+ Mark Zuckerberg commented,
+ plaid told us that they hadn't seen activity like they're seeing with their
+ connector on any other service before. In that light Walmart's strategy
+ begins to look a little bit clearer if the early adopters of agentic
+ shopping are very valuable customers. Walmart just wants to let them shop.
+ Speaking of Metta the company has announced a new class of non-voting stock to help
+ fund the next leg of their AI build out. The announcement came alongside those
+ same third quarter earnings which featured a very minor
+ upwards revision to their data center budget. Metta now expects to spend
+ between $135 billion and $145 billion this year
+ adjusting the low end up from $130 billion. The new stock will begin trading in
+ January and allows Metta to raise funds by
+ selling equity without diluting Mark Zuckerberg's voting control of the
+ company. CFO Susan Lee wrote in the earnings report,
+ the scale of investment required to compete, sustain growth, expand
+ infrastructure, and pursue new strategic initiatives amidst the AI
+ transformation taking place in the industry is significant.
+ During the earnings call Lee added that the new class of stock will quote,
+ expand our funding tools and give us flexibility to invest behind the
+ unprecedented momentum we're seeing across every part of our business driven by AI.
+ There are a few reasons why Metta would pivot to funding their data center
+ build out with equity rather than debt. Some thought that this was a sign that the
+ bond market is completely tapped out on AI debt but of course it also might be that
+ Metta sees that as a possibility moving forward rather than a current state
+ condition and wants to hedge against it. Others noted that Metta has 900
+ billion in liabilities including 350 billion in non-cancelable data
+ center contracts. That's a rough gauge of spending over
+ the coming decade but only about 83 billion of that total is currently on
+ issued long-term bonds. Perhaps the scale of the build out suggests they
+ won't be able to fund it all with debt. Now ultimately the Occam's razor answer
+ or I guess the generous read depending on your position on Zuckerberg
+ is that Metta is tapping all available pools of capital and keeping their
+ options open. Issuing stock is a deep pool of capital
+ as long as Metta isn't too concerned about diluting existing shareholders.
+ Financial planning advice from Molus which was attached to the earnings report
+ said Metta would need to raise several hundred billion dollars over the
+ coming years in any scenario. They noted that if they did issue voting
+ stock they could still raise as much as 700 billion without diluting
+ Mark Zuckerberg's vote below 50%. Interestingly Metta stock was up in
+ overnight markets suggesting shareholders are willing to deal with
+ some dilution for now. What this means for the stage of the build out
+ remains to be seen but it is another important signal.
+ The current plan barring some crazy thing happening on Friday is a much
+ cheaper dive into what I think are the actual most concerning bubble signals
+ so if you're interested in that come back tomorrow. For now though that is
+ going to do it for today's headlines next up the main episode.
+ A new study from KPMG in the University of Texas at Austin found that when
+ people work with AI similar skills don't guarantee similar outcomes.
+ Researchers studied more than 500 early career professionals and found that the
+ best performers consistently amplified the value of AI by guiding,
+ evaluating, and refining its outputs. These top performers called AI
+ amplifiers weren't defined by what they knew alone but by how they
+ worked with AI. Learn more about what separates
+ AI amplifiers from everyone else at kpmg.com
+ slash us slash AI amplifiers. Here's a harsh truth. Your company is
+ probably spending thousands or millions of dollars on AI tools that
+ are being massively underutilized. Half of companies have AI tools but
+ only 12% use them for business value. Most employees are still using AI to
+ summarize meeting notes. If you're the one responsible for AI
+ adoption at your company you need Section. Section is a platform that
+ helps you manage AI transformation across your entire organization.
+ It coaches employees on real use cases, tracks who's using AI for business
+ impact, and shows you exactly where AI is and isn't creating value.
+ The result you go from rolling out tools to driving measurable AI value.
+ Your employees move from meeting summaries to solving actual business
+ problems and you can prove the ROI. Stop guessing if your AI
+ investment is working. Check out Section at sectionai.com
+ that's s-e-c-t-i-o-n-a-i.com. This episode is brought to you by
+ CData. Companies rolling out AI keep hitting the same wall.
+ Token spend is climbing, security is holding agents back,
+ and no one knows how AI is truly being used. The root cause,
+ AI is cut off from the systems and context your business runs on.
+ That's why CData built Connect AI Gateway. One control point between your AI
+ and your systems. Built on the connectivity layer, powering
+ Palantir, Google, Salesforce, and hundreds more, each agent gets
+ exactly the data and tools it needs. It governs down to the record
+ and lets you finally see your org's complete AI usage in one
+ place. Accurate answers, a fraction of the token cost,
+ and a gateway that learns your business with every interaction.
+ See how at CData.ai. Blitzy's deep code-based
+ understanding unlocks the thing every roadmap owner cares about,
+ shipping new features. Here's the truth about building inside a
+ massive enterprise codebase. Writing code was never the
+ bottleneck. Context is. Which system does this touch, which
+ contracts can't break, which standards apply? Blitzy already
+ knows because it reversed engineered your entire codebase
+ into a dynamic knowledge graph before feature work began.
+ With that complete picture, Blitzy builds features end to end.
+ Architecture, APIs, UI, and tests all validated against your
+ existing systems. One Blitzy customer built an AI native
+ application from scratch with 100% autonomous completion,
+ saving over 2700 engineering hours. Features that respect your
+ codebase instead of fighting it. Stop letting your backlog grow
+ faster than your team. Accelerate your roadmap at
+ Blitzy.com. That's blitzy.com.
+ Welcome back to the AI Daily Brief. It's been clear for
+ some time that among all the questions about
+ AI's impact on the world, how much it was going to
+ change work, whether it was going to disrupt jobs,
+ what sort of runaway societal risks it might have.
+ One of the fairly inarguable conclusions has been that it was
+ going to have a dramatic impact on cybersecurity and
+ cyber infrastructure. One of the seminal moments of
+ 2026 was in fact when Anthropic announced Project Glasswing
+ and their powerful new model Mythos, which we would
+ eventually get a consumer version of in Fable.
+ Glasswing was announced in April and in their announcement post
+ they wrote, we formed Project Glasswing because of
+ capabilities we've observed in a new frontier model trained by
+ Anthropic that we believe could reshape cybersecurity. AI models
+ have reached a level of coding capability where they can
+ surpass all but the most skilled humans at finding and
+ exploiting software vulnerabilities. As part of the
+ announcement they noted that their preview version of Mythos
+ had already found thousands of high security vulnerabilities
+ including they said some in every major operating system in
+ web browser. Given the rate of AI progress Anthropic
+ wrote, it will not be long before such capabilities
+ proliferate potentially beyond actors who are committed to
+ deploying them safely. The fallout for economies public
+ safety and national security could be severe. Now the way
+ that Glasswing worked was that it gave access to Mythos to a
+ small handful of government and corporate actors in order
+ to start using its capabilities defensively to try
+ to address possible exploits before they could be
+ exploited. And yet as that work has been ongoing
+ there has still been an acceleration in the incidents
+ that companies and societies at large are starting to
+ have to respond to. The best known of these and the one
+ that has had the most influence outside of the AI and
+ tech space is of course the hugging face incident in
+ which a fleet of agents from open AI broke containment to
+ get access to hugging faces systems and then earlier this
+ week the week actually kicked off with an attack on
+ open code that got into the accounts of about one and a
+ half percent of the users of open code and started
+ running up bills on various AI companies APIs. This all
+ now however appears to be simply prelude. On
+ Wednesday security researchers disclosed a
+ vulnerability in PHP that could affect as much as
+ seventy percent of websites and web apps on the
+ internet. By way of background for those who aren't
+ deep in computer history and aren't developers
+ yourselves PHP is the programming language that
+ runs the backend servers that power the internet.
+ It's been around since the early 1990s and while
+ some believe it is a little archaic it is still
+ deeply enmeshed in this internet that we currently
+ use. The vulnerability was discovered around two
+ months ago using GPT 5.6 Sol by a security
+ researcher at Calif and independently by the team
+ at Wiz. In the intervening months open AI has
+ been coordinating with PHP's maintainers, Wiz,
+ Cloudflare and other partners to prepare
+ mitigations in a patch ahead of disclosure.
+ The vulnerability dubbed PHP 2 shell is basically
+ the worst nightmare for cyber defenders. It allows
+ a threat actor to take control of a backend
+ server without logging in and perform remote
+ code execution. Essentially using this
+ vulnerability a hacker can get access to do
+ anything with any server running on PHP. Critically
+ this wasn't a vulnerability that only impacted
+ older versions of PHP. Even sites running the
+ latest versions of server software were
+ vulnerable. Volker Dusha security engineer at the
+ nonprofit that maintains PHP said that this
+ was the most severe security issue the
+ programming language has faced in over a decade.
+ He compared it to Heartbleed a critical
+ vulnerability in the open SSL cryptographic
+ library that led to a global patching
+ effort back in 2014. In a blog post discussing
+ the vulnerability open AI wrote to our
+ knowledge frontier AI found these
+ vulnerabilities before attackers did opening
+ a defenders window for maintainers and
+ security providers to prepare fixes and
+ protections ahead of disclosure. That's
+ technically true and a bug fix was made
+ available immediately. However it seems
+ that knowledge of the exploit spread around
+ 10 hours ahead of disclosure before
+ anyone could update their servers. Many
+ government and commercial websites
+ took their sites offline as a
+ precaution yesterday morning. The
+ situation was serious enough that the
+ NSA issued a bulletin recommending that
+ organizations take their systems offline
+ until everything is patched. The FBI
+ cyber division joined them asking for
+ organizations to report intrusions. Now
+ this is the type of concern that I tend
+ to have an almost reflexive
+ skepticism towards. As AI reporter Cameron
+ Wilson put it real sky is falling
+ vibes on the web today and yet based
+ on the responses of people who know a
+ heck of a lot more about this than I
+ do this one kind of seems like the
+ real deal. Entrepreneur Breck units
+ wrote guys this php bug is bad real
+ bad if you're not afraid yet you
+ should be I can only speak for our
+ startup but already at nobooks.com
+ we've seen 100% of our cookies
+ exposed entire source code stolen
+ hackers defacing our site on their own
+ servers founders doxxed important
+ legal docs leaked former
+ intelligence officer turned cyber
+ security entrepreneur Mike Shelby
+ wrote my CTO assures me that our
+ platform has no risk from this
+ latest php zero day vulnerability
+ thing. However he adds we are in the
+ calm before what is likely to be
+ the biggest destruction event to the
+ internet in 20 years. He's an actual
+ hacker by the way he continues biggest
+ issue I've ever seen around 70% of
+ websites are vulnerable and may have
+ already been compromised without anyone
+ knowing it yet. So tomorrow should be
+ fun investor Charles Reed wrote I'm
+ pretty concerned we're in the early
+ stages of a global cyber security
+ incident and we just don't fully
+ realize the extent of it yet. AI
+ engineer Nick Dobos reposted that and
+ said dozens if not thousands of AI
+ agent swarms bigger than the
+ hugging face incident are hacking
+ about half the internet right now. He
+ then modified that number to millions
+ after seeing a post from cloud flare
+ CEO Matthew Prince who said in the 10
+ hours before p2p2 shell was
+ announced across the cloud flare
+ network we saw thousands of attempts
+ to exploit it that jumped to tens of
+ thousands in the 45 minutes post
+ announcement hundreds of thousands
+ within two hours and millions now.
+ Now to some this was inevitable
+ Wharton professor Ethan mollick
+ wrote a visible sign of what AI
+ insiders have been warning about
+ since at least the mythos release
+ acceleration of attack and defense
+ at inhuman speeds
+ interacting with the very human
+ systems that need to react to them
+ Paris Chopra writes what's happening
+ with cyber security is what
+ rationalists freaking out about AI
+ capabilities had been predicting for
+ a long while
+ it's the great hacking and it's
+ going to get worse
+ now it's a bit beyond the scope of
+ the show but i find that particular
+ characterization a little disingenuous
+ given that this isn't even close to
+ the main thing or main things that
+ that group has been warning about
+ and i think one could make a
+ reasonable argument that all of the
+ focus on these vague x-risk
+ scenarios for years in advance
+ have in fact in many cases
+ distracted from much more current
+ issues like these cyber security
+ issues but i would also say that the
+ best counterpoint to that
+ is that being concerned about one
+ thing does not mean you don't get to
+ be concerned about something else
+ and so we'll return back to our
+ focus on the issues that are here
+ right now
+ outside of our little world
+ the response is more likely to be
+ somewhere between
+ uninformed overwhelmed or just
+ blasé
+ solopreneur peter levels wrote
+ i notified a friend working at a
+ big tech corporate about the php
+ vulnerability as their entire
+ infrastructure runs on php
+ he answered
+ thanks i'll try to patch it in a few
+ days
+ as i'm out of office right now
+ and this is a modern tech company
+ levels continued
+ imagine the traditional companies
+ running php
+ even for those companies not taking a
+ blasé attitude however this
+ represents an incredible challenge
+ again ethan mollick writes
+ companies i talk to are struggling
+ with the rate of patches they need
+ to do thanks to ai defenses
+ finding issues before the
+ inevitable wave of incoming
+ cyber attacks by other ai's
+ now consumers are going to have the
+ same experience of getting everything
+ updated often and fast
+ now one question some had was around
+ the disclosure method of this
+ particular exploit
+ maple ai cto anthony ronning wrote
+ if they've worked on the php
+ vulnerability for over two months
+ then why has there been such a poor
+ disclosure and rollout strategy
+ it's basically been a strategy of
+ quote in 24 hours you're all screwed
+ cyber security professional tay monahan
+ wrote
+ this might be a stupid question
+ but given the discovery last week
+ and that it started leaking 12 plus
+ hours ago
+ why weren't the php patches ready
+ to be dropped as soon as the
+ vulnerability slash poc fully leaked
+ why is everyone okay arbitrarily
+ waiting another 12 hours to patch
+ christian the pov writes
+ i'm no security expert but telling
+ the hacking world there's a mega huge
+ apocalyptic exploit for php and giving
+ them a day to figure it out and do as
+ much damage before they release the
+ fix seems like a bad idea
+ couldn't they release the update
+ then after a day explain what it is
+ now my understanding from reading
+ accounts from people who again know a
+ lot more than i do about this
+ is that the patch itself makes the
+ exploit obvious
+ so the concern was that as soon as
+ they released the patch they were
+ also essentially making the exploit
+ known in the wild
+ this is why the nsa warned everyone to
+ take their sites down ahead of the
+ disclosure
+ frederick williams wrote
+ the real hacking world isn't the issue
+ they probably won't target most of us
+ releasing the exploit patch
+ unleashes a storm of script kitties
+ that will scan and breach everything
+ they find
+ they tried to get everyone ready to
+ update the moment it lands
+ now before we get into broader
+ implications
+ some are lamenting what might be
+ the legacy of this particular exploit
+ itself
+ kenny lauderdale writes
+ this php stuff is so depressing
+ because there's going to be 15 years
+ worth of old sites that are going to
+ become lost media now
+ cyber security news reporting account
+ the international cyber digest wrote
+ forechan has gone read only and
+ something awful has shut its forums
+ as american sites brace for the php
+ patch
+ bookmarkering service pinboard game
+ publisher choice of games history
+ site damn interesting
+ and the explain xkcd wiki are offline
+ too
+ and then to add to the idea that
+ these types of attacks were not going
+ to be limited in their frequency
+ yesterday also saw railway hit by a
+ major exploit
+ railway is an ai hosting service
+ similar to versell
+ in a disclosure post railway wrote
+ earlier this morning railway
+ detected anomalous activity involving
+ systems that store customer environment
+ variables
+ after further investigation our
+ investigation to date indicates that
+ an unauthorized third party may have
+ accessed encrypted environment
+ variables and for some of them
+ obtain the decrypted contents
+ environment variables may contain
+ secrets such as api keys or
+ database and registry credentials
+ we believe this is part of a series
+ of attacks recently targeting
+ platform companies
+ with the aim of compromising ai
+ inference providers
+ at first glance this looks very similar
+ to the open code exploit from last
+ weekend
+ which again saw attackers gain access
+ to user api keys
+ allowing the attackers to steal tokens
+ and run up big bills
+ like the open code situation railway
+ is suggesting that all users should
+ rotate api keys and roll all
+ environmental variables stored on the
+ platform
+ leo at synthwave wrote
+ keys actively being drained and
+ they've disabled the ability to
+ deploy anything so can't deploy with
+ new variables
+ nightmare day for cyber and it's
+ only going to get worse from here i
+ fear
+ dax from open code responded to the
+ railway team
+ and summed up the new normal
+ he wrote
+ i'm sure you're all better than me at
+ this
+ but just some of what we've seen if it
+ helps
+ they're not going to stop
+ it's going to get increasingly
+ sophisticated
+ and they're going to go after every
+ surface of your system and all of
+ your employees
+ any old projects you've long forgotten
+ about will be found and used against
+ you
+ the only reason we're surviving is
+ because we have agents going 24-7
+ we're still barely sleeping
+ good luck sorry you're dealing with
+ this
+ but really it's a collective problem
+ we're all facing together
+ now if this is the new normal
+ there are very different paths that
+ that normal can take
+ on the one end of the spectrum
+ is what was suggested by former open
+ AI staffer joshua chayim who wrote
+ feels like march 1st 2020 for cyber
+ not normal something is happening
+ internet lockdowns in a couple of
+ months
+ on the flip side there are those who
+ are recognizing
+ that we're probably going to have to
+ fight AI with AI
+ entrepreneur john ennis wrote
+ well we just rotated every single key
+ across a large number of projects
+ very quickly
+ and i'm struck by the fact that
+ this would have been an absolute
+ nightmare not too long ago
+ the defensive aspect of AI for cyber
+ security is really underrated
+ where the nuclear weapon analogy
+ breaks down with AI is that you can't
+ stop a nuclear weapon with another
+ nuclear weapon
+ but you can stop an AI attack
+ with an AI
+ boxes there and leave you built on
+ those themes writing
+ cyber is going to be one of the most
+ profound aspects of AI
+ we now have a tireless workforce that
+ can hunt down discover patch
+ or attack any system and software
+ ever created
+ we will use agents to identify the
+ long-standing risks in existing
+ systems and infrastructure
+ attackers will use agents to
+ accelerate the discovery of gaps
+ in environments
+ we will equally use agents to defend
+ attacks and discover anomalous
+ patterns to better protect our data
+ and much more
+ we're entering a new cyber regime
+ and we'll probably use a hundred
+ x more tokens on this loop than
+ we're imagining right now
+ because we can scan every log
+ look at every line of code
+ look through traffic
+ and process data at a scale that
+ wasn't comprehensible before
+ more than ever
+ enterprises are going to care deeply
+ about how they manage their networks
+ systems software data identity
+ devices and more
+ agents will largely become the
+ solution to these challenges
+ but it will keep everyone up in the
+ process
+ in another post Aaron wrote
+ if you want to know all the jobs
+ that AI will produce
+ look no further than cyber security
+ this is going to become one of the
+ biggest investment areas for
+ enterprises going forward
+ and even as that work becomes
+ more agentic and autonomous
+ you will need more talent to point
+ the agents at the most critical work
+ review findings patch systems
+ respond to incidents and more
+ lots of opportunity right now for
+ the systems that protect data and
+ enterprises
+ as well as the professionals that
+ are deploying them and
+ protecting organizations
+ it's only going to get more wild
+ out there
+ embroidery co-founders at Corman
+ argues in more colorful language
+ that the only way out is through
+ he posted
+ there is only one answer to
+ cyber security threats
+ fix your
+ scared of threat actors using AI
+ worried about rogue agents
+ think obliterated models are spooky
+ fix your
+ the ban AI models and regulate
+ GPU access crowd should instead
+ fix their
+ and yet going back to the talent
+ gap that Aaron Levy was just
+ talking about
+ others think that that sort of
+ fixing
+ is not going to come easy and
+ it's not going to be available
+ for everyone
+ Will Minidus writes
+ if today is any indication of the
+ pace
+ markets are not nearly pricing
+ in the rate at which banks
+ slash health care etc
+ are going to have to merge to
+ acquire enough scale to defend
+ against AI driven security
+ vulnerabilities
+ summing it up on claves
+ tal hoffman writes
+ what a day
+ the future of cyber security is
+ swarms
+ swarms of agents attacking
+ and swarms of agents defending
+ or rather
+ fleets versus swarms
+ governed agents on defense
+ versus cheap and relentless
+ agents on offense
+ whoever coordinates faster wins
+ in a post called towards
+ securing the internet
+ open AI president
+ Greg Brockman
+ wrote about how in his word
+ new approaches will be needed
+ he said
+ we are actively thinking about
+ those and looking for feedback
+ from the community
+ to help us collectively rise
+ to the challenge of improving
+ the security of the internet
+ as models improve
+ as vulnerability discovery ramps
+ we will need new defensive
+ solutions
+ potentially including authorized
+ defenders such as government
+ scanning the internet
+ for vulnerable hosts
+ and either notifying
+ or in extreme cases
+ patching those systems
+ remotely
+ after discussing some more
+ of open AI's commitments
+ he concludes
+ I believe we're entering
+ a new phase of cyber security
+ where the models are able to
+ find vulnerabilities
+ with internet scale impact
+ we believe that defenders
+ everywhere have a part to play
+ applying models to their own
+ defenses
+ finding and fixing issues
+ in shared infrastructure
+ and sharing best practices
+ that can ultimately make
+ the internet more secure
+ and the most optimistic
+ take is that ultimately
+ software will be more secure
+ a 16 Z's Martin Casado wrote
+ in the long run
+ AI is going to make
+ software so much more capable
+ and so much more secure
+ and reliable
+ but before that
+ things are going to get
+ much much worse
+ long-time listeners
+ will have heard me say before
+ that across so many aspects of AI
+ I am an incredible
+ long-term optimist
+ and yet long-term optimism
+ does not deny the potential
+ chaos pain and agony
+ of short or even medium-term
+ transitions
+ I believe that's the case for jobs
+ and it is certainly
+ the case for cyber security
+ and boy are we in it now
+ I will of course keep you informed
+ as things evolve
+ for now however
+ that is going to do it
+ for today's AI Daily Brief
+ thanks as always for listening
+ or watching
+ and until next time
+ peace
