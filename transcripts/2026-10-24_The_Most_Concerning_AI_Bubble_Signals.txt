@@ -1,0 +1,387 @@
+ As the anthropic IPO inches closer, discussions of an AI bubble are also getting a lot louder.
+ The concerns range from GPUs sitting in Amazon warehouses unused,
+ to the quality of neocloud debt, to the concentration of enterprise AI revenue.
+ In this episode, we're going to go through all of those concerns,
+ talking about which are in fact most concerning, and for those that aren't,
+ what would make them more concerning in the future.
+ The AI Daily Brief is a daily podcast and video about the most important news and discussions in AI.
+ All right, friends, quick announcements before we dive in.
+ First of all, thank you to today's sponsors, KPMG, robots and pencils,
+ CDATA and Blitzy. To get an ad for a version of the show,
+ go to patreon.com.ai-daily-brief or you can subscribe on Apple Podcasts.
+ And if you want to learn more about sponsoring the show,
+ send us a note at sponsors at aidailybrief.ai.
+ We're doing something we haven't done for a while, which is an AI bubble episode.
+ Now, recently the calls have been getting louder that the AI bubble has reached the end of the
+ road. On Wednesday, Americans for Financial Reform produced a report warning that the
+ bubble is, in their words, primed to pop. Senior policy analyst Maya Jenkins warned,
+ if nothing changes, working people will pay a high price for an AI crash.
+ Policymakers should be taking urgent action to produce the risks.
+ The bubble discourse has, of course, evolved quite a bit since its dominant place in the narrative
+ last year. And there have been many things that people have been pointing to as warning signs
+ over the past month. What we're going to talk about today is which of these signs matter most,
+ what the reasons for optimism, or at least reduced fear are, and what things in each of those cases,
+ if we saw them happen, would make me more concerned.
+ First, though, a bit of background. We're coming up on a three-week downtrend for tech
+ stocks, with the NASDAQ losing 3% on Thursday following a relatively flat week. Some blamed
+ Meta's Wednesday night earnings call, which made it clear that the next leg of their AI buildout
+ would be partially funded by equity dilution. This sell-off, though, has been happening for weeks.
+ In their latest Trading Flow report, Goldman Sachs reported that hedge funds sold tech
+ stocks at their most rapid pace in at least a decade last week. We also got an interesting
+ change in behavior during the Thursday session. For the past few months, treasury bond rates
+ have been surging, dragging up interest rates on commercial bonds, and making data center financing
+ more expensive. On Thursday, the ultra-long 30-year U.S. treasury bond dropped to a one-month low of
+ 5.38%. This is early, and none of the shorter-dated bonds have seen falling rates so far, but this
+ is indicative of a classic flight-to-safety reaction in the markets, in other words,
+ more money flowing out of risky assets like the AI trade and into the safe havens of treasuries,
+ which could spell more trouble ahead. Certainly the past few weeks have also
+ seen quite a bit of bearish analysis. One big example was Gartner,
+ who latched onto stumbles in the Neoclouds sector to claim that 80% of Neoclouds will
+ go bankrupt by the end of 2030. Their report argued that 3.5 trillion in AI infrastructure
+ spending would be subject to an impairment by then due to a lack of demand.
+ Gartner's chief forecaster John Lovelock told CNBC on Monday,
+ At the moment, we have more compute capacity than we have demand, and we have a lot of the tokens
+ and processing power being given away in freemium solutions. Everyone in the AI race is running
+ for a last man standing position. Pretty much every market that Gartner is tracking in our
+ AI race is likely to collapse down to a duopoly. To put some numbers around this,
+ Gartner estimated that through 2030, the owners of these data centers would need to generate
+ 8.5 trillion in revenue to cover what they have announced around capital spending, financing
+ costs, and a return on invested capital. On the other side of the equation, they argued, though,
+ they believe that total enterprise and consumer AI revenue is forecasted to not reach more than 3.6
+ trillion. Quite a big gap if Gartner are right. That, meanwhile, kicked off a frenetic week-long
+ news cycle around AI bubble fears. Citadel CEO Ken Griffin was one of many offering his opinion.
+ At a Wall Street conference on Tuesday, he proclaimed that we are, quote,
+ almost certainly in the middle of a bubble. His argument hinged on uncertain ROI, causing
+ a rethink on AI spending. Griffin commented,
+ Corporate America has been very uneven in its ability to extract value from its AI models.
+ I think all of Corporate America is looking at their bills from Anthropic and Open AI and going,
+ okay, we're going to need to think about how we're sure we're getting productivity out of
+ this. Which is not to say that bubble calls have been consensus. On the other side of the
+ argument, leaders from private equity firm Blackstone were out in force this week.
+ Now, the grain of salt here is, of course, that Blackstone has massive equity and debt
+ positions in the neocloud sector, including extremely early involvement in CoreWeave and Firmus.
+ But last week, veteran executive Jas Kyra said that he isn't concerned about data-centered debt.
+ Because hyperscalers are the tenants, Kyra claimed that this debt is ultimately backed
+ by the most creditworthy companies in the world. His phrase.
+ In a Bloomberg interview on Thursday, Blackstone President John Gray spoke directly to Ken
+ Griffin's bubble comments. Gray said,
+ When you think about a bubble, you think about building capacity and then hoping the demand
+ comes. With AI, you're building capacity and you're hoping you can keep up with demand.
+ Now the thing to be skeptical here is that every talking head you see analyzing markets
+ has a dog in the fight. I mentioned that Blackstone has positions in companies like CoreWeave
+ and Firmus, but on the flip side, Ken Griffin profits most when there's volatility in the
+ market. But there is a through line to this discourse that, as you'll see, I think is
+ pretty much the only thing ultimately that will matter, which is the question of demand.
+ In many ways, everything else is just a proxy fight for the big question
+ of how much AI demand is there going to be and whether the value of that demand
+ is ultimately higher than the amount being spent on the infrastructure.
+ Now, as we dig deeper into some of the big events that have shaped markets over the past
+ couple of weeks and try to sort through the signals that matter from those that don't,
+ I think it is worth being somewhat precise about our terms. When we use big
+ apocalyptic terms like AI bubble, we lose nuance. And people who are talking about
+ a bear market in stocks of the kind that takes stock markets down 20 or 30% are talking about
+ something quite different than a generational bubble burst like the dot-com crash which saw
+ over 75% wiped off the NASDAQ across two years. Stock market crashes, in other words,
+ are not the same as a credit or financial crisis. You can have one without the other,
+ and of the two, a stock market crash is far less damaging. While absolutely painful,
+ sometimes extremely so for those invested in the markets and especially those who
+ rely on their investments in markets like those living off fixed income retirement accounts,
+ if there's not a systemic problem for banks in the broader financial system,
+ markets can recover naturally. A credit crisis, on the other hand,
+ where mass defaults and contagion create impairments throughout the economy,
+ is quite a different problem and one that can require central bank intervention.
+ Now, if there's one segment of the AI trade that's been the locus of concern this month,
+ it's the neoclouds. We had the firm as IPO in Australia getting canceled after investment
+ banks couldn't find enough fires at their desired price, then a portion of coreweave
+ debt traded down to distressed levels, implying a reasonable chance of default.
+ Microsoft then pulled out of a planned data center in the UK because of power delays leaving
+ end scale high and dry, and more recently, we're starting to see the big players in AI ride to
+ the rescue. Anthropic is rumored to be in talks for a new $45 billion contract with end scale,
+ Goldman Sachs has upgraded coreweave stock to a buy, saying that some concerns over their
+ debt are overblown and the stock has become oversold, and Nvidia is rumored to be in talks to
+ invest hundreds of millions into firmus to help finance them after that failed IPO.
+ It would certainly be going too far to say that the neocloud jitters are overblown.
+ It is absolutely an area of the market to watch, and investors are keeping a very close eye on it,
+ but it's also important to keep the numbers we're talking about in perspective.
+ End scale is targeting a $30 billion IPO. In an industry where the key firms are worth
+ around $10 trillion as a collective, a $30 billion company is a relative minnow.
+ From strictly an economic perspective, it's likely the entire neocloud sector could go to zero
+ without it having much of an effect, other than, of course, the narrative effect which
+ would be gigantic. And that's why the big players are coming together to backstop the small guys.
+ According to the information, Nvidia has already provided $170 billion in support
+ for the neoclouds through credit guarantees and data center rental backstops.
+ The frontier labs and hyperscalers have also shown they're willing to put multi-billion-dollar
+ contracts in the headlines if anyone gets too shaky. The entire industry has a huge vested
+ interest in making sure these companies survive and their data centers get built.
+ So what then would be the most worrying concerns to watch for? If a neocloud gets into
+ trouble and nobody rides to the rescue, that would be a more concerning signal.
+ If distress started to spread from core weave zone bonds
+ to project debt for data centers leased to Meta Microsoft or Google,
+ that might suggest that the markets doubt the tenant, not just the neocloud.
+ Finally, if a hyperscaler or lab walks away from capacity because it doesn't need it,
+ that would be huge. Remember, Microsoft's UK exit was blamed very specifically on power delays.
+ A cancellation blamed on demand would be a totally different story.
+ One story that's getting a ton of attention from certain critics this week
+ is that Amazon has a huge pile of GPUs gathering dust in a warehouse.
+ On Tuesday, Business Insider wrote,
+ Under a new early-rack receipt process, AWS expects to receive roughly $5 billion in
+ Nvidia's GB300 server racks at US facilities before final deployment.
+ The company projected roughly $3 billion more in GB300 racks each month for the foreseeable future.
+ GB300s are the current top-of-the-range AI chips, the latest in the Blackwell series.
+ Sources said that Amazon has room for more racks,
+ but they don't have the power to turn them on.
+ According to emails viewed by Business Insider, at least one team at AWS did not have a quote
+ clear forecasted path to getting the new racks installed.
+ An Amazon spokesperson said it's routine to stage hardware ahead of construction
+ and that being prepared to plug in GPUs once the power is available is best business practice.
+ The article also noted that Amazon is attempting to secure scarce GPUs ahead of the competition.
+ The critics take here this week has been the idea that Nvidia is somehow
+ forcing hyperscalers to take delivery of GPUs even if they don't have the power to use them for
+ fear of losing allocation to future chips. There have been direct claims that Nvidia is channel
+ stuffing or forcing sales to realize revenue more quickly. Basically, that the ruthless and
+ powerful Jensen Huang has all the hyperscalers under his thumb. As the logic among those
+ critics goes, this means that some amount of Nvidia's revenue is fake, demand for GPUs and
+ therefore AI is softer than it appears, and the whole bubble is getting ready to fall apart.
+ I have a hard time coming to the same conclusion. There's no reason to doubt
+ Business Insiders reporting, they're very well sourced at AWS and this has clearly
+ been a month's long investigative piece to find out how many GPUs are actually being installed.
+ But the Occam's razor explanation here is not a lack of AI demand, it's that there's
+ a lack of powered up data centers. Amazon, even if Jensen was a ruthless businessman,
+ would not be ordering tens of billions of GPUs if the long-term plan is just to
+ warehouse them indefinitely. It would make much more sense that Amazon is genuinely
+ concerned about future access to chips. Currently, GPUs are still being priced at a gigantic premium
+ with old hardware selling above its original price. Meanwhile, old hardware is still in
+ active use, reducing the harm in storing GPUs for a few months.
+ Frankly, among a lot of things that we'll talk about today, this is one story that feels
+ like gasping at straws, looking for any possible sign that the AI infrastructure
+ buildout is falling apart. It's leaning a bit too hard on the comparison to dark fiber
+ during the dot-com era, but that was an issue of too little demand for already installed infrastructure.
+ This is too little infrastructure to service demand. There are plenty of implications and issues
+ with the challenges of getting data centers built and power connected, but those issues
+ don't have anything to say ultimately about the demand for GPUs or AI in general.
+ Again, just going by the simplest available explanation, Occam's razor,
+ if AWS has to warehouse GPUs, it seems more likely to be a positive sign that demand a sky high
+ than an aferious plot to boost NVIDIA earnings. And frankly, even if that is the case,
+ it just demonstrates that NVIDIA still has all the pricing power in the world.
+ Quietly bubbling away in the back of everyone's mind, though, is the question of where all the
+ data center debt is sitting. This gets back to that idea of the difference between a stock
+ market crash and a more systemic issue. Especially after the experience that
+ people lived through in 2008, every time there's any sort of market wobbles,
+ the natural question is to ask if and how contagion can flow. In this case, if the AI bubble bursts,
+ is it going to blow up the pension system or major insurers like we saw during the GFC?
+ That is a notoriously difficult question to answer definitively,
+ and this is an area where we should absolutely tread with humility.
+ What we know for sure is that a significant amount of data center debt
+ has been collateralized and sold to insurers and pension funds.
+ The information reports that a collection of giant insurance firms bought more than $740
+ million worth of core-weave debt the last time they sold bonds. They listed American
+ General Life Insurance, Fidelity and Guarantee Life and Security Life of Denver,
+ all of which have portfolios managed by Blackstone. In the abstract, that seems
+ like a big number, but realistically, $740 million spread across these large portfolios
+ is a rounding error. It is still meaningful that they're carrying data center debt,
+ and it would leave a hole if that debt defaults, but it certainly so far doesn't look like
+ the potential of a mass impairment we saw following the GFC.
+ A new study from KPMG in the University of Texas at Austin found that when people work with AI,
+ similar skills don't guarantee similar outcomes. Researchers studied more than 500
+ early career professionals and found that the best performers consistently amplified the value of AI
+ by guiding, evaluating and refining its outputs. These top performers, called AI amplifiers,
+ weren't defined by what they knew alone, but by how they worked with AI. Learn more about what separates
+ AI amplifiers from everyone else at kpmg.com slash us slash AI amplifiers.
+ At this point, it's no longer a question of whether companies are actively using AI.
+ Using it well, on the other hand, is a whole different story. Robots in pencils though is a
+ company that I can point to that is actually built for this time. They're an applied AI
+ engineering firm working directly with clients on problems that matter to the business,
+ not experiments that live in a slide deck. Every engagement starts by working backwards
+ from the outcome a client actually needs. If you're trying to tell real AI engineering
+ apart from noise in this space, that's the difference maker. Head to robotsandpencils.com.
+ This episode is brought to you by CData. Companies rolling out AI keep hitting the
+ same wall. Token spend is climbing, security is holding agents back, and no one knows how
+ AI is truly being used. The root cause, AI is cut off from the systems and context your
+ business runs on. That's why CData built Connect AI Gateway, one control point between your AI and
+ your systems. Built on the connectivity layer, powering Palantir, Google, Salesforce, and hundreds
+ more, each agent gets exactly the data and tools it needs. It governs down to the record and lets
+ you finally see your org's complete AI usage in one place. Accurate answers, a fraction of the
+ token cost, and a gateway that learns your business with every interaction. See how at cdata.ai.
+ Blitzy's understanding of massive code bases unlocks autonomous security fixes, modernization,
+ and new features. So what happens when there's no legacy code at all? Greenfield is supposed to be
+ the easy part. Clean slate, no technical debt. But even Greenfield moves at human speed once
+ printed a time. Blitzy changes the unit of work from the developer to the project,
+ autonomously planning, building, testing, and validating entire applications from scratch.
+ Hundreds of thousands of lines of production ready code. One Blitzy customer stood up
+ a brand new application, 534,000 lines of code, compressing a 65-week roadmap into two weeks.
+ Another shipped an entire application with no front-end engineer. Legacy or Greenfield,
+ the answer is the same. Software at the speed of compute. Build what's next at Blitzy.com.
+ That's blitzy.com.
+ Another pocket of risk to be aware of is the growing pairing of insurance firms with
+ private equity. The canonical example is Apollo Capital, which merged with an insurance firm called
+ Athenae in 2022. This is a classic financing strategy pioneered by Warren Buffett. The insurance
+ company gets favorable tax treatment, and the investment firm gets a steady flow of capital.
+ This is a complex corner of finance that is certainly beyond the scope of this show.
+ But one important thing to understand is that these aren't major insurers like State Farm
+ providing auto and home insurance. Instead, they're offshore insurers that mostly sell
+ life insurance and annuities. It's a real risk, and they could definitely become impaired during an
+ AI credit default, but they're mostly a risk for the wealthy people who invest in annuities.
+ Finally, there's the pension funds, which definitely have exposure to the AI sector.
+ How could they not? Their job is to invest in stocks and bonds, and for the past four years,
+ the bulk of the returns have come from AI. The Wall Street Journal reports that AI drove
+ $138 billion in gains across 13 public pension funds since 2022. Last week,
+ a report from Americans for Financial Reform stated,
+ speculative data center debt is being repackaged and sold to pension and retirement funds,
+ university endowments, and other institutional investors in a manner eerily reminiscent of
+ the subprime bubble. Private equity firms have purchased life insurers and loaded
+ them up with risky debt, exposing policy holders and the public to losses and raising the threat
+ of financial contagion. That report was largely interested in arguing against an AI bailout,
+ which many are certain the Trump administration will indulge in at the earliest opportunity.
+ But understanding not just how it is similar to the subprime bubble, but how it is different
+ is essential here. Everyone remembers the slices of mortgages chopped up and sold to pension funds
+ as CLOs during subprime, depicted as a jenga stack in the big short. There is less discussion about
+ why that was actually a problem. It wasn't just about chopping up the debt and combining it
+ into a CLO. The problem was that those CLOs were rated investment grade debt. They were
+ treated as being just as safe as treasury bonds. This time around, data center debt is being
+ treated as corporate bonds, sometimes investment grade, sometimes not, and definitely nowhere near
+ the same as treasury bonds. They're sitting on pension and insurer balance sheets,
+ just the same as thousands of other bonds. During subprime, chopping up the debt was explicitly
+ and intentionally used to obfuscate how risky it was. This time around, no one is pretending
+ that data center debt is as safe as houses. But again, I want to not just focus on why
+ things are maybe worth a little pause in the stress right now, but what could in the
+ future be more cause for concern? One cause for concern would be that if we saw a disclosed
+ exposure jump by orders of magnitude or concentrating in a handful of PE-owned insurers, 740 million
+ spread across big portfolios is thin. But if that jumps to tens of billions sitting in two or
+ three insurers, that could be a different story. Another concern would be if data
+ center debt started to get repackaged into securities that were rated higher than the
+ loans underneath them. And again, the point here is not that these things are impossible,
+ it's that they're not the things that are happening yet. Now going back to the idea of a
+ bailout, another big topic of discussion of late is the idea that the large AI players are
+ looking to make themselves too big to fail. This discussion came back with a vengeance
+ after Anthropic and then Elon Musk said that they would gift equity to the public through two
+ very different mechanisms. Now there is a whole very important policy discussion about whether
+ this is actually appropriate in a democratic society, whether it's a good way to redistribute gains
+ or possibly a glaring sign that billionaires and mega cap companies need to be paying more in taxes,
+ but that's not the particular can of worms that we're opening today.
+ There is clearly a solid argument that giving the public a direct stake in the
+ companies risks making them too big to fail. And to be clear, when we say too big to fail,
+ we're using a specific term from the last 15 years that refers to institutions
+ that the government feels obligated to come in and protect regardless of what would
+ otherwise happen to them in the free markets. This is an area where I am perhaps more
+ cynical than some of you and forgive me if so. Realistically, I think if your concern is that
+ we're going to get another group of too big to fail companies, in my opinion that ship has already
+ sailed whether or not they give shares to the public. At this stage in the history of the
+ relationship between the US government and markets, it seems massively unlikely to me
+ that the government would just stand around while a trillion dollar company blew a giant
+ hole in their economy. The government didn't let it happen with GM in 2008 and certainly
+ the norms of how the government engages with markets have gotten a lot weirder since then.
+ On the other hand, as for the argument that these companies are engineering a bail out
+ ahead of a market crash, that's something I just don't buy. Regardless of what anyone
+ wants to say about Anthropic, it's pretty clear at this point that they have a genuine
+ belief in their mission, and the simplest explanation once again is that they want
+ to establish a giant public benefit fund to further that mission. As for Elon Musk,
+ you have the convergence of the fact that it would be entirely consistent if he did believe
+ that this sort of giving is the best way to impact public benefit, but also there's the fact
+ that more cynically he might be reading the room that some sort of redistribution is going to happen
+ and he thinks if he gets out ahead of it he might be able to control it rather than be subject
+ to it. And there's also the more armchair psychologist assessment that the man loves
+ being loved and there's no easier way to being loved than to give 11 billion dollars to the
+ American public. This is one that at the moment I don't think is worth spending a ton
+ of additional time on, but for the sake of completeness in terms of what to watch for,
+ if you start to see AI companies begin to ask for explicit federal guarantees or loan programs or
+ financing backstops before there's a crisis, that could cause let's say a different conversation
+ here. I think of all the warning signs that people are bringing up, the one that is most
+ interesting and deserving of deep consideration is the question of revenue quality. Although even
+ within this there's a bunch of different versions of it that I think have very different dynamics.
+ On the one hand you have NVIDIA, who reported that just two customers made up 39% of their
+ Q2 revenue. On the other is the Wall Street Journal's recent leak of Anthropics IPO Prospectus,
+ which noted that a fifth of Anthropics revenue in the first half came from their top two
+ customers. Relatedly, ramp data has shown that the top 1% of businesses account for
+ 80% of spending volume for open AI and Anthropics through Ramps platform.
+ So how are these different? Well NVIDIA has a highly concentrated customer base
+ because there's only a handful of companies in the world that are building multi-billion
+ dollar data centers. And some of this might even apply to the Anthropics story.
+ A large chunk of their revenue is likely coming from the hyperscalers because that
+ relationship is that of a wholesaler and a distributor rather than a vendor and customer.
+ Revenue quality becomes an issue when there's a big risk that one of your largest customers
+ could pull the plug. For hyperscalers reselling Claude tokens, that seems very unlikely to
+ happen in the short term. A much bigger concern, I think, is this narrow distribution of power
+ users making up the bulk of enterprise AI use. As always, we need to contextualize ramp data,
+ recognizing that they service a very, very slim part of the market, extremely forward-looking
+ companies, extremely tech-advanced companies, many of them from the tech sector. And yet
+ it's still worth noting that Ramp found that 80% of the top 1% of AI customers are VC-backed
+ startups. Some amount of that volume is wrapping frontier tokens in a service
+ and providing a VC subsidized discount, which is of course the business model for some of the
+ agent startups. And we can also presume that a lot of the token volume is for internal use,
+ which is also funded by VC dollars. Where this becomes a problem is if VC money dries up,
+ and these startups hit the end of their runway. At the moment, AI venture is still a raging
+ bull market, but that can always change. The bigger risk, and really the big question here,
+ is how much of AI spending is permanently going to be subject to power laws without broadening out?
+ In other words, is this incredible concentration likely to hold as the demand
+ profile for the entire AI industry, even as buyers mature? Or is it simply an indicator
+ of the difference between companies at different stages in their adoption cycle?
+ If the startup spending around $9,000 per employee per month are the top of the chart now,
+ at some point in a decade, are all enterprises spending $9,000 per employee per month?
+ And if not, how close to those sort of numbers are they going to get?
+ Ramp has seen businesses across all cohorts triple their spend per employee since the summer.
+ Businesses not in the 1%, but in the 10% went from around spending $200 per employee
+ to around $800 per employee growing faster than the median. That suggests an adoption
+ curve that is expanding out across the economy, but there's certainly no guarantee there.
+ Another curveball, which gets into our next and final line of discussion,
+ is that this particular risk gets far more tangible after the major labs go public.
+ At the moment, this risk is based on data from Ramp, the often misunderstood Silicon Data
+ Token Index, and various other unofficial sources that have a tiny sliver of the full picture.
+ Once Anthropic and OpenAI go public, they'll have nowhere to hide.
+ Their fully audited financials will be reported quarterly, and their CEOs will be grilled by
+ equity researchers on earnings calls. If they're not growing and improving their revenue quality,
+ everyone is going to know about it. And of course, clearly, the rapidly approaching
+ Anthropic IPO is a big part of the reason that the AI bubble is back in the discourse.
+ Frothy markets often top on a catalyst that breaks the suspension of disbelief,
+ and for many, the Anthropic IPO seems likely to fit that bill.
+ What we've learned so far about Anthropic's financials have, compared to at least what many
+ people were thinking, looked less than stellar. The headline that Anthropic made an $80 billion
+ loss in the first half went viral on social media, even though this was an accounting loss
+ and their true cash loss was $8.7 billion. Still, we're seeing valuation soften as
+ Anthropic enters the final stretch. OpenAI's fundraising is expected to close soon,
+ and the information reports that the valuation will come in at $1.25 trillion.
+ Earlier reporting had it at $1.4 trillion. Now, I don't know if you can consider
+ the difference in an early leaked reported number and the actual factual final number,
+ as being clearly a valuation downgrade as opposed to just misreporting,
+ but that's certainly how investors are looking at it.
+ While some Anthropic investors were originally pushing for a $2 trillion valuation in the press,
+ more recently there's been reporting that another group is pushing for $1.5 trillion.
+ Meanwhile, the rest of the IPO market is completely frozen, with less than $600 million raised so far
+ this month. West Riggs, the head of equity capital markets at Truist Financial said,
+ people are truly paralyzed. The market has to sort itself out.
+ The US capital markets transaction leader at Deloitte and Touche said,
+ there is a stalemate on valuation, and rationalizing that gap is what needs to happen
+ before the broader market can move forward. Essentially, companies looking to IPO are
+ asking for more than investment banks will give them. This could mean Neoclouds are unable to go
+ public and consequently unable to access their next tranche of funding, leaving private equity
+ holding the bag. But ultimately, as with any market or market psychology issue,
+ this one is only resolved by the next thing happening. In Bloomberg opinion this week,
+ Chris Hughes wrote about the long list of problems with the AI trade but concluded,
+ some of the questions currently weighing on the market will be resolved over time,
+ but if Anthropic could just get on with its IPO, that would give everyone one less thing to
+ worry about. And I think that there is real risk here. Not for some sort of systemic contagion
+ or anything like that, but from the standpoint of confidence in the AI trade. If Anthropic prices
+ their IPO at $1.5 trillion after investors splashed around the $2 trillion number for months,
+ that's not great but ultimately probably not all that concerning. If on the other hand
+ Anthropic prices at $1.5 trillion and we still see a weak reception in the market,
+ that will confirm a lot of people's worst fears about the state of the AI trade.
+ The point of today's episode is neither to definitively try to deny any causes for market
+ concern nor to surprise you and come out saying that some AI bubble burst is inevitable.
+ Instead what I've tried to do is look at each of the different sub-components of the narrative
+ in turn and talk about where I think they are today and what would make me more concerned going
+ forward. One thing that's undeniable is that the narrative that the AI bubble is about to burst
+ has been a recurring feature of this market cycle, going back all the way to the beginning
+ of the generative AI era. For whatever reason it seems to come up around this time of year.
+ In 2024 we saw massive concern about AI scaling hitting a wall after reports that multiple labs
+ were seeing a slowdown in model improvement but then just shortly after that we got the first
+ reasoning models and farther after that advances in chips with more memory that allowed multi-trillion
+ parameter models to be trained. Then of course last year there was a concern that enterprises
+ weren't seeing returns from AI and wouldn't continue paying. This of course embodied in
+ the bane of my existence the MIT report about the 95% of generative AI pilots failing. Spoiler alert
+ enterprise spend didn't dry up instead it boomed and is still growing at around 50% a quarter.
+ Now previous bubble calls being wrong does not mean that all bubble calls in the future will
+ be wrong as well. It just means we'd all be better served carrying around bags of salt at this
+ point to take with all of these big bombastic headlines. With the anthropic IPO coming up
+ we will get a much more definitive answer soon. The impacts of whatever that shows
+ remain tantalizingly and frustratingly in the future and for now all we can do is speculate and
+ debate. Hopefully you've got a bit more fodder for that now and that's going to do it for
+ today's AI Daily Brief. Appreciate you listening or watching as always and until next time peace.
