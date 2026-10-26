@@ -1,0 +1,403 @@
+ Claude duet is out this week, the latest in the personal agent space, and today I am going to
+ walk you through how I'm actually using it, which, when I dug in, kind of required me to give you
+ an overview of how I'm using AI overall, so let's dive in. The AI Daily Brief is a daily
+ podcast and video about the most important news and discussions in AI.
+ Alright friends, quick announcements before we dive in. First of all, thank you to today's sponsors,
+ KPMG, Robots and Pencils, CData and Blitzy. To get an ad-free version of the show,
+ go to patreon.com.ai-dailybrief, or you can subscribe to an Apple podcast.
+ To learn more about sponsoring the show, send us a note at sponsors.ai-dailybrief.ai.
+ Also one more announcement we recently launched at Super Intelligent, the new AI Champions program.
+ It's a way to learn not just how to use AI well, but also how to bring that AI to the rest of your
+ organization. There's a link to that you can find at the top of the AI Daily Brief website,
+ or you can just go directly to bsuper.ai. So for this episode, I wanted to go a little bit
+ deeper on the just announced Claude duet. And more broadly, I realized as I was preparing for
+ this, I haven't done an episode for a while around how I'm actually using AI, what my current stack is,
+ which tools I'm using for what purposes, what use cases are getting the most value.
+ And it turns out that in sharing how I'm using this new generation of personal agents,
+ or at least experimenting with them, some amount of that background is necessary.
+ What's interesting to me is that I believe pretty firmly that we have to treat the form
+ factor of these personal agents as still experimental. Yes, we are absolutely seeing
+ early traction and uptake, especially with Muse. And certainly the fact that we've been playing
+ around with this form factor since open claw exploded earlier this year suggests that there
+ is some here here. What I found though, to give a bit of a preview is that I'm still trying
+ to figure out how much these personal agents are supposed to be my chief of staff organizing
+ everything I do versus a very specific proactive proxy me type of employee that goes out and figures
+ out how to be helpful without me asking. But I'm getting ahead of myself and understand the
+ background of how I'm using these tools. Let me situate you more broadly in my major AI use cases.
+ I'll try to make this as valuable to a wide cross section of people as I can.
+ My main job, cutting across both the AI Daily Brief and Super Intelligent,
+ is thinking about what to do or what to create next. On the AI DB side, this is primarily in the
+ content domain. Whereas on the Super Intelligent side, it's more about business strategy about trying
+ to understand what learning gaps there are for AI users. And because a big part of my job
+ is strategy that involves a lot of externalization. I'm not a person who just quietly thinks
+ to myself, I like talking it out. In fact, I have reams and reams of notes and notion
+ that I call walk notes that are the times when I'm either walking or driving or sitting
+ and thinking through ideas and what I'm going to do next. This particular use case has always been
+ my number one, at least in terms of sheer volume of time spent. If you look across every thread and
+ conversation and session I've ever had with AI, probably 60% maybe are in this strategy realm.
+ Not necessarily in terms of volumes of token consumed, that of course goes to building.
+ But just in terms of the sheer amount of time I've spent, it's absolutely tops.
+ This is one area where model differences have huge impacts. I always say when there's a new model
+ that at this point it's not about asking if they're going to be a one-to-one replacement for what you're
+ using but understanding where they fit into your stack. But I am always with every single new major
+ model testing it against this sort of strategic externalization to see if it will in fact be
+ a one-to-one replacement for what I'm using now. When it comes to what makes for a good model
+ for me when it comes to strategy there's a whole bunch of factors. The most important and hardest
+ in a lot of ways is its approach to pushback and sycophancy. For a long time these models were frankly
+ not all that much better than just writing things down on paper because they would never push you.
+ Everything was the best idea ever and that's actually not that helpful if you're trying
+ to make ideas really good and only pursue the ones that are really good. In that circumstance
+ you don't want a yes person who's saying that every idea you have shines like gold,
+ you want someone who can critically engage, and who importantly is doing so based on something
+ not just because it's been trained that pushback is good. This is a really really hard line. Models
+ have to be dynamic enough, creative enough, but also adaptable enough, but also confident enough
+ and yes I'm using all these anthropological terms even though I don't ascribe to the
+ anthropomorphic view of AI because they're the only real way to describe what I'm looking
+ for when it comes to this use case. Anyway Opus 5.5 is my favorite model that I've used in
+ a very long time for this. I was using Fable 5.1 before that which was okay and before that for
+ a while had been using open AI models although for most of this year I found that GPT models to be
+ a little bit flat and not dynamic for this sort of work which as we'll see follows into dots.
+ My next use case is research. As you might imagine with the AI Daily Brief
+ and with this new upcoming project that I'm about to tell you about how we got here,
+ research also represents a big chunk of what I do. We also often have research for my wife's
+ true crime podcast Love Murder that I produce and because all of this research is resulting
+ in either me or my wife saying things publicly, we really need the models to be good, to be well
+ sourced, to not hallucinate stuff, to be able to understand the sourcing, to be able to put
+ proper emphasis on different types of sources versus others and for this use case I actually
+ use Astra and Opus about equally and it's also the type of use case that can especially
+ in really important circumstances benefit from them interacting with one another.
+ If I'm researching a topic I will very frequently have both Astra and Opus go at it
+ and then share the results across so that Astra is reviewing Opus and Opus is reviewing Astra
+ to add that additional layer of confidence before it then turns into content however
+ it is that I happen to go turn it into content. The next use case that is a daily one for me
+ is copywriting. I don't use AI to write any of my podcasts because they're not scripted
+ podcasts. For a little behind the scenes the way that we produce the AI daily brief is that
+ every evening I do a big survey of everything that has happened in AI that day. A lot of times
+ I've been tracking it all day but if I haven't been I'm going to take an hour or two to go deep
+ on both the news but also the discourse. Meanwhile my researcher in Australia which
+ is a hack that allows us to be working 24 hours a day by the way does the same during his
+ morning and at about 8 or 9 pm eastern time we lay out exactly what the show the next
+ day is going to cover. My researcher Scott then overnight prepares a dossier that includes key
+ sources that I'm going to talk over and especially a lot of the key commentary things like posts from
+ social media that form a lot of the meta narrative of the show. When I wake up I use that dossier
+ to lay out the screens that I want to talk over in the rough sequence that's in my head
+ and then I just let it rip. I always think it's funny actually when I get comments
+ that I'm AI talking about AI because there's actually shockingly little AI used in this process
+ and honestly probably some ways that we could be more efficient but that's how we do it.
+ On the flip side though when the episode is done,
+ copywriting is something I use AI for every day. Episode descriptions are an obvious place for
+ that as well as social posts although that's a process that I'll get into in just a moment
+ and titles are a bit of a back and forth. I always have a title that I'm coming in with,
+ I always give the AI a chance to try to convince me of something different
+ and I would say about 50% of the time I stick with exactly what I had with the other 50%
+ of the time some back and forth between me and the AI producing a different title.
+ For that I actually use Astra. I think this one is a little bit about memory and context.
+ I've been using GPT models for so long for this that there is a very long track record of what
+ I do and don't like and so even if Opus or Fable were just as good or even better at copywriting
+ the amount of time to tune it just doesn't strike me as worth it.
+ I also think that the concision of copywriting is something that I've heard lots of people
+ like OpenAI's models better for right now and that certainly plays into the value for
+ copywriting as well. Closely related to the copywriting is the way I use image generation.
+ Image generation actually comes into my work a lot on a daily basis. I will very frequently use it for
+ inside shows as I'm doing right now you can see these images that I'm talking over and no matter
+ what every day I'm creating the cover image at least for the show using AI as well. At this
+ point image generation has pretty much just become the GPT image models that's not necessarily
+ because I am convinced they're better. I still maintain subscriptions with ideogram and mid-journey
+ ideogram I really like as a way to iterate because as opposed to creating a single image at a time
+ like you do with chat GPT ideogram is creating four at a time and gives you toggles for how widely
+ varied you want them to be in mid-journey is just its own weird beast with a lot of strange
+ taste and artistry that depending on the particular use case can sometimes just be way
+ better especially if you're not exactly sure what you want out of an image you just want
+ to be cool or interesting or visually arresting and you want to give the model some latitude
+ that's where mid-journey is really valuable. For my purposes the main image generation is going to
+ be those covers and I'm producing them right after I've finished locking in the headline
+ so it makes sense all to just keep in that single thread. Another big use case which is one
+ that actually extends and expands outside of my role as a content creator is data analysis.
+ My brothers and sisters in arms who filed their taxes on an extension this year
+ probably just went through this experience of dumping a whole bunch of financial data in
+ and having it organize it extract your expenses etc and for almost every sort of data analysis project
+ I'm using Astra inside of Codex for me it provides the best results and has that sort of
+ concision of thought that I think is really valuable for this type of use case and then
+ we come to building and this of course is a huge category. I like many of you have used
+ lots and lots of different tools and harnesses and models and stacks for building this year.
+ We did Open Claw for a while and of course Codex and Clawed Code in both their application as well
+ as the CLI versions third-party tools like cursor but for me where things have landed pretty
+ consistently is Clawed Code with Opus 55 being the default model and the effort settings
+ usually on high or extra. Now I will frequently build inside Codex using Astra as well
+ specifically to get native access to the image generation models so a lot of times the companion
+ experiences that go with the show if they're particularly visual will be built in Astra
+ but ultimately I do most of my organizing narrative architecture and orchestrating all
+ the building in Clawed Code. I also I should note give Clawed Code access to GPT image models
+ via the API although I have found a difference using the image models inside Codex as opposed
+ to via the API through Clawed Code. In terms of specific assets that you guys see all of the AI
+ daily brief site was built and is maintained by Clawed. In fact part of the reason for this actually
+ I think tells the story of one of the key model updates of this year when I first got access
+ to Fable what made it feel different from other models was that while it had been easy for
+ a while to start building things Fable it felt like brought that ease to just getting them done
+ as opposed to having projects hang at 80 or 90 complete with the activation energy sufficiently
+ low but the completion energy still too high Fable just brought that completion energy way down and
+ match the activation energy. Now specifically with the AI Daily Brief website I had known for
+ a couple of months that I needed to switch off the old cutesy 1990s aesthetic website that I had
+ that was fun and retro and evocative for me but totally non-functional and I had a specific
+ mandate that I knew I wanted to achieve. The AI Daily Brief is a very information dense show
+ which I think it seems is a big part of the value proposition that you get as much information
+ per minute as you do but that also speaking of activation energy creates a pretty high
+ barrier to entry. I had heard from lots and lots of folks that a really important thing
+ that they wanted was an easier way to share specific parts of their show with their peers
+ and colleagues. So I knew that the website needed to not just be a website but actually
+ needed to be a production pipeline that could take the raw content or transcript of the episode
+ and turn it into a very different type of web content. That's what I designed and built with
+ Fable and I actually did it on the first afternoon I got access completing the entire
+ first draft in that afternoon which was a good thing because the next day was when Fable got
+ taken offline because the export control dust up with the White House. The first stage of
+ building that pipeline was to build a system by which I can upload a transcript and it can
+ extract the relevant information from that transcript and organize it into these shareable
+ assets that then go up on the web. Using Fable and Claude design we were able to build an aesthetic
+ for this that doesn't use any image generation which of course has limits but it works for what
+ we're trying to do here. It's visually consistent it's clear it's readable and it uses text and
+ color based elements for a lot of the brand identity. The next step which was also with
+ Claude was expanding that pipeline to social. Truth be told I have never given social the
+ time it deserves and to be clear the way to be successful on social is to actually sit there
+ and engage with people and spend time on it but I at least wanted some amount of content going up.
+ Using Fable again because this was pre-opus 5.5 I added a secondary pipeline where once the
+ episode is finished extracting those cards then go through a secondary process generating a set of
+ tweets and a LinkedIn post. Those are then scheduled with a third-party service typefully.
+ I did explore messing around with the apis to connect directly to the services
+ but a third-party like typefully has already done all that work and it was way easier to just plug in
+ there. The most recent step has been video and here it's got the same principle as social
+ it's better to create net native video for the channels but in the absence of that I wanted
+ at least one clip per episode to go with Spotify. Recently and especially with opus 5.5 the models
+ in Claude have gotten enormously good at video editing so much so that I actually think
+ that even if you don't think you have a reason to be using video right now you may still
+ want to go and experiment but in any case I asked Claude Code to build me a video production pipeline
+ that matches the aesthetic of the website and so what it does each day is I feed it the transcript
+ it reviews and makes a judgment call around the best most compelling most self-contained
+ 60 to 90 seconds it then extracts that clip builds other visual assets around it
+ and packages the whole thing up for download that I can then upload wherever it goes.
+ Now spoiler alert for something that the rest of the audience will hear about tomorrow
+ this process was all in place when I started working on a new show called how we got here
+ the idea of how we got here is kind of right there in the name it's a show that looks at the
+ specific social cultural technological and economic factors that led to today's biggest
+ stories phenomenon and events the idea is that everything that we experience now comes from
+ some specific set of decisions that were made in the past and in order to remake or reimagine
+ those phenomenon we need to understand how we got here it came out of a lot of times
+ recognizing on this show that I just didn't have the space to go as deep as I wanted to into a
+ particular issue and so it's 45 minutes to an hour it'll be once a week and to give you a little
+ bit of a flavor the first episode is about how America fell out of love with the tech industry
+ the second is about how it was that stuff got cheap while all the important things in life got
+ more expensive and the third is about prediction markets and how we started betting on everything
+ the first episode comes out on Monday October 26th but I've been working on this for a
+ while now and luckily I had all these processes in place Claude is where I iterate on the ideas
+ both from a strategic and distribution standpoint as well as the content ideas from there I'm going
+ to use both Claude and Atlas to create rich research dossiers I then do a round of feedback
+ have Claude lay out the key beats based on the arguments I'm trying to make I go source
+ visuals lay them out just like I do for the AI Daily Brief and then talk over them this
+ time for a long time resulting in a 40 minute to hour long show but here's where we really
+ started to expand and even push on the process from AI Daily Brief after I record I rip out the raw
+ transcript of myself and hand that plus the original research back to Opus 55 to have it do the first
+ draft of a companion essay the goal of the companion essay is to be a place that makes
+ the same argument I'm making on the show but with a lot more visual richness and that is
+ presented in a format for people who like to read with the easy ability to get more links
+ and the sources behind the show but we're talking about an hour of material 5000 6000 words of essay
+ so from there I take the essay drop it into codecs with Atlas and leverage GPT image to
+ create a whole aesthetic and look and feel for those wondering by the way I then do an exhaustive
+ and exhausting edit of that essay where based on the first three I rewrite about half of it
+ but we're still not done with Claude code at that point because like I said this latest round
+ of models have made a major jump in video editing now I have a team of video editors
+ but we're doing things a little bit differently where they do the first pass taking advantage
+ of a lot of the processes that we built over the years with a IDB and then we integrate AI
+ to add animations and to plug it directly into the clip pipeline
+ a new study from KPMG in the University of Texas at Austin found that when people work
+ with AI similar skills don't guarantee similar outcomes researchers studied more than 500
+ early career professionals and found that the best performers consistently amplified the value of AI
+ by guiding evaluating and refining its outputs these top performers called AI amplifiers weren't
+ defined by what they knew alone but by how they worked with AI learn more about what separates
+ AI amplifiers from everyone else at KPMG.com slash us slash AI amplifiers the best teams don't
+ have a single star carrying everyone else they know their own strengths than each other's
+ weaknesses and played a both that's the team robots and pencils has built on purpose nobody
+ there is grinding through busy work to pad a headcount number people come for the hard problems
+ and they stay because everyone around them is leveling up at the same time in a market full
+ of companies that are just trying to hire fast that's worth a look check out robotsandpencils.com
+ slash careers this episode is brought to you by cdata companies rolling out AI keep hitting
+ the same wall token spend is climbing security is holding agents back and no one knows how AI
+ is truly being used the root cause AI is cut off from the systems and context your business runs on
+ that's why cdata built connect AI gateway one control point between your AI and your systems
+ built on the connectivity layer powering Palantir Google Salesforce and hundreds more
+ each agent gets exactly the data and tools it needs it governs down to the record and
+ lets you finally see your org's complete AI usage in one place accurate answers a
+ fraction of the token cost and a gateway that learns your business with every interaction
+ see how at cdata.ai every AI coding tool on the market does the same thing first it starts writing
+ code blitzy does the opposite before writing a single line blitzy spends days reverse engineering
+ your entire codebase thousands of agents ingest millions of lines mapping every dependency
+ every undocumented constraint every architectural decision made over the last decade the result
+ is a dynamic knowledge graph that understands your software the way a principal engineer
+ would after 30 years in the building other tools guess it context with grep searches and markdown
+ files blitzy never guesses it builds true understanding first then delivers over 80%
+ of entire software epics autonomously validated end-to-end tested production grade pull requests
+ that's why fortune 500 engineering teams trust blitzy with the codebases that matter most
+ see for yourself at blitzy.com that's blitzy.com
+ okay so this is all the relevant background on how I use AI on a daily basis it's obviously super
+ closely focused on content creation and building the infrastructure around content and you'll
+ probably notice that a lot of the things that other people get lots of value out of AI with
+ are not here for example I didn't mention inbox monitoring automated responses to certain types
+ of emails slack monitoring general updates all that sort of proactive stuff and I haven't taken
+ the time to really organize that sort of AI work because up until now for me personally the juice
+ wasn't worth the squeeze I did experiment with this with open claw I had individual claws managing
+ specific pieces of what I did using the heartbeats and cron job setup to monitor and do specific
+ things at specific time intervals I also had a chief of staff agent that was meant to
+ coordinate across all of those and at the time there was a persistent research job that I was doing
+ as part of AI DB and super intelligent that was monitoring studies and surveys and AI adoption
+ so those were my two experiments with proactivity the proactive always on research agent and the
+ chief of staff style monitoring agent now eventually I stopped having need for the research agent
+ because that just wasn't a project that I was working on in the same way and when it came
+ to the chief of staff it kind of lead just wasn't adding enough value to deal with the
+ maintenance and upkeep now to be clear that might have a lot to do with me I am incredibly
+ assertive about limiting and managing my calendar 90% of the calls I do are not scheduled and it
+ is extremely hard to get me to actually schedule a call as anyone who's ever tried to discuss
+ an ad buy for AI DB on the phone will have found out and I don't know if it's just
+ being an internet boomer but when it comes to email I just star important things as they come in
+ and clear out the inbox every couple of days and that's worked for me for forever
+ which is not to say that proactive agents are not useful it's that in the version that we had
+ access to they did not add a sufficient amount of value to me personally to be worth the setup cost
+ it's why for example you haven't heard me talk about the Hermes agent even though I think it's
+ an excellent product because it just hasn't fit specifically with how I work and what I work on
+ which brings us to this new phase of personal agents the interesting question for me has been
+ will they lower the cost of setup and maintenance efficiently that the type of proactivity that
+ they can offer actually feels worth it now I personally am in the category of people who at
+ least for now believe and of course I could be eating my words in the future that I was very
+ unlikely to use these sort of agents for personal uses you might have even heard me
+ denigrate all of the use cases that these companies pitch like flight booking and
+ agentic shopping and booking restaurants and things like that again it's not that I don't
+ see how they could be valuable for some people it's just that they're not for me to take just one
+ example when I'm booking a flight I'm pretty much always booking the airline where I have my miles
+ unless I absolutely can't for some reason and in that case it's usually one other airline
+ that does those other routes where I also have miles meaning that I'm working within the ecosystem
+ of a single airline's booking system and it would take absolutely as much time to explain
+ to an agent the variables and contingencies as it does to just look at their specific
+ web interface so coming back to personal agents I was always going to be on the professional use
+ case side of those personal agents so then the question becomes is the value of a personal
+ agent for me net new things like this proactive work of the type that I haven't set up yet
+ or is it some type of coordination that replaces my normal interactions with AI
+ so let's look at these two possibilities a little more directly
+ by net new I mean that proactive stuff like watching my email sending me notifications
+ about something that needs to be done and drafting responses that I can approve again
+ that's not a thing that I have agents doing right now by better coordination I mean a bit like
+ this chief of staff role but I think in some ways it's actually closer to the mono thread
+ paradigm that we've discussed here over the past couple of months the mono thread paradigm
+ is the idea that instead of a slew of different chats spread across a ton of different projects
+ that each only have the context of that particular chat or that particular project
+ you instead have a single thread that has all of your context and pulls up what it needs to do when
+ it needs to do it and can shift around and behave and work on different things and spin
+ up sub agents to do different things as they are required organizing things into individual chats
+ and individual projects can be really useful for organizing one's own brain in the same
+ way you use folders on a computer the benefit of the mono thread paradigm is that for the
+ user you don't have the cognitive load of doing that organization you just get to go stream
+ of consciousness this has only been possible as a paradigm with advances in compaction and
+ context window management going on behind the scenes in other words it used to be that at some
+ point your AI would get very tired because its context window was full and you just had to move
+ to a new chat in fact a bunch of the lessons in the early education programs we did in 2026
+ were about the best ways to do handoff documents but the labs have all gotten much
+ better on the back end about compressing the context and carrying it forward so you
+ don't actually have to leave the single chat that you're in this mono thread paradigm frankly
+ fits my way of working in my brain zone organization a lot better than structured hierarchical
+ organization i've already been pushing claud code and codex in this direction having things
+ much less divided and working off a single dominant thread so my question for these
+ personal agents would will it be more of that so then we come to the different tools
+ one category that was a lower priority for me were third party new tools like instinct in
+ town even though people rave about these tools they were always in that lower priority for me
+ because of the mismatch in terms of what they were good at and what i wanted to do
+ and fundamentally my unwillingness to move all of my professional and work context
+ over from the places i do that work already which as you've heard is chat gbt and claud
+ then we have grokbot and muse muse again a little bit less interesting to me because
+ of its bias towards personal stuff although it's very clear that that is not where
+ mark suckerberg and alex wang's ambition end and with grokbot i do have all of the ultra
+ subscriptions but i would really prefer not to have to move out of the open ai and anthropic
+ ecosystems because it's already enough to maintain those two grokbot i find valuable
+ because of its integration with x which is really valuable from a content production standpoint
+ and basically my approach right now with grokbot is to stay just enough engaged so that if any
+ point there were compelling reasons to switch i wouldn't be starting from zero i should
+ mention google and microsoft at this point google i still at the moment i'm sorry to say i don't
+ think it makes sense to invest a lot in that could absolutely change in fact i am optimistic that
+ it will change as they get back up on the horse but for now the fact that they are behind in this
+ area is one less load for me to invest in with microsoft i keep close professional track of
+ what they're doing because of both the podcast and superintelligence users which are largely
+ in the enterprise but being totally solo i'm always going to bias towards the much more
+ nimble fast-moving versions that aren't heavily enterprise focused all of which is to say that
+ when it comes to microsoft i'm specifically not making any value judgments about their tool set
+ right now it's just not an ecosystem that i'm playing in so that leaves us with dots and now
+ duet so far how i use my dot and my feelings about it are pretty reflective of the way that i
+ use chat gpt more broadly it's basically right now for me a new version of the monothread
+ organization for any of what i would consider important professional work that i do in chat gpt
+ in other words if i'm doing important research or doing data analysis on my podcast statistics
+ that i am now managing through quasar who is both the nullian lawyer of dungeon crawler carl
+ as well as my dot on the other hand for simple fast things like random queries that i would
+ have googled before or even that copywriting for the daily podcast episodes that's happening
+ in the same space away from quasar than it always has i will say that even with that
+ professionally relevant work like doing a bunch of data analysis on past podcast performance
+ i'm not 100 sure that it wouldn't have been better served being done in codex
+ and when it comes to other things like that strategy work i'm certainly not finding any more
+ compulsion to do it with my dot in fact i have found and i've seen a number of other people
+ reflect this as well that the dots personality at this point is so flat that it almost stone
+ walls that sort of strategic engagement i will sometimes dump a load of context to quasar
+ and it almost feels like pulling teeth to get it to engage i had a telling experience the
+ other day where i spent all day while walking and hiking strategizing and planning with claude
+ with opus 55 and then shared the whole conversation after with quasar so that it had the up to
+ date information without me having to share it again instead of picking up on any of the
+ threads from that conversation which are again probably six hours of talking i think its
+ response was literally great this information has been saved for the future my dot i have
+ found not to be particularly proactive and frankly it took very little time before
+ i basically just stopped really seeing a reason to engage with it so far if i'm in open ai i'm
+ either doing that basic fast stuff or i'm deep in codex so summing up my initial experience with
+ dots and of course this is completely subject to change and does not make me pessimistic for the
+ future but my initial experience is that as a feature it doesn't really add anything
+ when it comes to chat should be tving the place for me to go reactively do things
+ it's very weak on proactive work but it does seem like it could be valuable as a master holder
+ of context in other words i can just dump all the relevant context to quasar and have that sink
+ and do things rather than having a bunch of chats where i have to repeat that context later
+ then we come to duet duet is of the major personal agents the one that's least concerned
+ with a personality and character it doesn't have a cute fuzzy logo like muse and it doesn't
+ have you name it like that it is very clearly following the larger pattern of anthropic
+ focused on work which seems like it could be a good fit for me when i got duet up and
+ running the first thing it asked me to do was to connect slack gmail drive etc right away and
+ before i had done anything else it gave me a stack of options for proactive projects in fact duet is so
+ biased towards proactivity that i found that it maybe over estimates how valuable that set of work
+ is because it can be proactive about it i'll give you an example one of the proactive projects
+ that it wanted to help with based on being in my inbox was managing podcast sponsor inventory
+ specifically making sure that we didn't commit the same ad slot to multiple sponsors
+ this it picked up on as a problem because in two separate emails i had given two separate sponsors
+ the same date as available and the duet did not yet know that i actually have a set of slots for
+ those days so that wasn't necessarily a problem it basically had a spasm about this thing reminding
+ me like four times before i had to tell it that that didn't matter and in fact that
+ that entire work stream was not one that i cared about and yet there are other proactive
+ things that i found it much more valuable for a couple of times now there's been an email of
+ exactly the type that i would star and go back to a couple days later and in each of those cases
+ duet has proposed a response that i could either edit or authorize it to send directly from my chat
+ a couple of times i've just let it send and one time on the most substantive and creative
+ proposal i didn't send it right away but it got me about 90 of the way there without me
+ having to go back and think about it this makes me more optimistic for the value of duet
+ for this proactivity i would also note that while duet is pushed as an ios app i actually
+ quite like its web interface in addition to your main everything stream you can also create separate
+ channels for duet so that to the extent that you want some amount of that continued hierarchical
+ organization you can do it and duet takes advantage of claud's artifact infrastructure
+ so that it can actually create things that you can interact with an edit without having
+ to go into some separate interface it can automatically organize things that you're
+ doing into tasks that it groups as active up next scheduled or resolved which you can modify
+ either through the main chat or by directly adding a task now of course i am only a few days in but
+ i'm already much more optimistic about this approach i will say that i don't think you're
+ going to want to do everything in claud with duet i had a ui and brand visual design task
+ and doing it inside duet was much worse than doing it in claud's native design experience
+ which i believe is being folded into artifacts later this year but still is its own designed ux
+ so for me it really is going to be about that proactivity my goal with all of this
+ is not to provide a particular ranking of these tools or to make any definitive statements about
+ how you might want to use them or where i see them going i think frankly you kind of don't
+ have to worry about which ecosystem of these that you're investing in because the moment
+ that some feature works in one within weeks if not days it's going to become part of all
+ of them if my experience for example of dots not being proactive enough is something that is
+ more commonly experienced you better believe open ai is going to tweak that if there are some
+ ui elements that people like about duet or about one of the others better at some point the other
+ labs are going to copy those ui features as well the broader question remains where these personal
+ agents fit for me so far it is much less a big shift towards it being the main way i interact
+ with ai and much more an easy to set up little baby version of myself that does a bunch of stuff
+ that i don't want to do that's valuable but is it future of the industry valuable remains
+ to be seen hopefully this was a useful peek behind the curtain for now that's going to do it for
+ today's ai daily brief appreciate you listening or watching as always until next time peace
