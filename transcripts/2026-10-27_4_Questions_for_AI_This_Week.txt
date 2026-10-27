@@ -1,0 +1,689 @@
+ Last week was one of those weeks where it feels like everything in AI just ratcheted up another level.
+ Coming into this week, we have a set of huge questions that are dominating the conversation.
+ From whether data center funding has dried up, to how we're going to handle the latest Chinese open-weight models,
+ to whether this cyber apocalypse is now just with us forever,
+ to how difficult it's going to be for Anthropic to get this IPO out of the door.
+ Today we are talking about the four big questions that are shaping AI this week.
+ The AI Daily Brief is a daily podcast and video about the most important news and discussions in AI.
+ All right friends, quick announcements before we dive in.
+ First of all, thank you to today's sponsors, KPMG, Cdata, Granola, and Blitzy.
+ To get an ad-free version of the show, go to patreon.com.ai-daily-brief
+ or you can subscribe on Apple Podcasts.
+ If you want to learn more about sponsoring the show,
+ send us a note at sponsors.ai-daily-brief.ai.
+ And lastly today, I am super excited to share that I have launched a new podcast.
+ You can think about this one as sort of a spiritual sibling to AIDB,
+ but one who gets to get away from the grind of the daily
+ and instead sit back and go bigger because we're doing it weekly.
+ The show is called How We Got Here,
+ and it's a show about how modern important trends and phenomenon came to be.
+ To give you a flavor, the first episode is about America's 15-year history
+ falling out of love with the tech industry and how that sets up the data center debate.
+ But then I've got future episodes coming about how stuff got cheap
+ while life got expensive and prediction markets and GLP-1,
+ so pretty much anything is fair game.
+ I tend to think that a lot of what we feel is inevitable
+ is actually just a series of decisions that were made by people.
+ And if that's true and we want to change things,
+ we can make different decisions in the future,
+ but only if we understand, well, how we got here.
+ That show is live now, you can find it on Apple or Spotify,
+ and you can get all the links you need either in the show notes of this show
+ or go to HowWeGotHere.com.
+ I would so appreciate it if you would take a moment to listen
+ and then if you like it, rate and review the show.
+ This kickoff week is where it matters most,
+ and I think a lot of you guys are really going to like it.
+ Thank you in advance for checking it out,
+ but now let's get into the big questions for AI this week.
+ Last week was one of those real heightened stakes weeks,
+ and we almost have archetypes of these weeks in AI.
+ There are the everyone's freaking out about a bubble weeks,
+ the new models are coming so fast that it's head spinning weeks,
+ and then there was the type of week that we had last week,
+ which is the most subtle but no less knowable,
+ which is the, oh man,
+ it just feels like the stakes of everything are getting higher kind of weeks.
+ We had cyber attacks, market jitters,
+ a continued and growing recognition of the power
+ of the most recent models, particularly Opus 5.5.
+ We're kicking it off with the four questions
+ that I think are shaping the conversation heading into what's to follow.
+ The theme of the first set of questions is about models,
+ and specifically how we respond to the latest Chinese models
+ and what it says about our larger sense of the geopolitical stakes of the race.
+ But to understand that question, we got to go back to Friday,
+ when Moonshot released their latest version of Kimmy,
+ Kimmy K3.1 Pro.
+ It's their first model update for the K3 family.
+ Now you might remember that when Kimmy K3 was released in July,
+ the media presented it as an open source alternative to Fable.
+ K3 was the first ultra-large open model weighing in at 2.8 trillion parameters.
+ It showed some pretty big advances in what you could do with it,
+ and it happened to come at the exact perfect moment when Fable was offline
+ because of the export control issues with the White House.
+ As always happens though, whenever there is a new Chinese model,
+ everyone loses their mind about having closed the gap with the US closed models,
+ the benefit of time tends to calm things down a bit.
+ Ultimately beyond a handful of specific use cases like front-end web design,
+ K3 never fully lived up to the hype.
+ Since then, new releases from OpenAI and Anthropic pushed the frontier forward
+ and opened what has perceived to be a wider gap with the leading models from China.
+ On top of that, while American open-weight models have not yet gotten up to that Kimmy K3 sort of
+ level, they are for the first time in a long time starting to nip on the heels of their Chinese
+ counterparts, meaning in short that the whole conversation around open-weight models has
+ changed quite a bit since the summer when K3 was first released.
+ And yet, with the release of K3.1 Pro, we're once again seeing the comparisons
+ to Fable and Anthropic's mid-size powerhouse Opus 55.
+ Moonshot provided an extensive set of benchmarks for comparison,
+ which placed K3.1 clearly ahead of Chinese peers and in the mix with the best models from the West.
+ On GDP Val AA which measures agentic white color work,
+ K3.1 was just behind the leader Opus 55 and ahead of Fable 51.
+ Likewise on Terminal Bench 4.0, which measures agentic coating, K3 was once again less than a
+ point behind Opus 55 and around seven points ahead of GPT-6 Astra and Fable 51.
+ Terminal Bench 4.0 is notable as it is comparably not saturated and has in the past shown a
+ clear performance difference between the latest generation of Western models and Chinese open
+ models. DeepSeq V41 Flash and GLM53 only managed scores in the low 40s,
+ giving them a 15-point gap with the Western Frontier. Moonshot emphasized cost as the big
+ differentiator for K3.1. When K3 was released over the summer, it wasn't a particularly cheap model,
+ costing around the same as GPT-56 sold for similar benchmark performance.
+ And despite there being lingering perception that every Chinese model that comes out
+ is pennies on the dollar, in practice without the cost advantage that Chinese models had been
+ known for, there just wasn't a hugely compelling reason for most people to make the switch.
+ Moonshot is pricing K3.1 at around two-thirds the cost of K3 on a per-token basis,
+ giving it the same price as Sonnet 55 and GPT-6 Seoul. That's still almost 10 times the per-token cost
+ of DeepSeq V41 Flash and about twice the price of GLM53, but it now sits at least comparable
+ with some Western alternatives. What's more, on Terminal Bench 4.0, Moonshot suggested that
+ K3.1 was far cheaper on a cost per task basis than all major rivals. They'd cost around
+ $5 per task compared to around $15 for Opus 55 and $10 for GPT-6 Astra on max settings.
+ Artificial Analysis confirmed extremely solid benchmark performance in their independent testing.
+ K3.1 scored 55 on the Intelligence Index, ranking fourth behind Opus 55, Sonnet 55,
+ and Muse Wonderful. K3.1 was two points ahead of Fable 51, GPT-6 Astra, and Gemini
+ 4 Argon, which are all now tied for fifth place. Artificial Analysis wrote,
+ Once the weights for K3.1 Pro are released, it will be the highest scoring open weights model
+ and the gap between the leading open weights and proprietary models on the Intelligence Index
+ will narrow from 12 points to three. They found that K3.1 uses 14% more tokens per task than K3,
+ however, because of the price reduction, it's slightly cheaper than its predecessor.
+ Now the first reaction was to be pretty impressed with the benchmarks,
+ if recognizing that this is perhaps a movie that we've seen before.
+ Chubby On X wrote, Just to be very clear in that everyone understands this,
+ today we got Fable 51 Intelligence as a local model. I remember the GLM founder saying in a
+ post that he expects Fable 5 capabilities by the end of the year from China. Well,
+ it happened, with all its consequences. Just think about it.
+ Ramez Naam from the Singularity University wrote,
+ Based on this, K3.1 Pro is around five weeks behind the US frontier.
+ That's the shortest the open slash closed AI model gap has ever been.
+ Yet unfortunately for Kimmy, pretty soon all of the conversation shifted away from the model itself
+ and towards how they were promoting it. Elshayaban X posted a bunch of communications
+ from the Kimmy team about how they were running their influencer campaign.
+ Of note was the fact that they explicitly instructed those influencers to not put the
+ paid partnership label on their posts. Now they also had a whole bunch of narrative
+ instructions like wanting those influencers to call it opus 55 but five times cheaper
+ and focus on this narrowing gap between open source and frontier as well as explicitly
+ trash talking Astra and opus but still even with that it's the non-disclosure thing that
+ people were really upset about. Chubby again summed it up writing,
+ This is such a shame and so sad to see. Moonshot ruined their launch themselves.
+ K3.1 Pro is a great model and it did not need people to fake good reviews
+ but since they were trying to cheat the game it makes the whole launch look bad.
+ Open model researcher Nathan Lambert is willing to extend a little grace
+ saying that there are still some cultural norms and communication issues
+ that could have led to this type of mistake. He wrote,
+ This is a mistake but I suspect they will correct.
+ Chinese labs are very eager to influence the western ecosystem in X
+ so they likely took a step too far here. They followed the vibes closely and I
+ bet we'll understand even if some cultural differences caused this.
+ Given the new questions though some people went back to more aggressively test the claims
+ and found the model a bit lacking. Future forward editor Alex
+ called Kimmy K3.1 the most benchmarks model ever released.
+ I think when it comes to model performance with this one we're going to have to wait
+ and see how it shakes out. We have not even yet had a full business day
+ with people using this thing and given the dust up around the strategy
+ everything is a little bit color right now. And going back to the idea of
+ questions that will shape the week if the numbers actually hold up in
+ anywhere close to what the benchmarks suggest how is the US policy structure
+ going to handle an open weight model of this level of capability.
+ One note from the release was that Moonshot said that they deliberately
+ nerfed the model when it comes to cybersecurity tasks.
+ They wrote,
+ We aim not to release open weights that would extend the absolute frontier of cyber capability.
+ K3.1 Pro's offensive cyber capability is by design
+ below what our pipeline can produce and remains behind that of frontier proprietary models.
+ Basically during their post training Moonshot found that cyber capabilities were scaling
+ so they deliberately removed cyber related data from their training pipeline.
+ Moonshot explained that they tried to strike a balance retaining capabilities for general
+ purpose coding and making reasonable levels of cyber performance more widely available.
+ External testing from artificial analysis found that K3.1 is the most capable
+ cyber model available to the general public. It scored 64% on their cyber index,
+ 11 percentage points ahead of deep-seek v4.1 flash and only five percentage
+ points behind the trusted version of GPT-6 sole available through their
+ partner program Daybreak Blue.
+ Ali Bakoush from Prime Intellect explained why this was a positive sign.
+ He wrote,
+ One point that was under discussed in my opinion is that it's the first open
+ lab that is pacing the frontier of open-weight cyber capabilities,
+ which makes it much easier and creates incentives for other labs to make the
+ right decision and do the same when they reach the same level of capabilities.
+ The remaining question is how to set the right level?
+ Underestimated and open models will become useless for defensive cyber
+ security, leaving the world relying on US closed labs to spread defensive
+ capabilities quickly, which is not realistic in my opinion,
+ although I obviously wish them to succeed in this mission.
+ Overestimate it and you might get the catastrophic scenarios that anthropic
+ and others describe.
+ Now my sense is that K31 is not going to be the only model we're talking about this week,
+ but let's pick up on the cyber theme to move to our next question,
+ is cyber chaos just for the time being the new normal?
+ Last week we got a PHP bug that purportedly threatened 70% of all websites.
+ On Thursday, after the dust had started to settle,
+ anthropics deputy chief security officer Jason D. Clinton wrote,
+ As bad as things have gotten in the past four days,
+ they're going to get a lot worse before they get better.
+ Security leaders never let a crisis go to waste.
+ Please go to your boards and ask for help right now, not for AI for the basics.
+ We need to hold on for around 18 months.
+ A lot of folks responded saying, Hey man, you guys caused this.
+ Hina Ansari wrote, You and your cohorts created this monster.
+ Now you want us to help you clean it up.
+ Clinton responded crisply, quote, It was always going to be this way.
+ We tried to warn the world.
+ I certainly don't think that from an efficacy standpoint,
+ the blame game is particularly useful.
+ AI models capable of detecting and exploiting vulnerabilities are clearly here.
+ And before society wants to decide how to apportion blame,
+ the much more important question is how long the cyber chaos will persist
+ and how we can help address it.
+ Clouds that are CEO Matthew Prince believes there's much more to come,
+ telling Reuters he was aware of, quote,
+ a bunch of additional vulnerabilities that are present in other pieces of critical software.
+ He predicts a busy few months while the world hardens the core technology that underpins
+ the internet, adding, I think we're going to have a couple years
+ where every single week it's going to feel like the sky is falling.
+ Indeed, in last week's disclosure post,
+ OpenAI flagged that more would be coming.
+ So we could be in for a black October that stretches on for several months, if not years.
+ Sam Allman, for his part, doesn't seem that optimistic about a swift resolution.
+ In an interview, he said, I don't even know a dramatic enough word to use.
+ Models can find bugs that are outside of the normal threat model
+ of what we think a hacker can do.
+ Hardware level and sane stuff.
+ I no longer think we're going to be able to just patch all the bugs.
+ A new study from KPMG in the University of Texas at Austin
+ found that when people work with AI,
+ similar skills don't guarantee similar outcomes.
+ Researchers studied more than 500 early career professionals
+ and found that the best performers consistently amplified the value of AI
+ by guiding, evaluating, and refining its outputs.
+ These top performers, called AI amplifiers,
+ weren't defined by what they knew alone, but by how they worked with AI.
+ Learn more about what separates AI amplifiers from everyone else
+ at kpmg.com slash us slash AI amplifiers.
+ This episode is brought to you by CData.
+ Companies rolling out AI keep hitting the same wall.
+ Token spend is climbing, security is holding agents back,
+ and no one knows how AI is truly being used.
+ The root cause, AI is cut off from the systems and context your business runs on.
+ That's why CData built Connect AI Gateway,
+ one control point between your AI and your systems.
+ Built on the connectivity layer powering Palantir, Google, Salesforce, and hundreds more,
+ each agent gets exactly the data and tools it needs.
+ It governs down to the record and lets you finally see your org's
+ complete AI usage in one place.
+ Accurate answers, a fraction of the token cost,
+ and a gateway that learns your business with every interaction.
+ See how at CData.ai.
+ You're in back-to-back meetings all day, you're trying to stay present,
+ but you're also worried you'll forget the decision,
+ the action item, the important next step.
+ This is the scenario that we absolutely live here at the AI Daily Brief,
+ giving out fast things, move and change,
+ and how quickly we're evolving everything that we do.
+ That's where Granola comes in.
+ Granola is an AI-powered notepad for meetings.
+ You jot down rough notes like you always do,
+ and in the background, Granola transcribes and turns them
+ into clear, useful notes when the meeting ends.
+ No bots joining your calls, no distractions,
+ just a clean notepad that helps you focus.
+ During or after the call, you can chat with your notes,
+ ask Granola to pull out action items,
+ help you negotiate, write a follow-up email,
+ or even coach you using recipes which are pre-made prompts.
+ Once you try it on a first meeting, it is very hard to go without.
+ Head to granola.ai.ai daily and use code AI Daily
+ to get 100% off for three months for new users.
+ That's granola.ai.ai daily and code AI Daily
+ to get 100% off for new users for three months.
+ Every AI coding tool on the market does the same thing first.
+ It starts writing code.
+ Blitzy does the opposite.
+ Before writing a single line,
+ Blitzy spends days reverse-engineering your entire code base.
+ Thousands of agents ingest millions of lines,
+ mapping every dependency, every undocumented constraint,
+ every architectural decision made over the last decade.
+ The result is a dynamic knowledge graph
+ that understands your software the way a principal engineer would
+ after 30 years in the building.
+ Other tools guess at context with grep searches
+ and markdown files, Blitzy never guesses.
+ It builds true understanding first,
+ then delivers over 80% of entire software epics autonomously.
+ Validated, end-to-end tested, production grade pull requests.
+ That's why Fortune 500 engineering teams
+ trust Blitzy with the code bases that matter most.
+ See for yourself at Blitzy.com.
+ That's blitzy.com.
+ So how are people responding to this?
+ Well, first of all,
+ we are very much going to be living in the fog of war
+ where critical thinking and skepticism
+ is going to be extremely important.
+ You have all sorts of viral posts all over social media right now,
+ from anonymous accounts claiming to be inside labs or inside the NSA,
+ talking about all these things going on behind the scenes
+ that are being hid from the public.
+ And while it's of course not impossible that that's true,
+ I do not think that that's a particularly useful set of posts
+ to be engaging with.
+ More interesting to me are practically
+ the people who are discussing how we shift
+ to harden these systems as fast as actually possible.
+ Boxes Aaron Levy wrote,
+ Agent Swarms for Cyber Defense is about to be one of the biggest categories in AI.
+ We're going to have agents reviewing our code in infra,
+ testing every permutation of risk, processing gobs of data and more.
+ Security is one of the best use cases for swarms
+ because it's an obvious area where more compute in equals more value out.
+ There's a wide range of testing that people can never get around to,
+ or at least quickly enough,
+ that agents have no problem going after.
+ And something that this doesn't end well for the free and open internet.
+ Economics writer Noah Smith wrote,
+ The proliferation of AI cyber attacks
+ may signal the end of the internet as a public good.
+ We may only be able to use it in the future
+ if everyone shells out big bucks for private security.
+ That will, he points out somewhat obviously,
+ if that thesis is correct, reduce the internet's economic value.
+ And yet already you are seeing teams posting the templates
+ for how they're trying to get out ahead of this.
+ Alan Wells from Rocketable said,
+ Just spent the last seven days on the front lines
+ of the Vuln Apocalypse fending off an active cyber attack
+ on one of our products.
+ He then followed and shared a bunch of thoughts,
+ including how to be working on hardening your systems
+ even if you aren't a huge team.
+ Now in terms of what all this cyber stuff means for new models,
+ all we have to go on is what we're getting out of the labs.
+ OpenAI has announced that they'll resume training frontier AI models,
+ but will isolate them from the open internet.
+ In a Friday blog post,
+ OpenAI wrote that they'd quote,
+ built an offline world,
+ a vast set of indexed and cached web content
+ in which our models can interact
+ without risk of affecting external systems.
+ Moving forward,
+ all of their frontier reinforcement learning runs
+ will use this quarantined mode of interaction.
+ This news mirrors a decision made by Anthropic earlier in the month
+ when they announced that they had also resumed frontier training.
+ On the one hand, if this works,
+ it means that frontier model training can continue,
+ hopefully without endless reports of rogue agents escaping
+ from the frontier labs.
+ However, it also means that neither of the big labs
+ has much confidence in their ability
+ to constrain their models
+ using alignment research or other methods,
+ needing the more blunt instrument
+ of cutting off access to the internet.
+ And honestly,
+ even the air gap setup seems like it might not be enough.
+ OpenAI wrote,
+ In one experiment,
+ we asked agents in separate micro-VMs,
+ created and managed by OpenAI sandboxing software
+ on shared host machines,
+ to exchange synthetic secrets
+ without the use of network connections
+ or shared writable files,
+ something that our systems are meant to prevent.
+ The agents found a way to communicate
+ using the processor's cache.
+ Ship Together co-founder Wise wrote,
+ OpenAI is now building a fake internet
+ for its AI agents to interact with.
+ The idea is to keep them isolated
+ from the real internet.
+ I'm not sure if this is going to work.
+ So in fact,
+ the better question
+ might not be,
+ is cyber chaos the new normal?
+ But instead might be,
+ are we reaching the point officially,
+ where the most advanced frontier models
+ are simply too dangerous to release?
+ Not because they are paperclip maximizers
+ who are going to reduce all the atoms
+ in our human bodies,
+ to material that helps them achieve
+ some impersonal goal,
+ but that they're just at the moment
+ too good at breaking into
+ our very human created systems.
+ For our next question
+ that'll shape this week,
+ let's move over to markets,
+ where people are asking,
+ is data center funding drying up?
+ Neil Clouds are feeling the squeeze
+ from two secular trends
+ turning against them at the same time.
+ The first is debt markets
+ turning sour on data center funding,
+ demanding a huge and growing premium
+ for new fundraising.
+ The second is large AI consumers
+ beginning to stand up their own data centers.
+ According to ramp data,
+ more than a third of AI spend
+ from the top 1% of firms
+ is now going towards direct GPU rentals
+ rather than calling models over the API.
+ Investor Chamath Palahapatiya
+ said that he's already seeing
+ change in behavior on the ground.
+ He commented,
+ ever since Palantir's Alex Karp's commentary
+ on CNBC about data sovereignty,
+ buying patterns have changed.
+ And I think people are being
+ a lot more methodical.
+ They are building out their own data centers
+ or at least moving into VPCs,
+ virtual public clouds.
+ My team yesterday was at the CIO event
+ of, let's say,
+ one of the largest banks in America.
+ It was the most incredible thing.
+ They said,
+ we have decreased our spending
+ on AWS and Google Cloud.
+ We now have six completely independent
+ ground up data centers
+ that we've built from scratch
+ for ourselves.
+ Over the weekend, meanwhile,
+ that narrative advanced.
+ Yuchin Jin said that he heard
+ that AI Neo Labs are betting
+ on the rising cost of compute
+ as a backup plan
+ to building their own models.
+ His friend apparently said,
+ even if we failed to train
+ the best model,
+ we locked in GPU capacity early.
+ GPU rental prices have since
+ gone up two to three X.
+ We can just resell the compute
+ and print money.
+ Elon Musk, however, responded,
+ I think we're going to see
+ a lot of stranded compute
+ in partially complete data centers.
+ Later in the weekend,
+ Chamath again explained
+ what he's seeing
+ on the infrastructure side
+ building on similar themes.
+ First up, he wrote,
+ Neo Clouds are disorganized
+ and poorly capitalized.
+ Some are definitely better
+ than others, however.
+ He explained that hyperscaler-backed
+ projects are facing delays
+ from a combination of bureaucracy,
+ energy supply difficulties,
+ and the data center backlash.
+ This could lead to Neo Clouds
+ with partially stranded compute
+ and an infant shortage
+ hitting anthropic and open AI
+ as the hyperscalers
+ focus on their own needs.
+ Chamath added,
+ this dislocation will benefit
+ two kinds of orgs,
+ the non bureaucratic big scalers
+ who can build industrial scale quickly
+ and the nimble,
+ well capitalized players feeding them.
+ 2027 will be a turbulent year
+ because it will clear out
+ a bunch of wrong and bad bets.
+ It will also be a consolidation year
+ for a few.
+ Elon Musk again responded,
+ pretty much.
+ As of the past few weeks,
+ debt markets have almost entirely
+ shut off access to money
+ for any company
+ that doesn't have substantial revenue
+ independent of AI data centers.
+ SpaceX closed 40 billion of debt
+ for GPUs,
+ but we're investment grade
+ and have Starlink and launch revenue.
+ That means the 200 plus Neo Clouds
+ are going to see
+ guppy level death and consolidation.
+ Some will make it through,
+ but not many.
+ Now Bloomberg reported
+ that this 30 billion dollar deal
+ is actually not quite closed,
+ with Apollo and PIMCO as key investors.
+ In particular,
+ the deal is not yet priced.
+ Interest rates in the mid 8% range
+ were originally on the table,
+ but with some Neo Cloud debt
+ heading into junk territory in recent weeks,
+ sources said potential investors
+ are going back to the drawing board.
+ Now one type of response
+ took Elon's comments very literally.
+ Finance a lot wrote,
+ Elon Musk just told the entire world
+ that the AI bubble has popped.
+ Buckle up.
+ Boring business added,
+ Elon Musk is literally telling you
+ that most Neo Clouds will die
+ or get consolidated
+ and you're still bullish.
+ But then others pointed out
+ that this is not exactly coming
+ from an unbiased or uninterested source.
+ Just another pod guy writes,
+ Elon has every incentive
+ to talk crap
+ and worsen access to capital
+ for his primary competitors,
+ i.e. Neo Clouds,
+ while pumping his own roadmap
+ to improve his purchase power
+ when Tesla is merged into SpaceX.
+ Said Lisan Avgaib,
+ the sharks are smelling blood in the water.
+ Wouldn't it be nice
+ if a few Neo Clouds blew up
+ and Elon could gobble them all up at a discount?
+ Ghostload reflected an entire strand of discourse,
+ basically arguing that
+ Elon is trying to pull up the ladder
+ after SpaceX got out in the IPO market,
+ writing,
+ Elon popping the AI bubble
+ after front running the
+ Anthropic and Open AI IPOs
+ is like watching an episode
+ of billions in succession.
+ How the market digest
+ this new strand of conversation
+ is going to be one of the most
+ interesting things to watch
+ in the week to come.
+ And of course that is going to be
+ entirely wrapped up
+ with our fourth question,
+ which is really just a proxy question
+ for everything surrounding
+ the Anthropic IPO
+ and Frontier Lab funding.
+ All throughout last week
+ there had been speculation
+ that Anthropic needed to make
+ their prospectus public by Friday
+ if they wanted to hit their
+ reported target of IPOing
+ the week of Thanksgiving.
+ Now that prospectus did drop this morning
+ as I was starting to record this show
+ and tomorrow we are going to dig into
+ anything new that we learned
+ as folks have a day to digest it.
+ Heading into that though,
+ it seems like some of the biggest
+ questions are around IPO pricing.
+ According to reports from late last week,
+ OpenAI's next round of fundraising
+ is getting close at a valuation
+ of $1.25 trillion,
+ which some are taking as a softening,
+ as previous reports had said
+ that they had been looking at $1.4 trillion.
+ Neither number is anywhere close
+ to the $2 trillion number
+ that some Anthropic investors
+ were looking for,
+ and it makes it more likely
+ that we'll see the price
+ trim to $1.5 trillion
+ as a separate group of investors
+ were calling for.
+ We still haven't seen a number
+ attributed to Anthropic
+ or their investment bankers,
+ but it certainly no longer feels
+ like Anthropic is IPOing
+ into strength.
+ Of course the sentiment
+ could turn around immediately
+ once Anthropic releases Fable 5.5.
+ Rumor monger Chris GPT is suggesting
+ the new model is already deployed
+ for top customers,
+ including JP Morgan and Meta,
+ and while I'm certainly taking
+ that with a grain of salt,
+ as I've said publicly,
+ it's pretty clear to me
+ that Duwet as their personal agent
+ and Fable 5.5 as their world leading model
+ feels like the inevitable 1.2 punch
+ for them to claim status
+ as definitively the top dog
+ heading into that IPO.
+ That top dog status though
+ is getting more interesting itself.
+ The information reports
+ that OpenAI's price cuts
+ have helped them take market share
+ from Anthropic over recent months.
+ One example they gave was that Rippling
+ who was using Anthropic models
+ for 57% of their coding in May
+ with OpenAI handling a much smaller
+ 16% had now seen that ratio flipped
+ with OpenAI now powering 52%
+ of coding workflows to Anthropics 18%.
+ Then again, that reporting might also
+ be a slightly outdated view of the market.
+ Opus 5.5 released a little over a month ago
+ seems to have kickstarted
+ a resurgence for Anthropic.
+ OpenRouter reports
+ that the 7-day average token volume
+ for Anthropic models is up 3.6x
+ since the launch of Opus 5.5.
+ And it's not just that model either.
+ Both Sonnet 5.5 and Haiku 5.5
+ have added meaningful token volume
+ to reinforce Anthropics gain in market share.
+ Ramp data shows that Opus 5.5
+ has grabbed 35.1% of token share
+ and 34.4% of business spend,
+ the most successful first three weeks
+ for any model release.
+ Consumption will need to stay strong
+ for a few more weeks
+ to match the incredible
+ two month run for Opus 4.6,
+ but the signs are there
+ that this could be Anthropics
+ most commercially successful model ever.
+ Andrew Curran summed it up,
+ the number of people on my feed
+ over the last two weeks
+ saying they are switching over to Anthropic
+ because of Opus 5.5
+ is like nothing I've ever seen before.
+ And even if someone does beat Opus,
+ they have Fable 5.5 ready to go.
+ Now here's one interesting little speculation
+ that I haven't seen anyone else talking about.
+ It seems to me that this might be the one moment
+ in perhaps the entire history of these two labs
+ where OpenAI has a strong incentive
+ to very temporarily not release a model
+ that competes with Anthropic.
+ Let's say you're OpenAI.
+ No matter what, Anthropics IPO
+ is going out before yours.
+ Given that, what's a better scenario for you?
+ Option one, Anthropic going gangbusters,
+ re-exciting the markets,
+ and pushing off these bubble concerns
+ for another couple of quarters.
+ Or option two, Anthropics IPO underperforming
+ and signaling to the rest of the market
+ that yes indeed the AI bubble has burst
+ and that they should pull back further.
+ The former scenario is not without its challenges.
+ You might have to battle for excitement
+ from a definitive second place position,
+ but the scenario if the latter comes to pass
+ is an absolute disaster
+ that might literally not make an IPO available to you anymore.
+ So then, if you think the disaster scenario
+ is in fact Anthropics IPO failing,
+ you don't want to do anything
+ that could help contribute to that failure.
+ And so letting Anthropic just for a few weeks
+ have the absolute definitive
+ best model in the world might weirdly
+ be in OpenAI's interests.
+ As you can see friends,
+ the questions surrounding AI this week
+ are numerous, varied, and very interesting.
+ For now, however, that is going to do it
+ for today's AI Daily Brief.
+ Appreciate you listening or watching as always
+ and until next time, peace.
