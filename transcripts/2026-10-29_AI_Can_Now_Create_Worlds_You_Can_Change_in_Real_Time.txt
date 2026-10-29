@@ -1,0 +1,604 @@
+ Just how close are we to AI being able to invent worlds on the fly?
+ And as it gets closer, what are the implications for games and video and all sorts of different types of experiences that we have today?
+ Those questions are back at the top of the discourse today as Google releases Genie 4,
+ its latest world model and one that shows that where we are headed might be very different indeed than where we are right now.
+ The AI Daily Brief is a daily podcast and video about the most important news and discussions in AI.
+ Alright friends, quick announcements before we dive in.
+ First of all, thank you to today's sponsors KPMG, C-Data, Granola and Blitzy.
+ To get an ad-free version of the show, go to patreon.com.ai-dailybrief or you can subscribe on Apple Podcasts.
+ To learn more about sponsoring the show, send us a note at sponsors.ai-dailybrief.ai.
+ Lastly today, if you haven't yet, please go check out how we got here.
+ It is a new weekly video podcast that I am doing that is all about the history behind today's biggest phenomenon, trends.
+ Anything that's happening in our world that we assume is inevitable but which actually came to be through a set of very specific decisions.
+ For those of you who like the more ponderous exploratory episodes of AI DB, that is a place to get even more of that.
+ You can find a link in the show notes or go to howwegothere.com.
+ With that out of the way though, let's talk about AI creating worlds.
+ Welcome back to the AI Daily Brief headlines edition, all the daily AI news you need in around five minutes.
+ Anthropic is doubling down on biotech with a big acquisition of a very small company.
+ On Tuesday, Anthropic published a blog post talking through their approach to AI enhanced drug discovery.
+ They wrote,
+ Drafting the regulatory filings needed to run clinical trials, designing and administering those trials and much more.
+ Our strategy to realize AI's medical benefits is based on having AI increasingly involved in all of these tasks.
+ There is no single problem to solve.
+ The bottlenecks are distributed all throughout the drug development process.
+ The best way to identify and work through these bottlenecks is to get deeply involved in real drug programs across many different disease areas and stages of development.
+ To that end, Anthropic said that they've been partnering with six organizations as well as launching drug discovery efforts of their own.
+ They included several case studies showing how Claude had accelerated both the scientific and operational work required to develop promising drug candidates.
+ In addition, they announced a new partnership with Bristol Myer Squibb to use AI to address bottlenecks and enhance planning in early stage clinical trials.
+ But the news that caught everyone's attention was another biotech acquisition.
+ They wrote,
+ Anthropic hopes to have a drug ready for clinical trials by the end of 2028,
+ and this would be a significant acceleration of the typical four to seven year time frame for preparing a new drug for human testing, largely due to a big reduction in the drug discovery phase.
+ The thing that stood out most to many folks was the feasibility of a single person biotech startup.
+ News aggregator Andrew Curran commented,
+ Yuchen Jin wrote,
+ Now, some did note that the founder has a master's in biotech,
+ meaning they are not completely foreign to the science, but mostly this is a Rorschach test for whether you see the death of expertise or a demonstration of democratization that could lead to more innovation.
+ Others questioned the entire premise of the one person AI company.
+ Peter Yang commented,
+ Elsewhere on X, people view this as a very shrewd marketing move from Anthropic ahead of their IPO.
+ Fundamentally, this was a restatement of their thesis that AI can massively accelerate drug discovery and make research into low frequency diseases more financially viable.
+ Still, Anthropic hammered home that AI use in biotech isn't about full automation, it's about reducing friction and bottlenecks throughout the process.
+ Commenting on the meta-strategy of promoting the IPO, Chubby on X wrote,
+ Drug discovery will be one of the most significant revenue streams in the future.
+ The goal here is to set the right course early on.
+ Most diseases will become treatable, a market encompassing 7 billion people.
+ The timing is clearly intentional, announced just before the IPO to signal to investors that the business will continue to thrive in the future.
+ This will likely make it clear even to those outside the tech nerd sphere why AI is so important.
+ It goes beyond just writing code. It solves problems for humanity.
+ And picking up a theme that we've explored a bit in the past few weeks.
+ For some, this is yet another example of an AI company diversifying their revenue streams outside of just selling tokens.
+ Martin Versovsky writes,
+ The tens of millions from the better molecule go to whoever owns the molecule.
+ If AI labs want to be paid for value, they will have to own the outcome.
+ Discover the drug, run the trial, hold the patent.
+ That is why Isomorphic Labs, the drug discovery company Alphabet spun out of deep mind, matters more than any pricing page.
+ Selling intelligence is becoming a commodity business.
+ Owning what intelligence discovers is not.
+ Boy, you can count on that to continue to be a debate and one that gets nothing but more fierce when anthropic IPOs.
+ Speaking of which, the assessment that the market was generally positive on the Anthropic S1 seems to have been validated.
+ The public reveal of Anthropics IPO filing came after a three-week drawdown for tech stocks and a four-month bear market in semiconductors.
+ So far this week, however, the AI trade has been nothing but green.
+ The NASDAQ index is up 2% since trading opened on Monday, and the Philadelphia Semiconductor Index has rebounded by almost 6%.
+ Certainly the market has not assessed that Anthropic has no weaknesses in the business,
+ but for investors who were expecting the filing would confirm no path to realizing a return on AI capex,
+ the picture of a booming business with a realistic path forward was enough to get many of those investors back on sides.
+ Heby Chan from Vantage Global Prime said,
+ Anthropics' landmark IPO filing alongside Meta's aggressive capex push has reignited broader risk appetite,
+ pulling capital out of its defensive crouch, and firmly restoring chip stocks back to the driver's seat.
+ James We, the chief market strategist at Tiger Brokers, said it was all about Anthropics' cash pile,
+ commenting, with more than $112 billion in cash and cash equivalents as of June,
+ even before any potential IPO proceeds,
+ Anthropic appears to have considerable financial capacity to support its expansion.
+ Meanwhile, the Wall Street Journal is reinforcing the point that I raised on Monday's show
+ that it's really in everyone in the AI industry's best interest for this IPO to go well.
+ I argued that that could be a very good reason for open AI to just sit back,
+ mothball their next model release, and let Anthropic have the limelight for just a couple of weeks with Fable 5.5.
+ The journal took it a step further, pointing out that the IPO will say a lot about access to capital for the entire industry.
+ If Anthropic can raise $100 billion with room to spare, which would be the largest IPO in history,
+ then it bodes well for smaller companies with more pressing fundraising needs.
+ In a separate article, the journal grappled with how Wall Street will price existential risk.
+ The logic is simple, writes the journal.
+ If there's a 10% chance that artificial intelligence could kill all humans in the next decade,
+ as an Anthropic researcher said last month,
+ there's a 90% chance it's really, really good, but designers managed to reign in its genocidal instincts.
+ An AI smart enough to kill us all but which prefers to help us is supremely useful
+ and should generate healthy gains for its inventors.
+ Now, I don't know exactly how firmly author James McIntosh's tongue is in his cheek,
+ but it does appear that this week, at least, it looks like Wall Street has stopped focusing on P-Doom
+ and is starting to price in P-Boom.
+ Lastly, in a brief follow-up to yesterday's story about new scientific breakthroughs from OpenAI,
+ a group of scientists are still unhappy with how OpenAI went about their disclosure.
+ During the giant dump of novel math proofs earlier this month,
+ the criticism was that OpenAI didn't do enough to verify results.
+ This time around, OpenAI tried to address this criticism
+ by appointing groups of scientific experts to shepherd the breakthrough results.
+ These experts recommended a different approach for each result.
+ The math proof was just released publicly as an academic paper.
+ The computer science result, disproving the exponential time hypothesis,
+ had proofs in AI sessions released alongside with a team of scientists
+ appointed to do further work explaining the result and exploring its implications.
+ However, the physics result, which was said to include an existence proof for Yang-Mills theory,
+ was kept private while a group of physicists worked on verifying and formalizing the result.
+ Following OpenAI's announcement,
+ their own advisory group on mathematics and artificial intelligence publicly disagreed with this approach.
+ In a public recommendation, the mathematics advisory group said they had great respect
+ for the physicists appointed to shepherd the results,
+ but that quote,
+ understanding should develop in the open with everyone given the same access.
+ Later on Tuesday, the group of physicists in question released a response,
+ commenting,
+ the length and complexity of the OpenAI manuscripts are formidable
+ and some time will be needed to digest its methodology and meaning in both physics and mathematics.
+ Before we release it, we would like to be convinced that it is correct.
+ This is an experiment in how the academic community can deal
+ with the rapid development of new knowledge by AI.
+ We intend to proceed very carefully.
+ Still, the frustration with the delayed publications
+ seemed to be playing out in faculty lounges across the country.
+ The Verge spoke with several physics professors,
+ with many of them calling for an immediate release.
+ Constantine Kogler from the Institute for Advanced Study said,
+ I'm fine with them releasing the problems as they did today,
+ referring to releasing a smaller batch of three extremely important results.
+ However, Kogler added,
+ it doesn't make any sense that only a few distinguished scientists can look at them.
+ Andreas Kark from the University of Texas Austin said,
+ the fact that they handpicked the group is a disaster.
+ The large labs have enough power as it is.
+ They should not be picking winners and losers.
+ Kark initially suggested a merit-based selection criteria,
+ although he acknowledged that this would likely produce
+ the same group that included Nobel laureates.
+ Instead, he simply called on OpenAI to release the proof,
+ saying,
+ this would democratize access while still showing that they care about
+ making results meaningful and understandable.
+ I don't know, man.
+ I think on this one, OpenAI simply can't win.
+ If they release everything they have as soon as possible,
+ they're criticized for creating a gigantic verification problem
+ for academics to deal with.
+ If they arrange their own verification working groups
+ and hold back important results until they're fine,
+ they're criticized for gatekeeping science.
+ The thing that's totally understandable
+ is that people are uncomfortable with how much power these labs have,
+ and that is not solely based on specific decisions that labs make.
+ It is based on the intractable reality
+ of where they sit vis-a-vis this new intelligence.
+ But when it comes to this sort of specific,
+ they're pretty much damned if they do and damned if they don't.
+ Stanford mathematician Jared Duker-Lichtman commented,
+ my sense is that for any approach,
+ there is going to be someone who is upset.
+ So it's just a question of finding the least offensive option.
+ I am glad that is not my job,
+ and for now, that's going to do it for the headlines.
+ Next up, the main episode.
+ A new study from KPMG in the University of Texas at Austin
+ found that when people work with AI,
+ similar skills don't guarantee similar outcomes.
+ Researchers studied more than 500 early career professionals
+ and found that the best performers consistently
+ amplified the value of AI
+ by guiding, evaluating, and refining its outputs.
+ These top performers, called AI amplifiers,
+ weren't defined by what they knew alone,
+ but by how they worked.
+ Learn more about what separates AI amplifiers from everyone else
+ at kpmg.com.
+ This episode is brought to you by C-Data.
+ Companies rolling out AI keep hitting the same wall.
+ Token spend is climbing, security is holding agents back,
+ and no one knows how AI is truly being used.
+ The root cause, AI is cut off from the systems
+ and context your business runs on.
+ The root cause, AI is cut off from the systems
+ and context your business runs on.
+ That's why C-Data built Connect AI Gateway,
+ one control point between your AI and your systems.
+ Built on the connectivity layer powering Palantir,
+ Google, Salesforce, and hundreds more,
+ each agent gets exactly the data and tools it needs.
+ It governs down to the record and lets you finally see
+ your org's complete AI usage in one place.
+ Accurate answers, a fraction of the token cost,
+ and a gateway that learns your business
+ with every interaction.
+ See how at cdata.ai.
+ You're in back-to-back meetings all day,
+ you're trying to stay present,
+ but you're also worried you'll forget the decision,
+ the action item, the important next step.
+ This is the scenario that we absolutely live
+ here at the AI Daily Brief,
+ given how fast things move and change
+ and how quickly we're evolving everything that we do.
+ That's where Granola comes in.
+ Granola is an AI-powered notepad for meetings.
+ You jot down rough notes like you always do,
+ and in the background,
+ Granola transcribes and turns them into clear,
+ useful notes when the meeting ends.
+ No bots joining your calls, no distractions,
+ just a clean notepad that helps you focus.
+ During or after the call, you can chat with your notes,
+ ask Granola to pull out action items,
+ help you negotiate, write a follow-up email,
+ or even coach you using recipes which are pre-made prompts.
+ Once you try it on a first meeting,
+ it is very hard to go without.
+ Head to granola.ai.ai daily
+ and use code AI Daily
+ to get 100% off for 3 months for new users.
+ That's granola.ai.ai daily
+ and code AI Daily to get 100% off
+ for new users for 3 months.
+ Here's why most legacy modernization projects fail.
+ The AI doing the work can't understand code bases at scale.
+ It sees a small slice of context, examine syntax,
+ and misses years of decisions distributed
+ across the global application ecosystem.
+ Blitzy solves this the way it solves everything.
+ Grounded in your code before any migration begins,
+ Blitzy's agents reverse engineer the entire legacy system
+ into a persistent knowledge graph.
+ Every dependency, every constraint,
+ every piece of tribal knowledge
+ that used to live in one engineer's head.
+ From that understanding,
+ Blitzy autonomously executes language migrations,
+ framework upgrades,
+ and monolith to microservices transformations
+ all validated end-to-end.
+ One Blitzy customer modernized a $10 million
+ monolithic insurance stack in 16 weeks
+ against a 137-week baseline with coding agents.
+ That's 9x compression.
+ Retire technical debt while accelerating your roadmap.
+ See how at Blitzy.com.
+ That's blitzy.com.
+ Welcome back to the AI Daily Brief.
+ Quick note before we dive into today's episode.
+ There is going to be a lot of visual content.
+ As always, I will do my best to make it relevant
+ even if you are just listening, not watching,
+ but this might be a good one to go check out
+ either on Spotify with video or on YouTube.
+ Apple continues to roll out video podcasting,
+ but has not yet made it available
+ for my particular host.
+ Hopefully that will come soon.
+ Today we are talking about Genie 4.
+ It's the latest iteration of Google's world model,
+ and it could have some big implications
+ for robotics, gaming, and more.
+ On the AI Daily Brief,
+ we've been tracking the development of world models
+ since they first began showing up in 2024.
+ One of the reasons for that was because
+ AI luminaries like Yanlacun and Fei-Fei Li
+ believed that world models were a more viable path
+ to AGI than large language models.
+ The argument was basically that you had to have
+ a different physical understanding of the world around
+ to achieve AGI, not just be able to read a bunch of stuff.
+ Obviously, I'm being wildly overreductive,
+ but you get the idea.
+ The early experiments in world models
+ were breathtaking tech demos.
+ They showed us something completely different
+ to anything we'd seen AI do before.
+ At the time, generative video was still in its infancy,
+ so the ability to create fully 3D worlds at all
+ was a massive breakthrough.
+ And yet, even then, it was clear
+ that these demos really weren't about
+ what was available now, but what was to come.
+ Over the next year or so,
+ Google made rapid progress with their Genie models.
+ Genie 2, which was first revealed in December 2024,
+ was very impressive,
+ but when Genie 3 was previewed in January 2025,
+ it was clear that Google had made a huge leap.
+ The model was eventually served to the public
+ in August of 2025
+ and allowed users to prompt worlds into existence
+ and then navigate those worlds with a keyboard
+ and a mouse for the first time.
+ One of the most impressive technical breakthroughs
+ was a level of persistence that we hadn't seen before.
+ Users could change something about the world
+ like paint a symbol on a wall,
+ look away, and then look back,
+ and the symbol would be the same.
+ At the time, generative video models
+ were struggling mightily to achieve that level of consistency.
+ Google said that this was an emergent property
+ of how the models worked rather than a feature they added.
+ Genie 3 generated each frame of video
+ autoregressively based on what had come before,
+ so the model kept a record of the world
+ as it was being generated.
+ And yet still, we were very clearly
+ in the tech demo stage of world models.
+ Incredibly cool tech demos,
+ but far, far too limited for practical use.
+ Technologists suggested world models could help train robots
+ to generate fully playable games in real-time,
+ but Genie 3 was limited to 60 seconds of generation
+ because of the high compute requirements.
+ Now, alongside all of this,
+ Google has, of course, in the eyes of Benny,
+ been languishing without a state-of-the-art language model
+ to compete in the main areas of AI competition right now
+ like agentic coding.
+ And yet for most people who were paying close attention,
+ there was never any question of Google's proficiency
+ in advanced multimodal AI.
+ Now Google has revealed Genie 4
+ and with it, a pathway to making world models
+ far more practical and useful.
+ With this iteration, DeepMind has made a huge change
+ to the model's architecture.
+ Rather than being a standalone model,
+ Genie 4 integrates other Google models
+ to provide things that Genie can't do by itself.
+ Gemini Omni, Google's video model,
+ quote, anchors the simulations
+ in real-world appearance and behavior.
+ Presumably that means something like
+ Omni creates a video clip for reference,
+ which Genie then expands out into a fully playable world.
+ In addition, Gemini 3.8 Flash
+ provides a reasoning engine for physical interactions,
+ giving the model reliable causality.
+ On top of that, some unspecified combination
+ of Google's audio models bring sound
+ to generated worlds for the first time.
+ The result is Google's entire AI ecosystem
+ being leveraged towards creating the most
+ realistic world simulations we've seen to date.
+ In their announcement post,
+ Google highlighted four key features that they viewed
+ as the big advances for Genie 4.
+ First, users can now deliver prompts
+ to guide the simulation in real-time.
+ Previous iterations of Genie only allowed users
+ to create the world with a prompt up front,
+ and navigate whatever was generated as a stable world.
+ Now, users can give live prompts to guide the camera
+ or to modify the environment by changing the weather
+ or introducing a new object or character.
+ Second, Google highlighted the huge jump in realism
+ since Genie 3.
+ They wrote,
+ The third highlight was generative audio,
+ which, as I mentioned, we haven't seen in world models before.
+ Now, Google's omnivideo model featured impressive sound,
+ as did their Lyria music model,
+ so it's not all that surprising to find amazing audio
+ in the new version of Genie,
+ but the fact that the worlds can not only include music
+ or human speech but also sound effects
+ gives creators a whole different level of tooling
+ than was available before.
+ Check out, for example, the otherworldly sounds
+ to match an abstract landscape,
+ such as those that go alongside
+ an example.
+ Now, the speech does feel a little behind the state of the art,
+ still featuring that hollow and echoey style
+ that was the hallmark of dialogue in generative video
+ until about three months ago,
+ such as this example of a couple talking while riding on a motorcycle.
+ Do you really think we're going to make it?
+ Finally, Google highlighted
+ what adding a reasoning model in the background brings to the table.
+ Genie can now simulate complex, multi-step actions
+ with a much higher level of realism than we've seen before.
+ Explaining how this works, Google wrote,
+ To achieve this in real time,
+ Gemini38 Flash serves as a guiding agent in the loop.
+ As Genie4 generates a world in real time,
+ Gemini continuously observes the scene,
+ breaks down goals into a sequence of steps,
+ and reviews incoming frames to track the progress
+ and verify that each step succeeded.
+ As the world shifts or the user intervenes,
+ Gemini adapts its plan in the moment,
+ unlocking worlds with reliable causality,
+ procedural behaviors, and multi-step reasoning.
+ The result is, undeniably,
+ a huge step up in world models.
+ We now have the realism of modern video models,
+ combined with the reasoning capabilities of modern LLMs,
+ baked into a fully playable world simulator.
+ One immediate implication is a new paradigm in robotics.
+ Google has been experimenting with using Gemini4 Argon
+ rather than Gemini38 Flash as the back-end reasoning model
+ for cutting-edge robotics research.
+ Showing a demonstration of a robot playing chess
+ inside a Genie simulation, they wrote,
+ Argon breaks down a user-instructed task
+ into steps for Genie to render.
+ These steps are interleaved as text captions
+ in Genie4 as the simulation is rendering.
+ Because Genie4 can be steered in real-time
+ with text captions using Gemini,
+ this now unlocks the path of adapting the simulation
+ as it progresses towards the completion of that task.
+ This capability becomes a path for simulating
+ a breadth of scenarios in imagined worlds
+ using Gemini4 Argon and Genie4.
+ Put a little less densely,
+ Google can now create entirely simulated
+ training environments for robots,
+ unlocking training at software speed
+ completely untethered from real-world limitations.
+ The general response from the community
+ was Jaws hitting floors.
+ And I think it's worth noting since I've critiqued
+ before the fact that everyone has an incentive
+ to focus on 3D renderings and things like that
+ because their popular social media shares
+ when a model first gets released,
+ that's a little bit different in this case
+ because that is the entirety of what this model does.
+ In other words, it's not a model that you're going to use
+ for agent decoding or writing essays
+ that people are judging on the basis of its ability
+ to make 3D renders.
+ The visual and interactive worlds that you're creating
+ and sharing are the purpose of the model at core.
+ So, Genie4 is quite
+ an insane experience,
+ generating game-like environments as you go.
+ It isn't flawless, but I can type
+ neogothic, brutalist city inhabited by robots
+ and horses, and it creates one in a minute.
+ Then I asked it to add dragons,
+ then a friendly otter NPC,
+ all in real time.
+ Ethan also created a scene of a Victorian high tea
+ where the main character was a mouse
+ in appropriate garb, and then in real time
+ added a porcupine walking by, the mouse growing wings,
+ the mouse flying to the teacup.
+ It's glitchy, but also impossibly advanced
+ compared to a couple of years ago.
+ If you had to sum up people's reactions
+ with a single emoji, it would certainly be
+ the mind-blown emoji, as shared by Justine
+ Moore from A16Z.
+ Sharing a clip of a Lovecraftian-style game,
+ she writes,
+ She also created a new version of Grand Theft Auto and said,
+ ChrisGPT tried to explain why this matters
+ for the larger advancement of AI as well.
+ He writes,
+ Break goals down into simpler steps
+ and adjust its plan as the world changes.
+ Eventually, pairing an LLM's reasoning
+ with a world model's learned physical dynamics
+ could give agents a way to test actions
+ and improve their spatiotemporal reasoning,
+ similar to how humans can imagine a real-world
+ scenario and think through what might happen
+ before doing something. This gives agents a place
+ to compare actions and learn from simulated
+ outcomes before trying them in the real world,
+ assuming these simulations are accurate enough.
+ I think this could help with some of the spatial
+ and physical reasoning problems models still struggle with.
+ Humans can mentally rehearse what they're about to do,
+ but LLMs are only able to do text-based reasoning
+ and can describe physics and math possibilities in text,
+ but an interactive world model gives AI a way to play them out.
+ The physics and long-term consistency still need work,
+ obviously, but this is a great step towards
+ giving AI richer environments to interact with
+ and learn from.
+ Now, as you might imagine, one place that people are seeing
+ very clear implications is for the world of gaming.
+ In fact, since the earliest days of world models,
+ most have assumed that that was where this technology
+ would have its first big impacts.
+ The idea is that one day, perhaps one day soon,
+ gamers will be able to prompt their own
+ personalized game using a world model
+ and create a fully-tailored generative gaming experience.
+ In fact, the release of Genie 3 sent gaming stocks plummeting,
+ although this Genie 4 release was less damaging to the sector.
+ It seems investors have gotten a little bit more sophisticated
+ in their understanding that the technology
+ is still a little way off for being able to disrupt
+ the gaming industry. Still, there's already
+ a huge AI transition underway in that industry,
+ driven by Opus 5.5's ability to decompile and repackage games.
+ The first few weeks of that saw weird mashups,
+ like dropping Mario into dark souls.
+ Then there was the wave of ports,
+ with people realizing Opus could make basically
+ any game compatible with pretty much any hardware.
+ After a tech reporter reported Tim Sweeney's
+ first game from PC to the NES,
+ the epic game CEO commented,
+ this is amazing and shows what would have taken
+ a vast manual effort in the past
+ can be done as a hobby project very efficiently.
+ Truly a new age of gaming and software ahead.
+ Now people are bringing some truly zany ideas to life.
+ Lucas Martinage managed to turn Mario 64
+ into a mixed reality game,
+ the gameplay is presented on a virtual screen inside
+ of VR glasses, and the player can reach in
+ and interact with Mario as he's running around.
+ For example, using their hand as an additional platform.
+ The player can also grab Mario, pull him out of the game
+ and place him on their kitchen table,
+ turning their real world space into another world
+ for Mario to run around in.
+ In short, while the tech might not be ready
+ for fully generative games,
+ players are figuring out how to do some strange
+ and incredible things with the technology we already have,
+ which will inevitably shape what comes next.
+ As with Genie 3,
+ Google is making Genie 4 fully available
+ for Gemini Ultra Subscribers to try out.
+ It's still only capable of two-minute simulations,
+ which is double the limits of Genie 3
+ but still short of a fully generative gaming experience.
+ So for now, this is still a bit of a tech toy,
+ although one that's starting to show glimmers
+ of a very useful technology.
+ There is one more aspect of the Genie 4 announcement, however,
+ that's worth digging into a little bit.
+ In short, it's the interpretation by some
+ that Genie 4 is a sign that DeepMind still has another act.
+ The past six months have been
+ putting it fairly mildly disappointing for Google on the LLM front.
+ Google for Argon, their most recent model,
+ got a passing grade but certainly didn't put Google back in the AI race.
+ Still, in Anthropics S1 paperwork,
+ they named Google as one of only two other major competitors
+ alongside OpenAI.
+ If the AI frontier is jagged,
+ DeepMind's output is perhaps the most jagged of all.
+ They haven't been able to fully catch up on LLMs,
+ but their progress on multimodal is still unrivaled.
+ With Genie 4, Google is demonstrating
+ that combining a series of disparate model architectures
+ can produce entirely novel AI systems with huge amounts of potential.
+ What's more, as an AI business,
+ Google also continues to have some diverging bets that are paying off.
+ When Google started ramping up TPU production last year
+ and leaked discussions about selling the chips externally,
+ many semiconductor analysts scoffed at the idea.
+ Nvidia had a stranglehold on AI chips,
+ and Google was starting from zero on sales and business development.
+ Still, TPU sales have grown to become a significant line item
+ in the revenue statement,
+ albeit almost entirely through sales to Anthropic.
+ This week, however, the information reports that Google has won two new customers,
+ in OpenAI and Oracle.
+ Terms weren't disclosed for the OpenAI deal,
+ so it's difficult to know how many TPUs will be purchased
+ and how they will be deployed,
+ but Oracle is set to become the first large cloud provider
+ aside from Google to rent TPUs to outside customers.
+ And in addition to their hardware sales,
+ the other big thing to watch for Google in the coming months
+ will be whether they can rapidly iterate on their LLMs.
+ Even before Gemini4 Argon was released,
+ Google already had their follow-up model ready for internal testing.
+ The model is known by the codename Gemini4 Carbon,
+ and it seems like it's getting positive reviews from the Googlers who've tried it.
+ Critically, Gemini4 Argon isn't just a new commercial model.
+ It's also a new ultra-large base model that Google can train on top of.
+ They don't need to complete another long pre-training run.
+ They can apply relatively fast post-training on top of Argon.
+ They've seen what that meant for Meta with the release of MuSpark.
+ The first version was pretty dismal,
+ but they released three additional versions in five months
+ and bootstrapped their way to a competitive mid-sized model.
+ Reinforcement learning runs on an ultra-large model won't be quite as fast,
+ but it still gives Google a clear pathway to rapid model improvement.
+ There's also the fact that the creators and listeners of this podcast
+ may be a little too deep in AI
+ to understand how much existing distribution matters over even model capabilities.
+ A week ago, Google's Logan Kilpatrick posted,
+ In just the first 72 hours since Gemini4 Argon launched,
+ we processed around 25 trillion tokens.
+ The demand for intelligence is incredible and still under-appreciated.
+ At the end of the day,
+ Genie4 is still not out of the tech demo stage when it comes to world models,
+ but you can feel us getting tantalizingly close to that inflection,
+ where tech demo becomes real-world application,
+ and in the case of world models in Genie specifically,
+ that could be a big change indeed.
+ For now, that's going to do it for today's AI Daily Brief.
+ Appreciate you listening or watching as always,
+ and until next time, peace!
