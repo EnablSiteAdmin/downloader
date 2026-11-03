@@ -1,0 +1,1234 @@
+ The AI slop is everywhere, man.
+ Look, when the word slop started being used,
+ it was perhaps reasonable to write it off
+ as an angry response from folks who just didn't like AI in general.
+ However, there is no doubt now
+ that as AI writing and image generation and video generation
+ and co-generation have gotten ubiquitous,
+ we are living in a mass of content.
+ Inside work, outside of work,
+ it is just content everywhere all the time,
+ and it actually comes with a cost.
+ If a first phase of AI for work was learning how to use these tools
+ to produce just volumes and volumes of new content,
+ a next phase is how to distinguish yourself by using them well.
+ And so friends, let's talk about de-sloppifying your AI.
+ The AI Daily Brief is a daily podcast and video
+ about the most important news and discussions in AI.
+ All right, friends.
+ Quick announcements before we dive in.
+ First of all, thank you to today's sponsors, KPMG,
+ Robots and Pencils, Cdata and Blitzy.
+ To get an ad-free version of the show,
+ go to patreon.com.ai-dailybrief,
+ or you can subscribe on Apple Podcasts.
+ And if you want to learn more about sponsoring the show,
+ send us a note at sponsors.ai-dailybrief.ai.
+ Now, two more quick things.
+ First, it is Monday, which means the new episode,
+ just the second so far, of how we got here is out.
+ This one is called How We Made the Wrong Things Cheap
+ or the Wrong Abundance,
+ and it's about how stuff got cheap
+ while life got expensive
+ and all of the attendant consequences of that change.
+ That is now available on all major podcast apps.
+ Again, the show is How We Got Here.
+ Second, I am on the road today,
+ so we are doing an Operator's Cut,
+ also one that is very timely for just about everyone,
+ but I'll be back with a normal episode for tomorrow.
+ All right, new far welcome back with another Operator's Cut.
+ How are you?
+ I'm good. I'm excited about this one.
+ I'm very passionate about this topic.
+ Yeah, this is even within the framework of Operator's Cuts,
+ which are sort of the more practical oriented AI daily brief episodes.
+ There's still a band of how conceptual versus applied they are,
+ and this one is about as applied as it gets.
+ It's pretty much a list of things to do or to not do
+ that have some structure around them,
+ so I'm excited to dig in.
+ Hopefully, I think folks will come away
+ with some very specific techniques, ideas, thoughts,
+ et cetera, a lot of which they will probably
+ have already been doing intuitively
+ because my guess is that this is an audience
+ that thinks more about this stuff than many others,
+ but can also hopefully provide resources
+ for both you as the listener and other folks around you.
+ So anyways, I'm excited to dive in.
+ All right, so before we talk about specifics,
+ let's bring us all to the same page.
+ And I'm sure that you've all seen it this week
+ and maybe even today.
+ It might have been the all-hands email that sounded like nobody
+ or it was too long and too smooth, slightly sterile
+ with a rhythm that you can hear in your own head by now,
+ like short sentence, then list of three,
+ then a line telling you what something is really about,
+ and you've seen that in your inbox in multiple places.
+ Maybe it was the especially believable image
+ or maybe it was a radio ad that you knew after one sentence
+ that nobody really wrote,
+ or maybe it could have been like the food ad
+ with the lighting that is a little too golden
+ and 20 more just like it,
+ or it was a campaign for literally any company
+ whose whole idea was now with the eye.
+ And one of the worst places is the feed where every post
+ opens with the same hook and ends with the same question.
+ And it's everywhere and it looks the same
+ and after a while you stop reading any of it.
+ And in all honesty, I think we all contribute
+ and we're all part of the thing.
+ So Miriam Webster, word of the year for 2025 was slop.
+ That was almost a year ago.
+ And they defined it as digital content of low quality
+ that is produced usually in quantity
+ by means of artificial intelligence.
+ And before that, they demand scrapes you feed the pigs.
+ So this year, I think it got lots worse
+ because 2026 is when companies rolled out
+ agentic tools to everyone
+ and the work that used to arrive one draft at a time
+ comes from agents producing documents, decks and code in volume.
+ And if you want even a scale outside of the office,
+ a recent stats from Deezer reported that
+ more than half of the music uploaded to the platform
+ every day is fully I generated.
+ But if you look at the downloads,
+ the I generated downloads make up about 1 to 3%
+ of what people listen to.
+ So that's the background or the definition.
+ But the thing that got me to be very passionate
+ about this topic recently
+ is that I had a training session with managers
+ and one product later that I really respect a lot
+ and they're very AI savvy and very sharp thinkers
+ and they were kind of pushing their employees very hard
+ to use AI.
+ Everybody adopted that,
+ but the team turned into a slop factory.
+ That's their definition.
+ Long outputs that nobody read before sending
+ the copy that sounds like the same model
+ and the same results from any company
+ and worst of all, very little original thinking.
+ What they told me is it made everybody shallow,
+ the people and the artifact.
+ The way I define that given these conversations
+ and many others that I'm having with leaders
+ is the work where the person who should have done
+ the thinking basically skipped it,
+ either partially or altogether,
+ and the cost moved to whoever received the work.
+ And of course, humans produced slow way before we had AI.
+ AI just made it cheap and in volume.
+ So this definition also gives you the standard
+ because the most effective output for the least effort
+ on the other side will be non-slop work
+ and compacting it to the format and length
+ and the quality that your audience needs
+ is on you, the responsible AI users.
+ A few numbers that I agree also with that
+ stand forward and better up.
+ They did a work-slop study
+ and they said that about 40% of US desk workers
+ had received in the past month
+ something to be considered floppy
+ and it cost close to two hours on the receiving side.
+ In the Glyn survey, I think you quoted it
+ in one of the episodes,
+ 6,000 workers this year said that almost 70%
+ shipped work without ever reading it to someone else.
+ And I suspect some of you are now saying something like,
+ no, these numbers are even on the lower side
+ in our company, it's much more.
+ So beyond kind of complaining and so on,
+ I want to help you.
+ And the way I want to help this episode
+ is in three parts.
+ First, explain why we got here.
+ Why slop happens in the machine and in us.
+ Also, how do you know that something is slop
+ either in your own work or someone else's work?
+ And finally, and the most important part,
+ what are the habits that keep the work yours
+ scaled to the stake of the task?
+ And I want to make one thing very clear,
+ this is not an anti-AI episode.
+ I use AI to help me with everything that they do,
+ including of course this session,
+ I just want to make sure that you do it
+ in a way that actually produces original work.
+ So I want to start with why the machine produces slop.
+ And the answer is that the tools are doing
+ what they were built to do because a language model
+ is trying to predict the most likely answer.
+ You give it a generic question
+ and you get roughly the average
+ of what the internet thinks about this topic.
+ And if you add some memory and context to the tool,
+ they help, but they still can tell the tool
+ what you actually think about it
+ if you haven't shared your thinking today.
+ And then there's of course
+ another thing that contributes to that
+ and that is the tuning after the training.
+ The way it works is that people rate the answers
+ and raters reward what feels familiar.
+ Stanford researchers named this the typicality bias
+ and that is being folded in many cases into the model
+ and the range narrows of the answers
+ and the default comes out long and very listy
+ like we all know that AI create
+ because length looks like effort
+ and in many cases that's how people reward it.
+ And if you think that swapping vendors can solve it
+ then the best paper last year from NEAPS
+ they found that different models
+ from different companies converging the same answers
+ so switching tools won't buy you originality.
+ And by the way with image models it's not better.
+ It's kind of the same story
+ because every model has their own house style
+ and it falls back to that
+ if you don't describe something else that you want to do.
+ So the golden light on the food
+ is one of these things that is like a house style
+ and in order to prove it
+ and I strongly recommend to run similar exercise yourself
+ I did like an experiment
+ and what I did I opened a HGPT Sol
+ Claude Opus and Gemini Aragon
+ the latest versions in an incognito mode
+ so that means that memory and history were off
+ and I gave them all a very generic and simple prompt
+ write a LinkedIn post about how a light is changing marketing
+ and I have to say that even I was surprised
+ by how similar the results
+ not only did they have very similar structure
+ as you can see here
+ and I think the structure by now will be very identifiable
+ by all of you
+ but even more so the content was very similar
+ and then when I rerun the same task
+ now with my point of view
+ what I believe about AI marketing
+ what's my experience
+ and also what I like in terms of structure
+ and words that I never use
+ all of a sudden I got a much better draft
+ could I have posted that on LinkedIn as is
+ not at all
+ but at least I had a much better starting point for editing
+ so that's the machine side
+ the question is why we as humans tolerate the slop
+ and the answer is that
+ psychologists have called our brain a cognitive miser
+ since the I guess early 80s
+ because we are prone to save thinking
+ and energy wherever we can
+ even if you talk to pilots
+ they call the downside automation complacency
+ and something that when the machine is usually right
+ you just stop checking
+ and even if you go into knowledge workers
+ research found that the more people trusted the AI
+ the less critical thinking they applied to the output
+ and the models make it very easy to feel very confident
+ so if you think about how slop gets made
+ there are basically three ways
+ and almost none of them are bad intent
+ it's because it's easy
+ like it looks fine
+ and you're under pressure
+ so you just forward it
+ and not knowing the craft
+ for example if you compare
+ someone who vibe codes
+ without knowing much what they're doing
+ the request is going to be very naive
+ and they will get in many cases naive results
+ while a more senior engineer asking for the same thing
+ they get better work
+ cause they know what to ask
+ and lastly and that's the most troubling part
+ that is because we outsource the thinking
+ we're asking the tool what it thinks
+ before we decide what we think
+ just because it's easy
+ and the tools are so opinionated
+ so literally preventing this last one
+ is my crusade over the last few weeks
+ I call it recovering the lost art of thinking
+ and before I want to give you some ideas
+ on how to prevent slop
+ I want to also give you
+ like a set of questions to detect slop
+ in yours or in other people work
+ alright so to tell slop from a good AI assisted work
+ these are some questions that you might ask yourself
+ or when you review someone else's work
+ so the first thing that I want to ask is
+ could the ascender defend each and every sentence
+ without rereading that
+ in many cases in all honesty we cannot
+ the second thing is did the sender read all of it
+ before it went out
+ the 40 pages report
+ seems okay after you read one or two pages
+ and then you just get tired
+ so you offload the reading to the other side
+ and the other question that I wanted to ask
+ is there anything only this person
+ could have contributed
+ like a point of view
+ a decision or real data
+ if anybody could put their name to this output
+ that means that it's not going to be
+ relevant or high quality work
+ is there a more effective way to convey this information
+ or does this one still do the job the best it can
+ namely does it overall save the reader time
+ or cost them time instead of helping them
+ and lastly and that's the most important thing
+ and the most intuitive one
+ would you feel comfortable putting your name
+ in all capital letter to this output
+ if you don't feel comfortable putting your name
+ that means that there is more work to be done
+ and sometimes we cannot explain why
+ we don't feel comfortable putting our name
+ but we know
+ so that's why I like this test the most
+ there are a couple of technological solutions
+ that try to address some of these problems
+ in my opinion they are not that great
+ but I have to mention them
+ so one is using AI writing detectors
+ and especially if you turn them on on LinkedIn
+ everything lights out as being AI generated fully
+ or almost fully
+ so that's the funny part
+ but what they're trying to do
+ is measure structure
+ call on density bullet density
+ same length sentences
+ a few more things
+ but you can use a detector on your own work
+ as a means to try and move out of the average
+ but I wouldn't give them too much weight
+ as I don't think that they detect quality
+ or originality
+ which is what I think we should care more
+ and there are also humanizers
+ which are like AI skills
+ or AI processes trying to make text
+ sound more like human
+ mostly I think that they are
+ sloped ranked not to look like slop
+ because humanized text is still flagged
+ about three quarters of the time
+ by those AI detectors
+ and the reader's problem was always
+ the lack of human unique point of view
+ not the specific style
+ so you can try them to improve things
+ that are already interesting
+ but I wouldn't use them as a means
+ to skip the thinking
+ and speaking of skipping the thinking
+ I want to have a fine line
+ between outsourcing everything to AI
+ and still getting
+ the efficiency boost where human judgment matters
+ so some places not only AI can help us
+ but it can also create many more opportunities
+ that without AI we cannot do
+ while in other places I am wholeheartedly
+ under the belief that those should remain human
+ and you have a partial list here
+ but I am very curious
+ because I know that you are very opinionated about it
+ Netanyel
+ so how do you decide what to keep
+ in your hands and what to delegate
+ yeah so I think first of all
+ what you said about understanding
+ that you're going to have different approaches to this
+ for different types of things that you produce
+ is really important
+ right there is a wildly different burden
+ on some original content
+ that you're trying to produce into the world
+ versus an email
+ and in fact I don't think anyone has any problems
+ anywhere with slot AI emails
+ as long as they're concise and efficient
+ and just getting to the point
+ it's almost like
+ it's not slot by virtue of the fact
+ that it just does its damn job
+ and gets out of the way
+ that it doesn't matter
+ if all the same words are used
+ because that's its purpose
+ its purpose isn't to make you think
+ or provoke ideas or whatever
+ so there's a huge band of ways
+ that I think about this
+ and I guess maybe let me use
+ the example of this new podcast
+ how we got here
+ because I've sort of had to get intentional
+ about all these processes
+ that I've evolved naturally over time
+ with the AI Daily Brief
+ and I had to put them into practice
+ in a very specific way with this new show
+ so this new show by the way
+ speaking of things that are completely out of sync
+ with people's attention habits
+ for those who haven't heard it yet
+ it's a 45 minutes to an hour long deep dive
+ on some topic
+ about the entire cultural, technological,
+ social, economic history
+ that got it that way
+ first episode is about the 15 year history
+ that led to America falling out of love with tech
+ that shapes the data center debate
+ and so this is an extremely information dense
+ long form content piece
+ that has all sorts of potential problems
+ there's the problems of where the information comes from
+ there's the problem of keeping people interested in it
+ there's the problem of the point of view
+ which drives it along
+ there's the problem of the narrative architecture
+ and this is a show that would be impossible
+ for me to do as I do it without AI
+ but also has all the potential
+ to fall into every single trap of AI
+ if not done well
+ and this is not a show where I can
+ I'm not an expert on each of these topics
+ the first ones that I'm doing
+ I'm much more
+ much closer to an export in
+ because that's why I'm starting with them
+ but as I get farther out
+ and I'm doing the history of GLP ones
+ or something like that
+ like it's not
+ I'm going to have to sort of turn myself
+ into the translator even
+ even without being deep in that space
+ so the way that I think about
+ deslopifying that
+ or making sure that there isn't slop
+ that enters into that process
+ is one having a point of view first
+ on which parts are mine
+ and which parts are AI's
+ and how those go together
+ right knowing that it is going to be an intentional plan
+ that's the foundation upon which it stands
+ two first things that I know
+ when I'm thinking about that plan
+ or that one
+ there is no way for me to do all of my own research
+ so that has to be AI
+ but two
+ I am unwilling to allow AI
+ to form my point of view on a topic
+ so that's those are my starting points
+ and so the first thing that I do with any episode
+ is I am taking full advantage of AI's ability
+ to very quickly read everything that exists
+ and has ever existed about a topic
+ and turn that into any medium
+ of getting myself up to speed that's useful
+ I can have the five minute overview report
+ I could have it be the 50 page research report
+ whatever it is
+ but I'm producing research reports
+ of all different varieties
+ using all sorts of different models
+ because there are differences I find
+ in what things they choose to emphasize
+ not so much better or worse
+ I just want all of it
+ and I'm using that to make sure
+ that I either have a point of view
+ that that is my own
+ or that I'm sort of challenging it
+ and building it out
+ from whatever point I'm starting with
+ I think a great example of why you
+ literally cannot outsource your point of view
+ in content to AI
+ is one part of that process that I often do
+ is I will have an AI model steel man
+ to wildly different perspectives
+ and have it argue vociferously
+ for each side of a particular issue
+ or phenomenon
+ and that means that it's
+ even if in one run
+ it happens to decide one versus another
+ it's completely able to argue
+ as though it is deepest conviction
+ whichever thing you want it to
+ and so the fact that it ultimately
+ it is not a person that has
+ a perspective
+ it just has the sum total of
+ all the arguments that it can go out and source
+ means that you really
+ you have to have that
+ that sort of that point of view
+ everything builds from there
+ so I've got the research which is
+ largely in the hands of AI
+ although I do actually have a research team
+ that that helps interact with it
+ and then a point of view
+ I also tend to be very strong
+ for myself in architecting
+ the narrative and the flow of the argument
+ that's something that
+ is extremely important to me
+ and that I find
+ I almost never agree with how
+ AI wants to construct an argument
+ I don't necessarily think that's
+ something that I
+ every person has to follow
+ you know I've been doing this type of
+ long form content for so long now
+ that I have very specific
+ instincts and feelings about
+ how arguments should be built
+ but that's one where again
+ I'm not willing to outsource it
+ so the human side I've got
+ the point of view
+ and the architecture of the argument
+ then I've got the AI side
+ I've got the research base
+ from there
+ I don't script anything that I do
+ I do it extemporaneously
+ but the way that I'm able to do that
+ is I architect that narrative flow
+ and then I put all the sort of
+ materials and talk over visuals
+ that I'm going to use
+ in the sequence that they're going to come
+ and that once again
+ I've now brought AI back in
+ so I've got the narrative architecture
+ in very sort of precise specific outlines
+ and then I have AI do
+ bullets basically that have
+ either key facts or key numbers
+ like basically the things that I want to hit
+ same type of research dossier
+ we actually produce with the human
+ for the AI Daily Brief
+ that's a combined human AI effort
+ for the new show how we got there
+ and then I do my normal
+ extemporaneous talk over that thing
+ so that's sort of
+ it's basically this never ending back and forth
+ where the most important parts of perspective
+ and narrative architecture remain with mine
+ and I use AI to make that all viable
+ to do it in the speed at which
+ it needs to get produced
+ the one other piece that I thought
+ was worth noting though
+ because I've sort of given this
+ basically there's no slop
+ from the ground up I don't use AI
+ to produce the script of the content
+ but for each of these shows
+ I'm producing a companion essay
+ and there is simply no way
+ for me to write a 6000 word companion essay
+ in the same week that I'm doing these shows
+ on top of the AI Daily Brief
+ maybe someone could but I can't
+ and so that inevitably
+ there is no way to have AI write
+ something that 6000 words
+ without it being slopped
+ and so I basically had to go figure out
+ how to handle this
+ and so the two pieces to deslopify
+ that particular piece of content
+ because I did think it was incredibly important
+ because a lot of people
+ want to read something long form
+ like this rather than just listen to it
+ or they want both
+ there's a chance to have charts and visuals
+ that are totally different
+ with that type of written content
+ and so the two things that I did were one
+ instead of having it just write
+ from the outline that we had concocted
+ I actually give it the raw transcript
+ of my talk over text
+ so it has more than just the outline
+ it has the actual way that I phrase things
+ and in tone things
+ and it can hue fairly closely to that
+ even if I'm giving it permission
+ to sort of expand
+ and bring in more details
+ context background or whatever
+ so that was part one
+ but even with that
+ part two was I found that
+ there is just a can't escape it
+ five to ten hour rewrite process
+ that I'm going to go through
+ with those essays
+ I actually ended up building a content
+ management system
+ into the how we got their website
+ so that once I've printed
+ that highly visual essay
+ I can just go through paragraph by paragraph
+ I can reorder paragraphs
+ and I edited just a huge amount
+ because my writing
+ my talking doesn't sound
+ like the average A.I. writing
+ there's things that that are literally wrong
+ like an English teacher would say
+ I do poorly
+ but they sound like me
+ and so this is a concession where
+ I think accepting
+ that there is a limit to the efficiency here
+ to basically embrace the fact
+ that without AI
+ there's no way that this 5,000 word essay
+ even exists
+ but there is still a cost to it
+ and that cost is
+ the five to ten hours that I'm going to take
+ editing it to make it
+ not this sort of unbearable AI isms
+ even if it follows my own narrative architecture
+ so those are the versions of this
+ that I've been thinking about a lot recently
+ I think you know in terms of
+ big sort of takeaway points
+ the key elements are
+ one having a perspective
+ and point of view
+ on which parts are supposed to be yours
+ versus AI
+ two I think not outsourcing
+ one's point of view ultimately
+ that that key thing that you are trying to achieve
+ or come back to
+ and then three
+ accepting that there is no perfect efficiency
+ even if AI can do it all
+ and you have to figure out
+ with whatever time budget you have left
+ how much deslopifying you're willing to do
+ and consider that part of the cost of doing business
+ and I think you might have scared away
+ some people with your five to ten hours editing
+ but let's try and give
+ like a more general perspective
+ that I think agrees
+ with everything that you're saying
+ but gives maybe a few other
+ point of thinking
+ for people with other positions and so on
+ so amazing to hear how you run
+ high quality with like AI first
+ and AI native work
+ and one thing that I want to say
+ especially to the people who feel that
+ what you're saying sounds intimidating
+ that it needs to be proportional to the stakes
+ so like you said the internal MLD one line
+ that nobody cares about
+ can definitely be fully AI made
+ and I think nobody is looking for
+ like artisanal meeting transcript notes
+ or summaries
+ but I do think that anything that represents
+ your brand
+ that's supposed to be your original work
+ that is customer facing
+ and has a high impact to your company
+ this is the type of work
+ that requires this intentionality
+ like an Italian just pointed out
+ and that everybody should kind of carve
+ their own belief processes and priorities
+ at the very minimum just think about the process
+ and that's my overall playbook
+ on how I believed that everybody should
+ disclose critical and important work
+ A new study from KPMG
+ in the University of Texas at Austin
+ found that when people work with AI
+ similar skills don't guarantee similar outcomes
+ researchers studied more than 500 early career professionals
+ and found that the best performers
+ consistently amplified the value of AI
+ by guiding evaluating and refining its outputs
+ these top performers called AI amplifiers
+ weren't defined by what they knew alone
+ but by how they worked with AI
+ learn more about what separates
+ AI amplifiers from everyone else
+ at kpmg.com slash us slash AI amplifiers
+ the best teams don't have a single star
+ carrying everyone else
+ they know their own strengths
+ than each other's weaknesses
+ and play to both
+ that's the team robots and pencils
+ has built on purpose
+ nobody there is grinding through busy work
+ to pad a head count number
+ people come for the hard problems
+ and they stay because everyone around them
+ is leveling up at the same time
+ in a market full of companies
+ that are just trying to hire fast
+ that's worth a look
+ check out robotsandpencils.com slash careers
+ this episode is brought to you by Cdata
+ companies rolling out AI
+ keep hitting the same wall
+ tokens spend is climbing
+ security is holding agents back
+ and no one knows how AI is truly being used
+ the root cause
+ AI is cut off from the systems
+ and context your business runs on
+ that's why Cdata built connect AI gateway
+ one control point between your AI
+ and your systems
+ built on the connectivity layer
+ powering Palantir, Google, Salesforce
+ and hundreds more
+ each agent gets exactly the data
+ and tools it needs
+ it governs down to the record
+ and lets you finally see your org's
+ complete AI usage in one place
+ accurate answers
+ a fraction of the token cost
+ and a gateway that learns your business
+ with every interaction
+ see how at cdata.ai
+ every AI coding tool on the market
+ does the same thing first
+ it starts writing code
+ Blitzy does the opposite
+ before writing a single line
+ Blitzy spends days reverse
+ engineering your entire code base
+ thousands of agents ingest millions
+ of lines mapping every dependency
+ every undocumented constraint
+ every architectural decision made
+ over the last decade
+ the result is a dynamic knowledge
+ graph that understands your software
+ the way a principal engineer would
+ after 30 years in the building
+ other tools guess it context
+ with grep searches and markdown files
+ Blitzy never guesses
+ it builds true understanding first
+ then delivers over 80% of entire
+ software epics autonomously
+ validated end-to-end tested
+ production grade pull requests
+ that's why Fortune 500 engineering teams
+ trust Blitzy with the code bases
+ that matter most
+ see for yourself at blitzy.com
+ that's blitzy.com
+ I want to divide it into stages
+ and stage one happens
+ before you open the tool
+ and the very first thing
+ like you just heard that Aniel saying
+ is that I think that you have to
+ know what you're thinking
+ before you open the tool
+ go take a walk
+ read the research until you have a view
+ of your own no matter how messy it is
+ my favorite version is to brain dump
+ everything that you're thinking
+ once you have some original thinking
+ dictate rumble to the AI tool
+ don't care about the structure
+ just tell it everything
+ what you heard
+ what worries you
+ what you're thinking
+ what you're sure you don't want to do
+ and then let the model and the tool
+ figure out the structure
+ this episode for example for me
+ started with 15 minutes of me
+ talking to the AI tool
+ very messy but I just
+ told it everything I'm thinking
+ about to help
+ write this down
+ and then the AI tool
+ will help you shape many of the
+ thinking or speak back
+ to what it heard
+ and I think that
+ in many cases
+ this is funnily enough
+ the one thing that people
+ skipping that has the highest
+ downstream impact
+ so that's number one
+ you have to think before you open the tool
+ happy to is I want you
+ to also tell the tool
+ how confident you are
+ in whatever it is that you're thinking
+ because the model is built to be agreeable
+ so if you're alive with a very strong opinion
+ it will probably help you justify
+ every one of your strong opinions
+ as you said it will still menu
+ so say
+ and how sure you are
+ and how hard you want it to challenge you
+ for example I'm about 60% sure
+ the problem is onboarding
+ push back hard before you agree with me
+ that starts a completely different conversation
+ even when you are sure
+ ask for the counter view
+ often it will help
+ sharpen your own point of view
+ the other thing that I want you to do
+ before you start with the tool
+ is to think
+ who the audience is
+ and what you know about them
+ and what the experience that you want to
+ for them to come out
+ with whatever it is that you're creating
+ it can be the feeling
+ the action that they want to take
+ or anything else that
+ matters including the standards of length
+ of format, tone
+ anything that will make it yours
+ and appropriate to the task at hand
+ it gives the model a target
+ and it also helps you
+ validate against something
+ once you do the work together
+ and of course all of that
+ is done prior to the work
+ that you actually kick off with the tool
+ and then comes the actual
+ let's call it shepherding
+ of the execution with the eye
+ and that's gonna be the second phase
+ and here one thing
+ that I think that you can do
+ is to go wide
+ meaning that the first answer
+ is probably the most probable one
+ and that's often the most average one
+ however if you ask for six directions
+ that differ in approach
+ angle, structure, a visual
+ as whatever it is you're producing
+ it push it further
+ you can ask for directions
+ that borrow from other domains
+ for example how a game designer
+ or a user would handle this
+ and then make the tool argue
+ for each direction on its own
+ and then you squint at the different directions
+ look at what you like about each
+ what's missing from all of them
+ and then follow the ones that you're most drawn to
+ that represents something that you feel
+ that will serve the purpose at hand
+ after you do that
+ I want you to be very intentional
+ like you heard Nathaniel doing
+ about your interception point
+ the workflow that might look the most efficient
+ here's what I need go and do it end to end
+ it does the most damage mostly
+ because when you get like a polished and finished piece
+ sitting in front of you
+ the sunk cost gets in
+ and then you in many cases will say
+ okay I don't want to go back to the actual narrative
+ let's just ship it like that
+ also with the tools it's often harder
+ to move it from this
+ so deciding advance
+ what are the points where you want to step in
+ and I want you to do that in very strategic points
+ and decide them in advance
+ like the outline
+ and then the first section
+ and then maybe the first narrative
+ and then the draft
+ and then the finished goods
+ so there are intentional strategic points
+ where you're reviewing that
+ when the cost of fix or a complete pivot
+ is as low as possible
+ and a few additional review habits
+ that I think that will go a long way
+ which I really really like
+ is to what I call to convene a board
+ meaning that before any important work goes out
+ you have AI review that from distinct personas
+ so it can be the reader seeing it
+ called a skeptic target audience
+ a domain expert
+ the busiest person who will receive it
+ and in many cases also include the devil's advocate
+ because that can also be the person who is arguing
+ it shouldn't go out at all
+ fixed based on the different perspectives
+ that this board of reviewers can provide to you
+ and of course it can also be different segments
+ of your target customers
+ and of course only use the feedback
+ that you find valuable
+ and I think that once you use that
+ you leverage AI to really give you more perspectives
+ and improve the confidence before it ships
+ so of course this can be done both early on
+ in critical junctions as well as on the finished good
+ and there are a few additional review habits
+ that will take you even further with the quality
+ the first thing that I want you to do
+ with regards to review is to respect the read budget
+ and I think the most important part of it
+ that you never send something
+ that you wouldn't read yourself
+ so if it's too long or not clear for you
+ then your audience for sure will not read it either
+ they'll just hand it over to their own AI to summarize
+ and then now we have two models that are talking
+ while two people pretend to communicate
+ so distilling a page into five sentences
+ forces you to decide what you think
+ or generating that as a deck or as a podcast
+ or as an html or as an image or a video
+ you have so many options with AI
+ so choose the format on purpose
+ and before you even start the production
+ ask yourself about the audience
+ what they will consume in the most effective way
+ and then go wild with that
+ and the best thing that you can do
+ is if you will enjoy reviewing that in that format
+ or rather that your target audience
+ will also enjoy consuming that
+ so that's how we all get a single output
+ out of the door in a higher quality
+ with like human taste and so on
+ but I want to also propose a few ideas
+ on how to make it easier
+ and more personalized over time
+ and one thing that will help a lot
+ is to teach AI your own taste
+ and of course you don't need to be able
+ to describe your own taste in words
+ because most of us just don't have the vocabulary
+ to be like a linguist
+ or an art director
+ that explains what it is that we like
+ but if we show a very capable model
+ either our best work
+ the work by others that we admire
+ and the work that we dislike
+ and the things that we dislike
+ and then ask what the good ones have in common
+ or how will it profile your own taste
+ and voice and so on
+ it will put words to your preferences
+ much more precisely than what you can
+ and for visuals I really like
+ to create like a mood board
+ of a bunch of images and colors
+ and the feelings that you want to
+ get out of that
+ and that be any adjectives
+ that you will be able to use
+ once you have a good profile
+ of your preferences
+ with regards to visuals
+ or narrative or tone of voice and so on
+ you can turn that into a skill
+ or something usable with your AI tool
+ and then that can be the beginning
+ of any work that is intended to sound like you
+ still you need to do the thinking
+ but at least it will help you
+ sound much more like you
+ and of course
+ the downside of having such a skill
+ is that potentially you will start to produce
+ just the one thing
+ because the skill will help you
+ produce it again and again
+ and audience does remember
+ that you have a sameness
+ so for example maybe in my case
+ you are very much fed with my Falcons
+ that might be a downside of me
+ codifying my preferences
+ but what you can do
+ is to break it down on purpose
+ so whenever the audience
+ the scope or the goal changes
+ or just enough time has gone by
+ bring fresh idea from new inspirations
+ and try to kind of go outside your mold
+ by still teach it what you prefer and so on
+ this is where we want to create a cultural difference
+ the first thing that I want you to do
+ is every time you get
+ slug from someone else name it
+ and especially by the way
+ if you're in a leadership position
+ because when something long, generic
+ and clearly unread arrives
+ just say so you can do it kindly
+ or not so kindly
+ this isn't a good use of my time
+ I want you to send me your take
+ in five sentences
+ or I want you to send me
+ work that you think about more carefully
+ just hold the gate
+ and don't allow for a slope to come your way
+ and of course
+ when it's customer facing work
+ this is where you never ever allow to do
+ because we don't ever put our team name
+ when we were producing an external work
+ and lastly
+ I don't want you to necessarily hide AI
+ if you remember a while back
+ and Nathaniel you did an episode on writing
+ and you were debating on the Stanley
+ Druckmiller's AI written op-ed in the Wall Street
+ and the question was whether or not
+ we should remove all the M dashes
+ and remove all the AI telltales
+ and your point of view there
+ was that primarily that was a proxy
+ to let the audience feel
+ as if you didn't invest the time
+ so in my opinion
+ you shouldn't completely try to hide the AI
+ you just need to make it feel
+ like something that you originally produced
+ anything to add on that
+ because you were very opinionated back then
+ I was going to use the phrase
+ load bearing in today's episode
+ and I literally just couldn't anymore
+ because of how much it's been used by AI
+ so maybe another example of this
+ that's practical from a company perspective
+ you're starting to see companies
+ that are on the cutting edge
+ formalize and codify their approaches to these issues
+ so Figma has shared their rules for AI writing
+ and one of them is
+ if it's written with AI
+ that's not an issue
+ but label it as such on top
+ so that people have that context
+ to go into it
+ so for example there's going to be lots of times where
+ what you're trying to do with that 40 page report
+ is not say here's the finished work
+ but to say let's rip through this
+ find the parts that are interesting
+ you know and so you just identify it as such
+ I think the point that you made at the beginning
+ of one of the definitions of slop
+ being transferring the cost of work
+ from the person who produces it
+ to the person who consumes it
+ I think is acutely accurate
+ I think that basically
+ almost wholly explains why people have such a visceral reaction to it
+ is that you are now imposing a cost upon them
+ so it's not even just a dereliction of your responsibility
+ you're leaving them holding the work bag in some ways
+ and so when people are smart enough to know
+ if you are prioritizing yourself over them
+ in a context where you're supposed to be presenting something to them
+ and I think that's what folks have an issue with
+ so I think transparency, disclosure, understanding that
+ there are different contexts and different needs
+ for different types of work
+ all have a common through line of
+ respecting other people's time
+ as much as you respect your own
+ yeah and I think with that we can kind of summarize
+ and I think looking forward for sure
+ the models will keep getting better
+ and the better they get the more tempting
+ the generic answer will become
+ so I want to urge you to look at the five stages
+ that we went through
+ and acknowledge that they hold whatever ships next
+ because my hunch is that once a lot of the current type
+ of the agentic tools and how easy it is to produce with AI
+ the handmade work will become the premium thing
+ and people will pay more for work
+ with a human fingerprint
+ like you said even if it's messy
+ if it's not necessarily grammatically correct
+ but it sounds like you and it's intriguing
+ and it creates like a human gut feeling
+ and I do believe the disciplined high quality work
+ is the job security
+ for everybody who is afraid about their job
+ regardless of what it is
+ because original thinkers I'm sure
+ will be rewarded more and more
+ and companies that keep the slope
+ out of how work travels
+ especially outside of them
+ they will stand out
+ and they will attract customers
+ in a way that almost nobody else
+ will be able to manage
+ should they leave the generic output
+ and the sameness out there
+ so definitely use AI to produce more quality
+ more work
+ push the envelope of the things that you can do
+ but I want you to also use it as a tool
+ to think more sharply
+ to expand the horizon and the knowledge
+ and to see more directions
+ and then survive the thing
+ that perhaps a tougher reviewer might do for you
+ we have everything on the companion page
+ that you will probably put in the show notes
+ in the IDB website
+ and as always I have to say in one sentence
+ that part of what we teach in the various courses
+ that we do with the super intelligent training
+ is exactly to teach you
+ how to be an intentional AI user
+ like from a best effort to best in class
+ that does not outsource the thinking
+ and is able to produce original work
+ while still getting the immense value
+ that the technology can give us
+ but doing so in a more strategic way
+ I guess maybe I'll add my cynical take on this
+ just to close it out
+ or cynical is overstating it
+ the self-interested take
+ I believe that a lot of the folks
+ who listen to this show
+ are determined and hell-bent
+ on being of the group
+ that uses this technology to get ahead
+ to not allow this technology happen to them
+ but to use it for whatever goals
+ they're trying to achieve
+ I think that's mostly why people are here
+ even if they're here for the news
+ versus the practical stuff
+ overall they want to be in the top 1%
+ of this new era that where AI is a part
+ and simply put what that means
+ has undergone a shift
+ and I think we've all recognized it
+ but at the beginning
+ using it well
+ being in that top 1%
+ or even the top 10%
+ meant realizing you could use Gamma
+ to produce better presentations
+ that were more visually consistent
+ more quickly
+ and having more comprehensive answers to things
+ but all of that has been completely democratized
+ as a skill now
+ right
+ everyone has access to those things
+ it's no longer just the 1%
+ it's everyone who's touching these tools
+ unless they're philosophically against them
+ at this point
+ and so the value
+ the differentiated value
+ if you're trying to be in that top
+ percent of users shifts
+ from just producing a bunch of stuff
+ to using them well
+ and well it turns out means
+ with taste and with intention
+ and unfortunately it's
+ it's a much harder phase
+ in a lot of ways
+ than the first one was
+ the first one
+ we all got points for just showing up to the party early
+ now the differentiation
+ and the product is actually going to matter
+ but there are huge opportunities
+ in a world of endless seas of content
+ the stuff that's good will stand out even more
+ and people will get enormously good
+ even without trying to
+ at filtering out all of this noise
+ so it's just the next opportunity
+ and it involves a different set of skills
+ but it's the thing that's next
+ so I think it's what we're all going to do
+ awesome all right new far
+ great to have you on the show again
+ like new far said
+ we have a companion experience
+ up on the website that has this
+ but even
+ way more sort of practical and tangible
+ even than the the background slides
+ that new far was talking over
+ so
+ go check it out at aidailybrief.ai
+ and thanks again for being here
