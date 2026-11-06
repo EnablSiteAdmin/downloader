@@ -1,0 +1,781 @@
+ The conventional wisdom heading into the elections
+ were that if Democrats took power as they appeared that they were going to,
+ it would be very bad for data centers.
+ Certainly one interpretation of the market sell-off in chips and neoclouds
+ over the preceding few weeks was anticipating this potential reality.
+ And yet now that the thing has actually happened,
+ people are starting to point out that there are some very specific reasons
+ why not only might the blue wave not be as bad as people thought for data centers,
+ but that in fact, a data center slowdown could actually be good for big tech.
+ The AI Daily Brief is a daily podcast and video about the most important news and discussions in AI.
+ Alright friends, quick announcements before we dive in.
+ First of all, thank you to today's sponsors KPMG,
+ Robots and Pencils, Cdata and Blitzy.
+ To get an ad-free version of the show, go to patreon.com.ai-daily-brief
+ or you can subscribe on other podcasts.
+ If you want to learn more about sponsoring the show,
+ send us a note at sponsors.ai-daily-brief.ai.
+ And finally, if you haven't yet, please go check out my new podcast, How We Got Here.
+ It is the deep dive backstory on important issues,
+ many of which are in tech, but not all of them,
+ that goes way more in depth than I have a chance to here on the AI Daily Brief.
+ This week's episode is about how we made the wrong things cheap
+ and is particularly relevant I think in this cost of living election.
+ You can find How We Got Here with NLW on any of your podcast apps
+ or just go to howwegothere.com.
+ Welcome back to the AI Daily Brief headlines edition.
+ All the daily AI news you need in around five minutes.
+ Is Ask Chat the new Google it?
+ OpenAI says ChatGPT is starting to compete with Google as a search engine.
+ During a press event earlier this week,
+ OpenAI's consumer product lead, Adam Fry,
+ said ChatGPT is now processing 20% as many search requests as Google.
+ And while 20% may not sound like much,
+ Google has held a 90% plus market share in search for over a decade,
+ meaning no other competitor has come anywhere close to these numbers.
+ Now Fry did explain that OpenAI is classifying any query that results
+ in a web search as a search request.
+ So the numbers might be a little juiced by ChatGPT's propensity to verify answers on the web.
+ But again, no one has come anywhere close to competing with Google in this manner.
+ And Google themselves have noticed users turning to AI search more and more.
+ During last week's earnings call,
+ Sundar Pichai said that strong growth in AI mode queries
+ played a role in slowing search revenue growth because of lower monetization.
+ The market sold off on those results.
+ But with OpenAI finding a foothold in search,
+ it's clear that Google has no choice but to disrupt themselves.
+ For OpenAI, gaining market share in search is, of course,
+ extremely promising for the growth of their advertising business.
+ Ads were hugely controversial when OpenAI introduced them at the beginning of the year,
+ but shocker backlash from actual users has been much less intense.
+ OpenAI's Fry again said,
+ Ads have not negatively impacted the product or the usage of the product,
+ and most people do not seem to mind ads in the product.
+ He added that the relatively well-received rollout has, quote,
+ maybe shown us that we could be doing more of this, actually.
+ So if you are a person who does not like ads in your chat, GPT,
+ it might be a good time to jump to the paid plan.
+ By the way, it also looks like after a couple of quiet weeks,
+ we might be in model release season again soon.
+ GPT 6.2 Astra and GPT 6.2 Sol have shown up on the Google Cloud backend,
+ which usually indicates an imminent release.
+ For many, there is one and only one question that matters.
+ Can GPT 6.2 beat Opus 5.5?
+ Next up, a bunch of acquisitions in the news.
+ Meta has acquired AI coding startup Conductor.
+ Conductor was founded in 2024 and focuses on the orchestration layer,
+ offering a platform that lets developers run multiple coding agents in parallel.
+ Meta launched their own coding agent Muse Code in August,
+ but it's received relatively little buzz.
+ Sources said the acquisition is expected to help Meta build
+ their next generation of AI coding products.
+ And it sounds like Meta is going to try to stand out from the crowd
+ with a new approach to coding harnesses.
+ Conductor founder Charlie Holtz wrote in a blog post,
+ We have some big crazy plans for the next interface.
+ If you liked Conductor, you're going to love what's coming.
+ In other acquisition news, OpenAI has agreed to buy
+ Pierre Computer Company to enhance their Codex product.
+ The three-year-old startup produces open-source developer tools
+ which help teams store their code base and track changes.
+ Codex already leans on Pierre's tool,
+ so it makes sense to bring the team in-house,
+ particularly if OpenAI is still aiming to add integrated services
+ and eventually start to compete with GitHub.
+ One thing to watch over the next year
+ will be whether competition between frontier models flattens out,
+ and we start to see more focus on the agentic product layer.
+ These acquisitions seem to indicate that the leading labs know
+ it won't be enough to just have the best model,
+ and that in fact they'll need to have the best overall
+ product experience as well.
+ Over in Enterprise Adoption Land,
+ Apple has cut their internal AI budgets
+ as part of a cost-cutting measure.
+ Bloomberg's Mark Gurman reports that Apple quietly lowered
+ their employees' spending caps last month
+ from $300 to $200 a day.
+ Another source said another cut is potentially on the table
+ and could reduce limits to just $100 a day.
+ Now, these cuts were framed as impacting
+ engineering teams specifically,
+ so this at least isn't about Apple trying to trim
+ AI costs in marketing or finance departments.
+ Non-engineers already have $100 spending limits
+ and could see those cut to as little as $25 a day.
+ And, broadly speaking, there's nothing all that surprising
+ about Apple looking for cost savings in their AI use.
+ This has been a theme across corporate America
+ over the past six months,
+ and is as much a byproduct of the fact
+ that AI use shifted from a flat monthly subscription
+ to an effectively unlimited API number
+ at the beginning of the year.
+ Apple's limit of $300 a day represented
+ over $6,000 a month limit in contrast
+ Uber imposed a $1,500 a month limit in June.
+ It's also not like Apple's policy here
+ is particularly coherent.
+ On the one hand, they are pushing to modernize
+ their engineering process
+ and other internal operations using AI,
+ but then at the same time asking employees
+ to rein in their experiments to keep it under budget,
+ and the mixed messaging extends externally as well.
+ Last week, newly installed CEO John Ternis told Wired,
+ We don't want to ship AI for AI's sake.
+ When we're doing it right, people won't have to think
+ about whether it was AI that made this happen
+ or more traditional software.
+ What matters is, did we build something that they really love?
+ However, during this week's earnings call,
+ Ternis was hammering the AI theme.
+ AI and Apple intelligence were mentioned 45 times,
+ a new record for Apple.
+ CFO Kavon Peric identified AI features
+ as a key revenue driver, commenting,
+ We feel AI offers a compelling reason for customers
+ to upgrade and switch in order to get the latest capabilities.
+ Bloomberg's Apple insider Mark Gurman's sources inside Apple
+ seemed just as confused about where the company is heading.
+ Some said the $300 a day limit was excessive
+ with few engineers ever getting close.
+ Others thought that the AI cuts were a sign
+ of deeper cost-cutting measures to come,
+ including potential layoffs.
+ Reportedly, some Apple divisions have brought in consultants
+ to evaluate their efficiency and operations,
+ and Ternis is believed to favor a flattened management structure
+ to help the company run faster and leaner.
+ I think one of the more interesting conversations
+ coming out of this comes from
+ Open Claw creator Peter Steinberger who wrote,
+ Do individual limits still make sense?
+ As capabilities increase, you want to work with
+ and support an agent that represents your project,
+ that runs loops and evolves your code base.
+ The humans merely curate the automations.
+ Put differently, when we talk about the shift
+ from individual to team AI,
+ the whole presumption of individual budgets
+ gets thrown into question as well.
+ Way beyond the scope of the headlines,
+ but definitely something interesting for us to keep an eye on.
+ Now staying on the adoption theme,
+ while US mega banks are banning agents,
+ some smaller banks are finding a way
+ to make agentic finance work.
+ Last month CEOs from both JP Morgan and Bank of America
+ said that they'd be blocking agents
+ from accessing customer accounts.
+ The risk of agents making mistakes
+ being seen as too large for the big banks.
+ The information, however, reports that a crop
+ of smaller fintech-friendly banks
+ are experimenting with agentic payments.
+ One example was Lead Bank in Missouri,
+ which is allowing their fintech partners
+ to issue bank account numbers for agents.
+ These function in a similar way
+ to a credit card issued to agents,
+ which allow customers to set spending limits
+ and restrictions on what an agent can do.
+ The accounts also have a panic button
+ that locks an agent out of it if it goes haywire.
+ Internet-only increased bank
+ is also offering segregated accounts for agentic use,
+ as well as providing an agent-friendly API.
+ Bank owner Derek Buckley said,
+ We don't need the entire industry
+ to coordinate banking for agents.
+ It's sufficient to have just a small cohort
+ of technology forward banks.
+ Finally, one update on the theme
+ that we are watching of AI and biology.
+ Google's AI drug discovery spin-off Isomorphic Labs
+ is in talk to raise $5 billion in outside funding
+ as they scale up operations.
+ Isomorphic was founded in 2021
+ as a vehicle to build on top of DeepMind's
+ protein-folding model AlphaFold.
+ Earlier this year, then DeepMind's CEO,
+ Demis Sassabis, moved on to the chairman role,
+ and he reported at the time
+ that reduced duties at DeepMind were in part
+ to allow him to focus on scaling Isomorphic Labs.
+ Sources at the round would value the company
+ at $50 billion,
+ and the new capital raise seems to signal
+ that Google will treat Isomorphic
+ and, by extension, AI-assisted drug discovery
+ as a business capable of standing on its own.
+ For those who are excited about
+ AIs for Health Science and Drug Discovery,
+ this sounds like it would be capital well invested.
+ And that is going to do it for the headlines.
+ Next up, the main episode.
+ A new study from KPMG in the University of Texas at Austin
+ found that when people work with AI,
+ similar skills don't guarantee similar outcomes.
+ Researchers studied more than 500 early career professionals
+ and found that the best performers
+ consistently amplified the value of AI
+ by guiding, evaluating, and refining
+ its outputs.
+ These top performers, called AI amplifiers,
+ weren't defined by what they knew alone,
+ but by how they worked with AI.
+ Learn more about what separates
+ AI amplifiers from everyone else
+ at kpmg.com slash us slash AI amplifiers.
+ The best teams don't have a single star
+ carrying everyone else.
+ They know their own strengths
+ than each other's weaknesses and play to both.
+ That's the team Robots and Pencils
+ has built on purpose.
+ Nobody there is grinding through busy work
+ to pad a head count number.
+ People come for the hard problems
+ and they stay because everyone around them
+ is leveling up at the same time.
+ In a market full of companies
+ that are just trying to hire fast,
+ that's worth a look.
+ Check out robotsandpencils.com slash careers.
+ This episode is brought to you by Cdata.
+ Token spend is climbing,
+ security is holding agents back,
+ and companies rolling out AI initiatives
+ might not know how it's truly being used.
+ The root cause, AI is cut off
+ from the systems and context your business runs on.
+ That's why Cdata built Connect AI Gateway.
+ One control point between your AI and your systems.
+ Connect AI Gateway is not just another static model router.
+ Prompts get intelligently routed to the right model
+ with exactly the tools and data it needs
+ governed down to the record.
+ The result?
+ Accurate answers at a fraction of the token cost
+ with a context engine
+ that learns your business with every interaction.
+ Built on the connectivity layer
+ powering Palantir, Google, Salesforce, and hundreds more.
+ Give it a try and start your free trial at cdata.ai.
+ That's C as in Connect, data.ai.
+ Blitzy's deep code-based understanding
+ unlocks the thing every roadmap owner cares about,
+ shipping new features.
+ Here's the truth about building inside
+ a massive enterprise code base.
+ Writing code was never the bottleneck.
+ Context is.
+ Which system does this touch?
+ Which contracts can't break?
+ Which standards apply?
+ Blitzy already knows
+ because it reversed engineered your entire code base
+ into a dynamic knowledge graph
+ before future work began.
+ With that complete picture,
+ Blitzy builds features end to end.
+ Architecture, APIs, UI, and tests
+ all validated against your existing systems.
+ One Blitzy customer built an AI-native application
+ from scratch with 100% autonomous completion,
+ saving over 2,700 engineering hours.
+ Features that respect your code base instead of fighting it.
+ Stop letting your backlog grow faster than your team.
+ Accelerate your roadmap at blitzy.com.
+ That's blitzy.com.
+ Welcome back to the AI Daily Brief.
+ The day after the big Democrat sweep,
+ everyone's attention now turns to implications.
+ Whatever a person's particular issue or industry,
+ Wednesday, November 4th was spent exploring
+ what the new crop of leadership in Washington
+ and in state houses around the country
+ means for those issues.
+ And certainly the magnitude of the sweep
+ is shaping those perceptions.
+ According to the AP, Democrats have at least
+ an 8 seat majority in the Senate
+ and a 45 seat majority in the House.
+ And they also picked up five governorships
+ including the pivotal win in Texas.
+ In short, outside of the Oval Office,
+ the rest of Washington
+ is going to be blue for the next two years.
+ How much and what specifically will change though
+ is another question.
+ Now certainly for our purposes on the AI Daily Brief,
+ the obvious first question is
+ what's going to happen with data centers?
+ I think a fairly understandable first layer analysis
+ says that this is bad for them.
+ 43 out of the 44 data center moratorium type votes
+ around the country,
+ past clearly giving an indication
+ of where the public sentiment is.
+ And Elon Musk joked in a way that wasn't joking at all,
+ data centers in space looking pretty appealing right now.
+ And at the state where the changes
+ are perhaps most significant
+ when it comes to data centers is of course Texas.
+ In that state we already saw soon to be
+ former Governor Greg Abbott running away from data centers,
+ trying an 11th hour switch that ended up being unsuccessful.
+ And the assumption is that incoming Governor Gina Hinajosa
+ is going to be much less amenable
+ to data centers in the state,
+ which could be hugely problematic
+ given how much Texas has been
+ the epicenter of the data center build out.
+ There are certainly some indications on Wall Street
+ that investors believed
+ that the data center construction boom is basically over.
+ Chip stocks and neoclouds plunged on Wednesday,
+ including a 3% drop for Nvidia
+ and a 10% drop from CoreWeave.
+ Citrini research put out a piece
+ called the end of the trade as we know it.
+ They declared that we're past the peak for AI capex,
+ that risk has shifted to the downside,
+ and that the data centers that do get built
+ are going to get more expensive moving forward.
+ Now what's interesting though
+ and what we'll come back to
+ is that Citrini's analysis is not just about policy.
+ In fact, Citrini's analysis is more about
+ how policy interplays with other existing challenges.
+ They wrote,
+ Outside of capital,
+ problems are now surfacing
+ surrounding the execution of data center construction,
+ where the bottlenecks, power, plugs, and policy
+ have evolved from a momentum trade to real world risks.
+ Securing interconnects, labor, and supplies
+ is holding back construction
+ and could create a slowdown and spending on their own.
+ If the delays stack up enough,
+ with turbine back orders not being fulfilled
+ and input cost cranking,
+ investors start looking at the extended completion dates
+ up against the existing debt maturity dates
+ and you start hearing phrases like
+ take out risk and completion defaults.
+ Now in that environment they say,
+ policy is no longer ambiguous.
+ While they argue that none of the incoming governors
+ in Texas, Ohio, or Georgia
+ are likely to put an outright stop to the build out,
+ the cost they say is almost certainly
+ going to get a lot higher.
+ Larger municipal concessions,
+ clean energy requirements,
+ rate payer protections, and slower permitting.
+ However, in maybe the most important line
+ of the entire piece they write,
+ perhaps the bottlenecks become the excuse
+ some people need to quietly trim their own projections
+ without causing a rush for the exits.
+ Now put a pin in that
+ because we're going to come back
+ to that particular market analysis in just a minute.
+ Because it turns out that when you actually
+ look past the headlines
+ and the obvious default assumptions,
+ a lot of folks are taking a much more nuanced view
+ of what the likely implications
+ of this Democrat sweep are.
+ Yesterday on X,
+ I posted a summary of my analysis
+ which you heard on yesterday's show
+ which is that I don't think
+ data centers stop getting built.
+ Instead, I think that this newly emboldened set of leaders
+ demand no NDAs in full process transparency.
+ I think they demand the builders
+ pay the full cost of infrastructure build outs,
+ including subsidizing everyone else's electricity.
+ I think we start to get actual consideration
+ of quality of life concerns
+ and more environmental rigor.
+ And I think that we see big money involvement
+ in local communities
+ in the form of direct subsidies
+ or payouts to citizens,
+ incentives, build out of unrelated community infrastructure,
+ whatever it takes to get the deals done.
+ I believe that even though Satrini
+ is worried about this increasing the cost for the build out,
+ that the data center builders
+ will absolutely jump to agree to all of this.
+ Those new leaders meanwhile
+ get to deliver a win for everyone
+ while still being tough on tech
+ and the whole system keeps turning
+ in a way that's honestly a lot more sustainable.
+ Now, the most reasonable pushback I got on that on X
+ was a sort of assertion
+ that my argument assumes
+ that people are rational actors.
+ With the person basically implying
+ that the reason that people were against data centers
+ was that they had been poisoned
+ by a digital PsyOps campaign
+ probably architected by China.
+ However, if you've listened to my first episode
+ of the new podcast How We Got Here
+ about how tech lost America,
+ I think that even if there was
+ a massive China PsyOps campaign,
+ people were fairly likely to be negatively predisposed
+ to data centers regardless.
+ And I think we also have to account for the possibility
+ that data centers as they have been constructed so far
+ just haven't been very good neighbors.
+ But what evidence do I have?
+ There are certainly some places that you can look
+ where the new crop of leaders
+ are just advocating for bands outright
+ and we'll actually come back to the new support
+ for pausing AI in just a moment.
+ But if you look at some of the biggest stars
+ of the new show,
+ they're laying out a path for compliance
+ and creating a narrative architecture
+ that the data centers can abide by.
+ In his media tour following his election in Texas,
+ incoming Senator James Tallorico said,
+ we have to crack down
+ on these big data center companies
+ taking advantage of Texas communities.
+ We've got to make them pay for their own energy
+ so they're not driving up utility bills across the state,
+ make sure they recycle their own water,
+ and ensure they get the consent of people
+ who live in these communities
+ before they start building.
+ And it's not just me that's viewing that
+ not just as political rhetoric
+ but as a bid that can be built upon.
+ JP Powers of RWA Wealth Partners wrote,
+ there's definitely some fears
+ about what this might mean for the AI build out,
+ especially on data centers.
+ And those names have already been under pressure
+ because of the expected Democratic victory.
+ But I think it's probably a little bit overblown.
+ It's going to put more onus on the states,
+ but I don't think that will impact
+ existing projects all that much.
+ It could result in higher cost of production
+ if these companies have to provide
+ maybe more local assistance
+ or navigate more regulation across the board
+ to get some of these projects through,
+ but we still need these data centers.
+ The Wall Street Engine account on X wrote,
+ Gina Hinajosa may not be as bad
+ for Texas data centers as it looks.
+ Her plan asks for no subsidies, union labor,
+ no NDAs, and proof household power
+ and water bills won't rise.
+ Much of that is already underway.
+ And even more than individual points of analysis,
+ outside of basically the neoclouds,
+ it was far from doom and gloom yesterday on Wall Street.
+ The S&P 500 saw its strongest single day move
+ since August,
+ with the S&P 500 up 1.6%
+ and the Nasdaq rising by 0.9%.
+ Obviously we need to see a little more green
+ to call it a full on trend reversal,
+ but it does kind of look like
+ a near term bottom for the market.
+ The conventional view is that markets hate uncertainty
+ and gridlock in Washington
+ takes a lot of uncertainty off the table.
+ However, even in the Reuters article
+ that presented this viewpoint,
+ they struggled to find many sources
+ that actually believe
+ were in for a calm two years in Washington.
+ The next phase of the Iran War,
+ a potential government shutdown in December,
+ and interest rate hikes from the Federal Reserve
+ all present the potential for major shocks to come.
+ Seema Shah from Principal Asset Management said,
+ we expect market volatility to continue.
+ It will be a white knuckled ride for the next year.
+ And yet the biggest signal
+ that many took from Wednesday's markets
+ was a rise in big tech.
+ The Mag7 added a trillion dollars in market value,
+ with Microsoft gaining 6.7%, Amazon up 6.1%,
+ and Google gaining 3.3%.
+ Now part of that may be that markets
+ are just taking a sigh of relief
+ that the election is over,
+ but there is increasingly an argument
+ about how the hyperscalers
+ could actually benefit from an AI slowdown.
+ Remember that line from Satrini,
+ perhaps the bottlenecks become the excuse
+ some people need to quietly trim
+ their own projections
+ without causing a rush for the exits.
+ And remember that heading into the election,
+ the conversation has been nothing,
+ but when the AI bubble will burst.
+ And in this case,
+ the AI bubble that they're talking about
+ is not just in the valuations of the companies,
+ but in the amount that they plan to spend
+ on the AI data center buildout.
+ The question that many are now starting to explore
+ is whether this presumption
+ of a policy-induced slowdown
+ allows air out of that trend
+ rather than having to wait for a full pop.
+ Again, as Satrini pointed out,
+ there were already a lot of challenges
+ to the buildout.
+ Each of Google, Meta, Amazon, and Microsoft
+ came in under their CAPEX targets in Q3,
+ flagging construction delays across their projects.
+ Microsoft was specific,
+ stating that a $5 billion miss on projections
+ was down to a rented facility
+ that wasn't ready on time.
+ In September, Oracle gave notice
+ that they might declare force major
+ in relation to a New Mexico project
+ that is facing power connection issues.
+ And while in the aggregate data center
+ construction is still surging ahead,
+ it's clear that the pace of construction
+ is straining the supply chain,
+ tapping out the labor pool,
+ and putting stress on balance sheets.
+ It's not crazy, then, to think that the hyperscalers
+ might welcome an external reason
+ to give them some cover
+ to lower CAPEX forecast for next year.
+ And it could even give them a PR win.
+ The Hill reports that hyperscalers
+ are already in talks with environmental groups
+ to draft a joint framework
+ for data center development.
+ And while some will certainly assume
+ that this is cynical greenwashing,
+ if a framework does come together,
+ it could be an easy win for Democrats
+ that ran on bringing the data center
+ buildout to heel.
+ Employ America's Skanda Amranath
+ suggested the second-order benefit, commenting,
+ I can attest to the fact
+ that the group chat was discussing earlier today
+ whether the hyperscalers
+ would welcome political blocking
+ of data center construction
+ as a capital discipline coordination mechanism.
+ And market analyst Matt Farley wrote,
+ slower AI CAPEX is bullish, not bearish.
+ Harder to build data centers mean
+ GPU prices flatten, compute spot-runs climb,
+ CAPEX falls, margins expand,
+ FCF flips faster.
+ Scarcity doesn't kill compute owners.
+ It makes them rich
+ and feeds investors what they want it all along.
+ Higher returns on capital
+ while maintaining positive free cash flow.
+ Can the constraint now be the moat?
+ And was it always a race
+ to getting the most infrastructure
+ built the fastest
+ before this inevitably happened?
+ So instead of the doomsday scenario
+ of data centers halting
+ and the AI trade crumbling
+ taking the rest of the market with it,
+ instead you've got the potential
+ of hyperscalers
+ taking advantage
+ of the political and narrative moment
+ to lower at least a bit
+ their CAPEX projections
+ for the next couple of years,
+ which makes markets happy
+ for a variety of reasons,
+ including an increase
+ in the free cash flow of those stocks
+ and a potential bubble
+ let's air out
+ instead of having to pop.
+ Jessica Lesson from the information
+ made exactly this point.
+ She wrote,
+ The market reaction today
+ points to the fact
+ that investors have a very nuanced
+ lens on the AI trade,
+ which could be good news
+ for those worried
+ about an eventual huge crash.
+ Rather than a big wipeout
+ of everything today,
+ we're seeing the market
+ trade up a little,
+ hyperscalers up a little,
+ chips down and neoclouds down.
+ That suggests that the AI trade
+ doesn't play just one way,
+ which is probably good news
+ for those who are concerned
+ that weakness in some companies
+ could pull the whole market down.
+ Obviously, major changes in the macro,
+ revenue growth halts,
+ et cetera,
+ could still collapse the whole pie,
+ but the way things are trading now
+ suggests a more nuanced picture.
+ Ultimately, one historical truism
+ on Wall Street
+ is that it's very rare
+ that a bubble actually features
+ years of everyone
+ correctly asking
+ when a bubble will pop.
+ Historically speaking,
+ bubbles tend to happen
+ when most people don't see any risk
+ and your Uber drivers
+ are starting to hand out stock picks.
+ But if things might not be so bad
+ for the data center build out
+ and actually could have some benefits
+ to a slowdown,
+ what about broader AI policy?
+ I talked yesterday about a lot
+ of the very reasonable,
+ low hanging fruit,
+ common sense type proposals
+ that I think a big cross-section
+ of politicians can get behind,
+ things like additional liability
+ for the labs,
+ disclosure of safety incidents,
+ third party auditing,
+ but what about more severe measures
+ like the Bernie Sanders proposal,
+ which includes jailing anyone
+ that develops AGI?
+ Heading into the election,
+ Abdul Asaid came out
+ in favor of an AI pause,
+ and at least some other progressives
+ seem to be getting on board.
+ Arizona Congresswoman Yasemin Ansari wrote,
+ top of the Democratic agenda
+ on day one needs to be a pause
+ on advanced AI development,
+ regulation of this out-of-control industry,
+ and a ban on artificial superintelligence.
+ AI news aggregator Andrew Curran commented,
+ this is probably going to be
+ a huge part of political coverage
+ for the next two years.
+ The Democrats are going to push hard
+ for an AI pause,
+ new industry regulations,
+ and probably a Bernie-style ban
+ on superintelligence itself
+ that exceeds the human level.
+ It will be interesting to see
+ what the opposition ends up looking like.
+ Many people on the right
+ are also extremely anti-AI,
+ so this will probably make
+ for some strange bedfellows
+ on both sides.
+ Now, given how many other issues there are,
+ I am somewhat less convinced
+ that an AI pause inevitably
+ becomes central to the progressive agenda.
+ But let's say that it does.
+ What would that mean
+ for the industry and AI politics?
+ Frankly, a legislated AI pause
+ seems like basically
+ a non-starter during this Congress.
+ Trump is the most stalwart supporter of AI,
+ or excuse me, superintelligence,
+ or, excuse me, SI,
+ in the entire Republican Party at this point,
+ and cannon seems to be eager
+ to veto anything Democrats pass,
+ and I have a very hard time
+ seeing enough Republican switching sides
+ to get enough votes to override a veto.
+ And it's not like there's clear consensus.
+ This week's election vote
+ was not a unified endorsement
+ of a single type of Democrat politics.
+ It was a rejection of the GOP.
+ But the folks that came into power
+ represented the full range
+ from moderates to the DSA.
+ And even though they are now in power,
+ Democrats are going to have to do a lot of work
+ to get to party alignment
+ on some of these key issues.
+ SEMIFOR reported that there's already a schism
+ within the Democrats
+ on how to best deal with this particular issue.
+ Josh Gottheimer,
+ one of the more centrist members
+ of the caucus, commented,
+ we agree that this technology
+ is changing how Americans work and live.
+ We also agree that we need commonsense guardrails
+ so that it works for families,
+ workers, and kids, not against them.
+ We'll continue to have constructive discussions
+ on how best to get there.
+ I look forward to working with every member
+ new and returning to get it done.
+ Despite being extremely not in favor
+ of an AI pause as such,
+ the fact that it's going to get
+ broader political discussion
+ doesn't stress me out at all.
+ I think somewhere along the way
+ we forgot that the whole point of a democracy
+ is to be able to have fierce debates
+ in service of coming to the right answers.
+ AI is getting more powerful
+ with every single model release.
+ This is indeed the one thing
+ the acceleration is in the safety
+ is to agree upon.
+ Over the past year,
+ the rest of America has been brought
+ into that conversation.
+ Now we actually get to have the debate.
+ But debates, which I will continue to argue,
+ have much more room for agreement
+ than the extremes of either position
+ would have you think.
+ This is obviously something that we'll be spending
+ a bit more time on in the future.
+ For now, however, that is going to do it
+ for today's AI Daily Brief.
+ I appreciate you listening or watching,
+ as always, and until next time, peace.
+ you
