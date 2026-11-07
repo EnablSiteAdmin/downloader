@@ -1,0 +1,578 @@
+ If you surveyed just the mainstream media, you might have the impression that business
+ adoption of AI was in some way impaired or slowing down. The stories that make the news
+ about enterprise adoption of AI seem primarily right now to be about companies restricting
+ how much their employees can spend on it, like Apple, for example, cutting the amount
+ that engineers can spend per day, which was a story this week. And yet, when you take a step
+ back, not only has AI adoption in the business sector continued unabated, the speed at which
+ it is growing is actually increasing, defying all logic and expectation as it starts from a bigger
+ base. The story of enterprise AI adoption this year is very clearly the story of Agents,
+ and that's what we're looking at on today's episode. The AI Daily Brief is a daily podcast
+ and video about the most important news and discussions in AI.
+ All right, quick announcements before we dive in. First of all, thank you to today's sponsors,
+ KPMG, Cdata, Granola, and Blitzy. To get an ad-free version of the show, go to patreon.com
+ slash aidailybrief, or you can subscribe on Apple podcasts. And if you want to learn more about
+ sponsoring the show, send us a note at sponsors at aidailybrief.ai. One more quick shout-up
+ before we dive in. Our newest premium AI training program is starting soon. It's called the
+ AI Champions Bootcamp. It's three weeks long, and this one has six live sessions led by
+ Neufar Gaspar, frequent contributor to the show, and will not just help people use agents more
+ effectively, but have the skills and resources to bring that use to their entire teams. You can
+ get all the information for that program at bsuper.ai, and the bootcamp begins on November 16th.
+ Welcome back to the AI Daily Brief headlines edition, all the daily AI news you need in
+ around five minutes. Well, it looks like the market's got a little bit annoyed at my overly
+ optimistic analysis, because yesterday, AI stocks plummeted in the worst drawdown since 2020.
+ Overall, the Mag7 lost a combined trillion dollars in market cap, with Nvidia falling 9.3%
+ and Microsoft dropping 3.6%. The pan was even greater in the AI supply chain, where Micron
+ lost 17.5%, and Sandisk plummeted 22.3%. The S&P 500 fell by 4.4%, and the NASDAQ collapsed
+ by 6.4% in the largest single-day drop for the major indices since March of 2020.
+ Fatalistic takes were all over X. Kevin Shue from Alpha AI wrote,
+ We're EFT, absolutely EFT, the AI trade is over, we all top blasted and holding bags now.
+ Tech Investor Steven Sinovsky added, This is not the AI trade or AI lost the
+ election trade as you might read or see, but rather the what happens when USAI is not going
+ to happen trade. In fact, one of the most striking parts of the drawdown was how broad
+ based it was. Completely unrelated stocks like Walmart and ExxonMobil took massive hits alongside
+ tech. Some argued that semiconductors are now cheap, with Nvidia trading at a 13x multiple,
+ making it one of the quote-unquote cheapest stocks on the market. Then again,
+ investor Jeff Park pointed out that boom and bust semiconductor stocks always look
+ cheap as they head into a bust, commenting, Nothing out's a newbie faster than valuing
+ semis on price to earnings. Now the curious part is that nothing substantial changed between
+ Wednesday and Thursday that would explain the sudden collapse. And whenever that happens,
+ when there's no narrative explanation, we have to look towards market structure and market dynamics
+ as the driver. And indeed, FunStrat's Tom Lee told CNBC, I think there are stories of some
+ large head funds actually being liquidated now. And according to reports, Walleye has blown
+ up and returned their capital. Lone Pine is also rumored to have collapsed and Millennium
+ is said to have pulled 1.5 billion in leveraged capital from two outside managers.
+ Bloomberg's Nashant Kumar wrote, I've covered hedge funds for nearly 16 years and I can't remember
+ a day like today. Nicholas Mugali from TMT Research wrote, If you're wondering why this
+ sell-off is so aggressive, this is what forced selling looks like. It isn't happening in one
+ sector, it's literally everywhere you look at once, from financials to AI infrastructure,
+ and the best businesses are falling hardest because they're the easiest things to
+ sell when funds need cash. The fundamentals are intact, but every chart looks broken right
+ and has been broken for a couple of months. In short, rather than investors waking up on
+ Thursday and deciding to sell everything, it looks like Wednesday's drawdown in semiconductors was
+ enough to trigger a broad deleveraging across the hedge fund industry. That could mark the
+ end of the AI bull market, or it could be a temporary blip like we saw when tariffs were
+ unveiled last year. With markets in freefall, rumors are swirling that the Anthropic
+ IPL might get pulled. Previous reports said that Anthropic was aiming to get out before
+ Thanksgiving, which means their roadshow would need to begin next week. Obviously, a frontier AI
+ lab is going to be a harder sell under these market conditions, and prediction markets are
+ beginning to price in a delay or even a cancellation. On Thursday, odds of the Anthropic IPO before
+ Thanksgiving fell from around 85 to 60%, and the odds they get out by the end of the year
+ have fallen from 95% to 66% over the past week. Thinly traded secondary markets are still
+ pricing the company at around $1.6 trillion, but according to the Wall Street Journal,
+ institutional investors are increasingly skeptical of the price. They wrote that three
+ major investors who plan to participate in the IPO say the valuation will need to come down,
+ with one arguing it needs to be closer to $1 trillion. Either that or Anthropic might
+ need to trim their reported $100 billion target for the fundraising. This is obviously a big
+ shift from where they were in August when investors were leaking a $2 trillion target
+ in the press. Still, that same article in the WSJ reported an $80 billion run rate for
+ October, up from $65 billion reported for the end of July. So can Anthropic slough off the market
+ turmoil? I think we'll have a better sense once the hedge fund blow-up stops ricocheting around
+ the market, but for now, something that was idle chatter is getting a lot more attention.
+ Now speaking of Anthropic, outside of markets maybe the biggest discussed story right now
+ is METER's release of their first independent safety report for Anthropic,
+ which discloses a major acceleration in AI-led research. Last month,
+ Anthropic announced that they'd onboarded METER as their first independent evaluator with
+ employee-level access. The idea is of course to give the public better visibility into Anthropic
+ safety practices in the wake of so-called rogue agent incidents. The key finding of the report
+ was that the pace of improvement for Anthropic's models has roughly doubled over the past year.
+ METER concluded that the acceleration was due to AI being used in research efforts.
+ They wrote,
+ We were told that R&D has accelerated primarily via AI assistance rather than fully autonomous
+ contributions. But there are some signs that fully autonomous contributions will play a larger
+ role soon. If AI systems started to significantly accelerate further AI development, the report
+ stated, this could lead to a sudden emergence of extreme and risky capabilities. METER noted
+ that they were given access to internal information that surpassed their expectations.
+ This included analysis of three unreleased models trained since July.
+ The most recent model was completed in September or October and continued the
+ trend of accelerated improvement observed earlier in the year. Anthropic co-founder and
+ responsible scaling officer, Sam McCandlish, signed up for X this week to discuss the report.
+ He commented,
+ The speed of progress in model capabilities is one of the most important questions in
+ AI safety. And METER's work here provides the public with an independent external view
+ into how this is happening inside Anthropic. Sam acknowledged criticism that Anthropic redacted
+ some of the most important evidence that METER used to come to their conclusion,
+ but said that Anthropic intends to provide a supplemental report on their own analysis
+ in the coming weeks. Now, in terms of reactions, the AI safety folks were rattled
+ by the report, claiming it accelerated their timelines.
+ Ryan Greenblatt from METER wrote,
+ This report on AI R&D automation is a big update towards ASI within one to two years.
+ Nathan Calvin, the general counsel for Encode AI, called this a, quote,
+ extremely unnerving update. New York Assemblyman Alex Borrez argued that there's no time to
+ wait, writing, Congress should ban RSI this year, if possible. But others were a little
+ skeptical of the methodology. With open model researcher Nathan Lambert noting,
+ a lack of good enough benchmarks is a bottleneck, at least for the type of RSI described as an
+ intelligence explosion. Now, some rehashed the criticism that METER is closely affiliated with
+ Anthropic, at least in ideology if not through actual financial and personnel ties.
+ And whatever you think of those arguments, the report does highlight the issue with
+ presenting METER as an external evaluator. One of the key points of appointing METER was to
+ address public concerns about cybersecurity breaches from the labs. METER's report,
+ though, only mentioned cybersecurity in terms of the models getting more advanced
+ and doesn't touch on sandboxing or other safety measures. It's essentially
+ non-responsive to concerns raised over recent months, instead assuming that RSI is the
+ only risk that matters. Now, it's perfectly reasonable for METER to decide that that is
+ the only concern that they really care about. But if that's the case,
+ having only METER here means a very incomplete independent auditor suite.
+ Now, closing out with some feature and product updates, Anthropic has relaunched
+ Claude for personal finance with the ability to connect to your bank account.
+ This is read-only access via plaid, which is common across the personal finance industry.
+ So theoretically, shouldn't be a huge concern to the big banks that are worried
+ about agents making transactions. Claude won't even give investment advice,
+ instead giving users help with budgeting by analyzing their spending data.
+ Giving a sense of the current state of how they talk about AI's potential disruption
+ of professional services, they wrote,
+ Personal finance is a first step. For life's bigger money decisions,
+ we think people are best served by Claude working alongside the licensed professionals
+ and regulated firms they trust. Over in MetaLand, many are rejoicing that MUSE now has a voice.
+ Meta's breakout personal agent now has a feature that allows users to communicate with
+ it through voice and video chats. Now, from the start, MUSE has leaned into the idea of
+ personalizing your agent by giving it a name and an avatar. This feature takes
+ that idea to the next level, fully animating the avatars for voice calls
+ and letting users choose from a range of different voice options.
+ AI CEO Alexander Wang showed off the new feature, demonstrating his agent Euler,
+ coaching him through problems at work related to posting too many memes.
+ The feature uses Meta's live voice models which are top-notch,
+ as well as their real-time avatar technology. Meta says the avatars will use subtle expressions
+ and gestures to match the tone of the conversation, but they don't actually
+ have visual inputs to pick up on nonverbal cues. The feature is now live for mobile,
+ web, and Mac, and Meta says they'll use it to power the forthcoming MUSE charm device.
+ It also works with the MUSE Gadget SDK so you can now talk to your homebrewed AI devices as well.
+ And lastly, OpenAI has rolled out a new version of their image model that now
+ supports animated GIFs. Users can now prompt a short animation, edit the speed,
+ and modify individual frames before they share it online.
+ OpenAI says that their users are now creating 4 billion images per week,
+ up from 3 billion a couple of months ago. Images 2.6, which is the name of the
+ new version of the model, is 50% faster, and able to generate an image in as little
+ as 6 seconds. It can also now accept reference images,
+ meaning users can upload a rough doodle or easily turn it into a high-quality image.
+ And so if you didn't already have plans for the weekend,
+ maybe it's time to experiment with making your own GIFs.
+ For now, that is going to do it for the headlines. Next up, the main episode.
+ Hello everyone. One big change around AI is we've shifted our thinking from
+ how we rank our pages to how do we become the source that AI trusts enough to answer with.
+ At KPMG, they're seeing this firsthand. AI-generated results now surface answers
+ directly, often without a single click. That's why they are increasingly focused
+ on Generative Engine Optimization, or GEO, structuring content so AI systems can retrieve it,
+ understand it, and cite it as trusted authority. This is not just an SEO evolution,
+ but a visibility mandate. And indeed, the GEO mandate from KPMG is simple.
+ If AI is shaping decisions, your expertise needs to show up inside the answer.
+ Read all about it at kpmg.com slash US slash GEO. Again, that is kpmg.com slash US slash GEO.
+ This episode is brought to you by CData. Companies rolling out AI keep hitting the same wall.
+ Token spend is climbing, security is holding agents back,
+ and no one knows how AI is truly being used. The root cause, AI is cut off from the systems
+ and context your business runs on. That's why CData built Connect AI Gateway.
+ One control point between your AI and your systems. Built on the connectivity layer powering
+ Palantir, Google, Salesforce, and hundreds more, each agent gets exactly the data and tools it
+ needs. It governs down to the record and lets you finally see your org's complete AI usage
+ in one place. Accurate answers, a fraction of the token cost, and a gateway that
+ learns your business with every interaction. See how at cdata.ai.
+ You're in back-to-back meetings all day, you're trying to stay present,
+ but you're also worried you'll forget the decision, the action item, the important next step.
+ This is the scenario that we absolutely live here at the AI Daily Brief,
+ given how fast things move and change and how quickly we're evolving everything that we do.
+ That's where Granola comes in. Granola is an AI-powered notepad for meetings.
+ You jot down rough notes like you always do, and in the background,
+ Granola transcribes and turns them into clear, useful notes when the meeting ends.
+ No bots joining your calls, no distractions, just a clean notepad that helps you focus.
+ During or after the call, you can chat with your notes, ask Granola to pull out action items,
+ help you negotiate, write a follow-up email, or even coach you using recipes which are
+ pre-made prompts. Once you try it on a first meeting, it is very hard to go without.
+ Head to granola.ai-ai-daily and use Code AI Daily to get 100% off for 3 months for new users.
+ That's granola.ai-ai-daily and Code AI Daily to get 100% off for new users for 3 months.
+ Blitzy's understanding of massive code bases unlocks autonomous security fixes,
+ modernization, and new features. So what happens when there's no legacy code at all?
+ Greenfield is supposed to be the easy part. Clean slate, no technical debt.
+ But even Greenfield moves at human speed once sprinted a time.
+ Blitzy changes the unit of work from the developer to the project, autonomously
+ planning, building, testing, and validating entire applications from scratch.
+ Hundreds of thousands of lines of production-ready code.
+ One Blitzy customer stood up a brand new application, 534,000 lines of code,
+ compressing a 65-week roadmap into two weeks. Another shipped an entire application
+ with no front-end engineer. Legacy or Greenfield, the answer is the same.
+ Software at the speed of compute. Build what's next at blitzy.com. That's blitzy.com.
+ Welcome back to the AI Daily Brief.
+ Today, we are digging into Menlo's latest enterprise AI report.
+ They've been doing these state of enterprise AI reports for three years now,
+ and they provide a really good snapshot into how businesses are using AI.
+ Now, the data for this survey comes from a survey of around 400 U.S. enterprise decision
+ makers that was conducted by Morning Consult in mid-September. So this is pretty fresh data.
+ Those enterprise decision makers, by the way, are responsible for about
+ $4 billion in AI spend. So it's a pretty meaningful-sized group.
+ Now, in terms of caveats, of course, Menlo is not some unbiased observer. They are heavily
+ invested in the AI field, including in Anthropic and many other companies.
+ But as we'll see this data all directionally backs up, I think a lot of common sentiment
+ about business AI spend right now, even if it adds some more color and details as well.
+ What we're going to do on today's show is not go through every single number in the deck.
+ Instead, I've pulled out the 10 most interesting, each of which I think has
+ something else to tell us about the AI market. The first set of stats are all about how much
+ business AI spend has grown. And what's interesting about 2026 is that not only has
+ spending gone up, the rate at which it is growing has also gone up.
+ Across the four years, excuse me, I think I said three years before,
+ but the four years that Menlo has been doing this survey, their estimates for enterprise AI
+ spending have jumped from $1.7 billion annually in 2023 to $8.5 billion in 2024
+ to $33 billion last year to almost $177 billion in 2026.
+ Now from a growth rate perspective, that means that the growth rate from 23 to 24 was 5x,
+ but the growth rate from 24 to 25 was down to 3.9x.
+ And this is kind of what you'd expect as the market gets more mature,
+ more saturated, and the total size of the numbers go up,
+ while the sheer amount of spend can continue to increase,
+ the multiple of the previous year's spend at some point has to start coming down.
+ That's sort of what it looked like happened between 24 and 25.
+ Except now in 2026, we've had a jump not only ahead of the 25 number,
+ but a faster growth rate than even the 23 to 24 number.
+ And obviously the explanation is agents.
+ This year, the big story of 2026 from Opus 4.5 in November of last year on
+ is that AI spend stopped being about seats and started being about tokens
+ and everything that intelligence could do,
+ and that has totally transformed our expectations of how big the market can get.
+ This number also shows up in our next stat,
+ where breadth of AI spend was up only incrementally,
+ but depth of AI spend was up significantly.
+ So the share of enterprises using AI jumped from 55 to 65% between 25 and 26,
+ which is insane that that still means that 35% of enterprises report not using AI.
+ But here we are, if you've ever doubted the inertia of the business world, there you go.
+ However, the average AI spend per enterprise,
+ using 2025 as 1x, is up almost 5x, 4.7 times more per enterprise on average this year.
+ Again, the answer is agents.
+ Agents that can work independently, that can run in parallel,
+ that can keep working after people step away.
+ Spending then scales with work, not with headcount.
+ Now, one thing that we've been debating on this show, and in markets, frankly,
+ is whether the concentration and top heaviness of AI spend
+ is a bearish or bullish sign.
+ The bearish sign, at least from a market's perspective,
+ is that when big chunks of revenue are concentrated in a small handful of customers,
+ if any one of those customers stops spending or changes their spending habits significantly,
+ it can have an outsize effect on the entire market,
+ which could then have knock-on effects that drag the whole market down.
+ This is why concentration is a risk.
+ The other way to look at it, however,
+ is that the concentration is not a natural state of the market,
+ where there are only a handful of companies that can use that much AI,
+ but instead that those handful of companies that are using that much AI
+ are leading indicators for where the rest of the market will eventually go.
+ That is, of course, the bullish assessment
+ that takes with those companies at the very top are spending
+ and multiplies that across all the other companies
+ that could possibly spend that much as well.
+ Menlo certainly reads this 5x growth in average spend per enterprise
+ as a sign of future demand.
+ They believe that the long tail basically is barely getting started.
+ And one more on growth, and this is something
+ that certainly we've been seeing companies reconcile with all year.
+ Enterprises spent about 2.5 times what they had budgeted this year.
+ Basically, the average company planned to roughly double spend between 25 and 26.
+ They had planned to grow spend about 1.9x.
+ So if you spent $10 million in 2025,
+ you were anticipating that you'd spend $19 million in 2026.
+ Those numbers were, of course, calculated by most firms
+ on the basis of increased adoption on a per-seat basis
+ across more parts of their companies.
+ In actuality, spend has jumped 4.7x,
+ around 2.5 times more growth than they had budgeted for.
+ And the challenge, of course, for CFOs
+ is that this isn't necessarily some out-of-control spend.
+ It's people flexing and understanding
+ what they can actually do with all this raw intelligence power.
+ The whiplash that companies have had between token maxing
+ on the one hand and token restrictions on the other
+ are all symptomatic of the fact that we planned for one paradigm,
+ a per-seat paradigm, and instead got a per-token paradigm,
+ which needs a totally different type of strategy.
+ Budgeting for AI is starting to look more like budgeting for cloud compute,
+ but even that analogy falls down as well.
+ It really is this new category of thing
+ that doesn't cleanly fit in past buckets
+ and so needs to be considered on its own new terms.
+ For our next section,
+ we'll look at what Menlo found about the competition
+ and where those enterprise dollars were going.
+ One story that kind of flies in the face of some of the conventional wisdom,
+ or at least some of the narratives for the past few months,
+ is that overall, buyers moved to more expensive models.
+ The most popular models a year ago were Claude Sonnet 4.5,
+ which cost $3 per million input tokens
+ and $15 per million output tokens,
+ and GPT-5, which was $125 and $10 respectively.
+ The most popular models today are, unsurprisingly,
+ the latest generation from each of those companies as well,
+ Claude Opus 55, which is $4 input and $20 output,
+ and GPT-6 Astra, which is $10 and $60.
+ The Frontier model's spend of share went from 35% to 63%.
+ Meanwhile, every other category,
+ mid-tier, small and older, went down as a percentage of total spend.
+ Now, part of this is also small model price wars.
+ Labs cut small model prices by 80% plus,
+ but the story that this survey is finding
+ is that buyers still, despite all of the narrative
+ about cost and cost efficiency,
+ are choosing capability over cost.
+ So is the narrative that we've had about cost wrong,
+ or is there room for both of these stories simultaneously?
+ I actually think that these two things are not mutually exclusive.
+ I believe that the continued emphasis on Frontier models
+ reflects the fact that starting with Opus 45,
+ we really have had a differentiated set of capabilities
+ that came online, and since the entire year
+ has been businesses racing to catch up with those capabilities
+ and implement new agent decoding,
+ they've sort of been priced in, at least initially,
+ to taking advantage of the Frontier models.
+ Opus 55 feels like another one of those jumps
+ where we're uncovering a bunch of use cases
+ that really are significantly different with Opus 55
+ and aren't as easily translated to other models.
+ I don't think that that changes the fact
+ that there is still going to be fierce
+ and extremely important competition
+ for those cheaper and more efficient models.
+ I think we're still in an early adoption phase
+ where adoption is necessarily going to be
+ more heavily concentrated in the state of the art,
+ but as that adoption matures and the stack matures along with it,
+ you will see those smaller, more efficient models
+ start to come in and form a more complex stack.
+ If anything can be said, it's that perhaps our narratives
+ and storytelling are getting out ahead
+ of where businesses actually are,
+ and in that way, this is a good reminder
+ that the things that we're discussing on the AI Daily Brief
+ and within heavily enfranchised AI circles
+ don't necessarily reflect the lived reality right now
+ of the average business buying and using AI.
+ Now, when it comes to the competition,
+ Anthropic has continued its ascendancy.
+ Back in 2023, Anthropic had about 12% of business API spend.
+ In 24, it jumped to 24%,
+ and by last year, it was up to 40%.
+ Now, it has crested over the halfway mark at 55%.
+ And if you are once again seeing the fingerprints
+ of agents here, you are not wrong.
+ The Opus models ever since Opus 45
+ have been perhaps the default
+ for long horizon agentic encoding tasks,
+ and that's now showing up in the numbers.
+ Now, OpenAI has throughout the same time,
+ in general, seen a decline.
+ They went from 50% of spend in 23 to 34% in 24 to 27% in 25.
+ Last year, in other words, was the first year
+ that Anthropic actually flipped OpenAI.
+ This year, though, we did see a slight recovery.
+ OpenAI is now up to 31% of enterprise API spend,
+ and Menlo's read is that this represents
+ a strong second half of the year recovery.
+ The GPT 5.6 series of models,
+ including Sol, Tara, and Luna coming in July,
+ as well as GPT 6 in September,
+ and just in general, OpenAI's emphasis
+ throughout 2026 on enterprise and business use cases
+ is clearly bearing fruit.
+ Now, the main company that suffered
+ and allowed Anthropic and OpenAI
+ to both win more market share is Google.
+ Google was down from 21% of enterprise spend last year
+ to just 9% this year.
+ And again, this is just the story of companies
+ flowing to where the best model capabilities are.
+ While Gemini 3 Pro was at the frontier in November
+ before Opus 4.5 came out,
+ and Agented Coding took over everything,
+ that was the last time Google could reasonably be considered
+ in a three-way race for the top of the heap
+ when it comes to model capability.
+ Perhaps that is changing now with Gemini 4 Carbon.
+ Early indications look good, although it remains to be seen
+ and needs a little bit more battle testing
+ for us to claim that.
+ But at the moment, when it comes to enterprise AI spend,
+ this is a completely two-horse race
+ between Anthropic and OpenAI.
+ The near frontier models still haven't really broken through
+ for as much attention as they get.
+ Grock 4.7, Kimmy K3, Deepseq V4, GLM 5.3,
+ altogether still account for under 5% of API spend.
+ Although as we'll see when we get to open source,
+ when it comes to understanding open and cheaper models,
+ it's worth looking not only at percentage of spend,
+ but percentage of tokens.
+ Because it turns out that while open source
+ only gets 4% of spending,
+ it represents about 19% of tokens.
+ Interestingly enough, as a percentage of spend,
+ open source is actually down.
+ It was at 6% in 2025 and is at 4% this year.
+ However, as a percentage of tokens,
+ it has jumped from 11% to 19%.
+ I would argue that in the medium to long term,
+ the token share numbers are more significant
+ than the spending numbers.
+ Like I argued before, I think right now
+ we're still in an early adoption phase
+ where companies are concentrating
+ around the most expensive models
+ to bring these new capabilities online,
+ but the fact that you're starting to see
+ open source take more share
+ is directionally where things will head
+ and I don't think that's a trend that's reached its peak.
+ Now, what this says for the total addressable market value
+ of all tokens is an interesting debate
+ and one that happens on Wall Street all the time.
+ There are plenty of smart people
+ who think that in the long run,
+ open source models represent the vast majority
+ of tokens used,
+ but still a relatively small percentage
+ of overall spend,
+ which is concentrated among the most important
+ and elite use cases
+ driven by the state of the art closed models.
+ By the way, when it comes to open source spend,
+ Kimi was the dominant force this year
+ representing 61% of open source spending.
+ Next up, we move to different categories of usage
+ within the enterprise.
+ One of the most staggering numbers,
+ not unexpected,
+ but still staggering in its magnitude,
+ was the revenue growth of the lab coding agents,
+ Codex and Claude Code.
+ That revenue jumped from $1 billion at the end of 2025
+ to $24 billion at the end of 2026.
+ Like I said, not surprising
+ given how much Claude Code and Codex
+ have just defined the experience of AI users
+ throughout the year,
+ but still 24x growth in revenue in a single year
+ is just astronomical.
+ Now, what's interesting is that this didn't necessarily come
+ at the cost of other coding platforms
+ like cursor, cognition, factory, lovable, etc.
+ Their revenue still grew almost 3x this year as well
+ from $2.6 billion last year to $7.8 billion now.
+ It's just that the lab coding apps
+ were by far the more significant.
+ Now, when you start to go category by category,
+ you might expect then that coding grew faster
+ than any other category when it came to app spending,
+ and you'd be almost right.
+ Agented coding apps grew at a 7.7x rate,
+ ahead of everything except financial services,
+ which grew at an 8x rate.
+ Now, the total spend on financial services apps
+ was a tiny fraction of coding apps.
+ Overall, Menlo Estimates financial services apps
+ saw about $800 million in spending
+ compared to the $34 billion for coding apps,
+ but still their speed of growth
+ is an interesting trend.
+ Some of the other notable areas of growth
+ include customer success, which grew 4.3x,
+ sales apps, which grew 3.6x,
+ legal, which grew 2.8x,
+ and down at the bottom, marketing, which grew just 1.8x.
+ It's tempting once again, I think,
+ to read this chart, as at least in part,
+ emphasizing the fact that applications
+ in verifiable domains where the power
+ of agent coding could be brought to bear,
+ even if it wasn't for building apps,
+ were the ones that benefited the most
+ from the developments of 2026.
+ Now, when it comes to which companies
+ are being chosen to deliver the AI,
+ there is a really strong divide
+ between AI-native companies,
+ by which, of course, I mean companies
+ like Anthropoc and OpenAI,
+ and the incumbents who are fast-bringing
+ AI into their services, such as ServiceNow.
+ When it comes to those coding applications,
+ they are dominated by AI-native companies.
+ AI-native companies, in fact,
+ represent 96% of that spend.
+ Finance and operations is also up there,
+ where AI-native companies represent 95% of spend,
+ and AI-natives also rule the design field,
+ representing 81% of spend.
+ Sales is nearly split in the middle,
+ with 54% of the spend going to AI-natives
+ versus 46% to incumbents.
+ But then every other area,
+ marketing, customer success, HR,
+ data science, and IT,
+ all see the incumbents getting
+ more than 50% of market share.
+ Basically, big chunks of enterprise spend
+ has wanted to flow towards the solutions
+ they already use and already have embedded
+ and already have connected to their systems of record,
+ or which are their systems of record,
+ rather than ripping that out
+ and building something completely new.
+ It makes sense, then, on the other end of the spectrum,
+ that agentic coding, which is a net new capability,
+ doesn't yet have an incumbent solution
+ that's plugged into all the systems,
+ so it has room for a new solution to come in.
+ Compare that to IT, for example,
+ where many companies have been using
+ the same vendor or partner for years,
+ if not decades.
+ And it makes sense, perhaps, then,
+ that only 9% of AI app spend for IT
+ is coming from AI-native companies
+ compared to 91% that's going to incumbents.
+ So, what does this all mean for software?
+ Another question that lurks,
+ particularly in the minds of investors
+ who are trying to figure out how AI plays out,
+ is whether AI just eats SaaS.
+ One of the big stories of 2026
+ was, of course, the SaaS apocalypse,
+ where, for a while, at the beginning of the year,
+ as agentic coding came online,
+ SaaS stocks were just absolutely decimated
+ as people operated on the idea
+ that the ability to roll your own apps
+ or spin your own apps
+ was going to fundamentally undermine
+ the use of those SaaS tools.
+ That's not exactly the story
+ that Menlo found, however.
+ While Menlo did find some diminished growth
+ of the SaaS application market,
+ from 13% growth in 2025
+ to 11% growth in 2026,
+ they found that the majority of new AI spending
+ actually came from net new budgets,
+ not existing software budgets.
+ Of the AI spending that could be accounted for by Menlo,
+ 21% came from existing software budgets,
+ that compared to 55%, which was net new budgets.
+ Now, that's obviously positive news
+ for SaaS investors and SaaS companies,
+ although I do think that we've barely gotten started
+ on the next narrative which threatens SaaS,
+ which is the rise of agents using software
+ and headless software,
+ and all it takes is reading some comments
+ from Salesforce to understand
+ how significant that disruption could be as well.
+ For now, however, it looks like
+ a lot of AI spend is net new,
+ not just cannibalizing spend that already existed.
+ So that is Menlo's state of enterprise AI.
+ Like I said at the top,
+ I think that this broadly reflects a lot
+ of what we've been discussing
+ and seeing throughout the show,
+ although it is a good reminder
+ that there remains a gap
+ between our narratives that we explore every day
+ and the trends that we see on the horizon
+ and the lived experience
+ that companies operate within every day.
+ For now, that is going to do it
+ for today's AI Daily Brief.
+ Appreciate you listening or watching,
+ as always, and until next time, peace.
