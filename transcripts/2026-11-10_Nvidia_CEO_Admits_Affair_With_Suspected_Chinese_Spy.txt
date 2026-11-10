@@ -1,0 +1,752 @@
+ Today we have some real spy novel stuff, as the CEO of NVIDIA admits to having an affair
+ with a woman the US government believes is a Chinese spy. And while this is not the
+ normal coverage for this show, NVIDIA is not a normal company, and this is not a normal circumstance.
+ We are talking about the biggest company in the world, the anchor of the AI buildout,
+ whose leader, who is implicated in all of this, has been perhaps the tech industry's
+ strongest advocate for more normalized trade relations with China when it comes to AI.
+ The implications, in other words, are big. The AI Daily Brief is a daily podcast and video
+ about the most important news and discussions in AI.
+ All right friends, quick announcements before we dive in. First of all, thank you to today's
+ sponsors KPMG, Robots and Pencils, C-Data and Blitzy. To get an ad-free version of the show,
+ go to patreon.com.ai-daily-brief or you can subscribe on Apple Podcasts.
+ And to learn more about sponsoring the show, send us a note at sponsorsataidailybrief.ai.
+ Now friends, I am excited to be back in the Hudson Valley recording as normal.
+ Thank you to all of you who put up with the additional nature sounds from last week's episodes.
+ And the one more thing I wanted to mention before we get into today's episode is that the
+ third edition of the new podcast How We Got Here has just released. We are just coming off
+ an election cycle where more than $3.2 billion was traded on the prediction markets
+ Kalshi and Polymarket. Kalshi saw nearly double the amount of betting on these midterms than it did
+ on the entire 2024 election cycle, including the presidential election. Our third episode of How
+ We Got Here then is about how gambling on everything from our phones became normal.
+ It's a look at America's long and complicated relationship with gambling and betting and
+ all their various incarnations leading up to the prediction market moment that we're in now.
+ You can find it all including the companion essay at howwegothere.com
+ or look up how we got here with NLW on any podcast app or just follow the link in the show notes.
+ Thanks to everyone who's checked it out so far. And now let's get back to the AI Daily Brief.
+ Welcome back to the AI Daily Brief headlines edition, all the daily AI news
+ you need in around five minutes. And man, between this one and the main episode today,
+ we are in a bit of a chaotic moment in the AI story.
+ One of the big questions recently was with all of the negative narratives swirling around
+ the markets, anthropic would proceed with their IPO. The past few weeks have featured
+ collapsing valuation estimates for what was expected to be the largest IPO in US history.
+ $2 trillion seemed right off the table as investors told the press they expect $1.6 or $1.5.
+ The number went even lower after last week's sell-off, with Bloomberg reporting on Friday
+ that some institutional buyers were looking for $1.1 trillion. Below the headline,
+ the article said that some buyers were discussing $1.2 or $1.3,
+ but we now have a new low appearing in the financial press.
+ Now, anthropic raised at $965 billion back in May,
+ making $1.1 perilously close to even money for the most recent batch of investors.
+ And that's of course assuming the stock holds value through the first few months
+ until lockups expire. Michael Field, the chief equity strategist at Morningstar,
+ thought anthropic would likely take what they can get, commenting,
+ the cost both physically and reputationally of delaying the IPO
+ might hurt the valuation more in the longer term. Whereas if markets hold up at the
+ level that they are, they'll just get it done at a slightly lower valuation,
+ suck it up, and move on. And that certainly seems to be the path anthropic is taking.
+ Later on Friday, the information reported that anthropic will begin their roadshow this week.
+ Sources said that plans are still in place to IPO ahead of the Thanksgiving holiday
+ and as soon as next week. The Financial Times reports that
+ anthropic is still aiming to raise $80 billion at a valuation of $1.5 trillion,
+ despite the negative headlines. Referencing the news that is the subject of our main episode,
+ open model researcher Nathan Lambert wrote,
+ If tech stocks continue sharply downward on the Jensen news,
+ looking back, this could be what we think of as the first major correction in this boom.
+ Debt went too far, the election, Jensen all in short succession,
+ and anthropic gonna IPO at the bottom? Andrew Curran though pointed out the good news.
+ The AI news aggregator wrote,
+ Anthropics valuation has now been cut roughly in half from the lofty $2 trillion heights
+ that were being spoken of in financial circles only a month ago.
+ On the plus side, if you are a believer, you can now get in for about half price.
+ Now I'm not sure it actually lands all the way down at $1.1 trillion,
+ but I do think it is absolutely the case that the lower the valuation is,
+ the better it is for retail investors who are in any circumstance providing an awful
+ lot of exit liquidity from the early investors who had access to the anthropic deals.
+ Open AI has also closed their latest funding round, also below initial expectations.
+ When the round was first reported in late September,
+ Open AI was said to be targeting a $30 billion raise at a valuation of $1.4 trillion.
+ By late last month, both numbers were coming down quickly,
+ with only $11 billion in funding commitments.
+ Sources have said that Open AI could extend the offer to family offices
+ and high net worth individuals to make up the difference,
+ but Bloomberg now reports that the round has closed,
+ with Open AI securing $11 billion in new funding at $1.25 trillion.
+ Sources said they will continue fundraising at this valuation,
+ looking to get to $20 billion in total.
+ They are reportedly working with investment banks to raise from
+ high net worth individuals and retail investors,
+ still it looks like they'll be well short of their initial $30 billion target.
+ The institutional portion of the round included Kotu, T-Row Price,
+ SoftBank, Sequoia, Founders Fund, A16Z, and a syndicate of backers from the United Arab Emirates.
+ One interesting substory was existing investors like Kotu and SoftBank putting
+ in relatively modest amounts in what seemed to be a defensive move.
+ SoftBank invested $60 billion over the past two rounds,
+ but this time the New York Times reports they were only in for hundreds of millions.
+ SoftBank's stock price was down 20% over the past week,
+ contributing to a 60% drop since their June high.
+ In addition, reports circulated on Friday that a mystery seller was dumping half a billion
+ dollars in data center debt. Initially believed to be linked to SoftBank,
+ the seller was later revealed to be Dutch Bank ING.
+ Only 25 million of the half a billion dollars was tied to the New Mexico Stargate facility,
+ jointly banked by SoftBank, Oracle, and OpenAI.
+ Still, Elon Musk threw some more confusion into the mix,
+ posting on Friday that, quote,
+ SoftBank is defaulting on their turbine orders.
+ Now with sentiment beginning to sour on the frontier labs,
+ OpenAI CFO Sarah Friar was deployed to CNBC to shore up the narrative.
+ Touching on the fundraising, Friar commented,
+ A good CFO always raises money when she can.
+ Friar said that OpenAI's business grew 70% over Q3 with enterprise revenue doubling.
+ She commented,
+ When I think about the midterms, I need to keep thinking about
+ how do we keep investing to meet that customer demand.
+ If the midterm means more focus on data centers and communities,
+ we're going to keep doing the work to get into those communities and to build trust with them.
+ Still, Friar argued that AI growth isn't in question,
+ stating, The demand for AI is real.
+ I don't think anyone's arguing with that, or if they are, I think it's a losing argument.
+ Another big blustery headline comes from Microsoft ending a compute rental arrangement with Oracle.
+ Bloomberg reports that Microsoft declined to renew the contract,
+ which has been in place since 2023.
+ This deal was one of the first signs that GPU supply was getting tight
+ as chatGPT adoption skyrocketed.
+ Sources actually said that Microsoft had ended the deal
+ because the aging chips involved with it no longer suited their needs.
+ Reporting suggests that the deal might have been focused on A100s,
+ which are at this point, three generations old.
+ And what's important about that is that even if it's not nearly as dramatic
+ as the media headlines might make it seem,
+ this would be the first time we've seen any real evidence of older chips
+ hitting the end of their depreciation cycle.
+ Given that that has been one of the key bear cases from people like Michael Burry
+ over the past year,
+ that in and of itself could have some interesting implications among investors.
+ Certainly Microsoft has been the most conservative of all the hyperscalers
+ during the AI build out.
+ And this move is not in isolation.
+ Last month, they pulled out of their agreement with N-Scale
+ to build a data center in the UK, reportedly overpower delays.
+ And more recently, sources told Bloomberg
+ that Microsoft is rethinking all of their neocloud agreements
+ after facing numerous delays and rising costs.
+ The TLDR here is that there isn't any clear evidence
+ that Microsoft's decision making has anything to do with AI demand.
+ Instead, it seems like they're signaling that data centers
+ with power connections and the latest GPUs
+ are vastly more valuable than those that are still under construction
+ or even worse just promised for the future.
+ Now, one other similar story,
+ showing how the hyperscalers could stand to benefit from neocloud wobbles,
+ Google has taken over a troubled data center site from Crusoe.
+ The unfinished Wyoming project struggled to secure tenants
+ after running into energy and construction delays
+ as well as escalating costs.
+ It was initially announced last year
+ with plans to scale to 10 gigawatts of power.
+ Google, who had been a prospective tenant,
+ has now bought out the project
+ and plans to invest $17 billion into the development.
+ Sources told Bloomberg that Google had been pressuring Crusoe
+ to leave the project since the summer
+ over cost and timetable concerns.
+ Crusoe is still working with Google
+ on a separate buildout in Amarillo, Texas,
+ and is also the developer behind OpenAI's
+ data center campus in Abilene, Texas.
+ Lastly today, if you want to get a sense of where AI leaders heads are at,
+ they're not just thinking about markets and data centers.
+ They're also discussing, at least in vague terms,
+ a huge speed up in AI-driven scientific discovery
+ as new models come online internally.
+ On Saturday, DeepMind VP Pushmeat Kohli posted,
+ Across our projects at Google DeepMind,
+ we are witnessing a genuine phase transition
+ in the pace of scientific discovery.
+ You will see a glimpse of this in our releases
+ in the next few weeks.
+ As this AI-powered acceleration unfolds,
+ our focus will be on empowering
+ the broader scientific community
+ to harness these tools responsibly.
+ Others quickly chimed in.
+ Meta's Tom Mann commented,
+ Wait till you see what we've been up to at Meta.
+ And OpenAI's Greg Brockman posting,
+ Frontier models, with lots of test time compute,
+ are becoming the engine of scientific discovery.
+ The sense is that we are in for big things.
+ News aggregator Andrew Curran wrote,
+ I think all three big labs have achieved
+ autonomous research and their internal models
+ can now choose their own research directions.
+ We will begin to see the fruits of this work this month.
+ AI educator and content creator Riley Brown
+ echoed that sentiment writing,
+ It feels like nothing has happened in AI since Opus 55,
+ but that is about to change.
+ The next two weeks will be very, very fun.
+ For now, however, that is going to do it for the headlines.
+ Next up, the main episode.
+ A new study from KPMG in the University of Texas at Austin
+ found that when people work with AI,
+ similar skills don't guarantee similar outcomes.
+ Researchers studied more than 500 early career professionals
+ and found that the best performers
+ consistently amplified the value of AI
+ by guiding, evaluating, and refining its outputs.
+ These top performers, called AI amplifiers,
+ weren't defined by what they knew alone,
+ but by how they worked with AI.
+ Learn more about what separates AI amplifiers
+ from everyone else at kpmg.com slash us slash AI amplifiers.
+ The best teams don't have a single star
+ carrying everyone else.
+ They know their own strengths
+ than each other's weaknesses and play to both.
+ That's the team robots and pencils
+ has built on purpose.
+ Nobody there is grinding through busy work
+ to pad a head count number.
+ People come for the hard problems
+ and they stay because everyone around them
+ is leveling up at the same time.
+ In a market full of companies
+ that are just trying to hire fast,
+ that's worth a look.
+ Check out robotsandpencils.com slash careers.
+ This episode is brought to you by Cdata.
+ Companies rolling out AI keep hitting the same wall.
+ Token spend is climbing.
+ Security is holding agents back
+ and no one knows how AI is truly being used.
+ The root cause, AI is cut off
+ from the systems and context your business runs on.
+ That's why Cdata built Connect AI Gateway,
+ one control point between your AI and your systems.
+ Built on the connectivity layer,
+ powering Palantir, Google, Salesforce, and hundreds more,
+ each agent gets exactly the data and tools it needs.
+ It governs down to the record
+ and lets you finally see your org's
+ complete AI usage in one place.
+ Accurate answers, a fraction of the token cost,
+ and a gateway that learns your business
+ with every interaction.
+ See how at cdata.ai.
+ Every AI coding tool on the market
+ does the same thing first.
+ It starts writing code.
+ Blitzy does the opposite.
+ Before writing a single line,
+ Blitzy spends days reverse engineering your entire code base.
+ Thousands of agents ingest millions of lines,
+ mapping every dependency, every undocumented constraint,
+ every architectural decision made over the last decade.
+ The result is a dynamic knowledge graph
+ that understands your software
+ the way a principal engineer would
+ after 30 years in the building.
+ Other tools guess it context
+ with grep searches and markdown files,
+ Blitzy never guesses.
+ It builds true understanding first,
+ then delivers over 80%
+ of entire software epics autonomously.
+ Validated, end-to-end tested,
+ production grade pull requests.
+ That's why Fortune 500 engineering teams
+ trust Blitzy with the code bases that matter most.
+ See for yourself at blitzy.com.
+ That's blitzy.com.
+ Welcome back to the AI Daily Brief
+ and good lord this episode.
+ In a plot twist ripped straight from the pages
+ of a Tom Clancy novel,
+ Nvidia CEO Jensen Huang has admitted to having an affair
+ with a suspected Chinese spy.
+ Now, you might be thinking to yourself,
+ this is a bit more salacious
+ than what we normally cover here at the AI Daily Brief.
+ And indeed, if this was just a question
+ of Jensen's moral failings
+ and whatever the implications were
+ for his personal life,
+ we would steer well clear.
+ The fact, unfortunately,
+ that it has such geopolitical dimensions
+ and the fact that it has major market implications
+ unfortunately means it's something
+ that we are going to have to cover.
+ Now, the New York Times first reported
+ on the affair at the end of October
+ in a highly detailed
+ and carefully constructed article.
+ At the time, they didn't have the sourcing
+ to fully describe the nature of Jensen's relationship
+ with Alice Huang,
+ who of course, despite sharing the same last name,
+ is no relation to Jensen.
+ Alice is an executive at Megaspeed,
+ a Singaporean cloud provider
+ that is a large customer of Nvidia.
+ Megaspeed was known to provide
+ Chinese AI labs with remote access
+ to cutting-edge Nvidia GPUs
+ that were banned by export controls.
+ While that remote access is not technically illegal,
+ China AI hawks have been complaining about it
+ as an obvious loophole for over a year.
+ US officials suspect Megaspeed
+ has also smuggled chips into China
+ but that allegation hasn't been proved.
+ The biggest bombshell from that initial reporting
+ was that Alice Huang was suspected
+ of being a Chinese intelligence agent
+ and that President Trump had taken no action
+ after being briefed.
+ As for Alice's relationship with Jensen,
+ the Times merely referred to it
+ as a close relationship
+ and presented Jensen as a target of foreign espionage.
+ Even at the time before we had all the details,
+ concerns were being raised
+ that Jensen might have shared confidential information
+ or even state secrets with Alice,
+ gained through his close relationship with the White House.
+ Nvidia rejected the speculation at the time,
+ claiming that mere customers
+ do not get access to sensitive information.
+ During an interview with Bloomberg last week,
+ Jensen said his interactions with Megaspeed
+ were, quote,
+ completely normal and not unusual.
+ He added,
+ We've studied all their deployments of our GPUs
+ and counted every one.
+ And I think the US government also has as well.
+ A Chinese foreign ministry spokesperson
+ said last week that the rumors were, quote,
+ unsubstantiated and purely a smear against China.
+ And yet in their bombshell follow-up on Friday,
+ the New York Times had all the sourcing they needed.
+ They concretely reported that a memo
+ circulated the White House last spring,
+ which identified Alice as a spy
+ for China's Ministry of State Security.
+ The existence of a widely circulated memo
+ and the assessment from US intelligence agencies
+ had not been previously reported.
+ From there, things escalated quickly.
+ The Financial Times reported
+ that the US intelligence community believed
+ that Jensen's relationship with Alice
+ was romantic in nature.
+ The article said that national security officials
+ had privately expressed frustration with Jensen
+ and noted that he was almost left off
+ the president's trip to Beijing in May.
+ You might recall that the president intervened personally
+ and picked Jensen up in Alaska
+ before continuing the trip.
+ On Sunday night, Jensen confessed.
+ In a company-wide email, he wrote,
+ I was unfaithful to my wife.
+ My actions hurt her and our children.
+ There is no excuse for what I did.
+ I am deeply sorry.
+ The rest of the email was a lengthy apology
+ to his family, his employees,
+ his board, and business partners.
+ He did not address the geopolitical angle of the scandal.
+ In a separate communication, the NVIDIA Board
+ announced an independent investigation
+ assisted by outside counsel.
+ They presented Jensen as a target
+ of a foreign intelligence effort and wrote, quote,
+ The board prioritizes US national and economic security,
+ which is paramount to the interests of NVIDIA
+ and its shareholders.
+ While the board has no reason to believe
+ that either national security
+ or NVIDIA secrets were compromised,
+ the board's inquiry will examine
+ all available information.
+ The board said that Jensen
+ is committed to cooperating
+ with the investigation,
+ but at this stage, the board also expressed
+ confidence in Jensen and the rest of the leadership team.
+ As of Monday afternoon, China time,
+ officials are still denying involvement.
+ The Chinese Foreign Affairs Ministry spokesperson said,
+ We have already responded to this matter.
+ The allegations regarding so-called Chinese spies
+ are pure groundless speculation and slander.
+ In terms of reactions,
+ many in tech were quick to come to Jensen's defense.
+ Sequoia partner Sean McGuire said,
+ One, Jensen is one of the greatest
+ entrepreneurs of this generation.
+ Two, he did something incredibly dumb.
+ Three, it was bad for America.
+ Four, but my guess is there was no bad intention.
+ Five, two mistakes don't make a right,
+ and I believe Jensen is irreplaceable
+ for America's AI leadership.
+ Investor Bill Ackman wrote,
+ On alert, Jensen Huang is human,
+ and he is an incredible human.
+ Even incredible humans make mistakes.
+ He takes full responsibility as he should.
+ We should all support him and his family.
+ Onward.
+ And yet, plenty of folks disagreed with that assessment.
+ New York magazine writer Alex Brunzini-Venda wrote,
+ Tech guys will log on here and declare,
+ unprompted, that cheating on your wife
+ doesn't count as bad intention.
+ Matthew Iglesias wrote,
+ I don't think anyone gets seduced by a foreign spy
+ with the intention of harming national security.
+ That's just not really what the issue is.
+ And this idea that the intention wasn't the point
+ was a sentiment shared by many.
+ AI commentator Samira on X wrote,
+ The fact that he was successfully seduced is one thing,
+ but the more problematic thing
+ is that he let his affair guide
+ his personal and professional actions
+ in ways that have endangered American interests.
+ It's so incredibly reckless,
+ because it will now require us to question
+ every decision Jensen made
+ with regard to China and foreign policy with China.
+ It's not even clear if Jensen knew
+ he was being played in making these statements now,
+ and I'm sure he doesn't know either.
+ If removing him nukes RAI policy,
+ we have a key man risk issue that's an us problem.
+ Thing tanker Ryan Fetisiak
+ made a slightly different but related point.
+ The issue at hand, he wrote,
+ is not whether sensitive information about Nvidia
+ or its products might have been compromised
+ by Chinese intelligence services,
+ though that is obviously a concern.
+ The issue at hand is whether Mr. Huang's
+ confidential personal relationship with his customer
+ might have weighed materially on any decision
+ to export Nvidia's products to Megaspeed,
+ or to defend the company's broader client relationship
+ with Megaspeed,
+ even after it was revealed
+ the Commerce Department was investigating that company
+ for surreptitiously diverting Nvidia's products
+ for resale to China in contravention of U.S. law.
+ Any independent investigation
+ should get to the bottom of that
+ very obvious apparent conflict of interest
+ and spillover risk to U.S. national security.
+ Geopolitics commentator Dimitri Alparovich
+ put it more bluntly.
+ Not only did Jensen Huang have an affair
+ with an alleged Chinese MSS agent,
+ putting himself in a classic position of being set up
+ for all types of blackmail
+ that could have been hugely detrimental to both Nvidia
+ and more importantly the United States,
+ but he had an affair with the managing director
+ of what is an effectively
+ and very clearly a Chinese shell company,
+ Megaspeed,
+ a company that had been illicitly funneling
+ billions of dollars of compute to Chinese AI labs
+ that should have gone to American companies
+ with what is almost certainly
+ his full awareness and support,
+ unless he is a complete idiot which he is plainly not.
+ This can be called many things,
+ but one thing it is not
+ is not doing anything to disadvantage America.
+ Indeed, the point that some are making
+ is that hold aside all the trade secret stuff
+ and the accusations that she was working as a spy.
+ Even without that,
+ there's still the export control dimension.
+ A Rao on X rights,
+ I suspect she wasn't a spy after state secrets.
+ She merely wanted GPUs
+ that are under trade restrictions.
+ Now where I think a lot of folks
+ will ultimately come down on this
+ was the position summed up by Signal who wrote,
+ no one in their right mind
+ should condone infidelity.
+ That said, if an independent investigation
+ finds that Jensen's actions
+ posed no national security risk
+ and compromised no company interests,
+ then I think the matter
+ should remain between him and his family.
+ At that point,
+ it's simply a private moral failure.
+ Still for many,
+ the idea that there are no implications
+ and that this is just a personal matter
+ seems highly unrealistic.
+ And some in fact are arguing
+ that the sourcing of the key details
+ is itself not just good reporting
+ but its own strategic maneuver in the battle
+ over what the U.S.'s relationship
+ with China on AI and chip should be.
+ Taiwanese semiconductor analyst Andrew Lu,
+ as reposted by Satrini's Jukin,
+ wrote, quote,
+ the purpose of this scandal
+ is by no means to expose an affair.
+ It is to force through three critical objectives
+ that had made no headway
+ in the tech war between the U.S. and China
+ because Jensen Huang opposed them.
+ Now, the three objectives that they articulate
+ were one,
+ to completely destroy the legitimacy
+ of Huang's lobbying against sanctions in Washington,
+ making the point that Jensen
+ has been the most successful business leader
+ in opposing a total ban on chip exports to China.
+ The second objective they argue
+ is to reverse the H-200 export approvals for China
+ and sever the link between Chinese shell companies
+ and Southeast Asian smuggling networks.
+ And the third objective they argue
+ is to, quote,
+ put NVIDIA on a national security leash
+ through congressional oversight
+ and an independent investigation.
+ They wrote,
+ as the world's largest company by market cap
+ and the dominant force in AI,
+ NVIDIA has until now enjoyed broad autonomy
+ in how it runs its business.
+ But in the wake of this incident,
+ the three congressional committees responsible
+ for China, foreign affairs, and intelligence
+ have begun examining NVIDIA's internal security measures
+ directly.
+ They have even pressured NVIDIA's board
+ into forming an independent investigation committee
+ to look at the company's own founder and CEO.
+ In effect,
+ Washington's national security establishment
+ has planted a watchdog right inside NVIDIA's board.
+ From now on,
+ the goal is to make sure that everything,
+ down to where each and every one
+ of NVIDIA's high-performance chips ends up,
+ conforms strictly to U.S. national security strategy.
+ Now, all of that is based on the idea
+ that some amount of this story was leaked to the press
+ with some level intention from the intelligence community
+ and seemingly compounding that point,
+ the New York Times dropped another bombshell on Sunday night
+ reporting that due diligence from NVIDIA
+ and the Commerce Department has been extremely lacking.
+ Writes The Times,
+ The Commerce Department has approved dozens
+ of Chinese companies to handle NVIDIA's H-200 chips,
+ some of which have ties to firms under sanctions
+ over national security.
+ Several of these firms are reportedly
+ just empty office buildings.
+ The Times focused on one company
+ called New Matrix,
+ whose listed headquarters in northwest Beijing
+ has no light fixtures,
+ let alone desks and chairs.
+ The Commerce Department approved an export license
+ for New Matrix,
+ but The Times writes,
+ there is little evidence the firm actually exists,
+ raising questions about who in China
+ is behind the company.
+ They claim that several similar shell companies
+ have ties to firms that are blacklisted
+ by the U.S. government
+ or work as military contractors in China.
+ Now, prior to the entire firestorm
+ kicking up over the weekend,
+ NVIDIA said they were stepping up
+ their tracking of chips bound for Southeast Asia.
+ That region has been a hotbed
+ for data centers providing remote access
+ to advanced chips.
+ On Friday, NVIDIA announced
+ that data centers in the region
+ will need to enroll in their fleet intelligence system,
+ which tracks the locations of GPUs
+ along with other metrics.
+ It could be just a coincidence,
+ or it may have been NVIDIA
+ taking proactive steps
+ to get ahead of the scandal.
+ Now, when it comes to the government,
+ there are a few interesting dimensions of this.
+ Secretary of State Marco Rubio
+ is showing up as a character
+ in the palace intrigue.
+ The New York Times reported
+ that Rubio oversaw the drafting
+ of the classified memo
+ that was circulated in spring.
+ This was the memo that stated
+ that Jensen's relationship with Alice
+ was romantic
+ and that she was believed to be a Chinese spy.
+ The memo was reportedly circulated
+ ahead of Trump's trip to China in May,
+ although sources didn't say
+ Jensen's exclusion from the trip
+ was related to the memo.
+ Trump himself, meanwhile,
+ so far has stood by Jensen
+ saying that he should remain
+ the CEO of NVIDIA.
+ He told reporters,
+ I have not spoken to him about it,
+ I just know he's a fine person,
+ but you never know what is going on.
+ Asked whether Trump would invite Jensen
+ on his trip to Asia later this month,
+ Trump said he wasn't sure
+ but would happily bring him along,
+ adding, I haven't heard
+ he's done anything wrong.
+ We will see if that continues
+ to be the president's position
+ as the story evolves.
+ Certainly the Dems are gearing up,
+ and this story showing up
+ the week after the election
+ gives them an obvious target.
+ Senator Chris Coons,
+ who will chair the Senate Foreign Relations Committee
+ from January, wrote on X,
+ the more I learn about
+ the insane relationship
+ between the Trump administration,
+ Chinese spies, and AI billionaires,
+ the more I'm convinced
+ there is nothing this administration
+ does that isn't corrupt.
+ Congress will investigate
+ and get answers.
+ And yet it's not just Democrats
+ as Republicans are also concerned.
+ In fact, before the story broke,
+ the chairs of the House Committee
+ on Foreign Affairs,
+ the Select Committee
+ on the Chinese Communist Party,
+ and the Select Committee on Intelligence
+ summoned Jensen
+ to a closed door meeting
+ later in November.
+ The three Republican leaders wrote,
+ it is vital Congress determines
+ the extent to which
+ U.S. national security
+ has been placed at risk.
+ Now in terms of market reaction,
+ as best I can tell so far,
+ the market is showing
+ that it is on the one hand
+ genuinely concerned about this,
+ but on the other hand,
+ still full of investors
+ willing to buy any Nvidia dip.
+ The news initially triggered
+ a huge sell-off
+ in the S&P 500 at 6 p.m. on Sunday night
+ when Futures opened,
+ erasing around $300 billion in market cap.
+ However, within around five minutes,
+ the entire loss was erased
+ and Futures were trading higher.
+ The Kobe AC letter wrote,
+ that's a $650 billion swing
+ in implied market cap
+ due to a CEO's relationship.
+ We all just witnessed
+ the strangest record
+ in stock market history.
+ Now I'm recording just a little bit
+ after market opening,
+ and it seems to be a similar story.
+ Nvidia was at its worst down
+ roughly 8.8%,
+ but then buyers came in
+ and recovered roughly
+ half the dollar loss.
+ And even as I'm recording,
+ you can see the candle swinging wildly.
+ When I started this segment
+ about five minutes ago,
+ Nvidia was down 5%,
+ but then even as I was talking,
+ a big chunk of that was clawed back
+ with about 40 billion in market cap
+ bought back in the last five minutes.
+ Perhaps more importantly,
+ at least as of now,
+ there aren't any indications
+ that this is spilling over
+ into the rest of the market
+ or even into tech,
+ which is mostly for the moment
+ in the green.
+ And yet whatever the initial market story is,
+ the event still could cast
+ a long shadow.
+ Investor Jim Osman wrote,
+ Forget the affair,
+ that's a personal matter.
+ The real issue is whether the man
+ running the world's most important AI company
+ has been compromised by foreign intelligence.
+ Markets can price bad earnings.
+ How do you price a CEO
+ you can no longer fully trust?
+ Even Eternal Optimist Dan Ives writes,
+ The big question every Nvidia
+ and tech investor is asking this morning,
+ Will Jensen stay on as CEO of Nvidia?
+ Now for Dan's take,
+ he says Jensen is not replaceable
+ and that is worry for the street.
+ Others aren't so sure,
+ and in fact that indispensability
+ is exactly the question being asked.
+ With Andrew Ross Sorkin's deal book article
+ this morning being titled,
+ How indispensable is Jensen Huang?
+ There is a lot more to this story
+ but for now we'll leave it there.
+ For those who want to stay well away
+ from any of the personal elements of this,
+ really the key things to continue to watch
+ will be market implications,
+ further investigations by Nvidia
+ or external sources or the US government,
+ and the ramification on Jensen
+ and Nvidia's ability
+ to continue to argue
+ for more dovish policy
+ with regard to China and AI.
+ I will of course keep you posted as it evolves
+ but for now that's gonna do it
+ for today's AI Daily Brief.
+ I appreciate you listening or watching
+ as always
+ and until next time,
+ peace.
