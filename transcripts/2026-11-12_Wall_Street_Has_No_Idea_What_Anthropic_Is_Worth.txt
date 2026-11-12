@@ -1,0 +1,616 @@
+ With Anthropics IPO coming up next week, we are getting numbers.
+ We're finally seeing what valuation we want to go out at.
+ We're getting investors' response to that valuation.
+ We're getting debates on what it says about the AI trade.
+ And all that is happening is Anthropics continues to release new products that rip market cap
+ off of competitors.
+ Today, we're talking about everything we know heading into the IPO and why basically
+ I think that we know nothing at all.
+ The AI Daily Brief is a daily podcast and video about the most important news and
+ discussions in AI.
+ Alright friends, quick announcements before we dive in.
+ First of all, thank you to today's sponsors, KPMG, Robots and Pencils, Cdata and Blitzy.
+ To get an ad for a version of the show, go to patreon.com.ai-dailybrief or you can subscribe
+ on Apple Podcasts.
+ And if you want to learn more about sponsoring the show, send us a note at sponsors.ai-dailybrief.ai.
+ And while you're there, catch a link to check out the new How We Got Here podcast.
+ It is a long form show, so if you like the more big think episodes of the AI Daily
+ Brief, you should definitely check it out.
+ Again, it's called How We Got Here with NLW.
+ You can find it linked in the show notes or go to howwegothere.com.
+ Welcome back to the AI Daily Brief headlines edition.
+ All the daily AI news you need in around five minutes and we have a lot to get
+ through today.
+ Google has released officially Gemini for Carbon, the second iteration of their
+ latest ultra large model.
+ Carbon, you might remember, was previewed at the end of October.
+ And at the time, it was the top ranked model on the Artificial Analysis Index.
+ Unfortunately, Google said the model was still going through the government's
+ voluntary safety testing process and wasn't yet ready for public release.
+ And although people were hopeful, nobody was really willing to get all that
+ excited until they got access to it themselves.
+ Now, two weeks later, even if Fable 5.2 has definitively claimed the top spot
+ on the rankings and is this week's shiny new model, people digging into carbon
+ are finding lots to like.
+ We have the usual render tests where carbon stands up remarkably well.
+ In fact, absent some of the mind blowing capabilities of Fable 5.2,
+ this would likely be the most impressive version of AI-generated animations.
+ Ethan Malik showed off what you can do by combining this with Google's strong
+ multimodal capability, using carbon to recreate a real-world video clip of a
+ train ride in 3JS.
+ He wrote,
+ It is a very good model that improves on argon.
+ It's useful to have an AI that thinks differently than Claude and GPT
+ and is still highly capable but has its own strengths and weaknesses.
+ Still, the coding capabilities might be the most interesting upgrade with carbon.
+ Google has, of course, struggled mightily with AI coding over the years.
+ But carbon seems to mark a new moment in their catch-up efforts.
+ Pushmeet Kohli, the VP of DeepMind, showcased a formal verification of
+ signal security properties which required carbon to analyze the machine
+ code underpinning the software.
+ He wrote,
+ More than a research breakthrough, it's a prime example of how frontier AI can be
+ a force multiplier to counter the speed and scale of modern cyber threats.
+ Formal verification offers a higher standard of security.
+ However, it's extremely complex and time consuming, which is why,
+ in many cases, it's considered to be impractical.
+ Similar efforts could take teams decades of combined effort.
+ We did it in a month's time.
+ Pavel Hurin took carbon out for a spin on some more mundane coding problems,
+ running it through his bug hunt test.
+ And he found that carbon found 57 of the 105 bugs,
+ second only to Fable 5.2 at 58.
+ Perhaps even more impressive was that carbon completed the run for $31,
+ compared to almost 140 for Fable 5.
+ Hurin commented,
+ Google's own benchmarks looked super strong but nobody could access the model.
+ Turns out, they didn't lie.
+ Nobody should be laughing at Google anymore.
+ Importantly, these cost savings were pretty consistent across a range of other use cases.
+ One render test produced similar results to Fable 5.2 at a third of the cost.
+ It is still early, but overall, it's looking like this is an extremely competent model
+ that's competitive with rivals in the ultra-large model class category.
+ Carbon gives those who are locked into the Google ecosystem a very meaningful upgrade
+ and a new level of coding ability, and potentially signals a turn.
+ Ethan Malik again sums up,
+ one of the most significant things about Gemini for carbon
+ is that it is showing that Google is back in the race of frontier models,
+ rapid releases and rapid improvement.
+ Next up, we move on to the scandalous.
+ Nvidia's Chinese spy scandal continues to reverberate across the headlines
+ as Washington, Wall Street and Silicon Valley ask what can be done about Jensen Huang.
+ On Monday, President Trump held a press conference to discuss it.
+ He said,
+ I know the FBI is looking into it, in terms of something else,
+ and I think he'll be in good shape.
+ I just know Jensen very well.
+ I just think he's a very honorable man.
+ I mean, he built a great American company and I think he's a very honorable guy.
+ Trump acknowledged that he had knowledge of the affair before it was reported last weekend,
+ but was vague about the precise timing.
+ One of the key details from the New York Times reporting was that
+ President Trump was fully briefed on the matter last April,
+ but elected to do nothing.
+ Tuesday's news also brought the revelation that as much as $7.5 billion worth of Nvidia chips
+ may have been funneled to Chinese companies through Megaspeed.
+ That's the neocloud that employed Alice Huang, who is the alleged Chinese spy.
+ The number comes from sources speaking to the information who claim to know Alice Huang personally.
+ The information's reporting claims a vast smuggling network existed behind Megaspeed,
+ and they seem to have a full recap of how the chips flowed through it.
+ The New York Times, meanwhile, continues to land bombshells,
+ reporting that a Commerce Department investigation into Megaspeed was halted after contact from Nvidia.
+ The reporting claims that Nvidia general counsel Tim Teeter discussed the case directly with investigators
+ and said their superior at the Commerce Department had approved the contact.
+ Sources said the Commerce Department agents were alarmed that their superior was mentioned
+ and were concerned he was, quote,
+ violating government procedure and potentially tainting the case.
+ Sources told the information that the Commerce Department is working on new export controls,
+ including shutting down the remote access loophole for Nvidia chips.
+ But at the same time, they're delaying their decision to place Megaspeed on the entity list
+ and block all exports to the company that is supposedly run by Chinese spies.
+ Meanwhile, House Republicans are insistent that Jensen comes to Washington to explain himself.
+ If Jensen doesn't accept their invitation for a closed door meeting next week,
+ House Foreign Affairs Committee chair Brian Mass said he's prepared to issue a subpoena.
+ An overlaid on top of all of it is the question of what Nvidia should do about Jensen.
+ Some market commentators have noted that Jensen is just about the only CEO
+ that could become engulfed in an international espionage scandal and keep his job.
+ Nvidia has a famously flat structure and Jensen juggling 60 direct reports.
+ What's more, the Wall Street Journal reports that Nvidia has no succession plan
+ and the Board of Directors was treated as more of a governance formality than a check on the CEO.
+ Renee Haas, the CEO of ARM, who previously worked for Nvidia,
+ said in a 2024 interview that Jensen had resisted succession planning for years, commenting,
+ he didn't like the idea.
+ He felt it would create competition among executives and be divisive.
+ The board is currently investigating Jensen with the help of an outside law firm,
+ but even if they find damning evidence, it's unclear what the correct path will be.
+ Given that the board has a fiduciary responsibility to shareholders,
+ getting rid of a charismatic CEO with no succession plan seems risky to say the least.
+ Even kicking him upstairs to the chairman's role has its risks.
+ The Wall Street Journal is currently suggesting that a reigned in Jensen is Nvidia's best option.
+ They wrote that Nvidia's task is to, quote,
+ find a way to keep Huang on while reassuring shareholders,
+ the government and the general public that it takes national security risks seriously.
+ That seems like a tall order, but the stakes are also extremely high for the nation at large.
+ Nvidia stock is down 11% since the story broke in an otherwise positive market.
+ The company makes up 7% waiting in the S&P 500 and around 8% in the NASDAQ,
+ meaning most US investors have a ton of Nvidia exposure.
+ What's more, the company's success has become a matter of national security via the AI race.
+ In short, there is just not a simple solution to the scandal,
+ and it seems that the entire nation, not just Nvidia,
+ is experiencing the mother of all key man risks.
+ One small but interesting Nvidia side story,
+ consulting giant Booz Allen has switched to open source adopting Nvidia's Nemotron.
+ Finally today, a set of open AI news.
+ The company's revenue is soaring after a strong reception with GPT-6 Astra.
+ Sources speaking with Bloomberg said that Q3 revenue came in above $10 billion,
+ a record quarter for open AI and a 50% increase from quarter two.
+ Operating losses also grew,
+ reportedly coming in between $10.1 and $10.9 billion,
+ and while operating margin did come down from negative $150 to negative $109,
+ open AI still has a long way to go before turning a profit.
+ Still, this is definitely a good news story for open AI
+ who has been struggling to shift the narrative
+ with regard to their own growth vis-a-vis Anthropic.
+ Q2's quarter over quarter growth rate was only 17%,
+ which would be exciting for most companies but a little lacking
+ compared to Anthropics 144% for Q2.
+ Sources highlighted solid API demand for recent model releases
+ including GPT-56 Sol and GPT-6 Astra as the driving force of the growth.
+ They also mentioned API demand for open AI's image models,
+ which have seemed to be a quiet success for the company.
+ In addition, open AI brought in ad revenue at a billion-dollar annualized pace,
+ adding significantly to the bottom line,
+ and overall, the numbers have analysts reconsidering
+ where open AI sits in the AI race,
+ positively for the first time in a while.
+ Open AI has also acquired an AI travel agent.
+ Francis Davidson, the founder of Odessia,
+ announced that open AI had acquired a startup on Tuesday.
+ Odessia was founded less than a year ago
+ and it seems it's still pretty small.
+ Last summer, they booked $60 million in travel
+ across tens of thousands of users,
+ which, while huge for an early-stage startup,
+ is a drop in the ocean for the multi-trillion-dollar travel industry.
+ Davidson was previously the founder of Sonder,
+ an Airbnb competitor which grew to a thousand-person headcount
+ and went public via SPAC in 2022.
+ It filed for bankruptcy in 2025
+ after a key partnership with Marriott fell apart.
+ This time around, Davidson wrote that he threw out the old playbook
+ and tried to build a lean startup with AI First Process.
+ At some point, I might come back to his blog post
+ which gives a ton of the tips around how he works,
+ including dictating around 1.2 million words a month,
+ which is around 11 books.
+ But for open AI's part,
+ they're staying pretty quiet about their future plans for travel.
+ Odessia shut down their service as part of the acquisition
+ and it's a little unclear whether Davidson will be working
+ on existing travel features in chat GBT
+ or launching something new.
+ Lastly, open AI has introduced a new business hub
+ that offers more powerful tools
+ to companies advertising on the platform.
+ The business hub allows businesses
+ to register their details with open AI
+ and includes a dashboard that tracks advertising metrics
+ similar to Google Analytics.
+ The other big addition is the ability
+ to create what open AI is calling business agents.
+ If a brand has the feature enabled,
+ consumers will be able to speak with a business agent
+ after clicking on an ad to ask any questions
+ or explore the brand's range.
+ Businesses can provide their agents with instructions
+ and additional context
+ to ensure they represent the brand appropriately.
+ And if you don't see this
+ as how Metamuse and ChatGPT start competing more directly,
+ I don't know what to tell you.
+ What I think you can assume
+ is that we are about to see a lot more integration
+ and consideration of ChatGPT as a commerce platform
+ given how many of the answers it provides consumers
+ relate in some way to shopping or commerce.
+ Lots more to explore there,
+ but for now, that is gonna do it for today's headlines.
+ Next up, the main episode.
+ If you're leading AI inside an enterprise,
+ you already know that the gap right now
+ is in capability, but execution.
+ That's why KPMG's You Can With AI
+ is back with a new season,
+ featuring conversations with leaders
+ like Serojit Chatterjee of Emma,
+ Mehbib of Rider,
+ McKesson CIO, Ellery Fisher,
+ and others focused on practical execution.
+ What's working, what's not,
+ and what it actually takes to move from pilots
+ to real-scale impact,
+ across strategy, data readiness,
+ governance, workforce, and value.
+ And of course, it's co-hosted by me, Nathaniel Whittemore.
+ Go listen and subscribe at www.kpmg.us slash ai podcasts.
+ That's www.kpmg.us slash ai podcasts.
+ The best teams don't have a single star
+ carrying everyone else.
+ They know their own strengths
+ and each other's weaknesses and play to both.
+ That's the team Robots and Pencils has built on purpose.
+ Nobody there is grinding through busy work
+ to pad a head count number.
+ People come for the hard problems
+ and they stay because everyone around them
+ is leveling up at the same time.
+ In a market full of companies
+ that are just trying to hire fast,
+ that's worth a look.
+ Check out robotsandpencils.com slash careers.
+ This episode is brought to you by CData.
+ Token spend is climbing,
+ security is holding agents back,
+ and companies rolling out AI initiatives
+ might not know how it's truly being used.
+ The root cause, AI is cut off
+ from the systems and context your business runs on.
+ That's why CData built Connect AI Gateway,
+ one control point between your AI and your systems.
+ Connect AI Gateway is not just another static model router.
+ Prompts get intelligently routed to the right model
+ with exactly the tools and data it needs
+ governed down to the record.
+ The result, accurate answers at a fraction
+ of the token cost with a context engine
+ that learns your business with every interaction.
+ Built on the connectivity layer,
+ powering Palantir, Google, Salesforce, and hundreds more.
+ Give it a try and start your free trial at cdata.ai.
+ That's C as in Connect, data.ai.
+ Here's why most legacy modernization projects fail.
+ The AI doing the work
+ can't understand code bases at scale.
+ It sees a small slice of context,
+ examines syntax, and misses years of decisions
+ distributed across the global application ecosystem.
+ Blitzy solves this the way it solves everything.
+ Grounded in your code before any migration begins,
+ Blitzy's agents reverse engineer the entire legacy system
+ into a persistent knowledge graph.
+ Every dependency, every constraint,
+ every piece of tribal knowledge
+ that used to live in one engineer's head.
+ From that understanding,
+ Blitzy autonomously executes language migrations,
+ framework upgrades,
+ and monolith to microservices transformations
+ all validated end to end.
+ One Blitzy customer modernized
+ a $10 million monolithic insurance stack in 16 weeks
+ against a 137 week baseline with coding agents.
+ That's nine X compression.
+ Retire technical debt while accelerating your roadmap.
+ See how at blitzy.com.
+ That's blitzy.com.
+ Welcome back to the AI Daily Brief.
+ At this point, the speculation has come and gone,
+ and the midterm blue wave that brought a bunch of
+ theoretical data center opponents to power
+ has not deterred Anthropic from going public
+ as some imagined it might.
+ In fact, it appears that the IPO
+ will go off before Thanksgiving
+ with the company aiming to go public next week.
+ Anthropic kicked off their roadshow
+ and are making their final pitch to the market.
+ Here's an excerpt from the roadshow video today
+ with Dario making his most consolidated pitch.
+ That society trusts and society believes
+ can build the benefits in the right way.
+ I think if we do this right,
+ we can create an age of miracles where
+ humanity is able to solve problems
+ that have eluded us for millennia.
+ We have to make sure that all the risks,
+ all the ways that things can go wrong with this technology,
+ we very carefully address those risks.
+ As we bring the benefits
+ and as we have a viable business at the same time.
+ And I invite you to join us
+ on the next phase of this journey.
+ Now, interestingly, for a company that has often struggled
+ to find the right balance of these messages,
+ because careful listeners will know
+ that none of that that Dario just said
+ is a new statement for the company,
+ but the balance that the point, in fact,
+ is the age of miracles
+ and that the risks are simply what we have to overcome
+ to achieve those miracles
+ is something that has, I think, in the past eluded it.
+ And of course, that's not the only communications
+ coming from anthropic and Dario.
+ Given how much contention there has been
+ between anthropic and the Department of Defense
+ many were surprised about the crispness
+ of his answer to Emily Chang of Bloomberg
+ when she asked in no uncertain terms
+ if he was comfortable with Claude
+ helping the military kill more people more quickly.
+ Dario reinterpreted the question
+ and said basically what you're asking is
+ do you want this country to be a stronger country?
+ To which he said, of course I do. I'm a patriot.
+ But more than that he said
+ the decision about what to do with the technology
+ is not ours to make.
+ You have to trust the military to make those decisions.
+ And whatever I might think is a private citizen
+ that has no bearing on the decisions the military makes
+ and it's not the job of the technology provider
+ to make those decisions
+ except to provide some very high-level boundaries.
+ Once again, there's nothing there
+ that's necessarily a radical departure
+ from things Dario has said before
+ although I don't believe that he's ever been quite so crisp
+ about saying that it is not the technology provider's decision
+ about what the military uses that technology for
+ but the way that this is being delivered is finally clicking.
+ Still for the markets, none of that is as important
+ as the question of price.
+ Anthropic is asking between $70 and $78 per share
+ which puts the implied valuation somewhere between
+ 1.25 trillion and 1.4 trillion.
+ Anthropic said they seek to raise between
+ $57 billion and $64 billion.
+ That said, Anthropic is also raising $26 billion
+ from industry partners including NVIDIA,
+ Microsoft, Google, and Broadcom
+ with NVIDIA and Google being the largest participants
+ at up to $10 billion a piece.
+ Combined with the so-called green shoe option
+ that allows underwriters to buy extra shares
+ to service excess demand over the first month
+ Anthropic will float a total of around $100 billion in stock.
+ Now on the one hand,
+ the valuation is lower than previous discussions.
+ In September, investors floated a $2 trillion valuation
+ in the press and while some took that
+ as a reasonable valuation for a few weeks,
+ in more recent times we've seen the valuation
+ estimates take lower.
+ $1.6 trillion was mentioned then $1.5
+ and ultimately last week's reporting had one group
+ of investors saying the IPO might need to price
+ at $1.1 trillion to get sufficient demand.
+ Now one thing that has driven me absolutely
+ batty about the coverage of these numbers
+ is that they've been treated as specific
+ targets coming from Anthropic.
+ In other words, like Anthropic has had to
+ drain in its ambitions because it went out
+ for $2 trillion and was unsuccessful and had to settle
+ for $1.4 trillion.
+ Let's be clear about the fact that that is not
+ what happened. Some journalist got
+ a source from some investor around Anthropic.
+ By the way, we have no idea
+ which investor, how close to Anthropic they are
+ whether they're actually even invested in Anthropic
+ or whether they're just an investor
+ on deep background and the $2 trillion
+ number was so splashy that it stuck.
+ Anthropic of course can't comment being
+ in their quiet period and so the narrative
+ takes hold. Now there is still
+ valuable signal in understanding
+ how investor expectations
+ have changed over the time. Darcy AGI
+ on X wrote, October really changed
+ the mood around AI valuations and to the
+ extent that that's what we're drawing from the analysis
+ I completely agree. But let's not pretend
+ as though this somehow represents
+ some failure of a goal that Anthropic
+ had set. What's more, again
+ as Mr. Darcy points out, when he says
+ I think this might be a much healthier starting
+ point, there is evidence that that's the case.
+ Within a day of that lower
+ valuation target between 1.25 trillion
+ and 1.4 trillion being made public
+ it already started to seem
+ like it was being pitched too low. The Financial Times
+ reports that Anthropic's investment
+ banking partners plan to raise the share price
+ to reflect a top end valuation of 1.5 trillion.
+ The article stated the revision
+ was being considered after receiving
+ quote, strong indications of demand.
+ It also added that Anthropic cares much
+ more about raising cash than valuation
+ due to their large compute commitments.
+ And basically what I think we should take
+ from all of the discourse
+ around the IPO price
+ is that investors do not have
+ a clear idea of what to expect
+ what they think is reasonable, what they think
+ others think is reasonable, what they think others
+ expect and we are kind of just flailing
+ around until the thing actually happens.
+ There are plenty of bears out there
+ who are promoting the idea that the
+ reduction in valuation is a bearish
+ signal and who continue to think that
+ Anthropic underperforming on their IPO
+ will trigger another leg down in the AI trade
+ overall. John Ma from Artemis actually
+ argued that this is increasingly the
+ consensus view, that Anthropic is overvalued
+ at 1.5 trillion, that revenue is
+ flattening, the tokens are being commoditized
+ due to open source, the token prices
+ are falling faster than demand, etc, etc, etc.
+ And yet as he points out
+ there is a pretty compelling
+ contrarian case. One part of that
+ is that Anthropic reported that their run rate
+ revenue was up a full
+ 10 billion dollars in the month
+ of October reaching 81 billion
+ by the end of the month. And not only does
+ that number show strong continued growth
+ that remains primarily driven by the coding
+ agent use case and obviously reflects
+ Opus 55 but not Fable 5.2.
+ According to Ma the contrarian
+ case points out that finance, legal, life
+ sciences are all super early and even
+ that agents are still early and most businesses
+ still think of AI as chat GPT in the clot app.
+ The contrarian take also points out
+ that retail is frankly starving
+ for direct exposure to frontier labs
+ and will ape in regardless of the valuation and drive
+ Anthropic to 3 trillion in market cap.
+ For a point of view that simply tries to
+ use proxies in math, iCapital's
+ chief investment strategist Sonali Basik
+ points out that at a 1.4 trillion
+ dollar valuation that would
+ represent around 40x trailing 12 month
+ revenue. She points out that by comparison
+ Palantir is trading at roughly 55x
+ meaning Anthropic would be closer to
+ multiples not of Palantir but of crowd
+ strike and cloud flare.
+ Now of course the other thing that some investors are going to be focused on even more than
+ valuation and revenue is future compute
+ commitments. In their updated IPO
+ paperwork, Anthropic disclosed 10 billion
+ in new commitments with Microsoft and Google.
+ The new commitments are stretched over the next 7
+ years. The same document also said
+ that a 35 billion dollar deal with Neo
+ Cloud Lambda could be canceled due to
+ non-performance. Lambda has defaulted
+ on the contract after blowing a deadline
+ and Anthropic said in their filing that they're within
+ their rights to cancel the deal but does not
+ currently intend to. Now this
+ reshuffling of cloud deals gives us a little more
+ insight into how Anthropic's compute has been
+ destructured. When their IPO paperwork was
+ first made public, many analysts were alarmed to
+ see hundreds and hundreds of billions of dollars
+ in compute commitments with much of it being
+ non-cancelable. What would happen
+ if AI demand faltered?
+ And yet a lot of observers who have not
+ been unsympathetic to these questions have
+ pointed out that it feels like more of the risk lies
+ with the Neo Clouds who frankly have
+ far more risk of dragging the rest of the industry down
+ with them even should they implode.
+ One of the interesting reversions that some are having
+ as they look at this Lambda deal is that it
+ basically brings up the question which
+ is more likely to happen first.
+ AI demand reducing such that Anthropic
+ can't meet its commitments or the Neo
+ Clouds to whom that revenue is due, hitting
+ problems in either financing or construction
+ that don't allow them to deliver finished
+ data centers on time. So wherever you fall in that,
+ this is going to be a continued narrative
+ and it is absolutely not going to go away
+ after the company goes public.
+ Finally though, as all of this debate
+ was happening, we also did get
+ one more indication of how immense
+ investors view the power of Anthropic
+ to disrupt other companies.
+ Alongside all of their IPO updates,
+ they launched a new productivity suite
+ that are many are seeing as a pretty direct shot
+ at Microsoft and perhaps Google as well.
+ The suite includes Claude Sheetz, Claude Whiteboards
+ and Claude Data. Claude Sheetz is
+ Anthropic's direct competitor for Excel
+ with a much greater focus on collaborative work
+ with humans and agents. Claude Whiteboards
+ is a team planning surface for organizing projects
+ and ideas. Claude Data meanwhile
+ is an evolution of the feature previously known as
+ dashboards, which allows users to pull in
+ data from CRMs and database platforms
+ to create live data feeds. It competes
+ with Microsoft's Power BI, but adds the
+ ability to use Anthropic's models to generate
+ visual data stories or narrated short videos.
+ These are, in other words, business
+ productivity tools. And while many are
+ trying to read it as a declaration of war
+ against Microsoft, Anthropic framed it as
+ merely the way the world is going. They wrote
+ Inside Anthropic, non-technical teams
+ are starting to get as much out of Claude
+ as their engineers. Our legal team worked
+ with Claude to build a Slack-based legal review tool
+ that automatically draws red lines from the team's
+ own playbook. This brought marketing reviews
+ from three days down to 24 hours. And easy
+ fixes are made before a lawyer reviews the draft.
+ Our finance team turned a long business
+ update document for executives into an interactive
+ page. And now the whole team updates it
+ together with Claude. Neither of these teams
+ writes code, but they're experts in their fields.
+ They use Claude to turn that knowledge into tools
+ that save them time and that others can use.
+ In other words, when Claude
+ becomes the shared work surface, you kind
+ of just need this sort of infrastructure around
+ it. A perhaps more concerning way to put it
+ for Microsoft is that the competition
+ for where work happens started
+ the moment chat GPT launched in November
+ of 2022. And increasingly
+ the place where work happens is inside
+ the LLM Harnesser app. And this is just
+ the natural extension of that. Matthew
+ Berman wrote, I keep trying to warn you
+ if you build software, the labs will compete
+ with you. And it seems that investors agreed
+ driving Microsoft stock down 2.2
+ percent on the news. Gabrielle pointed out
+ however that even if
+ these tools start to pick up market share
+ Microsoft is very likely to be fine.
+ He writes, Excel will be
+ fine. No enterprises ditching Excel for
+ this. Claude sheets even exports
+ to Excel. Microsoft is on
+ every side of this. They're buying into
+ the IPO next week. Anthropic goes them
+ 45 billion in cloud spend and they
+ resell the model through Copilot. They're
+ an investor, landlord, reseller and now the
+ competition. They want Anthropic to do
+ well. It's funny Microsoft dipped on
+ this. But look, ultimately I think that
+ the dip is yet another indication
+ of the market just trying to work out what this
+ all means and perhaps even recognizing
+ that it just isn't sure yet.
+ Still, whether the market knows or not the IPO
+ is happening and it's happening soon
+ so buckle up Buttercup because the next
+ phase is here. For now that's going to
+ do it for today's AI Daily Brief. Appreciate
+ you listening or watching as always and until
+ next time. Peace.
+ .
