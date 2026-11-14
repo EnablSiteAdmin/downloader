@@ -1,0 +1,709 @@
+ The fallout of the Jensen affair continues, and its blast radius is certainly not limited
+ to NVIDIA or even AI.
+ It's clear that as the lame duck session of Congress begins, this is being seen as a
+ key inflection point to make some key shifts in geopolitical priorities.
+ The AI Daily Brief is a daily podcast and video about the most important news and
+ discussions in AI.
+ Alright friends, quick announcements before we dive in.
+ First of all, thank you to today's sponsors, KPMG, robots and pencils, CData and Blitzy.
+ To get an ad-free version of the show, go to patreon.com.ai daily brief, or you can
+ subscribe on Apple Podcasts.
+ And lastly, one update on the new show, How We Got Here.
+ You might have heard me mention how every week, in addition to the main episode,
+ which is the full-length deep dive on some important phenomenon, I will also be doing
+ a counterpoint episode.
+ And the idea of the counterpoints are pretty simple, to create a space for people to disagree
+ or point out things where they feel like I haven't gone far enough.
+ It's a way for people to come into the conversation.
+ I've just posted the first counterpoints for How Tech Lost America, and I'm really
+ excited to see what you think, so go look up How We Got Here with NLW and send me
+ some notes about what you think.
+ Welcome back to the Jensen Daily Brief.
+ We are continuing to examine the seismic reverberations in the wake of Jensen
+ Huang's resignation from NVIDIA.
+ Although as we'll discuss today, calling it a resignation, I think doesn't quite do
+ justice to exactly what has happened.
+ Hold aside all of the more speculative theories about whether there was some coordinated
+ campaign behind this and the timing of it and all that stuff that was part of the
+ show yesterday, even without describing any strong intent or devious machinations
+ in that way.
+ This still feels like the opening salvo of a very new period in Washington where the
+ Democrats are starting to assert their power, both in terms of their foreign policy as well
+ as in terms of their desire to bring powerful private market actors to heel and where the
+ China hawks are increasingly ascendant.
+ It looks in other words in some ways like Washington fire Jensen, which does not
+ mean that he will no longer have any dealings with Washington.
+ Following Huang's resignation on Thursday morning, Chairman John Moulinar released
+ a statement on behalf of the House Select Committee on China.
+ It's stated, Jensen Huang's firing from the company he founded is an unfortunate
+ end that could have been avoided.
+ It is in our national interest for NVIDIA and our other AI champions to succeed,
+ but American companies should never jeopardize our nation's security by
+ giving Chinese companies access to their most advanced chips.
+ NVIDIA must now change its corporate practices and appoint leadership that
+ makes national security its top priority.
+ In Congress, we must act quickly to pass bipartisan export control legislation.
+ Now, on the one hand, I don't think that we should be overly obsessed with close
+ textual analysis of a comment coming right on the heels of a big event.
+ But the idea that a private company's top priority is national security,
+ as opposed to, for example, their fiduciary responsibility to their shareholders,
+ gives you a bit of a feel and flavor for the struggle around power
+ rebalancing that I think has opened up.
+ The events of this week have certainly given China hawks a huge
+ amount of ammunition to push through reform.
+ The New York Times broke the story as lawmakers were returning to
+ Washington following the midterm break.
+ And while chip controls were already on the agenda for the lame duck session
+ expected to be attached to the must pass National Defense Authorization Act,
+ the scandal around Jensen and NVIDIA has vaulted these issues to the top of the agenda.
+ One congressional aide told Politico earlier in the week
+ that Democrats will now push for even tougher restrictions
+ and feel they have the momentum to get it done.
+ That aide said, Republicans who've been nervous about crossing the White House on this
+ know the next version gets written by Democrats if they don't deal now.
+ Indeed, following Huang's resignation, the sentiment in Washington has become
+ even more hawkish towards Chinese chip bans.
+ House Speaker Mike Johnson said on Thursday,
+ I think there's a developing consensus in Congress that this is an important
+ position to take, especially given in light of recent developments.
+ I think it might change a few minds.
+ Senate Majority Leader John Thune said that passing chip controls was
+ becoming a high probability.
+ House Foreign Affairs Chair Brian Mast, who is sponsoring one of the three
+ chip control bills, said that the events of the past week have, quote,
+ 100% boosted the chances of all three being passed.
+ He also flagged that the White House is playing ball, commenting,
+ stuff that we're pushing through, we're getting direct assistance from the White House.
+ I'm not going to elaborate too much on it.
+ Now, to better understand, broadly speaking, the two positions
+ when it comes to the China question on AI,
+ an exchange between Gavin Baker and Dimitri Alperovic is a fairly good summary.
+ A trading management managing partner, Gavin Baker, wrote,
+ Well, meaning patriotic China hawks who are not AI experts are putting
+ American national security at risk.
+ China had zero chance of ever catching America in AI with the export strategy
+ that Jensen supported.
+ Their labs would have continued training using less powerful American GPUs,
+ which meant American labs would have always been ahead given scaling laws.
+ And in the event of a conflict, we could have simply turned off all the
+ Southeast Asian clouds.
+ Simply stated, in AI terms, America had machine guns and we were giving China
+ muskets to prevent them from developing their own machine gun variants.
+ Given that it looks like the China hawks will get their preferred policy,
+ China will likely soon have a chance of catching America in AI
+ by going down an alternative less power efficient AI hardware path.
+ They almost certainly would not have gone down this path if less powerful GPUs were
+ still available in China and via Southeast Asian clouds.
+ And it will be a much less stable world if China pulls even or ahead of America in AI
+ after developing their own alternatives and gives this technology to Russia,
+ Iran and North Korea.
+ All of this will be possible if the China hawks get their preferred policy.
+ So the idea here, let's call them scenario one and scenario two.
+ Scenario one is that we sell chips to China,
+ but chips that are not the cutting edge.
+ Basically, they're dealing with a couple generations of technology ago,
+ like the H100s, while we have the much more powerful Vera Rubin system running.
+ What Gavin is arguing is that in this scenario one,
+ scaling laws that power the development of AI models means that basically
+ definitionally, if they only have access to those worst chips,
+ they are structurally not able to catch up.
+ That is of course barring some huge technological breakthrough,
+ which allows them to train better models with worse chips.
+ But based on the strategies available to the AI model builders now,
+ this is where the machine gun versus muskets analogy comes from.
+ Now there was an additional benefit that some had pitched to scenario one.
+ That was also about the rest of the world running on American hardware and software
+ and the benefits that come with that.
+ So that's scenario one.
+ The one that Gavin is still basically advocating for here.
+ I do think it's worth noting that at basically no point
+ did the advocates for scenario one, of whom of course Jensen was the chief among them,
+ ever articulate it even as close to a crisp away as I just described it.
+ And maybe they did behind the scenes,
+ but when it came to the public debate for ideas,
+ I basically never saw those advocates pitching selling worst chips to China
+ as keeping them addicted to a worse supply.
+ In other words, they didn't frame it as a better way to compete with China.
+ Instead, their pitch in general was about whether we should be competing with China,
+ which obviously has been a much less successful argument.
+ Now scenario two is frankly much more easy to understand
+ without really understanding anything about AI.
+ And that version of the argument is that if the AI race is,
+ as Senator Jim Banks posted yesterday,
+ all about who has the best and most chips,
+ then duh, we shouldn't give China any chips.
+ And again, without knowing anything about AI scaling laws,
+ the key technical knowledge that underpin scenario B,
+ or two, or whatever I said,
+ doesn't require that knowledge and is therefore easier to comprehend.
+ Now going back to Gavin's post,
+ geopolitics commentator Dmitry Alperovich wrote,
+ the great thing is that this is falsifiable,
+ for years we have tried your way,
+ to try to win the race by arming the enemy
+ and got the Chinese models that are so capable
+ that they are less than nine months behind the US frontier ones.
+ Now maybe we can try the other way,
+ not giving them any compute and see what happens.
+ Sadly, it won't be a perfect test
+ since they already have smuggled in so much Nvidia compute
+ that can be employed going forward.
+ Now part of the unspoken reality of scenario B
+ is that in the absence of having formal access to chips,
+ China prioritizes the development
+ of their own domestic chip industry.
+ And that very clearly has been the CCP's position
+ over the past couple of years.
+ In fact, even as the US has flirted at various points
+ with opening up access to Nvidia chips,
+ Beijing in many ways stood in between
+ its domestic companies getting access to those chips
+ because it wanted them to use domestic chips
+ from companies like Huawei.
+ Hold aside whoever might have been right
+ or is right now about the correct strategy.
+ I think from a political resonance and narrative perspective,
+ Dimitri's side of this,
+ which is the simplicity of saying
+ it's been a leaky sieve
+ that's given them access to the Nvidia chip
+ so now maybe we can try the other way,
+ not giving them any compute,
+ I think is going to be a lot more resonant
+ than the more complex,
+ technical knowledge requiring scenario A.
+ Now beyond the immediate policy goals
+ specifically with regard to Nvidia's chips,
+ it feels like more broadly the Jensen affair
+ has galvanized a cold war mentality in Washington.
+ Earlier in the week, the Telegraph suggested
+ that this is one of the most impactful
+ national security scandals,
+ rivaling the Edward Snowden NSA revelations
+ or Chelsea Manning's document leaks.
+ They wrote,
+ It is hard not to think of the Klaus Fuchs scandal
+ of the 1940s,
+ which shattered the Western nuclear monopoly
+ and helped accelerate the Soviet Union's
+ development of the atomic bomb.
+ Nvidia's technology is similarly significant
+ to the AI arms race.
+ Now this position was already somewhat expected
+ from Democrats,
+ who became increasingly comfortable engaging
+ with Beijing as an adversary
+ as the Biden presidency dragged on.
+ You might or might not recall Nancy Pelosi's
+ surprise visit to Taiwan in 2022,
+ which was viewed by the CCP as a direct provocation.
+ And as antagonistic towards Beijing
+ on trade issues the Trump administration has been,
+ in many respects the geopolitical struggle
+ between the U.S. and China has simmered down
+ compared to the Biden years.
+ Scott Kennedy, Senior Advisor in Chinese Business and Economics
+ at the Center for Strategic and International Studies
+ said last week,
+ On balance as a result of the midterms,
+ the Democrats may nudge the U.S.'s China policy
+ in a more hawkish direction
+ through hearings and legislation,
+ particularly on economic security issues in Taiwan.
+ However, he added that efforts would quote,
+ be constrained by the executive branch's
+ wide range of latitude
+ and China's growing power and leverage,
+ which can't be easily undone.
+ Some have also pointed out
+ that trying to slow down China
+ by denying them access to chips
+ might be the only way that the Democrats
+ can slow down data structure in the U.S.
+ without surrendering the U.S.'s lead.
+ Gary A. a senior economist at Natixus Bank said,
+ a slowdown in the U.S. could be a win for China.
+ The election results will not bring
+ data center construction in the U.S.
+ to a complete halt,
+ but the pace will definitely slow.
+ This would keep U.S. AI token prices high,
+ giving China an opportunity
+ to export cost-effective inference services
+ supported by abundant electricity supplies,
+ which puts a whole new light on why
+ it would then be coherent policy
+ to also try to deny China access to chips.
+ Certainly, Washington is going to spend
+ the next few months hauling Jensen
+ before a string of congressional hearings.
+ Bloomberg reports that Jensen has agreed
+ to testify under oath
+ in a closed-door hearing later this month
+ ahead of the Thanksgiving holiday.
+ House Foreign Affairs Chairman Brian Maske
+ told reporters that the hearing
+ would be recorded and transcribed,
+ so there's potential
+ that some of it would be released to the public.
+ There are also slightly mixed messages
+ as the House Select Committee on China
+ is still threatening to subpoena Jensen,
+ giving him an 8 p.m. deadline
+ to accept the invitation,
+ but one way or another,
+ it seems that Jensen will testify
+ in the House over the coming weeks.
+ In the Senate, meanwhile,
+ Banking Committee Chair Tim Scott
+ has requested Jensen's appearance
+ at a separate hearing on export controls,
+ and Banking Committee ranking member
+ Elizabeth Warren seems keen to interrogate.
+ She wrote,
+ Jensen Huang's decision to resign
+ from NVIDIA does not absolve him,
+ other executives,
+ or the company as a whole,
+ of responsibility for putting our
+ national security at risk
+ or any other potential violation of our laws.
+ They still owe Congress answers.
+ I think one thing that's pretty clear
+ from the subtext of Elizabeth Warren's message
+ is that, A, this is certainly not about the affairs
+ of which a second with an employee,
+ by the way, was reported yesterday.
+ Yes, we were in a situation
+ where somehow that is just a footnote,
+ and B, frankly, not just about Alice Huang
+ as a potential Chinese asset,
+ although that is reflective of the broader
+ and real issue,
+ which is whether NVIDIA
+ knowingly contravened export controls.
+ I believe that as they try to drag answers
+ out of Jensen,
+ the focus, even more,
+ than on what he knew about Alice's potential
+ relationships with Beijing
+ will be about what he knew about mega-speed,
+ giving Chinese companies access to NVIDIA chips.
+ A new study from KPMG
+ in the University of Texas at Austin
+ found that when people work with AI,
+ similar skills don't guarantee similar outcomes.
+ Researchers studied more than 500 early career
+ professionals
+ and found that the best performers
+ consistently amplified the value of AI
+ by guiding, evaluating, and refining its outputs.
+ These top performers, called AI amplifiers,
+ weren't defined by what they knew alone,
+ but by how they worked with AI.
+ Learn more about what separates AI amplifiers
+ from everyone else at kpmg.com
+ slash us slash AI amplifiers.
+ At this point, it's no longer a question
+ of whether companies are actively using AI.
+ Using it well, on the other hand,
+ is a whole different story.
+ Robots and pencils, though,
+ is a company that I can point to
+ that is actually built for this time.
+ They're an applied AI engineering firm
+ working directly with clients
+ on problems that matter to the business,
+ not experiments that live in a slide deck.
+ Every engagement starts by working backwards
+ from the outcome a client actually needs.
+ If you're trying to tell real AI engineering
+ apart from noise in this space,
+ that's the difference maker.
+ Head to robotsandpencils.com.
+ AI is truly being used.
+ The root cause?
+ AI is cut off from the systems
+ and context your business runs on.
+ That's why CData built Connect AI Gateway,
+ one control point between your AI and your systems.
+ Built on the connectivity layer,
+ powering Palantir, Google, Salesforce,
+ and hundreds more,
+ each agent gets exactly the data
+ and tools it needs.
+ It governs down to the record
+ and lets you finally see your org's
+ complete AI usage in one place.
+ Accurate answers, a fraction of the token cost
+ and a gateway that learns your business
+ with every interaction.
+ See how at CData.ai.
+ Blitzy's understanding of massive code bases
+ unlocks autonomous security fixes,
+ modernization, and new features.
+ So what happens when there's no legacy code at all?
+ Greenfield is supposed to be the easy part.
+ Clean slate, no technical debt.
+ But even Greenfield moves at human speed
+ once per inch at a time.
+ Blitzy changes the unit of work
+ from the developer to the project,
+ autonomously planning,
+ building, testing, and validating
+ entire applications from scratch.
+ Hundreds of thousands of lines
+ of production ready code.
+ One Blitzy customer stood up a brand new application,
+ 534,000 lines of code,
+ compressing a 65-week roadmap into two weeks.
+ Another shipped an entire application
+ with no front-end engineer.
+ Legacy or Greenfield, the answer is the same.
+ Software at the speed of compute.
+ Build what's next at blitzy.com.
+ That's blitzy.com.
+ Now, one thing that's not clear yet
+ is the extent to which Democrats
+ want to make this about Jensen and Nvidia,
+ versus go after the bigger prize
+ of Trump in the White House itself.
+ It seems like wherever that lands,
+ the administration official that is most
+ in the line of fire regardless
+ is Commerce Secretary Howard Lutnick.
+ Throughout the week, Axios and other outlets
+ have been reporting how Howard Lutnick
+ has been slow-rolling enforcement
+ of export controls all year.
+ Rival officials in the administration
+ characterize this as a defiance
+ of presidential orders,
+ painting a target on Lutnick's back.
+ Senate banking committee chair Tim Scott
+ invited Lutnick to testify
+ alongside Jensen to get the full story.
+ Sources speaking with Politico,
+ meanwhile, were mixed on whether Lutnick
+ would actually be fired over the debacle.
+ One said,
+ I don't know if this is necessarily the straw
+ that's going to break the camel's back.
+ POTUS himself was just too directly involved
+ for this to be an easy Lutnick as the scapegoat.
+ Another, venting their frustrations
+ with Lutnick, commented,
+ This situation is a complete and utter disaster
+ and perfectly encapsulates the last
+ one and a half years of working with Commerce.
+ But again, even Lutnick
+ as sacrificial lamb may not be enough.
+ Senators Elizabeth Warren and Chris Coons
+ have asked the Trump administration
+ to preserve all documents
+ related to NVIDIA's chip export
+ and Jensen's relationship with Alice Huang
+ and whatever the intelligence services
+ suspected about her ties to China.
+ Warren and Coons cited their roles
+ as incoming chairs of the Banking
+ and Foreign Affairs Committees
+ once Democrats take control of Congress in January.
+ That implies that even if the hearings start soon,
+ we should see them stretch well into 2027 as well.
+ Michael Baugartner, the GOP sponsor
+ for one of the export control bills said,
+ In China, Jensen Huang is referred to as Black Jacket.
+ I sincerely hope Congress isn't going to have
+ to make him switch to prison pinstripes
+ and that we do not find out that his mistress
+ being a Chinese spy led to violation
+ of U.S. espionage or export control law.
+ As we'll discuss in a few moments,
+ while the markets dimension of this story
+ may start to calm down,
+ I think the political intrigue is just heating up.
+ Speaking of which,
+ the narratives are not just flowing
+ in a single direction.
+ CNN is now questioning the narrative
+ that Alice Huang was a Chinese spy at all.
+ On Thursday, they wrote that multiple sources
+ said the intelligence collected on her to date
+ does not prove she was acting as a spy for Beijing.
+ This followed Attorney General Todd Blanche
+ stating at a press conference that there are, quote,
+ no conclusions reached by the Department of Justice
+ or by me or by FBI Director Patel around who she is or not.
+ President Trump, in an interview with Stephen A. Smith, said,
+ Well, the big thing is, was the woman a spy?
+ And I don't know if that's been determined yet.
+ If the woman was not a spy, perhaps it would be different.
+ Political commentator Aaron Rupar suggested
+ that this was just the White House
+ circling the wagons and preparing for a fight.
+ But the CNN article went further, writing,
+ Some officials at the Office of the Director of National Intelligence
+ have framed the characterization of Alice Huang as a Chinese spy
+ as not entirely accurate and overtalked.
+ They continued, officials at the CIA are also not yet convinced
+ that the intelligence collection on Huang to date,
+ including intercepted communications,
+ proved she was knowingly funneling information back to Beijing.
+ Former White House AIs are David Sacks jumped all over this,
+ presenting it as exonerating.
+ He posted, Bombshell story,
+ the spy narrative is collapsing already.
+ Is there clear and convincing evidence that Alice Huang was a Chinese spy?
+ A.G. says no.
+ No conclusions reached.
+ CIA says no, not yet convinced.
+ Director of National Intelligence says no,
+ not entirely accurate and overtalked.
+ Ranking Democrat on House Intelligence incoming chairman says no.
+ Quote, Today at least I don't know.
+ This was immediately after he was briefed.
+ Who argues otherwise?
+ Anonymous officials tell CNN, quote,
+ It strains credulity to believe that she was not acting
+ as an agent of the Chinese government,
+ simply by virtue of the fact that she is a successful
+ Chinese businesswoman working with one of America's most powerful companies.
+ This is their proof after a year of investigating and surveillance
+ that she was a successful Chinese businesswoman?
+ At this point, the only crime we know for sure happened
+ is the leaking of the classified memo.
+ Who did that and why?
+ An investigation should be opened.
+ Now to sum, this will be the whole story.
+ A hatchet job based on fear of China
+ and a desire to defang a very powerful private market actor
+ and everything else is just details.
+ And yet ultimately, I think as I mentioned before,
+ that as these conversations hearings and investigations continue,
+ it will start to matter less whether or not Alice Huang was a Chinese spy
+ and will be more about whether Jensen had knowledge of
+ or even helped facilitate chips smuggling into China.
+ We've had a string of additional reporting
+ that further expands the scope of the operation.
+ Bloomberg reports that they viewed corporate documentation
+ of chips moving from Singapore to a data center in China.
+ They called this quote,
+ the most explicit evidence yet that an expansive network
+ of Chinese companies with Alice at the center
+ managed to get its hands on smuggled Nvidia hardware.
+ The information, meanwhile, reports that a network of companies
+ connected to Alice Huang invested in DeepSeek
+ and promised them a steady stream of Blackwell chips.
+ And the Justice Department is now investigating connections
+ between Alice Huang and Supermicro,
+ whose co-founder was charged with chip smuggling back in March.
+ One extremely viral post from X that adds even more intrigue
+ here comes from former open AI researcher Will DePu.
+ He wrote,
+ I found conclusive forensic evidence that the top four
+ Chinese AI labs, DeepSeek, Moonshot, Minimax, and Ant Group
+ have built their newest models on Nvidia's most advanced Blackwell chips,
+ which are barred from export to China.
+ Will continues,
+ This sounds insane,
+ but I discovered that almost every AI model
+ carries a hidden signature of the GPU that trained it.
+ When a model is first set up,
+ the starting values of its weights are laid out
+ in a pattern that depends on the exact GPU.
+ Each combination of GPU and seed numbers
+ produces a unique pattern,
+ a sort of fingerprint of the hardware used to create the model.
+ Traces of that pattern survive training into the published model.
+ Again, this evidence isn't based on any insider information or leaking,
+ it's based on a forensic analysis of the model weights
+ released by the companies themselves.
+ I searched more than 6 trillion combinations of chip layout
+ and seed numbers and matched them to open weights models.
+ In doing so, I found conclusive evidence that six Chinese AI models,
+ including DeepSeek V4 Pro, Kimmy K3, and Minimax M3,
+ were initialized on Nvidia Blackwell systems.
+ Four of the models match Grace Blackwell,
+ the GB200 and GB300 parts
+ in Nvidia's flagship liquid-cooled rack scale systems.
+ Well, concludes,
+ I am highly confident in this result
+ and it has been independently verified
+ by senior researchers at OpenAI and Anthropic.
+ Steven Lubko summed up,
+ If this is true, it substantially overturns the narrative
+ that China was able to build competitive models
+ using a fraction of the compute.
+ Instead, they were able to use the latest gen hardware
+ and distillation of top models
+ to run six months behind at cheaper cost.
+ Now, beyond the geopolitics of the story,
+ Jensen's departure, of course,
+ also raises massive questions
+ about what will happen to Nvidia and the AI industry as a whole.
+ Inside the company, Jensen seems to have the support of the workers.
+ A memorial has been set up outside the entrance
+ and wired reports that an internal post
+ urging the board to reconsider
+ has received 1,600 comments,
+ the majority in full support of Jensen's return.
+ For the moment, CFO Khaled Kress has taken the reins
+ as interim CEO
+ and there's a lot of speculation
+ about how she might govern
+ the most important company in the AI supply chain.
+ Kress has been with Nvidia since 2013,
+ so she has guided the company's growth
+ through multiple iterations.
+ Now, some big tech CFOs play a moderating role
+ alongside their enthusiastic CEOs.
+ That's the reputation that Amy Hood has built at Microsoft,
+ trimming Satya Nadella's ambitions at times,
+ and keeping the company in a fiscally conservative posture.
+ That is not the role Kress has played at Nvidia.
+ Sources told the information
+ that she wasn't the one calling the shots
+ and that Jensen tended to, quote,
+ steamroll her when they disagreed.
+ And those disagreements could be pivotal
+ to how the AI industry moves forward.
+ For example, the information claims
+ that Kress pushed back on some of Nvidia's
+ more extravagant underwriting decisions.
+ These included a proposed $250 billion guarantee
+ that would have backstopped
+ 8 gigawatts of compute for open AI.
+ The deal was subsequently paired back
+ with Nvidia only agreeing
+ to backstop the first half of the build-out
+ for $100 billion.
+ The Wall Street Journal went further,
+ reporting that Jensen was downright dismissive
+ of her input.
+ During a summer meeting,
+ as the AI trade was beginning to falter,
+ Jensen interrupted Kress's presentation
+ and said she was a quote dear in the headlights.
+ He called her a reporting CFO,
+ not someone that could help define strategy
+ or market decisions.
+ So while she is not viewed
+ as an ultra-conservative CFO,
+ she is certainly unlikely
+ to stick her neck out as much as Jensen,
+ especially considering the risky bets
+ over the past couple of years
+ when he provided the little backstops
+ and funding across the entire AI industry.
+ This matters a great deal
+ considering that Nvidia had become
+ the central bank of the AI industry.
+ Nvidia has invested in dozens of startups
+ and is co-signing leases
+ across the neocloud space.
+ If they pulled back,
+ it could function in a similar way
+ to banks pulling credit during a financial downturn,
+ making further funding to the neoclouds
+ a much more treacherous position.
+ And if credit freezes,
+ Nvidia, as the central bank of AI,
+ is the entity everyone will turn to
+ to provide the backstops.
+ Bloomberg reports that the pressure was already on
+ before Jensen resigned.
+ In August,
+ Nvidia announced a $500 billion financing vehicle
+ in partnership with six private equity giants,
+ including Blackstone and Apollo.
+ The deal was structured as Nvidia
+ providing a guarantee on the residual value of GPUs,
+ backing up to 25% of deal size.
+ In theory, this meant the private equity firms
+ could invest in data center buildouts
+ without worrying about chip depreciation.
+ However, no deals have been signed under this agreement
+ and both customers and private equity partners
+ have called on Nvidia to raise the size of the backstop.
+ I think keeping an eye on those issues
+ is extremely important
+ and where we could see
+ some of the biggest long-term effects
+ from Jensen leaving.
+ But at least in the short term,
+ markets seem to be returning to a position
+ of cautious optimism.
+ After losing 20% across the first three days of the saga,
+ Nvidia found a short-term bottom
+ when the resignation was announced
+ and traded slightly higher across Thursday's session.
+ This demonstrates once again that there is nothing,
+ no news at all, that can be worse than no news at all.
+ The thing that investors hate most is uncertainty.
+ Meanwhile, outside of Nvidia,
+ the NASDAQ is green on the week, up 4.8%.
+ While some had argued that Jensen's infidelity
+ would burst the AI bubble,
+ on the contrary, Steve Sosnick from Interactive Brokers commented,
+ the market mentality is not about assessing risks,
+ it's about seeking opportunities.
+ The mindset is,
+ if Nvidia is out of the way, who wins?
+ Patrick Moorhead of Moor Insight said,
+ over the short and mid term,
+ I don't think this changes the AI trade at all.
+ When I look at the Broadcoms,
+ the Intel's, all the startups,
+ I think they can fill in a lot of the cracks
+ that Nvidia would potentially leave open.
+ So what do we watch for from here?
+ First of all, of course,
+ is the ascent of export controls
+ as an issue in Washington
+ and whatever get deals done fast on that front.
+ This whole thing seems to have bolstered
+ broader industry support
+ for a hawkish view on export controls.
+ Anthropic has, of course, been a vocal supporter,
+ but open AI had always been noncommittal until this week.
+ Politico is reporting that open AI
+ has privately told congressional offices
+ that they support all three chip control bills.
+ Senator Jim Banks, the sponsor of one of the bills,
+ called this a generational opportunity
+ to pass bipartisan bills
+ that would address all the pathways
+ through which China acquires chips.
+ He wrote,
+ while we need a full assessment
+ of the damage done
+ to our national security by recent revelations,
+ we can begin today by setting a better course.
+ No excuses, no apologies.
+ Let's get this done.
+ We are sitting here on a Friday,
+ still digesting this news,
+ and yet never doubt the speed
+ at which new things come along
+ and we turn away from something even that seemed huge
+ just a few minutes ago.
+ With markets seeming to want to focus
+ on who might benefit from this
+ and politicians caring more
+ about using it as a way
+ to get legislation pushed through,
+ it feels like this will quickly be a story
+ about looking forward rather than looking backward.
+ Aiding and abetting that
+ will, of course, be the anthropic IPO,
+ which is still slated to go off next week.
+ The historian in me
+ does feel like the implications of this
+ have barely begun.
+ But for now,
+ that is going to do it for today's AI Daily Brief.
+ I appreciate you listening or watching,
+ as always,
+ and until next time,
+ peace.
