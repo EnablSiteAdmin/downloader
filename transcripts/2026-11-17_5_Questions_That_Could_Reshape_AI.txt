@@ -1,0 +1,357 @@
+ The reverberations from Jensen Huang's Chinese spy slash export controls slash cheating scandal
+ continue to define conversations in Washington and on Wall Street,
+ but even with that this week attention shifts to Anthropics IPO.
+ On today's episode we are looking at those questions plus three more that will define
+ AI this week and given where AI sits in the broader discourse right now are going to define
+ a lot more than AI as well. The AI Daily Brief is a daily podcast and video about
+ the most important news and discussions in AI.
+ All right friends quick announcements before we dive in. First of all thank you to today's sponsors
+ KPMG, Robots and Pencils, ZData and Blitzy. To get an ad free version of the show go to
+ patreon.com slash aidailybrief or you can subscribe on Apple Podcasts and if you want
+ to learn more about sponsoring the show send us a note at sponsors at aidailybrief.ai.
+ Now two more quick announcements before we get in. First of all today we are not breaking
+ things up into a headlines and main episode because it's kind of one of those episodes
+ where the headlines are part of the main episode. I assume we'll be back with a normal format
+ tomorrow. And second the latest episode of how we got here has now arrived. It's called
+ How GTA 6 Explains America and comes on the eve of Grand Theft Auto 6 a game which people
+ estimate cost a billion dollars to make over 13 years and which follows up a game that
+ itself made an estimated 10 billion dollars i.e. more than the entire avatar franchise all on its own.
+ I think the most interesting thing about it is the way in which the vision of the American
+ Dream has shrunk dramatically over the titles in the series. Anyways you can find that on
+ howwegothere.com or of course how we got here with NLW on whatever podcast app you listen on.
+ We are in the midst of a big and transformational period in the history of AI. Honestly the
+ type of moment that I think is going to be seen like a bit of a before and an after when the history
+ books are written. Now this was always going to be the case around now with Anthropics IPO going off
+ but the addition of the whole Jensen saga last week really takes it to the next level.
+ Now we are just at the beginning of what will inevitably be an enormously consequential week
+ so let's talk about the five questions that are shaping AI not only for this week
+ as it turns out but for the entire rest of the year and beyond. Now starting off
+ the first and biggest question is how Anthropics IPO will go. Bloomberg's article title I think
+ is pretty accurate when they write, Anthropic is about to become the world's most important AI stock.
+ Wrapped up in this IPO are a huge number of expectations and hopes and concerns not just
+ for the AI industry but for American markets, the American economy, global cooperation and
+ geopolitics. I mean it really does in some ways connect to so much else. A couple of
+ months ago when people were peak bullish news outlets were reporting that some of the investors
+ were expecting up to a two trillion dollar valuation but those expectations had slowly
+ whittled down as the broader market soured on the AI trade. The valuation target as of last Monday
+ was 1.25 to 1.4 trillion which basically as soon as it came out at the financial times and others
+ reported that some investment banking partners were planning to take it up to 1.5 trillion.
+ The targeted raise is between 57 and 64 billion from IPO buyers and another 26 billion in private
+ placement to industry partners including Nvidia and Google primarily with Broadcom, Microsoft and
+ others participating. Then on top of that you have whatever the investment bank green shoe ends
+ up being so all around you're talking about 90 billion plus. To get a sense of where Anthropics
+ head on this is that same Financial Times article that talked about raising the valuation to
+ 1.5 trillion said that Anthropic for their part was much more focused on raising more cash
+ than getting the perfect valuation. The first day of trading is currently slated for this
+ Thursday the 19th with final pricing set the day before and right now despite all the wobbles and
+ craziness of the past couple of weeks reports are that the share sale is massively oversubscribed.
+ Sources said the deal was six times oversubscribed as of last Thursday and closing in on seven times
+ heading into the weekend. One source said demand was much hotter than it was for SpaceX
+ at this point in the process. That source compared the demand to Snowflakes IPO in 2020
+ which saw a day one pop of 112% although of course the relative size of the two companies
+ is a completely different category. Snowflake raised 3.9 billion at a valuation of 33 billion
+ meaning that Anthropic is looking to raise three times as much as Snowflake's entire valuation.
+ For context being oversubscribed is pretty normal for an IPO and frankly it would be a
+ big problem if it wasn't but reports are suggesting excess demand the likes of which
+ hasn't been seen for years. As we'll get into though the weird and interesting wrinkle here
+ is that in addition to the people who are just genuinely excited about this
+ there are others who are taking a bit more of a let's say cynical take. Media personality Scott
+ Galloway argued that whatever one thinks about the fundamentals that in the immediate term
+ it's almost impossible to imagine that the thing doesn't rip. On the pivot podcast he said
+ I'm fairly certain the first trade is 15 to 40% higher than the pricing. Anthropic can't
+ have a broken IPO that would be the headline around everything. Anthropic would rather
+ raise less money take more dilution and have every newspaper in the world go
+ Anthropic IPO a barn burner up 30% day one. So on a risk adjusted basis a great investment
+ is just to get allocation the night before at prices and then sell it on the first trade.
+ Still overall Wall Street is having a fairly difficult time figuring out exactly how to value
+ Anthropic. The company does not fit into any standard tech profile for a huge variety of
+ reasons not least of which is massive compute spend and the relatively high cost per customer
+ that eliminates some efficiencies of scale. During a high profile investor day held at JP
+ Morgan headquarters on Friday Dario Amade acknowledge this as the major question facing
+ anthropic as a business. During a conversation hosted by Jamie Diamond himself Dario said compute
+ is the deepest business dilemma that the company faces. The issue that we have with compute
+ is that because this field is growing so fast from a technological perspective and we don't
+ know how that is going to transfer to the creation of economic value on the business side
+ the firm has this huge uncertainty. Anthropic has disclosed over 900 billion in compute
+ commitments over the next decade and while it's unclear exactly how many of these commitments
+ will fall due given data center delays and other complications even in the short term there is
+ high risk with 71 billion coming due over the next year. Still Anthropic is at this point
+ deliberately airing on the side of having too much compute rather than too little.
+ They had previously faced that predicament and Amade had bet in the other direction
+ and said that that bet did not go well costing them customers in R&D cycles and ultimately
+ stunting revenue growth by the same token he acknowledged that if they purchased too much
+ they could find themselves financially overextended. Overall the event seemed to go well
+ with investor Bill Ackman telling Bloomberg I was impressed he seemed like a very thoughtful
+ measured CEO and yet the question of what Anthropic is actually worth still lingers.
+ During the event Amade shared the best advice he received during this process quote never let
+ your company be worth a single dollar more than it's really worth. The problem is that no one
+ knows what that number is. Matt Whithiler of Wellington management and Anthropic shareholder
+ commented the market on the public side is grasping for straws to figure out AI demand
+ which is why everyone is hyper focused on the month end ARR numbers. There is no public
+ AI demand measure because these companies have been private but that will change with Anthropic
+ being the first foray into the public markets and this shift from private to public is going
+ to be a massive one. Kim Forrest the CIO at Boca Capital Partners argued that Anthropic would be
+ the most important company in the stock market because quote it's going to be the poster child
+ for the use of AI in business. All eyes this entire time should have been on the people using AI
+ and using the chips. Mike Smith the head of growth equity at Allspring Global Investment said
+ the expectations are clear and they're very high so is the company going to be able to
+ stay on the trajectory that's needed to meet the expectations? Unfortunately for them there
+ are trillions of dollars resting on their shoulders. It's one of the proxies for whether this is working
+ or not. He continued, to me nothing is more important now than observing the monetization
+ of the infrastructure that has been built. They're going to have to produce more revenue
+ than anyone ever has within like two to three years for all of this to work.
+ And putting it in the context of the changes that were made last week Angel Ozino from CFRA said
+ they might be the best indicator for the health of the AI ecosystem. What they have to say
+ about monetizing AI I think that becomes now equally if not more important than NVIDIA with Jensen no
+ longer there. I would go further than this. Even if Jensen was still there everything so far all of
+ the stock market machinations the intense focus on NVIDIA and all of the neoclouds and everything
+ else has been a terrible proxy for what investors actually wanted to know which is is the growth
+ in AI demand likely to justify the cost? Everything is downstream from that question
+ and nothing that investors have been able to look at so far even with NVIDIA
+ has actually been able to answer that question. Now once Anthropic goes public once a quarter
+ we are going to have an updated set of evidence with which to debate that all important question.
+ Now one side story that the street seems to be overlooking at the moment I can't imagine
+ why they've been distracted is that Anthropic is picking up the pace on product velocity
+ again. Last week saw the launch of a productivity suite followed up with an app for
+ video meetings. Now it's entirely possible that their internal models are making software
+ development much faster. We saw this after the release of opus 4.5 which made new features
+ for clawed code able to be shipped almost daily. Anthropic might be doing that again
+ but instead of small features they're able to ship entire apps at a blistering pace.
+ You might remember that back in August Gavin Baker of Atreides management claimed that
+ Dario had said that Anthropic might be the only private company in the world at some point
+ and whether you think that is realistic or outlandish they certainly appear to be
+ trying to execute along those lines chipping away at pretty much every major software product.
+ Over the weekend former AISR David Sacks commented that Anthropic is quote
+ creating the most valuable monopoly in the world now they've all but confirmed it.
+ They're running around saying that this is a winner take all market what does that
+ sound like monopoly recursive self-improvement is the most dangerous thing anybody can be
+ working on they're treating it like a business advantage if you think that this
+ type of development is risky stop doing it but they have not stopped they're racing
+ towards it and now they're marketing it on their roadshow and the roadshow pitch
+ is nothing if not ambitious Amade told investors on Friday my hope is that we
+ prove the skeptics are wrong in every disease you can think of heart disease all timers cancer
+ we think of those the way we think of bubonic plague or smallpox today
+ that they're relics of the past it's down starry eyed it sounds crazy i really
+ do believe it i really do believe it can be done quantian on x however said that
+ that barely scratches the surface of it they wrote anthropic pre-ipo broker call was
+ absolutely wild the party was we are or plan on immediately destroying hyperscalers every
+ other lab spacex biotech robot companies for fun chip makers may survive it our pleasure
+ 1 trillion arr by q4 2028 screw investors it's capex time now one curveball to watch for which
+ becomes our second big question shaping the week is the potential for a big model release from
+ open ai to come in and try to scoop some of the momentum from anthropic earlier in the month when
+ the market was a bit softer i made the argument that open ai may have decided that it's in its
+ best interest to just sit on their next model and let anthropic have a successful ipo now however
+ the anthropic ipo looks like it's going to get out without a problem and dario is taking
+ potshots at open ai during friday's investor day he said we don't vague post about models
+ ahead of time we basically build the model we make sure it's good we release the model
+ and it's pretty clear that open ai has to put out something soon but when it comes to what open ai's
+ got cooking earlier in the week token gremlin who's become one of the more reliable ai leakers
+ showed off some outputs from what they claimed was a preview version of gpt 6.2 astra they
+ commented this model is on another level and i really think open ai is saving it to steal the
+ spotlight near the anthropic ipo over the weekend they reported that api resellers
+ had somehow got their hands on the new open ai model which if true means it must be pretty
+ close and another narrative spoiler possibility is a chinese model swooping in to grab the attention
+ and importantly based on what we've seen before chinese models don't have to actually be as good
+ as their western equivalents to get wall street all freaked out they have to appear to be at first
+ driving a narrative cycle until people actually get their hands on the models and find out
+ that they're either bench maxed or just not that good in practice now in terms of which
+ chinese models might be possible for that spoiler seat moonshot seems a bit less likely with
+ kimmy k3.1 released less than a month ago deep seeks most recent release was v4.1 flash in mid
+ october but they've been a bit slower to iterate it's possible that they've been working on an
+ ultra large model but if they are there aren't a lot of rumors going around about it where rumors
+ happen swirling is around quen4 max from alibaba it looks decent but certainly not enough to
+ knock the anthropic ipo off course chubby on x wrote quen has launched quen4 max their new
+ ai model with native vision and one million token context window outperforms opus 55 and gpt
+ 61 solan astra on relevant benchmarks but lags behind fable 5.2 but as we know numbers in real
+ world use are different things and real world looks pretty lackluster on first glance seemingly
+ even behind kimmy 3.1 on certain render tests ai developer dosim commented anthropic shut the
+ door on distillation and chinese models haven't moved an inch since sucks to say it but that's
+ just the reality a new study from kpmg in the university of texas at austin found that when
+ people work with ai similar skills don't guarantee similar outcomes researchers studied more than
+ 500 early career professionals and found that the best performers consistently amplified the value
+ of ai by guiding evaluating and refining its outputs these top performers called ai amplifiers
+ weren't defined by what they knew alone but by how they worked with ai learn more about what separates
+ ai amplifiers from everyone else at kpmg.com slash us slash ai amplifiers at this point it's no longer
+ a question of whether companies are actively using ai using it well on the other hand is a
+ whole different story robots and pencils though is a company that i can point to that is
+ actually built for this time they're an applied ai engineering firm working directly
+ with clients on problems that matter to the business not experiments that live in a slide deck
+ every engagement starts by working backwards from the outcome a client actually needs if you're
+ trying to tell real ai engineering apart from noise in this space that's the difference maker
+ head to robotsandpencils.com this episode is brought to you by cdata companies rolling out ai
+ keep hitting the same wall token spend is climbing security is holding agents back
+ and no one knows how ai is truly being used the root cause ai is cut off from the systems
+ in context your business runs on that's why cdata built connect ai gateway one control point between
+ your ai and your systems built on the connectivity layer powering palantir google sales force and
+ hundreds more each agent gets exactly the data and tools it needs it governs down to the record
+ and lets you finally see your org's complete ai usage in one place accurate answers a fraction
+ of the token cost and a gateway that learns your business with every interaction see how at cdata.ai
+ every ai coding tool on the market does the same thing first it starts writing code
+ blitzy does the opposite before writing a single line blitzy spends days reverse engineering your
+ entire code base thousands of agents ingest millions of lines mapping every dependency
+ every undocumented constraint every architectural decision made over the last decade the result
+ is a dynamic knowledge graph that understands your software the way a principal engineer would
+ after 30 years in the building other tools guess it context with grep searches and markdown files
+ blitzy never guesses it builds true understanding first then delivers over 80 percent of entire
+ software epics autonomously validated end-to-end tested production grade pull requests that's
+ why fortune 500 engineering teams trust blitzy with the code bases that matter most see for
+ yourself at blitzy.com that's blitzy.com
+ now whether or not open ai releases a model this week something has to be coming soon
+ synth waved on x writes it's been 72 days since open ai last released a frontier model
+ officially the longest gap since the wait between gpt 5 to 5 1 if it doesn't release in the next
+ few weeks it would become the longest gap between two open ai frontier model releases
+ since o3 to gpt 5 summing up what i don't think is at all consensus but is certainly
+ starting to bubble as a narrative dan mccattia writes it sure feels like open ai lost the race
+ compete with fable 5.2 how about they compete with opus 55 and gemini 4 carbon it's felt this
+ way before and i've been wrong but i can't remember the last time open ai was in third place
+ i'm a fan and hope they come back now i think dan's take on opus 55 is being ahead
+ is certainly true google and gemini even though carbon looks really good have a lot
+ more to prove before i think you can reasonably call them back in second place
+ potentially giving an explanation for a bit of why there's a delay open ai's ruin wrote
+ people have a little understanding of how much the federal government is already
+ involved in the ai industry for example if there's a new model you need to convince the feds
+ that new model is safe before launching it or men with proverbial guns and export control
+ bands show up when push comes to shove if i had to place a bet it would be on a new open
+ ai model coming soon after the anthropic ipo but then again then you're running into thanksgiving so
+ who knows the third big question this week which is no less important for its obviousness is whether
+ we start to see momentum for bringing jensen hong back to invidia on friday a website was
+ launched to aggregate support for jensen's return as of recording the open letter has
+ around 175 000 signatures including over 10 000 current and former employees and over 90 000
+ shareholders building on that public support industry power brokers are putting together a
+ pressure campaign to push for jensen's return the financial times reported that a jensen ally
+ has put together a war room of tech executives including elan musk tim sweeney gaven baker and
+ brad gertsner the effort reportedly has jensen's support and he's discussed a return gertsner
+ and baker both invidia shareholders also wrote to the board on friday they urged the board
+ to pursue a quote slow measured and deliberate process that leaves all options on the table
+ including the potential return of jensen hong they argued that this is appropriate because of
+ in their words the massive uncertainty associated with recent events surrounding his departure
+ that uncertainty of course we will get into in just a moment the war room is said to be
+ lobbying the white house in support of jensen's return and according to the new york times the
+ president had already been supported behind the scenes urging jensen to fight for his job
+ on tuesday sources said that trump essentially views the u.s economy and the stock market
+ as tied to jensen's personal leadership rather than solely invidia as a company deep water
+ management's gene monster wrote i now put the odds of jensen's return at 51 percent on friday i
+ had it at 10 cal she currently has it at nine percent two reasons for my increased odds one
+ to bring back jensen movement is gaining momentum two jensen quote unquote resigning was facade
+ given the board forced his hand but that distinction between resigning and getting fired
+ is key because it gives the board air cover that they never let him go and therefore could
+ welcome him back bolegy schrinivasan argues that if jensen wants it it's almost fade
+ he wrote all jensen long has to do is tweet that he wants to be reinstated as ceo and gears
+ will start moving if jensen says he wants back in all of invidia and indeed the global ai ecosystem
+ is still wired around him the coup has no legitimacy the anti-jensen board members will
+ immediately step down or likely be legally forced out under invidia's bylaws shareholders
+ with at least 15 percent of votes for one year can demand a special meeting to remove sitting
+ directors requiring a simple majority with cause or a two-thirds super majority without an
+ elect a new board and anti-jensen board members know they'll be held responsible for one trillion
+ in market cap erased if they hold out against the jensen restoration but these are npc so they'll
+ buckle quickly now what's fascinating from a cultural standpoint is how different people
+ are focusing on totally different aspects of the story believe it or not i think saturday night
+ lives parody of the situation was actually an interesting example of how the story is
+ being understood in the mainstream the weekend update segment framed the story as jensen's
+ sex scandal and focused on the impact on markets with host colin jose delivering the punchline
+ jensen huang had a midlife crisis so bad you might lose your house in his divorce now snl did
+ also get at the chinese spy angle the show's cold open was a five-minute skit dedicated to the
+ cia educating tech billionaires on the risk of interacting with beautiful women john melaney
+ playing the role of the cia agent told the billionaires america needs you to learn the
+ difference between a woman who would actually want to have sex with you and a woman who is clearly
+ a spy now it's missing of course from all of this is anything having to do with the security
+ implications of jensen potentially knowing that chip supplies were making it to china but as time
+ goes on every aspect of the story is in some way getting more complicated in the new york times
+ dealbook newsletter andrew ross sorken handed out scorecards for how prominent people were
+ reacting to the scandal he characterized former aizard david sacks as quote starting to
+ spread conspiracy theories however that refers to reporting from that arch conservative rag cnn
+ that said officials at the cia and doj were not actually certain that alice huang was a chinese spy
+ whatever one thinks about sacks in this particular case he merely amplified the reporting
+ and was outraged with how his commentary was framed posting nyt stories which have alleged
+ chinese spy dozens of times have relied exclusively on anonymous officials no official has gone on
+ the record affirming it as established fact and the more recent reporting reflects greater
+ caution and disagreement inside the government so when i point out that the spy narrative is
+ unconfirmed and increasingly contested that is not a conspiracy theory it's a growing body of
+ evidence that indicts the new york times reporting taylor lorenz meanwhile not normally a big fan of
+ david sacks actually defended him and said that this is the kind of thing that drives concerns
+ about bias in the media adding another curveball mega speed the firm that alice huang worked for
+ has claimed she left the firm in august of last year still in washington the geopolitics loom
+ large on the sunday shows treasury secretary scott besant was emphatic commenting as the
+ board conducts a search for a new leader they need to go outside the company they need a dramatic
+ shake-up while others ignore the detail besant asked the key question of the scandal with whether
+ nvidia was knowingly shipping chips to china for the past three years he said it doesn't matter
+ to me whether she's a spy or not jensen's foibles are his foibles i want to keep coming
+ back to what was the culture at nvidia and were they pressing these seemingly illicit sales
+ to goose their revenues and their earnings i think we need answers in the next 10 days from
+ the board and from the outside council in a separate interview besant commented the real story
+ here should be did nvidia know their client and was there a robust effort at nvidia to make sure
+ that there was no leakage and that they were selling to what were obviously passed through
+ shell companies semi analysis is dylan patel is one who argues that basically nvidia definitely
+ knew in an interview with fox he argued that there are more than 1.5 gigawatts of nvidia
+ chips in china that aren't supposed to be there and that that is in fact why the board
+ moved so fast on jensen he said our biggest point of tension with nvidia has been around
+ export controls and restrictions where they always challenge our view of the industry
+ we view that there's more than one and a half gigawatts of chips in china that are not supposed
+ to be there according to us law how they get there that whole web that's what's going to
+ unwind that's what's really dangerous and i think that's why the board had to get rid of
+ jensen and act so quickly indeed one of the loud suggestions coming from jensen allies
+ is that the board is simply covering themselves but even that has a couple of different angles
+ if they're covering themselves because jensen breached his duties as an executive
+ then they may need to be seen to be acting to stave off investor lawsuits if instead they're
+ covering themselves because intelligence agents have started asking some very pointed questions
+ about what they knew then jensen's return is probably out of their hands now the rubber
+ could hit the road on tuesday night when nvidia reports quarterly earnings some in the financial
+ press are focused on whether earnings will be strong enough to put the scandal to bed now
+ the earnings are almost certain to be strong as they've beaten estimates for 15 quarters
+ in a row and there's no reason they'd stop now but you better believe that some of the first
+ questions that interim ceo call it crest is likely to get are those questions about how many chips
+ have been going to china i think ultimately there's also the question of how impaired a restored jensen
+ would even be analyst dan ives wrote no one individual can replace jensen as ceo but at
+ the end of the day after this global scandal the old jensen with the black leather jacket and
+ rockstar persana is gone for good that cannot be replicated in any talk of a damaged jensen
+ coming back to nvidia is ridiculous in our view given the legal slash board slash gc scrutiny slash
+ moral compass slash china tentacles we see no chance jensen comes back to nvidia as ceo it's about
+ moving forward for nvidia and it starts tuesday with earnings as collette leads nvidia ahead
+ for now our fourth question for the week is actually an extension of the third and is whether
+ anyone in the administration but specifically howard lutnick gets sacrificed along the way
+ last week's reporting about jensen was punctuated by a confrontation in the situation
+ where senior officials called lutnick's bluff on a stall tactic the framing presented to axios
+ by a government source was that lutnik had three times dragged his heels on cracking down on mega
+ speed late last week the new york times wrote that lutnik had essentially been getting his
+ marching orders directly from nvidia they wrote the tighter ties between nvidia and the commerce
+ apartment gave tim teeter nvidia's general counsel unique influence over the department
+ and its rulemaking process when department staff reviewed drafts of policies under
+ consideration they sometimes found themselves looking at comments and critiques in the document
+ that had been inserted by mr teeter lutnick has now been invited to testify before congress
+ and some in washington seemed to view him as the central figure in the scandal appearing on
+ the sunday shows republican senator jim banks said that he wanted lutnik to account for his
+ quote glaring mistakes banks said to this day right now as we sit here in this interview
+ this morning mega speed is still not on the entity list so there's an obvious mistake
+ that's being made here lutnik has agreed to testify and will appear before the senate banking
+ committee on december 10th treasury secretary besant who is present for the argument in the
+ situation room but is not confirmed to be the one who swore at lutnik is sitting back for a moment
+ in a cnbc interview he said that multiple agencies were in favor of putting mega speed on
+ the entity list for months but he continued commerce has the pen and you will have to ask
+ them about their internal process some in the democratic caucus however want to take
+ this even farther believing the scandal goes all the way to the top summing up this
+ point of view with senator chris van holland who said on sunday this is a case where this company
+ should have been on the entity list the question is why were they not on that and i think now
+ we're getting answers through the relationship between the president jensen huang and now jensen
+ huang's girlfriend which brings us to our fifth and final question does congress actually move
+ on export controls one lingering question is whether china hawks in washington finally have
+ the juice to pass the tougher export controls they've been asking for for years there are
+ currently three export control bills set to be included in negotiations around the national
+ defense authorization act which must pass by the end of the year these bills deal with multiple
+ avenues that allow china to get access to chips including the so-called remote access loophole
+ which allowed data centers across southeast asia to serve cutting-edge chips to chinese labs
+ at this stage there is very little political capital left to defend the current status quo
+ and even senior republicans seem on board with a crackdown late last week house speaker
+ mike johnson said the export controls on chips china has been a big issue around here i think
+ there's a developing consensus in congress that it's an important position to take and with now
+ both open ai and anthropics supporting tougher export controls with jensen out of the way
+ it's difficult to see who's going to lobby against them so those are the five stories
+ that i think will shape this week one more which is kind of a bonus that i suppose is
+ worth keeping an eye on is that we had two major outages one from microsoft and one from
+ the faa last week that purportedly had nothing to do with ai but yet which everyone in america
+ assumed had to do with ai i'm not sure why but at the moment americans do not seem inclined to accept
+ simple explanations as they're given so we'll see if anything else comes of that but i know for
+ some of you the only thing that actually matters this week is that after 13 long years the
+ latest grand theft auto is being released if you want to know how i think gta 6 explains america
+ go check out the latest episode of how we got here it is available on all your podcast apps
+ for now though that is going to do it for today's ai daily brief i appreciate you listening or
+ watching as always and until next time peace
