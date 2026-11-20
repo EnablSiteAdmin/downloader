@@ -1,0 +1,339 @@
+ Today is anthropic IPO day, and as we await to see how that all goes and everything that
+ happens on the first day of trading, I thought it'd be fun to go back and look at the top
+ 10 biggest days in AI history. Some on there, I'm sure you'll guess like the launch of Sonnet
+ 3.5, but others I bet might be more surprising. The AI Daily Brief is a daily podcast and
+ video about the most important news and discussions in AI.
+ Alright friends, quick announcements before we dive in. First of all, thank you to today's sponsors
+ KPMG, Granola, Gartner, and Blitzy. To get an ad-free version of the show, go to patreon.com
+ slash aidailybrief, or you can subscribe on Apple Podcasts. And if you want to learn
+ more about sponsoring the show, send us a note at sponsors at aidailybrief.ai.
+ Lastly, if you liked today's episode and want to go even deeper on some of this history,
+ may I suggest that you subscribe to the new show How We Got Here with NLW.
+ Next week's episode is an over an hour long deep dive about all of this history,
+ going way deeper on anthropic, and how they went from AI safety outcast to arguably the
+ world's most important company. Unbeknownst to you guys, I just spent an hour talking
+ into the wrong microphone thanks to script changing which microphone it was recording
+ out of the blue. Never done that before. So here for your listening pleasure are the 10
+ biggest days in AI history. Now the context of this, of course, is that we are right at the
+ beginning, or now I guess a little less at the beginning of the first day of trading for
+ anthropic. It will officially be the biggest IPO in history, the culmination of so many
+ stories and threads in AI and the beginning of a very new era. And so with that in mind,
+ I thought it would be fun to go back and look at some of the other most significant days in AI
+ history, of which this will clearly be one, as a way to help understand where we've been
+ and where we might be going. Now a couple of quick provisos before we dig into the days,
+ although I called it the biggest days in AI history, I am focused specifically on
+ generative AI. I'm not going all the way back to conferences at MIT in the 50s or
+ anything like that, although should that interest you don't threaten me with a good time.
+ And second, there is no ordering here, I am going to go in linear order, although again,
+ it would be fun to try to rank these as well. Day number one then, is the day that open AI kicked
+ off. December 11th, 2015, when it was founded as a nonprofit. The group who got together to
+ start open AI, specifically they were worried about what Google would do if it got to AGI first.
+ Elon Musk had already been scared of that possibility. He had invested about five
+ million dollars into DeepMind before it joined Google, at least in parts, keep an eye on
+ Demis Hussabis and what he was doing over there. And so when Sam Altman emailed him,
+ basically saying that he didn't think there was any way to convince humanity not to build AI,
+ and so if it was going to any ways, they should probably make sure it wasn't Google who got there
+ first. Elon was on board, and he and Sam Altman started out as co-chairs of the nonprofit,
+ bringing in a set of other co-founders, including Greg Brockman, Andre Carpathy,
+ Elias Sitzgever and more. Backers initially committed a billion dollars,
+ although that number was more for the press announcement than anything else,
+ and the company was off to the races to, quote,
+ advance digital intelligence in the way that is most likely to benefit humanity as a whole,
+ unconstrained by a need to generate financial return. And yet, it wouldn't be too long before
+ that constraint was clearly too much of a constraint. And in fact, here right out of the
+ gate, I cheaty cheat cheated by having a second day as part of number one as well,
+ which is June 22nd, 2019. That's the day that open AI officially announced that Microsoft
+ would be investing a billion dollars into them, having decided that they could not
+ raise nearly enough money to complete their mission as a nonprofit only.
+ They started a for-profit arm, a move which, as we well know now,
+ set off many of the fights that would come. With these twin moments, one of the most
+ significant players in AI, one of the defining companies of this period, was officially on the
+ scene. But what the hell were they actually working on? The first couple years of open AI
+ were in some ways fairly meandering. It wasn't like things started and they knew
+ exactly what they had to do, and it was just a matter of execution. There was no clear
+ or clean path to the goal that they had set themselves. And yet, the path got a little
+ clearer when on June 12th, 2017, a group of computer scientists at Google Brain published
+ a paper called Attention is All You Need. The abstract read,
+ We propose a new simple network architecture, the transformer, based solely on attention
+ mechanisms dispensing with recurrence and convolutions entirely. It was a simple idea,
+ but the new architecture unlocked the breakthroughs that made modern LLMs possible.
+ And fascinatingly, Google didn't seem to recognize the full potential of the
+ architecture at the time. They used transformers to build models that process
+ search queries and power Google Translate, but it was the team at Open AI who very quickly jumped
+ on transformers and realized that it was what they had been looking for. One of the authors
+ of the paper, Noam Shazir, famously left Google in 2021 to found character AI after Google refused
+ to release a chatbot called Mina that he had built using transformer architecture.
+ One of the fascinating substories with AI is companies that were not Open AI,
+ having some early advantage relative to Open AI and then choosing not to use it.
+ The first of those was the transformer, but the second was the user experience of the simple
+ chatbot. The third on our list of 10 biggest moments in AI was the one that I'm sure that
+ almost all of you would be sure would be here. That was the November 30th, 2022 launch
+ of ChatGBT. Now I said before that it was another instance of Open AI getting there first,
+ even though they weren't there first. And what I'm referring to in this case
+ is that all the way back in February of 2022, Anthropic, which had splintered off from Open AI
+ in late 2020, early 2021 had been playing around internally with a chatbot that they called Claude,
+ after Claude Shannon, the father of information theory. The Anthropic team recognized that it was
+ an incredibly impressive experience, but they were worried about kickstarting an arms race
+ and so decided to sit on it. Ironically then, it was a rumor about Anthropic releasing a
+ chatbot that led ultimately to ChatGBT. In November of 2022, the researchers at Open AI
+ were focused on getting ready to release GPT-4. Up to that point, they had always released models
+ as APIs for people to use without any sort of simple user experience. That month, however,
+ a rumor started floating around that Anthropic had a chatbot that they were on the verge of
+ releasing and not wanting to be scooped in that way. Open AI decided that they would release
+ their own. They announced it to the team on November 17th and then on November 30th,
+ the thing came out. Now the team didn't have particularly high hopes. Most apparently thought
+ that they'd have somewhere in the low tens of thousands of users, with Sam Altman being the most
+ optimistic and thinking they would eventually get up to a million. They did get up to a million,
+ but it wasn't eventually. It only took five days. In five weeks, they had reached 100 million
+ users and were officially the fastest growing application of all time. ChatGBT quickly became
+ synonymous with AI and every other company now was officially racing to catch up.
+ And yet the sailing for Open AI was not smooth either. Our next biggest moment comes almost
+ exactly one year later. On November 17th, November 2023, Open AI's board removed Sam Altman as CEO.
+ They said in a statement that they had concluded that he was not consistently candid in his
+ communications with the board and that they no longer had confidence in his ability to lead
+ Open AI. This exploded like a bomb and was instantly confusing and chaotic.
+ Major investors hadn't been informed, employees hadn't been informed, and everyone was trying to
+ figure out what the heck Sam had done that justified this firing. Spoiler alert, the board was never
+ able to crisply articulate that, and the whole coup was effectively living on borrowed time right
+ out of the gate. Greg Brockman quit on the same day with Mir Marati taking over as interim CEO,
+ but by Sunday the board had replaced Marati with former Twitch CEO Emmett Shear,
+ again in an interim capacity. This was for many of the employees the last straw,
+ wondering who the heck this Emmett guy was and what the heck was going on.
+ Now, at the same time, Microsoft CEO Satya Nadella announced that they had hired Sam Altman and Greg
+ Brockman to lead a new AI division. Effectively, they were going to reconstitute Open AI but inside
+ Microsoft. An employee rebellion became a full-on revolt, with almost all 800 employees signing
+ a letter calling for Altman to be reinstated and for the board to resign, else they walked to
+ the new enterprise inside of Microsoft. On Monday, just four days after the beginning of the
+ saga, Altman had an in-principle agreement to return as CEO. As part of the deal, the board
+ also stepped down, replaced by a new initial group of three, including former Treasury Secretary
+ Larry Summers. By November 29th, the deal was official and Sam Altman was back.
+ And so why is this one on the list? I think if this list was the biggest moments of psychodrama
+ in the history of AI, no one would have any questions. But what about this more general
+ list? I think that this didn't just have impacts for Altman or Open AI, but fundamentally
+ shaped the structure of the industry. Open AI which had seemed completely unassailable up to that
+ point, having had the best model definitively in GPT-4 for more than six months at that point,
+ all the brand recognition in the world, and it seemed like nothing but wind in its sails,
+ all of a sudden it looked much less unimpeachable. There were clearly issues with internal
+ strife and the Sam Altman that came back was in some ways never going to be as powerful
+ as the one who had left. An even bigger implication happened though with the relationship
+ with Microsoft. While Satya Yes was playing peacemaker behind the scenes, it was also very clear
+ that they could not be placing all of their AI chips in this particular basket.
+ Remember, at the time, Microsoft's contract with Open AI gave them access to Open AI's models
+ only until such a point at which the Open AI board declared that they had reached AGI.
+ That looked a lot scarier after the compretiousness of the board attack on Altman
+ and said in motion everything that would happen subsequently, with Microsoft hiring
+ Mustafa Suleiman and starting a new AI division and slowly moving their relationship away from Open AI.
+ A new study from KPMG in the University of Texas at Austin found that when people work with AI,
+ similar skills don't guarantee similar outcomes. Researchers studied more than 500
+ early career professionals and found that the best performers consistently amplified
+ the value of AI by guiding, evaluating, and refining its outputs. These top performers
+ called AI amplifiers weren't defined by what they knew alone, but by how they worked with AI.
+ Learn more about what separates AI amplifiers from everyone else at kpmg.com slash us slash AI amplifiers.
+ You're in back-to-back meetings all day, you're trying to stay present, but you're also worried
+ you'll forget the decision, the action item, the important next step. This is a scenario
+ that we absolutely live here at the AI Daily Brief, giving out fast things,
+ change, and how quickly we're evolving everything that we do.
+ That's where Granola comes in. Granola is an AI-powered notepad for meetings.
+ You jot down rough notes like you always do, and in the background, Granola transcribes and
+ turns them into clear, useful notes when the meeting ends. No bots joining your calls,
+ no distractions, just a clean notepad that helps you focus. During or after the call,
+ you can chat with your notes, ask Granola to pull out action items, help you negotiate,
+ write a follow-up email, or even coach you using recipes which are premade prompts.
+ Once you try it on a first meeting, it is very hard to go without.
+ Head to granola.ai slash AI Daily and use code AI Daily to get 100% off for three months for new
+ users. That's granola.ai slash AI Daily and code AI Daily to get 100% off for new users for three
+ months. When it comes to emerging AI technology, C-level executives have important questions.
+ Are you ready for unrelenting AI disruptions? Are you applying AI simulation to your most
+ critical business decisions? Are your business application vendors keeping up with hyper-specialization
+ driven by agentic AI? Gartner analysts provide answers to those questions and more. Gartner
+ covers every AI technology and priority with in-depth insights for your entire AI journey,
+ and they cut through the hype. Find out how they can help. Visit them at gartner.com slash AI to
+ learn more. Blitzy's deep code-based understanding unlocks the thing every roadmap
+ owner cares about, shipping new features. Here's the truth about building inside
+ a massive enterprise codebase. Writing code was never the bottleneck. Context is. Which system
+ does this touch? Which contracts can't break? Which standards apply? Blitzy already knows
+ because it reversed engineered your entire codebase into a dynamic knowledge graph before
+ future work began. With that complete picture, Blitzy builds features end-to-end. Architecture,
+ APIs, UI, and tests all validated against your existing systems. One Blitzy customer built
+ an AI native application from scratch with 100% autonomous completion, saving over 2700
+ engineering hours. Features that respect your codebase instead of fighting it.
+ Stop letting your backlog grow faster than your team. Accelerate your roadmap at blitzy.com.
+ That's blitzy.com.
+ Now, biggest day number five will either seem surprising to you or for the ones who were
+ there and who remember feeling the AGI feel just completely dead on. The day that I'm
+ talking about is June 20th, 2024, when Anthropoc released Claude 3.5 Sonnet. So many of these
+ early biggest days were about open AI. And yet the occasion of this episode is not open AI going
+ public as the biggest by revenue most important AI company, but instead Anthropoc in that seat.
+ For the first year and a half after ChatGBT, Anthropoc operated almost entirely in open AI
+ shadow. Claude 3.5 Sonnet was when it started to change, when the long climb that ended
+ up where they are today started. Claude 3.5 Sonnet broke new ground in terms of its ability
+ to support AI and agentic coding. It enabled not only more advanced engineering use cases,
+ but companies like Cursor, Replet, and Lovable to bring that capability set to people who weren't
+ coders. And it was not, as we would see, a one-off. From basically then on, Claude models
+ were in the lead when it came to coding. And as we would later come to understand,
+ coding wasn't just a important use case, it was the foundational use case upon which so many other
+ use cases would be built. With biggest day number six, we're back to drama and recognition of a day
+ that was big at the time, but also would portend years of debates that would follow. The day was
+ January 27, 2025. When, based on fears of a little lab out of China called DeepSeek,
+ NVIDIA lost 17% of its market cap in a single day. The $589 billion loss was the biggest
+ one-day loss for any company ever. There was a viral claim going around that the Chinese lab
+ had trained their R1 model on only $5.5 million. The free app that they had published alongside
+ the R1 model was number one on the Apple App Store charts. And for many people,
+ it felt like the best model they had ever used. Now, as it turned out, the $5.5 million training
+ run claim was wildly overstated, and R1 was not, in fact, the best model in the world.
+ What R1 was was an example of the new type of reasoning model that OpenAI had debuted
+ with 01 Preview back in September of the previous year. The thing was, almost no one had used 01.
+ It had been in preview mode from September to December, and even after December when it became
+ available, it was only available on paid plans. The vast majority of users were still using
+ non-reasoning models, and the experience is fairly incomparable. While NVIDIA's stock price
+ would obviously recover, the deep-seek moment changed a huge amount. It impacted how Western labs like
+ Anthropic and OpenAI released models, and it began the China vs. US conversations that have dominated
+ and shaped everything from policy to strategic conversations ever since. Moment number seven
+ was another model released day, November 24, 2025, when Anthropic put out Claude Opus 4.5.
+ If 3.5 sonnet had been the model that really jumpstarted Anthropic's place as the leader
+ in AI coding models, Opus 4.5 was the coding model that fully unlocked the agentic era. For years,
+ people had been hungering for a time when they could move beyond just having AI assist them,
+ to having autonomous AI actually do things entirely end to end. That agentic dream of AI was all
+ over the discourse in 2024 and 2025, but not really all that real. That was until Opus 4.5.
+ With Opus 4.5, an entirely new set of things became possible. So many, in fact,
+ that it took the community about a month and going home for the holidays with some time to finally
+ play around to really realize just how different it was. In many ways, it was the slingshot that would
+ propel Anthropic into the place that it is and the position that it's being rewarded for in the
+ markets today. Now, there are two days that I think you can pair with this. One that I honestly
+ probably should have had in here was the introduction of Claude Code. Claude Code was
+ a harness through which Anthropic's models could operate, and realistically it was not
+ just Opus 4.5 itself, but the combination of Opus 4.5 in Claude Code that really was the accelerating
+ force. The one other day or set of days, however, that I did want to pair it with was the open
+ claw moment. Also released that November was an open source project called Claude Bot by Peter
+ Steinberger. Claude Bot spelled C-L-A-W-D-B-O-T was an agent that could autonomously perform tasks
+ on behalf of a user. It advertised itself and felt like the first time an agent could
+ actually do things for you, and it was of course enabled by this new set of models like Opus 4.5
+ that had a differentiated ability to write code as well as to use computers. By January, Claude
+ Bot was generating a huge amount of attention, and by the end of the month Anthropic sent a
+ cease and desist to Steinberger complaining that Claude Bot was too close to their Claude
+ trademark. Steinberger announced a name change to MOLT, and the following day,
+ entrepreneur Matt Schlitt launched MOLT Book, which was a social media network built
+ exclusively for agents to post. The site saw some absolutely off-the-wall discussions,
+ with agents pondering on their own consciousness, complaining about their users and even starting
+ a religion. Now, even if a lot of these posts ended up being humans posing as agents,
+ or even more simple than that, agents play acting as conscious, it still caught a ton of
+ people's attention as a vision of what the future might be. Andre Carpathy called MOLT Book,
+ genuinely the most incredible sci-fi takeoff adjacent thing I have recently seen.
+ On January 30th, at the end of a frenetic week, Steinberger settled on the final name for
+ the project, Open Claw. The next few months were a blur of Open Claw headlines as the
+ agent craze went global. And so I think if you take these moments together, the introduction
+ of Claude Code, the launch of Opus 4.5, and the Open Claw moment, they divide the AI era
+ into the pre-agentic world and the agentic world, and it is the agentic world that
+ is defined 2026. It's worth remembering that in fall of 2025, the reason that Wall Street was
+ so stressed out about an AI bubble was at core that they were doing the math of $20 or $30 seats
+ times the number of available workers who could use those seats and seeing those numbers just not net
+ out to enough to justify what were increasingly large infrastructure deals that were being signed.
+ When things shifted to the agentic, however, and you started to see individual users
+ representing hundreds or even thousands of dollars of spend per month, it totally changed
+ the nature of how everyone understood what this industry actually means from a financial
+ standpoint. And if the agentic capabilities of AI were one of the ways in which it got bigger in
+ 2026, those capabilities also came with more clashes with the powers that be. On February 27th
+ of this year, President Trump ordered federal agencies to stop using anthropic products.
+ Defense Secretary Pete Hegseth declared that anthropic would be labeled a supply chain
+ risk and barred from military use. The conflict had been building over the previous months
+ after the US military conducted a raid on Venezuelan President Nicolas Maduro in
+ early January. At the time, anthropic models were the only ones cleared for classified use by the
+ military. Anthropic had pushed back on their technology being used in the raid and argued
+ that the Pentagon had breached their terms of service. Anthropic had two red lines, that their
+ models couldn't be used to control automated weapons and that their models couldn't be
+ used for domestic surveillance. Now, this was the first time that a US company had been
+ declared a supply chain risk with the designation going into effect in early March.
+ Anthropic has been battling the designation in the courts ever since and there still
+ isn't a clean resolution to this day. But the government's battle with anthropic would do
+ nothing but accelerate from there. Back in April, Anthropic announced an initiative called Project
+ Glasswing. Their new model, Mythos 5, was so powerful that instead of releasing it, they
+ wanted to start instead with a private period during which they would give only a small group
+ of partners access to the model to use its cybersecurity capabilities to harden systems
+ before the model was released more publicly. In June, the public version of Mythos was
+ released and while Fable came with some extremely strong guardrails, a few days after its release,
+ Amazon contacted the government and warned of a jailbreak. On June 12th, the government issued a
+ directive to Anthropic to suspend access to both Fable 5 and Mythos 5 for all foreign nationals.
+ Since Anthropic could not implement identity checks within the tight deadline,
+ it simply pulled the model for everyone. For 18 days, the model was dark and indeed at the
+ point of recording, Anthropic's relationship with the US government is in more of a
+ detente than it has been all year. What was clear even after Fable 5 came back
+ was that the days of a model being released whenever a lab thought it was the right time
+ to be released were firmly in the rear view. The ninth on our list of biggest days is one
+ that could end up not looking as significant depending on how things play out. I'm pointing
+ to the date of the midterms, November 3rd, as a seminal moment not only in data center
+ policy, but in people asserting that they want to have a hand in the deciding of how AI plays out.
+ Throughout this year, of course, the public backlash against data centers was steadily growing.
+ People complained about the noise, the tax breaks, the electricity prices, the water use,
+ and of course the use of NDAs to keep residents in the dark. In May, a Gallup poll showed
+ that more people were opposed to data centers in their neighborhood than to nuclear power
+ plants. On November 3rd, Americans went to the polls and voted emphatically against data
+ centers. An NBC exit poll found that 56% of voters said data centers were major or crucial
+ factors in deciding their vote and where local data center measures were on the ballot,
+ the pro data center side lost in 45 of the 46 issues. Democrats flipped both the house and
+ the Senate and while data centers certainly weren't the only or even top issue on the ballot,
+ the results gave Democrats a mandate to act. Now why I said that this could end up feeling
+ less significant is that there is plenty of reason to believe that the new leaders
+ aren't just going to come with some crazy ban hammer and shut down data centers in AI entirely.
+ Instead, I continue to believe that this is an extremely winnable issue for everyone
+ and that we'll see stricter standards and more community-centric processes,
+ but that data centers still get built. However, there are still a range of other
+ types of policies that could start to be put into action and I do genuinely believe
+ that outside of just data centers themselves, people showed with this election
+ that they are unwilling to let the future of AI be written without having a voice.
+ And finally, of course, that brings us to today, the Anthropic IPO.
+ This deserves its spot on this list, not just or even primarily for what it means for Anthropic,
+ although it is of course a huge moment for them. Instead, I think there is immense
+ significance in the shift from the private era of AI to the public era of AI. People will now
+ have way more involvement with the builders of AI, given that they can now actually buy
+ into them, not just via proxies like the semiconductor industry, and being public
+ will force a different degree of transparency. There are also some scary parts of this,
+ as a bad quarter for AI demand could have fairly massive ripple effects given how much the US
+ economy is tied to AI right now, but overall I think in general that one of the best ways
+ for everyone outside these private companies to start to have more of an ability to impact
+ them is for them to be public. Anthropic priced on Wednesday, November 18 at $83 a share,
+ above its $70 to $78 range, which had been announced earlier in the week.
+ Shares were set to begin trading on Thursday, which as of the time of this recording,
+ my second recording of this episode, has not happened yet.
+ Remember though, whatever happens today matters much less than what happens next,
+ and that's why IPO Day is the 10th on our list of the 10 biggest days in AI history.
+ Now before we get out of here, I did want to quickly touch on a set of honorable mentions.
+ These were all dates that were just outside the top 10 for me.
+ The first was August 22nd, 2022, when stable diffusion went live.
+ It's hard to remember because ChatGBT was so dominant, but part of the reason that AI
+ popped off at the end of 2022 was not only people getting their hands on ChatGBT,
+ but because all of a sudden all of these crazy AI generated images were flying all over social
+ media thanks to the release of stable diffusion. I think that was a big part
+ of accelerating the AI moment, and ChatGBT might not have gone as far without it happening.
+ My next honorable mention moment came from Nvidia's earnings call on May 24th, 2023.
+ This set up a pattern that would be repeated and is still being repeated to this day,
+ which is Nvidia overperforming and even redefining what performance is on a quarterly basis,
+ but given how essential to the American and global economy the AI trade has been,
+ I think that May 24th, 2023 is a fairly good day to commemorate the beginning of that.
+ Another close call came from September 12th, 2024, when OpenAI announced O1 Preview.
+ The reason that this almost gets a nod is that reasoning models weren't just a new approach,
+ they also answered a critical question. A lot of the chatter at the time,
+ which had been going on for much of 2024, was that we had reached some critical plateau where
+ training methods just weren't going to get us much farther. That of course had big implications
+ for what we could expect from the disruption of AI, the business model of AI, and everything
+ surrounding AI. Reasoning models, which didn't require some new crazy breakthrough in pre-training,
+ show that there was still a lot more juice to squeeze from the stone.
+ In my fourth honorable mention, I wanted to find something that represented the AI infrastructure
+ build-out. Obviously this has been a major, major theme of the last year, both excitement
+ about it as well as concern about it, and trying to find a single date that summed that up.
+ The best I think you can do is January 21st, 2025, when Sam Altman, Larry Ellison,
+ and Masayoshi Sun announced Project Stargate at the White House. There have been bigger
+ deals subsequently, but that kind of got the ball rolling on that whole part of the story.
+ And lastly, my last honorable mention, has to go to November 12th, 2026,
+ when Nvidia CEO Jensen Huang resigned. This is one that could cut both ways. It could easily be one
+ of the most significant days in AI history, depending on how things play out. It could
+ change financing for the AI industry, based on Nvidia's role as central bank. It could change
+ policy for the AI industry, based on where Jensen sat from an advocacy perspective.
+ It could change our relationship with China, given how directly involved with that conversation
+ Jensen was. Or it could kind of end up being a nothing burger. Nvidia might just keep on rolling,
+ policy might proceed the way that it was always going to whether Jensen was involved or not,
+ but you gotta think it's about the highest contender for jumping up into this list if
+ we did it again in a year or two. So that, my friends, is the 10 biggest days in AI history.
+ Lists like this, of course, are meant to invite response, reaction, disagreement,
+ so I'm excited to hear where you think I missed something or got something wrong.
+ For now, however, that is going to do it for today's AI Daily Brief.
+ Appreciate you listening or watching as always, and until next time, peace.
