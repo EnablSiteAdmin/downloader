@@ -1,0 +1,400 @@
+ Well, friends, it is the day after the anthropic IPO.
+ The company has raised a record setting $107 billion.
+ The stock ended up 17% in trading on the day, although it was not able to resurrect the broader
+ AI trade.
+ So today, of course, in our episode, we are talking about a new Google model.
+ Yes, for the first time in a very long time, people are not only talking about
+ Google's new series of Gemini models, but actually using them and finding them
+ quite good.
+ The AI Daily Brief is a daily podcast and video about the most important news and discussions in AI.
+ All right, friends, quick announcements before we dive in.
+ First of all, thank you to today's sponsors KPMG, robots and pencils, granola and Blitzy.
+ To get an ad-free version of the show, go to patreon.com.ai-daily-brief,
+ or you can subscribe on Apple Podcasts.
+ And if you want to learn more about sponsoring the show,
+ send us a note at sponsors at aidailybrief.ai.
+ Welcome back to the AI Daily Brief Headlines edition,
+ all the daily AI news you need in around five minutes.
+ Well, friends, the big day has come and gone,
+ and Anthropic is now a publicly listed company.
+ The stock closed its first day on the Nasdaq at $97.17,
+ up 17% from the IPO price of $83.
+ That was enough to make Anthropic the seventh largest company in the world,
+ with a market cap of $1.8 trillion, slightly ahead of Saudi Aramco and slightly behind SpaceX.
+ Now the top-level take is that the IPO was a success.
+ Anthropic launched into a tough market for AI stocks,
+ got the first day popped they were looking for,
+ and raised a total of $107 billion to become the largest IPO in history.
+ Now, however, Anthropic has to settle into life as a public company
+ with all the scrutiny that entails.
+ The company began the day with another hype video focused on the potential of AI.
+ It started with the question that Anthropic's general communications
+ have tended not to ask in the past, what if things went really well?
+ The video asks, can we cure the incurable?
+ Crack the code of Alzheimer's, change the way we see.
+ And I know I was not the only one to see this sort of shift
+ in the way that Anthropic's official communications
+ talked about this entire enterprise.
+ Not before ringing the bell at the Nasdaq,
+ CEO Dario Amade delivered a five-minute speech,
+ largely focused on potential medical breakthroughs and AI safety.
+ He said,
+ I believe sufficiently powerful AI working in concert with humans
+ could compress a century of scientific and medical progress into a decade.
+ To state it unequivocally,
+ we will pace the training and deployment of AI systems,
+ taking as long as is necessary to have confidence that they are safe,
+ and will remain under human control.
+ We will not bend to either business nor political pressure.
+ If we can show it's possible to make the right choices on safety
+ and still build an incredibly successful company,
+ others in our industry will be inspired to do the same.
+ We call this a race to the top.
+ A race to the top works best when driven from the front of the pack
+ and we hope and expect to do so.
+ And yet this day was all about the market's reaction
+ to the first public pure play AI lab,
+ and price action can tell us a lot about how investors feel about the latest mega cap stock.
+ The first trade registered the highest price of the day,
+ slightly above $110 at an implied valuation of $2 trillion.
+ The stock plunged from there,
+ reaching an intraday low of $93 around one o'clock,
+ and then fluctuated between $94 and $100 for the rest of the day.
+ Now this was a solid first outing on a day when stocks in general were red,
+ and the Nasdaq 100 lost more than 2%.
+ Anthropics stayed well above the IPO price,
+ but didn't expect the big takeoff that some might have hoped for.
+ By way of contrast, the SpaceX IPO saw a first day peak
+ about one and a half hours into trading,
+ followed up with a green second day,
+ and saw its all-time high on day three before collapsing.
+ Bloomberg is suggesting that Anthropics could see red on day two,
+ after a week showing in after hours trading.
+ Bloomberg economist Anna Wong suggested that the IPO could mark the end of the AI trade,
+ arguing that, quote,
+ technological leadership and booming AI demand
+ aren't translating into durable pricing power.
+ Further, there's a building narrative that the IPO was an exit event for founders,
+ and retail interest was mostly in flipping the IPO pop.
+ Viraj Patel of Vonda Research noted that between $700 and $800 million in trading volume,
+ which was higher than the $670 million of the SpaceX IPO.
+ However, that resulted in less than $60 million in net buying
+ around half of the SpaceX debut.
+ Patel said,
+ Retail are trading the stock hard,
+ but they're taking both sides rather than a one-way bid.
+ Now, I'm less sure that you can draw really clear conclusions from this.
+ SpaceX came into a bullish market for AI,
+ while any retail investor who's just watching the news
+ has to think that the real opportunity right now is playing the market's lack of clarity.
+ VC investors were buying hard.
+ Sequoia, Iconic, Lightspeed, and Altimeter all bought more stock on the IPO,
+ signaling an intention to hold onto their stakes
+ rather than release massive pre-IPO gains.
+ It is highly unusual to say the least for VC firms to buy more at an IPO,
+ and it provides a little more confidence that they won't dump their stock once lockups end.
+ There's also rising criticism of Anthropics' governance structure
+ and the unusual power it grants to the company's co-founders.
+ The co-founders have total control over shareholder votes
+ through a golden share that votes 51% through a governance council.
+ Co-founders can be removed from the council by the Board of the Long-Term Benefit Trust,
+ but some question that as a realistic check on their control.
+ Ann Lipton, a law professor at the University of Colorado, said,
+ the trust, since it doesn't have a financial interest in Anthropic,
+ could theoretically use its power with three slash four directors to keep the company on mission.
+ One might question how likely that is to occur.
+ Still, when all is said and done, I think what you're seeing more than anything
+ is the inevitable surfacing of a million questions all at once.
+ Whatever criticisms they might now face, the IPO was successful,
+ and Anthropic is the seventh largest publicly traded company in the world.
+ They've secured at least a year of runway to build out compute and train next generation
+ models, and while the arguments on social media will continue,
+ for the first time, if somebody thinks the technology is overhyped or the business model
+ doesn't work, they can just short the stock instead of screaming into the digital void.
+ And if they believe in Anthropic's vision of the future, this age of miracles,
+ they can buy shares in the company and have a stake in that future.
+ Now, over in other AI market news, AMD stock plunged by 7% after a short seller report
+ claimed they have their own China problem. Short-selling firm Hunterbrook Media wrote,
+ After the US blacklisted Chinese server maker, IEIT Systems,
+ the company kept getting newer AMD firmware, which enables AMD chips to run in servers.
+ The report warned that new export control rules would tighten restrictions on AMD's foreign business,
+ claiming that as much as 20% of AMD's revenue comes from customers in China and Hong Kong.
+ The report also claimed that AMD quote,
+ depends on a Chinese partner to finish most of its chips.
+ AMD denied the reporting saying,
+ the claim misrepresents AMD's business practices and relationships.
+ An X-account called AI thesis provided the counterpoint,
+ noting that presence of the firmware doesn't prove that AMD had dealings with a blacklisted
+ company. Further, only a tiny portion of AMD's products are advanced AI chips subject to
+ export controls, so that 20% of revenue from China could include consumer CPUs,
+ gaming GPUs, and all sorts of other products.
+ In short, the Hunterbrook report seems far from a smoking gun,
+ but what it does signal is that all chip makers, not just Nvidia,
+ are going to face tough scrutiny over the coming months,
+ and the markets are on edge about the industry's China problem.
+ Chinese companies aren't too happy about the state of things either. In fact,
+ they are sounding the alarm over new export controls that will cut them off from AI chips.
+ On Monday, the Commerce Department announced a new rule aimed at closing the remote access loop
+ hole, which allowed Chinese AI labs to legally access chips operated from data
+ centers in third-party countries. Throughout the week, Chinese tech giants have warned
+ that this rule change would materially impact their progress.
+ Tencent President Martin Lau said that the new rule could cause delays in model releases,
+ and could force a transition to domestic chips, adding,
+ it sets everyone back in China. Alibaba CEO Eddie Wu said the rule would, quote,
+ affect next year's products and services. Wu also said that Alibaba is stepping up their use
+ of in-house chips for model training, but it sounds like that is a compromise rather than a
+ choice. Meanwhile, Moonshot has cancelled a $150 million deal to access Nvidia chips
+ through a data center in Indonesia, the contract was set to give them access to a,
+ quote, sizable cluster of top-of-the-range Blackwell Ultra B300s, and TSMC and Samsung
+ have also announced that they've suspended some chip deliveries for Chinese customers as a result
+ of the new rule. The restrictions came as the Chinese tech companies were already facing a revenue
+ squeeze that makes funding a domestic AI build-out more challenging. Tencent's earnings came in
+ under expectations this week with 8% revenue growth and operating profits slashed to 7%.
+ Bloomberg analysts wrote, Tencent is unlikely to generate a financial return on its rising AI
+ investment for at least 24 months due to the ongoing monetization challenges in China's
+ commoditized AI sector. Alibaba is faring a little better, exceeding expectations with 10%
+ overall growth and 53% cloud growth. Still, again, CEO Eddie Wu is forecasting a slowdown in cloud
+ growth to between 30% and 45% for next year due to export controls. Matt Maley, chief market
+ strategist at Miller-Tayback, said, for Alibaba, they depend heavily on access to computing power,
+ so this will be an important setback. It's likely going to create a situation where it
+ will take longer for them to build an ecosystem that can compete with the most advanced
+ American technology. You gotta think that for the people who have been cheering tighter export
+ control rules, all of this freaking out is a good sign. Finally, over in the world of cyber,
+ the White House director of cybersecurity is out, adding new intrigue to the string of
+ strange incidents, and the government claims are definitely not cyber attacks.
+ On Thursday, Axios reported that Sean Cairncross had left, replaced by Kristen Davies,
+ who currently serves as the Pentagon's chief information officer. Their reasoning is
+ a little squirrely. Two sources described Cairncross's departure as amicable, while two sources
+ described as White House officials said that new chief of staff Stephen Miller fired Cairncross
+ because he, quote, lacked the strong cyber credentials to perform the job.
+ Now, there are a few possible ways to read this personnel change. Cairncross was part of the
+ triad of officials reportedly leading AI policy over the past year, alongside treasury
+ secretary Scott Besant and former chief of staff Suzy Wiles. Most notably, he was
+ credited as shaping the June executive order, which established the voluntary
+ testing regime for frontier models. Cairncross's removal could then signal that the hawkish
+ faction led by secretary Besant has won the internal dispute over AI policy direction.
+ It's also possible that Cairncross was cut over the government's response to the ongoing
+ not a cyber attack plaguing critical systems this month. There have been a few additional events
+ since we last caught up on the topic, which were indeed acknowledged as cyber attacks.
+ J.P. Morgan Chase disclosed that a third party vendor was the target of an attack,
+ resulting in the potential theft of customer names and email addresses.
+ They said, however, that this was unrelated to Monday's banking outage.
+ In addition, the European Commission disclosed a hack that compromised staff data and left payroll
+ and other systems inoperable. European officials said that the attackers used R-Tex,
+ an open-source agent hacking tool that's been growing in prominence over recent weeks.
+ The FBI issued a warning about the tool last Friday, saying malicious actors have
+ used the tool to target critical systems since at least August.
+ Now, in terms of what this might have to do with Cairncross's firing,
+ if there was a lack of confidence in his technical skills,
+ this could be an opportune moment to find a more competent replacement.
+ Kirsten Davies certainly has the right type of resume. Before joining the Pentagon during the
+ Trump administration, she was the Chief Information Security Officer at Unilever,
+ one of the largest consumer goods companies in the world. She also has experience in
+ cybersecurity across the banking, electronics, and industrial sectors.
+ Whatever triggered the shift, this likely indicates a change for AI and cyber policy
+ in this administration. Accepting the role on Thursday she posted,
+ Our opportunity is to dominate the cyber landscape for generations to come,
+ but only if we modernize and drive resilience into the foundations our Great Nation runs on,
+ as well as build cyber talent for our future. I would assume lots more to come on that front,
+ but for now, that is going to do it for the headlines. Next up, the main episode.
+ A new study from KPMG in the University of Texas at Austin found that when people work
+ with AI, similar skills don't guarantee similar outcomes. Researchers studied more than 500
+ early career professionals and found that the best performers consistently amplified the value of AI
+ by guiding, evaluating, and refining its outputs. These top performers, called AI amplifiers,
+ weren't defined by what they knew alone, but by how they worked with AI.
+ Learn more about what separates AI amplifiers from everyone else at kpmg.com
+ slash us slash AI amplifiers. At this point, it's no longer a question of whether companies
+ are actively using AI. Using it well, on the other hand, is a whole different story.
+ Robots and pencils, though, is a company that I can point to that is actually built for this time.
+ They're an applied AI engineering firm working directly with clients on problems that matter
+ to the business, not experiments that live in a slide deck. Every engagement starts by
+ working backwards from the outcome a client actually needs. If you're trying to tell
+ real AI engineering apart from noise in this space, that's the difference maker.
+ Head to robotsandpencils.com
+ You're in back-to-back meetings all day, you're trying to stay present, but you're also worried
+ you'll forget the decision, the action item, the important next step. This is a scenario that
+ we absolutely live here at the AI Daily Brief, giving out fast things, move and change,
+ and how quickly we're evolving everything that we do. That's where Granola comes in.
+ Granola is an AI-powered notepad for meetings. You jot down rough notes like you always do,
+ and in the background, Granola transcribes and turns them into clear, useful notes when the meeting
+ ends. No bots joining your calls, no distractions, just a clean notepad that helps you focus.
+ During or after the call, you can chat with your notes, ask Granola to pull out action items,
+ help you negotiate, write a follow-up email, or even coach you using recipes which are
+ pre-made prompts. Once you try it on a first meeting, it is very hard to go without.
+ Head to granola.ai slash ai daily and use code AI daily to get 100% off for three months
+ for new users. That's granola.ai slash ai daily and code AI daily to get 100% off for new users for
+ three months. Blitzy's understanding of massive code bases unlocks autonomous security fixes,
+ modernization, and new features. So what happens when there's no legacy code at all?
+ Greenfield is supposed to be the easy part. Clean slate, no technical debt. But even
+ Greenfield moves at human speed once printed a time. Blitzy changes the unit of work from
+ the developer to the project, autonomously planning, building, testing, and validating
+ entire applications from scratch. Hundreds of thousands of lines of production ready code.
+ One Blitzy customer stood up a brand new application, 534,000 lines of code,
+ compressing a 65-week roadmap into two weeks. Another shipped an entire application with no
+ front-end engineer. Legacy or Greenfield, the answer is the same. Software at the speed
+ of compute. Build what's next at blitzy.com. That's blitzy.com.
+ Welcome back to the AI Daily Brief. Boy, if you had asked me a month and a half ago
+ about what I thought the episode the day after the Anthropic IPO would be about,
+ a Google model actually challenging open AI and Anthropic models for supremacy at the
+ top of the table wouldn't have been anywhere on the list. And yet here we are
+ on Wednesday, the day before the IPO, Google dropped the fourth model that they've shipped
+ in the past two months. It followed argon, carbon, and hydrogen, and given everything else going on
+ was basically completely overshadowed. Even outside Jensen Huang, an Anthropics IPO,
+ people were, I think, reasonably skeptical. Former open AI researcher Gabriel Pedersen
+ wrote, Why is Google shipping a model every two weeks and then nothing happens?
+ Never ship if you know nothing will happen. Google could drop Opus 8 tomorrow and
+ it would take the world a month to notice because we're just so used to another model.
+ Also, no one cares about benchmarks. And yet, the folks jumped in to say,
+ No man, this is one you gotta look at. Responded Theo.
+ This one's different, in my opinion. I think Neon's the first time they made a model that
+ they genuinely liked using, so they rushed it out because they wanted to see if it was just
+ them or not. And one by one, the skeptical takes got converted. Factory Ambassador Chidi
+ wrote, I don't see the point of Neon. It's 25% cheaper, that's it. If it's not
+ more reasoning token efficient by a decent margin and rather more token inefficient,
+ then it will end up being the same cost slash more expensive, no? Only to respond a day later,
+ never have I been so happy to be so wrong. Neon is insane and basically just a cheaper,
+ different, better question mark, Opus 5 5. Entrepreneur Siki Chen wrote,
+ Wow, Alphabet absolutely cooked with Gemini for Neon. It is by far the most human-sounding,
+ non-slop writing model available today. I'm blown away. Google is finally back in it.
+ YouTuber MaxBlade added, I don't think people understand what is happening right now at Gemini.
+ Neon is shockingly good. Their models went from unusable to frontier intelligence
+ with delightful personality. How does this happen? I'm having so much fun and I still
+ have not found the ceiling of capabilities. So what is this model actually? After Google
+ shipped Gemini for Argonne and Carbon in quick succession, most assumed that Neon was just
+ another snapshot of the same model with a little more reinforcement learning applied.
+ But that's not actually what the model is. Google says the model brings, quote,
+ frontier-level intelligence with fast, end-to-end task completion across complex
+ software engineering, knowledge work, and science workflows. The labs aren't really
+ doing dedicated coding models anymore, but this is something of the equivalent for
+ coding, knowledge, work, and agentics. Tanfufu, a researcher at DeepMind, posted,
+ Neon is actually one of our small models. We're positioning it in the same tier as Opus
+ and Sol, even though its performance is already approaching Fable and Astra. We'd rather
+ be conservative with our claims than overhype it. This was in response to Google's benchmark
+ comparison excluding Astra and Fable and was later deleted, so make up that what you will.
+ So it seems like this is a smaller model class to Argonne and Carbon, but able to outperform
+ them on the benchmarks. And in that class, of GPT-62 Sol and Claude Opus-55, at least by
+ the benchmarks, Neon is now the top performing model across the board. It beat Opus-55 and
+ 62 Sol in every category other than coding, where it's close enough that one could
+ reasonably call it a draw with Opus. Neon was around a point behind Opus on terminal bench in
+ frontier code, however it beat Opus by more than seven points on cursor bench. On agentics,
+ Neon was a massive 14 points ahead of Opus on automation bench and almost three points
+ ahead of Sol on agent's last exam. I'm not going to go through all of the other benchmarks,
+ but in almost every case, Neon beat its rivals. Testing from artificial analysis
+ confirmed the results and then some. Neon scored 61 on the Intelligence Index, placing it
+ one point ahead of Gemini for Carbon, one point behind GPT-62 Astra and four points behind Fable-5.2.
+ It's now the new leader for models of its class, beating Opus by two points and GPT-6.2 Sol by
+ four points. The coding scores are where it gets a little wild. Neon is now the new leader on
+ the Coding Agent Index, beating Fable-5.2 and Opus-55 by a point. It's six points ahead
+ of 62 Astra and nine points ahead of 62 Sol. Keep in mind that coding has been the historic
+ Achilles heel for Google models. Neon is quite token intensive. AA found it used 15% more tokens
+ per task than Carbon, but it's also 40% faster than Carbon, although still less than half the
+ speed of open AI models. It also wasn't super cheap at 644 per task, although that does put
+ it comfortably in the middle of the range. Now in terms of the tests, we got all the
+ standard barrage of render tests via Blender and people building games. Daria Newt-Maz wrote,
+ Google's new AI model, Gemini 4 Neon, is shockingly good. I just built this tower defense game in
+ about 20 minutes and it plays flawlessly and only used 2% of my 5-hour limit. Absolutely unbelievable.
+ But it also seemed to do well on real work. Pavel Hurin has a bug hunt bench,
+ whereas two real repos with 105 planted bugs. Gemini 4 Neon on extra high was now the
+ top of that board, having found 63 of the 105 bugs, ahead of 62 Astra and Fable-5.2.
+ Now I have not had a ton of time to go as deep as I'd like using Neon and I certainly haven't
+ set it up to use it in Google's native anti-gravity harness, although I am seeing lots of folks
+ actually downloading Google anti-gravity to do exactly those sort of tests. But the thing
+ that people are saying about Neon that I have also found in my initial tests and that I think
+ is incredibly important and gives it some very specific utility is that they don't feel
+ like just different versions of an open AI or anthropic model. Because Google has,
+ let's be real, been a little out of the game this year, the social media temptation to claim
+ big hyperboles like better than Fable and Astra are running very high. But that's not the reaction
+ that I think you should be caring about. Alex Finn wrote it this way,
+ Claude and open AI models feel like they were trained on the same data,
+ they feel like they are running the same race. The Gemini models feel like they were trained
+ on a completely different data set. The way the Gemini models answer questions,
+ comes up with solutions, analyzes my thinking is just completely different than the way Claude
+ and ChatGBT do it. I can ask all the different Claude and ChatGBT models for an opinion and while
+ their style would be different, I'd get roughly the same answer. Gemini will give me a completely
+ novel different way of thinking. I was recently going through a challenge in my life and while
+ ChatGBT and Claude would feed me advice that felt sanitized and AI like, Gemini gave
+ me a completely different perspective that led to a breakthrough. At the very least,
+ I think you should be running your challenges through Gemini as a second opinion just to get
+ fresh new perspectives that I believe ChatGBT and Claude can't provide at the moment.
+ The models aren't perfect, there are still major improvements that need to be made.
+ The Google Harnesses are still way behind Anthropic and Open AI. I know the anti-gravity
+ team and think they are awesome but the harness just isn't there yet. They also
+ don't have a great agent harness either to the level of duet or dots.
+ And I don't love the way the Gemini models communicate when doing Agenda coding.
+ They tend to get too technical when I'm just looking to hear about the high level
+ solutions. But from a straight-up intelligence and taste perspective,
+ you need to be using these models. And this is the part that in my early tests,
+ I have also found that the answers that you get aren't just slightly different versions
+ of the same answer that you'd get with ChatGBT or Claude. Now, where I'm unwilling to jump in
+ at the same level as a lot of these folks is to say that they're better,
+ but I don't think they have to be better for different to be useful.
+ To take an example, in the early stages of how I'm planning how we got here episodes,
+ the first step for any episode is to figure out why it deserves to exist.
+ I've had an episode that I've been planning since the beginning about why oil still runs the world.
+ And this is an example of where there is so much that I could get into that finding the hook
+ in the through line and the reason that it matters and is going to matter to people
+ is actually the challenge. A lot of my first iterations of the outlines
+ felt like they were basically glorified Wikipedia pages, just lists of facts
+ in a reasonable sequence that would have certainly informed people,
+ but ultimately probably not have had enough of a narrative cadence to get most people to stick with
+ it. All the variations and iterations I worked on with open AI models and with anthropic models
+ were still getting really hung up on what was already on the page.
+ They couldn't really get out of that Wikipedia mode. Coming in a little bit more raw though,
+ Neon was able to suss out some parts of my argument and reconstitute them
+ in ways that actually jogged me into thinking about the episode in a slightly different way
+ that eventually led to the outline that I actually think is good. And again to be clear,
+ this does not mean that I think that Neon is better than those other models I used,
+ but it's an example of where it's not the betterness but the difference itself that is the value.
+ I do have one big complaint with Neon so far as well though.
+ For as long as I've been using AI, one of my major use cases has been brainstorming,
+ strategizing, thinking through what I'm going to do, planning out problems,
+ planning out content, etc. It was really difficult in the 24 generation of models
+ because they were so sycophantic that you couldn't actually get real feedback on any idea.
+ They just agreed with you entirely or were only giving you pushback because you said you wanted
+ pushback. That started to shift a bit around 03 when the Model Labs got better at training some
+ amount of the sycophancy out of the models. I'm not sure that I would say that Gemini
+ Neon is sycophantic but it is maybe the biggest pushover I've seen in a model for
+ two years. If I push the slightest amount on some idea it has presented to me,
+ it will instantly cave and regale me with how wrong it had been just 30 seconds ago.
+ And then if I respond and say that I think it went too far in its critique of itself,
+ it will 180 right back to the beginning and lament how quick to dismiss its own perspective
+ it was. And unfortunately what this means is that while it is useful for giving a different
+ perspective, you kind of got to hope that the one shot first example of that perspective
+ is useful because it gets so wishy washy from there. Still this is more positive an experience
+ that I've had with Google models since the middle to end of 2025 and I think that is extremely
+ encouraging. For me the next set of tests are obviously to actually go and try to build things
+ with it to see how it feels and what it does compared to both Claude Cote and Codex
+ but I'm pretty excited to have another model back in the rotation
+ and it sounds like Google is not done yet.
+ Now one more small final story, just because it felt aligned with the whole sleeping giant
+ finally wakes up kind of theme. Apple is apparently and perhaps unsurprisingly working on a personal
+ agent to match the big labs. Earlier this year of course Apple rolled out their AI enhanced
+ version of Siri but to the shock of basically no one it was underwhelming. Now Bloomberg's
+ Apple insider Mark Gurman reports that they are working on something better.
+ The reporting focused on multiple job listings added this week.
+ One says that Apple is seeking a quote senior engineering manager for a proactive
+ agentic AI assistant. The system will write code browse the web control apps and navigate
+ devices on a user's behalf. Gurman had previously reported on these plans
+ but the job listings add verification in the sense of urgency. Apple has no doubt
+ noticed that AI agents are flooding their app store and Metas Muse has overtaken
+ chat GBT in the free app rankings. Describing the product the job listing reads
+ Imagine an AI agent that can use a computer the way a capable person does.
+ It browsers the web, works across apps, runs commands, writes and debugs code
+ and calls services. And it chooses the right tool for each step. It does all this privately and
+ with the polish people expect from Apple. People already do their most valuable work
+ by moving fluidly between tools. A browser, a document, a terminal, an editor, a service.
+ We're building AI agents that can do the same. New CEO John Ternes is reportedly pushing
+ software chief Craig Federighi to move faster on AI and adopt a more ambitious approach.
+ And based on everything that we know right now, we might see the fruits of those efforts
+ as early as next year. Now on the one hand I think folks are pretty excited about that
+ but there is another implication which is not so good. Mark Gurman also posted
+ as Apple develops its own computer use agent, it's making it harder for rival agents to
+ control Macs. In Mac OS 27.3, enabling chat GBT's third party computer use support
+ now requires 14 distinct steps up from four. Apple sites security, but some users see
+ anti-competitiveness. It could be that Apple's owning the hardware is too big a moat for them
+ to give up easily, even if it makes our consumer choice a little bit more difficult.
+ Still overall I think having Apple back in the agent mix, or I guess in the mix for the
+ first time potentially, and Google very much back in the model mix is a net great thing
+ for consumers. So if you are looking for something to do this weekend, might I suggest
+ going and wrapping with the new set of Gemini models. For now that is going to do it for today's
+ AI Daily Brief, I appreciate you listening or watching as always, and until next time, peace!
