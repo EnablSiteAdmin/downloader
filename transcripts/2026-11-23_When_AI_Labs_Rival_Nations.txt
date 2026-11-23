@@ -1,0 +1,342 @@
+ Anthropic is really just setting all sorts of records right now.
+ You've got the quality of their models topping the benchmarks,
+ crazy revenue, IPO numbers, all these sorts of things.
+ And now you can add to that list, bringing together the arch enemies in the
+ safest and the accelerationist circles to tell them why they are full of it.
+ Alright friends, quick announcements before we dive in.
+ First of all, thank you to today's sponsors KPMG, Granola, Gartner, and Blitzy.
+ To get an ad-free version of the show, go to patreon.com.ai-dailybrief,
+ or you can subscribe on Apple Podcasts.
+ And if you want to learn more about sponsoring the show,
+ send us a note at sponsors.ai-dailybrief.ai.
+ And if you happen to be listening to this on Monday,
+ and you want to get deeper into everything Anthropic,
+ the latest How We Got Here episode is all about how the company most afraid of AI
+ ended up building the most powerful AI.
+ And you can find it on How We Got Here with NLW.
+ For this week's Long Read Sunday, we're doing something a little bit different.
+ I think everyone has a sense right now that we're living through a fairly
+ consequential moment, certainly in the history of AI,
+ which I think probably if you're listening to the show,
+ means for the broader world as well.
+ And in that swirl and intensity and excitement of the Anthropic IPO,
+ and everything going on with Jensen Huang in Nvidia,
+ changing political alliances, renegotiation of work and opportunity,
+ we are living under a constant barrage of new ideas, new thoughts.
+ And while the purpose of the AI Daily Brief as a whole is to keep track of all of that,
+ it also has to by definition really anchor fairly hard to the important news,
+ which there always is some.
+ What that means is a little bit less room for the big ideas,
+ the transformational ideas, the transitional ideas.
+ And that's what Long Read Sunday is for.
+ So today, instead of honing in on just one,
+ we're actually going to look at three or four, depending on how you count it.
+ In reverse order, we're going to talk about why every company is now an enterprise AI company,
+ why every company is now an AI transformation company,
+ the bitter lesson for work.
+ And we're going to kick it off with a new phase of state power versus private power,
+ and the emerging discourse around handoverism.
+ Now I'm recording this on Wednesday, November 18th.
+ My assumption is that everything goes off with Anthropics IPO tomorrow as planned.
+ And assuming that is the case, people are now clearly lining up to figure out and negotiate
+ the new post IPO era.
+ And especially when you take the IPO and put it alongside the defanging of Jensen Huang and
+ Nvidia, Anthropics relative influence in power is coming to an all time high.
+ And this at least in part is what has led to the Miss Anthropics Statement.
+ You can find it at missanthropicsstatement.com and it was organized by the Center for AI Safety.
+ What makes it interesting, though, is that while a lot of the signers are the open letter
+ regulars from the AI safety community, there are some strange bedfellows here,
+ including arch accelerationist Beth Jezos and a number of others as well.
+ So what does the statement say?
+ It reads, while Anthropics and its rivals are racing to build super-intelligence
+ through recursive self-improvement, Anthropics uniquely portrays itself as an AI safety company
+ and leverages that reputation to advance its commercial and political ambitions.
+ In light of its public offering, a broad coalition of signatories has endorsed the
+ following statement, quote, Anthropics warns that recursively self-improving AI
+ could concentrate power and escape human control, yet races to build it first.
+ The company uses safety branding to court investors, employees, and the public,
+ even as it has quietly weakened its safety pledges and lobbied for self-serving regulation.
+ Anthropic is not a safe AI company and we must reject its reckless attempt to amass power in
+ the name of the greater good. Now clearly, there are some fairly differing motivations going into
+ the signing of this letter. The safetyists are concerned with the way in which the accused
+ safety theater of Anthropics potentially harms the ability to actually get meaningful safety
+ legislation and rules on the books. The more accelerationists minded, folks,
+ one presumes are mostly bought in on the line about rejecting Anthropics' reckless attempt to
+ amass power, which that cohort has often pointed to as driving their advocacy against, for example,
+ Chinese open source. But as the signers started to come out and explain their reasoning,
+ there was one that caught my attention that I think is particularly interesting.
+ If you go to the Miss Anthropic Statement website, the first signer is famous academic
+ Stephen Pinker, but the second signatory listed is Thomas Wolfe, the co-founder of Hugging Face.
+ Thomas posted on X,
+ I'm featured quite visibly on Dan's letter, so it's probably good that I briefly explain
+ why I signed while having friends at Anthropic and a lot of respect for them in general.
+ I don't fully agree with the wording. I wouldn't have used reckless and I didn't
+ know the name of the statement when I signed, which isn't my style,
+ but I agree with the underlying sentiment and decided to sign for two reasons.
+ First, Anthropic is currently on track to be the most powerful company on earth,
+ and for good reasons, like the quality of the team and product.
+ This level of impact on the world will require a degree of transparency and openness close to
+ or maybe even higher than that of a sovereign government, and I'm worried they are not
+ currently on track to reach it. It's a version of with great power comes great responsibility,
+ applied to social responsibility toward everyone using and impacted by your products.
+ Second, and referencing a post that he is sharing from Dan Hendricks from the Center for AI Safety,
+ quote, Dan mentioned safety groups who felt unable to sign. I heard the same thing directly
+ from a different crowd, entrepreneurs, executives and researchers who agreed with the concerns,
+ but were afraid of consequences for their careers or their access to models.
+ Whether or not that fear is justified, I think it's a first example of the problem
+ above and a worrying early signal about concentration of power in itself.
+ And this is why this caught my attention. Something that I felt for some time is that
+ one of the major tensions we're living through is an institutional balance of power's tension.
+ If you go back across the course of modern human history, especially call it from the
+ Renaissance onward, there's a constant ebb and flow and give and take of the
+ relative power of different societal institutions vis-a-vis one another.
+ To take the example of the Renaissance and to be wildly reductive about it,
+ you have the church as arguably the most powerful institution and the early proto-emergence
+ with in some ways state power and certainly business power being more nascent.
+ Now, obviously there were monarchies and leadership systems in countries all over Europe,
+ but the territories were ill-defined and frequently legitimacy was derived from their
+ relationship with the church. When you think about the power of private enterprise like we
+ have today, that was barely starting to register. Yes, you started to have the beginning of
+ transnational business actors like the banking families like the Medici, but even they were
+ still working through both state power and more than that religious institutional power
+ to really ascend to the heights of where they wanted to be. Despite us looking back now
+ on Cosimo de Medici and Lorenzo de Medici as the twin apexes of that family's influence,
+ they likely would have seen their family's true apotheosis a couple generations down the
+ line when a Medici first became pope. Things of course started to change greatly,
+ especially as the age of exploration took hold and we started to have powerful transnational
+ private enterprise in the form of companies like the East India Company, although again in those
+ early days the lines between private power and state power were fairly blurry. Let's zoom
+ forward wildly so I don't put you to sleep and you better believe I'm thinking about
+ how we got here episode on this topic, but throughout the second half of the 20th century
+ you have a bunch of shifts in this type of relationship as well. You of course have
+ comparatively higher state power in and around the war period and even extending after where the
+ foundations of what would eventually become private enterprise on the internet were still
+ being laid largely in conjunction with a broader apparatus that included the US state.
+ One of the things that I started to notice in and around the 2010s is that it was pretty clear
+ that the technology companies that were emerging represented a new challenge in this question
+ of the balance of state power versus the power of private enterprise. Firstly,
+ from a breadth perspective, these companies, these social networks specifically,
+ were touching a broader part of the population than just about any other type of company had before.
+ In fact, I remember when it was a big deal when Facebook surged ahead of all major organized
+ religions in terms of its number of members. This is partly simply the nature of social
+ networks which inherently want to get everyone to participate in them and which get proportionally
+ more valuable as more people do. Now alongside that breadth, there was also a depth question.
+ Other types of companies in private enterprise interacted with people discreetly,
+ i.e. you ate only so many times a day and food companies were competing for some of those slots
+ but couldn't really compete for anything around that. Social media companies have an
+ endlessly voracious appetite for our time. There is no part of our waking hours that
+ they're not competing for and in fact, we Hastings from Netflix at one point said,
+ on the margin our main competitor is sleep. That creates a whole different set of challenges
+ when it comes to those companies' relationship with society. And then on top of that,
+ you have a third factor, which is that the combination of the breadth and depth of those
+ companies created fortunes that are unfathomably enormous by any historical comparison,
+ which almost introduces this new category of actor, which isn't just the private
+ enterprises themselves, but the cohort of leaders who operate almost as transnational
+ entities all on their own. All of this had been happening for a while and government
+ has been jostling to figure out if and how to redress that balance. But AI comes along
+ and it takes this to a whole new level. Because now the technology isn't necessarily
+ just competing for our time, it's competing to change how we do everything that we do
+ on an individual and organizational level, which to be clear does not mean it will
+ change everything about how we do everything, but that is in many ways the implications
+ of what it could do. The speed and scale of the growth is testament to just how different
+ a force we're dealing with here. And that does, I believe, create a new type of societal challenge
+ vis-a-vis the power of these institutions, even outside any specific questions of AI risk.
+ To put it differently, when Thomas said that Anthropoc is currently on track to be the most
+ powerful company on earth, my argument is that because of the nature of what they do,
+ the most powerful company designation is no longer competing just to be the most
+ powerful company, but to be the most powerful institution. Now, of course,
+ that is a little over the top. Anthropic doesn't have the tanks and planes,
+ but it's a lot less crazy than it sounds at first. And so I think it's interesting that
+ Thomas specifically is bringing up his sense that that role is going to come with a different
+ set of requirements than we might apply to other enterprises. Do we need a set of
+ democratic norms around private enterprise when private enterprise reaches a certain level?
+ That's a question that might not have made sense in the past that I think increasingly will,
+ and is one that I'm tracking fairly closely.
+ A new study from KPMG in the University of Texas at Austin found that when people work with AI,
+ similar skills don't guarantee similar outcomes. Researchers studied more than 500 early career
+ professionals and found that the best performers consistently amplified the value of AI by guiding,
+ evaluating, and refining its outputs. These top performers, called AI amplifiers,
+ weren't defined by what they knew alone, but by how they worked with AI. Learn more about what
+ separates AI amplifiers from everyone else at kpmg.com slash us slash AI amplifiers.
+ You're in back-to-back meetings all day, you're trying to stay present, but you're also worried
+ you'll forget the decision, the action item, the important next step. This is a scenario
+ that we absolutely live here at the AI Daily Brief, giving out fast things,
+ move and change, and how quickly we're evolving everything that we do.
+ That's where Granola comes in. Granola is an AI-powered notepad for meetings. You jot down
+ rough notes like you always do, and in the background, Granola transcribes and turns them
+ into clear, useful notes when the meeting ends. No bots joining your calls, no distractions,
+ just a clean notepad that helps you focus. During or after the call, you can chat with
+ your notes, ask Granola to pull out action items, help you negotiate, write a follow-up
+ email, or even coach you using recipes which are pre-made prompts. Once you try it on
+ a first meeting, it is very hard to go without. Head to granola.ai slash AI Daily and use code AI
+ Daily to get 100% off for three months for new users. That's granola.ai slash AI Daily
+ and code AI Daily to get 100% off for new users for three months.
+ AI is reshaping how work gets done and C-suite executives have critical questions.
+ What skills do your employees really need in an AI world? Are you reinventing how you
+ work or just tacking on AI? How do you govern AI in employee decisions? How do you redesign
+ key roles and processes for the AI era? Gartner works with business and IT executives
+ and thousands of technology providers to find the right balance between humans and machines
+ and prepare for how AI is reshaping work. Find out how they can help.
+ Visit them at Gartner.com slash AI to learn more.
+ Every AI coding tool on the market does the same thing first. It starts writing code.
+ Blitzy does the opposite. Before writing a single line,
+ Blitzy spends days reverse engineering your entire code base. Thousands of agents ingest millions
+ of lines mapping every dependency, every undocumented constraint, every architectural decision made
+ over the last decade. The result is a dynamic knowledge graph that understands your software
+ the way a principal engineer would after 30 years in the building. Other tools guess
+ it context with grep searches and markdown files, Blitzy never guesses. It builds true
+ understanding first, then delivers over 80% of entire software epics autonomously.
+ Validated, end-to-end tested, production grade pull requests. That's why Fortune 500
+ engineering teams trust Blitzy with the code bases that matter most.
+ See for yourself at Blitzy.com, that's blitzy.com.
+ So that's the first of the big ideas. The one other that I wanted to flag as a
+ break off from the misanthropic statement was the term handoverism. The Future of Life
+ Institute's Max Tegmark, who is one of the frequent signers of these types of open
+ letters, gave his list of reasons for signing this one. And one of the five was,
+ Anthropic is the company leaning hardest into transhumanism and the idea that we
+ should build conscious beings with rights, not controllable tools.
+ Holding aside that characterization of Anthropic, which is not my interest to
+ litigate in this particular episode. This notion is another one that I think is
+ going to create some strange alliances. This is certainly, for example, where I
+ find myself most aligned with the safety folks, even if I have a totally different
+ belief set about other types of risks. Roshanda Tesla wrote a long essay about
+ handoverism this week. Summing it up, the gist here is that humanity survives but
+ entrusts the direction of its future entirely to AI. She continues,
+ perhaps its clearest articulation comes from a recent essay by Scott Alexander
+ who has influenced the thinking of many a tech CEO. Quote,
+ If we build a godlike AI and determine to our own satisfaction that it is fully aligned,
+ I'd rather let it choose its own direction for itself and for humanity.
+ So why not just prompt it with please arrange the world as you see fit.
+ Now she goes way more into handoverism than I want to get in today's episode,
+ but it clearly struck a nerve. And one of the big amplifiers of the conversation was
+ investor Bill Gurley. He wrote, It is critically important that everyone thinking
+ about AI become familiar with the term handoverism. Many in the AI community
+ believe that humanity should, or inevitably will, hand control of the world over to AI
+ itself. Some view this not as a risk to be avoided but as an outcome to be welcomed.
+ Are we actually designing toward this future? This worldview is particularly relevant at
+ Anthropic. Co-founder Tom Brown said, There's going to be a handoff where humanity will hand
+ off control to transformative AI at some point. In his seminal essay, Machines of Loving Grace,
+ CEO Dario Amade contemplates, It could be a capitalist economy of AI systems,
+ which then give out resources, huge amounts of them since the overall economic pie will
+ be gigantic, to humans based on some secondary economy, of what the AI system thinks
+ makes sense to reward in humans based on some judgment ultimately derived from human values.
+ Bill continues, Are you prepared to receive your quote unquote resources from an AI system?
+ Based on criteria it determines? The full title of the poem Dario borrow the title from
+ is all watched over by Machines of Loving Grace. Do you want to be watched over by AI?
+ If Anthropics founders believe that the ultimate destination is the transfer
+ of human control to AI, the world deserves to know. Washington DC deserves to know.
+ American citizens deserve to know. And if that belief informs Anthropics corporate
+ objectives, it belongs in the risk factor sections of its S1. It isn't there today.
+ I am decidedly anti-handoverism. I'm not here to tell you what your view should be,
+ but I believe anyone making consequential decisions about AI, especially those drafting,
+ advocating for or enacting AI regulation, should be required to disclose where they
+ stand on this fundamental question. I think that this conversation is going to
+ pick up and get bigger. If for no other reason, then open AI seem clearly interested in carving
+ out the opposite humans should stay in control space and have an incentive to put this conversation
+ on the agenda. Okay, so now we've talked through state power versus private power
+ and the implications of AI. We've introduced the concept of handoverism, which I think is
+ going to be discussed a lot more in the future. Now I want to talk about two
+ interesting articles about the nature of working companies. One of them is by
+ slow partner, Yoni Reckman, who wrote a piece called, There is only one company to build.
+ He writes, Every company across the training data supply chain is converging on the same
+ business model, which is essentially an AI transformation business. And it's not
+ just the data companies, it's the post training and inference businesses too.
+ Base 10 and Merkur and Applied Compute and the rest are all going to trend to
+ basically the same company because there is only one business to build and one
+ product to sell the enterprise AI transformation, arguably even cognition is ending up in the
+ same direction as they really emphasize their deployment motion to differentiate their coding
+ agent. If you accept the claim that there's a better business as you get closer to customers,
+ and you accept the obvious reality that ultra high customer concentration is not good,
+ then the natural conclusion is that people will just keep climbing up the value chain
+ towards the ultimate end of offering AI transformation as a service writ large.
+ Everything below that is commoditizing data, models, inference, etc.
+ The thing that isn't a commodity is delivering a business outcome. The pitch is just I'll do AI for
+ you. Now from there, Yoni argues that the key thing that matters is the closeness of the
+ relationship between the transformation provider and the lab. So how do they get there? He writes,
+ build a data business like what Merkur and scale and handshake have actually done,
+ get into the super fast moving high dollar flow from the labs, and use that to raise a
+ bunch of money and generate a bunch of cash in the data business while getting a lot of proximity
+ to the labs and credibility in the eyes of the rest of the world. Then go and build an enterprise AI
+ company. This he continues is anathema to what I normally believe as an investor.
+ When I look at the most successful companies in this space, they basically started by doing
+ anything and then followed the momentum. The money sloshing around is so big that it rewards
+ you for backflipping your way to accumulating the catalytic materials to build an important
+ business. Proximity to the labs, proximity to enterprises, talent, and capital.
+ And you don't accumulate those things by sitting around like a monk. You do it by doing stuff.
+ No enterprise AI has almost nothing to do with the training data business,
+ except that by running the training data business, they've been able to get close
+ with the labs and close with the enterprises. And the enterprises trust them because they're
+ close with the labs. Hey, we do a lot of business with the labs is a good way to have
+ credibility in the eyes of say Bank of America. He concludes, the only thing the enterprise
+ actually wants to buy is spiritual salvation through artificial intelligence. Just help
+ me do AI. Nobody wants to buy software buying software sucks. People want to buy a change in
+ their business and you can charge a lot more and have an easier time selling it if you just say,
+ I'm going to sell you the change you want to make. If you're not doing hardware or tech
+ bio or foundation models, the only software company left is selling AI transformation whether
+ as a product or a service. The reason a bank buys Decagon is the same reason it buys base
+ 10. There are really only two companies to build. You build intelligence or you diffuse it.
+ I think it's a pretty fascinating argument, especially if you view it through the lens of
+ anytime someone tells you that there is only one thing or that everything is divided into two,
+ you have to understand that they're of course overemphasizing their point for the sake of
+ crispness and an interesting title to draw you into the argument. But I do think that when you
+ look at the convergence of features and approaches across a lot of the software companies
+ out there, there's certainly some merit to this idea. I think an interesting question
+ that naturally follows, however, is whether this is a transitional reality where the only
+ software to build for call it the next five to 10 years as intelligence diffuses is the
+ intelligence or the diffusion mechanism, or is this the new reality for software companies
+ from here on out? Now, the last big idea that I wanted to share from this week came from
+ Legora CTO Jacob Lauritsen, who wrote a post called the bitter lesson is coming for software
+ engineering. The bitter lesson is, of course, this idea consolidated and popularized by Rich
+ Sutton that basically, generalist systems that have more data and are allowed to figure out their
+ own processes for doing things with that data tend to outperform systems where we've embedded a lot
+ of our human constraints into them. So picking up on that idea, Jacob writes, coding agents are
+ creating an uncomfortable tension in software engineering right now. We want them to work
+ autonomously and quickly, but we also want them to produce the systems we would design
+ ourselves. We prescribe interfaces, choose abstractions and correct architectural decisions.
+ We enforce our standards choices and codified taste. I increasingly think this division of labor
+ is temporary. And our idea of superior human judgment on systems design or coding standards
+ is about to have a bitter lesson moment. Now, I actually don't want to get too deep into
+ Jacob's specific example of software engineering, because it's outside the purview of so many
+ of us. But this reminds me a little bit of some of what we were discussing in my episode from
+ last weekend, where I talked about why I increasingly feel like the agent teammate
+ paradigm has some pretty severe limitations and isn't really how things are playing out.
+ The whole structure and idea of viewing an agent as a teammate, as it has been applied so far, of
+ course, is that you anthropomorphize the agent to have a set of responsibilities, a set of context
+ it has access to, a set of things that it's supposed to do, and it does that set of things
+ in an ongoing way. And you might have a bunch of different versions of that who have different
+ responsibilities. These agent teammates are standing actors that accumulate memory over time
+ and have a something of a one to one relationship with a non digital employee.
+ In practice, things are a little bit more dynamic and weird. Increasingly, the most
+ powerful users of AI are setting objectives constraints and guardrails, but pretty much
+ letting AI figure out everything else about how it wants to achieve that. A single coordinator
+ agent can spin up on demand as required, whatever number of sub agents it needs,
+ divided however it sees fit unconstrained by some sort of approximation of a human
+ org chart. And rather than humans micromanaging the distribution of those sub agents, the roles
+ and distributions and relationships of those sub agents, or even trying to micromanage things
+ like how they communicate and interact, you just kind of let them go and deal with them on
+ the level of how their output comes out. This example that I'm talking about is sort of the
+ bitter lesson for digital organizational management. I think it's an interesting question of how
+ widely this will apply, and specifically whether this same sort of bitter lesson that Jacob sees
+ coming for software engineering will come for other types of work. Personally, I've been thinking
+ about this in the context of this video editing pipeline that I've built for how we got here.
+ On the one hand, I know that it is wildly under maximized and that the outputs are not nearly
+ as good as they would be if I was an actual video editor who had spent years on task in that
+ space understanding how to make a video great. And yet at the same time, it is hard not to
+ feel like there is an advantage in not bringing any sort of process baggage with me as I set up
+ this new pipeline. I was basically able to jump into Claude Code and instead of saying,
+ okay, I want you to think about editing in this way and interact with the tools that I already use,
+ I just said I want an automated or at least triggered process where for an episode we design
+ an animation template, apply that template and end up on the other side with a fully built
+ video based on what I record. I didn't have any previous approach that it needed to adapt to,
+ so these powerful new models just got to work out the best way to do it. And maybe there was a
+ better way that I would have known had I been a video editor, but I went from zero to videos with
+ animation in the first week that we were doing this new show. Now my guess is that an expert who
+ has the mindset of unlearning the way that they did things and giving their agents the
+ least they need to build a process that is native to agents are at least 99 times out of 100
+ going to be the stumblers and bumblers like me who yolo it with a dream and a prompt
+ and hope it comes out well on the other side. But I do think it is a non-trivial task for
+ all of us to do a bit of unlearning and unassuming about the right way to organize
+ agents work and not force it to mirror our own anyways friends tons of interesting things out
+ there floating around we are in a very fertile time for big ideas and I hope you've enjoyed
+ this hop skip and jump through a few of them for now that it's going to do it for today's
+ AI Daily Brief. Appreciate you listening or watching as always and until next time, peace!
