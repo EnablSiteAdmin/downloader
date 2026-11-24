@@ -1,0 +1,326 @@
+ Jensen Huang is back.
+ The NVIDIA CEO is once again NVIDIA CEO and it sounds like a big part of the reason was
+ the White House intervening on Jensen's behalf, saying that he posed no national security risk.
+ The implications of this go far beyond just the market, which is up trillions this morning,
+ to fundamental questions of the relationship between state and private power.
+ The AI Daily Brief is a daily podcast and video about the most important news and discussions in AI.
+ Music
+ All right friends, quick announcements before we dive in.
+ First of all, thank you to today's sponsors, KPMG, Granola, Gartner, and Blitzy.
+ To get an ad-free version of the show, go to patreon.com.ai-dailybrief or you can subscribe
+ on Apple Podcasts. If you want to learn more about sponsoring the show, send us a note
+ at sponsors.ai-dailybrief.ai. And if you want a deeper dive on some of the biggest
+ types of topics we talk about on this show, but also expanding into the realm of culture,
+ society, and the economy, check out my new show, How We Got Here with NLW.
+ This week's episode is all about how Anthropic became Anthropic, a behind story
+ that now post-IPO has left them as maybe the world's most important company.
+ Welcome back to the AI Daily Brief. And you thought there was a chance
+ that we were going to have a quiet week, a chill Thanksgiving holiday week where you
+ got to, for a moment, stop paying attention to this crazy AI world,
+ lean into friends and family and the joyfulness of the season,
+ maybe get a tree, start decorating it. Turns out Nvidia and the White House had
+ other plans. Jensen Huang has been reinstated as Nvidia CEO, and the memes
+ and the stock market are absolutely popping. This is now the second time
+ that boards of major AI companies have fired and then rehired CEOs within the span of a couple days
+ in November. So what has actually happened? Obviously at this point, I don't have to get
+ too deep into the background history on what happened with Jensen Huang. The quick recap
+ is that a well-sourced story came out about his having a close relationship
+ with a woman, Alice Huang, no relation obviously, who government sources suspected of being a
+ Chinese intelligence asset. That led to a flurry of additional investigation,
+ and a few days later, Jensen admitted the affair to the entire company. Now at that point,
+ he was still on as CEO, and the board of Nvidia made a statement saying that they support him.
+ However, a couple days later, news broke that he had had another affair, this time with an
+ executive employee of Nvidia, and the board decided to act, pushing Jensen to resign,
+ which he dutifully did. And so throughout this saga, there were a set of different things
+ going on, which the relative importance of each tended to shape how different people felt about
+ the situation. There were the affairs themselves, which there was another one that came out the day
+ that Jensen resigned, and you gotta think that if there were three, there were probably others as
+ well, and what that said about Jensen's professional and personal judgment, how it broke
+ Nvidia's rules of corporate conduct, and what it meant for the overall power balance inside
+ the company. One of the things that was I think very reasonably frustrating to a lot of
+ people in the discourse was that the other components, the geopolitical components which
+ we'll talk about in just a minute, were so overwhelming that the fact of what these
+ affairs did, not just to Jensen's family, but to executives throughout the company,
+ especially female executives, was kind of lost in the shuffle. But of course it wasn't just
+ an affair or even a set of affairs, it was an affair with an executive of a company,
+ Megaspeed, that was a major client of Nvidia, where the executive was suspected of being a
+ Chinese spy. People wondered, had Jensen disclosed sensitive information or even state secrets
+ to this person? There was also the weird fact that the US government seemed to know about
+ this and seem to have suspected Alice Huang of being a spy for a significant period of time,
+ but didn't make that suspicion known to Jensen, even though they knew this was going on.
+ So that was another whole weird angle on this. But then even on top of the Chinese spy angle,
+ there was just the question about what Jensen knew about the company, Megaspeed,
+ giving Chinese companies access to Nvidia GPUs in direct violation of export controls.
+ And in this case, I'm not talking about the loophole of remote access,
+ where Chinese companies can get access to those GPUs, if it's happening remotely,
+ with the GPUs actually placed in other countries in Southeast Asia,
+ I'm talking about actually getting the physical devices. If Jensen was basically just saying
+ that US policy is dumb and so he wasn't going to listen to it, that's another whole dimension
+ to this. So you've got affairs, you've got an affair with a potential Chinese spy,
+ and you've got what Jensen did or didn't know about actual GPUs making it to China.
+ And yet almost immediately, there were rumblings about whether Jensen would be coming back.
+ The technology field, which perhaps understandably thinks companies being found are led as everything,
+ was immediately up in arms about the idea that this was some deep state coup,
+ and Jensen needed to be rallied around to come back. Pretty soon,
+ those demanding the return of Jensen started organizing. StandWithJensen.com went live,
+ and over the course of a few days, tens and then hundreds of thousands of people signed the
+ letter. The title read, 33 years deserve an answer. We demand the Nvidia board bring
+ Jensen back, pending an independent investigation and clear evidence that his removal serves the
+ company. More than 10,000 current and almost 2,000 former Nvidia employees signed the letter,
+ along with 108,000 shareholders, and another 86,000 supporters.
+ But to many, the question was about what Jensen himself was going to do.
+ On November 15th, biology Shrinivasan wrote,
+ All Jensen Huang has to do is tweet that he wants to be reinstated as CEO and gears
+ will start moving. If Jensen says he wants back in, all of Nvidia and indeed the global
+ AI ecosystem is still wired around him. The coup has no legitimacy. The anti-Jensen
+ board members will immediately step down or likely be legally forced out.
+ Biology went on to explain the mechanics of how board members could be removed,
+ but predicted anti-Jensen board members know they'll be held responsible for a trillion
+ dollars in market cap erased if they hold out against the Jensen restoration,
+ but these are NPCs so they'll buckle quickly. Biology also predicted that President Trump was
+ going to have a stake in this, saying, Trump also realizes there's no way that removing
+ his top AI CEO, namely Jensen Huang, will somehow keep him on top in AI.
+ He can overrule any lieutenant who pushed too far in their attempt to do Jensen Huang what she
+ did to Jack Ma. And indeed, pretty soon there were also being questions thrown on where the idea
+ that Alice Huang was actually a spy had come from, with a number of different sources saying
+ that that was not a determination that had been made and denying parts of the reporting
+ that had been key evidence for the removal in the first place.
+ A couple of days later, Jensen did indeed post just as biology basically predicted.
+ On November 17th, he wrote,
+ Over the past week, I've been overwhelmed by the love and support of friends, industry
+ colleagues, and people I've never met. Thank you to everyone who has shown kindness to me
+ and my family, it means the world to me. From there, for a little while it reads like a standard,
+ may a culpable type of letter. He came to the United States, becoming American,
+ was his greatest gift. NVIDIA has been in his life's work, he didn't live up to the
+ standards of NVIDIA, and he, quote, owns his mistakes completely and am committed to
+ cooperating with the board's independent investigation. But then the message turns.
+ Since my departure, he wrote, I've seen an outpouring of calls from NVIDIA's employees,
+ investors, business partners, and customers for me to return to CEO.
+ Many continue to reach out to me directly as the company navigates complex technology,
+ market, competitive, and geopolitical dynamics. NVIDIA is a once in a generation company.
+ If the board of directors decides my return is in the best interest of our shareholders,
+ our employees, the company, and America, I would be honored to answer these calls and
+ return as CEO. And there were certainly indications that the White House might
+ start to get behind this idea. In comments to reporters who said,
+ I think having Jensen go back, a lot of people are asking Jensen. They think Jensen should go back.
+ That certainly isn't a bad idea. Biology again added to that,
+ note that Trump's remarks lay waste to the idea that there was actually a real national
+ security issue. He would have led with that if real. Instead, he sets aside the personal
+ matter and articulates ideas that many others seemingly can't, that the old chips actually
+ can be legally sold, that the new chips will themselves be old in a few years,
+ and that to keep up the pace of innovation, you need someone like Jensen.
+ Now, please note here, I am just trying to show the sequence of events that led to Jensen coming
+ back. I am not trying to give a fair accounting for the feelings of everyone here across all
+ perspectives. There were plenty who were not even remotely willing to let this go.
+ To take just one representative sample over the next few days after Jensen's resignation,
+ Senator Elizabeth Warren posted numerous times on social media, including this one from
+ November 12th. Jensen Huang's decision to resign from Nvidia does not absolve him,
+ other executives or the company as a whole, of responsibility for putting our national
+ security at risk, or any other potential violations of our laws. They still owe Congress answers.
+ A couple days later, she added,
+ Commerce Secretary Lutnick and Undersecretary Kessler must explain to Congress why they
+ have not closed export control loopholes, and they need to act today to ensure our
+ advanced technology is not fueling China's military. One more from November 15th.
+ It's clear the American people can't rely on big tech billionaire CEOs to put our national
+ security above their bottom line. Congress needs to pass legislation now to keep advanced
+ AI technology out of China's hands. The point being, again, please don't mistake the fact
+ that I am showing the chain of events that led to Jensen coming back, as saying the
+ viewpoints of the people pushing for it were correct. I'm trying simply to show you how
+ the momentum was building. And the momentum was building. Coming up into the back half
+ of last week, people started to ascribe higher and higher odds to Jensen actually coming
+ back. The odds of him returning started to climb on prediction markets,
+ and then the bubbling from DC got even louder. On November 17th, in a message that now looks
+ fairly prophetic, biology again wrote, By the way, in the unlikely event that the
+ Nvidia board doesn't immediately restore Jensen as CEO, there's actually a scenario where
+ the Department of War steps in on Jensen's side. Why? Given the likely cyber attacks
+ on Microsoft, flights, banks, and now NSA, it's arguably a matter of U.S. national
+ security to immediately return the most important person in AI to his role at the top AI company,
+ Defense Production Act, but for the restoration of Jensen Huang. Basically,
+ biology is saying that all of the outages over the last week dramatized the need to have every
+ asset to lead on AI. And that was going to supersede any other consideration.
+ A new study from KPMG in the University of Texas at Austin found that when people work with AI,
+ similar skills don't guarantee similar outcomes. Researchers studied more than 500 early career
+ professionals and found that the best performers consistently amplified the value of AI by guiding,
+ evaluating, and refining its outputs. These top performers, called AI amplifiers,
+ weren't defined by what they knew alone, but by how they worked with AI. Learn more about
+ what separates AI amplifiers from everyone else at kpmg.com slash us slash AI amplifiers.
+ You're in back-to-back meetings all day, you're trying to stay present, but you're also worried
+ you'll forget the decision, the action item, the important next step. This is the scenario that
+ we absolutely live here at the AI Daily Brief, giving out fast things, move, and change,
+ and how quickly we're evolving everything that we do. That's where Granola comes in.
+ Granola is an AI-powered notepad for meetings. You jot down rough notes like you always do,
+ and in the background, Granola transcribes and turns them into clear, useful notes when the meeting
+ ends. No bots joining your calls, no distractions, just a clean notepad that helps you focus.
+ During or after the call, you can chat with your notes, ask Granola to pull out action items,
+ help you negotiate, write a follow-up email, or even coach you using recipes which are
+ pre-made prompts. Once you try it on a first meeting, it is very hard to go without. Head
+ to granola.ai slash AI Daily and use code AI Daily to get 100% off for three months for new
+ users. That's granola.ai slash AI Daily and code AI Daily to get 100% off for new users for three months.
+ When it comes to AI, C-suite leaders are facing big questions. Are you getting significant ROI on
+ your AI initiatives? Are you locked into expensive proprietary AI models? Are you getting maximum
+ value for your AI vendors? How should you budget for AI cost variability? Gardner delivers answers
+ to these questions. With insights drawn from their conversations with IT executives, business
+ leaders, and solution providers, they guide companies on how to go beyond pilots to deliver
+ real value with AI. Find out how Gardner can help. Visit them at gartner.com slash AI to learn more.
+ Every AI coding tool on the market does the same thing first. It starts writing code.
+ Blitzy does the opposite. Before writing a single line, Blitzy spends days reverse
+ engineering your entire code base. Thousands of agents ingest millions of lines mapping every
+ dependency, every undocumented constraint, every architectural decision made over the last
+ decade. The result is a dynamic knowledge graph that understands your software the way a
+ principal engineer would after 30 years in the building. Other tools guess at context with
+ grep searches and markdown files, Blitzy never guesses. It builds true understanding first,
+ then delivers over 80% of entire software epics autonomously. Validated, end-to-end
+ tested production grade pull requests. That's why Fortune 500 engineering teams trust Blitzy
+ with the code bases that matter most. See for yourself at blitzy.com that's blitzy.com.
+ Over the weekend, we started to see some evidence that pointed in the direction
+ that biology had suggested. In an appearance on CBS News' Face the Nation, Treasury Secretary
+ Scott Besant started to lay the framework for a return. The interviewer says to Besant,
+ I understand Mr. Huang's no longer at the helm, but are you saying that you think
+ it would be a good idea for him to go back and run the company? Responds, Besant?
+ I think we have to see where the buck stops. You know, what were these malicious actors
+ down at the bottom of the company who were responsible for the non-compliance?
+ The interviewer follows up, Okay, so you see that as almost separate and apart from the
+ relationship with Alice Huang, who's reportedly linked to Chinese security? Besant? Yeah,
+ I think that is kind of a canard. That the, you know, what's their culture of
+ compliance versus the one person's foibles? The interviewer responds, with the Chinese
+ spy allegedly, to which Besant says, well, I assume he didn't know that she was an
+ alleged spy. And then comes Monday morning, November 23rd, 11 days after his resignation,
+ and Jensen was back. The New York Times wrote,
+ the board of directors of NVIDIA announced on Monday that it had reinstated Jensen Huang
+ as chief executive. Harvey C. Jones, the chairman of NVIDIA, said in a statement,
+ we have every confidence in Jensen and look forward to working with him as he resumes
+ his leadership of the company. And just like that, the internet and the markets
+ exploded. NVIDIA shares were up nearly 35%. The NASDAQ 100 futures had to be briefly
+ halted for volatility after a 7% jump up. Bloomberg's Joe Weisenthal wrote,
+ NASDAQ 100 futures went up so fast they briefly halted trading.
+ Can't remember the last time there was an upside halt like this. The point that he's
+ making is that those automated trips are usually for volatility to the downside,
+ so the entire bottom doesn't fall out from under the market. I agree with Joe.
+ In now coming up on eight years of daily podcast recording about markets and technology,
+ I have never seen an upside halt like this. In pre-market trading, NVIDIA shares added about
+ a trillion dollars in market value, which if it holds well more than double Microsoft's record
+ for the single biggest daily gain ever. But aside from the memes and euphoria in the markets,
+ there were plenty who jumped in to start asking some of the big and sometimes uncomfortable questions.
+ Author Derek Thompson wrote,
+ it would really raise some questions about the modern relationship between boards and founders
+ and by extension between corporate governance and corporate monarchy,
+ if both of the two most famous CEOs and founders in AI were fired and reinstated
+ within the same three years. Derek is of course referring to Sam Altman being fired
+ and rehired from open AI back in 2023. Quite quickly it became clear that the White House
+ did have a hand in this. In the official NVIDIA statement they wrote,
+ in the process of reaching its decision, the board received input from senior levels of the
+ US government and based on that input, the board is confident that Mr. Huang's
+ reinstatement poses no national security risk. So basically they're saying that we fired him,
+ aka forced him to resign, on the basis of his issues with national security,
+ but the US government has now assured us that he poses no issues with national security,
+ which gives us the cloud cover to bring him back. President Trump himself reinforced this message,
+ saying that the US does not have evidence that he acted unlawfully.
+ President Trump's full post on truth social about this read,
+ the NVIDIA board of directors has made the correct and proper decision
+ to return Jensen Huang to the position of CEO. The country needs Jensen's leadership at NVIDIA
+ in order to ensure the success and prosperity of not only the company but the American economy.
+ The United States government has no reason to believe that Jensen's return to NVIDIA
+ poses any risk to national security. The Attorney General of the United States has
+ confirmed that the US government does not possess evidence that he has engaged in any
+ unlawful conduct. On a personal note, I've gotten to know Jensen and he is a great patriot and
+ national treasure. Separately, NVIDIA should continue its thorough internal investigation
+ of the company's compliance with US export controls in order to ensure that it is fulfilling
+ its legal obligations and patriotic duty to protect US national security.
+ Congratulations to Jensen, the NVIDIA board and to the people of the United States and
+ indeed the world. Thank you for your attention to this matter, President Donald J. Trump.
+ Now the non-cynical take here is that if both the Chinese spy accusations and the export control
+ breach accusations were no pun intended trumped up, then a firing on the basis of those accusations
+ is well within its standing to be reversed. Of course, many are disinclined to view things
+ as quite that simple. In another segment of that interview with Scott Besant,
+ the interviewer asks, when you look at NVIDIA's size and how interwoven it is in the tech industry,
+ do you worry that this kind of circular financing means that one company is becoming so hugely
+ important that it could have ripple effects if something goes wrong? Besant said, no, NVIDIA
+ continues to be fantastically profitable and there is near unlimited demand for their chips
+ worldwide. And then when asked then how to explain the downward move in the markets from
+ that previous week, Besant says that the sell-off actually began after Democrats first moved
+ ahead of the polls and then were voted in on election day.
+ Writer Ben Thompson summed up the feelings of many when he reposted that clip and said,
+ the correct way to understand Besant's about face is that the US government is
+ effectively nationalizing the Bank of NVIDIA by reinstalling leadership so that its cash
+ flows and chip sales can be directed by the White House and so that a broader
+ collapse of AI funding can be averted. If Ben's right then, this is in other words
+ another flavor of too big to fail. The idea that certain companies have gotten so systemically
+ important that the US government needs to intervene on their behalf in order to ensure
+ not that the company in question thrives but that the broader system around them thrives.
+ Now too big to fail previously had only been applied to systemically important financial
+ institutions and banks where their failure could have actual mechanical ripple effects into the
+ rest of the market versus this new version that is in part yes about capital given NVIDIA's role
+ as the unofficial central bank of AI but also almost in a soft power consideration way
+ where NVIDIA in general and Jensen specifically are seen as a key pillar of America's AI strategy
+ which is increasingly important on the geopolitical stage. Paul Kodrowski more fully
+ articulated the market's dimension of this in a podcast last week when he said,
+ there's been a series of executive orders over a dozen now that have all in one way or the
+ other made it much easier to build data centers to connect the grid or for example to work
+ around EPA rules with respect to sulfur dioxide emissions. I mean there's a host of things
+ that have come from the federal government all of which uniformly push this whole moment further
+ and I used to think that it was all somewhat I don't know like almost naive that they didn't
+ realize what was going on but subsequent reports in the context of this NVIDIA episode
+ have made it really clear that the White House not only knows it that they're terrified of
+ ending it but they've realized that one of the biggest things pushing capital markets forward
+ and building people's 401ks as the White House likes to talk about has been AI capex
+ which is something that I thought for a long time they didn't actually know it and were
+ doing it by accident. No it's totally on purpose and so there's this deep tension
+ is they actually do know and they are running by proxy this private sector stimulus program
+ and it's having all of these consequences. Basically Kedroski is arguing that the market
+ wants to reprice AI risk that it wants to reprice debt based on the potential threats
+ political physical or otherwise to data centers that it wants to be able to react to news
+ like Jensen's firings by pushing prices lower but that basically the US government
+ is not going to allow that to happen. Buco Capital bloke summed up the market's
+ dimension of this writing this is America stocks go up in this country but I think what
+ Kedroski is arguing is that it's more than just about stock price in 401ks although that
+ is a consideration it's about the entire AI sector being the lodestone for the economy
+ and American national security. For a lot of folks whether it's good for their portfolios
+ in the short term or not this brings up a lot of uncomfortable questions about the
+ relationship between private and state power. Santiago Capital makes one obvious point if you're
+ okay with the president picking CEOs under Trump will you be okay with the president picking CEOs
+ under Kamala or AOC. Fox's Charles Gasparino wrote call me crazy but Trump playing the
+ groundwork that Huang's affair was a nothing burger from a national security standpoint
+ and he should return to Nvidia has all the earmarks of a modern-day watergate for this
+ administration. In my humble opinion the real reason Trump believes Huang should return
+ is because he believes it will save the market and his record on the economy because AI is
+ what's left in this bull run it's a ballsy strategy and it might work given the powerful
+ forces at work but it's worth noting that the evidence is piling up that he's playing with
+ fire based on what we know about Huang's management of Nvidia and what Alice Huang was doing. Plus
+ Trump isn't that powerful any longer. Tech Bros and Wall Street just got a big middle finger
+ during the midterms as well the Dems are emboldened to make the affair of Jensen part of their
+ quest to impeach Trump and score more political points and it appears Trump is making that
+ effort a lot easier. I should also point out that there is never one reason why markets
+ correct or why tech and AI is correcting or has corrected. Huang can't save it from what is at
+ the very least a normal adjustment to valuations. Now Markets Analyst quote the Raven had actually
+ posted early this morning even if Trump wants Nvidia to rehire Huang the board can't move
+ before the internal probe clears up accounting concerns. They've already taken a hard line.
+ Trump may look away but Dems scrutiny through 28 and a possible Dem White House make it a
+ huge liability to rehire Huang. He then had to respond to himself holy crap never been so
+ wrong so quickly lol Dems going to go for the jugular with this board. Huang has two years to
+ clean up before the new SEC chair etc wild wild wild and sickening. The idea here being that the
+ political battle around this has not only not ended it might have just gotten a major shot in the
+ arm for the newly empowered Democrats who took power during the midterms Derek Thompson wrote
+ obvious take but mega speedgate just became one of the biggest political stories of 2027
+ the congressional hearings are going to be cinema I don't care where you fall in the political or AI
+ booster spectrum the whole news world of politics of tech is absolutely eating next year now those
+ of you who listened to my episode yesterday and just in general if you're listening pretty frequently
+ have probably heard me start to talk a lot more about what I see as one of the biggest
+ realignments happening right now and that's the balance of state versus private power
+ the specific context for yesterday's episode was about state power relative to the model labs
+ like anthropic but this is obviously another dimension of that as well julian gewertz who
+ wrote an article that I quoted a number of times around the original resignation called the scandal
+ is bigger than jensen huang added this morning the lesson of the jensen huang scandal is that
+ we need institutions capable of checking the extraordinary power of AI industry leaders
+ instead trump pushed with impunity to reinstate huang before the investigation was complete
+ and got what he wanted I think this is the line you're going to hear many in congress
+ certainly from the democrats but likely from a number of republicans as well
+ pick up and run with as a key issue of our times already democrat leaders have been ramping up
+ the rhetoric just last night on sunday senator quarry booker wrote in the coming months congress
+ must go further and move faster we should reign in the race to recursive self-improvement
+ require reporting on compute allocations and algorithmic progress establish verifiable
+ shutdown protocols for emergencies and more and so basically what i'm saying is add the
+ jensen issue to the top of that list for now the memes are flying and the markets are absolutely
+ ripping at the time of recording the dow jones is up more than three percent the s&p 500 is up
+ nearly five percent and the naztec is up over six percent expect a lot more on this to come
+ because the biggest ai story this year just got even bigger for now that is going to do it for
+ today's ai daily brief appreciate you listening or watching as always and until next time peace
