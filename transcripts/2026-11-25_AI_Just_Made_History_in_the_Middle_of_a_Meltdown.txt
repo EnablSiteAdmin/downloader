@@ -1,0 +1,971 @@
+ On the one hand, we've got the president intervening in company matters
+ and adding a whole new dimension to what was already a massive story.
+ And on the other, we've got AI taking out some of the hardest and most
+ storied math problems of all time.
+ Basically, in every different way, we are entering a new phase of AI.
+ So what are we supposed to make of it all?
+ And where do we go from here?
+ The AI Daily Brief is a daily podcast and video
+ about the most important news and discussions in AI.
+ All right, friends, quick announcements before we dive in.
+ First of all, thank you to today's sponsors, KPMG,
+ Granola, Gartner, and Blitzy.
+ To get an ad-free version of the show,
+ go to patreon.com.ai-dailybrief, or you can subscribe on Apple Podcasts.
+ And to learn more about sponsoring the show,
+ send us a note at sponsors.ai-dailybrief.ai.
+ Lastly, this week's newest How We Got Here episode is out,
+ and this one is particularly relevant for you all as listeners to the AI Daily Brief.
+ It is the backstory about how Anthropic went from
+ a spin-off from open AI, playing catch-up from behind,
+ to becoming arguably one of the world's most important companies.
+ Welcome back to the AI Daily Brief headline edition,
+ all the daily AI news you need in around five minutes.
+ Anthropic mathematician Levent Alpague announced on Friday that,
+ with a little help from Claude, he's found a proof for the Riemann hypothesis.
+ He wrote,
+ I believe I have, working with Claude,
+ discovered a proof of the Riemann hypothesis.
+ In fact, the method easily extends much further,
+ resolving the so-called generalized Riemann hypothesis,
+ and I expect, with more time, the extended Riemann hypothesis too.
+ Claude and I have also formalized the arguments without assumptions.
+ It is natural to feel that this is an end,
+ in my case a loss of a principal guiding light,
+ but what I saw during the course of progress so amazed me,
+ that I believe it is one dawn across science of something far greater.
+ That level of reflection stems from just how monumental the achievement is.
+ The Riemann hypothesis was proposed in 1859 by Bernhard Riemann.
+ It's considered one of the most important problems in the field of number theory.
+ In the simplest possible terms,
+ the hypothesis is that the apparently random gaps between prime numbers,
+ in fact, follow a pattern.
+ The problem is one of the seven millennium prize problems,
+ which is attached to a million-dollar prize,
+ but for most mathematicians it represents much more.
+ Alpague, for example, wrote,
+ This problem has been the sacred object in mathematics for me since my childhood.
+ And to the extent that the release was strange,
+ Alpague wrote,
+ The precise timing is horrible.
+ He was apparently satisfied with his work by last Sunday
+ and contacted CEO Dario Amade about disclosure during IPO week.
+ Ultimately, they decided to hold it back until after the IPO.
+ This also isn't a particularly understandable proof for humans,
+ even top mathematicians.
+ Alpague published the results only in Lean,
+ which is a programming language for verifying mathematical proofs.
+ It consists of 17 million lines of code,
+ and Alpague wasn't entirely sure that the proof was correct
+ and acknowledged the possibility it was false in his release statement.
+ He also grappled with the strangeness of this era,
+ commenting,
+ This puts us in the rather extraordinary situation this age has made possible,
+ in which I am presenting the world with a complete argument
+ before having mastered a massive neighborhood around its mathematics.
+ On Saturday, the Lean and Matlib communities released a joint statement declaring,
+ We have full confidence that Alpague's proof of the Riemann hypothesis is correct,
+ and we congratulate him on this achievement.
+ The Association for Human Mathematics also released a statement,
+ although theirs was a little more pointed.
+ They wrote,
+ This announcement is a major departure from traditional methods in mathematical research,
+ representing a new value system put forward by AI corporations
+ that foregrounds technical validity of logical statements
+ over accountability, clarity, accessibility, and understanding.
+ At this time, no human being can reasonably claim to be responsible for
+ or even to understand such a document.
+ Neither can any mathematician confirm with full certainty that the proof is correct.
+ Worse, this corporate model of proof reduction
+ seems designed to excuse humans from responsibility for scientific work.
+ Instead, this model asks scientists to entrust their research to machines
+ that AI corporations control.
+ The academic mathematics community is still relatively quiet about the proof,
+ but many turn to prior comments from Fields Medalist Terence Tau.
+ Last month in a number file video, he said,
+ The AI companies clearly, I'm sure they secretly devoted much more time
+ to the Riemann hypothesis than what they disclosed,
+ and they couldn't touch it.
+ I mean, something beyond current AI is needed.
+ So maybe some combination of humans and AIs in 2050
+ or something will make further progress.
+ Who knows?
+ Duarkesh Patel posted a clip from his interview with Terence,
+ with Tau back in March, in which he explained the stature of the problem.
+ Tau said,
+ Part of the reason we prize problems like the Riemann hypothesis
+ is that we're pretty sure a new type of mathematics has to be created.
+ We don't even know what the shape of the solution is,
+ but it doesn't feel like a problem that will be solved
+ just by exhaustively checking cases.
+ Quantum theorist Scott Aronson wrote in his blog,
+ The p equals np problem now moves firmly into place
+ as the final boss of the math we've cared about.
+ The position I always thought it should occupy.
+ But for how much longer?
+ For how much longer will anything last that we currently take for granted?
+ By the way, that might not take long with both anthropic and open AI
+ publishing limited proofs for the p equals np problem
+ across algebraic space on Monday.
+ But to be clear,
+ a lean proof is just as fallible as any other computer program,
+ and some are claiming to have found some bugs in the code for the Riemann hypothesis.
+ In other words, this should not yet be treated as rock solid proof
+ until we have some additional verification.
+ And yet, if AI models are capable of solving problems of this stature,
+ some believe there's no limit to what can be achieved.
+ Abhishek Saha of Queens Mary University London
+ explained just how strange the approach was to get this particular result.
+ He wrote,
+ This is not theory building in the usual sense.
+ It is something much weirder and more alien.
+ The best human mathematicians know how to build theory painstakingly to reach a goal.
+ But no human brain on its own
+ is capable of creating a wormhole that requires a 25,000 page long tour
+ through existing infrastructure with no obvious or realistic connection to the goal.
+ But huge credits 11 here.
+ I think no current AI on its own is capable of this either.
+ Boxeo Aaron Levy points out that there is a bigger implication,
+ where quote,
+ We're entering an era where solving problems will look very different from how we solved them in the past.
+ Moving on,
+ Fresh off their investigative reporting on Jensen Huang,
+ The New York Times is now looking into problems at Elon Musk's SpaceX.
+ This has been a weird year for SpaceX.
+ On the one hand, for most of the year,
+ model releases have become sporadic and underwhelming,
+ and by March, all 11 XAI co-founders had left the company leaving only Elon Musk.
+ Then however, they started to kind of get their mojo back.
+ We started to see a successful burgeoning neocloud business,
+ and they were also early to the personal agent trend,
+ completing their acquisition of cursor and releasing Grockbot.
+ And yet sources told The Times that things were much worse on the inside.
+ They wrote,
+ Mr. Musk has told employees that SpaceX is falling behind in AI development,
+ making it more lucrative to rent the company's computing power out to rivals,
+ then use it to improve its own products.
+ Those sources said that Musk is outspokenly frustrated by their lack of competitiveness.
+ He's been sharing data in a group chat with hundreds of engineers
+ that shows exactly how badly Grock is falling behind.
+ In addition, Musk has taken asking some employees to itemize work in the group chat
+ in order to justify their use of GPUs.
+ In August, a source said,
+ Musk changed the name of the group chat to Cell Compute because we can't compete.
+ He added the warning,
+ anyone wasting GPUs on BS while we are failing to compete
+ will be asked to leave immediately,
+ as this constitutes a betrayal of your team.
+ The Times article framed SpaceX as essentially no longer a frontier AI lab.
+ Instead, it positioned them as a neocloud betrothed to anthropics insatiable demand for GPUs.
+ Musk basically said this himself
+ as part of his August tirade writing in the group chat,
+ at the end of the day,
+ the only thing that matters for competitiveness is revenue per GPU, not benchmarks.
+ If you can't pay for your GPUs,
+ then you either go bankrupt or you become a computer rental company.
+ Move the needle on revenue.
+ Now, the latest on product development is that SpaceX was working
+ on a knowledge worker agent over the fall in collaboration with Tesla engineers.
+ The agent is known internally as Digital Optimus,
+ and it was initially trained to play video games including Diablo and League of Legends.
+ However, Elon was reportedly unsatisfied with the rate of progress,
+ and Tesla engineers have been reassigned to work on model training for Grock.
+ At this stage, the reporting carries no real bombshells,
+ other than Elon being a fairly unpleasant guy to work with.
+ Theoretically, Tesla shareholders could take issue with personnel working on SpaceX projects
+ before the merger is finalized,
+ but there's been whispers of shared resources across the two companies for some time.
+ Certainly nothing revealed in this reporting is at the same level
+ as all the scoops that took down Jens and Huang.
+ Realistically, what we learned is that SpaceX AI is apparently kind of dysfunctional,
+ and Grock doesn't seem to be going anywhere fast.
+ This was no surprise to Gregor LaRose,
+ the author of The Pragmatic Engineer, who wrote,
+ I thought it's an open secret.
+ One, the only group who is good at building AI models at SpaceX is the cursor team.
+ Two, SpaceX is known to be a hostile place for tech employees.
+ Three, save for those with golden handcuffs.
+ SpaceX cannot hire and or open AI caliber people at all.
+ A rose believes retention is SpaceX's only hope continuing.
+ SpaceX has a shot with AI models while the current cursor team is there
+ and can figure out what next.
+ They've built Grock 4.7 and Grockbot, a smashing team,
+ but now they're not cursor, a place people wanted to join,
+ but SpaceX, where they don't call the shots, their CEO does.
+ Lastly today, an update in open models.
+ ZAI introduced their new model on Monday, GLM 5.4.
+ In introducing their new model, they discussed two big architectural changes.
+ GLM 5.4 now uses looped transformers,
+ which allows reasoning to occur within the model weights.
+ Open AI sparked controversy by introducing this architecture
+ over the summer for GPT-62 Astra.
+ It enables more efficient inference as reasoning steps now occur
+ without generating output tokens.
+ However, it also reduces observability,
+ as users no longer have access to the full reasoning trace
+ to understand what the model is doing.
+ ZAI said adoption of looped transformers
+ allowed them to replicate the intelligence
+ of a 2-3 trillion parameter model
+ with only 750 billion parameters.
+ Put more simply, they're claiming
+ Kimi 3.1 level performance
+ without the inference cost of running an ultra-large model.
+ The second big change is the introduction of a behavior
+ ZAI is calling generalized coding.
+ They write that this means that code is now the, quote,
+ foundation of solving a much wider range of tasks
+ and unlocking new capabilities.
+ That's likely similar to the shift we saw
+ in Claude and GPT models over the summer,
+ where they'll tend to write code to produce
+ a desired output rather than tap into an external model.
+ ZAI demonstrated this feature
+ by having GLM 5.4 make a music video.
+ Instead of calling an external video model,
+ GLM built the entire thing using code.
+ At present, this is just a pre-release announcement
+ with ZAI saying they'll open API access
+ after a safety audit
+ and that, quote,
+ model weights will be released responsibly.
+ That means we don't have any benchmarks
+ or external testing for now,
+ which most are reading as a bad sign.
+ Adam Holter commented,
+ However, others looked past the lack of benchmarks
+ into the technical details of what ZAI announced.
+ Alvis Saravia posted,
+ Really interesting decision by GLM
+ to move to loop transformers as well.
+ Thinking machines inkling too many is also a looped transformer.
+ Looped transformers offer parameter efficiency
+ when scaling to deeper networks.
+ In practical terms,
+ this means adding more reasoning depth,
+ potentially increasing capability,
+ without adding more weights.
+ AI analyst Zephyr commented,
+ More loopers will be released in the next three to four months.
+ Expect open labs to achieve an astra-6
+ slash argon-like capability jump
+ once they scale it to two to three trillion parameters.
+ Semi-analysis thinks the safety implications
+ of looped transformers
+ is going to kick off the next phase of the open model wars.
+ They shared a meme with open AI
+ in DeepMind,
+ defending their noble recurrent depth architecture
+ against the dirty loopers from foreign labs.
+ However, it plays out.
+ It seems that one by one,
+ the major labs are embracing
+ the performance benefits of looped transformers.
+ Observability, be damned.
+ That, however, is going to do it for the headlines.
+ Next up, the main episode.
+ Hello, everyone.
+ One big change around AI
+ is we've shifted our thinking
+ from how we rank our pages
+ to how do we become the source
+ that AI trusts enough to answer with.
+ At KPMG, they're seeing this firsthand.
+ AI-generated results now surface answers
+ directly, often without a single click.
+ That's why they are increasingly focused
+ on generative engine optimization, or GEO,
+ structuring content so AI systems can retrieve it,
+ understand it, and cite it as trusted authority.
+ This is not just an SEO evolution,
+ but a visibility mandate.
+ And indeed, the GEO mandate from KPMG is simple.
+ If AI is shaping decisions,
+ your expertise needs to show up inside the answer.
+ Read all about it at kpmg.com.us.geo.
+ Again, that is kpmg.com.us.geo.
+ You're in back-to-back meetings all day.
+ You're trying to stay present,
+ but you're also worried you'll forget the decision,
+ the action item, the important next step.
+ This is the scenario that we absolutely
+ live here at the AI Daily Brief,
+ giving out fast things, move and change,
+ and how quickly we're evolving everything that we do.
+ That's where Granola comes in.
+ Granola is an AI-powered notepad for meetings.
+ You jot down rough notes like you always do,
+ and in the background, Granola transcribes
+ and turns them into clear, useful notes
+ when the meeting ends.
+ No bots joining your calls, no distractions,
+ just a clean notepad that helps you focus.
+ During or after the call, you can chat with your notes.
+ Ask Granola to pull out action items,
+ help you negotiate, write a follow-up email,
+ or even coach you using recipes
+ which are pre-made prompts.
+ Once you try it on a first meeting,
+ it is very hard to go without.
+ Head to granola.ai.ai daily
+ and use code AI Daily to get 100% off
+ for three months for new users.
+ That's granola.ai.ai daily
+ and code AI Daily to get 100% off
+ for new users for three months.
+ When it comes to AI risk,
+ C-suite leaders have serious questions.
+ Can your cybersecurity keep pace with AI-powered threats?
+ As threats expand beyond IT,
+ are your physical assets safe?
+ Do you trust your AI vendors to deliver value
+ without taking your proprietary data?
+ Are you prepared to handle swarms of AI agents?
+ Find out how they can help.
+ Visit them at Gartner.com slash AI to learn more.
+ Blitzy deeply understands your code base
+ before it writes code.
+ Here's the first place that pays off.
+ Security in the age of AI.
+ Vulnerabilities don't live in isolation.
+ They live buried inside millions
+ of lines of interconnected code
+ where patching one thing quietly breaks three others.
+ That's why surface-level scans fail.
+ Blitzy starts from its knowledge graph
+ of your entire application,
+ identifies and surfaces CVEs across the full estate,
+ proactively recommends patches,
+ and can execute the PR.
+ Each fix is grounded in how your systems connect
+ and validates or nothing new breaks,
+ and the knowledge graph dynamically updates
+ keeping you ahead of an ever-accelerating threat landscape.
+ One Blitzy customer resolved 21 active CVEs
+ across six core microservices in four days.
+ Zero compile errors, every validation scan clean,
+ months of planned work fixed in less than a week.
+ Security remediation grounded
+ in real architectural context at the speed of compute.
+ Harden your code base at blitzy.com.
+ That's blitzy.com.
+ Welcome back to the AI Daily Brief.
+ Jensen Huang officially returned
+ to NVIDIA headquarters on Monday
+ to a round of applause from loyal employees.
+ He said at the crowd simply,
+ thank you all for the second chance.
+ I'm going to be a better CEO the second time around.
+ So that's it.
+ The controversy is over, Jensen is back,
+ and we can all move on to the next story, right?
+ Of course not.
+ As Sam Altman learned in 2023,
+ you can fight to be rehired as CEO,
+ but things never quite return to normal.
+ After his ouster, Altman had to clear out the board,
+ deal with defections from his key leadership team,
+ and rebuild the company's culture,
+ all while trying to keep the product roadmap on track.
+ And in many ways, Jensen has an even tougher challenge
+ ahead of him to undo the damage of the past two weeks.
+ He is back, but this is only the opening act
+ of the trials and tribulations of Jensen Huang.
+ To begin with, the story took on a whole new dimension
+ when we learned just how involved President Trump was.
+ After yesterday's show went on air,
+ President Trump called in to CNBC
+ for an hour-long interview
+ to discuss how he pushed for Jensen's return.
+ He said he, quote,
+ convinced the NVIDIA board to return Jensen
+ and did it for the country because, quote,
+ if I didn't get involved,
+ you probably have a very sad NVIDIA for a long time to come.
+ When asked if he told the board
+ that Jensen wouldn't be prosecuted,
+ the president responded, I gave them enough assurance.
+ When asked if without intervention,
+ he thought that Huang would have been reinstated,
+ he specifically said that no, he did not.
+ Trump stopped short of explaining
+ the exact mechanics of the intervention.
+ When asked if he called into the board meeting,
+ Trump dodged the question,
+ saying he was, quote, represented at the meeting.
+ That claim didn't last long,
+ with semaphore reporting that the president
+ did, in fact, call into the meeting.
+ And the White House is making absolutely no secret
+ of their level of involvement.
+ White House communications director
+ Stephen Chung told semaphore,
+ President Trump was totally involved,
+ and this is a great decision by the NVIDIA board.
+ We have to protect our geniuses.
+ CNN added a little more insight from the West Wing, writing,
+ President Donald Trump had been stewing for days
+ over the U.S. stock market's deepening sell-off
+ when he decided there was only one way to stop the slide,
+ put Jensen Huang back atop NVIDIA.
+ The story was sourced to several people
+ familiar with the matter,
+ and described a pressure campaign conducted
+ over the weekend by the president
+ and vice president, JD Vance.
+ It also confirmed that Trump personally
+ called into the board meeting to put his thumb on the scale.
+ Steve Bannon, once Trump's closest advisor, said,
+ The president is a student of history,
+ and like many, haunted by Herbert Hoover
+ in the Great Depression.
+ The crash of 1929 brought that on.
+ So higher market equals good,
+ crashing stock market equals bad.
+ Of course, the celebrations of Jensen's return
+ weren't limited to NVIDIA's Santa Clara headquarters.
+ Tech leaders across X were also cheering
+ on the return they'd been calling for
+ over the past two weeks.
+ Elon Musk posted.
+ The mistake has been corrected.
+ Biology Shrinivasan,
+ who basically predicted the entire story arc, wrote,
+ Jensen is restored.
+ Journos are ruined.
+ The coup is defeated.
+ Open Source AI is protected.
+ And the acceleration continues.
+ Gavin Baker, the CIO of Retreaties Capital,
+ and one of the loudest advocates for Jensen's return,
+ thanked everyone that got behind the cause
+ in a lengthy post.
+ He concluded,
+ This is why America is the greatest country on earth.
+ Every part of Jensen's story
+ would have been only possible in America.
+ And remember that Gandalf the White
+ was even better than Gandalf the Gray in every way.
+ In many circles, perhaps most circles
+ outside of tech leadership,
+ the whole affair is being viewed
+ with far more skepticism.
+ Jason Calcanus made the fateful decision
+ to go on MSNOW
+ and was ripped into by host Stephanie Rule.
+ Calcanus said that he was comfortable
+ with Jensen's return,
+ satisfied that Jensen wasn't involved
+ in anything treasonous,
+ because, quote, the government said he was not.
+ He added,
+ I think he is obviously not guilty
+ on any of these charges
+ other than maybe doing these affairs.
+ Completely unsatisfied with that view,
+ Rule asked,
+ Why is that obvious?
+ Just because the government tells us,
+ we have a president who has benefited
+ personally from NVIDIA stock.
+ The response from Calcanus was, quote,
+ Anybody with a 401k has benefited
+ from Jensen's exceptional leadership.
+ And there is no way one of the richest people
+ on the planet would ever commit treason.
+ Rule responded,
+ One of the reasons he may be
+ one of the richest people on the planet
+ is because he was committing treason.
+ I don't know for sure,
+ but I certainly have questions.
+ And honestly, on average,
+ it seems like the general view
+ is much closer to Rule's points
+ than it is to those of the technology industry.
+ In the lead up to the reinstatement,
+ a YouGov poll found that
+ 54% of Americans
+ said that Hwang's affair
+ has definitely or probably
+ compromised U.S. national security.
+ And it wasn't just among
+ the president's political opponents.
+ As 61% of Republicans
+ said that it definitely
+ or probably had compromised U.S. national security.
+ Echoing that point was Newt Gingrich, who wrote,
+ There is something profoundly wrong
+ about Jensen Hwang having a relationship
+ with the Chinese Communist spy
+ and helping China get a huge number
+ of very advanced computer chips
+ when that was specifically
+ against the policy
+ of the United States government.
+ And now he is being reinstated
+ as CEO of the most advanced
+ chip-making company in the world.
+ Congress should really dig into this
+ as a national security issue
+ of enormous proportions
+ and also a significant failure
+ in the federal bureaucracy.
+ And Congress does appear
+ like they are going to do exactly that.
+ Jensen is already set to testify
+ before the Senate Banking Committee
+ next Thursday
+ and that's sure to be the first
+ of many trips to Washington
+ over the coming year.
+ Remember, when Americans
+ voted earlier this month,
+ 56% said that AI and data centers
+ were a major factor
+ in deciding their vote.
+ But the number one issue
+ even more important
+ than cost of living
+ was corruption,
+ which 90% of voters
+ said was a major factor.
+ By intervening so overtly
+ in this case,
+ the president has transformed it
+ from a tech and foreign relations
+ scandal
+ into a potential corruption
+ scandal as well.
+ This is no longer solely
+ about Jensen's ties to China,
+ it's also about Jensen's
+ ties to Trump.
+ The congressional hearings
+ were already going to be ugly,
+ but Trump's involvement
+ has handed lawmakers
+ a ton of fresh ammunition.
+ And they seem eager to use it.
+ Chris Van Hollen,
+ the current frontrunner
+ to take over as Senate
+ Majority Leader next year,
+ said he intends to focus
+ on Huang's quote,
+ efforts to increase
+ and accelerate the export
+ of high-end chips to China
+ and how he's been getting
+ his way with this administration.
+ He added,
+ It's completely hypocritical
+ for the Trump administration
+ on the one hand,
+ to say the reason we have to
+ take all the breaks off
+ AI development here at home
+ is because China will leap ahead
+ if we don't,
+ when in fact,
+ it's the Trump administration
+ that's helping China leap ahead.
+ House Speaker Hakeem Jeffries wrote,
+ The decision by the Nvidia board
+ to reinstate Jensen Huang
+ is indefensible,
+ irresponsible and incomprehensible.
+ Congress will not be deterred
+ from conducting a swift,
+ thorough and wide-ranging
+ investigation into business
+ malfeasance by Nvidia
+ and corrupt abuse of power
+ by Howard Lutnick
+ and the Department of Commerce.
+ We will not allow America's
+ national security
+ to be sold out
+ by the Trump administration
+ for personal financial gain.
+ The National Defense Authorization
+ Act must include
+ ironclad export control
+ legislation
+ to prevent powerful AI technology
+ from being exploited
+ by the Chinese Communist Party
+ and other adversaries.
+ It's time for traditional
+ Republicans in Congress
+ to join us in reining
+ in this corruption.
+ And indeed,
+ the three Republican committee
+ chairs with national
+ security portfolios
+ released a statement on Monday
+ which read,
+ the Nvidia board's brief internal
+ investigation and reinstatement
+ of Jensen Huang
+ do not erase the national
+ security threats and questions
+ that must be answered.
+ They confirm that Huang
+ and Nvidia general counsel Tim Teeter
+ are still appearing for closed
+ or interviews next Monday
+ and Tuesday
+ ahead of Jensen's public testimony.
+ The committee chairs continued,
+ we remain committed
+ to getting answers
+ on the mass smuggling
+ of Nvidia products,
+ their diversion for Chinese military
+ purposes
+ and their key role
+ in advancing our foremost
+ adversaries AI capabilities.
+ If this is the reception
+ awaiting Jensen in Washington
+ while the Republicans
+ are still in power,
+ you can only imagine
+ how bad it could get
+ once Democrats take over Congress.
+ Jesse Waters of Fox News
+ even believes that this
+ will be the issue
+ that Democrats use to impeach
+ and a lot of Republicans
+ will go along with it.
+ Waters commented,
+ I'm not saying Jensen
+ isn't worth saving
+ but that's going to be
+ a tough argument to make
+ on TV for senators
+ who just got their heads
+ kicked in over data centers
+ and the cost of living.
+ Adding one more curveball
+ to the whole affair,
+ the Commerce Department
+ has blacklisted Megaspeed.
+ The filing states
+ that Megaspeed was added,
+ quote,
+ because of the significant
+ risk of these entities being
+ or becoming involved
+ in the diversion
+ of advanced computing commodities
+ to unauthorized end uses
+ or end users.
+ This makes it unequivocally true
+ that Megaspeed is understood
+ to be a smuggling risk
+ by the Trump administration,
+ removing all wiggle room.
+ Of course, placing them
+ on the list now
+ doesn't say anything
+ about the administration's
+ views as of a year ago
+ or even a week ago
+ but for those looking
+ to drag the White House
+ over the coals,
+ it's pretty easy to make
+ the case that
+ Commerce Secretary Howard Lutnick
+ should have done this
+ when it was first approved
+ by the president
+ back in March.
+ Presumably while pinching his nose
+ and looking at the floor,
+ political commentator Derek Thompson
+ asked,
+ I'd love someone
+ in the pro-Jensen Silicon Valley
+ community to explain how, quote,
+ Jensen slept with the director
+ of a firm
+ that inappropriately handled
+ US-made semiconductors
+ and who was in frequent contact
+ with the Chinese spy ministry
+ is both a media conspiracy
+ and also the official position
+ of the Trump administration
+ because I am actually confused.
+ Now to take CNN's
+ version of the story
+ at face value,
+ this all happened
+ because President Trump
+ couldn't handle the Dow Jones
+ falling by 8%
+ after Jensen resigned.
+ So did the president's actions
+ get his desired response?
+ The Nasdaq 100 closed
+ yesterday up 6.9%
+ with most of the recovery
+ coming in the morning futures
+ before the market opened.
+ The same was true
+ for Nvidia
+ which closed the day
+ up 31.5%.
+ That leaves Nvidia
+ having filled in
+ all of its losses
+ since the Jensen ouster
+ but still 30% down
+ from its all-time high
+ in October.
+ The Nasdaq also
+ has a long road back.
+ It's still down 4.3%
+ from the resignation
+ and 14.3% down
+ from last month's all-time high.
+ While it is impossible
+ to know where the market goes
+ from here,
+ you gotta imagine
+ it's gonna be a tough few months
+ with Jensen's hearings
+ making regular headlines
+ for the indefinite future.
+ One other stock
+ that's getting a lot of attention
+ is Anthropic
+ which failed
+ to participate in Monday's rally.
+ The stock was down
+ another 1.4%
+ and closed just $4
+ above the IPO price.
+ That means Anthropic
+ is perilously close
+ to breaking that level
+ which will trigger
+ more selling from
+ institutional investors
+ with a mandate
+ to get out
+ if that happens.
+ The IPO is additionally
+ gathering a backlash of its own.
+ With the opinion pages
+ of the Guardian printing,
+ Anthropic's IPO
+ was great for the tech elite
+ and not so great
+ for the rest of us.
+ The piece focused on
+ the tremendous wealth accumulated
+ by Anthropic's founders
+ and employees
+ now that the stock is priced.
+ It included an estimate
+ that each of the seven co-founders
+ is now worth $20 billion
+ and 600 Anthropic employees
+ have personal fortunes
+ of more than $100 million.
+ Among some,
+ there's also growing outrage
+ that the IPO was a grab
+ for exit liquidity
+ dumping the stock
+ on retail investors.
+ Anthropic has now
+ filed confirmation
+ that each of the seven co-founders
+ sold $2 billion worth of shares.
+ All of this was disclosed
+ ahead of time
+ and many called it
+ as it was happening.
+ Dimitri Kofinas,
+ host of the Hidden Forces podcast
+ wrote on Friday,
+ the Anthropic IPO
+ felt especially forced.
+ Like, we need exit liquidity guys
+ so we're going to shove this
+ down your throats
+ even if it crashes the market
+ and even while we keep telling you
+ that we have 6 to 12 months
+ before the world ends
+ because we need money
+ for our bunkers.
+ Now to some extent,
+ this is an inevitable by-product
+ of how much later
+ companies wait to go public these days
+ but whether that's true
+ or not, it doesn't really change the fact
+ that it's one more strike
+ against Anthropic
+ and the narrative is frankly set up
+ for sentiment to get much worse.
+ Part of why this story
+ is so chaotic
+ and attention grabbing
+ and controversial
+ is that given where you stand
+ there are like 9 or 10 different things
+ that you might care about most in the story
+ which would lead you
+ to have a different reading of it
+ relative to what others might think.
+ There is the accountability issue
+ and the fact that Nvidia's code of conduct
+ is now basically thrown out the window
+ at least when it comes to their leader.
+ That brings up the related issue
+ of workplace immunity
+ for certain executives
+ and what many widely understand
+ to be double standards
+ specifically when it comes to
+ male versus female executives.
+ For others,
+ and this is especially true of the tech folks,
+ this was an example of media hit jobism
+ of the type that they believe
+ has been increasingly common
+ over the past 5 to 10 years.
+ The argument here
+ is that mainstream media
+ was very happy to play judge and jury
+ based on what later looked like
+ more dubious evidence
+ surrounding the whole China spy connection
+ and at least for some of those tech folks
+ there is an accusation
+ that that was not just reporting fact
+ but had an intended outcome.
+ But then you get outside of tech
+ and the only thing that a lot of folks see
+ especially as Trump gets more involved
+ is yet another example of cronyism.
+ This is what Stephanie Ruhl
+ was saying to Jason Callicanus
+ that the president wanted Jensen in
+ because he wanted his bags to get filled.
+ Then there's the extension of that
+ that's less about individual corruption
+ and more about economic priorities.
+ There are many macro and markets commentators
+ who are concerned
+ that our slavish devotion
+ to keeping the stock market number up
+ no matter what the consequences
+ not only hides real problems in the economy
+ but actually helps create them.
+ And if you believe that
+ this is maybe the greatest example
+ of number go upism we've ever seen.
+ Then of course there are those
+ and to be clear these come from
+ all political persuasions
+ who are extremely uncomfortable
+ with the level of state capitalist interventionism
+ that this represents.
+ This is perhaps not surprising
+ as it's the same administration
+ that took a 10% stake in Intel
+ and has never been particularly concerned
+ about the borders between public and private
+ and there are plenty who would argue
+ that the US government having a stake
+ in our most successful private companies
+ is a good thing.
+ But for a lot of free market folks
+ of all persuasions
+ this sets a dangerous precedent.
+ A deeper strand within the tech community
+ is the open source versus closed source debate
+ which is where the Jensen versus Dario
+ Nvidia versus Anthropic theme comes from.
+ And then there's the national security debate
+ and what makes this so challenging
+ is that there could be two people
+ for whom national security
+ is the most important part of the story
+ who have totally different beliefs
+ about the right approach to national security
+ in the context of China.
+ For the Democrats in Congress
+ who are posting about this
+ it is self-evident that there is hypocrisy
+ in the Trump administration
+ saying that they want to keep the US
+ in the lead in the AI race
+ and then allowing them to sell chips to China
+ or allowing Jensen to get away
+ with surreptitiously allowing chips
+ to make it to China.
+ While others who are primarily concerned
+ with national security
+ are convinced that while Nvidia chips
+ getting to Chinese companies
+ are good for those companies
+ they are bad for China as a whole.
+ They point to the CCP's forced warehousing
+ of many of those Nvidia chips
+ and their continued pressure
+ on Chinese companies
+ to use local chip alternatives
+ as case in point.
+ Finally there's the version
+ of the accountability story
+ that's less about a single company
+ and more about how we treat certain people
+ as above all condemnation and reproach
+ based on our perception of their influence
+ on the big patterns of history.
+ Because there are all these dimensions
+ and all these lenses
+ through which to view this
+ any one of which is reasonable
+ to be the most important
+ to any given person
+ this my friends is a fight
+ that has legs.
+ And so that's where we stand
+ as of Tuesday morning.
+ Jensen is back
+ but rather than returning
+ as the head of the bank of Nvidia
+ he's facing several months
+ of grueling hearings in Washington.
+ President Trump has tied himself
+ in tightly to the scandal
+ likely increasing the scrutiny
+ that Jensen will face.
+ And the largest IPO of all time
+ the first time retail traders
+ could invest in a frontier AI lab
+ is increasingly being accused
+ of being a cynical liquidity grab.
+ The fight to return Jensen may be over
+ but the battle to recover
+ the AI narrative
+ has barely begun.
+ For now however
+ that is going to do it
+ for today's AI Daily Brief.
+ I appreciate you listening
+ or watching as always
+ and until next time
+ peace.
