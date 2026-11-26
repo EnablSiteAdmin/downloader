@@ -1,0 +1,974 @@
+ Ah, Thanksgiving, a time for gratitude, family, and getting into fierce political debates at
+ the dinner table.
+ If you are listening to this episode, there is a pretty good chance that you're going
+ to be asked about AI.
+ So today we're talking about 15 of the most likely questions, and we're going to try
+ to confront each of them head on.
+ The AI Daily Brief is a daily podcast and video about the most important news and
+ discussions in AI.
+ Alright friends, quick announcements before we dive in.
+ First of all, thank you to today's sponsors KPMG, Granola, Gartner, and Blitzy.
+ To get an ad-free version of the show, go to patreon.com.ai-dailybrief, or you can
+ subscribe on Apple Podcasts.
+ And if you want to learn more about sponsoring the show, send us a note at sponsors.ai-dailybrief.ai.
+ Alright, so after an endless onslaught of news, things finally calm down enough to give
+ us a single day to have this wider conversation, and it couldn't have come at a better time.
+ Thanksgiving is for many families, the one day where they're all together, crowded
+ around a table, connected by the bonds of familial history that often are called
+ upon to supersede any political disagreements.
+ Which doesn't mean that those family conversations always stay tame.
+ AI is one of those topics that tends to come up, and given how much it has been in the news
+ recently, from these outages, despite there not necessarily being a clear connection to
+ AI, and data center politics around the midterms, and tropics IPO, and of course
+ everything that has gone on with Jensen Huang and Nvidia, you better believe it's
+ going to come up this year.
+ So what I wanted to do is go through 10 or 15 of the common points of conversation
+ that I've seen and that I anticipate from people who, let's say, aren't as
+ sold on AI as the average listener of the AI Daily Brief might be.
+ Now, a couple of quick caveats before we dive in.
+ First of all, despite the fact that I will in each of these cases be giving you my
+ broad or rough take, please do not mistake that for me trying to convince you that
+ you have to think the same way.
+ I just think that it's more useful in this case if I give you at least a
+ little bit of a sense of what I might find myself saying, come that particular
+ conversation.
+ Second, and perhaps even more importantly, I am not at all even advocating
+ for you to try to convince all of your family members to think the same way you
+ do.
+ If I had to sum up the broad moment that we are living through, what
+ anthropic going public represents, what the midterm election results represent,
+ even what the involvement in the White House with the Jensen Huang decision
+ means, it all amounts to a phase transition where the future of AI will
+ not solely be decided by the AI labs and a future of AI or a much
+ broader cross-section of society actually has a say in how it happens.
+ This will not be an easy transition.
+ We don't really have particularly well-agreed upon norms for the
+ intersection of democratic process and private enterprise, but we're going
+ to have to build them.
+ And I believe that doing that well, not in the halls of Washington or
+ around conference tables and computers in Silicon Valley, but instead
+ in conversations exactly like these ones that you're about to have.
+ I personally believe that the right disposition towards these conversations
+ is that we should be inviting people into this industry, even if and
+ perhaps especially if they don't like it one bit.
+ Let's talk about some of the big questions that I anticipate about AI
+ around the country this year.
+ These are in no particular order and not even necessarily grouped by
+ theme.
+ So apologies if they seem a little bit frenetic and back and forth.
+ Question number one, is AI going to take my job or my kid's job?
+ Broadly speaking, there have been two big categories of concerns that
+ people have had with AI since chat GBT launched.
+ One is everything surrounding existential risk and AI takeovers.
+ But the other, which has frankly been more important to most for most of
+ the time, is what the impact of AI on jobs is actually likely to be.
+ Now part of this comes directly from the labs, who were completely
+ convinced and very willing to tell you so, that within a matter of
+ months from whichever given point you look back to,
+ AI was going to be so powerful that it would of course take all of the
+ jobs, or at least all of the white collar jobs.
+ Now if you've spent any time with me in this podcast, you know that
+ this is something that I fundamentally do not believe is true or
+ will ever be true.
+ One part of my belief, although frankly the smallest part,
+ comes from the historical example.
+ At no point after some technological revolution have humans had
+ less work to do in fewer jobs.
+ That's just not how it's ever worked.
+ Different jobs absolutely and that's a point we'll come back
+ to in a moment, but fewer jobs absolutely not.
+ But AI they say is different.
+ It's a technology that's not meant to augment people,
+ but to directly replace them.
+ I do think that that's a reasonable counterpoint to resting
+ only on the historical example.
+ But history isn't all we have here.
+ There are a few things that the prognostications about job
+ apocalypses tend to miss.
+ And it's not an accident that most of those predictions come
+ from people who have never worked outside of startups
+ in the tech industry.
+ First of all, those predictions tend to radically
+ underestimate institutional inertia.
+ And how much of work is not about getting tasks done,
+ but about the entire system and process around those tasks,
+ to make sure that they are managed, organized, coordinated,
+ pointed in roughly the same direction,
+ and all of those things throw barriers for even a super powerful AI
+ to be able to actually come in and disrupt everything.
+ Second, while one presumes this would change over time,
+ AI's capabilities remain jagged,
+ where they are increasingly able to do more and more complex tasks
+ end to end.
+ But for anyone who's ever had a job,
+ you know that your job is more than just a set of tasks,
+ which can be easily summed up and planned for.
+ Execution might have gotten easier,
+ but there is a whole new type of management overhead,
+ which gets us, I think, to the most important point,
+ which is that already, we're seeing early adopters
+ start to show how different types of jobs will change
+ rather than go away.
+ This has obviously been most true so far
+ for coders and software engineers
+ who've shifted from one set of tasks around writing code
+ to a totally different set of tasks
+ around organizing and orchestrating
+ the process of that code being written
+ and getting ready for production.
+ And we're starting to see those sorts of transitions
+ come to other areas,
+ like the video editing that I've recently been talking about.
+ I do want to acknowledge that those transitions
+ while they do not necessarily lead to fewer jobs
+ will, for many, come with a certain type of pain.
+ For people who love the craft of doing the thing
+ and chose to do the thing,
+ whether it's video production or writing code,
+ because they didn't want to be a manager
+ or they didn't want to be an editor,
+ this transition will involve some amount of loss.
+ But still, up until now,
+ I've only been talking about doing the same jobs
+ in new ways, and that's not really where I think it ends.
+ One of the most important things
+ that the jobs discourse tends to miss out on,
+ from both of the sides, by the way,
+ who think that AI is going to destroy all the jobs
+ versus those who believe that AI
+ will inevitably create new jobs,
+ is that no one spends much time
+ talking about what those new opportunities might look like.
+ A couple of the areas that I would point to,
+ as places that are worthy of spending some mental effort,
+ are, one, thinking about jobs,
+ where there is a human premium,
+ where it matters not just that the thing happens,
+ but who does the thing.
+ There are jobs and roles
+ that require a higher level of trust
+ and that people want a relationship
+ with the job provider.
+ There are roles where an embodied presence,
+ someone there in the room, actually matters.
+ There are outputs of human economic effort,
+ where the providence of who made it
+ is part of why it matters.
+ It is likely that there will be a flow into
+ those types of jobs where we do see a human premium.
+ The other important consideration
+ is where the economic restructuring of AI
+ will unlock new opportunities
+ for new types of roles
+ and new types of economic activity
+ because the change in the cost structure
+ and the method of provisioning
+ actually unlocks and expands
+ a new type of demand.
+ Demand might expand because of price elasticity,
+ i.e. I wanted it, but it cost too much.
+ It might expand because of personalization elasticity.
+ I don't want the generic version,
+ I want something made for me.
+ Inevitably in the process of creative destruction,
+ it is much easier to see the destruction
+ before the creation,
+ but that doesn't mean that there aren't ways
+ to start to guess at
+ where those new opportunities might come from.
+ Finally, with all of this conversation,
+ there's the stats.
+ So far, AI job disruption
+ just isn't really showing up in the numbers.
+ In fact, in areas like software engineering,
+ it seems to be having the opposite effect,
+ where demand for engineers has gone up.
+ Okay, so that's my case,
+ but where are the counterpoints worth acknowledging?
+ Well, first of all,
+ while it's not clear that it's directly attributable to AI,
+ the job market for recent graduates
+ and young employees
+ is significantly more difficult right now.
+ It does appear that employers
+ are hiring fewer younger people,
+ and there is a concern
+ that AI will hit the entry level harder,
+ which is a problem not just for the now,
+ but for the future,
+ as without there being a mentorship path
+ from mid and late career folks,
+ how are those younger people expected
+ to develop the skills that they can deploy later?
+ I think that is a very reasonable thing to keep an eye on.
+ Second acknowledgement,
+ it is 100% inevitable
+ that there will be some jobs
+ for which the collection of tasks
+ that make them up
+ means that they will basically be obviated
+ by AI capabilities.
+ I think spending less time
+ on the generic job apocalypse
+ and more time trying to keep an eye
+ on the folks who are in
+ those most exposed categories of jobs
+ would be a better place
+ for societal intervention,
+ but I do believe that in this transition period
+ from the pre-AI economy
+ to the post-AI economy,
+ it's not something that's going to happen overnight
+ and there will be pain along the way
+ that we should be prepared
+ to try to alleviate some of.
+ All right, let's move on.
+ I could talk about jobs all day
+ and there's a reason that I put it right up front
+ and gave it a little bit more time
+ that I'm going to give others,
+ but that will not be the only question that comes up.
+ Second question,
+ really more of an accusation,
+ aren't kids just using it to cheat?
+ On this one, my answer is,
+ yep, they sure are,
+ because of course they are.
+ Young people are maximally efficiency-seeking
+ and when given a tool that can do
+ all of their perceived dumb work for them,
+ of course they're going to use it for such.
+ Surveys regularly show this to be the case.
+ Using AI to cheat
+ and skip out on quintessential learning
+ is a problem to solve.
+ The reason why this is not just
+ a pure net knock for me
+ is that I believe that our education system
+ has been largely moribund
+ for quite some time at this point.
+ The skills that we were teaching kids
+ are largely disconnected
+ from the experience they have in the workforce,
+ the economic structure of higher education
+ is completely broken
+ and bears no resemblance to anything
+ that would make sense
+ in the context of the modern economy.
+ And despite the fact that the world
+ has changed entirely around our education system,
+ we have kept it together with bubblegum,
+ masking tape,
+ and in many cases the heroic efforts
+ of teachers who are unwilling to give up
+ even if they're working
+ with two hands tied behind their back.
+ My hope and my belief
+ is that AI is such a shock to the system
+ that it forces us to reevaluate
+ and redesign the education system
+ from the ground up,
+ knowing that these tools are in place.
+ Of course in the short term,
+ we will have intermediate solutions
+ like people having to write essays
+ and blue books again,
+ but I'm hopeful that over the medium
+ and longer term,
+ new better ways of teaching our kids
+ the right skills
+ will start to emerge.
+ And I believe that AI
+ will be a part of those solutions.
+ Not some overly simplistic version
+ like people are experimenting with today,
+ but really thoughtful deep pedagogy
+ designed into AI-enabled systems
+ that allow it to become
+ what it has the potential to be
+ which is the greatest personalized
+ tutor the world has ever seen.
+ This I think dramatizes the fact
+ that AI as a technology
+ is inherently neutral.
+ What we do with it
+ and how much it is used for good or bad
+ tends to be a product of decisions
+ that we make
+ and efforts that we do or don't undertake.
+ Question three,
+ aren't chatbots dangerous for kids?
+ This is one where I am not necessarily
+ lazai fair about AI.
+ I think that it was a critical mistake
+ that parents made
+ in the late 2000s and 2010s
+ around the way on average
+ that we engaged with our kids in social media.
+ I don't blame the parents
+ because especially those who grew up
+ in the late 80s
+ before the internet was really a thing
+ didn't know that for a lot of their kids
+ the literal worst thing they could do
+ was let them be on their phones
+ scrolling through Instagram.
+ But now we know when we're making big changes.
+ In some places that looks like social media bands
+ in other places that looks like
+ voluntary commitments
+ like the parental wait for 8th campaign
+ that gets parents and communities
+ to come together
+ to collectively agree
+ not to give their kids smartphones
+ until at least 8th grade
+ and I think that that same sort of skepticism
+ around letting kids just run off with these new tools
+ without any consideration
+ for the potential psychological effects
+ should be in place here as well.
+ So while I'm not ready to claim
+ that chatbots are dangerous for kids
+ the possibility that they are
+ needs to be considered
+ and parents have to be the front line
+ in that conversation.
+ I think that this group
+ which grew up with the internet
+ in a much more direct way
+ has by solely if because of when we grew up
+ a better starting point
+ for hopefully managing
+ that transition a little bit better.
+ A new study from KPMG
+ in the University of Texas at Austin
+ found that when people work with AI
+ similar skills don't guarantee similar outcomes.
+ Researchers studied more than
+ 500 early career professionals
+ and found that the best performers
+ consistently amplified the value of AI
+ by guiding evaluating
+ and refining its outputs.
+ These top performers called AI amplifiers
+ weren't defined by what they knew alone
+ but by how they worked with AI.
+ Learn more about what separates AI amplifiers
+ from everyone else at kpmg.com
+ slash us slash AI amplifiers.
+ You're in back-to-back meetings all day
+ you're trying to stay present
+ but you're also worried you'll forget
+ the decision the action item
+ the important next step.
+ This is the scenario that we
+ absolutely live here at the AI Daily Brief
+ giving out fast things move and change
+ and how quickly we're evolving
+ everything that we do.
+ That's where Granola comes in.
+ Granola is an AI powered
+ notepad for meetings.
+ You jot down rough notes like you always do
+ and in the background
+ Granola transcribes and turns them into
+ clear useful notes when the meeting ends.
+ No bots joining your calls
+ no distractions
+ just a clean notepad that helps you focus
+ during or after the call
+ you can chat with your notes
+ ask Granola to pull out action items
+ help you negotiate
+ write a follow-up email
+ or even coach you using recipes
+ which are pre-made prompts.
+ Once you try it on a first meeting
+ it is very hard to go without.
+ Head to granola.ai slash AI Daily
+ and use code AI Daily
+ to get 100% off for three months
+ for new users.
+ That's granola.ai slash AI Daily
+ and code AI Daily
+ to get 100% off for new users for three months.
+ When it comes to emerging AI technology
+ C-level executives have important questions.
+ Are you ready for unrelenting AI disruptions?
+ Are you applying AI simulation
+ to your most critical business decisions?
+ Are your business application vendors
+ keeping up with hyper-specialization
+ driven by agentic AI?
+ Gartner analysts provide answers
+ to those questions and more.
+ Gartner covers every AI technology
+ and priority with in-depth insights
+ for your entire AI journey.
+ And they cut through the hype.
+ Find out how they can help.
+ Visit them at gartner.com slash AI to learn more.
+ Here's why most legacy modernization projects fail.
+ The AI doing the work
+ can't understand code bases at scale.
+ It sees a small slice of context,
+ examine syntax,
+ and misses years of decisions
+ distributed across the global application ecosystem.
+ Blitzy solves this the way it solves everything.
+ Grounded in your code
+ before any migration begins
+ Blitzy's agents reverse engineer
+ the entire legacy system
+ into a persistent knowledge graph.
+ Every dependency, every constraint,
+ every piece of tribal knowledge
+ that used to live in one engineer's head.
+ From that understanding,
+ Blitzy autonomously executes language migrations,
+ framework upgrades,
+ and monolith to microservices transformations
+ all validated end to end.
+ One Blitzy customer modernized
+ a $10 million monolithic insurance stack
+ in 16 weeks
+ against a 137-week baseline with coding agents.
+ That's 9x compression.
+ Retire technical debt
+ while accelerating your roadmap.
+ See how at Blitzy.com.
+ That's blitzy.com.
+ Question 4.
+ Isn't AI destroying the environment?
+ I will say
+ that if there is any question on this list
+ that I would advocate for slamming down
+ as many facts as you can
+ to counteract the common perception,
+ it would be this one.
+ The social media memes
+ about how much water AI uses
+ have been driven by scary large numbers
+ that have no actual context.
+ People don't seem to realize
+ that U.S. golf irrigation
+ represents around 30 times
+ the water volume consumed on site by data centers.
+ Nor that if you ask AI 10 questions a day
+ for an entire year,
+ even using the high end
+ of consumption estimates for chatbots,
+ that entire year would add up
+ to about one handful
+ of almonds worth of water.
+ Also, in general, I don't believe
+ that people have a good understanding
+ of how much cleaner
+ and more energy efficient on average
+ a data center is
+ versus basically any historical industrial center
+ that might have taken up location
+ in the same spot.
+ What this doesn't speak to, however,
+ is specific,
+ non-generic localized concerns
+ that have to do with existing
+ or proposed data centers
+ and their actual impact locally.
+ I do not at all think
+ that any of those conversations
+ should be verboten
+ and I think it's important
+ as a broader cross-section
+ of people is invited
+ into the AI conversation
+ to have a stake in this future
+ to take seriously the concerns
+ about the local environment
+ that people have
+ when data centers come
+ anywhere near them.
+ But yeah,
+ if you're going to slap down
+ any of these ideas,
+ the idea that somehow AI
+ is destroying the environment
+ is a good one to pick.
+ Question five,
+ isn't this all a bubble?
+ This one might be particularly pointed
+ right now,
+ given broader trends
+ and fluctuations in the market
+ and what it looked like
+ it was doing right after
+ the anthropic IPO
+ before Jensen was brought back
+ to NVIDIA,
+ these are complex economic questions
+ and they get more intense
+ because no one can claim
+ to know the future.
+ What's worth discussing
+ is that very few people
+ except the people who make
+ their living by going on TV
+ and saying that AI is a bubble
+ and any other thing
+ that they can critique
+ to be invited back,
+ there are very few people
+ who argue that AI isn't useful,
+ isn't powerful
+ and isn't going to change
+ the work we do
+ and how we do it.
+ The bubble question ultimately
+ is a math question
+ that comes down to the relationship
+ between the speed of growth
+ for demand for AI,
+ the amount that the companies
+ that are selling that intelligence
+ can charge for it
+ and how that compares
+ on the other side of the equation
+ to the amount that they are spending
+ on the infrastructure build out
+ to provision that intelligence.
+ So the denominator in this equation
+ is the amount being spent
+ on the build out
+ multiplied I guess
+ by the relative strength
+ of the way that that is getting funded.
+ In other words,
+ in the first phase of the build out
+ it was being funded
+ off of hyperscalers balance sheets.
+ It is now increasingly funded by debt
+ which creates more types of risk
+ because if debt gets defaulted on
+ it doesn't just hurt the hyperscaler
+ it could actually flow through
+ to other parts of the economy
+ transmitted by the financiers
+ who are negatively impacted
+ by that debt
+ not coming back to them.
+ So that's on the bottom of the equation.
+ On the top like I said
+ you have overall demand growth
+ multiply by how much the companies
+ can charge for it.
+ This is why people are extremely
+ focused on things like the concentration risk
+ where a significant portion
+ of the revenue of companies
+ like Anthropic and OpenAI
+ seems to come from a small handful of buyers
+ and it's why people focus so much
+ on the open Chinese models
+ concerned that competitive pressure
+ from below
+ will undermine the ability
+ for the labs to charge a premium.
+ This is one of those conversations
+ where I don't think the answer
+ is to claim firmly
+ and try to convince people
+ that there is or isn't a bubble.
+ As I've said before
+ I actually think that more people
+ acting like this is a bubble
+ decreases the likelihood
+ that the bubble inflates too much
+ to have a catastrophic problem.
+ This I think is one of the reasons
+ that people are upset
+ about Trump's intervention in NVIDIA
+ is that Jensen's leaving
+ was a perfect excuse
+ to reprice the whole industry
+ before it got so out of hand
+ that the bubble popped violently.
+ Instead of trying to convince people
+ one way or another
+ I think this is one
+ we're just getting us all up together
+ on what we're actually talking about
+ so we're using similar terms
+ is the valuable thing to do.
+ Question six
+ who's actually in charge of this?
+ I think this is one of the questions
+ that is easiest to invite people into
+ and find common ground around.
+ I don't know just about anyone
+ from any party
+ who's particularly thrilled
+ about the level of control
+ that a CEO like Sam Altman
+ or Dario Amade is going to have
+ given how integral their product is
+ to the future.
+ Now a lot of folks feel like
+ they're stuck between a rock
+ and a hard place
+ because they also don't necessarily
+ think that the U.S. government
+ either as it's currently constituted
+ or just in general
+ is in a particularly better position
+ to manage all of this
+ but I believe that broadly what you're seeing
+ is a demand
+ for more democratic involvement
+ in the key decisions
+ about the future of the industry.
+ Because the future of this industry
+ is the future that we share.
+ I would in fact highly encourage people
+ to be loud
+ with their friends,
+ their peers
+ and their elected representatives
+ around what their demands
+ and expectations are
+ about who should actually be
+ in charge of this
+ and what that even means.
+ Question or claim seven
+ this is actually a fun one
+ and one that I'm seeing less and less.
+ I think at the beginning of AI
+ as with any new technology
+ you had lots of folks who thought
+ I'm too old for this
+ I don't need it
+ it doesn't really fit any of my use cases
+ what am I going to do vibe coding?
+ But in point of fact
+ I have actually recently seen
+ kind of a reverse trend
+ where many of the older folks
+ I know around me
+ call it 65 plus
+ have found things like chatGPT
+ to be incredibly useful.
+ The pattern that I'm seeing
+ is that one person
+ in a group of friends
+ or a community
+ has a grand kid
+ is lamenting the fact
+ that they don't have any idea
+ what some health insurance form
+ or something like that means.
+ They happen to have a grand kid
+ who's up on the latest technology
+ who helps them scan it
+ into chatGPT
+ and all of a sudden
+ they can understand this thing.
+ Well they start applying that
+ to all the other sorts of forms
+ and bureaucratic processes
+ that are a part of life
+ and they start to tell their friends
+ about it too.
+ And because they have been around long enough
+ and have heard the world
+ is ending so many different times
+ for so many different reasons
+ without it ever really seeming
+ to finish that job
+ they are a little bit less inclined
+ to take some of the more frantic concerns
+ so seriously that they don't actually engage.
+ Yet for the older folks around you
+ who haven't experienced this yet
+ figure out if there are
+ any parts of their day to day life
+ or their week to week life
+ that are confusing or overwhelming
+ and see if something like chatGPT
+ or Claude can help them.
+ That's one where you don't have to
+ convince people at all
+ you just have to show them
+ what it can do.
+ Question eight
+ can I trust what it tells me?
+ I'm mostly going to skip
+ for the sake of time.
+ I think that what can be discussed
+ here is the fact
+ that while people still often
+ operate like hallucinations
+ are the same types of problems
+ that they were a couple of years ago
+ which absolutely is not the case
+ it is always worth viewing
+ anything that an AI says
+ with skepticism
+ and trying to find a process
+ to check its veracity.
+ Question number nine
+ is it making us all dumber?
+ To me this is very similar
+ to the education question
+ where the answer is
+ it certainly has the potential to
+ but it also has the potential
+ to make us much smarter.
+ The question is how we choose to use it
+ and what we choose to do with it
+ and it starts with not just accepting
+ that this thing is going to do
+ all our thinking for us.
+ The next question is a fun
+ extended version of that
+ what should my kids study now?
+ This is another great debate
+ given how much for the last decade
+ everyone said that kids should get
+ into software engineering
+ and how now people are wondering
+ if that was the right call.
+ I am fortunate at this stage
+ that my kids at five and eight
+ are young enough that we are still
+ very much on the fundamentals
+ which remain important
+ even with incredibly powerful AI
+ and I don't envy the folks
+ either the parents or the kids
+ who are heading into college right now
+ in this moment of incredible insecurity.
+ I don't feel comfortable prescribing
+ a specific type of path
+ because I worry that things that seem obvious
+ won't actually be how they play out
+ and so to the extent
+ that I'm left with anything
+ it is not so much a dismissal of STEM
+ but a relative increase
+ in the perceived value of one
+ a general arts education
+ that is about how to think
+ and how to write
+ not in the sense of having great pros
+ but in the sense of constructing
+ an argument and constructing a narrative
+ of social skills
+ like how to interact with
+ get along with and manage
+ people be a part of teams.
+ Like I said I don't think
+ that this means that engineers
+ should all of a sudden be philosophy majors
+ but I do think that the parents
+ of philosophy majors
+ might feel a little bit better
+ than they did a couple of years ago.
+ Let's do three more kind of quickly
+ could it actually go rogue and hurt us?
+ This is one where I cannot prescribe
+ exactly what you should say
+ but for me there are a few parts of my answer
+ and they come down at the simplest level
+ to the deficiencies in the predictions
+ of AI related doom.
+ First of all
+ those predictions to me
+ don't do a good job of explaining
+ how all of a sudden
+ these tools are going to somehow
+ develop some intent
+ that would make them want to hurt us.
+ Yes there are fanciful scenarios
+ from long before chat GPT even existed
+ of some AI being so committed
+ to its mission that it decides
+ that our atoms are better used
+ for making paper clips
+ than for existing
+ but there is vanishingly little effort
+ to actually explain
+ where this murderous intent would come from.
+ The entire fact of intent
+ relies largely
+ implicates another argument
+ about AI consciousness
+ which I also think
+ don't have any basis that we've seen.
+ The next part of the doom prophecies
+ that I have a problem with
+ is that they all sort of rest
+ on the idea that either
+ A we will so blindly
+ and obliviously walk into the future
+ that we offer no resistance
+ and no attempt to circumvent these things
+ or else they're so tricksy
+ that they somehow figure out
+ behind the scenes
+ after they've grown this intent
+ to want to hurt us
+ how to do it all out of plain sight
+ without any of us noticing
+ until it's too late.
+ Call me crazy
+ but I think humans like being alive
+ and you better believe
+ we're going to kick up a storm
+ if something starts to threaten that.
+ I know some of you find it
+ pollyannish when I say things like
+ the fact that our discourse
+ about how to deal with these risks
+ has increased dramatically
+ in proportion to the capability
+ of the models
+ and thus the credibility of the risks
+ but that is exactly
+ the type of acceleration
+ of our paying attentionness
+ that the doom scenarios don't account for
+ and lastly what I would say
+ to acknowledge that there are real concerns
+ is that I think that all of this
+ ex-risk discussion
+ is wildly distracting
+ to more here and now risks.
+ Our cybersecurity systems
+ are intensely brittle
+ and as we've seen
+ the systems that are used to manage
+ somewhat important things
+ like air traffic control
+ are wildly outdated.
+ AI does present a challenge
+ for that infrastructure
+ and one we do need to tackle head on
+ and while the AI safety crowd
+ as often it seemed to me
+ been taking a victory lap
+ around the cyber threats
+ I would argue
+ that they have been a net hindrance
+ to cybersecurity
+ by focusing too much
+ of people's attention
+ on these dire doom scenarios.
+ Now the reasonable response
+ from the safetyists
+ is that these things
+ are not mutually exclusive
+ and you can be worried
+ about all things at once
+ and certainly some of them are
+ but society only has so much attention
+ media only has so much space to fill
+ and politicians only have
+ so much power to move things through
+ so while the safetyists
+ may be allowed to be concerned
+ about everything all at once
+ as a society
+ we do have to make some prioritizations
+ and while I think not completely ignoring
+ all of the ways that AI could go rogue
+ quote unquote
+ is wise
+ I think more of our attention needs to be
+ on problems that are right here
+ and right now
+ are we in a race with China
+ and doesn't matter who wins
+ you know what
+ I'm just going to have to leave that one
+ for another show
+ because it is so immense
+ I guess what I would say
+ is one thing that might be valuable
+ to help people understand
+ is at least the two perspectives
+ when it comes to this recent Jensen issue
+ there are two distinct
+ and in some ways
+ diametrically opposing views
+ when it comes to national security
+ vis-a-vis China
+ that still both start from the fact
+ that we are in a race with China
+ and it does matter who wins
+ on the one hand
+ you have the export control folks
+ Anthropic has long been a key example of this
+ who think that it is absolutely ludicrous
+ and insane
+ if GPUs are the key ingredient for AI
+ to sell those GPUs
+ to this country
+ that we view as an enemy
+ when it comes to this particular issue
+ then on the other side
+ is the Jensen long view
+ which is basically that
+ keeping Chinese companies addicted
+ to American made GPUs
+ that we are only dribbling in a controlled supply of
+ a couple generations behind our GPUs by the way
+ is a better strategy for winning that race
+ because it will discourage
+ the development of a domestic industry
+ without laying claim to either one of those sides
+ I think that it is important to point out
+ that broadly speaking
+ the discourse is not about
+ whether we're in a race with China
+ and whether it matters who wins
+ but instead about
+ what the right way to achieve those aims are
+ last topic of discussion
+ and the one that I think has the most potential for fun
+ is not about any of these big debates
+ but just about showing them
+ all the awesome things that you use AI for
+ and all the cool things that you've built
+ people's unlocking experience tends to be
+ when they feel the power of Gandalf run into them
+ because all of a sudden
+ they can do this thing
+ that they never imagined possible
+ sometimes it's going to be really simple
+ building their new small side project business
+ a website
+ and having it look awesome
+ and do everything they needed to do
+ those are incredibly empowering experiences
+ and I think give a better basis
+ to have all of those hard conversations
+ that we've just gone through
+ once people have had them
+ so anyways friends
+ that is my episode
+ about how to talk about AI at Thanksgiving
+ I trust no one more than all of you
+ my AI DB listeners
+ to be great at this
+ and so I am so excited for you
+ to go invite all of the folks
+ including the died in the wool skeptics
+ into this important conversation
+ that will affect all of us
+ for now however
+ that's going to do it for today's AI Daily Brief
+ I appreciate you listening or watching
+ as always
+ until next time
+ peace
+ you
