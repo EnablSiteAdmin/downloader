@@ -1,0 +1,319 @@
+ Hello friends and happy Thanksgiving.
+ Today, we are off from our normal AI Daily Brief episodes and so in lieu of an episode,
+ I thought it'd be fun to share an excerpt from the latest episode of How We Got Here.
+ For those of you who have somehow missed it, How We Got Here is my new longer form show.
+ It is a weekly 45 minutes to an hour every week going deep on the cultural, social, political,
+ economic history that led to today's most important phenomenon, occurrences, etc.
+ So far I've talked about how tech lost America, a 15 year process where tech went
+ from the most trusted industry in America to very much not.
+ We've talked about why stuff seems to keep getting cheaper,
+ while everything that's important gets more expensive.
+ I made an argument for why GTA represents America.
+ And finally this week we took a deep dive on the history of Anthropic
+ and how it went from a little safety-focused spinoff to one of the world's most important companies.
+ I wanted for a while to give you guys a flavor for how much deeper we can get in the How We Got Here episodes
+ and I figured that this was the perfect one because if you are here for the AI Daily Brief,
+ this is pretty much right on topic anyway.
+ If you do like this, I would be ever so appreciative if you go follow, subscribe,
+ wherever you listen to podcasts.
+ Again, it's How We Got Here with NLW and of course there will be a link in the show notes.
+ For now, enjoy chapters 2 and 3 of the most recent episode,
+ How Anthropic went from AI safety outcast to the world's most important company.
+ Chapter 2, The Early Years
+ Anthropic did not start out as the juggernaut it became.
+ The company's staff meetings happened in Prasita Park on the north slope of San Francisco's
+ Bernal Hill.
+ It was the middle of the pandemic so they brought laptops and folding chairs and sat 6 feet apart.
+ They went through a bunch of different names for being too esoteric or requiring too much background knowledge
+ to really understand.
+ But eventually Jared Kaplan suggested Anthropic from the Greek word for human
+ and the domain name was available so Anthropic they became.
+ They seriously considered becoming a non-profit.
+ To escape the commercial pressure they believed had bent open AI.
+ When they came to the conclusion that they couldn't raise enough money or hire the best people that way,
+ they instead became a public benefit corporation with a trust that would eventually choose most of its board.
+ Dario's plan in a memo called vision for a new co was a lab of no more than about 50 people
+ who would build a model as good as GPT-4, then a coding assistant, then AGI or artificial general intelligence.
+ An AI system that could perform as well or better than humans at most professional domains.
+ He asked every co-founder to pledge 80% of their equity to charity.
+ While initially some thought about haggling, co-founder Tom Brown summed up the logic of
+ why not to bother saying this will either be a trillion dollar company or a zero dollar company.
+ Whatever their business structure, in the minds of the founders they were first and foremost a
+ research lab. Their first announcement with their funding round in May 2021 called it an
+ AI safety and research company working to build reliable interpretable and steerable AI systems.
+ And talking about money in those early days was basically haram.
+ Several co-founders Dario included had explicitly ruled out commercializing anything.
+ An early employee said some people thought they shouldn't make money at all
+ because AGI might be so soon. Everyone was extremely indecisive and they didn't run things
+ like a business. When they did discuss making money, the ideas showed how badly they wanted
+ to avoid a product. They talked about licensing the model to non-profits or running an AI-powered
+ hedge fund. The work itself was safety research on a large model of their own,
+ trained on chips rented from Amazon. Chris Ola's team tried to reverse engineer
+ what was happening inside the models, publishing a mathematical framework for
+ transformer circuits in December 2021. Amanda Askell, a philosopher who had taught herself
+ to code, led work on what an aligned AI should even be. In 2022 came papers on training an
+ assistant with human feedback, on attacking their own models to find out what could go wrong,
+ and on their vision for constitutional AI, a way to train a model to follow a written set of
+ principles. None of it was a product and all of it needed a large model to work on,
+ meaning that to do any of it, they needed money. And at first no one wanted to give it to
+ them. The VCs they approached understandably pointed out that not only did they have no
+ product, but that their team wasn't clear that they ever wanted to make a product.
+ Eric Schmidt, Google's former CEO, thought their ideas were vague and their 50-person cap
+ unrealistic, but decided they were good scientists and invested. The rest came from
+ the safety movement. In May 2021, Anthropic announced a $124 million Series A, led by
+ Skype co-founder Jan Tallinn with participation from Dustin Moskowitz. In 2022, their biggest
+ check came from the most famous effective altruist in the world, Sam Bankman Freed.
+ The founder of the Hedge Fund Alameda Research and the High Flying Crypto Exchange FTX
+ offered $500 million for about 13% of the one-year-old company,
+ and the money came with no board seat or other strings. While Dario was nervous about
+ taking that much crypto money and that much money from a single investor, they needed
+ money and he took it. In early 2022, their model finished training, and they turned it
+ into a chat bot so they'd have something to study. They named it Claude after Claude
+ Shannon, the father of information theory. On February 4th, 2022, they switched it on in
+ a Slack channel for employees, and by the fall, a few dozen testers had access through a simple
+ webpage the team built to collect research data. The people closest to it were in all
+ what they'd made, but they chose not to release it for fear, as Dario told it,
+ of triggering a race to build bigger and perhaps more dangerous AI systems.
+ Dario would later say, I suspect it was the right thing to do, but it's not totally
+ clear cut. Then came November 2022. On November 11th, the FTX filed for bankruptcy,
+ and Anthropic's biggest investor turned out to be running a fraud. Sam Bankman Freed had
+ been funding bets at his trading firm with FTX customer's money. It hit Anthropic in more ways
+ than one. First, they had already spent most of the $500 million dollars. And executives didn't
+ know if it would be Claude back in the bankruptcy. They were also worried whether any future investors
+ would back a company whose largest shareholder was a fraud. On top of that, there were the
+ implications for the movement that they were at least relationally a part of.
+ SBF was the most famous effective altruist in the world. The face of getting rich in
+ order to give it away. After the collapse, he told a Vox reporter, however, that all of
+ his ethics talk had been a dumb game we woke Westerners play. Everything tied to effective
+ altruism became suspect, and Anthropic was deeply tied to it. Many early employees were EAs,
+ and its first money came from EA donors. Some employees wanted to publicly disown
+ effective altruism, but co-founder and comms leader Jack Clark told them to lie low. No
+ tweets, no statements, no soul searching blog posts. If Anthropic got pulled into the
+ FTX story, he told them it could kill the company. The Anthropic stake would sit in the
+ bankruptcy estate until 2024, when it was sold for about $1.3 billion. Although it was
+ chopped up and sold for parts, analysts estimate that had it been kept together,
+ that stake would have been worth $40 billion or more at the time of the IPO.
+ 19 days after FTX filed for bankruptcy, OpenAI released chatGPT, ironically in response to a
+ rumor that Anthropic was planning to release a chatbot. Even after deciding to push it,
+ OpenAI had low expectations. Employees bet on how many people would show up,
+ and most guesses were between $10,000 and $50,000, although Altman reached with a guess of a million.
+ Everyone knows the story from there. ChatGPT took 5 days to reach that million users,
+ and by January it had an estimated $100 million, the fastest growing consumer app anyone had ever
+ seen. The chatbot Anthropic held back so that it wouldn't start a race had helped start
+ one anyway. In January 2023 at a company offsite, Dario told his staff that ChatGPT
+ had kicked the race into high gear, saying it will never be chill again. Some employees
+ wanted to stay out of it, to put Claude on ice and stick to safety research.
+ Dario argued the opposite. If Anthropic sat out, the frontier would belong to labs that cared less,
+ and the research it believed in needed frontier models that cost billions,
+ which only a product could pay for. It's sad that we have to make this trade off, he said,
+ but it's going to be worth it. What followed next was a year of catching up.
+ On March 14th 2023, Anthropic launched Claude. Summing up what the state of things
+ would be at least for a little while, that happened to be the same day OpenAI released
+ GPT-4. GPT-4 was the best model in the world, and ChatGPT already had the users.
+ Still, Anthropic's ambition was getting bigger by the day. A fundraising deck leaked that spring
+ described Claude next, a model that would be 10 times more capable than today's most powerful.
+ Despite being distinctly behind, there were moments when Anthropic poked its head up.
+ In May, Claude expanded the boundaries of how much information in AI could interact with it
+ once, announcing a 100,000 token context window, 100,000 tokens is about the length
+ of a novel and to demonstrate the change in capability, Anthropic tweaked one line of the
+ Great Gatsby and Claude found it in 22 seconds. The money in the compute came as well.
+ In September, Amazon committed up to $4 billion, and in October, Google committed $2 billion.
+ Then there was the chaos of November, when OpenAI's board fired Sam Altman.
+ In the very small window where they were trying to figure out what the heck came next,
+ they replaced Dario about replacing Altman and possibly merging the two companies,
+ but of course Dario and Anthropic said no and Altman was back within five days.
+ Still for the public at that time, AI meant chat GPT.
+ Chapter 3 How Anthropic Passed OpenAI
+ The beginning of the shift came in June 2024, when Anthropic introduced Claude 3.5 Sonnet.
+ To understand why, you have to understand what we're actually talking about when we talk about
+ AI. For most people, AI is a chatbot. It's a better Google. Ask a question,
+ get an answer instead of a page of links. It makes the meme for the group chat, cleans up the
+ email to the landlord, or explains what the lease actually says. Those uses are real,
+ they are useful, but they're not where the money is. And Anthropic is the proof.
+ By most estimates, Claude's consumer app has only about 5% as many users as chat GPT,
+ and yet Anthropic still passed OpenAI on revenue. The money is in work,
+ and the first kind of work AI got really good at was writing software.
+ Turns out, coding wasn't a use case, it is the use case. It had been one of the major
+ dreams since the very beginning of generative AI. To use it to actually write code, or rather,
+ to have code write itself. In January 2023, two months after chat GPT had released,
+ founding member of OpenAI and Tesla's former head of AI, Andre Carpathy,
+ put it in a single line. The hottest new programming language is English.
+ The reasons code came first are actually pretty numerous. Software runs nearly
+ everything and programmers are some of the most expensive workers in the economy.
+ Even a slice of their work is an enormous market. Also, code can be checked.
+ You run it and see whether it works. Which makes it an ideal thing to train a model on by
+ trial and reward. And of course, from the lab's perspective, a model that writes code
+ can help write the next model. And the AI-ification of coding
+ actually started even before chat GPT. In June 2021, GitHub launched Co-Pilot,
+ built on an early OpenAI model and billed as your AI pair programmer.
+ It was basically fancy autocomplete and suggested the next few lines as you typed.
+ Then, of course, came the chat window. After chat GPT launched, millions of programmers
+ pasted their code into the chatbot, asked what was wrong, and pasted the answer back.
+ A person was still doing the job, they just had a very good assistant now.
+ The dream, though, was to hand off the whole job. Around the time I started this show,
+ in April of 2023, the hottest topics and the first ones that ever got popular on YouTube
+ were about AI-assisted coding. Things like BabyAGI, or GPT engineer,
+ which was the earliest incarnation of what would eventually become lovable.
+ In March 2024, a startup called Cognition announced Devon,
+ promising the first AI software engineer the demo went viral.
+ But the problem was, once people got their hands on these tools,
+ they just weren't quite good enough. In early 2025, researchers at answer.ai
+ gave Devon 20 real tasks over a month, of which you could only finish three.
+ The momentum and scaffolding for AI agents was getting built,
+ but it was missing a model good enough to drive it.
+ Anthropic had been aiming at code from the start.
+ Dario's 2021 master plan for the company, that memo, called Vision for a Newco,
+ put a coding assistant second on the list, after a model as good as GPT-4 and before AI.
+ Kevin Ruse called Anthropics 2024 push into coding a prescient bet,
+ and one of the reasons was about Anthropic itself.
+ Every gain in that domain made Anthropics own engineers faster.
+ By March of 2024, Claude III had roughly caught up with GPT-4.
+ But at that point, that model had been out for nearly a year.
+ The big change came in June, when Claude's 3.5 sonnet pulled ahead on code,
+ with the people who wrote code for a living going absolutely bananas for the model.
+ AI engineer Shibam Sabu wrote,
+ coding with Claude 3.5 sonnet is 10x more efficient than GPT-4.0 or any other LLMs out there.
+ Enterprise AI consultant and thought leader Ali K. Miller wrote,
+ This is wild. She'd given it one screenshot of a board game's instructions,
+ and in 25 seconds it coded a working game of Mancala.
+ Another user the next day wrote,
+ Claude 3.5 sonnet is giving off AGI vibes.
+ The software engineer Dan Coren after building a game with it wrote,
+ I think it's the best model I've used to write code.
+ All of that came out within days of the model being released,
+ and over the next few months the praise grew even more.
+ Importantly, the power of these models was also starting to reach beyond the software engineers
+ to people who had never written code.
+ In September of 2024, Replet launched an agent that built whole apps from a description,
+ running of course on Claude 3.5 sonnet.
+ The company's annual recurring revenue went from 10 million at the end of 2024
+ to more than 100 million by June 2025.
+ A lovable, a sweetest startup that turned a plain English description into a working app,
+ passed 100 million in ARR eight months after launch.
+ It passed 200 million by the end of 2025, 300 million in January 2026,
+ and 400 million just a month later in February.
+ In February of 2025, Carpathy gave the new way of working its name,
+ vibe coding.
+ As he put it, fully give in to the vibes, embrace exponentials,
+ and forget that the code even exists.
+ Why this mattered as we'll see is that while coding and software engineering is an enormous market,
+ it is still one small slice of knowledge work.
+ But as knowledge workers who were not engineers started to use these vibe coding tools
+ to change the way they did their jobs,
+ it put a much bigger set of knowledge work into the total addressable market for AI.
+ Now, a harness is an application that you run a coding model through,
+ and the harness that took all of this momentum for this started as a side project inside Anthropic.
+ In the fall of 2024, an engineer named Boris Cherney hooked Claude up to the command line
+ on his laptop and let it read files, write files, and run programs.
+ To test it, he asked what music he was listening to.
+ Claude wrote some code to look inside his Spotify window and answered,
+ you're listening to Husk by Men I Trust.
+ Great song!
+ Cherney said, this was the first time where I was like, oh, it can just do anything.
+ Within two months, 40% of Anthropic's engineers were using it as their main coding tool.
+ Anthropic released the experiment as Claude code, a research preview in February 2025.
+ A couple months later in May, they expanded its access to everyone alongside the release
+ of the model Claude 4.
+ The next big jump, and what I have argued is the most significant moment
+ in AI product history since chat should be tea,
+ came when Anthropic released Claude Opus 4.5.
+ It actually took about a month in the holiday break before people realized
+ just how much had changed.
+ An engineer handed it a task that would have taken him months
+ and reported, I went to native burrito, I came back and it was done.
+ Majority founder David Holes wrote,
+ I've done more personal coding projects over Christmas break than I have in the last 10 years.
+ It's crazy.
+ I can sense the limitations, but I know nothing is going to be the same anymore.
+ His words proved prophetic.
+ A San Francisco venture capitalist, Nekun Shkothari,
+ started to notice token anxiety among his friends.
+ He reported that dinners that used to start with, what are you building?
+ Now started with, how many agents do you have running?
+ All of this picked up incredible steam as people came back from the holiday
+ and to New Year's resolutions full of AI mastery.
+ On January 17th, the Wall Street Journal immortalized the moment in the article,
+ Claude is taking the AI world by storm and even non-nerds are blown away.
+ People called it getting Claude piled and coders that spent the holidays on a quote unquote
+ Claude bender.
+ At Davos that month, Dario said that AI could be doing most or all of the software
+ engineering end to end within six to 12 months.
+ And by the end of January, people at both Anthropic and Open AI were saying that close
+ to 100% of their own code was written by AI.
+ Also in late January, a personal agent called Claudebot went viral.
+ After a trademark notice from Anthropic, it changed its name twice in a week,
+ landed on Open Claw and became the most popular project on GitHub by mid-February.
+ News reports about Open Claw Mania, where people were setting up personal agents
+ to use the power of code to do all sorts of different things,
+ defined the next few months, and it completely changed the broader world's
+ understanding of what the business model of AI actually was.
+ To understand that business model, we have to differentiate between assisted AI
+ and agentic AI.
+ Assisted AI is AI you use to do things.
+ You ask, get answers, you do the work.
+ Agentic AI is AI that does things for you.
+ You hand it a job and it goes and does it.
+ A person with a chatbot is limited by how many questions they can type and
+ their own time.
+ An agent theoretically has no such limits.
+ It breaks a job into pieces, spins up other agents to handle each piece,
+ checks its own work, and keeps going while you sleep.
+ Every one of those steps uses tokens, which are the units AI companies charge for.
+ Now in mid to late 2025, the AI companies started to sign big data center deals
+ to expand the compute capacity that they had access to.
+ At first, the markets were very excited about this,
+ but as the size and number of the commitments started going up,
+ as the hyperscalers, which had always been defined by their massive free cash flow,
+ started to use more and more of that for catbacks in the AI build out,
+ markets started to get concerned.
+ The math which does and will define the AI market is actually pretty simple.
+ Does the amount of AI demand and the amount of money that they can charge for that demand
+ grow fast enough to match the amount that they're spending on compute and infrastructure?
+ The problem with that math to many investors in late 2025
+ was that it wasn't matting.
+ They were looking at the total addressable market of AI
+ as the total number of people who could have subscriptions
+ and the total cost of those subscriptions.
+ The problem with this per seat model is that a seat is one person in one subscription
+ and there are only so many people sold by the seat.
+ Even a power user is still only making anthropic about $30 a month.
+ But once you move from assisted AI to a genetic AI
+ and you start selling not by the seat, but by the underlying unit, the token,
+ all of that changes.
+ I, for example, am just one person and I'm making anthropic and open AI thousands of dollars a
+ month, a company with 10 engineers each running 50 agents
+ that at any given time might be running hundreds or thousands or even tens of thousands of subagents
+ is buying something very different from just 10 seats.
+ Wall Street tried to catch up as quickly as it could.
+ It stopped talking about an AI bubble in the same way as the same way it had in 2025,
+ but new fears came along.
+ One of them was the SAS Pocalypse.
+ The idea that coding models were now so powerful
+ that any company could roll its own versions of the software it used to rent
+ which would make software as a service irrelevant.
+ In the first week of February 2026,
+ after Anthropoc released a set of plugins for co-work,
+ its slightly simplified version of Claude Code it had made for non-coding knowledge workers
+ and released in January, more than a trillion dollars in value came off software stocks.
+ The Wall Street Journal again called it,
+ the weak Anthropoc tanked the market and pulled ahead of its rivals.
+ The new focus on coding and the shift to selling AI by the token rather than just
+ by the seat started to show up in Anthropoc's revenue.
+ In January of 2024, Anthropoc's run rate revenue was about $87 million.
+ By the end of that year, it had jumped to $1 billion.
+ By the end of 2025, that number had jumped to $9 billion.
+ By the end of February 2026, $14 billion.
+ And by the end of April 30 billion and by the end of July, $65 billion.
+ Dario said that growth ran around eight times faster than the company's own forecasts.
+ Now the devotion to Anthropoc's coding models
+ started to show up in their enterprise business in the middle of 2025.
+ In fact, by the middle of 2025,
+ Menlo found that Anthropoc was actually consuming 32% of company's AI model usage
+ as compared to OpenAI's 25%.
+ In coding, the gap was bigger, with Anthropoc doubling OpenAI at 42%.
+ By April of 2026, driven by the growth in Agented Coding Revenue,
+ Anthropoc, which had spent the last three and a half years
+ in some way, shape, or form catching up,
+ was now booking more revenue than OpenAI.
+ And yet, if coders, businesses, and Wall Street were taking notice of Anthropoc,
+ so too was the U.S. government.
