@@ -1,0 +1,403 @@
+ AI is officially in a new era, and as some Democrats in the Senate prepare to put forth
+ no AI bailout legislation, it's worth talking about where AI sits in our list of national priorities,
+ why it might already be too big to fail, and why any sort of bailout of AI companies is very
+ unlikely to look like anything that happened in the global financial crisis 15 years ago.
+ The AI Daily Brief is a daily podcast and video about the most important news and discussions
+ in AI.
+ All right friends, quick announcements before we dive in. First of all, thank you to today's sponsors,
+ KPMG, Robots and Pencils, Granola and Blitzy. To get an ad-free version of the show,
+ go to patreon.com slash aidailybrief, or you can subscribe on other podcasts.
+ And if you want to learn more about sponsoring the show,
+ send us a note at sponsors at aidailybrief.ai.
+ Today we are discussing this emerging political and economic moment for AI.
+ We've got the confluence of a number of events. First, you have the Democrats coming to power in
+ the midterm elections, at least part of which was a reaction to AI and data centers specifically,
+ and more broadly, had to do with questions of cost of living, which certain parts of
+ AI are tied up with. And even more than that, the number one issue that people said
+ was affecting their votes was corruption. So that's one thing. The Dems figuring out
+ exactly what policies they're going to pursue and how, and what to put first on the agenda.
+ Second, you have a new moment in the economic history of AI,
+ with Anthropic being the first model lab to go public. That has brought with it a way for the
+ American public to have exposure directly into the model labs, but also, as was inevitable,
+ a lot more scrutiny of Anthropic. That scrutiny has recently taken the form of
+ uncomfortable questions of the relationship between the early investors who got rich
+ and the retail investors who are providing exit liquidity for them.
+ Third, you have big questions of power. If there were any doubt about the significance
+ with which AI is being viewed in the halls of power in Washington, President Trump and Vice
+ President JD Vance intervening so directly and so personally into the NVIDIA affair has made
+ it clear. And of course, although that is getting reduced to questions of corruption and
+ cronyism for many, going back to those newly empowered Democrats, it also brings up questions
+ of national security. All of which is to say, the stakes of AI have ratcheted up dramatically.
+ And in that environment, particularly surrounding the Jensen-Huang saga and the market chaos that
+ has followed it, it's reignited an old concern. The concern is that if the AI trade hits the
+ wall, tech companies will turn to Uncle Sam for a bailout. In fact, many are claiming that
+ Jensen's return in and of itself was a form of a government bailout. David Dayan writing
+ in The American Prospect argued that we're in a liminal period akin to 2006. The housing market
+ had already begun to fall, but the damage from a contagion that spread across the financial
+ sector was yet to be felt. Dayan wrote, During the financial crisis, we called this period
+ extend and pretend. Everyone in the markets had a basic sense that the jig was up,
+ but they squeezed out two more years with arranged buyers for the sickest companies.
+ Today, you need to prop up NVIDIA at all costs and keep its balance sheet
+ laden with outlays to its own customers. Jensen-Huang may be a walking accounting scandal,
+ but he's sure to do what's necessary to keep the bubble going.
+ Justin Slaughter, a Biden-era financial regulator turned fund advisor, said that this view is even
+ present among some tech executives. With one telling him, this was an AI bailout by any
+ other name. Slaughter added, I'm not even sure it's correct on the merits,
+ but I bet there are those in the White House who think of it as such.
+ This concern is not new. It last emerged around a year ago,
+ after OpenAI CFO Sarah Fryer said that the company could look into a government backstop,
+ which was to be clear her phrase, to help lower financing costs on their data center buildout.
+ Market commentators and the press ran with it, assuming that this meant that OpenAI was in
+ financial trouble and were teeing up a bailout. By the end of the week, Sam Altman came out
+ strongly against the idea, writing in an ex-post, we believe that governments should
+ not pick winners and losers and that taxpayers should not bail out companies that make bad business
+ decisions or otherwise lose in the market. If one company fails, other companies will do good work.
+ Now, that was one year and a trillion dollars in investment ago,
+ but the concerns this time around are more or less the same.
+ A concept from the global financial crisis is now being reinterpreted
+ and put in the context of AI and its executives.
+ Elizabeth Lopato of the Verge argued that Jensen had joined the club of elite impunity.
+ Bloomberg wrote about the rise of the too big to fail CEO, and this phrase is not just being
+ used by the critics. Said Sal Naro, chief investment officer at Coherence Credit Strategies,
+ the AI boom is too big to fail globally. The president and many other senior leaders made
+ a high stakes push for cooler heads to prevail and bring Jensen back. And yet,
+ as Democrats get ready to take power in the handoff at the beginning of next year,
+ some are trying to formalize a policy of not bailing out AI companies.
+ Specifically, Democrat Senator Adam Schiff is poised to introduce a resolution
+ to make it clear that Congress must not quote,
+ bail out corporations and wealthy investors taking speculative bets on the AI boom at the
+ expense of working families should the AI industry falter. This is a case that Schiff
+ started to make in a Wall Street Journal op-ed last week. Under the headline,
+ no AI company is too big to fail. The op-ed follows a now familiar path.
+ Our nation is in the midst of what will be one of the largest economic transformations in human
+ history, driven by rapid advances in AI and the corporations fueling their growth.
+ The technology has boundless potential to enhance our lives and expand our individual
+ and collective capacity. I.e., I want to make clear here that as a politician,
+ I am not against growth and progress, but there is a but coming, and the but for Schiff is,
+ but as the turmoil around Nvidia reminds us, this swift and massive investment also
+ carries significant risk that an industry downturn or a bubble could destabilize
+ the American economy. Given the risks to our economy and investors,
+ Congress must make sure that industry understands this. No company is too big to fail,
+ and in the event of a financial collapse of the tech sector, there will be no taxpayer-funded
+ bailout. Now, my political read on this particular theme is that if you blind-told
+ Republicans or Democrats that a member of their party had written this,
+ they'd probably be in agreement. Government bailouts for the banks
+ were some of the least popular policies of the 21st century,
+ no matter how much many of those who were in power at the time and made those decisions
+ have continued to defend it as completely necessary over the years. The idea that Schiff
+ articulates that losses from overbuilding AI should not be socialized among average taxpayers
+ would, I think, have broad agreement across political parties, which is not to say that
+ we have a perfect analogy here. For example, what a bailout of the AI sector
+ would actually mean in practice isn't exactly clear. During the financial crisis,
+ the bailout was Federal Reserve liquidity pumped into the major banks to keep them solvent
+ and stop the financial pipes from seizing up. The TARP program, which bought mortgage bonds
+ and other busted assets from the banks, totaled $443 billion, almost all of which was paid
+ back within a couple of years. It was a temporary liquidity program that gave banks the cash
+ they needed in a crisis, not a wide-scale purchase of devalued assets. An AI bailout
+ would inevitably look very different. Let's take the example that the worst happens.
+ Anthropic and open AI are facing bankruptcy as data center funding crawls to a stop.
+ If that were the scenario, to fix it, the government would need to buy equity to prop
+ up AI companies and fund data center commitments likely to the tune of trillions of dollars.
+ Considering how much GDP has grown since 2008, it might be a similar relative size to the
+ TARP program. But with US national debt already at 120% of GDP, there's a lot less
+ room for a massive bailout, and that is of course to say nothing of the political backlash
+ which would likely make the Tea Party and Occupy Wall Street seem quaint.
+ Now, just because that particular version of a bailout, where the government actually buys
+ a bunch of equity in these companies, isn't particularly likely, and also doesn't really
+ even make sense when we're talking about non-financial companies, it doesn't mean
+ the government will just let the AI industry fail. At this point, it is very clear that
+ the AI industry is perceived to be too big and too important to fail, and it has been for some time.
+ Let's go back to the Biden years, when AI policy began. Back in June of 2021, Ben Buchanan
+ joined the White House as the assistant director at the Office of Science and Technology Policy.
+ In 2023, he was appointed as special advisor for artificial intelligence
+ and shaped the AI policy that was rolled out later that year.
+ Buchanan's views were shaped around the same beliefs in AI safety that informed
+ many in an anthropics position at the time. In fact, many of Buchanan's staffers found
+ employment with anthropic in later years, and Buchanan currently serves as a policy advisor to
+ Anthropic. Already, even before the release of Chatchee VT, Anthropic was advocating for
+ stricter export control rules to slow down the progress of AI in China. One of the most
+ prominent AI policies that Buchanan helped shape was the 2022 export controls, which
+ banned the shipment of A100 and H100s of China. This was a headscratcher for those paying
+ attention, because in the pre-Chatchee VT days, the reasoning behind the sort of policy made little
+ sense to those who weren't deep in the AI safety community. Still, the Biden administration was
+ extremely hawkish towards China, so blocking their ability to build supercomputers
+ sounded like a good idea on its own. There was an attempt to ramp up chip
+ controls in the final days of the Biden administration with the introduction of
+ what was known as the diffusion rule. The diffusion rule separated the world
+ into three camps, U.S. allies, U.S. adversaries, and unaligned nations. Each group had separate
+ chip limitations. There would be no chips for adversaries, very few and strict licensing for
+ unaligned nations, and more fulsome access for allied nations. Many considered the rules to
+ be overly complicated and difficult to enforce, and it was never put into action. But the rule
+ spoke to a policy view that the export of AI chips needed to be controlled as if they were
+ one of the most important commodities on earth. At the time, 01 was the most advanced
+ model available and we were still a few weeks away from the deep-seek moment,
+ meaning that the idea that AI is too significant to be treated like normal enterprise didn't just
+ come for example in the post mythos period when models got really good. Buchanan is still very
+ active in public circles and actually weighed in on the Jensen return earlier this week.
+ In an interview with NPR, he was asked what he made of the direct involvement of
+ the White House, responding, I'm surprised. I was in the White House when Sam Altman had his
+ firing and reinstatement, and I got a lot of questions then about was the White House involved,
+ and our posture was we did not want to live in a world in which the White House had roles in
+ picking the executives of American companies. So it's certainly a departure from past
+ norms in that regard. But that conflicts with what critics have said of Buchanan's
+ perspective during the Biden years. Shortly after Trump was elected in 2024,
+ Mark Andreessen of A16Z described a meeting with young Biden staffers who were quote
+ radicalized and out for blood. He said, they actually said flat out to us,
+ don't do AI startups, like don't fund AI startups. Andreessen came away with the
+ impression that these staffers believed that the government should have control of AI,
+ and that only a small handful of companies that cooperated with the government
+ would be allowed to develop the technology. Buchanan has since refuted Andreessen's
+ versions of events, calling them simply false. And for the purposes of this show,
+ I have absolutely no interest in re-litigating this period of history.
+ The relevant point, as we are trying to understand AI and its too big to failness,
+ is that even during these very early days, even before a Republican administration,
+ there were many in the government that believed the AI industry was far too important to
+ leave to market forces. Perhaps their method of intervention was not in the form of
+ calling up Satya Nadella during the open AI crisis to tell them what they thought he should do,
+ but the governments imposed controls over the flow of chips was part and parcel of a
+ pervasive understanding that AI labs would be subject to strict government oversight if not
+ outright control. A new study from KPMG in the University of Texas at Austin found that
+ when people work with AI, similar skills don't guarantee similar outcomes.
+ Researchers studied more than 500 early career professionals and found that the best performers
+ consistently amplified the value of AI by guiding, evaluating, and refining its outputs.
+ These top performers, called AI amplifiers, weren't defined by what they knew alone,
+ but by how they worked with AI. Learn more about what separates
+ AI amplifiers from everyone else at kpmg.com slash us slash AI amplifiers.
+ The best teams don't have a single star carrying everyone else. They know their own strengths
+ than each other's weaknesses and play to both. That's the team Robots and Pencils has built on
+ purpose. Nobody there is grinding through busy work to pad a headcount number. People come for
+ the hard problems and they stay because everyone around them is leveling up at the same time.
+ In a market full of companies that are just trying to hire fast, that's worth a look.
+ Check out robotsandpencils.com slash careers.
+ You're in back-to-back meetings all day, you're trying to stay present,
+ but you're also worried you'll forget the decision, the action item, the important next step.
+ This is the scenario that we absolutely live here at the AI Daily Brief,
+ given how fast things move and change and how quickly we're evolving everything that we do.
+ That's where Granola comes in. Granola is an AI-powered notepad for meetings.
+ You jot down rough notes like you always do, and in the background,
+ Granola transcribes and turns them into clear, useful notes when the meeting ends.
+ No bots joining your calls, no distractions, just a clean notepad that helps you focus.
+ During or after the call, you can chat with your notes.
+ Ask Granola to pull out action items, help you negotiate, write a follow-up email,
+ or even coach you using recipes which are pre-made prompts.
+ Once you try it on a first meeting, it is very hard to go without.
+ Head to granola.ai slash ai-daily and use code AI-daily to get 100% off for three months
+ for new users. That's granola.ai slash ai-daily and code AI-daily to get 100%
+ off for new users for three months.
+ Blitzy's understanding of massive code bases unlocks autonomous security fixes,
+ modernization, and new features. So what happens when there's no legacy code at all?
+ Greenfield is supposed to be the easy part. Clean slate, no technical debt.
+ But even Greenfield moves at human speed once printed a time.
+ Blitzy changes the unit of work from the developer to the project,
+ autonomously planning, building, testing, and validating entire applications from scratch.
+ Hundreds of thousands of lines of production-ready code.
+ One Blitzy customer stood up a brand new application, 534,000 lines of code,
+ compressing a 65-week roadmap into two weeks.
+ Another shipped an entire application with no front-end engineer.
+ Legacy or Greenfield, the answer is the same. Software at the speed of compute.
+ Build what's next at blitzy.com. That's blitzy.com.
+ Fast forward to 2025. The AI accelerationists had taken over the White House.
+ The early days of the Trump administration's AI policy was defined not by something new,
+ but by tearing down what came before. Biden's AI executive order was rescinded,
+ and the diffusion rule was rejected. One of the very first press events at the White House,
+ in fact, was the announcement of the $500 billion Stargate project,
+ with Sam Altman, Masayoshi Sun, and Oracle founder Larry Ellison all in attendance.
+ The policy position, to the extent that there was one, was deregulation of AI,
+ and encouragement to build out AI infrastructure as quickly as possible.
+ One side effect of the deregulation era was the relaxation of financial regulation.
+ This year, the SEC reported their lowest enforcement numbers in over two decades,
+ roughly half the average for the Biden, Trump-1, and Obama administrations.
+ It might have gone relatively unnoticed in the AI industry,
+ but there is a feeling on Wall Street, certainly,
+ that companies can play a little faster and a little looser with little risk of an SEC
+ investigation. And whether one thinks this is a good thing or a bad thing,
+ it undoubtedly benefited the AI build out, as it often allowed data center developers to get
+ a little creative with their financing. The deregulatory mood came to an end earlier this year
+ across two major events. The first was Anthropics dust-up with the Pentagon,
+ and the second was a three-week fable ban. The first skirmish, which, by the way,
+ I get way more deep into, in my recent How We Got Here episode,
+ about an Anthropics journey from safety lab to world's most important company,
+ started when Anthropics tried to draw some red lines about how their technology could be used,
+ even by the military. Anthropics wanted to hold strong to the idea that their models could not be
+ used to autonomously control weapons and that they would not be used for mass surveillance of the
+ American public. On the first point, there was some amount of nuance in that Anthropics was
+ not opposed to their ever-being-autonomous weapons, but was instead arguing that the
+ models were not good enough at this point to give over that amount of trust, but the U.S.
+ military did not like having terms dictated to it. When Anthropics wouldn't back down,
+ they were eventually designated to be a supply chain risk, which was the first time a U.S.
+ company had ever been given that designation. That has remained a legal battle fighting it
+ out in the court system ever since, with the current state effectively being a split decision
+ with one court siding with Anthropics and the other siding with the U.S. military.
+ The fable ban came a few months later after Anthropics introduced Mythos and rolled it out
+ through Project Glasswing, an initiative by which they gave access only to a limited
+ number of partners in order to allow those partners to harden their security systems
+ in advance of a more general release. After they released that general version,
+ which was called Fable, Amazon's Andy Jassy reported to the White House that it could be
+ jailbroken and all hell ensued. Fable would be offline for nearly three weeks,
+ during which the U.S. government said all sorts of terrible things about Anthropics and its
+ leaders, and while the taunt in that situation was finally achieved later in the fall,
+ specifically after President Trump and Dario Amade actually sat down in person,
+ both of those two periods, the supply chain risk designation and the three week fable ban,
+ demonstrated that the U.S. government under Trump also understood AI to be more significant than
+ just another category of business. Instead, they saw that it had major implications for
+ both war fighting and cybersecurity as well. After that, certain factions of the Trump
+ administration started to exert far more control over the AI industry. The message was
+ pretty clear. AI labs had a long leash to do what they wanted to in consumer markets,
+ but do not mess with the U.S. government or its military. The eventual result of all of this was
+ the AI accords, when the president assembled a dozen AI leaders for a meeting at the White House
+ in September. Open AI, Anthropic, Google, Meta, XAI, and NVIDIA all signed an agreement to subject
+ their models to a voluntary safety testing regime before release, as well as to strengthen
+ internal safety controls. Subsequent to that, there has been relatively little reporting about
+ what happened behind closed doors of that meeting, and the safety testing regime itself is still
+ classified as a matter of national security. One might be tempted to speculate then whether the
+ administration officials also laid out the more broad rules of the road during that meeting.
+ And as all of this was happening, the AI industry grew so large that it became the
+ cornerstone of the U.S. economy. Estimates vary, but in 2025, Harvard economist Jason
+ Furman claimed that AI was responsible for 92% of GDP growth for the first half of the year.
+ Effectively, the U.S. would have been in a recession if not for AI investment.
+ In 2026, the AI industry is approaching 1% of overall GDP, and the Bureau of Economic Analysis
+ estimates it contributed 1.27% of economic growth, around two-thirds of total growth
+ across the first three quarters. In other words, under any analysis, AI is contributing to keeping
+ U.S. aggregate growth relatively strong, while many other regions of the world are struggling.
+ Importantly, however, this period also saw a shift in how the AI build-out was being financed.
+ When the hyperscalers began funding the build-out in earnest in 2025,
+ they were doing so from their free cash flow. Market actors might have been a little annoyed
+ at the beginning because it meant less money for buybacks and dividends,
+ but it was still being funded by the company's own balance sheets.
+ Now, of course, the funding is largely provided by debt, which obviously increases the risk.
+ If a cash-funded project stalls, the financier has wasted some money.
+ A project funded by debt, on the other hand, accrues interest payments,
+ puts a counterparty at risk, and could theoretically lead to contagion through defaults.
+ Debt funding also requires a lot more coordination across the economy to keep it working.
+ Fed rate hikes, investor risk appetite, and bond market fluctuations
+ can all cause funding to dry up in a hurry.
+ As recently as last week, Fed Governor Christopher Waller was calling for a 50-basis
+ point jumbo rate hike, double the usual, in order to shock the economy and drive down
+ inflation. Waller said,
+ If you really want to get it down, you've got to start taking more aggressive actions.
+ You might need to like shock people.
+ But that policy runs at direct odds with this administration's support of the AI buildout.
+ An interest rate shock risks having a dramatic effect on the buildout, in fact.
+ It could freeze credit markets and push the marginal neoclouds that are already teetering
+ over the edge. There are other risks to the financial side of the AI industry as well.
+ One that I've talked about frequently is concentration risk.
+ Basically, AI revenues are heavily concentrated.
+ Ramp data shows that 80% of open AI and anthropic revenues are coming from just 1% of their customers.
+ Now, whether this means that only those top 1% of businesses
+ are ever going to get that value from AI, or whether they are just leading early adopters,
+ and the other 99% of businesses are going to get there eventually,
+ has a lot to do with how optimistic one is about the eventual market for AI.
+ But in the short term, having all that revenue coming from just a small
+ percentage of those customers means that if those customers stopped buying,
+ it could screw up the whole party.
+ Further down the chain, there's also the fact that open AI and anthropic are the
+ anchor tenants for basically every major data center project in the country.
+ On top of that, there is the Nvidia funding machine at the center of the whole thing.
+ With the market starting to price in a significant risk of default for companies
+ like CoreWeave and Oracle, there are growing concerns that the entire
+ AI funding complex could come crashing down.
+ At the top of the funnel is revenues for open AI and anthropic,
+ and while they've been growing at a pace we haven't seen for any previous industry,
+ the growth rate appears starting to slow.
+ To some extent, this could just be scale.
+ This is all one funding ecosystem, and it's starting to get so big that it's difficult to sustain.
+ Now, this is one place the government has stepped in over the past year,
+ and could do so again if things get rocky.
+ The US government has signed AI contracts with every major provider in the US,
+ assisting them to build out classified networks for the Pentagon,
+ and provisioning AI tools across the entire bureaucracy.
+ It's not hard to imagine that if AI revenue started to slip,
+ we might see those contracts boosted.
+ Depending on your vantage point, this wouldn't necessarily read as a bailout.
+ Instead, it would be similar to the US government providing juicy contracts to other defense
+ contractors, keeping them healthy as a matter of national security.
+ I honestly wouldn't be surprised if those in the White House who supported the intervention
+ in NVIDIA viewed it in some strange way as an action which was meant to reduce
+ the risk that they had to bail out the AI industry in the future.
+ Rightly or wrongly, President Trump, JD Vance, and others were very clearly convinced
+ that NVIDIA is the lodestone company of the entire AI economy,
+ and that Jensen Huang is the lodestone of NVIDIA.
+ I don't think they got so granular to assign percentages to this,
+ but it wouldn't surprise me at all if their intuitive sense is that reinstating Jensen
+ materially decreased the odds of having to intervene in a more significant way in the
+ future, and thus was worth the risks and controversy that were going to come with it.
+ Now, it could also be standards be damned Jensen's our guy,
+ and that's all there is to it, but a little further down the chain,
+ I bet you'd get some arguments that this was a preventative strike,
+ so as not have to bail out AI companies in the future.
+ This leads us to now, with Jensen back at NVIDIA, but the AI trade far from a full recovery.
+ The problem was never just Jensen's removal.
+ Semiconductor stocks have been in a correction since the summer.
+ Data center funding has been harder and harder to come by,
+ and the Fed started hiking interest rates, slowing down the broader economy,
+ and throwing the brakes on AI investment.
+ Then the midterms came around and the Democrats won on a platform
+ that was hostile towards data centers.
+ Jensen was pushed out within two weeks, caused in part by U.S. intelligence
+ handing stories to the New York Times.
+ At some level, it looked like some portion of the U.S. government
+ thought it was a good time to discipline the AI sector if not disrupted entirely.
+ And even with Jensen returned, it's far from clear sailing.
+ Goldman Sachs has warned that up to 45% of U.S. data center capacity
+ could be delayed by moratoriums, and those moratoriums are starting to show up
+ in critical regions.
+ Last week, Loudoun County, Virginia imposed a one-year moratorium
+ on processing data center applications, impacting as many as 33 projects.
+ The home of what's known as Data Center Alley is now saying no more for now.
+ A key question moving forward will be how far the Democrats
+ are actually willing to go and what's their pain threshold.
+ As we saw this week, President Trump was willing to intervene
+ after a 10% drop at the NASDAQ.
+ Will the Democrats go further?
+ In 2008, the reason banks were bailed out wasn't corruption or grift.
+ As much as easy narratives might have it that way.
+ There was a genuine fear that the financial system would crash,
+ ATMs would stop working, and there would be chaos across the country.
+ The banks were too big to fail, not because they were big,
+ but because they were critical infrastructure for society.
+ AI, to some extent, although in very different ways,
+ has grown to play a similar role.
+ The technology is playing a major role in hardening critical systems
+ against cyber attacks, which will only grow more important in years to come.
+ We don't know exactly what's gone on with a string of failures in major systems,
+ but it seems there's been a massive nationwide campaign
+ to patch critical software over the past month.
+ That makes this moment an extremely inopportune time
+ to disrupt and distract AI companies with an industry-wide crisis.
+ So when the Dems take control of Congress in January,
+ they can and will haul gents in over the coals with a series of tough hearings.
+ They might push for more widespread data center moratoriums.
+ We could even see tough new safety regulations on frontier AI labs
+ that stunt further progress.
+ But how far can they actually go without threatening national security?
+ AI is currently being used to wage wars, protect the nation's critical infrastructure,
+ and keep the economy afloat with relentless investment.
+ There are limits to how tough Democrats can get on AI policy
+ before they start creating problems.
+ Clearly within the Trump administration,
+ there seems to be an idea that the risk of letting markets freefall
+ is a bigger national security risk than Jensen's relationship
+ with the supposed Chinese spy and the chip supply moves that followed.
+ It's not even necessarily about the stock market collapse,
+ so much as losing control of the strategic assets
+ that the AI industry now represents.
+ When push comes to shove, a sound bite grabbing as proposals
+ like Adam Schiff's no bailouts legislation is.
+ Overall, I think it's kind of political theater.
+ If the AI industry truly starts collapsing,
+ the government response won't look like the response to the financial crisis.
+ It might take many different forms.
+ Perhaps some flurry of contracts to keep it alive like a major military contractor.
+ Perhaps some sort of soft nationalization.
+ The next few weeks will be about lawmakers grilling Jensen
+ in the AI industry over the events of the past few years,
+ but eventually, if the pressure stays on and the industry continues to falter,
+ the government, whoever is in power at the time,
+ will be faced with the ultimate question.
+ When the chips are down and a too big to fail industry is failing,
+ do you really want to let it fail on your watch?
+ US political leaders haven't had the stomach for anything like that
+ in a very long time, and it's hard, frankly, to see that changing now.
+ Still, when it comes to this stuff, all bets are off and no one knows the future,
+ but for now, that's going to do it for today's AI Daily Brief.
+ Appreciate you listening or watching, as always, and until next time, peace!
